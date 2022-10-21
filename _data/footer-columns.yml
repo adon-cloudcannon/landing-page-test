@@ -1,0 +1,104 @@
+- title: Platform
+  items:
+    - title: Visual Editing
+      url: /features/visual-editing/
+      open_in_new_tab: false
+    - title: Developer workflows
+      url: /features/developer-workflows/
+      open_in_new_tab: false
+    - title: Collaborative publishing
+      url: /features/collaborative-publishing/
+      open_in_new_tab: false
+    - title: Edge hosting
+      url: /features/edge-hosting/
+      open_in_new_tab: false
+- title: Solutions
+  items:
+    - title: Partner Program
+      url: /partner-program/
+      open_in_new_tab: false
+    - title: Enterprise
+      url: /enterprise/
+      open_in_new_tab: false
+    - title: Case studies
+      url: /customers/
+      open_in_new_tab: false
+- title: Technologies
+  items:
+    - title: Jamstack
+      url: /Jamstack/
+      open_in_new_tab: false
+    - title: Jekyll
+      url: /jekyll-cms/
+      open_in_new_tab: false
+    - title: Hugo
+      url: /hugo-cms/
+    - title: 11ty
+      url: /eleventy-cms/
+      open_in_new_tab: false
+    - title: Next.js
+      url: /nextjs-cms/
+      open_in_new_tab: false
+    - title: Nuxt.js
+      url: /nuxtjs-cms/
+      open_in_new_tab: false
+    - title: SvelteKit
+      url: /sveltekit-cms/
+      open_in_new_tab: false
+    - title: Gatsby
+      url: /gatsby-cms/
+      open_in_new_tab: false
+    - title: Astro
+      url: /astro-cms/
+      open_in_new_tab: false
+    - title: MkDocs
+      url: /mkdocs-cms/
+      open_in_new_tab: false
+    - title: Git CMS
+      url: /git-cms/
+      open_in_new_tab: false
+- title: Community
+  items:
+    - title: Templates
+      url: /community/themes/
+      open_in_new_tab: false
+    - title: Tutorials
+      url: /community/learn/
+      open_in_new_tab: false
+    - title: Jamstack ecosystem
+      url: /community/jamstack-ecosystem/
+      open_in_new_tab: false
+    - title: Showcases
+      url: /blog/archived/showcase/
+      open_in_new_tab: false
+    - title: Experts program
+      url: /community/experts
+      open_in_new_tab: false
+- title: CloudCannon
+  items:
+    - title: Blog
+      url: /blog/
+      open_in_new_tab: false
+    - title: Documentation
+      url: /documentation/
+      open_in_new_tab: false
+    - title: Changelog
+      url: /changelog/
+      open_in_new_tab: false
+    - title: Support
+      url: /documentation/support/
+      open_in_new_tab: false
+- title: Company
+  items:
+    - title: Company
+      url: /company/
+      open_in_new_tab: false
+    - title: Careers
+      url: /careers/
+      open_in_new_tab: false
+    - title: Internships
+      url: /internships/
+      open_in_new_tab: false
+    - title: Contact
+      url: /contact/
+      open_in_new_tab: false

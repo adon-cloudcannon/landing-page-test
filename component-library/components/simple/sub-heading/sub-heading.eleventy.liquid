@@ -1,0 +1,8 @@
+{% assign text_size = "lg" %}
+
+{% case size %}
+{% when 'big' %}
+	{% assign text_size = "2xl" %}
+{% endcase %}
+
+<p class="text-{{ text_size }} max-w-screen-md mx-auto leading-relaxed text-gray-700 font-medium text-center">{{ text }}</h1>

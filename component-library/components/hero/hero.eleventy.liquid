@@ -1,0 +1,5 @@
+<div class="container subtle-bg">
+	{% for component in blocks %}
+		{% bookshop "{{component._bookshop_name}}" bind: component %}
+	{% endfor %}
+</div>

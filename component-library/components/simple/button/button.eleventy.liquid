@@ -1,0 +1,23 @@
+{% assign text_size = "base" %}
+{% assign py = 2 %}
+{% assign px = 3 %}
+{% case size %}
+{% when 'big' %}
+	{% assign text_size = "lg" %}
+	{% assign py = 4 %}
+	{% assign px = 6 %}
+{% endcase %}
+
+<a 
+	class="border-2 rounded-lg py-{{py}} px-{{px}} font-bold text-{{text_size}} transition
+	{% case style %}
+	{% when "outline" %}
+		text-cc border-cc hover:bg-cc hover:text-white
+	{% when "normal" %}
+		text-white bg-cc border-cc hover:bg-white hover:text-cc
+	{% endcase %}
+	{{ extra_classes }}
+	"
+	href="{{ link }}">
+		{{ text }}
+</a>

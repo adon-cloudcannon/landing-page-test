@@ -1,0 +1,155 @@
+---
+title: Home
+layout: page.html
+content_blocks:
+  - _bookshop_name: hero
+    blocks:
+      - _bookshop_name: simple/spacer
+        size: 130
+      - _bookshop_name: simple/heading
+        text: Your team. In sync.
+        size: hero
+      - _bookshop_name: simple/spacer
+        size: 35
+      - _bookshop_name: simple/sub-heading
+        text: The visual CMS that gives content teams full autonomy on your developer-approved tech stack.
+        size: big
+      - _bookshop_name: simple/button_holder
+        button_blocks:
+          - _bookshop_name: simple/button
+            text: Try for free
+            link: '/'
+            style: normal
+            size: big
+      - _bookshop_name: simple/spacer
+        size: 100
+  - _bookshop_name: video
+    placeholder_image: "/images/page/player-frame.png"
+    video: "https://player.vimeo.com/video/668496650"
+    title: "How does CloudCannon work?"
+  - _bookshop_name: sections/container
+    background: caramel
+    rounded: true
+    blocks:
+      - _bookshop_name: simple/spacer
+        size: -230
+      - _bookshop_name: simple/spacer
+        size: 260
+      - _bookshop_name: simple/logo-ticker
+        logos:
+        - logo: /images/logos/netflix.svg
+          name: Netflix
+        - logo: /images/logos/twitch.svg
+          name: Twitch
+        - logo: /images/logos/newdynamic.svg
+          name: The New Dynamic
+        - logo: /images/logos/ocupop.svg
+          name: Ocupop
+        - logo: /images/logos/papercut.svg
+          name: Papercut
+      - _bookshop_name: simple/spacer
+        size: 85
+      - _bookshop_name: simple/heading
+        text: Everyone on the same page
+        size: h2
+      - _bookshop_name: simple/spacer
+        size: 25
+      - _bookshop_name: simple/sub-heading
+        text: Developers push changes directly to Git. Editors build pages visually using custom components. Your teams stay in sync with a unified workflow.
+      - _bookshop_name: simple/spacer
+        size: 150
+      - _bookshop_name: sections/two-column
+        middle_logo: true
+        style: 'split'
+        split_border: true
+        left:
+          blocks:
+            - _bookshop_name: simple/image
+              alt: "developer workflow"
+              image: /images/page/developer.png
+        right:
+          blocks:
+            - _bookshop_name: simple/image
+              alt: "marketer workflow"
+              image: /images/page/marketer.png
+              scale: 1.15
+              margin:
+                top: 28
+                left: 20
+                bottom:
+                right:
+  - _bookshop_name: simple/spacer
+    size: 125
+  - _bookshop_name: sections/container
+    background: 
+    rounded: true
+    blocks:
+      - _bookshop_name: sections/two-column
+        middle_logo: 
+        style: 'fixed-fluid'
+        width: 450
+        split_border: false
+        left:
+          blocks:
+            - _bookshop_name: simple/emoji-heading
+              emoji: 👋
+              sub_title: Content editors
+              title: Publish without bugging a developer
+            - _bookshop_name: simple/text-block
+              text_html: "<ul><li>Build pages visually with your on brand custom components</li><li>Share and review changes on a fully functioning preview site</li><li>Publish content live with the push of a button</li></ul>"
+        right:
+          blocks:
+            - _bookshop_name: helpers/vimeo
+              video: https://player.vimeo.com/video/760400768?h=d0b23c3968
+              title: CMS editing video
+              autoplay: true
+              transform: 
+                scale: 1.1
+                translate_x: 100
+                translate_y: 
+  - _bookshop_name: simple/spacer
+    size: 125
+  - _bookshop_name: sections/container
+    background: sky
+    rounded: true
+    blocks:
+      - _bookshop_name: simple/spacer
+        size: 118
+      - _bookshop_name: sections/box
+        blocks:
+          - _bookshop_name: simple/spacer
+            size: 195
+          - _bookshop_name: simple/emoji-heading
+            emoji: 👋
+            sub_title: Developers
+            title: Your code. Your components.
+            center_text: true
+          - _bookshop_name: simple/text-block
+            text_html: "<p>Focus on building custom components rather than hand holding editors through content changes. Build locally with your favorite tools and frameworks, then sync changes to content editors with a Git push.</p>"
+            center_text: true
+          - _bookshop_name: simple/spacer
+            size: 125
+        pizazz:
+          - _bookshop_name: simple/logo-shape
+            image: '/images/logos/ssgs/hugo.svg'
+            top: 0
+            left: 33
+            rotate: -9
+            shift:
+              x: 28
+              y: 20
+          - _bookshop_name: simple/logo-shape
+            image: '/images/logos/ssgs/jekyll.svg'
+            top: 10
+            left: 5
+            rotate: -14
+            shift:
+              x: 16
+              y: 28
+      - _bookshop_name: simple/spacer
+        size: 125
+
+
+---
+
+{% bookshop_include "page" content_blocks: content_blocks %}

@@ -1,0 +1,16 @@
+{% assign classes = "prose prose-lg prose-ul:list-outside prose-li:marker:text-black mx-auto " %}
+
+{% if center_text %}
+	{% assign classes = classes | append: " text-center" %}
+{% endif %}
+
+{% case width %}
+{% when "md" %}
+	{% assign classes = classes | append: " max-w-screen-md" %}
+{% else %}
+	{% assign classes = classes | append: " max-w-none" %}
+{% endcase %}
+
+<div class="{{ classes }}">
+	{{ text_html }}
+</div>

@@ -1,0 +1,15 @@
+{% assign el = "h4" %}
+
+{% case size %}
+{% when 'hero' %}
+	{% assign el = "h1" %}
+	{% assign cl = "text-7xl" %}
+{% when 'h2' %}
+	{% assign el = "h2" %}
+	{% assign cl = "text-5xl" %}
+{% when 'h3' %}
+	{% assign el = "h3" %}
+	{% assign cl = "text-lg" %}
+{% endcase %}
+
+<{{ el }} class="{{ cl }} max-w-screen-md mx-auto font-bold text-center">{{ text }}</{{ el }}>

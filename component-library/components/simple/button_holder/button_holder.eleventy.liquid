@@ -1,0 +1,5 @@
+<div class="mt-16 text-center">
+	{% for component in button_blocks %}
+		{% bookshop "{{component._bookshop_name}}" bind: component %}
+	{% endfor %}
+</div>

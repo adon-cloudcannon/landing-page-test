@@ -1,0 +1,43 @@
+<div class="container">
+	<div class="max-w-screen-xl mx-auto relative">
+		<div
+			x-init="loadScript('https://player.vimeo.com/api/player.js')"
+			x-data="
+				{ 
+					'showModal': false, 
+					hide() { 
+						this.showModal = false; 
+						this.player().pause(); 
+					}, 
+					show() { 
+						this.showModal = true;
+						this.player().play(); 
+					},
+					player() {
+						return new Vimeo.Player($refs.video);
+					},
+					loadScript(url) {
+						let script;
+						const scripts = Array.from(document.querySelectorAll('script'));
+						const existingScript = scripts.find((script) => script.src === url);
+						if (!existingScript) {
+							script = document.createElement('script');
+							script.type = 'text/javascript';
+							script.src = url;
+							document.getElementsByTagName('head')[0].appendChild(script);
+						}
+					}
+				}"
+			@keydown.escape="showModal = false">
+
+			<a @click="show()" class="w-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 inline-block">
+				<div class="rounded-full bg-yellow-300 text-center border-black border-2 p-6 hover:scale-110 transition">
+					{{ '/images/icons/outline/play.svg' | svgContents }}
+				</div>
+			</a>
+			<img src="{{ placeholder_image }}" alt="{{ title }}">
+
+			{% bookshop "helpers/video-modal" video:video, title=:title %}
+		</div>
+	</div>
+</div>

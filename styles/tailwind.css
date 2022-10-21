@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+	@apply cursor-pointer;
+}
+
+.caret::before {
+	z-index: 1;
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #fff;
+	position: absolute;
+	left: 45%;
+	bottom: -24px;
+}
+
+.subtle-bg {
+	background: radial-gradient(
+		circle at top center, 
+		rgba(255,250,209,0.5) 0%, 
+		rgba(255,250,209,0.5) 20%, 
+		rgba(184,255,251,0.3) 45%, 
+		rgba(184,255,251,0) 50%
+	);
+}

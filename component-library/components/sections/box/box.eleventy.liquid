@@ -1,0 +1,8 @@
+<div class="relative">
+	{% for component in blocks %}
+		{% bookshop "{{component._bookshop_name}}" bind: component %}
+	{% endfor %}
+	{% for component in pizazz %}
+		{% bookshop "{{component._bookshop_name}}" bind: component %}
+	{% endfor %}
+</div>

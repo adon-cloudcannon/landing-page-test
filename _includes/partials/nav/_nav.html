@@ -1,0 +1,23 @@
+<header class="md:container mt-8 mb-2 flex">
+	<div class="flex-1">
+		<a href="/" class="w-56 block">
+			{{ '/images/cc-logo.svg' | svgContents }}
+		</a>
+	</div>
+
+	<nav>
+		{% for item in nav %}
+			{% include 'partials/nav/_nav_item.html' item:item %}
+		{% endfor %}
+	</nav>
+	<div class="ml-4 -mt-2 inline-block">
+		<a href="" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
+			{{ '/images/icons/outline/magnifying-glass.svg' | svgContents }}
+		</a>
+	</div>
+	<div class="ml-3">
+		{% bookshop "simple/button" bind: buttons.login %}
+		{% bookshop "simple/button" bind: buttons.signup %}
+	</div>
+	
+</header>

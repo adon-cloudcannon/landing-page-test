@@ -1,0 +1,23 @@
+<div class="flex">
+	{% for links in footer-columns %}
+		<div class="flex-1 mt-10">
+			<div class="font-bold mb-3">{{ links.title }}</div>
+			<ul class="">
+				{% for item in links.items %}
+				<li class="mt-2">
+					<a
+						href="{{ item.url }}"
+						class="hover:text-gray-800 text-gray-400"
+						{% if item.open_in_new_tab %}
+							target="_blank"
+							rel="noopener"
+						{% endif %}
+						>
+						{{ item.title }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	{% endfor %}
+</div>

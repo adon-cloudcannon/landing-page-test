@@ -1,0 +1,20 @@
+<div class="
+	{% case background %}
+	{% when 'solar' %}
+		subtle-bg
+	{% when 'caramel' %}
+		bg-caramel
+	{% when 'sky' %}
+		bg-sky
+	{% endcase %}
+
+	{% if rounded %}
+		rounded-t-[40px]
+	{% endif %}
+">
+	<div class="container relative">
+		{% for component in blocks %}
+			{% bookshop "{{component._bookshop_name}}" bind: component %}
+		{% endfor %}
+	</div>
+</div>

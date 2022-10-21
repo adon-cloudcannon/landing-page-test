@@ -1,0 +1,9 @@
+{% assign classes = "" %}
+
+{% if center_text %}
+	{% assign classes = classes | append: " text-center" %}
+{% endif %}
+
+<p class="text-4xl {{ classes }}">{{ emoji }}</p>
+<p class="mt-3 mb-1 font-medium tracking-widest uppercase text-cc {{ classes }}">{{ sub_title }}</p>
+<h3 class="font-bold text-4xl mb-9 {{ classes }}">{{ title }}</h3>

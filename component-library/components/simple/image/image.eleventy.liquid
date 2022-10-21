@@ -1,0 +1,23 @@
+{% assign classes = "" %}
+
+{% if scale %}
+	{% assign classes = classes | append: " scale-[" | append: scale | append: "]" %}
+{% endif %}
+
+{% if margin.top %}
+	{% assign classes = classes | append: " mt-[" | append: margin.top | append: "px]" %}
+{% endif %}
+
+{% if margin.left %}
+	{% assign classes = classes | append: " ml-[" | append: margin.left | append: "px]" %}
+{% endif %}
+
+{% if margin.bottom %}
+	{% assign classes = classes | append: " mb-[" | append: margin.bottom | append: "px]" %}
+{% endif %}
+
+{% if margin.right %}
+	{% assign classes = classes | append: " mr-[" | append: margin.right | append: "px]" %}
+{% endif %}
+
+<img src="{{ image }}" alt="{{ alt }}" class="{{ classes }}">

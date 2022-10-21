@@ -1,0 +1,9 @@
+login:
+  text: Log in
+  link: /
+  style: outline
+signup:
+  text: Get started
+  link: /
+  style: normal
+  extra_classes: "ml-1"

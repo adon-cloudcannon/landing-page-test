@@ -1,0 +1,7 @@
+<div class="flex py-5 justify-center">
+	{% for item in logos %}
+		<a class="hover:scale-110 transition max-w-[20%]" href="{{ item.link }}">
+			{{ item.logo | svgContents }}
+		</a>
+	{% endfor %}
+</div>
