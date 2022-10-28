@@ -1,0 +1,72 @@
+  - name: Features
+    sub_navs:
+      - title:
+        sub_nav:
+          - name: Visual Editing
+            link: ''
+            description: "Intutive editing for your content team"
+            icon: 'pencil'
+          - name: Review and Publishing
+            link: ''
+            description: "Work together, faster"
+            icon: 'command-line'
+          - name: Website Hosting
+            link: ''
+            icon: 'cloud'
+            description: "Host the fastest websites"
+  - name: Solutions
+    sub_navs:
+      - title:
+        sub_nav:
+          - name: Case studies
+            link: ''
+            description: "Why companies choose CloudCannon"
+            icon: 'briefcase'
+          - name: Enterprise
+            link: ''
+            description: "Deliver your digital experience"
+            icon: 'building-office'
+          - name: Partner Program
+            link: ''
+            description: "Offer your clients the best editing"
+            icon: 'sparkles'
+  - name: Resources
+    sub_navs:
+        - title: CloudCannon
+          sub_nav:
+          - name: Blog
+            link: ''
+            description: "The latest at CloudCannon"
+            icon: 'document-text'
+          - name: Documentation
+            link: ''
+            description: "Learn CloudCannon"
+            icon: 'code-bracket-square'
+          - name: Changelog
+            link: ''
+            description: "The latest updates"
+            icon: 'square-2-stack'
+          - name: Support
+            link: ''
+            description: "Get help"
+            icon: 'chat-bubble-left-right'
+        - title: Community
+          sub_nav:
+            - name: Events
+              link: ''
+              description: "Sharing the knowledge"
+              icon: 'microphone'
+            - name: Templates
+              link: ''
+              description: "Learn CloudCannon"
+              icon: 'puzzle-piece'
+            - name: Tutorials
+              link: ''
+              description: "Learn Jamstack"
+              icon: 'academic-cap'
+            - name: Jamstack ecosystem
+              link: '/ecosystem/'
+              description: "Get help"
+              icon: 'gift'
+  - name: Pricing
+    link: '/pricing/'

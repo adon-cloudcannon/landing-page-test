@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "clean": "del _site",
-    "dev:styles": "npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --watch",
-    "dev:scripts": "esbuild main.js --bundle --watch --outfile=_site/js/main.js",
-    "dev:11ty": "eleventy --serve --watch",
+    "clean": "cd ./src/ && del _site",
+    "dev:styles": "cd ./src/ && npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --watch",
+    "dev:scripts": "cd ./src/ && esbuild main.js --bundle --watch --outfile=_site/js/main.js",
+    "dev:11ty": "cd ./src/ && eleventy --serve --watch",
     "start": "run-p dev:*",
-    "build:styles": "NODE_ENV=production npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --minify",
-    "build:scripts": "esbuild main.js --bundle --minify --outfile=_site/js/main.js",
-    "build:11ty": "ELEVENTY_PRODUCTION=true eleventy",
+    "build:styles": "cd ./src/ && NODE_ENV=production npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --minify",
+    "build:scripts": "cd ./src/ && esbuild main.js --bundle --minify --outfile=_site/js/main.js",
+    "build:11ty": "cd ./src/ && ELEVENTY_PRODUCTION=true eleventy",
     "build": "run-s clean build:*"
   },
   "devDependencies": {
@@ -15,6 +15,7 @@
     "@alpinejs/intersect": "^3.10.4",
     "@tailwindcss/typography": "^0.5.7",
     "alpinejs": "^3.10.4",
+    "csvtojson": "^2.0.10",
     "del-cli": "^5.0.0",
     "eleventy-plugin-svg-contents": "^0.7.0",
     "esbuild": "^0.15.10",

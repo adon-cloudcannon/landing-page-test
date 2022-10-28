@@ -1,4 +1,4 @@
-{% assign classes = "prose prose-lg prose-ul:list-outside prose-li:marker:text-black mx-auto " %}
+{% assign classes = "prose prose-lg prose-ul:list-outside prose-li:font-medium prose-p:font-medium prose-li:marker:text-black mx-auto " %}
 
 {% if center_text %}
 	{% assign classes = classes | append: " text-center" %}
@@ -11,6 +11,17 @@
 	{% assign classes = classes | append: " max-w-none" %}
 {% endcase %}
 
+{% case color %}
+	{% when 'white' %}
+		{% assign classes = classes | append: " text-white" %}
+	{% when 'gray' %}
+		{% assign classes = classes | append: " text-gray-200" %}
+{% endcase %}
+
+{% case size %}
+	{% when 'big' %}
+		{% assign classes = classes | append: " text-2xl" %}
+	{% endcase %}
 <div class="{{ classes }}">
 	{{ text_html }}
 </div>

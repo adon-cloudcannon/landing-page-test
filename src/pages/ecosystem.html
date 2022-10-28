@@ -1,0 +1,42 @@
+---
+title: Ecosystem
+layout: builder.html
+permalink: /ecosystem/
+content_blocks:
+  - _bookshop_name: hero
+    blocks:
+      - _bookshop_name: simple/spacer
+        size: 130
+      - _bookshop_name: simple/heading
+        text: Jamstack Ecosystem
+        size: hero
+      - _bookshop_name: simple/spacer
+        size: 35
+      - _bookshop_name: simple/sub-heading
+        text: Research the best tooling for your next Jamstack website.
+        size: big
+      - _bookshop_name: simple/spacer
+        size: 80
+---
+
+<div class="container">
+	<div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28">
+		{% for item in collections.ecosystem %}
+			<a class="group relative transition duration-500 flex-1 h-[180px] block p-4 border border-gray-300 rounded-xl bg-white hover:border-cc hover:drop-shadow-xl" 
+					href="{{ item.url }}">
+				<h3 class="text-2xl font-bold mb-4">
+					<span class="w-6 inline-block relative top-[3px] [&>svg]:w-full">{{ '/images/icons/outline/' | append: item.data.icon | append: '.svg' | svgContents }}</span>
+					{{ item.data.short_title }}
+				</h3>
+				<p class="text-xl text-gray-500">{{ item.data.short_description }}</p>
+
+				<p class="absolute bottom-[7px] text-lg font-bold text-cc">
+					Explore
+					<span class="inline-block w-4 relative top-[3px] ml-[2px] group-hover:translate-x-1 transition">
+						{{ '/images/icons/outline/arrow-right.svg' | svgContents }}
+					</span>
+				</p>
+			</a>
+		{% endfor %}
+	</div>
+</div>

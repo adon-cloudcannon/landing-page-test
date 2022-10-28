@@ -13,6 +13,10 @@
 	{% case style %}
 	{% when "outline" %}
 		text-cc border-cc hover:bg-cc hover:text-white
+	{% when "outline-white" %}
+		text-white border-white
+	{% when "white" %}
+		text-cc bg-white
 	{% when "normal" %}
 		text-white bg-cc border-cc hover:bg-white hover:text-cc
 	{% endcase %}

@@ -1,0 +1,14 @@
+<ul class="flex">
+	{% for item in footer-socials %}
+		<li>
+			{% assign icon_path = '/images/icons/social/' | append: item.icon | append: '.svg' %}
+			<a class="w-5 ml-3 fill-gray-400 hover:fill-gray-800 inline-block transition" href="{{ item.url }}" 
+			{% if item.open_in_new_tab %}
+				target="_blank"
+				rel="noopener"
+			{% endif %}>
+				{{ icon_path | svgContents }}
+			</a>
+		</li>
+	{% endfor %}
+</ul>

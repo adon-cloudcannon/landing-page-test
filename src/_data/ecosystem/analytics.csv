@@ -1,0 +1,16 @@
+Name,Date,Heatmaps,A/B testing,API,GDPR compliant,Hosted,Self hosted,Data export,Free option
+Amplitude,1,0,0,0,0,1,0,0,1
+Clarity,1,1,0,0,1,1,0,0,1
+Clicky,1,0,0,1,0,1,0,1,0
+Crazy Egg,0,1,1,0,1,1,0,1,0
+Gauges,1,0,0,1,1,1,0,0,0
+GoatCounter,0,0,0,1,1,1,1,1,1
+Google Analytics,1,0,0,1,0,1,0,0,1
+Heap,1,0,0,0,1,1,0,0,1
+Hotjar,0,1,0,0,1,1,0,0,1
+Kissmetrics,0,0,1,0,0,1,0,1,0
+Matomo,0,1,0,1,1,1,1,1,1
+Mix Panel,0,0,1,0,1,1,1,1,1
+Simple Analytics,0,0,0,1,1,1,0,1,0
+Splitbee,0,0,1,0,1,1,0,0,1
+Usertrack,0,1,1,1,1,0,1,1,0

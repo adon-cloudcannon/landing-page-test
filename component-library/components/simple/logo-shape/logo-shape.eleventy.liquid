@@ -1,9 +1,65 @@
 <div class="
- inline-block h-20 absolute top-[{{ top }}%] left-[{{ left }}%] rotate-[{{ rotate }}deg]
-before:w-24 before:bg-white/20 before:h-24 before:block before:h-full before:w-full
-before:rounded-lg before:border-white before:border before:border-dashed before:absolute">
-	<div class="bg-white drop-shadow-2xl py-4 px-8 rounded-lg relative h-full 
-		translate-x-[{{ shift.x }}px] translate-y-[{{ shift.y }}px] [&>svg]:h-full [&>svg]:w-full">
-		{{ '/images/logos/ssgs/jekyll.svg' | svgContents }}
+	{% if left %}
+		left-[{{ left }}%]
+	{% elsif right %}
+		right-[{{ right }}%]
+	{% endif %}
+
+	{% case shape %}
+	{% when 'circle' %}
+		before:rounded-full
+		w-[110px]
+		h-[110px]
+	{% else %}
+		before:rounded-lg
+		h-[80px]
+	{% endcase %}
+	inline-block  absolute top-[{{ top }}%]  rotate-[{{ rotate }}deg]
+	before:w-24 before:bg-white/20 before:h-24 before:block before:h-full before:w-full
+	before:border-white before:border before:border-dashed before:absolute">
+	<div class="
+		{% case shape %}
+		{% when 'circle' %}
+			rounded-full
+		{% else %}
+			rounded-lg
+		{% endcase %}
+
+		{% if logo.padding %}
+			{% if logo.padding.y %}
+				py-[{{ logo.padding.y }}px]
+			{% else %}
+				py-4
+			{% endif %}
+
+			{% if logo.padding.x %}
+				px-[{{ logo.padding.x }}px]
+			{% else %}
+				px-2
+			{% endif %}
+		{% else %}
+			py-4 px-2
+		{% endif %}
+
+		{% if logo.height %}
+			[&>svg]:h-[{{ logo.height }}%]
+		{% endif %}
+
+		{% if logo.translate.y %}
+			[&>svg]:translate-y-[{{ logo.translate.y }}px]
+		{% endif %}
+
+		{% if logo.scale %}
+			[&>svg]:scale-[{{ logo.scale }}]
+		{% endif %}
+
+		bg-white drop-shadow-2xl relative h-full flex items-center
+		translate-x-[{{ shift.x }}px] translate-y-[{{ shift.y }}px] 
+		[&>svg]:h-full [&>svg]:w-full">
+		{% assign image = logo.image %}
+		{% unless image %}
+			{% assign image = '/images/logos/netflix.svg' %}
+		{% endunless %}
+		{{ image | svgContents }}
 	</div>
 </div>

@@ -1,5 +1,7 @@
-<div class="mt-16 text-center">
+<div class="mt-16 flex justify-center">
 	{% for component in button_blocks %}
-		{% bookshop "{{component._bookshop_name}}" bind: component %}
+		<div class="mr-3 last:mr-0">
+			{% bookshop "{{component._bookshop_name}}" bind: component %}
+		</div>
 	{% endfor %}
 </div>

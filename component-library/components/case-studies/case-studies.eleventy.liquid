@@ -1,0 +1,31 @@
+<div class="flex space-x-4">
+	{% for i in (1..3) %}
+		<a class="group transition duration-500 flex-auto h-[500px] block p-4 relative border border-white rounded-xl bg-white hover:border-cc hover:drop-shadow-2xl" href="">
+			<div class="flex border-b border-gray-300 pb-4">
+				<div class="grow flex">
+					<img src="https://stevensegallery.com/88/88" class="rounded-full h-12 w-12 mr-3">
+					<div class="grow">
+						<div class="font-bold">Jason Adkin</div>
+						<div class="text-gray-500">Head of product</div>
+					</div>
+				</div>
+				<div class="[&>svg]:max-h-6 [&>svg]:w-full flex items-center justify-end">
+					{{ '/images/logos/twitch.svg' | svgContents }}
+				</div>
+			</div>
+
+			<div class="my-4">
+				<img src="https://stevensegallery.com/676/450" class="rounded-xl">
+			</div>
+			<div class="text-2xl font-bold">
+				Delivering sites to Twitch's 30 million daily active users 
+			</div>
+			<div class="font-bold absolute bottom-5 group-hover:text-cc transition">
+				Read the case study 
+					<span class="inline-block w-4 relative top-[3px] ml-1 group-hover:translate-x-1 transition">
+						{{ '/images/icons/outline/arrow-right.svg' | svgContents }}
+					</span>
+			</div>
+		</a>
+	{% endfor %}
+</div>

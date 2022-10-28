@@ -1,15 +1,19 @@
 {% assign el = "h4" %}
-
+{% assign classes = "" %}
 {% case size %}
 {% when 'hero' %}
 	{% assign el = "h1" %}
-	{% assign cl = "text-7xl" %}
+	{% assign classes = classes | append: " text-7xl" %}
 {% when 'h2' %}
 	{% assign el = "h2" %}
-	{% assign cl = "text-5xl" %}
+	{% assign classes = classes | append: " text-5xl" %}
 {% when 'h3' %}
 	{% assign el = "h3" %}
-	{% assign cl = "text-lg" %}
+	{% assign classes = classes | append: " text-lg" %}
 {% endcase %}
 
-<{{ el }} class="{{ cl }} max-w-screen-md mx-auto font-bold text-center">{{ text }}</{{ el }}>
+{% case color %}
+{% when 'white' %}
+	{% assign classes = classes | append: " text-white" %}
+{% endcase %}
+<{{ el }} class="{{ classes }} max-w-screen-md mx-auto font-bold text-center">{{ text }}</{{ el }}>

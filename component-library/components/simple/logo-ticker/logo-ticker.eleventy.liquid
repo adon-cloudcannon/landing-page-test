@@ -1,6 +1,49 @@
-<div class="flex py-5 justify-center">
+<div class="flex py-5 justify-between">
 	{% for item in logos %}
-		<a class="hover:scale-110 transition max-w-[20%]" href="{{ item.link }}">
+		{% assign classes = "" %}
+		{% if item.position %}
+			{% assign classes = classes | append: " relative" %}
+			{% if item.position.top %}
+				{% assign position_prefix = "" %}
+				{% if item.position.top < 0 %}
+					{% assign position_prefix = "-" %}
+				{% endif %}
+				{% assign px = item.position.top | abs %}
+
+				{% assign classes = classes | append: " " | append: position_prefix | append: "top-[" | append: px | append: "px]" %}
+			{% endif %}
+
+			{% if item.position.left %}
+				{% assign position_prefix = "" %}
+				{% if item.position.left < 0 %}
+					{% assign position_prefix = "-" %}
+				{% endif %}
+				{% assign px = item.position.left | abs %}
+
+				{% assign classes = classes | append: " " | append: position_prefix | append: "left-[" | append: px | append: "px]" %}
+			{% endif %}
+
+			{% if item.position.bottom %}
+				{% assign position_prefix = "" %}
+				{% if item.position.bottom < 0 %}
+					{% assign position_prefix = "-" %}
+				{% endif %}
+				{% assign px = item.position.bottom | abs %}
+
+				{% assign classes = classes | append: " " | append: position_prefix | append: "bottom-[" | append: px | append: "px]" %}
+			{% endif %}
+
+			{% if item.position.right %}
+				{% assign position_prefix = "" %}
+				{% if item.position.right < 0 %}
+					{% assign position_prefix = "-" %}
+				{% endif %}
+				{% assign px = item.position.right | abs %}
+
+				{% assign classes = classes | append: " " | append: position_prefix | append: "right-[" | append: px | append: "px]" %}
+			{% endif %}
+		{% endif %}
+		<a class="hover:scale-110 transition {{ classes }}" href="{{ item.link }}">
 			{{ item.logo | svgContents }}
 		</a>
 	{% endfor %}
