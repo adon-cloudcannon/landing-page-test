@@ -1,36 +1,61 @@
 ---
 layout: builder.html
+eleventyComputed:
+  content_blocks:
+    - _bookshop_name: hero
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 130
+        - _bookshop_name: simple/heading
+          text: "{{ short_title }}"
+          size: hero
+        - _bookshop_name: simple/spacer
+          size: 35
+        - _bookshop_name: simple/sub-heading
+          text: "{{ description }}"
+          size: big
+        - _bookshop_name: simple/spacer
+          size: 80
 ---
 {{ content }}
 
-dsf
-
-<div class="container">
-	<table class="w-full">
-		<thead>
-			<tr>
-				{% for head in ecosystem['analytics'][0] %}
-					<th class="first:text-left">{{ head[0] }}</th>
-				{% endfor %}
-			</tr>
-		</thead>
-		<tbody>
-			{% for row in ecosystem['analytics'] %}
-				<tr>
-					{% for item in row %}
-						<td class="first:font-bold first:text-left text-center">
-							{% assign c = item[1] | strip %}
-							{% if c == '0' or c == '1' %}
-								{% if c == '1' %}
-									<span class="w-5 inline-block flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-green-700">{{ '/images/icons/outline/check.svg' | svgContents }}</span>
-								{% endif %}
-							{% else %}
-								{{ c }}
-							{% endif %}
-						</td>
-					{% endfor %}
-				</tr>
-			{% endfor %}
-		</tbody>
-	</table>
+<div class="container mb-24">
+  <table class="w-full">
+    <thead>
+      <tr class="border-b-2">
+        {% assign file = ecosystem[data] %}    
+        {% for head in file[0] %}
+          {% if head[0] == "URL" %}
+            {% continue %}
+          {% endif %}
+          <th class="first:text-left px-3 py-2">{{ head[0] }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in file %}
+        <tr class="border-b hover:bg-slate-50">
+          {% for item in row %}
+            {% if item[0] == "URL" %}
+              {% continue %}
+            {% endif %}
+            <td class="first:font-bold first:text-left text-center px-3 py-2">
+              {% assign c = item[1] | strip %}
+              {% if c == '0' or c == '1' %}
+                {% if c == '1' %}
+                  <span class="w-5 flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-green-700">{{ '/images/icons/outline/check.svg' | svgContents }}</span>
+                {% endif %}
+              {% else %}
+                {% if item[0] == 'Name' %}
+                  <a href="{{ row.URL }}" rel="noopener noreferrer" target="_blank" class="text-cc hover:underline">{{ c }}</a>
+                {% else %}
+                  {{ c }}
+                {% endif %}
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>

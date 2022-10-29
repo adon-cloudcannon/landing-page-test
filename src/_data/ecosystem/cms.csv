@@ -1,0 +1,16 @@
+Name,URL,Git-based,API-based,GDPR compliant,Open source,Visual Editing,Component-based Editing,Free option,Localization
+Amplience,https://amplience.com/jamstack-cms/,0,1,0,0,0,1,0,1
+CloudCannon,https://cloudcannon.com/,1,0,1,0,1,1,1,1
+Contentful,https://www.contentful.com/resources/static-sites/,0,1,1,0,0,1,1,1
+DatoCMS,https://www.datocms.com/,0,1,1,0,0,1,1,1
+Forestry,https://forestry.io/,1,1,0,0,,1,1,0
+GraphCMS,https://graphcms.com/,0,1,1,0,0,1,1,1
+Kontent,https://kontent.ai/,0,1,1,0,1,1,1,1
+Netlify CMS,https://www.netlifycms.org/,1,0,0,1,0,0,1,0
+Prismic,https://prismic.io/,0,1,0,0,0,1,1,1
+Publii,https://getpublii.com/,0,1,1,1,0,0,1,0
+Sanity,https://www.sanity.io/,0,1,1,1,0,1,1,
+Siteleaf,https://www.siteleaf.com/,1,0,1,0,0,0,1,1
+Statamic,https://statamic.com/,1,1,1,1,,1,1,1
+Strapi,https://strapi.io/solutions/static-websites,0,1,1,1,0,1,1,1
+Tina CMS,https://tina.io/,1,1,0,1,1,1,1,0

@@ -1,0 +1,13 @@
+Name,URL,Language,Incremental regeneration,Open source,First released
+11ty,https://www.11ty.dev/,Javascript,0,1,2017
+Gatsby,https://www.gatsbyjs.com/,React,1,1,2017
+Gridsome,https://gridsome.org/,Vue,0,1,2018
+Hexo,https://hexo.io/,0de,1,1,2019
+Hugo,https://gohugo.io/,Golang,0,1,2013
+Jekyll,https://jekyllrb.com/,Ruby,1,1,2013
+Next.js,https://nextjs.org/,React,1,1,2016
+Nuxt.js,https://nuxtjs.org/,Vue,1,1,2021
+Sapper,https://sapper.svelte.dev/,Svelte,0,1,2021
+Sphinx,https://www.sphinx-doc.org/en/master/,Python,1,1,2010
+Tome,https://tome.fyi/,Drupal,1,1,2018
+VuePress,https://vuepress.vuejs.org/,Vue,0,1,2019

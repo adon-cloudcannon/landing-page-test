@@ -5,9 +5,5 @@ icon: chat-bubble-left
 description: Compare comment and community management tools for Jamstack static sites.
 short_description: Enable conversations on your Jamstack static site.
 data: commenting
-card:
-  link_content: See all commenting solutions
-  icon_alt: Two conversation bubbles
-content_blocks:
 ---
 

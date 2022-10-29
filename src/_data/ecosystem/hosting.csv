@@ -1,0 +1,18 @@
+Name,URL,Password protection,SSL cert,Source control integration,Preview URL,Analytics,Serverless functions,Free option
+Amazon S3,https://aws.amazon.com/s3/,0,1,0,1,0,0,0
+Azure Static Apps,https://azure.microsoft.com/en-us/services/app-service/static/,1,1,1,1,0,1,1
+CloudCannon,https://cloudcannon.com,1,1,1,1,1,0,1
+Cloudflare Pages,https://pages.cloudflare.com/,0,1,1,1,1,0,1
+Firebase,https://firebase.google.com/docs/hosting,0,1,1,1,0,1,1
+Forge,https://getforge.com/,0,0,1,1,0,0,1
+Gatsby,https://www.gatsbyjs.com/products/cloud/hosting/,0,1,1,0,0,0,1
+GitHub Pages,https://pages.github.com/,0,1,1,0,0,0,1
+GitLab Pages,https://about.gitlab.com/stages-devops-lifecycle/pages/,1,1,1,0,0,0,1
+Google Cloud,https://cloud.google.com/storage/docs/hosting-static-website,0,1,0,0,0,0,0
+Heroku,https://www.heroku.com/,1,1,1,1,1,0,1
+Layer0,https://www.layer0.co/,1,1,1,1,1,1,1
+Netlify,https://www.netlify.com/,1,1,1,1,1,1,1
+Render,https://render.com/,0,1,1,1,0,0,1
+Surge,https://surge.sh/,1,1,0,1,0,0,1
+Tiiny.host,https://tiiny.host/,1,1,0,0,0,0,1
+Vercel,https://vercel.com/pricing,1,1,1,1,1,1,1
