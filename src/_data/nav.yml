@@ -35,7 +35,7 @@
         - title: CloudCannon
           sub_nav:
           - name: Blog
-            link: ''
+            link: '/blog/'
             description: "The latest at CloudCannon"
             icon: 'document-text'
           - name: Documentation

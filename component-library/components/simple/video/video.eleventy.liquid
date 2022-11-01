@@ -1,12 +1,3 @@
-{% if autoplay %}
-	{% if video contains '?' %}
-		{% assign video = video | append: '&' %}
-	{% else %}
-		{% assign video = video | append: '?' %}
-	{% endif %}
-
-	{% assign video = video | append: 'muted=1&background=1&loop=1&autopause=0&autoplay=1' %}
-{% endif %}
 
 {% assign classes = "" %}
 
@@ -41,16 +32,15 @@
 	{% assign classes = classes | append: " mr-[" | append: margin.right | append: "px]" %}
 {% endif %}
 
+<video 
+{% if autoplay %}
+	autoplay muted
+{% endif %} 
 
-
-<iframe
-	class="{{ classes }}"
-	x-ref="video"
-	style="position:absolute;top:0;left:0;width:100%;height:100%;"
-	x-bind:src="renderIframe ? '{{ video }}': null"
-	allow="autoplay; fullscreen; picture-in-picture" 
-	allowfullscreen="" 
-	title="{{ title }}" 
-	data-ready="true"
-	loading="lazy"
-	frameborder="0"></iframe>
+{% if loop %}
+	loop
+{% endif %}
+class="{{ classes }}"
+title="{{ title }}">
+	<source src="{{ url }}" type="video/mp4">
+</video>
