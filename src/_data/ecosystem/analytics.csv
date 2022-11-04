@@ -1,20 +1,20 @@
-Name,URL,Web Analytics,Heatmaps,A/B testing,GDPR compliant,Hosted,Self hosted,Data export,Free option
-Amplitude,https://amplitude.com/,1,0,0,0,1,0,0,1
-Clarity,https://clarity.microsoft.com/,0,1,0,1,1,0,0,1
-Clicky,https://clicky.com/,1,0,0,0,1,0,1,0
-Crazy Egg,https://www.crazyegg.com/,0,1,1,1,1,0,1,0
-Fathom,https://usefathom.com/,1,0,0,1,1,0,1,0
-Gauges,https://get.gaug.es/,1,0,0,1,1,0,0,0
-GoatCounter,https://www.goatcounter.com,1,0,0,1,1,1,1,1
-Google Analytics,https://analytics.google.com/analytics/web/,1,0,0,0,1,0,0,1
-Heap,https://heap.io/,1,0,0,1,1,0,0,1
-Hotjar,https://www.hotjar.com/,0,1,0,1,1,0,0,1
-Kissmetrics,https://www.kissmetrics.io/,0,0,1,0,1,0,1,0
-Matomo,https://matomo.org/,1,1,0,1,1,1,1,1
-Mix Panel,https://mixpanel.com/,0,0,1,1,1,1,1,1
-Plausible,https://plausible.io/,1,0,0,1,1,0,1,0
-Simple Analytics,https://www.simpleanalytics.com/,1,0,0,1,1,0,1,0
-Smartlook,https://www.smartlook.com/,1,1,0,1,1,0,1,1
-Splitbee,https://splitbee.io/,1,0,1,1,1,0,0,1
-UXWizz,https://www.uxwizz.com/,1,1,1,1,0,1,1,0
-Woopra,https://www.woopra.com/,1,0,0,1,1,0,1,1
+Name,URL,Image,Web Analytics,Heatmaps,A/B testing,GDPR compliant,Hosted,Self hosted,Data export,Free option
+Amplitude,https://amplitude.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/amplitude-fav.jpg,1,0,0,0,1,0,0,1
+Clarity,https://clarity.microsoft.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/clarity-fav.jpg,0,1,0,1,1,0,0,1
+Clicky,https://clicky.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/clicky-fav.jpg,1,0,0,0,1,0,1,0
+Crazy Egg,https://www.crazyegg.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/crazyegg-fav.jpg,0,1,1,1,1,0,1,0
+Fathom,https://usefathom.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/fathom.svg,1,0,0,1,1,0,1,0
+Gauges,https://get.gaug.es/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/gauges-fav.jpg,1,0,0,1,1,0,0,0
+GoatCounter,https://www.goatcounter.com,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/goat-fav.jpg,1,0,0,1,1,1,1,1
+Google Analytics,https://analytics.google.com/analytics/web/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/google-analytics.svg,1,0,0,0,1,0,0,1
+Heap,https://heap.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/heap-fav.jpg,1,0,0,1,1,0,0,1
+Hotjar,https://www.hotjar.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/hotjar-fav.jpg,0,1,0,1,1,0,0,1
+Kissmetrics,https://www.kissmetrics.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/kissmetric-fav.jpg,0,0,1,0,1,0,1,0
+Matomo,https://matomo.org/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/matomo-fav.jpg,1,1,0,1,1,1,1,1
+Mix Panel,https://mixpanel.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/mixpanel-fav.jpg,0,0,1,1,1,1,1,1
+Plausible,https://plausible.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/plausible.png,1,0,0,1,1,0,1,0
+Simple Analytics,https://www.simpleanalytics.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/simple-fav.jpg,1,0,0,1,1,0,1,0
+Smartlook,https://www.smartlook.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/smartlook.png,1,1,0,1,1,0,1,1
+Splitbee,https://splitbee.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/splitbee-fav.jpg,1,0,1,1,1,0,0,1
+UXWizz,https://www.uxwizz.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/uxwizz.png,1,1,1,1,0,1,1,0
+Woopra,https://www.woopra.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/analytics/woopra.png,1,0,0,1,1,0,1,1

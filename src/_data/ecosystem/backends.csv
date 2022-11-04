@@ -1,7 +1,7 @@
-Name,URL,Integrations,Serverless functions,Authentication,Role-based access controls,File storage,Chat functionality,Free option
-Airtable,https://www.airtable.com/,1,0,0,0,0,0,1
-8base,https://www.8base.com/,1,1,1,1,0,0,1
-Backendless,https://backendless.com/,0,1,1,1,1,1,1
-Fauna,https://fauna.com/,1,1,1,1,0,0,1
-Firebase,https://firebase.google.com/,1,1,1,1,1,1,1
-MongoDB Atlas,https://www.mongodb.com/atlas/database,0,1,1,1,0,0,1
+Name,URL,Image,Integrations,Serverless functions,Authentication,Role-based access controls,File storage,Chat functionality,Free option
+Airtable,https://www.airtable.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/backends/airtable-fav.jpg,1,0,0,0,0,0,1
+8base,https://www.8base.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/backends/8base-fav.jpg,1,1,1,1,0,0,1
+Backendless,https://backendless.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/backends/backendless-fav.jpg,0,1,1,1,1,1,1
+Fauna,https://fauna.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/backends/fauna-fav.jpg,1,1,1,1,0,0,1
+Firebase,https://firebase.google.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/backends/firebase-fav.jpg,1,1,1,1,1,1,1
+MongoDB Atlas,https://www.mongodb.com/atlas/database,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/backends/mongo-fav.jpg,0,1,1,1,0,0,1

@@ -1,37 +1,37 @@
-Name,URL,Spam filtering,File handling,Accept payments,Integrations,Captcha,Reports,Export,API,GDPR compliant,Webhooks,Free option
-99inbound,https://www.99inbound.com/,1,0,0,1,0,0,0,0,1,1,1
-Basin,https://usebasin.com/,1,1,0,1,1,0,1,1,1,1,1
-Cognito Forms,https://www.cognitoforms.com/,1,1,1,1,1,1,1,1,1,1,1
-ElFormo,https://www.elformo.com/,1,0,0,0,0,0,0,0,0,0,1
-FieldGoal,https://fieldgoal.io/,1,1,0,1,0,0,0,0,0,0,0
-Flexyform,https://www.flexyform.com/,0,1,0,1,1,0,0,0,0,0,1
-Form Taxi,https://form.taxi/,1,1,0,0,0,0,1,0,1,0,1
-Form2chat,https://form2chat.io/,1,1,0,1,1,1,1,0,1,1,0
-Form2sheet,https://form2sheet.com/,0,0,0,0,0,0,0,0,0,0,1
-FormBackend,https://www.formbackend.com/,1,1,0,1,0,0,1,1,1,1,1
-FormBucket,https://www.formbucket.com/,0,1,0,0,1,0,1,1,1,1,0
-Formcake,https://formcake.com/,1,1,0,1,1,0,0,1,1,0,0
-Formcarry,https://formcarry.com/,1,1,0,1,1,0,1,0,0,1,1
-Formcubes,https://formcubes.com/,1,1,0,0,1,0,0,0,0,0,0
-FormData,https://form-data.com,1,1,0,1,1,1,1,0,1,0,1
-Formden,https://formden.com/,1,0,0,0,0,0,0,0,0,0,0
-Formfor,https://formfor.site/,1,1,0,0,1,0,0,0,0,0,1
-FormKeep,https://formkeep.com/,1,1,0,1,1,1,1,1,1,1,1
-Formsite,https://www.formsite.com/,0,1,1,1,1,1,1,1,1,1,0
-Formspark,https://formspark.io/,0,1,0,1,1,0,1,0,1,1,1
-Formspree,https://formspree.io/,1,1,0,1,1,1,1,1,1,1,1
-Formstack,https://www.formstack.com/,0,1,1,1,1,1,1,1,1,1,0
-Formsubmit,https://formsubmit.co/,0,1,0,0,1,0,0,0,0,1,1
-Formx,https://formx.stream/,1,0,0,1,0,1,1,1,1,0,0
-Getform,https://getform.io/,1,1,0,1,1,1,1,1,1,1,1
-JotForm,https://www.jotform.com/,0,1,1,1,1,1,1,1,1,1,1
-Kwes,https://kwes.io/,1,1,1,1,1,1,1,1,0,1,1
-LiveForm,https://liveformhq.com/,0,1,0,1,1,0,1,1,0,1,0
-MailThis,https://mailthis.to/,1,1,0,0,0,0,0,0,0,0,1
-Netlify Forms,https://www.netlify.com/products/forms/,1,1,0,1,1,1,1,1,1,1,1
-Pageclip,https://pageclip.co/,0,0,0,0,0,0,1,1,1,0,1
-Slapform,https://slapform.com/,1,0,0,0,0,0,0,0,1,1,1
-Smartforms,https://smartforms.dev/,1,0,0,1,0,0,0,0,1,1,1
-StaticForms,https://www.staticforms.co/,0,1,0,1,0,0,1,0,0,1,1
-Un-static,https://un-static.com/,0,0,0,0,1,0,0,0,0,0,1
-Wufoo,https://www.wufoo.com/,0,1,1,1,1,1,1,1,1,1,1
+Name,URL,Image,Spam filtering,File handling,Accept payments,Integrations,Captcha,Reports,Export,API,GDPR compliant,Webhooks,Free option
+99inbound,https://www.99inbound.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/99inbound-fav.jpg,1,0,0,1,0,0,0,0,1,1,1
+Basin,https://usebasin.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/basin-fav.jpg,1,1,0,1,1,0,1,1,1,1,1
+Cognito Forms,https://www.cognitoforms.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/cognito-fav.jpg,1,1,1,1,1,1,1,1,1,1,1
+ElFormo,https://www.elformo.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/elform-fav.jpg,1,0,0,0,0,0,0,0,0,0,1
+FieldGoal,https://fieldgoal.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/fieldgoal-fav.jpg,1,1,0,1,0,0,0,0,0,0,0
+Flexyform,https://www.flexyform.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/flexyform-fav.jpg,0,1,0,1,1,0,0,0,0,0,1
+Form Taxi,https://form.taxi/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formtaxi-fav.jpg,1,1,0,0,0,0,1,0,1,0,1
+Form2chat,https://form2chat.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/form2chat-fav.jpg,1,1,0,1,1,1,1,0,1,1,0
+Form2sheet,https://form2sheet.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/form2sheet-fav.jpg,0,0,0,0,0,0,0,0,0,0,1
+FormBackend,https://www.formbackend.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formbackend-fav.jpg,1,1,0,1,0,0,1,1,1,1,1
+FormBucket,https://www.formbucket.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formbucket-fav.jpg,0,1,0,0,1,0,1,1,1,1,0
+Formcake,https://formcake.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formcake-fav.jpg,1,1,0,1,1,0,0,1,1,0,0
+Formcarry,https://formcarry.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formcarry-fav.jpg,1,1,0,1,1,0,1,0,0,1,1
+Formcubes,https://formcubes.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formcubes-fav.jpg,1,1,0,0,1,0,0,0,0,0,0
+FormData,https://form-data.com,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formdata-fav.jpg,1,1,0,1,1,1,1,0,1,0,1
+Formden,https://formden.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formden-fav.jpg,1,0,0,0,0,0,0,0,0,0,0
+Formfor,https://formfor.site/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formfor-fav.jpg,1,1,0,0,1,0,0,0,0,0,1
+FormKeep,https://formkeep.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formkeep-fav.jpg,1,1,0,1,1,1,1,1,1,1,1
+Formsite,https://www.formsite.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formsite-fav.jpg,0,1,1,1,1,1,1,1,1,1,0
+Formspark,https://formspark.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formspark-fav.jpg,0,1,0,1,1,0,1,0,1,1,1
+Formspree,https://formspree.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formspree-fav.jpg,1,1,0,1,1,1,1,1,1,1,1
+Formstack,https://www.formstack.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formstack-fav.jpg,0,1,1,1,1,1,1,1,1,1,0
+Formsubmit,https://formsubmit.co/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formsubmit-fav.jpg,0,1,0,0,1,0,0,0,0,1,1
+Formx,https://formx.stream/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/formx-fav.jpg,1,0,0,1,0,1,1,1,1,0,0
+Getform,https://getform.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/getform-fav.jpg,1,1,0,1,1,1,1,1,1,1,1
+JotForm,https://www.jotform.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/jotform-fav.jpg,0,1,1,1,1,1,1,1,1,1,1
+Kwes,https://kwes.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/kwes-fav.jpg,1,1,1,1,1,1,1,1,0,1,1
+LiveForm,https://liveformhq.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/liveform-fav.jpg,0,1,0,1,1,0,1,1,0,1,0
+MailThis,https://mailthis.to/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/mailthis-fav.jpg,1,1,0,0,0,0,0,0,0,0,1
+Netlify Forms,https://www.netlify.com/products/forms/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/netlify-fav.jpg,1,1,0,1,1,1,1,1,1,1,1
+Pageclip,https://pageclip.co/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/pageclip-fav.jpg,0,0,0,0,0,0,1,1,1,0,1
+Slapform,https://slapform.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/slapform-fav.jpg,1,0,0,0,0,0,0,0,1,1,1
+Smartforms,https://smartforms.dev/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/smartforms-fav.jpg,1,0,0,1,0,0,0,0,1,1,1
+StaticForms,https://www.staticforms.co/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/staticforms-fav.jpg,0,1,0,1,0,0,1,0,0,1,1
+Un-static,https://un-static.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/unstatic-fav.jpg,0,0,0,0,1,0,0,0,0,0,1
+Wufoo,https://www.wufoo.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/contact-form/wufoo-fav.jpg,0,1,1,1,1,1,1,1,1,1,1

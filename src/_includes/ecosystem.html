@@ -5,7 +5,12 @@ eleventyComputed:
     - _bookshop_name: hero
       blocks:
         - _bookshop_name: simple/spacer
-          size: 130
+          size: 100
+        - _bookshop_name: simple/icon-image
+          image: "/images/icons/ecosystem/{{ short_title | downcase | replace: ' ', '-' }}.svg"
+          alt: short_title
+        - _bookshop_name: simple/spacer
+          size: 30
         - _bookshop_name: simple/heading
           text: "{{ short_title }}"
           size: hero
@@ -15,39 +20,42 @@ eleventyComputed:
           text: "{{ description }}"
           size: big
         - _bookshop_name: simple/spacer
-          size: 80
+          size: 80 
 ---
 {{ content }}
 
 <div class="container mb-24">
-  <table class="w-full">
-    <thead>
-      <tr class="border-b-2">
+  <table class="w-full border-separate border-spacing-0 table-fixed">
+    <thead class="">
+      <tr class="m-0">
         {% assign file = ecosystem[data] %}    
         {% for head in file[0] %}
-          {% if head[0] == "URL" %}
+          {% if head[0] == "URL" or head[0] == "Image" %}
             {% continue %}
           {% endif %}
-          <th class="first:text-left px-3 py-2">{{ head[0] }}</th>
+          <th class="first:text-left first:w-[200px] px-3 py-4 first:rounded-tl-2xl last:rounded-tr-2xl border-b border-black first:border-l border-t last:border-r bg-[#F5FBFF] font-normal">{{ head[0] }}</th>
         {% endfor %}
       </tr>
     </thead>
     <tbody>
       {% for row in file %}
-        <tr class="border-b hover:bg-slate-50">
+        <tr class=" hover:bg-slate-50 group">
           {% for item in row %}
-            {% if item[0] == "URL" %}
+            {% if item[0] == "URL" or item[0] == "Image" %}
               {% continue %}
             {% endif %}
-            <td class="first:font-bold first:text-left text-center px-3 py-2">
+            <td class="first:font-bold even:bg-gray-100 old:bg-white first:text-left text-center px-3 py-4 first:border-l last:border-r border-b group-last:first:rounded-bl-2xl group-last:last:rounded-br-2xl border-black">
               {% assign c = item[1] | strip %}
               {% if c == '0' or c == '1' %}
                 {% if c == '1' %}
-                  <span class="w-5 flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-green-700">{{ '/images/icons/outline/check.svg' | svgContents }}</span>
+                  <span class="w-7 flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-cc">{{ '/images/icons/outline/check-circle.svg' | svgContents }}</span>
                 {% endif %}
               {% else %}
                 {% if item[0] == 'Name' %}
-                  <a href="{{ row.URL }}" rel="noopener noreferrer" target="_blank" class="text-cc hover:underline">{{ c }}</a>
+                  <a href="{{ row.URL }}" rel="noopener noreferrer" target="_blank" class="hover:underline flex items-center">
+                    <img src="{{ row.Image }}" class="w-8 pr-2" alt="{{ row.Name }} ">
+                    {{ c }}
+                  </a>
                 {% else %}
                   {{ c }}
                 {% endif %}

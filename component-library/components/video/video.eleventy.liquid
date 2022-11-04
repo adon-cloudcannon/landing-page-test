@@ -17,28 +17,22 @@
 							t.showModal = true;
 							t.renderIframe = true;
 							let p = await t.player();
-							console.log(p);
 							p.play(); 
 						});
 					},
 					async player() {
 						let keepTrying, 
-								attempts = 10;
+								attempts = 50;
 						do {
-							console.log(attempts);
 								try {
 									var v = new Vimeo.Player($refs.video);
 									return v;
 								} catch(err) {
-										console.log(err);
 										keepTrying = true;
 										attempts--;
-										console.log('erreeed ');
-										console.log(attempts);
 										await this.sleep(100);
 								}
 						} while (keepTrying && attempts > 0);
-						
 					},
 
 					sleep(ms) {
