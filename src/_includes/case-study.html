@@ -1,0 +1,45 @@
+---
+layout: page.html
+eleventyComputed:
+  header_blocks:
+    - _bookshop_name: hero
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 100
+        - _bookshop_name: simple/heading
+          text: "{{ heading }}"
+          size: h2
+        - _bookshop_name: simple/spacer
+          size: 35
+        - _bookshop_name: simple/sub-heading
+          text: "{{ description }}"
+          size: big
+        - _bookshop_name: simple/spacer
+          size: 35
+        - _bookshop_name: simple/case-study-person
+          person: 
+            image:
+              path: "{{ person.image.path }}"
+              alt: "{{ person.image.alt }}"
+            position: "{{ person.position }}"
+            name: "{{ person.name }}"
+          title: "{{ title }}"
+        - _bookshop_name: simple/spacer
+          size: 30 
+        
+---
+{% bookshop_include "page" content_blocks: header_blocks %}
+
+<div class="container relative">
+  <div class="prose prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+    {{ content }}
+  </div>
+  <div class="absolute right-0 top-2 h-full">
+    <div class="sticky top-20 flex flex-col items-center gap-y-4">
+      <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/twitter.svg' | svgContents}}</a>
+      <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/facebook.svg' | svgContents}}</a>
+      <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/linkedin.svg' | svgContents}}</a>
+      <a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="">{{ '/images/icons/outline/envelope.svg' | svgContents}}</a>
+    </div>
+  </div>
+</div>

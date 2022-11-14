@@ -1,9 +1,11 @@
 const svgContents = require("eleventy-plugin-svg-contents"),
 			yaml = require("js-yaml"),
 			csv = require("csvtojson"),
-			pluginBookshop = require("@bookshop/eleventy-bookshop");
+			pluginBookshop = require("@bookshop/eleventy-bookshop"),
+			{ DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addWatchTarget("../component-library/");
 	eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
 	eleventyConfig.addWatchTarget('./styles/tailwind.css')
 
@@ -24,4 +26,9 @@ module.exports = function (eleventyConfig) {
 		bookshopLocations: ["../component-library"],
 		pathPrefix: '',
 	}));
+
+	eleventyConfig.addFilter("excerpt", (post) => {
+		const content = post.replace(/(<([^>]+)>)/gi, "");
+		return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
+	});
 };

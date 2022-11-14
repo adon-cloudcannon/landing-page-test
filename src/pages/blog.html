@@ -1,55 +1,11 @@
 ---
 title: Blog
 layout: page.html
-permalink: /blog/
+permalink: '/blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+pagination:
+  data: collections.posts
+  size: 10
+  alias: posts
+  reverse: true
 ---
-<div class="container py-8 mt-10"> 
-	<div class="grid grid-cols-2 gap-12 mb-16">
-		<img alt="Photo illustration of logos on post-it notes." class="object-cover object-center rounded-xl w-full h-full" loading="lazy" src="https://dam-cdn.cloudcannon.com/tnd-support-assist.jpg">
-		<div>
-			<div class="text-gray-400">
-				<a href="" class="text-blue-400 uppercase hover:text-blue-600 hover:underline transition">Showcase</a>, 
-				<a href="" class="text-blue-400 uppercase hover:text-blue-600 hover:underline transition">Company</a>
-			</div>
-			<h3 class="font-bold text-4xl text-gray-700 mb-3">
-				<a href="/post/" class="hover:underline">
-					How users like The New Dynamic help CloudCannon iterate and improve
-				</a>
-			</h3>
-			<p class="mb-3 text-gray-400">
-				David Large · 10 August 2022
-			</p>
-			<p class="text-lg mb-3">
-				Several weeks ago, I interviewed Régis Philibert, Lead Developer at The New Dynamic, for a case study about how tND is using CloudCannon. It was an illuminating interview — for...
-			</p>
-
-			<p>
-				<a href="" class="text-cc font-bold hover:underline text-lg group">
-					Read more <span class="w-4 relative top-[3px] inline-block group-hover:translate-x-1 transition">{{ '/images/icons/outline/arrow-small-right.svg' | svgContents }}</span>
-				</a>
-			</p>
-		</div>
-	</div>
-
-	<div class="grid grid-cols-3 gap-x-5 gap-y-12">
-		{% for i in (1..5) %}
-		<div>
-			<a href="" class="group">
-				<img alt="Photo illustration of a website being measured" class="transition rounded-lg group-hover:opacity-80" loading="lazy" src="https://dam-cdn.cloudcannon.com/blog/blog-page-weight-r.jpg">
-			</a>
-			<div class="text-gray-400 mt-2">
-				<a href="" class="text-blue-400 uppercase hover:text-blue-600 hover:underline transition">Showcase</a>, 
-				<a href="" class="text-blue-400 uppercase hover:text-blue-600 hover:underline transition">Company</a>
-			</div>
-			<h3 class="font-bold text-3xl mt-1 text-gray-700">
-				<a href="/post/" class="hover:underline">
-					Does My Website Look Big in This? Six Tips to Lower your Page Weight
-				</a>
-			</h3>
-			<p class="mt-3 text-gray-400">
-				David Large · 10 August 2022
-			</p>
-		</div>
-		{% endfor %}
-	</div>
-</div>
+{% include 'partials/blog/list.html' posts:posts pagination:pagination %}

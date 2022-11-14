@@ -9,6 +9,7 @@
     "build:scripts": "cd ./src/ && esbuild main.js --bundle --minify --outfile=_site/js/main.js",
     "build:11ty": "cd ./src/ && ELEVENTY_PRODUCTION=true eleventy",
     "build": "run-s clean build:*"
+    
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",

@@ -19,7 +19,7 @@
       - title:
         sub_nav:
           - name: Case studies
-            link: ''
+            link: '/customers/'
             description: "Why companies choose CloudCannon"
             icon: 'briefcase'
           - name: Enterprise

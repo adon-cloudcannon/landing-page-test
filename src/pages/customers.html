@@ -1,0 +1,29 @@
+---
+title: Customers
+layout: builder.html
+permalink: /customers/
+content_blocks:
+    - _bookshop_name: hero
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 120
+        - _bookshop_name: simple/heading
+          text: "Why the best choose CloudCannon"
+          size: hero
+        - _bookshop_name: simple/spacer
+          size: 35
+        - _bookshop_name: simple/sub-heading
+          text: "Find out why world leading companies use CloudCannon to power their digital content strategy."
+          size: big
+        - _bookshop_name: simple/spacer
+          size: 80 
+---
+
+<div class="container">
+	<div class="grid grid-cols-3 gap-x-6 gap-y-12">
+		{% assign case_studies_sorted = collections.case_studies | sort: "data.weight" %}
+		{% for case_study in case_studies_sorted %}
+			{% bookshop "case-studies/card" case_study:case_study %}
+		{% endfor %}
+	</div>
+</div>
