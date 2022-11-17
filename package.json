@@ -9,10 +9,10 @@
     "build:scripts": "cd ./src/ && esbuild main.js --bundle --minify --outfile=_site/js/main.js",
     "build:11ty": "cd ./src/ && ELEVENTY_PRODUCTION=true eleventy",
     "build": "run-s clean build:*"
-    
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@alpinejs/intersect": "^3.10.4",
     "@tailwindcss/typography": "^0.5.7",
     "alpinejs": "^3.10.4",
@@ -28,6 +28,7 @@
     "@bookshop/browser": "3.3.0",
     "@bookshop/eleventy-bookshop": "3.3.0",
     "@bookshop/eleventy-engine": "3.3.0",
-    "@bookshop/generate": "3.3.0"
+    "@bookshop/generate": "3.3.0",
+    "markdown-it": "^13.0.1"
   }
 }

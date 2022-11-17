@@ -9,7 +9,6 @@ permalink: /blog/editing-content-with-hugo-shortcodes/
 image: https://dam-cdn.cloudcannon.com/blog/blog-hugo-shortcodes.jpg
 date: 2022-11-03T05:00:00+1300
 hide_publish_date: false
-templateEngineOverride: md
 tags:
   - Features
   - Hugo
@@ -21,29 +20,16 @@ content_blocks:
     autoplay: true
   - _bookshop_name: text
     content_markdown: >-
-      If you’re a developer working locally, or via CloudCannon’s Source Editor
-      view, simply call the shortcode in your Markdown content as you normally
-      would — `{{< shortcodename parameters >}}` — and CloudCannon will include
-      it in your Hugo build.
-
-
-      Here’s an example of how the gist shortcode looks in an example Markdown
-      file:
+      
     col: '1'
   - _bookshop_name: code-block
     source: example.md
     code_block: |
-      ## Heading text
-
-      Here's my Markdown content, with an example of the gist shortcode below.
-
-      {{< gist spf13 7896402 "img.html" >}}
+      
     language: markdown
   - _bookshop_name: text
     content_markdown: >-
-      The above shortcode, `{{< gist spf13 7896402 "img.html" >}}`, will build
-      in your published page something similar to the below code block
-      (depending on your stylesheets and surrounding markup):
+      
     col: '1'
   - _bookshop_name: code-block
     source: img.html hosted with ❤ by GitHub
@@ -144,14 +130,34 @@ Hugo ships with a set of [predefined shortcodes](https://gohugo.io/content-manag
 
 When you and your team members are working in CloudCannon’s Content Editor or Visual Editor, which provide two different WYSIWYG interfaces for Markdown content, you’ll be able to add a shortcode by simply clicking the ‘Snippet’ button at the top right of the editing pane. (More on Snippets later — we’ll be expanding this functionality across other SSGs in the coming weeks.)
 
-![](https://dam-cdn.cloudcannon.com/blog/blog-hugo-snippets-1.jpg)
+{% bookshop "markdown/image" src:"https://dam-cdn.cloudcannon.com/blog/blog-hugo-snippets-1.jpg" alt:"WYSIWYG editor" extend:false border:true %}
 
 From here you can select your Hugo shortcode.
 
-![](https://dam-cdn.cloudcannon.com/blog/blog-hugo-snippets-2.jpg)
+{% bookshop "markdown/image" src:"https://dam-cdn.cloudcannon.com/blog/blog-hugo-snippets-2.jpg" alt:"Shortcode list" extend:false border:true %}
 
 Within the shortcode interface itself, you’ll see all the available options to change the shortcode’s parameters.
 
-![](https://dam-cdn.cloudcannon.com/blog/blog-hugo-snippets-3.jpg)
+{% bookshop "markdown/image" src:"https://dam-cdn.cloudcannon.com/blog/blog-hugo-snippets-3.jpg" alt:"Tweet example" extend:false border:true %}
 
 This integration means that content editors and marketers will be able to create new shortcodes and edit existing shortcodes via an intuitive interface, without ever needing to work in source files.
+
+{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/766299367" autoplay:true extend:true %}
+
+If you’re a developer working locally, or via CloudCannon’s Source Editor
+view, simply call the shortcode in your Markdown content as you normally
+would — {% raw %}`{{< shortcodename parameters >}}`{% endraw %} — and CloudCannon will include
+it in your Hugo build.
+
+Here’s an example of how the gist shortcode looks in an example Markdown
+file:
+
+{% showCode html %} 
+## Heading text
+
+Here's my Markdown content, with an example of the gist shortcode below.
+{% endshowCode %}
+
+The above shortcode, `{% raw %}{{< gist spf13 7896402 "img.html" >}}{% endraw %}`, will build
+in your published page something similar to the below code block
+(depending on your stylesheets and surrounding markup):

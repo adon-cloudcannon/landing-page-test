@@ -1,5 +1,6 @@
 ---
 name: Mike Neumegen
-image_path: https://dam-cdn.cloudcannon.com/blog/uploads/mike-photo.jpg
-image_alt: headshot of Mike smiling
+image:
+  path: https://dam-cdn.cloudcannon.com/blog/uploads/mike-photo.jpg
+  alt: headshot of Mike smiling
 ---
