@@ -34,9 +34,9 @@ module.exports = function (eleventyConfig) {
 	}));
 
 	eleventyConfig.addPairedLiquidShortcode('showCode', function (content, language) {
-		// prismloadLanguages(['html']);
-		// return Prism.highlightAll(`<pre><code class="language-html">${content}</code></pre>`);
-		return content;
+		// prismloadLanguages([language]);
+		// Prism.highlight(text, grammar, language)
+		return `<pre class="not-prose language-${language}"><code class="language-${language}">` + Prism.highlight(content, Prism.languages[language], language) + '</code></pre>';
 });
 
 	eleventyConfig.addFilter("excerpt", (post) => {

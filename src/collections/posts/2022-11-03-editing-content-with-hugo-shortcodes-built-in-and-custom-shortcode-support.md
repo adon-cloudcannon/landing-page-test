@@ -152,7 +152,7 @@ it in your Hugo build.
 Here’s an example of how the gist shortcode looks in an example Markdown
 file:
 
-{% showCode html %} 
+{% showCode "md" %} 
 ## Heading text
 
 Here's my Markdown content, with an example of the gist shortcode below.
