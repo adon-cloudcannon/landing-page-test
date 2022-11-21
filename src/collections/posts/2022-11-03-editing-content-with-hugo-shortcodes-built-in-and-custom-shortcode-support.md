@@ -13,110 +13,6 @@ tags:
   - Features
   - Hugo
 author: cloudcannon
-content_blocks:
-  - _bookshop_name: vimeo
-    id: '766299367'
-    loop: true
-    autoplay: true
-  - _bookshop_name: text
-    content_markdown: >-
-      
-    col: '1'
-  - _bookshop_name: code-block
-    source: example.md
-    code_block: |
-      
-    language: markdown
-  - _bookshop_name: text
-    content_markdown: >-
-      
-    col: '1'
-  - _bookshop_name: code-block
-    source: img.html hosted with ❤ by GitHub
-    code_block: >-
-      <!-- image -->
-
-      <figure {{ if isset .Params "class" }}class="{{ index .Params "class"
-      }}"{{ end }}>
-          {{ if isset .Params "link"}}<a href="{{ index .Params "link"}}">{{ end }}
-              <img src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }} />
-          {{ if isset .Params "link"}}</a>{{ end }}
-          {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
-          <figcaption>{{ if isset .Params "title" }}
-              <h4>{{ index .Params "title" }}</h4>{{ end }}
-              {{ if or (isset .Params "caption") (isset .Params "attr")}}<p>
-              {{ index .Params "caption" }}
-              {{ if isset .Params "attrlink"}}<a href="{{ index .Params "attrlink"}}"> {{ end }}
-                  {{ index .Params "attr" }}
-              {{ if isset .Params "attrlink"}}</a> {{ end }}
-              </p> {{ end }} 
-          </figcaption>
-          {{ end }}
-      </figure>
-
-      <!-- image -->
-    language: html
-  - _bookshop_name: text
-    content_markdown: >-
-      You and your editors will now be able to see this gist shortcode, edit its
-      parameters, or remove it via the Content Editor and Visual Editor views,
-      where it appears as a component within the Markdown section of your page.
-
-
-      ## Configure your custom Hugo shortcodes in CloudCannon
-
-
-      If you’ve been using Hugo for a while, you’re likely to have built up a
-      library of your own [custom
-      shortcodes](https://gohugo.io/templates/shortcode-templates/), stored in
-      layouts/shortcodes/. If you’re working locally or within CloudCannon’s
-      Source Editor, you can use them immediately.
-
-
-      To ensure that others can use or edit custom shortcodes from CloudCannon’s
-      Content Editor or Visual Editor, you’ll need to add to your global
-      CloudCannon configuration file. If you’re familiar with the logic behind
-      [configuring
-      inputs](https://cloudcannon.com/documentation/articles/how-to-choose-what-input-is-used-in-the-data-editor/?ssg=Hugo)
-      within CloudCannon, this will be a relatively straightforward process. For
-      more details, view our [documentation on editing content with custom Hugo
-      shortcodes](https://cloudcannon.com/documentation/articles/editing-with-hugo-shortcodes/).
-
-
-      ## Shortcodes for everyone
-
-
-      By fully integrating both Hugo’s built-in shortcodes and your own custom
-      Hugo shortcodes into CloudCannon’s intuitive Markdown editing views,
-      CloudCannon help to surface one of Hugo’s core features for users with any
-      level of technical ability.
-
-
-      We’ve always been focused on enhancing the editing experience for our
-      users, and by integrating Hugo’s shortcodes fully into our Content Editor
-      and Visual Editor we’re giving all our users a more efficient means of
-      using templated content, and more control over their Hugo websites.
-
-
-      ## What’s next?
-
-
-      We’ve been working on this feature for some time, because it’s important
-      to our users. Over the coming months we’ll start to reveal more of the
-      bigger picture for our Snippets feature, which will include full support
-      and integration for shortcode equivalents in other static site generators
-      (like Liquid tags in Jekyll and Eleventy), as well as full MDX support.
-
-
-      Our goal is to build the best Git-based CMS for your whole team, no matter
-      which SSG you’re using. We’d love to hear what you think about our
-      shortcode integration for your Hugo sites, and which features are still on
-      your wishlist.
-
-
-      As always, feel free to reach out to our dev team in support with any
-      questions or comments\!
-    col: '1'
 ---
 You asked for it. We’ve done it. CloudCannon is the first CMS with **full support and full integration for built-in and custom Hugo shortcodes** — in our Visual, Content, and Source Editors. That’s a pretty big claim\! What do we mean by this? Let’s take a look.
 
@@ -124,7 +20,7 @@ You asked for it. We’ve done it. CloudCannon is the first CMS with **full supp
 
 Hugo uses shortcodes — code snippets in content files — to get around the limitations of Markdown, while keeping the simplicity and ease of Markdown’s syntax. Shortcodes let developers consolidate templating into small, reusable snippets that can be embedded directly inside Markdown content.
 
-Hugo ships with a set of [predefined shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes){: target="_blank" rel="noopener noreferrer"}, which we’ve integrated and configured for immediate use in CloudCannon’s Visual and Content Editors.
+Hugo ships with a set of [predefined shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes), which we’ve integrated and configured for immediate use in CloudCannon’s Visual and Content Editors.
 
 ## How to use Hugo’s built-in shortcodes in CloudCannon
 
@@ -142,7 +38,7 @@ Within the shortcode interface itself, you’ll see all the available options to
 
 This integration means that content editors and marketers will be able to create new shortcodes and edit existing shortcodes via an intuitive interface, without ever needing to work in source files.
 
-{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/766299367" autoplay:true extend:true %}
+{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/766299367" autoplay:true extend:true border: true %}
 
 If you’re a developer working locally, or via CloudCannon’s Source Editor
 view, simply call the shortcode in your Markdown content as you normally
@@ -152,12 +48,59 @@ it in your Hugo build.
 Here’s an example of how the gist shortcode looks in an example Markdown
 file:
 
-{% showCode "md" %} 
+{% raw %}
+```md 
 ## Heading text
 
 Here's my Markdown content, with an example of the gist shortcode below.
-{% endshowCode %}
 
-The above shortcode, `{% raw %}{{< gist spf13 7896402 "img.html" >}}{% endraw %}`, will build
-in your published page something similar to the below code block
-(depending on your stylesheets and surrounding markup):
+{{< gist spf13 7896402 "img.html" >}}
+```
+{% endraw %}
+
+The above shortcode, `{% raw %}{{< gist spf13 7896402 "img.html" >}}{% endraw %}`, will embed the referenced code sample on your page.
+
+You and your editors will now be able to see this gist shortcode, edit its parameters, or remove it via the Content Editor and Visual Editor views, where it appears as a component within the Markdown section of your page.
+
+## Configure your custom Hugo shortcodes in CloudCannon
+
+If you’ve been using Hugo for a while, you’re likely to have built up a
+library of your own [custom shortcodes](https://gohugo.io/templates/shortcode-templates/), stored in
+layouts/shortcodes/. If you’re working locally or within CloudCannon’s
+Source Editor, you can use them immediately.
+
+To ensure that others can use or edit custom shortcodes from CloudCannon’s
+Content Editor or Visual Editor, you’ll need to add to your global
+CloudCannon configuration file. If you’re familiar with the logic behind
+[configuring
+inputs](https://cloudcannon.com/documentation/articles/how-to-choose-what-input-is-used-in-the-data-editor/?ssg=Hugo) within CloudCannon, this will be a relatively straightforward process. For
+more details, view our [documentation on editing content with custom Hugo
+shortcodes](https://cloudcannon.com/documentation/articles/editing-with-hugo-shortcodes/).
+
+## Shortcodes for everyone
+
+By fully integrating both Hugo’s built-in shortcodes and your own custom
+Hugo shortcodes into CloudCannon’s intuitive Markdown editing views,
+CloudCannon help to surface one of Hugo’s core features for users with any
+level of technical ability.
+
+We’ve always been focused on enhancing the editing experience for our
+users, and by integrating Hugo’s shortcodes fully into our Content Editor
+and Visual Editor we’re giving all our users a more efficient means of
+using templated content, and more control over their Hugo websites.
+
+## What’s next?
+
+We’ve been working on this feature for some time, because it’s important
+to our users. Over the coming months we’ll start to reveal more of the
+bigger picture for our Snippets feature, which will include full support
+and integration for shortcode equivalents in other static site generators
+(like Liquid tags in Jekyll and Eleventy), as well as full MDX support.
+
+Our goal is to build the best Git-based CMS for your whole team, no matter
+which SSG you’re using. We’d love to hear what you think about our
+shortcode integration for your Hugo sites, and which features are still on
+your wishlist.
+
+As always, feel free to reach out to our dev team in support with any
+questions [or](/hello) comments\!

@@ -18,7 +18,7 @@ Fortunately, Jekyll has a great catalog of popular, modern themes to choose from
 
 ## Free Jekyll themes in 2022
 
-Jekyll is a well-established, [easy-to-learn](https://learn.cloudcannon.com/){: target="_blank" rel="noopener"} static site generator framework with an active community. It’s also more than just a way to create a simple blog or docs. Minimal or maxed out, blog or business, documentation or design, it’s all there. The community has been working hard over the years to showcase their talent and create some amazing, free themes for many different use cases.
+Jekyll is a well-established, [easy-to-learn](https://learn.cloudcannon.com/) static site generator framework with an active community. It’s also more than just a way to create a simple blog or docs. Minimal or maxed out, blog or business, documentation or design, it’s all there. The community has been working hard over the years to showcase their talent and create some amazing, free themes for many different use cases.
 
 Many of these themes provide a number of powerful features out of the box, such as search, dark mode, and easy API integrations — all great for the age of Jamstack.
 
@@ -28,7 +28,7 @@ To make your decision easier, we’ve divided the themes into blogging/personal 
 
 ## Jekyll blog themes
 
-### 1\. [Vonge theme](https://cloudcannon.com/community/themes/vonge/){: target="_blank" rel="noopener"}
+### 1\. [Vonge theme](https://cloudcannon.com/community/themes/vonge/)
 
 Vonge is a personal portfolio site template for Jekyll, with full support for blogging. This theme also includes a full component library for website building with live editing, so you can show off your personal brand faster.
 
@@ -39,9 +39,9 @@ Vonge's key features:
 * Fully configurable, with component library for page building
 * Testimonials and portfolios
 * Optimized for editing in CloudCannon
-* [Deploy to CloudCannon with one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template){: target="_blank" rel="noopener"}
+* [Deploy to CloudCannon with one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template)
 
-### **2\.&nbsp;**[**Jekflix theme**](https://github.com/thiagorossener/jekflix-template){: target="_blank" rel="noopener noreferrer"}
+### **2\. **[**Jekflix theme**](https://github.com/thiagorossener/jekflix-template)
 
 Love Netflix’s design? Now you can have your own beautiful, responsive Jekyll theme Netflix-style site for blogging or showcasing other content.
 
@@ -53,9 +53,9 @@ Jekflix's key features:
 * Estimated reading time and reading progress
 * Lazy-loaded images for best performance
 
-### **3\.&nbsp;**[**Basically Basic theme**](https://github.com/mmistakes/jekyll-theme-basically-basic){: target="_blank" rel="noopener noreferrer"}
+### **3\. **[**Basically Basic theme**](https://github.com/mmistakes/jekyll-theme-basically-basic)
 
-From the creator of the most popular Jekyll theme out there, [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes){: target="_blank" rel="noopener noreferrer"}, this theme aims to be your new replacement for the standard Minima theme.
+From the creator of the most popular Jekyll theme out there, [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), this theme aims to be your new replacement for the standard Minima theme.
 
 ![Basically Basic Jekyll theme screenshot](https://dam-cdn.cloudcannon.com/blog/uploads/basically-basic.jpg){: width="1554" height="1003"}
 
@@ -65,7 +65,7 @@ Basically basic's key features:
 * Built-in search options and easy SEO
 * Resume/CV layout ready to go
 
-### **4\.&nbsp;**[**TeXt theme**](https://github.com/kitian616/jekyll-TeXt-theme){: target="_blank" rel="noopener noreferrer"}
+### **4\. **[**TeXt theme**](https://github.com/kitian616/jekyll-TeXt-theme)
 
 The TeXt theme is a hugely customizable Jekyll theme option for just about any project, such as personal/team sites, blogs, or documentation. Influenced by iOS 11 style, it is visually pleasing and responsive, with a number of plugin options.
 
@@ -77,7 +77,7 @@ TeXt theme's key features:
 * Enhancements for multiple media types, math, diagrams, and charts
 * Built-in search and multiple plugin options
 
-### **5\.&nbsp;**[**Devlopr-Jekyll theme**](https://github.com/sujaykundu777/devlopr-jekyll){: target="_blank" rel="noopener noreferrer"}
+### **5\. **[**Devlopr-Jekyll theme**](https://github.com/sujaykundu777/devlopr-jekyll)
 
 For developers in need of a personal site, this is a great, flexible option. It’s more than just a portfolio, however, with a whole showcase of other page options available.
 
@@ -91,9 +91,9 @@ Devlopr-Jekyll's features:
 
 ## Jekyll professional themes
 
-### 1\. [Edition theme](https://cloudcannon.com/community/themes/edition/){: target="_blank" rel="noopener noreferrer"}
+### 1\. [Edition theme](https://cloudcannon.com/community/themes/edition/)
 
-With Edition you can create beautiful documentation for your product or service. (It's how we run the&nbsp;[CloudCannon Documentation](http://docs.cloudcannon.com/){: target="_blank" rel="noopener"}&nbsp;site, and helps us structure content into categories.)
+With Edition you can create beautiful documentation for your product or service. (It's how we run the [CloudCannon Documentation](http://docs.cloudcannon.com/) site, and helps us structure content into categories.)
 
 ![](https://dam-cdn.cloudcannon.com/edition-screenshot.jpeg)
 
@@ -104,9 +104,9 @@ Edition's key features:
 * Pre-styled components
 * Auto-generated navigation based on category
 * Optimized for editing in CloudCannon
-* [Deploy to CloudCannon with one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/edition-jekyll-template){: target="_blank" rel="noopener"}
+* [Deploy to CloudCannon with one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/edition-jekyll-template)
 
-### **2\.&nbsp;**[**Jekyll Serif theme**](https://github.com/zerostaticthemes/jekyll-serif-theme){: target="_blank" rel="noreferrer noopener"}
+### **2\. **[**Jekyll Serif theme**](https://github.com/zerostaticthemes/jekyll-serif-theme)
 
 Jekyll Serif gives you all you need to get a business site up and running quickly. The creators have gone to great lengths to make a great-looking, performant site, with a clean, modern theme that’s appropriate for many typical setups.
 
@@ -118,7 +118,7 @@ Jekyll Serif's key features:
 * Minimal size for maximum UX, with under 80kb including all assets
 * Great aesthetics with royalty-free illustrations and content
 
-### **3\.&nbsp;**[**Chirpy theme**](https://github.com/cotes2020/jekyll-theme-chirpy/){: target="_blank" rel="noopener noreferrer"}
+### **3\. **[**Chirpy theme**](https://github.com/cotes2020/jekyll-theme-chirpy/)
 
 On the lookout for a great-looking, flexible Jekyll theme focusing on text presentation/documentation? Chirpy might be just what you need for almost any kind of documenting need.
 
@@ -130,9 +130,9 @@ Chirpy's key features:
 * Built-in search and dark mode
 * Syntax highlighting and math presentation
 
-### **4\.&nbsp;**[**Base theme**](https://cloudcannon.com/community/themes/base/){: target="_blank" rel="noopener"}
+### **4\. **[**Base theme**](https://cloudcannon.com/community/themes/base/)
 
-Base is a clean and simple knowledge base Jekyll template. It’s useful for creating a site with searchable tutorials, which are organized into categories.&nbsp;
+Base is a clean and simple knowledge base Jekyll template. It’s useful for creating a site with searchable tutorials, which are organized into categories. 
 
 ![](https://dam-cdn.cloudcannon.com/base-screenshot.jpeg)
 
@@ -143,9 +143,9 @@ Base's key features:
 * FAQ section and Disqus comments
 * Sticky sidebar for main headings in tutorials
 * Optimized for editing in CloudCannon
-* [Deploy to CloudCannon in one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/base-jekyll-template){: target="_blank" rel="noopener"}
+* [Deploy to CloudCannon in one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/base-jekyll-template)
 
-### **5\.&nbsp;**[**Carte theme**](https://github.com/Wiredcraft/carte){: target="_blank" rel="noopener noreferrer"}
+### **5\. **[**Carte theme**](https://github.com/Wiredcraft/carte)
 
 APIs are an important part of the Jamstack model. The authors of this Jekyll theme wanted a simple solution for documenting them, without the complexity of enterprise solutions. This theme is great for getting documented quickly, focusing purely on written content.
 
@@ -161,6 +161,6 @@ Carte's key features:
 
 With these amazing Jekyll themes for different needs, you’ll be ready to go for your next project, or just take inspiration from expert-designed solutions.
 
-Even if these themes aren’t quite what you're looking for, there's plenty more options and updates happening in the Jekyll community — check them out on the [Jekyll GitHub theme page](https://jekyllthemes.io/){: target="_blank" rel="noopener noreferrer"} and [Jekyll’s themes page](https://jekyllrb.com/docs/themes/){: target="_blank" rel="noopener noreferrer"}. Plus, CloudCannon also offers a number of great-looking, free and open-source Jekyll themes for lots of purposes — see [CloudCannon's themes](https://cloudcannon.com/community/themes/){: target="_blank" rel="noopener"} to browse them all, and deploy instantly.
+Even if these themes aren’t quite what you're looking for, there's plenty more options and updates happening in the Jekyll community — check them out on the [Jekyll GitHub theme page](https://jekyllthemes.io/) and [Jekyll’s themes page](https://jekyllrb.com/docs/themes/). Plus, CloudCannon also offers a number of great-looking, free and open-source Jekyll themes for lots of purposes — see [CloudCannon's themes](https://cloudcannon.com/community/themes/) to browse them all, and deploy instantly.
 
 Lastly, for launching your site with a favorite theme, CloudCannon is the collaborative Jekyll CMS and all-in-one platform for you to get started in just a few steps.

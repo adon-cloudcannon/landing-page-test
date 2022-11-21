@@ -18,7 +18,7 @@ content_blocks:
       The plugin is designed to work out-of-the-box with minimal configuration.
       It'll set your page title, description, Canonical URL, next and previous
       pages for paginated
-      pages,&nbsp;[JSON-LD](https://json-ld.org/)&nbsp;structured data to help
+      pages, [JSON-LD](https://json-ld.org/) structured data to help
       with indexing, Open Graph data for social networks, and Twitter summary
       card.
 
@@ -27,7 +27,7 @@ content_blocks:
       %} to the &lt;head&gt; in your layout. The plugin does a good job using
       front matter and configuration data you likely already have set to
       generate the SEO metadata. It'll pick up fields like title, description,
-      image & author. For a complete list, check out&nbsp;[the
+      image & author. For a complete list, check out [the
       docs](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md).
 
 
@@ -108,12 +108,10 @@ content_blocks:
     heading: HTML output
     content_markdown: >-
       Let's start by looking at how the HTML is
-      generated.&nbsp;[template.html](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html){:
-      target="_blank" rel="noopener noreferrer"}&nbsp;is a file with simple
+      generated. [template.html](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html) is a file with simple
       HTML/Liquid that handles the bulk of the output. A small snippet is
-      included here but if you want to dive deeper,&nbsp;[take a look at the raw
-      file](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html){:
-      target="_blank" rel="noopener noreferrer"}\:
+      included here but if you want to dive deeper, [take a look at the raw
+      file](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html)\:
     heading_type: h2
     col: '1'
   - _bookshop_name: code-block
@@ -157,8 +155,8 @@ content_blocks:
       Let's take the image Drop. All it does is gets an image from a page's
       front matter and returns it as an image path. Most of the logic is
       ensuring the path is in a sane format. Here's a snippet of the file.
-      Again,&nbsp;[take a look at the raw
-      file](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/jekyll-seo-tag/image_drop.rb)&nbsp;for
+      Again, [take a look at the raw
+      file](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/jekyll-seo-tag/image_drop.rb) for
       a full view.
     heading_type: h2
     col: '1'
@@ -251,7 +249,7 @@ content_blocks:
 
 
       [The
-      file](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/jekyll-seo-tag.rb)&nbsp;is
+      file](https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/jekyll-seo-tag.rb) is
       mostly setting up data for the Drops. It ends with registering the SEO tag
       for Liquid:
     heading_type: h2
@@ -270,8 +268,7 @@ content_blocks:
       The Jekyll SEO tag plugin is a must-have for any Jekyll site. It's usually
       the first plugin to install on any new Jekyll site. For more learning
       about Jekyll, try out this [Jekyll
-      tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/){:
-      target="_blank" rel="noopener"} to help with your next project.&nbsp;
+      tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) to help with your next project. 
     heading_type: h2
     col: '1'
   - _bookshop_name: spacing

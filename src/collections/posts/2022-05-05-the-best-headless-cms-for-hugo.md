@@ -26,7 +26,7 @@ content_blocks:
       work. And because CloudCannon works as a headless CMS — separating content
       and the way it's presented — developers can set up CMS content to output
       to JSON files, for example, so that non-technical editors can draw on that
-      existing content for any web or mobile application.&nbsp;
+      existing content for any web or mobile application. 
 
 
       ## Share and approve content
@@ -41,8 +41,7 @@ content_blocks:
 
 
       CloudCannon’s [Projects
-      feature](https://cloudcannon.com/documentation/articles/enabling-editor-branching-with-projects/?ssg=Hugo){:
-      target="_blank" rel="noopener"} allows site developers to set up a
+      feature](https://cloudcannon.com/documentation/articles/enabling-editor-branching-with-projects/?ssg=Hugo) allows site developers to set up a
       configurable approval workflow between Staging and Publication modes,
       meaning there can be multiple steps for subeditors, brand managers and
       even legal teams to approve content before the world sees it. Approval
@@ -92,13 +91,11 @@ content_blocks:
 
 
       CloudCannon also offers a competitive
-      [hosting](https://cloudcannon.com/features/edge-hosting/){:
-      target="_blank" rel="noopener"} option on a global CDN [with stellar
-      performance](https://cloudcannon.com/community/jamstack-hosting-comparison/){:
-      target="_blank" rel="noopener"}, allowing you to deploy quickly and
+      [hosting](https://cloudcannon.com/features/edge-hosting/) option on a global CDN [with stellar
+      performance](https://cloudcannon.com/community/jamstack-hosting-comparison/), allowing you to deploy quickly and
       securely without setting up a single server. All CloudCannon sites receive
       a unique domain name for immediate use and testing on all devices, with
-      SSL enabled by default.&nbsp;
+      SSL enabled by default. 
 
 
       With CloudCannon, you’re not locked into a hosting agreement, so you can
@@ -113,23 +110,19 @@ content_blocks:
 
       Whether you’re a seasoned Hugo developer or just starting out, we’re here
       to support your Hugo projects. In our [Jamstack
-      Tutorials](https://cloudcannon.com/community/learn/){: target="_blank"
-      rel="noopener"} section you can learn [how to set up and configure a Hugo
-      site](https://cloudcannon.com/community/learn/hugo-cms---get-started-with-cloudcannon/){:
-      target="_blank" rel="noopener"} to get the most out of CloudCannon, or
+      Tutorials](https://cloudcannon.com/community/learn/) section you can learn [how to set up and configure a Hugo
+      site](https://cloudcannon.com/community/learn/hugo-cms---get-started-with-cloudcannon/) to get the most out of CloudCannon, or
       learn the basics of Hugo and build your first site in our [Hugo beginner’s
-      tutorial](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/){:
-      target="_blank" rel="noopener"}. Or if you'd prefer to jump straight in,
+      tutorial](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/). Or if you'd prefer to jump straight in,
       why not deploy one of our [Hugo
-      themes](https://cloudcannon.com/community/themes/){: target="_blank"
-      rel="noopener"}&nbsp;with a single click, and start exploring?
+      themes](https://cloudcannon.com/community/themes/) with a single click, and start exploring?
     col:
 ---
-You already know [Hugo](https://gohugo.io/){: target="_blank" rel="noopener noreferrer"}. It’s one of the most popular static site generators in the world, because of its optimized build speeds, built-in templates for SEO, analytics, commenting (and more\!), and its flexibility for developers. But while frontend developers will usually be the ones who build and set up new Hugo websites, they’re far from the only people who use Hugo on a day-to-day basis. In fact, most content and marketing teams will spend more time adding, removing, and tweaking website content than a site’s developer will. (This is another reason Hugo’s blistering fast build speeds are vitally important for production sites which see a lot of content changes.)
+You already know [Hugo](https://gohugo.io/). It’s one of the most popular static site generators in the world, because of its optimized build speeds, built-in templates for SEO, analytics, commenting (and more\!), and its flexibility for developers. But while frontend developers will usually be the ones who build and set up new Hugo websites, they’re far from the only people who use Hugo on a day-to-day basis. In fact, most content and marketing teams will spend more time adding, removing, and tweaking website content than a site’s developer will. (This is another reason Hugo’s blistering fast build speeds are vitally important for production sites which see a lot of content changes.)
 
 ## Do you really *need* a CMS for Hugo?
 
-If you’re a developer creating a portfolio website or a personal blog that no one else will ever need to update, *you* might not. But for digital agencies, developers-for-hire, and everyone else on your team — including future team members, whose technical skills or enthusiasm to learn new tools aren’t yet known — you’ll want to future-proof your website editing and page-building capability. In the discovery phase of a new site build, it’s crucial to find [the right content management system for your Hugo websites](https://cloudcannon.com/hugo-cms/){: target="_blank" rel="noopener"}, and not just one that’s ‘good enough for now’. And that’s where CloudCannon comes in.
+If you’re a developer creating a portfolio website or a personal blog that no one else will ever need to update, *you* might not. But for digital agencies, developers-for-hire, and everyone else on your team — including future team members, whose technical skills or enthusiasm to learn new tools aren’t yet known — you’ll want to future-proof your website editing and page-building capability. In the discovery phase of a new site build, it’s crucial to find [the right content management system for your Hugo websites](https://cloudcannon.com/hugo-cms/), and not just one that’s ‘good enough for now’. And that’s where CloudCannon comes in.
 
 ## Edit easier than ever
 

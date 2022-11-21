@@ -14,7 +14,7 @@ In addition to syncing your source files with Bitbucket and GitHub, you can now 
 
 ![Storage Providers interface](https://dam-cdn.cloudcannon.com/blog/assets/blog/build-outputs-and-toolbar-options/storage-providers.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/build-outputs-and-toolbar-options/storage-providers.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/build-outputs-and-toolbar-options/storage-providers@2x.png 1600w"}
 
-See our [official documentation](https://cloudcannon.com/documentation/articles/output-a-built-site-from-cloudcannon-to-an-external-provider/){: target="_blank" rel="noopener"} for more details on setting your first output.
+See our [official documentation](https://cloudcannon.com/documentation/articles/output-a-built-site-from-cloudcannon-to-an-external-provider/) for more details on setting your first output.
 
 ## Toolbar options
 
@@ -22,4 +22,4 @@ The *Content Editor*, *Rich Text* front matter fields and *Editable Regions* are
 
 We've also added to the available controls, which now include: links, block quotes, lists, indentation, images, **tables**, undo/redo, bold, italic, underline, strikethrough, subscript and superscript. We're planning to add more options in future, so let us know if there's something you've been waiting for.
 
-See our [official documentation](https://docs.cloudcannon.com/editing/options/){: target="_blank" rel="noopener"} for instructions and examples to focus the editing experience for your clients or team members.
+See our [official documentation](https://docs.cloudcannon.com/editing/options/) for instructions and examples to focus the editing experience for your clients or team members.

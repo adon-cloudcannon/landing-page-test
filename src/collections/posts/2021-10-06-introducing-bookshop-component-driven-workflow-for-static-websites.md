@@ -89,25 +89,25 @@ content_blocks:
       The benefits include:
 
 
-      * **SSG templating language support**&nbsp;— Bookshop is built for
+      * **SSG templating language support** — Bookshop is built for
       templating and can render the exact same includes you use to build your
       production website.
 
-      * **Easy configuration**&nbsp;— Configure components with TOML, which
+      * **Easy configuration** — Configure components with TOML, which
       functions as a schema for the front matter data structure you'll use in
       your SSG.
 
-      * **Easy integration**&nbsp;— Bookshop includes plugins for popular SSGs,
+      * **Easy integration** — Bookshop includes plugins for popular SSGs,
       allowing them to use components with a distinct template tag that enforces
       a separation of concerns. Using this, Bookshop can seamlessly pass data
       from front matter to your component. There's no need to manually pass data
       to an include one variable at a time.
 
-      * **Isolated component structure**&nbsp;— Bookshop has strong opinions on
+      * **Isolated component structure** — Bookshop has strong opinions on
       how templates and CSS are structured to ensure they're isolated, easy to
       find, and simple to maintain.
 
-      * **Fast build times**&nbsp;— Bookshop is lightweight. Rather than a
+      * **Fast build times** — Bookshop is lightweight. Rather than a
       standalone application, bookshop builds a component browser that can embed
       anywhere on your website. This means you get to use your website styles
       and assets, and esbuild under the hood brings fast build times and quieter
@@ -130,11 +130,7 @@ content_blocks:
     autoplay: true
   - _bookshop_name: text
     content_markdown: >-
-      HTML-based SSGs such as&nbsp;[11ty](https://www.11ty.dev/){:
-      target="_blank" rel="noopener
-      noreferrer"},&nbsp;[Jekyll](https://jekyllrb.com/){: target="_blank"
-      rel="noopener noreferrer"}, and&nbsp;[Hugo](https://gohugo.io/){:
-      target="_blank" rel="noopener noreferrer"}&nbsp;(support coming soon)
+      HTML-based SSGs such as [11ty](https://www.11ty.dev/), [Jekyll](https://jekyllrb.com/), and [Hugo](https://gohugo.io/) (support coming soon)
       benefit the most for Bookshop, as existing tooling doesn't support their
       native templating languages. However, there will still be benefits to
       using Bookshop with React or Vue-based SSGs, particularly if you want
@@ -155,18 +151,17 @@ content_blocks:
       We can't wait to see how you start using Bookshop on your web projects and
       reach new productivity levels. To get started, check out the readme for
       Bookshop in the [GitHub
-      repository](https://github.com/CloudCannon/bookshop){: target="_blank"
-      rel="noopener noreferrer"}. We're always open to any feedback. If you hit
+      repository](https://github.com/CloudCannon/bookshop). We're always open to any feedback. If you hit
       a problem or have an idea to improve Bookshop, open an issue on the
       repository, and we'll be there to help.
     col:
 ---
-We're delighted to launch&nbsp;[Bookshop](https://github.com/CloudCannon/bookshop){: target="_blank" rel="noopener"}\: an open-source framework to speed up development and reduce maintenance on static websites by developing components in isolation.
+We're delighted to launch [Bookshop](https://github.com/CloudCannon/bookshop)\: an open-source framework to speed up development and reduce maintenance on static websites by developing components in isolation.
 
 Building and maintaining high-performing informational websites have their own set of challenges. It's almost impossible to know all the requirements for a website upfront, so there's often an endless amount of iteration and tweaking involved in these projects. Requirements change, new components are necessary, buttons need 'more pizzazz', the data team wants to add a series of graphs to their latest blog post, and it's on you to get everything to work together while being prepared for the next wave of changes. This constant chopping and changing often leads to an unmaintainable jungle of CSS and JavaScript where a complete rebuild becomes the only option. We've all been there; it's usually just a matter of time.
 
 The key to avoiding this jungle is a component-driven workflow. Ideally, you isolate each component's template and CSS. Doing this makes the website far easier to maintain and gives you a framework for adding as many components as you'd like, without your codebase getting out of control.
 
-In a traditional React application, you might reach for [Storybook](https://storybook.js.org/){: target="_blank" rel="noopener noreferrer"} to solve this problem. Storybook provides the tooling needed to build components in isolation, and we're big fans of the workflow that it brings to our React projects.
+In a traditional React application, you might reach for [Storybook](https://storybook.js.org/) to solve this problem. Storybook provides the tooling needed to build components in isolation, and we're big fans of the workflow that it brings to our React projects.
 
-&nbsp;
+ 

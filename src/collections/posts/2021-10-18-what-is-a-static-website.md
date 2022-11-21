@@ -13,11 +13,10 @@ author: cloudcannon
 content_blocks:
   - _bookshop_name: text
     content_markdown: >-
-      Thanks to [Jamstack](https://cloudcannon.com/Jamstack/){: target="_blank"
-      rel="noopener"}, the use cases for static sites are expanding by the day
+      Thanks to [Jamstack](https://cloudcannon.com/Jamstack/), the use cases for static sites are expanding by the day
       and world-leading businesses are choosing static to launch modern,
-      high-performing websites. Take a look at our&nbsp;[Community
-      Showcases](https://cloudcannon.com/community/showcases/)&nbsp;to see some
+      high-performing websites. Take a look at our [Community
+      Showcases](https://cloudcannon.com/community/showcases/) to see some
       of the incredible things people are doing with static site tech.
 
 
@@ -156,8 +155,7 @@ content_blocks:
   - _bookshop_name: text
     content_markdown: >-
       If you're looking to learn a new SSG, there are plenty of [beginner
-      tutorials](https://cloudcannon.com/community/learn/){: target="_blank"
-      rel="noopener"} and community resources to help.&nbsp;
+      tutorials](https://cloudcannon.com/community/learn/) and community resources to help. 
     col: '1'
   - _bookshop_name: spacing
     mobile_unit_number: 8
@@ -180,7 +178,7 @@ content_blocks:
       To get going, you are going to need either an in-house developer or an
       agency that knows how to develop static sites. If you've got that sorted
       or are a developer yourself, then simply sign up for a [free 14-day
-      trial](https://app.cloudcannon.com/register?trial=cc_standard)&nbsp;and
+      trial](https://app.cloudcannon.com/register?trial=cc_standard) and
       start building your site.
     col: '1'
 ---

@@ -15,7 +15,7 @@ This is the first post of my new blog series called Deconstructions. Showcasing 
 
 Straight to the point here it is. Below you can see my clone and my HTML (I changed a few things to make it easier to see):
 
-<div class="timeline-wrapper"><div class="timeline-item"><div class="animated-background facebook"><div class="background-masker header-top">&nbsp;</div><div class="background-masker header-left">&nbsp;</div><div class="background-masker header-right">&nbsp;</div><div class="background-masker header-bottom">&nbsp;</div><div class="background-masker subheader-left">&nbsp;</div><div class="background-masker subheader-right">&nbsp;</div><div class="background-masker subheader-bottom">&nbsp;</div><div class="background-masker content-top">&nbsp;</div><div class="background-masker content-first-end">&nbsp;</div><div class="background-masker content-second-line">&nbsp;</div><div class="background-masker content-second-end">&nbsp;</div><div class="background-masker content-third-line">&nbsp;</div><div class="background-masker content-third-end">&nbsp;</div></div></div></div>
+<div class="timeline-wrapper"><div class="timeline-item"><div class="animated-background facebook"><div class="background-masker header-top"> </div><div class="background-masker header-left"> </div><div class="background-masker header-right"> </div><div class="background-masker header-bottom"> </div><div class="background-masker subheader-left"> </div><div class="background-masker subheader-right"> </div><div class="background-masker subheader-bottom"> </div><div class="background-masker content-top"> </div><div class="background-masker content-first-end"> </div><div class="background-masker content-second-line"> </div><div class="background-masker content-second-end"> </div><div class="background-masker content-third-line"> </div><div class="background-masker content-third-end"> </div></div></div></div>
 
 ```html
 <div class="timeline-wrapper">
@@ -45,7 +45,7 @@ As you can see the demo only contains three types on elements:
 
 This is the easiest bit, it's just a centered div to wrap the content. I chose to use the same colours as Facebook.
 
-<div class="timeline-wrapper"><div class="timeline-item">&nbsp;</div></div>
+<div class="timeline-wrapper"><div class="timeline-item"> </div></div>
 
 ```css
 .timeline-item {
@@ -65,7 +65,7 @@ This is the easiest bit, it's just a centered div to wrap the content. I chose t
 
 This is where the magic happens. It's a box that is has a animated background and that background happens to be a CSS gradient.
 
-<div class="timeline-wrapper"><div class="timeline-item"><div class="animated-background">&nbsp;</div></div></div>
+<div class="timeline-wrapper"><div class="timeline-item"><div class="animated-background"> </div></div></div>
 
 ```css
 @keyframes placeHolderShimmer{
@@ -95,7 +95,7 @@ This is where the magic happens. It's a box that is has a animated background an
 
 Without these the previous step just looks like a stupidly large progress bar. This gives the shape to the placeholder. It's just lots of little white divs that sit on top so you can't see the animation. This part gets messy fast. I have added some borders to this version to illustrate where the masks are placed (Try hovering on each block).
 
-<div class="timeline-wrapper"><div class="timeline-item"><div class="animated-background outlined"><div class="background-masker header-top">&nbsp;</div><div class="background-masker header-left">&nbsp;</div><div class="background-masker header-right">&nbsp;</div><div class="background-masker header-bottom">&nbsp;</div><div class="background-masker subheader-left">&nbsp;</div><div class="background-masker subheader-right">&nbsp;</div><div class="background-masker subheader-bottom">&nbsp;</div><div class="background-masker content-top">&nbsp;</div><div class="background-masker content-first-end">&nbsp;</div><div class="background-masker content-second-line">&nbsp;</div><div class="background-masker content-second-end">&nbsp;</div><div class="background-masker content-third-line">&nbsp;</div><div class="background-masker content-third-end">&nbsp;</div></div></div></div>
+<div class="timeline-wrapper"><div class="timeline-item"><div class="animated-background outlined"><div class="background-masker header-top"> </div><div class="background-masker header-left"> </div><div class="background-masker header-right"> </div><div class="background-masker header-bottom"> </div><div class="background-masker subheader-left"> </div><div class="background-masker subheader-right"> </div><div class="background-masker subheader-bottom"> </div><div class="background-masker content-top"> </div><div class="background-masker content-first-end"> </div><div class="background-masker content-second-line"> </div><div class="background-masker content-second-end"> </div><div class="background-masker content-third-line"> </div><div class="background-masker content-third-end"> </div></div></div></div>
 
 ```css
 .background-masker {
@@ -204,7 +204,7 @@ We can't always remove having to wait for information but we can make the wait f
 
 I have been looking for a situation I can use a loader like this but sadly one has not come up yet. I may use it for the upcoming GitHub integration while I am loading the list of repositories. If you found this useful or have any questions feel free to comment below. I am going to try to do one of these a week so if you see something you want deconstructed let me know.
 
-Note: I used unprefixed CSS in the code examples to keep it clean. You can use [Our CSS Prefixer](http://prefixr.cloudvent.net/){: target="_blank"} to get cross a cross browser version.
+Note: I used unprefixed CSS in the code examples to keep it clean. You can use [Our CSS Prefixer](http://prefixr.cloudvent.net/)  to get cross a cross browser version.
 
 <style type="text/css">@-webkit-keyframes placeHolderShimmer{
         0%{

@@ -42,9 +42,9 @@ The islands era sees a number of SSGs bringing the advantages of partial hydrati
 
 ![](https://dam-cdn.cloudcannon.com/Elder.js-Timeline.svg){: width="600"}
 
-## **[Elder.js](https://elderguide.com/tech/elderjs/){: target="_blank" rel="noopener noreferrer"}**
+## **[Elder.js](https://elderguide.com/tech/elderjs/)**
 
-***[​​](https://elderguide.com/tech/elderjs/)**by [Nick Reese](https://github.com/nickreese){: target="_blank" rel="noopener noreferrer"}*
+***[​​](https://elderguide.com/tech/elderjs/)**by [Nick Reese](https://github.com/nickreese)*
 
 Nick Reese is the co-founder of Elder Guide — a website to find and compare senior living options. Over the past 14 years, Nick has managed five major SEO properties, so the benefits of Jamstack are highly tangible to him.
 
@@ -62,51 +62,51 @@ Elder.js was one of the first SSGs to pioneer partial hydration or islands archi
 
 ![](https://dam-cdn.cloudcannon.com/Sveltekit-Timeline.svg){: width="600"}
 
-## **[Sveltekit](https://kit.svelte.dev/){: target="_blank" rel="noopener noreferrer"}**
+## **[Sveltekit](https://kit.svelte.dev/)**
 
-*by [Rich Harris](https://github.com/Rich-Harris){: target="_blank" rel="noopener noreferrer"}*
+*by [Rich Harris](https://github.com/Rich-Harris)*
 
 After years of working on Sapper, Rich Harris and the Svelte team reflected on the state of the project and had a few realizations:
 
 * The distinction between Svelte templates and Sapper templates is confusing.
 * The codebase had become unkempt over the years and was due for some heavy refactoring.
-* Sapper has assumed a module bundler like Webpack was necessary to create code that can run anywhere. Build tools like&nbsp;[Snowpack](https://www.snowpack.dev/){: target="_blank" rel="noopener noreferrer"}&nbsp;and&nbsp;[Vite](https://vitejs.dev/){: target="_blank" rel="noopener noreferrer"}&nbsp;bridge the pros and cons of an unbundled/bundled workflow and bring a better developer experience.
+* Sapper has assumed a module bundler like Webpack was necessary to create code that can run anywhere. Build tools like [Snowpack](https://www.snowpack.dev/) and [Vite](https://vitejs.dev/) bridge the pros and cons of an unbundled/bundled workflow and bring a better developer experience.
 * Sapper requires running a Node.js server. The Svelte team identified a trend towards serverless platforms and wanted a framework that fully embraced the paradigm.
 
 These ideas led Rich and the Svelte team to build a new Svelte-based application framework from scratch, SvelteKit. The framework addresses the shortcomings of Sapper including:
 
-* The introduction of adapters allowing tight integration with serverless platforms such as&nbsp;[Netlify](https://www.netlify.com/){: target="_blank" rel="noopener noreferrer"},&nbsp;[Vercel](https://vercel.com/){: target="_blank" rel="noopener noreferrer"}, and&nbsp;[Cloudflare](https://workers.cloudflare.com/){: target="_blank" rel="noopener noreferrer"}
+* The introduction of adapters allowing tight integration with serverless platforms such as [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), and [Cloudflare](https://workers.cloudflare.com/)
 * A Vite-powered build to provide a better/faster developer experience
 * The ability to prerender a subset of pages and dynamically render the rest
 * Standardized workflows for working with Svelte
 
 SvelteKit is actively working towards its 1.0, where it will have stable APIs ready for production use. It's a framework that addresses the tradeoffs between having a simple document web page versus a single page application. The icing on the cake will be if Svelte can add an elegant solution for partial hydration.
 
-[*Get started with SvelteKit on CloudCannon.*](https://app.cloudcannon.com/register?trial=cc_standard){: target="_blank" rel="noopener"}
+[*Get started with SvelteKit on CloudCannon.*](https://app.cloudcannon.com/register?trial=cc_standard)
 
 ![](https://dam-cdn.cloudcannon.com/Astro-Timeline.svg){: width="600"}
 
-## **[Astro](https://astro.build/){: target="_blank" rel="noopener noreferrer"}**
+## **[Astro](https://astro.build/)**
 
-*by [Fred K. Schott](https://github.com/FredKSchott){: target="_blank" rel="noopener noreferrer"}*
+*by [Fred K. Schott](https://github.com/FredKSchott)*
 
-"There's a simple secret to building a faster website —&nbsp;*just ship less*." Frameworks like React have normalized shipping hundreds of kb of JavaScript. The choice to use a JavaScript framework involves considering some tradeoffs. How much interactivity do I need? Is it worth the overhead of downloading an entire web framework? Would I be better off using simple HTML, CSS, and vanilla JavaScript?
+"There's a simple secret to building a faster website — *just ship less*." Frameworks like React have normalized shipping hundreds of kb of JavaScript. The choice to use a JavaScript framework involves considering some tradeoffs. How much interactivity do I need? Is it worth the overhead of downloading an entire web framework? Would I be better off using simple HTML, CSS, and vanilla JavaScript?
 
-The team of open source developers behind&nbsp;[Snowpack](https://www.snowpack.dev/)&nbsp;had been pondering these questions and saw an opportunity to create a new SSG, Astro.
+The team of open source developers behind [Snowpack](https://www.snowpack.dev/) had been pondering these questions and saw an opportunity to create a new SSG, Astro.
 
 Astro "borrowed the best parts of our favorite tools and then added a few innovations of our own".
 
 With Astro, you can bring your own JavaScript framework, including React, Svelte, Vue, Preact, web components, or vanilla HTML & JavaScript. On build, Astro renders the entire website to completely static HTML. Static HTML means the pages load extremely quickly with no JavaScript overhead. When you do need interactive JavaScript on a component, Astro loads just that one component. It's partial hydration or islands architecture like Elder.js. On top of that, Astro has SEO features such as automatic site maps, RSS feeds, pagination, and collections to help ensure your site ranks well.
 
-The combination of bringing your own JavaScript framework with partial hydration created tremendous hype in the community. Astro is still in beta and has already amassed a large following of 8k+ stars on GitHub, as well as taking out the [2021 Jammies Ecosystem Innovation Award](https://jamstackconf.com/jammies/){: target="_blank" rel="noopener noreferrer"}. It's certainly one to watch in the future.
+The combination of bringing your own JavaScript framework with partial hydration created tremendous hype in the community. Astro is still in beta and has already amassed a large following of 8k+ stars on GitHub, as well as taking out the [2021 Jammies Ecosystem Innovation Award](https://jamstackconf.com/jammies/). It's certainly one to watch in the future.
 
 ![](https://dam-cdn.cloudcannon.com/Slinkity-Timeline.svg){: width="600"}
 
-## **[Slinkity](https://slinkity.dev/){: target="_blank" rel="noopener noreferrer"}**
+## **[Slinkity](https://slinkity.dev/)**
 
-*by [Ben Holmes](https://github.com/Holben888){: target="_blank" rel="noopener noreferrer"}*
+*by [Ben Holmes](https://github.com/Holben888)*
 
-If there were an award for best SSG launch video, Ben's&nbsp;[Slinkity announcement](https://twitter.com/BHolmesDev/status/1404426841440538627?s=20){: target="_blank" rel="noopener noreferrer"}&nbsp;would get my vote. Slinkity isn't an SSG in its own right. It's a plugin that extends 11ty to bring React, Vue, or Svelte magic to your static website.
+If there were an award for best SSG launch video, Ben's [Slinkity announcement](https://twitter.com/BHolmesDev/status/1404426841440538627?s=20) would get my vote. Slinkity isn't an SSG in its own right. It's a plugin that extends 11ty to bring React, Vue, or Svelte magic to your static website.
 
 At a high level, there are two types of static site generators:
 

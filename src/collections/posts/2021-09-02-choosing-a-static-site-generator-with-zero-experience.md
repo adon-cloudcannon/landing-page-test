@@ -19,7 +19,7 @@ I've been using CloudCannon's CMS for almost a month now, as an editor and a wri
 
 All of which is to say I'm comfortable in the system, but I don't yet know how it all works. And, perhaps just to make it harder for myself, I really want to know. I do know that I could start with a free developer account, and build from there. There's [plenty of documentation](https://cloudcannon.com/documentation/) available, and it's all geared to an interested and informed audience of developers. But given that I've committed to this zero-exp lifestyle of mine — building from the ground up with no assumptions — it's probably worth building locally, and pulling the site in to CloudCannon from Github. The appeal here, as I [mentioned last week](https://cloudcannon.com/blog/how-i-created-my-first-static-website-with-zero-experience-2/), is that I'll be able to use CloudCannon's CMS to branch and merge my edits, and everything I change will be synced to my Github repo.
 
-For a writer who develops — as opposed, I suppose, to a developer who writes — this is a game-changer. (And for a writer who edits compulsively, and has errant daydreams of visualizing the many and varied changes to a single piece of creative work over time, it's all pretty exciting. I've often looked at Ben Fry's [The Preservation of Favoured Traces](https://www.fathom.info/traces/){: target="_blank" rel="noopener noreferrer"} as a model for visualizing versions of altered texts, and the prospect of seeing a comic or film script evolve along these lines is almost more interesting than actually writing the script itself.)
+For a writer who develops — as opposed, I suppose, to a developer who writes — this is a game-changer. (And for a writer who edits compulsively, and has errant daydreams of visualizing the many and varied changes to a single piece of creative work over time, it's all pretty exciting. I've often looked at Ben Fry's [The Preservation of Favoured Traces](https://www.fathom.info/traces/) as a model for visualizing versions of altered texts, and the prospect of seeing a comic or film script evolve along these lines is almost more interesting than actually writing the script itself.)
 
 But before I get anywhere near there, I've got one more decision to make.
 
@@ -27,7 +27,7 @@ But before I get anywhere near there, I've got one more decision to make.
 
 *In which we essentially roll 1d3, with a +1 modifier on future-proofing.*
 
-[Jamstack.org currently lists 333 SSGs](https://jamstack.org/generators/){: target="_blank" rel="noopener noreferrer"}, and that number seems to increase weekly. Rather than be paralyzed by choice I’ll select from three of the most commonly recommended for general use cases: [Hugo](https://cloudcannon.com/hugo-cms/), [Jekyll](https://cloudcannon.com/jekyll-cms/) and [Eleventy](https://cloudcannon.com/eleventy-cms/) (11ty). I've included a some data below (graph courtesy of [GitHub Statistics](https://vesoft-inc.github.io/github-statistics/){: target="_blank" rel="noopener noreferrer"}) showing the commit activity in each; you can also check out their&nbsp;[relative growth in GitHub stars](https://star-history.t9t.io/#jekyll/jekyll&amp;gohugoio/hugo&amp;11ty/eleventy){: target="_blank" rel="noopener noreferrer"}.
+[Jamstack.org currently lists 333 SSGs](https://jamstack.org/generators/), and that number seems to increase weekly. Rather than be paralyzed by choice I’ll select from three of the most commonly recommended for general use cases: [Hugo](https://cloudcannon.com/hugo-cms/), [Jekyll](https://cloudcannon.com/jekyll-cms/) and [Eleventy](https://cloudcannon.com/eleventy-cms/) (11ty). I've included a some data below (graph courtesy of [GitHub Statistics](https://vesoft-inc.github.io/github-statistics/)) showing the commit activity in each; you can also check out their [relative growth in GitHub stars](https://star-history.t9t.io/#jekyll/jekyll&amp;gohugoio/hugo&amp;11ty/eleventy).
 
 ![](https://dam-cdn.cloudcannon.com/blog/commits.png){: width="2350" height="1422"}
 
@@ -35,7 +35,7 @@ You can further compare these three in your own time, and for your own specific 
 
 ### Hugo
 
-[gohugo.io](https://gohugo.io/){: target="_blank" rel="noopener noreferrer"}&nbsp;\| [Hugo CMS](https://cloudcannon.com/hugo-cms/)
+[gohugo.io](https://gohugo.io/) \| [Hugo CMS](https://cloudcannon.com/hugo-cms/)
 
 **At a glance:**
 
@@ -43,7 +43,7 @@ You can further compare these three in your own time, and for your own specific 
 * Built-in shortcodes (appealing to me only because I used them in WordPress and sometimes got them right)
 * Built-in templates. Always a bonus.
 * Multilingual support and internationalization.
-* Handy [image processing](https://gohugo.io/content-management/image-processing/){: target="_blank" rel="noopener noreferrer"} and resizing options. All in service of speed\!&nbsp;
+* Handy [image processing](https://gohugo.io/content-management/image-processing/) and resizing options. All in service of speed\! 
 * Uses Go's html/template and text/template libraries. From what I've read, Go is off-putting to a lot of developers who don't yet use it, but those who do tend to swear by it. So presumably it's something like Stockholm Syndrome.
 * Apache-2.0 license. It's extremely permissive, but verbose (its appendix alone is longer than the full MIT license), and its main requirement is that you explicitly list any modifications to the software.
 
@@ -54,7 +54,7 @@ You can further compare these three in your own time, and for your own specific 
 
 ### Jekyll
 
-[jekyllrb.com](https://jekyllrb.com/){: target="_blank" rel="noopener noreferrer"}&nbsp;\| [Jekyll CMS](https://cloudcannon.com/jekyll-cms/)
+[jekyllrb.com](https://jekyllrb.com/) \| [Jekyll CMS](https://cloudcannon.com/jekyll-cms/)
 
 **At a glance:**
 
@@ -72,7 +72,7 @@ Jekyll is older. Is it future-proofed? What will I do if I have to move my conte
 
 ### Eleventy / 11ty
 
-[11ty.dev](https://www.11ty.dev/){: target="_blank" rel="noopener noreferrer"}&nbsp;\| [11ty CMS](https://cloudcannon.com/eleventy-cms/)
+[11ty.dev](https://www.11ty.dev/) \| [11ty CMS](https://cloudcannon.com/eleventy-cms/)
 
 **At a glance:**
 
@@ -85,7 +85,7 @@ Jekyll is older. Is it future-proofed? What will I do if I have to move my conte
 
 Aside from general unease about throwing myself into the deep end and committing to one SSG, I'm only vaguely concerned that there's no standardized or preferred name for this — is it Eleventy or 11ty? Either one, or both interchangeably, depending on my mood?
 
-Finally, coming from New Zealand but having spent a few years living in Australia, I have [mixed](https://www.doc.govt.nz/nature/pests-and-threats/animal-pests/possums/){: target="_blank" rel="noopener noreferrer"} [feelings](https://backyardbuddies.org.au/backyard-buddies/brushtail-possum/){: target="_blank" rel="noopener noreferrer"} about [Eleventy's possum logo](https://www.11ty.dev/blog/logo-homage/){: target="_blank" rel="noopener noreferrer"}.
+Finally, coming from New Zealand but having spent a few years living in Australia, I have [mixed](https://www.doc.govt.nz/nature/pests-and-threats/animal-pests/possums/) [feelings](https://backyardbuddies.org.au/backyard-buddies/brushtail-possum/) about [Eleventy's possum logo](https://www.11ty.dev/blog/logo-homage/).
 
 Honestly, any one of the three would probably work for this project. All three seem to work well with blog content. Social integration should be relatively trivial, once a site is set up. Even the license doesn't matter much to me, as an end-user who won't be tweaking an SSG's source anytime soon. But I’m a sucker for future-proofing my learning paths, and if I start with Eleventy I can practice templating in Liquid, Nunjucks, Handlebars, Mustache, EJS, HTML, Pug, JavaScript, HTML, and Markdown. Though not necessarily in *that* order…
 
@@ -99,8 +99,8 @@ Hopefully I've chosen well.
 
 ## Previous posts in this series
 
-**Part 1:**&nbsp;[Background \| Preamble](https://cloudcannon.com/blog/how-i-created-my-first-static-website-with-zero-experience-1/)
+**Part 1:** [Background \| Preamble](https://cloudcannon.com/blog/how-i-created-my-first-static-website-with-zero-experience-1/)
 
-**Part 2:**&nbsp;[Git = gud](https://cloudcannon.com/blog/on-git-with-zero-experience/)
+**Part 2:** [Git = gud](https://cloudcannon.com/blog/on-git-with-zero-experience/)
 
-<br>*Edited to add:* Hugo's image processing feature.
+*Edited to add:* Hugo's image processing feature.

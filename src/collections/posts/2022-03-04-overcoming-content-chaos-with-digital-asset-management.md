@@ -11,7 +11,7 @@ tags:
   - Features
 author: david-large
 ---
-We're happy to announce Digital Asset Management (DAM) support for [Amazon S3](https://aws.amazon.com/s3/){: target="_blank" rel="noopener noreferrer"}, [Google Cloud Storage buckets](https://cloud.google.com/storage/docs/buckets){: target="_blank" rel="noopener noreferrer"}, and [Cloudinary](https://cloudinary.com/){: target="_blank" rel="noopener noreferrer"} within CloudCannon for all users, and&nbsp;[Tenovos](https://tenovos.com/){: target="_blank" rel="noopener noreferrer"} support for users on our Enterprise plans. CloudCannon is proudly Git-powered (with Git LFS support), which is ideal for almost all the files that comprise a static site, but Git repositories aren't always the best place for large volumes of media assets. Git repository sizes are commonly limited to around 2GB, which can pretty quickly be filled with high-resolution images, video, and large documents.
+We're happy to announce Digital Asset Management (DAM) support for [Amazon S3](https://aws.amazon.com/s3/), [Google Cloud Storage buckets](https://cloud.google.com/storage/docs/buckets), and [Cloudinary](https://cloudinary.com/) within CloudCannon for all users, and [Tenovos](https://tenovos.com/) support for users on our Enterprise plans. CloudCannon is proudly Git-powered (with Git LFS support), which is ideal for almost all the files that comprise a static site, but Git repositories aren't always the best place for large volumes of media assets. Git repository sizes are commonly limited to around 2GB, which can pretty quickly be filled with high-resolution images, video, and large documents.
 
 Many agency clients with in-house marketing teams will require centralized and easily accessible asset storage. Digital agencies themselves are likely beneficiaries of a well-planned DAM setup, as brand-approved assets will be more readily available for web development projects.
 
@@ -21,11 +21,11 @@ If you're wondering what the big deal is, and why brands are turning to DAM syst
 
 Digital Asset Management solutions help companies organize, store, and retrieve their digital assets, manage rights and permissions, and establish meaningful connections between disparate files.
 
-If you’re thinking this sounds like a glorified metadata and storage system … you wouldn’t be wrong. But the advantages of DAM don’t end there. For static sites in particular, DAM systems help keep large volumes of media out of Git repositories, where they can increase build and deployment times, as well as degrading performance during development.&nbsp;
+If you’re thinking this sounds like a glorified metadata and storage system … you wouldn’t be wrong. But the advantages of DAM don’t end there. For static sites in particular, DAM systems help keep large volumes of media out of Git repositories, where they can increase build and deployment times, as well as degrading performance during development. 
 
-If your latest web development project is mired in content chaos — the semantic equivalent of spaghetti source code — you’re not alone. Many content editors struggle with a single `uploads` folder full to bursting of image revisions, different edits of product videos, dated documents that are held just because they *might not* be backed up elsewhere. And while it’s *extremely* unlikely that your site won’t load if [coconut.vtf](https://www.verifythis.com/article/news/verify/pop-culture/no-coconut-picture-tf2-not-keeping-computer-game-running/536-6b1f2929-803d-4e96-8347-231cf0273420){: target="_blank" rel="noopener noreferrer"} is missing from a given directory, it’s never a bad time to consider how to really connect digital assets with their users.
+If your latest web development project is mired in content chaos — the semantic equivalent of spaghetti source code — you’re not alone. Many content editors struggle with a single `uploads` folder full to bursting of image revisions, different edits of product videos, dated documents that are held just because they *might not* be backed up elsewhere. And while it’s *extremely* unlikely that your site won’t load if [coconut.vtf](https://www.verifythis.com/article/news/verify/pop-culture/no-coconut-picture-tf2-not-keeping-computer-game-running/536-6b1f2929-803d-4e96-8347-231cf0273420) is missing from a given directory, it’s never a bad time to consider how to really connect digital assets with their users.
 
-According to [some industry studies](https://www.mediavalet.com/blog/dam-every-marketers-forecast-infographic/){: target="_blank" rel="noopener noreferrer"}, up to 65% of sales representatives say they have trouble finding content to send to prospective clients. (And that's assuming the content is already at the correct aspect ratio and file format\!) Let’s help solve this problem.
+According to [some industry studies](https://www.mediavalet.com/blog/dam-every-marketers-forecast-infographic/), up to 65% of sales representatives say they have trouble finding content to send to prospective clients. (And that's assuming the content is already at the correct aspect ratio and file format\!) Let’s help solve this problem.
 
 ## Value your assets
 
@@ -41,7 +41,7 @@ Finally, and importantly for the thousands of companies increasingly shifting to
 
 Both internal and external users will see benefits from a DAM solution.
 
-Internally, DAM allows internal **creative teams** to upload content and brand assets for **sales and marketing** teams to access. Through DAM providers like Cloudinary,&nbsp;**developers** will have access to APIs and SDKs in order to integrate assets and asset data, while **legal teams** will appreciate the compliance features and expiration date tagging offered by most DAM solutions.
+Internally, DAM allows internal **creative teams** to upload content and brand assets for **sales and marketing** teams to access. Through DAM providers like Cloudinary, **developers** will have access to APIs and SDKs in order to integrate assets and asset data, while **legal teams** will appreciate the compliance features and expiration date tagging offered by most DAM solutions.
 
 DAM systems also allow external partners, including **contractors**, **agencies**, and **clients**, to access assets, while also ensuring brand consistency, compliance, and security.
 
@@ -73,4 +73,4 @@ Not just more numbers — better numbers\! Track where assets are used; track wh
 
 ## Getting set up
 
-Find out more about Assets in CloudCannon, and how to configure your chosen DAM system over on our [Documentation](https://cloudcannon.com/documentation/articles/introduction-to-assets-and-dams/){: target="_blank" rel="noopener"} pages. And remember, you can always reach out to our support team in-app if you have any questions along the way.
+Find out more about Assets in CloudCannon, and how to configure your chosen DAM system over on our [Documentation](https://cloudcannon.com/documentation/articles/introduction-to-assets-and-dams/) pages. And remember, you can always reach out to our support team in-app if you have any questions along the way.

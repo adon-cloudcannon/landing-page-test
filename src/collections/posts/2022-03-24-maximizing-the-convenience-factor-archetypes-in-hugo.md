@@ -19,13 +19,13 @@ However, there’s another key advantage that probably doesn’t get nearly the 
 
 When used properly, SSGs can automate many of the tasks involved in building and maintaining a website. This capability, which becomes increasingly important as the site grows in size and complexity, reduces the need to concentrate on some of the more mundane aspects of website work. As a result, web developers and their clients have more time and freedom to make better decisions about websites’ content, performance, and design — the things that will most effectively satisfy current visitors and attract new visitors.
 
-Similarly, web devs often praise [Hugo](https://gohugo.io/){: target="_blank" rel="noopener"} for its admittedly awesome build speed, yet overlook how Hugo is packed with features designed specifically to provide category-leading convenience to both developers and site owners. In this article, we’ll try to make at least some headway in correcting that oversight, as we take a closer look at Hugo’s ***archetypes***.
+Similarly, web devs often praise [Hugo](https://gohugo.io/) for its admittedly awesome build speed, yet overlook how Hugo is packed with features designed specifically to provide category-leading convenience to both developers and site owners. In this article, we’ll try to make at least some headway in correcting that oversight, as we take a closer look at Hugo’s ***archetypes***.
 
 ## Archetypes in general
 
 To begin with: what exactly *is* an archetype, Hugo’s use of the term aside?
 
-According to [dictionary.com](https://www.dictionary.com/browse/archetype){: target="_blank" rel="noopener noreferrer"}, the word *archetype* means: “The original pattern of model from which all things of the same kind are copied or on which they are based; a model or first form; \[a\] prototype.”
+According to [dictionary.com](https://www.dictionary.com/browse/archetype), the word *archetype* means: “The original pattern of model from which all things of the same kind are copied or on which they are based; a model or first form; \[a\] prototype.”
 
 Think of a cookie-cutter. With cookie dough and a cookie-cutter that’s shaped like a gingerbread man, you’ll end up with gingerbread-man cookies. That cookie-cutter’s shape was the *archetype* for the shape of each cookie.
 
@@ -39,9 +39,9 @@ As you probably know, much of what any SSG brings to the table depends heavily o
 
 But what has that to do with archetypes? Perhaps we can put it this way: not every Hugo template is an archetype, but every Hugo archetype is a template — and a special *kind* of template, at that.
 
-To quote the [Hugo documentation](https://gohugo.io/content-management/archetypes/){: target="_blank" rel="noopener noreferrer"}\: “**Archetypes are templates used when creating new content.**” Let’s dig more deeply into that explanation.
+To quote the [Hugo documentation](https://gohugo.io/content-management/archetypes/)\: “**Archetypes are templates used when creating new content.**” Let’s dig more deeply into that explanation.
 
-If you’ve ever run `hugo new site` to create a (you guessed it) new Hugo site, you know that one of the default folders in the resulting project is `archetypes/`, which contains a single file, `default.md`. In that file, you’ll find only the following [front matter](https://gohugo.io/content-management/front-matter/){: target="_blank" rel="noopener noreferrer"}\:
+If you’ve ever run `hugo new site` to create a (you guessed it) new Hugo site, you know that one of the default folders in the resulting project is `archetypes/`, which contains a single file, `default.md`. In that file, you’ll find only the following [front matter](https://gohugo.io/content-management/front-matter/)\:
 
 ```markdown
 ---
@@ -146,7 +146,7 @@ First, above the front matter’s top `---` delimiter, we’re creating three va
 * `$prod` is that file name *without* the `-nnn` part of the name; *e.g.*, just `alpha`.
 * `$prodName` is `$prod` converted to nice, neat title case; *e.g.*, `Alpha`.
 
-From there, we get the date/time (`.Date`) of the file’s creation, as in Hugo’s default archetype, and then we use `type` to tell Hugo which *layout* to use (if necessary, refer to our earlier article, “[The Ultimate Guide to Hugo Sections](https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/){: target="_blank" rel="noopener"}”).
+From there, we get the date/time (`.Date`) of the file’s creation, as in Hugo’s default archetype, and then we use `type` to tell Hugo which *layout* to use (if necessary, refer to our earlier article, “[The Ultimate Guide to Hugo Sections](https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/)”).
 
 Remember the client’s requirement about the URL? We meet it with the `slug` line. While a Hugo URL usually is based strictly on where a content file is located, using `slug` overrides that. Thus, in this example, `content/support/customers/faq/alpha-029.md` will produce the desired URL of `xyzcompany.com/support/customers/faq/alpha-widgets/029/` (*i.e.*, rather than `xyzcompany.com/support/customers/faq/alpha-029/`, as Hugo normally would do it).
 

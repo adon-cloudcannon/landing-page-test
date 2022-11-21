@@ -25,17 +25,17 @@ Let’s see how they match up.
 
 ## **What is Hugo?**
 
-Hugo is a static site generator built with Go (a.k.a. Golang), released in 2013 by&nbsp;[Steve Francia](https://github.com/spf13){: target="_blank" rel="noopener noreferrer"}&nbsp;and actively (since version 0.14) maintained by&nbsp;[Bj&oslash;rn Erik Pedersen](https://github.com/bep){: target="_blank" rel="noopener noreferrer"}.
+Hugo is a static site generator built with Go (a.k.a. Golang), released in 2013 by [Steve Francia](https://github.com/spf13) and actively (since version 0.14) maintained by [Bj&oslash;rn Erik Pedersen](https://github.com/bep).
 
 Hugo is incredibly widely supported by Jamstack hosts and CMSs, and has more than 100K live sites, largely because of its well-deserved reputation for speed, simplicity and flexibility. It bills itself as “the world’s fastest static website engine”, with build times on an average site of less than 1ms per page.
 
-With great speed also comes great simplicity: Hugo is distributed as a single cross-platform binary, meaning unless you want additional dependencies (and there are plenty to choose from), your installations can be up and running sooner, with built-in functionalities like i18n, menus, sitemaps, feeds and image optimization. Themes?&nbsp;[Hugo’s got them](https://themes.gohugo.io/).
+With great speed also comes great simplicity: Hugo is distributed as a single cross-platform binary, meaning unless you want additional dependencies (and there are plenty to choose from), your installations can be up and running sooner, with built-in functionalities like i18n, menus, sitemaps, feeds and image optimization. Themes? [Hugo’s got them](https://themes.gohugo.io/).
 
 ### **Sites made with Hugo**
 
-* [stackimpact.com](http://stackimpact.com/){: target="_blank" rel="noopener noreferrer"}
-* [digital.gov](http://digital.gov/){: target="_blank" rel="noopener noreferrer"}
-* [godottutorials.com](http://godottutorials.com/){: target="_blank" rel="noopener noreferrer"}
+* [stackimpact.com](http://stackimpact.com/)
+* [digital.gov](http://digital.gov/)
+* [godottutorials.com](http://godottutorials.com/)
 
 ## **What is Eleventy?**
 
@@ -49,9 +49,9 @@ With Eleventy’s independent template engines, your content is firmly decoupled
 
 ### **Sites made with Eleventy**
 
-* [netlify.com](http://netlify.com/){: target="_blank" rel="noopener noreferrer"}
-* [web.dev](http://web.dev/){: target="_blank" rel="noopener noreferrer"}
-* [developer.chrome.com](http://developer.chrome.com/){: target="_blank" rel="noopener noreferrer"}
+* [netlify.com](http://netlify.com/)
+* [web.dev](http://web.dev/)
+* [developer.chrome.com](http://developer.chrome.com/)
 
 ## At a glance
 
@@ -68,14 +68,14 @@ With Eleventy’s independent template engines, your content is firmly decoupled
 | Build speeds | Fast | Fastest |
 | Multilingual and i18n | Via plugins | Built in |
 | Shortcodes | Yes | Yes |
-| Easy Wordpress et al. converter | No; you’ll need to convert to Markdown and then clean up with layout templates. | Yes: [gohugo.io/tools/migrations](http://gohugo.io/tools/migrations){: target="_blank" rel="noopener noreferrer"} |
+| Easy Wordpress et al. converter | No; you’ll need to convert to Markdown and then clean up with layout templates. | Yes: [gohugo.io/tools/migrations](http://gohugo.io/tools/migrations) |
 | Learning curve | Gentle, especially if you have JavaScript experience | Less gentle / non-trivial |
-| Documentation | [11ty.dev](http://11ty.dev){: target="_blank" rel="noopener noreferrer"} | [gohugo.io](http://gohugo.io){: target="_blank" rel="noopener noreferrer"} |
-| Support communities | [Eleventy Discord](https://discord.gg/GBkBy9u){: target="_blank" rel="noopener noreferrer"}&nbsp;and&nbsp;[eleventy-community](https://github.com/11ty/eleventy-community){: target="_blank" rel="noopener noreferrer"}&nbsp;both have helpful communities. | [Hugo Discourse](https://discourse.gohugo.io/){: target="_blank" rel="noopener noreferrer"}&nbsp;is a full-service forum with many active users. |
-| Twitter accounts | [Eleventy Twitter](https://twitter.com/eleven_ty){: target="_blank" rel="noopener noreferrer"} | [Hugo Twitter](https://twitter.com/GoHugoIO){: target="_blank" rel="noopener noreferrer"} |
-| GitHub repos | [github.com/11ty/eleventy](https://github.com/11ty/eleventy/){: target="_blank" rel="noopener noreferrer"} | [github.com/gohugoio](https://github.com/gohugoio/){: target="_blank" rel="noopener noreferrer"} |
+| Documentation | [11ty.dev](http://11ty.dev) | [gohugo.io](http://gohugo.io) |
+| Support communities | [Eleventy Discord](https://discord.gg/GBkBy9u) and [eleventy-community](https://github.com/11ty/eleventy-community) both have helpful communities. | [Hugo Discourse](https://discourse.gohugo.io/) is a full-service forum with many active users. |
+| Twitter accounts | [Eleventy Twitter](https://twitter.com/eleven_ty) | [Hugo Twitter](https://twitter.com/GoHugoIO) |
+| GitHub repos | [github.com/11ty/eleventy](https://github.com/11ty/eleventy/) | [github.com/gohugoio](https://github.com/gohugoio/) |
 
-\* See&nbsp;[star-history.t9t.io/\#11ty/eleventy&gohugoio/hugo](https://star-history.t9t.io/#11ty/eleventy&amp;gohugoio/hugo){: target="_blank" rel="noopener noreferrer"}&nbsp;for a comparison over time. It’s always also worth noting that GitHub stars are solely a metric for how many users have pressed the star button — some do this to indicate a favorite repository, but others use the star system to follow active development, to be recommended similar projects, or just to support friends.
+\* See [star-history.t9t.io/\#11ty/eleventy&gohugoio/hugo](https://star-history.t9t.io/#11ty/eleventy&amp;gohugoio/hugo) for a comparison over time. It’s always also worth noting that GitHub stars are solely a metric for how many users have pressed the star button — some do this to indicate a favorite repository, but others use the star system to follow active development, to be recommended similar projects, or just to support friends.
 
 ## **So, which should I choose?**
 
@@ -83,8 +83,8 @@ It’s a question of preference and your confidence, really. Both Eleventy and H
 
 But the choice likely boils down to what you already know, and what you want to learn. Which languages and frameworks suit your development team? Or your client?
 
-Choose&nbsp;[**Hugo**](https://cloudcannon.com/hugo-cms/)&nbsp;if you’re comfortable working with Go, plan on having many thousands of posts or pages on your site, and you enjoy a steep learning curve. Hugo’s support community is very helpful for those starting out.
+Choose [**Hugo**](https://cloudcannon.com/hugo-cms/) if you’re comfortable working with Go, plan on having many thousands of posts or pages on your site, and you enjoy a steep learning curve. Hugo’s support community is very helpful for those starting out.
 
-Choose&nbsp;[**Eleventy**](https://cloudcannon.com/eleventy-cms/)&nbsp;if you’re newer to the SSG world, your workflow includes collaborative development across different languages, or you intend to pass your site over to a client whose developers use anything other than Go. Sitting in the sweet spot between minimal and flexible, Eleventy is easy to theme and extend, and with its gentle learning curve it’s ideal for SSG beginners.
+Choose [**Eleventy**](https://cloudcannon.com/eleventy-cms/) if you’re newer to the SSG world, your workflow includes collaborative development across different languages, or you intend to pass your site over to a client whose developers use anything other than Go. Sitting in the sweet spot between minimal and flexible, Eleventy is easy to theme and extend, and with its gentle learning curve it’s ideal for SSG beginners.
 
 Whichever you choose, CloudCannon can help make your SSG experience even easier, from instant testing domains to a robust editor. Our [learning path for Hugo](https://cloudcannon.com/community/learn/hugo-101/) is already established, and over the coming weeks we'll roll out a series of blog posts, comparisons and tutorials for Eleventy, enabling you to get up and running as soon as possible. Whether you sync from your repository or CloudCannon’s [Git-based CMS](https://cloudcannon.com/git-cms/), you and your team will always stay up to date.

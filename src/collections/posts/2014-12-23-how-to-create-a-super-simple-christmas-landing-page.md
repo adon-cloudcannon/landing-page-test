@@ -28,7 +28,7 @@ The new version of [Skeleton responsive boilerplate](http://getskeleton.com/) ca
 
 The Snow background adds a really nice effect. It uses a set of background images paired with CSS animations to make them move separately from one another. [A full tutorial is available on designmodo.com](http://designshack.net/articles/css/make-it-snow-on-your-website-with-css-keyframe-animations/).
 
-<div class="snow">&nbsp;</div>
+<div class="snow"> </div>
 
 ```css
 @keyframes snow {
@@ -52,7 +52,7 @@ body {
 
 The Box uses 3D transformations to align all the edges. I originally based the code off [a tutorial found by googling "CSS Cube"](http://desandro.github.io/3dtransforms/docs/cube.html). It goes in depth about the 3D transformations. One very important attribute to note is `transform-style: preserve-3d;`, this tells the browser to act in a 3D space. If your transforms and transitions are looking very flat then this is probably what is missing. FYI, colours used are from [the Google Material Design colour pallete](http://www.google.com/design/spec/style/color.html#color-color-palette).
 
-<section class="cube-wrapper moved"><div class="cube"><figure class="front">&nbsp;</figure><figure class="back">&nbsp;</figure><figure class="right">&nbsp;</figure><figure class="left">&nbsp;</figure><figure class="top">&nbsp;</figure><figure class="bottom">&nbsp;</figure></div></section>
+<section class="cube-wrapper moved"><div class="cube"><figure class="front"> </figure><figure class="back"> </figure><figure class="right"> </figure><figure class="left"> </figure><figure class="top"> </figure><figure class="bottom"> </figure></div></section>
 
 ```html
 <section class="cube-wrapper">
@@ -78,7 +78,7 @@ $(".cube-wrapper").click(function () {
 
 The closed state has 4 segments on the top all pointed inwards. This is just four divs occupying the four different quadrants of the parent square. I did it this way instead of adding more parent figures to keep things modular.
 
-<section class="cube-wrapper"><div class="cube"><figure class="front">&nbsp;</figure><figure class="back">&nbsp;</figure><figure class="right">&nbsp;</figure><figure class="left">&nbsp;</figure><figure class="top"><div class="lower lower-left">&nbsp;</div><div class="lower lower-right">&nbsp;</div><div class="upper upper-left">&nbsp;</div><div class="upper upper-right">&nbsp;</div></figure><figure class="bottom">&nbsp;</figure></div></section>
+<section class="cube-wrapper"><div class="cube"><figure class="front"> </figure><figure class="back"> </figure><figure class="right"> </figure><figure class="left"> </figure><figure class="top"><div class="lower lower-left"> </div><div class="lower lower-right"> </div><div class="upper upper-left"> </div><div class="upper upper-right"> </div></figure><figure class="bottom"> </figure></div></section>
 
 ```html
 <figure class="top">
@@ -141,7 +141,7 @@ This CSS places the 4 flaps in the correct position using transforms. The Z tran
 
 For the open state we want the elements to flip across from the outside edge which is where we have set the transform origin.
 
-<section class="cube-wrapper open"><div class="cube"><figure class="front">&nbsp;</figure><figure class="back">&nbsp;</figure><figure class="right">&nbsp;</figure><figure class="left">&nbsp;</figure><figure class="top"><div class="lower lower-left">&nbsp;</div><div class="lower lower-right">&nbsp;</div><div class="upper upper-left">&nbsp;</div><div class="upper upper-right">&nbsp;</div></figure><figure class="bottom">&nbsp;</figure></div></section>
+<section class="cube-wrapper open"><div class="cube"><figure class="front"> </figure><figure class="back"> </figure><figure class="right"> </figure><figure class="left"> </figure><figure class="top"><div class="lower lower-left"> </div><div class="lower lower-right"> </div><div class="upper upper-left"> </div><div class="upper upper-right"> </div></figure><figure class="bottom"> </figure></div></section>
 
 ```css
 .open .cube .top .upper-right {
@@ -171,9 +171,9 @@ We have translated the elements to be all on the same Z plane. I chose 150 degre
 
 Quite a simple effect gives the whole scene a lot more depth. I replicated the bottom edge of the box, extended it and changed the background.
 
-<section class="cube-wrapper"><div class="cube"><figure class="front">&nbsp;</figure><figure class="back">&nbsp;</figure><figure class="right">&nbsp;</figure><figure class="left">&nbsp;</figure><figure class="top"><div class="lower lower-left">&nbsp;</div><div class="lower lower-right">&nbsp;</div><div class="upper upper-left">&nbsp;</div><div class="upper upper-right">&nbsp;</div></figure><figure class="bottom">&nbsp;</figure><figure class="shadow">&nbsp;</figure></div></section>
+<section class="cube-wrapper"><div class="cube"><figure class="front"> </figure><figure class="back"> </figure><figure class="right"> </figure><figure class="left"> </figure><figure class="top"><div class="lower lower-left"> </div><div class="lower lower-right"> </div><div class="upper upper-left"> </div><div class="upper upper-right"> </div></figure><figure class="bottom"> </figure><figure class="shadow"> </figure></div></section>
 
-<section class="cube-wrapper open"><div class="cube"><figure class="front">&nbsp;</figure><figure class="back">&nbsp;</figure><figure class="right">&nbsp;</figure><figure class="left">&nbsp;</figure><figure class="top"><div class="lower lower-left">&nbsp;</div><div class="lower lower-right">&nbsp;</div><div class="upper upper-left">&nbsp;</div><div class="upper upper-right">&nbsp;</div></figure><figure class="bottom">&nbsp;</figure><figure class="shadow">&nbsp;</figure></div></section>
+<section class="cube-wrapper open"><div class="cube"><figure class="front"> </figure><figure class="back"> </figure><figure class="right"> </figure><figure class="left"> </figure><figure class="top"><div class="lower lower-left"> </div><div class="lower lower-right"> </div><div class="upper upper-left"> </div><div class="upper upper-right"> </div></figure><figure class="bottom"> </figure><figure class="shadow"> </figure></div></section>
 
 ```css
 .cube .shadow {

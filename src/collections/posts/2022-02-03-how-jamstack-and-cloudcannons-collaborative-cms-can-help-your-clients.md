@@ -33,7 +33,7 @@ In fact, with a CMS like CloudCannon, editors can even see their on-page changes
 
 ### **What about SEO and analytics? Can I track everything I currently do in Google Analytics?**
 
-Absolutely\! Google Analytics works with static sites just as easily as it does with a legacy CMS like WordPress. (And static sites typically load faster than dynamic sites which leads to better ranking on search engines.) High [Lighthouse scores](https://developers.google.com/web/tools/lighthouse){: target="_blank" rel="noopener noreferrer"} — on Performance, Accessibility, Best Practice and SEO — greatly impact search rankings, and static sites typically have higher Lighthouse scores. All of this means a better user experience, optimized capacity for your customers, and ultimately increased conversions for you.
+Absolutely\! Google Analytics works with static sites just as easily as it does with a legacy CMS like WordPress. (And static sites typically load faster than dynamic sites which leads to better ranking on search engines.) High [Lighthouse scores](https://developers.google.com/web/tools/lighthouse) — on Performance, Accessibility, Best Practice and SEO — greatly impact search rankings, and static sites typically have higher Lighthouse scores. All of this means a better user experience, optimized capacity for your customers, and ultimately increased conversions for you.
 
 It’s worth pointing out that all of your current marketing tools can continue to work, as well — Crazy Egg, Clarity, Matomo, Hotjar and more. [Compare these and more Jamstack-compatible analytics tools here](https://cloudcannon.com/community/jamstack-ecosystem/analytics/).
 
@@ -65,7 +65,7 @@ It’s not just about swapping in text and images, though. We can create complex
 
 ### **But if we rely on open-source tools and software, who will support them?** **What about maintenance costs?**
 
-These are legitimate concerns for many businesses, and also the reason why so many choose more expensive software options. But here's why you don't need to worry. Thousands of developers contribute their time to open-source software projects (like SSGs), [many](https://svelte.dev/blog/accelerating-sveltes-development){: target="_blank" rel="noopener noreferrer"} [of](https://techcrunch.com/2021/11/23/vercel-raises-150m-series-d-as-it-looks-to-build-an-end-to-end-front-end-development-platform/){: target="_blank" rel="noopener noreferrer"} [which](https://astro.build/blog/introducing-astro/){: target="_blank" rel="noopener noreferrer"} [have](https://www.11ty.dev/docs/supporters/){: target="_blank" rel="noopener noreferrer"} received ongoing financial support from companies and independent developers who believe in the respective projects. And CloudCannon’s CMS is, of course, a service. Their support team helps agency developers like me with any issues relating to the site behind the scenes. Agency devs help set up clients like you with the design and constrained page elements you need. And you'll have access to easily change the site’s content, layout, and everything your users will see.
+These are legitimate concerns for many businesses, and also the reason why so many choose more expensive software options. But here's why you don't need to worry. Thousands of developers contribute their time to open-source software projects (like SSGs), [many](https://svelte.dev/blog/accelerating-sveltes-development) [of](https://techcrunch.com/2021/11/23/vercel-raises-150m-series-d-as-it-looks-to-build-an-end-to-end-front-end-development-platform/) [which](https://astro.build/blog/introducing-astro/) [have](https://www.11ty.dev/docs/supporters/) received ongoing financial support from companies and independent developers who believe in the respective projects. And CloudCannon’s CMS is, of course, a service. Their support team helps agency developers like me with any issues relating to the site behind the scenes. Agency devs help set up clients like you with the design and constrained page elements you need. And you'll have access to easily change the site’s content, layout, and everything your users will see.
 
 Besides, with a CMS like CloudCannon, there’s no ongoing maintenance. Where a normal WordPress site might rely on juggling plugins and additional services — each with its own insecurities, risks and compatibility issues — CloudCannon is a very lean stack.
 
@@ -73,7 +73,7 @@ This means sites are more stable no matter how often the content is updated, and
 
 ### **This … actually sounds great? When can we start?**
 
-As soon as you want\! In fact, I can&nbsp;[sign up for a 14-day trial with CloudCannon right now](https://app.cloudcannon.com/register?trial=cc_standard).
+As soon as you want\! In fact, I can [sign up for a 14-day trial with CloudCannon right now](https://app.cloudcannon.com/register?trial=cc_standard).
 
 Or, you can browse [ready-made templates](https://cloudcannon.com/community/themes/) here. It's even possible for me to [deploy a sample portfolio site](https://app.cloudcannon.com/#sites/templates/jekyll/vonge), or [a product / SaaS business site,](https://app.cloudcannon.com/#sites/templates/jekyll/hydra) in a single click.
 
@@ -81,9 +81,9 @@ Or, you can browse [ready-made templates](https://cloudcannon.com/community/them
 
 A faster and more responsive site is always a better user experience. If you run a transaction-driven site, then giving your users a fast experience is a key way to differentiate from your competition. But if you think you have to convince anyone on this point, just look at the stats:
 
-* Website performance has a huge influence on how customers perceive a brand — a one-second delay in website load time reduces customer satisfaction by 16%. \[[1](http://www.aberdeen.com/Aberdeen-Library/5136/RA-performance-web-application.aspx){: target="_blank" rel="noopener noreferrer"}\]
-* Every 100ms delay in site load time can reduce conversion rates by 7%. \[[2](https://www.akamai.com/uk/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp){: target="_blank" rel="noopener noreferrer"}\]
-* When mobile page load times balloon from 1s to 3s, bounce rates increase by 32%. (If your site takes 5s to load, you’d be looking at a 90% bounce rate\!) \[[3](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/){: target="_blank" rel="noopener noreferrer"}\]
+* Website performance has a huge influence on how customers perceive a brand — a one-second delay in website load time reduces customer satisfaction by 16%. \[[1](http://www.aberdeen.com/Aberdeen-Library/5136/RA-performance-web-application.aspx)\]
+* Every 100ms delay in site load time can reduce conversion rates by 7%. \[[2](https://www.akamai.com/uk/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)\]
+* When mobile page load times balloon from 1s to 3s, bounce rates increase by 32%. (If your site takes 5s to load, you’d be looking at a 90% bounce rate\!) \[[3](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/)\]
 * Google’s search algorithm privileges sites that load faster than average. (CloudCannon’s median page load time is 6x faster than the web’s average.)
 
 ### **What about downtime? Will my website stay online?**
@@ -102,7 +102,7 @@ Where should I start?
 
 ![Netflix website on a laptop screen](https://dam-cdn.cloudcannon.com/netflix-desktop.png "Netflix website")
 
-&nbsp;
+ 
 
 [Netflix uses Jamstack](https://cloudcannon.com/customers/netflix/) (via CloudCannon) to create an extensive network of international sites to maintain and manage relationships with its customers and partners.
 
@@ -114,21 +114,21 @@ Where should I start?
 
 Other prominent businesses, blogs and public foundations using the Jamstack approach include:
 
-* [PayPal](https://www.paypal.com/){: target="_blank" rel="noopener noreferrer"}
-* [Hulu](https://www.hulu.com/){: target="_blank" rel="noopener noreferrer"}
-* [Audible](https://www.audible.com/about/){: target="_blank" rel="noopener noreferrer"}
-* [Bang & Olufsen](https://www.bang-olufsen.com/en){: target="_blank" rel="noopener noreferrer"}
-* [Louis Vuitton](https://us.louisvuitton.com/){: target="_blank" rel="noopener noreferrer"}
-* [Peloton](https://www.onepeloton.com/){: target="_blank" rel="noopener noreferrer"}
-* [Pan Macmillan](https://www.panmacmillan.com/){: target="_blank" rel="noopener noreferrer"}
-* [LEGO for kids](https://www.lego.com/en-us/kids){: target="_blank" rel="noopener noreferrer"}
-* [Starbucks Reserve](https://www.starbucksreserve.com/en-us){: target="_blank" rel="noopener noreferrer"}
-* [National Geographic](https://www.nationalgeographic.co.uk/){: target="_blank" rel="noopener noreferrer"}
-* [Smashing Magazine](https://www.smashingmagazine.com/2020/01/migration-from-wordpress-to-jamstack/){: target="_blank" rel="noopener noreferrer"}
-* [web.dev](https://web.dev/){: target="_blank" rel="noopener noreferrer"}
-* [digital.gov](https://digital.gov/){: target="_blank" rel="noopener noreferrer"}
-* [Bitcoin.com](https://www.bitcoin.com/){: target="_blank" rel="noopener noreferrer"}
-* [University of Bristol](https://www.bristol.ac.uk/){: target="_blank" rel="noopener noreferrer"}
-* [Leonardo DiCaprio Foundation (Re:wild)](https://www.rewild.org/){: target="_blank" rel="noopener noreferrer"}
+* [PayPal](https://www.paypal.com/)
+* [Hulu](https://www.hulu.com/)
+* [Audible](https://www.audible.com/about/)
+* [Bang & Olufsen](https://www.bang-olufsen.com/en)
+* [Louis Vuitton](https://us.louisvuitton.com/)
+* [Peloton](https://www.onepeloton.com/)
+* [Pan Macmillan](https://www.panmacmillan.com/)
+* [LEGO for kids](https://www.lego.com/en-us/kids)
+* [Starbucks Reserve](https://www.starbucksreserve.com/en-us)
+* [National Geographic](https://www.nationalgeographic.co.uk/)
+* [Smashing Magazine](https://www.smashingmagazine.com/2020/01/migration-from-wordpress-to-jamstack/)
+* [web.dev](https://web.dev/)
+* [digital.gov](https://digital.gov/)
+* [Bitcoin.com](https://www.bitcoin.com/)
+* [University of Bristol](https://www.bristol.ac.uk/)
+* [Leonardo DiCaprio Foundation (Re:wild)](https://www.rewild.org/)
 
 The list goes on, of course, but it’s clear that there’s really no upper limit on Jamstack’s capabilities, from publishing to ecommerce. Static sites scale easily from small marketing sites through to services with millions of users, provide a consistent user experience, and best of all — for developers like me and companies like you — are incredibly efficient to develop.

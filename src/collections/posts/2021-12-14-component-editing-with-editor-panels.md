@@ -22,7 +22,7 @@ content_blocks:
       non-technical users. Every client is different, after all, and the more
       flexibility we can build into our tools, the more options you’ll have to
       create a customized editing interface, and the more control you’ll have
-      over how your sites can be edited.&nbsp;
+      over how your sites can be edited. 
 
 
       If you choose to include our open-source tool
@@ -38,10 +38,9 @@ content_blocks:
       readme](https://github.com/CloudCannon/bookshop){: target="_blank"
       rel="noopener noreferrer"} in its GitHub repository, as well as our [guide
       for incorporating Visual Data Bindings with
-      Bookshop](https://github.com/CloudCannon/bookshop/blob/main/guides/visual-data-bindings.adoc){:
-      target="_blank" rel="noopener noreferrer"} — and if you hit a problem or
+      Bookshop](https://github.com/CloudCannon/bookshop/blob/main/guides/visual-data-bindings.adoc) — and if you hit a problem or
       have an idea on how to improve Bookshop, feel free to open an issue and
-      we’ll be there to help.&nbsp;&nbsp;
+      we’ll be there to help.  
 
 
       ## Editing with inputs
@@ -50,28 +49,28 @@ content_blocks:
       CloudCannon builds a CMS for your site by reading your custom
       configuration. You can alter or customize your editing experience by
       adjusting your input configuration, allowing content editors to edit your
-      content in the ideal format — your format.&nbsp;
+      content in the ideal format — your format. 
 
 
       We’ve recently simplified our configuration by creating a [consolidated
       inputs
       key](https://cloudcannon.com/blog/updated-input-configuration-for-your-workflows/),
-      allowing for more streamlined input workflows.&nbsp;
+      allowing for more streamlined input workflows. 
 
 
-      However, CloudCannon is more than just a series of inputs.&nbsp;
+      However, CloudCannon is more than just a series of inputs. 
 
 
       You can group inputs into Structures which can be used as page-building
       components. Editors can create new pages using your components,
       customizing their content with your configured inputs. It’s a great way to
       empower your editors to make changes or even build pages using the
-      component library you’ve lovingly crafted for your site.&nbsp;
+      component library you’ve lovingly crafted for your site. 
 
 
       This is, we think, the ideal relationship between web dev and content
       teams, where design and development can give editors both freedom and
-      suitable constraints.&nbsp;
+      suitable constraints. 
 
 
       In the data editor it all looks like this:
@@ -99,7 +98,7 @@ content_blocks:
       Enter a new way to visually organise your editable front matter content —
       inputs on the page. We’ve extended our Visual Editor to encompass data,
       allowing editors to configure any content defined by inputs — right on the
-      page at full width\!&nbsp;
+      page at full width\! 
     col:
   - _bookshop_name: image-container
     click_to_fullscreen: false
@@ -133,13 +132,13 @@ content_blocks:
 
       We’ve created a lot of options here — and they all allow you to craft the
       best on-the-page editing experience for your sites, and for your
-      users.&nbsp;&nbsp;
+      users.  
 
 
-      ## Working with your components visually&nbsp;
+      ## Working with your components visually 
 
 
-      &nbsp;
+       
     col:
   - _bookshop_name: image-container
     click_to_fullscreen: false
@@ -170,7 +169,7 @@ content_blocks:
       components that allows editors to clone them, or even add new components
       from your library. This means you’ll always be able to give editors the
       freedom to choose from your customized components when they need to expand
-      the content of a page.&nbsp;
+      the content of a page. 
     col:
   - _bookshop_name: text
     content_markdown: >-
@@ -188,16 +187,16 @@ content_blocks:
       that everything here is optional: with CloudCannon, developers will always
       be free to customize the editing tools their clients will use, without
       getting locked into a given feature set for every single client
-      site.&nbsp;
+      site. 
 
 
       With CloudCannon you can consistently empower your clients to edit and
       build pages, no matter their technical knowledge. We know just how
       precious your design and development time is, so we’re always working on
       lowering the barriers between content editors and the changes they want to
-      make. That way your time can be spent on work that matters to you.&nbsp;
+      make. That way your time can be spent on work that matters to you. 
     col:
 ---
-Last month [I teased an upgrade](https://cloudcannon.com/blog/ui-improvements-2021/) to editing with inputs in the Visual Editor. And here it is\! We’re giving you the option to free editors from the sidebar, so your content team can focus more on the page itself.&nbsp;
+Last month [I teased an upgrade](https://cloudcannon.com/blog/ui-improvements-2021/) to editing with inputs in the Visual Editor. And here it is\! We’re giving you the option to free editors from the sidebar, so your content team can focus more on the page itself. 
 
 Content editors can now access a draggable Editor Panel directly next to their styled content on the page, freeing up screen space and streamlining the editing workflow.

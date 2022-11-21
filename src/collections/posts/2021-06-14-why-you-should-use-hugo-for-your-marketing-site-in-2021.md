@@ -11,9 +11,9 @@ tags:
   - Hugo
 author: cloudcannon
 ---
-As a developer, you should continuously evolve with market trends to increase your competitive edge. And it all boils down to your tools. A super fast, flexible and efficient framework can give you a huge lead over the competition. For your marketing site, use&nbsp;[Hugo](https://gohugo.io/){: target="_blank" rel="noopener noreferrer"} to stay ahead of the pack.
+As a developer, you should continuously evolve with market trends to increase your competitive edge. And it all boils down to your tools. A super fast, flexible and efficient framework can give you a huge lead over the competition. For your marketing site, use [Hugo](https://gohugo.io/) to stay ahead of the pack.
 
-Hugo is an open-source&nbsp;[Static Site Generator](https://jamstack.org/generators/){: target="_blank" rel="noopener noreferrer"} (SSG) that allows developers to build fast HTML websites by combining content and templates. This robust framework for building static websites is written in Golang and comes with tons of built-in tools, templates, and themes. Hugo is the ideal SSG for building marketing sites for many reasons.
+Hugo is an open-source [Static Site Generator](https://jamstack.org/generators/) (SSG) that allows developers to build fast HTML websites by combining content and templates. This robust framework for building static websites is written in Golang and comes with tons of built-in tools, templates, and themes. Hugo is the ideal SSG for building marketing sites for many reasons.
 
 ## **6 Benefits of Using Hugo for Your Marketing Site**
 
@@ -21,11 +21,11 @@ Hugo is ideal for marketing sites due to its speed, ease of use, flexibility, us
 
 ### **Super fast Build Time**
 
-Beating the competition to market is crucial to success. When it comes to speed, Hugo is the fastest SSG and offers the shortest build time. You can rely on Hugo to pre-render your pages and shorten the go-to-market time. It allows you to build your marketing site as quickly as possible, push live, and let it convert. With a reliable&nbsp;[Hugo CMS](https://cloudcannon.com/hugo/){: target="_blank" rel="noopener noreferrer"} like CloudCannon, you can collaborate with the best static site developers and enjoy extremely fast build times.
+Beating the competition to market is crucial to success. When it comes to speed, Hugo is the fastest SSG and offers the shortest build time. You can rely on Hugo to pre-render your pages and shorten the go-to-market time. It allows you to build your marketing site as quickly as possible, push live, and let it convert. With a reliable [Hugo CMS](https://cloudcannon.com/hugo/) like CloudCannon, you can collaborate with the best static site developers and enjoy extremely fast build times.
 
 ### **Increased Revenue**
 
-According to [Google](https://www.thinkwithgoogle.com/intl/en-ca/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/){: target="_blank" rel="noopener noreferrer"}, users abandon the site if it takes more than 3 seconds to load. The faster your page speed, the higher the revenues. Hugo stands out from the crowd for delivering super fast websites. It offers the best experience, which will entice first-time visitors to return to your marketing site.&nbsp;
+According to [Google](https://www.thinkwithgoogle.com/intl/en-ca/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/), users abandon the site if it takes more than 3 seconds to load. The faster your page speed, the higher the revenues. Hugo stands out from the crowd for delivering super fast websites. It offers the best experience, which will entice first-time visitors to return to your marketing site. 
 
 ### **Data-Driven Content**
 
@@ -47,4 +47,4 @@ To enjoy all these benefits, you need a reliable Hugo CMS. This is where CloudCa
 
 ## **Why CloudCannon as your Hugo CMS?**
 
-At&nbsp;[CloudCannon](https://cloudcannon.com/){: target="_blank" rel="noopener noreferrer"}, we are all about high-performance, user-friendly, and lean frameworks. You can rely on our all-in-one platform for Jamstack sites to collaborate, build world-class sites in record time, and access the best hosting for your customers. To increase your competitive edge, choose CloudCannon as your Hugo CMS.
+At [CloudCannon](https://cloudcannon.com/), we are all about high-performance, user-friendly, and lean frameworks. You can rely on our all-in-one platform for Jamstack sites to collaborate, build world-class sites in record time, and access the best hosting for your customers. To increase your competitive edge, choose CloudCannon as your Hugo CMS.

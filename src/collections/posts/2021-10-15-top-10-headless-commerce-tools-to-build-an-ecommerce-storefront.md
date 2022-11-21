@@ -18,7 +18,7 @@ content_blocks:
         link_url: https://app.cloudcannon.com/register?trial=cc_standard
         link_open_in_new_tab: false
 ---
-The eCommerce industry is growing exponentially. By 2021 alone, the market is projected to reach a total of [$4.89 trillion](https://www.emarketer.com/content/worldwide-ecommerce-will-approach-5-trillion-this-year){: target="_blank" rel="noopener noreferrer"}. This comes after retail eCommerce grew more than [25%](https://www.statista.com/topics/871/online-shopping/#dossier-chapter1){: target="_blank" rel="noopener noreferrer"} in 2020.
+The eCommerce industry is growing exponentially. By 2021 alone, the market is projected to reach a total of [$4.89 trillion](https://www.emarketer.com/content/worldwide-ecommerce-will-approach-5-trillion-this-year). This comes after retail eCommerce grew more than [25%](https://www.statista.com/topics/871/online-shopping/#dossier-chapter1) in 2020.
 
 With the quick uptick of the market valuation — due largely to the pandemic — comes the increase of software and tools available to brands to improve their stores. As an eCommerce business owner, the problem then becomes deciding on what technology to choose, or even where to look.
 
@@ -79,7 +79,7 @@ While choosing an eCommerce platform to facilitate headless architecture, you’
 
 We’ve already curated a list of the best headless commerce solutions based on critical business features to look for in these platforms to ease your work.
 
-### [Snipcart](https://snipcart.com){: target="_blank" rel="noopener noreferrer"}
+### [Snipcart](https://snipcart.com)
 
 Based in Québec City, Canada, Snipcart is an HTML/JS-based shopping cart solution.
 
@@ -94,13 +94,13 @@ By adding a few lines of their custom code, you can sell products from your exis
 
 * Styling the UI needs some degree of tech knowledge.
 
-**Read More:**[Fur, CloudCannon's eCommerce template for Snipcart](https://cloudcannon.com/community/themes/fur/) / [Hugo Tutorial: How to Build a Fast Static E-Commerce Site](https://snipcart.com/blog/hugo-tutorial-static-site){: target="_blank" rel="noopener noreferrer"}
+**Read More:**[Fur, CloudCannon's eCommerce template for Snipcart](https://cloudcannon.com/community/themes/fur/) / [Hugo Tutorial: How to Build a Fast Static E-Commerce Site](https://snipcart.com/blog/hugo-tutorial-static-site)
 
 #### **Who is this tool suited for?**
 
 Best suited for people who want to sell from their website with no complex integrations. If you are planning to create an MVP site, Snipcart is your go-to option.
 
-### [Shopify Plus](https://www.shopify.com/plus){: target="_blank" rel="noopener noreferrer"}
+### [Shopify Plus](https://www.shopify.com/plus)
 
 Based in Ontario, Canada, Shopify Plus is one of the most trusted brands in the eCommerce industry. It powers over 10,000 world innovative brands. It is a super scalable, secure, and reliable platform that provides all tools necessary for omnichannel marketing. It's easy to build and customize storefronts with limited technical knowledge.
 
@@ -118,7 +118,7 @@ Based in Ontario, Canada, Shopify Plus is one of the most trusted brands in the 
 
 Shopify is best suited to ​​high-growth, high-volume enterprise businesses and fast-growing brands.
 
-### [BigCommerce](https://www.bigcommerce.com){: target="_blank" rel="noopener noreferrer"}
+### [BigCommerce](https://www.bigcommerce.com)
 
 BigCommerce is a leading SaaS headless eCommerce platform that lets users build their businesses with ease. It has beneficial offerings like high-performance, customization, ease of use, and simplicity. With a customer base spanning 120 countries, they have partnerships with leading headless content management systems.
 
@@ -135,7 +135,7 @@ BigCommerce is a leading SaaS headless eCommerce platform that lets users build 
 
 It’s best for retail businesses of all sizes. Brands can create eCommerce websites using customizable themes/templates and manage sales through centralized dashboards.
 
-### [Commerce.js](https://commercejs.com){: target="_blank" rel="noopener noreferrer"}
+### [Commerce.js](https://commercejs.com)
 
 Founded in 2016, Commerce.js enables businesses to rapidly build their front-ends and pair them with headless infrastructure for eCommerce. As part of headless Commerce.js, you get additional features like a custom checkout option, ease of creating multiple storefronts, and a powerful dashboard to manage your sales. You can easily create no-code landing pages or shopping magazines as microsites to include them in your storefront.
 
@@ -152,7 +152,7 @@ Founded in 2016, Commerce.js enables businesses to rapidly build their front-end
 
 Best suited for entry-level and D2C eCommerce businesses.
 
-### [CommerceLayer](https://commercelayer.io){: target="_blank" rel="noopener noreferrer"}
+### [CommerceLayer](https://commercelayer.io)
 
 Commerce Layer is an advanced solution for developers to build modern eCommerce business stores. You can create websites from scratch, pair your own POS software, integrate eCommerce into mobile apps, wearables, voice devices using Commerce Layer.
 
@@ -171,7 +171,7 @@ Moreover, it offers some exceptional benefits like creating multi-vendor eCommer
 
 Best suited for fast-growing, digital-first brands looking for futuristic solutions.
 
-### [Vue Storefront](https://www.vuestorefront.io){: target="_blank" rel="noopener noreferrer"}
+### [Vue Storefront](https://www.vuestorefront.io)
 
 Vue Storefront is an open-source, progressive web app (PWA) aiding in headless eCommerce solutions for businesses. Since you can create native-like web apps for your store, downloading them on mobile becomes quick.
 
@@ -190,7 +190,7 @@ Vue Storefront also has many contributors and has a good amount of community mod
 
 It’s best for enterprise businesses looking for progressive web apps.
 
-### [Crystallize](https://crystallize.com){: target="_blank" rel="noopener noreferrer"}
+### [Crystallize](https://crystallize.com)
 
 Crystalize is a lightning-fast headless platform using native GraphQL API for PIM. Google rewarded it for creating super-fast loading websites that play a crucial role in uplifting eCommerce SEO. Having product information and content management in one platform enables you to sell and market more easily. You can pair any front-end smoothly within less time, allowing businesses to create a subscription model.
 
@@ -207,7 +207,7 @@ Crystalize is a lightning-fast headless platform using native GraphQL API for PI
 
 It’s best for creating tailor-made experiences based on data and to sell products and services on a subscription basis.
 
-### [Fabric](https://fabric.inc){: target="_blank" rel="noopener noreferrer"}
+### [Fabric](https://fabric.inc)
 
 Fabric is one of the best solutions in the market. For proof of that, it was rewarded as the most innovative 2020 B2B Retail startup for its achievements in providing headless commerce solutions for D2C and B2B brands. Without re-platforming, you can build your entire business within a few weeks using the platform. It is a force multiplier proven to grow digital revenue by up to 3x for retail businesses using eCommerce.
 
@@ -224,7 +224,7 @@ Fabric is one of the best solutions in the market. For proof of that, it was rew
 
 Since the tool is tailored for growth, it’s best suited for established and ambitious businesses that want to grow fast.
 
-### [Elasticpath](https://www.elasticpath.com){: target="_blank" rel="noopener noreferrer"}
+### [Elasticpath](https://www.elasticpath.com)
 
 Elasticpath is a futuristic headless eCommerce platform providing an option for building a composable headless commerce solution. It’s the blend of MACH (microservices, APIs, Cloud, and Headless) and [Jamstack](https://cloudcannon.com/blog/jamstack-vs-wordpress-reasons-to-make-the-change/) (JavaScript, APIs, & Markup) architectures to adapt to the rapidly changing market dynamics now and in the future. With this capability, brands are ready for innovations of the future.
 
@@ -241,7 +241,7 @@ Elasticpath is a futuristic headless eCommerce platform providing an option for 
 
 Best for enterprises ambitious to hit growth targets and leverage flexibility and agility to gain competitive advantage in the market.
 
-### [Ecwid](https://www.ecwid.com){: target="_blank" rel="noopener noreferrer"}
+### [Ecwid](https://www.ecwid.com)
 
 Ecwid is a free-to-start headless platform powering online merchants in 175 countries. It is one of the best solutions that provide many offerings like marketing, responsive stores, multiple stores to sell, and much more, even in their free plan.
 

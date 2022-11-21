@@ -4,7 +4,7 @@
 	{% assign j = '?' %}
 {% endif %}
 
-<div class="relative {% if extend %}-mx-36{% endif %}">
+<div class="relative {% if extend %}-mx-36{% endif %} {% if border %}border{% endif %}">
 	<iframe
 		class="w-full aspect-video"
 		src="{{ video }}{{ j }}muted=1&background=1&loop=1&autopause=0&autoplay=1"

@@ -19,7 +19,7 @@ content_blocks:
 ---
 ## Your CMS for Jekyll, Hugo, and Eleventy
 
-Forestry announced in April 2021 that they'd be [sunsetting their CMS](https://forestry.io/blog/tina-cloud-the-next-forestry/){: target="_blank" rel="noopener noreferrer"} in favour of TinaCMS and Tina Cloud, which is currently limited to React-based sites. If you've been looking for an alternative to Forestry for your Jekyll, Hugo, and Eleventy static sites, CloudCannon is here to help. (We also have a [full migration guide](/blog/forestry-to-cloudcannon-the-full-migration-guide/), if you're ready to make the move.)
+Forestry announced in April 2021 that they'd be [sunsetting their CMS](https://forestry.io/blog/tina-cloud-the-next-forestry/) in favour of TinaCMS and Tina Cloud, which is currently limited to React-based sites. If you've been looking for an alternative to Forestry for your Jekyll, Hugo, and Eleventy static sites, CloudCannon is here to help. (We also have a [full migration guide](/blog/forestry-to-cloudcannon-the-full-migration-guide/), if you're ready to make the move.)
 
 So how does CloudCannon compare?
 
@@ -43,7 +43,7 @@ CloudCannon is a Git-based CMS. All changes in your repository automatically syn
 
 ![](https://dam-cdn.cloudcannon.com/blog/git-sync-save.png){: width="1268" height="721"}
 
-&nbsp;
+ 
 
 ### Hosting included
 
@@ -55,7 +55,7 @@ We believe simple, elegant, and performant SSGs such as Jekyll, Hugo, and Eleven
 
 ### More intuitive visual editing
 
-Visual editing is at the core of CloudCannon. We're working on making more functionality available in the visual editor to provide an even more intuitive editing experience. Our ultimate goal is twofold: first, to give the developer the complete flexibility to model content however they'd like — using front matter, collections, markdown, or HTML. For non-technical editors, our aim is to abstract how a site's content is stored and managed, allowing them to create and maintain complex content structures in a SSG *without* needing to know everything about how it all works.&nbsp;
+Visual editing is at the core of CloudCannon. We're working on making more functionality available in the visual editor to provide an even more intuitive editing experience. Our ultimate goal is twofold: first, to give the developer the complete flexibility to model content however they'd like — using front matter, collections, markdown, or HTML. For non-technical editors, our aim is to abstract how a site's content is stored and managed, allowing them to create and maintain complex content structures in a SSG *without* needing to know everything about how it all works. 
 
 ### Managing components
 
@@ -87,10 +87,10 @@ CloudCannon provides a basic level of editing by default. To configure more intu
 
 We'd love to hear from you\! If you're interested in trying out CloudCannon, [reach out and say hello](https://cloudcannon.com/contact/)\! We're here to help and we're always ready to listen.
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
-## &nbsp;
+##  

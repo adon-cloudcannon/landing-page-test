@@ -16,13 +16,13 @@ content_blocks:
 ---
 Page builders give editors an intuitive and easy way to manage and build websites. All editing can be done within CloudCannon's Visual Editor in real time.
 
-Visual data previews are enabled with the use of [Bookshop](https://github.com/CloudCannon/bookshop). Bookshop is a component development workflow for static websites which currently supports [Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener noreferrer"} and [Eleventy](https://11ty.dev/){: target="_blank" rel="noopener noreferrer"}, and will support a wider variety of static site generators in the near future.
+Visual data previews are enabled with the use of [Bookshop](https://github.com/CloudCannon/bookshop). Bookshop is a component development workflow for static websites which currently supports [Jekyll](https://jekyllrb.com/) and [Eleventy](https://11ty.dev/), and will support a wider variety of static site generators in the near future.
 
 Bookshop helps you to create a component-based file structure, which works out of the box with CloudCannon's *[array structures](https://cloudcannon.com/documentation/articles/defining-what-adds-to-an-array-with-array-structures/#array-structures)*. (See our documentation on [array structures](https://cloudcannon.com/documentation/articles/array-structures-reference/) for more information.) This setup allows CloudCannon to immediately re-render any changes to page components and edits within the Visual Editor.
 
 ## Getting started
 
-Download or fork our example repositories ( [Jekyll](https://github.com/CloudCannon/page-builder-example-jekyll){: target="_blank" rel="noopener"}, [11ty](https://github.com/CloudCannon/page-builder-example-eleventy){: target="_blank" rel="noopener"} ) from GitHub. If you've downloaded the example website you will need to unzip it. With your terminal, change directory into the website. e.g. `cd ~/desktop/page-builder-example-jekyll/`
+Download or fork our example repositories ( [Jekyll](https://github.com/CloudCannon/page-builder-example-jekyll), [11ty](https://github.com/CloudCannon/page-builder-example-eleventy) ) from GitHub. If you've downloaded the example website you will need to unzip it. With your terminal, change directory into the website. e.g. `cd ~/desktop/page-builder-example-jekyll/`
 
 To run the website locally run the following commands:
 
@@ -128,14 +128,14 @@ You can modify the default page layout in the example website if you want to cha
 
 ## Uploading/syncing to CloudCannon
 
-To get your new Bookshop site on CloudCannon you need to [log in](https://app.cloudcannon.com/){: target="_blank" rel="noopener"} to your account and create a new site. You can choose to sync a repository, upload a folder, or upload the zip downloaded from this post.
+To get your new Bookshop site on CloudCannon you need to [log in](https://app.cloudcannon.com/) to your account and create a new site. You can choose to sync a repository, upload a folder, or upload the zip downloaded from this post.
 
 If you're uploading a folder, make sure the `.cloudcannon` folder is checked when selecting files to upload. If this is unchecked you will get build errors and won't be able to use the live editing features.
 
 ## Summary
 
-After learning the basics of how Bookshop can be integrated into a website, you should now have live editing for components in CloudCannon's Visual Editor. The structure in the example website is a good base for starting, or converting any static website to a Bookshop component-based website. To dive deeper into Bookshop and how it works, check out the [Bookshop Guides](https://github.com/cloudcannon/bookshop/){: target="_blank" rel="noopener"}.
+After learning the basics of how Bookshop can be integrated into a website, you should now have live editing for components in CloudCannon's Visual Editor. The structure in the example website is a good base for starting, or converting any static website to a Bookshop component-based website. To dive deeper into Bookshop and how it works, check out the [Bookshop Guides](https://github.com/cloudcannon/bookshop/).
 
 You can also use Bookshop in a theme to save duplicating components and styles across websites that use the same themes or layouts. We do this for our Bookshop [templates](https://cloudcannon.com/community/themes/), which are free for anyone to use and modify.
 
-For further reading on themes, see our other posts on creating themes with [GitHub](https://cloudcannon.com/blog/jekyll-themes-with-github/), or with&nbsp;[Gemfury](https://cloudcannon.com/blog/private-jekyll-themes-with-gemfury/).
+For further reading on themes, see our other posts on creating themes with [GitHub](https://cloudcannon.com/blog/jekyll-themes-with-github/), or with [Gemfury](https://cloudcannon.com/blog/private-jekyll-themes-with-gemfury/).

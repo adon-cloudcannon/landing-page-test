@@ -15,11 +15,11 @@ Many older content management systems (CMSs) suffer from tightly coupled archite
 
 ## Git-based vs. API-first - what’s the difference?
 
-Modern development demands, including for a CMS, mean moving fast, scaling easily for traffic, and worrying less about security and infrastructure. Both a Git-based CMS and an API-first CMS help with these demands by improving developer workflows and making content more portable, while still giving you a visual interface for management. But how each of these solutions solves these problems is quite different:&nbsp;
+Modern development demands, including for a CMS, mean moving fast, scaling easily for traffic, and worrying less about security and infrastructure. Both a Git-based CMS and an API-first CMS help with these demands by improving developer workflows and making content more portable, while still giving you a visual interface for management. But how each of these solutions solves these problems is quite different: 
 
-A **Git-based CMS** is a system that synchronizes with your Git repository and pulls its contents into the system for processing, such as editing and viewing. Any changes made are pushed back to the repository to keep the system and code in sync.&nbsp;![](https://dam-cdn.cloudcannon.com/blog/uploads/diagram-git-1.svg){: width="600" height="226"}
+A **Git-based CMS** is a system that synchronizes with your Git repository and pulls its contents into the system for processing, such as editing and viewing. Any changes made are pushed back to the repository to keep the system and code in sync. ![](https://dam-cdn.cloudcannon.com/blog/uploads/diagram-git-1.svg){: width="600" height="226"}
 
-An **API-first CMS** lets you create structured content, such as tables representing products, in raw form. This content can then be requested via an API, typically as JSON data, and then built into applications of varying types.&nbsp;![](https://dam-cdn.cloudcannon.com/blog/uploads/diagram-api.svg){: width="600" height="367"}
+An **API-first CMS** lets you create structured content, such as tables representing products, in raw form. This content can then be requested via an API, typically as JSON data, and then built into applications of varying types. ![](https://dam-cdn.cloudcannon.com/blog/uploads/diagram-api.svg){: width="600" height="367"}
 
 In the end, when you’re deciding which option is the best, it comes down to where you want to store your content, and what you want to do with it.
 
@@ -29,13 +29,13 @@ With a purely Git-based system, you are using your Git repository - such as GitH
 
 * **Familiarity.** Content is stored in Git, which is an industry standard that most developers will be familiar with in some form. Relying on a Git repository for collaboration and version control means less pressure for developers to learn new tools and platforms to do their job.
 * **Ownership.** Git repositories make you the ultimate owner of your creations, meaning no vendor lock-in. If there is ever a need to transfer content to another platform, everything is immediately available in the repository.
-* **Distributed access**. If the CMS service goes offline, you still have access to your full code base in the remote repository/repositories. Any changes made can be pulled and merged as usual, giving you greater autonomy to work outside of the CMS.&nbsp;
+* **Distributed access**. If the CMS service goes offline, you still have access to your full code base in the remote repository/repositories. Any changes made can be pulled and merged as usual, giving you greater autonomy to work outside of the CMS. 
 
 ## Main advantages of an API-first CMS
 
-With an API-first CMS, your main content is stored as raw data, completely independent of any display layer(s), such as HTML pages. How you use this content is up to you. This is often flexibly managed through the CMS interface or HTTP requests.&nbsp;
+With an API-first CMS, your main content is stored as raw data, completely independent of any display layer(s), such as HTML pages. How you use this content is up to you. This is often flexibly managed through the CMS interface or HTTP requests. 
 
-* **Omnichannel presence**. Raw data from an API offers ultimate portability and flexibility, as it can be built into any application or device, whether that’s a website, a phone app, or an IoT device.&nbsp;
+* **Omnichannel presence**. Raw data from an API offers ultimate portability and flexibility, as it can be built into any application or device, whether that’s a website, a phone app, or an IoT device. 
 * **Centralized data management.** With multiple sources using the same data, adjustments made to API data will easily cascade down to data consumers, removing the need for individual updates.
 * **Quicker design iterations.** With the data living separate from its consumers, large changes can be made to design without worrying about changing the content being brought in.
 
@@ -45,6 +45,6 @@ Git-based and API-first CMSs are both great options, offering greater flexibilit
 
 ## Why Git-based? Where CloudCannon fits in
 
-CloudCannon is a Git-based CMS with a focus on ensuring developers and editors are always in sync, by using a repository as the single source of truth. This gives users full ownership of their data, preventing vendor lock-in, and creates a history of all changes made.&nbsp;
+CloudCannon is a Git-based CMS with a focus on ensuring developers and editors are always in sync, by using a repository as the single source of truth. This gives users full ownership of their data, preventing vendor lock-in, and creates a history of all changes made. 
 
-However, Git workflows and APIs often aren’t approachable for many non-developers. Because simple, effective sharing and editing is one of our fundamental philosophies, CloudCannon works hard to create a solution that works for everyone in the team, without the complicated interface. Developers can use the [platform](https://docs.cloudcannon.com/)&nbsp;to maintain their normal workflow, easily configure build and hosting options, and quickly provide content contributors with an intuitive way to edit content. CloudCannon also offers tutorials for [learning the basics](https://learn.cloudcannon.com/) of static site generator frameworks such as Jekyll.
+However, Git workflows and APIs often aren’t approachable for many non-developers. Because simple, effective sharing and editing is one of our fundamental philosophies, CloudCannon works hard to create a solution that works for everyone in the team, without the complicated interface. Developers can use the [platform](https://docs.cloudcannon.com/) to maintain their normal workflow, easily configure build and hosting options, and quickly provide content contributors with an intuitive way to edit content. CloudCannon also offers tutorials for [learning the basics](https://learn.cloudcannon.com/) of static site generator frameworks such as Jekyll.

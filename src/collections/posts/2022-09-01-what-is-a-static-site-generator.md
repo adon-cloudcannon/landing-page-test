@@ -12,7 +12,7 @@ tags:
   - Resources
 author: david-large
 ---
-So you’ve decided you’d like a [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/){: target="_blank" rel="noopener"}. Great news\! Let’s dig into the tools we use to create static websites, why we use them, and how they fit into our workflows for publishing new content, creating new pages, and keeping our content up to date.
+So you’ve decided you’d like a [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/). Great news\! Let’s dig into the tools we use to create static websites, why we use them, and how they fit into our workflows for publishing new content, creating new pages, and keeping our content up to date.
 
 **A static site generator (SSG) is a software tool that generates a modern static website from a range of source files**. Developers use static site generators to create websites which are fast, secure, scalable, and easy to maintain. And even better, SSGs themselves are open-source software, meaning they’re freely available for everyone to use and modify. Popular SSGs have large and active communities built up around them, with a constant stream of improvements and updates supplied by community members.
 
@@ -87,7 +87,7 @@ Like Next.js, Nuxt.js thrives on application websites. The key difference is tha
 
 Static site generators are used for a huge range of website use cases, from marketing to blogging, documentation, ecommerce, and single-page applications, as well as sites that occupy the middle ground between [static and dynamic](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/).
 
-Here are some of the most common use cases for static site generators, as well as our recommendations for which SSG might be suitable for each. You might find it helpful to first ask yourself where your site sits on a sliding scale between ‘Information’ and ‘Application’.<br>&nbsp;
+Here are some of the most common use cases for static site generators, as well as our recommendations for which SSG might be suitable for each. You might find it helpful to first ask yourself where your site sits on a sliding scale between ‘Information’ and ‘Application’.<br> 
 
 ![](https://dam-cdn.cloudcannon.com/page-neptune.svg){: width="70"}
 
@@ -95,7 +95,7 @@ Here are some of the most common use cases for static site generators, as well a
 
 SSGs are a great choice for marketing websites because the websites load extremely fast and scale well, even under high traffic volumes. Static sites are also easy for search engines like Google to index, and their fast load speeds result in higher search ranking. If you’d like to offer more interactivity, you can add JavaScript to include user-triggered behaviors to your website.
 
-**We recommend:** Hugo, Jekyll, Eleventy, Gatsby.js.<br>&nbsp;
+**We recommend:** Hugo, Jekyll, Eleventy, Gatsby.js.<br> 
 
 ![](https://dam-cdn.cloudcannon.com/blog-neptune.svg){: width="70"}
 
@@ -103,7 +103,7 @@ SSGs are a great choice for marketing websites because the websites load extreme
 
 For blogging-centric sites, any SSG will likely do well. Many other types of websites will feature a product or development blog as well as their landing pages, so you’ll often see static sites featuring blogs alongside other content.
 
-**We recommend:** Hugo, Jekyll, Eleventy (though all major SSGs handle blogging with ease).<br>&nbsp;
+**We recommend:** Hugo, Jekyll, Eleventy (though all major SSGs handle blogging with ease).<br> 
 
 ![](https://dam-cdn.cloudcannon.com/documentation-neptune.svg){: width="70"}
 
@@ -111,7 +111,7 @@ For blogging-centric sites, any SSG will likely do well. Many other types of web
 
 Documentation sites can get massive, particularly if they support a large or growing product family. For this reason we’d suggest an SSG with a low build time, such as Hugo or Eleventy.
 
-**We recommend:** Hugo, Jekyll, Eleventy.<br>&nbsp;
+**We recommend:** Hugo, Jekyll, Eleventy.<br> 
 
 ![](https://dam-cdn.cloudcannon.com/cart-neptune.svg){: width="100"}
 
@@ -119,7 +119,7 @@ Documentation sites can get massive, particularly if they support a large or gro
 
 Ecommerce is a wide spectrum, and SSGs can support everything from simple shop to a fully personalized experience. Payment gateways and shopping cart services such as SnipCart can easily integrate with static sites, and from simple online storefronts to more interactive components, there’s a range of SSGs to support most ecommerce goals. And as with marketing sites above, you can add layers of interactivity with JavaScript.
 
-**We recommend:** Hugo, Jekyll, Eleventy (for simple ecommerce sites); or Gatsby.js, Next.js, Nuxt.js (for more complex or interactive ecommerce sites).<br>&nbsp;
+**We recommend:** Hugo, Jekyll, Eleventy (for simple ecommerce sites); or Gatsby.js, Next.js, Nuxt.js (for more complex or interactive ecommerce sites).<br> 
 
 ![](https://dam-cdn.cloudcannon.com/application-neptune.svg){: width="70"}
 
@@ -127,7 +127,7 @@ Ecommerce is a wide spectrum, and SSGs can support everything from simple shop t
 
 We’re heading in a much more ‘dynamic-ish’ direction here, but there’s a lot of scope for SSGs to help move desktop applications to the browser. Hybrid frameworks allow developers to choose which sections of a website can be static and which can be dynamic, so they’re great for more complex projects — or those that will become more complex with time.
 
-**We recommend:** Gatsby.js, Next.js, Nuxt.js.<br>&nbsp;
+**We recommend:** Gatsby.js, Next.js, Nuxt.js.<br> 
 
 If you have a use case that isn’t covered here, don’t worry\! There are [hundreds of reliable SSGs](https://jamstack.org/generators/) available to choose from, built with a wide range of languages and with an even wider range of uses in mind. At their core, though, all SSGs have the same goal — to create static HTML pages as efficiently as possible.
 
@@ -151,4 +151,4 @@ If you’ve used Squarespace or WordPress before, you’ll find the combination 
 
 You’ll now be familiar with how static site generators work, and the kinds of sites they’re most useful for. But will you have to alter your workflows to fit into the way an SSG creates websites? Not at all.
 
-With a CMS like [CloudCannon](https://cloudcannon.com){: target="_blank" rel="noopener"}, you and your developers can fine tune your SSG’s editing and content creation processes to integrate with the ways you and your team prefer to work. That’s the value of a CMS that is tightly integrated with the ways that SSGs work — your editing and development workflows can be as flexible as you need them to be.
+With a CMS like [CloudCannon](https://cloudcannon.com), you and your developers can fine tune your SSG’s editing and content creation processes to integrate with the ways you and your team prefer to work. That’s the value of a CMS that is tightly integrated with the ways that SSGs work — your editing and development workflows can be as flexible as you need them to be.

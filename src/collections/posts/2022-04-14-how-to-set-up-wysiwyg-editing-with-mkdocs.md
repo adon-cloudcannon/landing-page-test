@@ -34,14 +34,13 @@ content_blocks:
       format and a config file called `mkdocs.yml`. The build process itself
       will happen within CloudCannon, so there’s no need to connect the `site/`
       folder you’d create locally when you use the `build` command. (I'd also
-      recommend adding `site/`&nbsp;to your&nbsp;`.gitignore`&nbsp;file.)
+      recommend adding `site/` to your `.gitignore` file.)
       CloudCannon also offers an easy interface for editors to add new pages
       themselves.
 
 
       The repo I’ll connect is up at
-      [https://github.com/David-Large/mkdocs-cc-project](https://github.com/David-Large/mkdocs-cc-project){:
-      target="_blank" rel="noopener noreferrer"} — feel free to use this and
+      [https://github.com/David-Large/mkdocs-cc-project](https://github.com/David-Large/mkdocs-cc-project) — feel free to use this and
       jump ahead to step 2, or follow the simple instructions at below to create
       and set up your own site.
 
@@ -106,22 +105,21 @@ content_blocks:
 
       Connecting your site to CloudCannon is as easy as adding your Git
       repository, which for this sample site contains only three files — my
-      `mkdocs.yml` configuration file, and my pages:&nbsp;`docs/index.md` and
-      `docs/about.md`.&nbsp;
+      `mkdocs.yml` configuration file, and my pages: `docs/index.md` and
+      `docs/about.md`. 
 
 
       If you haven't already, sign up for a CloudCannon account. Once you're in,
       add a new site (connect your own files for this tutorial), name your site,
       choose your Git provider, and select your source files — your new
-      repository. (Or [mine](https://github.com/David-Large/mkdocs-cc-project){:
-      target="_blank" rel="noopener noreferrer"}, if you like.)
+      repository. (Or [mine](https://github.com/David-Large/mkdocs-cc-project), if you like.)
 
 
       Now we've connected our site and we could view it on a free test domain on
       any device, but a documentation site is only as strong as its ease of
       editing. And how do we make editing it easier? Let's tell CloudCannon how
       you and your team will want to edit your site and its pages by creating a
-      new YAML file,&nbsp;`cloudcannon.config.yml`.
+      new YAML file, `cloudcannon.config.yml`.
 
 
       We’ll define what CloudCannon shows in the CMS sidebar (the pages in
@@ -181,8 +179,7 @@ content_blocks:
 
       Note that while I’ve added a lot of options for editors above, I haven’t
       added everything — see our documentation for [defining editable
-      regions](https://cloudcannon.com/documentation/articles/defining-editable-regions-in-your-html/){:
-      target="_blank" rel="noopener"}&nbsp;to see all of your options.
+      regions](https://cloudcannon.com/documentation/articles/defining-editable-regions-in-your-html/) to see all of your options.
 
 
       Now that we’ve added this `cloudcannon.config.yml` file to our site,
@@ -213,8 +210,7 @@ content_blocks:
 
       If you'd like to dig into more of the deep configuration options in
       CloudCannon, check out our documentation on [using the configuration
-      cascade](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/){:
-      target="_blank" rel="noopener"}, which is a set of sources containing
+      cascade](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/), which is a set of sources containing
       customizable options for the editor, each with a different scope and
       priority. This allows you to set global defaults and where necessary,
       override those for specific collections or files.
@@ -224,8 +220,8 @@ content_blocks:
       please reach out to us via our support channel — we're here to help.
     col:
 ---
-[MkDocs](https://www.mkdocs.org/){: target="_blank" rel="noopener noreferrer"} is a fantastic static site generator (SSG) for project documentation. It builds quickly, its documentation source files are written in Markdown, and its sites are configured with a single YAML file. It has a&nbsp;[wide variety of themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes){: target="_blank" rel="noopener noreferrer"}, and best of all, its built files are pure static HTML, which can be hosted anywhere. It’s also the most recent SSG we’re supporting at CloudCannon\!
+[MkDocs](https://www.mkdocs.org/) is a fantastic static site generator (SSG) for project documentation. It builds quickly, its documentation source files are written in Markdown, and its sites are configured with a single YAML file. It has a [wide variety of themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes), and best of all, its built files are pure static HTML, which can be hosted anywhere. It’s also the most recent SSG we’re supporting at CloudCannon\!
 
-With almost 14,000 stars on [GitHub](https://github.com/mkdocs/mkdocs){: target="_blank" rel="noopener noreferrer"}&nbsp;it’s clear that MkDocs has a large number of users, fans and contributors. That’s why we’re pleased to be bringing our collaborative editing CMS to MkDocs, so whole teams — even non-technical content team members or those just learning Markdown — can jump right in and be instantly productive. With CloudCannon’s Content Editor, you’ll be able to set up a rich text content editing experience that brings WYSIWYG editing to MkDocs’ build flow, all in a matter of minutes.
+With almost 14,000 stars on [GitHub](https://github.com/mkdocs/mkdocs) it’s clear that MkDocs has a large number of users, fans and contributors. That’s why we’re pleased to be bringing our collaborative editing CMS to MkDocs, so whole teams — even non-technical content team members or those just learning Markdown — can jump right in and be instantly productive. With CloudCannon’s Content Editor, you’ll be able to set up a rich text content editing experience that brings WYSIWYG editing to MkDocs’ build flow, all in a matter of minutes.
 
 Once it's all set up, it'll be ready to edit in Markdown or rich text, and will look a little like this:

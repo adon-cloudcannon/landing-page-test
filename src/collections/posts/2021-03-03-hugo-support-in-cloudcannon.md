@@ -11,7 +11,7 @@ image: https://dam-cdn.cloudcannon.com/blog/uploads/blog-image.png
 ---
 # Hugo Support in CloudCannon
 
-I’m delighted to announce the public beta of Hugo support in CloudCannon. Hugo is our second static site generator and it represents a major step towards CloudCannon becoming the definitive 'all-in-one' platform for Jamstack sites.&nbsp;
+I’m delighted to announce the public beta of Hugo support in CloudCannon. Hugo is our second static site generator and it represents a major step towards CloudCannon becoming the definitive 'all-in-one' platform for Jamstack sites. 
 
 Now you can sync your Hugo site from a Git provider, automate your build, visually update your content, and have top-tier hosting on CloudCannon.
 
@@ -23,11 +23,11 @@ It has always been our intention to build the best all-in-one platform for Jamst
 
 We chose Hugo for three reasons. Firstly, because of the fantastic Hugo community. Secondly, Hugo directly addresses one of Jekyll’s biggest weaknesses - build speed. Hugo has extremely fast build times, so even the largest sites can build in a matter of seconds. Thirdly, Hugo has strong content patterns that allow us to make CloudCannon appear to work magically.
 
-## The advantages of using Hugo and CloudCannon&nbsp;
+## The advantages of using Hugo and CloudCannon 
 
-High-performance, user-friendly, lean solutions are at the heart of what we do at CloudCannon [\#leanweb](https://twitter.com/hashtag/leanweb){: target="_blank" rel="noopener"}.&nbsp;
+High-performance, user-friendly, lean solutions are at the heart of what we do at CloudCannon [\#leanweb](https://twitter.com/hashtag/leanweb). 
 
-We see Hugo as a great option for building sites where developer efficiency and lower resource usage are the high priorities. You will love Hugo for its raw speed and flexibility. Plus, you can enjoy easy installation, as Hugo is a simple, cross-platform package with no dependencies.&nbsp;
+We see Hugo as a great option for building sites where developer efficiency and lower resource usage are the high priorities. You will love Hugo for its raw speed and flexibility. Plus, you can enjoy easy installation, as Hugo is a simple, cross-platform package with no dependencies. 
 
 Combined with CloudCannon’s all-in-one platform, you’ll have the easiest collaboration, fastest builds, and the best hosting for your sites. And, unlike most headless CMSs, CloudCannon is Git based rather than API based, so content changes push back to your repository rather than a 3rd party platform.
 
@@ -35,7 +35,7 @@ Combined with CloudCannon’s all-in-one platform, you’ll have the easiest col
 
 ## What you can expect
 
-Today we release our Hugo beta with the plan to move Hugo out of beta by September 2021. While we’ve conducted testing with members in the Hugo community, we expect to discover some minor issues we need to iron out and workflows that could be improved. We’re prepared for these speed bumps, so if you find anything please don’t hesitate to connect with our team.&nbsp;
+Today we release our Hugo beta with the plan to move Hugo out of beta by September 2021. While we’ve conducted testing with members in the Hugo community, we expect to discover some minor issues we need to iron out and workflows that could be improved. We’re prepared for these speed bumps, so if you find anything please don’t hesitate to connect with our team. 
 
 This is a chance to shape the support for Hugo in CloudCannon and make sure it fits your needs, so any and all feedback is highly appreciated.
 

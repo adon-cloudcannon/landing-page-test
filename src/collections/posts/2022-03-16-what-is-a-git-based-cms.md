@@ -45,7 +45,7 @@ Making knives is fun. Who doesn’t want to make their own knife? The problem is
 
 ## The Git-based CMS
 
-CloudCannon is a [Git-based CMS](https://cloudcannon.com/git-cms/){: target="_blank" rel="noopener"}. These are the boning knives of the kitchen. In the hands of a skilled chef, there’s no better way to remove bone, fat, or skin from meat.
+CloudCannon is a [Git-based CMS](https://cloudcannon.com/git-cms/). These are the boning knives of the kitchen. In the hands of a skilled chef, there’s no better way to remove bone, fat, or skin from meat.
 
 Content-heavy websites are a Git-based CMS's bread and butter (or meat and bone). Instead of storing content in a database and accessing it through an API, with a Git-based CMS, you store your content in text-based files, typically HTML, Markdown, CSV, and YAML. The Git-based CMS stays in sync with your Git repository and provides an intuitive GUI for managing the content in these files without needing any Git or web development knowledge. With Git at the core of the workflow, developers and content editors can collaborate closely using the same workflows.
 
@@ -61,4 +61,4 @@ We’re still in the early stages of seeing what a Git-based CMS is capable of. 
 
 The possibilities of what a Git-based CMS will do in the future is what drives us at CloudCannon. Imagine Wikipedia-style collaborative editing on any website, but with Squarespace-style editing rather than Wikicode. Review processes that give content editors the same confidence level to publish new content as the Linux foundation releasing a new Linux kernel. Or tight developer-editor collaboration workflows that put everyone on the same page.
 
-All of this is coming, and like CloudCannon, it will be powered by Git. To get ahead of the curve, you can read more about&nbsp;[Git workflows for editors](https://cloudcannon.com/blog/publishing-workflows-for-jekyll-editors/){: target="_blank" rel="noopener"},&nbsp;[get started with CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard){: target="_blank" rel="noopener"} for free, and bring the power of Git to your content workflows today.&nbsp;
+All of this is coming, and like CloudCannon, it will be powered by Git. To get ahead of the curve, you can read more about [Git workflows for editors](https://cloudcannon.com/blog/publishing-workflows-for-jekyll-editors/), [get started with CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard) for free, and bring the power of Git to your content workflows today. 

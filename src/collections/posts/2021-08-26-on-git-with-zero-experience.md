@@ -23,13 +23,13 @@ Anne Lamont speaks to this in her deep dive into the writing process, *Bird by B
 
 The ~~aphorism generator~~ eminently quotable David Foster Wallace weighed in (mid-PBS-interview, no less): “If your fidelity to perfectionism is too high, you never do anything.” If we all compared our output to DFW's, we'd do even less; if no one ever shared their problems on Stack Overflow, the rest of the dev world searching for answers in the long tail of content would never learn anything.
 
-There’s no shortage of writing advice available online, in print, or anywhere in between. See for example, a corruption of the classic voting maxim: "Write early and write often." Or Malcolm Lowry's half-followed advice: "Write drunk, edit sober." My personal favorite — and definitely not one I just made up — is Chekhov's dependency: "If in the first act you install a package, then in the following act it must be initialized." Et cetera, et cetera. (See also almost anything written by [Annie Dillard, quoted extensively over on brainpickings.org](https://www.brainpickings.org/2013/08/09/annie-dillard-on-writing/){: target="_blank" rel="noopener noreferrer"}.)
+There’s no shortage of writing advice available online, in print, or anywhere in between. See for example, a corruption of the classic voting maxim: "Write early and write often." Or Malcolm Lowry's half-followed advice: "Write drunk, edit sober." My personal favorite — and definitely not one I just made up — is Chekhov's dependency: "If in the first act you install a package, then in the following act it must be initialized." Et cetera, et cetera. (See also almost anything written by [Annie Dillard, quoted extensively over on brainpickings.org](https://www.brainpickings.org/2013/08/09/annie-dillard-on-writing/).)
 
 The trouble is this: when we edit, we cover our tracks. Though text editors can track changes incredibly effectively for one in-depth editing session, any more than a single pass by a single editor means the resulting overlay of comments, suggestions, and questions can be overwhelming.
 
 *Enter Git, with a flourish of trumpets.*
 
-Seth Kenlon wrote a persuasive article for [opensource.com](http://opensource.com){: target="_blank" rel="noopener noreferrer"} a couple of years ago, entitled [How writers can get work done better with Git](https://opensource.com/article/19/4/write-git){: target="_blank" rel="noopener noreferrer"}. In it, he argues that the content publishing market has flattened for writers: now, as in 2019, a single source of plaintext truth is preferable. Write your words as words, he says, and let the publishers worry about delivery:
+Seth Kenlon wrote a persuasive article for [opensource.com](http://opensource.com) a couple of years ago, entitled [How writers can get work done better with Git](https://opensource.com/article/19/4/write-git). In it, he argues that the content publishing market has flattened for writers: now, as in 2019, a single source of plaintext truth is preferable. Write your words as words, he says, and let the publishers worry about delivery:
 
 > Writing in plaintext not only means you don't have to worry about layout or how your text is styled, but you also no longer require specialized tools. Anything that can produce text becomes a valid "word processor" for you, whether it's a basic notepad app on your mobile or tablet, the text editor that came bundled with your computer, or a free editor you download from the internet. You can write on practically any device, no matter where you are or what you're doing, and the text you produce integrates perfectly with your project, no modification required.
 >
@@ -50,6 +50,6 @@ The answer? Don’t just move fast and break things. Keep moving, of course, but
 
 [Git, meet CMS. CMS, meet Git.](https://cloudcannon.com/git-cms/) I think you'll get along just fine.
 
-**Last week:&nbsp;**[Part 1 — Background \| Preamble](https://cloudcannon.com/blog/how-i-created-my-first-static-website-with-zero-experience-1/)
+**Last week: **[Part 1 — Background \| Preamble](https://cloudcannon.com/blog/how-i-created-my-first-static-website-with-zero-experience-1/)
 
 **Next week:** [Part 3 — Choosing a static site generator](/blog/choosing-a-static-site-generator-with-zero-experience/)

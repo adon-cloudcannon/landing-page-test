@@ -13,7 +13,7 @@ This week I came across the [7mml](http://7mml.org/) website and I loved the loa
 
 I am going to rebuild the car/pickup in HTML, SVG and CSS. I was going to build it all in CSS but as it is a complicated shape SVG is probably better. Here's my version:
 
-<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/truck-under.svg" /><div class="shine">&nbsp;</div> <img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="/assets/blog/truck-frame.svg" /></div><div class="speed-thingy">&nbsp;</div><div class="speed-thingy second">&nbsp;</div><div class="shadow">&nbsp;</div><div class="wheel back">&nbsp;</div><div class="wheel front">&nbsp;</div></div></div>
+<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/truck-under.svg" /><div class="shine"> </div> <img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="/assets/blog/truck-frame.svg" /></div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div><div class="shadow"> </div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
 
 ```html
 <div class="truck">
@@ -38,7 +38,7 @@ Let's break it down.
 
 I started building the car using just HTML and CSS so theses are circles built using border-radius. I used the :before and :after pseudo-elements too for the inner circles. You may be asking "Why did you not use a border on the inner circle?" - if I used border I would not be able to use percentage widths. Then I added an infinite spin animation which works well because of the slightly inconsistent size;
 
-<div class="truck-container"><div class="truck"><div class="body" style="visibility: hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg" /></div><div class="wheel back">&nbsp;</div><div class="wheel front">&nbsp;</div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="visibility: hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg" /></div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
 
 ```css
 @keyframes spin {
@@ -131,9 +131,9 @@ I started building the body with HTML elements and CSS but felt I was using the 
 
 This uses the same effect as the [Facebook content placeholder](http://cloudcannon.com/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html). It has the bobble animation as it's placed inside the `.body` of the truck. The first image is to show the gradient and the shape which is achieved using transforms and a linear gradient. The second one has an animation applied.
 
-<div class="truck-container"><div class="truck"><div class="body" style="width:500px; height:136px; position: relative;"><div class="shine not-animated" style="border: 1px solid #000;">&nbsp;</div></div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="width:500px; height:136px; position: relative;"><div class="shine not-animated" style="border: 1px solid #000;"> </div></div></div></div>
 
-<div class="truck-container"><div class="truck"><div class="body" style="width:500px; height:136px; position: relative;"><div class="shine" style="border: 1px solid #000;">&nbsp;</div></div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="width:500px; height:136px; position: relative;"><div class="shine" style="border: 1px solid #000;"> </div></div></div></div>
 
 ```css
 @keyframes shine {
@@ -173,7 +173,7 @@ This uses the same effect as the [Facebook content placeholder](http://cloudcann
 
 These are simple shrinking and growing divs.
 
-<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg" /></div><div class="speed-thingy">&nbsp;</div><div class="speed-thingy second">&nbsp;</div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg" /></div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div></div></div>
 
 ```css
 @keyframes thingy {
@@ -215,7 +215,7 @@ These are simple shrinking and growing divs.
 
 This makes the bobbing effect seem more realistic and shows a platform for the wheels to sit on. We want it to stay still at the front so we change the transform origin to the front. Once that's done we scale it ever so slightly with timing to match the body.
 
-<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden">&lt;img src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="shadow">&nbsp;</div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden">&lt;img src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="shadow"> </div></div></div>
 
 ```css
 @keyframes shadow {
@@ -241,7 +241,7 @@ This makes the bobbing effect seem more realistic and shows a platform for the w
 
 ### All Together Again
 
-<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-under.svg" /><div class="shine">&nbsp;</div> &lt;img src="/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="speed-thingy">&nbsp;</div><div class="speed-thingy second">&nbsp;</div><div class="shadow">&nbsp;</div><div class="wheel back">&nbsp;</div><div class="wheel front">&nbsp;</div></div></div>
+<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-under.svg" /><div class="shine"> </div> &lt;img src="/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div><div class="shadow"> </div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
 
 ## Why would I ever use this?
 

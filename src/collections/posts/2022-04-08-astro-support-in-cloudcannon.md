@@ -27,27 +27,24 @@ content_blocks:
 
       You can help shape our support for Astro in CloudCannon, and make sure it
       fits your needs — feel free to contact our support team through
-      the&nbsp;[CloudCannon app](https://app.cloudcannon.com/register?trial=cc_standard){:
-      target="_blank" rel="noopener"}&nbsp;or
-      on&nbsp;[Twitter](https://twitter.com/CloudCannon){: target="_blank"
-      rel="noopener"}; we appreciate all feedback.
+      the [CloudCannon app](https://app.cloudcannon.com/register?trial=cc_standard) or
+      on [Twitter](https://twitter.com/CloudCannon); we appreciate all feedback.
 
 
       If you're new to CloudCannon, you can [register for a free trial
-      here](https://app.cloudcannon.com/register?trial=cc_standard){:
-      target="_blank" rel="noopener"}, connect your Git repo, and start editing
-      your Astro sites with ease.&nbsp;
+      here](https://app.cloudcannon.com/register?trial=cc_standard), connect your Git repo, and start editing
+      your Astro sites with ease. 
     alignment: left
     width: long
     heading_type: h2
     col:
 ---
-We’re delighted to announce the launch of our support for [Astro](https://astro.build/){: target="_blank" rel="noopener noreferrer"} within CloudCannon’s Git-based CMS. (Side note: what an exciting week to launch in, as [Astro reaches its 1.0.0 beta](https://astro.build/blog/launch-week/){: target="_blank" rel="noopener noreferrer"}\!)
+We’re delighted to announce the launch of our support for [Astro](https://astro.build/) within CloudCannon’s Git-based CMS. (Side note: what an exciting week to launch in, as [Astro reaches its 1.0.0 beta](https://astro.build/blog/launch-week/)\!)
 
-Astro has gone from strength to strength over the last year, with more than 10K GitHub stars, 150K npm downloads, and 25K code commits from hundreds of contributors. It’s a powerful and lightweight static site generator that lets developers mix and match a variety of popular frameworks, including React, Preact, Svelte, Vue, SolidJS, AlpineJS and Lit.&nbsp;
+Astro has gone from strength to strength over the last year, with more than 10K GitHub stars, 150K npm downloads, and 25K code commits from hundreds of contributors. It’s a powerful and lightweight static site generator that lets developers mix and match a variety of popular frameworks, including React, Preact, Svelte, Vue, SolidJS, AlpineJS and Lit. 
 
 Astro automatically renders components to HTML at build time, stripping away all unnecessary JavaScript and keeping every site fast by default. With partial hydration, Astro also lets you hydrate individual interactive components on the page.
 
-With CloudCannon added to the mix as your Astro CMS, you can now you can sync your existing Astro sites from your chosen Git provider, build them as quickly as possible, and let your content editors build pages and update their content within an elegant and intuitive editing environment. If you haven’t already got a hosting provider, you’ll have the option to select our top-tier global CDN hosting. And if you’d like to browse and compare all the Jamstack-compatible tools and services you’ll need for your new and existing Astro sites, you can check out our&nbsp;[Jamstack Ecosystem](https://cloudcannon.com/community/jamstack-ecosystem/)&nbsp;hub.
+With CloudCannon added to the mix as your Astro CMS, you can now you can sync your existing Astro sites from your chosen Git provider, build them as quickly as possible, and let your content editors build pages and update their content within an elegant and intuitive editing environment. If you haven’t already got a hosting provider, you’ll have the option to select our top-tier global CDN hosting. And if you’d like to browse and compare all the Jamstack-compatible tools and services you’ll need for your new and existing Astro sites, you can check out our [Jamstack Ecosystem](https://cloudcannon.com/community/jamstack-ecosystem/) hub.
 
-Astro connects easily to CloudCannon’s Git-based CMS, which means you’ll spend less time troubleshooting your site setup. Regardless of which SSG you choose, you will be able to configure the editing experience for each of your clients, based on their technical knowledge, preferences or use cases.&nbsp;
+Astro connects easily to CloudCannon’s Git-based CMS, which means you’ll spend less time troubleshooting your site setup. Regardless of which SSG you choose, you will be able to configure the editing experience for each of your clients, based on their technical knowledge, preferences or use cases. 

@@ -5,6 +5,17 @@ module.exports = {
 	safelist: [],
 	theme: {
 		extend: {
+			typography: {
+				DEFAULT: {
+					css: {
+						"code::before": {content: ''},
+						"code::after": {content: ''},
+						"code": {
+							background: '#f2f2f2'
+						}
+					}
+				}
+			},
 			fontFamily: {
 				'sans': ['TT Norms Pro', ...defaultTheme.fontFamily.sans],
 			},

@@ -32,7 +32,7 @@ Jekyll is a Ruby-based static site generator that was initially released by Tom 
 
 Jekyll was created to simplify website hosting and infrastructure management, mostly by getting rid of it. It replaced the need for a database with files that can be put under version control. These may seem like the most basic precepts of Jamstack, because they are, but remember that the term “Jamstack” itself was born years after Jekyll. It truly was a small revolution back in 2008.
 
-Besides its revolutionary ideas, Jekyll was made extremely popular by [GitHub Pages](https://pages.github.com/){: target="_blank" rel="noopener"}. The creator of Jekyll happens to be one of GitHub’s co-founders and from version 0.12.1 to 3.6.0 the lead developer was Parker Moore, a software engineer at GitHub. Having GitHub’s seal of approval is always helpful for a software project. GitHub Pages certainly gave a huge boost to Jekyll and the concept of static site generation in general.
+Besides its revolutionary ideas, Jekyll was made extremely popular by [GitHub Pages](https://pages.github.com/). The creator of Jekyll happens to be one of GitHub’s co-founders and from version 0.12.1 to 3.6.0 the lead developer was Parker Moore, a software engineer at GitHub. Having GitHub’s seal of approval is always helpful for a software project. GitHub Pages certainly gave a huge boost to Jekyll and the concept of static site generation in general.
 
 Right from the beginning, Jekyll was presented as a blogging solution. Its tagline reads: “Jekyll is a blog-aware static site generator in Ruby”.
 
@@ -44,7 +44,7 @@ Hugo is a static site generator built with Go. It was first released in 2013 by 
 
 Hugo was not as revolutionary as Jekyll when it came out. You could say it stands on the shoulders of a giant (Jekyll). But, from the very beginning, Hugo has set itself apart by being fast. More precisely, it has set itself apart by being *much faster* than Jekyll. And after all these years, its incredible speed remains one of its main strengths when compared to other SSGs.
 
-> "Hugo has had 'fast' in its slogan from day one, so we have to really care about it." - [Bj&oslash;rn Erik Pedersen](https://www.tnd.dev/article/2017-10-03-interview-hugo-lead-developer/){: target="_blank" rel="noopener"}
+> "Hugo has had 'fast' in its slogan from day one, so we have to really care about it." - [Bj&oslash;rn Erik Pedersen](https://www.tnd.dev/article/2017-10-03-interview-hugo-lead-developer/)
 
 Hugo also has a focus on simplicity and flexibility. This philosophy is felt right at the installation step; Hugo is distributed as a single binary. No need to run `npm install` or `gem install` for every project - unless you want to add more dependencies yourself, of course. Simplicity also means lots of functionalities built in: things like i18n, image optimization, pre-made templates … most things needed by modern websites, really. A large array of plugins to choose from is handy, but sometimes out-of-the-box functionality is even handier.
 
@@ -111,26 +111,26 @@ Even without any Ruby experience, the conditional statement seems rather clear i
 Despite its quirky syntax, a couple of metrics seem to indicate that Hugo’s popularity is growing at a faster pace than Jekyll’s.
 
 * When searching for “Hugo to Jekyll” in Google, results are all about people switching from Jekyll to Hugo. Not the other way around. Hugo even has instructions for a smooth migration from Jekyll to Hugo.
-* When comparing GitHub stars over time, Hugo keeps increasing its distance with Jekyll ([GitHub star history](https://star-history.t9t.io/\#jekyll/jekyll&amp;gohugoio/hugo){: target="_blank" rel="noopener"})
+* When comparing GitHub stars over time, Hugo keeps increasing its distance with Jekyll ([GitHub star history](https://star-history.t9t.io/\#jekyll/jekyll&amp;gohugoio/hugo))
 * Hugo’s official Twitter account has more followers than Jekyll’s
 
-But both Jekyll and Hugo are slowly growing according to [builtwith](https://builtwith.com/){: target="_blank" rel="noopener"}\:
+But both Jekyll and Hugo are slowly growing according to [builtwith](https://builtwith.com/)\:
 
-* [Jekyll trends](https://trends.builtwith.com/cms/Jekyll){: target="_blank" rel="noopener"}
+* [Jekyll trends](https://trends.builtwith.com/cms/Jekyll)
 
-* [Hugo trends](https://trends.builtwith.com/cms/Hugo){: target="_blank" rel="noopener"}
+* [Hugo trends](https://trends.builtwith.com/cms/Hugo)
 
 A few examples of websites built with each framework:
 
 **Jekyll:**
 
-* [Bitcoin.org](https://bitcoin.org/){: target="_blank" rel="noopener"}
+* [Bitcoin.org](https://bitcoin.org/)
 
-* [AWS Amplify Docs](https://docs.amplify.aws/){: target="_blank" rel="noopener"}
+* [AWS Amplify Docs](https://docs.amplify.aws/)
 
-* [Sketch](https://www.sketch.com/){: target="_blank" rel="noopener"}
+* [Sketch](https://www.sketch.com/)
 
-* [Ruby on Rails](https://rubyonrails.org/){: target="_blank" rel="noopener"}
+* [Ruby on Rails](https://rubyonrails.org/)
 
 * [Yours truly - CloudCannon](https://cloudcannon.com/)
 
@@ -138,11 +138,11 @@ A few examples of websites built with each framework:
 
 * [Let's Encrypt](https://letsencrypt.org/) (Used to be built with Jekyll)
 
-* [1Password support](https://support.1password.com/){: target="_blank" rel="noopener"}
+* [1Password support](https://support.1password.com/)
 
-* [Smashing Magazine](https://www.smashingmagazine.com/){: target="_blank" rel="noopener"} (Used to be on WordPress)
+* [Smashing Magazine](https://www.smashingmagazine.com/) (Used to be on WordPress)
 
-* [Linode](https://www.linode.com/docs/){: target="_blank" rel="noopener"}
+* [Linode](https://www.linode.com/docs/)
 
 ## Jekyll vs. Hugo, side by side
 
@@ -160,14 +160,14 @@ A few examples of websites built with each framework:
 | Build times | “Fast-ish” since version 4.0 | Fastest in class |
 | Multilingual and i18n | Through plugins | Built in |
 | Shortcodes | Yes | Yes |
-| Easy WordPress et al. converter | Yes: [Jekyll converter](https://import.jekyllrb.com/){: target="_blank" rel="noopener"} | Yes: [Hugo converter](https://gohugo.io/tools/migrations/){: target="_blank" rel="noopener"} |
+| Easy WordPress et al. converter | Yes: [Jekyll converter](https://import.jekyllrb.com/) | Yes: [Hugo converter](https://gohugo.io/tools/migrations/) |
 | Learning curve | Gentle, especially if you have Ruby experience. | Less gentle. Go templating is subjectively harder. |
 | Supported content types | Markdown, HTML + more through plugins | Markdown, AsciiDoc, RST, HTML |
-| Support communities | [Jekyll Talk](https://talk.jekyllrb.com/){: target="_blank" rel="noopener"} [Gitter](https://gitter.im/jekyll/jekyll){: target="_blank" rel="noopener"} | [Hugo Discourse](https://discourse.gohugo.io/){: target="_blank" rel="noopener"} |
+| Support communities | [Jekyll Talk](https://talk.jekyllrb.com/) [Gitter](https://gitter.im/jekyll/jekyll) | [Hugo Discourse](https://discourse.gohugo.io/) |
 | CLI tool | Yes | Yes |
 | Hot reloading dev server | Yes | Yes |
-| Twitter accounts | [Jekyll Twitter](https://twitter.com/jekyllrb){: target="_blank" rel="noopener"} | [Hugo Twitter](https://twitter.com/GoHugoIO){: target="_blank" rel="noopener"} |
-| GitHub repos | [Jekyll GitHub](https://github.com/jekyll){: target="_blank" rel="noopener"} | [Hugo GitHub](https://github.com/gohugoio/){: target="_blank" rel="noopener"} |
+| Twitter accounts | [Jekyll Twitter](https://twitter.com/jekyllrb) | [Hugo Twitter](https://twitter.com/GoHugoIO) |
+| GitHub repos | [Jekyll GitHub](https://github.com/jekyll) | [Hugo GitHub](https://github.com/gohugoio/) |
 
 ## Why use Hugo?
 
@@ -181,15 +181,15 @@ A few examples of websites built with each framework:
 
 ### Things to watch out for when choosing Hugo
 
-The learning curve is a bit steeper. This statement is subjective, of course, but it’s a comment that many people make about Hugo. Unless you’re already comfortable with the Go language, it will probably take a bit of time before feeling comfortable with Go templates’ syntax and the general structure of a Hugo project. But you can always follow our helpful [Hugo tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/){: target="_blank" rel="noopener"}\!
+The learning curve is a bit steeper. This statement is subjective, of course, but it’s a comment that many people make about Hugo. Unless you’re already comfortable with the Go language, it will probably take a bit of time before feeling comfortable with Go templates’ syntax and the general structure of a Hugo project. But you can always follow our helpful [Hugo tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/)\!
 
 Hugo is extendable… but not as much as Jekyll. Hugo can be extended with many tools, but so does Jekyll **and** it can be extended with plugins made specifically for Jekyll.
 
 ## Why use Jekyll?
 
-If you already have expertise in the Ruby ecosystem, you will feel right at home. Even without much Ruby experience, Jekyll is one of the easiest SSGs to learn. (Try our [Jekyll tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/){: target="_blank" rel="noopener"} if you're getting started.) Conventions tend to be clearer with Jekyll. For instance, all blog posts follow a clear naming convention: “year-month-day-title”.
+If you already have expertise in the Ruby ecosystem, you will feel right at home. Even without much Ruby experience, Jekyll is one of the easiest SSGs to learn. (Try our [Jekyll tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) if you're getting started.) Conventions tend to be clearer with Jekyll. For instance, all blog posts follow a clear naming convention: “year-month-day-title”.
 
-**Easy hosting on GitHub Pages.** (Although [version 4.0](https://github.com/github/pages-gem/issues/651){: target="_blank" rel="noopener"} is still not supported to the community’s disbelief…)
+**Easy hosting on GitHub Pages.** (Although [version 4.0](https://github.com/github/pages-gem/issues/651) is still not supported to the community’s disbelief…)
 
 **Even more extendable.** Jekyll does less than Hugo out of the box, but it’s easily extendable with its vast library of plugins made specifically for Jekyll. This can make Jekyll more flexible, too. For instance, Hugo does i18n out of the box, but Jekyll has many plugins to achieve that goal and you get to choose which one you prefer.
 
@@ -213,7 +213,7 @@ For some sites with thousands of pages, Hugo is a must because of its build spee
 
 So, you can’t really go wrong with either Jekyll or Hugo. Again, they are tried-and-true solutions.
 
-Whatever you end up choosing, CloudCannon can help make the experience even smoother. We even have a range of [themes and templates](https://cloudcannon.com/community/themes/){: target="_blank" rel="noopener"} available for both Hugo and Jekyll, all configured for editing on CloudCannon.
+Whatever you end up choosing, CloudCannon can help make the experience even smoother. We even have a range of [themes and templates](https://cloudcannon.com/community/themes/) available for both Hugo and Jekyll, all configured for editing on CloudCannon.
 
 ## How CloudCannon makes working with both Jekyll and Hugo easier
 

@@ -17,9 +17,9 @@ What’s old is new again. With modern tooling and the knowledge of better ways 
 
 ![Bridgetown logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/bridgetown-timeline.svg){: width="600" height="77"}
 
-## **[Bridgetown](https://www.bridgetownrb.com/){: target="_blank" rel="noopener noreferrer"}**
+## **[Bridgetown](https://www.bridgetownrb.com/)**
 
-*by [Jared White](https://github.com/jaredcwhite){: target="_blank" rel="noopener noreferrer"}*
+*by [Jared White](https://github.com/jaredcwhite)*
 
 Much of Jekyll's success can be attributed to the free hosting provided by GitHub Pages. We don't know exactly how many websites are on GitHub Pages, but it's likely in the hundreds of thousands, if not millions. GitHub Pages runs a single version of Jekyll (currently 3.9.0) to build all of the sites on the platform. Upgrading Jekyll to a newer version (Jekyll 4.2.1 was released in September 2021) on GitHub Pages would likely cause issues the next time anyone built their site.
 
@@ -44,15 +44,15 @@ Forking Jekyll allowed Jared to develop rapidly as he didn't need to maintain ba
 
 Bridgetown has an ambitious roadmap for the coming year. It's going to be exciting to see what a modern reincarnation of Jekyll is capable of without the shackles of GitHub Pages.
 
-Update (7 March): [Bridgetown has reached their 1.0.0 release](https://github.com/bridgetownrb/bridgetown/releases/tag/v1.0.0){: target="_blank" rel="noopener noreferrer"}\!
+Update (7 March): [Bridgetown has reached their 1.0.0 release](https://github.com/bridgetownrb/bridgetown/releases/tag/v1.0.0)\!
 
 ![VitePress logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/vitepress-timeline.svg){: width="600" height="77"}
 
-## **[VitePress](https://vitepress.vuejs.org/){: target="_blank" rel="noopener noreferrer"}**
+## **[VitePress](https://vitepress.vuejs.org/)**
 
-*by [Evan You](https://github.com/yyx990803){: target="_blank" rel="noopener noreferrer"}*
+*by [Evan You](https://github.com/yyx990803)*
 
-Four years after creating VuePress, Evan You came back with a new SSG, VitePress. "VitePress is [VuePress'](https://vuepress.vuejs.org/){: target="_blank" rel="noopener noreferrer"} little brother, built on top of [Vite](https://github.com/vitejs/vite){: target="_blank" rel="noopener noreferrer"}."
+Four years after creating VuePress, Evan You came back with a new SSG, VitePress. "VitePress is [VuePress'](https://vuepress.vuejs.org/) little brother, built on top of [Vite](https://github.com/vitejs/vite)."
 
 Evan You had recently released Vite to combat many of the pain points developers face using Webpack. The days of having a single JavaScript file for your website are long gone for most of us and build tools have become a necessary evil. Webpack is a popular build tool that builds a tree of all the dependencies on a site, transpiles (makes the JS work in older browsers) or compiles (turn SCSS into CSS) them, concatenates the files and optimizes them. Needless to say, this process can be time-consuming, which is especially painful when you’re developing. Waiting minutes to see your change appear in the browser is not a fun experience.
 

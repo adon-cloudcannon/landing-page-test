@@ -74,8 +74,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       We have a similar feature on CloudCannon called
-      [c](https://cloudcannon.com/documentation/edit/editing/html/#editor-links){:
-      target="_blank" rel="noopener noreferrer"}[lient
+      [c](https://cloudcannon.com/documentation/edit/editing/html/#editor-links)[lient
       sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/).
       Currently only people you've shared the site with can edit. We're
       exploring a similar workflow where visitors can suggest changes. It's an
@@ -191,8 +190,7 @@ content_blocks:
   - _bookshop_name: text
     col: 1
     content_markdown: >-
-      [Digital.gov](http://digital.gov/){: target="_blank" rel="noopener
-      noreferrer"} makes great use of partial caching to ensure speedy builds:
+      [Digital.gov](http://digital.gov/) makes great use of partial caching to ensure speedy builds:
       <!-- -->
   - _bookshop_name: code-block
     source:
@@ -221,8 +219,7 @@ content_blocks:
       render the bulk of the layout. Without caching Hugo would render have to
       render 24000 partials. With caching it's 6. The moral of the story is give
       Hugo and your CPU a break and use [partial
-      caching](https://gohugo.io/functions/partialcached/){: target="_blank"
-      rel="noopener noreferrer"}. <!-- -->
+      caching](https://gohugo.io/functions/partialcached/). <!-- -->
   - _bookshop_name: spacing
     mobile_unit_number: 10
     tablet_unit_number: 10
@@ -234,8 +231,7 @@ content_blocks:
   - _bookshop_name: text
     col: 1
     content_markdown: >-
-      The news section is the core of the [digital.gov](http://digital.gov/){:
-      target="_blank" rel="noopener noreferrer"} website. It's essentially a
+      The news section is the core of the [digital.gov](http://digital.gov/) website. It's essentially a
       blog that combines news and past events. To start, let's look at a news
       markdown file: <!-- -->
   - _bookshop_name: code-block
@@ -386,8 +382,7 @@ content_blocks:
       When it comes to rendering an individual post it's fairly standard too,
       the layout works its way through rendering the metadata and content. It's
       lengthy so I won't post it here. If you're interested, [take a
-      peak](https://github.com/GSA/digitalgov.gov/blob/main/themes/digital.gov/layouts/news/single.html){:
-      target="_blank" rel="noopener noreferrer"}.
+      peak](https://github.com/GSA/digitalgov.gov/blob/main/themes/digital.gov/layouts/news/single.html).
   - _bookshop_name: spacing
     mobile_unit_number: 10
     tablet_unit_number: 10
@@ -434,8 +429,7 @@ content_blocks:
       well-established, frequently updated Hugo use case with interesting
       complexity around news/blog. If you're interested in using Hugo for your
       next project, take a look at this [Hugo
-      tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/){:
-      target="_blank" rel="noopener"} to get started.&nbsp;
+      tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/) to get started. 
   - _bookshop_name: spacing
     mobile_unit_number: 8
     tablet_unit_number: 9

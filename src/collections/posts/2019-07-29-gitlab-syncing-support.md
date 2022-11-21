@@ -11,11 +11,17 @@ We've seen GitLab grow from a self hosted alternative to GitHub to an entire sui
 
 ## How does it work?
 
-First create a new site on CloudCannon and select the GitLab Repository button.<br><br>![Connect GitLab Repository](https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/2@2x.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/2.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/2@2x.png 1600w"}
+First create a new site on CloudCannon and select the GitLab Repository button.
 
-If it's your first time connecting a GitLab repository you will need to authenticate. After authenticating, CloudCannon shows a list of your repositories. Select your desired repository and branch.<br><br>![Select Repository](https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/1@2x.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/1.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/1@2x.png 1600w"}
+![Connect GitLab Repository](https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/2@2x.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/2.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/2@2x.png 1600w"}
 
-CloudCannon syncs the files from your repository, builds the Jekyll site and serves it live. Updates made on CloudCannon sync back to the GitLab repository and vice-versa for changes made to the GitLab repository. Branching and publishing workflows are fully supported with this integration too.<br><br>![Live Site](https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/3@2x.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/3.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/3@2x.png 1600w"}
+If it's your first time connecting a GitLab repository you will need to authenticate. After authenticating, CloudCannon shows a list of your repositories. Select your desired repository and branch.
+
+![Select Repository](https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/1@2x.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/1.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/1@2x.png 1600w"}
+
+CloudCannon syncs the files from your repository, builds the Jekyll site and serves it live. Updates made on CloudCannon sync back to the GitLab repository and vice-versa for changes made to the GitLab repository. Branching and publishing workflows are fully supported with this integration too.
+
+![Live Site](https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/3@2x.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/3.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/gitlab-support/3@2x.png 1600w"}
 
 ## Wrap up
 

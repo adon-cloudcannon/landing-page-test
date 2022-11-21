@@ -53,7 +53,7 @@ Another heavily requested feature we've added is the ability to connect a select
 
 We've added a `disabled` input for text that you want to be visible but not editable, and we've also brought in two new inputs — `range` (number) and `switch` (boolean) — as well as support for conditionally shown input fields. This means you can set a hidden key on an input, which is based on another input: toggle a checkbox, and suddenly you'll reveal more keys to edit\!
 
-It doesn't stop there. We have more input types coming soon —&nbsp;[contact our support team](https://cloudcannon.com/documentation/support/) if you have specific requests.
+It doesn't stop there. We have more input types coming soon — [contact our support team](https://cloudcannon.com/documentation/support/) if you have specific requests.
 
 ## Hello, structures
 
@@ -63,9 +63,9 @@ We’ve also added support for structures on objects, which can power object var
 
 ## Better object previews, with richer comments
 
-You know your content (and your content editors) better than we do, so we've opened up configuration options for object previews:&nbsp;`text_key`,&nbsp;`subtext_key`,&nbsp;`image_key`&nbsp;and&nbsp;`icon` are now available to configure for arrays, objects and structures.
+You know your content (and your content editors) better than we do, so we've opened up configuration options for object previews: `text_key`, `subtext_key`, `image_key` and `icon` are now available to configure for arrays, objects and structures.
 
-Comments now support a limited set of Markdown: links, bold, italic, subscript, superscript and inline code elements are allowed. Links in this block now also support&nbsp;[Editor Links](https://cloudcannon.com/documentation/articles/extending-in-app-navigation-with-editor-links/).
+Comments now support a limited set of Markdown: links, bold, italic, subscript, superscript and inline code elements are allowed. Links in this block now also support [Editor Links](https://cloudcannon.com/documentation/articles/extending-in-app-navigation-with-editor-links/).
 
 ## Update when it's right for you
 

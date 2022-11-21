@@ -5,14 +5,25 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			{ DateTime } = require("luxon"),
 			markdownIt = require("markdown-it"),
 			syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"),
-			{ pairedShortcode } = require("@11ty/eleventy-plugin-syntaxhighlight");
+			mila = require("markdown-it-link-attributes");
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("../component-library/");
-	eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
-	eleventyConfig.addWatchTarget('./styles/tailwind.css')
+	eleventyConfig.addWatchTarget("../filters/");
+	eleventyConfig.addWatchTarget('./styles/tailwind.config.js');
+	eleventyConfig.addWatchTarget('./styles/tailwind.css');
 
-	eleventyConfig.setLibrary("md", markdownIt({ html: true }).disable('code'));
+	eleventyConfig.setLibrary("md", markdownIt({ 
+		html: true
+	}).use(mila, {
+		matcher(href, config) {
+			return ! /^(https:\/\/(.*).?cloudcannon\.com|(?!http)).*$/gm.test(href);
+		},
+		attrs: {
+			target: "_blank",
+			rel: "noopener noreferrer"
+		}
+	}).disable('code'));
 
 	eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
 	eleventyConfig.addPassthroughCopy("./images")
@@ -32,12 +43,6 @@ module.exports = function (eleventyConfig) {
 		bookshopLocations: ["../component-library"],
 		pathPrefix: '',
 	}));
-
-	eleventyConfig.addPairedLiquidShortcode('showCode', function (content, language) {
-		// prismloadLanguages([language]);
-		// Prism.highlight(text, grammar, language)
-		return `<pre class="not-prose language-${language}"><code class="language-${language}">` + Prism.highlight(content, Prism.languages[language], language) + '</code></pre>';
-});
 
 	eleventyConfig.addFilter("excerpt", (post) => {
 		const content = post.replace(/(<([^>]+)>)/gi, "");

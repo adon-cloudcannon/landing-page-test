@@ -14,11 +14,11 @@ tags:
   - Gatsby
 author: david-large
 ---
-With [GatsbyConf](https://gatsbyconf.com/){: target="_blank" rel="noopener noreferrer"} a few months behind us, and the new-conference-on-the-block&nbsp;[HugoConf](https://hugoconf.io/){: target="_blank" rel="noopener"} approaching on the horizon, we are now — temporally, at least — between Gatsby.js and Hugo. Distinctly different in their approaches to static site generation and developer workflows, both are popular and well established static site generators, with large and active communities surrounding them.
+With [GatsbyConf](https://gatsbyconf.com/) a few months behind us, and the new-conference-on-the-block [HugoConf](https://hugoconf.io/) approaching on the horizon, we are now — temporally, at least — between Gatsby.js and Hugo. Distinctly different in their approaches to static site generation and developer workflows, both are popular and well established static site generators, with large and active communities surrounding them.
 
 But which should you choose? The answer might be easier than you think, and it all depends on whether you’re building a ‘reference’ project or something that relies on user interaction. (Or at the very least, it depends where on that spectrum between those two points your project might land.)
 
-Gatsby.js and Hugo are both fully compatible with CloudCannon’s&nbsp;[Git-based CMS](https://cloudcannon.com/git-cms/), and while both will work perfectly well for small business sites and blogs, each has different strengths. Whether you’re creating a documentation site with thousands of individual pages, or a single-page application with plenty of user interaction, or something in between, we’ll help you find the right tool.
+Gatsby.js and Hugo are both fully compatible with CloudCannon’s [Git-based CMS](https://cloudcannon.com/git-cms/), and while both will work perfectly well for small business sites and blogs, each has different strengths. Whether you’re creating a documentation site with thousands of individual pages, or a single-page application with plenty of user interaction, or something in between, we’ll help you find the right tool.
 
 ## What is Gatsby.js?
 
@@ -28,29 +28,29 @@ Gatsby.js is a developer-friendly SSG, with built-in features like code splittin
 
 ### **Sites made with Gatsby**
 
-* [Figma](https://www.figma.com/){: target="_blank" rel="noopener noreferrer"}
-* [Digital Ocean](https://www.digitalocean.com/){: target="_blank" rel="noopener noreferrer"}
-* [Impossible Foods](https://impossiblefoods.com/){: target="_blank" rel="noopener noreferrer"}
-* [National Geographic](https://www.nationalgeographic.co.uk/){: target="_blank" rel="noopener noreferrer"}
+* [Figma](https://www.figma.com/)
+* [Digital Ocean](https://www.digitalocean.com/)
+* [Impossible Foods](https://impossiblefoods.com/)
+* [National Geographic](https://www.nationalgeographic.co.uk/)
 
 ## **What is Hugo?**
 
-Hugo is a static site generator built with Go (Golang), released in 2013 by [Steve Francia](https://github.com/spf13){: target="_blank" rel="noopener noreferrer"} and actively (since version 0.14) maintained by [Bj&oslash;rn Erik Pedersen](https://github.com/bep){: target="_blank" rel="noopener noreferrer"}.
+Hugo is a static site generator built with Go (Golang), released in 2013 by [Steve Francia](https://github.com/spf13) and actively (since version 0.14) maintained by [Bj&oslash;rn Erik Pedersen](https://github.com/bep).
 
 Hugo is one of the world’s most popular open-source static site generators. Even when compared to SSGs with venture capital backing, Hugo stacks up remarkably well in terms of overall installs, live sites, and GitHub stars. With its amazing speed and flexibility, Hugo makes building websites fun again.
 
-Hugo’s popular primarily for its build speeds, though its flexibility and modularity plays a huge role as well. It’s simple to install, thanks to a single cross-platform binary, and has built-in features like i18n, image optimization, sitemaps, menus, and feeds. Oh, and if you’d like to start your Hugo build with a themes, [Hugo has you covered](https://cloudcannon.com/blog/fifty-of-the-most-popular-hugo-themes/){: target="_blank" rel="noopener"}.
+Hugo’s popular primarily for its build speeds, though its flexibility and modularity plays a huge role as well. It’s simple to install, thanks to a single cross-platform binary, and has built-in features like i18n, image optimization, sitemaps, menus, and feeds. Oh, and if you’d like to start your Hugo build with a themes, [Hugo has you covered](https://cloudcannon.com/blog/fifty-of-the-most-popular-hugo-themes/).
 
 ### Sites made with Hugo
 
-* [stackimpact.com](http://stackimpact.com/){: target="_blank" rel="noopener noreferrer"}
-* [digital.gov](http://digital.gov/){: target="_blank" rel="noopener noreferrer"}
-* [godottutorials.com](http://godottutorials.com/){: target="_blank" rel="noopener noreferrer"}
-* [gohugo.io](http://gohugo.io){: target="_blank" rel="noopener noreferrer"}
+* [stackimpact.com](http://stackimpact.com/)
+* [digital.gov](http://digital.gov/)
+* [godottutorials.com](http://godottutorials.com/)
+* [gohugo.io](http://gohugo.io)
 
 ## Comparing Hugo and Gatsby.js — at a glance
 
-| &nbsp; | Hugo | Gatsby.js |
+|   | Hugo | Gatsby.js |
 | --- | --- | --- |
 | **First release** | 2013 | 2015 |
 | **Built with** | Go | JavaScript |
@@ -64,7 +64,7 @@ Hugo’s popular primarily for its build speeds, though its flexibility and modu
 | **Remote data** | Via [getJSON or getCSV](https://gohugo.io/templates/data-templates/#get-remote-data) | Via GraphQL |
 | **Multilingual and i18n** | Built-in | Yes, via plugins |
 | **Shortcodes** | Yes | Yes, via plugins |
-| **Easy WordPress / legacy converter** | Yes: [gohugo.io/tools/migrations](http://gohugo.io/tools/migrations) | No, but&nbsp; only [slight configuration is required](https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-wordpress/)&nbsp;to use Gatsby with WordPress |
+| **Easy WordPress / legacy converter** | Yes: [gohugo.io/tools/migrations](http://gohugo.io/tools/migrations) | No, but  only [slight configuration is required](https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-wordpress/) to use Gatsby with WordPress |
 | **Learning curve** | You'll need to learn conventions around folder structure and layouts, but otherwise straightforward. There are some [amazing tutorials available for Hugo beginners](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/). | Easy for those with JavaScript and React experience, but steep for absolute beginners. |
 | **Documentation** | [gohugo.io](http://gohugo.io/) | [gatsbyjs.com](https://www.gatsbyjs.com/) |
 | **Support communities** | [Hugo Discourse](https://discourse.gohugo.io/) is a full-service forum with many active users; [HugoConf](https://hugoconf.io) promises to link Hugo users. | [AskGatsbyJS](https://twitter.com/AskGatsbyJS) on Twitter; [Gatsby Discord](https://gatsby.dev/discord) for real-time chat with community and team members; [GitHub Discussions](https://github.com/gatsbyjs/gatsby/discussions/categories/help) for more involved questions. |
@@ -82,8 +82,8 @@ While you're likely to need a solid background in React (and therefore JavaScrip
 
 ## Choose either — or both — with CloudCannon
 
-Whichever static site generator you choose for your next website project, CloudCannon CMS will support you and your content editors with [two-way Git syncing](https://cloudcannon.com/features/developer-workflows/){: target="_blank" rel="noopener"}&nbsp;for collaboration, [branch/merge workflows](https://cloudcannon.com/features/collaborative-publishing/){: target="_blank" rel="noopener"} for adding new content and features, [top-tier hosting](https://cloudcannon.com/features/edge-hosting/){: target="_blank" rel="noopener"}, and best of all, an intuitive [visual editor](https://cloudcannon.com/features/visual-editing/){: target="_blank" rel="noopener"} interface.
+Whichever static site generator you choose for your next website project, CloudCannon CMS will support you and your content editors with [two-way Git syncing](https://cloudcannon.com/features/developer-workflows/) for collaboration, [branch/merge workflows](https://cloudcannon.com/features/collaborative-publishing/) for adding new content and features, [top-tier hosting](https://cloudcannon.com/features/edge-hosting/), and best of all, an intuitive [visual editor](https://cloudcannon.com/features/visual-editing/) interface.
 
-If you're looking for tutorials, find out more about working with [Hugo for beginners](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/){: target="_blank" rel="noopener"}, or how to [make the most of Hugo and CloudCannon](https://cloudcannon.com/community/learn/hugo-cms---get-started-with-cloudcannon/){: target="_blank" rel="noopener"}. You may also find it helpful to dig into our [Documentation](https://cloudcannon.com/documentation/){: target="_blank" rel="noopener"} to answer your SSG-specific questions about how to work with CloudCannon and Hugo, Gatsby,js, or any other static site generator.&nbsp;
+If you're looking for tutorials, find out more about working with [Hugo for beginners](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/), or how to [make the most of Hugo and CloudCannon](https://cloudcannon.com/community/learn/hugo-cms---get-started-with-cloudcannon/). You may also find it helpful to dig into our [Documentation](https://cloudcannon.com/documentation/) to answer your SSG-specific questions about how to work with CloudCannon and Hugo, Gatsby,js, or any other static site generator. 
 
-&nbsp;
+ 

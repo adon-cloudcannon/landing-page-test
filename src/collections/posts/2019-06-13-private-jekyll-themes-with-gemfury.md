@@ -11,7 +11,7 @@ Jekyll themes allow styles and site structures to be reused across any number of
 
 Themes are a necessity when managing more than one site that use the same designs or styles. All sites using a theme are updated whenever changes are made to the theme.
 
-[Gemfury](https://gemfury.com/){: target="_blank"} offers a secure hosting for gems/themes. All interactions with Gemfury are secure over HTTPS.
+[Gemfury](https://gemfury.com/)  offers a secure hosting for gems/themes. All interactions with Gemfury are secure over HTTPS.
 
 ### Creating Jekyll Themes
 
@@ -37,7 +37,7 @@ This packages all files and directories within your theme into a single ***gem**
 
 ### Uploading Themes
 
-[Create an account](https://manage.fury.io/users/sign_up){: target="_blank"} with Gemfury and install the [Gemfury CLI](https://gemfury.com/help/gemfury-cli){: target="_blank"}by entering the following within the command line:
+[Create an account](https://manage.fury.io/users/sign_up)  with Gemfury and install the [Gemfury CLI](https://gemfury.com/help/gemfury-cli) by entering the following within the command line:
 
 ```shell
 $ gem install fury
@@ -55,7 +55,7 @@ Upload the ***gem*** theme to your account:
 $ fury push mytheme-0.1.0.gem
 ```
 
-If you're pushing to a shared account you will need to enter the [username parameter](https://gemfury.com/help/gemfury-cli#uploading-packages){: target="_blank"}\:
+If you're pushing to a shared account you will need to enter the [username parameter](https://gemfury.com/help/gemfury-cli#uploading-packages) \:
 
 ```shell
 $ fury push mytheme-0.1.0.gem --as USERNAME
@@ -89,7 +89,7 @@ Adding authentication for local builds can be done using `bundle config`\:
 $ bundle config https://gem.fury.io/USERNAME/ DEPLOYTOKEN
 ```
 
-Authentication also needs to be added to your site on CloudCannon, which can be done using [environment variables](/documentation/build/setup/environments/#keyword:environment%20variables){: target="_blank"}. In CloudCannon navigate to *Settings &gt; Configuration &gt; Environment Variables.*
+Authentication also needs to be added to your site on CloudCannon, which can be done using [environment variables](/documentation/build/setup/environments/#keyword:environment%20variables) . In CloudCannon navigate to *Settings &gt; Configuration &gt; Environment Variables.*
 
 Add the *key* `BUNDLE_GEM__FURY__IO`{: .language-console} and add your deploy token as the *value*. These steps only need to be performed once with each site using a theme.
 

@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Markdown Codeblock"
+  label: "Markdown Youtube"
   description:
   icon:
   tags: []

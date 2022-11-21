@@ -18,7 +18,7 @@ I'm using Ubuntu 14.04 so adjust the instructions for your operating system.
 
 Install Git, Node.js, Ruby and Jekyll:
 
-```bash
+```sh
 
 $ sudo apt-get update
 
@@ -29,21 +29,21 @@ $ sudo gem install jekyll -v 2.4.0
 
 Symlink `nodejs` to `node`\:
 
-```bash
+```sh
 
 $ sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
 Clone the jekyll-hook repo from GitHub:
 
-```bash
+```sh
 
 $ git clone https://github.com/developmentseed/jekyll-hook.git
 ```
 
 Install the dependencies:
 
-```bash
+```sh
 
 $ cd jekyll-hook
 
@@ -54,7 +54,7 @@ $ npm install
 
 Copy the sample configuration to `config.json`\:
 
-```bash
+```sh
 
 $ cp config.sample.json config.json
 ```
@@ -65,7 +65,7 @@ With this script you can configure jekyll-hook to listen to a particular server,
 
 Change `accounts` to your GitHub account or organisation.
 
-```bash
+```sh
 
 $ nano config.json
 ```
@@ -125,7 +125,7 @@ As you can see from the configuration, jekyll-hook is going to run `./scripts/bu
 
 Here's my `./scripts/build.sh`\:
 
-```bash
+```sh
 
 #!/bin/bash
 
@@ -242,7 +242,7 @@ Click Add webhook. Set the Payload URL to point at your jekyll-hook server `http
 
 Run jekyll-hook. It listens for changes on port 8080:
 
-```bash
+```sh
 
 $ ./jekyll-hook.js
 ```

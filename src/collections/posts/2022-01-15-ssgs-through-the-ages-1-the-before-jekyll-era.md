@@ -20,15 +20,15 @@ author: mike-neumegen
 
 ---
 
-Before [Jekyll](https://jekyllrb.com/){: target="_blank" rel="noopener noreferrer"} — when the world was young — static website generators were the sole domain of the mavericks of the web development community. After all, why would you want a static website when you could have the flexibility and power of dynamic generation? Building a static HTML website from scratch was a repetitive process, which most people 'solved' with dynamic approaches.
+Before [Jekyll](https://jekyllrb.com/) — when the world was young — static website generators were the sole domain of the mavericks of the web development community. After all, why would you want a static website when you could have the flexibility and power of dynamic generation? Building a static HTML website from scratch was a repetitive process, which most people 'solved' with dynamic approaches.
 
 Even with all the hype around dynamic generation, a few brave souls still saw the benefits of static websites. They built tools for themselves and others to make working on static websites easier and more enjoyable. Little did they know that they were laying the foundation for the future of web development.
 
 ![](https://dam-cdn.cloudcannon.com/blog/uploads/h-timeline.svg){: width="600" height="77"}
 
-## **[HSC](https://github.com/mbethke/hsc){: target="_blank" rel="noopener noreferrer"}**
+## **[HSC](https://github.com/mbethke/hsc)**
 
-*by** **[Thomas Aglassinger](https://twitter.com/taglassinger){: target="_blank" rel="noopener noreferrer"}*
+*by** **[Thomas Aglassinger](https://twitter.com/taglassinger)*
 
 Finding the original, grandparent-of-all-grandparents static site generator is a tough undertaking. We know it was created sometime in the 90s, and it was probably an obscure piece of software that only a small group of people knew about.
 
@@ -42,11 +42,11 @@ HSC was an innovative yet obscure piece of software. While it could perform many
 
 ![](https://dam-cdn.cloudcannon.com/blog/uploads/m-timeline.svg){: width="600" height="77"}
 
-## [Movable Type](https://www.movabletype.org/){: target="_blank" rel="noopener noreferrer"}
+## [Movable Type](https://www.movabletype.org/)
 
-*by&nbsp;[Ben](https://twitter.com/btrott){: target="_blank" rel="noopener noreferrer"} and [Mena](https://twitter.com/dollarshort){: target="_blank" rel="noopener noreferrer"} Trott*
+*by [Ben](https://twitter.com/btrott) and [Mena](https://twitter.com/dollarshort) Trott*
 
-In the late 90s, self-published blogging rose in popularity thanks to tools like&nbsp;[Blogger](https://www.blogger.com/), [Open Diary](https://www.opendiary.com/), and [LiveJournal](https://www.livejournal.com/).
+In the late 90s, self-published blogging rose in popularity thanks to tools like [Blogger](https://www.blogger.com/), [Open Diary](https://www.opendiary.com/), and [LiveJournal](https://www.livejournal.com/).
 
 Ben and Mena Trott had what they called a "\[d\]issatisfaction with existing blog CMSes — performance, stability". They decided to create their own open-source Perl-based blogging platform, which would build a purely static website after any change. It was operated through a web GUI rather than on the command line; while it may not be what we typically think of as an SSG, the resulting website is static.
 
@@ -54,9 +54,9 @@ Moveable Type was one of the first platforms to recognize the advantages of stat
 
 ![](https://dam-cdn.cloudcannon.com/blog/uploads/n-timeline.svg){: width="600" height="77"}
 
-## [Nanoc](https://github.com/nanoc/nanoc){: target="_blank" rel="noopener noreferrer"}
+## [Nanoc](https://github.com/nanoc/nanoc)
 
-*by&nbsp;[Denis Defreyne](https://twitter.com/ddfreyne){: target="_blank" rel="noopener noreferrer"}*
+*by [Denis Defreyne](https://twitter.com/ddfreyne)*
 
 Ruby on Rails was launched in August 2004, cementing Ruby as a trendy alternative to PHP for web applications.
 

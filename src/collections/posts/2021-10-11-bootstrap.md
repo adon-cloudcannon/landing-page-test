@@ -448,8 +448,7 @@ content_blocks:
       around their source code as they typically have elegant solutions to
       common problems. If Hugo is the static site generator you want to use for
       your next project, take a look at this [Hugo
-      tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/){:
-      target="_blank" rel="noopener"} to get you started.&nbsp;
+      tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/) to get you started. 
     heading_type: h2
     col:
   - _bookshop_name: spacing

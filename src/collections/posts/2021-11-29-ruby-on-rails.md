@@ -16,11 +16,8 @@ content_blocks:
       The Rails marketing site is a good example of keeping things super simple.
       When you look through the main navigation, you'll see all the pages link
       to external locations. So what's actually part of the Jekyll site? [The
-      home page](https://rubyonrails.org/){: target="_blank" rel="noopener
-      noreferrer"}, [Code of conduct](https://rubyonrails.org/conduct/){:
-      target="_blank" rel="noopener noreferrer"},
-      [Doctrine](https://rubyonrails.org/doctrine/){: target="_blank"
-      rel="noopener noreferrer"} and other tightly scoped supporting pages. The
+      home page](https://rubyonrails.org/), [Code of conduct](https://rubyonrails.org/conduct/),
+      [Doctrine](https://rubyonrails.org/doctrine/) and other tightly scoped supporting pages. The
       front matter for all the pages is straightforward, simply setting the
       title and description for SEO, the layout, and a permalink for making the
       URL a little bit prettier.
@@ -156,8 +153,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       The final layout is for the [doctrine
-      page](https://rubyonrails.org/doctrine/){: target="_blank" rel="noopener
-      noreferrer"}. This page is unique because it's translated into five
+      page](https://rubyonrails.org/doctrine/). This page is unique because it's translated into five
       languages. We'll dive into how the translation works in the next section.
       <!-- -->
   - _bookshop_name: code-block
@@ -355,8 +351,7 @@ content_blocks:
 
       A more scalable way of doing this is using a translation system.
       CloudCannon has an open-source tool called
-      [Rosey,](https://github.com/CloudCannon/rosey){: target="_blank"
-      rel="noopener noreferrer"} which takes a lot of the complexity out of
+      [Rosey,](https://github.com/CloudCannon/rosey) which takes a lot of the complexity out of
       translations. The way it works is you build your website in one language,
       then set a key for each piece of content using HTML attributes. For
       example: <!-- -->
@@ -370,8 +365,7 @@ content_blocks:
       When you run Rosey on your static output, it will generate a JSON file
       with all your keys and their source language values. You can set up a
       process to automatically send this file to your translation service
-      ([Smartling](https://www.smartling.com/){: target="_blank" rel="noopener
-      noreferrer"} for example) or translate them manually. When the translation
+      ([Smartling](https://www.smartling.com/) for example) or translate them manually. When the translation
       is complete, you'll have a version of this file for every language you're
       translating to. Rosey takes these translated files and generates a
       multilingual version of your site. Again, for the Rails site, this would
@@ -393,8 +387,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       The Rails site uses the [GitHub Pages
-      gem](https://github.com/github/pages-gem){: target="_blank" rel="noopener
-      noreferrer"}, which is a gem that gives you access to all the Jekyll
+      gem](https://github.com/github/pages-gem), which is a gem that gives you access to all the Jekyll
       plugins whitelisted for GitHub Pages. The plugins actually used on this
       site are pretty typical for a Jekyll site:
 

@@ -59,13 +59,13 @@ The quick install involved configuring the database and other site settings for 
 
 Again, I'm using Mac OS X so Ruby is already installed. To install Jekyll I open up my terminal and type:
 
-```bash
+```sh
 sudo gem install jekyll
 ```
 
 Then I can run Jekyll using:
 
-```bash
+```sh
 jekyll serve
 ```
 

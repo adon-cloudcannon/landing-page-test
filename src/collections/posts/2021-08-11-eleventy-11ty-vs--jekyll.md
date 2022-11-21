@@ -25,10 +25,10 @@ Because Jekyll has been around for so long, there’s a huge amount of documenta
 
 ### Sites made with Jekyll
 
-* [http://rubyonrails.org/](http://rubyonrails.org/){: target="_blank" rel="noopener noreferrer"} (See our [deep dive into the Ruby on Rails site](https://cloudcannon.com/community/showcases/ruby-on-rails/) and how it uses Jekyll)
-* [https://developer.spotify.com/](https://developer.spotify.com/){: target="_blank" rel="noopener noreferrer"}
-* [https://dev.twitch.tv/](https://dev.twitch.tv/){: target="_blank" rel="noopener noreferrer"}
-* [https://login.gov/](https://login.gov/){: target="_blank" rel="noopener noreferrer"}
+* [http://rubyonrails.org/](http://rubyonrails.org/) (See our [deep dive into the Ruby on Rails site](https://cloudcannon.com/community/showcases/ruby-on-rails/) and how it uses Jekyll)
+* [https://developer.spotify.com/](https://developer.spotify.com/)
+* [https://dev.twitch.tv/](https://dev.twitch.tv/)
+* [https://login.gov/](https://login.gov/)
 * [https://cloudcannon.com/](https://cloudcannon.com/) (This site — you’re here right now\!)
 
 ## **What is Eleventy?**
@@ -41,11 +41,11 @@ For those developers who like to flex their fingers from time to time — or who
 
 ### Sites made with Eleventy
 
-* [https://www.11ty.io/](https://www.11ty.io/){: target="_blank" rel="noopener noreferrer"}
-* [https://eu-testbook.com/](https://eu-testbook.com/){: target="_blank" rel="noopener noreferrer"}
-* [https://web.dev/](https://web.dev/){: target="_blank" rel="noreferrer noopener"}
-* [https://templates.netlify.com/](https://templates.netlify.com/){: target="_blank" rel="noopener noreferrer"}
-* [https://splitinfinities.com/](https://splitinfinities.com/){: target="_blank" rel="noopener noreferrer"}
+* [https://www.11ty.io/](https://www.11ty.io/)
+* [https://eu-testbook.com/](https://eu-testbook.com/)
+* [https://web.dev/](https://web.dev/)
+* [https://templates.netlify.com/](https://templates.netlify.com/)
+* [https://splitinfinities.com/](https://splitinfinities.com/)
 
 ## **Let’s compare**
 
@@ -62,12 +62,12 @@ For those developers who like to flex their fingers from time to time — or who
 | Build speeds  | Fast-adjacent, though growing sites build increasingly slowly.  | Faster |
 | Multilingual and i18n  | Via plugins  | Via plugins |
 | Shortcodes  | Yes  | Yes |
-| Easy Wordpress et al. converter  | Yes: [Jekyll converter](https://import.jekyllrb.com/){: target="_blank" rel="noopener noreferrer"}  | No; you’ll need to convert to Markdown and then clean up with layout templates. |
+| Easy Wordpress et al. converter  | Yes: [Jekyll converter](https://import.jekyllrb.com/)  | No; you’ll need to convert to Markdown and then clean up with layout templates. |
 | Learning curve  | Gentle, especially if you have Ruby experience.  | Slightly more gentle, especially if you have JavaScript experience |
-| Documentation  | [jekyllrb.com/docs/](https://jekyllrb.com/docs/){: target="_blank" rel="noopener noreferrer"}  | [11ty.dev](http://11ty.dev/){: target="_blank" rel="noopener noreferrer"} |
-| Support communities  | [Jekyll Talk](https://talk.jekyllrb.com/){: target="_blank" rel="noopener"} <br><br>[Gitter](https://gitter.im/jekyll/jekyll){: target="_blank" rel="noopener"}  | [Eleventy Discord](https://discord.gg/GBkBy9u){: target="_blank" rel="noopener noreferrer"} and [eleventy-community](https://github.com/11ty/eleventy-community){: target="_blank" rel="noopener noreferrer"} both have helpful communities. |
-| Twitter accounts  | [Jekyll Twitter](https://twitter.com/jekyllrb){: target="_blank" rel="noopener noreferrer"}  | [Eleventy Twitter](https://twitter.com/eleven_ty){: target="_blank" rel="noopener noreferrer"} |
-| GitHub repos  | [github.com/jekyll](https://github.com/jekyll){: target="_blank" rel="noopener noreferrer"}  | [github.com/11ty/eleventy](https://github.com/11ty/eleventy/){: target="_blank" rel="noopener noreferrer"} |
+| Documentation  | [jekyllrb.com/docs/](https://jekyllrb.com/docs/)  | [11ty.dev](http://11ty.dev/) |
+| Support communities  | [Jekyll Talk](https://talk.jekyllrb.com/) <br><br>[Gitter](https://gitter.im/jekyll/jekyll)  | [Eleventy Discord](https://discord.gg/GBkBy9u) and [eleventy-community](https://github.com/11ty/eleventy-community) both have helpful communities. |
+| Twitter accounts  | [Jekyll Twitter](https://twitter.com/jekyllrb)  | [Eleventy Twitter](https://twitter.com/eleven_ty) |
+| GitHub repos  | [github.com/jekyll](https://github.com/jekyll)  | [github.com/11ty/eleventy](https://github.com/11ty/eleventy/) |
 
 ## **Which should I choose?**
 

@@ -7,11 +7,11 @@ tags:
 author: jordan-trbuhovic
 image: https://dam-cdn.cloudcannon.com/blog/assets/uploads/website.png
 ---
-Recently we covered [turning a Jekyll theme into a Gem and hosting it privately on GemFury](https://cloudcannon.com/tutorial/2019/06/13/private-jekyll-themes-with-gemfury/){: target="_blank"}. In this post we’re demonstrating how you can host your theme on GitHub . GitHub allow both public and private repository/theme hosting.
+Recently we covered [turning a Jekyll theme into a Gem and hosting it privately on GemFury](https://cloudcannon.com/tutorial/2019/06/13/private-jekyll-themes-with-gemfury/) . In this post we’re demonstrating how you can host your theme on GitHub . GitHub allow both public and private repository/theme hosting.
 
 ### Create a theme repository
 
-First, [create a repository](https://github.com/new){: target="_blank"} on GitHub. Anyone can use your theme if the repository is public.
+First, [create a repository](https://github.com/new)  on GitHub. Anyone can use your theme if the repository is public.
 
 Clone the repository to your local machine and open it from the command line. The Jekyll `new-theme`{: .language-console} command builds a basic theme structure that includes the `_layouts`, `_includes` and `_sass` directories. Start building a theme by entering the following into your command line:
 
@@ -61,7 +61,7 @@ Private repositories can be accessed using OAuth Tokens instead of personal cred
 
 Set the relevant permissions which the token will have access to. Once the token has generated, note it and keep it private. Keys are not recoverable once they're lost.
 
-To use a private theme the repository URL specified in the site's `Gemfile` needs to include the token:[…](https://cloudcannon.com/tutorial/2019/06/13/private-jekyll-themes-with-gemfury/){: target="_blank"}
+To use a private theme the repository URL specified in the site's `Gemfile` needs to include the token:[…](https://cloudcannon.com/tutorial/2019/06/13/private-jekyll-themes-with-gemfury/) 
 
 ```ruby
 gem 'mytheme', '>= 0.1.0', :git => 'https://TOKEN:x-oauth-basic@github.com/USERNAME/mytheme.git'

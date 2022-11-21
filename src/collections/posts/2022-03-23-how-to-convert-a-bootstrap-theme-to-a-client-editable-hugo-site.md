@@ -37,14 +37,13 @@ content_blocks:
 
 
       Find more [Bootstrap themes from
-      Themefisher](https://themefisher.com/free-bootstrap-templates/){:
-      target="_blank" rel="noopener noreferrer"}, and bring them to Hugo today\!
+      Themefisher](https://themefisher.com/free-bootstrap-templates/), and bring them to Hugo today\!
     col:
 ---
 Do you want to bring something fresh to your Hugo clients? Or perhaps you want to bring the speed and flexibility of Hugo to non-technical users? Look no further. We’ve launched a new in-depth tutorial over on the CloudCannon Learn pages\!
 
-In this tutorial, you’ll learn how to take an existing, MIT-licensed Bootstrap template, convert it into a Hugo theme, and then set it up for client editing and rich page-building with CloudCannon and our open-source [Bookshop](https://github.com/CloudCannon/bookshop){: target="_blank" rel="noopener noreferrer"} tool. You’ll also learn the basics of Hugo navigation, data files, and components, as well as some best practices to ensure that non-technical content editors will be able to make the changes they need, without worrying about breaking the site.
+In this tutorial, you’ll learn how to take an existing, MIT-licensed Bootstrap template, convert it into a Hugo theme, and then set it up for client editing and rich page-building with CloudCannon and our open-source [Bookshop](https://github.com/CloudCannon/bookshop) tool. You’ll also learn the basics of Hugo navigation, data files, and components, as well as some best practices to ensure that non-technical content editors will be able to make the changes they need, without worrying about breaking the site.
 
 ![](https://dam-cdn.cloudcannon.com/megakit-theme.jpeg)
 
-The tutorial uses the Megakit template pictured above ([see demo here](https://demo.themefisher.com/megakit/){: target="_blank" rel="noopener noreferrer"}) by the talented team at [Themefisher](https://themefisher.com/){: target="_blank" rel="noopener noreferrer"}. It’s a business-style template with drop-down navigation, blog, a wide range of components and best of all, a clean design that can be adjusted to suit your needs.
+The tutorial uses the Megakit template pictured above ([see demo here](https://demo.themefisher.com/megakit/)) by the talented team at [Themefisher](https://themefisher.com/). It’s a business-style template with drop-down navigation, blog, a wide range of components and best of all, a clean design that can be adjusted to suit your needs.

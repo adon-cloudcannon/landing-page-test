@@ -16,7 +16,7 @@ content_blocks:
     heading: Layout
     content_markdown: >-
       Let's start with the overarching layout. This
-      is&nbsp;[\_default.html](https://github.com/poole/hyde/blob/master/_layouts/default.html)&nbsp;on
+      is [\_default.html](https://github.com/poole/hyde/blob/master/_layouts/default.html) on
       the Jekyll site:
     heading_type: h2
     col:
@@ -42,8 +42,7 @@ content_blocks:
   - _bookshop_name: text
     col: 1
     content_markdown: >-
-      and&nbsp;[baseof.html](https://github.com/spf13/hyde/blob/master/layouts/_default/baseof.html){:
-      target="_blank" rel="noopener noreferrer"}&nbsp;on the Hugo site:
+      and [baseof.html](https://github.com/spf13/hyde/blob/master/layouts/_default/baseof.html) on the Hugo site:
   - _bookshop_name: code-block
     source:
     language: go
@@ -76,8 +75,8 @@ content_blocks:
 
 
       The post layout is slightly different between the two
-      implementations.&nbsp;[In
-      Jekyll](https://github.com/poole/hyde/blob/master/_layouts/post.html)&nbsp;we
+      implementations. [In
+      Jekyll](https://github.com/poole/hyde/blob/master/_layouts/post.html) we
       have a related posts section:
   - _bookshop_name: code-block
     source:
@@ -112,8 +111,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       Where as [in
-      Hugo](https://github.com/spf13/hyde/blob/master/layouts/_default/single.html){:
-      target="_blank" rel="noopener noreferrer"} this has been changed to a
+      Hugo](https://github.com/spf13/hyde/blob/master/layouts/_default/single.html) this has been changed to a
       Disqus comments section:
   - _bookshop_name: code-block
     source:
@@ -139,8 +137,7 @@ content_blocks:
     heading: Post
     content_markdown: >-
       The posts on the Hyde site
-      in&nbsp;[Jekyll](https://raw.githubusercontent.com/poole/hyde/master/_posts/2012-02-06-whats-jekyll.md){:
-      target="_blank" rel="noopener noreferrer"}&nbsp;a straightforward: YAML
+      in [Jekyll](https://raw.githubusercontent.com/poole/hyde/master/_posts/2012-02-06-whats-jekyll.md) a straightforward: YAML
       front matter with a body of Markdown.
     heading_type: h2
     col:
@@ -196,8 +193,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       On the Hugo site we don't have any posts, instead we have
-      an&nbsp;[archetype](https://gohugo.io/content-management/archetypes/){:
-      target="_blank" rel="noopener noreferrer"}&nbsp;- a template to create new
+      an [archetype](https://gohugo.io/content-management/archetypes/) - a template to create new
       posts: <!-- -->
   - _bookshop_name: code-block
     source:
@@ -254,9 +250,8 @@ content_blocks:
   - _bookshop_name: heading-and-text
     heading: Post list
     content_markdown: >-
-      On the Jekyll site, the&nbsp;[Post list
-      page](https://github.com/poole/hyde/blob/master/index.html){:
-      target="_blank" rel="noopener noreferrer"}&nbsp;iterates over the
+      On the Jekyll site, the [Post list
+      page](https://github.com/poole/hyde/blob/master/index.html) iterates over the
       paginated posts and outputs the title, URL, date, and content:
     alignment: left
     width: long
@@ -307,8 +302,8 @@ content_blocks:
   - _bookshop_name: text
     col: 1
     content_markdown: >-
-      The&nbsp;[Hugo post list
-      page](https://github.com/spf13/hyde/blob/master/layouts/index.html)&nbsp;is
+      The [Hugo post list
+      page](https://github.com/spf13/hyde/blob/master/layouts/index.html) is
       much more simple. It iterates over all the pages on the site and outputs
       the title, URL, and summary with a date.
   - _bookshop_name: code-block
@@ -349,8 +344,7 @@ content_blocks:
       That wraps up the comparison of the Jekyll vs. Hugo Hyde template. It's
       always interesting to see implementation differences between static site
       generators. If you have a template or site you'd like a showcase, reach
-      out to us on [Twitter](https://twitter.com/CloudCannon){: target="_blank"
-      rel="noopener noreferrer"}.
+      out to us on [Twitter](https://twitter.com/CloudCannon).
     alignment: left
     width: long
     heading_type: h2

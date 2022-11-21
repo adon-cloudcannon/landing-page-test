@@ -30,7 +30,7 @@ Your production site might need to be translated into multiple languages and hav
 Liquid is often the a culprit in slow build times. The first port of call for optimising Liquid is using the Liquid profiler:
 {: .present-before-paste}
 
-```bash
+```sh
 bundle exec jekyll build --profile
 ```
 
@@ -117,7 +117,7 @@ This is much faster but makes the site harder to maintain. We need the best of b
 Ben Balter has solved this for us with his [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin. To install add `jekyll-include-cache` to your `Gemfile` then run `bundle install`. Instead of calling {% raw %}`{% include footer.html %}`{% endraw %} we call {% raw %}`{% include_cached footer.html %}`{% endraw %}. This took the execution time of this file from 0.596 to 0.001.
 {: .present-before-paste}
 
-The footer is easy to cache as is exactly the same on every page. Let's look at something that isn't the same on every page, the main navigation. `_includes/navigation.html` iterates over a data file, outputs a link and name then adds an&nbsp;`active` class if the link is the current page:
+The footer is easy to cache as is exactly the same on every page. Let's look at something that isn't the same on every page, the main navigation. `_includes/navigation.html` iterates over a data file, outputs a link and name then adds an `active` class if the link is the current page:
 {: .present-before-paste}
 
 {% raw %}
@@ -202,7 +202,7 @@ While it can be tempting to add every Jekyll plugin under the sun to your site, 
 
 ### Do you actually need the plugin?
 
-When I started using Jekyll I thought pagination was essential for any blog, however, our analytics told a different story. I realised that very few people click through the pagination pages, they're simply a way for search engines to find content. Instead of using pagination now we have a [blog page](/blog/) which has our ten most recent posts and an&nbsp;[archived page](/blog/archived/) which has the rest. No plugins necessary.
+When I started using Jekyll I thought pagination was essential for any blog, however, our analytics told a different story. I realised that very few people click through the pagination pages, they're simply a way for search engines to find content. Instead of using pagination now we have a [blog page](/blog/) which has our ten most recent posts and an [archived page](/blog/archived/) which has the rest. No plugins necessary.
 {: .present-before-paste}
 
 ### Can you do this in frontend instead?

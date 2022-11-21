@@ -14,9 +14,9 @@ It's 2019. Next.js/Nuxt.js are pushing the boundaries of what SSGs are capable o
 
 ![Redwood logo sitting at year 2019](https://dam-cdn.cloudcannon.com/redwood-timeline.svg){: width="600" height="77"}
 
-## **[Redwoodjs](https://redwoodjs.com/){: target="_blank" rel="noopener noreferrer"}**&nbsp;
+## **[Redwoodjs](https://redwoodjs.com/)** 
 
-*by [Tom Preston-Werner](https://github.com/mojombo){: target="_blank" rel="noopener noreferrer"}, [Peter Pistorius](https://github.com/peterp){: target="_blank" rel="noopener noreferrer"}, [David Price](https://github.com/thedavidprice){: target="_blank" rel="noopener noreferrer"} & [Rob Cameron](https://github.com/cannikin){: target="_blank" rel="noopener noreferrer"}*
+*by [Tom Preston-Werner](https://github.com/mojombo), [Peter Pistorius](https://github.com/peterp), [David Price](https://github.com/thedavidprice) & [Rob Cameron](https://github.com/cannikin)*
 
 Eleven years after the launch of Jekyll, Tom Preston-Werner *et al* started working on a new project in the SSG space, Redwoodjs. Calling Redwoodjs a static site generator is misleading, however. The ambition for the project is far greater:
 
@@ -40,9 +40,9 @@ Redwoodjs is purposefully pushing the boundaries of what's possible with Jamstac
 
 ![Scully logo on timeline at year 2019](https://dam-cdn.cloudcannon.com/scully-timeline.svg){: width="600" height="77"}
 
-## **[Scully](https://scully.io/){: target="_blank" rel="noopener noreferrer"}**
+## **[Scully](https://scully.io/)**
 
-*by [Aaron Frost](https://github.com/aaronfrost){: target="_blank" rel="noopener noreferrer"}, [Sander Elias](https://github.com/SanderElias){: target="_blank" rel="noopener noreferrer"}, and [Jorge Cano](https://github.com/jorgeucano){: target="_blank" rel="noopener noreferrer"}*
+*by [Aaron Frost](https://github.com/aaronfrost), [Sander Elias](https://github.com/SanderElias), and [Jorge Cano](https://github.com/jorgeucano)*
 
 The Angular community finally had their answer for SSGs in 2019 with Scully. Scully follows a similar model to Gatsby:
 
@@ -56,9 +56,9 @@ The magical part of Scully is its use of the Guess.js library and machine learni
 
 ![Blitz.js logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/blitz-js-timeline.svg){: width="600" height="77"}
 
-## **[Blitz.js](https://blitzjs.com/){: target="_blank" rel="noopener noreferrer"}**&nbsp;
+## **[Blitz.js](https://blitzjs.com/)** 
 
-*by&nbsp;[Brandon Bayer](https://github.com/flybayer){: target="_blank" rel="noopener noreferrer"}*
+*by [Brandon Bayer](https://github.com/flybayer)*
 
 Blitz.js started when Brandon Bayer conversed with his friend about the pros and cons of Ruby on Rails versus React. He realized that while the development community has made a tremendous amount of progress on JavaScript frameworks, these frameworks can't compete with the simplicity and developer experience offered by Ruby on Rails. Monolithic applications — for all their shortcomings — are easier to get your head around and give far greater flexibility to the developer.
 

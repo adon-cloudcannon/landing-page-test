@@ -30,8 +30,7 @@ content_blocks:
       When styling your templates, take advantage of Hugo’s
       [built-in](https://gohugo.io/hugo-pipes/scss-sass/){: target="_blank"
       rel="noopener noreferrer"} support
-      for&nbsp;[Sass](https://sass-lang.com/){: target="_blank" rel="noopener
-      noreferrer"}. Since all valid CSS works in Sass, you can start with
+      for [Sass](https://sass-lang.com/). Since all valid CSS works in Sass, you can start with
       “vanilla” CSS and enable Sass’s capabilities as you learn about them. Sass
       is proven, feature-packed, and lovingly maintained. The stability and
       non-fussiness of a Hugo installation will be ably complemented by the
@@ -59,8 +58,7 @@ content_blocks:
 
       You’ll need to consider how many images are involved or will be involved
       over time. Although another built-in Hugo capability is [image
-      processing](https://gohugo.io/content-management/image-processing/){:
-      target="_blank" rel="noopener noreferrer"}, and Hugo can do it remarkably
+      processing](https://gohugo.io/content-management/image-processing/), and Hugo can do it remarkably
       quickly (of course), the processing of each additional image — and its
       various iterations as you perform responsive image handling — will
       lengthen each build. So run some tests, adding various Hugo image
@@ -125,8 +123,7 @@ content_blocks:
       your attention regarding an existing Hugo site, there sometimes will be a
       new feature which can be of great use to you and your clients. One such
       example was a December, 2021, release [adding the ability to fetch remote
-      resources](https://github.com/gohugoio/hugo/releases/tag/v0.90.0){:
-      target="_blank" rel="noopener noreferrer"} so Hugo could process them just
+      resources](https://github.com/gohugoio/hugo/releases/tag/v0.90.0) so Hugo could process them just
       as if they were local to the project repository.
 
 
@@ -150,7 +147,7 @@ content_blocks:
       and content owners alike. Hugo definitely merits consideration for your
       website projects, and its unique advantages can make you a hero with your
       clients, not only at site creation time but going forward
-      —&nbsp;*especially* if you pair it with a collaborative CMS like
+      — *especially* if you pair it with a collaborative CMS like
       CloudCannon. Be sure to check out the other Hugo-related articles here on
       the CloudCannon blog for more information of this type.
     col:
@@ -166,11 +163,11 @@ content_blocks:
     link_open_in_new_tab: false
 templateEngineOverride: md
 ---
-There’s plenty to be said for stuff that *just works*, and the [Hugo](https://gohugo.io/){: target="_blank" rel="noopener noreferrer"} static site generator (SSG) is a perfect exemplar of that well-worn descriptor. When you’re building a new website for a client, Hugo should be one of the first tools you pull from your bag.&nbsp;
+There’s plenty to be said for stuff that *just works*, and the [Hugo](https://gohugo.io/) static site generator (SSG) is a perfect exemplar of that well-worn descriptor. When you’re building a new website for a client, Hugo should be one of the first tools you pull from your bag. 
 
 This is because Hugo, like many other SSGs, creates sites with all the winning elements of the [Jamstack](https://cloudcannon.com/jamstack/) formula: top-of-the-line security over which your clients won’t have to fret, tremendous client-side performance that will enhance their SEO efforts, and minimal use of hosting resources which could otherwise cost them plenty.
 
-But, compared to those other entrants in the [growing list of SSGs](https://jamstack.org/generators/){: target="_blank" rel="noopener noreferrer"}, Hugo has a major ace up its sleeve. You see, the thing you hear most about Hugo is no exaggeration: Hugo really *is* the fastest way to generate a website. This SSG can easily churn out hundreds of web pages in *under a second* on each build. That titanic velocity is possible because Hugo itself is built with the [Go language](https://golang.org/){: target="_blank" rel="noopener noreferrer"}. And, since every content change on an SSG-built site generates a new build, even in development, both you and your client will find that single Hugo advantage a compelling one.
+But, compared to those other entrants in the [growing list of SSGs](https://jamstack.org/generators/), Hugo has a major ace up its sleeve. You see, the thing you hear most about Hugo is no exaggeration: Hugo really *is* the fastest way to generate a website. This SSG can easily churn out hundreds of web pages in *under a second* on each build. That titanic velocity is possible because Hugo itself is built with the [Go language](https://golang.org/). And, since every content change on an SSG-built site generates a new build, even in development, both you and your client will find that single Hugo advantage a compelling one.
 
 Better yet, Hugo’s a single, self-contained binary — an app, if you will. As a result, it’s possible that neither you nor your client will need to worry about constantly updating various software dependencies, contrary to what’s necessary when you use most other SSGs. All of Hugo’s dependencies are baked in from the get-go, as are a wide array of capabilities that require *no* plugins or add-ons.
 
@@ -182,15 +179,15 @@ Hugo is built from the ground up to make website content management easy, even s
 
 ### Lookup order
 
-It’s important to know where Hugo expects to find things, so you’ll want to learn its [lookup order](https://gohugo.io/templates/lookup-order/){: target="_blank" rel="noopener noreferrer"} pretty early. The good thing is that it’s quite logical and, thus, soon grasped: for example, content goes in `/content` and layout templates go in `/layouts`. It gets more extensive than that, but it won’t take you long to get a feel for it.
+It’s important to know where Hugo expects to find things, so you’ll want to learn its [lookup order](https://gohugo.io/templates/lookup-order/) pretty early. The good thing is that it’s quite logical and, thus, soon grasped: for example, content goes in `/content` and layout templates go in `/layouts`. It gets more extensive than that, but it won’t take you long to get a feel for it.
 
 ### Asset directory
 
-Speaking of the lookup order, Hugo’s built-in asset pipeline, [Hugo Pipes,](https://gohugo.io/hugo-pipes/){: target="_blank" rel="noopener noreferrer"} can process applicable items only if they’re in the [asset directory](https://gohugo.io/hugo-pipes/introduction/#asset-directory){: target="_blank" rel="noopener noreferrer"} for the project (or theme, about which more shortly). Of course, they can be in subdirectories *within* it. Let’s say your asset directory is the project’s top-level `/assets` directory. If so, Hugo Pipes can work with the contents of, *e.g.*, `/assets/images`, `/assets/scss`, and so on.
+Speaking of the lookup order, Hugo’s built-in asset pipeline, [Hugo Pipes,](https://gohugo.io/hugo-pipes/) can process applicable items only if they’re in the [asset directory](https://gohugo.io/hugo-pipes/introduction/#asset-directory) for the project (or theme, about which more shortly). Of course, they can be in subdirectories *within* it. Let’s say your asset directory is the project’s top-level `/assets` directory. If so, Hugo Pipes can work with the contents of, *e.g.*, `/assets/images`, `/assets/scss`, and so on.
 
 ### Archetypes
 
-If your clients will be creating new content with the `hugo new` [command](https://gohugo.io/commands/hugo_new/){: target="_blank" rel="noopener noreferrer"}, a specific [archetype](https://gohugo.io/content-management/archetypes/){: target="_blank" rel="noopener noreferrer"} template file will automatically provide a new content file with the minimally acceptable content, including front matter, saving the content creator from having to start totally from scratch each time.
+If your clients will be creating new content with the `hugo new` [command](https://gohugo.io/commands/hugo_new/), a specific [archetype](https://gohugo.io/content-management/archetypes/) template file will automatically provide a new content file with the minimally acceptable content, including front matter, saving the content creator from having to start totally from scratch each time.
 
 It’s not a one-size-fits-all situation, either: you can set up different archetypes to conform to how and where the content will be created.
 
@@ -204,11 +201,11 @@ Oh, and while we’re on the subject of themes: you’ll be glad to know they al
 
 ## Get comfortable with Go
 
-Templating in Hugo is a mixture of HTML and the Go language, on which Hugo depends. If your chief coding experience is with languages besides Go, you’ll want a bit of ramp-up to start templating in Hugo. Fortunately, there’s an easy way to do that — and your client can even help you\! Because there are [so many available themes](https://themes.gohugo.io/){: target="_blank" rel="noopener noreferrer"} for Hugo, it’s likely you and your client will find a few that look and/or work at least somewhat like the targeted website layout and design you have in mind.
+Templating in Hugo is a mixture of HTML and the Go language, on which Hugo depends. If your chief coding experience is with languages besides Go, you’ll want a bit of ramp-up to start templating in Hugo. Fortunately, there’s an easy way to do that — and your client can even help you\! Because there are [so many available themes](https://themes.gohugo.io/) for Hugo, it’s likely you and your client will find a few that look and/or work at least somewhat like the targeted website layout and design you have in mind.
 
-Pick as many such themes as you can, and dig into their code to see how others did what you’re considering. Then, back up your findings with what you can find in the extensive [Hugo documentation](https://gohugo.io/documentation/){: target="_blank" rel="noopener noreferrer"} and the [Hugo Discourse forum](https://discourse.gohugo.io/){: target="_blank" rel="noopener noreferrer"}. This is the process through which I learned — and continue to learn — Hugo. The same doubtless is true for many other Hugo users. (Of course, if by some chance you and your clients find an external theme that’s already perfect for the project except for a few no-brainer edits, you’re basically home free\! Just don’t expect to get that lucky. It happens, but don’t bet on it.)
+Pick as many such themes as you can, and dig into their code to see how others did what you’re considering. Then, back up your findings with what you can find in the extensive [Hugo documentation](https://gohugo.io/documentation/) and the [Hugo Discourse forum](https://discourse.gohugo.io/). This is the process through which I learned — and continue to learn — Hugo. The same doubtless is true for many other Hugo users. (Of course, if by some chance you and your clients find an external theme that’s already perfect for the project except for a few no-brainer edits, you’re basically home free\! Just don’t expect to get that lucky. It happens, but don’t bet on it.)
 
-Remember, too, that Hugo has been around for nearly a decade and, thus, its workings have been thoroughly explored by many bloggers, [Stack Overflow](https://stackoverflow.com/){: target="_blank" rel="noopener noreferrer"}, and [Reddit](https://www.reddit.com/r/gohugo/){: target="_blank" rel="noopener noreferrer"}. It’s highly likely that a diligent search for *how to do \[x\] in Hugo* will reward you with an answer *and* a valuable jump on handling similar questions in the future.
+Remember, too, that Hugo has been around for nearly a decade and, thus, its workings have been thoroughly explored by many bloggers, [Stack Overflow](https://stackoverflow.com/), and [Reddit](https://www.reddit.com/r/gohugo/). It’s highly likely that a diligent search for *how to do \[x\] in Hugo* will reward you with an answer *and* a valuable jump on handling similar questions in the future.
 
 Incidentally, here’s one seemingly trivial yet surprisingly helpful tip for anyone coming to Hugo from, say, a JavaScript-based SSG. It’s something that would be apparent in most themes you’ll find, yet something you can easily overlook. While most SSGs use the `=` operator for both initializing a variable and assigning or re-assigning its value, Hugo uses Go’s `:=` operator for only initializing a variable and limits `=` to re-assigning the variable’s value. (The `{{/*` and `*/}}` below indicate Go-style commenting in Hugo, much as `/*` and `*/` do in most other SSGs.)
 

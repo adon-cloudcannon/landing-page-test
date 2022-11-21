@@ -13,7 +13,7 @@ The last deconstruction about the [Facebook content placeholder](/deconstruction
 
 As I roamed through the great community designs I noticed the cover images blurred as I scrolled. I immediately thought that they were dynamically blurring images with a canvas but my browser wasn't getting crippled. So I took a look and the result was very pleasing. Here's my clone:
 
-<div class="pixelapse-image scroll-blurred"><div class="the-blurred-image">&nbsp;</div><div class="the-nice-crisp-image">&nbsp;</div></div>
+<div class="pixelapse-image scroll-blurred"><div class="the-blurred-image"> </div><div class="the-nice-crisp-image"> </div></div>
 
 ```html
 <div class="pixelapse-image">
@@ -48,13 +48,13 @@ Just two divs with background images, that's amazing and explains the why the pe
 
 This is the image you want to use, just as you want to show it normally with no blurring. You will be overlaying this over the next image. Here's my one:
 
-<div class="the-nice-crisp-image">&nbsp;</div>
+<div class="the-nice-crisp-image"> </div>
 
 ### A Small Blurred Image
 
 This is the same image as the one above only I have blurred it. This image will be sitting behind the crisp version and will never change.
 
-<div class="the-blurred-image">&nbsp;</div>
+<div class="the-blurred-image"> </div>
 
 ### The Magic
 
@@ -88,7 +88,7 @@ This is a version using jQuery so I can demonstrate the logic cleanly. To optimi
 
 To demonstrate the the same effect, Below is a pure CSS implementation using the hover state and some nice CSS transitions (try hovering). I reversed the effect so the default is the crisp image, added a glow and added a greeting.
 
-<div class="do-it-on-hover-instead pixelapse-image"><div class="the-blurred-image">Hi There</div><div class="the-nice-crisp-image">&nbsp;</div></div>
+<div class="do-it-on-hover-instead pixelapse-image"><div class="the-blurred-image">Hi There</div><div class="the-nice-crisp-image"> </div></div>
 
 ```css
 .do-it-on-hover-instead .the-blurred-image,
@@ -114,7 +114,7 @@ This is a great way for setting the focus on the hovered element and one that pe
 
 This was a clever way to polish the UI without impacting on the performance of the page. This fits the tune of the rest of Pixelapse which is beautifully polished. Definitely worth checking out for the idea and the designs. If you found this useful or have any questions feel free to comment below.
 
-Note: I used unprefixed CSS in the code examples to keep it clean. You can use [Our CSS Prefixer](http://prefixr.cloudvent.net/){: target="_blank"} to get cross a cross browser version.
+Note: I used unprefixed CSS in the code examples to keep it clean. You can use [Our CSS Prefixer](http://prefixr.cloudvent.net/)  to get cross a cross browser version.
 
 <style type="text/css">.the-blurred-image,
     .the-nice-crisp-image,

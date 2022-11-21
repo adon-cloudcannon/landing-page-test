@@ -23,7 +23,7 @@ It's not built in HTML and CSS but that's not important. What's important is tha
 
 This is the finished clone of the [Delightful Details](http://www.google.com/design/spec/animation/delightful-details.html). Note that it isn't exactly the same but it proves that it can be done in HTML and CSS. You click on each section to toggle between icons.
 
-<div class="material-grid"><section class="material-green"><div class="material-icon hamburger" data-icon="hamburger">&nbsp;</div></section><section class="material-amber"><div class="material-icon play" data-icon="play">&nbsp;</div></section><section class="material-blue"><div class="material-icon failed-loader" data-icon="failed-loader">&nbsp;</div></section><section class="material-red"><div class="material-icon plus-one" data-icon="plus-one">&nbsp;</div></section></div>
+<div class="material-grid"><section class="material-green"><div class="material-icon hamburger" data-icon="hamburger"> </div></section><section class="material-amber"><div class="material-icon play" data-icon="play"> </div></section><section class="material-blue"><div class="material-icon failed-loader" data-icon="failed-loader"> </div></section><section class="material-red"><div class="material-icon plus-one" data-icon="plus-one"> </div></section></div>
 
 ```html
 <div class="material-grid">
@@ -67,7 +67,7 @@ Now let's break it down.
 
 This is just a square grid cut in four with different colours. My colours differ slightly as I chose to use the 500 strength colours from the material [colour palette](http://www.google.com/design/spec/style/color.html#color-color-palette).
 
-<div class="material-grid"><section class="material-green">&nbsp;</section><section class="material-amber">&nbsp;</section><section class="material-blue">&nbsp;</section><section class="material-red">&nbsp;</section></div>
+<div class="material-grid"><section class="material-green"> </section><section class="material-amber"> </section><section class="material-blue"> </section><section class="material-red"> </section></div>
 
 ```html
 <div class="material-grid">
@@ -195,7 +195,7 @@ Here is the base CSS used to construct my icons:
 
 The hamburger is an on going debate in the UX community but I leave that for another day. All I need to do for this icon is create three horizontal bars of equal height. I will move the second span to the middle and the third to the bottom.
 
-<div class="clearfix"><section class="material-standalone-section material-green"><div class="material-icon hamburger">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-green"><div class="material-icon hamburger"> </div></section></div>
 
 ```css
 .hamburger span {
@@ -218,7 +218,7 @@ Now you may be asking, why not use absolute positioning here? By using transform
 
 I will build the back arrow to be an arrow facing right, then rotate the whole container 180 degrees. This will give we the same effect as the video and allow me to focus each animation separately. The first span is exactly the same so I will combine that selector. The second and third are rotated 45 degrees and need to be moved into place. *You can click this one to see the animation.*
 
-<div class="clearfix"><section class="material-standalone-section material-green"><div class="material-icon arrow" data-icon="arrow">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-green"><div class="material-icon arrow" data-icon="arrow"> </div></section></div>
 
 ```css
 /* This part is added to the hamburger css so they have the same height and positioning. */
@@ -249,7 +249,7 @@ That's the green section all done. Let's move on to the amber section.
 
 The pause is just as easy as the hamburger; It's just two vertical bars. I decided to rotate it 90deg and have two horizontal bars for the animation to play.
 
-<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon pause" data-icon="pause">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon pause" data-icon="pause"> </div></section></div>
 
 ```css
 .pause {
@@ -269,13 +269,13 @@ The pause is just as easy as the hamburger; It's just two vertical bars. I decid
 
 This one took me a while to think about. You can probably imagine me trying to stick three rectangles together to create a triangle. **Hmmm… I'll come back to this one after stop.**
 
-<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon not-play" data-icon="not-play">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon not-play" data-icon="not-play"> </div></section></div>
 
 ### Stop
 
 This one was obvious everyone who knows CSS knows how to create a coloured square. I did however use two half blocks so the animation to pause would look like it's splitting from the middle.
 
-<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon stop">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon stop"> </div></section></div>
 
 ```css
 .stop {
@@ -296,7 +296,7 @@ This one was obvious everyone who knows CSS knows how to create a coloured squar
 
 After doing stop and looking at the original animation closely I realised that I needed something else to achieve this. I employed the same technique from my [Facebook content placeholder](/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html) post to mask the icon into a triangle shape.
 
-<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon play" data-icon="play">&nbsp;</div></section><section class="material-standalone-section material-amber visible-masks"><div class="material-icon play" data-icon="play">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-amber"><div class="material-icon play" data-icon="play"> </div></section><section class="material-standalone-section material-amber visible-masks"><div class="material-icon play" data-icon="play"> </div></section></div>
 
 Here's my mask, no extra elements required. I default it to sitting on top and bottom so my earlier icons are not effected.
 
@@ -366,7 +366,7 @@ That's the amber section all done. Let's move on to the blue loader section.
 
 I'm going to be honest, I was on a bit of a high getting the last two parts done. The loader did not seem like a huge leap as I could use all the same tactics and pair it with an infinite CSS animation. As you can see I gave up getting the animations anything close to perfect:
 
-<div class="clearfix"><section class="material-standalone-section material-blue"><div class="material-icon failed-loader">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-blue"><div class="material-icon failed-loader"> </div></section></div>
 
 ```css
 .stop {
@@ -385,7 +385,7 @@ I'm going to be honest, I was on a bit of a high getting the last two parts done
 
 I will break each step down anyway. Since releasing this post, [a good article using SVG and CSS animations](http://david.ingledow.co.uk/blog/google-material-designs-animated-loading-spinner-svg-and-css/) has popped up to implement the loader.
 
-<div class="clearfix"><section class="material-standalone-section material-blue"><div class="material-icon loader-step-one">&nbsp;</div></section><section class="material-standalone-section material-blue"><div class="material-icon loader-step-two">&nbsp;</div></section><section class="material-standalone-section material-blue"><div class="material-icon loader-step-three">&nbsp;</div></section><section class="material-standalone-section material-blue"><div class="material-icon failed-loader loader-only-trailer">&nbsp;</div></section><section class="material-standalone-section material-blue"><div class="material-icon failed-loader">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-blue"><div class="material-icon loader-step-one"> </div></section><section class="material-standalone-section material-blue"><div class="material-icon loader-step-two"> </div></section><section class="material-standalone-section material-blue"><div class="material-icon loader-step-three"> </div></section><section class="material-standalone-section material-blue"><div class="material-icon failed-loader loader-only-trailer"> </div></section><section class="material-standalone-section material-blue"><div class="material-icon failed-loader"> </div></section></div>
 
 ```css
 @keyframes spin {
@@ -495,7 +495,7 @@ If I were to build it again I would have had a full circle in white and used the
 
 I was finally up to my last segment and I was cut down by the mighty loader. I decided to start with the plus. Very similar to techniques before but I overlap them instead of putting them parallel. For the +2 icon I can rotate the two elements of the plus 90 degrees.
 
-<div class="clearfix"><section class="material-standalone-section material-red no-mask"><div class="material-icon plus-one" data-icon="plus-one">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-red no-mask"><div class="material-icon plus-one" data-icon="plus-one"> </div></section></div>
 
 ```css
 .plus-one .first, .plus-two .first,
@@ -517,7 +517,7 @@ I was finally up to my last segment and I was cut down by the mighty loader. I d
 
 For the number, I mentioned earlier that the [Roboto font](http://www.google.com/fonts/specimen/Roboto) will come in handy. I figured the easiest way to add the numbers was to make the content of the masks "1" and "2". Then all I need to do is position the masks to the right of the plus.
 
-<div class="clearfix"><section class="material-standalone-section material-red"><div class="material-icon plus-one" data-icon="plus-one">&nbsp;</div></section></div>
+<div class="clearfix"><section class="material-standalone-section material-red"><div class="material-icon plus-one" data-icon="plus-one"> </div></section></div>
 
 ```css
 .material-icon:before { content: "1"; }

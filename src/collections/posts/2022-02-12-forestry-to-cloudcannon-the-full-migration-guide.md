@@ -27,7 +27,7 @@ content_blocks:
       Forestry had a feature set that made it a great platform for empowering
       content editors to update content on Jamstack websites. To get a full
       picture of an alternative to Forestry, we’ll look at how CloudCannon
-      compares to Forestry on a feature-by-feature basis:<br>&nbsp;
+      compares to Forestry on a feature-by-feature basis:<br> 
 
 
       ### Git provider support
@@ -225,8 +225,7 @@ content_blocks:
   - _bookshop_name: text
     content_markdown: >-
       CloudCannon has a similar feature called [client
-      sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/){:
-      target="_blank" rel="noopener noreferrer"}. Instead of setting up user
+      sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/). Instead of setting up user
       accounts for editors, you set up a password. Clients navigate to
       theirdomain.com/update, enter the password and get a white labeled
       interface to update the content on their site.
@@ -367,7 +366,7 @@ content_blocks:
       files for Hugo, 11ty, Jekyll sites. In addition to this, you can
       [customize](https://cloudcannon.com/documentation/articles/defining-your-collections/)
       the icon each content section displays with, the sort order, whether new
-      items can be added, and other options to finetune the sidebar.&nbsp;
+      items can be added, and other options to finetune the sidebar. 
 
 
       You can also define custom collections, choose which collections are shown
@@ -411,7 +410,7 @@ content_blocks:
 
 
       *
-      [Inputs](https://cloudcannon.com/documentation/articles/how-to-choose-what-input-is-used-in-the-data-editor/)&nbsp;—
+      [Inputs](https://cloudcannon.com/documentation/articles/how-to-choose-what-input-is-used-in-the-data-editor/) —
       Configure a wide range of options on your fields throughout your site. Use
       this to customize the editing experience of front matter and data files.
       Set the type, label, comment, and other options for a field that
@@ -419,7 +418,7 @@ content_blocks:
       'Fields'.
 
       * [Defaults
-      files](https://cloudcannon.com/documentation/articles/defining-the-default-contents-of-new-files/)&nbsp;—
+      files](https://cloudcannon.com/documentation/articles/defining-the-default-contents-of-new-files/) —
       A template (markdown or HTML) that’s used to populate new files with your
       desired content model. Similar in scope to Forestry's 'Front Matter
       Templates'.
@@ -562,4 +561,4 @@ content_blocks:
       you get set up.
     col:
 ---
-As the Forestry CMS moves towards [its sunset](https://forestry.io/blog/tina-cloud-the-next-forestry/){: target="_blank" rel="noopener noreferrer"}, many Hugo, 11ty, and Jekyll developers are looking for a new home for their Jamstack websites. CloudCannon is a Git-based CMS which has been around since 2014 and powers thousands of websites for Fortune 500 companies, digital agencies, freelancers, and global businesses.
+As the Forestry CMS moves towards [its sunset](https://forestry.io/blog/tina-cloud-the-next-forestry/), many Hugo, 11ty, and Jekyll developers are looking for a new home for their Jamstack websites. CloudCannon is a Git-based CMS which has been around since 2014 and powers thousands of websites for Fortune 500 companies, digital agencies, freelancers, and global businesses.

@@ -20,25 +20,25 @@ content_blocks:
             energy to open the covers and see how the pixels were looking. We
             expected to find a little dust and tangled wires — not because we
             were doing bad things, but rather because we knew we accumulated a
-            bit of design debt over the last few years.&nbsp;
+            bit of design debt over the last few years. 
 
 
             The UI updates from our review will be rolled out next week. There’s
             (hopefully) nothing scary ahead, but going into this project we had
-            a few goals:&nbsp;
+            a few goals: 
         col: '1'
     -
         _bookshop_name: heading-and-text
         heading: Our goals
         content_markdown: >-
             * To align our brand across our Marketing, Documentation sites, and
-            app.&nbsp;
+            app. 
 
             * To make UI improvements to our components in the Visual Editor and
             Data Editor, setting them up to look as world-class as they
             function.
 
-            * To identify and scope UX improvements in our components.&nbsp;
+            * To identify and scope UX improvements in our components. 
 
             * To build a sticker sheet for all of our components. (This last one
             is an internal feature for our team, and will make it that much
@@ -61,7 +61,7 @@ content_blocks:
 
             * Our app can be slightly too technical in places. It’s important to
             you that we offer a good balance between technical capabilities and
-            intuitive, friendly editing.&nbsp;&nbsp;
+            intuitive, friendly editing.  
 
             * Most importantly, we heard that you wanted a heads-up before we
             made our next batch of updates. So, here we go\!
@@ -76,14 +76,14 @@ content_blocks:
             We opened our project with a review of our colors and font styles.
             We found 52 varieties of color and 26 sizes of type in the codebase.
             Many of these were holdovers from our previous brand styles, with a
-            couple having absolutely no reason or rhyme for existing.&nbsp;
+            couple having absolutely no reason or rhyme for existing. 
 
 
             The majority of the colors needed consolidation, as in many cases we
             had different values for the same color. For example, we have
             consolidated nine of the values into our black, named Carbon. We now
             have 13 brand colors in the app, including three for success,
-            warnings, and errors.&nbsp;
+            warnings, and errors. 
 
 
             During the initial brand project last year, our designer Haowei Yu
@@ -112,7 +112,7 @@ content_blocks:
             small, and an increase in the size of our smallest text. We are now
             down to seven neat sizes with best-practice rules for combinations
             and colors. Finally, and importantly, we optimized our type
-            structure for screen readers. &nbsp;&nbsp;
+            structure for screen readers.   
 
 
             We also switched our Material icons from Filled to the Rounded set.
@@ -128,7 +128,7 @@ content_blocks:
             with our use of rounded corners, and I am personally very excited to
             pull them into our app. Our research shows that this will help our
             app feel friendlier and more familiar, especially to the editors and
-            clients who mostly use our CMS.&nbsp;
+            clients who mostly use our CMS. 
 
 
             The move to eight-pixel borders gives us the opportunity to review
@@ -137,7 +137,7 @@ content_blocks:
             improvements to the image selector. We’ve also made working with
             your content blocks much easier — rather than clicking to move them
             up or down a single place in the list, you can now simply drag to
-            reorder them.&nbsp;
+            reorder them. 
         alignment: left
         width: medium
         heading_type: h3
@@ -162,7 +162,7 @@ content_blocks:
             exactly like a secondary button, and vice versa. This was a small
             holdover from developing our app to allow you to set your own brand
             color. No need to worry — we’ve fixed that behavior, while still
-            maintaining your ability to set a custom brand color.&nbsp;
+            maintaining your ability to set a custom brand color. 
 
 
             Further upgrades include changing the font to be bolded for better
@@ -198,7 +198,7 @@ content_blocks:
             organization-level menu by opening up each page to show their labels
             and adding helpful empty states where relevant. This improvement is
             particularly helpful for new users and those who infrequently make
-            edits to their sites.&nbsp;
+            edits to their sites. 
 
 
             For our UI project, we've rolled out interactive upgrades to the
@@ -239,14 +239,14 @@ content_blocks:
             using an editor link to the Sidebar or the Data Editor. On a long
             page, these require a bit of focus to keep up with. Alternatively,
             switching to the Data Editor means you lose that sense of editing on
-            the page.&nbsp;
+            the page. 
 
 
             Coming before the end of the year, we’ll give you the option to use
             a popout panel on content blocks. In the Visual Editor, you will be
             able to set up a floating panel with all your inputs right there on
             the page. You can even grab the drag handle and move the panel
-            around.&nbsp;
+            around. 
 
 
             We’re really hoping that this improvement will help you design your
@@ -290,4 +290,4 @@ content_blocks:
             in touch.
         col: '1'
 ---
-In November 2020, we debuted aesthetic updates to the CloudCannon brand for the first time. The most noticeable impact hit our marketing site, with the app taking a more reserved approach. These brand updates included a new brand font (TT Norms), color palette, illustration style, and layout patterns. Our choices for both the font and colors were supported by internal accessibility research and the resources offered by [The A11y Project](https://www.a11yproject.com/), and took big strides towards making our app and website even more accessible and user-friendly.&nbsp;
+In November 2020, we debuted aesthetic updates to the CloudCannon brand for the first time. The most noticeable impact hit our marketing site, with the app taking a more reserved approach. These brand updates included a new brand font (TT Norms), color palette, illustration style, and layout patterns. Our choices for both the font and colors were supported by internal accessibility research and the resources offered by [The A11y Project](https://www.a11yproject.com/), and took big strides towards making our app and website even more accessible and user-friendly. 

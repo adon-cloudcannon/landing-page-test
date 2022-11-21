@@ -13,7 +13,7 @@ tags:
   - Resources
 author: david-large
 ---
-By now you may have decided on the [static site generator](https://cloudcannon.com/blog/what-is-a-static-site-generator/){: target="_blank" rel="noopener"} (SSG) you’ll use to build your [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/){: target="_blank" rel="noopener"}. Let’s now examine the most important web publishing tool in your workflow — and the one you’ll spend the majority of your time in — your content management system (CMS). CMSs help users to create, maintain, and edit material on their websites, and allow users to manage even large, complex websites with little to no coding knowledge. The right CMS will become the focal point for your content and marketing team’s work, and should help empower you to do your jobs more efficiently.
+By now you may have decided on the [static site generator](https://cloudcannon.com/blog/what-is-a-static-site-generator/) (SSG) you’ll use to build your [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/). Let’s now examine the most important web publishing tool in your workflow — and the one you’ll spend the majority of your time in — your content management system (CMS). CMSs help users to create, maintain, and edit material on their websites, and allow users to manage even large, complex websites with little to no coding knowledge. The right CMS will become the focal point for your content and marketing team’s work, and should help empower you to do your jobs more efficiently.
 
 By the end of this article, you’ll know how to approach the process of choosing a new CMS, as well as the most important features to consider as you choose the right CMS for your static site and your team.
 
@@ -89,7 +89,7 @@ You’ll want to ensure that you can control which members of which team will ha
 
 On the development side of things, too, your team may require a wide range of permissions specific to their roles and expertise. But expertise grows with time, and you don’t want your staff feeling frustrated by a fixed level of access. For example, some content roles may grow to include development tasks.
 
-Your new CMS, then, will need to match the roles that already exist in your organization&nbsp;*and* be able to configure custom roles according to your changing needs. Again, a flexible and highly configurable CMS won’t hold you back as your team upskills, allowing your staff members to more quickly reap the benefits of training.
+Your new CMS, then, will need to match the roles that already exist in your organization *and* be able to configure custom roles according to your changing needs. Again, a flexible and highly configurable CMS won’t hold you back as your team upskills, allowing your staff members to more quickly reap the benefits of training.
 
 ## How secure will a new CMS be? And your site itself?
 
@@ -101,7 +101,7 @@ Without the right security controls, a rigorous content approval process, or ful
 
 If you haven’t already determined your minimum acceptable level of security, this is a great time to lay out which security features are most important to your business. You’ll find it will be a great help when it comes to shortlisting CMSs for your team to trial.
 
-## How much technical support will I get from a new CMS?&nbsp;
+## How much technical support will I get from a new CMS? 
 
 I’m going to go out on a limb here, but I firmly believe that **good support is as important as good software**. Support includes, but isn’t limited to, the presence of actual human support staff on the other side of a helpdesk. Simply by asking a few questions, you’ll be able to gauge how well a CMS’s support team knows the product. How quickly do they respond to your questions? Are their responses actually helpful? Do they give you a clear explanation and a path to follow? Do they go above and beyond, or do they simply refer you to documentation? And on that note, **how good is the CMS’s documentation?** (Since your developer or agency partner, if you have them, will likely be your first port of call for technical issues, they’ll be the ideal people to assess the documentation.)
 

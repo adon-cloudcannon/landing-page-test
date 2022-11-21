@@ -1,6 +1,6 @@
 <video 
 	autoplay muted loop
-	class="w-full aspect-video"
+	class="w-full aspect-video {% if border %}border{% endif %}"
 	title="{{ title }}">
 	<source src="{{ url }}" type="video/mp4">
 </video>

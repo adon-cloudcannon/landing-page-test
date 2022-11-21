@@ -65,8 +65,7 @@ content_blocks:
     content_markdown: >-
       Browser support for `nth-child` has become much better since the early
       days of Jekyll. A more elegant way to do this now is pure CSS like the
-      [Bitcoin.org](http://bitcoin.org/){: target="_blank" rel="noopener
-      noreferrer"} team have:
+      [Bitcoin.org](http://bitcoin.org/) team have:
   - _bookshop_name: code-block
     source:
     language: css
@@ -82,8 +81,7 @@ content_blocks:
       Issue. Blog Home is fairly self-explanatory. Post History and Report Issue
       are interesting because they're linking directly to GitHub. Post History
       to the [commit history on a particular
-      file](https://github.com/bitcoin-dot-org/bitcoin.org/commits/master/_posts/2021-01-21-regarding-csw.md){:
-      target="_blank" rel="noopener noreferrer"}\:
+      file](https://github.com/bitcoin-dot-org/bitcoin.org/commits/master/_posts/2021-01-21-regarding-csw.md)\:
   - _bookshop_name: code-block
     source:
     language: liquid
@@ -95,8 +93,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       And Report Issue to [open an issue on
-      GitHub](https://github.com/bitcoin-dot-org/bitcoin.org/issues/new?body=Source%20File%3A%20_posts/2019-09-26-recognizing-efforts-contributors-to-translation-team.md%0A%0A){:
-      target="_blank" rel="noopener noreferrer"}. <!-- -->
+      GitHub](https://github.com/bitcoin-dot-org/bitcoin.org/issues/new?body=Source%20File%3A%20_posts/2019-09-26-recognizing-efforts-contributors-to-translation-team.md%0A%0A). <!-- -->
   - _bookshop_name: code-block
     source:
     language: liquid
@@ -273,10 +270,8 @@ content_blocks:
     col: 1
     content_markdown: >-
       By default, excerpt is the first paragraph of content in a post but you
-      can override it. [Bitcoin.org](http://bitcoin.org/){: target="_blank"
-      rel="noopener noreferrer"} does exactly this in their
-      [\_config.yml](https://github.com/bitcoin-dot-org/Bitcoin.org/blob/master/_config.yml){:
-      target="_blank" rel="noopener noreferrer"} by setting a excerpt separator:
+      can override it. [Bitcoin.org](http://bitcoin.org/) does exactly this in their
+      [\_config.yml](https://github.com/bitcoin-dot-org/Bitcoin.org/blob/master/_config.yml) by setting a excerpt separator:
   - _bookshop_name: code-block
     source:
     language: yaml
@@ -366,8 +361,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       Selecting a digital wallet to store your Bitcoin can be overwhelming with
-      the number of options available. The [bitcoin.org](http://bitcoin.org/){:
-      target="_blank" rel="noopener noreferrer"} site has an interactive
+      the number of options available. The [bitcoin.org](http://bitcoin.org/) site has an interactive
       questionnaire to help you find the perfect Wallet.
   - _bookshop_name: image-container
     click_to_fullscreen: true
@@ -632,8 +626,7 @@ content_blocks:
       You may have decided by now, that Jekyll is a great static site generator
       for your next project. If you'd like to learn more, take a look at this
       [Jekyll
-      tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/){:
-      target="_blank" rel="noopener"} to get you started.&nbsp;
+      tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) to get you started. 
   - _bookshop_name: spacing
     mobile_unit_number: 8
     tablet_unit_number: 9

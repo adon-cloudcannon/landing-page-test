@@ -45,7 +45,7 @@ Some SSGs do not use JavaScript when they build websites; others do, but try to 
 
 ## Myth \#4: Static sites can’t use external data or APIs
 
-Static sites commonly use external data stores such as JSON, CSV, XML, YML and TOML. They also use APIs for additional functions such as [analytics, commenting, search, and ecommerce](https://cloudcannon.com/community/jamstack-ecosystem/){: target="_blank" rel="noopener"}.
+Static sites commonly use external data stores such as JSON, CSV, XML, YML and TOML. They also use APIs for additional functions such as [analytics, commenting, search, and ecommerce](https://cloudcannon.com/community/jamstack-ecosystem/).
 
 ![](https://dam-cdn.cloudcannon.com/material-icon-close-circle-red.svg){: width="70"}
 
@@ -57,7 +57,7 @@ This one’s probably based on a literal interpretation of the word ‘static’
 
 ## Myth \#6: Static is only good for tiny sites.
 
-Not at all. This could be related to Myth \#2, but I’m guessing this one is connected to the ‘build time’, which is how long the SSG takes to construct HTML pages. The truth is, [SSGs like Hugo and Eleventy are incredibly fast](https://www.zachleat.com/web/build-benchmark/){: target="_blank" rel="noopener noreferrer"} at building even large sites. A CMS like CloudCannon — the content management layer that acts as a bridge between the user and the more technical SSG — also helps to reduce build time for non-technical users, who are able to edit as they please and build their sites when they choose to do so.
+Not at all. This could be related to Myth \#2, but I’m guessing this one is connected to the ‘build time’, which is how long the SSG takes to construct HTML pages. The truth is, [SSGs like Hugo and Eleventy are incredibly fast](https://www.zachleat.com/web/build-benchmark/) at building even large sites. A CMS like CloudCannon — the content management layer that acts as a bridge between the user and the more technical SSG — also helps to reduce build time for non-technical users, who are able to edit as they please and build their sites when they choose to do so.
 
 ## ![](https://dam-cdn.cloudcannon.com/material-icon-close-circle-red.svg){: width="70"}
 
@@ -65,7 +65,7 @@ Not at all. This could be related to Myth \#2, but I’m guessing this one is co
 
 Not as a matter of course. (Unless you *really love* Notepad.)
 
-Static sites are usually created in two main ways, depending on who’s making them. Non-technical editors (like marketers or copywriters) can [create new static sites from a template](https://cloudcannon.com/community/themes/){: target="_blank" rel="noopener"}, and [edit them in the browser](https://cloudcannon.com/features/visual-editing/){: target="_blank" rel="noopener"} via a user-friendly CMS. Developers will usually use CLI tools to create their sites locally, and then [connect those files](https://cloudcannon.com/documentation/articles/connecting-your-first-site/){: target="_blank" rel="noopener"} to a [hosting service](https://cloudcannon.com/documentation/articles/hosting-your-live-site/){: target="_blank" rel="noopener"} (and likely a visual CMS, when they hand off the new site to their content or marketing teams for their ongoing use).
+Static sites are usually created in two main ways, depending on who’s making them. Non-technical editors (like marketers or copywriters) can [create new static sites from a template](https://cloudcannon.com/community/themes/), and [edit them in the browser](https://cloudcannon.com/features/visual-editing/) via a user-friendly CMS. Developers will usually use CLI tools to create their sites locally, and then [connect those files](https://cloudcannon.com/documentation/articles/connecting-your-first-site/) to a [hosting service](https://cloudcannon.com/documentation/articles/hosting-your-live-site/) (and likely a visual CMS, when they hand off the new site to their content or marketing teams for their ongoing use).
 
 ## ![](https://dam-cdn.cloudcannon.com/material-icon-close-circle-red.svg){: width="70"}
 
@@ -87,9 +87,9 @@ What static sites don’t do, however, is show different content to different us
 
 ## Myth \#10: “It can be hard to scale a static website to add new content, once you’ve built the basic structure.”
 
-As far as scaling your website for massively increased user demand, that’s more to do with [how you host your site](https://cloudcannon.com/community/jamstack-hosting-comparison/){: target="_blank" rel="noopener"}, rather than a question of ‘static versus dynamic’. Whichever approach you take, you can choose from a wide range of hosts and content delivery networks.
+As far as scaling your website for massively increased user demand, that’s more to do with [how you host your site](https://cloudcannon.com/community/jamstack-hosting-comparison/), rather than a question of ‘static versus dynamic’. Whichever approach you take, you can choose from a wide range of hosts and content delivery networks.
 
-In terms of scaling up a static site with new content, this myth couldn’t be further from the truth — as though (and feel free to imagine my best [Don LaFontaine](https://en.wikipedia.org/wiki/Don_LaFontaine){: target="_blank" rel="noopener noreferrer"} impression here) we lived *in a world without content management systems*. CMSs solved the problem or adding, editing, and managing pages, assets, and site content many years ago, and we’ve been improving on these processes for a long time.
+In terms of scaling up a static site with new content, this myth couldn’t be further from the truth — as though (and feel free to imagine my best [Don LaFontaine](https://en.wikipedia.org/wiki/Don_LaFontaine) impression here) we lived *in a world without content management systems*. CMSs solved the problem or adding, editing, and managing pages, assets, and site content many years ago, and we’ve been improving on these processes for a long time.
 
 Most web developers will know that building out the structure and scoping the functionality of a website can be a significant task. Once that’s done, however, adding new content to a static site is as easy as clicking a button within a CMS.
 

@@ -22,7 +22,7 @@ Any CMS that doesn't natively allow both collaborative and independent work — 
 
 ![Diagram demonstrating CloudCannon's Git-based CMS, which lets non-developers update content, which is then committed back to the repo. You can sync, build, edit and host your static sites all in one place.](https://dam-cdn.cloudcannon.com/blog/uploads/headless-post-2-caption.svg){: width="1600" height="901"}
 
-Developers can establish their own local and intermediary branches, with easily accessible staging environments. Content writers and site admins can work in a responsive editing environment. Experimentation is no longer a luxury; it's just part of the workflow. Here at CloudCannon, we've thought a lot —&nbsp;*a lot* — about the way the web could be, and we're committed to the paradigm of Continuous Integration and Continuous Delivery (CI/CD) for both content *and* code.
+Developers can establish their own local and intermediary branches, with easily accessible staging environments. Content writers and site admins can work in a responsive editing environment. Experimentation is no longer a luxury; it's just part of the workflow. Here at CloudCannon, we've thought a lot — *a lot* — about the way the web could be, and we're committed to the paradigm of Continuous Integration and Continuous Delivery (CI/CD) for both content *and* code.
 
 ## **Why should you switch to a headless CMS?**
 
@@ -30,7 +30,7 @@ Whether you're a developer or a business, you're already evolving with market tr
 
 ![Triangle diagram showing Git sync, build and edit steps](https://dam-cdn.cloudcannon.com/blog/uploads/thesyncprocess.svg){: width="1344" height="931"}
 
-&nbsp;
+ 
 
 Our headless CMS acts as a layer on top of Git and pushes changes to your Git repository of choice. This way, you can manage your content in a single platform, with full and trusted version control, integrating with the workflows you already use. You're not locked in to a single vendor, and you'll have full control over your data caps and bandwidth. And because you're working with a headless CMS, you're able to output or deliver selected CMS contents to universal storage formats like JSON. From there, you can choose exactly how you'd like to display that content — whether that means accessing it with mobile or web applications like Twitter, or JavaScript frameworks like React.
 
@@ -54,6 +54,6 @@ You can leverage Markdown and HTML files for all the content on your website. We
 
 Unlike traditional CMS platforms, CloudCannon's headless CMS allows developers and content editors to create branches for significant changes. It also allows you to merge changes on your site into another branch and integrate your team’s workflows using Pull Requests.
 
-Whether you're an experienced Jamstack developer or you're just starting out in the static site world, CloudCannon has a tier to meet your needs. Anyone can begin with CloudCannon on a [free 14-day trial](https://app.cloudcannon.com/register?trial=cc_standard)&nbsp;and join the [Jampacked community](https://cloudcannon.com/community/) to learn the benefits of a Git-based headless CMS.
+Whether you're an experienced Jamstack developer or you're just starting out in the static site world, CloudCannon has a tier to meet your needs. Anyone can begin with CloudCannon on a [free 14-day trial](https://app.cloudcannon.com/register?trial=cc_standard) and join the [Jampacked community](https://cloudcannon.com/community/) to learn the benefits of a Git-based headless CMS.
 
 Manage your portfolio — or begin one — without having to pay anything at all. Join today to streamline your content workflow and reduce your build time.

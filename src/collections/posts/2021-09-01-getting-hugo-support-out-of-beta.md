@@ -18,29 +18,29 @@ content_blocks:
 ---
 Since the dawn of time — well, since around 2015 — [CloudCannon has been the best CMS for Jekyll *by far*](https://cloudcannon.com/jekyll-cms/). But we weren’t content with being a one-trick pony. We knew it was time to fully embrace the Jamstack world, and open up our platform to more and more exciting static site generators (SSGs).
 
-CloudCannon works so well with Jekyll simply because it was originally tailored with Jekyll in mind. To get the same level of magic, any SSG we add needs to be carefully incorporated into our platform. We wanted to support ‘em all (and still do), but with [300+ SSGs](https://jamstack.org/generators/){: target="_blank" rel="noopener noreferrer"} to choose from, we needed to start somewhere.
+CloudCannon works so well with Jekyll simply because it was originally tailored with Jekyll in mind. To get the same level of magic, any SSG we add needs to be carefully incorporated into our platform. We wanted to support ‘em all (and still do), but with [300+ SSGs](https://jamstack.org/generators/) to choose from, we needed to start somewhere.
 
-With a huge following and incredibly fast build times. [Hugo](https://gohugo.io/){: target="_blank" rel="noopener noreferrer"} was an obvious choice.
+With a huge following and incredibly fast build times. [Hugo](https://gohugo.io/) was an obvious choice.
 
-But we’d built our CMS around Jekyll, and we knew we couldn’t just slap on basic Hugo support and call it a day. Instead, we opted to almost completely dismantle and rebuild our front-end source, paving the way for future SSG support with minimal additional configuration on our part.&nbsp;
+But we’d built our CMS around Jekyll, and we knew we couldn’t just slap on basic Hugo support and call it a day. Instead, we opted to almost completely dismantle and rebuild our front-end source, paving the way for future SSG support with minimal additional configuration on our part. 
 
-Now, almost a year later, [CloudCannon's support for Hugo](https://cloudcannon.com/hugo-cms/)&nbsp;is officially out of beta. It’s an important milestone for us — it's our first supported SSG after Jekyll — and it’s been quite the journey.
+Now, almost a year later, [CloudCannon's support for Hugo](https://cloudcannon.com/hugo-cms/) is officially out of beta. It’s an important milestone for us — it's our first supported SSG after Jekyll — and it’s been quite the journey.
 
 ## **Getting to private beta**
 
 Our initial bar for private beta was deliberately set pretty low. We wanted a base-level experience of all CloudCannon CMS features for the simplest of Hugo sites. To aid our testing (and further practice our Hugo skills) we recreated two of our [Jekyll templates](https://cloudcannon.com/community/themes/) using Hugo.
 
-The first key step was allowing users to configure and run their builds in CloudCannon. There was a bit of tedium in creating the interface for [Hugo’s many build options](https://gohugo.io/commands/hugo/){: target="_blank" rel="noopener noreferrer"}, but overall this step turned out to be the easiest part of this process. Unfortunately for us, this was the *only* easy part of the process.
+The first key step was allowing users to configure and run their builds in CloudCannon. There was a bit of tedium in creating the interface for [Hugo’s many build options](https://gohugo.io/commands/hugo/), but overall this step turned out to be the easiest part of this process. Unfortunately for us, this was the *only* easy part of the process.
 
 One of the things that makes CloudCannon great is its out-of-the-box functionality. To achieve this, we generate a JSON file containing details about the structure of your site. Using this file, CloudCannon generates almost all the user interface for your site with each build — everything from the options in the sidebar to the toolbars in the content editor. Thus, a vital step in supporting *any* site on CloudCannon is figuring out the best way to generate this JSON file.
 
-For Jekyll sites, we created a [custom Jekyll plugin](https://github.com/CloudCannon/cloudcannon-jekyll){: target="_blank" rel="noopener"}. To make your site work with CloudCannon, you import the plugin as you would any other, and it runs at the end of your build step, extending the vanilla Jekyll process. Using a plugin has the advantage of using built-in Jekyll behavior to generate the correct data — ensuring that the plugin is working with the same information as Jekyll itself.
+For Jekyll sites, we created a [custom Jekyll plugin](https://github.com/CloudCannon/cloudcannon-jekyll). To make your site work with CloudCannon, you import the plugin as you would any other, and it runs at the end of your build step, extending the vanilla Jekyll process. Using a plugin has the advantage of using built-in Jekyll behavior to generate the correct data — ensuring that the plugin is working with the same information as Jekyll itself.
 
 However, Hugo has no such plugin support. We experimented with different approaches, but eventually settled on creating a command-line interface (CLI) to generate our JSON. This way CloudCannon could run it as a script immediately after the Hugo build. Unfortunately, this meant that we needed to reverse-engineer many of Hugo’s intricacies in order to extract the juiciest and most relevant bits of site information. It also required us to identify the features and concepts of Hugo which would play nicely with the features and concepts of CloudCannon.
 
-For example, CloudCannon uses a concept called *collections* extensively throughout the app. We use collections to organize the sidebar and logically process groups of related data. The thing is, it's a term we pretty much appropriated from Jekyll - and not every SSG has a completely matching concept. For Hugo, we chose to use content [*sections*](https://gohugo.io/content-management/organization/#section){: target="_blank" rel="noopener noreferrer"} as our analog to collections. We engineered our CLI to identify only pertinent sections in a Hugo site, and convert them into tasty JSON that our interface could digest. We made similar choices for other key Hugo features, and steadily molded them into the CloudCannon interface.
+For example, CloudCannon uses a concept called *collections* extensively throughout the app. We use collections to organize the sidebar and logically process groups of related data. The thing is, it's a term we pretty much appropriated from Jekyll - and not every SSG has a completely matching concept. For Hugo, we chose to use content [*sections*](https://gohugo.io/content-management/organization/#section) as our analog to collections. We engineered our CLI to identify only pertinent sections in a Hugo site, and convert them into tasty JSON that our interface could digest. We made similar choices for other key Hugo features, and steadily molded them into the CloudCannon interface.
 
-Development on the customer-facing side of things was progressing well, but there was still a lot of behind-the-scenes work to do. Perhaps the biggest challenge with adding support for Hugo was being able to support *any* additional SSG. If you were to examine the CloudCannon source code prior to this process, you would have found a tangle of hard-coded Jekyll-isms tacked onto legacy code. We could have furthered the madness by adding a bunch of switch statements everywhere we needed SSG-specific behaviour, but this was not a sustainable option.&nbsp;
+Development on the customer-facing side of things was progressing well, but there was still a lot of behind-the-scenes work to do. Perhaps the biggest challenge with adding support for Hugo was being able to support *any* additional SSG. If you were to examine the CloudCannon source code prior to this process, you would have found a tangle of hard-coded Jekyll-isms tacked onto legacy code. We could have furthered the madness by adding a bunch of switch statements everywhere we needed SSG-specific behaviour, but this was not a sustainable option. 
 
 As such, an enormous amount of effort went into decoupling Jekyll from our source. We went to great lengths to make our code highly modular — making as much of the app as SSG-agnostic as possible. We put in a great deal of thought and care into supporting Hugo so that in future we’ll be able to add more SSGs with a minimum of fuss.
 
@@ -64,7 +64,7 @@ The advantage of Hugo support being in beta was that we could justifiably make c
 
 In the public beta, there were still some key CloudCannon features that Hugo sites weren't able to enjoy — and we knew we couldn’t move past beta until they were supported. One such example is [collection-level configuration](https://cloudcannon.com/documentation/edit/editing/configuration/).
 
-Initially, we had piggybacked on [Jekyll's handling of collection-level configuration](https://jekyllrb.com/docs/collections/#setup){: target="_blank" rel="noopener noreferrer"}. For example, consider the following snippet from a typical Jekyll site in CloudCannon (pre-Hugo):
+Initially, we had piggybacked on [Jekyll's handling of collection-level configuration](https://jekyllrb.com/docs/collections/#setup). For example, consider the following snippet from a typical Jekyll site in CloudCannon (pre-Hugo):
 
 `_config.yml`\:
 
@@ -82,7 +82,7 @@ This snippet would do two things:
 
 This was fine and dandy. Except of course, if your site was not built with Jekyll. If you expected this to work with your Hugo site your configuration dreams would be unceremoniously crushed.
 
-At the time, Hugo had no equivalent feature that we could extend (Hugo's near-equivalent [data cascade](https://gohugo.io/content-management/front-matter#front-matter-cascade){: target="_blank" rel="noopener noreferrer"} feature only came out very [recently](https://gohugo.io/news/0.86.0-relnotes/){: target="_blank" rel="noopener noreferrer"}), so we had to take matters into our own hands. Our solution was to create a global `cloudcannon` configuration object. Now Hugo and Jekyll (and future SSG) sites can use the same collection-configuration:
+At the time, Hugo had no equivalent feature that we could extend (Hugo's near-equivalent [data cascade](https://gohugo.io/content-management/front-matter#front-matter-cascade) feature only came out very [recently](https://gohugo.io/news/0.86.0-relnotes/)), so we had to take matters into our own hands. Our solution was to create a global `cloudcannon` configuration object. Now Hugo and Jekyll (and future SSG) sites can use the same collection-configuration:
 
 `_config.yml`\:
 
@@ -100,7 +100,7 @@ During this period, we took feedback from our users into thorough consideration.
 
 ### **Hugo now**
 
-Hugo support is now leaving the loving arms of public beta and emerging into the light of … not beta. Hugo is no longer just an afterthought to a Jekyll CMS: it’s an indelible feature of our platform. Hugo’s lightning-fast build speeds and CloudCannon’s intuitive editing interfaces are a match made in heaven. We love how our users are using CloudCannon to get the most out of Hugo, and using Hugo to get the most out of CloudCannon.&nbsp;
+Hugo support is now leaving the loving arms of public beta and emerging into the light of … not beta. Hugo is no longer just an afterthought to a Jekyll CMS: it’s an indelible feature of our platform. Hugo’s lightning-fast build speeds and CloudCannon’s intuitive editing interfaces are a match made in heaven. We love how our users are using CloudCannon to get the most out of Hugo, and using Hugo to get the most out of CloudCannon. 
 
 Of course, we’ll continue to polish the Hugo experience. We set high standards for ourselves, and we’re always looking to improve and refine everything we make. For some *extremely* complex sites, it may take you a bit of ‘squishing’ (to drop in a particularly technical term) to get it to play nicely with the CloudCannon interface. But in general, we're confident that you will get a great out-of-the-box experience maintaining your site on CloudCannon.
 

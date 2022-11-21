@@ -12,11 +12,11 @@ tags:
   - Resources
 author: david-large
 ---
-Congratulations\! You’re well on your way to identify the right content management system (CMS) for your team. At this stage in your journey you’re already likely to recognize [the benefits of modern static sites](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/){: target="_blank" rel="noopener"}, and you might have even chosen your preferred [static site generator (SSG)](https://cloudcannon.com/blog/what-is-a-static-site-generator/){: target="_blank" rel="noopener"} and planned the process of [selecting your new CMS for your static website](https://cloudcannon.com/blog/choosing-a-cms-for-your-static-site-part-1/){: target="_blank" rel="noopener"}.
+Congratulations\! You’re well on your way to identify the right content management system (CMS) for your team. At this stage in your journey you’re already likely to recognize [the benefits of modern static sites](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/), and you might have even chosen your preferred [static site generator (SSG)](https://cloudcannon.com/blog/what-is-a-static-site-generator/) and planned the process of [selecting your new CMS for your static website](https://cloudcannon.com/blog/choosing-a-cms-for-your-static-site-part-1/).
 
 ## What types of CMS can I use with a static site generator?
 
-There are two different categories of CMS that work with SSGs. Before you create a shortlist of CMSs to evaluate, you’ll have one important decision to make —&nbsp; which of the two types you’ll need. You may have come across new terms like ‘headless’ or ‘decoupled’, and ‘Git-based’ or ‘API-based’ . Let’s define all of these terms now, so you’ll know which CMS category will suit you best.
+There are two different categories of CMS that work with SSGs. Before you create a shortlist of CMSs to evaluate, you’ll have one important decision to make — which of the two types you’ll need. You may have come across new terms like ‘headless’ or ‘decoupled’, and ‘Git-based’ or ‘API-based’. Let’s define all of these terms now, so you’ll know which CMS category will suit you best.
 
 ## What is a headless CMS?
 
@@ -79,8 +79,8 @@ When it comes to choosing the approach that will best suit your website — and 
 
 ## What is CloudCannon?
 
-**CloudCannon is a Git-based CMS that helps developers and content editors work together to create exception websites.** Editors use an [intuitive and user-friendly interface](https://cloudcannon.com/features/visual-editing/){: target="_blank" rel="noopener"} to create and edit content while developers have full [flexibility and free range](https://cloudcannon.com/features/developer-workflows/){: target="_blank" rel="noopener"} to add new features, styles, and everything else a website requires.
+**CloudCannon is a Git-based CMS that helps developers and content editors work together to create exception websites.** Editors use an [intuitive and user-friendly interface](https://cloudcannon.com/features/visual-editing/) to create and edit content while developers have full [flexibility and free range](https://cloudcannon.com/features/developer-workflows/) to add new features, styles, and everything else a website requires.
 
 It’s a complete platform used by world-leading companies such as Netflix and Twitch to power exceptional digital experiences.
 
-CloudCannon offers a **14-day free trial**&nbsp;for you to see if the CMS is a good fit for your team. Whether you already have a site that's built with a static site generator or you're planning to transition from a legacy CMS, you and your developers can [register and get started today](https://app.cloudcannon.com/register){: target="_blank" rel="noopener"}. If you have any questions along the way, reach out to our support team — they'll do everything they can to help you get up and running as soon as possible.&nbsp;
+CloudCannon offers a **14-day free trial** for you to see if the CMS is a good fit for your team. Whether you already have a site that's built with a static site generator or you're planning to transition from a legacy CMS, you and your developers can [register and get started today](https://app.cloudcannon.com/register). If you have any questions along the way, reach out to our support team — they'll do everything they can to help you get up and running as soon as possible.

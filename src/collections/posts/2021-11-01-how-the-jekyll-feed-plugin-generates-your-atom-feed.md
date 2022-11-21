@@ -26,9 +26,8 @@ content_blocks:
       latest posts on the site, including the HTML content of the post and
       associated metadata such as the published date, title, and author. The two
       formats are so similar I'm not going to get into the details of how they
-      differ. You can&nbsp;[read more about it
-      here](https://problogger.com/rss-vs-atom-whats-the-big-deal/){:
-      target="_blank" rel="noopener noreferrer"}.
+      differ. You can [read more about it
+      here](https://problogger.com/rss-vs-atom-whats-the-big-deal/).
     heading_type: h2
     col: '1'
   - _bookshop_name: spacing
@@ -65,7 +64,7 @@ content_blocks:
     content_markdown: >-
       Let's skip straight to the exciting part - how is the feed generated? The
       plugin has a file
-      called&nbsp;[feed.xml](https://github.com/jekyll/jekyll-feed/blob/master/lib/jekyll-feed/feed.xml)&nbsp;that
+      called [feed.xml](https://github.com/jekyll/jekyll-feed/blob/master/lib/jekyll-feed/feed.xml) that
       generates the feed from the site posts. There's nothing particularly
       complicated going on here. It's a file that uses Liquid to generate the
       output, just like you would on a regular page in Jekyll.
@@ -122,16 +121,16 @@ content_blocks:
       Let's have a look at what each one is doing:
 
 
-      * **smartify**&nbsp;- Converts straight quotes (`"hi"`) into opening and
+      * **smartify** - Converts straight quotes (`"hi"`) into opening and
       closing quotes (`“hi”`).
 
-      * **strip\_html**&nbsp;- Removes any HTML from a string.
+      * **strip\_html** - Removes any HTML from a string.
 
-      * **normalize\_whitespace**&nbsp;- Replaces any whitespace with a single
+      * **normalize\_whitespace** - Replaces any whitespace with a single
       space.
 
-      * **xml\_escape**&nbsp;- Encodes any XML special characters (e.g.
-      `<`&nbsp;to `&lt;`)
+      * **xml\_escape** - Encodes any XML special characters (e.g.
+      `<` to `&lt;`)
 
 
       Next Liquid outputs the link, published date, last updated date, and ID
@@ -253,8 +252,8 @@ content_blocks:
       There are two other pieces of this plugin: a Liquid tag and a generator.
 
 
-      The&nbsp;[Liquid
-      tag](https://github.com/jekyll/jekyll-feed/blob/master/lib/jekyll-feed/meta-tag.rb)&nbsp;has
+      The [Liquid
+      tag](https://github.com/jekyll/jekyll-feed/blob/master/lib/jekyll-feed/meta-tag.rb) has
       one job - output the metatag to link to the RSS feed. It finds the path
       and title from the config file and returns a string in this format:
     heading_type: h2
@@ -269,8 +268,7 @@ content_blocks:
     col: 1
     content_markdown: >-
       The
-      [generator](https://github.com/jekyll/jekyll-feed/blob/master/lib/jekyll-feed/generator.rb){:
-      target="_blank" rel="noopener noreferrer"} is more involved. It's mostly
+      [generator](https://github.com/jekyll/jekyll-feed/blob/master/lib/jekyll-feed/generator.rb) is more involved. It's mostly
       setting up where to output the feed, which collection to run it on, and
       normalizing data. In the end, it calls the feed Liquid file we dissected
       above to generate the feed.
@@ -285,13 +283,12 @@ content_blocks:
       straightforward when you dive into them. Hopefully, this has given you a
       glimpse into what it takes to generator your Jekyll feed. If you're
       interested in more deep dives on Jekyll plugins, reach out on
-      Twitter.&nbsp;
+      Twitter. 
 
 
       If you're interested in using Jekyll for your next project, take a look at
       this [Jekyll
-      tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/){:
-      target="_blank" rel="noopener"} to get started.&nbsp;
+      tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) to get started. 
     heading_type: h2
     col: '1'
   - _bookshop_name: spacing
