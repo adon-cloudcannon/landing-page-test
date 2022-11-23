@@ -12,7 +12,7 @@ author: mike-neumegen
 ---
 It's 2019. Next.js/Nuxt.js are pushing the boundaries of what SSGs are capable of, and are surging in popularity. The 'Let's Recreate Rails' era questions if we can take this paradigm even further. Why don't we create full-stack applications in one framework, in the same vein as Rails?
 
-![Redwood logo sitting at year 2019](https://dam-cdn.cloudcannon.com/redwood-timeline.svg){: width="600" height="77"}
+![Redwood logo sitting at year 2019](https://dam-cdn.cloudcannon.com/redwood-timeline.svg)
 
 ## **[Redwoodjs](https://redwoodjs.com/)** 
 
@@ -38,7 +38,7 @@ Just like Rails, Redwoodjs makes heavy use of CLI generators to rapidly create b
 
 Redwoodjs is purposefully pushing the boundaries of what's possible with Jamstack. It's a new approach to building web applications and has flexible solutions for Auth, makes accessibility a first-class citizen, and uses the popular database toolkit library Prisma for your data layer. The project is aiming to have a production-ready 1.0 launch in early 2022.
 
-![Scully logo on timeline at year 2019](https://dam-cdn.cloudcannon.com/scully-timeline.svg){: width="600" height="77"}
+![Scully logo on timeline at year 2019](https://dam-cdn.cloudcannon.com/scully-timeline.svg)
 
 ## **[Scully](https://scully.io/)**
 
@@ -54,7 +54,7 @@ The idea is to give the best of both worlds — a fast page load for SEO and use
 
 The magical part of Scully is its use of the Guess.js library and machine learning. Scully automatically finds all the routes in an existing Angular project and prerenders an HTML page for each. If you have an Angular project you're looking to bring to the Jamstack world, look no further than Scully.
 
-![Blitz.js logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/blitz-js-timeline.svg){: width="600" height="77"}
+![Blitz.js logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/blitz-js-timeline.svg)
 
 ## **[Blitz.js](https://blitzjs.com/)** 
 

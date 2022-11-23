@@ -9,14 +9,6 @@ date: 2021-10-15T05:00:00+1300
 tags:
   - Resources
 author: diego-salinas-gardón
-content_blocks:
-    -
-        _bookshop_name: cta
-        heading: Get started with CloudCannon
-        content: Try out the Fur eCommerce template (and more) on a 14-day trial.
-        link_content: Let's go!
-        link_url: https://app.cloudcannon.com/register?trial=cc_standard
-        link_open_in_new_tab: false
 ---
 The eCommerce industry is growing exponentially. By 2021 alone, the market is projected to reach a total of [$4.89 trillion](https://www.emarketer.com/content/worldwide-ecommerce-will-approach-5-trillion-this-year). This comes after retail eCommerce grew more than [25%](https://www.statista.com/topics/871/online-shopping/#dossier-chapter1) in 2020.
 

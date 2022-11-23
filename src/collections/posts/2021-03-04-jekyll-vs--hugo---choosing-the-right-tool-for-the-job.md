@@ -10,13 +10,6 @@ tags:
   - Hugo
   - Jekyll
 author: cloudcannon
-content_blocks:
-  - _bookshop_name: cta
-    heading: Edit with ease
-    content: Collaborate with your team and deploy faster with CloudCannon.
-    link_content: Let's go!
-    link_url: https://app.cloudcannon.com/register?trial=cc_standard
-    link_open_in_new_tab: false
 ---
 In the Jamstack world, new static site generators are constantly released. But actively developed, battle-tested solutions are also great options.
 

@@ -16,147 +16,59 @@ person:
     path: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-profile-small.png
     alt: Viv Bakkarat
 date: 2021-02-26 12:37:00
-_content_blocks:
-  - _bookshop_name: hero
-    image_path: https://dam-cdn.cloudcannon.com/marketing/uploads/lumina-card.svg
-    image_alt: Lumina Web Solutions logo
-    heading: Simplifying the process of creating client websites
-    hero_colour: '#034ad8'
-    blog: true
-    author_image_path: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-profile-small.png
-    author_image_alt: Image of Viv Bakkarat
-    author: With Viv Barakat, Owner and Developer
-  - _bookshop_name: spacing
-    mobile_unit_number: 8
-    tablet_unit_number: 9
-    laptop_unit_number: 14
-  - _bookshop_name: spacing
-    mobile_unit_number: 8
-    tablet_unit_number: 9
-    laptop_unit_number: 14
-  - _bookshop_name: left-right-quote
-    tag: true
-    heading: Simplifying website solutions for local communities and businesses
-    alignment: right
-    content_markdown: >-
-      Lumina Web Solutions helps local businesses and communities to fulfill
-      their vision, creating detail-oriented designs and functional websites,
-      using the right tools for their needs.
-    quote: >-
-      You’re not tied to a proprietary system where if the whole thing goes down
-      then that's it.
-    heading_type: h2
-  - _bookshop_name: spacing
-    mobile_unit_number: 8
-    tablet_unit_number: 9
-    laptop_unit_number: 14
-  - _bookshop_name: left-right-block
-    tag: true
-    image_path: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-img1.png
-    image_alt: Image of an iMac showing Lumina's website
-    heading: Veterinarian to web veteran
-    content_markdown: >-
-      A veterinarian by profession, owner and developer Viv Barakat has a love
-      for continuous learning and experimenting. After starting with hand-coded
-      HTML, Viv moved to juggling half veterinarian and half web development and
-      eventually to fully sustaining a web development career. With 10 years of
-      web experience, Viv communicates with local businesses and communities to
-      convey their vision to their audience by creating clean, beautiful
-      websites.
-    link_url:
-    link_content: I am a link
-    link_open_in_new_tab: false
-    tag_content:
-    tag_icon_path:
-    heading_type: h2
-    alignment: left
-  - _bookshop_name: spacing
-    mobile_unit_number: 8
-    tablet_unit_number: 9
-    laptop_unit_number: 14
-  - _bookshop_name: left-right-quote
-    tag: true
-    heading: An easy, full-ownership CMS transition
-    alignment: right
-    content_markdown: >-
-      Having been in the industry for so long, Viv has gone through multiple
-      changes in software. His journey started with .NET, Silverstripe, and
-      Webpop, before moving to hosting on CloudCannon after learning about
-      modern static sites. Having done a bit of research himself, he quickly got
-      stuck in and found a static site generator which best suited his needs.
-      Thereafter, having found CloudCannon to tick almost all his boxes, the
-      rest was history. A straightforward setup and interface helps both him and
-      his clients save time, who can now go in and easily edit the site
-      themselves.&nbsp;&nbsp;
-    quote: >-
-      I can pull a site down on and run it on Jekyll on my local machine and it
-      is a relatively straightforward process. For me that’s magic. I really
-      like the fact that I have that control.
-    heading_type: h2
-  - _bookshop_name: spacing
-    mobile_unit_number: 8
-    tablet_unit_number: 9
-    laptop_unit_number: 14
-  - _bookshop_name: left-right-block
-    tag: false
-    image_path: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-img2.png
-    image_alt: Image of a mobile phone showing Lumina's works page
-    heading: Support that understands Lumina’s needs
-    content_markdown: >-
-      Establishing the right support relationship with an organization without
-      feeling like a nuisance or another face in the crowd can sometimes be
-      difficult. Having access to a responsive support team has given Viv the
-      confidence to ask just about anything and feel understood.&nbsp;
-
-
-      In addition, Viv’s relationship with support has led to requests and
-      suggestions for features on the platform and projects, which have
-      ultimately been implemented alongside other general platform features that
-      have benefited Lumina’s work.
-    link_url:
-    link_content:
-    link_open_in_new_tab: false
-    tag_content:
-    tag_icon_path:
-    heading_type: h2
-    alignment:
-  - _bookshop_name: spacing
-    mobile_unit_number: 8
-    tablet_unit_number: 9
-    laptop_unit_number: 14
-  - _bookshop_name: left-right-quote
-    tag: true
-    heading: Lumina and CloudCannon’s future together
-    alignment: right
-    content_markdown: >-
-      Viv is continuing his mission to help the local community to realize their
-      vision and creating great-looking, sleek sites to cater to individual
-      needs. While he works on his passion, CloudCannon’s support team will be
-      there to answer all his questions and needs.
-    quote: >-
-      It’s been really good because everybody has been proactive at getting back
-      to me, and usually the problems are sorted out very quickly. I’ve even had
-      a few feature requests that they’ve ended up applying and letting me know
-      they’ve done this.
-    heading_type: h2
-  - _bookshop_name: spacing
-    mobile_unit_number: 8
-    tablet_unit_number: 9
-    laptop_unit_number: 14
-  - _bookshop_name: social-block
-    text: 'Share:'
-    link_content:
-    link_url:
-    full_width: true
-    open_in_new_tab: true
-    social_sharing:
-      - email
-      - facebook
-      - linkedin
-      - twitter
-  - _bookshop_name: spacing
-    mobile_unit_number: 4
-    tablet_unit_number: 6
-    laptop_unit_number: 8
 ---
 
+Lumina Web Solutions helps local businesses and communities to fulfill
+their vision, creating detail-oriented designs and functional websites,
+using the right tools for their needs.
+
+> You’re not tied to a proprietary system where if the whole thing goes down then that's it.
+
+![Image of an iMac showing Lumina's website](https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-img1.png)
+
+## Veterinarian to web veteran
+
+A veterinarian by profession, owner and developer Viv Barakat has a love
+for continuous learning and experimenting. After starting with hand-coded
+HTML, Viv moved to juggling half veterinarian and half web development and
+eventually to fully sustaining a web development career. With 10 years of
+web experience, Viv communicates with local businesses and communities to
+convey their vision to their audience by creating clean, beautiful
+websites.
+
+## An easy, full-ownership CMS transition
+
+Having been in the industry for so long, Viv has gone through multiple
+changes in software. His journey started with .NET, Silverstripe, and
+Webpop, before moving to hosting on CloudCannon after learning about
+modern static sites. Having done a bit of research himself, he quickly got
+stuck in and found a static site generator which best suited his needs.
+Thereafter, having found CloudCannon to tick almost all his boxes, the
+rest was history. A straightforward setup and interface helps both him and
+his clients save time, who can now go in and easily edit the site
+themselves.
+
+> I can pull a site down on and run it on Jekyll on my local machine and it is a relatively straightforward process. For me that’s magic. I really like the fact that I have that control.
+
+![Image of a mobile phone showing Lumina's works page](https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-img2.png)
+
+## Support that understands Lumina’s needs
+
+Establishing the right support relationship with an organization without
+feeling like a nuisance or another face in the crowd can sometimes be
+difficult. Having access to a responsive support team has given Viv the
+confidence to ask just about anything and feel understood.
+
+In addition, Viv’s relationship with support has led to requests and
+suggestions for features on the platform and projects, which have
+ultimately been implemented alongside other general platform features that
+have benefited Lumina’s work.
+
+## Lumina and CloudCannon’s future together
+
+Viv is continuing his mission to help the local community to realize their
+vision and creating great-looking, sleek sites to cater to individual
+needs. While he works on his passion, CloudCannon’s support team will be
+there to answer all his questions and needs.
+
+> It’s been really good because everybody has been proactive at getting back to me, and usually the problems are sorted out very quickly. I’ve even had a few feature requests that they’ve ended up applying and letting me know they’ve done this.

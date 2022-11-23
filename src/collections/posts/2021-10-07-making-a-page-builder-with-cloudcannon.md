@@ -8,11 +8,6 @@ date: 2021-10-07T05:00:00+1300
 tags:
   - Resources
 author: jordan-trbuhovic
-content_blocks:
-  - _bookshop_name: vimeo
-    id: '622834787'
-    loop: true
-    autoplay: true
 ---
 Page builders give editors an intuitive and easy way to manage and build websites. All editing can be done within CloudCannon's Visual Editor in real time.
 
@@ -98,18 +93,20 @@ Once the website has been built on CloudCannon, `content_blocks` will be shown a
 
 Components that get added to the `content_blocks` array are rendered onto pages with the following code, which is located in the *default* page layout.
 
+{% raw %}
 ```html
-{% raw %}<body>
-    <main>
-        <!--  The `page` include loops through all content_blocks and renders them.
-        Using a bookshop tag here means that live previewing will catch new components. -->
-        {% bookshop_include "page" content_blocks: content_blocks %}
-    </main>
+<body>
+  <main>
+    <!--  The `page` include loops through all content_blocks and renders them.
+    Using a bookshop tag here means that live previewing will catch new components. -->
+    {% bookshop_include "page" content_blocks: content_blocks %}
+  </main>
 
-    <!-- This tag registers live previewing on CloudCannon. -->
-    {% bookshop_live _cloudcannon/bookshop-live.js %}
-</body>{% endraw %}
+  <!-- This tag registers live previewing on CloudCannon. -->
+  {% bookshop_live _cloudcannon/bookshop-live.js %}
+</body>
 ```
+{% endraw %}
 
 page.&lt;framework&gt; (referenced in the codeblock above)
 
@@ -139,3 +136,5 @@ After learning the basics of how Bookshop can be integrated into a website, you 
 You can also use Bookshop in a theme to save duplicating components and styles across websites that use the same themes or layouts. We do this for our Bookshop [templates](https://cloudcannon.com/community/themes/), which are free for anyone to use and modify.
 
 For further reading on themes, see our other posts on creating themes with [GitHub](https://cloudcannon.com/blog/jekyll-themes-with-github/), or with [Gemfury](https://cloudcannon.com/blog/private-jekyll-themes-with-gemfury/).
+
+{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/622834787" autoplay:true extend:true border: true %}

@@ -10,33 +10,6 @@ date: 2022-02-24T05:00:00+1300
 tags:
   - Features
 author: ross-phillips
-content_blocks:
-  - _bookshop_name: code-block
-    source: cloudcannon.config.yml
-    code_block: |-
-      collections_config:
-        staff_members:
-          sort_options:
-            - key: name
-            - key: name
-              order: desc
-            - key: start_date
-              order: desc
-              label: Newly-employed first
-    language: yaml
-  - _bookshop_name: text
-    content_markdown: >-
-      Configuring collections is now *almost* entirely the same across the SSGs
-      we support, with the only exceptions being those with more options or
-      requirements. Working with highly configurable SSGs like Next.js and
-      SvelteKit, for example, you will still need to define where certain files
-      are. In any case, we’d love to see how you use our new global
-      configuration files, and how they help your workflows.
-
-
-      As always, if you have questions, feel free to ask our support team
-      in-app\!
-    col:
 ---
 We’ve recently changed the way you set global configuration within CloudCannon. (Any previous configuration will still work, though we do recommend updating.) Rather than relying on your SSG’s config files, we now use a specific file for global configuration, which also acts as the base-level for defining options in your [configuration cascade](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/).
 
@@ -51,3 +24,26 @@ These two new keys are improvements on the previous `sort_key` option, which is 
 Let’s look at a real-world example for a staff member collection.
 
 Normally, the sort menu would contain all possible front matter fields from the first collection item. This is flexible enough for the general case, but likely contains fields you won't need to sort on, and the labels might be vague. Here’s how you could provide options for sorting by `name` both ascending and descending, and for most recent `start_date` first. Once set, the default options will no longer be shown:
+
+```yaml
+collections_config:
+  staff_members:
+    sort_options:
+      - key: name
+      - key: name
+        order: desc
+      - key: start_date
+        order: desc
+        label: Newly-employed first
+```
+
+Configuring collections is now *almost* entirely the same across the SSGs
+we support, with the only exceptions being those with more options or
+requirements. Working with highly configurable SSGs like Next.js and
+SvelteKit, for example, you will still need to define where certain files
+are. In any case, we’d love to see how you use our new global
+configuration files, and how they help your workflows.
+
+
+As always, if you have questions, feel free to ask our support team
+in-app\!

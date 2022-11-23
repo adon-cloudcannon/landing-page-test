@@ -9,13 +9,6 @@ date: 2021-09-14T05:00:00+1200
 tags:
   - Resources
 author: cloudcannon
-content_blocks:
-  - _bookshop_name: cta
-    heading: Get started with CloudCannon
-    content:
-    link_content: Sign Up Free
-    link_url: https://app.cloudcannon.com/register?trial=cc_standard
-    link_open_in_new_tab: false
 ---
 ## Your CMS for Jekyll, Hugo, and Eleventy
 

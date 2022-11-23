@@ -7,15 +7,6 @@ date: 2022-02-03T05:00:00+1300
 tags:
   - Agencies
 author: david-large
-content_blocks:
-  - _bookshop_name: cta
-    heading: Develop with CloudCannon
-    content: >-
-      Join for a 14-day trial, and give your clients for the best editing
-      experience.
-    link_content: Let's get started!
-    link_url: https://app.cloudcannon.com/register?trial=cc_standard
-    link_open_in_new_tab: false
 ---
 So you're pitching a Jamstack project uphill — to a prospective client, perhaps a manager, or an entire marketing team. What are they worried about? And how can you help convince them that static sites are the way of the future? You already know static is faster and more reliable, with a better developer experience, but let's put their questions to rest, with questions a (stereotypical) client might ask.
 
@@ -101,8 +92,6 @@ You’re closer to your content than anyone else could be. It’s your content e
 Where should I start?
 
 ![Netflix website on a laptop screen](https://dam-cdn.cloudcannon.com/netflix-desktop.png "Netflix website")
-
- 
 
 [Netflix uses Jamstack](https://cloudcannon.com/customers/netflix/) (via CloudCannon) to create an extensive network of international sites to maintain and manage relationships with its customers and partners.
 

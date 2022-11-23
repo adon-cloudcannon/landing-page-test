@@ -8,159 +8,6 @@ tags:
   - Resources
   - Hugo
 author: bryce-wray
-content_blocks:
-  - _bookshop_name: text
-    content_markdown: >-
-      As I said, it seems trivial, but you’d be surprised by how much debugging
-      you’ll spare yourself by knowing that one little thing before you start
-      working with Hugo templating\!
-
-
-      ## Stay out of that train’s way
-
-
-      You might wonder how you can speed up your build time with Hugo. The main
-      thing I can say on that front is: *try to avoid slowing Hugo down*. So, as
-      you build a Hugo project, consider these examples of that approach.
-
-
-      ### Be smart about styling
-
-
-      When styling your templates, take advantage of Hugo’s
-      [built-in](https://gohugo.io/hugo-pipes/scss-sass/){: target="_blank"
-      rel="noopener noreferrer"} support
-      for [Sass](https://sass-lang.com/). Since all valid CSS works in Sass, you can start with
-      “vanilla” CSS and enable Sass’s capabilities as you learn about them. Sass
-      is proven, feature-packed, and lovingly maintained. The stability and
-      non-fussiness of a Hugo installation will be ably complemented by the
-      solidity of Sass.
-
-
-      Moreover, the likely alternatives, such as JavaScript-based frameworks
-      like Tailwind CSS and Windi CSS, can add a few seconds to each build *and*
-      require management of an ever-changing set of software dependencies.
-
-
-      (By the way: when installing the Hugo binary, be aware that only its
-      *extended* version supports Sass. I recommend always installing the
-      extended version, regardless of your current styling choice, just in case
-      you decide to go with Sass later on.)
-
-
-      ### Decide the best way to handle images
-
-
-      Work out a strategy for how the site will have responsive images, so your
-      clients’ visitors will have the best possible experience, regardless of
-      their respective devices’ screen sizes or connectivity.
-
-
-      You’ll need to consider how many images are involved or will be involved
-      over time. Although another built-in Hugo capability is [image
-      processing](https://gohugo.io/content-management/image-processing/), and Hugo can do it remarkably
-      quickly (of course), the processing of each additional image — and its
-      various iterations as you perform responsive image handling — will
-      lengthen each build. So run some tests, adding various Hugo image
-      transformations on multiple images, to get a feel for any
-      build-performance penalties that may gradually come into play.
-
-
-      Furthermore, with the images residing in the project repository, this
-      eventually could run up against a remote repository’s file storage limits.
-      Some have made Hugo work with Git’s Large File Storage functionality as at
-      least a partial workaround, but large sites and growing asset libraries
-      cause increasingly degraded performance during development, as well as
-      longer build and deployment times.
-
-
-      In the end, you and your client may even wish to consider storing the
-      site’s images on a separate image processing/delivery service and simply
-      “call” the images through URLs provided by the service. In the coming
-      weeks we’ll see CloudCannon introduce digital asset management (DAM)
-      support — most services of this type offer free tiers, so you and your
-      clients could experiment with this method without having to make any final
-      choices.
-
-
-      ## Hook up with a great host
-
-
-      If your clients don’t already have a web host in mind, make them aware of
-      the difference between “traditional” hosts and the Jamstack-savvy hosts,
-      the latter of which obviously are where you’d steer them for any SSG-based
-      site.
-
-
-      A Jamstack-savvy host like CloudCannon links directly to a project’s
-      remote repository and automatically rebuilds the project’s website every
-      time there’s a push to the repo’s designated main branch. This ensures a
-      smooth workflow for both your development efforts and the clients’ use of
-      the site.
-
-
-      On each site rebuild, the host puts the resulting content out on the
-      “[edge](https://cloudcannon.com/features/edge-hosting/)” — namely, a
-      global content delivery network (CDN) — helping to boost the visitors’
-      perceived experience with the site, regardless of where those folks may
-      be. Not all CDNs are equal, mind you; some have very few worldwide points
-      of presence (PoPs), which makes them less effective for some visitors.
-
-
-      Fortunately, a CloudCannon-based site lives on a roaring fast CDN with
-      *hundreds* of worldwide PoPs, far more than nearly all of its rivals.
-      That’s just one of the many key advantages of using CloudCannon with your
-      SSG of choice.
-
-
-      ## Stay current
-
-
-      Subscribe to Hugo’s [“Releases” page on
-      GitHub](https://github.com/gohugoio/hugo/releases){: target="_blank"
-      rel="noopener noreferrer"} so you can keep up with Hugo updates. While
-      many of these changes are only incremental and, thus, unlikely to merit
-      your attention regarding an existing Hugo site, there sometimes will be a
-      new feature which can be of great use to you and your clients. One such
-      example was a December, 2021, release [adding the ability to fetch remote
-      resources](https://github.com/gohugoio/hugo/releases/tag/v0.90.0) so Hugo could process them just
-      as if they were local to the project repository.
-
-
-      Earlier, we discussed the hosting of a Hugo-based site. That brings up
-      another way that “Releases” page will come in handy. At build time, each
-      host loads a default Hugo version, which almost certainly isn’t the same
-      version your project is using. Thus, you must set the desired version in a
-      host-level environment variable, usually with the *key* of `HUGO_VERSION`.
-      When setting the *value* for the variable, be sure to use the full version
-      number; *e.g.*, make it `0.90.0` rather than just `0.90`. To confirm the
-      correct version number, refer to the “Releases” page, since that’s the
-      source from which hosts pull the specified binary version.
-
-
-      ## Be your clients’ Hugo hero
-
-
-      Hugo powers websites ranging from the tiniest personal blogs to complex
-      corporate and government sites. Its awesome speed makes the building and
-      maintenance of all those sites easier and more pleasurable for developers
-      and content owners alike. Hugo definitely merits consideration for your
-      website projects, and its unique advantages can make you a hero with your
-      clients, not only at site creation time but going forward
-      — *especially* if you pair it with a collaborative CMS like
-      CloudCannon. Be sure to check out the other Hugo-related articles here on
-      the CloudCannon blog for more information of this type.
-    col:
-  - _bookshop_name: spacing
-    mobile_unit_number: 6
-    tablet_unit_number: 8
-    laptop_unit_number: 12
-  - _bookshop_name: cta
-    heading: Build with Hugo on CloudCannon today
-    content:
-    link_content: Start your 14-day trial
-    link_url: https://app.cloudcannon.com/register?trial=cc_standard
-    link_open_in_new_tab: false
 templateEngineOverride: md
 ---
 There’s plenty to be said for stuff that *just works*, and the [Hugo](https://gohugo.io/) static site generator (SSG) is a perfect exemplar of that well-worn descriptor. When you’re building a new website for a client, Hugo should be one of the first tools you pull from your bag. 
@@ -234,3 +81,120 @@ $variableOne := 456
 
 $variableTwo = 2
 ```
+
+As I said, it seems trivial, but you’d be surprised by how much debugging
+you’ll spare yourself by knowing that one little thing before you start
+working with Hugo templating\!
+
+## Stay out of that train’s way
+
+You might wonder how you can speed up your build time with Hugo. The main
+thing I can say on that front is: *try to avoid slowing Hugo down*. So, as
+you build a Hugo project, consider these examples of that approach.
+
+### Be smart about styling
+
+When styling your templates, take advantage of Hugo’s
+[built-in](https://gohugo.io/hugo-pipes/scss-sass/) support
+for [Sass](https://sass-lang.com/). Since all valid CSS works in Sass, you can start with
+“vanilla” CSS and enable Sass’s capabilities as you learn about them. Sass
+is proven, feature-packed, and lovingly maintained. The stability and
+non-fussiness of a Hugo installation will be ably complemented by the
+solidity of Sass.
+
+Moreover, the likely alternatives, such as JavaScript-based frameworks
+like Tailwind CSS and Windi CSS, can add a few seconds to each build *and*
+require management of an ever-changing set of software dependencies.
+
+(By the way: when installing the Hugo binary, be aware that only its
+*extended* version supports Sass. I recommend always installing the
+extended version, regardless of your current styling choice, just in case
+you decide to go with Sass later on.)
+
+### Decide the best way to handle images
+
+Work out a strategy for how the site will have responsive images, so your
+clients’ visitors will have the best possible experience, regardless of
+their respective devices’ screen sizes or connectivity.
+
+You’ll need to consider how many images are involved or will be involved
+over time. Although another built-in Hugo capability is [image
+processing](https://gohugo.io/content-management/image-processing/), and Hugo can do it remarkably
+quickly (of course), the processing of each additional image — and its
+various iterations as you perform responsive image handling — will
+lengthen each build. So run some tests, adding various Hugo image
+transformations on multiple images, to get a feel for any
+build-performance penalties that may gradually come into play.
+
+Furthermore, with the images residing in the project repository, this
+eventually could run up against a remote repository’s file storage limits.
+Some have made Hugo work with Git’s Large File Storage functionality as at
+least a partial workaround, but large sites and growing asset libraries
+cause increasingly degraded performance during development, as well as
+longer build and deployment times.
+
+In the end, you and your client may even wish to consider storing the
+site’s images on a separate image processing/delivery service and simply
+“call” the images through URLs provided by the service. In the coming
+weeks we’ll see CloudCannon introduce digital asset management (DAM)
+support — most services of this type offer free tiers, so you and your
+clients could experiment with this method without having to make any final
+choices.
+
+## Hook up with a great host
+
+If your clients don’t already have a web host in mind, make them aware of
+the difference between “traditional” hosts and the Jamstack-savvy hosts,
+the latter of which obviously are where you’d steer them for any SSG-based
+site.
+
+A Jamstack-savvy host like CloudCannon links directly to a project’s
+remote repository and automatically rebuilds the project’s website every
+time there’s a push to the repo’s designated main branch. This ensures a
+smooth workflow for both your development efforts and the clients’ use of
+the site.
+
+On each site rebuild, the host puts the resulting content out on the
+“[edge](https://cloudcannon.com/features/edge-hosting/)” — namely, a
+global content delivery network (CDN) — helping to boost the visitors’
+perceived experience with the site, regardless of where those folks may
+be. Not all CDNs are equal, mind you; some have very few worldwide points
+of presence (PoPs), which makes them less effective for some visitors.
+
+Fortunately, a CloudCannon-based site lives on a roaring fast CDN with
+*hundreds* of worldwide PoPs, far more than nearly all of its rivals.
+That’s just one of the many key advantages of using CloudCannon with your
+SSG of choice.
+
+## Stay current
+
+Subscribe to Hugo’s [“Releases” page on
+GitHub](https://github.com/gohugoio/hugo/releases) so you can keep up with Hugo updates. While
+many of these changes are only incremental and, thus, unlikely to merit
+your attention regarding an existing Hugo site, there sometimes will be a
+new feature which can be of great use to you and your clients. One such
+example was a December, 2021, release [adding the ability to fetch remote
+resources](https://github.com/gohugoio/hugo/releases/tag/v0.90.0) so Hugo could process them just
+as if they were local to the project repository.
+
+Earlier, we discussed the hosting of a Hugo-based site. That brings up
+another way that “Releases” page will come in handy. At build time, each
+host loads a default Hugo version, which almost certainly isn’t the same
+version your project is using. Thus, you must set the desired version in a
+host-level environment variable, usually with the *key* of `HUGO_VERSION`.
+When setting the *value* for the variable, be sure to use the full version
+number; *e.g.*, make it `0.90.0` rather than just `0.90`. To confirm the
+correct version number, refer to the “Releases” page, since that’s the
+source from which hosts pull the specified binary version.
+
+## Be your clients’ Hugo hero
+
+Hugo powers websites ranging from the tiniest personal blogs to complex
+corporate and government sites. Its awesome speed makes the building and
+maintenance of all those sites easier and more pleasurable for developers
+and content owners alike. Hugo definitely merits consideration for your
+website projects, and its unique advantages can make you a hero with your
+clients, not only at site creation time but going forward
+— *especially* if you pair it with a collaborative CMS like
+CloudCannon. Be sure to check out the other Hugo-related articles here on
+the CloudCannon blog for more information of this type.

@@ -8,13 +8,6 @@ date: 2021-09-01T05:00:00+1200
 tags:
   - Features
 author: nathan-kennedy
-content_blocks:
-  - _bookshop_name: cta
-    heading: Try our Hugo CMS for free
-    content:
-    link_content: Get started free
-    link_url: https://app.cloudcannon.com/register?trial=cc_standard
-    link_open_in_new_tab: false
 ---
 Since the dawn of time — well, since around 2015 — [CloudCannon has been the best CMS for Jekyll *by far*](https://cloudcannon.com/jekyll-cms/). But we weren’t content with being a one-trick pony. We knew it was time to fully embrace the Jamstack world, and open up our platform to more and more exciting static site generators (SSGs).
 

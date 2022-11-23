@@ -11,117 +11,6 @@ tags:
   - Hugo
   - Agency
 author: bryce-wray
-content_blocks:
-  - _bookshop_name: vimeo
-    id: '689852104'
-    loop: true
-    autoplay: true
-  - _bookshop_name: text
-    content_markdown: >-
-      If you give your prospective clients a demo of how this CMS looks and
-      works, they’re likely to be eager to get their hands on it — especially
-      after you explain its comparative advantages regarding security,
-      performance, and bullet-proof version control. You can even give each
-      component its own custom icon, making things still friendlier for the
-      eventual content editors.
-
-
-      ## Suggestions for even smoother sailing
-
-
-      While it’s very well-organized, clear, and thorough, the documentation for
-      Bookshop is fluid, as is true for pretty much every modern software or
-      web-based application. Thus, I have a few tips to offer.
-
-
-      ### Use the template, Luke
-
-
-      It’s certainly possible to start fresh with Bookshop by introducing it to
-      a clean Hugo repo and then working from there within the documentation,
-      but you’ll thank yourself later if, instead, you take some time to clone
-      the [Megakit
-      template](https://cloudcannon.com/community/themes/megakit/) and then compare its various files to the
-      finished result in your local browser. Trust me: any additional time you
-      spend on this learning process, you’ll more than make up for by the time
-      you’ll save, later, in understanding how it all works.
-
-
-      Better still . . .
-
-
-      ### Learn from the tutorial
-
-
-      This article you’re reading now purposely **hasn’t** been a tutorial in
-      using Bookshop and CloudCannon with Hugo, because an [excellent
-      one](https://cloudcannon.com/community/learn/bootstrap-to-a-client-editable-hugo-site/) already exists right here on the
-      CloudCannon website\! Do yourself a favor by setting aside some time to go
-      through the tutorial in its entirety. Not coincidentally, it uses the
-      aforementioned Megakit template.
-
-
-      ### Remember that clean Modules are happy Modules
-
-
-      Sometimes, Hugo Modules can get a little squirrelly after a while, so make
-      it a habit to do a fairly regular run of [`hugo mod
-      clean`](https://gohugo.io/commands/hugo_mod_clean/){: target="_blank"
-      rel="noopener noreferrer"} in your local Hugo/Bookshop repo. The
-      command deletes the project’s existing Hugo Modules cache. You’ll know
-      it’s needed if you get something like this in your terminal app when you
-      run `hugo server`\:
-
-
-      ```shell
-
-      ERROR 2022/04/18 21:14:00 render of "taxonomy" failed:
-      "/Users/yourname/yourrepo/layouts/_default/baseof.html:8:31": execute of
-      template failed: template: _default/list.html:8:31: executing
-      "_default/list.html" at <partial "bookshop_scss" .>: error calling
-      partial: partial "bookshop_scss" not found
-
-      ```
-
-
-      ​​​​​​Please note that this will re-download the Bookshop Hugo Module the
-      next time you run either `hugo` or `hugo server`; but, if you need
-      it, you need it. According to
-      the [documentation](https://gohugo.io/commands/hugo_mod_clean/), running `hugo –gc` (the *gc*
-      refers to [*garbage
-      collection*](https://en.wikipedia.org/wiki/Garbage_collection_&#40;computer_science&#41;)) also accomplishes this
-      “cleaning.”
-
-
-      ## Get a competitive edge
-
-
-      When you can offer potential customers a website development and
-      maintenance project like the one that you get with
-      Hugo/Bookshop/CloudCannon, you give yourself a tremendous leg up against
-      your competition.
-
-
-      In one easy-to-understand package, you’re proposing category-leading
-      performance and security, an exceptionally attractive and user-friendly
-      content editing experience, and ironclad protection for customers’ files
-      within an invisible Git workflow. Add your own proven knack for satisfying
-      customers, and you’ll be difficult to overcome.
-
-
-      The bottom line: if you make a living building Hugo-based sites, you owe
-      it to yourself to take a very close look at what’s possible — for you and
-      your customers — when you combine Hugo, Bookshop, and CloudCannon.
-
-
-      ***Acknowledgment****\: I am deeply grateful for the tremendous and
-      patient help that Liam Bigelow, the lead developer of the Bookshop
-      project, gave me during the research and testing that led to this article.
-      If you encounter any hurdles getting Bookshop up and running, the most
-      efficient place to ask for and receive assistance will be via
-      the *[*Bookshop GitHub
-      repository*](https://github.com/cloudcannon/bookshop/issues)*.*
-    col:
 ---
 It’s tough to be competitive in the ever-changing world of web development. Trends, even fads, come and go. While an experienced web dev learns to know the difference between sound practices and those which are simply forgettable Flavors of the Month, your customers and prospects out in the real world usually lack this ability to differentiate. Often, they simply ask for New Shiny Things that they’ve seen on their competitors’ sites. They don’t have any way to know whether that approach really is best for them long-term, especially when their own, possibly tech-challenged content editors have to maintain the resulting site.
 
@@ -192,3 +81,92 @@ The integration with Bookshop also provides a basic *component browser* that you
 Once you’re ready to move beyond your local machine, connecting your Bookshop-enabled repo to CloudCannon is quick and painless, involving only a small number of well-documented steps which will take you only minutes. From there, you can edit in both the CMS and your local repo. You’ll quickly be impressed by the CMS’s buttery-smooth interaction with your project’s remote repository as you make changes in one place or another. (Obviously, you should use your chosen Git workflow and tool kit to keep your local repo in sync with the remote repo whenever the latter “gets ahead of” the former.)
 
 And, of course, I would be remiss if I didn’t mention the clean-looking and snappily-performing CMS UI itself, where the ultimate magic happens:
+
+{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/689852104" autoplay:true extend:true border: true %}
+
+If you give your prospective clients a demo of how this CMS looks and
+works, they’re likely to be eager to get their hands on it — especially
+after you explain its comparative advantages regarding security,
+performance, and bullet-proof version control. You can even give each
+component its own custom icon, making things still friendlier for the
+eventual content editors.
+
+## Suggestions for even smoother sailing
+
+While it’s very well-organized, clear, and thorough, the documentation for
+Bookshop is fluid, as is true for pretty much every modern software or
+web-based application. Thus, I have a few tips to offer.
+
+### Use the template, Luke
+
+It’s certainly possible to start fresh with Bookshop by introducing it to
+a clean Hugo repo and then working from there within the documentation,
+but you’ll thank yourself later if, instead, you take some time to clone
+the [Megakit
+template](https://cloudcannon.com/community/themes/megakit/) and then compare its various files to the
+finished result in your local browser. Trust me: any additional time you
+spend on this learning process, you’ll more than make up for by the time
+you’ll save, later, in understanding how it all works.
+
+Better still . . .
+
+### Learn from the tutorial
+
+This article you’re reading now purposely **hasn’t** been a tutorial in
+using Bookshop and CloudCannon with Hugo, because an [excellent
+one](https://cloudcannon.com/community/learn/bootstrap-to-a-client-editable-hugo-site/) already exists right here on the
+CloudCannon website\! Do yourself a favor by setting aside some time to go
+through the tutorial in its entirety. Not coincidentally, it uses the
+aforementioned Megakit template.
+
+### Remember that clean Modules are happy Modules
+
+Sometimes, Hugo Modules can get a little squirrelly after a while, so make
+it a habit to do a fairly regular run of [`hugo mod
+clean`](https://gohugo.io/commands/hugo_mod_clean/) in your local Hugo/Bookshop repo. The
+command deletes the project’s existing Hugo Modules cache. You’ll know
+it’s needed if you get something like this in your terminal app when you
+run `hugo server`\:
+
+```shell
+
+ERROR 2022/04/18 21:14:00 render of "taxonomy" failed:
+"/Users/yourname/yourrepo/layouts/_default/baseof.html:8:31": execute of
+template failed: template: _default/list.html:8:31: executing
+"_default/list.html" at <partial "bookshop_scss" .>: error calling
+partial: partial "bookshop_scss" not found
+
+```
+
+​​​​​​Please note that this will re-download the Bookshop Hugo Module the
+next time you run either `hugo` or `hugo server`; but, if you need
+it, you need it. According to
+the [documentation](https://gohugo.io/commands/hugo_mod_clean/), running `hugo –gc` (the *gc*
+refers to [*garbage
+collection*](https://en.wikipedia.org/wiki/Garbage_collection_&#40;computer_science&#41;)) also accomplishes this
+“cleaning.”
+
+## Get a competitive edge
+
+When you can offer potential customers a website development and
+maintenance project like the one that you get with
+Hugo/Bookshop/CloudCannon, you give yourself a tremendous leg up against
+your competition.
+
+In one easy-to-understand package, you’re proposing category-leading
+performance and security, an exceptionally attractive and user-friendly
+content editing experience, and ironclad protection for customers’ files
+within an invisible Git workflow. Add your own proven knack for satisfying
+customers, and you’ll be difficult to overcome.
+
+The bottom line: if you make a living building Hugo-based sites, you owe
+it to yourself to take a very close look at what’s possible — for you and
+your customers — when you combine Hugo, Bookshop, and CloudCannon.
+
+***Acknowledgment****\: I am deeply grateful for the tremendous and
+patient help that Liam Bigelow, the lead developer of the Bookshop
+project, gave me during the research and testing that led to this article.
+If you encounter any hurdles getting Bookshop up and running, the most
+efficient place to ask for and receive assistance will be via
+the *[*Bookshop GitHub
+repository*](https://github.com/cloudcannon/bookshop/issues)*.*
