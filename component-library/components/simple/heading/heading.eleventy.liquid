@@ -9,11 +9,23 @@
 	{% assign classes = classes | append: " text-5xl" %}
 {% when 'h3' %}
 	{% assign el = "h3" %}
-	{% assign classes = classes | append: " text-lg" %}
+	{% assign classes = classes | append: " text-4xl" %}
 {% endcase %}
 
 {% case color %}
 {% when 'white' %}
 	{% assign classes = classes | append: " text-white" %}
 {% endcase %}
-<{{ el }} class="{{ classes }} max-w-screen-md mx-auto font-bold text-center">{{ text }}</{{ el }}>
+
+{% case align %}
+{% when 'left' %}
+{% when 'center' %}
+	{% assign classes = classes | append: " text-center" %}
+{% endcase %}
+
+
+{% case width %}
+{% when 'tight' %}
+	{% assign classes = classes | append: " max-w-screen-md mx-auto" %}
+{% endcase %}
+<{{ el }} class="{{ classes }} font-bold">{{ text }}</{{ el }}>

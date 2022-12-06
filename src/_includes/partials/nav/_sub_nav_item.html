@@ -1,23 +1,26 @@
 {% assign nav_count = item.sub_navs | size %}
-<div x-show="open" x-transition class="caret">
-	<div class="shadow-menu bg-white rounded-2xl flex right-0 absolute mt-6
-		[&>div:first-child>a:first-child]:rounded-tl-2xl
-		[&>div:last-child>a:first-child]:rounded-tr-2xl
-		[&>div:first-child>a:last-child]:rounded-bl-2xl
-		[&>div:last-child>a:last-child]:rounded-br-2xl
-	">
+<div x-show="open" class="caret">
+	<div class="shadow-menu bg-white flex justify-center right-0 left-0 absolute mt-6 pb-6">
 		{% for sub_nav in item.sub_navs %}
-			<div class="w-96">
+			<div class="flex-initial py-5 mx-4">
+				<div class="uppercase text-gray-600 text-xs tracking-[.25em] pb-4">{{ sub_nav.title }}</div>
 				{% for sub_item in sub_nav.sub_nav %}
 					<a 
 						href="{{ sub_item.link }}" 
-						class="hover:bg-gray-100 block py-4 transition duration-200">
-						<div class="flex pl-4">
+						class="block py-2 group">
+						<div class="flex">
 							{% assign icon_path = "/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
-							<span class="w-6 relative top-0.5 block [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
+							<span class="w-6 relative block transition [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
 							<div class="flex-1 pl-4">
-								<div class="text-lg font-semibold">{{ sub_item.name }}</div>
-								<div class="text-gray-500 text-m">{{ sub_item.description }}</div>
+								<div class="text-base font-semibold">
+									{{ sub_item.name }}
+									<span class="w-4 inline-block">
+										<span class="hidden translate-y-1 transition group-hover:translate-x-1 group-hover:inline-block w-full">
+											{{ "/images/icons/outline/arrow-right.svg" | svgContents }}
+										</span>
+									</span>
+								</div>
+								<div class="text-gray-400 text-sm group-hover:text-gray-900 transition max-w-[250px]">{{ sub_item.description }}</div>
 							</div>
 						</div>
 					</a>

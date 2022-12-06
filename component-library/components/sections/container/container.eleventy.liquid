@@ -11,13 +11,18 @@
 		{% assign classes = classes | append: " bg-cc" %}
 	{% when 'ash' %}
 		{% assign classes = classes | append: " bg-ash" %}
+	{% when 'night' %}
+		{% assign classes = classes | append: " bg-night text-white" %}
 	{% else %}
 		{% assign classes = classes | append: " bg-white" %}
 {% endcase %}
 
-{% if rounded %}
-	{% assign classes = classes | append: " rounded-t-[40px] -mt-[40px]" %}
-{% endif %}
+{% case rounded %}
+	{% when 'top' %}
+		{% assign classes = classes | append: " rounded-t-[40px] -mt-[40px]" %}
+	{% when 'full' %}
+		{% assign classes = classes | append: " rounded-[20px]" %}
+{% endcase %}
 
 {% if margin %}
 	{% if margin.top %}
@@ -61,10 +66,16 @@
 	{% endif %}
 {% endif %}
 
+{% case size %}
+{% when 'small' %}
+	{% assign classes = classes | append: " w-[800px] mx-auto" %}
+{% endcase %}
+
+
 <div class="{{ classes }} relative">
-	<div class="container relative">
-		{% for component in blocks %}
-			{% bookshop "{{component._bookshop_name}}" bind: component %}
-		{% endfor %}
+		<div class="container relative">
+	{% for component in blocks %}
+		{% bookshop "{{component._bookshop_name}}" bind: component %}
+	{% endfor %}
 	</div>
 </div>

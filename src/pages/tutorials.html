@@ -1,0 +1,48 @@
+---
+title: Tutorials
+layout: builder.html
+permalink: /learn/
+content_blocks:
+  - _bookshop_name: hero
+    blocks:
+      - _bookshop_name: simple/spacer
+        size: 130
+      - _bookshop_name: simple/heading
+        text: Tutorials
+        size: hero
+        align: center
+        width: tight
+      - _bookshop_name: simple/spacer
+        size: 35
+      - _bookshop_name: simple/sub-heading
+        text: Learn from the CloudCannon team and community members as they share their knowledge about static sites, Git workflows and content management. 
+        size: big
+      - _bookshop_name: simple/spacer
+        size: 80
+---
+
+<div class="container">
+  <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
+    
+    {% for tutorial in collections.tutorials %}
+    
+    {% assign first_lesson = collections.lessons | where: "data.tutorial", tutorial.fileSlug | sort: "data.order" | first %}
+      <a class="group relative transition duration-200 pb-10 pt-5 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" 
+        target="_blank" href="{{ first_lesson.url }}">
+        <img src="{{ tutorial.data.image }}" class="rounded-t-xl max-h-20 mx-auto block" alt="{{ tutorial.data.title }}">
+        <div class="p-5 pb-8">
+          <h3 class="text-3xl font-bold mb-6">
+            {{ tutorial.data.title }}
+          </h3>
+          <p class="text-xl">{{ tutorial.data.description }}</p>
+          <p class="absolute bottom-[15px] text-lg font-bold text-cc group-hover:underline">
+            Learn
+            <span class="inline-block w-4 relative top-[3px] ml-[2px]">
+              {{ '/images/icons/outline/arrow-right.svg' | svgContents }}
+            </span>
+          </p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>

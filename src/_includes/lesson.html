@@ -1,0 +1,15 @@
+---
+layout: page.html
+---
+
+{% bookshop "simple/spacer" size:100 %}
+{% bookshop "simple/heading" align:"center" text:title size:"h2" width:"tight" %}
+{% bookshop "simple/spacer" size:35 %}
+{% bookshop "simple/sub-heading" text:description size:"big" %}
+{% bookshop "simple/spacer" size:30 %}
+
+<div class="container relative">
+  <div class="prose prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+    {{ content }}
+  </div>
+</div>

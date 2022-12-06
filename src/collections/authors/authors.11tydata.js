@@ -1,5 +1,5 @@
 module.exports = {
-	layout: "author.html",
+	permalink: false,
 	tags: ["authors"],
 	eleventyComputed: {
 		slug: data => data.name.toLowerCase()

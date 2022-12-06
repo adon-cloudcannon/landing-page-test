@@ -1,0 +1,10 @@
+---
+title: Hugo Beginner Tutorial Series
+image: https://dam-cdn.cloudcannon.com/Hugo basics.png
+author: Mike Neumegen
+order: '2'
+description: >-
+  Learn the basics of Hugo and build your first site in this six-part beginner
+  series.
+---
+

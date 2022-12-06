@@ -1,0 +1,75 @@
+---
+title: Events
+layout: builder.html
+permalink: /events/
+content_blocks:
+  - _bookshop_name: hero
+    blocks:
+      - _bookshop_name: simple/spacer
+        size: 130
+      - _bookshop_name: simple/heading
+        text: Events
+        size: hero
+        align: center
+        width: tight
+      - _bookshop_name: simple/spacer
+        size: 35
+      - _bookshop_name: simple/sub-heading
+        text: Learn from the CloudCannon team and community members as they share their knowledge about static sites, Git workflows and content management. 
+        size: big
+      - _bookshop_name: simple/spacer
+        size: 80
+---
+
+<div class="container">
+
+  {% assign events = collections.events | sort: "date" | reverse %}
+  {% assign future_events = events | where: "data.upcoming", true %}
+  {% assign past_events = events | where: "data.upcoming", false %}
+
+  <h2 class="font-bold text-4xl text-gray-700">Upcoming Events</h2>
+
+  <div class="mb-14 mt-5">
+    {% for event in future_events %}
+    <a class="group relative transition duration-200 mb-10 hover:scale-105 flex border border-black rounded-xl bg-white hover:drop-shadow-xl" 
+    target="_blank" href="{{ event.data.link }}">
+      <img src="{{ event.data.image.path }}" class="rounded-l-xl flex-1 w-full h-full object-cover object-center" alt="{{ event.data.image.alt }}">
+      <div class="p-5 pb-8 flex-1">
+        <h3 class="text-3xl font-bold mb-6">
+          {{ event.data.title }}
+        </h3>
+        <p class="text-xl">{{ event.data.content }}</p>
+        <p class="absolute bottom-[15px] text-lg font-bold text-cc group-hover:underline">
+          View
+          <span class="inline-block w-4 relative top-[3px] ml-[2px]">
+            {{ '/images/icons/outline/arrow-right.svg' | svgContents }}
+          </span>
+        </p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <h2 class="font-bold text-4xl text-gray-700">Past Events</h2>
+  <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
+    
+    {% for event in past_events %}
+      <a class="group relative transition duration-200 pb-10 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" 
+        target="_blank" href="{{ event.data.link }}">
+        <img src="{{ event.data.image.path }}" class="rounded-t-xl" alt="{{ event.data.image.alt }}">
+        <div class="p-5 pb-8">
+          <h3 class="text-3xl font-bold mb-6">
+            {{ event.data.title }}
+          </h3>
+          <p class="text-xl">{{ event.data.content }}</p>
+          <p class="absolute bottom-[15px] text-lg font-bold text-cc group-hover:underline">
+            Watch
+            <span class="inline-block w-4 relative top-[3px] ml-[2px]">
+              {{ '/images/icons/outline/arrow-right.svg' | svgContents }}
+            </span>
+          </p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>

@@ -1,72 +1,122 @@
-  - name: Features
+  - name: Platform
     sub_navs:
-      - title:
+      - title: Features
         sub_nav:
-          - name: Visual Editing
+          - name: Website Editing
             link: ''
             description: "Intutive editing for your content team"
             icon: 'pencil'
-          - name: Review and Publishing
+          - name: Content Publishing
             link: ''
             description: "Work together, faster"
-            icon: 'command-line'
+            icon: 'document-arrow-up'
           - name: Website Hosting
             link: ''
             icon: 'cloud'
             description: "Host the fastest websites"
-  - name: Solutions
-    sub_navs:
-      - title:
+          - name: Technologies
+            link: ''
+            icon: 'cube'
+            description: "Host the fastest websites"
+      - title: Users
         sub_nav:
-          - name: Case studies
-            link: '/customers/'
-            description: "Why companies choose CloudCannon"
-            icon: 'briefcase'
-          - name: Enterprise
+          - name: For Editors
             link: ''
-            description: "Deliver your digital experience"
+            description: "Intutive editing for your content team"
+            icon: 'pencil-square'
+          - name: For Marketers
+            link: '/for-marketers/'
+            description: "Work together, faster"
+            icon: 'megaphone'
+          - name: For Developers
+            link: ''
+            icon: 'command-line'
+            description: "Host the fastest websites"
+          - name: For Digital Agencies
+            link: ''
+            icon: 'paint-brush'
+            description: "Host the fastest websites"
+          - name: For Enterprise
+            link: ''
             icon: 'building-office'
-          - name: Partner Program
+            description: "Host the fastest websites"
+      - title: Use Cases
+        sub_nav:
+          - name: Case Studies
+            link: '/customers/'
+            icon: 'user-circle'
+            description: "Host the fastest websites"
+          - name: Marketing Sites
             link: ''
-            description: "Offer your clients the best editing"
-            icon: 'sparkles'
+            description: "Intutive editing for your content team"
+            icon: 'paper-airplane'
+          - name: Documentation Sites
+            link: ''
+            description: "Work together, faster"
+            icon: 'document-text'
+          - name: Blogs
+            link: ''
+            icon: 'rss'
+            description: "Host the fastest websites"
+          - name: Ecommerce
+            link: ''
+            icon: 'shopping-cart'
+            description: "Host the fastest websites"
   - name: Resources
     sub_navs:
-        - title: CloudCannon
-          sub_nav:
+      - title: "Developers"
+        sub_nav:
+          - name: Documentation
+            link: https://cloudcannon.com/documentation/
+            description: "Why companies choose CloudCannon"
+            icon: 'code-bracket-square'
+          - name: Tutorials
+            link: '/learn/'
+            description: "Learn Jamstack"
+            icon: 'academic-cap'
+          - name: Cheatsheets
+            link: ''
+            description: "Get help"
+            icon: 'check-badge'
+          - name: Jamstack ecosystem
+            link: '/ecosystem/'
+            description: "Get help"
+            icon: 'gift'
+      - title: Community
+        sub_nav:
           - name: Blog
             link: '/blog/'
             description: "The latest at CloudCannon"
-            icon: 'document-text'
-          - name: Documentation
-            link: ''
-            description: "Learn CloudCannon"
-            icon: 'code-bracket-square'
-          - name: Changelog
-            link: ''
-            description: "The latest updates"
-            icon: 'square-2-stack'
+            icon: 'light-bulb'
           - name: Support
             link: ''
-            description: "Get help"
-            icon: 'chat-bubble-left-right'
-        - title: Community
-          sub_nav:
-            - name: Events
-              link: ''
-              description: "Sharing the knowledge"
-              icon: 'microphone'
-            - name: Templates
-              link: ''
-              description: "Learn CloudCannon"
-              icon: 'puzzle-piece'
-            - name: Tutorials
-              link: ''
-              description: "Learn Jamstack"
-              icon: 'academic-cap'
-            - name: Jamstack ecosystem
-              link: '/ecosystem/'
-              description: "Get help"
-              icon: 'gift'
+            description: "Deliver your digital experience"
+            icon: 'inbox'
+          - name: Community
+            link: ''
+            description: "Offer your clients the best editing"
+            icon: 'sparkles'
+          - name: Events
+            link: '/events/'
+            description: "Sharing the knowledge"
+            icon: 'microphone'
+          - name: Templates
+            link: '/templates/'
+            description: "Learn CloudCannon"
+            icon: 'puzzle-piece'
+      - title: "Partners"
+        sub_nav:
+          - name: Partner Program
+            link: 
+            description: "Why companies choose CloudCannon"
+            icon: 'briefcase'
+          - name: Expert Directory
+            link: ''
+            description: "Find an Expert"
+            icon: 'user'
+          - name: Technology Partners
+            link: ''
+            description: "Find an Expert"
+            icon: 'cog-6-tooth'
   - name: Pricing
     link: '/pricing/'

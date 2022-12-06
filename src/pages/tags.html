@@ -10,6 +10,8 @@ pagination:
     - case_studies
     - authors
     - undefined
+    - lessons
+    - tutorials
   addAllPagesToCollections: true
 layout: builder.html
 eleventyComputed:
@@ -22,6 +24,8 @@ eleventyComputed:
         - _bookshop_name: simple/heading
           text: "{{ tag }} posts"
           size: h2
+          align: center
+          width: tight
         - _bookshop_name: simple/spacer
           size: 35
         - _bookshop_name: simple/sub-heading

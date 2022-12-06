@@ -22,8 +22,9 @@ module.exports = {
 			colors: {
 				cc: '#034AD8',
 				caramel: '#fdf6db',
-				sky: '#b9e5e3',
-				ash: '#f7f5f2'
+				sky: '#b4e7f7',
+				ash: '#f7f5f2',
+				night: '#2B2B31'
 			},
 			boxShadow: {
 				'menu': '0 5px 25px 10px rgb(0 0 0 / 0.08)'

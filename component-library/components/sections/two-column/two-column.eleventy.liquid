@@ -17,6 +17,17 @@
 	{% assign right-c = right-c | append: " border-l border-dotted border-gray-300" %}
 {% endif %}
 
+{% if vertically_center %}
+	{% assign flex_center = " flex-col justify-center flex" %}
+	{% assign left-c = left-c | append: flex_center %}
+	{% assign right-c = right-c | append: flex_center %}
+{% endif %}
+
+{% if gap %}
+	{% assign left-c = left-c | append: " mr-8" %}
+	{% assign right-c = right-c | append: " ml-8" %}
+{% endif %}
+
 <div class="flex relative">
 	<div class="{{ left-c }}">
 		{% for component in left.blocks %}

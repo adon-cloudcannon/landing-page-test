@@ -1,0 +1,9 @@
+---
+title: Bootstrap to a client-editable Hugo site
+image: /community/uploads/bootstrap-hugo.png
+author: Mike Neumegen
+order: 5
+description: Learn how to convert a Bootstrap template into a client-editable Hugo website.
+---
+
+In this tutorial we’ll take an existing, MIT licensed Bootstrap template made by the talented team at [Themefisher](https://themefisher.com/){: target="_blank" rel="noopener noreferrer"}, and convert it into a client-editable Hugo website. Along the way we’ll learn the basics of Hugo, how to structure the navigation, blog content, and components.

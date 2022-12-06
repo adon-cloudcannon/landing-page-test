@@ -20,4 +20,20 @@
 	{% assign classes = classes | append: " mr-[" | append: margin.right | append: "px]" %}
 {% endif %}
 
+{% if ontop %}
+	{% assign classes = classes | append: " relative z-10" %}
+{% endif %}
+
+{% if center %}
+	{% assign classes = classes | append: " mx-auto block" %}
+{% endif %}
+
+{% if rounded %}
+	{% assign classes = classes | append: " rounded-2xl" %}
+{% endif %}
+
+{% if border %}
+	{% assign classes = classes | append: " border" %}
+{% endif %}
+
 <img src="{{ image }}" alt="{{ alt }}" class="{{ classes }}">

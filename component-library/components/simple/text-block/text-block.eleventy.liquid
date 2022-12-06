@@ -4,6 +4,10 @@
 	{% assign classes = classes | append: " text-center" %}
 {% endif %}
 
+{% if center_block %}
+	{% assign classes = classes | append: " mx-auto" %}
+{% endif %}
+
 {% case width %}
 {% when "md" %}
 	{% assign classes = classes | append: " max-w-screen-md" %}
@@ -23,6 +27,8 @@
 {% case size %}
 	{% when 'big' %}
 		{% assign classes = classes | append: " text-2xl" %}
+	{% else %}
+		{% assign classes = classes | append: " text-xl" %}
 	{% endcase %}
 <div class="{{ classes }}">
 	{{ text_html }}
