@@ -12,13 +12,13 @@
 	class="border-2 rounded-lg py-{{py}} px-{{px}} font-bold text-{{text_size}} transition
 	{% case style %}
 	{% when "outline" %}
-		text-cc border-cc hover:bg-cc hover:text-white
+		text-cc border-cc hover:bg-blue-50
 	{% when "outline-white" %}
-		text-white border-white
+		text-white border-white hover:bg-black hover:bg-opacity-10
 	{% when "white" %}
-		text-cc bg-white
+		text-cc bg-white hover:bg-gray-100
 	{% when "normal" %}
-		text-white bg-cc border-cc hover:bg-white hover:text-cc
+		text-white bg-cc border-cc hover:bg-cc_hover
 	{% endcase %}
 	{{ extra_classes }}
 	"

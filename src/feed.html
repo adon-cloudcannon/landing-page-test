@@ -1,0 +1,27 @@
+---
+permalink: "/blog/feed.xml"
+eleventyExcludeFromCollections: true,
+metadata: 
+  title: "CloudCannon Blog"
+  subtitle: "The latest news from CloudCannon"
+  language: "en"
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="https://cloudcannon.com/blog/feed.xml" rel="self"/>
+  {% assign f = collections.posts | reverse | first %} 
+  <updated>{{ f.data.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+  <id>https://cloudcannon.com/blog/</id>
+  {% assign posts = collections.posts | sort: 'date' | reverse %}
+  {%- for post in posts %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="https://cloudcannon.com{{ post.url }}"/>
+    <updated>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+    <id>https://cloudcannon.com{{ post.url }}</id>
+    <content xml:lang="{{ metadata.language }}" type="html">{{ post.data.description }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

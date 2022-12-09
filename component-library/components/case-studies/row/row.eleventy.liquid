@@ -1,5 +1,7 @@
 <div class="flex space-x-4">
-	{% for i in (1..3) %}
-		{% bookshop "case-studies/card" %}
+	{% for o in case_studies %}
+		{% assign uuid = o.case_study %}
+		{% assign case_study = collections.case_studies | where: "data.uuid", uuid | first %}
+		{% bookshop "case-studies/card" case_study: case_study %}
 	{% endfor %}
 </div>

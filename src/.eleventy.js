@@ -28,6 +28,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
 	eleventyConfig.addPassthroughCopy("./images")
 	eleventyConfig.addPassthroughCopy("./fonts")
+	
 
 	eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
 	eleventyConfig.addDataExtension('yml', contents => yaml.load(contents))
@@ -47,5 +48,12 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("excerpt", (post) => {
 		const content = post.replace(/(<([^>]+)>)/gi, "");
 		return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
+	});
+
+	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
+		return collection.filter(post => {
+			let tags = requiredTags.flat().filter(t => t !== 'posts');
+			return tags.some(tag => post.data.tags.includes(tag));
+		});
 	});
 };

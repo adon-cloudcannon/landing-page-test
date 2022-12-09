@@ -1,4 +1,5 @@
 ---
+uuid: 47d61146-7742-11ed-a1eb-0242ac120002
 title: Cubicflow
 description: >-
   Cubicflow removes roadblocks for their clients, with CloudCannon and static sites.

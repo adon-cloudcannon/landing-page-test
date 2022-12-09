@@ -1,4 +1,5 @@
 ---
+uuid: cd195666-7741-11ed-a1eb-0242ac120002
 title: Arid Software
 heading: How Arid Software delivers exceptional websites to their clients
 weight: 9

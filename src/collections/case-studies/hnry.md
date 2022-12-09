@@ -1,4 +1,5 @@
 ---
+uuid: e1b72b3a-7745-11ed-a1eb-0242ac120002
 title: Hnry
 heading: How Hnry keeps their marketing site a step ahead of the competition
 weight: 4

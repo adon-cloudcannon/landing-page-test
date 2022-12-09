@@ -1,4 +1,5 @@
 ---
+uuid: ee337cd8-7745-11ed-a1eb-0242ac120002
 title: Netflix
 heading: 'Simplicity, speed, seamless translation and more: the Netflix story'
 description: >-

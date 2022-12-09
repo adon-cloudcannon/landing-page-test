@@ -1,4 +1,5 @@
 ---
+uuid: f913ad94-7745-11ed-a1eb-0242ac120002
 title: The New Dynamic
 heading: The New Dynamic chooses a better editing experience for their clients
 description: >-
