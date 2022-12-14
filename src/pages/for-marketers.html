@@ -8,10 +8,12 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 130
       - _bookshop_name: simple/heading
-        text: Launch your best ideas, with confidence
-        size: hero
-        align: center
-        width: tight
+        content:
+          text: Launch your best ideas, with confidence
+        styles:
+          size: hero
+          align: center
+          width: tight
       - _bookshop_name: simple/spacer
         size: 35
       - _bookshop_name: simple/sub-heading
@@ -48,9 +50,11 @@ content_blocks:
         right:
           blocks:
             - _bookshop_name: simple/heading
-              size: h3
-              text: See your changes instantly, with visual editing
-              align: left
+              content:
+                text: See your changes instantly, with visual editing
+              stlyes:
+                size: h3
+                align: left
             - _bookshop_name: simple/spacer
               size: 20
             - _bookshop_name: simple/text-block
@@ -72,9 +76,11 @@ content_blocks:
         left:
           blocks:
           - _bookshop_name: simple/heading
-            size: h3
-            text: Review and approve, with the whole team
-            align: left
+            content:
+              text: Review and approve, with the whole team
+            styles:
+              size: h3
+              align: left
           - _bookshop_name: simple/spacer
             size: 20
           - _bookshop_name: simple/text-block
@@ -110,9 +116,11 @@ content_blocks:
         right:
           blocks:
             - _bookshop_name: simple/heading
-              size: h3
-              text: The power to publish
-              align: left
+              content:
+                text: The power to publish
+              styles:
+                size: h3
+                align: left
             - _bookshop_name: simple/spacer
               size: 20
             - _bookshop_name: simple/text-block
@@ -126,9 +134,11 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 80
       - _bookshop_name: simple/heading
-        size: h3
-        text: Version Control
-        align: center
+        content:
+          text: Version Control
+        styles:
+          size: h3
+          align: center
       - _bookshop_name: simple/spacer
         size: 50
       - _bookshop_name: simple/image
@@ -181,10 +191,12 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 100
       - _bookshop_name: simple/heading
-        size: h3
-        text: Optimized for performance, SEO & Social
-        align: center
-        width: tight
+        content:
+          text: Optimized for performance, SEO & Social
+        styles:
+          size: h3
+          align: center
+          width: tight
       - _bookshop_name: simple/spacer
         size: 50
       - _bookshop_name: sections/container
@@ -236,10 +248,12 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 180
       - _bookshop_name: simple/heading
-        text: Get started with CloudCannon
-        size: h2
-        color: white
-        align: center
+        content:
+          text: Get started with CloudCannon
+        styles:
+          size: h2
+          color: white
+          align: center
       - _bookshop_name: simple/spacer
         size: 30
       - _bookshop_name: simple/text-block
@@ -251,15 +265,21 @@ content_blocks:
       - _bookshop_name: simple/button_holder
         button_blocks:
           - _bookshop_name: simple/button
-            text: Try for free
-            link: '/'
-            style: white
-            size: big
+            content:
+              text: Try for free
+              link: '/'
+            styles:
+              style: white
+              size: big
+              extra_classes:
           - _bookshop_name: simple/button
-            text: Contact us
-            link: '/'
-            style: outline-white
-            size: big
+            content:
+              text: Contact us
+              link: '/'
+            styles:
+              style: outline-white
+              size: big
+              extra_classes:
       - _bookshop_name: simple/spacer
         size: 140
 

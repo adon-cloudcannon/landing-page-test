@@ -1,9 +1,14 @@
 login:
-  text: Log in
-  link: /
-  style: outline
+  content:
+    text: Log in
+    link: /
+  styles:
+    style: outline
+    extra_classes:
 signup:
-  text: Get started
-  link: /
-  style: normal
-  extra_classes: "ml-1"
+  content:
+    text: Get started
+    link: /
+  styles:
+    style: normal
+    extra_classes: "ml-1"

@@ -8,10 +8,12 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 130
       - _bookshop_name: simple/heading
-        text: Your team. In sync.
-        size: hero
-        align: center
-        width: tight
+        content:
+          text: Your team. In sync.
+        styles:
+          size: hero
+          align: center
+          width: tight
       - _bookshop_name: simple/spacer
         size: 35
       - _bookshop_name: simple/sub-heading
@@ -20,10 +22,13 @@ content_blocks:
       - _bookshop_name: simple/button_holder
         button_blocks:
           - _bookshop_name: simple/button
-            text: Try for free
-            link: '/'
-            style: normal
-            size: big
+            content:
+              text: Try for free
+              link: '/'
+            styles:
+              style: normal
+              size: big
+              extra_classes:
       - _bookshop_name: simple/spacer
         size: 100
   - _bookshop_name: video
@@ -57,10 +62,12 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 85
       - _bookshop_name: simple/heading
-        text: Everyone on the same page
-        size: h2
-        align: center
-        width: tight
+        content:
+          text: Everyone on the same page
+        styles:
+          size: h2
+          align: center
+          width: tight
       - _bookshop_name: simple/spacer
         size: 25
       - _bookshop_name: simple/sub-heading
@@ -103,9 +110,12 @@ content_blocks:
         left:
           blocks:
             - _bookshop_name: simple/emoji-heading
-              emoji: 👋
-              sub_title: Content editors
-              title: Publish without bugging a developer
+              content:
+                emoji: 👋
+                sub_title: Content editors
+                title: Publish without bugging a developer
+              styles:
+                center_text: false
             - _bookshop_name: simple/text-block
               text_html: "<ul><li>Build pages visually with your on brand custom components</li><li>Share and review changes on a fully functioning preview site</li><li>Publish content live with the push of a button</li></ul>"
         right:
@@ -132,10 +142,12 @@ content_blocks:
           - _bookshop_name: simple/spacer
             size: 195
           - _bookshop_name: simple/emoji-heading
-            emoji: 👋
-            sub_title: Developers
-            title: Your code. Your components.
-            center_text: true
+            content:
+              emoji: 👋
+              sub_title: Developers
+              title: Your code. Your components.
+            styles:
+              center_text: true
           - _bookshop_name: simple/text-block
             text_html: "<p>Focus on building custom components rather than hand holding editors through content changes. Build locally with your favorite tools and frameworks, then sync changes to content editors with a Git push.</p>"
             center_text: true
@@ -270,9 +282,12 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 100
       - _bookshop_name: simple/emoji-heading
-        emoji: 
-        sub_title: Happy developers + Happy editors =
-        title: Websites you’re proud of
+        content:
+          emoji:
+          sub_title: Happy developers + Happy editors =
+          title: Websites you’re proud of
+        styles:
+          center_text: false
       - _bookshop_name: case-studies/row
         case_studies:
           - case_study: ee337cd8-7745-11ed-a1eb-0242ac120002
@@ -287,11 +302,13 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 180
       - _bookshop_name: simple/heading
-        text: Get started with CloudCannon
-        size: h2
-        color: white
-        align: center
-        width: tight
+        content:
+          text: Get started with CloudCannon
+        styles:
+          size: h2
+          color: white
+          align: center
+          width: tight
       - _bookshop_name: simple/spacer
         size: 30
       - _bookshop_name: simple/text-block
@@ -303,15 +320,21 @@ content_blocks:
       - _bookshop_name: simple/button_holder
         button_blocks:
           - _bookshop_name: simple/button
-            text: Try for free
-            link: '/'
-            style: white
-            size: big
+            content:
+              text: Try for free
+              link: '/'
+            styles:
+              style: white
+              size: big
+              extra_classes:
           - _bookshop_name: simple/button
-            text: Contact us
-            link: '/'
-            style: outline-white
-            size: big
+            content:
+              text: Contact us
+              link: '/'
+            styles:
+              style: outline-white
+              size: big
+              extra_classes:
       - _bookshop_name: simple/spacer
         size: 140
 

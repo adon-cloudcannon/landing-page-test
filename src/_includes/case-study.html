@@ -7,10 +7,12 @@ eleventyComputed:
         - _bookshop_name: simple/spacer
           size: 100
         - _bookshop_name: simple/heading
-          text: "{{ heading }}"
-          size: h2
-          align: center
-          width: tight
+          content:
+            text: "{{ heading }}"
+          styles:
+            size: h2
+            align: center
+            width: tight
         - _bookshop_name: simple/spacer
           size: 35
         - _bookshop_name: simple/sub-heading

@@ -1,9 +1,17 @@
 ---
 layout: page.html
+eleventyComputed:
+  heading:
+    content:
+      text: {{ title }}
+    styles:
+      size: "h2"
+      width: "tight"
+      align: "center"
 ---
 
 {% bookshop "simple/spacer" size:100 %}
-{% bookshop "simple/heading" align:"center" text:title size:"h2" width:"tight" %}
+{% bookshop "simple/heading" bind:heading %}
 {% bookshop "simple/spacer" size:35 %}
 {% bookshop "simple/sub-heading" text:description size:"big" %}
 {% bookshop "simple/spacer" size:30 %}

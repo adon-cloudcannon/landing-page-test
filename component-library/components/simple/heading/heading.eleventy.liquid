@@ -1,6 +1,6 @@
 {% assign el = "h4" %}
 {% assign classes = " leading-tight" %}
-{% case size %}
+{% case styles.size %}
 {% when 'hero' %}
 	{% assign el = "h1" %}
 	{% assign classes = classes | append: " text-7xl" %}
@@ -12,20 +12,20 @@
 	{% assign classes = classes | append: " text-4xl" %}
 {% endcase %}
 
-{% case color %}
+{% case styles.color %}
 {% when 'white' %}
 	{% assign classes = classes | append: " text-white" %}
 {% endcase %}
 
-{% case align %}
+{% case styles.align %}
 {% when 'left' %}
 {% when 'center' %}
 	{% assign classes = classes | append: " text-center" %}
 {% endcase %}
 
 
-{% case width %}
+{% case styles.width %}
 {% when 'tight' %}
 	{% assign classes = classes | append: " max-w-screen-md mx-auto" %}
 {% endcase %}
-<{{ el }} class="{{ classes }} font-bold">{{ text }}</{{ el }}>
+<{{ el }} class="{{ classes }} font-bold">{{ content.text }}</{{ el }}>

@@ -12,7 +12,7 @@
 							{% assign icon_path = "/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
 							<span class="w-6 relative block transition [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
 							<div class="flex-1 pl-4">
-								<div class="text-base font-semibold">
+								<div class="text-base font-semibold {% if sub_item.link == '' %}line-through{% endif %}">
 									{{ sub_item.name }}
 									<span class="w-4 inline-block">
 										<span class="hidden translate-y-1 transition group-hover:translate-x-1 group-hover:inline-block w-full">

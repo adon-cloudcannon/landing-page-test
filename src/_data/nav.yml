@@ -101,13 +101,13 @@
             description: "Sharing the knowledge"
             icon: 'microphone'
           - name: Templates
-            link: '/templates/'
+            link: ''
             description: "Learn CloudCannon"
             icon: 'puzzle-piece'
       - title: "Partners"
         sub_nav:
           - name: Partner Program
-            link: 
+            link: ''
             description: "Why companies choose CloudCannon"
             icon: 'briefcase'
           - name: Expert Directory
