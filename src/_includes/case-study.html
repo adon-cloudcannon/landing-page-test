@@ -16,8 +16,10 @@ eleventyComputed:
         - _bookshop_name: simple/spacer
           size: 35
         - _bookshop_name: simple/sub-heading
-          text: "{{ description }}"
-          size: big
+          content:
+            text: "{{ description }}"
+          styles:
+            size: big
         - _bookshop_name: simple/spacer
           size: 35
         - _bookshop_name: simple/case-study-person

@@ -7,20 +7,25 @@ eleventyComputed:
         - _bookshop_name: simple/spacer
           size: 100
         - _bookshop_name: simple/icon-image
-          image: "/images/icons/ecosystem/{{ short_title | downcase | replace: ' ', '-' }}.svg"
-          alt: short_title
+          content:
+            image: "/images/icons/ecosystem/{{ short_title | downcase | replace: ' ', '-' }}.svg"
+            alt: short_title
         - _bookshop_name: simple/spacer
           size: 30
         - _bookshop_name: simple/heading
-          text: "{{ short_title }}"
-          size: hero
-          align: center
-          width: tight
+          content:
+            text: "{{ short_title }}"
+          styles:
+            size: hero
+            align: center
+            width: tight
         - _bookshop_name: simple/spacer
           size: 35
         - _bookshop_name: simple/sub-heading
-          text: "{{ description }}"
-          size: big
+          content:
+            text: "{{ description }}"
+          styles:
+            size: big
         - _bookshop_name: simple/spacer
           size: 80 
 ---

@@ -1,0 +1,18 @@
+jekyll:
+  collection_variables: https://jekyllrb.com/docs/collections/
+  document_variables: https://jekyllrb.com/docs/collections/
+  global_variables: https://jekyllrb.com/docs/variables/
+  liquid_filters_-_date: https://shopify.github.io/liquid/filters/date/
+  liquid_filters_-_string: https://shopify.github.io/liquid/
+  liquid_filters_-_array: https://shopify.github.io/liquid/
+  liquid_for_loops: https://shopify.github.io/liquid/tags/iteration/
+  liquid_tags_-_control_flow: https://shopify.github.io/liquid/tags/control-flow/
+  liquid_tags_-_iteration: https://shopify.github.io/liquid/tags/iteration/
+  liquid_tags_-_variable: https://shopify.github.io/liquid/tags/variable/
+  liquid_tags_-_other: https://shopify.github.io/liquid/
+  markdown: https://kramdown.gettalong.org/syntax.html
+  page_variables: https://jekyllrb.com/docs/variables/
+  post_variables: https://jekyllrb.com/docs/variables/
+  site_variables: https://jekyllrb.com/docs/variables/
+  static_file_variables: https://jekyllrb.com/docs/static-files/
+  yaml: https://lzone.de/cheat-sheet/YAML

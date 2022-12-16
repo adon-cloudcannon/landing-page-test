@@ -4,6 +4,7 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			pluginBookshop = require("@bookshop/eleventy-bookshop"),
 			{ DateTime } = require("luxon"),
 			markdownIt = require("markdown-it"),
+			markdownItRenderer = new markdownIt(),
 			syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"),
 			mila = require("markdown-it-link-attributes");
 
@@ -55,5 +56,9 @@ module.exports = function (eleventyConfig) {
 			let tags = requiredTags.flat().filter(t => t !== 'posts');
 			return tags.some(tag => post.data.tags.includes(tag));
 		});
+	});
+
+	eleventyConfig.addFilter('markdownify', (str) => {
+		return markdownItRenderer.renderInline(str);
 	});
 };

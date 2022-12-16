@@ -1,11 +1,11 @@
 <div class="
-	{% if left %}
-		left-[{{ left }}%]
-	{% elsif right %}
-		right-[{{ right }}%]
+	{% if styles.left %}
+		left-[{{ styles.left }}%]
+	{% elsif styles.right %}
+		right-[{{ styles.right }}%]
 	{% endif %}
 
-	{% case shape %}
+	{% case styles.shape %}
 	{% when 'circle' %}
 		before:rounded-full
 		w-[110px]
@@ -14,26 +14,26 @@
 		before:rounded-lg
 		h-[80px]
 	{% endcase %}
-	inline-block  absolute top-[{{ top }}%]  rotate-[{{ rotate }}deg]
+	inline-block  absolute top-[{{ styles.top }}%]  rotate-[{{ styles.rotate }}deg]
 	before:w-24 before:bg-white/20 before:h-24 before:block before:h-full before:w-full
 	before:border-white before:border before:border-dashed before:absolute">
 	<div class="
-		{% case shape %}
+		{% case styles.shape %}
 		{% when 'circle' %}
 			rounded-full
 		{% else %}
 			rounded-lg
 		{% endcase %}
 
-		{% if logo.padding %}
+		{% if styles.logo.padding %}
 			{% if logo.padding.y %}
-				py-[{{ logo.padding.y }}px]
+				py-[{{ styles.logo.padding.y }}px]
 			{% else %}
 				py-4
 			{% endif %}
 
-			{% if logo.padding.x %}
-				px-[{{ logo.padding.x }}px]
+			{% if styles.logo.padding.x %}
+				px-[{{ styles.logo.padding.x }}px]
 			{% else %}
 				px-2
 			{% endif %}
@@ -41,22 +41,22 @@
 			py-4 px-2
 		{% endif %}
 
-		{% if logo.height %}
-			[&>svg]:h-[{{ logo.height }}%]
+		{% if styles.logo.height %}
+			[&>svg]:h-[{{ styles.logo.height }}%]
 		{% endif %}
 
-		{% if logo.translate.y %}
-			[&>svg]:translate-y-[{{ logo.translate.y }}px]
+		{% if styles.logo.translate.y %}
+			[&>svg]:translate-y-[{{ styles.logo.translate.y }}px]
 		{% endif %}
 
-		{% if logo.scale %}
-			[&>svg]:scale-[{{ logo.scale }}]
+		{% if styles.logo.scale %}
+			[&>svg]:scale-[{{ styles.logo.scale }}]
 		{% endif %}
 
 		bg-white drop-shadow-2xl relative h-full flex items-center
-		translate-x-[{{ shift.x }}px] translate-y-[{{ shift.y }}px] 
+		translate-x-[{{ shift.x }}px] translate-y-[{{ styles.shift.y }}px] 
 		[&>svg]:h-full [&>svg]:w-full">
-		{% assign image = logo.image %}
+		{% assign image = content.image %}
 		{% unless image %}
 			{% assign image = '/images/logos/netflix.svg' %}
 		{% endunless %}

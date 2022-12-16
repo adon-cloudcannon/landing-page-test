@@ -17,15 +17,19 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 35
       - _bookshop_name: simple/sub-heading
-        text: "The CMS that transforms your team’s content workflow."
-        size: big
+        content:
+          text: "The CMS that transforms your team’s content workflow."
+        styles:
+          size: big
       - _bookshop_name: simple/spacer
         size: 80
       - _bookshop_name: simple/image
-        alt: "Screenshot of editing text on CloudCannon"
-        image: /images/page/marketer-hero.png
-        ontop: true
-        center: true
+        content:
+          alt: "Screenshot of editing text on CloudCannon"
+          image: /images/page/marketer-hero.png
+        styles:
+          ontop: true
+          center: true
   - _bookshop_name: sections/container
     background: caramel
     rounded: top
@@ -43,10 +47,12 @@ content_blocks:
         left:
           blocks:
             - _bookshop_name: simple/image
-              alt: "Screenshot showing visual editing in CloudCannon"
-              image: /images/page/visual-editing.png
-              rounded: true
-              border: true
+              content:
+                alt: "Screenshot showing visual editing in CloudCannon"
+                image: /images/page/visual-editing.png
+              styles:
+                rounded: true
+                border: true
         right:
           blocks:
             - _bookshop_name: simple/heading
@@ -56,7 +62,8 @@ content_blocks:
             - _bookshop_name: simple/spacer
               size: 20
             - _bookshop_name: simple/text-block
-              text_html: "The visual editor gives you a preview of your page while you make changes, so you can see what it will look like when you’re ready to go live."
+              content:
+                text_html: "The visual editor gives you a preview of your page while you make changes, so you can see what it will look like when you’re ready to go live."
       - _bookshop_name: simple/spacer
         size: 130
   - _bookshop_name: sections/container
@@ -82,14 +89,17 @@ content_blocks:
           - _bookshop_name: simple/spacer
             size: 20
           - _bookshop_name: simple/text-block
-            text_html: "Review your content with a preview site that’s just like the real thing. Share it with your team to gather feedback and approvals."
+            content:
+              text_html: "Review your content with a preview site that’s just like the real thing. Share it with your team to gather feedback and approvals."
         right:
           blocks:
             - _bookshop_name: simple/image
-              alt: "Screenshot showing reviewing editings in CloudCannon"
-              image: /images/page/marketer-review.png
-              rounded: false
-              border: false
+              content:
+                alt: "Screenshot showing reviewing editings in CloudCannon"
+                image: /images/page/marketer-review.png
+              styles:
+                rounded: false
+                border: false
   - _bookshop_name: simple/spacer
     size: 100
   - _bookshop_name: sections/container
@@ -107,10 +117,12 @@ content_blocks:
         left:
           blocks:
             - _bookshop_name: simple/image
-              alt: "Screenshot showing content publishing in CloudCannon"
-              image: /images/page/marketer-publish.png
-              rounded: false
-              border: false
+              content:
+                alt: "Screenshot showing content publishing in CloudCannon"
+                image: /images/page/marketer-publish.png
+              styles:
+                rounded: false
+                border: false
         right:
           blocks:
             - _bookshop_name: simple/heading
@@ -122,7 +134,8 @@ content_blocks:
             - _bookshop_name: simple/spacer
               size: 20
             - _bookshop_name: simple/text-block
-              text_html: "No need to wait on a developer to go live, once you and your team are happy with the changes, just push publish and watch your new site go live."
+              content:
+                text_html: "No need to wait on a developer to go live, once you and your team are happy with the changes, just push publish and watch your new site go live."
       - _bookshop_name: simple/spacer
         size: 180
   - _bookshop_name: sections/container
@@ -138,20 +151,24 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 50
       - _bookshop_name: simple/image
-        alt: "Screenshot showing version control workflow in CloudCannon"
-        image: /images/page/marketer-version-control.png
-        rounded: false
-        border: false
+        content:
+          alt: "Screenshot showing version control workflow in CloudCannon"
+          image: /images/page/marketer-version-control.png
+        styles:
+          rounded: false
+          border: false
       - _bookshop_name: simple/spacer
         size: 50
       - _bookshop_name: simple/text-block
-        color: white
-        width: md
-        center_text: true
-        center_block: true
-        text_html: "<p>Everyone in your team can work on their own separate version of the site, when their content is ready - just publish it to the live site.<br><br> 
+        content:
+          text_html: "<p>Everyone in your team can work on their own separate version of the site, when their content is ready - just publish it to the live site.<br><br> 
 
-        That means, Content writer Kelly can write her new blog post, while Editor Evan can change a headline on a landing page — all without interfering with each other.</p>"
+          That means, Content writer Kelly can write her new blog post, while Editor Evan can change a headline on a landing page — all without interfering with each other.</p>"
+        styles:
+          color: white
+          width: md
+          center_text: true
+          center_block: true
       - _bookshop_name: simple/spacer
         size: 120
   - _bookshop_name: sections/container
@@ -169,10 +186,12 @@ content_blocks:
         left:
           blocks:
             - _bookshop_name: simple/image
-              alt: "Screenshot showing website building in CloudCannon"
-              image: /images/page/marketer-builder.png
-              rounded: false
-              border: false
+              content:
+                alt: "Screenshot showing website building in CloudCannon"
+                image: /images/page/marketer-builder.png
+              styles:
+                rounded: false
+                border: false
         right:
           blocks:
             - _bookshop_name: simple/heading
@@ -184,8 +203,9 @@ content_blocks:
             - _bookshop_name: simple/spacer
               size: 20
             - _bookshop_name: simple/text-block
-              text_html: "Collaborate with your design & development team to design and build components that are ready to go. <br><br>
-              When you need a new landing page, just use your designed components to put the page together."
+              content:
+                text_html: "Collaborate with your design & development team to design and build components that are ready to go. <br><br>
+                When you need a new landing page, just use your designed components to put the page together."
       - _bookshop_name: simple/spacer
         size: 100
       - _bookshop_name: simple/heading
@@ -221,8 +241,10 @@ content_blocks:
               - _bookshop_name: simple/spacer
                 size: 20
               - _bookshop_name: simple/text-block
-                text_html: "We've got a range of resources to help you every step of the way."
-                color: white
+                content:
+                  text_html: "We've got a range of resources to help you every step of the way."
+                styles:
+                  color: white
             right:
               blocks:
                 - _bookshop_name: simple/content-button
@@ -257,11 +279,13 @@ content_blocks:
       - _bookshop_name: simple/spacer
         size: 30
       - _bookshop_name: simple/text-block
-        text_html: Try out CloudCannon with a 14-day free trial, or get in touch with us for a demo.
-        size: big
-        color: gray
-        center_text: true
-        width: md
+        content:
+          text_html: Try out CloudCannon with a 14-day free trial, or get in touch with us for a demo.
+        styles:
+          size: big
+          color: gray
+          center_text: true
+          width: md
       - _bookshop_name: simple/button_holder
         button_blocks:
           - _bookshop_name: simple/button

@@ -49,7 +49,7 @@ a {
 	);
 }
 
-.prose pre[class*="language-"] {
+.prose-xl pre[class*="language-"] {
 	margin: 10px -9rem;
 }
 

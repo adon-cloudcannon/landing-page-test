@@ -31,8 +31,10 @@ eleventyComputed:
         - _bookshop_name: simple/spacer
           size: 35
         - _bookshop_name: simple/sub-heading
-          text: "Go back and <a href='/blog/' class='text-cc hover:underline'>view all posts</a>."
-          size: big
+          content:
+            text: "Go back and <a href='/blog/' class='text-cc hover:underline'>view all posts</a>."
+          styles:
+            size: big
         - _bookshop_name: simple/spacer
           size: 120
 permalink: /blog/tags/{{ tag | slugify }}/

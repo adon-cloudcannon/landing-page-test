@@ -75,7 +75,7 @@
             description: "Learn Jamstack"
             icon: 'academic-cap'
           - name: Cheatsheets
-            link: ''
+            link: '/community/cheat-sheets/jekyll/'
             description: "Get help"
             icon: 'check-badge'
           - name: Jamstack ecosystem
