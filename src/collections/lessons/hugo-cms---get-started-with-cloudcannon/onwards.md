@@ -2,12 +2,12 @@
 title: Onwards
 image:
 lead_score: 2
-order: '6'
+order: 6
 tutorial: hugo-cms---get-started-with-cloudcannon
 description: Final words.
 ---
 
-{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:true %}
+{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:false %}
 
 
 ## Hosting

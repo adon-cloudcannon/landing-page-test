@@ -6,7 +6,7 @@ tutorial: hugo-beginner-tutorial
 order: 1
 description: Get Hugo set up and installed for the rest of the lessons.
 ---
-{% bookshop "markdown/youtube" id:"SVvihs0WfhQ" title:"Getting set up in Hugo" extend:true %}
+{% bookshop "markdown/youtube" id:"SVvihs0WfhQ" title:"Getting set up in Hugo" extend:false %}
 
 Welcome to this introduction to Hugo tutorial. The goal of this series is to take you from a lion cub with basic web design knowledge to creating your first Hugo website. In this series you’ll learn how to set up a Hugo site, the basics of usingHugo layouts, partials, and templating, set up a blog, and finally use data files. By the end of this series you’ll have the foundational knowledge to build your own Hugo sites.
 

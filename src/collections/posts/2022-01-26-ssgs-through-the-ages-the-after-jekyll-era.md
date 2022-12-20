@@ -3,8 +3,7 @@ title: 'The ‘After Jekyll’ era'
 description: >-
   The 'After Jekyll' Era: part 2 of a series exploring the innovative history of
   static site generators.
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-2-after-jekyll/
 image: /uploads/explorer-2.png
 date: 2022-01-26T05:00:00+1300

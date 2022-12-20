@@ -4,8 +4,7 @@ description: >-
   The fifth part of an ongoing series: After a period of heavy, complex
   JavaScripts integrated into SSGs, we return to simpler times. And what could
   be simpler than straight HTML templates with Markdown content?
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-5-maybe-static-wasnt-so-bad/
 image: /uploads/explorer-5.png
 date: 2022-02-16T05:00:00.000Z

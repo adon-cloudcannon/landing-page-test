@@ -1,7 +1,7 @@
 ---
 title: Hugo SEO Best Practices
 image: /uploads/tutorial-social-image-seo.png
-order: '1'
+order: 1
 tutorial: hugo-seo-best-practices-1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Components
 image:
-order: '6'
+order: 6
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Set up and get two components working with Bookshop, end-to-end.

@@ -4,8 +4,7 @@ description: >-
   Part 7 of an ongoing series: With modern tooling and the knowledge of better
   ways of implementing SSGs, the rebirth era sees reincarnations of several
   older SSGs with modern ideas.
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-7-rebirth/
 image: /uploads/explorer-7.png
 date: 2022-03-02T05:00:00.000Z

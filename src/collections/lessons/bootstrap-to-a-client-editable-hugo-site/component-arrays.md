@@ -1,7 +1,7 @@
 ---
 title: Component Arrays
 image: 
-order: '7'
+order: 7
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-

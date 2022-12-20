@@ -1,7 +1,7 @@
 ---
 title: Layouts in Eleventy
 image: https://dam-cdn.cloudcannon.com/eleventy-beginner-tutorial-2-layouts.png
-order: '2'
+order: 2
 tutorial: eleventy-beginner-guide
 description: >-
   Learn how layouts help you set up and reuse the main structure of your

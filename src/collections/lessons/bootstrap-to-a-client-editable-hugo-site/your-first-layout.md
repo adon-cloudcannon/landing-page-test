@@ -1,7 +1,7 @@
 ---
 title: Your first layout
 image: 
-order: '2'
+order: 2
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Set up your first layout to set the overall look and feel of the site.

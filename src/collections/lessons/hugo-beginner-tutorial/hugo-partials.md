@@ -8,7 +8,7 @@ description: |-
     partials in this Hugo tutorial.
 ---
 
-{% bookshop "markdown/youtube" id:"EGwLmE7hfSE" title:"Hugo Partials" extend:true %}
+{% bookshop "markdown/youtube" id:"EGwLmE7hfSE" title:"Hugo Partials" extend:false %}
 
 The idea behind a partial is simple: it’s a file that can be included into a layout to reduce repetition or simply hide some complexity. You’ll add a nav bar to your site with a partial. While you could add this logic directly to your `baseof.html`, sometimes it’s nice to split a layout up into smaller partials so you don’t need to deal with a 2000-line file.
 

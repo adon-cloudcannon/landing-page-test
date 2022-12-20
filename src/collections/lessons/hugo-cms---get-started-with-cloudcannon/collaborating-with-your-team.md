@@ -2,12 +2,12 @@
 title: Collaborating with your team
 image: 
 lead_score: 2
-order: '5'
+order: 5
 tutorial: hugo-cms---get-started-with-cloudcannon
 description: An overview of collaborating with your team using CloudCannon.
 ---
 
-{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:true %}
+{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:false %}
 
 You can give your team access to update the website by sharing it with them. There are multiple types and levels of sharing:
 

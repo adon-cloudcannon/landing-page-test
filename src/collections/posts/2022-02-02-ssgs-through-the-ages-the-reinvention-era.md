@@ -3,8 +3,7 @@ title: The ‘Reinvention’ era'
 description: >-
   The third part of an ongoing series: the reinvention period sees a flurry of
   static site generators challenging some of Jekyll's underlying foundations.
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-3-reinvention/
 image: /uploads/Explorer-3.jpg
 date: 2022-02-02T05:00:00.000Z

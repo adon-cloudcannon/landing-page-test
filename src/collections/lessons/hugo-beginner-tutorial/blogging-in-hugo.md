@@ -8,7 +8,7 @@ description: |-
     and layouts.
 ---
 
-{% bookshop "markdown/youtube" id:"fa-hCPDy0Rg" title:"Blogging in Hugo" extend:true %}
+{% bookshop "markdown/youtube" id:"fa-hCPDy0Rg" title:"Blogging in Hugo" extend:false %}
 
 A blog in Hugo is relatively straightforward. It consists of a page that lists all the blog posts, and a series of content pages with a date for the posts. That’s all there is to it.
 

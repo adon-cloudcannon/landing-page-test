@@ -5,7 +5,7 @@
 			{% assign post = posts[0] %}
 			<div class="grid grid-cols-2 gap-12 mb-16">
 				<a href="{{ post.url }}" class="group">
-					<img alt="{{ post.data.title }}" class="transition group-hover:opacity-80 object-cover object-center rounded-xl w-full h-full" loading="lazy" src="{{ post.data.image }}">
+					<img alt="{{ post.data.title }}" class="transition group-hover:opacity-80 group-hover:scale-105 object-cover object-center rounded-xl w-full h-full" loading="lazy" src="{{ post.data.image }}">
 				</a>
 				<div>
 					<div class="text-gray-400">
@@ -43,7 +43,7 @@
 		{% for post in posts offset:offset %}
 		<div>
 			<a href="{{ post.url }}" class="group">
-				<img alt="{{ post.data.title }}" class="transition rounded-lg group-hover:opacity-80 h-[250px] object-center object-cover w-full" loading="lazy" src="{{ post.data.image }}">
+				<img alt="{{ post.data.title }}" class="transition rounded-lg group-hover:opacity-80 group-hover:scale-105 h-[250px] object-center object-cover w-full" loading="lazy" src="{{ post.data.image }}">
 			</a>
 			<div class="text-gray-400 mt-2">
 				{% for tag in post.data.tags %}

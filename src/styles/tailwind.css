@@ -49,10 +49,6 @@ a {
 	);
 }
 
-.prose-xl pre[class*="language-"] {
-	margin: 10px -9rem;
-}
-
 pre[class*="language-"] .table {
 	display: initial;
 }

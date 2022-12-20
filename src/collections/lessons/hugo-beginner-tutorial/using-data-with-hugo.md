@@ -8,7 +8,7 @@ description: |-
     data in this Hugo tutorial.
 ---
 
-{% bookshop "markdown/youtube" id:"SrlKh5Teu6Q" title:"Hugo Data files" extend:true %}
+{% bookshop "markdown/youtube" id:"SrlKh5Teu6Q" title:"Hugo Data files" extend:false %}
 
 A data file in Hugo is sort of like a read-only database. The way it works is you can put JSON, CSV, YAML, XML, or TOML files in a directory called `data`, then access that data in a layout using `.Site.Data`. You can also download JSON or CSV files from an external source on build if you want to get fancy.
 

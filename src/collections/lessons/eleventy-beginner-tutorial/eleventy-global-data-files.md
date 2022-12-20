@@ -2,7 +2,7 @@
 title: Eleventy global data files
 image: >-
   https://dam-cdn.cloudcannon.com/eleventy-beginner-tutorial-6-global-data-files.png
-order: '6'
+order: 6
 tutorial: eleventy-beginner-guide
 description: Learn how to use a global data file to populate a map on your Eleventy site.
 ---

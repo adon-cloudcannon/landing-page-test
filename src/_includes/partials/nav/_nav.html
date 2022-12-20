@@ -1,4 +1,4 @@
-<header class="md:container mt-8 mb-2 flex">
+<header class="md:container my-4 flex items-center">
 	<div class="flex-1">
 		<a href="/" class="w-56 block transition delay-100 [&>svg>path]:hover:fill-cc_hover">
 			{{ '/images/cc-logo.svg' | svgContents }}
@@ -10,7 +10,7 @@
 			{% include 'partials/nav/_nav_item.html' item:item %}
 		{% endfor %}
 	</nav>
-	<div class="ml-4 -mt-2 inline-block">
+	<div class="ml-4 flex">
 		<a href="" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
 			{{ '/images/icons/outline/magnifying-glass.svg' | svgContents }}
 		</a>

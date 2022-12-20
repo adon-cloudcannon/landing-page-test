@@ -2,12 +2,12 @@
 title: A tour of CloudCannon
 lead_score: 2
 image: https://dam-cdn.cloudcannon.com/community/Tutorial+social+image.png
-order: '2'
+order: 2
 tutorial: hugo-cms---get-started-with-cloudcannon
 description: A brief tour of the pages and features on CloudCannon.
 ---
 
-{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:true %}
+{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:false %}
 
 Let’s go through a brief tour of CloudCannon to help you get the most value out of it.
 

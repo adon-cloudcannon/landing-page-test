@@ -1,8 +1,7 @@
 ---
 title: The 'Let's Recreate Rails' era
 description: "The sixth part of an ongoing series: In 2019, developers of static site generators ask the inevitable question —\_why don't we create full-stack applications in one framework?"
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-6-lets-recreate-rails/
 image: /uploads/explorer-6.png
 date: 2022-02-23T05:00:00.000Z

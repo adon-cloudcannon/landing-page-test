@@ -1,7 +1,7 @@
 ---
 title: Blogging in SvelteKit
 image: https://dam-cdn.cloudcannon.com/tutorial-sveltekit.png
-order: '5'
+order: 5
 tutorial: sveltekit-beginner-tutorial-series
 description: >-
   In this tutorial you will learn how to create a blog with SvelteKit content

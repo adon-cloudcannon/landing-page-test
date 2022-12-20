@@ -1,0 +1,26 @@
+<div class="mx-auto border-y border-gray-300 py-2">
+	<h4 class="text-xl mb-2">Lessons in this Tutorial</h4>
+	{% assign tutorial_linked = collections.tutorials | where: "fileSlug", tutorial | first %}
+	<p class="uppercase text-gray-400 mb-3 text-base">{{ tutorial_linked.data.title }}</p>
+	<ol class="list-decimal pl-4">
+		{% assign lessons = collections.lessons | where: "data.tutorial", tutorial_linked.fileSlug | sort: "data.order" %}
+		{% for lesson in lessons %}
+			{% assign count = count | plus: 1 %}
+			<li class=" text-gray-700 pb-2 last:pb0">
+				{% if lesson.url != page.url %}
+					<a href="{{ lesson.url }}" class="text-cc hover:text-cc_hover hover:underline">
+				{% else %}
+					<span class="italic">
+				{% endif %}
+					{{ lesson.data.title }}
+				{% if lesson.url != page.url %}
+					</a>
+				{% else %}
+					</span>
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ol>
+</div>
+
+

@@ -1,7 +1,7 @@
 ---
 title: Hugo and Remote Data Files
 image: https://dam-cdn.cloudcannon.com/Tutorial social image remote data files.png
-order: '1'
+order: 1
 tutorial: hugo-and-remote-data-files
 description: Learn how to use getJSON or getCSV to get remote data with Hugo.
 ---

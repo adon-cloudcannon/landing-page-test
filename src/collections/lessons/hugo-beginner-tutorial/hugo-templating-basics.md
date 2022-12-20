@@ -9,7 +9,7 @@ description: |-
     site.
 ---
 
-{% bookshop "markdown/youtube" id:"iDAWQHSH5fE" title:"Hugo Templating Basics" extend:true %}
+{% bookshop "markdown/youtube" id:"iDAWQHSH5fE" title:"Hugo Templating Basics" extend:false %}
 
 With Hugo templating, you can control how your page is rendered. You can use variables, loop over arrays, check conditions, and run functions. Think of it as a simple programming language to help build the pages on your site. Those curly braces in your layout {% raw %}`{{ }}`{% endraw %}, that’s Hugo templating.
 

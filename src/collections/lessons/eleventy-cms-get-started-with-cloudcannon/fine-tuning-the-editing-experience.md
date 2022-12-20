@@ -1,7 +1,7 @@
 ---
 title: Fine tuning the editing experience
 image: https://dam-cdn.cloudcannon.com/eleventy-cloudcannon-tutorial-social.png
-order: '4'
+order: 4
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: Eleventy content structure on CloudCannon.
 ---

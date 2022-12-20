@@ -3,8 +3,7 @@ title: The 'Islands' era
 description: >-
   Concluding the epic history of static site generators, the islands era sees a
   number of SSGs bringing the advantages of partial hydration to reality.
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-8-islands/
 image: https://dam-cdn.cloudcannon.com/Explorer 8.jpg
 date: 2022-03-09T05:00:00+1300

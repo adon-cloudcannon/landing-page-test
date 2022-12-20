@@ -2,7 +2,7 @@
 title: Client editing
 image:
 lead_score: 2
-order: '10'
+order: 10
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Set up CloudCannon as your Hugo CMS and hand it over to your content team.
 ---

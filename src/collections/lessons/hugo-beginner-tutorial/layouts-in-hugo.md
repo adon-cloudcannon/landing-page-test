@@ -8,7 +8,7 @@ description: >-
   site. 
 ---
 
-{% bookshop "markdown/youtube" id:"xRwZmWItIBA" title:"Hugo Partials" extend:true %}
+{% bookshop "markdown/youtube" id:"xRwZmWItIBA" title:"Hugo Partials" extend:false %}
 
 Making good use of layouts is essential to creating an easy-to-maintain, flexible, and thriving Hugo website, so let’s see what makes them tick.
 

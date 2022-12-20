@@ -1,7 +1,7 @@
 ---
 title: Setting up Bookshop
 image: 
-order: '5'
+order: 5
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-

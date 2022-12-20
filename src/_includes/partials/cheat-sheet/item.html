@@ -1,10 +1,10 @@
 <h4 class="text-lg font-bold">
-	<a class="hover:bg-gray-100 py-2 px-5 block" :class="{'group-last:rounded-b-2xl': !expanded}"
+	<a class="hover:bg-gray-100 group/heading py-2 px-5 block" :class="{'group-last/category:rounded-b-2xl': !expanded}"
 		@click="expanded = ! expanded">
 			<span class="w-3 inline-block relative top-0.5 transition-transform" :class="{'rotate-90': expanded}">
 				{{ '/images/icons/outline/chevron-right.svg' | svgContents }}
 			</span>
-			<span class="group-hover:underline">{{ cheat.data.title | markdownify }}</span>
+			<span class="group-hover/heading:underline">{{ cheat.data.title | markdownify }}</span>
 	</a>
 </h4>
 <div class="px-5 py-3 border-t border-dashed border-gray-400" x-show="expanded" x-collapse>

@@ -3,8 +3,7 @@ title: 'The ‘Before Jekyll’ era'
 description: >-
   The 'Before Jekyll' Era: part 1 of a series exploring the innovative history
   of static site generators.
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-1-before-jekyll/
 image: /uploads/explorer-1.png
 date: 2022-01-15T05:00:00+1300

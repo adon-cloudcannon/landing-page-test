@@ -1,7 +1,7 @@
 ---
 title: Onwards
 image: https://dam-cdn.cloudcannon.com/eleventy-cloudcannon-tutorial-social.png
-order: '6'
+order: 6
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: Final words.
 ---

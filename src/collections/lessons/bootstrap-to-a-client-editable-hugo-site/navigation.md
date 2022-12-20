@@ -1,7 +1,7 @@
 ---
 title: Navigation
 image: 
-order: '3'
+order: 3
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-

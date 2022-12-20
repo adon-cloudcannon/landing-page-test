@@ -1,7 +1,7 @@
 ---
 title: Layouts in SvelteKit
 image: https://dam-cdn.cloudcannon.com/tutorial-sveltekit.png
-order: '2'
+order: 2
 tutorial: sveltekit-beginner-tutorial-series
 description: >-
   Learn how layouts help you set up and reuse the main structure of your

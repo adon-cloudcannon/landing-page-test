@@ -2,7 +2,7 @@
 title: Getting set up in SvelteKit
 image: https://dam-cdn.cloudcannon.com/tutorial-sveltekit.png
 breadcrumb_title: SvelteKit beginner tutorial
-order: '1'
+order: 1
 tutorial: sveltekit-beginner-tutorial-series
 description: >-
   Learn how to get SvelteKit set up and installed for the rest of the tutorial

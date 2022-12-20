@@ -4,8 +4,7 @@ description: >-
   The fourth part of an ongoing series: the 'SPAs are awesome' period of static
   site generators saw a proliferation of companies developing single-page
   applications.
-series:
-  - SSGs through the ages
+series: SSGs through the ages
 permalink: /blog/ssg-history-4-spas-are-awesome/
 image: /uploads/explorer-4.png
 date: 2022-02-10T05:00:00.000Z

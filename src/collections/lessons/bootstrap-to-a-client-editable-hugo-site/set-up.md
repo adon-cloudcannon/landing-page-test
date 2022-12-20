@@ -2,7 +2,7 @@
 title: Set up Site and Hugo
 image: 
 breadcrumb_title: Bootstrap to a client editable Hugo site
-order: '1'
+order: 1
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Clone the Megakit repository, and install the Hugo static site generator.

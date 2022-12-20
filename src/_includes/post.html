@@ -36,19 +36,31 @@ cta:
 		<img class="w-full h-96 object-cover object-center rounded-lg"
 			src="{{ image }}" alt="{{ title }}">
 	</div>
-	<div class="relative">
+	<div class="relative -mx-[2rem]">
 		<div class="prose prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
 			{{ content }}
 		</div>
-		<div class="absolute -right-10 top-2 h-full">
-			<div class="sticky top-20 flex flex-col items-center gap-y-4">
-				<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/twitter.svg' | svgContents}}</a>
-				<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/facebook.svg' | svgContents}}</a>
-				<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/linkedin.svg' | svgContents}}</a>
-				<a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="">{{ '/images/icons/outline/envelope.svg' | svgContents}}</a>
+		{% if series %}
+		<div class="absolute -right-12 w-[220px] h-full top-0">
+			<div class="sticky top-5">
+				<div class="flex justify-around mb-2">
+		{% else %}
+			<div class="absolute -right-10 top-2 h-full">
+				<div class="sticky top-20">
+					<div class="flex flex-col items-center gap-y-4">
+		{% endif %}
+					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/twitter.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/facebook.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/images/icons/social/linkedin.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="">{{ '/images/icons/outline/envelope.svg' | svgContents}}</a>
+				</div>
+				{% include 'partials/blog/series.html' %}
 			</div>
 		</div>
 	</div>
+
+	
+
 	<div class="border my-10 rounded-xl pt-12 pb-16 px-10">
 		<h3 class="font-bold text-5xl text-center">Launch your website today</h3>
 		<p class="text-center text-xl mt-6 mb-10">Give your content team full autonomy on your developer-approved tech stack with CloudCannon.</p>

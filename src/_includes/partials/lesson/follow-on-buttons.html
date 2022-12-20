@@ -1,0 +1,38 @@
+{% assign lessons = collections.lessons | where: "data.tutorial", tutorial | sort: 'data.order' %}
+
+{% assign first_lesson = lessons | first %}
+{% assign last_lesson = lessons | last %}
+{% assign current_order = order %}
+{% assign prev_order = order | minus: 1 %}
+{% assign next_order = order | plus: 1 %}
+{% assign prev_lesson = nil %}
+{% assign next_lesson = nil %}
+
+{% unless page.fileSlug == first_lesson.fileSlug %} 
+  {% assign prev_lesson = lessons | where: "data.order", prev_order | first %}
+{% endunless %}
+
+{% unless page.fileSlug == last_lesson.fileSlug %}
+  {% assign next_lesson = lessons | where: "data.order", next_order | first %}
+{% endunless %}
+
+<div class="container">
+  <div class="max-w-[884px] mx-auto flex justify-center gap-x-11 mt-8 text-2xl">
+    {% if prev_lesson != nil %}
+      <a href="{{ prev_lesson.url }}" class="group">
+        <span class="inline-block w-4">
+          {{ '/images/icons/outline/arrow-left.svg' | svgContents }}
+        </span>
+        <span class="group-hover:underline">Previous lesson</span>
+      </a>
+    {% endif %}
+    {% if next_lesson != nil %}
+      <a href="{{ next_lesson.url }}" class="group">
+        <span class="group-hover:underline">Next lesson</span>
+        <span class="inline-block w-4">
+          {{ '/images/icons/outline/arrow-right.svg' | svgContents }}
+        </span>
+      </a>
+    {% endif %}
+  </div>
+</div>

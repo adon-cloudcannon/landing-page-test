@@ -1,7 +1,7 @@
 ---
 title: Editing interfaces
 image: https://dam-cdn.cloudcannon.com/eleventy-cloudcannon-tutorial-social.png
-order: '3'
+order: 3
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: An overview of the editing interfaces available on CloudCannon.
 ---

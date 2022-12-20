@@ -2,7 +2,7 @@
 title: Getting set up
 image: https://dam-cdn.cloudcannon.com/eleventy-cloudcannon-tutorial-social.png
 breadcrumb_title: Eleventy CMS - Get started with CloudCannon
-order: '1'
+order: 1
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: Learn how to get your website set up on the CloudCannon Eleventy CMS.
 ---

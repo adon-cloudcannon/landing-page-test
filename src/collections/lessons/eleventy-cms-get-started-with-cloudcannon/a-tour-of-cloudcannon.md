@@ -1,7 +1,7 @@
 ---
 title: A tour of CloudCannon
 image: https://dam-cdn.cloudcannon.com/eleventy-cloudcannon-tutorial-social.png
-order: '2'
+order: 2
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: A brief tour of the pages and features on CloudCannon.
 ---

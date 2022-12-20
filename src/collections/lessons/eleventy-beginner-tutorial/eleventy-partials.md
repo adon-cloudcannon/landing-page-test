@@ -1,7 +1,7 @@
 ---
 title: Eleventy Partials
 image: https://dam-cdn.cloudcannon.com/eleventy-beginner-tutorial-3-partials.png
-order: '3'
+order: 3
 tutorial: eleventy-beginner-guide
 description: >-
   Learn how to break down your Eleventy pages into smaller “components” with

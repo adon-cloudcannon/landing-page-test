@@ -2,12 +2,12 @@
 title: Fine tuning the editing experience
 image:
 lead_score: 2
-order: '4'
+order: 4
 tutorial: hugo-cms---get-started-with-cloudcannon
 description: Hugo content structure on CloudCannon.
 ---
 
-{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:true %}
+{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:false %}
 
 CloudCannon provides basic content editing without any configuration. To get the most out of the platform, you have full control to fine-tune the editing experience. CloudCannon configuration typically lives in a [global config file](https://cloudcannon.com/documentation/articles/setting-global-configuration/?ssg=Hugo) but can also be [set at a variety of scopes](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/?ssg=Hugo).
 

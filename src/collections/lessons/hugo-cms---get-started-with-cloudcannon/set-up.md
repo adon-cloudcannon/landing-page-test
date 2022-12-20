@@ -3,12 +3,12 @@ title: Getting set up
 image: https://dam-cdn.cloudcannon.com/community/Tutorial+social+image.png
 breadcrumb_title: Hugo CMS - Get started with CloudCannon
 lead_score: 2
-order: '1'
+order: 1
 tutorial: hugo-cms---get-started-with-cloudcannon
 description: Learn how to get your website set up on the CloudCannon Hugo CMS.
 ---
 
-{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:true %}
+{% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:false %}
 
 Welcome to the CloudCannon Hugo starter guide. If you’re looking to get your Hugo site set up on CloudCannon and ready to hand off to content editors, you’re in the right place.
 

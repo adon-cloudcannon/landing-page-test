@@ -1,7 +1,7 @@
 ---
 title: Blog
 image: 
-order: '9'
+order: 9
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-

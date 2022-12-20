@@ -1,7 +1,7 @@
 ---
 title: Data files
 image: 
-order: '4'
+order: 4
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-

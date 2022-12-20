@@ -1,7 +1,7 @@
 ---
 title: Templating in SvelteKit
 image: https://dam-cdn.cloudcannon.com/tutorial-sveltekit.png
-order: '4'
+order: 4
 tutorial: sveltekit-beginner-tutorial-series
 description: >-
   In this tutorial we'll go over basic SvelteKit templating concepts and see how
