@@ -10,9 +10,6 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   blocks:
-    - bookshop:simple_blocks!(simple/spacer)
-    - bookshop:simple_blocks!(simple/main-heading)
-    - bookshop:simple_blocks!(simple/sub-heading)
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
