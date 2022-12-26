@@ -52,7 +52,7 @@
 		{% endif %}
 		{% assign px = margin.bottom | abs %}
 
-		% assign classes = classes | append: " " | append: margin_prefix | append: "mb-[" | append: px | append: "px]" %}
+		{% assign classes = classes | append: " " | append: margin_prefix | append: "mb-[" | append: px | append: "px]" %}
 	{% endif %}
 
 	{% if margin.right %}
