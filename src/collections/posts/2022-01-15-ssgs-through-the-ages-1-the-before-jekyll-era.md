@@ -5,7 +5,7 @@ description: >-
   of static site generators.
 series: SSGs through the ages
 permalink: /blog/ssg-history-1-before-jekyll/
-image: /uploads/explorer-1.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-1_lxri3y.png
 date: 2022-01-15T05:00:00+1300
 tags:
   - Resources
@@ -23,11 +23,9 @@ Before [Jekyll](https://jekyllrb.com/) — when the world was young — static w
 
 Even with all the hype around dynamic generation, a few brave souls still saw the benefits of static websites. They built tools for themselves and others to make working on static websites easier and more enjoyable. Little did they know that they were laying the foundation for the future of web development.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/h-timeline.svg){: width="600" height="77"}
+## [HSC](https://github.com/mbethke/hsc)
 
-## **[HSC](https://github.com/mbethke/hsc)**
-
-*by** **[Thomas Aglassinger](https://twitter.com/taglassinger)*
+*First released in 1996 by [Thomas Aglassinger](https://twitter.com/taglassinger)*
 
 Finding the original, grandparent-of-all-grandparents static site generator is a tough undertaking. We know it was created sometime in the 90s, and it was probably an obscure piece of software that only a small group of people knew about.
 
@@ -39,11 +37,9 @@ HSC had typical SSG features like includes and conditional statements. It even h
 
 HSC was an innovative yet obscure piece of software. While it could perform many functions, dynamic website rendering would still reign supreme over the coming decades.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/m-timeline.svg){: width="600" height="77"}
-
 ## [Movable Type](https://www.movabletype.org/)
 
-*by [Ben](https://twitter.com/btrott) and [Mena](https://twitter.com/dollarshort) Trott*
+*First released in 2001 by [Ben](https://twitter.com/btrott) and [Mena](https://twitter.com/dollarshort) Trott*
 
 In the late 90s, self-published blogging rose in popularity thanks to tools like [Blogger](https://www.blogger.com/), [Open Diary](https://www.opendiary.com/), and [LiveJournal](https://www.livejournal.com/).
 
@@ -51,11 +47,9 @@ Ben and Mena Trott had what they called a "\[d\]issatisfaction with existing blo
 
 Moveable Type was one of the first platforms to recognize the advantages of static websites and make them accessible to a non-technical audience. It's powered tens of thousands of blogs and is actively maintained to this day.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/n-timeline.svg){: width="600" height="77"}
+## [Nanoc](https://github.com/nanoc/nanoc) 
 
-## [Nanoc](https://github.com/nanoc/nanoc)
-
-*by [Denis Defreyne](https://twitter.com/ddfreyne)*
+*First released in 2007 by [Denis Defreyne](https://twitter.com/ddfreyne)* 
 
 Ruby on Rails was launched in August 2004, cementing Ruby as a trendy alternative to PHP for web applications.
 

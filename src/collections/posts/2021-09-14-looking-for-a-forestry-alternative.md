@@ -4,7 +4,7 @@ description: >-
   Have you been looking for an alternative to Forestry for your Jekyll, Hugo,
   and Eleventy static sites? With CloudCannon's Git-based CMS, your search is at
   an end.
-image: https://dam-cdn.cloudcannon.com/blog/forestry-alternative-2.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/forestry-alternative-2.png
 date: 2021-09-14T05:00:00+1200
 tags:
   - Resources
@@ -22,19 +22,19 @@ CMSs exist to help editing teams manage a website's contents. The simpler the ed
 
 With CloudCannon, content writers can write and update content directly on the website — what could be more intuitive than that?
 
-![](https://dam-cdn.cloudcannon.com/blog/kap-editable-regions-copy.gif){: width="2252" height="1268"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/v1671570644/marketing-site/documentation/images/getting-started/Editable-regions.gif)
 
 ### Component page building
 
 Markdown is fantastic, but it's too restrictive for complex marketing content, especially when content editors prefer a visual approach. That's where using components — which can be pieced together to build a page — are a great idea. On CloudCannon, components are called [array structures](https://cloudcannon.com/documentation/edit/editing/configuration/#array-structures). You start by defining a label and the data fields in your component, and you're free to use the [full range of field types](https://cloudcannon.com/documentation/edit/interfaces/inputs/#inputs) available on CloudCannon; you can even nest array structures\! Once configured, editors can use these components to piece together content on a page.
 
-![](https://dam-cdn.cloudcannon.com/blog/page-building.gif){: width="1280" height="720"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/page-building.gif){: width="1280" height="720"}
 
 ### Git-based
 
 CloudCannon is a Git-based CMS. All changes in your repository automatically sync to CloudCannon, and all changes editors make will commit back to the repository. We're working towards providing editors access to the full power of Git; currently editors can create a branch or copy of a site to make large-scale changes that can be merged in through a branch merge or pull request at a later date.
 
-![](https://dam-cdn.cloudcannon.com/blog/git-sync-save.png){: width="1268" height="721"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/git-sync-save.png){: width="1268" height="721"}
 
  
 

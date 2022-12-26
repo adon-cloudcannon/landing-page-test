@@ -7,7 +7,7 @@ date: 2021-05-26T03:00:00+1200
 tags:
   - Resources
 author: cloudcannon
-image: https://dam-cdn.cloudcannon.com/blog/uploads/two-developers.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/two-developers.jpg
 ---
 
 ## What are Jamstack and WordPress?
@@ -32,7 +32,7 @@ The possibilities are constantly increasing thanks to a growing community and an
 
  
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/wordpress-issues-1.png){: width="600" height="565"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/wordpress-issues-1.png){: width="600" height="565"}
 
 WordPress remains immensely popular, mostly because it allows non-technical people to launch websites without developers. But in this specific niche, those without technical know-how or the budget for developers, other solutions like Wix, SquareSpace, and Shopify are rapidly [gaining ground](https://kinsta.com/wordpress-market-share/). 
 
@@ -90,7 +90,7 @@ It seems weird that Git, which is ubiquitous in modern software development, has
 
  
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/jamstack-benefits-1.png){: width="600" height="567"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/jamstack-benefits-1.png){: width="600" height="567"}
 
 ### Speed - static files that require no processing
 
@@ -150,7 +150,7 @@ The beauty of working with Jamstack is that you only need to implement complex s
 
  
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/untitled-artwork-2.png){: width="3000" height="2000"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/untitled-artwork-2.png){: width="3000" height="2000"}
 
 There is no such thing as a silver bullet. Jamstack isn’t a catch-all solution. For example, you will lack a CMS and hosting, need to re-generate your site manually, and work out architecture and optimization best practices.
 

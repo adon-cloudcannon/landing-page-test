@@ -6,7 +6,7 @@ description: >-
   be simpler than straight HTML templates with Markdown content?
 series: SSGs through the ages
 permalink: /blog/ssg-history-5-maybe-static-wasnt-so-bad/
-image: /uploads/explorer-5.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-5_l0cp08.png
 date: 2022-02-16T05:00:00.000Z
 tags:
   - Resources
@@ -14,11 +14,9 @@ author: mike-neumegen
 ---
 After [a period of heavy, complex JavaScripts integrated into SSGs](/blog/ssg-history-4-spas-are-awesome/), the following period pulls back to simpler times. And what could be simpler than straight HTML templates with Markdown content?
 
-![Docusaurus logo at year 2017](https://dam-cdn.cloudcannon.com/docusaurus-timeline.svg){: width="600" height="77"}
+## [Docusaurus](https://github.com/facebook/docusaurus)
 
-## **[Docusaurus](https://github.com/facebook/docusaurus)** 
-
-*by [Joel Marcey](https://github.com/JoelMarcey)*
+*First released in 2017 by [Joel Marcey](https://github.com/JoelMarcey)*
 
 Docusaurus was born inside Facebook, where there was a growing need for custom websites to document the company's open-source projects.
 
@@ -41,11 +39,9 @@ Docusaurus powers the documentation sites for many of the tools developers use e
 
 More recently, Docusaurus has been working towards their 2.0 to make quality-of-life improvements, including a better React implementation, Webpack for an extendable build pipeline, easier extensibility around layouts, and more. [Sébastien Lorber](https://github.com/slorber), [Alexey Pyltsyn](https://github.com/lex111), and [Yangshun Tay](https://github.com/yangshun) have joined the maintenance team to push Docusaurus forward.
 
-![Eleventy logo at year 2017](https://dam-cdn.cloudcannon.com/eleventy-timeline.svg){: width="600" height="77"}
+## [Eleventy](https://www.11ty.dev/)
 
-## **[Eleventy](https://www.11ty.dev/)** 
-
-*by [Zach Leatherman](https://github.com/zachleat)*
+*First released in 2017 by [Zach Leatherman](https://github.com/zachleat)*
 
 The story behind how Eleventy got its name must be the sweetest of all the SSGs:
 
@@ -69,11 +65,9 @@ Eleventy ranked highly for developer satisfaction in both the [2020](https://www
 
 [*Get started with Eleventy on CloudCannon.*](https://app.cloudcannon.com/register?trial=cc_standard)
 
-![Sapper logo sitting at year 2017](https://dam-cdn.cloudcannon.com/sapper-timeline.svg){: width="600" height="77"}
+## [Sapper](https://sapper.svelte.dev/)
 
-## **[Sapper](https://sapper.svelte.dev/)** 
-
-*by [Rich Harris](https://github.com/Rich-Harris)*
+*First released in 2017 by [Rich Harris](https://github.com/Rich-Harris)*
 
 In his [announcement post for Sapper](https://svelte.dev/blog/sapper-towards-the-ideal-web-app-framework), Rich Harris commends Next.js on being close to an ideal web application framework. In his view, however, it's not perfect. He points out one of Next.js's main flaws: vast amounts of JavaScript files, even for the most straightforward applications.
 
@@ -85,11 +79,9 @@ Sapper aims to bring the advantages of a Next.js style framework while "dramatic
 
 Spoiler alert: Sapper would a successor in the future. (More on that later.)
 
-![VuePress logo sitting at year 2018](https://dam-cdn.cloudcannon.com/vuepress-timeline.svg){: width="600" height="77"}
+## [VuePress](https://vuepress.vuejs.org/)
 
-## **[VuePress](https://vuepress.vuejs.org/)** 
-
-*by [Evan You](https://github.com/yyx990803)*
+*First released in  2018 by [Evan You](https://github.com/yyx990803)*
 
 Evan You, the creator of Vue.js, released his take on a Vue-based SSG in 2018 with VuePress. Where Nuxt.js focuses on building web applications, VuePress is all about document-based websites, particularly product documentation.
 
@@ -101,11 +93,9 @@ The default template on VuePress gives you a documentation theme with many bells
 * It's built from the ground up in TypeScript
 * It supports either Webpack or Vite as the bundler
 
-![Gridsome logo on timeline at year 2018](https://dam-cdn.cloudcannon.com/gridsome-timeline.svg){: width="600" height="77"}
+## [Gridsome](https://gridsome.org/)
 
-## **[Gridsome](https://gridsome.org/)** 
-
-*by [Hans-J&oslash;rgen Vedvik](https://github.com/hjvedvik)*
+*First released in  2018 by [Hans-J&oslash;rgen Vedvik](https://github.com/hjvedvik)*
 
 The success of Gatsby.js inspired Hans to create the "missing piece to the Vue.js ecosystem."
 

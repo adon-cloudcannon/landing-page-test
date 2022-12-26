@@ -1,12 +1,12 @@
 Name,URL,Image,Language,Incremental regeneration,Open source,First released
-11ty,https://www.11ty.dev/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/elventy-fav.jpg,JavaScript,0,1,2017
-Gatsby,https://www.gatsbyjs.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/gatsby-fav.jpg,React,1,1,2017
-Gridsome,https://gridsome.org/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/gridsome-fav.jpg,Vue,0,1,2018
-Hexo,https://hexo.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/hexo-fav.jpg,JavaScript,1,1,2019
-Hugo,https://gohugo.io/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/hugo-fav.jpg,Golang,0,1,2013
-Jekyll,https://jekyllrb.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/jekyll-fav.jpg,Ruby,1,1,2013
-Next.js,https://nextjs.org/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/next-fav.jpg,React,1,1,2016
-Nuxt.js,https://nuxtjs.org/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/nuxt-fav.jpg,Vue,1,1,2021
-Sphinx,https://www.sphinx-doc.org/en/master/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/sphinx-fav.jpg,Python,1,1,2010
-Tome,https://tome.fyi/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/tome-fav.jpg,Drupal,1,1,2018
-VuePress,https://vuepress.vuejs.org/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/ssg/vuepress-fav.jpg,Vue,0,1,2019
+11ty,https://www.11ty.dev/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/elventy-fav.jpg,JavaScript,0,1,2017
+Gatsby,https://www.gatsbyjs.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/gatsby-fav.jpg,React,1,1,2017
+Gridsome,https://gridsome.org/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/gridsome-fav.jpg,Vue,0,1,2018
+Hexo,https://hexo.io/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/hexo-fav.jpg,JavaScript,1,1,2019
+Hugo,https://gohugo.io/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/hugo-fav.jpg,Golang,0,1,2013
+Jekyll,https://jekyllrb.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/jekyll-fav.jpg,Ruby,1,1,2013
+Next.js,https://nextjs.org/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/next-fav.jpg,React,1,1,2016
+Nuxt.js,https://nuxtjs.org/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/nuxt-fav.jpg,Vue,1,1,2021
+Sphinx,https://www.sphinx-doc.org/en/master/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/sphinx-fav.jpg,Python,1,1,2010
+Tome,https://tome.fyi/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/tome-fav.jpg,Drupal,1,1,2018
+VuePress,https://vuepress.vuejs.org/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/ssg/vuepress-fav.jpg,Vue,0,1,2019

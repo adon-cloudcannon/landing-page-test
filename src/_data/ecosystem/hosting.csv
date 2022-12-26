@@ -1,18 +1,18 @@
 Name,URL,Image,Password protection,SSL cert,Source control integration,Preview URL,Analytics,Serverless functions,Free option
-Amazon S3,https://aws.amazon.com/s3/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/amazon-fav.jpg,0,1,0,1,0,0,0
-Azure Static Apps,https://azure.microsoft.com/en-us/services/app-service/static/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/azure-fav.jpg,1,1,1,1,0,1,1
-CloudCannon,https://cloudcannon.com,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/cloudcannon-logo.jpg,1,1,1,1,1,0,1
-Cloudflare Pages,https://pages.cloudflare.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/cloudflare-fav.jpg,0,1,1,1,1,0,1
-Firebase,https://firebase.google.com/docs/hosting,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/firebase-fav.jpg,0,1,1,1,0,1,1
-Forge,https://getforge.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/forge-fav.jpg,0,0,1,1,0,0,1
-Gatsby,https://www.gatsbyjs.com/products/cloud/hosting/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/gatsby-fav.jpg,0,1,1,0,0,0,1
-GitHub Pages,https://pages.github.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/github-fav.jpg,0,1,1,0,0,0,1
-GitLab Pages,https://about.gitlab.com/stages-devops-lifecycle/pages/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/gitlab-fav.jpg,1,1,1,0,0,0,1
-Google Cloud,https://cloud.google.com/storage/docs/hosting-static-website,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/google-fav.jpg,0,1,0,0,0,0,0
-Heroku,https://www.heroku.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/heroku-fav.jpg,1,1,1,1,1,0,1
-Layer0,https://www.layer0.co/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/layer-0-fav.svg,1,1,1,1,1,1,1
-Netlify,https://www.netlify.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/netlify-fav.jpg,1,1,1,1,1,1,1
-Render,https://render.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/render-fav.jpg,0,1,1,1,0,0,1
-Surge,https://surge.sh/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/surge-fav.jpg,1,1,0,1,0,0,1
-Tiiny.host,https://tiiny.host/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/tinyhost-fav.jpg,1,1,0,0,0,0,1
-Vercel,https://vercel.com/pricing,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/hosting/vercel-fav.jpg,1,1,1,1,1,1,1
+Amazon S3,https://aws.amazon.com/s3/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/amazon-fav.jpg,0,1,0,1,0,0,0
+Azure Static Apps,https://azure.microsoft.com/en-us/services/app-service/static/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/azure-fav.jpg,1,1,1,1,0,1,1
+CloudCannon,https://cloudcannon.com,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/cloudcannon-logo.jpg,1,1,1,1,1,0,1
+Cloudflare Pages,https://pages.cloudflare.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/cloudflare-fav.jpg,0,1,1,1,1,0,1
+Firebase,https://firebase.google.com/docs/hosting,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/firebase-fav.jpg,0,1,1,1,0,1,1
+Forge,https://getforge.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/forge-fav.jpg,0,0,1,1,0,0,1
+Gatsby,https://www.gatsbyjs.com/products/cloud/hosting/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/gatsby-fav.jpg,0,1,1,0,0,0,1
+GitHub Pages,https://pages.github.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/github-fav.jpg,0,1,1,0,0,0,1
+GitLab Pages,https://about.gitlab.com/stages-devops-lifecycle/pages/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/gitlab-fav.jpg,1,1,1,0,0,0,1
+Google Cloud,https://cloud.google.com/storage/docs/hosting-static-website,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/google-fav.jpg,0,1,0,0,0,0,0
+Heroku,https://www.heroku.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/heroku-fav.jpg,1,1,1,1,1,0,1
+Layer0,https://www.layer0.co/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/layer-0-fav.svg,1,1,1,1,1,1,1
+Netlify,https://www.netlify.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/netlify-fav.jpg,1,1,1,1,1,1,1
+Render,https://render.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/render-fav.jpg,0,1,1,1,0,0,1
+Surge,https://surge.sh/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/surge-fav.jpg,1,1,0,1,0,0,1
+Tiiny.host,https://tiiny.host/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/tinyhost-fav.jpg,1,1,0,0,0,0,1
+Vercel,https://vercel.com/pricing,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/hosting/vercel-fav.jpg,1,1,1,1,1,1,1

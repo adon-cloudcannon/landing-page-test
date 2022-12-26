@@ -1,6 +1,6 @@
 ---
 title: SvelteKit Beginner Tutorial Series
-image: https://dam-cdn.cloudcannon.com/SvelteKit basics.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/SvelteKit_basics.png
 author: Mike Neumegen
 order: '1'
 description: >-

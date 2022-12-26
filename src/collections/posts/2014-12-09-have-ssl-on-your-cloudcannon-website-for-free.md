@@ -4,7 +4,7 @@ date: 2014-12-09
 author: mike-neumegen
 tags:
   - Resources
-image: https://dam-cdn.cloudcannon.com/blog/uploads/ssl-cert.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/ssl-cert.jpg
 ---
 
 Today I’m going to show you how you can add SSL to your CloudCannon website in under 5 minutes. What’s even better, it’s free\!
@@ -15,7 +15,7 @@ Before we get started let’s cover a few questions:
 
 SSL is a way of ensuring all the data passed between a website visitor and the server remains private. For websites with login passwords and private data, SSL is essential. For static websites it’s not so important as the website is already public. However, for visitors there’s an extra level of trust from seeing the padlock in their browser.
 
-![Secure page](https://dam-cdn.cloudcannon.com/blog/assets/blog/ssl/blurred.png)
+![Secure page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/ssl/blurred.png)
 
 ## What’s CloudFlare?
 
@@ -23,7 +23,7 @@ CloudFlare is service which works as a reverse proxy for your website. What that
 
 The advantage of doing this is CloudFlare does a number of performance and security enhancements so your website will load faster and be more immune to malicious attacks. They’ve also recently added free SSL support.
 
-![CloudFlare](https://dam-cdn.cloudcannon.com/blog/assets/blog/ssl/cloudflare-logo.png)
+![CloudFlare](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/ssl/cloudflare-logo.png)
 
 ## Why should I care?
 
@@ -31,9 +31,9 @@ Google recently [announced](http://googlewebmastercentral.blogspot.co.nz/2014/08
 
 ## Let’s add SSL\!
 
-First off, head over to [CloudFlare](https://www.cloudflare.com) and register a new account ![Registration](https://dam-cdn.cloudcannon.com/blog/assets/blog/ssl/register.png)
+First off, head over to [CloudFlare](https://www.cloudflare.com) and register a new account ![Registration](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/ssl/register.png)
 
-Next you’ll be asked for your website address ![Add a website](https://dam-cdn.cloudcannon.com/blog/assets/blog/ssl/add-website.png)
+Next you’ll be asked for your website address ![Add a website](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/ssl/add-website.png)
 
 After this CloudFlare will take about a minute to scan your existing DNS records. Once it’s finished it, it’ll show you the DNS records it’s found. You need to verify these records are correct. For CloudCannon websites the DNS records should be fairly simple, usually the setup is:
 
@@ -45,11 +45,11 @@ If you're setting up a new domain refer to our [documentation](/documentation/ho
 
 Once you’re happy these are correct click the continue button.
 
-![dns](https://dam-cdn.cloudcannon.com/blog/assets/blog/ssl/dns.png)
+![dns](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/ssl/dns.png)
 
-Next up is configuring CloudFlare. I switched the plan to free and the performance to CDN + Full optimizations. ![Configure CloudFlare](https://dam-cdn.cloudcannon.com/blog/assets/blog/ssl/settings.png)
+Next up is configuring CloudFlare. I switched the plan to free and the performance to CDN + Full optimizations. ![Configure CloudFlare](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/ssl/settings.png)
 
-The last step is updating your nameservers. To do this log in to your domain provider and change the nameservers to the ones that CloudFlare gives you. ![dns](https://dam-cdn.cloudcannon.com/blog/assets/blog/ssl/update-ns.png)
+The last step is updating your nameservers. To do this log in to your domain provider and change the nameservers to the ones that CloudFlare gives you. ![dns](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/ssl/update-ns.png)
 
 That’s it\! It’s so easy to get setup. Changing your DNS can take up to 48 hours to propagate and CloudFlare’s free SSL can take up to 24 hours to set up, so while there should be no downtime, it might be a day or two before you have SSL and CloudFlare serving your website.
 

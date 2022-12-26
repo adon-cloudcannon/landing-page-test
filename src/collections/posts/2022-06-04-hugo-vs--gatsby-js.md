@@ -7,7 +7,7 @@ description: >-
   or marketing websites. But there are several key differences to consider,
   including build times.
 series:
-image: https://dam-cdn.cloudcannon.com/hugo-vs-gatsby.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-vs-gatsby.jpg
 date: 2022-06-04T05:00:00+1200
 tags:
   - Hugo

@@ -4,11 +4,11 @@ date: 2016-08-09T14:07:00+1200
 tags:
   - Features
 author: ross-phillips
-image: https://dam-cdn.cloudcannon.com/blog/uploads/Sunny.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/Sunny.jpg
 ---
 CloudCannon is committed to bringing the best editing experience to static and Jekyll sites. We provide world-class interfaces for your clients to update their front matter, a core offering of Jekyll.
 
-![Example front matter in CloudCannon](https://dam-cdn.cloudcannon.com/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example@2x.png 1600w"}
+![Example front matter in CloudCannon](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example@2x.png 1600w"}
 
 There are more front matter interfaces available in CloudCannon than ever before. We've recently added more interfaces and ways to customise them.
 

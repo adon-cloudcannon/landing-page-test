@@ -5,7 +5,7 @@ description: >-
   websites and the tools we use on them, simply by keeping bandwidth constraints
   in the forefront of our minds.
 series:
-image: https://dam-cdn.cloudcannon.com/blog/blog-page-weight-r.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-page-weight-r.jpg
 date: 2022-10-21T05:00:00+1300
 hide_publish_date: false
 tags:

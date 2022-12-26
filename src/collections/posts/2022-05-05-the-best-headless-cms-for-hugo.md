@@ -6,7 +6,7 @@ description: >-
   static site generator, while empowering developers and marketing teams to work
   more collaboratively.
 series:
-image: https://dam-cdn.cloudcannon.com/cc-and-hugo.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cc-and-hugo.jpg
 date: 2022-05-05T05:00:00+1200
 tags:
   - Hugo

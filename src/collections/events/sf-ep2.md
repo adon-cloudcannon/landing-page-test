@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://dam-cdn.cloudcannon.com/sf-ep2-joost-post.jpg
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/sf-ep2-joost-post.jpg
   alt: >-
    Blue banner with Static Feedback logo and image of event speaker,
     Joost van der Schee.

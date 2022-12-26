@@ -6,7 +6,7 @@ description: >-
   older SSGs with modern ideas.
 series: SSGs through the ages
 permalink: /blog/ssg-history-7-rebirth/
-image: /uploads/explorer-7.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-7_yy2hqt.png
 date: 2022-03-02T05:00:00.000Z
 tags:
   - Resources
@@ -14,11 +14,9 @@ author: mike-neumegen
 ---
 What’s old is new again. With modern tooling and the knowledge of better ways of implementing SSGs, the rebirth era sees reincarnations of several older SSGs with modern ideas.
 
-![Bridgetown logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/bridgetown-timeline.svg){: width="600" height="77"}
+## [Bridgetown](https://www.bridgetownrb.com/)
 
-## **[Bridgetown](https://www.bridgetownrb.com/)**
-
-*by [Jared White](https://github.com/jaredcwhite)*
+*First released in 2020 by [Jared White](https://github.com/jaredcwhite)*
 
 Much of Jekyll's success can be attributed to the free hosting provided by GitHub Pages. We don't know exactly how many websites are on GitHub Pages, but it's likely in the hundreds of thousands, if not millions. GitHub Pages runs a single version of Jekyll (currently 3.9.0) to build all of the sites on the platform. Upgrading Jekyll to a newer version (Jekyll 4.2.1 was released in September 2021) on GitHub Pages would likely cause issues the next time anyone built their site.
 
@@ -45,11 +43,9 @@ Bridgetown has an ambitious roadmap for the coming year. It's going to be exciti
 
 Update (7 March): [Bridgetown has reached their 1.0.0 release](https://github.com/bridgetownrb/bridgetown/releases/tag/v1.0.0)\!
 
-![VitePress logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/vitepress-timeline.svg){: width="600" height="77"}
+## [VitePress](https://vitepress.vuejs.org/)
 
-## **[VitePress](https://vitepress.vuejs.org/)**
-
-*by [Evan You](https://github.com/yyx990803)*
+*First released in 2020 by [Evan You](https://github.com/yyx990803)*
 
 Four years after creating VuePress, Evan You came back with a new SSG, VitePress. "VitePress is [VuePress'](https://vuepress.vuejs.org/) little brother, built on top of [Vite](https://github.com/vitejs/vite)."
 

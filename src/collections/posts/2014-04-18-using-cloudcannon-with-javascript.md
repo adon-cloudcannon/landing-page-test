@@ -4,7 +4,7 @@ date: 2014-04-18
 tags:
   - Resources
 author: george-phillips
-image: https://dam-cdn.cloudcannon.com/blog/uploads/blog-birdseye-view-laptop-work.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-birdseye-view-laptop-work.jpg
 ---
 
 A common question that comes up is “How can I use JavaScript with CloudCannon?”. As a heavy JavaScript user, I would ask the same and that’s why we build CloudCannon from the ground up to handle a wide range of sites.

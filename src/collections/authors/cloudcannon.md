@@ -1,7 +1,7 @@
 ---
 name: CloudCannon
 image:
-  path: https://dam-cdn.cloudcannon.com/blog/uploads/cc-logo-1000-padded.png
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/cc-logo-1000-padded.png
   alt: CloudCannon logo
 ---
 

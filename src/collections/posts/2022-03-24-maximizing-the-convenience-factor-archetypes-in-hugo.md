@@ -5,7 +5,7 @@ description: >-
   convenience to both developers and site owners. In this article, we’ll take a
   closer look at Hugo’s archetypes.
 series:
-image: https://dam-cdn.cloudcannon.com/hugo-archetypes.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-archetypes.jpg
 date: 2022-03-24T06:00:00+1300
 tags:
   - Hugo

@@ -1,7 +1,7 @@
 ---
 title: Getting set up in Eleventy
 image: >-
-  https://dam-cdn.cloudcannon.com/eleventy-beginner-tutorial-1-getting-set-up.png
+  https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy-beginner-tutorial-1-getting-set-up.png
 order: 1
 tutorial: eleventy-beginner-guide
 description: 'Learn the basics of Eleventy in this six-part tutorial series. '

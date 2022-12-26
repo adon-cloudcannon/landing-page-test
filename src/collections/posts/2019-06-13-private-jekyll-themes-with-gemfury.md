@@ -5,7 +5,7 @@ tags:
   - Resources
   - Jekyll
 author: jordan-trbuhovic
-image: https://dam-cdn.cloudcannon.com/blog/uploads/rings.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/rings.jpg
 ---
 Jekyll themes allow styles and site structures to be reused across any number of sites. This eliminates the need to duplicate content, layouts, includes and assets across multiple sites.
 

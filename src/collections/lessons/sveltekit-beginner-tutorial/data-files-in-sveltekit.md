@@ -1,6 +1,6 @@
 ---
 title: Data files in SvelteKit
-image: https://dam-cdn.cloudcannon.com/tutorial-sveltekit.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/tutorial-sveltekit.png
 order: 6
 tutorial: sveltekit-beginner-tutorial-series
 description: >-

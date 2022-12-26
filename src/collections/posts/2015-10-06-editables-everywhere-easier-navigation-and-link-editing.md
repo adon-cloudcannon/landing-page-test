@@ -4,7 +4,7 @@ date: 2015-10-06T13:00:00+1300
 tags:
   - Features
 author: george-phillips
-image: https://dam-cdn.cloudcannon.com/blog/uploads/nick-fewings-zf-ptlx-dkg-unsplash.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/nick-fewings-zf-ptlx-dkg-unsplash.jpg
 ---
 In the past two weeks we’ve released major features to make CloudCannon easier to use. Thanks to all the customers who have provided valuable feedback which inspired these changes.
 

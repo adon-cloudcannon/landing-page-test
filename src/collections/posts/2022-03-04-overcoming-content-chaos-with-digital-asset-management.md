@@ -5,7 +5,7 @@ description: >-
   retrieve their digital assets, manage rights and permissions, and establish
   meaningful connections between disparate files.
 series:
-image: /uploads/content-chaos.jpeg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/content-chaos_xyexmt.jpg
 date: 2022-03-04T05:00:00+1300
 tags:
   - Features

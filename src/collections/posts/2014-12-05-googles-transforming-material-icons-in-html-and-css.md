@@ -4,18 +4,14 @@ date: 2014-12-05
 author: george-phillips
 tags:
   - Resources
-image: https://dam-cdn.cloudcannon.com/blog/uploads/blog-google-web-browser.jpeg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-google-web-browser.jpeg
 ---
 
 This week I am deconstructing the Delightful Details from [Google's Material Design](http://www.google.com/design/spec/material-design/introduction.html). It's not built in HTML and CSS but that's not important. What's important is that we can.
 
-![An image version of Google's Delightful Details](https://dam-cdn.cloudcannon.com/blog/assets/blog/delightful-details.png)
+![An image version of Google's Delightful Details](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/delightful-details.png)
 
 This week I am deconstructing the Delightful Details from [Google's Material Design](http://www.google.com/design/spec/material-design/introduction.html).
-
-<video crossorigin="anonymous" preload="metadata" loop="" autoplay="" poster="/video/animation-delightfuldetails.png" style="margin-bottom: 35px;"><source type="video/mp4" src="/video/animation-delightfuldetails.mp4" /> <source type="video/x-matroska" src="/video/animation-delightfuldetails.mkv" /></video>
-
-<link rel="stylesheet" href="/css/delightful-details.css" />
 
 It's not built in HTML and CSS but that's not important. What's important is that we can. If you haven't read [Google's Material Design Spec](http://www.google.com/design/spec/material-design/introduction.html) I highly recommend it. It's a well crafted design spec with a lot of good information. I have followed the different android specs over the years but this one excites me as it includes information for larger screens.
 

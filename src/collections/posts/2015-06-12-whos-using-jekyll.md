@@ -5,18 +5,18 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
-image: https://dam-cdn.cloudcannon.com/blog/uploads/blog-group-of-people-working.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-group-of-people-working.jpg
 ---
 [Jekyll’s](http://jekyllrb.com) roots are in providing a tool for hackers to host their blog. It’s not just hackers using Jekyll today though.
 
-\!\[Jekyll Sticker\](https://dam-cdn.cloudcannon.com/blog/assets/blog/whos-using-jekyll/sticker.jpg)
+\!\[Jekyll Sticker\](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/whos-using-jekyll/sticker.jpg)
 
 Large organizations are adopting Jekyll because of its simplicity, scalability, security and the ability to store the entire website in version control.
 
 Large scale deployments of Jekyll include:
 
 * [Jekyllrb](http://jekyllrb.com)
-* [The 2012 Obama Campaign website](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)
+* The 2012 Obama Campaign website
 * [GitHub Help](https://github.com/blog/1939-how-github-uses-github-to-document-github)
 * [GitHub Training](https://training.github.com/)
 * [Wistia](http://wistia.com/blog/jekyll-for-documentation)

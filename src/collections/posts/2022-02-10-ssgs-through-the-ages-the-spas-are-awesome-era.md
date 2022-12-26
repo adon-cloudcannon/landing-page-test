@@ -6,7 +6,7 @@ description: >-
   applications.
 series: SSGs through the ages
 permalink: /blog/ssg-history-4-spas-are-awesome/
-image: /uploads/explorer-4.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-4_jk233e.svg
 date: 2022-02-10T05:00:00.000Z
 tags:
   - Resources
@@ -20,11 +20,9 @@ Around the same time, [Evan You](https://github.com/yyx990803) was using Angular
 
 Both React and Vue.js surged in popularity in the mid 2010s. Developers in the SSG community were working out how to integrate these technologies with their existing static site. A new wave of tooling arrived soon after this, which made these new JavaScript frameworks first-class citizens of the static site generator world.
 
-![Gatsby logo sitting at year 2015](https://dam-cdn.cloudcannon.com/gatsby-timeline.svg){: width="600" height="77"}
+## [Gatsby.js](https://www.gatsbyjs.com/)
 
-## **[Gatsby.js](https://www.gatsbyjs.com/)** 
-
-*by [Kyle Mathews](https://github.com/KyleAMathews)*
+*First released in 2015 by [Kyle Mathews](https://github.com/KyleAMathews)*
 
 The release of Gatsby.js started a seismic shift with regards to what an SSG could be. Until now, SSGs had mainly focused on building HTML from source files. Kyle Mathew's vision was to flip this on its head. He thought of it as pulling content rather than pushing:
 
@@ -47,11 +45,9 @@ Gatsby.js made a monumental change in how we think about SSGs and added a great 
 
 [*Get started with Gatsby.js on CloudCannon*](https://app.cloudcannon.com/register?trial=cc_standard).
 
-![Next.js logo at year 2016](https://dam-cdn.cloudcannon.com/next-timeline.svg){: width="600" height="77"}
+## [Next.js](https://nextjs.org/)
 
-## **[Next.js](https://nextjs.org/)** 
-
-*by [Guillermo Rauch](https://github.com/rauchg)*
+*First released in 2016 by [Guillermo Rauch](https://github.com/rauchg)*
 
 Guillermo and his company Ziet (now [Vercel](https://vercel.com/)) had "been pursuing a vision of universal JavaScript applications." In other words: a way to develop websites and web applications using JavaScript to run in both the frontend and backend. This idea is also known as isomorphic JavaScript and was first popularized by the [Meteor](https://www.meteor.com/) framework in 2011. Next.js is Vercel's take on this vision.
 
@@ -75,11 +71,9 @@ Next.js is currently the world's most popular static site generator, due to its 
 
 [*Get started with Next.js on CloudCannon.*](https://app.cloudcannon.com/register?trial=cc_standard)
 
-![Nuxt logo sitting at year 2016](https://dam-cdn.cloudcannon.com/nuxt-timeline.svg){: width="600" height="77"}
+## [Nuxt.js](https://nuxtjs.org/)
 
-## **[Nuxt.js](https://nuxtjs.org/)** 
-
-by [Alexandre Chopin](https://github.com/alexchopin/) & [Sébastien Chopin](https://github.com/Atinux)
+*First released in 2016 by [Alexandre Chopin](https://github.com/alexchopin/) & [Sébastien Chopin](https://github.com/Atinux)*
 
 Much like the many SSGs taking direct inspiration from Jekyll, Nuxt.js started as a Vue.js alternative to Next.js:
 

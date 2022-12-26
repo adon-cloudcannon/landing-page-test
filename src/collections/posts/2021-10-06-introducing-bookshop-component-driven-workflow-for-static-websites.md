@@ -4,7 +4,7 @@ description: >-
   Introducing Bookshop: an open-source framework to speed up development and
   reduce maintenance on static websites by developing components in isolation.
 permalink: /blog/introducing-bookshop/
-image: https://dam-cdn.cloudcannon.com/blog/bookshop-feature-image.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/bookshop-feature-image.jpg
 date: 2021-10-06T05:00:00+1300
 tags:
   - Features

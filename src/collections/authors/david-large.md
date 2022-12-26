@@ -1,6 +1,6 @@
 ---
 name: David Large
 image:
-  path: https://dam-cdn.cloudcannon.com/David Large CloudCannon.jpg
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/David_Large_CloudCannon.jpg
   alt: Portrait photo of David in his natural habitat
 ---

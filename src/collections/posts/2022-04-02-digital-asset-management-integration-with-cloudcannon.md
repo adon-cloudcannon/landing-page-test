@@ -5,7 +5,7 @@ description: >-
   images, videos, and documents needed for your sites. Read how to integrate a
   DAM solution with CloudCannon's Git-powered CMS.
 series:
-image: https://dam-cdn.cloudcannon.com/dam-hero-c.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/dam-hero-c.jpg
 date: 2022-04-02T05:00:00+1300
 tags:
   - Features
@@ -23,7 +23,7 @@ To help you make the most of your assets we’ve added support for [Amazon S3](h
 
 *Update (19 August 2022): We've also added support for [Google Cloud Storage buckets](https://cloud.google.com/storage/docs/buckets).*
 
-![](https://dam-cdn.cloudcannon.com/dam-diagram-c.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/dam-diagram-c.png)
 
 ## How to integrate your DAM solution
 
@@ -39,7 +39,7 @@ The first step is to link your DAM provider to your Organization in CloudCannon.
 
 You’ll see a popup notification confirming your setup, and you can find the Previewbutton in your settings, where you can check on your connection. Click on **Preview DAM assets** and a modal will open that will let you browse the files in your DAM folder.
 
-![](https://dam-cdn.cloudcannon.com/DAM-files-preview-c.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/DAM-files-preview-c.jpg)
 
 ### 2\. Link your DAM service to a site
 

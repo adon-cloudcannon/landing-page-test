@@ -3,7 +3,7 @@ title: The 'Let's Recreate Rails' era
 description: "The sixth part of an ongoing series: In 2019, developers of static site generators ask the inevitable question —\_why don't we create full-stack applications in one framework?"
 series: SSGs through the ages
 permalink: /blog/ssg-history-6-lets-recreate-rails/
-image: /uploads/explorer-6.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-6_c0m80i.png
 date: 2022-02-23T05:00:00.000Z
 tags:
   - Resources
@@ -11,11 +11,9 @@ author: mike-neumegen
 ---
 It's 2019. Next.js/Nuxt.js are pushing the boundaries of what SSGs are capable of, and are surging in popularity. The 'Let's Recreate Rails' era questions if we can take this paradigm even further. Why don't we create full-stack applications in one framework, in the same vein as Rails?
 
-![Redwood logo sitting at year 2019](https://dam-cdn.cloudcannon.com/redwood-timeline.svg)
+## [Redwoodjs](https://redwoodjs.com/)
 
-## **[Redwoodjs](https://redwoodjs.com/)** 
-
-*by [Tom Preston-Werner](https://github.com/mojombo), [Peter Pistorius](https://github.com/peterp), [David Price](https://github.com/thedavidprice) & [Rob Cameron](https://github.com/cannikin)*
+*First released in 2019 by [Tom Preston-Werner](https://github.com/mojombo), [Peter Pistorius](https://github.com/peterp), [David Price](https://github.com/thedavidprice) & [Rob Cameron](https://github.com/cannikin)*
 
 Eleven years after the launch of Jekyll, Tom Preston-Werner *et al* started working on a new project in the SSG space, Redwoodjs. Calling Redwoodjs a static site generator is misleading, however. The ambition for the project is far greater:
 
@@ -37,11 +35,9 @@ Just like Rails, Redwoodjs makes heavy use of CLI generators to rapidly create b
 
 Redwoodjs is purposefully pushing the boundaries of what's possible with Jamstack. It's a new approach to building web applications and has flexible solutions for Auth, makes accessibility a first-class citizen, and uses the popular database toolkit library Prisma for your data layer. The project is aiming to have a production-ready 1.0 launch in early 2022.
 
-![Scully logo on timeline at year 2019](https://dam-cdn.cloudcannon.com/scully-timeline.svg)
+## [Scully](https://scully.io/)
 
-## **[Scully](https://scully.io/)**
-
-*by [Aaron Frost](https://github.com/aaronfrost), [Sander Elias](https://github.com/SanderElias), and [Jorge Cano](https://github.com/jorgeucano)*
+*First released in 2019 by [Aaron Frost](https://github.com/aaronfrost), [Sander Elias](https://github.com/SanderElias), and [Jorge Cano](https://github.com/jorgeucano)*
 
 The Angular community finally had their answer for SSGs in 2019 with Scully. Scully follows a similar model to Gatsby:
 
@@ -53,11 +49,9 @@ The idea is to give the best of both worlds — a fast page load for SEO and use
 
 The magical part of Scully is its use of the Guess.js library and machine learning. Scully automatically finds all the routes in an existing Angular project and prerenders an HTML page for each. If you have an Angular project you're looking to bring to the Jamstack world, look no further than Scully.
 
-![Blitz.js logo on timeline at year 2020](https://dam-cdn.cloudcannon.com/blitz-js-timeline.svg)
+## [Blitz.js](https://blitzjs.com/)
 
-## **[Blitz.js](https://blitzjs.com/)** 
-
-*by [Brandon Bayer](https://github.com/flybayer)*
+*First released in 2020 by [Brandon Bayer](https://github.com/flybayer)*
 
 Blitz.js started when Brandon Bayer conversed with his friend about the pros and cons of Ruby on Rails versus React. He realized that while the development community has made a tremendous amount of progress on JavaScript frameworks, these frameworks can't compete with the simplicity and developer experience offered by Ruby on Rails. Monolithic applications — for all their shortcomings — are easier to get your head around and give far greater flexibility to the developer.
 

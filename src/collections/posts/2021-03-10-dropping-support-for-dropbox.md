@@ -7,7 +7,7 @@ date: 2021-03-10T08:00:00+1300
 tags:
   - Features
 author: cloudcannon
-image: https://dam-cdn.cloudcannon.com/blog/uploads/dropbox-light.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/dropbox-light.png
 ---
 In 2015, CloudCannon started as a humble static site platform, bringing all the aspects of site management into one place. We knew that syncing files was a key part of the puzzle. At the time, FTP was in high demand, Dropbox was peaking, and repositories were growing in popularity. We supported them all. What we didn’t know was how quickly repositories would become the core of the modern development workflow. 
 

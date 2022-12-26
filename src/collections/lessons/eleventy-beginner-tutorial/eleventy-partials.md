@@ -1,6 +1,6 @@
 ---
 title: Eleventy Partials
-image: https://dam-cdn.cloudcannon.com/eleventy-beginner-tutorial-3-partials.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy-beginner-tutorial-3-partials.png
 order: 3
 tutorial: eleventy-beginner-guide
 description: >-

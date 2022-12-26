@@ -2,7 +2,7 @@
 title: The Ultimate Guide to Hugo Sections
 description: "Everything you've always wanted to know about how Hugo's sections and page bundles work. (Including the  “_index.md\_or\_index.md” question!)"
 series:
-image: https://dam-cdn.cloudcannon.com/hugo-sections.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-sections.jpg
 date: 2022-03-11T05:00:00+1300
 tags:
   - Hugo

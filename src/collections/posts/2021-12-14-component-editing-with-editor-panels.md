@@ -4,7 +4,7 @@ description: >-
   Content editors on CloudCannon can now access a draggable Editor Panel
   directly next to their styled content on the page, streamlining the editing
   workflow.
-image: https://dam-cdn.cloudcannon.com/blog/uploads/editor-panel-hero.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/editor-panel-hero.jpg
 date: 2021-12-14T05:00:00+1300
 tags:
   - Features
@@ -64,7 +64,7 @@ suitable constraints.
 
 In the data editor it all looks like this:
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/data-editor-1.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/data-editor-1.png)
 
 The trouble is — or can be, for some editors — that it still feels like
 you’re filling out a form to submit for a drawing. You fill out a long
@@ -79,14 +79,14 @@ inputs on the page. We’ve extended our Visual Editor to encompass data,
 allowing editors to configure any content defined by inputs — right on the
 page at full width\! 
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/arrays-panel-1.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/arrays-panel-1.png)
 
 In the Visual Editor, you’ll be able to configure a group of inputs into a
 component for editing on the same panel. You can configure the editing
 options for front matter, grouping it in the way that best suits you, or
 your editors’ needs.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/component-editor-1.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/component-editor-1.png)
 
 Depending on their needs, or the size of their windows and screens,
 editors can grab the drag handle and move the panel around, or use the
@@ -98,14 +98,14 @@ users.
 
 ## Working with your components visually 
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/move-component.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/move-component.png)
 
 Along with the Editor Panel, we’ve added a controls menu in the top right
 corner of components. The menu will help you access the panel, as well as
 move or delete a component. Simply click through to the component you want
 to access and you’ll find the menu in the top right.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/add-new-component.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/add-new-component.png)
 
 The new controls also include a 'plus' button on the edges of your
 components that allows editors to clone them, or even add new components

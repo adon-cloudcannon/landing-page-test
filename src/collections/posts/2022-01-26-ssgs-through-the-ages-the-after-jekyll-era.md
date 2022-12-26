@@ -5,7 +5,7 @@ description: >-
   static site generators.
 series: SSGs through the ages
 permalink: /blog/ssg-history-2-after-jekyll/
-image: /uploads/explorer-2.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-2_vumhwx.svg
 date: 2022-01-26T05:00:00+1300
 tags:
   - Resources
@@ -21,11 +21,9 @@ Jekyll changed that. It was a breath of fresh air for developers coming from a w
 
 Jekyll's success triggered a decade of recreation and iteration. Open-source developers around the world created their own special versions of Jekyll, bringing their own ideas and implementing them in their favorite languages. Static site generators were truly here to stay.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/jekyll-timeline.svg){: width="600" height="77"}
+## [Jekyll](https://jekyllrb.com/)
 
-## **[Jekyll](https://jekyllrb.com/)**
-
-*by [Tom Preston-Werner](https://twitter.com/mojombo)*
+*First released in 2008 by [Tom Preston-Werner](https://twitter.com/mojombo)*
 
 Tom Preston-Werner founded [GitHub](https://github.com/) in 2008 with his cofounders Chris Wanstrath, P. J. Hyett, and Scott Chacon. 2008 was a busy year for Tom. Nine months after founding GitHub, in December 2008, he launched Jekyll — a simple, blog-aware, static site generator.
 
@@ -48,11 +46,9 @@ Jekyll's contributions were dwindling in late 2012 and looked like a dormant fut
 
 [*See our introduction to getting started with Jekyll on CloudCannon*](https://cloudcannon.com/community/learn/jekyll-tutorial/getting-started/#introduction).
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/middleman-timeline.svg){: width="600" height="77"}
+## [Middleman](https://middlemanapp.com/)
 
-## [**Middleman**](https://middlemanapp.com/)
-
-*by [Thomas Reynolds](https://github.com/tdreyno)*
+*First released in 2009 by [Thomas Reynolds](https://github.com/tdreyno)*
 
 Thomas Reynolds came to SSGs from a slightly different angle: "I started Middleman basically to make my life building email templates a little more simple and \[DRY\]". While building email templates was Middleman's initial use case, the principles of reducing complexity and repetition made it a popular alternative to Jekyll.
 
@@ -62,11 +58,9 @@ Where Middleman shone was in its consistency and supporting features. While Jeky
 
 Middleman enjoyed success with companies such as Mailchimp, Thoughtbot, and Vox Media. Thoughtbot used Middleman to rapidly spin up small landing page websites for clients. They also used it as their blog platform for a couple of years, driven by the performance of static sites and the improved contribution and review workflows enabled by Git.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/octopress-timeline.svg){: width="600" height="77"}
+## [Octopress](http://octopress.org/)
 
-## **[Octopress](http://octopress.org/)**
-
-*by [Brandon Mathis](https://twitter.com/imathis)*
+*First released in 2009 by [Brandon Mathis](https://twitter.com/imathis)*
 
 Brandon Mathis's story of creating Octopress is a little unusual from the rest of the static site generators for two reasons:
 
@@ -79,11 +73,9 @@ Soon after, Chris Epstein, the creator of [Compass](http://compass-style.org/) a
 
 A few years later, he decided to improve Octopress. He took a few months off work, made the theme nicer, made fancier Rake tasks and plugins, and [released Octopress 2.0](http://octopress.org/2011/07/23/octopress-20-surfaces/). It was swiftly picked up on Hacker News and became one of the top 25 most forked repositories at the time.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/hakyll-timeline.svg){: width="600" height="76"}
+## [Hakyll](https://jaspervdj.be/hakyll/)
 
-## **[Hakyll](https://jaspervdj.be/hakyll/)**
-
-*by [Jasper Van der Jeugt](https://twitter.com/jaspervdj)*
+*First released in 2009 by [Jasper Van der Jeugt](https://twitter.com/jaspervdj)*
 
 In November 2009, Jasper Van der Jeugt set out to create a personal blog. He started researching platforms and found the following as his best options:
 
@@ -106,11 +98,9 @@ Hakyll stands out from its predecessors for two reasons:
 
 These strengths are also Hakyll's weaknesses — if you want a simple SSG to quickly spin up a Markdown blog, this is probably not the SSG for you.
 
-![](https://dam-cdn.cloudcannon.com/blog/uploads/pelican-timeline.svg){: width="600" height="77"}
+## [Pelican](https://blog.getpelican.com/)
 
-## **[Pelican](https://blog.getpelican.com/)**
-
-*by [Alexis Metaireau](https://twitter.com/ametaireau)*
+*First released in 2010 by [Alexis Metaireau](https://twitter.com/ametaireau)*
 
 Pelican wasn't the first Python-based static site generator, but it was the first to gather considerable popularity. Alexis Metaireau created Pelican in November 2010 to scratch his own itch:
 

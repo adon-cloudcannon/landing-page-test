@@ -4,7 +4,7 @@ date: 2019-05-22
 tags:
   - Features
 author: mike-neumegen
-image: https://dam-cdn.cloudcannon.com/blog/uploads/lights.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/lights.jpg
 ---
 At CloudCannon, we're always looking for ways to offload content management from developers and empower editors to make changes themselves. Enabling editors to build their own pages with complex elements such as slideshows, testimonials and call to actions is something we've wanted to support but haven't had a good solution for.
 
@@ -68,11 +68,11 @@ _array_structures:
 
 Editors manage content in Array Structures just like a normal front matter array. They can remove, reorder or edit existing items. The only difference is they have multiple options to add new items to the array:
 
-![Array Structures](https://dam-cdn.cloudcannon.com/blog/blog/assets/blog/array-structures/array-structure.png){: srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/array-structures/array-structure.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/array-structures/array-structure@2x.png 1600w"}
+![Array Structures](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/array-structures/array-structure.png){: srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/array-structures/array-structure.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/array-structures/array-structure@2x.png 1600w"}
 
 Adding a new item copies the `value` from the Array Structure and populates a new item in `page_blocks`. Editors then add their content to the structured interface:
 
-![Add Array](https://dam-cdn.cloudcannon.com/blog/blog/assets/blog/array-structures/new.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/array-structures/new.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/array-structures/new@2x.png 1600w"}
+![Add Array](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/array-structures/new.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/array-structures/new.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/array-structures/new@2x.png 1600w"}
 
 Once saved, the source code for the array contains the various content types:
 

@@ -4,7 +4,7 @@ description: >-
   A hand-picked overview of quality documentation themes for Hugo static site
   generator websites.
 series:
-image: https://dam-cdn.cloudcannon.com/hugo-documentation-themes-image.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-documentation-themes-image.jpg
 date: 2022-05-14T05:00:00+1200
 tags:
   - Hugo
@@ -25,7 +25,7 @@ Docsy's default template includes built-in integration with GitHub, Google Analy
 
 Note: Though Docsy sits within [Google's GitHub account](https://github.com/google), it is not an officially supported Google product. It is, however, actively maintained, and very popular.
 
-![](https://dam-cdn.cloudcannon.com/docsy-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/docsy-hugo-theme-screenshot-1.jpg)
 
 [Download Docsy](https://github.com/google/docsy)<br>[Docsy demo site](https://example.docsy.dev/)<br>​​​​Minimum Hugo version: 0.73<br>GitHub stars: 1.7k<br>License: Apache-2.0
 
@@ -33,7 +33,7 @@ Note: Though Docsy sits within [Google's GitHub account](https://github.com/goog
 
 The Book documentation theme promises docs "as simple as a plain book" — it's a clean and simple design that won't interfere or clash with other layouts. Book also offers simple blog support for section `posts`, and with no initial configuration necessary, Book is a prime candidate for getting Hugo documentation up and running as soon as possible. 
 
-​​​​​​![](https://dam-cdn.cloudcannon.com/book-hugo-theme-screenshot-1.jpg)
+​​​​​​![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/book-hugo-theme-screenshot-1.jpg)
 
 [Download Book](https://github.com/alex-shpak/hugo-book)<br>[Book demo site](https://hugo-book-demo.netlify.app/)<br>​​Minimum Hugo version: 0.43 Extended<br>GitHub stars: 1.8k<br>License: MIT
 
@@ -43,7 +43,7 @@ With automated search, multilingual mode, unlimited menu levels, and automative 
 
 It also features image tools such as resizing and drop shadows, mermaid diagram support (flowchart, sequence, gantt), and has a range of customizable options for your site's look and feel.Learn also has clearly documented instructions for installation and initial setup.
 
-![](https://dam-cdn.cloudcannon.com/learn-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/learn-hugo-theme-screenshot-1.jpg)
 
 [Download Learn](https://github.com/matcornic/hugo-theme-learn)<br>[Learn demo site](https://learn.netlify.app/en/)<br>Minimum Hugo version: 0.25<br>GitHub stars: 1.4k<br>License: MIT
 
@@ -53,7 +53,7 @@ DocuAPI is a multilingual API documentation theme for Hugo created and maintaine
 
  The three-panel layout and optional popout nav bar, along with tabbed language controls for code blocks, provides a beautifully clear and quickly navigable user experience.
 
-![](https://dam-cdn.cloudcannon.com/docuapi-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/docuapi-hugo-theme-screenshot-1.jpg)
 
 [Download DocuAPI](https://github.com/bep/docuapi)<br>[DocuAPI demo site](https://docuapi.netlify.app/)<br>Minimum Hugo version: 0.71<br>GitHub stars: 584<br>License: Apache-2.0
 
@@ -61,9 +61,9 @@ DocuAPI is a multilingual API documentation theme for Hugo created and maintaine
 
 Kube is a beautiful and responsive Hugo the for documentation sites, aimed at both designers and developers. In addition to its documentation section, it offers a landing page and blogging support, meaning users will be able to create fully fledged sites by default.
 
-Based on the [Kube Framework](https://kube7.imperavi.com/), every element in Kube is designed for mobile-first, with responsive design throughout, and is based on a 4px vertical grid. Kube is design-focused with excellent typography, and also supports a range of popular and frequently used features, including rich post data, list pagination, post reading time, block templates, and an accessible table of contents. 
+Based on the Kube Framework, every element in Kube is designed for mobile-first, with responsive design throughout, and is based on a 4px vertical grid. Kube is design-focused with excellent typography, and also supports a range of popular and frequently used features, including rich post data, list pagination, post reading time, block templates, and an accessible table of contents. 
 
-![](https://dam-cdn.cloudcannon.com/kube-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/kube-hugo-theme-screenshot-1.jpg)
 
 [Download Kube](https://github.com/jeblister/kube)<br>[Kube demo site](https://kube.elemnts.net/)<br>Minimum Hugo version: 0.84.1<br>GitHub stars: 367<br>License: MIT
 
@@ -71,7 +71,7 @@ Based on the [Kube Framework](https://kube7.imperavi.com/), every element in Kub
 
 Themefisher's Dot documentation theme is an attractive and user-friendly template for Hugo, with support for contact forms, Google Analytics and multiple languages. 
 
-![](https://dam-cdn.cloudcannon.com/dot-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/dot-hugo-theme-screenshot-1.jpg)
 
 [Download Dot](https://github.com/themefisher/dot-hugo)<br>[Dot demo site](https://demo.gethugothemes.com/dot/)<br>​​​​​Minimum Hugo version: 0.64<br>GitHub stars: 219<br>License: MIT
 
@@ -79,7 +79,7 @@ Themefisher's Dot documentation theme is an attractive and user-friendly templat
 
 A partial port of the Learn theme, docDock comes with two layout styles — Original (more similar to Learn), and 'Flex', as seen below. Every content page within docDock helps compose its menu, shaping the hierarchy of the website itself. And when it comes to search, docDock has you covered — on build it generates a json index file, ready to be consumed by the Lunr JavaScript search engine. 
 
-![](https://dam-cdn.cloudcannon.com/docdock-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/docdock-hugo-theme-screenshot-1.jpg)
 
 [Download docDock](https://github.com/vjeantet/hugo-theme-docdock)<br>[docDock demo site](https://docdock.vjeantet.fr/)<br>​​​​​​Minimum Hugo version: 0.30<br>GitHub stars: 424<br>License: MIT
 
@@ -87,7 +87,7 @@ A partial port of the Learn theme, docDock comes with two layout styles — Orig
 
 Shadocs is a relatively new multilingual documentation theme for Hugo, built on the [Bulma CSS](https://bulma.io/) framework. As its name suggests, its aim is to provide shared documentation with a focus on user navigation — each content page in Shadocs generates its own table of contents associated with titles on the page. Shadocs also supports Mermaid diagrams, importing libraries or third-party code such as SASS files, and as a final touch, QR codes for each page.
 
-![](https://dam-cdn.cloudcannon.com/shadocs-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/shadocs-hugo-theme-screenshot-1.jpg)
 
 [Download Shadocs](https://github.com/jgazeau/shadocs)<br>[Shadocs demo site](https://shadocs.netlify.app/)<br>Minimum Hugo version: 0.71<br>GitHub stars: 10 (but we expect this to climb\!)<br>License: MIT
 
@@ -95,7 +95,7 @@ Shadocs is a relatively new multilingual documentation theme for Hugo, built on 
 
 Eureka is a feature-rich and customizable multilingual Hugo theme, which supports landing pages and blogging. While it's not solely a documentation theme, Eureka has a minimal documentation mode, with an information architecture modelled on chapters and automatic page sidebar navigation based on the page's title headings.
 
-![](https://dam-cdn.cloudcannon.com/eureka-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eureka-hugo-theme-screenshot-1.jpg)
 
 [Download Eureka](https://github.com/wangchucheng/hugo-eureka)<br>[Eureka demo site](https://hugo-eureka.netlify.app/)<br>Minimum Hugo version: 0.74<br>GitHub stars: 642<br>License: Apache-2.0
 
@@ -105,7 +105,7 @@ Doks is an easily customizable Hugo theme for building secure, fast, and SEO-rea
 
 And as an added bonus, Doks supports dark mode, with single-button switch to a (configurable) low-light UI. 
 
-![](https://dam-cdn.cloudcannon.com/doks-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/doks-hugo-theme-screenshot-1.jpg)
 
 [Download Doks](https://github.com/h-enk/doks)<br>[Doks demo site](https://doks.netlify.app/)<br>Minimum Hugo version: 0.80<br>GitHub stars: 952<br>License: MIT
 
@@ -113,7 +113,7 @@ And as an added bonus, Doks supports dark mode, with single-button switch to a (
 
 Whisper is an intentionally minimal documentation theme, with a similar design to a default GitHub readme. It uses SCSS via Hugo Pipelines, and features a responsive menu, and clean typography for all semantic HTML elements. Like Doks, Whisper is built for speed with vanilla JavaScript only, and weighing in at only 21kb without images — all good for a 100/100 Google Lighthouse speed score
 
-![](https://dam-cdn.cloudcannon.com/whisper-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/whisper-hugo-theme-screenshot-1.jpg)
 
 [Download Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme)<br>[Whisper demo site](https://hugo-whisper.netlify.app/)<br>Minimum Hugo version: 0.51+ Extended<br>GitHub stars: 197<br>License: MIT
 
@@ -123,7 +123,7 @@ Geekdoc is another clean and simple theme for your documentation website, built 
 
 For light-sensitive users, Geekdoc's dark mode can be controlled by a toggle switch or respond to users' system preferences. 
 
-![](https://dam-cdn.cloudcannon.com/geekdocs-hugo-theme-screenshot-1.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/geekdocs-hugo-theme-screenshot-1.jpg)
 
 [Download Geekdoc](https://github.com/thegeeklab/hugo-geekdoc)<br>[Geekdoc demo site](https://geekdocs.de/)<br>Minimum Hugo version: 0.83<br>GitHub stars: 309<br>License: MIT
 

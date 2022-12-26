@@ -1,6 +1,6 @@
 ---
 title: Getting set up
-image: https://dam-cdn.cloudcannon.com/community/Tutorial+social+image.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/Tutorial+social+image.png
 breadcrumb_title: Hugo CMS - Get started with CloudCannon
 lead_score: 2
 order: 1
@@ -25,22 +25,22 @@ So you’ve got your Hugo site ready to go in a Git repository? To get it set up
 If you haven’t already, [sign up for CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard) and create a new site with the “use your own files” option.
 
 Enter a site name and select the Git platform your site lives on. If this is your first time using CloudCannon you’ll need to give permission for CloudCannon to access the Git platform.
-![CloudCannon choose file source screenshot](https://dam-cdn.cloudcannon.com/Screen Shot 2022-04-08 at 10.36.22 AM (2).png)
+![CloudCannon choose file source screenshot](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Screen Shot 2022-04-08 at 10.36.22 AM (2).png)
  After confirming your Git platform, a repository field will show which lists all the repositories on your account. Select your site repository from the list:
-![CloudCannon choose git repository screenshot](https://dam-cdn.cloudcannon.com/Screen Shot 2022-04-08 at 10.37.02 AM (2).png)
+![CloudCannon choose git repository screenshot](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Screen Shot 2022-04-08 at 10.37.02 AM (2).png)
  For the branch you’ll likely want to select “use existing”. If you want to try out CloudCannon without impacting your main branch you can select “Create new”. Either way, select or create your branch:
 
 Press “Sync Files” at the bottom right to move onto the next step.
-![CloudCannon branch setup screenshot](https://dam-cdn.cloudcannon.com/Screen Shot 2022-04-08 at 10.37.23 AM (2).png)
+![CloudCannon branch setup screenshot](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Screen Shot 2022-04-08 at 10.37.23 AM (2).png)
  
 ### Building your site
 
 CloudCannon auto-detects your static site generator. If it gets it wrong you can select the correct SSG from the dropdown.
-![CloudCannon site building screenshot](https://dam-cdn.cloudcannon.com/Screen Shot 2022-04-08 at 10.37.52 AM (2).png)
+![CloudCannon site building screenshot](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Screen Shot 2022-04-08 at 10.37.52 AM (2).png)
  From here, enter the necessary build options for your site to match your local build environment. If you have a simple set up, you may not need to enter anything here. If you have a custom source directory or require environment variables for parts of your build, this is the place to enter them.
 
 Once you’re finished click “Build Site”.
 
 If your site builds successfully, you’re ready to go on CloudCannon\! As a side bonus, CloudCannon also provides hosting. You can now access a live preview version (not indexed by search engines) of your site by clicking on the *.cloudvent.net* address at the top left:
-![CloudCannon successful build screenshot](https://dam-cdn.cloudcannon.com/Screen Shot 2022-04-08 at 10.38.36 AM (2).png)
+![CloudCannon successful build screenshot](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Screen Shot 2022-04-08 at 10.38.36 AM (2).png)
  If your site failed to build, you have some debugging work to do. Read the build output to see why it failed, double check your build settings, and try again. You may need to run extra commands before or after your build to get your site in the right state. For example, if you’re using PostCSS you will need to install some npm packages. On CloudCannon you can run extra commands at different points of the build using a build hook. For more information, see [the build hook documentation](https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/). If you can’t figure it out, don’t hesitate to [get in touch with our support team](https://cloudcannon.com/documentation/support/). We’re always here to help.

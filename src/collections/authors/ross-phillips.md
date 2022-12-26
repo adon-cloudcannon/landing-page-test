@@ -1,6 +1,6 @@
 ---
 name: Ross Phillips
 image:
-  path: https://dam-cdn.cloudcannon.com/blog/uploads/ross.jpg
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/ross.jpg
   alt: headshot of Ross smiling
 ---

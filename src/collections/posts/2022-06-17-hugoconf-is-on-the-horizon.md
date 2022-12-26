@@ -4,7 +4,7 @@ description: >-
   HugoConf 2022 is fast approaching, and the team at CloudCannon is excited to
   share our new Hugo tools and workflows with the community.
 series:
-image: https://dam-cdn.cloudcannon.com/hugoconf.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugoconf.jpg
 date: 2022-06-17T05:00:00+1200
 tags:
   - Hugo

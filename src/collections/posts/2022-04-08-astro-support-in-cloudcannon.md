@@ -4,7 +4,7 @@ description: >-
   We’re delighted to announce the launch of our support for Astro within
   CloudCannon’s Git-based CMS.
 series:
-image: https://dam-cdn.cloudcannon.com/astro-blog.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/astro-blog.jpg
 date: 2022-04-08T05:00:00+1200
 tags:
   - Features

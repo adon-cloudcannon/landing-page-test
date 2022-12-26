@@ -131,7 +131,7 @@ A business that supports our website, products and services may be located outsi
 
 If you are located in the European Economic Area (**EEA**), your personal information may be transferred outside of the EEA.  Under the GDPR, the transfer of personal information to a country outside the EEA may take place where the European Commission has decided that the country ensures an adequate level of protection. In the absence of an adequacy decision, we may transfer personal information if other appropriate safeguards are in place.
 
-Where we transfer personal information outside the EEA, it will only be transferred to countries that have been identified as providing adequate protection for EEA data, or to a third party where approved transfer mechanisms are in place to protect your personal information (e.g. by entering into the European Commission’s[Standard Contractual Clauses](https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en)). For further information, please contact at privacy@cloudcannon.com.
+Where we transfer personal information outside the EEA, it will only be transferred to countries that have been identified as providing adequate protection for EEA data, or to a third party where approved transfer mechanisms are in place to protect your personal information (e.g. by entering into the European Commission’s[Standard Contractual Clauses](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en). For further information, please contact at privacy@cloudcannon.com.
 
 Some of the personal information we collect is processed in New Zealand. New Zealand is recognized by the European Commission as a country that has an adequate level of data protection and we rely on this decision in transferring personal information to New Zealand.
 
@@ -288,8 +288,6 @@ To learn more about how to control cookie settings through your browser:
 * click[here](https://support.google.com/chrome/answer/95647?hl=en)to learn more about *Incognito* and managing cookie settings in Chrome
 * click [here](https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies) to learn more about *InPrivate* and managing cookie settings in Internet Explorer
 * click [here](https://support.apple.com/en-nz/guide/safari/browse-in-private-ibrw1069/mac) to learn more about *Private Browsing* and managing cookie settings in Safari.
-
-You may opt out of Matomo Analytics [here](https://cloudcannon.matomo.cloud/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en&amp;backgroundColor=&amp;fontColor=&amp;fontSize=&amp;fontFamily=arial).
 
 *You may opt out of targeted advertising at*[*http://www.youronlinechoices.eu/*](http://www.youronlinechoices.eu/)*. You can learn more about interest-based advertising and opt out of interest-based advertising from participating online advertising companies at the following links.*
 

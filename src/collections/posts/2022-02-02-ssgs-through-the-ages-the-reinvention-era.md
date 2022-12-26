@@ -5,7 +5,7 @@ description: >-
   static site generators challenging some of Jekyll's underlying foundations.
 series: SSGs through the ages
 permalink: /blog/ssg-history-3-reinvention/
-image: /uploads/Explorer-3.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-3_zaafvp.jpg
 date: 2022-02-02T05:00:00.000Z
 tags:
   - Resources
@@ -15,11 +15,9 @@ After [years of recreating and iterating on Jekyll](/blog/ssg-history-2-after-je
 
 We see SSGs doing new things with taxonomies, specialized SSGs that do less, plugin-based SSGs that can do anything. It's a wild period of play and experimentation that pushes the limits of SSGs.
 
-![Pink timeline showing the Hugo logo at year 2012](https://dam-cdn.cloudcannon.com/hugo-timeline.svg){: width="600" height="77"}
+## [Hugo](https://gohugo.io/)
 
-## **[Hugo](https://gohugo.io/)**
-
-*by [Steve Francia](https://github.com/spf13)*
+*First released in 2012 by [Steve Francia](https://github.com/spf13)*
 
 Prior to this point, the majority of SSGs have been about converting Jekyll's functionality into another language. Hugo is a standout in the history of SSGs because it directly addresses some of Jekyll's weaknesses. Most notably:
 
@@ -38,21 +36,17 @@ Hugo has seen success with corporate customers, including [1Password](https://su
 
 *[See our introduction to getting started with Hugo on CloudCannon](https://cloudcannon.com/community/learn/hugo-tutorial/getting-started/#introduction)*.
 
-![Timeline showing Scuplin's logo sitting at year 2012](https://dam-cdn.cloudcannon.com/sculpin-timeline.svg){: width="600" height="77"}
+## [Sculpin](https://sculpin.io/)
 
-## **[Sculpin](https://sculpin.io/)**
-
-*by [Beau Simensen](https://github.com/simensen)*
+*First released in 2012 by [Beau Simensen](https://github.com/simensen)*
 
 Beau Simensen was using Jekyll to create static sites and hit issues he created pull requests to fix. After months of inactivity on his pull requests, he grew frustrated and set out to build a new SSG. Beau had experience in PHP and thought, "Maybe I could rewrite Jekyll in PHP". Symfony's HTTP Kernel SSG could serve as the heart of the SSG, [Composer](https://getcomposer.org/) was making waves as a PHP dependency manager, and Twig was a popular PHP templating language. He had all the building blocks he needed. And so, Sculpin was born.
 
 Sculpin has a similar feature set to Jekyll in that you can blog, there are custom content types (Jekyll's "collections"), layouts, and the ability to extend Sculpin for your own needs.
 
-![Timeline showing Hexo logo places at year 2012](https://dam-cdn.cloudcannon.com/hexo-timeline.svg){: width="600" height="77"}
+## [Hexo](https://hexo.io/)
 
-## **[Hexo](https://hexo.io/)**
-
-*by [Tommy Chen](https://github.com/tommy351)*
+*First released in 2012 by [Tommy Chen](https://github.com/tommy351)*
 
 Tommy Chen was using Octopress on his personal blog and was running into performance issues.
 
@@ -62,11 +56,9 @@ He had been messing around with Node.js, and decided to create a Jekyll-inspired
 
 Hexo wasn't the first JavaScript-based SSG, but it was the first to gain a significant following. It has a similar feature set to Jekyll, a vast number of [themes](https://hexo.io/themes/) and [plugins](https://hexo.io/plugins/), and has the ability for deep customization for those familiar with Node.js.
 
-![Timeline showing the year 2012](https://dam-cdn.cloudcannon.com/harp-timeline.svg){: width="600" height="77"}
+## [Harp](http://harpjs.com/)
 
-## **[Harp](http://harpjs.com/){: target="\_blank" rel="noreferrer noopener"}**
-
-*by [Brock Whitten](https://github.com/sintaxi)*
+*First released in 2012 by [Brock Whitten](https://github.com/sintaxi)*
 
 Coming off the success of creating PhoneGap, a way of building mobile apps with HTML, CSS, and JS, Brock Whitten set to work on a new kind of SSG, Harp.
 
@@ -76,11 +68,9 @@ Harp isn't just a static site generator, either. You can use it to 'compile' or 
 
 Where Harp really shines is in its simplicity. Sure, it doesn't have some of the standard SSG features like front matter and blogging. But, if you don't need those, this is a neat little SSG. You can create Markdown files, wrap them in your HTML layout, and have your Sass automatically build.
 
-![Timeline showing metalsmith logo placed at year 2014](https://dam-cdn.cloudcannon.com/metalsmith-timeline.svg){: width="600" height="77"}
+## [Metalsmith](https://metalsmith.io/)
 
-## **[Metalsmith](https://metalsmith.io/)**
-
-*by [Ian Storm Taylor](https://github.com/ianstormtaylor)*
+*First released in 2014 by [Ian Storm Taylor](https://github.com/ianstormtaylor)*
 
 In 2011, Ian Storm Taylor cofounded [Segment](https://segment.com/), a customer data platform that helps collect, clean, and control customer data. Years later, he created the SSG Metalsmith, which he used to power the Segment technical documentation. Just this week, after a 5-year maintenance mode break, [Kevin Van Lierde](https://github.com/webketje) took over as lead developer and maintainer, and [shared his roadmap](https://www.metalsmith.io/news/2022-01-27/metalsmith-is-back/) for future features and patches.
 
@@ -88,11 +78,9 @@ In some ways, Metalsmith is one of the simplest SSGs. The entire codebase is und
 
 Metalsmith isn't just restricted to HTML-based websites either; on their website they have workflows for creating ebooks, building assets, and project scaffolding.
 
-![Timeline with Zola logo at year 2015](https://dam-cdn.cloudcannon.com/zola-timeline.svg){: width="600" height="77"}
+## [Zola](https://www.getzola.org/)
 
-## **[Zola](https://www.getzola.org/)**
-
-*by [Vincent Prouillet](https://github.com/Keats)*
+*First released in 2015 by [Vincent Prouillet](https://github.com/Keats)*
 
 Vincent gets straight to the point in his announcement of 'Gutenberg' (later [renamed](https://github.com/getzola/zola/issues/377) to Zola).
 

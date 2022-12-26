@@ -4,11 +4,11 @@ date: 2016-08-31T14:02:00+1200
 tags:
   - Features
 author: ross-phillips
-image: https://dam-cdn.cloudcannon.com/blog/uploads/blog-colourful-fireworks.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-colourful-fireworks.jpg
 ---
 Today marks a huge milestone for CloudCannon. We've finished the Jekyll beta, making Jekyll and plugins available to all users on every plan. The latest release also includes some requested features and more Jekyll configuration.
 
-![CloudCannon and Jekyll logos](https://dam-cdn.cloudcannon.com/blog/assets/blog/officially-out-of-jekyll-beta/logos.png){: srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/officially-out-of-jekyll-beta/logos.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/officially-out-of-jekyll-beta/logos@2x.png 1600w"}
+![CloudCannon and Jekyll logos](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/officially-out-of-jekyll-beta/logos.png){: srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/officially-out-of-jekyll-beta/logos.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/officially-out-of-jekyll-beta/logos@2x.png 1600w"}
 
 ---
 
@@ -39,7 +39,7 @@ The most notable options are `baseurl`, `source`, and Jekyll's other custom dire
 *settings*{: .material-icons} [Full documentation for build configuration](/documentation/build/setup/configuration/)
 {: .list-item-with-icon}
 
-![Site Settings Build Interface](https://dam-cdn.cloudcannon.com/blog/assets/blog/officially-out-of-jekyll-beta/configuration.png){: .screenshot srcset="https://dam-cdn.cloudcannon.com/blog/assets/blog/officially-out-of-jekyll-beta/configuration.png 800w, https://dam-cdn.cloudcannon.com/blog/assets/blog/officially-out-of-jekyll-beta/configuration@2x.png 1600w"}
+![Site Settings Build Interface](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/officially-out-of-jekyll-beta/configuration.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/officially-out-of-jekyll-beta/configuration.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/officially-out-of-jekyll-beta/configuration@2x.png 1600w"}
 
 ---
 
@@ -55,7 +55,7 @@ For those of you battling targeted spam email, we've added Google reCAPTCHA supp
 *email*{: .material-icons} [Full documentation for contact forms](https://docs.cloudcannon.com/hosting/contact-forms/)
 {: .list-item-with-icon}
 
-![reCAPTCHA Example](https://dam-cdn.cloudcannon.com/blog/assets/blog/officially-out-of-jekyll-beta/captcha.gif)
+![reCAPTCHA Example](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/officially-out-of-jekyll-beta/captcha.gif)
 
 ---
 

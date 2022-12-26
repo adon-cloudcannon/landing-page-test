@@ -3,7 +3,7 @@ title: Choosing a static site generator with zero experience
 description: >-
   Choosing a static site generator that will work for you, without all that
   pesky 'developer knowledge'.
-image: https://dam-cdn.cloudcannon.com/blog/choosing-ssg-beginner.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/choosing-ssg-beginner.jpg
 date: 2021-09-02T05:00:00+1200
 tags:
   - Resources
@@ -29,7 +29,7 @@ But before I get anywhere near there, I've got one more decision to make.
 
 [Jamstack.org currently lists 333 SSGs](https://jamstack.org/generators/), and that number seems to increase weekly. Rather than be paralyzed by choice I’ll select from three of the most commonly recommended for general use cases: [Hugo](https://cloudcannon.com/hugo-cms/), [Jekyll](https://cloudcannon.com/jekyll-cms/) and [Eleventy](https://cloudcannon.com/eleventy-cms/) (11ty). I've included a some data below (graph courtesy of [GitHub Statistics](https://vesoft-inc.github.io/github-statistics/)) showing the commit activity in each; you can also check out their [relative growth in GitHub stars](https://star-history.t9t.io/#jekyll/jekyll&amp;gohugoio/hugo&amp;11ty/eleventy).
 
-![](https://dam-cdn.cloudcannon.com/blog/commits.png){: width="2350" height="1422"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/commits.png){: width="2350" height="1422"}
 
 You can further compare these three in your own time, and for your own specific use case, but a basic breakdown follows, based on a beginner's scans of their sites and general (mostly Twitter) chat around them:
 

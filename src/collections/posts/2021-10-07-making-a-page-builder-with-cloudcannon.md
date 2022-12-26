@@ -3,7 +3,7 @@ title: Making a Page Builder with CloudCannon
 description: >-
   Learn how to give content editors the ability to visually build pages, manage,
   and rearrange content.
-image: https://dam-cdn.cloudcannon.com/blog/page-builder.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/page-builder.jpg
 date: 2021-10-07T05:00:00+1300
 tags:
   - Resources

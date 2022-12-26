@@ -7,14 +7,14 @@ description: Lumina uses CloudCannon to give developers a straightforward setup 
 categories:
   - Agency
 image: 
-  path: https://dam-cdn.cloudcannon.com/marketing/uploads/lumina-card-1.png
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/lumina-card-1.png
   alt: Lumina Web Solutions logo
-logo: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina%281%29.png
+logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/lumina.png
 person:
   name: Viv Bakkarat
   position: Owner and Developer
   image: 
-    path: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-profile-small.png
+    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/lumina/lumina-profile-small.png
     alt: Viv Bakkarat
 date: 2021-02-26 12:37:00
 ---
@@ -25,7 +25,7 @@ using the right tools for their needs.
 
 > You’re not tied to a proprietary system where if the whole thing goes down then that's it.
 
-![Image of an iMac showing Lumina's website](https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-img1.png)
+![Image of an iMac showing Lumina's website](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/lumina/lumina-img1.png)
 
 ## Veterinarian to web veteran
 
@@ -51,7 +51,7 @@ themselves.
 
 > I can pull a site down on and run it on Jekyll on my local machine and it is a relatively straightforward process. For me that’s magic. I really like the fact that I have that control.
 
-![Image of a mobile phone showing Lumina's works page](https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/lumina/lumina-img2.png)
+![Image of a mobile phone showing Lumina's works page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/lumina/lumina-img2.png)
 
 ## Support that understands Lumina’s needs
 

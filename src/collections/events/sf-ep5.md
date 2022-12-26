@@ -3,7 +3,7 @@ title: Whiteboard the Web and Astro
 date: 2022-11-28
 upcoming: true 
 image:
-  path: https://dam-cdn.cloudcannon.com/SF-Ep5-ben-pre.jpg
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/SF-Ep5-ben-pre.jpg
   alt: >-
     Blue banner with Static Feedback logo and image of event speaker, Ben
     Holmes. 

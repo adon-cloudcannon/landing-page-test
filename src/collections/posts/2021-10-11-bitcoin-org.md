@@ -1,6 +1,6 @@
 ---
 title: 'Deconstruction: How Bitcoin.org uses Jekyll to power their marketing site'
-image: https://dam-cdn.cloudcannon.com/blog/uploads/bitcoin-desktop.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/bitcoin-desktop.png
 permalink: /blog/showcase-bitcoin-org/
 date: 2021-10-11T13:00:00+1300
 description: >-
@@ -15,12 +15,12 @@ Bitcoin is a cryptocurrency created in 2008 by a mysterious person or group by t
 
 With such a large amount of wealth and people involved with the network, Bitcoin needs a website with comprehensive information for everyone, including individuals, miners, and software developers. The problem with an online presence for Bitcoin is no one owns the network, so there can't be an "official" website. The closest we have is [Bitcoin.org](http://bitcoin.org) which provides high-quality content for the community.
 
-![Bitcoin landing page](https://dam-cdn.cloudcannon.com/blog/uploads/bitcoin-homepage.png)
+![Bitcoin landing page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/bitcoin-homepage.png)
  
 ## Blog
 
 The site has a blog with the latest news, arranged in alternating left/right blocks.
-![Ruby on Rails landing page](https://dam-cdn.cloudcannon.com/blog/uploads/bitcoin-blog.png)
+![Ruby on Rails landing page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/bitcoin-blog.png)
  The left/right blocks are a neat way to organize posts I haven't seen before. The implementation is actually super straight forward. The posts output in a list:
 
 {% raw %}
@@ -253,9 +253,9 @@ It's similar to a strategy to a translation engine we've built at CloudCannon ca
 ## Wallets
 
 Selecting a digital wallet to store your Bitcoin can be overwhelming with the number of options available. The [bitcoin.org](http://bitcoin.org/) site has an interactive questionnaire to help you find the perfect Wallet.
-![bitcoin.org, Wallet page](https://dam-cdn.cloudcannon.com/blog/uploads/bitcoin-wallet.png)
+![bitcoin.org, Wallet page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/bitcoin-wallet.png)
  It's well designed and easy to use. Filling this out takes you to a table of wallets matching your criteria:
-![Wallet page, table of wallets matching your criteria selected](https://dam-cdn.cloudcannon.com/blog/uploads/bitcoin-wallet2.png)
+![Wallet page, table of wallets matching your criteria selected](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/bitcoin-wallet2.png)
  The data for the wallets comes from a Jekyll collection. Here's the document for the Wasabi Wallet:
 
 ```yaml
@@ -301,7 +301,7 @@ platform:
 If you haven't seen the anchor and alias syntax in YAML before, it's a great way to keep your YAML files DRY. In this example `&DEFAULT` defines an anchor, `*DEFAULT` refers to an anchor and essentially replaces the value with the anchor when it's parsed.
 
 Each Wallet has its own page with in-depth information.
-![Wasabit wallet page](https://dam-cdn.cloudcannon.com/blog/uploads/bitcoin-wasabi-wallet.png)
+![Wasabit wallet page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/bitcoin-wasabi-wallet.png)
  There's a plugin which generates these pages:
 
 ```ruby

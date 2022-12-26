@@ -1,6 +1,6 @@
 ---
 name: Ryan Collins
 image:
-  path: https://dam-cdn.cloudcannon.com/blog/uploads/ryan-headshot.jpg
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/ryan-headshot.jpg
   alt: headshot of Ryan smiling
 ---

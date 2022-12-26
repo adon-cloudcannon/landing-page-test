@@ -1,6 +1,6 @@
 ---
 title: Getting set up in SvelteKit
-image: https://dam-cdn.cloudcannon.com/tutorial-sveltekit.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/tutorial-sveltekit.png
 breadcrumb_title: SvelteKit beginner tutorial
 order: 1
 tutorial: sveltekit-beginner-tutorial-series
@@ -32,7 +32,7 @@ npm init svelte my-first-svelte-app
 ```
 
 This will prompt you to select an app template. Let’s use “Skeleton project”.
-![Screenshot showing Svelte app templates](https://dam-cdn.cloudcannon.com/sveltekit skeleton.jpg)
+![Screenshot showing Svelte app templates](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/sveltekit_skeleton.jpg)
  Answer the rest of the questions with ‘no’.
 
 Svelte has set up the skeleton code for our first Svelte app. Let’s take a look. First `cd` into the directory:

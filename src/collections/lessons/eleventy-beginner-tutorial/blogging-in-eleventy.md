@@ -1,6 +1,6 @@
 ---
 title: Blogging in Eleventy
-image: https://dam-cdn.cloudcannon.com/eleventy-beginner-tutorial-5-blogging.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy-beginner-tutorial-5-blogging.png
 order: 5
 tutorial: eleventy-beginner-guide
 description: Learn how to use Liquid templating to create a blog with Eleventy.

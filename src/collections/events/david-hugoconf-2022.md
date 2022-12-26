@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://dam-cdn.cloudcannon.com/HugoConf-DavidsTalk.jpg
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/HugoConf-DavidsTalk.jpg
   alt: >-
     Black background image with picture of speaker, David Large
 date: 2022-07-08

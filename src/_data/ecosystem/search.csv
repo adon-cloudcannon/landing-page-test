@@ -1,11 +1,11 @@
 Name,URL,Image,Open source,Analytics,AI tech,A/B testing,Integrations,Custom ranking,Languages,Free option
-Algolia,https://www.algolia.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/algolia-fav.jpg,0,1,1,1,1,1,Agnostic,1
-DocSearch,https://docsearch.algolia.com/docs/faq,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/docsearch-fav.jpg,1,1,0,0,0,0,Agnostic,1
-Elastic,https://www.elastic.co/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/elastic-fav.jpg,0,1,1,0,1,1,Agnostic,0
-Expertrec,https://www.expertrec.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/experttrec-fav.jpg,0,0,0,0,1,0,Agnostic,0
-Hugo Search Index,https://www.npmjs.com/package/hugo-search-index,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/hugosearchindex-fav.jpg,1,0,0,0,0,0,Hugo,0
-Lunr,https://lunrjs.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/lunr-fav.jpg,1,0,0,0,0,0,JavaScript,1
-Pagefind,https://pagefind.app,https://dam-cdn.cloudcannon.com/pagefind.jpg,1,0,0,0,0,0,Agnostic,1
-Programmable Search Engine,https://programmablesearchengine.google.com/about/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/googlesearch-fav.jpg,0,0,0,0,0,0,Agnostic,1
-Simple-Jekyll-Search,https://github.com/christian-fei/Simple-Jekyll-Search,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/simplejekyllsearch-fav.jpg,1,0,0,0,0,0,Jekyll,0
-Swiftype,https://swiftype.com/,https://dam-cdn.cloudcannon.com/community/assets/ecosystem/search/swifttype-fav.jpg,0,1,1,0,1,1,Agnostic,0
+Algolia,https://www.algolia.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/algolia-fav.jpg,0,1,1,1,1,1,Agnostic,1
+DocSearch,https://docsearch.algolia.com/docs/faq,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/docsearch-fav.jpg,1,1,0,0,0,0,Agnostic,1
+Elastic,https://www.elastic.co/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/elastic-fav.jpg,0,1,1,0,1,1,Agnostic,0
+Expertrec,https://www.expertrec.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/experttrec-fav.jpg,0,0,0,0,1,0,Agnostic,0
+Hugo Search Index,https://www.npmjs.com/package/hugo-search-index,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/hugosearchindex-fav.jpg,1,0,0,0,0,0,Hugo,0
+Lunr,https://lunrjs.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/lunr-fav.jpg,1,0,0,0,0,0,JavaScript,1
+Pagefind,https://pagefind.app,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/pagefind.jpg,1,0,0,0,0,0,Agnostic,1
+Programmable Search Engine,https://programmablesearchengine.google.com/about/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/googlesearch-fav.jpg,0,0,0,0,0,0,Agnostic,1
+Simple-Jekyll-Search,https://github.com/christian-fei/Simple-Jekyll-Search,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/simplejekyllsearch-fav.jpg,1,0,0,0,0,0,Jekyll,0
+Swiftype,https://swiftype.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/search/swifttype-fav.jpg,0,1,1,0,1,1,Agnostic,0

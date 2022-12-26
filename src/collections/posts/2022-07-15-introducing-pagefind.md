@@ -4,7 +4,7 @@ description: >-
   Pagefind is an open-source tool that adds search to static websites without
   hosting any infrastructure, while respecting your users’ bandwidth.
 series:
-image: https://dam-cdn.cloudcannon.com/introducing-pagefind.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/introducing-pagefind.jpg
 date: 2022-07-15T17:00:00.000Z
 tags:
   - Resources
@@ -14,7 +14,7 @@ We’re delighted to launch Pagefind, an open-source tool that adds search to yo
 
 At CloudCannon, we firmly believe there are very few challenges that should block the path to static site adoption, and we’re constantly working to make that journey as joyful as possible for everyone with a presence on the web.
 
-Our [SSGs through the ages](https://cloudcannon.comhttps://cloudcannon.com/blog/ssg-history-1-before-jekyll/) series delves into the history of this space, and one of the trends that we’re seeing is larger and larger projects migrating to static websites, helped in part by the efficiency of static site generators like Hugo. We build many such sites for ourselves — the [CloudCannon documentation](https://cloudcannon.com/documentation/) is nothing to sneeze at — as well as for our Enterprise partners, and our customers build yet more on our platform every day. As this scale continues to increase, we find ourselves encountering new and interesting challenges. In the past we have released open-source tools for [component-driven development](https://github.com/CloudCannon/bookshop), [internationalization](https://github.com/CloudCannon/rosey), [pagination](https://github.com/CloudCannon/pagebreak) and [portability](https://github.com/CloudCannon/reseed). Now, we have our sights set on search.
+Our [SSGs through the ages](https://cloudcannon.com/blog/ssg-history-1-before-jekyll/) series delves into the history of this space, and one of the trends that we’re seeing is larger and larger projects migrating to static websites, helped in part by the efficiency of static site generators like Hugo. We build many such sites for ourselves — the [CloudCannon documentation](https://cloudcannon.com/documentation/) is nothing to sneeze at — as well as for our Enterprise partners, and our customers build yet more on our platform every day. As this scale continues to increase, we find ourselves encountering new and interesting challenges. In the past we have released open-source tools for [component-driven development](https://github.com/CloudCannon/bookshop), [internationalization](https://github.com/CloudCannon/rosey), [pagination](https://github.com/CloudCannon/pagebreak) and [portability](https://github.com/CloudCannon/reseed). Now, we have our sights set on search.
 
 ## The Problem
 

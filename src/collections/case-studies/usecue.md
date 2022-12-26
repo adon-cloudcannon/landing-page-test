@@ -7,14 +7,14 @@ description: Usecue finds that CloudCannon gives them greater control over conte
 categories:
   - Agency
 image: 
-  path: https://dam-cdn.cloudcannon.com/marketing/uploads/usecue-card.png
+  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/usecue-card.png
   alt: Usecue logo
-logo: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/usecue-logo.png
+logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/usecue-logo.png
 person:
   name:  Joost van der Schee
   position: Owner and operator
   image: 
-    path: https://dam-cdn.cloudcannon.com/marketing/uploads/case-study/joost.jpg
+    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/joost.jpg
     alt: Joost van der Schee
 date: 2021-03-26 12:37:00
 ---
@@ -26,7 +26,7 @@ based on false promises.
 
 > Time is really expensive. With WordPress I was spending a lot of time reviewing and managing plugins. Switching to CloudCannon has meant I no longer need to spend as much time managing my clients' sites and can focus on development.
 
-![Image of an iMac showing Usecue website](https://dam-cdn.cloudcannon.com/marketing/uploads/usecue-scene-1.png)
+![Image of an iMac showing Usecue website](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/usecue-scene-1.png)
 
 ## Increasing demands require greater adaptation
 
@@ -42,7 +42,7 @@ manage a single site. But with increasing demand, changes, and management
 needs, the cracks in an aging ecosystem slowly made it apparent that it is
 less than optimal for his flourishing business's needs.
 
-![Image of a tablet showing a case study in Usecue's website](https://dam-cdn.cloudcannon.com/marketing/uploads/usecue-scene-2.png)
+![Image of a tablet showing a case study in Usecue's website](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/usecue-scene-2.png)
 
 ## Legacy issues: security, maintenance, and high costs
 
@@ -70,7 +70,7 @@ around allowing collaboration with less tech-savvy people.
 
 > I'm a developer. With CloudCannon, I do what I do best - develop - and then offload it to whoever wants to use it, without needing to look at it anymore.
 
-![Image of a mobile phone  showing Usecue's blog page](https://dam-cdn.cloudcannon.com/marketing/uploads/usecue-scene-3.png)
+![Image of a mobile phone  showing Usecue's blog page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/usecue-scene-3.png)
 
 ## An all-in-one solution for modern static sites
 
@@ -105,7 +105,7 @@ fill out, without him needing to be involved at all.
 
 > I think one thing was the risk of being responsible for all these minor issues, which I wanted to offload, but which cost me a lot of money. And then I found CloudCannon, and it fit the problem.
 
-![Image of a laptop showing a blog article from Usecue's website](https://dam-cdn.cloudcannon.com/marketing/uploads/usecue-scene-4.png)
+![Image of a laptop showing a blog article from Usecue's website](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/usecue-scene-4.png)
 
 ## Joost and CloudCannon together
 

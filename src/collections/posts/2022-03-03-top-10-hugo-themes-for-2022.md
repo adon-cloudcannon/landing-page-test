@@ -5,7 +5,7 @@ description: >-
   help you get started with your latest build as quickly as possible (and with
   Hugo, that’s pretty quick).
 series:
-image: /uploads/top-ten-hugo-themes-2022.jpeg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/top-ten-hugo-themes-2022_swh5g8.jpg
 date: 2022-03-03T05:00:00+1300
 tags:
   - Hugo
@@ -28,7 +28,7 @@ To help speed your decision further, we’ve divided up the Hugo themes below in
 
 A single-page website solution, Scroll lets you set up and maintain a web presence for basic personal, social, or ) information, without worrying about sections or taxonomies. Scroll would be a great theme for a job hunter wanting to establish a simple and attractive resume site.
 
-![](https://dam-cdn.cloudcannon.com/scroll-screenshot.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/scroll-screenshot.png)
 
 ​​Scroll's key features:
 
@@ -40,7 +40,7 @@ A single-page website solution, Scroll lets you set up and maintain a web presen
 
 A super clean and responsive Hugo theme based on [Paper](https://github.com/nanxiaobei/hugo-paper), PaperMod is incredibly popular, and with good reason\! It’s optimized for UX, meaning easy reading regardless of light/dark mode preference — ideal for getting your message across to the widest possible audience.
 
-![](https://dam-cdn.cloudcannon.com/papermod-screenshot.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/papermod-screenshot.png)
 
 PaperMod's key features:
 
@@ -54,7 +54,7 @@ PaperMod's key features:
 
 Sure, this one isn’t just a blog theme, but quite aside from the default business-centric layout, Hydra’s blog section allows for a clean browsing and reading experience. Author bio blocks are a welcome addition for multi-author blogs, or solo writers who wish to include an up-to-date message at the end of each post.
 
-![](https://dam-cdn.cloudcannon.com/hydra-screenshot.jpeg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hydra-screenshot.jpeg)
 
 Hydra's key features:
 
@@ -69,7 +69,7 @@ Hydra's key features:
 
 Elate is a single-page portfolio theme ported to Hugo from the [original Bootstrap HTML5 theme](https://freehtml5.co/elate-free-html5-bootstrap-template/) by Pieter Saey. It features a smooth parallax and animation effect on sections, a responsive portfolio grid, and a contact form.
 
-![](https://dam-cdn.cloudcannon.com/elate-screenshot.jpg)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/elate-screenshot.jpg)
 
 Elate's key features:
 
@@ -81,7 +81,7 @@ Elate's key features:
 
 Showfolio is a Hugo theme for technically inclined job hunters, with a modern, fun aesthetic. The blog section itself, complete with snippet view, is particularly well designed for readers. And the front-page Codepen embeds are perfect for showing off recent projects and new code experiments to prospective employers.
 
-![](https://dam-cdn.cloudcannon.com/showfolio-screenshot.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/showfolio-screenshot.png)
 
 Showfolio's key features:
 
@@ -96,7 +96,7 @@ Showfolio's key features:
 
 A simple e-commerce theme with easy SnipCart integration, Fur is ideal for either a business's first foray into e-commerce or an existing storefront wanting a performance boost. With CloudCannon's editing capabilities built in, even non-technical business owners will be able to update products, prices, and any other content.
 
-![](/blog/uploads/fur-screenshot.jpeg){: width="960" height="600"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/v1671670650/fur-screenshot_b4seuy.jpg
 
 Fur's key features:
 
@@ -110,7 +110,7 @@ Fur's key features:
 
 Docsy is an intuitive and clean theme for technical documentation sets, providing clear organization, easy navigation, site structure, and even an optional blog section. 
 
-![](https://dam-cdn.cloudcannon.com/docsy-screenshot.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/docsy-screenshot.png)
 
 Docsy's key features:
 
@@ -124,7 +124,7 @@ Docsy's key features:
 
 Fiction is a modern business template made with the Bootstrap CSS framework. It was designed by [Themefisher](https://themefisher.com/), and the components have been converted to Bookshop, allowing live rendering editing and component browsing. 
 
-![](https://dam-cdn.cloudcannon.com/fiction-portfolio-resized.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/fiction-portfolio-resized.png)
 
  
 
@@ -143,7 +143,7 @@ Fiction's key features:
 
 Megakit is a business-style template with drop-down navigation, blog, a wide range of components and best of all, a clean design that can be adjusted to suit your needs. It was designed by [Themefisher](https://themefisher.com/) as a Bootstrap theme, and was adapted for Hugo and Bookshop, enabling live rendering editing on the page.
 
-![](https://dam-cdn.cloudcannon.com/_screenshot.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/_screenshot.png)
 
 Megakit's key features:
 
@@ -157,7 +157,7 @@ Megakit's key features:
 
 Justice is, by default, a law firm-themed template, but can be easily modified to fit any local business. This clean layout can easily be adjusted to fit any client’s branding, and integrates natively with CloudCannon's collaborative CMS for intuitive and lightning-fast visual editing.
 
-![](/blog/uploads/justice-screenshot.jpeg){: width="960" height="600"}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/justice-screenshot_omuupy.jpg)
 
 Justice's key features:
 

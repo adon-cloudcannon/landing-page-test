@@ -5,7 +5,7 @@ description: >-
   editing experience that brings collaborative WYSIWYG editing to MkDocs’ build
   flow, all in a matter of minutes.
 series:
-image: https://dam-cdn.cloudcannon.com/mkdocs-blog-hero.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/mkdocs-blog-hero.jpg
 date: 2022-04-14T05:00:00+1200
 tags:
   - Mkdocs

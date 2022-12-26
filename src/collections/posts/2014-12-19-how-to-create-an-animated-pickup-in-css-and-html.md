@@ -4,7 +4,7 @@ date: 2014-12-19
 author: george-phillips
 tags:
   - Resources
-image: https://dam-cdn.cloudcannon.com/blog/uploads/blog-long-outdoor-road.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-long-outdoor-road.jpg
 ---
 
 This week I came across the [7mml](http://7mml.org/) website and I loved the loaded symbol. An animated car with a scrolling background. It was rather sluggish so I looked at how it was built. It was actually built using a large background image with JavaScript changing the background position.
@@ -13,7 +13,7 @@ This week I came across the [7mml](http://7mml.org/) website and I loved the loa
 
 I am going to rebuild the car/pickup in HTML, SVG and CSS. I was going to build it all in CSS but as it is a complicated shape SVG is probably better. Here's my version:
 
-<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/truck-under.svg" /><div class="shine"> </div> <img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="/assets/blog/truck-frame.svg" /></div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div><div class="shadow"> </div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
+<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/truck-under.svg" /><div class="shine"> </div> <img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="/assets/blog/truck-frame.svg" /></div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div><div class="shadow"> </div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
 
 ```html
 <div class="truck">
@@ -38,7 +38,7 @@ Let's break it down.
 
 I started building the car using just HTML and CSS so theses are circles built using border-radius. I used the :before and :after pseudo-elements too for the inner circles. You may be asking "Why did you not use a border on the inner circle?" - if I used border I would not be able to use percentage widths. Then I added an infinite spin animation which works well because of the slightly inconsistent size;
 
-<div class="truck-container"><div class="truck"><div class="body" style="visibility: hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg" /></div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="visibility: hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/assets/blog/truck-frame.svg" /></div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
 
 ```css
 @keyframes spin {
@@ -93,9 +93,9 @@ I started building the car using just HTML and CSS so theses are circles built u
 
 I started building the body with HTML elements and CSS but felt I was using the wrong tool for the job. I decided to use SVG instead. There are actually two assets to be exact and I overlay one on the other with a slight rotation and vertical transition to give it a bit of character.
 
-<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-under.svg" /></div></div></div>
+<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" class="frame" src="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/truck-under.svg" /></div></div></div>
 
-<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg" /></div></div></div>
+<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/assets/blog/truck-frame.svg" /></div></div></div>
 
 ```css
 @keyframes bobbing {
@@ -173,7 +173,7 @@ This uses the same effect as the [Facebook content placeholder](http://cloudcann
 
 These are simple shrinking and growing divs.
 
-<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg" /></div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden"><img alt="illustration of white truck frame used for animating" width="500" height="136" class="frame" src="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/truck-frame.svg" /></div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div></div></div>
 
 ```css
 @keyframes thingy {
@@ -215,7 +215,7 @@ These are simple shrinking and growing divs.
 
 This makes the bobbing effect seem more realistic and shows a platform for the wheels to sit on. We want it to stay still at the front so we change the transform origin to the front. Once that's done we scale it ever so slightly with timing to match the body.
 
-<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden">&lt;img src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="shadow"> </div></div></div>
+<div class="truck-container"><div class="truck"><div class="body" style="visibility:hidden">&lt;img src="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="shadow"> </div></div></div>
 
 ```css
 @keyframes shadow {
@@ -241,7 +241,7 @@ This makes the bobbing effect seem more realistic and shows a platform for the w
 
 ### All Together Again
 
-<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://dam-cdn.cloudcannon.com/blog/assets/blog/assets/blog/truck-under.svg" /><div class="shine"> </div> &lt;img src="/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div><div class="shadow"> </div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
+<div class="truck-container"><div class="truck"><div class="body"><img alt="illustration of white truck used for animating" width="500" height="136" src="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/assets/blog/truck-under.svg" /><div class="shine"> </div> &lt;img src="/assets/blog/truck-frame.svg"alt="illustration of white truck frame used for animating" width="500" height="136" class="frame"&gt;</div><div class="speed-thingy"> </div><div class="speed-thingy second"> </div><div class="shadow"> </div><div class="wheel back"> </div><div class="wheel front"> </div></div></div>
 
 ## Why would I ever use this?
 

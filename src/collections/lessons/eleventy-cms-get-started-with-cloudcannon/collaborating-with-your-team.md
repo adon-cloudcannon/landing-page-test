@@ -1,6 +1,6 @@
 ---
 title: Collaborating with your team
-image: https://dam-cdn.cloudcannon.com/eleventy-cloudcannon-tutorial-social.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy-cloudcannon-tutorial-social.png
 order: 5
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: An overview of collaborating with your team using CloudCannon.

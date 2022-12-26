@@ -5,7 +5,7 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
-image: https://dam-cdn.cloudcannon.com/blog/uploads/Shoes.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/Shoes.jpg
 ---
 There's a huge ecosystem of plugins and add-ons available for any CMS. In this comparison we'll be using the content management systems straight out of the box to reduce the complexity and time to get the sites live.
 
@@ -31,15 +31,15 @@ You can see the static site I started each integration with [here](https://githu
 
 The home page lists all the blog posts.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/uploads/versions/home---x----900-563x---.jpg){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/uploads/versions/home---x----900-563x---.jpg){: .screenshot}
 
 There's an about page.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/uploads/versions/screen-shot-2015-09-23-at-2.40.19-pm---x----900-563x---.jpg){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/uploads/versions/screen-shot-2015-09-23-at-2.40.19-pm---x----900-563x---.jpg){: .screenshot}
 
 And a page to view a blog post.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/uploads/versions/screen-shot-2015-09-23-at-2.38.07-pm---x----900-563x---.jpg){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/uploads/versions/screen-shot-2015-09-23-at-2.38.07-pm---x----900-563x---.jpg){: .screenshot}
 
 In this scenario I'm a web designer making a website for a non-technical client. The client needs to update the about page and manage their blog without touching any code.
 
@@ -51,7 +51,7 @@ In this scenario I'm a web designer making a website for a non-technical client.
 
 I'm on Mac OS X so I decided to use [MAMP](https://www.mamp.info/en/) to set up my PHP environment. After a 240MB download I had a full PHP and MySQL environment. Next, I downloaded Drupal 7, unzipped it to the `htdocs` directory inside MAMP and loaded the quick installer in my browser.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/uploads/versions/drupal---x----900-563x---.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/uploads/versions/drupal---x----900-563x---.png){: .screenshot}
 
 The quick install involved configuring the database and other site settings for my site.
 
@@ -164,7 +164,7 @@ It took me a long time and a lot of reading to figure out which files to edit or
 
 The other gotcha is each time I made an update to the template I would have to go into the Drupal admin panel to clear the cache before I could see the changes:
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/uploads/versions/screen-shot-2015-09-23-at-3.05.30-pm---x----900-563x---.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/uploads/versions/screen-shot-2015-09-23-at-3.05.30-pm---x----900-563x---.png){: .screenshot}
 
 [Source for Drupal Theme](https://github.com/CloudCannon/Drupal-material-theme)
 
@@ -243,11 +243,11 @@ Overall using SiteGround saved me a lot of time as I didn't have to set up an en
 
 I used [CloudCannon](http://cloudcannon.com) to deploy and host the Jekyll site. To do this I created a GitHub repository with my source files, then connected that repository to a new site in CloudCannon.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/connect-github.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/connect-github.png){: .screenshot}
 
 The files sync to CloudCannon and are live on a generated testing domain.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/file-browser.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/file-browser.png){: .screenshot}
 
 All the content is in the files so there is no database.
 
@@ -259,33 +259,33 @@ All the content is in the files so there is no database.
 
 To update content in Drupal you use the admin panel. You can see existing articles and pages.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/content.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/content.png){: .screenshot}
 
 Update content using a text area.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/update-content.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/update-content.png){: .screenshot}
 
 And you can update other metadata.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/update-content-2.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/update-content-2.png){: .screenshot}
 
 ### Jekyll
 
 In CloudCannon, editing is inline. You can update content on the about page by clicking and entering new content.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/cc-edit.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/cc-edit.png){: .screenshot}
 
 Going to the collections view displays all the blog posts.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/cc-edit-blog-list.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/cc-edit-blog-list.png){: .screenshot}
 
 You write and update blog posts in a simple editor.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/cc-edit-blog.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/cc-edit-blog.png){: .screenshot}
 
 Update front matter in the settings sidebar.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/cc-edit-frontmatter.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/cc-edit-frontmatter.png){: .screenshot}
 
 All changes made on CloudCannon are committed back to the repository so I can work on the site locally in tandem.
 
@@ -297,7 +297,7 @@ All changes made on CloudCannon are committed back to the repository so I can wo
 
 I had the following cache settings turned on and loaded the page several times to ensure everything was cached properly.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/drupal-speed.png){: .screenshot}
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/drupal-speed.png){: .screenshot}
 
 For a further speed increase, one of our readers suggested using the [Boost module](https://www.drupal.org/project/boost).
 
@@ -307,9 +307,9 @@ CloudCannon serves static files and all assets are minified, optimised and deliv
 
 ### Comparison
 
-I used a [free tool from MaxCDN](https://www.stackpath.com/maxCDN) to compare the load times from different parts of the world.
+I used a [free tool from MaxCDN](https://www.stackpath.com/) to compare the load times from different parts of the world.
 
-![](https://dam-cdn.cloudcannon.com/blog/assets/blog/drupal-jekyll/speed.png)
+![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drupal-jekyll/speed.png)
 
 ---
 

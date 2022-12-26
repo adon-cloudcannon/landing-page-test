@@ -5,7 +5,7 @@ description: >-
   Eleventy (11ty). They’re both fully compatible with CloudCannon’s Git-based
   CMS, and both are ideal for marketing sites (such as this one, built with
   Jekyll), as well as documentation and blogs.
-image: https://dam-cdn.cloudcannon.com/blog/eleventy-vs-jekyll.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/eleventy-vs-jekyll.jpg
 date: 2021-08-11T05:00:00+1200
 tags:
   - Resources

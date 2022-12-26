@@ -1,6 +1,6 @@
 ---
 title: Bootstrap to a client-editable Hugo site
-image: /community/uploads/bootstrap-hugo.png
+image: https://res.cloudinary.com/dahpdufoq/image/upload/v1671579253/marketing-site/community/bootstrap-hugo_flaynj.png
 author: Mike Neumegen
 order: 5
 description: Learn how to convert a Bootstrap template into a client-editable Hugo website.

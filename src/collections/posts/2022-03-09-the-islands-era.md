@@ -5,7 +5,7 @@ description: >-
   number of SSGs bringing the advantages of partial hydration to reality.
 series: SSGs through the ages
 permalink: /blog/ssg-history-8-islands/
-image: https://dam-cdn.cloudcannon.com/Explorer 8.jpg
+image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Explorer_8.jpg
 date: 2022-03-09T05:00:00+1300
 tags:
   - Resources
@@ -39,11 +39,9 @@ The islands era sees a number of SSGs bringing the advantages of partial hydrati
 
 ---
 
-![](https://dam-cdn.cloudcannon.com/Elder.js-Timeline.svg){: width="600"}
+## [Elder.js](https://elderguide.com/tech/elderjs/)
 
-## **[Elder.js](https://elderguide.com/tech/elderjs/)**
-
-***[​​](https://elderguide.com/tech/elderjs/)**by [Nick Reese](https://github.com/nickreese)*
+*First released in 2020 by [Nick Reese](https://github.com/nickreese)*
 
 Nick Reese is the co-founder of Elder Guide — a website to find and compare senior living options. Over the past 14 years, Nick has managed five major SEO properties, so the benefits of Jamstack are highly tangible to him.
 
@@ -59,11 +57,9 @@ He whipped up a rudimentary prototype based on Svelte, named it Elder.js, and st
 
 Elder.js was one of the first SSGs to pioneer partial hydration or islands architecture and is currently "stable and production-ready". Nick has executed his vision of what he wanted in an SSG and has rolled it out over a couple of the websites he manages. Now his roadmap is about working on bug fixes and incremental changes that are primarily under the hood.
 
-![](https://dam-cdn.cloudcannon.com/Sveltekit-Timeline.svg){: width="600"}
-
 ## **[Sveltekit](https://kit.svelte.dev/)**
 
-*by [Rich Harris](https://github.com/Rich-Harris)*
+*First released in 2020 by [Rich Harris](https://github.com/Rich-Harris)*
 
 After years of working on Sapper, Rich Harris and the Svelte team reflected on the state of the project and had a few realizations:
 
@@ -83,11 +79,9 @@ SvelteKit is actively working towards its 1.0, where it will have stable APIs re
 
 [*Get started with SvelteKit on CloudCannon.*](https://app.cloudcannon.com/register?trial=cc_standard)
 
-![](https://dam-cdn.cloudcannon.com/Astro-Timeline.svg){: width="600"}
-
 ## **[Astro](https://astro.build/)**
 
-*by [Fred K. Schott](https://github.com/FredKSchott)*
+*First released in 2021 by [Fred K. Schott](https://github.com/FredKSchott)*
 
 "There's a simple secret to building a faster website — *just ship less*." Frameworks like React have normalized shipping hundreds of kb of JavaScript. The choice to use a JavaScript framework involves considering some tradeoffs. How much interactivity do I need? Is it worth the overhead of downloading an entire web framework? Would I be better off using simple HTML, CSS, and vanilla JavaScript?
 
@@ -99,11 +93,9 @@ With Astro, you can bring your own JavaScript framework, including React, Svelte
 
 The combination of bringing your own JavaScript framework with partial hydration created tremendous hype in the community. Astro is still in beta and has already amassed a large following of 8k+ stars on GitHub, as well as taking out the [2021 Jammies Ecosystem Innovation Award](https://jamstackconf.com/jammies/). It's certainly one to watch in the future.
 
-![](https://dam-cdn.cloudcannon.com/Slinkity-Timeline.svg){: width="600"}
-
 ## **[Slinkity](https://slinkity.dev/)**
 
-*by [Ben Holmes](https://github.com/Holben888)*
+*First released in 2021 by [Ben Holmes](https://github.com/Holben888)*
 
 If there were an award for best SSG launch video, Ben's [Slinkity announcement](https://twitter.com/BHolmesDev/status/1404426841440538627?s=20) would get my vote. Slinkity isn't an SSG in its own right. It's a plugin that extends 11ty to bring React, Vue, or Svelte magic to your static website.
 
