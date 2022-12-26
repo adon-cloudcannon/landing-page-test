@@ -12,7 +12,7 @@ categories:
 image: 
   path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/netflix-card-black-1.png
   alt: Netflix logo
-logo: /images/logos/netflix.svg
+logo: /src/images/logos/netflix.svg
 person:
   name: Jason Adkins
   position: Creative Specialist

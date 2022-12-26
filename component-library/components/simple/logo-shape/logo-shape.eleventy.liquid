@@ -58,7 +58,7 @@
 		[&>svg]:h-full [&>svg]:w-full">
 		{% assign image = content.image %}
 		{% unless image %}
-			{% assign image = '/images/logos/netflix.svg' %}
+			{% assign image = '/src/images/logos/netflix.svg' %}
 		{% endunless %}
 		{{ image | svgContents }}
 	</div>

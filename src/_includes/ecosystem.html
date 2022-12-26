@@ -55,7 +55,7 @@ eleventyComputed:
               {% assign c = item[1] | strip %}
               {% if c == '0' or c == '1' %}
                 {% if c == '1' %}
-                  <span class="w-7 flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-cc">{{ '/images/icons/outline/check-circle.svg' | svgContents }}</span>
+                  <span class="w-7 flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-cc">{{ '/src/images/icons/outline/check-circle.svg' | svgContents }}</span>
                 {% endif %}
               {% else %}
                 {% if item[0] == 'Name' %}

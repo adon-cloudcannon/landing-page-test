@@ -10,7 +10,7 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   logos:
-    - logo: /images/logos/netflix.svg
+    - logo: /src/images/logos/netflix.svg
       name: Netflix
       link: '/'
 

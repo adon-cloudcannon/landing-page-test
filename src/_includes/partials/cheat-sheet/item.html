@@ -2,7 +2,7 @@
 	<a class="hover:bg-gray-100 group/heading py-2 px-5 block" :class="{'group-last/category:rounded-b-2xl': !expanded}"
 		@click="expanded = ! expanded">
 			<span class="w-3 inline-block relative top-0.5 transition-transform" :class="{'rotate-90': expanded}">
-				{{ '/images/icons/outline/chevron-right.svg' | svgContents }}
+				{{ '/src/images/icons/outline/chevron-right.svg' | svgContents }}
 			</span>
 			<span class="group-hover/heading:underline">{{ cheat.data.title | markdownify }}</span>
 	</a>

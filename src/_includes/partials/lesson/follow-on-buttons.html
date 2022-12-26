@@ -21,7 +21,7 @@
     {% if prev_lesson != nil %}
       <a href="{{ prev_lesson.url }}" class="group">
         <span class="inline-block w-4">
-          {{ '/images/icons/outline/arrow-left.svg' | svgContents }}
+          {{ '/src/images/icons/outline/arrow-left.svg' | svgContents }}
         </span>
         <span class="group-hover:underline">Previous lesson</span>
       </a>
@@ -30,7 +30,7 @@
       <a href="{{ next_lesson.url }}" class="group">
         <span class="group-hover:underline">Next lesson</span>
         <span class="inline-block w-4">
-          {{ '/images/icons/outline/arrow-right.svg' | svgContents }}
+          {{ '/src/images/icons/outline/arrow-right.svg' | svgContents }}
         </span>
       </a>
     {% endif %}

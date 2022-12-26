@@ -9,7 +9,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  image: '/images/logos/ssgs/hugo.svg'
+  image: '/src/images/logos/ssgs/hugo.svg'
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

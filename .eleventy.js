@@ -9,10 +9,9 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			mila = require("markdown-it-link-attributes");
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addWatchTarget("../component-library/");
-	eleventyConfig.addWatchTarget("../filters/");
-	eleventyConfig.addWatchTarget('./styles/tailwind.config.js');
-	eleventyConfig.addWatchTarget('./styles/tailwind.css');
+	eleventyConfig.addWatchTarget("component-library/");
+	eleventyConfig.addWatchTarget('src/styles/tailwind.config.js');
+	eleventyConfig.addWatchTarget('src/styles/tailwind.css');
 
 	eleventyConfig.setLibrary("md", markdownIt({ 
 		html: true
@@ -25,10 +24,8 @@ module.exports = function (eleventyConfig) {
 			rel: "noopener noreferrer"
 		}
 	}).disable('code'));
-
-	eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
-	eleventyConfig.addPassthroughCopy("./images")
-	eleventyConfig.addPassthroughCopy("./fonts")
+	eleventyConfig.addPassthroughCopy("src/images")
+	eleventyConfig.addPassthroughCopy("src/fonts")
 	
 
 	eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
@@ -42,7 +39,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(syntaxHighlight);
 
 	eleventyConfig.addPlugin(pluginBookshop({
-		bookshopLocations: ["../component-library"],
+		bookshopLocations: ["component-library"],
 		pathPrefix: '',
 	}));
 
@@ -61,4 +58,11 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('markdownify', (str) => {
 		return markdownItRenderer.renderInline(str);
 	});
+
+	return {
+		dir: {
+			input: "src",
+			output: "_site"
+		}
+	}
 };
