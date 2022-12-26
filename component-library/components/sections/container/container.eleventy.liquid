@@ -1,4 +1,5 @@
 {% assign classes = "" %}
+{% assign styles = "" %}
 
 {% case background %}
 	{% when 'caramel' %}
@@ -26,43 +27,19 @@
 
 {% if margin %}
 	{% if margin.top %}
-		{% assign move_prefix = "" %}
-		{% if margin.top < 0 %}
-			{% assign margin_prefix = "-" %}
-		{% endif %}
-		{% assign px = margin.top | abs %}
-
-		{% assign classes = classes | append: " " | append: margin_prefix | append: "mt-[" | append: px | append: "px]" %}
+		{% assign styles = styles | append: " " | append: "margin-top:" | append: margin-top | append: "px" %}
 	{% endif %}
 
 	{% if margin.left %}
-		{% assign margin_prefix = "" %}
-		{% if margin.left < 0 %}
-			{% assign margin_prefix = "-" %}
-		{% endif %}
-		{% assign px = margin.left | abs %}
-
-		{% assign classes = classes | append: " " | append: margin_prefix | append: "ml-[" | append: px | append: "px]" %}
+		{% assign styles = styles | append: " " | append: "margin-left:" | append: margin-left | append: "px" %}
 	{% endif %}
 
 	{% if margin.bottom %}
-		{% assign margin_prefix = "" %}
-		{% if margin.bottom < 0 %}
-			{% assign margin_prefix = "-" %}
-		{% endif %}
-		{% assign px = margin.bottom | abs %}
-
-		{% assign classes = classes | append: " " | append: margin_prefix | append: "mb-[" | append: px | append: "px]" %}
+		{% assign styles = styles | append: " " | append: "margin-bottom:" | append: margin-bottom | append: "px" %}
 	{% endif %}
 
 	{% if margin.right %}
-		{% assign margin_prefix = "" %}
-		{% if margin.right < 0 %}
-			{% assign margin_prefix = "-" %}
-		{% endif %}
-		{% assign px = margin.right | abs %}
-
-		{% assign classes = classes | append: " " | append: margin_prefix | append: "mr-[" | append: px | append: "px]" %}
+		{% assign styles = styles | append: " " | append: "margin-right:" | append: margin-right | append: "px" %}
 	{% endif %}
 {% endif %}
 
@@ -72,7 +49,7 @@
 {% endcase %}
 
 
-<div class="{{ classes }} relative">
+<div class="{{ classes }} relative" style="{{ styles }}">
 		<div class="container relative">
 	{% for component in blocks %}
 		{% bookshop "{{component._bookshop_name}}" bind: component %}
