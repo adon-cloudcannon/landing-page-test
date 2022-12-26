@@ -3,8 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Sections Container"
-  description:
-  icon:
+  description: The main building block for pages. Will contain many smaller components.
+  icon: web_asset
   tags: []
 
 # Defines the structure of this component, as well as the default values
