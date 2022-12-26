@@ -1,8 +1,6 @@
 {% assign classes = "" %}
 
 {% case background %}
-	{% when 'solar' %}
-		{% assign classes = classes | append: " subtle-bg" %}
 	{% when 'caramel' %}
 		{% assign classes = classes | append: " bg-caramel" %}
 	{% when 'sky' %}
@@ -13,6 +11,8 @@
 		{% assign classes = classes | append: " bg-ash" %}
 	{% when 'night' %}
 		{% assign classes = classes | append: " bg-night text-white" %}
+	{% when 'sun-spot' %}
+		{% assign classes = classes | append: " sun-spot" %}
 	{% else %}
 		{% assign classes = classes | append: " bg-white" %}
 {% endcase %}

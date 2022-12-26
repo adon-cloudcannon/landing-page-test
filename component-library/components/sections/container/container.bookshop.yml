@@ -9,10 +9,47 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  background: 
+  rounded: top
+  margin:
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+  size:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  background:
+    type: select
+    options:
+      values:
+        - caramel
+        - sky
+        - cc-blue
+        - ash
+        - night
+        - sun-spot
+  rounded:
+    type: select
+    options:
+      values:
+        - top
+        - full
+  top:
+    type: number
+  right:
+    type: number
+  bottom:
+    type: number
+  left:
+    type: number
+  size:
+    type: select
+    options:
+      values:
+        -
+        - small
