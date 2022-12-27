@@ -22,9 +22,30 @@
 	{% assign classes = classes | append: " text-center" %}
 {% endcase %}
 
+{% if margin %}
+	{% if margin.top %}
+		{% assign styles = styles | append: " " | append: "margin-top:" | append: margin.top | append: "px;" %}
+	{% endif %}
+
+	{% if margin.left %}
+		{% assign styles = styles | append: " " | append: "margin-left:" | append: margin.left | append: "px;" %}
+	{% endif %}
+
+	{% if margin.right %}
+		{% assign styles = styles | append: " " | append: "margin-right:" | append: margin.right | append: "px;" %}
+	{% endif %}
+
+	{% if margin.bottom %}
+		{% assign styles = styles | append: " " | append: "margin-bottom:" | append: margin.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
 
 {% case styles.width %}
 {% when 'tight' %}
 	{% assign classes = classes | append: " max-w-screen-md mx-auto" %}
 {% endcase %}
-<{{ el }} class="{{ classes }} font-bold">{{ content.text }}</{{ el }}>
+
+<{{ el }} class="{{ classes }} font-bold" style="{{ styles }}">
+	{{ content.text }}
+</{{ el }}>
