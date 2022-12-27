@@ -29,14 +29,6 @@
 		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: margin.top | append: "px;" %}
 	{% endif %}
 
-	{% if margin.left %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: margin.left | append: "px;" %}
-	{% endif %}
-
-	{% if margin.right %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: margin.right | append: "px;" %}
-	{% endif %}
-
 	{% if margin.bottom %}
 		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: margin.bottom | append: "px;" %}
 	{% endif %}
