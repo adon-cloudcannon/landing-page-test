@@ -2,6 +2,7 @@
 spec:
   structures:
     - simple_blocks
+    - blocks
   label: "Simple Button holder"
   description:
   icon:

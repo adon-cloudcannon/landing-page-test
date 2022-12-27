@@ -2,10 +2,11 @@
 spec:
   structures:
     - content_blocks
-  label: "Sections Container"
+    - blocks
+  label: "Container"
   description: The main building block for pages. Will contain many smaller components.
   icon: web_asset
-  tags: []
+  tags: ['containers']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
@@ -19,6 +20,7 @@ blueprint:
   size: normal
   align: none
   label:
+  blocks:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -27,6 +29,8 @@ preview:
 _inputs:
   label:
     comment: This is used to help identify the section in CloudCannon. It's not output anywhere on the page.
+  blocks:
+    comments: Add components inside this section.
   background:
     type: select
     comment: The background color for the entire section

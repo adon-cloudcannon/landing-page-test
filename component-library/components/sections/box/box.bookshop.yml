@@ -2,6 +2,7 @@
 spec:
   structures:
     - content_blocks
+    - blocks
   label: "Sections Box"
   description:
   icon:
