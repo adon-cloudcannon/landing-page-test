@@ -16,6 +16,11 @@ blueprint:
     size: 'h2'
     color: 
     width:
+    margin:
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -54,3 +59,13 @@ _inputs:
       values:
         - normal
         - tight
+  margin:
+    comment: Adjust the spacing between the heading and other components. Can be negative for overlapping.
+  top:
+    type: number
+  right:
+    type: number
+  bottom:
+    type: number
+  left:
+    type: number
