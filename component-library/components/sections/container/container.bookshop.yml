@@ -18,12 +18,15 @@ blueprint:
     left: 0
   size: normal
   align: none
+  label:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  label:
+    comment: This is used to help identify the section in CloudCannon. It's not output anywhere on the page.
   background:
     type: select
     comment: The background color for the entire section
