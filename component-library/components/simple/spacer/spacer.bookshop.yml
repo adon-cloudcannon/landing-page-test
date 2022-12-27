@@ -2,17 +2,21 @@
 spec:
   structures:
     - content_blocks
-  label: "Simple Spacer"
-  description:
-  icon:
-  tags: []
+    - blocks
+  label: "Spacer"
+  description: "Creates vertical space between components"
+  icon: height
+  tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  size: 130
+  size: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  size:
+    type: number
+    comment: The amount of space to add. Can be negative to pull components closer together.
