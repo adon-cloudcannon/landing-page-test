@@ -26,6 +26,11 @@ _inputs:
   text:
     comment: "Content for the subheading"
     type: markdown
+    options:
+      italic: true
+      bold: true
+      removeformat: true
+      link: true
   size:
     type: select
     comment: The size of the sub-heading
