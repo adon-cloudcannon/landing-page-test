@@ -10,6 +10,7 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  label:
   background: 
   rounded: none
   margin:
@@ -19,7 +20,6 @@ blueprint:
     left: 0
   size: normal
   align: none
-  label:
   blocks:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
