@@ -2,14 +2,21 @@
 spec:
   structures:
     - simple_blocks
-  label: "Sub-heading"
-  description:
-  icon:
-  tags: []
+    - blocks
+  label: "Sub Heading"
+  description: "Typically used below a main heading"
+  icon: egg
+  tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "I'm a description"
+  content:
+    text: "Hello World!"
+  styles:
+    size: 
+    margin:
+      top: 0
+      bottom: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -17,4 +24,22 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   text:
+    comment: "Content for the subheading"
     type: markdown
+  size:
+    type: select
+    comment: The size of the sub-heading
+    options:
+      values:
+        - normal
+        - big
+  margin:
+    comment: Adjust the spacing between the subheading and other components. Can be negative for overlapping.
+  top:
+    type: number
+  right:
+    type: number
+  bottom:
+    type: number
+  left:
+    type: number

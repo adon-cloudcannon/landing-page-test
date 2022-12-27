@@ -1,8 +1,22 @@
 {% assign text_size = "xl" %}
+{% assign css_styles = " " %}
 
 {% case styles.size %}
 {% when 'big' %}
 	{% assign text_size = "2xl" %}
 {% endcase %}
 
-<p class="text-{{ text_size }} max-w-screen-md mx-auto leading-relaxed text-gray-700 font-medium text-center">{{ content.text }}</h1>
+{% if margin %}
+	{% if margin.top %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
+	{% endif %}
+
+	{% if margin.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+<p class="text-{{ text_size }} max-w-screen-md mx-auto leading-relaxed text-gray-700 font-medium text-center"
+style="{{ css_styles }}">
+	{{ content.text | markdownify }}
+</p>
