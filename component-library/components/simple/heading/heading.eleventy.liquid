@@ -24,12 +24,12 @@
 	{% assign classes = classes | append: " text-center" %}
 {% endcase %}
 
-{% if margin %}
-	{% if margin.top %}
+{% if styles.margin %}
+	{% if styles.margin.top %}
 		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
 	{% endif %}
 
-	{% if margin.bottom %}
+	{% if styles.margin.bottom %}
 		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
 	{% endif %}
 {% endif %}
