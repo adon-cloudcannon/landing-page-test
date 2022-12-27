@@ -2,18 +2,55 @@
 spec:
   structures:
     - simple_blocks
-  label: "Main heading"
-  description:
-  icon:
-  tags: []
+    - blocks
+  label: "Heading"
+  description: "Sets any kind of heading"
+  icon: sort_by_alpha
+  tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
-  size: 'h2'
+  content:
+    text: "Hello World!"
+  styles:
+    size: 'h2'
+    color: 
+    width:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  color:
+    type: select
+    comment: The color of text.
+    options:
+      values:
+        - none
+        - white
+  size:
+    type: select
+    comment: The type of heading.
+    options:
+      values:
+        - h1
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+  align:
+    type: select
+    comment: The alignment of the heading.
+    options:
+      values:
+        - left
+        - center
+  width:
+    type: select
+    comment: The width of the heading
+    options:
+      values:
+        - normal
+        - tight

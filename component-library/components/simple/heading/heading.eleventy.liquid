@@ -1,7 +1,7 @@
 {% assign el = "h4" %}
 {% assign classes = " leading-tight" %}
 {% case styles.size %}
-{% when 'hero' %}
+{% when 'h1' %}
 	{% assign el = "h1" %}
 	{% assign classes = classes | append: " text-7xl" %}
 {% when 'h2' %}
@@ -18,7 +18,6 @@
 {% endcase %}
 
 {% case styles.align %}
-{% when 'left' %}
 {% when 'center' %}
 	{% assign classes = classes | append: " text-center" %}
 {% endcase %}
