@@ -30,17 +30,23 @@
 		{% assign styles = styles | append: " " | append: "margin-top:" | append: margin.top | append: "px;" %}
 	{% endif %}
 
-	{% if margin.left %}
-		{% assign styles = styles | append: " " | append: "margin-left:" | append: margin.left | append: "px;" %}
+	{% if align == 'center' %}
+		{% assign styles = styles | append: " " | append: "margin-left: auto; margin-right: auto;" %}
+	{% else %}
+		{% if margin.left %}
+			{% assign styles = styles | append: " " | append: "margin-left:" | append: margin.left | append: "px;" %}
+		{% endif %}
+
+		{% if margin.right %}
+			{% assign styles = styles | append: " " | append: "margin-right:" | append: margin.right | append: "px;" %}
+		{% endif %}
 	{% endif %}
 
 	{% if margin.bottom %}
 		{% assign styles = styles | append: " " | append: "margin-bottom:" | append: margin.bottom | append: "px;" %}
 	{% endif %}
 
-	{% if margin.right %}
-		{% assign styles = styles | append: " " | append: "margin-right:" | append: margin.right | append: "px;" %}
-	{% endif %}
+	
 {% endif %}
 
 {% case size %}

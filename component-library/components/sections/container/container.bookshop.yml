@@ -17,6 +17,7 @@ blueprint:
     bottom: 0
     left: 0
   size: normal
+  align: none
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -25,6 +26,7 @@ preview:
 _inputs:
   background:
     type: select
+    comment: The background color for the entire section
     options:
       values:
         - caramel
@@ -35,11 +37,14 @@ _inputs:
         - sun-spot
   rounded:
     type: select
+    comment: Sets the style of rounded corners on the section.
     options:
       values:
         - none
         - top
         - full
+  margin:
+    comment: Adjust the spacing between this section and others. Can be negative for overlapping.
   top:
     type: number
   right:
@@ -50,7 +55,15 @@ _inputs:
     type: number
   size:
     type: select
+    comment: Adjust the width of the section
     options:
       values:
         - normal
         - small
+  align:
+    comment: Customize how the section is aligned on the page
+    type: select
+    options:
+      values:
+        - none
+        - center
