@@ -57,7 +57,7 @@ _inputs:
         - full
   margin:
     comment: Adjust the spacing between this container and others. Can be negative for overlapping.
-  margin:
+  padding:
     comment: Adjust the spacing inside this container.
   top:
     type: number
