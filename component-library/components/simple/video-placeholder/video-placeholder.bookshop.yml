@@ -29,6 +29,7 @@ _inputs:
     comment: 'The image that will show on the page. Clicking on it will open the video.'
   video:
     comment: The URL of the vimeo video
+    type: url
   title:
     comment: For accessibility, doesn't actually show on the page.
   margin:
