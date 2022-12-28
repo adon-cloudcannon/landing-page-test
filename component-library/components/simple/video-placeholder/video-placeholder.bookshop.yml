@@ -2,6 +2,7 @@
 spec:
   structures:
     - content_blocks
+    - blocks
   label: "Video"
   description: Component that when clicked, opens a video in a modal.
   icon: tv
