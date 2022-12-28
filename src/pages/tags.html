@@ -18,26 +18,28 @@ eleventyComputed:
   title: Blog / {{ tag }}
   content_blocks:
     - _bookshop_name: sections/container
-      background: sun-spot
-      blocks:
-        - _bookshop_name: simple/spacer
-          size: 100
-        - _bookshop_name: simple/heading
-          content:
-            text: "{{ tag }} posts"
-          styles:
-            size: h2
-            align: center
-            width: tight
-        - _bookshop_name: simple/spacer
-          size: 35
-        - _bookshop_name: simple/sub-heading
-          content:
-            text: "Go back and <a href='/blog/' class='text-cc hover:underline'>view all posts</a>."
-          styles:
-            size: big
-        - _bookshop_name: simple/spacer
-          size: 120
+      styles:
+        background: sun-spot
+      content:
+        blocks:
+          - _bookshop_name: simple/spacer
+            size: 100
+          - _bookshop_name: simple/heading
+            content:
+              text: "{{ tag }} posts"
+            styles:
+              size: h2
+              align: center
+              width: tight
+          - _bookshop_name: simple/spacer
+            size: 35
+          - _bookshop_name: simple/sub-heading
+            content:
+              text: "Go back and <a href='/blog/' class='text-cc hover:underline'>view all posts</a>."
+            styles:
+              size: big
+          - _bookshop_name: simple/spacer
+            size: 120
 permalink: /blog/tags/{{ tag | slugify }}/
 
 ---

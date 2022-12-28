@@ -4,410 +4,422 @@ layout: builder.html
 permalink: /
 content_blocks:
   - _bookshop_name: sections/container
-    label: Hero
-    background: sun-spot
-    rounded: none
-    margin:
-      top: 0
-      right: 0
-      bottom: 0
-      left: 0
-    padding:
-      top: 0
-      right: 0
-      bottom: 0
-      left: 0
-    size: normal
-    align:
-    blocks:
-      - _bookshop_name: simple/spacer
-        size: 130
-      - _bookshop_name: simple/heading
-        content:
-          text: Your team. In sync.
-        styles:
-          size: h1
-          align: center
-          width: tight
-          margin:
-            top: 0
-            bottom: 35
-      - _bookshop_name: simple/sub-heading
-        content:
-          text: >-
-            The visual CMS that gives content teams full autonomy on your
-            developer-approved tech stack.
-        styles:
-          size: big
-          margin:
-            top: 0
-            bottom: 35
-      - _bookshop_name: simple/button-holder
-        content:
-          button_blocks:
-            - _bookshop_name: simple/button
-              content:
-                text: Try for free
-                link: /
-              styles:
-                style: normal
-                size: big
-                extra_classes:
-        styles:
-          margin:
-            top: 0
-            bottom: 0
-      - _bookshop_name: simple/spacer
-        size: 100
+    content:
+      label: Hero
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 130
+        - _bookshop_name: simple/heading
+          content:
+            text: Your team. In sync.
+          styles:
+            size: h1
+            align: center
+            width: tight
+            margin:
+              top: 0
+              bottom: 35
+        - _bookshop_name: simple/sub-heading
+          content:
+            text: >-
+              The visual CMS that gives content teams full autonomy on your
+              developer-approved tech stack.
+          styles:
+            size: big
+            margin:
+              top: 0
+              bottom: 35
+        - _bookshop_name: simple/button-holder
+          content:
+            button_blocks:
+              - _bookshop_name: simple/button
+                content:
+                  text: Try for free
+                  link: /
+                styles:
+                  style: normal
+                  size: big
+                  extra_classes:
+          styles:
+            margin:
+              top: 0
+              bottom: 0
+        - _bookshop_name: simple/spacer
+          size: 100
+    styles:
+      background: sun-spot
+      rounded: none
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      size: normal
+      align:
   - _bookshop_name: video
     placeholder_image: /images/page/player-frame.png
     video: https://player.vimeo.com/video/668496650
     title: How does CloudCannon work?
   - _bookshop_name: sections/container
-    background: caramel
-    rounded: top
-    blocks:
-      - _bookshop_name: simple/spacer
-        size: -230
-      - _bookshop_name: simple/spacer
-        size: 260
-      - _bookshop_name: simple/logo-ticker
-        logos:
-          - logo: /src/images/logos/netflix.svg
-            name: Netflix
-          - logo: /src/images/logos/twitch.svg
-            name: Twitch
-          - logo: /src/images/logos/newdynamic.svg
-            name: The New Dynamic
-          - logo: /src/images/logos/ocupop.svg
-            name: Ocupop
-            position:
-              top: -6
-          - logo: /src/images/logos/papercut.svg
-            name: Papercut
-            position:
-              top: -15
-      - _bookshop_name: simple/spacer
-        size: 85
-      - _bookshop_name: simple/heading
-        content:
-          text: Everyone on the same page
-        styles:
-          size: h2
-          align: center
-          width: tight
-      - _bookshop_name: simple/spacer
-        size: 25
-      - _bookshop_name: simple/sub-heading
-        content:
-          text: >-
-            Developers push changes directly to Git. Editors build pages
-            visually using custom components. Your teams stay in sync with a
-            unified workflow.
-      - _bookshop_name: simple/spacer
-        size: 150
-      - _bookshop_name: sections/two-column
-        middle_logo: true
-        style: split
-        split_border: true
-        left:
-          blocks:
-            - _bookshop_name: simple/image
-              content:
-                alt: developer workflow
-                image: /images/page/developer.png
-        right:
-          blocks:
-            - _bookshop_name: simple/image
-              content:
-                alt: marketer workflow
-                image: /images/page/marketer.png
-              styles:
-                scale: 1.15
-                margin:
-                  top: 28
-                  left: 20
-                  bottom:
-                  right:
-      - _bookshop_name: simple/spacer
-        size: 130
+    styles:
+      background: caramel
+      rounded: top
+    content:
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: -230
+        - _bookshop_name: simple/spacer
+          size: 260
+        - _bookshop_name: simple/logo-ticker
+          logos:
+            - logo: /src/images/logos/netflix.svg
+              name: Netflix
+            - logo: /src/images/logos/twitch.svg
+              name: Twitch
+            - logo: /src/images/logos/newdynamic.svg
+              name: The New Dynamic
+            - logo: /src/images/logos/ocupop.svg
+              name: Ocupop
+              position:
+                top: -6
+            - logo: /src/images/logos/papercut.svg
+              name: Papercut
+              position:
+                top: -15
+        - _bookshop_name: simple/spacer
+          size: 85
+        - _bookshop_name: simple/heading
+          content:
+            text: Everyone on the same page
+          styles:
+            size: h2
+            align: center
+            width: tight
+        - _bookshop_name: simple/spacer
+          size: 25
+        - _bookshop_name: simple/sub-heading
+          content:
+            text: >-
+              Developers push changes directly to Git. Editors build pages
+              visually using custom components. Your teams stay in sync with a
+              unified workflow.
+        - _bookshop_name: simple/spacer
+          size: 150
+        - _bookshop_name: sections/two-column
+          middle_logo: true
+          style: split
+          split_border: true
+          left:
+            blocks:
+              - _bookshop_name: simple/image
+                content:
+                  alt: developer workflow
+                  image: /images/page/developer.png
+          right:
+            blocks:
+              - _bookshop_name: simple/image
+                content:
+                  alt: marketer workflow
+                  image: /images/page/marketer.png
+                styles:
+                  scale: 1.15
+                  margin:
+                    top: 28
+                    left: 20
+                    bottom:
+                    right:
+        - _bookshop_name: simple/spacer
+          size: 130
   - _bookshop_name: sections/container
-    background:
-    rounded: top
-    blocks:
-      - _bookshop_name: simple/spacer
-        size: 200
-      - _bookshop_name: sections/two-column
-        middle_logo:
-        style: fixed-fluid
-        width: 450
-        split_border: false
-        left:
-          blocks:
-            - _bookshop_name: simple/emoji-heading
-              content:
-                emoji: 👋
-                sub_title: Content editors
-                title: Publish without bugging a developer
-              styles:
-                center_text: false
-            - _bookshop_name: simple/text-block
-              content:
-                text_html: >-
-                  <ul><li>Build pages visually with your on brand custom
-                  components</li><li>Share and review changes on a fully
-                  functioning preview site</li><li>Publish content live with the
-                  push of a button</li></ul>
-        right:
-          blocks:
-            - _bookshop_name: simple/video
-              title: CMS editing video
-              url: >-
-                https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
-              autoplay: true
-              loop: true
-              transform:
-                scale: 1.05
-                translate_x: 100
-                translate_y: -70
+    styles:
+      background:
+      rounded: top
+    content:
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 200
+        - _bookshop_name: sections/two-column
+          middle_logo:
+          style: fixed-fluid
+          width: 450
+          split_border: false
+          left:
+            blocks:
+              - _bookshop_name: simple/emoji-heading
+                content:
+                  emoji: 👋
+                  sub_title: Content editors
+                  title: Publish without bugging a developer
+                styles:
+                  center_text: false
+              - _bookshop_name: simple/text-block
+                content:
+                  text_html: >-
+                    <ul><li>Build pages visually with your on brand custom
+                    components</li><li>Share and review changes on a fully
+                    functioning preview site</li><li>Publish content live with the
+                    push of a button</li></ul>
+          right:
+            blocks:
+              - _bookshop_name: simple/video
+                title: CMS editing video
+                url: >-
+                  https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+                autoplay: true
+                loop: true
+                transform:
+                  scale: 1.05
+                  translate_x: 100
+                  translate_y: -70
   - _bookshop_name: simple/spacer
     size: 200
   - _bookshop_name: sections/container
-    background: sky
-    rounded: top
-    blocks:
-      - _bookshop_name: simple/spacer
-        size: 118
-      - _bookshop_name: sections/box
-        blocks:
-          - _bookshop_name: simple/spacer
-            size: 195
-          - _bookshop_name: simple/emoji-heading
-            content:
-              emoji: 👋
-              sub_title: Developers
-              title: Your code. Your components.
-            styles:
-              center_text: true
-          - _bookshop_name: simple/text-block
-            content:
-              text_html: >-
-                <p>Focus on building custom components rather than hand holding
-                editors through content changes. Build locally with your
-                favorite tools and frameworks, then sync changes to content
-                editors with a Git push.</p>
-            styles:
-              center_text: true
-              width: md
-          - _bookshop_name: simple/spacer
-            size: 150
-        pizazz:
-          - _bookshop_name: simple/logo-shape
-            styles:
-              logo:
-                scale: 0.85
-              shape: rectangle
+    styles:
+      background: sky
+      rounded: top
+    content:
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 118
+        - _bookshop_name: sections/box
+          blocks:
+            - _bookshop_name: simple/spacer
+              size: 195
+            - _bookshop_name: simple/emoji-heading
+              content:
+                emoji: 👋
+                sub_title: Developers
+                title: Your code. Your components.
+              styles:
+                center_text: true
+            - _bookshop_name: simple/text-block
+              content:
+                text_html: >-
+                  <p>Focus on building custom components rather than hand holding
+                  editors through content changes. Build locally with your
+                  favorite tools and frameworks, then sync changes to content
+                  editors with a Git push.</p>
+              styles:
+                center_text: true
+                width: md
+            - _bookshop_name: simple/spacer
+              size: 150
+          pizazz:
+            - _bookshop_name: simple/logo-shape
+              styles:
+                logo:
+                  scale: 0.85
+                shape: rectangle
+                top: 0
+                left: 33
+                rotate: -9
+                shift:
+                  x: 28
+                  'y': 20
+              content:
+                image: /src/images/logos/ssgs/hugo.svg
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/jekyll.svg
+              styles:
+                logo:
+                  scale: 1.01
+                  padding:
+                    x: 20
+                shape: rectangle
+                top: 10
+                left: 5
+                rotate: -14
+                shift:
+                  x: 16
+                  'y': 28
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/gatsby.svg
+              styles:
+                logo:
+                  scale: 0.85
+                shape: rectangle
+                top: 5
+                right: 21
+                rotate: 15
+                shift:
+                  x: -25
+                  'y': 17
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/eleventy.svg
+              styles:
+                logo:
+                  scale: 1
+                  padding:
+                    x: 20
+                    'y': 20
+                shape: circle
+                top: 45
+                left: 0
+                rotate: -15
+                shift:
+                  x: 23
+                  'y': 27
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/nuxt.svg
+              styles:
+                logo:
+                  scale: 0.9
+                  padding:
+                    x: 20
+                    'y': 20
+                shape: circle
+                top: 25
+                right: 0
+                rotate: 19
+                shift:
+                  x: -30
+                  'y': 14
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/svelte.svg
+              styles:
+                logo:
+                  scale: 0.7
+                  padding:
+                    x: 20
+                    'y': 20
+                shape: circle
+                top: 70
+                right: 0
+                rotate: 0
+                shift:
+                  x: -17
+                  'y': -25
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/mkdocs.svg
+              styles:
+                logo:
+                  height: 55
+                  padding:
+                    x: 20
+                shape: rectangle
+                bottom: -6
+                left: 7
+                rotate: -15
+                shift:
+                  x: 21
+                  'y': -30
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/nextjs.svg
+              styles:
+                logo:
+                  padding:
+                    x: 40
+                shape: rectangle
+                bottom: 0
+                right: 46
+                rotate: 18
+                shift:
+                  x: -15
+                  'y': -30
+            - _bookshop_name: simple/logo-shape
+              content:
+                image: /src/images/logos/ssgs/astro.svg
+              styles:
+                logo:
+                  translate:
+                    'y': 8
+                  padding:
+                    x: 20
+                  height: 70
+                shape: rectangle
+                bottom: -10
+                right: 16
+                rotate: 0
+                shift:
+                  x: -32
+                  'y': -20
+        - _bookshop_name: simple/spacer
+          size: 250
+  - _bookshop_name: sections/container
+    styles:
+      background: ash
+      rounded: top
+    content:
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 100
+        - _bookshop_name: simple/emoji-heading
+          content:
+            emoji:
+            sub_title: Happy developers + Happy editors =
+            title: Websites you’re proud of
+          styles:
+            center_text: false
+        - _bookshop_name: case-studies/row
+          case_studies:
+            - case_study: ee337cd8-7745-11ed-a1eb-0242ac120002
+            - case_study: ff183750-7745-11ed-a1eb-0242ac120002
+            - case_study: f3762772-7745-11ed-a1eb-0242ac120002
+        - _bookshop_name: simple/spacer
+          size: 150
+  - _bookshop_name: sections/container
+    styles:
+      background: cc-blue
+      rounded: top
+    content:
+      blocks:
+        - _bookshop_name: simple/spacer
+          size: 180
+        - _bookshop_name: simple/heading
+          content:
+            text: Get started with CloudCannon
+          styles:
+            size: h2
+            color: white
+            align: center
+            width: tight
+        - _bookshop_name: simple/spacer
+          size: 30
+        - _bookshop_name: simple/text-block
+          content:
+            text_html: >-
+              Try out CloudCannon with a 14-day free trial, or get in touch with
+              us for a demo.
+          styles:
+            size: big
+            color: gray
+            center_text: true
+            width: md
+        - _bookshop_name: simple/button-holder
+          content:
+            button_blocks:
+              - _bookshop_name: simple/button
+                content:
+                  text: Try for free
+                  link: /
+                styles:
+                  style: white
+                  size: big
+                  extra_classes:
+              - _bookshop_name: simple/button
+                content:
+                  text: Contact us
+                  link: /
+                styles:
+                  style: outline-white
+                  size: big
+                  extra_classes:
+          styles:
+            margin:
               top: 0
-              left: 33
-              rotate: -9
-              shift:
-                x: 28
-                'y': 20
-            content:
-              image: /src/images/logos/ssgs/hugo.svg
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/jekyll.svg
-            styles:
-              logo:
-                scale: 1.01
-                padding:
-                  x: 20
-              shape: rectangle
-              top: 10
-              left: 5
-              rotate: -14
-              shift:
-                x: 16
-                'y': 28
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/gatsby.svg
-            styles:
-              logo:
-                scale: 0.85
-              shape: rectangle
-              top: 5
-              right: 21
-              rotate: 15
-              shift:
-                x: -25
-                'y': 17
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/eleventy.svg
-            styles:
-              logo:
-                scale: 1
-                padding:
-                  x: 20
-                  'y': 20
-              shape: circle
-              top: 45
-              left: 0
-              rotate: -15
-              shift:
-                x: 23
-                'y': 27
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/nuxt.svg
-            styles:
-              logo:
-                scale: 0.9
-                padding:
-                  x: 20
-                  'y': 20
-              shape: circle
-              top: 25
-              right: 0
-              rotate: 19
-              shift:
-                x: -30
-                'y': 14
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/svelte.svg
-            styles:
-              logo:
-                scale: 0.7
-                padding:
-                  x: 20
-                  'y': 20
-              shape: circle
-              top: 70
-              right: 0
-              rotate: 0
-              shift:
-                x: -17
-                'y': -25
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/mkdocs.svg
-            styles:
-              logo:
-                height: 55
-                padding:
-                  x: 20
-              shape: rectangle
-              bottom: -6
-              left: 7
-              rotate: -15
-              shift:
-                x: 21
-                'y': -30
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/nextjs.svg
-            styles:
-              logo:
-                padding:
-                  x: 40
-              shape: rectangle
               bottom: 0
-              right: 46
-              rotate: 18
-              shift:
-                x: -15
-                'y': -30
-          - _bookshop_name: simple/logo-shape
-            content:
-              image: /src/images/logos/ssgs/astro.svg
-            styles:
-              logo:
-                translate:
-                  'y': 8
-                padding:
-                  x: 20
-                height: 70
-              shape: rectangle
-              bottom: -10
-              right: 16
-              rotate: 0
-              shift:
-                x: -32
-                'y': -20
-      - _bookshop_name: simple/spacer
-        size: 250
-  - _bookshop_name: sections/container
-    background: ash
-    rounded: top
-    blocks:
-      - _bookshop_name: simple/spacer
-        size: 100
-      - _bookshop_name: simple/emoji-heading
-        content:
-          emoji:
-          sub_title: Happy developers + Happy editors =
-          title: Websites you’re proud of
-        styles:
-          center_text: false
-      - _bookshop_name: case-studies/row
-        case_studies:
-          - case_study: ee337cd8-7745-11ed-a1eb-0242ac120002
-          - case_study: ff183750-7745-11ed-a1eb-0242ac120002
-          - case_study: f3762772-7745-11ed-a1eb-0242ac120002
-      - _bookshop_name: simple/spacer
-        size: 150
-  - _bookshop_name: sections/container
-    background: cc-blue
-    rounded: top
-    blocks:
-      - _bookshop_name: simple/spacer
-        size: 180
-      - _bookshop_name: simple/heading
-        content:
-          text: Get started with CloudCannon
-        styles:
-          size: h2
-          color: white
-          align: center
-          width: tight
-      - _bookshop_name: simple/spacer
-        size: 30
-      - _bookshop_name: simple/text-block
-        content:
-          text_html: >-
-            Try out CloudCannon with a 14-day free trial, or get in touch with
-            us for a demo.
-        styles:
-          size: big
-          color: gray
-          center_text: true
-          width: md
-      - _bookshop_name: simple/button-holder
-        content:
-          button_blocks:
-            - _bookshop_name: simple/button
-              content:
-                text: Try for free
-                link: /
-              styles:
-                style: white
-                size: big
-                extra_classes:
-            - _bookshop_name: simple/button
-              content:
-                text: Contact us
-                link: /
-              styles:
-                style: outline-white
-                size: big
-                extra_classes:
-        styles:
-          margin:
-            top: 0
-            bottom: 0
-      - _bookshop_name: simple/spacer
-        size: 140
+        - _bookshop_name: simple/spacer
+          size: 140
 ---

@@ -3,34 +3,36 @@ layout: builder.html
 eleventyComputed:
   content_blocks:
     - _bookshop_name: sections/container
-      background: sun-spot
-      blocks:
-        - _bookshop_name: simple/spacer
-          size: 100
-        - _bookshop_name: simple/icon-image
-          content:
-            image: "/src/images/logos/ssgs/{{ page.fileSlug }}.svg"
-            alt: "{{ title }} logo"
-          styles:
-            scale: .9
-        - _bookshop_name: simple/spacer
-          size: 30
-        - _bookshop_name: simple/heading
-          content:
-            text: "{{ title }} Cheatsheet"
-          styles:
-            size: h1
-            align: center
-            width: tight
-        - _bookshop_name: simple/spacer
-          size: 35
-        - _bookshop_name: simple/sub-heading
-          content:
-            text: "{{ description }}"
-          styles:
-            size: big
-        - _bookshop_name: simple/spacer
-          size: 80 
+      styles:
+        background: sun-spot
+      content:
+        blocks:
+          - _bookshop_name: simple/spacer
+            size: 100
+          - _bookshop_name: simple/icon-image
+            content:
+              image: "/src/images/logos/ssgs/{{ page.fileSlug }}.svg"
+              alt: "{{ title }} logo"
+            styles:
+              scale: .9
+          - _bookshop_name: simple/spacer
+            size: 30
+          - _bookshop_name: simple/heading
+            content:
+              text: "{{ title }} Cheatsheet"
+            styles:
+              size: h1
+              align: center
+              width: tight
+          - _bookshop_name: simple/spacer
+            size: 35
+          - _bookshop_name: simple/sub-heading
+            content:
+              text: "{{ description }}"
+            styles:
+              size: big
+          - _bookshop_name: simple/spacer
+            size: 80 
 ---
 <div class="container mb-24">
   {% assign collection_name = page.fileSlug | append: '_cheat_sheet' %}

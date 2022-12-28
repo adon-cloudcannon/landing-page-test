@@ -3,8 +3,8 @@ layout: page.html
 eleventyComputed:
   header_blocks:
     - _bookshop_name: sections/container
-      background: sun-spot
-      blocks:
+      content:
+        blocks:
         - _bookshop_name: simple/spacer
           size: 100
         - _bookshop_name: simple/heading
@@ -33,7 +33,8 @@ eleventyComputed:
           title: "{{ title }}"
         - _bookshop_name: simple/spacer
           size: 30 
-        
+      styles:
+        background: sun-spot
 ---
 {% bookshop_include "page" content_blocks: header_blocks %}
 

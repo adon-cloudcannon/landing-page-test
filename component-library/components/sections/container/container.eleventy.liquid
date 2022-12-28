@@ -1,7 +1,7 @@
 {% assign classes = "" %}
-{% assign styles = "" %}
+{% assign css_styles = "" %}
 
-{% case background %}
+{% case styles.background %}
 	{% when 'caramel' %}
 		{% assign classes = classes | append: " bg-caramel" %}
 	{% when 'sky' %}
@@ -18,62 +18,62 @@
 		{% assign classes = classes | append: " bg-white" %}
 {% endcase %}
 
-{% case rounded %}
+{% case styles.rounded %}
 	{% when 'top' %}
 		{% assign classes = classes | append: " rounded-t-[40px] -mt-[40px]" %}
 	{% when 'full' %}
 		{% assign classes = classes | append: " rounded-[20px]" %}
 {% endcase %}
 
-{% if margin %}
-	{% if margin.top %}
-		{% assign styles = styles | append: " " | append: "margin-top:" | append: margin.top | append: "px;" %}
+{% if styles.margin %}
+	{% if styles.margin.top %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
 	{% endif %}
 
-	{% if align == 'center' %}
-		{% assign styles = styles | append: " " | append: "margin-left: auto; margin-right: auto;" %}
+	{% if styles.align == 'center' %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-left: auto; margin-right: auto;" %}
 	{% else %}
-		{% if margin.left %}
-			{% assign styles = styles | append: " " | append: "margin-left:" | append: margin.left | append: "px;" %}
+		{% if styles.margin.left %}
+			{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: styles.margin.left | append: "px;" %}
 		{% endif %}
 
-		{% if margin.right %}
-			{% assign styles = styles | append: " " | append: "margin-right:" | append: margin.right | append: "px;" %}
+		{% if styles.margin.right %}
+			{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: styles.margin.right | append: "px;" %}
 		{% endif %}
 	{% endif %}
 
-	{% if margin.bottom %}
-		{% assign styles = styles | append: " " | append: "margin-bottom:" | append: margin.bottom | append: "px;" %}
+	{% if styles.margin.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
 	{% endif %}
 {% endif %}
 
-{% if padding %}
-	{% if padding.top %}
-		{% assign styles = styles | append: " " | append: "padding-top:" | append: padding.top | append: "px;" %}
+{% if styles.padding %}
+	{% if styles.padding.top %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-top:" | append: styles.padding.top | append: "px;" %}
 	{% endif %}
 
-	{% if padding.left %}
-		{% assign styles = styles | append: " " | append: "padding-left:" | append: padding.left | append: "px;" %}
+	{% if styles.padding.left %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-left:" | append: styles.padding.left | append: "px;" %}
 	{% endif %}
 
-	{% if padding.right %}
-		{% assign styles = styles | append: " " | append: "padding-right:" | append: padding.right | append: "px;" %}
+	{% if styles.padding.right %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-right:" | append: styles.padding.right | append: "px;" %}
 	{% endif %}
 
-	{% if padding.bottom %}
-		{% assign styles = styles | append: " " | append: "padding-bottom:" | append: padding.bottom | append: "px;" %}
+	{% if styles.padding.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-bottom:" | append: styles.padding.bottom | append: "px;" %}
 	{% endif %}
 {% endif %}
 
-{% case size %}
+{% case styles.size %}
 {% when 'small' %}
 	{% assign classes = classes | append: " w-[800px] mx-auto" %}
 {% endcase %}
 
 
-<div class="{{ classes }} relative" style="{{ styles }}">
+<div class="{{ classes }} relative" style="{{ css_styles }}">
 		<div class="container relative">
-	{% for component in blocks %}
+	{% for component in content.blocks %}
 		{% bookshop "{{component._bookshop_name}}" bind: component %}
 	{% endfor %}
 	</div>

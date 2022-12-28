@@ -10,7 +10,7 @@ categories:
 image: 
   path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/twitch-card-1.png
   alt: Twitch logo
-logo: /src/images/logos/twitch.svg
+logo: /images/logos/twitch.svg
 person:
   name:  Sam Harnack
   position: Technical Marketing Director

@@ -3,32 +3,34 @@ layout: builder.html
 eleventyComputed:
   content_blocks:
     - _bookshop_name: sections/container
-      background: sun-spot
-      blocks:
-        - _bookshop_name: simple/spacer
-          size: 100
-        - _bookshop_name: simple/icon-image
-          content:
-            image: "/images/icons/ecosystem/{{ short_title | downcase | replace: ' ', '-' }}.svg"
-            alt: short_title
-        - _bookshop_name: simple/spacer
-          size: 30
-        - _bookshop_name: simple/heading
-          content:
-            text: "{{ short_title }}"
-          styles:
-            size: h1
-            align: center
-            width: tight
-        - _bookshop_name: simple/spacer
-          size: 35
-        - _bookshop_name: simple/sub-heading
-          content:
-            text: "{{ description }}"
-          styles:
-            size: big
-        - _bookshop_name: simple/spacer
-          size: 80 
+      styles:
+        background: sun-spot
+      content:
+        blocks:
+          - _bookshop_name: simple/spacer
+            size: 100
+          - _bookshop_name: simple/icon-image
+            content:
+              image: "/images/icons/ecosystem/{{ short_title | downcase | replace: ' ', '-' }}.svg"
+              alt: short_title
+          - _bookshop_name: simple/spacer
+            size: 30
+          - _bookshop_name: simple/heading
+            content:
+              text: "{{ short_title }}"
+            styles:
+              size: h1
+              align: center
+              width: tight
+          - _bookshop_name: simple/spacer
+            size: 35
+          - _bookshop_name: simple/sub-heading
+            content:
+              text: "{{ description }}"
+            styles:
+              size: big
+          - _bookshop_name: simple/spacer
+            size: 80 
 ---
 {{ content }}
 
