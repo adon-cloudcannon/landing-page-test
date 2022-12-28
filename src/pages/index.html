@@ -34,16 +34,21 @@ content_blocks:
             developer-approved tech stack.
         styles:
           size: big
-      - _bookshop_name: simple/button_holder
-        button_blocks:
-          - _bookshop_name: simple/button
-            content:
-              text: Try for free
-              link: /
-            styles:
-              style: normal
-              size: big
-              extra_classes:
+      - _bookshop_name: simple/button-holder
+        content:
+          button_blocks:
+            - _bookshop_name: simple/button
+              content:
+                text: Try for free
+                link: /
+              styles:
+                style: normal
+                size: big
+                extra_classes:
+          styles:
+            margin:
+              top: 0
+              bottom: 0
       - _bookshop_name: simple/spacer
         size: 100
   - _bookshop_name: video
@@ -372,24 +377,29 @@ content_blocks:
           color: gray
           center_text: true
           width: md
-      - _bookshop_name: simple/button_holder
-        button_blocks:
-          - _bookshop_name: simple/button
-            content:
-              text: Try for free
-              link: /
-            styles:
-              style: white
-              size: big
-              extra_classes:
-          - _bookshop_name: simple/button
-            content:
-              text: Contact us
-              link: /
-            styles:
-              style: outline-white
-              size: big
-              extra_classes:
+      - _bookshop_name: simple/button-holder
+        content:
+          button_blocks:
+            - _bookshop_name: simple/button
+              content:
+                text: Try for free
+                link: /
+              styles:
+                style: white
+                size: big
+                extra_classes:
+            - _bookshop_name: simple/button
+              content:
+                text: Contact us
+                link: /
+              styles:
+                style: outline-white
+                size: big
+                extra_classes:
+        styles:
+          margin:
+            top: 0
+            bottom: 0
       - _bookshop_name: simple/spacer
         size: 140
 ---

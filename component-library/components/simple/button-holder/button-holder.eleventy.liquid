@@ -1,0 +1,19 @@
+{% assign css_styles = " " %}
+
+{% if styles.margin %}
+	{% if styles.margin.top %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
+	{% endif %}
+
+	{% if styles.margin.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+<div class="mt-16 flex justify-center" style="{{ css_styles }}">
+	{% for component in content.button_blocks %}
+		<div class="mr-3 last:mr-0">
+			{% bookshop "{{component._bookshop_name}}" bind: component %}
+		</div>
+	{% endfor %}
+</div>
