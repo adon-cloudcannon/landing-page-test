@@ -57,14 +57,52 @@ content_blocks:
         left: 0
       size: normal
       align:
-  - _bookshop_name: video
-    placeholder_image: /images/page/player-frame.png
-    video: https://player.vimeo.com/video/668496650
-    title: How does CloudCannon work?
+  - _bookshop_name: sections/container
+    content:
+      label: Video
+      blocks:
+        - _bookshop_name: simple/video-placeholder
+          content:
+            placeholder_image: /images/page/player-frame.png
+            video: https://player.vimeo.com/video/668496650
+            title: How does CloudCannon work?
+          styles:
+            margin:
+              top: 0
+              right: 0
+              bottom: 0
+              left: 0
+    styles:
+      background: white
+      rounded: none
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      size: normal
+      align:
   - _bookshop_name: sections/container
     styles:
       background: caramel
       rounded: top
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      size: normal
+      align:
     content:
       blocks:
         - _bookshop_name: simple/spacer
@@ -158,8 +196,8 @@ content_blocks:
                   text_html: >-
                     <ul><li>Build pages visually with your on brand custom
                     components</li><li>Share and review changes on a fully
-                    functioning preview site</li><li>Publish content live with
-                    the push of a button</li></ul>
+                    functioning preview site</li><li>Publish content live with the
+                    push of a button</li></ul>
           right:
             blocks:
               - _bookshop_name: simple/video
@@ -196,10 +234,10 @@ content_blocks:
             - _bookshop_name: simple/text-block
               content:
                 text_html: >-
-                  <p>Focus on building custom components rather than hand
-                  holding editors through content changes. Build locally with
-                  your favorite tools and frameworks, then sync changes to
-                  content editors with a Git push.</p>
+                  <p>Focus on building custom components rather than hand holding
+                  editors through content changes. Build locally with your
+                  favorite tools and frameworks, then sync changes to content
+                  editors with a Git push.</p>
               styles:
                 center_text: true
                 width: md
