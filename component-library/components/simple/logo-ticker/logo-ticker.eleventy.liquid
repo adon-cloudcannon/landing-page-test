@@ -1,50 +1,25 @@
-<div class="flex py-5 justify-between">
-	{% for item in logos %}
-		{% assign classes = "" %}
-		{% if item.position %}
-			{% assign classes = classes | append: " relative" %}
-			{% if item.position.top %}
-				{% assign position_prefix = "" %}
-				{% if item.position.top < 0 %}
-					{% assign position_prefix = "-" %}
-				{% endif %}
-				{% assign px = item.position.top | abs %}
+{% assign css_styles = "" %}
 
-				{% assign classes = classes | append: " " | append: position_prefix | append: "top-[" | append: px | append: "px]" %}
-			{% endif %}
+{% if styles.margin %}
+	{% if styles.margin.top %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
+	{% endif %}
 
-			{% if item.position.left %}
-				{% assign position_prefix = "" %}
-				{% if item.position.left < 0 %}
-					{% assign position_prefix = "-" %}
-				{% endif %}
-				{% assign px = item.position.left | abs %}
+	{% if styles.margin.left %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: styles.margin.left | append: "px;" %}
+	{% endif %}
 
-				{% assign classes = classes | append: " " | append: position_prefix | append: "left-[" | append: px | append: "px]" %}
-			{% endif %}
+	{% if styles.margin.right %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: styles.margin.right | append: "px;" %}
+	{% endif %}
 
-			{% if item.position.bottom %}
-				{% assign position_prefix = "" %}
-				{% if item.position.bottom < 0 %}
-					{% assign position_prefix = "-" %}
-				{% endif %}
-				{% assign px = item.position.bottom | abs %}
+	{% if styles.margin.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
 
-				{% assign classes = classes | append: " " | append: position_prefix | append: "bottom-[" | append: px | append: "px]" %}
-			{% endif %}
-
-			{% if item.position.right %}
-				{% assign position_prefix = "" %}
-				{% if item.position.right < 0 %}
-					{% assign position_prefix = "-" %}
-				{% endif %}
-				{% assign px = item.position.right | abs %}
-
-				{% assign classes = classes | append: " " | append: position_prefix | append: "right-[" | append: px | append: "px]" %}
-			{% endif %}
-		{% endif %}
-		<a class="hover:scale-110 transition {{ classes }}" href="{{ item.link }}">
-			{{ item.logo | svgContents }}
-		</a>
+<div class="flex justify-between"  style="{{ css_styles }}">
+	{% for item in content.logo_blocks %}
+		{% bookshop "simple/logo" content:item.content, styles:item.styles %}
 	{% endfor %}
 </div>

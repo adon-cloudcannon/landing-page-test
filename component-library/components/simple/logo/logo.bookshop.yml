@@ -9,17 +9,37 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  contents:
-    logo_blocks:
+  content:
+    logo: /src/images/logos/netflix.svg
+    name: Netflix
+    link: '/'
   styles:
-    margin:
+    position:
       top: 0
       right: 0
       bottom: 0
       left: 0
-
+  
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  position:
+    comment: Adjust the position of this logo.
+  logo:
+    type: url
+    comment: The path to this logo
+  name:
+    comment: Used for accessibility, doesn't show on the page otherwise
+  link:
+    type: url
+    comment: The link when the logo is clicked on
+  top:
+    type: number
+  right:
+    type: number
+  bottom:
+    type: number
+  left:
+    type: number

@@ -1,0 +1,24 @@
+{% assign classes = " relative" %}
+{% assign css_styles = "" %}
+
+{% if styles.position %}
+	{% if styles.position.top %}
+		{% assign css_styles = css_styles | append: " " | append: "top:" | append: styles.position.top | append: "px;" %}
+	{% endif %}
+
+	{% if styles.position.left %}
+		{% assign css_styles = css_styles | append: " " | append: "left:" | append: styles.position.left | append: "px;" %}
+	{% endif %}
+
+	{% if styles.position.right %}
+		{% assign css_styles = css_styles | append: " " | append: "right:" | append: styles.position.right | append: "px;" %}
+	{% endif %}
+
+	{% if styles.position.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "bottom:" | append: styles.position.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+<a class="hover:scale-110 transition {{ classes }}" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
+	{{ content.logo | svgContents }}
+</a>
