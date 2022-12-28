@@ -42,9 +42,5 @@ _inputs:
     comment: Adjust the spacing between the subheading and other components. Can be negative for overlapping.
   top:
     type: number
-  right:
-    type: number
   bottom:
-    type: number
-  left:
     type: number

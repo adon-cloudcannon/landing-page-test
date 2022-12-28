@@ -18,6 +18,11 @@ blueprint:
     right: 0
     bottom: 0
     left: 0
+  padding:
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
   size: normal
   align: none
   blocks:
@@ -51,7 +56,9 @@ _inputs:
         - top
         - full
   margin:
-    comment: Adjust the spacing between this section and others. Can be negative for overlapping.
+    comment: Adjust the spacing between this container and others. Can be negative for overlapping.
+  margin:
+    comment: Adjust the spacing inside this container.
   top:
     type: number
   right:

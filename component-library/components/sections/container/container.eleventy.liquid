@@ -45,8 +45,24 @@
 	{% if margin.bottom %}
 		{% assign styles = styles | append: " " | append: "margin-bottom:" | append: margin.bottom | append: "px;" %}
 	{% endif %}
+{% endif %}
 
-	
+{% if padding %}
+	{% if padding.top %}
+		{% assign styles = styles | append: " " | append: "padding-top:" | append: padding.top | append: "px;" %}
+	{% endif %}
+
+	{% if padding.left %}
+		{% assign styles = styles | append: " " | append: "padding-left:" | append: padding.left | append: "px;" %}
+	{% endif %}
+
+	{% if padding.right %}
+		{% assign styles = styles | append: " " | append: "padding-right:" | append: padding.right | append: "px;" %}
+	{% endif %}
+
+	{% if padding.bottom %}
+		{% assign styles = styles | append: " " | append: "padding-bottom:" | append: padding.bottom | append: "px;" %}
+	{% endif %}
 {% endif %}
 
 {% case size %}
