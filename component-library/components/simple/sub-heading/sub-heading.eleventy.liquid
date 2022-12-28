@@ -16,6 +16,6 @@
 	{% endif %}
 {% endif %}
 
-<div class="text-{{ text_size }} max-w-screen-md mx-auto leading-relaxed text-gray-700 font-medium text-center [&>a]:text-cc [&>a]:hover:underline" style="{{ css_styles }}">
+<div class="text-{{ text_size }} max-w-screen-md mx-auto leading-relaxed text-gray-700 font-medium text-center [&_a]:text-cc [&>a]:hover:underline" style="{{ css_styles }}">
 	{{ content.text | markdownify }}
 </div>
