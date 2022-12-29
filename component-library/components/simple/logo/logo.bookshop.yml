@@ -2,7 +2,7 @@
 spec:
   structures:
     - logo_blocks
-  label: "Logos"
+  label: "Logo"
   description: The logos inside a logo ticker
   icon: polymer
   tags: []
