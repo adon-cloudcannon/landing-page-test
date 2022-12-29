@@ -2,10 +2,11 @@
 spec:
   structures:
     - content_blocks
-  label: "Simple Logo-ticker"
-  description:
-  icon:
-  tags: []
+    - blocks
+  label: "Logo ticker"
+  description: "Displays a horizontal list of logos with a link"
+  icon: more_horiz
+  tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
@@ -23,3 +24,15 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  logo_blocks:
+    comment: The list of logos
+  margin:
+    comment: Adjust the spacing between this component and others. Can be negative for overlapping.
+  top:
+    type: number
+  right:
+    type: number
+  bottom:
+    type: number
+  left:
+    type: number
