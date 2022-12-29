@@ -37,8 +37,8 @@
 {% endif %}
 
 {% if styles.gap %}
-	{% assign left-s = left-s | append: " margin-right: " | append: gap | append: "px;" %}
-	{% assign right-s = right-s | append: " margin-left: " | append: gap | append: "px;" %}
+	{% assign left-s = left-s | append: " margin-right: " | append: styles.gap | append: "px;" %}
+	{% assign right-s = right-s | append: " margin-left: " | append: styles.gap | append: "px;" %}
 {% endif %}
 
 <div class="flex relative">
