@@ -2,17 +2,56 @@
 spec:
   structures:
     - content_blocks
-  label: "Simple Image"
-  description:
-  icon:
-  tags: []
+    - blocks
+  label: "Image"
+  description: Inserts an image
+  icon: image
+  tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  content:
+    alt: 
+    image:
+  styles:
+    scale:
+    ontop:
+    center:
+    rounded:
+    border:
+    margin:
+      top:
+      left:
+      bottom:
+      right:
+    position:
+      top:
+      left:
+      bottom:
+      right:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  alt:
+    comment: Alt tag for the image. Used for accessibility.
+  image:
+    comment: The location of the image
+    type: image
+  scale:
+    comment: Increase or decrease the size of the image. 1.0 is the default scale
+    type: number
+  ontop:
+    comment: Situational usage. If the image is for some reason behind another element, this should bring it to the front.
+    type: switch
+  center:
+    comment: Centers the image inside its parent
+    type: switch
+  rounded:
+    comment: Rounds the corners of the image
+    type: switch
+  border:
+    comment: Adds a border to the image
+    type: switch
