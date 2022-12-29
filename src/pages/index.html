@@ -166,39 +166,48 @@ content_blocks:
             size: h2
             align: center
             width: tight
-        - _bookshop_name: simple/spacer
-          size: 25
+            color: 
+            margin:
+              top: 0
+              bottom: 25
         - _bookshop_name: simple/sub-heading
           content:
             text: >-
               Developers push changes directly to Git. Editors build pages
               visually using custom components. Your teams stay in sync with a
               unified workflow.
-        - _bookshop_name: simple/spacer
-          size: 150
+          styles:
+            size: 
+            margin:
+              top: 0
+              bottom: 150
         - _bookshop_name: sections/two-column
-          middle_logo: true
-          style: split
-          split_border: true
-          left:
-            blocks:
-              - _bookshop_name: simple/image
-                content:
-                  alt: developer workflow
-                  image: /images/page/developer.png
-          right:
-            blocks:
-              - _bookshop_name: simple/image
-                content:
-                  alt: marketer workflow
-                  image: /images/page/marketer.png
-                styles:
-                  scale: 1.15
-                  margin:
-                    top: 28
-                    left: 20
-                    bottom:
-                    right:
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: developer workflow
+                    image: /images/page/developer.png
+            middle_logo: /src/images/cc-symbol-logo.svg
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: marketer workflow
+                    image: /images/page/marketer.png
+                  styles:
+                    scale: 1.15
+                    margin:
+                      top: 28
+                      left: 20
+                      bottom:
+                      right:
+          styles:
+            style: split
+            split_border: true
+            vertically_center:
+            gap:
     styles:
       background: caramel
       rounded: top

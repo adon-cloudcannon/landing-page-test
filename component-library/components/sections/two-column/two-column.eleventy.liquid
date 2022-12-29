@@ -1,48 +1,61 @@
 {% assign left-c = "" %}
 {% assign right-c = "" %}
+{% assign left-s = "" %}
+{% assign right-s = "" %}
 
-{% case style %}
-{% when "split" %}
+{% case styles.type %}
+{% when "fixed-fluid" %}
+	{% if styles.width %}
+		{% assign width = styles.width %}
+	{% else %}
+		{% assign width = 500 %}
+	{% endif %}
+	{% assign left-s = left-s | append: " width:" | append: width | append: "px;" %}
+	{% assign right-c = right-c | append: " relative flex-1" %}
+
+{% when "fluid-fixed" %}
+	{% if styles.width %}
+		{% assign width = styles.width %}
+	{% else %}
+		{% assign width = 500 %}
+	{% endif %}
+	{% assign right-s = right-s | append: " width:" | append: width | append: "px;" %}
+	{% assign left-c = left-c | append: " relative flex-1" %}
+{% else %}
 	{% assign left-c = left-c | append: " w-1/2" %}
 	{% assign right-c = right-c | append:  " w-1/2" %}
-{% when "fixed-fluid" %}
-	{% unless width %}
-		{% assign width = 500 %}
-	{% endunless %}
-	{% assign left-c = left-c | append: " w-[" | append: width | append: "px]" %}
-	{% assign right-c = right-c | append: " relative flex-1" %}
 {% endcase %}
 
-{% if split_border %}
+{% if styles.split_border %}
 	{% assign right-c = right-c | append: " border-l border-dotted border-gray-300" %}
 {% endif %}
 
-{% if vertically_center %}
+{% if styles.vertically_center %}
 	{% assign flex_center = " flex-col justify-center flex" %}
 	{% assign left-c = left-c | append: flex_center %}
 	{% assign right-c = right-c | append: flex_center %}
 {% endif %}
 
-{% if gap %}
-	{% assign left-c = left-c | append: " mr-8" %}
-	{% assign right-c = right-c | append: " ml-8" %}
+{% if styles.gap %}
+	{% assign left-s = left-s | append: " margin-right: " | append: gap | append: "px;" %}
+	{% assign right-s = right-s | append: " margin-left: " | append: gap | append: "px;" %}
 {% endif %}
 
 <div class="flex relative">
-	<div class="{{ left-c }}">
-		{% for component in left.blocks %}
+	<div class="{{ left-c }}" style="{{ left-s }}">
+		{% for component in content.left.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}
 	</div>
-	{% if middle_logo %}
+	{% if content.middle_logo %}
 		<div class="
 			absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2 z-10 w-36 h-36 [&>svg]:w-9/12 bg-white 
 			rounded-full p-5 flex justify-center items-center drop-shadow-2xl">
-			{{ '/src/images/cc-symbol-logo.svg' | svgContents }}
+			{{ content.middle_logo | svgContents }}
 		</div>
 	{% endif %}
-	<div class="{{ right-c }}">
-		{% for component in right.blocks %}
+	<div class="{{ right-c }}" style="{{ right-s }}">
+		{% for component in content.right.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}
 	</div>

@@ -3,17 +3,54 @@ spec:
   structures:
     - content_blocks
     - blocks
-  label: "Sections Two-column"
-  description:
-  icon:
-  tags: []
+  label: "Two column"
+  description: "Set ups two columns which componenets can be added to"
+  icon: view_column_2
+  tags: ['container']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  content:
+    left:
+      blocks:
+    middle_logo:
+    right:
+      blocks:
+  styles:
+    type:
+    width:
+    split_border:
+    vertically_center:
+    gap:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  left:
+    comment: "Components for the left column"
+  right:
+    comment: "Components for the right column"
+  middle_logo:
+    comment: "Only used in special circumstances. An optional image to show between the two columns."
+    type: url
+  type:
+    comment: "The type of two column layout to render"
+    options:
+      values:
+        - split
+        - fixed-fluid
+        - fluid-fixed
+  width:
+    comment: "for a 'fixed' type, the width of the fixed column"
+    type: number
+  split_border:
+    comment: Whether to show a border between the columns
+    type: switch
+  vertically_center:
+    comment: Whether to vertically center the content of the columns
+    type: switch
+  gap:
+    comment: The size of the gap between the columns
+    type: number
