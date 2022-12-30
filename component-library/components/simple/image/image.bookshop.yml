@@ -55,3 +55,7 @@ _inputs:
   border:
     comment: Adds a border to the image
     type: switch
+  margin:
+    comment: Adjust the spacing between the image and other components. Can be negative for overlapping.
+  position:
+    comment: Adjust the position of the image.
