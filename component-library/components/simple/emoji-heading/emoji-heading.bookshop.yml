@@ -46,3 +46,10 @@ _inputs:
     type: number
   bottom:
     type: number
+  text_alignment:
+    comment: Align the text
+    type: select 
+    options:
+      values:
+        - left
+        - center

@@ -48,7 +48,7 @@ _inputs:
         - medium
         - large
         - full
-  text-color:
+  text_color:
     comment: The color of the text
     type: select 
     options:
@@ -56,7 +56,7 @@ _inputs:
         - white
         - gray
         - default
-  text-size:
+  text_size:
     comment: The size of the text
     type: select 
     options:
