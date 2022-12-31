@@ -253,8 +253,6 @@ content_blocks:
     content:
       label: Content Editors
       blocks:
-        - _bookshop_name: simple/spacer
-          size: 200
         - _bookshop_name: sections/two-column
           content:
             middle_logo:
@@ -271,16 +269,17 @@ content_blocks:
                   content:
                     text_markdown: >-
                       * Build pages visually with your on brand custom
-                        components
-                      * Share and review changes on a fully
-                        functioning preview site
-                      * Publish content live with
-                        the push of a button
+                      components
+
+                      * Share and review changes on a fully functioning preview
+                      site
+
+                      * Publish content live with the push of a button
                   styles:
                     text_alignment: left
                     center_block:
                     width: full
-                    text-color:
+                    text-color: default
                     text-size: normal
             right:
               blocks:
@@ -298,7 +297,7 @@ content_blocks:
             type: fixed-fluid
             width: 450
             split_border: false
-            vertically_center:
+            vertically_center: false
             gap: 0
     styles:
       background:
@@ -309,14 +308,12 @@ content_blocks:
         bottom: 0
         left: 0
       padding:
-        top: 0
+        top: 200
         right: 0
-        bottom: 0
+        bottom: 100
         left: 0
       size: normal
-      align:
-  - _bookshop_name: simple/spacer
-    size: 200
+      align: none
   - _bookshop_name: sections/container
     styles:
       background: sky
@@ -339,10 +336,10 @@ content_blocks:
             - _bookshop_name: simple/text-block
               content:
                 text_markdown: >-
-                  Focus on building custom components rather than hand
-                  holding editors through content changes. Build locally with
-                  your favorite tools and frameworks, then sync changes to
-                  content editors with a Git push.
+                  Focus on building custom components rather than hand holding
+                  editors through content changes. Build locally with your
+                  favorite tools and frameworks, then sync changes to content
+                  editors with a Git push.
               styles:
                 center_text: true
                 width: md
