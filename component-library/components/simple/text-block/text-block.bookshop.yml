@@ -18,6 +18,9 @@ blueprint:
     width: full
     text_color:
     text_size: normal
+    margin:
+      top: 0
+      bottom: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -60,3 +63,9 @@ _inputs:
       values:
         - big
         - normal
+  margin:
+    comment: Adjust the spacing between the component and other components. Can be negative for overlapping.
+  top:
+    type: number
+  bottom:
+    type: number

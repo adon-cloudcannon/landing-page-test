@@ -1,9 +1,10 @@
 {% assign classes = "" %}
 {% assign css_styles = " " %}
 
-{% if styles.center_text %}
+{% case styles.text_alignment %}
+{% when 'center' %}
 	{% assign classes = classes | append: " text-center" %}
-{% endif %}
+{% endcase %}
 
 {% if styles.margin %}
 	{% if styles.margin.top %}
