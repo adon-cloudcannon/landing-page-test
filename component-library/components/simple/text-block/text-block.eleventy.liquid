@@ -31,5 +31,5 @@
 		{% assign classes = classes | append: " text-xl" %}
 	{% endcase %}
 <div class="{{ classes }}">
-	{{ content.text_html }}
+	{{ content.text_markdown | markdownify }}
 </div>

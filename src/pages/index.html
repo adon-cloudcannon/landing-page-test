@@ -214,9 +214,18 @@ content_blocks:
                     image: /images/page/marketer.png
                   styles:
                     scale: 1.15
+                    ontop:
+                    center:
+                    rounded:
+                    border:
                     margin:
                       top: 28
                       left: 20
+                      bottom:
+                      right:
+                    position:
+                      top:
+                      left:
                       bottom:
                       right:
           styles:
@@ -241,46 +250,69 @@ content_blocks:
       size: normal
       align:
   - _bookshop_name: sections/container
-    styles:
-      background:
-      rounded: top
     content:
       blocks:
         - _bookshop_name: simple/spacer
           size: 200
         - _bookshop_name: sections/two-column
-          middle_logo:
-          style: fixed-fluid
+          content:
+            middle_logo:
+            left:
+              blocks:
+                - _bookshop_name: simple/emoji-heading
+                  content:
+                    emoji: 👋
+                    sub_title: Content editors
+                    title: Publish without bugging a developer
+                  styles:
+                    center_text: false
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      * Build pages visually with your on brand custom
+                        components
+                      * Share and review changes on a fully
+                        functioning preview site
+                      * Publish content live with
+                        the push of a button
+                  styles:
+                    center_text:
+                    center_block:
+                    width:
+                    color:
+                    size:
+            right:
+              blocks:
+                - _bookshop_name: simple/video
+                  title: CMS editing video
+                  url: >-
+                    https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+                  autoplay: true
+                  loop: true
+                  transform:
+                    scale: 1.05
+                    translate_x: 100
+                    translate_y: -70
+          type: fixed-fluid
           width: 450
           split_border: false
-          left:
-            blocks:
-              - _bookshop_name: simple/emoji-heading
-                content:
-                  emoji: 👋
-                  sub_title: Content editors
-                  title: Publish without bugging a developer
-                styles:
-                  center_text: false
-              - _bookshop_name: simple/text-block
-                content:
-                  text_html: >-
-                    <ul><li>Build pages visually with your on brand custom
-                    components</li><li>Share and review changes on a fully
-                    functioning preview site</li><li>Publish content live with
-                    the push of a button</li></ul>
-          right:
-            blocks:
-              - _bookshop_name: simple/video
-                title: CMS editing video
-                url: >-
-                  https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
-                autoplay: true
-                loop: true
-                transform:
-                  scale: 1.05
-                  translate_x: 100
-                  translate_y: -70
+          vertically_center:
+          gap: 0
+    styles:
+      background:
+      rounded: top
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      size: normal
+      align:
   - _bookshop_name: simple/spacer
     size: 200
   - _bookshop_name: sections/container
@@ -304,11 +336,11 @@ content_blocks:
                 center_text: true
             - _bookshop_name: simple/text-block
               content:
-                text_html: >-
-                  <p>Focus on building custom components rather than hand
+                text_markdown: >-
+                  Focus on building custom components rather than hand
                   holding editors through content changes. Build locally with
                   your favorite tools and frameworks, then sync changes to
-                  content editors with a Git push.</p>
+                  content editors with a Git push.
               styles:
                 center_text: true
                 width: md
@@ -494,7 +526,7 @@ content_blocks:
           size: 30
         - _bookshop_name: simple/text-block
           content:
-            text_html: >-
+            text_markdown: >-
               Try out CloudCannon with a 14-day free trial, or get in touch with
               us for a demo.
           styles:
