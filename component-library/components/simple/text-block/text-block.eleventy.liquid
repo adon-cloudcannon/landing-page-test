@@ -1,30 +1,31 @@
 {% assign classes = "prose prose-lg prose-ul:list-outside prose-li:font-medium prose-p:font-medium prose-li:marker:text-black mx-auto " %}
 
-{% if styles.center_text %}
+{% case styles.text_alignment %}
+{% when 'center' %}
 	{% assign classes = classes | append: " text-center" %}
-{% endif %}
+{% endcase %}
 
 {% if styles.center_block %}
 	{% assign classes = classes | append: " mx-auto" %}
 {% endif %}
 
 {% case styles.width %}
-{% when "md" %}
+{% when "medium" %}
 	{% assign classes = classes | append: " max-w-screen-md" %}
-{% when "lg" %}
+{% when "large" %}
 	{% assign classes = classes | append: " max-w-screen-lg" %}
 {% else %}
 	{% assign classes = classes | append: " max-w-none" %}
 {% endcase %}
 
-{% case styles.color %}
+{% case styles.text_color %}
 	{% when 'white' %}
 		{% assign classes = classes | append: " text-white" %}
 	{% when 'gray' %}
 		{% assign classes = classes | append: " text-gray-200" %}
 {% endcase %}
 
-{% case styles.size %}
+{% case styles.text_size %}
 	{% when 'big' %}
 		{% assign classes = classes | append: " text-2xl" %}
 	{% else %}

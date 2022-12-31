@@ -4,7 +4,9 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			pluginBookshop = require("@bookshop/eleventy-bookshop"),
 			{ DateTime } = require("luxon"),
 			markdownIt = require("markdown-it"),
-			markdownItRenderer = new markdownIt(),
+			md = new markdownIt({
+				html: true,
+			}),
 			syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"),
 			mila = require("markdown-it-link-attributes");
 
@@ -55,9 +57,7 @@ module.exports = function (eleventyConfig) {
 		});
 	});
 
-	eleventyConfig.addFilter('markdownify', (str) => {
-		return markdownItRenderer.renderInline(str);
-	});
+	eleventyConfig.addFilter("markdownify", (markdown) => md.render(markdown));
 
 	return {
 		dir: {

@@ -13,11 +13,11 @@ blueprint:
   content:
     text_markdown:
   styles:
-    center_text:
+    text_alignment: left
     center_block:
-    width:
-    color:
-    size:
+    width: full
+    text_color:
+    text_size: normal
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -25,4 +25,38 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   text_markdown:
-    comment: 
+    comment: The content
+    type: markdown
+  text_alignment:
+    comment: Align the text
+    type: select 
+    options:
+      values:
+        - left
+        - center
+  center_block:
+    comment: Centeres this component within its parent
+    type: switch
+  width:
+    comment: The width of the text block
+    type: select 
+    options:
+      values:
+        - medium
+        - large
+        - full
+  text-color:
+    comment: The color of the text
+    type: select 
+    options:
+      values:
+        - white
+        - gray
+        - default
+  text-size:
+    comment: The size of the text
+    type: select 
+    options:
+      values:
+        - big
+        - normal
