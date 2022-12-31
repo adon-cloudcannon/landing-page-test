@@ -26,9 +26,7 @@
 {% endcase %}
 
 {% if styles.margin %}
-	{% if styles.margin.top %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
-	{% endif %}
+
 
 	{% if styles.align == 'center' %}
 		{% assign css_styles = css_styles | append: " " | append: "margin-left: auto; margin-right: auto;" %}
