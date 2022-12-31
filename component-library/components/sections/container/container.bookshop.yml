@@ -43,6 +43,7 @@ _inputs:
     comment: The background color for the entire section
     options:
       values:
+        - white
         - caramel
         - sky
         - cc-blue
