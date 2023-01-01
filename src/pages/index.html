@@ -338,32 +338,30 @@ content_blocks:
     content:
       label: SSG Logos
       blocks:
-        - _bookshop_name: simple/spacer
-          size: 118
         - _bookshop_name: sections/logo-box
           content:
             blocks:
-                - _bookshop_name: simple/spacer
-                  size: 195
-                - _bookshop_name: simple/emoji-heading
-                  content:
-                    emoji: 👋
-                    sub_title: Developers
-                    title: Your code. Your components.
-                  styles:
-                    center_text: true
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Focus on building custom components rather than hand holding
-                      editors through content changes. Build locally with your
-                      favorite tools and frameworks, then sync changes to content
-                      editors with a Git push.
-                  styles:
-                    center_text: true
-                    width: md
-                - _bookshop_name: simple/spacer
-                  size: 150
+              - _bookshop_name: simple/spacer
+                size: 195
+              - _bookshop_name: simple/emoji-heading
+                content:
+                  emoji: 👋
+                  sub_title: Developers
+                  title: Your code. Your components.
+                styles:
+                  center_text: true
+              - _bookshop_name: simple/text-block
+                content:
+                  text_markdown: >-
+                    Focus on building custom components rather than hand holding
+                    editors through content changes. Build locally with your
+                    favorite tools and frameworks, then sync changes to content
+                    editors with a Git push.
+                styles:
+                  center_text: true
+                  width: md
+              - _bookshop_name: simple/spacer
+                size: 150
             pizazz:
               - _bookshop_name: simple/logo-shape
                 styles:
@@ -500,8 +498,6 @@ content_blocks:
                   shift:
                     x: -32
                     'y': -20
-        - _bookshop_name: simple/spacer
-          size: 250
       styles:
         margin:
           top: 0
@@ -522,9 +518,9 @@ content_blocks:
         bottom: 0
         left: 0
       padding:
-        top: 0
+        top: 118
         right: 0
-        bottom: 0
+        bottom: 140
         left: 0
       size: normal
       align: none
