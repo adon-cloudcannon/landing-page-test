@@ -1,8 +1,31 @@
 {% assign classes = " relative" %}
 {% assign css_styles = "" %}
+{% assign transform = "" %}
+{% if styles.transform %}
+	{% assign transform = transform | append: " transform:" %}
+	{% if styles.transform.scale %}
+		{% assign transform = transform | append: " scale(" | append: styles.transform.scale | append: ")" %}
+	{% endif %}
 
-{% if styles.scale %}
-	{% assign css_styles = css_styles | append: " transform: scale(" | append: styles.scale | append: ");" %}
+	{% if styles.transform.translate_x %}
+		{% assign transform = transform | append: " translateX(" | append: styles.transform.translate_x | append: "px)" %}
+	{% endif %}
+
+	{% if styles.transform.translate_y %}
+		{% assign transform = transform | append: " translateY(" | append: styles.transform.translate_y | append: "px)" %}
+	{% endif %}
+
+	{% if styles.transform.rotate %}
+		{% assign transform = transform | append: " rotate(" | append: styles.transform.rotate | append: "deg)" %}
+	{% endif %}
+
+	{% if styles.transform.skew %}
+		{% assign transform = transform | append: " skew(" | append: styles.transform.skew | append: "deg)" %}
+	{% endif %}
+
+
+	{% assign transform = transform | append: ";" %}
+	{% assign css_styles = css_styles | append: transform %}
 {% endif %}
 
 {% if styles.margin %}

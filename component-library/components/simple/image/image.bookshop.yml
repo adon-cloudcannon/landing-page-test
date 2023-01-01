@@ -14,7 +14,12 @@ blueprint:
     alt: 
     image:
   styles:
-    scale:
+    transform:
+      scale: 1
+      translate_x: 0
+      translate_y: 0
+      rotate: 0
+      skew: 0
     ontop:
     center:
     rounded:
@@ -40,9 +45,31 @@ _inputs:
   image:
     comment: The location of the image
     type: image
+  transform:
+    comment: Different methods to change how this component displays
   scale:
     comment: Increase or decrease the size of the image. 1.0 is the default scale
     type: number
+  translate_x:
+    comment: Shift the image horizontally
+    type: number
+  translate_y:
+    comment: Shift the image vertically
+    type: number
+  rotate:
+    comment: Rotate the image
+    type: range
+    options:
+      step: 1
+      max: 359
+      min: 0
+  skew:
+    comment: Skew the image
+    type: range
+    options:
+      step: 1
+      max: 359
+      min: 0
   ontop:
     comment: Situational usage. If the image is for some reason behind another element, this should bring it to the front.
     type: switch

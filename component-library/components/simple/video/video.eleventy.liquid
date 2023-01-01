@@ -1,46 +1,62 @@
-
 {% assign classes = "" %}
+{% assign css_styles = "" %}
+{% assign transform = "" %}
 
-{% if transform %}
-	{% if transform.scale %}
-		{% assign classes = classes | append: " scale-[" | append: transform.scale | append: "]" %}
+{% if styles.transform %}
+	{% assign transform = transform | append: " transform:" %}
+	{% if styles.transform.scale %}
+		{% assign transform = transform | append: " scale(" | append: styles.transform.scale | append: ")" %}
 	{% endif %}
 
-	{% if transform.translate_x %}
-		{% assign classes = classes | append: " translate-x-[" | append: transform.translate_x | append: "px]" %}
+	{% if styles.transform.translate_x %}
+		{% assign transform = transform | append: " translateX(" | append: styles.transform.translate_x | append: "px)" %}
 	{% endif %}
 
-	{% if transform.translate_y %}
-		{% assign classes = classes | append: " translate-y-[" | append: transform.translate_y | append: "px]" %}
+	{% if styles.transform.translate_y %}
+		{% assign transform = transform | append: " translateY(" | append: styles.transform.translate_y | append: "px)" %}
 	{% endif %}
 
+	{% if styles.transform.rotate %}
+		{% assign transform = transform | append: " rotate(" | append: styles.transform.rotate | append: "deg)" %}
+	{% endif %}
+
+	{% if styles.transform.skew %}
+		{% assign transform = transform | append: " skew(" | append: styles.transform.skew | append: "deg)" %}
+	{% endif %}
+
+
+	{% assign transform = transform | append: ";" %}
+	{% assign css_styles = css_styles | append: transform %}
 {% endif %}
 
-{% if margin.top %}
-	{% assign classes = classes | append: " mt-[" | append: margin.top | append: "px]" %}
-{% endif %}
+{% if styles.margin %}
+	{% if styles.margin.top %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
+	{% endif %}
 
-{% if margin.left %}
-	{% assign classes = classes | append: " ml-[" | append: margin.left | append: "px]" %}
-{% endif %}
+	{% if styles.margin.left %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: styles.margin.left | append: "px;" %}
+	{% endif %}
 
-{% if margin.bottom %}
-	{% assign classes = classes | append: " mb-[" | append: margin.bottom | append: "px]" %}
-{% endif %}
+	{% if styles.margin.right %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: styles.margin.right | append: "px;" %}
+	{% endif %}
 
-{% if margin.right %}
-	{% assign classes = classes | append: " mr-[" | append: margin.right | append: "px]" %}
+	{% if styles.margin.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
+	{% endif %}
 {% endif %}
 
 <video 
-{% if autoplay %}
+{% if content.autoplay %}
 	autoplay muted
 {% endif %} 
 
-{% if loop %}
+{% if content.loop %}
 	loop
 {% endif %}
 class="{{ classes }}"
-title="{{ title }}">
-	<source src="{{ url }}" type="video/mp4">
+style="{{ css_styles }}"
+title="{{ content.title }}">
+	<source src="{{ content.url }}" type="video/mp4">
 </video>

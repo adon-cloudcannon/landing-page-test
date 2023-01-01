@@ -190,7 +190,6 @@ content_blocks:
                     alt: developer workflow
                     image: /images/page/developer.png
                   styles:
-                    scale:
                     ontop:
                     center:
                     rounded:
@@ -213,7 +212,12 @@ content_blocks:
                     alt: marketer workflow
                     image: /images/page/marketer.png
                   styles:
-                    scale: 1.15
+                    transform:
+                      scale: 1.15
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
                     ontop:
                     center:
                     rounded:
@@ -291,21 +295,30 @@ content_blocks:
             right:
               blocks:
                 - _bookshop_name: simple/video
-                  title: CMS editing video
-                  url: >-
-                    https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
-                  autoplay: true
-                  loop: true
-                  transform:
-                    scale: 1.05
-                    translate_x: 100
-                    translate_y: -70
+                  content:
+                    title: CMS editing video
+                    url: >-
+                      https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+                    autoplay: true
+                    loop: true
+                  styles:
+                    transform:
+                      scale: 1.05
+                      translate_x: 100
+                      translate_y: -70
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
           styles:
             type: fixed-fluid
             width: 450
             split_border: false
             vertically_center: false
-            gap: 0
+            gap: 10
     styles:
       background:
       rounded: top
