@@ -1,61 +1,133 @@
-<div class="
-	{% if styles.left %}
-		left-[{{ styles.left }}%]
-	{% elsif styles.right %}
-		right-[{{ styles.right }}%]
+{% assign outer_classes = "" %}
+{% assign outer_css_styles = "" %}
+
+{% assign inner_classes = "" %}
+{% assign inner_css_styles = "" %}
+
+{% if styles.position.left and styles.position.left != nil and styles.position.left != "" %}
+	{% assign outer_css_styles = outer_css_styles | append: " " | append: "left:" | append: styles.position.left | append: "%;" %}
+{% elsif styles.position.right %}
+	{% assign outer_css_styles = outer_css_styles | append: " " | append: "right:" | append: styles.position.right | append: "%;" %}
+{% endif %}
+
+{% if styles.position.top and styles.position.top != nil and styles.position.top != "" %}
+	{% assign outer_css_styles = outer_css_styles | append: " " | append: "top:" | append: styles.position.top | append: "%;" %}
+{% elsif styles.position.bottom %}
+	{% assign outer_css_styles = outer_css_styles | append: " " | append: "bottom:" | append: styles.position.bottom | append: "%;" %}
+{% endif %}
+
+{% case styles.shape %}
+{% when 'circle' %}
+	{% assign outer_classes = outer_classes | append: " before:rounded-full w-[110px] h-[110px]" %}
+{% else %}
+	{% assign outer_classes = outer_classes | append: " before:rounded-lg h-[80px]" %}
+{% endcase %}
+
+{% if styles.transform %}
+	{% assign transform = " transform:" %}
+	{% if styles.transform.scale %}
+		{% assign transform = transform | append: " scale(" | append: styles.transform.scale | append: ")" %}
 	{% endif %}
 
-	{% case styles.shape %}
-	{% when 'circle' %}
-		before:rounded-full
-		w-[110px]
-		h-[110px]
-	{% else %}
-		before:rounded-lg
-		h-[80px]
-	{% endcase %}
-	inline-block  absolute top-[{{ styles.top }}%]  rotate-[{{ styles.rotate }}deg]
-	before:w-24 before:bg-white/20 before:h-24 before:block before:h-full before:w-full
-	before:border-white before:border before:border-dashed before:absolute">
-	<div class="
-		{% case styles.shape %}
-		{% when 'circle' %}
-			rounded-full
-		{% else %}
-			rounded-lg
-		{% endcase %}
+	{% if styles.transform.translate_x %}
+		{% assign transform = transform | append: " translateX(" | append: styles.transform.translate_x | append: "px)" %}
+	{% endif %}
 
-		{% if styles.logo.padding %}
-			{% if logo.padding.y %}
-				py-[{{ styles.logo.padding.y }}px]
-			{% else %}
-				py-4
-			{% endif %}
+	{% if styles.transform.translate_y %}
+		{% assign transform = transform | append: " translateY(" | append: styles.transform.translate_y | append: "px)" %}
+	{% endif %}
 
-			{% if styles.logo.padding.x %}
-				px-[{{ styles.logo.padding.x }}px]
-			{% else %}
-				px-2
-			{% endif %}
-		{% else %}
-			py-4 px-2
-		{% endif %}
+	{% if styles.transform.rotate %}
+		{% assign transform = transform | append: " rotate(" | append: styles.transform.rotate | append: "deg)" %}
+	{% endif %}
 
-		{% if styles.logo.height %}
-			[&>svg]:h-[{{ styles.logo.height }}%]
-		{% endif %}
+	{% if styles.transform.skew %}
+		{% assign transform = transform | append: " skew(" | append: styles.transform.skew | append: "deg)" %}
+	{% endif %}
 
-		{% if styles.logo.translate.y %}
-			[&>svg]:translate-y-[{{ styles.logo.translate.y }}px]
-		{% endif %}
+	{% assign transform = transform | append: ";" %}
+	{% assign outer_css_styles = outer_css_styles | append: transform %}
+{% endif %}
 
-		{% if styles.logo.scale %}
-			[&>svg]:scale-[{{ styles.logo.scale }}]
-		{% endif %}
+{% case styles.shape %}
+{% when 'circle' %}
+	{% assign inner_classes = inner_classes | append: " rounded-full" %}
+{% else %}
+	{% assign inner_classes = inner_classes | append: " rounded-lg" %}
+{% endcase %}
 
-		bg-white drop-shadow-2xl relative h-full flex items-center
-		translate-x-[{{ shift.x }}px] translate-y-[{{ styles.shift.y }}px] 
-		[&>svg]:h-full [&>svg]:w-full">
+{% if styles.logo.margin %}
+	{% if styles.logo.margin.top %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-top:" | append: styles.logo.margin.top | append: "px;" %}
+	{% endif %}
+
+	{% if styles.logo.margin.left %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-left:" | append: styles.logo.margin.left | append: "px;" %}
+	{% endif %}
+
+	{% if styles.logo.margin.right %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-right:" | append: styles.logo.margin.right | append: "px;" %}
+	{% endif %}
+
+	{% if styles.logo.margin.bottom %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-bottom:" | append: styles.logo.margin.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+{% if styles.logo.padding %}
+	{% if styles.logo.padding.top %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-top:" | append: styles.logo.padding.top | append: "px;" %}
+	{% endif %}
+
+	{% if styles.logo.padding.left %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-left:" | append: styles.logo.padding.left | append: "px;" %}
+	{% endif %}
+
+	{% if styles.logo.padding.right %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-right:" | append: styles.logo.padding.right | append: "px;" %}
+	{% endif %}
+
+	{% if styles.logo.padding.bottom %}
+		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-bottom:" | append: styles.logo.padding.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+{% if styles.logo.transform %}
+	{% assign transform = " transform:" %}
+	{% if styles.logo.transform.scale %}
+		{% assign transform = transform | append: " scale(" | append: styles.logo.transform.scale | append: ")" %}
+	{% endif %}
+
+	{% if styles.logo.transform.translate_x %}
+		{% assign transform = transform | append: " translateX(" | append: styles.logo.transform.translate_x | append: "px)" %}
+	{% endif %}
+
+	{% if styles.logo.transform.translate_y %}
+		{% assign transform = transform | append: " translateY(" | append: styles.logo.transform.translate_y | append: "px)" %}
+	{% endif %}
+
+	{% if styles.logo.transform.rotate %}
+		{% assign transform = transform | append: " rotate(" | append: styles.logo.transform.rotate | append: "deg)" %}
+	{% endif %}
+
+	{% if styles.logo.transform.skew %}
+		{% assign transform = transform | append: " skew(" | append: styles.logo.transform.skew | append: "deg)" %}
+	{% endif %}
+
+
+	{% assign transform = transform | append: ";" %}
+	{% assign inner_classes = inner_classes | append: transform %}
+{% endif %}
+
+
+
+		
+
+<div class="inline-block absolute before:bg-white/20 before:block before:h-full before:w-full
+	before:border-white before:border before:border-dashed before:absolute {{ outer_classes }}" style="{{ outer_css_styles }}">
+	<div title="{{ content.alt }}" 
+		class="bg-white drop-shadow-2xl relative h-full flex items-center
+		[&>svg]:h-full [&>svg]:w-full {{ inner_classes }}" style="{{ inner_css_styles }}">
 		{% assign image = content.image %}
 		{% unless image %}
 			{% assign image = '/src/images/logos/netflix.svg' %}

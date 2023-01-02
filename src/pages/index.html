@@ -342,14 +342,18 @@ content_blocks:
           content:
             blocks:
               - _bookshop_name: simple/spacer
-                size: 195
+                size: 100
               - _bookshop_name: simple/emoji-heading
                 content:
                   emoji: 👋
                   sub_title: Developers
                   title: Your code. Your components.
                 styles:
-                  center_text: true
+                  width:
+                  text_alignment: center
+                  margin:
+                    top: 0
+                    bottom: 0
               - _bookshop_name: simple/text-block
                 content:
                   text_markdown: >-
@@ -358,146 +362,323 @@ content_blocks:
                     favorite tools and frameworks, then sync changes to content
                     editors with a Git push.
                 styles:
-                  center_text: true
-                  width: md
+                  text_alignment: center
+                  center_block:
+                  width: medium
+                  text_color:
+                  text_size: normal
+                  margin:
+                    top: 0
+                    bottom: 0
               - _bookshop_name: simple/spacer
                 size: 150
             pizazz:
               - _bookshop_name: simple/logo-shape
+                content:
+                  alt: Hugo
+                  image: /src/images/logos/ssgs/hugo.svg
                 styles:
                   logo:
-                    scale: 0.85
+                    transform:
+                      scale: 0.85
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      top: 20
+                      right: 20
+                      bottom: 20
+                      left: 20
                   shape: rectangle
-                  top: 0
-                  left: 33
-                  rotate: -9
-                  shift:
-                    x: 28
-                    'y': 20
-                content:
-                  image: /src/images/logos/ssgs/hugo.svg
+                  position:
+                    top: 1
+                    left: 33
+                    bottom:
+                    right:
+                  transform:
+                    scale: 1
+                    translate_x: 28
+                    translate_y: 20
+                    rotate: -9
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Jekyll
                   image: /src/images/logos/ssgs/jekyll.svg
                 styles:
                   logo:
-                    scale: 1.01
+                    transform:
+                      scale: 1.01
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
                     padding:
-                      x: 20
+                      top: 15
+                      right: 20
+                      bottom: 15
+                      left: 20
                   shape: rectangle
-                  top: 10
-                  left: 5
-                  rotate: -14
-                  shift:
-                    x: 16
-                    'y': 28
+                  position:
+                    top: 10
+                    left: 5
+                    bottom:
+                    right:
+                  transform:
+                    scale: 1
+                    translate_x: 16
+                    translate_y: 28
+                    rotate: -14
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Gatsby
                   image: /src/images/logos/ssgs/gatsby.svg
                 styles:
                   logo:
-                    scale: 0.85
+                    transform:
+                      scale: .85
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      top: 15
+                      right: 20
+                      bottom: 15
+                      left: 20
                   shape: rectangle
-                  top: 5
-                  right: 21
-                  rotate: 15
-                  shift:
-                    x: -25
-                    'y': 17
+                  position:
+                    top: 5
+                    left:
+                    bottom:
+                    right: 21
+                  transform:
+                    scale: 1
+                    translate_x: -25
+                    translate_y: 17
+                    rotate: 15
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Eleventy
                   image: /src/images/logos/ssgs/eleventy.svg
                 styles:
                   logo:
-                    scale: 1
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
                     padding:
-                      x: 20
-                      'y': 20
+                      top: 20
+                      right: 20
+                      bottom: 20
+                      left: 20
                   shape: circle
-                  top: 45
-                  left: 0
-                  rotate: -15
-                  shift:
-                    x: 23
-                    'y': 27
+                  position:
+                    top: 40
+                    left: 0
+                    bottom:
+                    right:
+                  transform:
+                    scale: 1
+                    translate_x: 23
+                    translate_y: 27
+                    rotate: -15
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Nuxt
                   image: /src/images/logos/ssgs/nuxt.svg
                 styles:
                   logo:
-                    scale: 0.9
+                    transform:
+                      scale: .9
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
                     padding:
-                      x: 20
-                      'y': 20
+                      top: 20
+                      right: 20
+                      bottom: 20
+                      left: 20
                   shape: circle
-                  top: 25
-                  right: 0
-                  rotate: 19
-                  shift:
-                    x: -30
-                    'y': 14
+                  position:
+                    top: 25
+                    left:
+                    bottom:
+                    right: 0
+                  transform:
+                    scale: 1
+                    translate_x: -30
+                    translate_y: 14
+                    rotate: 19
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Svelte
                   image: /src/images/logos/ssgs/svelte.svg
                 styles:
                   logo:
-                    scale: 0.7
+                    transform:
+                      scale: .7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
                     padding:
-                      x: 20
-                      'y': 20
+                      top: 20
+                      right: 20
+                      bottom: 20
+                      left: 20
                   shape: circle
-                  top: 70
-                  right: 0
-                  rotate: 0
-                  shift:
-                    x: -17
-                    'y': -25
+                  position:
+                    top: 70
+                    left:
+                    bottom:
+                    right: 0
+                  transform:
+                    scale: 1
+                    translate_x: -17
+                    translate_y: -25
+                    rotate: 0
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Mkdocs
                   image: /src/images/logos/ssgs/mkdocs.svg
                 styles:
                   logo:
-                    height: 55
+                    transform:
+                      scale: .7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
                     padding:
-                      x: 20
+                      top: 20
+                      right: 20
+                      bottom: 20
+                      left: 20
                   shape: rectangle
-                  bottom: -6
-                  left: 7
-                  rotate: -15
-                  shift:
-                    x: 21
-                    'y': -30
+                  position:
+                    top:
+                    left: 7
+                    bottom: -6
+                    right:
+                  transform:
+                    scale: 1
+                    translate_x: 21
+                    translate_y: -30
+                    rotate: -15
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Next.js
                   image: /src/images/logos/ssgs/nextjs.svg
                 styles:
                   logo:
+                    transform:
+                      scale: .7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
                     padding:
-                      x: 40
+                      top: 20
+                      right: 20
+                      bottom: 20
+                      left: 20
                   shape: rectangle
-                  bottom: 0
-                  right: 46
-                  rotate: 18
-                  shift:
-                    x: -15
-                    'y': -30
+                  position:
+                    top:
+                    left:
+                    bottom: 0
+                    right: 46
+                  transform:
+                    scale: 1
+                    translate_x: -15
+                    translate_y: -30
+                    rotate: 18
+                    skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
+                  alt: Astro
                   image: /src/images/logos/ssgs/astro.svg
                 styles:
                   logo:
-                    translate:
-                      'y': 8
+                    transform:
+                      scale: .7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
                     padding:
-                      x: 20
-                    height: 70
+                      top: 20
+                      right: 20
+                      bottom: 20
+                      left: 20
                   shape: rectangle
-                  bottom: -10
-                  right: 16
-                  rotate: 0
-                  shift:
-                    x: -32
-                    'y': -20
+                  position:
+                    top:
+                    left:
+                    bottom: -10
+                    right: 16
+                  transform:
+                    scale: 1
+                    translate_x: -32
+                    translate_y: -20
+                    rotate: 18
+                    skew: 0
       styles:
         margin:
           top: 0
