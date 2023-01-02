@@ -125,13 +125,9 @@
 
 <div class="inline-block absolute before:bg-white/20 before:block before:h-full before:w-full
 	before:border-white before:border before:border-dashed before:absolute {{ outer_classes }}" style="{{ outer_css_styles }}">
-	<div title="{{ content.alt }}" 
+	<div 
 		class="bg-white drop-shadow-2xl relative h-full flex items-center
-		[&>svg]:h-full [&>svg]:w-full {{ inner_classes }}" style="{{ inner_css_styles }}">
-		{% assign image = content.image %}
-		{% unless image %}
-			{% assign image = '/src/images/logos/netflix.svg' %}
-		{% endunless %}
-		{{ image | svgContents }}
+		[&>svg]:h-full [&>svg]:w-full [&>img]:h-full [&>img]:w-full {{ inner_classes }}" style="{{ inner_css_styles }}">
+		<img src="{{ content.image }}" alt="{{ content.alt }}">
 	</div>
 </div>
