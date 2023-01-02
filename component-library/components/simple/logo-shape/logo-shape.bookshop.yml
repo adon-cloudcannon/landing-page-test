@@ -57,24 +57,24 @@ _inputs:
     comment: Adjustments to the logo itself
   transform:
     comment: Different methods to change how this component or image displays
- scale:
-    comment: Increase or decrease the size of the video. 1.0 is the default scale
+  scale:
+    comment: Increase or decrease the size of the logo. 1.0 is the default scale
     type: number
   translate_x:
-    comment: Shift the video horizontally
+    comment: Shift the logo horizontally
     type: number
   translate_y:
-    comment: Shift the video vertically
+    comment: Shift the logo vertically
     type: number
   rotate:
-    comment: Rotate the video
+    comment: Rotate the logo
     type: range
     options:
       step: 1
       max: 359
       min: 0
   skew:
-    comment: Skew the video
+    comment: Skew the logo
     type: range
     options:
       step: 1
@@ -84,7 +84,8 @@ _inputs:
     comment: Adjust the spacing between this container and others. Can be negative for overlapping.
   padding:
     comment: Adjust the spacing inside this container.
-  position: A % number of where the logo is positioned in the box. 0-100%. Can only set one of top or bottom along with one of left or right (setting a top and bottom will only set top).
+  position: 
+    comment: A % number of where the logo is positioned in the box. 0-100%. Can only set one of top or bottom along with one of left or right (setting a top and bottom will only set top).
   top:
     type: number
   right:
