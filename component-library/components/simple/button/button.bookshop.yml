@@ -15,13 +15,20 @@ blueprint:
   styles:
     style: "normal"
     size: "normal"
+    extra_classes:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  text:
+    comment: The text for the button
+  link:
+    type: url
+    comment: Where to go when the button is clicked
   style:
+    comment: The color combination of the button
     type: select
     options:
       values:
@@ -30,8 +37,11 @@ _inputs:
         - outline-white
         - white
   size:
+    comment: The size of the button.
     type: select
     options:
       values:
         - normal
         - big
+  extra_classes:
+    comment: Special circumstances. Allows you to add a class to a button (You probably don't need this).
