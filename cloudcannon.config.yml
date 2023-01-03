@@ -1,11 +1,14 @@
 collections_config:
   landing-pages:
+    description: Landing pages built entirely with the page builder
+    path: 'collections/landing-pages'
     schemas:
       page:
         path: .cloudcannon/schemas/page.html
     _enabled_editors:
       - visual
   site-pages:
+    path: 'collections/site-pages'
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
