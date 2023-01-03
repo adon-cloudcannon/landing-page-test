@@ -1,5 +1,43 @@
-<div class="flex space-x-4">
-	{% for o in case_studies %}
+{% assign css_styles = "" %}
+
+{% if styles.margin %}
+	{% if styles.margin.top %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
+	{% endif %}
+
+	{% if styles.margin.left %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: styles.margin.left | append: "px;" %}
+	{% endif %}
+
+	{% if styles.margin.right %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: styles.margin.right | append: "px;" %}
+	{% endif %}
+
+	{% if styles.margin.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+{% if styles.padding %}
+	{% if styles.padding.top %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-top:" | append: styles.padding.top | append: "px;" %}
+	{% endif %}
+
+	{% if styles.padding.left %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-left:" | append: styles.padding.left | append: "px;" %}
+	{% endif %}
+
+	{% if styles.padding.right %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-right:" | append: styles.padding.right | append: "px;" %}
+	{% endif %}
+
+	{% if styles.padding.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "padding-bottom:" | append: styles.padding.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+<div class="flex space-x-4" style="{{ css_styles }}">
+	{% for o in content.case_studies %}
 		{% assign uuid = o.case_study %}
 		{% assign case_study = collections.case_studies | where: "data.uuid", uuid | first %}
 		{% bookshop "case-studies/card" case_study: case_study %}
