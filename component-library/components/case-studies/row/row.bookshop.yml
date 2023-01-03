@@ -4,9 +4,9 @@ spec:
     - content_blocks
     - blocks
   label: "Case studies"
-  description:
-  icon:
-  tags: []
+  description: "Component that displays a row of case studies"
+  icon: groups
+  tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
