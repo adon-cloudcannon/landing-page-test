@@ -35,7 +35,7 @@ eleventyComputed:
             size: 80 
 ---
 <div class="container mb-24">
-  {% assign collection_name = page.fileSlug | append: '_cheat_sheet' %}
+  {% assign collection_name = page.fileSlug | append: '-cheat-sheet' %}
   {% assign cheats = collections[collection_name] | sort: "filePathStem" %}
   <div>
     {% assign previous_category = null %}
