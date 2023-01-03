@@ -1,6 +1,8 @@
+collections_config_override: true
 collections_config:
   landing-pages:
     description: Landing pages built entirely with the page builder
+    output: true
     path: 'collections/landing-pages'
     schemas:
       page:
@@ -9,6 +11,7 @@ collections_config:
       - visual
   site-pages:
     path: 'collections/site-pages'
+    output: true
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
