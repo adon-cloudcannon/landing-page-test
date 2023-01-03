@@ -1,3 +1,11 @@
+collections_config:
+  landing-pages:
+    schemas:
+      page:
+        path: .cloudcannon/schemas/page.html
+    _enabled_editors:
+      - visual
+
 _inputs:
   layout:
     hidden: true
