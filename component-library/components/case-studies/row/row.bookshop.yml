@@ -2,14 +2,27 @@
 spec:
   structures:
     - content_blocks
-  label: "Case-studies"
+    - blocks
+  label: "Case studies"
   description:
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  case_studies:
+  content:
+    case_studies: []
+  styles:
+    margin:
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+    padding:
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -23,3 +36,7 @@ _inputs:
     type: select
     options:
       values: collections.case-studies
+      value_key: uuid
+      preview:
+        text:
+          - key: title

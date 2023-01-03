@@ -9,7 +9,7 @@ description: Clone the Megakit repository, and install the Hugo static site gene
 ---
 In this tutorial, we'll take a polished Bootstrap theme, add some Hugo magic, and upload it to [CloudCannon](https://cloudcannon.com) for easy and intuitive visual editing. You can see the end result in the video below:
 
-{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/689852104" autoplay:true extend:true border:true %}
+{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/689852104" autoplay:true extend:false border:true %}
 
 The template we’ll convert is called [Megakit](https://github.com/themefisher/Megakit-Bootstrap-Agency-Template) ([see demo here](https://demo.themefisher.com/megakit/)). It’s a business-style template with drop-down navigation, blog, a wide range of components and a crisp, clean design.
 
