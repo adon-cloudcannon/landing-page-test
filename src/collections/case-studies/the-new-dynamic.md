@@ -10,7 +10,7 @@ description: >-
   than the competition.
 weight: 3
 categories:
-  - agency
+  - Agency
 image: 
   path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/tnd-card-noborder.png
   alt: The New Dynamic logo
