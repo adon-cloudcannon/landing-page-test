@@ -1,0 +1,19 @@
+---
+uuid:
+title:
+heading:
+weight:
+categories:
+image:
+  path:
+  alt:
+logo:
+person:
+  name:
+  position:
+  image:
+    path: 
+    alt: 
+description:
+date:
+---

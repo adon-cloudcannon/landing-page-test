@@ -28,3 +28,6 @@ collections_config:
 _inputs:
   layout:
     hidden: true
+  uuid:
+    instance_value: UUID
+    hidden: true
