@@ -1,4 +1,22 @@
-<a href="{{ url }}" class="transition border border-white rounded-xl bg-blackish p-6 flex  hover:bg-blue-900 group mt-4 first:mt-0">
-	<span class="inline-block flex-1">{{ title }}</span>
+{% assign css_styles = " " %}
+{% assign classes = " " %}
+
+{% if styles.margin %}
+	{% if styles.margin.top %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
+	{% endif %}
+
+	{% if styles.margin.bottom %}
+		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
+	{% endif %}
+{% endif %}
+
+{% case style %}
+{% when 'black' %}
+	{% assign classes = classes | append: "border-white bg-blackish hover:bg-blue-900"
+{% endcase %}
+
+<a href="{{ content.url }}" class="transition border rounded-xl p-6 flex group {{ classes }}" style="{{ css_styles }}">
+	<span class="inline-block flex-1">{{ content.title }}</span>
 	<span class="w-5 group-hover:translate-x-2 flex justify-center transition">{{ '/src/images/icons/outline/arrow-right.svg' | svgContents }}</span>
 </a>
