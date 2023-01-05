@@ -19,4 +19,4 @@ preview:
 _inputs:
   size:
     type: number
-    comment: The amount of space to add. Can be negative to pull components closer together.
+    comment: The amount of space to add in pixels. Can be negative to pull components closer together.
