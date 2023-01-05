@@ -27,6 +27,9 @@ collections_config:
     schemas:
       default:
         path: .cloudcannon/schemas/case-study.md
+    filter:
+      exclude:
+        - case-studies.json
     _inputs:
       heading:
         comment: Is used on the case study card
