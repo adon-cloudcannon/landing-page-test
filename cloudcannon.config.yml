@@ -31,12 +31,12 @@ collections_config:
       categories:
         type: multiselect
         options:
-        values:
-          - Agency
-          - Documentation
-          - "Company sites"
-          - Business
-          - Microsites
+          values:
+            - Agency
+            - Documentation
+            - "Company sites"
+            - Business
+            - Microsites
 
 _inputs:
   layout:
