@@ -19,6 +19,11 @@ collections_config:
     disable_file_actions: true
     description: Core pages of the site
     icon: hub
+  case-studies:
+    path: 'collections/case-studies'
+    output: true
+    description: Customers who say great things about CC
+    icon: account_circle
 
 _inputs:
   layout:
