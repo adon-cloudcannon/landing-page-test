@@ -324,8 +324,150 @@ content_blocks:
     content:
       label: Version control
       blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Version control
+          styles:
+            size: h2
+            align: center
+            color: none
+            width: normal
+            margin:
+              top: 0
+              bottom: 50
+        - _bookshop_name: simple/image
+          content:
+            alt: Version control workflow for a marketer
+            image: /images/page/marketer-version-control.png
+          styles:
+            transform:
+              scale: 1
+              translate_x: 0
+              translate_y: 0
+              rotate: 0
+              skew: 0
+            ontop:
+            center:
+            rounded:
+            border:
+            margin:
+              top:
+              left:
+              bottom:
+              right:
+            position:
+              top:
+              left:
+              bottom:
+              right:
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Everyone in your team can work on their own separate version of
+              the site, when their content is ready - just publish it to the
+              live site.
+
+
+              That means, Content writer Kelly can write her new blog post,
+              while Editor Evan can change a headline on a landing page — all
+              without interfering with each other.
+          styles:
+            text_alignment: center
+            center_block:
+            width: large
+            text_color: white
+            text_size: normal
+            margin:
+              top: 0
+              bottom: 0
     styles:
       background: night
+      rounded: top
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 100
+        right: 0
+        bottom: 100
+        left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Build new pages
+      blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Website builder example
+                    image: /images/page/marketer-builder.png
+                  styles:
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    ontop:
+                    center:
+                    rounded:
+                    border:
+                    margin:
+                      top:
+                      left:
+                      bottom:
+                      right:
+                    position:
+                      top: '20'
+                      left:
+                      bottom:
+                      right:
+            middle_logo:
+            right:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Build a new page in minutes
+                  styles:
+                    size: h2
+                    align: left
+                    color: none
+                    width: normal
+                    margin:
+                      top: 0
+                      bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Collaborate with your design & development team to design
+                      and build components that are ready to go.
+
+
+                      When you need a new landing page, just use your designed
+                      components to put the page together.
+                  styles:
+                    text_alignment: left
+                    center_block:
+                    width: full
+                    text_color:
+                    text_size: normal
+                    margin:
+                      top: 0
+                      bottom: 0
+          styles:
+            type:
+            width:
+            split_border:
+            vertically_center: true
+            gap: 20
+    styles:
+      background: sun-spot
       rounded: top
       margin:
         top: 0
