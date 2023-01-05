@@ -1,4 +1,4 @@
-<header class="container my-4 flex items-center" x-data="{ mobileNavOpen: false }">
+<header class="container my-4 flex items-center z-50" x-data="{ mobileNavOpen: false }" >
 	<div class="flex-1">
 		<a href="/" class="w-56 block transition delay-100 [&>svg>path]:hover:fill-cc_hover">
 			{{ '/src/images/cc-logo.svg' | svgContents }}
@@ -42,11 +42,11 @@
 					</g>
 				</g>
 			</svg>
-
-			{% include 'partials/nav/_mobile_nav.html' %}
-
 		</button>
 
 	</div>
-	
+
+	<!-- TODO: configure where this partial resides -->
+	{% include 'partials/nav/_mobile_nav.html' %}
+
 </header>

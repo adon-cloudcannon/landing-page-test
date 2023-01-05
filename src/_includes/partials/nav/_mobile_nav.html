@@ -1,26 +1,35 @@
-<div class="max-w-sm bg-white w-full absolute right-0 h-screen z-50" 
-    x-show="mobileNavOpen"
-    x-trap.inert.noscroll="mobileNavOpen"
-    x-cloak
-       x-transition:enter="transition ease-linear duration-200 transform"
-       x-transition:enter-start="translate-x-full"
-       x-transition:enter-end="translate-x-0"
-       x-transition:leave="transition ease-out duration-200 transform"
-       x-transition:leave-start="translate-x-0"
-       x-transition:leave-end="translate-x-full"
-    @keydown.down.window="$focus.wrap().next()"
-    @keydown.up.window="$focus.wrap().previous()"    
-    @keydown.escape.window="mobileNavOpen = false"
->
-    <div class="">
-        {% bookshop "simple/button" bind: buttons.login %}
-        {% bookshop "simple/button" bind: buttons.signup %}
+<div class="z-10 bg-black bg-opacity-80 fixed inset-0"
+    x-show="mobileNavOpen">
+        <div class="max-w-sm bg-white w-full absolute right-0 h-screen z-50" 
+        x-show="mobileNavOpen"
+        x-trap.inert.noscroll="mobileNavOpen"
+        @click.outside="mobileNavOpen = false"
+        x-cloak
+        x-transition:enter="transition ease-linear duration-200 transform"
+        x-transition:enter-start="translate-x-full"
+        x-transition:enter-end="translate-x-0"
+        x-transition:leave="transition ease-out duration-200 transform"
+        x-transition:leave-start="translate-x-0"
+        x-transition:leave-end="translate-x-full"
+        @keydown.down.window="$focus.wrap().next()"
+        @keydown.up.window="$focus.wrap().previous()"    
+        @keydown.escape.window="mobileNavOpen = false"
+    >
+        <div class="px-4 py-6">
+            <a href="" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition hover:scale-95  
+            text-cc border-cc hover:bg-blue-50 block w-full text-center">
+            Login
+            </a>
+            <a href="/" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition hover:scale-95 
+            text-white bg-cc border-cc hover:bg-cc_hover ml-1 w-full block text-center mt-3
+            ">Get Started</a>
+        </div>
+        <nav>
+            {% for item in nav %}
+                {% include 'partials/nav/_nav_item.html' item:item %}
+            {% endfor %}
+        </nav>
+
+
     </div>
-    <nav>
-		{% for item in nav %}
-			{% include 'partials/nav/_nav_item.html' item:item %}
-		{% endfor %}
-    </nav>
-
-
 </div>
