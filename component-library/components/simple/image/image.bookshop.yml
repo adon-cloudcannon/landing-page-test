@@ -85,3 +85,11 @@ _inputs:
     comment: Adjust the spacing between the image and other components. Can be negative for overlapping.
   position:
     comment: Adjust the position of the image.
+  top:
+    type: number
+  right:
+    type: number
+  bottom:
+    type: number
+  left:
+    type: number

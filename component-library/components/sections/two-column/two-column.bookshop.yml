@@ -16,11 +16,11 @@ blueprint:
     right:
       blocks:
   styles:
-    type:
-    width:
-    split_border:
-    vertically_center:
-    gap:
+    type: split
+    width: 0
+    split_border: false
+    vertically_center: false
+    gap: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
