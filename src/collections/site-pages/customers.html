@@ -30,7 +30,7 @@ content_blocks:
 
 <div class="container">
 	<div class="grid grid-cols-3 gap-x-6 gap-y-12">
-		{% assign case_studies_sorted = collections.case_studies | sort: "data.weight" %}
+		{% assign case_studies_sorted = collections.case-studies | sort: "data.weight" %}
 		{% for case_study in case_studies_sorted %}
 			{% bookshop "case-studies/card" case_study:case_study %}
 		{% endfor %}
