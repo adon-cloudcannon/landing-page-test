@@ -21,7 +21,9 @@ collections_config:
     icon: hub
     _inputs:
       permalink:
-        type: hidden
+        hidden: true
+      pagination:
+        hidden: true
   case-studies:
     path: 'collections/case-studies'
     output: true
