@@ -35,8 +35,7 @@ _inputs:
   case_studies[*]:
     type: select
     options:
-      values: collections.case-studies
-      value_key: uuid
-      preview:
-        text:
-          - key: title
+      values:
+        - Bolt
+        - Nut
+        - Gear
