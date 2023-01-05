@@ -1,5 +1,5 @@
 source: src
-collections_config_override: 
+collections_config_override: true
 collections_config:
   landing-pages:
     description: Landing pages built entirely with the page builder

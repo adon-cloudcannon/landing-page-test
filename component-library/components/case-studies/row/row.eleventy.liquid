@@ -37,8 +37,7 @@
 {% endif %}
 
 <div class="flex space-x-4" style="{{ css_styles }}">
-	{% for o in content.case_studies %}
-		{% assign uuid = o.case_study %}
+	{% for uuid in content.case_studies %}
 		{% assign case_study = collections.case_studies | where: "data.uuid", uuid | first %}
 		{% bookshop "case-studies/card" case_study: case_study %}
 	{% endfor %}
