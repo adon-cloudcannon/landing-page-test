@@ -38,7 +38,7 @@ content_blocks:
               translate_y: 0
               rotate: 0
               skew: 0
-            ontop:
+            ontop: true
             center: true
             rounded:
             border:
@@ -52,8 +52,6 @@ content_blocks:
               left:
               bottom:
               right:
-        - _bookshop_name: simple/spacer
-          size: -200
     styles:
       background: sun-spot
       rounded: none
@@ -74,9 +72,9 @@ content_blocks:
       label: See changes
       blocks:
         - _bookshop_name: simple/spacer
-          size: -200
+          size: -500
         - _bookshop_name: simple/spacer
-          size: 300
+          size: 400
         - _bookshop_name: sections/two-column
           content:
             left:
@@ -109,12 +107,38 @@ content_blocks:
             middle_logo:
             right:
               blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: See your changes instantly, with visual editing
+                  styles:
+                    size: h3
+                    align: left
+                    color: none
+                    width: normal
+                    margin:
+                      top: 0
+                      bottom: 20
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      The visual editor gives you a preview of your page while
+                      you make changes, so you can see what it will look like
+                      when you’re ready to go live.
+                  styles:
+                    text_alignment: left
+                    center_block:
+                    width: full
+                    text_color:
+                    text_size: normal
+                    margin:
+                      top: 0
+                      bottom: 0
           styles:
-            type:
+            type: split
             width:
-            split_border:
-            vertically_center:
-            gap:
+            split_border: false
+            vertically_center: true
+            gap: 20
     styles:
       background: caramel
       rounded: top
@@ -126,7 +150,109 @@ content_blocks:
       padding:
         top: 0
         right: 0
+        bottom: 130
+        left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Power to publish
+      blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Review and approve, with the whole team
+                  styles:
+                    size: h3
+                    align: left
+                    color: none
+                    width: normal
+                    margin:
+                      top: 0
+                      bottom: 20
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Review your content with a preview site that’s just like
+                      the real thing. Share it with your team to gather feedback
+                      and approvals.
+                  styles:
+                    text_alignment: left
+                    center_block:
+                    width: full
+                    text_color:
+                    text_size: normal
+                    margin:
+                      top: 0
+                      bottom: 0
+            middle_logo:
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Editor updating front matter on CloudCannon
+                    image: /images/page/marketer-review.png
+                  styles:
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    ontop:
+                    center:
+                    rounded:
+                    border:
+                    margin:
+                      top:
+                      left:
+                      bottom:
+                      right:
+                    position:
+                      top: '50'
+                      left:
+                      bottom:
+                      right:
+          styles:
+            type: split
+            width: 0
+            split_border:
+            vertically_center: true
+            gap: 0
+    styles:
+      background: white
+      rounded: top
+      margin:
+        top: 0
+        right: 0
         bottom: 0
+        left: 0
+      padding:
+        top: 60
+        right: 0
+        bottom: 80
+        left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: The power to publish
+      blocks:
+    styles:
+      background: sky
+      rounded: top
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 60
+        right: 0
+        bottom: 80
         left: 0
       size: normal
       align: none
