@@ -19,6 +19,9 @@ collections_config:
     disable_file_actions: true
     description: Core pages of the site
     icon: hub
+    _inputs:
+      permalink:
+        type: hidden
   case-studies:
     path: 'collections/case-studies'
     output: true

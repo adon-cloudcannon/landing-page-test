@@ -1,4 +1,5 @@
 {
   "layout": "case-study.html",
-  "tags": ["case-studies"] 
+  "tags": ["case-studies"],
+  "permalink": "/customers/{{ page.fileSlug }}/"
 }
