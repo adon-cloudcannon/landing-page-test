@@ -12,9 +12,10 @@ blueprint:
   content:
     text: "Hello World!"
   styles:
-    size: 'h2'
-    color: 
-    width:
+    size: h2
+    align: left
+    color: none
+    width: normal
     margin:
       top: 0
       bottom: 0
