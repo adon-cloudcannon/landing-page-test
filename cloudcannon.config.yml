@@ -28,6 +28,8 @@ collections_config:
       default:
         path: .cloudcannon/schemas/case-study.md
     _inputs:
+      heading:
+        comment: Is used on the case study card
       categories:
         type: multiselect
         options:
@@ -37,6 +39,17 @@ collections_config:
             - "Company sites"
             - Business
             - Microsites
+      weight:
+        type: number
+        comment: The order the case study shows on the customers page
+      path:
+        type: image
+      logo:
+        type: image
+        comment: Ideally an SVG, displayed in on the case study card and page.
+      description:
+        type: textarea
+        comment: Shows under the title on the case study page
 
 _inputs:
   layout:
