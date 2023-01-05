@@ -1,4 +1,5 @@
 {% assign css_styles = " " %}
+{% assign classes = " " %}
 
 {% if styles.margin %}
 	{% if styles.margin.top %}
@@ -10,7 +11,12 @@
 	{% endif %}
 {% endif %}
 
-<div class="mt-16 flex justify-center" style="{{ css_styles }}">
+{% case styles.align %}
+{% when 'center' %}
+	{% assign classes = classes | append: " justify-center" %}
+{% endcase %}
+
+<div class="mt-16 flex" style="{{ css_styles }}">
 	{% for component in content.button_blocks %}
 		<div class="mr-3 last:mr-0">
 			{% bookshop "{{component._bookshop_name}}" bind: component %}

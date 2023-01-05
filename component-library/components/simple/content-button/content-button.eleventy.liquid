@@ -13,7 +13,7 @@
 
 {% case style %}
 {% when 'black' %}
-	{% assign classes = classes | append: "border-white bg-blackish hover:bg-blue-900" %}
+	{% assign classes = classes | append: " border-white bg-blackish hover:bg-blue-900" %}
 {% endcase %}
 
 <a href="{{ content.url }}" class="transition border rounded-xl p-6 flex group {{ classes }}" style="{{ css_styles }}">

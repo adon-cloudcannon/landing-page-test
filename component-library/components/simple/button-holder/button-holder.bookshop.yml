@@ -15,7 +15,7 @@ blueprint:
     margin:
       top: 0
       bottom: 0
-
+    align: center
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
@@ -31,3 +31,10 @@ _inputs:
     type: number
   left:
     type: number
+  align:
+    comment: How the buttons are aligned
+    type: select
+    options:
+      values:
+        - left
+        - center
