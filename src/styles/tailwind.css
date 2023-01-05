@@ -40,7 +40,7 @@ a {
 }
 
 .sun-spot {
-	background: radial-gradient(
+	background: #fff radial-gradient(
 		circle at top center, 
 		rgba(255,250,209,0.5) 0%, 
 		rgba(255,250,209,0.5) 20%, 
