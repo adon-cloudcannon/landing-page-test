@@ -11,7 +11,7 @@
 	{% endif %}
 {% endif %}
 
-{% case style %}
+{% case styles.style %}
 {% when 'black' %}
 	{% assign classes = classes | append: " border-white bg-blackish hover:bg-blue-900" %}
 {% endcase %}
