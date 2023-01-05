@@ -17,6 +17,6 @@
 {% endcase %}
 
 <a href="{{ content.url }}" class="transition border rounded-xl p-6 flex group {{ classes }}" style="{{ css_styles }}">
-	<span class="inline-block flex-1">{{ content.title }}</span>
+	<span class="inline-block flex-1">{{ content.text }}</span>
 	<span class="w-5 group-hover:translate-x-2 flex justify-center transition">{{ '/src/images/icons/outline/arrow-right.svg' | svgContents }}</span>
 </a>
