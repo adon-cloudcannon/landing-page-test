@@ -42,8 +42,9 @@ module.exports = {
 				xl: "1280px"
 			}
 		},
+		// TODO: check this is correctly working
 		transitionTimingFunction: {
-			'cc-cubic': 'cubic-bezier(.22,1,.36,1)',
+			'cc-cubic': 'cubic-bezier(.22 ,1, .36 ,1)',
 		  }
 	
 	},
