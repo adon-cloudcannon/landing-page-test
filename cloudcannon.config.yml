@@ -19,6 +19,9 @@ collections_config:
     disable_file_actions: true
     description: Core pages of the site
     icon: hub
+    filter:
+      exclude:
+        - tags.html
     _inputs:
       permalink:
         hidden: true
