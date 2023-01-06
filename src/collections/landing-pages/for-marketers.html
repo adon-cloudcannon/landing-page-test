@@ -603,4 +603,71 @@ content_blocks:
         left: 0
       size: normal
       align: none
+  - _bookshop_name: sections/container
+  content:
+    label: CTA
+    blocks:
+      - _bookshop_name: simple/heading
+        content:
+          text: Get started with CloudCannon
+        styles:
+          size: h2
+          align: center
+          width: tight
+          margin:
+            top: 0
+            bottom: 30
+      - _bookshop_name: simple/text-block
+        content:
+          text_markdown: >-
+            Try out CloudCannon with a 14-day free trial, or get in touch with
+            us for a demo.
+        styles:
+          text_alignment: center
+          center_block:
+          width: medium
+          text_color: white
+          text_size: normal
+          margin:
+            top: 0
+            bottom: 25
+      - _bookshop_name: simple/button-holder
+        content:
+          button_blocks:
+            - _bookshop_name: simple/button
+              content:
+                text: Try for free
+                link: /
+              styles:
+                style: white
+                size: big
+                extra_classes:
+            - _bookshop_name: simple/button
+              content:
+                text: Contact us
+                link: /
+              styles:
+                style: outline-white
+                size: big
+                extra_classes:
+        styles:
+          align: center
+          margin:
+            top: 0
+            bottom: 0
+  styles:
+    background: cc-blue
+    rounded: top
+    margin:
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+    padding:
+      top: 180
+      right: 0
+      bottom: 140
+      left: 0
+    size: normal
+    align: none
 ---
