@@ -23,7 +23,7 @@ collections_config:
     disable_file_actions: true
     _enabled_editors:
       - content
-    icon: quick_reference
+    icon: history_edu
     filter:
       exclude:
         - cheat-sheets.json
