@@ -6,8 +6,6 @@ content_blocks:
   - _bookshop_name: sections/container
     content:
       blocks:
-        - _bookshop_name: simple/spacer
-          size: 130
         - _bookshop_name: simple/heading
           content:
             text: Jamstack Ecosystem
@@ -17,9 +15,7 @@ content_blocks:
             width: tight
             margin:
               top: 0
-              bottom: 0
-        - _bookshop_name: simple/spacer
-          size: 35
+              bottom: 35
         - _bookshop_name: simple/sub-heading
           content:
             text: Research the best tooling for your next Jamstack website.
@@ -28,8 +24,6 @@ content_blocks:
             margin:
               top: 0
               bottom: 0
-        - _bookshop_name: simple/spacer
-          size: 80
     styles:
       background: sun-spot
       rounded: none
@@ -39,20 +33,18 @@ content_blocks:
         bottom: 0
         left: 0
       padding:
-        top: 0
+        top: 130
         right: 0
-        bottom: 0
+        bottom: 80
         left: 0
       size: normal
       align: none
 ---
-
 <div class="container">
   <div class="grid grid-cols-4 gap-x-6 gap-y-10 mb-28">
     {% for item in collections.ecosystem %}
-      <a class="group relative transition duration-200 hover:scale-105 flex-1 h-[400px] block py-10 px-5 border border-black rounded-xl bg-white hover:drop-shadow-xl" 
-          href="{{ item.url }}">
-        <img src="/images/icons/ecosystem/{{ item.data.short_title | downcase | replace: ' ', '-' }}.svg" alt="{{ item.data.short_title }}">
+      <a class="group relative transition duration-200 hover:scale-105 flex-1 h-[400px] block py-10 px-5 border border-black rounded-xl bg-white hover:drop-shadow-xl" href="{{ item.url }}">
+        <img src="/images/icons/ecosystem/{{ item.data.short_title | downcase | replace: ' ', '-' }}.svg" alt="{{ item.data.short_title }}" />
         <h3 class="text-3xl font-bold my-6">
           {{ item.data.short_title }}
         </h3>
