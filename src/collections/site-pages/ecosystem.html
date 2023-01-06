@@ -4,8 +4,6 @@ layout: builder.html
 permalink: /ecosystem/
 content_blocks:
   - _bookshop_name: sections/container
-    styles:
-      background: sun-spot
     content:
       blocks:
         - _bookshop_name: simple/spacer
@@ -17,6 +15,9 @@ content_blocks:
             size: h1
             align: center
             width: tight
+            margin:
+              top: 0
+              bottom: 0
         - _bookshop_name: simple/spacer
           size: 35
         - _bookshop_name: simple/sub-heading
@@ -24,8 +25,26 @@ content_blocks:
             text: Research the best tooling for your next Jamstack website.
           styles:
             size: big
+            margin:
+              top: 0
+              bottom: 0
         - _bookshop_name: simple/spacer
           size: 80
+    styles:
+      background: sun-spot
+      rounded: none
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      size: normal
+      align: none
 ---
 
 <div class="container">
