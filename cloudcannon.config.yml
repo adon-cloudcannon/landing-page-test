@@ -27,6 +27,19 @@ collections_config:
     filter:
       exclude:
         - cheat-sheets.json
+  jekyll-cheat-sheets:
+    description: Data for the Jekyll cheat sheet
+    output: false
+    path: 'collections/jekyll-cheat-sheet'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/cheat.md
+    _enabled_editors:
+      - content
+    icon: science
+    filter:
+      exclude:
+        - jekyll-cheat-sheet.json
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true
