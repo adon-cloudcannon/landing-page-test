@@ -11,10 +11,22 @@ collections_config:
     _enabled_editors:
       - content
     icon: face
-    image_key: image.path
     filter:
       exclude:
         - authors.11tydata.js
+  cheat-sheets:
+    description: Reference guides for SSGs
+    output: true
+    path: 'collections/cheat-sheets'
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+    _enabled_editors:
+      - content
+    icon: quick_reference
+    filter:
+      exclude:
+        - cheat-sheets.json
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true
