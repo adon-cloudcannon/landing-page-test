@@ -2,22 +2,27 @@
     x-data="{ menuItemOpen: false }" 
     x-on:click="menuItemOpen = !menuItemOpen"
     @click.outside="menuItemOpen = false">
-    <button class="bg-white flex justify-center items-center w-full p-6 border-none font-extrabold text-xl text-slate-700">
+    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-slate-700 flex items-center justify-between">
         {{ item.name }} 
-        <div class="" x-show="menuItemOpen">
-            <ul>
-                {% for sub_nav in item.sub_navs %}
-				<div class="uppercase text-gray-600 text-xs tracking-[.25em] pb-4">{{ sub_nav.title }}</div>
-                    {% for sub_item in sub_nav.sub_nav %}
-                        <li>
-                            <a href="{{ sub_item.link }}" class="block py-2 group"> {{ sub_item.name }} </a>
-                        </li>
-                    {% endfor %}
-                {% endfor %}
-
-            </ul>
-        </div>
+        <svg :class="menuItemOpen ? 'transition duration-300 cc-cubic rotate-180' : 'transition duration-300 cc-cubic rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="m18 10-1.41-1.41-4.59 4.58-4.59-4.58-1.41 1.41 6 6z" fill="#034ad8"></path>
+        </svg>
     </button>
+    <div class="" 
+    x-show="menuItemOpen"
+    x-cloak="">
+        <ul>
+            {% for sub_nav in item.sub_navs %}
+            <div class="uppercase text-gray-600 text-xs tracking-[.25em] pb-4">{{ sub_nav.title }}</div>
+                {% for sub_item in sub_nav.sub_nav %}
+                    <li>
+                        <a href="{{ sub_item.link }}" class="block py-2 group"> {{ sub_item.name }} </a>
+                    </li>
+                {% endfor %}
+            {% endfor %}
+
+        </ul>
+    </div>
 
 </li>
 

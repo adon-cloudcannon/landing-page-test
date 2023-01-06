@@ -41,7 +41,11 @@ module.exports = {
 				lg: "1024px",
 				xl: "1280px"
 			}
-		}
+		},
+		transitionTimingFunction: {
+			'cc-cubic': 'cubic-bezier(.22,1,.36,1)',
+		  }
+	
 	},
 	plugins: [
 		require('@tailwindcss/typography')
