@@ -16,6 +16,7 @@
         @keydown.escape.window="mobileNavOpen = false"
     >
         <div class="px-4 py-6">
+            <!-- TODO: change these to use the button component -->
             <a href="" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition hover:scale-95  
             text-cc border-cc hover:bg-blue-50 block w-full text-center">
             Login
@@ -25,9 +26,12 @@
             ">Get Started</a>
         </div>
         <nav>
-            {% for item in nav %}
-                {% include 'partials/nav/_nav_item.html' item:item %}
-            {% endfor %}
+            <ul>
+                {% for item in nav %}
+                    {% include 'partials/nav/_mobile_nav_item.html' item:item %}
+                {% endfor %}
+
+            </ul>
         </nav>
 
 
