@@ -4,12 +4,8 @@ layout: builder.html
 permalink: /events/
 content_blocks:
   - _bookshop_name: sections/container
-    styles:
-      background: sun-spot
     content:
       blocks:
-        - _bookshop_name: simple/spacer
-          size: 130
         - _bookshop_name: simple/heading
           content:
             text: Events
@@ -17,15 +13,32 @@ content_blocks:
             size: h1
             align: center
             width: tight
-        - _bookshop_name: simple/spacer
-          size: 35
+            margin:
+              top: 0
+              bottom: 35
         - _bookshop_name: simple/sub-heading
           content:
             text: Learn from the CloudCannon team and community members as they share their knowledge about static sites, Git workflows and content management. 
           styles:
             size: big
-        - _bookshop_name: simple/spacer
-          size: 80
+            margin:
+              top: 0
+              bottom: 0
+    styles:
+      background: sun-spot
+      rounded: none
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 130
+        right: 0
+        bottom: 80
+        left: 0
+      size: normal
+      align: none
 ---
 
 <div class="container">
