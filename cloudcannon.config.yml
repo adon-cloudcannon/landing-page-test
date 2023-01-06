@@ -11,6 +11,7 @@ collections_config:
     _enabled_editors:
       - content
     icon: face
+    image_key: image.path
     filter:
       exclude:
         - authors.11tydata.js
