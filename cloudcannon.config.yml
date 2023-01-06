@@ -1,6 +1,19 @@
 source: src
 collections_config_override: true
 collections_config:
+  authors:
+    description: The authors of blog posts
+    output: false
+    path: 'collections/authors'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/author.md
+    _enabled_editors:
+      - content
+    icon: face
+    filter:
+      exclude:
+        - authors.11tydata.js
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true

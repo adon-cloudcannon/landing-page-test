@@ -1,0 +1,6 @@
+---
+name: 
+image:
+  path:
+  alt: 
+---
