@@ -6,30 +6,26 @@ content_blocks:
   - _bookshop_name: sections/container
     content:
       blocks:
-        - _bookshop_name: simple/spacer
-          size: 120
         - _bookshop_name: simple/heading
           content:
-            text: "Why the best choose CloudCannon"
+            text: Why the best choose CloudCannon
           styles:
             size: h1
             align: center
             width: tight
             margin:
               top: 0
-              bottom: 0
-        - _bookshop_name: simple/spacer
-          size: 35
+              bottom: 35
         - _bookshop_name: simple/sub-heading
           content:
-            text: "Find out why world leading companies use CloudCannon to power their digital content strategy."
+            text: >-
+              Find out why world leading companies use CloudCannon to power
+              their digital content strategy.
           styles:
             size: big
             margin:
               top: 0
               bottom: 0
-        - _bookshop_name: simple/spacer
-          size: 80 
     styles:
       background: sun-spot
       rounded: none
@@ -39,14 +35,13 @@ content_blocks:
         bottom: 0
         left: 0
       padding:
-        top: 0
+        top: 120
         right: 0
-        bottom: 0
+        bottom: 80
         left: 0
       size: normal
       align: none
 ---
-
 <div class="container">
 	<div class="grid grid-cols-3 gap-x-6 gap-y-12">
 		{% assign case_studies_sorted = collections.case-studies | sort: "data.weight" %}
