@@ -2,7 +2,7 @@
 	{% for item in footer-socials %}
 		<li>
 			{% assign icon_path = '/src/images/icons/social/' | append: item.icon | append: '.svg' %}
-			<a class="[&>svg]:w-4 ml-3 fill-gray-400 hover:fill-gray-800 inline-block transition" href="{{ item.url }}" 
+			<a title="{{ item.icon }}" class="[&>svg]:w-4 ml-3 fill-gray-600 hover:fill-black inline-block transition" href="{{ item.url }}" 
 			{% if item.open_in_new_tab %}
 				target="_blank"
 				rel="noopener"

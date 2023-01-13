@@ -19,7 +19,7 @@
 	{% endif %}
 {% endif %}
 
-<a class="hover:scale-110 transition {{ classes }}" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
+<a class="hover:scale-110 transition {{ classes }}" title="{{ content.title }} case study" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
 	{% if content.logo contains '.svg' %}
 		{{ content.logo | svgContents }}
 	{% else %}
