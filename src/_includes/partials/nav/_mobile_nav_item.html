@@ -2,7 +2,7 @@
     x-data="{ menuItemOpen: false }" 
     x-on:click="menuItemOpen = !menuItemOpen"
     @click.outside="menuItemOpen = false">
-    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-slate-700 flex items-center justify-between">
+    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between">
         {{ item.name }} 
         <svg :class="menuItemOpen ? 'transition duration-300 cc-cubic rotate-180' : 'transition duration-300 cc-cubic rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
             <path d="m18 10-1.41-1.41-4.59 4.58-4.59-4.58-1.41 1.41 6 6z" fill="#034ad8"></path>
@@ -11,12 +11,20 @@
     <div class="" 
     x-show="menuItemOpen"
     x-cloak="">
-        <ul>
+        <ul class="p-6 pt-0">
             {% for sub_nav in item.sub_navs %}
-            <div class="uppercase text-gray-600 text-xs tracking-[.25em] pb-4">{{ sub_nav.title }}</div>
+            <div class="uppercase text-black text-xs tracking-[6px] font-medium pb-4 mt-6">{{ sub_nav.title }}</div>
                 {% for sub_item in sub_nav.sub_nav %}
                     <li>
-                        <a href="{{ sub_item.link }}" class="block py-2 group"> {{ sub_item.name }} </a>
+                        {% assign icon_path = "/src/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
+                        <a href="{{ sub_item.link }}" class="block py-2 group">
+                            <div class="flex">
+                                <span class="w-6 relative block transition [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
+                                <span class="flex-1 pl-4">
+                                    {{ sub_item.name }} 
+                                </span>
+                            </div>
+                        </a>
                     </li>
                 {% endfor %}
             {% endfor %}

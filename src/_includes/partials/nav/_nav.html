@@ -23,39 +23,25 @@
 
 
 		<!-- Mobile components -->
-
 		<div class="ml-auto flex lg:hidden">
 			<a href="" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
 				{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
 			</a>
 			<button x-on:click="mobileNavOpen = !mobileNavOpen" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg">
 				<!-- TODO: configure burger menu to look more like SVG below -->
-				<div class="h-4 w-6 relative mx-auto">
-					<span :class="mobileNavOpen ? 'block absolute h-1 bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-2 left-1/2 w-0 ease-cc-cubic' : 'block absolute h-1 w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-0 ease-cc-cubic'"></span>
-					<span :class="mobileNavOpen ? 'block absolute h-1 w-full bg-blue-700 rounded-lg left-0 rotate-45 transition-all duration-200 top-2 ease-cc-cubic' : 'block absolute h-1 w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-2 ease-cc-cubic'"></span>
-					<span :class="mobileNavOpen ? 'block absolute h-1 w-full bg-blue-700 rounded-lg left-0 -rotate-45 transition-all duration-200 top-2 ease-cc-cubic' : 'block absolute h-1 w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-2 ease-cc-cubic'"></span>
-					<span :class="mobileNavOpen ? 'block absolute h-1 bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-2 left-1/2 w-0 ease-cc-cubic': 'block absolute h-1 w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-4 ease-cc-cubic'"></span>
-				</div> 
-				<!-- <svg width="24" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-					<defs>
-						<path d="M0 16h24v-2.667H0V16zm0-6.667h24V6.667H0v2.666zM0 0v2.667h24V0H0z" id="a"/>
-					</defs>
-					<g fill="none" fill-rule="evenodd">
-						<mask id="b" fill="#fff">
-							<use xlink:href="#a"/>
-						</mask>
-						<use fill="#000" fill-rule="nonzero" xlink:href="#a"/>
-						<g mask="url(#b)">
-							<path fill="#034AD8" d="M-4-8h32v32H-4z"/>
-						</g>
-					</g>
-				</svg> -->
+				<div class="flex items-center">
+					<div class="h-4 w-6 relative mx-auto">
+						<span :class="mobileNavOpen ? 'block absolute h-[2px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-[6px] left-1/2 w-0 ease-cc-cubic' : 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-0 ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 -rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[2px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-2 left-1/2 w-0 ease-cc-cubic': 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-3 ease-cc-cubic'"></span>
+					</div> 	
+				</div>
 			</button>
 
 		</div>
 	</div>
 
-	<!-- TODO: configure where this partial resides -->
 	{% include 'partials/nav/_mobile_nav.html' %}
 
 </header>
