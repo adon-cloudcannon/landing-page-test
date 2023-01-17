@@ -3,7 +3,8 @@
     x-on:click="menuItemOpen = !menuItemOpen"
     @click.outside="menuItemOpen = false">
     {% if item.sub_navs %}
-    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between">
+    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between"
+    x-bind:style="menuItemOpen && { 'padding-bottom': '0px' }">
         {{ item.name }} 
         <svg :class="menuItemOpen ? 'transition duration-300 cc-cubic rotate-180' : 'transition duration-300 cc-cubic rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
             <path d="m18 10-1.41-1.41-4.59 4.58-4.59-4.58-1.41 1.41 6 6z" fill="#034ad8"></path>
@@ -14,7 +15,9 @@
     x-cloak="">
         <ul class="p-6 pt-0">
             {% for sub_nav in item.sub_navs %}
-            <div class="uppercase text-black text-xs tracking-[6px] font-medium pb-4 mt-6">{{ sub_nav.title }}</div>
+            <div 
+            class="uppercase text-black text-xs tracking-[6px] font-medium pb-4 mt-6">
+            {{ sub_nav.title }}</div>
                 {% for sub_item in sub_nav.sub_nav %}
                     <li>
                         {% assign icon_path = "/src/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
