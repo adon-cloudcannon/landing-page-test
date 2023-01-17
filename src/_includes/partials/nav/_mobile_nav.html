@@ -25,15 +25,16 @@
         @keydown.up.window="$focus.wrap().previous()"    
         @keydown.escape.window="mobileNavOpen = false"
     >
-        <div class="px-4 py-6">
+        <div class="px-4 py-6 border-red-700 border-b border-solid border-opacity-[0.09]">
             <!-- TODO: change these to use the button component -->
-            <a href="" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition 
+            <a href="/" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition 
+            text-white bg-cc border-cc hover:bg-cc_hover w-full block text-center
+            ">Get Started Free</a>
+            <a href="" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition mt-3
             text-cc border-cc hover:bg-blue-50 block w-full text-center">
             Login
             </a>
-            <a href="/" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition 
-            text-white bg-cc border-cc hover:bg-cc_hover ml-1 w-full block text-center mt-3
-            ">Get Started</a>
+
         </div>
         <nav>
             <ul>
