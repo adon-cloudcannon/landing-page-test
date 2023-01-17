@@ -17,7 +17,7 @@
 			{% endfor %}
 		</nav>
 		<div class="ml-4 lg:flex hidden">
-			<a href="" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
+			<a href="" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg [&>svg]:stroke-cc inline-block">
 				{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
 			</a>
 		</div>
@@ -30,16 +30,16 @@
 		<!-- Mobile components -->
 		<div class="ml-auto flex lg:hidden">
 			<a href="" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
-				{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
+				{{ 'src/images/icons/outline/magnifying-glass-mobile.svg' | svgContents }}
 			</a>
 			<button x-on:click="mobileNavOpen = !mobileNavOpen" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg">
 				<!-- TODO: configure burger menu to look more like SVG below -->
 				<div class="flex items-center">
 					<div class="h-4 w-6 relative mx-auto">
-						<span :class="mobileNavOpen ? 'block absolute h-[2px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-[6px] left-1/2 w-0 ease-cc-cubic' : 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-0 ease-cc-cubic'"></span>
-						<span :class="mobileNavOpen ? 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
-						<span :class="mobileNavOpen ? 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 -rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
-						<span :class="mobileNavOpen ? 'block absolute h-[2px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-2 left-1/2 w-0 ease-cc-cubic': 'block absolute h-[2px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-3 ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-[6px] left-1/2 w-0 ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-0 ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 -rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-2 left-1/2 w-0 ease-cc-cubic': 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-3 ease-cc-cubic'"></span>
 					</div> 	
 				</div>
 			</button>
