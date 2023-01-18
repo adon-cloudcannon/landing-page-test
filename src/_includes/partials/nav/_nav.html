@@ -43,7 +43,6 @@ x-trap.noscroll="mobileNavOpen"
 				{{ '/src/images/icons/outline/magnifying-glass-mobile.svg' | svgContents }}
 			</a>
 			<button x-on:click="mobileNavOpen = !mobileNavOpen" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg">
-				<!-- TODO: configure burger menu to look more like SVG below -->
 				<div class="flex items-center">
 					<div class="h-[14px] w-6 relative mx-auto">
 						<span :class="mobileNavOpen ? 'block absolute h-[3px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-[6px] left-1/2 w-0 ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-0 ease-cc-cubic'"></span>
@@ -56,8 +55,5 @@ x-trap.noscroll="mobileNavOpen"
 
 		</div>
 		{% include 'partials/nav/_mobile_nav.html' %}
-
 	</div>
-
-
 </header>

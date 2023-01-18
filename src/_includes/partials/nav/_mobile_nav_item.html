@@ -6,7 +6,7 @@
     <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between"
     x-bind:style="menuItemOpen && { 'padding-bottom': '0px' }">
         {{ item.name }} 
-        <svg :class="menuItemOpen ? 'transition duration-300 cc-cubic rotate-180' : 'transition duration-300 cc-cubic rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <svg :class="menuItemOpen ? 'transition duration-300 ease-cc-cubic rotate-180' : 'transition duration-300 rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
             <path d="m18 10-1.41-1.41-4.59 4.58-4.59-4.58-1.41 1.41 6 6z" fill="#034ad8"></path>
         </svg>
     </button>
