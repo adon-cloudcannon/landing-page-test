@@ -1,4 +1,6 @@
-<header class="z-50" x-data="{ mobileNavOpen: false }" >
+<header class="z-50" x-data="{ mobileNavOpen: false }"
+x-trap.noscroll="mobileNavOpen"
+>
 	<div class="relative z-50 flex items-center container bg-white py-4">
 		<div class="flex-1">
 			<a href="/" class="w-56 transition delay-100 [&>svg>path]:hover:fill-cc_hover hidden lg:block"
@@ -45,8 +47,9 @@
 			</button>
 
 		</div>
+		{% include 'partials/nav/_mobile_nav.html' %}
+
 	</div>
 
-	{% include 'partials/nav/_mobile_nav.html' %}
 
 </header>
