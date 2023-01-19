@@ -1,4 +1,4 @@
-<div class="z-40 absolute top-[76px] bg-black/80 h-screen w-full left-0"
+<div class="z-40 fixed top-[76px] bg-black/80 h-screen w-full left-0"
     x-cloak
     x-show="mobileNavOpen"
     x-transition:enter="transition ease-cc-cubic duration-200"
@@ -19,9 +19,6 @@
         x-transition:leave="transition ease-cc-cubic duration-200 transform"
         x-transition:leave-start="translate-x-0"
         x-transition:leave-end="translate-x-full"
-        @keydown.down.window="$focus.wrap().next()"
-        @keydown.up.window="$focus.wrap().previous()"    
-        @keydown.escape.window="mobileNavOpen = false"
     >
         <div class="px-4 py-6 border-red-700 border-b border-solid border-opacity-[0.09]">
             <a href="/" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition 

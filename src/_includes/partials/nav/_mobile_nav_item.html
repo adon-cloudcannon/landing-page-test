@@ -3,8 +3,7 @@
     x-on:click="menuItemOpen = !menuItemOpen"
     @click.outside="menuItemOpen = false">
     {% if item.sub_navs %}
-    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between"
-    x-bind:style="menuItemOpen && { 'padding-bottom': '0px' }">
+    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between">
         {{ item.name }} 
         <svg :class="menuItemOpen ? 'transition duration-300 ease-cc-cubic rotate-180' : 'transition duration-300 rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
             <path d="m18 10-1.41-1.41-4.59 4.58-4.59-4.58-1.41 1.41 6 6z" fill="#034ad8"></path>
@@ -16,7 +15,7 @@
         <ul class="p-6 pt-0">
             {% for sub_nav in item.sub_navs %}
             <div 
-            class="uppercase text-black text-xs tracking-[6px] font-medium pb-4 mt-6">
+            class="uppercase text-black text-xs tracking-[6px] font-medium pb-4 mt-6 first:mt-0">
             {{ sub_nav.title }}</div>
                 {% for sub_item in sub_nav.sub_nav %}
                     <li>
@@ -24,9 +23,15 @@
                         <a href="{{ sub_item.link }}" class="block py-2 group">
                             <div class="flex">
                                 <span class="w-6 relative block transition [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
-                                <span class="flex-1 pl-4">
-                                    {{ sub_item.name }} 
-                                </span>
+                                <div class="flex-1 pl-4">
+                                    <span class="block text-neutral-700 text-base font-medium">
+                                        {{ sub_item.name }} 
+                                    </span>
+                                    <span class="block text-neutral-500 text-xs">
+                                        {{ sub_item.description }}
+                                    </span>
+                                </div>
+
                             </div>
                         </a>
                     </li>
