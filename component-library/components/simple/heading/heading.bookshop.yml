@@ -15,7 +15,7 @@ blueprint:
     element: h2
     width: normal
     desktop:
-      alignment:
+      text_alignment:
         align: center
       sizing:
         size: big
@@ -23,7 +23,7 @@ blueprint:
         top: 0
         bottom: 0
     tablet:
-      alignment:
+      text_alignment:
         active: false
         align: center
       sizing:
@@ -34,7 +34,7 @@ blueprint:
         top: 0
         bottom: 0
     mobile:
-      alignment:
+      text_alignment:
         active: false
         align: center
       sizing:

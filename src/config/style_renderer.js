@@ -114,6 +114,38 @@ module.exports = {
 		return styles +  `font-size: ${textSize};`;
 	},
 
+	render_justify: function(styles, fm, device) {
+		let justify = module.exports.get_data(fm, device, 'justify');
+
+		if (justify === undefined) {
+			return styles;
+		}
+
+		let j = 'flex-start';
+		switch(justify.align) {
+			case 'start':
+				j = 'flex-start';
+				break;
+			case 'end':
+				j = 'flex-end';
+				break;
+			case 'between':
+				j = 'space-between';
+				break;
+			case 'center':
+				j = 'center';
+				break;
+			case 'around':
+				j = 'space-around';
+				break;
+			case 'evenly':
+				j = 'space-evenly';
+				break;
+		}
+
+		return styles + `justify-content: ${j};`;
+	},
+
 	render_text_alignment: function(styles, fm, device) {
 		let validOptions = [
 			'left',
@@ -123,7 +155,7 @@ module.exports = {
 			'inherit'
 		];
 
-		let alignment = module.exports.get_data(fm, device, 'alignment');
+		let alignment = module.exports.get_data(fm, device, 'text_alignment');
 
 		if (alignment === undefined) {
 			return styles;

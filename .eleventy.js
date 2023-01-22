@@ -63,6 +63,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("render_text_alignment", StyleRenderer.render_text_alignment);
 	eleventyConfig.addFilter("render_heading_text_size", StyleRenderer.render_heading_text_size);
 	eleventyConfig.addFilter("render_subheading_text_size", StyleRenderer.render_subheading_text_size);
+	eleventyConfig.addFilter("render_justify", StyleRenderer.render_justify);
 
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
 		return collection.filter(post => {
