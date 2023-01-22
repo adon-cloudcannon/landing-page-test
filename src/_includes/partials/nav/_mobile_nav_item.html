@@ -1,50 +1,50 @@
 <li class=" list-none border-red-700 border-b border-solid border-opacity-[0.09]" 
-    x-data="{ menuItemOpen: false }" 
-    x-on:click="menuItemOpen = !menuItemOpen"
-    @click.outside="menuItemOpen = false">
-    {% if item.sub_navs %}
-    <button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between">
-        {{ item.name }} 
-        <svg :class="menuItemOpen ? 'transition duration-300 ease-cc-cubic rotate-180' : 'transition duration-300 rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-            <path d="m18 10-1.41-1.41-4.59 4.58-4.59-4.58-1.41 1.41 6 6z" fill="#034ad8"></path>
-        </svg>
-    </button>
-    <div class="" 
-    x-show="menuItemOpen"
-    x-cloak="">
-        <ul class="p-6 pt-0">
-            {% for sub_nav in item.sub_navs %}
-            <div 
-            class="uppercase text-black text-xs tracking-[6px] font-medium pb-4 mt-6 first:mt-0">
-            {{ sub_nav.title }}</div>
-                {% for sub_item in sub_nav.sub_nav %}
-                    <li>
-                        {% assign icon_path = "/src/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
-                        <a href="{{ sub_item.link }}" class="block py-2 group">
-                            <div class="flex">
-                                <span class="w-6 relative block transition [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
-                                <div class="flex-1 pl-4">
-                                    <span class="block text-neutral-700 text-base font-medium">
-                                        {{ sub_item.name }} 
-                                    </span>
-                                    <span class="block text-neutral-500 text-xs">
-                                        {{ sub_item.description }}
-                                    </span>
-                                </div>
+	x-data="{ menuItemOpen: false }" 
+	x-on:click="menuItemOpen = !menuItemOpen"
+	@click.outside="menuItemOpen = false">
+	{% if item.sub_navs %}
+	<button class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center justify-between">
+		{{ item.name }} 
+		<svg :class="menuItemOpen ? 'transition duration-300 ease-cc-cubic rotate-180' : 'transition duration-300 rotate-0'" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+			<path d="m18 10-1.41-1.41-4.59 4.58-4.59-4.58-1.41 1.41 6 6z" fill="#034ad8"></path>
+		</svg>
+	</button>
+	<div class="" 
+	x-show="menuItemOpen"
+	x-cloak="">
+		<ul class="p-6 pt-0">
+			{% for sub_nav in item.sub_navs %}
+			<div 
+			class="uppercase text-black text-xs tracking-[6px] font-medium pb-4 mt-6 first:mt-0">
+			{{ sub_nav.title }}</div>
+				{% for sub_item in sub_nav.sub_nav %}
+					<li>
+						{% assign icon_path = "/src/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
+						<a href="{{ sub_item.link }}" class="block py-2 group">
+							<div class="flex">
+								<span class="w-6 relative block transition [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
+								<div class="flex-1 pl-4">
+									<span class="block text-neutral-700 text-base font-medium">
+										{{ sub_item.name }} 
+									</span>
+									<span class="block text-neutral-500 text-xs">
+										{{ sub_item.description }}
+									</span>
+								</div>
 
-                            </div>
-                        </a>
-                    </li>
-                {% endfor %}
-            {% endfor %}
+							</div>
+						</a>
+					</li>
+				{% endfor %}
+			{% endfor %}
 
-        </ul>
-    </div>
+		</ul>
+	</div>
 
-    {% else %}
-    <a href="{{ item.link }}" class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center">
-        {{ item.name }} 
-    </a>
-    {% endif %}
+	{% else %}
+	<a href="{{ item.link }}" class="bg-white w-full p-6 border-none font-extrabold text-xl text-cc flex items-center">
+		{{ item.name }} 
+	</a>
+	{% endif %}
 
 </li>
