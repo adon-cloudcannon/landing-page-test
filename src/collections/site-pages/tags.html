@@ -18,8 +18,6 @@ eleventyComputed:
   title: Blog / {{ tag }}
   content_blocks:
     - _bookshop_name: sections/container
-      styles:
-        background: sun-spot
       content:
         blocks:
           - _bookshop_name: simple/spacer
@@ -29,17 +27,113 @@ eleventyComputed:
               text: "{{ tag }} posts"
             styles:
               size: h2
-              align: center
               width: tight
-          - _bookshop_name: simple/spacer
-            size: 35
+              desktop:
+                alignment:
+                  align: center
+                sizing:
+                  size: big
+                margin:
+                  top: 0
+                  bottom: 35
+              tablet:
+                alignment:
+                  active: false
+                  align: left
+                sizing:
+                  active: false
+                  size: big
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+              mobile:
+                alignment:
+                  active: false
+                  align: left
+                sizing:
+                  active: false
+                  size: big
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
           - _bookshop_name: simple/sub-heading
             content:
               text: "Go back and <a href='/blog/' class='text-cc hover:underline'>view all posts</a>."
             styles:
-              size: big
-          - _bookshop_name: simple/spacer
-            size: 120
+              desktop:
+                alignment:
+                  align: center
+                sizing:
+                  size: big
+                margin:
+                  top: 0
+                  bottom: 120
+              tablet:
+                alignment:
+                  active: false
+                  align: center
+                sizing:
+                  active: false
+                  size: big
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+              mobile:
+                alignment:
+                  active: false
+                  align: center
+                sizing:
+                  active: false
+                  size: big
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+      styles:
+        background: white
+        rounded: none
+        size: normal
+        align: none
+        desktop:
+          margin:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            top: 130
+            right: 0
+            bottom: 80
+            left: 0
+        tablet:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+        mobile:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
 permalink: /blog/tags/{{ tag | slugify }}/
 
 ---

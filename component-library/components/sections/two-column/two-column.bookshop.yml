@@ -12,13 +12,11 @@ blueprint:
   content:
     left:
       blocks:
-    middle_logo:
     right:
       blocks:
   styles:
     type: split
     width: 0
-    split_border: false
     vertically_center: false
     gap: 0
 
@@ -31,9 +29,6 @@ _inputs:
     comment: "Components for the left column"
   right:
     comment: "Components for the right column"
-  middle_logo:
-    comment: "Only used in special circumstances. An optional image to show between the two columns."
-    type: url
   type:
     comment: "The type of two column layout to render"
     options:
@@ -44,9 +39,6 @@ _inputs:
   width:
     comment: "for a 'fixed' type, the width of the fixed column"
     type: number
-  split_border:
-    comment: Whether to show a border between the columns
-    type: switch
   vertically_center:
     comment: Whether to vertically center the content of the columns
     type: switch

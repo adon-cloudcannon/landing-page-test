@@ -1,45 +1,58 @@
-{% assign el = "h4" %}
-{% assign classes = " leading-tight" %}
-{% assign css_styles = " " %}
 
-{% case styles.size %}
+{% assign classes = " leading-tight" %}
+
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
+
+{% assign el = "h4" %}
+{% case styles.element %}
 {% when 'h1' %}
 	{% assign el = "h1" %}
-	{% assign classes = classes | append: " text-7xl" %}
 {% when 'h2' %}
 	{% assign el = "h2" %}
-	{% assign classes = classes | append: " text-5xl" %}
 {% when 'h3' %}
 	{% assign el = "h3" %}
-	{% assign classes = classes | append: " text-4xl" %}
 {% endcase %}
 
-{% case styles.color %}
-{% when 'white' %}
-	{% assign classes = classes | append: " text-white" %}
-{% endcase %}
+{% assign desktop_styles = desktop_styles | render_heading_text_size: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_heading_text_size: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_heading_text_size: styles, 'mobile' %}
 
-{% case styles.align %}
-{% when 'center' %}
-	{% assign classes = classes | append: " text-center" %}
-{% endcase %}
+{% assign desktop_styles = desktop_styles | render_text_alignment: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_text_alignment: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_text_alignment: styles, 'mobile' %}
 
-{% if styles.margin %}
-	{% if styles.margin.top %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
-	{% endif %}
-
-	{% if styles.margin.bottom %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
-
+{% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
 {% case styles.width %}
 {% when 'tight' %}
 	{% assign classes = classes | append: " max-w-screen-md mx-auto" %}
 {% endcase %}
 
-<{{ el }} class="{{ classes }} font-bold" style="{{ css_styles }}">
+{% assign container_name = "heading" | UUID %}
+<style>
+	@media (min-width: 1280px) {
+		.{{ container_name}} {
+			{{ desktop_styles }}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ container_name}} {
+			{{ tablet_styles }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ container_name}} {
+			{{ mobile_styles }}
+		}
+	}
+</style>
+
+<{{ el }} class="{{ classes }} {{ container_name }} font-bold">
 	{{ content.text }}
 </{{ el }}>

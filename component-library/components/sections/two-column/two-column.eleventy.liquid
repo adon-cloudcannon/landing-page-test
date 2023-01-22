@@ -26,10 +26,6 @@
 	{% assign right-c = right-c | append:  " w-1/2" %}
 {% endcase %}
 
-{% if styles.split_border %}
-	{% assign right-c = right-c | append: " border-l border-dotted border-gray-300" %}
-{% endif %}
-
 {% if styles.vertically_center %}
 	{% assign flex_center = " flex-col justify-center flex" %}
 	{% assign left-c = left-c | append: flex_center %}
@@ -41,22 +37,30 @@
 	{% assign right-s = right-s | append: " margin-left: " | append: styles.gap | append: "px;" %}
 {% endif %}
 
-<div class="flex relative">
-	<div class="{{ left-c }}" style="{{ left-s }}">
+{% assign left-class = "left" | UUID %}
+{% assign right-class = "right" | UUID %}
+<style>
+	@media (min-width: 1280px) {
+		.{{ left-class}} {
+			{{ left-s }}
+		}
+
+		.{{ right-class}} {
+			{{ right-s }}
+		}
+	}
+</style>
+<div class="xl:flex relative">
+	<div class="{{ left-c }} {{ left-class}}">
 		{% for component in content.left.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}
 	</div>
-	{% if content.middle_logo %}
-		<div class="
-			absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2 z-10 w-36 h-36 [&>svg]:w-9/12 bg-white 
-			rounded-full p-5 flex justify-center items-center drop-shadow-2xl">
-			{{ content.middle_logo | svgContents }}
-		</div>
-	{% endif %}
-	<div class="{{ right-c }}" style="{{ right-s }}">
+
+	<div class="{{ right-c }} {{ right-class}}">
 		{% for component in content.right.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}
 	</div>
 </div>
+

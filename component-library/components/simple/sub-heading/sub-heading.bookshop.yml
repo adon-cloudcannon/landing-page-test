@@ -12,16 +12,50 @@ blueprint:
   content:
     text: "Hello World!"
   styles:
-    size: 
-    margin:
-      top: 0
-      bottom: 0
+    desktop:
+      alignment:
+        align: center
+      sizing:
+        size: big
+      margin:
+        top: 0
+        bottom: 0
+    tablet:
+      alignment:
+        active: false
+        align: center
+      sizing:
+        active: false
+        size: big
+      margin:
+        active: false
+        top: 0
+        bottom: 0
+    mobile:
+      alignment:
+        active: false
+        align: center
+      sizing:
+        active: false
+        size: big
+      margin:
+        active: false
+        top: 0
+        bottom: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  active:
+    comment: These values won't be used unless active is enabled.
+  desktop:
+    comments: Styles for Desktop, unless overridden will also be used for tablet and mobile.
+  tablet:
+    comments: Styles for Tablet, unless overridden will also be used for mobile.
+  mobile:
+    comments: Styles for mobile.
   text:
     comment: "Content for the subheading"
     type: markdown
@@ -30,6 +64,15 @@ _inputs:
       bold: true
       removeformat: true
       link: true
+  align:
+    type: select
+    comment: The alignment of the sub-heading.
+    options:
+      values:
+        - left
+        - center
+        - right
+        - justify
   size:
     type: select
     comment: The size of the sub-heading

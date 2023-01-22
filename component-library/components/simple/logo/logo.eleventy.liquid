@@ -19,10 +19,10 @@
 	{% endif %}
 {% endif %}
 
-<a class="hover:scale-110 transition {{ classes }}" title="{{ content.title }} case study" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
+<a class="hover:scale-110 transition block px-3 py-5 {{ classes }} [&>svg]:mx-auto" title="{{ content.title }} case study" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
 	{% if content.logo contains '.svg' %}
 		{{ content.logo | svgContents }}
 	{% else %}
-		<img src="{{ content.logo }}" alt="{{ content.title }}">
+		<img src="{{ content.logo }}" class="mx-auto" alt="{{ content.title }}">
 	{% endif %}
 </a>

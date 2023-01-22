@@ -36,9 +36,11 @@
 	{% endif %}
 {% endif %}
 
-<div class="flex space-x-4" style="{{ css_styles }}">
-	{% for uuid in content.case_studies %}
-		{% assign case_study = collections.case-studies | where: "data.uuid", uuid | first %}
-		{% bookshop "case-studies/card" case_study: case_study %}
-	{% endfor %}
+<div style="{{ css_styles }}">
+	<div class="grid md:grid-cols-2 lg:grid-cols-3 [&>a]:mb-4 max-md:[&>a]:mx-auto md:[&>a]:mx-2 -md:mx-2">
+		{% for uuid in content.case_studies %}
+			{% assign case_study = collections.case-studies | where: "data.uuid", uuid | first %}
+			{% bookshop "case-studies/card" case_study: case_study %}
+		{% endfor %}
+	</div>
 </div>

@@ -1,77 +1,74 @@
 {% assign classes = "" %}
-{% assign css_styles = "" %}
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
+
+{% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
+
+{% assign desktop_styles = desktop_styles | render_padding: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_padding: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_padding: styles, 'mobile' %}
 
 {% case styles.background %}
 	{% when 'caramel' %}
-		{% assign classes = classes | append: " bg-caramel" %}
+		{% assign classes = classes | append: " bg-caramel [&_p_a]:text-cc" %}
 	{% when 'sky' %}
-		{% assign classes = classes | append: " bg-sky" %}
+		{% assign classes = classes | append: " bg-sky [&_p_a]:text-cc" %}
 	{% when 'cc-blue' %}
-		{% assign classes = classes | append: " bg-cc text-white" %}
+		{% assign classes = classes | append: " bg-cc text-white [&_p_a]:text-cc" %}
 	{% when 'ash' %}
-		{% assign classes = classes | append: " bg-ash" %}
+		{% assign classes = classes | append: " bg-ash [&_p_a]:text-cc" %}
 	{% when 'night' %}
 		{% assign classes = classes | append: " bg-night text-white" %}
-	{% when 'sun-spot' %}
-		{% assign classes = classes | append: " sun-spot" %}
 	{% else %}
-		{% assign classes = classes | append: " bg-white" %}
+		{% assign classes = classes | append: " bg-white [&_p_a]:text-cc" %}
 {% endcase %}
 
 {% case styles.rounded %}
 	{% when 'top' %}
-		{% assign classes = classes | append: " rounded-t-[40px] -mt-[40px]" %}
+		{% assign classes = classes | append: " rounded-t-[40px]" %}
+		{% assign mt = " margin-top:-40px;" %}
+		{% assign desktop_styles = desktop_styles | append: mt %}
+		{% assign tablet_styles = tablet_styles | append: mt %}
+		{% assign mobile_styles = mobile_styles | append: mt %}
 	{% when 'full' %}
 		{% assign classes = classes | append: " rounded-[20px]" %}
 {% endcase %}
 
-{% if styles.margin %}
-	{% if styles.margin.top and styles.rounded != 'top' %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
-	{% endif %}
-
-	{% if styles.align == 'center' %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-left: auto; margin-right: auto;" %}
-	{% else %}
-		{% if styles.margin.left %}
-			{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: styles.margin.left | append: "px;" %}
-		{% endif %}
-
-		{% if styles.margin.right %}
-			{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: styles.margin.right | append: "px;" %}
-		{% endif %}
-	{% endif %}
-
-	{% if styles.margin.bottom %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
-
-{% if styles.padding %}
-	{% if styles.padding.top %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-top:" | append: styles.padding.top | append: "px;" %}
-	{% endif %}
-
-	{% if styles.padding.left %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-left:" | append: styles.padding.left | append: "px;" %}
-	{% endif %}
-
-	{% if styles.padding.right %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-right:" | append: styles.padding.right | append: "px;" %}
-	{% endif %}
-
-	{% if styles.padding.bottom %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-bottom:" | append: styles.padding.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
-
 {% case styles.size %}
 {% when 'small' %}
 	{% assign classes = classes | append: " w-[800px] mx-auto" %}
+
+	{% assign mx = " margin-left:auto; margin-right:auto;" %}
+	{% assign desktop_styles = desktop_styles | append: mx %}
+	{% assign tablet_styles = tablet_styles | append: mx %}
+	{% assign mobile_styles = mobile_styles | append: mx %}
 {% endcase %}
 
+{% assign container_name = "container" | UUID %}
+<style>
+	@media (min-width: 1280px) {
+		.{{ container_name}} {
+			{{ desktop_styles }}
+		}
+	}
 
-<div class="{{ classes }} relative" style="{{ css_styles }}">
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ container_name}} {
+			{{ tablet_styles }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ container_name}} {
+			{{ mobile_styles }}
+		}
+	}
+</style>
+
+<div class="{{ classes }} relative {{ container_name }}">
 		<div class="container relative">
 	{% for component in content.blocks %}
 		{% bookshop "{{component._bookshop_name}}" bind: component %}

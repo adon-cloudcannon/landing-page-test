@@ -5,24 +5,76 @@ eleventyComputed:
     - _bookshop_name: sections/container
       content:
         blocks:
-        - _bookshop_name: simple/spacer
-          size: 100
         - _bookshop_name: simple/heading
           content:
             text: "{{ heading }}"
           styles:
             size: h2
-            align: center
             width: tight
-        - _bookshop_name: simple/spacer
-          size: 35
+            desktop:
+              alignment:
+                align: center
+              sizing:
+                size: big
+              margin:
+                top: 0
+                bottom: 35
+            tablet:
+              alignment:
+                active: false
+                align: left
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              alignment:
+                active: false
+                align: left
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: simple/sub-heading
           content:
             text: "{{ description }}"
           styles:
-            size: big
-        - _bookshop_name: simple/spacer
-          size: 35
+            desktop:
+              alignment:
+                align: center
+              sizing:
+                size: big
+              margin:
+                top: 0
+                bottom: 35
+            tablet:
+              alignment:
+                active: false
+                align: center
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              alignment:
+                active: false
+                align: center
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: simple/case-study-person
           person: 
             image:
@@ -34,7 +86,47 @@ eleventyComputed:
         - _bookshop_name: simple/spacer
           size: 30 
       styles:
-        background: sun-spot
+        background: white
+        rounded: none
+        size: normal
+        align: none
+        desktop:
+          margin:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            top: 130
+            right: 0
+            bottom: 80
+            left: 0
+        tablet:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+        mobile:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
 ---
 {% bookshop_include "page" content_blocks: header_blocks %}
 

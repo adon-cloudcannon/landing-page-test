@@ -18,7 +18,7 @@
 	{% endif %}
 {% endif %}
 
-<div class="flex justify-between"  style="{{ css_styles }}">
+<div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"  style="{{ css_styles }}">
 	{% for item in content.logo_blocks %}
 		{% bookshop "simple/logo" content:item.content, styles:item.styles %}
 	{% endfor %}

@@ -1,10 +1,14 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
+
 module.exports = {
 	content: ['_site/**/*.html'],
 	safelist: [],
 	theme: {
 		extend: {
+			screens: {
+				'xsm': '500px',
+			},
 			typography: {
 				DEFAULT: {
 					css: {

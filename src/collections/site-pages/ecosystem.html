@@ -11,37 +11,116 @@ content_blocks:
             text: Jamstack Ecosystem
           styles:
             size: h1
-            align: center
             width: tight
-            margin:
-              top: 0
-              bottom: 35
+            desktop:
+              alignment:
+                align: center
+              sizing:
+                size: biggest
+              margin:
+                top: 0
+                bottom: 35
+            tablet:
+              alignment:
+                active: false
+                align: left
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              alignment:
+                active: false
+                align: left
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: simple/sub-heading
           content:
             text: Research the best tooling for your next Jamstack website.
           styles:
-            size: big
-            margin:
-              top: 0
-              bottom: 0
+            desktop:
+              alignment:
+                align: center
+              sizing:
+                size: big
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              alignment:
+                active: false
+                align: center
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              alignment:
+                active: false
+                align: center
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
     styles:
-      background: sun-spot
+      background: white
       rounded: none
-      margin:
-        top: 0
-        right: 0
-        bottom: 0
-        left: 0
-      padding:
-        top: 130
-        right: 0
-        bottom: 80
-        left: 0
       size: normal
       align: none
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 130
+          right: 0
+          bottom: 80
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
 ---
 <div class="container">
-  <div class="grid grid-cols-4 gap-x-6 gap-y-10 mb-28">
+  <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10 mb-28">
     {% for item in collections.ecosystem %}
       <a class="group relative transition duration-200 hover:scale-105 flex-1 h-[400px] block py-10 px-5 border border-black rounded-xl bg-white hover:drop-shadow-xl" href="{{ item.url }}">
         <img src="/images/icons/ecosystem/{{ item.data.short_title | downcase | replace: ' ', '-' }}.svg" alt="{{ item.data.short_title }}" />

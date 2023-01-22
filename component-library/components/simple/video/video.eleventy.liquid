@@ -47,6 +47,15 @@
 	{% endif %}
 {% endif %}
 
+{% assign video-class = "video" | UUID %}
+<style>
+	@media (min-width: 1280px) {
+		.{{ video-class }} {
+			{{ css_styles }}
+		}
+	}
+</style>
+
 <video 
 {% if content.autoplay %}
 	autoplay muted
@@ -55,8 +64,7 @@
 {% if content.loop %}
 	loop
 {% endif %}
-class="{{ classes }}"
-style="{{ css_styles }}"
+class="{{ classes }} {{ video-class }}"
 title="{{ content.title }}">
 	<source src="{{ content.url }}" type="video/mp4">
 </video>

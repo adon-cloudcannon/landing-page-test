@@ -39,16 +39,6 @@ a {
 	bottom: -24px;
 }
 
-.sun-spot {
-	background: #fff radial-gradient(
-		circle at top center, 
-		rgba(255,250,209,0.5) 0%, 
-		rgba(255,250,209,0.5) 20%, 
-		rgba(184,255,251,0.3) 45%, 
-		rgba(184,255,251,0) 50%
-	);
-}
-
 pre[class*="language-"] .table {
 	display: initial;
 }

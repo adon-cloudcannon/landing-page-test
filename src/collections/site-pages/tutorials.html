@@ -11,38 +11,117 @@ content_blocks:
             text: Tutorials
           styles:
             size: h1
-            align: center
             width: tight
-            margin:
-              top: 0
-              bottom: 35
+            desktop:
+              alignment:
+                align: center
+              sizing:
+                size: biggest
+              margin:
+                top: 0
+                bottom: 35
+            tablet:
+              alignment:
+                active: false
+                align: left
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              alignment:
+                active: false
+                align: left
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: simple/sub-heading
           content:
             text: Learn from the CloudCannon team and community members as they share their knowledge about static sites, Git workflows and content management. 
           styles:
-            size: big
-            margin:
-              top: 0
-              bottom: 0
+            desktop:
+              alignment:
+                align: center
+              sizing:
+                size: big
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              alignment:
+                active: false
+                align: center
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              alignment:
+                active: false
+                align: center
+              sizing:
+                active: false
+                size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
     styles:
-      background: sun-spot
+      background: white
       rounded: none
-      margin:
-        top: 0
-        right: 0
-        bottom: 0
-        left: 0
-      padding:
-        top: 130
-        right: 0
-        bottom: 80
-        left: 0
       size: normal
       align: none
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 130
+          right: 0
+          bottom: 80
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
 ---
 
 <div class="container">
-  <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     
     {% for tutorial in collections.tutorials %}
     

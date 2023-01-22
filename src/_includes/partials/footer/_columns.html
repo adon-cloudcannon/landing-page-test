@@ -1,6 +1,6 @@
-<div class="flex">
+<div class="flex flex-wrap">
 	{% for links in footer-columns %}
-		<div class="flex-1 mt-10">
+		<div class="flex-1 mt-10 px-4">
 			<div class="font-bold mb-3">{{ links.title }}</div>
 			<ul class="">
 				{% for item in links.items %}
