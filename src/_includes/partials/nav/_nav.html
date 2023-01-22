@@ -1,23 +1,57 @@
-<header class="md:container my-4 flex items-center">
-	<div class="flex-1">
-		<a href="/" title="CloudCannon Home" class="w-56 block transition delay-100 [&>svg>path]:hover:fill-cc_hover">
-			{{ '/src/images/cc-logo.svg' | svgContents }}
-		</a>
-	</div>
+<header class="z-50" 
+	x-data="{ mobileNavOpen: false }"
+	x-init="width = (window.innerWidth > 0) ? window.innerWidth : screen.width;"
+	@resize.window="
+		if(window.innerWidth > 1023){
+			mobileNavOpen = false;
+		}
+	"
+	x-trap.noscroll="mobileNavOpen">
+	<div class="relative z-50 flex items-center container bg-white py-4">
+		<div class="flex-1">
+			<a href="/" class="w-56 transition delay-100 [&>svg>path]:hover:fill-cc_hover hidden lg:block"
+				x-cloak
+				x-show="!mobileNavOpen">
+				{{ '/src/images/cc-logo.svg' | svgContents }}
+			</a>
+			<a href="/" class="w-8 block transition delay-100 [&>svg>path]:hover:fill-cc_hover lg:hidden">
+				{{ '/src/images/cc-logo-mobile.svg' | svgContents }}
+			</a>
+			</div>
 
-	<nav>
-		{% for item in nav %}
-			{% include 'partials/nav/_nav_item.html' item:item %}
-		{% endfor %}
-	</nav>
-	<div class="ml-4 flex">
-		<a href="" title="Search" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
-			{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
-		</a>
+		<nav class="hidden lg:block">
+			{% for item in nav %}
+				{% include 'partials/nav/_nav_item.html' item:item %}
+			{% endfor %}
+		</nav>
+		<div class="ml-4 lg:flex hidden">
+			<a href="" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg [&>svg]:stroke-cc inline-block">
+				{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
+			</a>
+		</div>
+		<div class="ml-3 hidden lg:block">
+			{% bookshop "simple/button" bind: buttons.login %}
+			{% bookshop "simple/button" bind: buttons.signup %}
+		</div>
+
+
+		<!-- Mobile components -->
+		<div class="ml-auto flex lg:hidden">
+			<a href="" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
+				{{ '/src/images/icons/outline/magnifying-glass-mobile.svg' | svgContents }}
+			</a>
+			<button x-on:click="mobileNavOpen = !mobileNavOpen" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg">
+				<div class="flex items-center">
+					<div class="h-[14px] w-6 relative mx-auto">
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-[6px] left-1/2 w-0 ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-0 ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 -rotate-45 transition-all duration-200 top-[6px] ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-[6px] ease-cc-cubic'"></span>
+						<span :class="mobileNavOpen ? 'block absolute h-[3px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-2 left-1/2 w-0 ease-cc-cubic': 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-3 ease-cc-cubic'"></span>
+					</div> 	
+				</div>
+			</button>
+
+		</div>
+		{% include 'partials/nav/_mobile_nav.html' %}
 	</div>
-	<div class="ml-3">
-		{% bookshop "simple/button" bind: buttons.login %}
-		{% bookshop "simple/button" bind: buttons.signup %}
-	</div>
-	
 </header>

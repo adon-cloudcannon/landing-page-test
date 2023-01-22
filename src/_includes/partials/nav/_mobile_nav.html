@@ -1,0 +1,42 @@
+<div class="z-40 fixed top-[76px] bg-black/80 h-screen w-full left-0"
+    x-cloak
+    x-show="mobileNavOpen"
+    x-transition:enter="transition ease-cc-cubic duration-200"
+    x-transition:enter-start="bg-black/0"
+    x-transition:enter-end="bg-black/80"
+    x-transition:leave="transition ease-cc-cubic duration-200"
+    x-transition:leave-start="bg-white/80"
+    x-transition:leave-end="bg-white/0"
+
+    >
+        <div class="max-w-sm bg-white w-full absolute right-0 h-screen z-50 overflow-y-scroll" 
+        x-show="mobileNavOpen"
+        @click.outside="mobileNavOpen = false"
+        x-cloak
+        x-transition:enter="transition ease-cc-cubic duration-200 transform"
+        x-transition:enter-start="translate-x-full"
+        x-transition:enter-end="translate-x-0"
+        x-transition:leave="transition ease-cc-cubic duration-200 transform"
+        x-transition:leave-start="translate-x-0"
+        x-transition:leave-end="translate-x-full"
+    >
+        <div class="px-4 py-6 border-red-700 border-b border-solid border-opacity-[0.09]">
+            <a href="/" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition 
+            text-white bg-cc border-cc hover:bg-cc_hover w-full block text-center
+            ">Get Started Free</a>
+            <a href="" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition mt-3
+            text-cc border-cc hover:bg-blue-50 block w-full text-center">
+            Login
+            </a>
+
+        </div>
+        <nav>
+            <ul>
+                {% for item in nav %}
+                    {% include 'partials/nav/_mobile_nav_item.html' item:item %}
+                {% endfor %}
+
+            </ul>
+        </nav>
+    </div>
+</div>
