@@ -2,7 +2,7 @@
 	x-data="{ mobileNavOpen: false }"
 	x-init="width = (window.innerWidth > 0) ? window.innerWidth : screen.width;"
 	@resize.window="
-		if(width > 1023){
+		if(window.innerWidth > 1023){
 			mobileNavOpen = false;
 		}
 	"
