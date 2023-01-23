@@ -16,8 +16,8 @@ content_blocks:
             desktop:
               text_alignment:
                 align: center
-              sizing:
-                size: biggest
+              text_sizing:
+                text_size: biggest
               margin:
                 top: 0
                 bottom: 35
@@ -25,9 +25,9 @@ content_blocks:
               text_alignment:
                 active: false
                 align: left
-              sizing:
+              text_sizing:
                 active: false
-                size: big
+                text_size: big
               margin:
                 active: false
                 top: 0
@@ -36,49 +36,58 @@ content_blocks:
               text_alignment:
                 active: false
                 align: left
-              sizing:
+              text_sizing:
                 active: false
-                size: big
+                text_size: big
               margin:
                 active: false
                 top: 0
                 bottom: 0
-        - _bookshop_name: simple/sub-heading
+        - _bookshop_name: simple/text-block
           content:
-            text: >-
+            text_markdown: >-
               The visual CMS that gives content teams full autonomy on your
               developer-approved tech stack.
           styles:
             desktop:
-              text_alignment:
+              text_alignment: 
                 align: center
-              sizing:
-                size: big
+              text_sizing:
+                text_size: biggest
               margin:
                 top: 0
                 bottom: 35
+              block_alignment:
+                align_block:
             tablet:
               text_alignment:
                 active: false
-                align: center
-              sizing:
+                align: left
+              text_sizing:
                 active: false
-                size: big
+                text_size: normal
               margin:
                 active: false
                 top: 0
                 bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
             mobile:
               text_alignment:
                 active: false
-                align: center
-              sizing:
+                align: left
+              text_sizing:
                 active: false
-                size: big
+                text_size: normal
               margin:
                 active: false
                 top: 0
                 bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            width: medium
         - _bookshop_name: simple/button-holder
           content:
             button_blocks:
@@ -161,15 +170,67 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/video-placeholder
           content:
-            placeholder_image: /images/page/player-frame.png
+            placeholder_image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674414951/marketing-site/player-frame_ppng2f.png
             video: https://player.vimeo.com/video/668496650
             title: How does CloudCannon work?
           styles:
-            margin:
-              top: 0
-              right: 0
-              bottom: 0
-              left: 0
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              position:
+                active: false
+                top:
+                left:
+                bottom:
+                right:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
     styles:
       background: white
       rounded: none
@@ -217,9 +278,35 @@ content_blocks:
       label: Everyone same page
       blocks:
         - _bookshop_name: simple/spacer
-          size: -230
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: -230
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: false
+                size: 0
         - _bookshop_name: simple/spacer
-          size: 260
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: 260
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: false
+                size: 0
         - _bookshop_name: simple/logo-ticker
           content:
             logo_blocks:
@@ -229,61 +316,151 @@ content_blocks:
                   name: Netflix
                   link:
                 styles:
-                  position:
-                    top: 0
-                    right: 0
-                    bottom: 0
-                    left: 0
+                  desktop:
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  tablet:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  mobile:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
               - _bookshop_name: simple/logo
                 content:
                   logo: /src/images/logos/twitch.svg
                   name: Twitch
                   link:
                 styles:
-                  position:
-                    top: 0
-                    right: 0
-                    bottom: 0
-                    left: 0
+                  desktop:
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  tablet:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  mobile:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
               - _bookshop_name: simple/logo
                 content:
                   logo: /src/images/logos/newdynamic.svg
                   name: The New Dynamic
                   link:
                 styles:
-                  position:
-                    top: 0
-                    right: 0
-                    bottom: 0
-                    left: 0
+                  desktop:
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  tablet:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  mobile:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
               - _bookshop_name: simple/logo
                 content:
                   logo: /src/images/logos/ocupop.svg
                   name: Ocupop
                   link:
                 styles:
-                  position:
-                    top: -6
-                    right: 0
-                    bottom: 0
-                    left: 0
+                  desktop:
+                    position:
+                      top: -6
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  tablet:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  mobile:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
               - _bookshop_name: simple/logo
                 content:
                   logo: /src/images/logos/papercut.svg
                   name: Papercut
                   link:
                 styles:
-                  position:
-                    top: -15
-                    right: 0
-                    bottom: 0
-                    left: 0
+                  desktop:
+                    position:
+                      top: -15
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  tablet:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                  mobile:
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
           styles:
-            margin:
-              top: 0
-              right: 0
-              bottom: 85
-              left: 0
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 85
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
         - _bookshop_name: simple/heading
           content:
             text: Everyone on the same page
@@ -293,8 +470,8 @@ content_blocks:
             desktop:
               text_alignment:
                 align: center
-              sizing:
-                size: big
+              text_sizing:
+                text_size: big
               margin:
                 top: 0
                 bottom: 35
@@ -302,9 +479,9 @@ content_blocks:
               text_alignment:
                 active: false
                 align: left
-              sizing:
+              text_sizing:
                 active: false
-                size: big
+                text_size: big
               margin:
                 active: false
                 top: 0
@@ -313,50 +490,59 @@ content_blocks:
               text_alignment:
                 active: false
                 align: left
-              sizing:
+              text_sizing:
                 active: false
-                size: big
+                text_size: big
               margin:
                 active: false
                 top: 0
                 bottom: 0
-        - _bookshop_name: simple/sub-heading
+        - _bookshop_name: simple/text-block
           content:
-            text: >-
+            text_markdown: >-
               Developers push changes directly to Git. Editors build pages
               visually using custom components. Your teams stay in sync with a
               unified workflow.
           styles:
             desktop:
-              text_alignment:
+              text_alignment: 
                 align: center
-              sizing:
-                size: normal
+              text_sizing:
+                text_size: normal
               margin:
                 top: 0
                 bottom: 80
+              block_alignment:
+                align_block:
             tablet:
               text_alignment:
                 active: false
-                align: center
-              sizing:
+                align: left
+              text_sizing:
                 active: false
-                size: normal
+                text_size: normal
               margin:
                 active: false
                 top: 0
                 bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
             mobile:
               text_alignment:
                 active: false
-                align: center
-              sizing:
+                align: left
+              text_sizing:
                 active: false
-                size: normal
+                text_size: normal
               margin:
                 active: false
                 top: 0
                 bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            width: medium
         - _bookshop_name: simple/image
           content:
             alt: CloudCannon workflow with editor and developer
@@ -409,7 +595,6 @@ content_blocks:
       blocks:
         - _bookshop_name: sections/two-column
           content:
-            middle_logo:
             left:
               blocks:
                 - _bookshop_name: simple/emoji-heading
@@ -434,14 +619,45 @@ content_blocks:
 
                       * Publish content live with the push of a button
                   styles:
-                    text_alignment: left
-                    center_block:
+                    desktop:
+                      text_alignment: 
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block:
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
                     width: full
-                    text_color: default
-                    text_size: normal
-                    margin:
-                      top: 0
-                      bottom: 0
             right:
               blocks:
                 - _bookshop_name: simple/video
@@ -519,7 +735,20 @@ content_blocks:
           content:
             blocks:
               - _bookshop_name: simple/spacer
-                size: 80
+                content:
+                  title:
+                styles:
+                  desktop:
+                    space:
+                      size: 80
+                  tablet:
+                    space:
+                      active: false
+                      size: 0
+                  mobile:
+                    space:
+                      active: false
+                      size: 0
               - _bookshop_name: simple/emoji-heading
                 content:
                   emoji: 👋
@@ -539,16 +768,60 @@ content_blocks:
                     favorite tools and frameworks, then sync changes to content
                     editors with a Git push.
                 styles:
-                  text_alignment: center
-                  center_block:
+                  desktop:
+                    text_alignment: 
+                      align: center
+                    text_sizing:
+                      text_size: normal
+                    margin:
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      align_block:
+                  tablet:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: false
+                      text_size: normal
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
+                  mobile:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: false
+                      text_size: normal
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
                   width: medium
-                  text_color:
-                  text_size: normal
-                  margin:
-                    top: 0
-                    bottom: 0
               - _bookshop_name: simple/spacer
-                size: 60
+                content:
+                  title:
+                styles:
+                  desktop:
+                    space:
+                      size: 60
+                  tablet:
+                    space:
+                      active: false
+                      size: 0
+                  mobile:
+                    space:
+                      active: false
+                      size: 0
             pizazz:
               - _bookshop_name: simple/logo-shape
                 content:
@@ -1023,8 +1296,8 @@ content_blocks:
             desktop:
               text_alignment:
                 align: center
-              sizing:
-                size: big
+              text_sizing:
+                text_size: big
               margin:
                 top: 0
                 bottom: 30
@@ -1032,9 +1305,9 @@ content_blocks:
               text_alignment:
                 active: false
                 align: left
-              sizing:
+              text_sizing:
                 active: false
-                size: big
+                text_size: big
               margin:
                 active: false
                 top: 0
@@ -1043,9 +1316,9 @@ content_blocks:
               text_alignment:
                 active: false
                 align: left
-              sizing:
+              text_sizing:
                 active: false
-                size: big
+                text_size: big
               margin:
                 active: false
                 top: 0
@@ -1056,14 +1329,45 @@ content_blocks:
               Try out CloudCannon with a 14-day free trial, or get in touch with
               us for a demo.
           styles:
-            text_alignment: center
-            center_block:
+            desktop:
+              text_alignment: 
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 25
+              block_alignment:
+                align_block:
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
             width: medium
-            text_color: white
-            text_size: normal
-            margin:
-              top: 0
-              bottom: 25
         - _bookshop_name: simple/button-holder
           content:
             button_blocks:

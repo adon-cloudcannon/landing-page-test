@@ -12,14 +12,46 @@ blueprint:
   content:
     text_markdown:
   styles:
-    text_alignment: left
-    center_block:
+    desktop:
+      text_alignment: 
+        align: left
+      text_sizing:
+        text_size: normal
+      margin:
+        top: 0
+        bottom: 0
+      block_alignment:
+        align_block:
+    tablet:
+      text_alignment:
+        active: false
+        align: left
+      text_sizing:
+        active: false
+        text_size: normal
+      margin:
+        active: false
+        top: 0
+        bottom: 0
+      block_alignment:
+        active: false
+        align_block: left
+    mobile:
+      text_alignment:
+        active: false
+        align: left
+      text_sizing:
+        active: false
+        text_size: normal
+      margin:
+        active: false
+        top: 0
+        bottom: 0
+      block_alignment:
+        active: false
+        align_block: left
     width: full
-    text_color:
-    text_size: normal
-    margin:
-      top: 0
-      bottom: 0
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -29,16 +61,23 @@ _inputs:
   text_markdown:
     comment: The content
     type: markdown
-  text_alignment:
-    comment: Align the text
-    type: select 
+  align:
+    type: select
+    comment: The alignment of the text-block.
     options:
       values:
         - left
         - center
-  center_block:
-    comment: Centeres this component within its parent
-    type: switch
+        - right
+        - justify
+  align_block:
+    type: select
+    options:
+      values:
+        - left
+        - center
+  block_alignment:
+    comment: Align component within its parent
   width:
     comment: The width of the text block
     type: select 
@@ -47,14 +86,6 @@ _inputs:
         - medium
         - large
         - full
-  text_color:
-    comment: The color of the text
-    type: select 
-    options:
-      values:
-        - white
-        - gray
-        - default
   text_size:
     comment: The size of the text
     type: select 

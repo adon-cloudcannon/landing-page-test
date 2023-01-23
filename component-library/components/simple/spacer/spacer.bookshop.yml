@@ -10,7 +10,20 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  size: 
+  content:
+    title:
+  styles:
+    desktop:
+      space:
+        size: 0
+    tablet:
+      space:
+        active: false
+        size: 0
+    mobile:
+      space:
+        active: false
+        size: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -20,3 +33,12 @@ _inputs:
   size:
     type: number
     comment: The amount of space to add in pixels. Can be negative to pull components closer together.
+  active:
+    comment: These values won't be used unless active is enabled.
+    type: switch
+  desktop:
+    comments: Styles for Desktop, unless overridden will also be used for tablet and mobile.
+  tablet:
+    comments: Styles for Tablet, unless overridden will also be used for mobile.
+  mobile:
+    comments: Styles for mobile.

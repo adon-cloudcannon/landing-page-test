@@ -1,25 +1,34 @@
-{% assign classes = " relative" %}
-{% assign css_styles = "" %}
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
 
-{% if styles.position %}
-	{% if styles.position.top %}
-		{% assign css_styles = css_styles | append: " " | append: "top:" | append: styles.position.top | append: "px;" %}
-	{% endif %}
+{% assign desktop_styles = desktop_styles | render_position: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_position: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_position: styles, 'mobile' %}
 
-	{% if styles.position.left %}
-		{% assign css_styles = css_styles | append: " " | append: "left:" | append: styles.position.left | append: "px;" %}
-	{% endif %}
+{% assign container_name = "logo" | UUID %}
 
-	{% if styles.position.right %}
-		{% assign css_styles = css_styles | append: " " | append: "right:" | append: styles.position.right | append: "px;" %}
-	{% endif %}
+<style>
+	@media (min-width: 1280px) {
+		.{{ container_name}} {
+			{{ desktop_styles }}
+		}
+	}
 
-	{% if styles.position.bottom %}
-		{% assign css_styles = css_styles | append: " " | append: "bottom:" | append: styles.position.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ container_name}} {
+			{{ tablet_styles }}
+		}
+	}
 
-<a class="hover:scale-110 transition block px-3 py-5 {{ classes }} [&>svg]:mx-auto" title="{{ content.title }} case study" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
+	@media (max-width: 767px) {
+		.{{ container_name}} {
+			{{ mobile_styles }}
+		}
+	}
+</style>
+
+<a class="hover:scale-110 transition block px-3 py-5 relative {{ container_name }} [&>svg]:mx-auto" title="{{ content.title }} case study" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
 	{% if content.logo contains '.svg' %}
 		{{ content.logo | svgContents }}
 	{% else %}

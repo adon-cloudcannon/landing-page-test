@@ -12,7 +12,8 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"),
 			mila = require("markdown-it-link-attributes"),
 			crypto = require('crypto'),
-			StyleRenderer = require('./src/config/style_renderer.js');
+			StyleRenderer = require('./src/config/style_renderer.js'),
+			ImageRenderer = require('./src/config/image_renderer.js');
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("component-library/");
@@ -60,10 +61,14 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("render_padding", StyleRenderer.render_padding);
 	eleventyConfig.addFilter("render_margin", StyleRenderer.render_margin);
+	eleventyConfig.addFilter("render_position", StyleRenderer.render_position);
+	eleventyConfig.addFilter("render_transform", StyleRenderer.render_transform);
 	eleventyConfig.addFilter("render_text_alignment", StyleRenderer.render_text_alignment);
 	eleventyConfig.addFilter("render_heading_text_size", StyleRenderer.render_heading_text_size);
-	eleventyConfig.addFilter("render_subheading_text_size", StyleRenderer.render_subheading_text_size);
+	eleventyConfig.addFilter("render_text_block_text_size", StyleRenderer.render_text_block_text_size);
 	eleventyConfig.addFilter("render_justify", StyleRenderer.render_justify);
+	eleventyConfig.addFilter("render_spacer", StyleRenderer.render_spacer);
+	eleventyConfig.addFilter("image_resize", ImageRenderer.image_resize);
 
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
 		return collection.filter(post => {

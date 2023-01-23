@@ -5,16 +5,12 @@ eleventyComputed:
     - _bookshop_name: sections/container
       content:
         blocks:
-          - _bookshop_name: simple/spacer
-            size: 100
           - _bookshop_name: simple/icon-image
             content:
               image: "/images/logos/ssgs/{{ page.fileSlug }}.svg"
               alt: "{{ title }} logo"
             styles:
               scale: .9
-          - _bookshop_name: simple/spacer
-            size: 30
           - _bookshop_name: simple/heading
             content:
               text: "{{ title }} Cheatsheet"
@@ -24,18 +20,18 @@ eleventyComputed:
               desktop:
                 text_alignment:
                   align: center
-                sizing:
-                  size: biggest
+                text_sizing:
+                  text_size: biggest
                 margin:
-                  top: 0
+                  top: 30
                   bottom: 35
               tablet:
                 text_alignment:
                   active: false
                   align: left
-                sizing:
+                text_sizing:
                   active: false
-                  size: big
+                  text_size: big
                 margin:
                   active: false
                   top: 0
@@ -44,47 +40,56 @@ eleventyComputed:
                 text_alignment:
                   active: false
                   align: left
-                sizing:
+                text_sizing:
                   active: false
-                  size: big
+                  text_size: big
                 margin:
                   active: false
                   top: 0
                   bottom: 0
-          - _bookshop_name: simple/sub-heading
+          - _bookshop_name: simple/text-block
             content:
-              text: "{{ description }}"
+              text_markdown: "{{ description }}"
             styles:
               desktop:
-                text_alignment:
+                text_alignment: 
                   align: center
-                sizing:
-                  size: big
+                text_sizing:
+                  text_size: biggest
                 margin:
                   top: 0
                   bottom: 80
+                block_alignment:
+                  align_block:
               tablet:
                 text_alignment:
                   active: false
-                  align: center
-                sizing:
+                  align: left
+                text_sizing:
                   active: false
-                  size: big
+                  text_size: normal
                 margin:
                   active: false
                   top: 0
                   bottom: 0
+                block_alignment:
+                  active: false
+                  align_block: left
               mobile:
                 text_alignment:
                   active: false
-                  align: center
-                sizing:
+                  align: left
+                text_sizing:
                   active: false
-                  size: big
+                  text_size: normal
                 margin:
                   active: false
                   top: 0
-                  bottom: 0 
+                  bottom: 0
+                block_alignment:
+                  active: false
+                  align_block: left
+              width: full
       styles:
         background: white
         rounded: none
@@ -92,7 +97,7 @@ eleventyComputed:
         align: none
         desktop:
           margin:
-            top: 0
+            top: 100
             right: 0
             bottom: 0
             left: 0
