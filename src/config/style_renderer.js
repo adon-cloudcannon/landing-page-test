@@ -251,5 +251,95 @@ module.exports = {
 		}
 
 		return styles;
+	},
+
+	render_block_alignment: function(styles, fm, device) {
+		let alignment = module.exports.get_data(fm, device, 'block_alignment');
+
+		if (alignment === undefined) {
+			return styles;
+		}
+
+		switch(alignment.align_block) {
+			case 'center':
+				styles += `margin-left: auto; margin-right: auto;`
+				break;
+		}
+
+		return styles;
+	},
+
+	render_vertical_block_alignment: function(styles, fm, device) {
+		let alignment = module.exports.get_data(fm, device, 'vertical_block_alignment');
+
+		if (alignment === undefined) {
+			return styles;
+		}
+
+		switch(alignment.v_align) {
+			case 'center':
+				styles += `display:flex;justify-content: center;flex-direction:column;`
+				break;
+		}
+
+		return styles;
+	},
+
+	render_visibility: function(styles, fm, device) {
+		let visibility = module.exports.get_data(fm, device, 'visibility');
+
+		if (visibility === undefined) {
+			return styles;
+		}
+
+		if (visibility.hide) {
+			styles += 'display: none;';
+		}
+
+		return styles;
+	},
+
+	render_columns: function(styles, fm, device) {
+		let columns = module.exports.get_data(fm, device, 'columns');
+
+		if (columns === undefined) {
+			return styles;
+		}
+
+		var columnData = {
+			left: 'box-sizing: border-box;',
+			right: 'box-sizing: border-box;'
+		};
+
+		switch(columns.type) {
+			case 'split':
+				columnData.left += `width:50%;`;
+				columnData.right += 'width:50%;';
+				break;
+			case 'fixed-fluid':
+				columnData.left += `width:${columns.width}px;`;
+				columnData.right += 'position:relative; flex:1;';
+				break;
+			case 'fluid-fixed':
+				columnData.left += 'position:relative; flex:1;';
+				columnData.right += `width:${columns.width}px;`;
+				break;
+			case 'stacked':
+				columnData.left += 'width:100%;';
+				columnData.right += 'width:100%;';
+				break;
+		}
+		
+		if (module.exports.validInteger('gap', columns)) {
+			columnData.left += `padding-right: ${columns.gap}px;`
+			columnData.right += `padding-left: ${columns.gap}px;`
+		}
+
+		if (module.exports.validInteger('vertical_gap', columns)) {
+			columnData.left += `padding-bottom: ${columns.vertical_gap}px;`
+			columnData.right += `padding-top: ${columns.vertical_gap}px;`
+		}
+
+		return columnData;
 	}
 };

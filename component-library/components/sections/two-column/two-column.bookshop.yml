@@ -15,10 +15,34 @@ blueprint:
     right:
       blocks:
   styles:
-    type: split
-    width: 0
-    vertically_center: false
-    gap: 0
+    desktop:
+      columns:
+        type: split
+        width: 0
+        gap: 0
+        vertical_gap: 0
+      vertical_block_alignment: 
+        v_align: top
+    tablet:
+      columns:
+        active: false
+        type: split
+        width: 0
+        gap: 0
+        vertical_gap: 0
+      vertical_block_alignment:
+        active: false
+        v_align: top
+    mobile:
+      columns:
+        active: false
+        type: split
+        width: 0
+        gap: 0
+        vertical_gap: 0
+      vertical_block_alignment:
+        active: false
+        v_align: top
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

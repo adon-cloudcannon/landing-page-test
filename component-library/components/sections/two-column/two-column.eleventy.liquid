@@ -1,63 +1,68 @@
-{% assign left-c = "" %}
-{% assign right-c = "" %}
-{% assign left-s = "" %}
-{% assign right-s = "" %}
 
-{% case styles.type %}
-{% when "fixed-fluid" %}
-	{% if styles.width %}
-		{% assign width = styles.width %}
-	{% else %}
-		{% assign width = 500 %}
-	{% endif %}
-	{% assign left-s = left-s | append: " width:" | append: width | append: "px;" %}
-	{% assign right-c = right-c | append: " relative flex-1" %}
+{% assign classes = "" %}
 
-{% when "fluid-fixed" %}
-	{% if styles.width %}
-		{% assign width = styles.width %}
-	{% else %}
-		{% assign width = 500 %}
-	{% endif %}
-	{% assign right-s = right-s | append: " width:" | append: width | append: "px;" %}
-	{% assign left-c = left-c | append: " relative flex-1" %}
-{% else %}
-	{% assign left-c = left-c | append: " w-1/2" %}
-	{% assign right-c = right-c | append:  " w-1/2" %}
-{% endcase %}
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
 
-{% if styles.vertically_center %}
-	{% assign flex_center = " flex-col justify-center flex" %}
-	{% assign left-c = left-c | append: flex_center %}
-	{% assign right-c = right-c | append: flex_center %}
-{% endif %}
+{% assign classes = "" %}
 
-{% if styles.gap %}
-	{% assign left-s = left-s | append: " margin-right: " | append: styles.gap | append: "px;" %}
-	{% assign right-s = right-s | append: " margin-left: " | append: styles.gap | append: "px;" %}
-{% endif %}
+{% assign column_desktop_styles = "" | render_columns: styles, 'desktop' %}
+{% assign column_tablet_styles = "" | render_columns: styles, 'tablet' %}
+{% assign column_mobile_styles = "" | render_columns: styles, 'mobile' %}
 
-{% assign left-class = "left" | UUID %}
-{% assign right-class = "right" | UUID %}
+
+
+
+{% assign left_container_name = "left-column" | UUID %}
+{% assign right_container_name = "right-column" | UUID %}
+
 <style>
 	@media (min-width: 1280px) {
-		.{{ left-class}} {
-			{{ left-s }}
+		.{{ left_container_name}} {
+			{{ column_desktop_styles.left | render_vertical_block_alignment: styles, 'desktop' }}
 		}
+	}
 
-		.{{ right-class}} {
-			{{ right-s }}
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ left_container_name}} {
+			{{ column_tablet_styles.left | render_vertical_block_alignment: styles, 'tablet' }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ left_container_name}} {
+			{{ column_mobile_styles.left | render_vertical_block_alignment: styles, 'mobile' }}
+		}
+	}
+
+	@media (min-width: 1280px) {
+		.{{ right_container_name}} {
+			{{ column_desktop_styles.right | render_vertical_block_alignment: styles, 'desktop' }}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ right_container_name}} {
+			{{ column_tablet_styles.right | render_vertical_block_alignment: styles, 'tablet' }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ right_container_name}} {
+			{{ column_mobile_styles.right | render_vertical_block_alignment: styles, 'mobile' }}
 		}
 	}
 </style>
-<div class="xl:flex relative">
-	<div class="{{ left-c }} {{ left-class}}">
+
+<div class="flex relative flex-wrap">
+	<div class="{{ left_container_name }}">
 		{% for component in content.left.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}
 	</div>
 
-	<div class="{{ right-c }} {{ right-class}}">
+	<div class="{{ right_container_name }}">
 		{% for component in content.right.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}

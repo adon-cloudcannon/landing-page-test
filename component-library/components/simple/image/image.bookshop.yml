@@ -13,26 +13,74 @@ blueprint:
     alt: 
     image:
   styles:
-    transform:
-      scale: 1
-      translate_x: 0
-      translate_y: 0
-      rotate: 0
-      skew: 0
-    ontop:
-    center:
-    rounded:
     border:
-    margin:
-      top:
-      left:
-      bottom:
-      right:
-    position:
-      top:
-      left:
-      bottom:
-      right:
+    rounded:
+    ontop:
+    desktop:
+      transform:
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
+      block_alignment:
+        align_block: left
+      margin:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      position:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+    tablet:
+      transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
+      block_alignment:
+        active: false
+        align_block: left
+      margin:
+        active: false
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      position:
+        active: false
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+    mobile:
+      transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
+      block_alignment:
+        active: false
+        align_block: left
+      margin:
+        active: false
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      position:
+        active: false
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -72,9 +120,8 @@ _inputs:
   ontop:
     comment: Situational usage. If the image is for some reason behind another element, this should bring it to the front.
     type: switch
-  center:
-    comment: Centers the image inside its parent
-    type: switch
+  block_alignment:
+    comment: Align component within its parent
   rounded:
     comment: Rounds the corners of the image
     type: switch

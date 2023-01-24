@@ -57,7 +57,7 @@ content_blocks:
                 top: 0
                 bottom: 0
               block_alignment:
-                align_block:
+                align_block: center
             tablet:
               text_alignment:
                 active: false
@@ -92,26 +92,74 @@ content_blocks:
             alt: Editing a page on CloudCannon
             image: /images/page/marketer-hero.png
           styles:
-            transform:
-              scale: 1
-              translate_x: 0
-              translate_y: 0
-              rotate: 0
-              skew: 0
-            ontop: true
-            center: true
-            rounded:
             border:
-            margin:
-              top: '70'
-              left:
-              bottom:
-              right:
-            position:
-              top:
-              left:
-              bottom:
-              right:
+            rounded:
+            ontop:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 70
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
     styles:
       background: white
       rounded: none
@@ -197,26 +245,74 @@ content_blocks:
                     alt: The visual editor in CloudCannon
                     image: /images/page/visual-editing.png
                   styles:
-                    transform:
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
+                    border:
+                    rounded:
                     ontop:
-                    center:
-                    rounded: true
-                    border: false
-                    margin:
-                      top:
-                      left:
-                      bottom:
-                      right:
-                    position:
-                      top:
-                      left:
-                      bottom:
-                      right:
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
             right:
               blocks:
                 - _bookshop_name: simple/heading
@@ -302,11 +398,31 @@ content_blocks:
                         align_block: left
                     width: full
           styles:
-            type: split
-            width:
-            split_border: false
-            vertically_center: true
-            gap: 20
+            desktop:
+              columns:
+                type: split
+                width: 0
+                gap: 20
+              vertical_block_alignment: 
+                v_align: center
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
     styles:
       background: caramel
       rounded: top
@@ -446,32 +562,100 @@ content_blocks:
                     alt: Editor updating front matter on CloudCannon
                     image: /images/page/marketer-review.png
                   styles:
-                    transform:
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                    ontop:
-                    center:
-                    rounded:
                     border:
-                    margin:
-                      top:
-                      left:
-                      bottom:
-                      right:
-                    position:
-                      top: '50'
-                      left:
-                      bottom:
-                      right:
+                    rounded:
+                    ontop:
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
-            type: split
-            width: 0
-            split_border:
-            vertically_center: true
-            gap: 0
+            desktop:
+              columns:
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment: 
+                v_align: top
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
     styles:
       background: white
       rounded: top
@@ -527,26 +711,74 @@ content_blocks:
                     alt:
                     image: /images/page/marketer-publish.png
                   styles:
-                    transform:
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                    ontop:
-                    center:
-                    rounded:
                     border:
-                    margin:
-                      top:
-                      left:
-                      bottom:
-                      right:
-                    position:
-                      top:
-                      left:
-                      bottom:
-                      right:
+                    rounded:
+                    ontop:
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
             right:
               blocks:
                 - _bookshop_name: simple/heading
@@ -632,11 +864,31 @@ content_blocks:
                         align_block: left
                     width: full
           styles:
-            type: split
-            width: 0
-            split_border:
-            vertically_center: true
-            gap: 20
+            desktop:
+              columns:
+                type: split
+                width: 0
+                gap: 20
+              vertical_block_alignment: 
+                v_align: center
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
     styles:
       background: sky
       rounded: top
@@ -724,26 +976,74 @@ content_blocks:
             alt: Version control workflow for a marketer
             image: /images/page/marketer-version-control.png
           styles:
-            transform:
-              scale: 1
-              translate_x: 0
-              translate_y: 0
-              rotate: 0
-              skew: 0
-            ontop:
-            center:
-            rounded:
             border:
-            margin:
-              top:
-              left:
-              bottom:
-              right:
-            position:
-              top:
-              left:
-              bottom:
-              right:
+            rounded:
+            ontop:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
@@ -850,26 +1150,74 @@ content_blocks:
                     alt: Website builder example
                     image: /images/page/marketer-builder.png
                   styles:
-                    transform:
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                    ontop:
-                    center:
-                    rounded:
                     border:
-                    margin:
-                      top:
-                      left:
-                      bottom:
-                      right:
-                    position:
-                      top: '20'
-                      left:
-                      bottom:
-                      right:
+                    rounded:
+                    ontop:
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 20
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
             right:
               blocks:
                 - _bookshop_name: simple/heading
@@ -958,11 +1306,31 @@ content_blocks:
                         align_block: left
                     width: full
           styles:
-            type:
-            width:
-            split_border:
-            vertically_center: true
-            gap: 20
+            desktop:
+              columns:
+                type: split
+                width: 0
+                gap: 20
+              vertical_block_alignment: 
+                v_align: center
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
         - _bookshop_name: simple/heading
           content:
             text: Optimized for performance, SEO & Social
@@ -1163,11 +1531,31 @@ content_blocks:
                             bottom: 0
                           style: black
                 styles:
-                  type: split
-                  width: 0
-                  split_border: false
-                  vertically_center: true
-                  gap: 20
+                  desktop:
+                    columns:
+                      type: split
+                      width: 0
+                      gap: 20
+                    vertical_block_alignment: 
+                      v_align: center
+                  tablet:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+                  mobile:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
           styles:
             background: night
             rounded: full

@@ -1,5 +1,4 @@
-{% assign classes = "prose prose-lg prose-ul:list-outside prose-li:font-medium prose-p:font-medium prose-li:marker:text-black mx-auto " %}
-{% assign css_styles = " " %}
+{% assign classes = "prose prose-lg prose-ul:list-outside prose-li:font-medium prose-p:font-medium prose-li:marker:text-black " %}
 
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
@@ -17,9 +16,9 @@
 {% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
-{% if styles.center_block %}
-	{% assign classes = classes | append: " mx-auto" %}
-{% endif %}
+{% assign desktop_styles = desktop_styles | render_block_alignment: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_block_alignment: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_block_alignment: styles, 'mobile' %}
 
 {% case styles.width %}
 {% when "medium" %}
@@ -29,7 +28,6 @@
 {% else %}
 	{% assign classes = classes | append: " max-w-none" %}
 {% endcase %}
-
 
 {% assign container_name = "text-block" | UUID %}
 <style>
@@ -51,6 +49,6 @@
 		}
 	}
 </style>
-<div class="{{ classes }} {{ container_name }}" style="{{ css_styles }} color: inherit;">
+<div class="{{ classes }} {{ container_name }}" style="color: inherit;">
 	{{ content.text_markdown | markdownify }}
 </div>

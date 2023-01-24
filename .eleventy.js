@@ -68,6 +68,11 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("render_text_block_text_size", StyleRenderer.render_text_block_text_size);
 	eleventyConfig.addFilter("render_justify", StyleRenderer.render_justify);
 	eleventyConfig.addFilter("render_spacer", StyleRenderer.render_spacer);
+	eleventyConfig.addFilter("render_block_alignment", StyleRenderer.render_block_alignment);
+	eleventyConfig.addFilter("render_visibility", StyleRenderer.render_visibility);
+	eleventyConfig.addFilter("render_columns", StyleRenderer.render_columns);
+	eleventyConfig.addFilter("render_vertical_block_alignment", StyleRenderer.render_vertical_block_alignment);
+	
 	eleventyConfig.addFilter("image_resize", ImageRenderer.image_resize);
 
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
