@@ -1,5 +1,15 @@
-<div class="c-announcement-banner bg-cc">
-    <div class="c-announcement-banner__content container flex justify-center text-center	text-white py-2 [&_a]:font-bold [&_a]:underline [&_img]:max-h-5 [&_img]:w-auto [&_img]:align-middle">
-        {{ announcement_banner.announcement_banner_content | markdownify }}
+<div class="c-announcement-banner bg-cc" x-data="{ announcementBannerOpen: true }">
+    <div class="c-announcement-banner__container container flex" x-show="announcementBannerOpen">
+        <div class="c-announcement-banner__container__content flex justify-center text-center w-full	text-white py-2 [&_a]:font-bold [&_a]:underline [&_img]:max-h-5 [&_img]:w-auto [&_img]:align-middle">
+            {{ announcement_banner.announcement_banner_content | markdownify }}
+        </div>
+        <button x-on:click="announcementBannerOpen = !announcementBannerOpen">
+            <div class="flex items-center">
+                <div class="h-[12px] m-2 w-3 relative flex items-center">
+                    <span class="block absolute h-[2px] w-full bg-white rounded-lg left-0 rotate-45"></span>
+                    <span class="block absolute h-[2px] w-full bg-white rounded-lg left-0 -rotate-45"></span>
+                </div> 	
+            </div>
+        </button>
     </div>
 </div>
