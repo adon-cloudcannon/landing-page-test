@@ -12,16 +12,43 @@ blueprint:
   content:
     case_studies: []
   styles:
-    margin:
-      top: 0
-      right: 0
-      bottom: 0
-      left: 0
-    padding:
-      top: 0
-      right: 0
-      bottom: 0
-      left: 0
+    desktop:
+      margin:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+    tablet:
+      margin:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+    mobile:
+      margin:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

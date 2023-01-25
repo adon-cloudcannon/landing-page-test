@@ -13,8 +13,11 @@ blueprint:
     alt:
     image:
   styles:
-    logo:
-      transform:
+    shape: rectangle
+    desktop:
+      visibility:
+        hide: false
+      logo_transform:
         scale: 1
         translate_x: 0
         translate_y: 0
@@ -30,18 +33,89 @@ blueprint:
         right: 0
         bottom: 0
         left: 0
-    shape: rectangle
-    position:
-      top:
-      left:
-      bottom:
-      right:
-    transform:
-      scale: 1
-      translate_x: 0
-      translate_y: 0
-      rotate: 0
-      skew: 0
+      position:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      transform:
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
+    tablet:
+      visibility:
+        active: false
+        hide: false
+      logo_transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
+      margin:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      position:
+        active: false
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
+    mobile:
+      visibility:
+        active: false
+        hide: false
+      logo_transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
+      margin:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      padding:
+        active: false
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+      position:
+        active: false
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

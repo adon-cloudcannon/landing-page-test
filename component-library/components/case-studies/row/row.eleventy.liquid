@@ -1,42 +1,38 @@
-{% assign css_styles = "" %}
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
 
-{% if styles.margin %}
-	{% if styles.margin.top %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
-	{% endif %}
+{% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
-	{% if styles.margin.left %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: styles.margin.left | append: "px;" %}
-	{% endif %}
+{% assign desktop_styles = desktop_styles | render_padding: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_padding: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_padding: styles, 'mobile' %}
 
-	{% if styles.margin.right %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: styles.margin.right | append: "px;" %}
-	{% endif %}
+{% assign container_name = "case-study-row" | UUID %}
 
-	{% if styles.margin.bottom %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
+<style>
+	@media (min-width: 1280px) {
+		.{{ container_name}} {
+			{{ desktop_styles }}
+		}
+	}
 
-{% if styles.padding %}
-	{% if styles.padding.top %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-top:" | append: styles.padding.top | append: "px;" %}
-	{% endif %}
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ container_name}} {
+			{{ tablet_styles }}
+		}
+	}
 
-	{% if styles.padding.left %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-left:" | append: styles.padding.left | append: "px;" %}
-	{% endif %}
+	@media (max-width: 767px) {
+		.{{ container_name}} {
+			{{ mobile_styles }}
+		}
+	}
+</style>
 
-	{% if styles.padding.right %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-right:" | append: styles.padding.right | append: "px;" %}
-	{% endif %}
-
-	{% if styles.padding.bottom %}
-		{% assign css_styles = css_styles | append: " " | append: "padding-bottom:" | append: styles.padding.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
-
-<div style="{{ css_styles }}">
+<div class="{{ container_name }}">
 	<div class="grid md:grid-cols-2 lg:grid-cols-3 [&>a]:mb-4 max-md:[&>a]:mx-auto md:[&>a]:mx-2 -md:mx-2">
 		{% for uuid in content.case_studies %}
 			{% assign case_study = collections.case-studies | where: "data.uuid", uuid | first %}

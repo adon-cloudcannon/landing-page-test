@@ -159,10 +159,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 40
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -290,8 +290,8 @@ content_blocks:
                 size: 0
             mobile:
               space:
-                active: false
-                size: 0
+                active: true
+                size: -117px
         - _bookshop_name: simple/spacer
           content:
             title:
@@ -305,8 +305,8 @@ content_blocks:
                 size: 0
             mobile:
               space:
-                active: false
-                size: 0
+                active: true
+                size: 60
         - _bookshop_name: simple/logo-ticker
           content:
             logo_blocks:
@@ -691,10 +691,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
+          active: true
           top: 0
           right: 0
-          bottom: 0
+          bottom: 80
           left: 0
       size: normal
       align:
@@ -795,17 +795,71 @@ content_blocks:
                     autoplay: true
                     loop: true
                   styles:
-                    transform:
-                      scale: 1.05
-                      translate_x: 85
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                    margin:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
+                    desktop:
+                      transform:
+                        scale: 1.05
+                        translate_x: 85
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 20
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: true
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: true
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
               columns:
@@ -830,8 +884,8 @@ content_blocks:
                 active: true
                 type: stacked
                 width: 0
-                gap: 10
-                vertical_gap: 10
+                gap: 0
+                vertical_gap: 20
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -845,9 +899,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 200
+          top: 120
           right: 0
-          bottom: 100
+          bottom: 180
           left: 0
       tablet:
         margin:
@@ -870,10 +924,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 70
           right: 0
-          bottom: 0
+          bottom: 120
           left: 0
       size: normal
       align: none
@@ -897,7 +951,7 @@ content_blocks:
                       size: 0
                   mobile:
                     space:
-                      active: false
+                      active: true
                       size: 0
               - _bookshop_name: simple/emoji-heading
                 content:
@@ -996,9 +1050,12 @@ content_blocks:
                   alt: Hugo
                   image: /images/logos/ssgs/hugo.svg
                 styles:
-                  logo:
-                    transform:
-                      scale: 0.85
+                  shape: rectangle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
+                      scale: .85
                       translate_x: 0
                       translate_y: 0
                       rotate: 0
@@ -1013,25 +1070,99 @@ content_blocks:
                       right: 20
                       bottom: 20
                       left: 20
-                  shape: rectangle
-                  position:
-                    top: 1
-                    left: 28
-                    bottom:
-                    right:
-                  transform:
-                    scale: 1
-                    translate_x: 28
-                    translate_y: 20
-                    rotate: -9
-                    skew: 0
+                    position:
+                      top: 1
+                      left: 28
+                      bottom: 0
+                      right: 0
+                    transform:
+                      scale: 1
+                      translate_x: 28
+                      translate_y: 20
+                      rotate: -9
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .75
+                      translate_x: 28
+                      translate_y: 20
+                      rotate: -9
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Jekyll
                   image: /images/logos/ssgs/jekyll.svg
                 styles:
-                  logo:
-                    transform:
+                  shape: rectangle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
                       scale: 1.01
                       translate_x: 0
                       translate_y: 0
@@ -1047,26 +1178,100 @@ content_blocks:
                       right: 20
                       bottom: 15
                       left: 20
-                  shape: rectangle
-                  position:
-                    top: 10
-                    left: 5
-                    bottom:
-                    right:
-                  transform:
-                    scale: 1
-                    translate_x: 16
-                    translate_y: 28
-                    rotate: 5
-                    skew: 0
+                    position:
+                      top: 10
+                      left: 5
+                      bottom:
+                      right:
+                    transform:
+                      scale: 1
+                      translate_x: 16
+                      translate_y: 28
+                      rotate: 5
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .75
+                      translate_x: 16
+                      translate_y: 28
+                      rotate: 5
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Gatsby
                   image: /images/logos/ssgs/gatsby.svg
                 styles:
-                  logo:
-                    transform:
-                      scale: 0.85
+                  shape: rectangle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
+                      scale: .85
                       translate_x: 0
                       translate_y: 0
                       rotate: 0
@@ -1081,25 +1286,99 @@ content_blocks:
                       right: 20
                       bottom: 20
                       left: 20
-                  shape: rectangle
-                  position:
-                    top: 5
-                    left:
-                    bottom:
-                    right: 21
-                  transform:
-                    scale: 1
-                    translate_x: -25
-                    translate_y: 17
-                    rotate: 15
-                    skew: 0
+                    position:
+                      top: 5
+                      left:
+                      bottom:
+                      right: 18
+                    transform:
+                      scale: 1
+                      translate_x: -25
+                      translate_y: 17
+                      rotate: 15
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .75
+                      translate_x: -25
+                      translate_y: 17
+                      rotate: 15
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Eleventy
                   image: /images/logos/ssgs/eleventy.svg
                 styles:
-                  logo:
-                    transform:
+                  shape: circle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
                       scale: 1
                       translate_x: 0
                       translate_y: 0
@@ -1115,26 +1394,100 @@ content_blocks:
                       right: 20
                       bottom: 20
                       left: 20
-                  shape: circle
-                  position:
-                    top: 35
-                    left: 0
-                    bottom:
-                    right:
-                  transform:
-                    scale: 1
-                    translate_x: 23
-                    translate_y: 27
-                    rotate: -15
-                    skew: 0
+                    position:
+                      top: 35
+                      left: 0
+                      bottom:
+                      right:
+                    transform:
+                      scale: 1
+                      translate_x: 23
+                      translate_y: 27
+                      rotate: -15
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .75
+                      translate_x: 23
+                      translate_y: 27
+                      rotate: -15
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Nuxt
                   image: /images/logos/ssgs/nuxt.svg
                 styles:
-                  logo:
-                    transform:
-                      scale: 0.9
+                  shape: circle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
+                      scale: .9
                       translate_x: 0
                       translate_y: 0
                       rotate: 0
@@ -1149,26 +1502,100 @@ content_blocks:
                       right: 25
                       bottom: 25
                       left: 25
-                  shape: circle
-                  position:
-                    top: 25
-                    left:
-                    bottom:
-                    right: 0
-                  transform:
-                    scale: 1
-                    translate_x: -30
-                    translate_y: 14
-                    rotate: 19
-                    skew: 0
+                    position:
+                      top: 25
+                      left:
+                      bottom:
+                      right: 1
+                    transform:
+                      scale: .85
+                      translate_x: -30
+                      translate_y: 14
+                      rotate: 19
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .7
+                      translate_x: -30
+                      translate_y: 14
+                      rotate: 19
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Svelte
                   image: /images/logos/ssgs/svelte.svg
                 styles:
-                  logo:
-                    transform:
-                      scale: 0.1
+                  shape: circle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
+                      scale: .1
                       translate_x: 200
                       translate_y: 0
                       rotate: 0
@@ -1183,27 +1610,101 @@ content_blocks:
                       right: 25
                       bottom: 25
                       left: 25
-                  shape: circle
-                  position:
-                    top: 70
-                    left:
-                    bottom:
-                    right: 0
-                  transform:
-                    scale: 1
-                    translate_x: -17
-                    translate_y: -25
-                    rotate: 0
-                    skew: 0
+                    position:
+                      top: 70
+                      left:
+                      bottom:
+                      right: 1
+                    transform:
+                      scale: .85
+                      translate_x: -17
+                      translate_y: -25
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .7
+                      translate_x: -17
+                      translate_y: -25
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Mkdocs
                   image: /images/logos/ssgs/mkdocs.svg
                 styles:
-                  logo:
-                    transform:
-                      scale: 0.6
-                      translate_x: 0
+                  shape: rectangle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
+                      scale: .6
+                      translate_x: 200
                       translate_y: 0
                       rotate: 0
                       skew: 0
@@ -1217,27 +1718,101 @@ content_blocks:
                       right: 17
                       bottom: 24
                       left: 17
-                  shape: rectangle
-                  position:
-                    top:
-                    left: 7
-                    bottom: 2
-                    right:
-                  transform:
-                    scale: 1
-                    translate_x: 21
-                    translate_y: -30
-                    rotate: 4
-                    skew: 0
+                    position:
+                      top:
+                      left: 7
+                      bottom: 2
+                      right:
+                    transform:
+                      scale: .85
+                      translate_x: 21
+                      translate_y: -30
+                      rotate: 4
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .7
+                      translate_x: 21
+                      translate_y: -30
+                      rotate: 4
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Next.js
                   image: /images/logos/ssgs/nextjs.svg
                 styles:
-                  logo:
-                    transform:
-                      scale: 0.9
-                      translate_x: 0
+                  shape: rectangle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
+                      scale: .9
+                      translate_x: 200
                       translate_y: 0
                       rotate: 0
                       skew: 0
@@ -1251,27 +1826,101 @@ content_blocks:
                       right: 20
                       bottom: 10
                       left: 20
-                  shape: rectangle
-                  position:
-                    top:
-                    left:
-                    bottom: 0
-                    right: 46
-                  transform:
-                    scale: 1
-                    translate_x: -15
-                    translate_y: -30
-                    rotate: 354
-                    skew: 0
+                    position:
+                      top:
+                      left:
+                      bottom: 1
+                      right: 46
+                    transform:
+                      scale: 1
+                      translate_x: -15
+                      translate_y: -30
+                      rotate: 354
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .8
+                      translate_x: -15
+                      translate_y: -30
+                      rotate: 354
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
               - _bookshop_name: simple/logo-shape
                 content:
                   alt: Astro
                   image: /images/logos/ssgs/astro.svg
                 styles:
-                  logo:
-                    transform:
-                      scale: 0.7
-                      translate_x: 0
+                  shape: rectangle
+                  desktop:
+                    visibility:
+                      hide: false
+                    logo_transform:
+                      scale: .9
+                      translate_x: 200
                       translate_y: 0
                       rotate: 0
                       skew: 0
@@ -1281,22 +1930,92 @@ content_blocks:
                       bottom: 0
                       left: 0
                     padding:
+                      top: 10
+                      right: 20
+                      bottom: 10
+                      left: 20
+                    position:
+                      top:
+                      left:
+                      bottom: 0
+                      right: 16
+                    transform:
+                      scale: 0.8
+                      translate_x: -32
+                      translate_y: -20
+                      rotate: 18
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: false
+                    logo_transform:
+                      active: false
+                      scale: .7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
                       top: 18
                       right: 20
                       bottom: 15
                       left: 20
-                  shape: rectangle
-                  position:
-                    top:
-                    left:
-                    bottom: 0
-                    right: 16
-                  transform:
-                    scale: 1
-                    translate_x: -32
-                    translate_y: -20
-                    rotate: 18
-                    skew: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: true
+                      scale: .65
+                      translate_x: -32
+                      translate_y: -20
+                      rotate: 18
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: true
+                      hide: true
+                    logo_transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    margin:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    padding:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
           styles:
             desktop:
               margin:
@@ -1370,10 +2089,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 70
           left: 0
       size: normal
       align: none
@@ -1417,16 +2136,43 @@ content_blocks:
               - ff183750-7745-11ed-a1eb-0242ac120002
               - f3762772-7745-11ed-a1eb-0242ac120002
           styles:
-            margin:
-              top: 0
-              right: 0
-              bottom: 0
-              left: 0
-            padding:
-              top: 0
-              right: 0
-              bottom: 0
-              left: 0
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: ash
       rounded: top
@@ -1449,10 +2195,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 70
           right: 0
-          bottom: 0
+          bottom: 120
           left: 0
       mobile:
         margin:
@@ -1618,14 +2364,14 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 100
           right: 0
-          bottom: 0
+          bottom: 100
           left: 0
       mobile:
         margin:
-          active: false
+          active: true
           top: 0
           right: 0
           bottom: 0
