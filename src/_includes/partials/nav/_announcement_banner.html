@@ -1,4 +1,4 @@
-<div class="c-announcement-banner bg-cc" x-data="{ announcementBannerOpen: true }">
+<div class="c-announcement-banner bg-cc" x-data="{ announcementBannerOpen: $persist(true).using(sessionStorage) }">
     <div class="c-announcement-banner__container container flex" x-show="announcementBannerOpen">
         <div class="c-announcement-banner__container__content flex justify-center text-center w-full	text-white py-2 [&_a]:font-bold [&_a]:underline [&_img]:max-h-5 [&_img]:w-auto [&_img]:align-middle">
             {{ announcement_banner.announcement_banner_content | markdownify }}
