@@ -100,12 +100,13 @@
 			</div>
 		</a>
 		{% if content.placeholder_image contains 'res.cloudinary.com' %}
+			{% assign dimensions = content.placeholder_image | image_dimensions %}
 			<picture class="w-full">
 				<source media="(min-width: 1280px)" srcset="{{ content.placeholder_image | image_resize: '2432' }} 2x, {{ content.placeholder_image | image_resize: '1216' }} 1x">
 				<source media="(min-width: 1000px)" srcset="{{ content.placeholder_image | image_resize: '2000' }} 2x, {{ content.placeholder_image | image_resize: '1000' }} 1x">
 				<source media="(min-width: 740px)" srcset="{{ content.placeholder_image | image_resize: '1480' }} 2x, {{ content.placeholder_image | image_resize: '740' }} 1x">
 				<source media="(min-width: 500px)" srcset="{{ content.placeholder_image | image_resize: '1000' }} 2x, {{ content.placeholder_image | image_resize: '500' }} 1x">
-				<img src="{{ content.placeholder_image | image_resize: '500' }}" alt="{{ content.title }}" class="w-full">
+				<img src="{{ content.placeholder_image | image_resize: '500' }}" {{ dimensions }} alt="{{ content.title }}" class="w-full">
 			</picture>
 		{% else %}
 			<img src="{{ content.placeholder_image }}" alt="{{ content.title }}" class="w-full">

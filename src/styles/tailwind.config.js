@@ -27,6 +27,7 @@ module.exports = {
 				cc: '#034AD8',
 				cc_hover: '#123da6',
 				caramel: '#fdf6db',
+				sea: '#B9E5E3',
 				sky: '#b4e7f7',
 				ash: '#f7f5f2',
 				night: '#2B2B31',

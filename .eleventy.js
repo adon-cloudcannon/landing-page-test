@@ -19,6 +19,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("component-library/");
 	eleventyConfig.addWatchTarget('src/styles/tailwind.config.js');
 	eleventyConfig.addWatchTarget('src/styles/tailwind.css');
+	
 
 	eleventyConfig.setLibrary("md", markdownIt({ 
 		html: true
@@ -76,6 +77,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("render_vertical_block_alignment", StyleRenderer.render_vertical_block_alignment);
 	
 	eleventyConfig.addFilter("image_resize", ImageRenderer.image_resize);
+
+	eleventyConfig.addFilter("image_dimensions", ImageRenderer.image_dimensions);
 
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
 		return collection.filter(post => {

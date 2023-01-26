@@ -1,20 +1,29 @@
 {% assign classes = "" %}
+
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
 {% assign mobile_styles = "" %}
+
+{% assign image_desktop_styles = "" %}
+{% assign image_tablet_styles = "" %}
+{% assign image_mobile_styles = "" %}
 
 {% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
 {% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
-{% assign desktop_styles = desktop_styles | render_padding: styles, 'desktop' %}
-{% assign tablet_styles = tablet_styles | render_padding: styles, 'tablet' %}
-{% assign mobile_styles = mobile_styles | render_padding: styles, 'mobile' %}
+{% assign desktop_styles = desktop_styles | render_block_alignment: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_block_alignment: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_block_alignment: styles, 'mobile' %}
+
+{% assign image_desktop_styles = image_desktop_styles | render_transform: styles, 'desktop' %}
+{% assign image_desktop_styles = image_desktop_styles | render_transform: styles, 'tablet' %}
+{% assign image_desktop_styles = image_desktop_styles | render_transform: styles, 'mobile' %}
 
 {% case styles.background %}
 	{% when 'caramel' %}
 		{% assign classes = classes | append: " bg-caramel [&_p_a]:text-cc" %}
-		{% when 'sky' %}
+	{% when 'sky' %}
 		{% assign classes = classes | append: " bg-sky [&_p_a]:text-cc" %}
 	{% when 'sea' %}
 		{% assign classes = classes | append: " bg-sea [&_p_a]:text-cc" %}
@@ -28,28 +37,8 @@
 		{% assign classes = classes | append: " bg-white [&_p_a]:text-cc" %}
 {% endcase %}
 
-{% case styles.rounded %}
-	{% when 'top' %}
-		{% assign classes = classes | append: " rounded-t-[40px]" %}
-		{% assign mt = " margin-top:-40px;" %}
-		{% assign desktop_styles = desktop_styles | append: mt %}
-		{% assign tablet_styles = tablet_styles | append: mt %}
-		{% assign mobile_styles = mobile_styles | append: mt %}
-	{% when 'full' %}
-		{% assign classes = classes | append: " rounded-[20px]" %}
-{% endcase %}
+{% assign container_name = "quote" | UUID %}
 
-{% case styles.size %}
-{% when 'small' %}
-	{% assign classes = classes | append: " max-w-[1000px] mx-auto" %}
-
-	{% assign mx = " margin-left:auto; margin-right:auto;" %}
-	{% assign desktop_styles = desktop_styles | append: mx %}
-	{% assign tablet_styles = tablet_styles | append: mx %}
-	{% assign mobile_styles = mobile_styles | append: mx %}
-{% endcase %}
-
-{% assign container_name = "container" | UUID %}
 <style>
 	@media (min-width: 1280px) {
 		.{{ container_name}} {
@@ -70,10 +59,17 @@
 	}
 </style>
 
-<div class="{{ classes }} relative {{ container_name }}">
-		<div class="container relative">
-	{% for component in content.blocks %}
-		{% bookshop "{{component._bookshop_name}}" bind: component %}
-	{% endfor %}
+<div class="flex {{ classes }} {{ container_name }} rounded-2xl max-w-4xl">
+	<div class="w-[400px] px-5 relative hidden md:block">
+		<img src="{{ content.image }}" alt="{{ content.name }}" class="absolute bottom-0 max-h-[345px]">
+	</div>
+	<div class="flex-1 px-5 py-10">
+		<img src="{{ content.logo }}" alt="{{ content.company }}" width="150">
+		<blockquote class="text-2xl my-8 font-bold">
+			{{ content.quote }}
+		</blockquote>
+
+		<div class="text-2xl font-bold">{{ content.name }}</div>
+		<div>{{ content.position }}</div>
 	</div>
 </div>
