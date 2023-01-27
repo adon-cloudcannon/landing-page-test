@@ -60,6 +60,7 @@ _inputs:
         - split
         - fixed-fluid
         - fluid-fixed
+        - stacked
   width:
     comment: "for a 'fixed' type, the width of the fixed column"
     type: number
