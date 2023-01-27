@@ -1,5 +1,5 @@
 
-{% assign classes = " leading-tight" %}
+{% assign classes = "" %}
 
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
@@ -53,6 +53,6 @@
 	}
 </style>
 
-<{{ el }} class="{{ classes }} {{ container_name }} font-bold">
+<{{ el }} class="leading-tight {{ classes }} {{ container_name }} font-bold">
 	{{ content.text }}
 </{{ el }}>

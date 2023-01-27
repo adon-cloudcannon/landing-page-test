@@ -26,6 +26,10 @@ a {
 	font-display: swap;
 }
 
+html {
+	@apply text-gray-900;
+}
+
 .caret::before {
 	z-index: 1;
 	content: "";

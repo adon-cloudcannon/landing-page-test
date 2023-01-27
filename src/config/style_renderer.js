@@ -95,6 +95,32 @@ module.exports = {
 		return styles;
 	},
 
+	render_position_percentage: function(styles, fm, device) {
+		let position = module.exports.get_data(fm, device, 'position');
+
+		if (position === undefined) {
+			return styles;
+		}
+
+		if (module.exports.validInteger('top', position) && position.top != 0) {
+				styles += `top: ${position.top}%;`
+		} 
+
+		if (module.exports.validInteger('right', position) && position.right != 0) {
+			styles += `right: ${position.right}%;`
+		} 
+
+		if (module.exports.validInteger('bottom', position) && position.bottom != 0) {
+			styles += `bottom: ${position.bottom}%;`
+		} 
+		
+		if (module.exports.validInteger('left', position) && position.left != 0) {
+			styles += `left: ${position.left}%;`
+		}
+
+		return styles;
+	},
+
 	render_heading_text_size: function(styles, fm, device) {
 		let sizing = module.exports.get_data(fm, device, 'text_sizing');
 
@@ -214,7 +240,39 @@ module.exports = {
 
 		let transformations = '';
 
-		if (module.exports.validInteger('scale', transform)) {
+		if ('scale' in transform) {
+			transformations += `scale(${transform.scale}) `;
+		} 
+
+		if (module.exports.validInteger('translate_x', transform)) {
+			transformations += `translateX(${transform.translate_x}px) `;
+		}
+
+		if (module.exports.validInteger('translate_y', transform)) {
+			transformations += `translateY(${transform.translate_y}px) `;
+		} 
+
+		if (module.exports.validInteger('rotate', transform)) {
+			transformations += `rotate(${transform.rotate}deg) `;
+		} 
+
+		if (module.exports.validInteger('skew', transform)) {
+			transformations += `skew(${transform.skew}deg) `;
+		} 
+
+		return styles + `transform: ${transformations};`
+	},
+
+	render_logo_transform: function(styles, fm, device) {
+		let transform = module.exports.get_data(fm, device, 'logo_transform');
+
+		if (transform === undefined) {
+			return styles;
+		}
+
+		let transformations = '';
+
+		if ('scale' in transform) {
 			transformations += `scale(${transform.scale}) `;
 		} 
 
@@ -251,5 +309,95 @@ module.exports = {
 		}
 
 		return styles;
+	},
+
+	render_block_alignment: function(styles, fm, device) {
+		let alignment = module.exports.get_data(fm, device, 'block_alignment');
+
+		if (alignment === undefined) {
+			return styles;
+		}
+
+		switch(alignment.align_block) {
+			case 'center':
+				styles += `margin-left: auto; margin-right: auto;`
+				break;
+		}
+
+		return styles;
+	},
+
+	render_vertical_block_alignment: function(styles, fm, device) {
+		let alignment = module.exports.get_data(fm, device, 'vertical_block_alignment');
+
+		if (alignment === undefined) {
+			return styles;
+		}
+
+		switch(alignment.v_align) {
+			case 'center':
+				styles += `display:flex;justify-content: center;flex-direction:column;`
+				break;
+		}
+
+		return styles;
+	},
+
+	render_visibility: function(styles, fm, device) {
+		let visibility = module.exports.get_data(fm, device, 'visibility');
+
+		if (visibility === undefined) {
+			return styles;
+		}
+
+		if (visibility.hide) {
+			styles += 'display: none;';
+		}
+
+		return styles;
+	},
+
+	render_columns: function(styles, fm, device) {
+		let columns = module.exports.get_data(fm, device, 'columns');
+
+		if (columns === undefined) {
+			return styles;
+		}
+
+		var columnData = {
+			left: 'box-sizing: border-box;',
+			right: 'box-sizing: border-box;'
+		};
+
+		switch(columns.type) {
+			case 'split':
+				columnData.left += `width:50%;`;
+				columnData.right += 'width:50%;';
+				break;
+			case 'fixed-fluid':
+				columnData.left += `width:${columns.width}px;`;
+				columnData.right += 'position:relative; flex:1;';
+				break;
+			case 'fluid-fixed':
+				columnData.left += 'position:relative; flex:1;';
+				columnData.right += `width:${columns.width}px;`;
+				break;
+			case 'stacked':
+				columnData.left += 'width:100%;';
+				columnData.right += 'width:100%;';
+				break;
+		}
+		
+		if (module.exports.validInteger('gap', columns)) {
+			columnData.left += `padding-right: ${columns.gap}px;`
+			columnData.right += `padding-left: ${columns.gap}px;`
+		}
+
+		if (module.exports.validInteger('vertical_gap', columns)) {
+			columnData.left += `padding-bottom: ${columns.vertical_gap}px;`
+			columnData.right += `padding-top: ${columns.vertical_gap}px;`
+		}
+
+		return columnData;
 	}
 };

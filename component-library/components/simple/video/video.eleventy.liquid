@@ -1,57 +1,41 @@
-{% assign classes = "" %}
-{% assign css_styles = "" %}
-{% assign transform = "" %}
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
 
-{% if styles.transform %}
-	{% assign transform = transform | append: " transform:" %}
-	{% if styles.transform.scale %}
-		{% assign transform = transform | append: " scale(" | append: styles.transform.scale | append: ")" %}
-	{% endif %}
+{% assign desktop_styles = desktop_styles | render_transform: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_transform: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_transform: styles, 'mobile' %}
 
-	{% if styles.transform.translate_x %}
-		{% assign transform = transform | append: " translateX(" | append: styles.transform.translate_x | append: "px)" %}
-	{% endif %}
+{% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
-	{% if styles.transform.translate_y %}
-		{% assign transform = transform | append: " translateY(" | append: styles.transform.translate_y | append: "px)" %}
-	{% endif %}
+{% assign desktop_styles = desktop_styles | render_position: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_position: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_position: styles, 'mobile' %}
 
-	{% if styles.transform.rotate %}
-		{% assign transform = transform | append: " rotate(" | append: styles.transform.rotate | append: "deg)" %}
-	{% endif %}
+{% assign desktop_styles = desktop_styles | render_block_alignment: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_block_alignment: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_block_alignment: styles, 'mobile' %}
 
-	{% if styles.transform.skew %}
-		{% assign transform = transform | append: " skew(" | append: styles.transform.skew | append: "deg)" %}
-	{% endif %}
+{% assign container_name = "video" | UUID %}
 
-
-	{% assign transform = transform | append: ";" %}
-	{% assign css_styles = css_styles | append: transform %}
-{% endif %}
-
-{% if styles.margin %}
-	{% if styles.margin.top %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-top:" | append: styles.margin.top | append: "px;" %}
-	{% endif %}
-
-	{% if styles.margin.left %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-left:" | append: styles.margin.left | append: "px;" %}
-	{% endif %}
-
-	{% if styles.margin.right %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-right:" | append: styles.margin.right | append: "px;" %}
-	{% endif %}
-
-	{% if styles.margin.bottom %}
-		{% assign css_styles = css_styles | append: " " | append: "margin-bottom:" | append: styles.margin.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
-
-{% assign video-class = "video" | UUID %}
 <style>
 	@media (min-width: 1280px) {
-		.{{ video-class }} {
-			{{ css_styles }}
+		.{{ container_name}} {
+			{{ desktop_styles }}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ container_name}} {
+			{{ tablet_styles }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ container_name}} {
+			{{ mobile_styles }}
 		}
 	}
 </style>
@@ -64,7 +48,7 @@
 {% if content.loop %}
 	loop
 {% endif %}
-class="{{ classes }} {{ video-class }}"
+class="relative {{ container_name }}"
 title="{{ content.title }}">
 	<source src="{{ content.url }}" type="video/mp4">
 </video>

@@ -19,6 +19,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("component-library/");
 	eleventyConfig.addWatchTarget('src/styles/tailwind.config.js');
 	eleventyConfig.addWatchTarget('src/styles/tailwind.css');
+	
 
 	eleventyConfig.setLibrary("md", markdownIt({ 
 		html: true
@@ -62,13 +63,22 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("render_padding", StyleRenderer.render_padding);
 	eleventyConfig.addFilter("render_margin", StyleRenderer.render_margin);
 	eleventyConfig.addFilter("render_position", StyleRenderer.render_position);
+	eleventyConfig.addFilter("render_position_percentage", StyleRenderer.render_position_percentage);
 	eleventyConfig.addFilter("render_transform", StyleRenderer.render_transform);
+	eleventyConfig.addFilter("render_logo_transform", StyleRenderer.render_logo_transform);
 	eleventyConfig.addFilter("render_text_alignment", StyleRenderer.render_text_alignment);
 	eleventyConfig.addFilter("render_heading_text_size", StyleRenderer.render_heading_text_size);
 	eleventyConfig.addFilter("render_text_block_text_size", StyleRenderer.render_text_block_text_size);
 	eleventyConfig.addFilter("render_justify", StyleRenderer.render_justify);
 	eleventyConfig.addFilter("render_spacer", StyleRenderer.render_spacer);
+	eleventyConfig.addFilter("render_block_alignment", StyleRenderer.render_block_alignment);
+	eleventyConfig.addFilter("render_visibility", StyleRenderer.render_visibility);
+	eleventyConfig.addFilter("render_columns", StyleRenderer.render_columns);
+	eleventyConfig.addFilter("render_vertical_block_alignment", StyleRenderer.render_vertical_block_alignment);
+	
 	eleventyConfig.addFilter("image_resize", ImageRenderer.image_resize);
+
+	eleventyConfig.addFilter("image_dimensions", ImageRenderer.image_dimensions);
 
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
 		return collection.filter(post => {

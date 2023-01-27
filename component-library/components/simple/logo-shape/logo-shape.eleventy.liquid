@@ -1,132 +1,84 @@
 {% assign outer_classes = "" %}
-{% assign outer_css_styles = "" %}
-
 {% assign inner_classes = "" %}
-{% assign inner_css_styles = "" %}
 
-{% if styles.position.left and styles.position.left != nil and styles.position.left != "" %}
-	{% assign outer_css_styles = outer_css_styles | append: " " | append: "left:" | append: styles.position.left | append: "%;" %}
-{% elsif styles.position.right %}
-	{% assign outer_css_styles = outer_css_styles | append: " " | append: "right:" | append: styles.position.right | append: "%;" %}
-{% endif %}
+{% assign inner_desktop_styles = "" %}
+{% assign inner_tablet_styles = "" %}
+{% assign inner_mobile_styles = "" %}
 
-{% if styles.position.top and styles.position.top != nil and styles.position.top != "" %}
-	{% assign outer_css_styles = outer_css_styles | append: " " | append: "top:" | append: styles.position.top | append: "%;" %}
-{% elsif styles.position.bottom %}
-	{% assign outer_css_styles = outer_css_styles | append: " " | append: "bottom:" | append: styles.position.bottom | append: "%;" %}
-{% endif %}
+{% assign outer_desktop_styles = "" %}
+{% assign outer_tablet_styles = "" %}
+{% assign outer_mobile_styles = "" %}
 
-{% case styles.shape %}
-{% when 'circle' %}
-	{% assign outer_classes = outer_classes | append: " before:rounded-full w-[90px] h-[90px] lg:w-[100px] lg:h-[100px] xl:w-[110px] xl:h-[110px] hidden md:inline-block" %}
-{% else %}
-	{% assign outer_classes = outer_classes | append: " before:rounded-lg h-[65px] lg:h-[72px] xl:h-[80px] hidden md:inline-block" %}
-{% endcase %}
+{% assign outer_desktop_styles = outer_desktop_styles | render_transform: styles, 'desktop' %}
+{% assign outer_tablet_styles = outer_tablet_styles | render_transform: styles, 'tablet' %}
+{% assign outer_mobile_styles = outer_mobile_styles | render_transform: styles, 'mobile' %}
 
-{% if styles.transform %}
-	{% assign transform = " transform:" %}
-	{% if styles.transform.scale %}
-		{% assign transform = transform | append: " scale(" | append: styles.transform.scale | append: ")" %}
-	{% endif %}
+{% assign outer_desktop_styles = outer_desktop_styles | render_position_percentage: styles, 'desktop' %}
+{% assign outer_tablet_styles = outer_tablet_styles | render_position_percentage: styles, 'tablet' %}
+{% assign outer_mobile_styles = outer_mobile_styles | render_position_percentage: styles, 'mobile' %}
 
-	{% if styles.transform.translate_x %}
-		{% assign transform = transform | append: " translateX(" | append: styles.transform.translate_x | append: "px)" %}
-	{% endif %}
+{% assign outer_desktop_styles = outer_desktop_styles | render_visibility: styles, 'desktop' %}
+{% assign outer_tablet_styles = outer_tablet_styles | render_visibility: styles, 'tablet' %}
+{% assign outer_mobile_styles = outer_mobile_styles | render_visibility: styles, 'mobile' %}
 
-	{% if styles.transform.translate_y %}
-		{% assign transform = transform | append: " translateY(" | append: styles.transform.translate_y | append: "px)" %}
-	{% endif %}
+{% assign inner_desktop_styles = inner_desktop_styles | render_margin: styles, 'desktop' %}
+{% assign inner_tablet_styles = inner_tablet_styles | render_margin: styles, 'tablet' %}
+{% assign inner_mobile_styles = inner_mobile_styles | render_margin: styles, 'mobile' %}
 
-	{% if styles.transform.rotate %}
-		{% assign transform = transform | append: " rotate(" | append: styles.transform.rotate | append: "deg)" %}
-	{% endif %}
+{% assign inner_desktop_styles = inner_desktop_styles | render_padding: styles, 'desktop' %}
+{% assign inner_tablet_styles = inner_tablet_styles | render_padding: styles, 'tablet' %}
+{% assign inner_mobile_styles = inner_mobile_styles | render_padding: styles, 'mobile' %}
 
-	{% if styles.transform.skew %}
-		{% assign transform = transform | append: " skew(" | append: styles.transform.skew | append: "deg)" %}
-	{% endif %}
-
-	{% assign transform = transform | append: ";" %}
-	{% assign outer_css_styles = outer_css_styles | append: transform %}
-{% endif %}
 
 {% case styles.shape %}
 {% when 'circle' %}
+	{% assign outer_classes = outer_classes | append: " before:rounded-full w-[110px] h-[110px] inline-block" %}
 	{% assign inner_classes = inner_classes | append: " rounded-full" %}
 {% else %}
+	{% assign outer_classes = outer_classes | append: " before:rounded-lg h-[72px] h-[80px] inline-block" %}
 	{% assign inner_classes = inner_classes | append: " rounded-lg" %}
 {% endcase %}
 
-{% if styles.logo.margin %}
-	{% if styles.logo.margin.top %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-top:" | append: styles.logo.margin.top | append: "px;" %}
-	{% endif %}
+{% assign inner_container_name = "logo-shape" | UUID %}
+{% assign outer_container_name = "logo-shape" | UUID %}
 
-	{% if styles.logo.margin.left %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-left:" | append: styles.logo.margin.left | append: "px;" %}
-	{% endif %}
+<style>
+	@media (min-width: 1280px) {
+		.{{ inner_container_name }} {
+			{{ inner_desktop_styles }}
+		}
 
-	{% if styles.logo.margin.right %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-right:" | append: styles.logo.margin.right | append: "px;" %}
-	{% endif %}
+		.{{ outer_container_name }} {
+			{{ outer_desktop_styles }}
+		}
+	}
 
-	{% if styles.logo.margin.bottom %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "margin-bottom:" | append: styles.logo.margin.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ inner_container_name }} {
+			{{ inner_tablet_styles }}
+		}
 
-{% if styles.logo.padding %}
-	{% if styles.logo.padding.top %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-top:" | append: styles.logo.padding.top | append: "px;" %}
-	{% endif %}
+		.{{ outer_container_name }} {
+			{{ outer_tablet_styles }}
+		}
+	}
 
-	{% if styles.logo.padding.left %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-left:" | append: styles.logo.padding.left | append: "px;" %}
-	{% endif %}
+	@media (max-width: 767px) {
+		.{{ inner_container_name }} {
+			{{ inner_mobile_styles }}
+		}
 
-	{% if styles.logo.padding.right %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-right:" | append: styles.logo.padding.right | append: "px;" %}
-	{% endif %}
-
-	{% if styles.logo.padding.bottom %}
-		{% assign inner_css_styles = inner_css_styles | append: " " | append: "padding-bottom:" | append: styles.logo.padding.bottom | append: "px;" %}
-	{% endif %}
-{% endif %}
-
-{% if styles.logo.transform %}
-	{% assign transform = " transform:" %}
-	{% if styles.logo.transform.scale %}
-		{% assign transform = transform | append: " scale(" | append: styles.logo.transform.scale | append: ")" %}
-	{% endif %}
-
-	{% if styles.logo.transform.translate_x %}
-		{% assign transform = transform | append: " translateX(" | append: styles.logo.transform.translate_x | append: "px)" %}
-	{% endif %}
-
-	{% if styles.logo.transform.translate_y %}
-		{% assign transform = transform | append: " translateY(" | append: styles.logo.transform.translate_y | append: "px)" %}
-	{% endif %}
-
-	{% if styles.logo.transform.rotate %}
-		{% assign transform = transform | append: " rotate(" | append: styles.logo.transform.rotate | append: "deg)" %}
-	{% endif %}
-
-	{% if styles.logo.transform.skew %}
-		{% assign transform = transform | append: " skew(" | append: styles.logo.transform.skew | append: "deg)" %}
-	{% endif %}
-
-
-	{% assign transform = transform | append: ";" %}
-	{% assign inner_classes = inner_classes | append: transform %}
-{% endif %}
-
-
-
+		.{{ outer_container_name }} {
+			{{ outer_mobile_styles }}
+		}
+	}
+</style>
 		
-<div class="absolute before:bg-white/20 before:block before:h-full before:w-full
-	before:border-white before:border before:border-dashed before:absolute {{ outer_classes }}" style="{{ outer_css_styles }}">
+<div class="{{ outer_container_name }} absolute before:bg-white/20 before:block before:h-full before:w-full
+	before:border-white before:border before:border-dashed before:absolute {{ outer_classes }}">
 	<div 
-		class="bg-white drop-shadow-2xl relative h-full flex items-center
-		[&>svg]:h-full [&>svg]:w-full [&>img]:h-full [&>img]:w-full {{ inner_classes }}" style="{{ inner_css_styles }}">
+		class="{{ inner_container_name }} bg-white drop-shadow-2xl relative h-full flex items-center
+		[&>svg]:h-full [&>svg]:w-full [&>img]:h-full [&>img]:w-full {{ inner_classes }}">
 		<img src="{{ content.image }}" alt="{{ content.alt }}">
 	</div>
 </div>
