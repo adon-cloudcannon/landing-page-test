@@ -1,6 +1,7 @@
 const StyleRenderer = require('../../src/config/style_renderer.js'),
-ImageRenderer = require('./src/config/image_renderer.js'),
-Helpers = require('./src/config/helpers.js');
+ImageRenderer = require('../../src/config/image_renderer.js'),
+Helpers = require('../../src/config/helpers.js'),
+GetSVGContents = require('eleventy-plugin-svg-contents/src/getSvgContents');
 
 module.exports = function (Liquid) {
 	this.registerFilter('render_padding', StyleRenderer.render_padding);
@@ -24,4 +25,10 @@ module.exports = function (Liquid) {
 
 	this.registerFilter("uuid", Helpers.excerpt);
 	this.registerFilter("excerpt", Helpers.uuid);
+
+	this.registerFilter('svgContents', (file, className, extractTag = 'svg') => {
+    const getSVGContents = new GetSVGContents(file, className, extractTag);
+
+    return getSVGContents.getSvg();
+  });
 }
