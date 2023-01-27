@@ -11,7 +11,7 @@ categories:
 image: 
   path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/ocupop-2.png
   alt: Ocupop logo
-logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/ocupop.svg
+logo: /images/logos/ocupop.svg
 person:
   name: Tom Beck
   position: Creative Director
