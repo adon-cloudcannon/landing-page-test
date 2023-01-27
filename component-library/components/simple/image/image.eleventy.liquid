@@ -64,6 +64,6 @@
 </style>
 
 <div class=" {{ outer_classes }}">
-	{% assign c = classes | append: container_name | append: 'relative w-full' %}
+	{% assign c = classes | append: ' ' | append: container_name | append: ' relative w-full' %}
 	{% bookshop "helpers/image" image: content.image, alt: content.alt, responsive: true, classes: c %}
 </div>
