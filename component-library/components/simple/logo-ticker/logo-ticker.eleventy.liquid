@@ -28,7 +28,7 @@
 	}
 </style>
 
-<div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 {{ container_name }}" >
+<div class="flex justify-between gap-4 {{ container_name }}" >
 	{% for item in content.logo_blocks %}
 		{% bookshop "simple/logo" content:item.content, styles:item.styles %}
 	{% endfor %}
