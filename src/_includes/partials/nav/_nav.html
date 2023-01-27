@@ -11,10 +11,10 @@
 		<div class="flex-1">
 			<a href="/" class="w-56 transition delay-100 [&>svg>path]:hover:fill-cc_hover hidden lg:block"
 				x-cloak
-				x-show="!mobileNavOpen">
+				x-show="!mobileNavOpen" title="CloudCannon Logo">
 				{{ '/src/images/cc-logo.svg' | svgContents }}
 			</a>
-			<a href="/" class="w-8 block transition delay-100 [&>svg>path]:hover:fill-cc_hover lg:hidden">
+			<a href="/" title="CloudCannon Logo" class="w-8 block transition delay-100 [&>svg>path]:hover:fill-cc_hover lg:hidden">
 				{{ '/src/images/cc-logo-mobile.svg' | svgContents }}
 			</a>
 			</div>
