@@ -1,0 +1,30 @@
+{% if image contains 'res.cloudinary.com' %}
+	
+	{% unless width %}
+		{% assign width = 1216 %}
+	{% endunless %}
+
+	{% assign dimensions = image | image_dimensions %}
+
+	{% if responsive %}
+		<picture>
+			{% assign c_width = width %}
+			{% for i in (0..5) %}
+				{% assign m = i | times: 300 %}
+				{% assign i_width = width | minus: m %}
+				{% if i_width < 200 %}
+					{% break %}
+				{% endif %}
+				{% assign c_width = i_width %}
+				{% assign r_width = c_width | times: 2 %}
+				<source media="(min-width: {{ c_width }}px)" srcset="{{ image | image_resize: r_width }} 2x, {{ image | image_resize: c_width }} 1x">
+			{% endfor %}
+			
+			<img src="{{ image | image_resize: c_width }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
+		</picture>
+	{% else %}
+		<img src="{{ image | image_resize: width }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
+	{% endif %}
+{% else %}
+	<img src="{{ image }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
+{% endif %}

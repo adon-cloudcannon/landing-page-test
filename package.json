@@ -7,12 +7,13 @@
     "start": "run-p dev:*",
     "build:styles": "NODE_ENV=production npx tailwindcss -i src/styles/tailwind.css -c src/styles/tailwind.config.js -o _site/style.css --minify",
     "build:scripts": "esbuild src/main.js --bundle --minify --outfile=_site/js/main.js",
-    "build": "run-s build:*"
+    "build": "run-s build:* && npx @divriots/jampack ./_site"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@alpinejs/intersect": "^3.10.4",
+    "@divriots/jampack": "^0.7.2",
     "@tailwindcss/typography": "^0.5.8",
     "alpinejs": "^3.10.4",
     "csvtojson": "^2.0.10",

@@ -2,7 +2,7 @@
 		href="{{ case_study.url }}">
 	<div class="flex border-b border-gray-300 pb-4">
 		<div class="grow flex">
-			<img src="{{ case_study.data.person.image.path }}" alt="{{ case_study.data.person.name }}" class="rounded-full h-12 w-12 mr-3">
+			{% bookshop "helpers/image" image: case_study.data.person.image.path, alt: case_study.data.person.name, responsive: true, classes: 'rounded-full h-12 w-12 mr-3', width: 48 %}
 			<div class="grow">
 				<div class="font-bold">{{ case_study.data.person.name }}</div>
 				<div class="text-gray-500 text-sm">{{ case_study.data.person.position }}</div>
@@ -14,7 +14,7 @@
 	</div>
 
 	<div class="my-4">
-		<img src="{{ case_study.data.image.path }}" alt="{{ case_study.data.image.alt }}" class="rounded-xl">
+		{% bookshop "helpers/image" image: case_study.data.image.path, alt: case_study.data.image.alt, responsive: true, classes: 'rounded-xl"', width: 360 %}
 	</div>
 	<div class="text-2xl font-bold pb-10">
 		{{ case_study.data.heading }} 
