@@ -1,7 +1,7 @@
 module.exports = {
     engines: {
         "@bookshop/eleventy-engine": {
-            // plugins: ["./eleventy-cc-plugins.js"]
+            plugins: ["./eleventy-cc-plugins.js"]
         }
     }
 }
