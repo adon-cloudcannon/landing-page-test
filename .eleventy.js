@@ -9,9 +9,9 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			}),
 			syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"),
 			mila = require("markdown-it-link-attributes"),
-			crypto = require('crypto'),
 			StyleRenderer = require('./src/config/style_renderer.js'),
-			ImageRenderer = require('./src/config/image_renderer.js');
+			ImageRenderer = require('./src/config/image_renderer.js'),
+			Helpers = require('./src/config/helpers.js');
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("component-library/");
@@ -41,23 +41,16 @@ module.exports = function (eleventyConfig) {
 	});
 
 	// Plugins
-	eleventyConfig.addPlugin(svgContents);
-	eleventyConfig.addPlugin(syntaxHighlight);
-
 	eleventyConfig.addPlugin(pluginBookshop({
 		bookshopLocations: ["component-library"],
 		pathPrefix: '',
 	}));
 
-	eleventyConfig.addFilter("excerpt", (post) => {
-		const content = post.replace(/(<([^>]+)>)/gi, "");
-		return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
-	});
+	eleventyConfig.addFilter("excerpt", Helpers.excerpt);
+	eleventyConfig.addFilter("UUID", Helpers.uuid);
 
-	eleventyConfig.addFilter("UUID", (name) => {
-		return name + "-" + crypto.randomUUID();
-	});
-
+	eleventyConfig.addPlugin(svgContents);
+	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addFilter("render_padding", StyleRenderer.render_padding);
 	eleventyConfig.addFilter("render_margin", StyleRenderer.render_margin);
 	eleventyConfig.addFilter("render_position", StyleRenderer.render_position);
@@ -75,7 +68,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("render_vertical_block_alignment", StyleRenderer.render_vertical_block_alignment);
 	
 	eleventyConfig.addFilter("image_resize", ImageRenderer.image_resize);
-
 	eleventyConfig.addFilter("image_dimensions", ImageRenderer.image_dimensions);
 
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {

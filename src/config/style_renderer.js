@@ -1,5 +1,3 @@
-const { transform } = require("esbuild");
-
 module.exports = {
 	basic_checks: function(fm) {
 		return fm !== undefined && fm.desktop !== undefined;
