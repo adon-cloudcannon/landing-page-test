@@ -1,5 +1,3 @@
-const style_renderer = require("./src/config/style_renderer");
-
 const svgContents = require("eleventy-plugin-svg-contents"),
 			yaml = require("js-yaml"),
 			csv = require("csvtojson"),
