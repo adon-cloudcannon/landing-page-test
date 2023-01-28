@@ -770,7 +770,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 0
+                bottom: 40
               block_alignment:
                 align_block: center
             tablet:
@@ -836,7 +836,7 @@ content_blocks:
                       block_alignment:
                         align_block: left
                       margin:
-                        top: 100
+                        top: 0
                         left: 0
                         bottom: 0
                         right: 0
@@ -973,10 +973,10 @@ content_blocks:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 20
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
                 active: false
@@ -989,11 +989,11 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top

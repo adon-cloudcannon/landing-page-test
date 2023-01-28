@@ -18,7 +18,7 @@
 {% assign tablet_styles = tablet_styles | render_block_alignment: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_block_alignment: styles, 'mobile' %}
 
-{% assign container_name = "video" | UUID %}
+{% assign container_name = "accordion" | UUID %}
 
 <style>
 	@media (min-width: 1280px) {
@@ -40,7 +40,7 @@
 	}
 </style>
 
-<div x-data="{ selected:1 }" class="container">
+<div x-data="{ selected:1 }" class="{{ container_name }}">
 	{% assign i = 0 %}
 	{% for row in content.rows %}
 		{% assign i = i | plus: 1 %}
