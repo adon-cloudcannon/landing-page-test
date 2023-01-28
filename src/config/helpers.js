@@ -7,7 +7,7 @@ module.exports = {
 	},
 
 	uuid: function(name) {
-		return name + "-" + Math.random().toString(36).slice(2, 7);
-		// return name + "-" + crypto.randomUUID();
+		for (var s=''; s.length < 20; s += 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.charAt(Math.random()*62|0));
+		return name + "-" + s;
 	}
 };
