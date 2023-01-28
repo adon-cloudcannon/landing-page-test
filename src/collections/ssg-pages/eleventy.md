@@ -237,7 +237,7 @@ content_blocks:
           bottom: 40
           left: 0
   - _bookshop_name: sections/container
-    content:
+    content: []
 
     styles:
       background: sea
