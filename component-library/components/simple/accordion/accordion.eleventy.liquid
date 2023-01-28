@@ -1,0 +1,14 @@
+<div x-data="{ selected:1 }">
+	{% assign i = 0 %}
+	{% for row in content %}
+		{% assign i = i | plus: 1 %}
+		<div class="border-l-[3px] pl-3 py-2" :class="selected == {{ i }} ? 'border-blue-700' : 'border-gray-300'">
+			<div class="font-bold text-xl mb-1" @click="selected !== {{ i }} ? selected = {{ i }} : selected = null">
+				<a>{{ row.title }}</a>
+			</div>
+			<div x-show="selected == {{ i }}" {% unless i == 1 %}x-cloak{% endunless %} x-collapse>
+				{{ row.description }}
+			</div>
+		</div>
+	{% endfor %}
+</div>
