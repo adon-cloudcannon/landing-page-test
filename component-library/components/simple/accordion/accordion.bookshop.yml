@@ -10,8 +10,9 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   content:
-    - title:
-      description:
+    rows:
+      - title:
+        description:
   styles:
     desktop:
       transform:
@@ -121,7 +122,7 @@ _inputs:
     type: number
 
 _structures:
-  content:
+  rows:
     values: 
       - value:
         title:
