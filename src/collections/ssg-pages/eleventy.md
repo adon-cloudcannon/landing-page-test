@@ -997,6 +997,240 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+        - _bookshop_name: sections/container
+          content:
+            label: Want to learn more?
+            blocks:
+              - _bookshop_name: sections/two-column
+                content:
+                  left:
+                    blocks:
+                      - _bookshop_name: simple/heading
+                        content:
+                          text: Want to learn more?
+                        styles:
+                          element: h3
+                          width: normal
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 20
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                      - _bookshop_name: simple/text-block
+                        content:
+                          text_markdown: >-
+                            We’ve got a range of resources to help you every
+                            step of the way.
+                        styles:
+                          desktop:
+                            text_alignment: 
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              align_block:
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                          width: full
+                      - _bookshop_name: simple/button-holder
+                        content:
+                          button_blocks:
+                            - _bookshop_name: simple/button
+                              content:
+                                text: Explore all Marketer guides
+                                link: /
+                              styles:
+                                style: outline-white
+                                size: normal
+                                extra_classes:
+                        styles:
+                          desktop:
+                            margin:
+                              top: 20
+                              bottom: 0
+                            justify:
+                              align: left
+                          tablet:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            justify:
+                              active: false
+                              align: center
+                          mobile:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            justify:
+                              active: false
+                              align: center
+                  right:
+                    blocks:
+                      - _bookshop_name: simple/content-button
+                        content:
+                          url:
+                          text: Static vs Dynamic sites
+                        styles:
+                          margin:
+                            top: 0
+                            bottom: 0
+                          style: black
+                      - _bookshop_name: simple/content-button
+                        content:
+                          url:
+                          text: What is a Static Site Generator?
+                        styles:
+                          margin:
+                            top: 12
+                            bottom: 0
+                          style: black
+                      - _bookshop_name: simple/content-button
+                        content:
+                          url:
+                          text: >-
+                            Step-by-step guide to creating, editing and
+                            publishing pages with CloudCannon
+                        styles:
+                          margin:
+                            top: 12
+                            bottom: 0
+                          style: black
+                      - _bookshop_name: simple/content-button
+                        content:
+                          url:
+                          text: What is a Static Site Generator?
+                        styles:
+                          margin:
+                            top: 12
+                            bottom: 0
+                          style: black
+                styles:
+                  desktop:
+                    columns:
+                      type: split
+                      width: 0
+                      gap: 20
+                      vertical_gap: 0
+                    vertical_block_alignment: 
+                      v_align: center
+                  tablet:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+                  mobile:
+                    columns:
+                      active: true
+                      type: stacked
+                      width: 0
+                      gap: 0
+                      vertical_gap: 20
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+          styles:
+            background: night
+            rounded: full
+            size: small
+            align: center
+            desktop:
+              margin:
+                top: 100
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 50
+                right: 20
+                bottom: 50
+                left: 20
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: true
+                top: 50
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: caramel
       rounded: top
