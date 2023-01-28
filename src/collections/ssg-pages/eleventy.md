@@ -1007,7 +1007,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more?
+                          text: Want to learn more about 11ty?
                         styles:
                           element: h3
                           width: normal
@@ -1048,7 +1048,7 @@ content_blocks:
                             step of the way.
                         styles:
                           desktop:
-                            text_alignment: 
+                            text_alignment:
                               align: left
                             text_sizing:
                               text_size: normal
@@ -1091,7 +1091,7 @@ content_blocks:
                           button_blocks:
                             - _bookshop_name: simple/button
                               content:
-                                text: Explore all Marketer guides
+                                text: Explore all
                                 link: /
                               styles:
                                 style: outline-white
@@ -1124,8 +1124,8 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/content-button
                         content:
-                          url:
-                          text: Static vs Dynamic sites
+                          url: /learn/
+                          text: Tutorials
                         styles:
                           margin:
                             top: 0
@@ -1133,8 +1133,8 @@ content_blocks:
                           style: black
                       - _bookshop_name: simple/content-button
                         content:
-                          url:
-                          text: What is a Static Site Generator?
+                          url: /templates/
+                          text: Templates
                         styles:
                           margin:
                             top: 12
@@ -1143,18 +1143,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: >-
-                            Step-by-step guide to creating, editing and
-                            publishing pages with CloudCannon
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url:
-                          text: What is a Static Site Generator?
+                          text: 11ty + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1167,7 +1156,7 @@ content_blocks:
                       width: 0
                       gap: 20
                       vertical_gap: 0
-                    vertical_block_alignment: 
+                    vertical_block_alignment:
                       v_align: center
                   tablet:
                     columns:
