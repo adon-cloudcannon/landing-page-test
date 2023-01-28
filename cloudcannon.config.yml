@@ -75,7 +75,7 @@ collections_config:
         path: .cloudcannon/schemas/page.html
     _enabled_editors:
       - visual
-    icon: sunny
+    icon: eco
   case-studies:
     path: 'collections/case-studies'
     output: true
