@@ -1,5 +1,5 @@
 const StyleRenderer = require('../../src/config/style_renderer.js'),
-ImageRenderer = require('../../src/config/image_renderer.js'),
+// ImageRenderer = require('../../src/config/image_renderer.js'),
 Helpers = require('../../src/config/helpers.js');
 
 module.exports = function (Liquid) {

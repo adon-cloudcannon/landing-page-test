@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+// const crypto = require('crypto');
 
 module.exports = {
 	excerpt: function(post) {
@@ -7,6 +7,7 @@ module.exports = {
 	},
 
 	uuid: function(name) {
-		return name + "-" + crypto.randomUUID();
+		return name + "-" + Math.random().toString(36).slice(2, 7);
+		// return name + "-" + crypto.randomUUID();
 	}
 };
