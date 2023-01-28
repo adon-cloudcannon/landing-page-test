@@ -19,8 +19,8 @@ module.exports = function (Liquid) {
 	this.registerFilter("render_columns", StyleRenderer.render_columns);
 	this.registerFilter("render_vertical_block_alignment", StyleRenderer.render_vertical_block_alignment);
 
-	this.registerFilter("image_dimensions", ImageRenderer.image_dimensions);
-	this.registerFilter("image_resize", ImageRenderer.image_resize);
+	// this.registerFilter("image_dimensions", ImageRenderer.image_dimensions);
+	// this.registerFilter("image_resize", ImageRenderer.image_resize);
 
 	this.registerFilter("uuid", Helpers.excerpt);
 	this.registerFilter("excerpt", Helpers.uuid);
