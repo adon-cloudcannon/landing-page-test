@@ -10,10 +10,6 @@
 {% assign tablet_styles = tablet_styles | render_position: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_position: styles, 'mobile' %}
 
-{% assign desktop_styles = desktop_styles | render_transform: styles, 'desktop' %}
-{% assign tablet_styles = tablet_styles | render_transform: styles, 'tablet' %}
-{% assign mobile_styles = mobile_styles | render_transform: styles, 'mobile' %}
-
 {% assign container_name = "video-placeholder" | UUID %}
 
 <style>
@@ -36,7 +32,7 @@
 	}
 </style>
 
-<div class="relative z-10 {{ container_name }}">
+<div class="relative z-10">
 	<div
 		x-init=""
 		x-data="
@@ -101,7 +97,9 @@
 		</a>
 
 		{% assign c = 'w-full' %}
-		{% bookshop "helpers/image" image: content.placeholder_image, alt: content.title, responsive: true, classes: c %}
+		<div class="{{ container_name }}">
+			{% bookshop "helpers/image" image: content.placeholder_image, alt: content.title, responsive: true, classes: c %}
+		</div>
 		{% bookshop "helpers/video-modal" video:content.video, title:content.title %}
 	</div>
 </div>

@@ -15,7 +15,7 @@
             icon: 'cloud'
             description: "Host the fastest websites"
           - name: Technologies
-            link: ''
+            link: '/technologies/'
             icon: 'cube'
             description: "Host the fastest websites"
       - title: Users

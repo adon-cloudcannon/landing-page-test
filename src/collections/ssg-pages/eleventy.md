@@ -1,8 +1,8 @@
 ---
 _schema: default
 title: Eleventy
-layout: builder.html
 permalink: /eleventy/
+summary: A JavaScript based SSG
 content_blocks:
   - _bookshop_name: sections/container
     content:
