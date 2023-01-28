@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Eleventy
 layout: builder.html
 permalink: /eleventy/
@@ -46,10 +47,11 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your 11ty CMS, your whole team can collaborate to create amazing websites.
+              With CloudCannon as your 11ty CMS, your whole team can collaborate
+              to create amazing websites.
           styles:
             desktop:
-              text_alignment: 
+              text_alignment:
                 align: center
               text_sizing:
                 text_size: biggest
@@ -124,7 +126,8 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
-            image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674660604/marketing-site/hero_image_w2idkd.png
+            image: >-
+              https://res.cloudinary.com/dahpdufoq/image/upload/v1674660604/marketing-site/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -237,8 +240,9 @@ content_blocks:
           bottom: 40
           left: 0
   - _bookshop_name: sections/container
-    content: []
-
+    content:
+      label: Hero
+      blocks:
     styles:
       background: sea
       rounded: top
