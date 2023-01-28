@@ -22,6 +22,6 @@ module.exports = function (Liquid) {
 	// this.registerFilter("image_dimensions", ImageRenderer.image_dimensions);
 	// this.registerFilter("image_resize", ImageRenderer.image_resize);
 
-	this.registerFilter("UUID", Helpers.excerpt);
-	this.registerFilter("excerpt", Helpers.uuid);
+	this.registerFilter("UUID", Helpers.uuid);
+	this.registerFilter("excerpt", Helpers.excerpt);
 }
