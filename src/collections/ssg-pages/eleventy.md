@@ -808,6 +808,23 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/accordion
                   content:
+                    rows:
+                      - title: Git-based CMS
+                        description: >-
+                          Everything syncs back to Git so your development and
+                          content editing teams can always collaborate in sync.
+                      - title: Publishing workflows
+                        description: >-
+                          Everything syncs back to Git so your development and
+                          content editing teams can always collaborate in sync.
+                      - title: Range of editors
+                        description: >-
+                          Everything syncs back to Git so your development and
+                          content editing teams can always collaborate in sync.
+                      - title: Component-driven workflows
+                        description: >-
+                          Everything syncs back to Git so your development and
+                          content editing teams can always collaborate in sync.
                   styles:
                     desktop:
                       transform:
@@ -819,7 +836,7 @@ content_blocks:
                       block_alignment:
                         align_block: left
                       margin:
-                        top: 0
+                        top: 100
                         left: 0
                         bottom: 0
                         right: 0
