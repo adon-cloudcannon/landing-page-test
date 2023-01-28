@@ -1,8 +1,8 @@
 ---
 _schema: default
 title: Eleventy
+layout: builder.html
 permalink: /eleventy/
-summary: A JavaScript based SSG
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -211,7 +211,7 @@ content_blocks:
         padding:
           top: 130
           right: 0
-          bottom: 100
+          bottom: 0
           left: 0
       tablet:
         margin:
@@ -448,9 +448,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 130
+          top: 90
           right: 0
-          bottom: 100
+          bottom: 130
           left: 0
       tablet:
         margin:
@@ -687,7 +687,134 @@ content_blocks:
         padding:
           top: 100
           right: 0
-          bottom: 100
+          bottom: 140
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Intuitive content editing
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Intuitive content editing
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Take your editing team to the next level with CloudCannon’s
+              powerful content editing and publishing workflows.
+          styles:
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            width: full
+    styles:
+      background: caramel
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 80
+          right: 0
+          bottom: 80
           left: 0
       tablet:
         margin:
