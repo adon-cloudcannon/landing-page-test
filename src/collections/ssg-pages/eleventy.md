@@ -1262,4 +1262,185 @@ content_blocks:
           left: 0
       size: normal
       align: none
+  - _bookshop_name: sections/container
+    content:
+      label: An entire ecosystem behind you
+      blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: An entire ecosystem behind you
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Take your editing team to the next level with
+                      CloudCannon’s powerful content editing and publishing
+                      workflows.
+
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
+                      — create component-driven development workflows and enable
+                      live rendering editing;
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://reseed.app/">Reseed</a>** — integrate
+                      multiple sites into a single domain;
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://rosey.app/">Rosey</a>** — manage
+                      translations for localization and i18n;
+
+                      *
+                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
+                      — granular configuration for site pagination.
+                  styles:
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block:
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    width: full
+            right:
+              blocks:
+          styles:
+            desktop:
+              columns:
+                type: fixed-fluid
+                width: 450
+                gap: 20
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: top
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+    styles:
+      background: night
+      rounded: none
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 80
+          right: 0
+          bottom: 100
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      size: normal
+      align: none
 ---
