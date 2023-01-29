@@ -51,7 +51,8 @@ html {
 	color: #fff;
 }
 
-.dark-text p a, .dark-text li a {
+.dark-text, .dark-text p a, .dark-text li a ,
+.dark-text li::before {
 	color: #fff;
 }
 
