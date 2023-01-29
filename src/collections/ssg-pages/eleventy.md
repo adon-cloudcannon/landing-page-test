@@ -1605,7 +1605,7 @@ content_blocks:
             width: medium
     styles:
       background: ash
-      rounded: none
+      rounded: top
       desktop:
         margin:
           top: 0
