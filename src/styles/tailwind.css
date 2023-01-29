@@ -52,7 +52,7 @@ html {
 }
 
 .dark-text, .dark-text p a, .dark-text li a ,
-.dark-text li::before {
+.dark-text li::marker {
 	color: #fff;
 }
 
