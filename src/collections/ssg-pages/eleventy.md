@@ -1604,7 +1604,7 @@ content_blocks:
                 align_block: left
             width: medium
     styles:
-      background: white
+      background: ash
       rounded: none
       desktop:
         margin:
