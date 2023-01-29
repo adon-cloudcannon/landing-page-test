@@ -46,22 +46,6 @@
             link: '/customers/'
             icon: 'user-circle'
             description: "Host the fastest websites"
-          - name: Marketing Sites
-            link: ''
-            description: "Intutive editing for your content team"
-            icon: 'paper-airplane'
-          - name: Documentation Sites
-            link: ''
-            description: "Work together, faster"
-            icon: 'document-text'
-          - name: Blogs
-            link: ''
-            icon: 'rss'
-            description: "Host the fastest websites"
-          - name: Ecommerce
-            link: ''
-            icon: 'shopping-cart'
-            description: "Host the fastest websites"
   - name: Resources
     sub_navs:
       - title: "Developers"
@@ -82,7 +66,7 @@
             link: '/ecosystem/'
             description: "Get help"
             icon: 'gift'
-      - title: Community
+      - title: CloudCannon
         sub_nav:
           - name: Blog
             link: '/blog/'
@@ -92,10 +76,6 @@
             link: ''
             description: "Deliver your digital experience"
             icon: 'inbox'
-          - name: Community
-            link: ''
-            description: "Offer your clients the best editing"
-            icon: 'sparkles'
           - name: Events
             link: '/events/'
             description: "Sharing the knowledge"
@@ -107,16 +87,12 @@
       - title: "Partners"
         sub_nav:
           - name: Partner Program
-            link: ''
+            link: '/partner-program/'
             description: "Why companies choose CloudCannon"
             icon: 'briefcase'
           - name: Expert Directory
             link: ''
             description: "Find an Expert"
             icon: 'user'
-          - name: Technology Partners
-            link: ''
-            description: "Find an Expert"
-            icon: 'cog-6-tooth'
   - name: Pricing
     link: '/pricing/'

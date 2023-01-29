@@ -3,6 +3,8 @@ _schema: default
 title: Eleventy
 layout: builder.html
 permalink: /eleventy/
+summary: A JavaScript based SSG
+image: /images/icons/ssgs/11ty.svg
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -38,7 +40,7 @@ content_blocks:
                 active: false
                 align: left
               text_sizing:
-                active: false
+                active: true
                 text_size: big
               margin:
                 active: false
@@ -428,14 +430,14 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
-                v_align: top
+                v_align: center
     styles:
       background: sea
       rounded: top
@@ -476,7 +478,7 @@ content_blocks:
           active: true
           top: 60
           right: 0
-          bottom: 40
+          bottom: 100
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -667,11 +669,11 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -710,10 +712,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 80
           right: 0
-          bottom: 0
+          bottom: 120
           left: 0
       size: normal
       align: none
@@ -802,201 +804,96 @@ content_blocks:
                 active: false
                 align_block: left
             width: full
-        - _bookshop_name: sections/two-column
+        - _bookshop_name: simple/accordion
           content:
-            left:
-              blocks:
-                - _bookshop_name: simple/accordion
-                  content:
-                    rows:
-                      - title: Git-based CMS
-                        description: >-
-                          Everything syncs back to Git so your development and
-                          content editing teams can always collaborate in sync.
-                      - title: Publishing workflows
-                        description: >-
-                          Everything syncs back to Git so your development and
-                          content editing teams can always collaborate in sync.
-                      - title: Range of editors
-                        description: >-
-                          Everything syncs back to Git so your development and
-                          content editing teams can always collaborate in sync.
-                      - title: Component-driven workflows
-                        description: >-
-                          Everything syncs back to Git so your development and
-                          content editing teams can always collaborate in sync.
-                  styles:
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Git repository
-                    image: >-
+            rows:
+              - title: Git-based CMS
+                description: >-
+                  Everything syncs back to Git so your development and
+                  content editing teams can always collaborate in sync.
+                image: >-
                       https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
+              - title: Publishing workflows
+                description: >-
+                  Everything syncs back to Git so your development and
+                  content editing teams can always collaborate in sync.
+                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
+              - title: Range of editors
+                description: >-
+                  Everything syncs back to Git so your development and
+                  content editing teams can always collaborate in sync.
+                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
+              - title: Component-driven workflows
+                description: >-
+                  Everything syncs back to Git so your development and
+                  content editing teams can always collaborate in sync.
+                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
             desktop:
-              columns:
-                type: split
-                width: 0
-                gap: 20
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
             tablet:
-              columns:
+              transform:
                 active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
                 active: false
-                v_align: top
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
             mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
+              transform:
                 active: false
-                v_align: top
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: sections/container
           content:
             label: Want to learn more?
@@ -1511,10 +1408,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 100
           left: 0
       size: normal
       align: none
@@ -1641,7 +1538,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 0
+                bottom: 30
               block_alignment:
                 align_block: center
             tablet:
@@ -1673,6 +1570,36 @@ content_blocks:
                 active: false
                 align_block: left
             width: medium
+        - _bookshop_name: simple/steps
+          content:
+            steps:
+              - title: Sync your Eleventy site
+                description: CloudCannon gives you everything you need to create and manage your content, all on one platform. Build and host the best performing sites on the web with the help of our CMS for 11ty.
+                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18831_cx3etv.png
+              - title: Configure your Eleventy build
+                description: Add your environment variables, command line options, custom plugins, and more to automate your build.
+                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
+              - title: Invite your content team to collaborate
+                description: Start collaborating with your team. Edit content right on the page.
+                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18535_mj7jfe.png
+              - title: Go live with hosting
+                description: Delight your customers by hosting your site on a global CDN with unparalleled reach and speed.
+                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963445/marketing-site/Group_18541_hj3frb.png
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
     styles:
       background: ash
       rounded: top
@@ -1708,10 +1635,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 80
           right: 0
-          bottom: 0
+          bottom: 80
           left: 0
       size: normal
       align: none
@@ -1966,11 +1893,11 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top

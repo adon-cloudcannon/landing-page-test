@@ -13,7 +13,6 @@ blueprint:
     rows:
       - title:
         description:
-        image:
   styles:
     desktop:
       transform:
@@ -128,4 +127,3 @@ _structures:
       - value:
         title:
         description:
-        image:
