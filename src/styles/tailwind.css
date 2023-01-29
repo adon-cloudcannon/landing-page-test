@@ -43,6 +43,18 @@ html {
 	bottom: -24px;
 }
 
+.light-text p a, .light-text li a {
+	color: #034AD8;
+}
+
+.dark-text {
+	color: #fff;
+}
+
+.dark-text p a, .dark-text li a {
+	color: #fff;
+}
+
 pre[class*="language-"] .table {
 	display: initial;
 }

@@ -13,19 +13,19 @@
 
 {% case styles.background %}
 	{% when 'caramel' %}
-		{% assign classes = classes | append: " bg-caramel [&_p_a]:text-cc" %}
+		{% assign classes = classes | append: " bg-caramel light-text" %}
 		{% when 'sky' %}
-		{% assign classes = classes | append: " bg-sky [&_p_a]:text-cc" %}
+		{% assign classes = classes | append: " bg-sky light-text" %}
 	{% when 'sea' %}
-		{% assign classes = classes | append: " bg-sea [&_p_a]:text-cc" %}
+		{% assign classes = classes | append: " bg-sea light-text" %}
 	{% when 'cc-blue' %}
-		{% assign classes = classes | append: " bg-cc text-white [&_p_a]:text-cc" %}
+		{% assign classes = classes | append: " bg-cc dark-text" %}
 	{% when 'ash' %}
-		{% assign classes = classes | append: " bg-ash [&_p_a]:text-cc" %}
+		{% assign classes = classes | append: " bg-ash light-text" %}
 	{% when 'night' %}
-		{% assign classes = classes | append: " bg-night text-white" %}
+		{% assign classes = classes | append: " bg-night dark-text" %}
 	{% else %}
-		{% assign classes = classes | append: " bg-white [&_p_a]:text-cc" %}
+		{% assign classes = classes | append: " bg-white light-text" %}
 {% endcase %}
 
 {% case styles.rounded %}
