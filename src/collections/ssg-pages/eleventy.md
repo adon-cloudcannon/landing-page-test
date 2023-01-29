@@ -1488,7 +1488,7 @@ content_blocks:
         padding:
           top: 80
           right: 0
-          bottom: 100
+          bottom: 320
           left: 0
       tablet:
         margin:
@@ -1539,14 +1539,18 @@ content_blocks:
                 size: 0
         - _bookshop_name: simple/quote
           content:
-            quote: CloudCannon provides a quality editing interface for our marketing team while allowing developers to use the tools and workflows they know.
+            quote: >-
+              CloudCannon provides a quality editing interface for our marketing
+              team while allowing developers to use the tools and workflows they
+              know.
             name: Sam Harnack
             position: Technical Marketing Director
             company: Twitch
-            image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674695015/marketing-site/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
+            image: >-
+              https://res.cloudinary.com/dahpdufoq/image/upload/v1674695015/marketing-site/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
             logo: /images/logos/twitch.svg
           styles:
-            background: sea
+            background: white
             border: false
             desktop:
               margin:
@@ -1628,8 +1632,7 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: >-
-              Get up and going in minutes.
+            text_markdown: Get up and going in minutes.
           styles:
             desktop:
               text_alignment:
@@ -2060,7 +2063,7 @@ content_blocks:
               us for a demo.
           styles:
             desktop:
-              text_alignment: 
+              text_alignment:
                 align: center
               text_sizing:
                 text_size: normal
