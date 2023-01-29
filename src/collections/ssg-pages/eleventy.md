@@ -1520,11 +1520,79 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Intuitive content editing
+      label: Everything you need
       blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: -242
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: true
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            quote: CloudCannon provides a quality editing interface for our marketing team while allowing developers to use the tools and workflows they know.
+            name: Sam Harnack
+            position: Technical Marketing Director
+            company: Twitch
+            image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674695015/marketing-site/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
+            logo: /images/logos/twitch.svg
+          styles:
+            background: sea
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 80
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: true
+                top: 0
+                bottom: 40
+              block_alignment:
+                active: false
+                align_block: left
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Intuitive content editing
+            text: Everything you need
           styles:
             element: h2
             width: normal
@@ -1561,8 +1629,7 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Take your editing team to the next level with CloudCannon’s
-              powerful content editing and publishing workflows.
+              Get up and going in minutes.
           styles:
             desktop:
               text_alignment:
@@ -1934,6 +2001,175 @@ content_blocks:
       mobile:
         margin:
           active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: CTA
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Get started with CloudCannon
+          styles:
+            element: h2
+            width: tight
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Try out CloudCannon with a 14-day free trial, or get in touch with
+              us for a demo.
+          styles:
+            desktop:
+              text_alignment: 
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 25
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            width: medium
+        - _bookshop_name: simple/button-holder
+          content:
+            button_blocks:
+              - _bookshop_name: simple/button
+                content:
+                  text: Try for free
+                  link: /
+                styles:
+                  style: white
+                  size: big
+                  extra_classes:
+              - _bookshop_name: simple/button
+                content:
+                  text: Contact us
+                  link: /
+                styles:
+                  style: outline-white
+                  size: big
+                  extra_classes:
+          styles:
+            desktop:
+              margin:
+                top: 16
+                bottom: 0
+              justify:
+                align: center
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
+    styles:
+      background: cc-blue
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 180
+          right: 0
+          bottom: 140
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 100
+          right: 0
+          bottom: 100
+          left: 0
+      mobile:
+        margin:
+          active: true
           top: 0
           right: 0
           bottom: 0
