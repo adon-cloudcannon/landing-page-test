@@ -1,5 +1,5 @@
-// const probe = require('probe-image-size'),
-// hasTemplateFormat = require("@11ty/eleventy-plugin-syntaxhighlight/src/hasTemplateFormat");
+const probe = require('probe-image-size'),
+hasTemplateFormat = require("@11ty/eleventy-plugin-syntaxhighlight/src/hasTemplateFormat");
 
 module.exports = {
 	image_resize: function(image_path, size) {
