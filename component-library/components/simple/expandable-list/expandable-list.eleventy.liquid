@@ -37,13 +37,13 @@
 						{{ '/src/images/icons/solid/check-circle.svg' | svgContents }}
 						{{ row.title }}
 					</span>
-					<span :class="{'rotate-180': open, '[&>svg]:fill-cc': open}" class="[&>svg]:fill-gray-300 origin-center whitespace-nowrap w-4 h-4 [&>svg]:w-full transition">
+					<span :class="open ? 'rotate-180 [&>svg]:fill-cc' : '[&>svg]:fill-gray-300'" class="origin-center whitespace-nowrap w-4 h-4 [&>svg]:w-full transition">
 						{{ '/src/images/icons/solid/arrow-small-down.svg' | svgContents }}
 					</span>
 				</a>
 				
 			</h4>
-			<div class="mt-1 [&_ul]:marker:text-white" x-show="open" x-cloak x-collapse>
+			<div class="pt-2 prose prose-xl prose-invert hover:prose-a:text-cc hover:prose-a:transition" x-show="open" x-cloak x-collapse>
 				{{ row.description | markdownify }}
 			</div>
 		</div>
