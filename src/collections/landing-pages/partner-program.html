@@ -96,7 +96,7 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Try for free
+                  text: Become a partner
                   link: /
                 styles:
                   style: normal
@@ -757,12 +757,40 @@ content_blocks:
                     width: full
             right:
               blocks:
+                - _bookshop_name: simple/expandable-list
+                  content:
+                    rows:
+                      - title: Bronze
+                        description: abc
+                        icon: 
+                      - title: Silver
+                        description: abc
+                        icon:
+                      - title: Gold
+                        description: abc
+                        icon:
+                      - title: Platinum
+                        description: abc
+                        icon:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      margin:
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      margin:
+                        top: 0
+                        bottom: 0
           styles:
             desktop:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 20
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: top
@@ -778,11 +806,11 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
