@@ -804,7 +804,7 @@ content_blocks:
                 active: false
                 align_block: left
             width: full
-        - _bookshop_name: simple/accordion
+        - _bookshop_name: simple/image-cycle
           content:
             rows:
               - title: Git-based CMS

@@ -2,8 +2,8 @@
 spec:
   structures:
     - blocks
-  label: "Accordion"
-  description: Displays an accordion of information
+  label: "Image Cycle"
+  description: Cycles through images by clicking on headings
   icon: dynamic_feed
   tags: ['content']
 

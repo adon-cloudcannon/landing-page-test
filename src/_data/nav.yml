@@ -33,11 +33,11 @@
             icon: 'command-line'
             description: "Host the fastest websites"
           - name: For Digital Agencies
-            link: ''
+            link: '/partner-program/'
             icon: 'paint-brush'
             description: "Host the fastest websites"
           - name: For Enterprise
-            link: ''
+            link: '/enterprise/'
             icon: 'building-office'
             description: "Host the fastest websites"
       - title: Use Cases

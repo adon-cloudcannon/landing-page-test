@@ -1,0 +1,51 @@
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
+
+{% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
+
+{% assign container_name = "expandable-list" | UUID %}
+
+<style>
+	@media (min-width: 1280px) {
+		.{{ container_name}} {
+			{{ desktop_styles }}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ container_name}} {
+			{{ tablet_styles }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ container_name}} {
+			{{ mobile_styles }}
+		}
+	}
+</style>
+
+<div class="{{ container_name }}">
+	{% for row in content.rows %}
+		<div :class="open ? 'border-cc' : 'border-gray-700'" @click="open=!open" class="border cursor-pointer rounded-lg px-5 py-6 mt-3 first:mt-0 bg-[#151515]" x-data="{ open: false }">
+			<h4 class="font-bold text-xl">
+				<a class="flex justify-between items-center">
+					<span class="[&>svg]:fill-cc [&>svg]:mr-2 [&>svg]:w-[28px] flex items-center">
+						{{ '/src/images/icons/solid/check-circle.svg' | svgContents }}
+						{{ row.title }}
+					</span>
+					<span :class="open ? 'rotate-180 [&>svg]:fill-cc' : '[&>svg]:fill-gray-300'" class="origin-center whitespace-nowrap w-4 h-4 [&>svg]:w-full transition">
+						{{ '/src/images/icons/solid/arrow-small-down.svg' | svgContents }}
+					</span>
+				</a>
+				
+			</h4>
+			<div class="pt-2 prose prose-xl prose-invert hover:prose-a:text-cc hover:prose-a:transition" x-show="open" x-cloak x-collapse>
+				{{ row.description | markdownify }}
+			</div>
+		</div>
+	{% endfor %}
+</div>
