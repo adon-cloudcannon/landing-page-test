@@ -3,8 +3,6 @@ _schema: default
 title: Eleventy
 layout: builder.html
 permalink: /eleventy/
-summary: A JavaScript based SSG
-image: /images/icons/ssgs/11ty.svg
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -809,25 +807,28 @@ content_blocks:
             rows:
               - title: Git-based CMS
                 description: >-
-                  Everything syncs back to Git so your development and
-                  content editing teams can always collaborate in sync.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
               - title: Publishing workflows
                 description: >-
-                  Everything syncs back to Git so your development and
-                  content editing teams can always collaborate in sync.
-                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
               - title: Range of editors
                 description: >-
-                  Everything syncs back to Git so your development and
-                  content editing teams can always collaborate in sync.
-                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
               - title: Component-driven workflows
                 description: >-
-                  Everything syncs back to Git so your development and
-                  content editing teams can always collaborate in sync.
-                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
             desktop:
               transform:
@@ -1574,17 +1575,30 @@ content_blocks:
           content:
             steps:
               - title: Sync your Eleventy site
-                description: CloudCannon gives you everything you need to create and manage your content, all on one platform. Build and host the best performing sites on the web with the help of our CMS for 11ty.
-                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18831_cx3etv.png
+                description: >-
+                  CloudCannon gives you everything you need to create and manage
+                  your content, all on one platform. Build and host the best
+                  performing sites on the web with the help of our CMS for 11ty.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Eleventy build
-                description: Add your environment variables, command line options, custom plugins, and more to automate your build.
-                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
+                description: >-
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
               - title: Invite your content team to collaborate
-                description: Start collaborating with your team. Edit content right on the page.
-                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18535_mj7jfe.png
+                description: >-
+                  Start collaborating with your team. Edit content right on the
+                  page.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
-                description: Delight your customers by hosting your site on a global CDN with unparalleled reach and speed.
-                image: https://res.cloudinary.com/dahpdufoq/image/upload/v1674963445/marketing-site/Group_18541_hj3frb.png
+                description: >-
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
