@@ -1,0 +1,14 @@
+announcement_banner_content: >-
+  ✨ &nbsp;[Full Eleventy support, new features and a starter
+  theme\!](https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/?utm_campaign=announcement&amp;utm_medium=website&amp;utm_source=banner)&nbsp;✨
+color: cloudcannon-blue
+
+_inputs:
+  color:
+    type: select
+    options:
+      values:
+        - cloudcannon-blue
+        - black
+        - sea
+        - caramel

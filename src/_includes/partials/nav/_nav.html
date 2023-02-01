@@ -7,6 +7,11 @@
 		}
 	"
 	x-trap.noscroll="mobileNavOpen">
+	
+	{% if announcement_banner.announcement_banner_content %}
+		{% include 'partials/nav/_announcement_banner.html' %}
+	{% endif %}
+
 	<div class="relative z-50 flex items-center container bg-white py-4">
 		<div class="flex-1">
 			<a href="/" class="w-56 transition delay-100 [&>svg>path]:hover:fill-cc_hover hidden lg:block"
