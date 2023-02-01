@@ -3,12 +3,20 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			csv = require("csvtojson"),
 			pluginBookshop = require("@bookshop/eleventy-bookshop"),
 			{ DateTime } = require("luxon"),
+			mila = require("markdown-it-link-attributes"),
 			markdownIt = require("markdown-it"),
 			md = new markdownIt({
 				html: true,
+			}).use(mila, {
+				matcher(href, config) {
+					return ! /^(https:\/\/(.*).?cloudcannon\.com|(?!http)).*$/gm.test(href);
+				},
+				attrs: {
+					target: "_blank",
+					rel: "noopener noreferrer"
+				}
 			}),
 			syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"),
-			mila = require("markdown-it-link-attributes"),
 			StyleRenderer = require('./src/config/style_renderer.js'),
 			ImageRenderer = require('./src/config/image_renderer.js'),
 			Helpers = require('./src/config/helpers.js');
@@ -48,6 +56,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("excerpt", Helpers.excerpt);
 	eleventyConfig.addFilter("UUID", Helpers.uuid);
+	eleventyConfig.addFilter("download_github_readme", Helpers.download_github_readme);
 
 	eleventyConfig.addPlugin(svgContents);
 	eleventyConfig.addPlugin(syntaxHighlight);

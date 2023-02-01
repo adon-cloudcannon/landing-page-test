@@ -81,7 +81,7 @@
             description: "Sharing the knowledge"
             icon: 'microphone'
           - name: Templates
-            link: ''
+            link: '/templates/'
             description: "Learn CloudCannon"
             icon: 'puzzle-piece'
       - title: "Partners"
