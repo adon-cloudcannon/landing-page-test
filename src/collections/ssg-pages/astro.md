@@ -3,7 +3,7 @@ _schema: default
 title: Astro
 layout: builder.html
 image: /images/icons/ssgs/astro.svg
-summary: Bring your own component framework. Astro offers first-class support for front-end tools like React, Vue, Svelte, and Tailwind CSS. 
+summary: Bring your own component framework, with first-class support for front-end tools like React, Vue, and Svelte. 
 permalink: /astro-cms/
 content_blocks:
   - _bookshop_name: sections/container

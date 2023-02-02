@@ -3,7 +3,7 @@ _schema: default
 title: Gatsby
 layout: builder.html
 image: /images/icons/ssgs/gatsby.svg
-summary: Gatsby is a React-based framework with performance, scalability and security built-in.
+summary: A React-based framework with performance, scalability and security built-in.
 permalink: /gatsby-cms/
 content_blocks:
   - _bookshop_name: sections/container

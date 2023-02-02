@@ -4,7 +4,7 @@ title: Hugo
 layout: builder.html
 permalink: /hugo-cms/
 image: /images/icons/ssgs/hugo.svg
-summary: The world’s fastest framework for building websites, with amazing build speed and flexibility.
+summary: The fastest framework for building websites, with great flexibility.
 content_blocks:
   - _bookshop_name: sections/container
     content:
