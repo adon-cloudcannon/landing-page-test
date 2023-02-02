@@ -2,6 +2,8 @@
 _schema: default
 title: Astro
 layout: builder.html
+image: /images/icons/ssgs/astro.svg
+summary: It's Astro!
 permalink: /astro-cms/
 content_blocks:
   - _bookshop_name: sections/container

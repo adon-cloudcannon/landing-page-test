@@ -209,7 +209,7 @@ eleventyComputed:
       {% for ssg in themes_ssgs %}
         {% assign i = i | plus: 1 %}
         <a class="border-b transition hover:opacity-100" :class="selected == {{ i }} ? 'border-b-cc' : 'opacity-50'" @click="selected = {{ i }}" >
-          <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="80" height="80" alt="{{ ssg.ssg_name }}" class="mr-[1px]">
+          <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="60" height="60" alt="{{ ssg.ssg_name }}" class="h-16 w-auto mx-3 mb-2">
         </a>
       {% endfor %}
     </div>

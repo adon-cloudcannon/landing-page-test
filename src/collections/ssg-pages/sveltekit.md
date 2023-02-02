@@ -2,6 +2,8 @@
 _schema: default
 title: SvelteKit
 layout: builder.html
+image: /images/icons/ssgs/sveltekit.svg
+summary: It's SvelteKit!
 permalink: /sveltekit-cms/
 content_blocks:
   - _bookshop_name: sections/container

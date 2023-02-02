@@ -1,8 +1,10 @@
 ---
 _schema: default
-title: Hugo
+title: Next.js
 layout: builder.html
-permalink: /hugo-cms/
+image: /images/icons/ssgs/nextjs.svg
+summary: It's Next.js!
+permalink: /nextjs-cms/
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -10,7 +12,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Hugo CMS editors love
+            text: The Next.js CMS for your entire team.
           styles:
             element: h1
             width: normal
@@ -47,8 +49,11 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Hugo CMS.
+              With CloudCannon as your Next.js CMS, your whole team can
+              collaborate to create incredible static sites with React
+              components. Developers can leverage their existing React
+              knowledge, and content editors will reap the benefits of
+              CloudCannon’s powerful and intuitive CMS.
           styles:
             desktop:
               text_alignment:
@@ -241,7 +246,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everything you need
+      label: It's all right here
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -249,7 +254,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Everything you need
+                    text: It's all right here
                   styles:
                     element: h2
                     width: normal
@@ -286,10 +291,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Everything you need for content management, all on one
-                      platform. Let your team build new pages, edit them
-                      visually, and host the best performing sites on the web
-                      with the help of the CloudCannon CMS for Hugo.&nbsp;
+                      CloudCannon gives you everything you need to create and
+                      manage your content, all on one platform. Build and host
+                      the best performing sites on the web with the help of our
+                      CMS for Next.js.
                   styles:
                     desktop:
                       text_alignment:
@@ -488,9 +493,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on Hugo
+                    alt: Faster and easier on Next.js
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675211799/marketing-site/Landing%20Pages/Group_18880_d9gwjj.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212425/marketing-site/Landing%20Pages/Group_18910_hr8ax0.png
                   styles:
                     border:
                     rounded:
@@ -565,7 +570,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Hugo site
+                    text: Works with your existing Next.js static sites
                   styles:
                     element: h2
                     width: normal
@@ -602,10 +607,16 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Hugo website from your Git
-                      repository, manages your build process, and enables your
-                      whole team to work together, faster. Everything can be
-                      updated by content editors with CloudCannon.
+                      CloudCannon syncs your Next.js website from your Git
+                      repository and enables developers to work together,
+                      faster. And as for your content team, they won’t need
+                      technical knowledge. From Markdown and HTML, to sections
+                      and data files, everything can be updated by content
+                      editors with CloudCannon.
+
+
+                      Or if you want to get started quickly, CloudCannon offers
+                      many free production-ready templates.&nbsp;&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -760,8 +771,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Take your editing team to the next level with CloudCannon’s
-              powerful content editing and publishing workflows.
+              Level up your editing team with CloudCannon’s logical and robust
+              visual content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
@@ -811,24 +822,30 @@ content_blocks:
                   editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
-              - title: Publishing workflows
+              - title: Catered to content editors
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Empower your editors with our Next.js CMS, while you work in
+                  parallel with them.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Range of editors
+              - title: Robust publishing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Prepare branches for staging and production workflows. Your
+                  content team will use the full power of Git, all behind a
+                  beautiful UI.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
-              - title: Component-driven workflows
+              - title: Intuitive live editing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Edit content directly on your website. With CloudCannon’s
+                  Visual Editor for Next.js, the whole team can contribute.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+              - title: Structured content and granular control with Next.js
+                description: >-
+                  Create a library of components for your content editors to
+                  build new pages using our Next.js CMS. 
+                image:
           styles:
             desktop:
               transform:
@@ -905,7 +922,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more about Hugo?
+                          text: Want to learn more about Next.js?
                         styles:
                           element: h3
                           width: normal
@@ -1041,7 +1058,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: Hugo + CloudCannon Guide
+                          text: Next.js + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1574,22 +1591,20 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Hugo site
-                description: >-
-                  Sign in to your GitHub, GitLab or Bitbucket account, and
-                  connect your Hugo repository.
+              - title: Sync your Next.js site
+                description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
-              - title: Configure your Hugo build
+              - title: Configure your Next.js build
                 description: >-
-                  Define your data types and give your team the ideal editing
-                  interfaces.
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212045/marketing-site/Landing%20Pages/Group_18882_kkehsd.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212378/marketing-site/Landing%20Pages/Group_18909_b9vaha.png
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, all
-                  without the help of a developer. 
+                  Give your team access to update the content on the site, using
+                  our Next.js CMS, and without the help of a developer.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
@@ -1709,7 +1724,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose Hugo?
+                    text: Why should you choose Next.js?
                   styles:
                     element: h2
                     width: normal
@@ -1746,24 +1761,23 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Hugo is widely supported by the Jamstack community, and
-                      has more than 100K live sites, largely because of its well
-                      deserved reputation for speed, simplicity and flexibility.
-                      It bills itself as “the world’s fastest static website
-                      engine”, with build times on an average site of &lt;1ms
-                      per page.
+                      Next.js is an incredibly popular React Framework for
+                      generating static sites. With CloudCannon and Next.js, you
+                      can use your existing React knowledge to maximum advantage
+                      for your next e-commerce site, web app, or responsive
+                      marketing site.
 
 
-                      Distributed as a single cross-platform binary and built
-                      with Golang, Hugo lets you get up and running sooner, with
-                      built-in functionalities like menus, sitemaps, feeds, i18n
-                      and image optimization. And when it comes to
-                      themes,&nbsp;[Hugo’s got them in
-                      spades](https://cloudcannon.com/blog/top-10-hugo-themes-for-2022/).
+                      Next.js is behind some of the world’s largest applications
+                      and websites. With CloudCannon’s Git-based CMS for
+                      Next.js, content teams will easily build pages in our
+                      intuitive visual editor, while developers benefit
+                      from&nbsp; a performant, responsive solution.
 
 
-                      Above all, Hugo boasts a thriving community of active and
-                      supportive users contributing to Hugo documentation.
+                      Please note: CloudCannon’s Next.js support is focused on
+                      Next.js’s SSG capabilities, and as such does not include
+                      SSR.
                   styles:
                     desktop:
                       text_alignment:
@@ -1810,7 +1824,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212127/marketing-site/Landing%20Pages/Group_18849_hxk8r2.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212254/marketing-site/Landing%20Pages/Group_18854_sqg66p.png
                   styles:
                     border:
                     rounded:

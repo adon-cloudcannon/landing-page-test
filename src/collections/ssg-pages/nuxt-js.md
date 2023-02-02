@@ -1,8 +1,10 @@
 ---
 _schema: default
-title: Jekyll
+title: Nuxt.js
 layout: builder.html
-permalink: /jekyll-cms/
+image: /images/icons/ssgs/nuxtjs.svg
+summary: It's Nuxt!
+permalink: /nuxtjs-cms/
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -10,7 +12,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Visual Jekyll CMS for the whole team
+            text: The Nuxt.js CMS marketers love
           styles:
             element: h1
             width: normal
@@ -47,8 +49,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your Jekyll CMS, you will have all the tools
-              you need to create amazing static websites.
+              Develop faster, edit easier, and publish confidently with
+              CloudCannon as your Nuxt.js CMS.
           styles:
             desktop:
               text_alignment:
@@ -241,7 +243,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everything you need, in one place
+      label: It's all right here
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -249,7 +251,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Everything you need, in one place
+                    text: Everything in one place
                   styles:
                     element: h2
                     width: normal
@@ -286,9 +288,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Manage content and host Jekyll sites all on a single
-                      platform. Build the best performing content sites on the
-                      web with the help of our Jekyll CMS.
+                      Everything you need for efficient content management, all
+                      on one platform. Let your team build new pages, edit them
+                      visually, and host the best performing sites on the web
+                      with the help of the CloudCannon CMS for Nuxt.js.&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -479,7 +482,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Jekyll site
+      label: Works with any Nuxt.ja site
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -487,9 +490,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on Jekyll
+                    alt: Faster and easier on Nuxt.js
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675209051/marketing-site/Landing%20Pages/Jekyll-CMS_mw9dec.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212605/marketing-site/Landing%20Pages/Group_18912_ffgiaf.png
                   styles:
                     border:
                     rounded:
@@ -564,7 +567,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Jekyll site
+                    text: Works with any Nuxt.js site
                   styles:
                     element: h2
                     width: normal
@@ -601,10 +604,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      ​​​​​CloudCannon deeply understands the front matter,
-                      HTML, Markdown, collections and data files on your Jekyll
-                      site. Sync your site and start updating content in
-                      minutes. This is great!
+                      CloudCannon syncs your Nuxt.js website from your Git
+                      repository, manages your build process, and enables your
+                      whole team to work together, faster. Everything can be
+                      updated by content editors with CloudCannon.
                   styles:
                     desktop:
                       text_alignment:
@@ -718,11 +721,11 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Powerful content editing
+      label: Intuitive content editing
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Powerful content editing
+            text: Intuitive content editing
           styles:
             element: h2
             width: normal
@@ -759,8 +762,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Take your editing team to the next level with intuitive content
-              editing and powerful publishing workflows.
+              Take your editing team to the next level with CloudCannon’s
+              powerful content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
@@ -806,27 +809,26 @@ content_blocks:
             rows:
               - title: Git-based CMS
                 description: >-
-                  All changes and workflows sync back to Git so your development
-                  and content editing teams are always in sync.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
-              - title: Catered to your editors
+              - title: Publishing workflows
                 description: >-
-                  Give your editors the freedom to change any piece of content,
-                  without fear of breaking the site.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Flexible publishing
+              - title: Range of editors
                 description: >-
-                  Create branches with staging/production workflows. Your
-                  content team has the full power of Git behind a beautiful
-                  interface.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
-              - title: Inline editing
+              - title: Component-driven workflows
                 description: >-
-                  Edit content directly on your website. With CloudCannon’s
-                  WYSIWYG editor, the whole team can contribute content.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
@@ -905,7 +907,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more about Jekyll?
+                          text: Want to learn more about Nuxt.js?
                         styles:
                           element: h3
                           width: normal
@@ -1041,7 +1043,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: Jekyll + CloudCannon Guide
+                          text: Nuxt.js + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1574,26 +1576,28 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Jekyll site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+              - title: Sync your Nuxt.js site
+                description: >-
+                  Sign in to your GitHub, GitLab or Bitbucket account, and
+                  connect your Nuxt.js repository.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
-              - title: Configure your Jekyll build
+              - title: Configure your editing
                 description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
+                  Define your data types and give your team the ideal editing
+                  interfaces.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211200/marketing-site/Landing%20Pages/Group_18878_leq2zy.png
-              - title: Invite your content team to collaborate
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212552/marketing-site/Landing%20Pages/Group_18911_it9ipo.png
+              - title: ' Invite your content team to collaborate'
                 description: >-
-                  Give your team access to update the content on the site
-                  without the help of a developer.
+                  Give your team access to update the content on the site, all
+                  without the help of a developer. 
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
-              - title: Go live with hosting
+              - title: Go live with Nuxt.js hosting included
                 description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed.
+                  Delight your customers by hosting your Nuxt.js sites on a
+                  global CDN with unparalleled reach and speed.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
@@ -1707,7 +1711,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose Jekyll?
+                    text: 'Why should you choose Nuxt.js? '
                   styles:
                     element: h2
                     width: normal
@@ -1744,21 +1748,22 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      A flexible, lightweight and blog-aware static site
-                      generator, Jekyll is one of the most popular SSGs
-                      available. Jekyll is built on Ruby with excellent
-                      documentation and an active (and responsive) community, so
-                      you’ll be able to find plenty of examples of Jekyll
-                      websites doing almost anything.
+                      Nuxt.js is a free and open source web application
+                      framework based on Vue.js, Node.js, webpack and Babel.js.
+                      It simplifies the development process for universal or
+                      single-page Vue apps.
 
 
-                      By design, Jekyll is relatively stripped back out of the
-                      box, but when you’re configuring your static site’s custom
-                      domain you’ll find an extensive theme and plugin library
-                      available. Jekyll’s&nbsp;[Liquid templating
-                      engine](https://jekyllrb.com/docs/step-by-step/02-liquid/)&nbsp;will
-                      be straightforward to pick up for anyone familiar with
-                      developing for Wordpress.
+                      With CloudCannon as your Nuxt.js CMS, your whole team can
+                      collaborate to create incredible static sites with Vue
+                      components. Developers can leverage their existing Vue
+                      knowledge, and content editors will reap the benefits of
+                      CloudCannon’s powerful and intuitive CMS.
+
+
+                      Please note: CloudCannon’s Nuxt.js support is focused on
+                      Nuxt.js’s SSG capabilities, and as such does not include
+                      SSR.
                   styles:
                     desktop:
                       text_alignment:
@@ -1805,7 +1810,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675210601/marketing-site/Landing%20Pages/Group_18848_lam2e8.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212489/marketing-site/Landing%20Pages/Group_18855_hw0ykx.png
                   styles:
                     border:
                     rounded:

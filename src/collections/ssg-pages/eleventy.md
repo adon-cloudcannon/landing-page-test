@@ -2,6 +2,8 @@
 _schema: default
 title: Eleventy
 layout: builder.html
+image: /images/icons/ssgs/11ty.svg
+summary: It's Eleventy!
 permalink: /eleventy/
 content_blocks:
   - _bookshop_name: sections/container

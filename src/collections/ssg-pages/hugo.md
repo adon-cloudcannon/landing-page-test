@@ -1,8 +1,10 @@
 ---
 _schema: default
-title: MkDocs
+title: Hugo
 layout: builder.html
-permalink: /mkdocs-cms/
+permalink: /hugo-cms/
+image: /images/icons/ssgs/hugo.svg
+summary: It's Hugo!
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -10,7 +12,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The MkDocs CMS for your whole team
+            text: The Hugo CMS editors love
           styles:
             element: h1
             width: normal
@@ -47,8 +49,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your MkDocs CMS, your whole team can
-              collaborate to create incredible documentation sites.
+              Develop faster, edit easier, and publish confidently with
+              CloudCannon as your Hugo CMS.
           styles:
             desktop:
               text_alignment:
@@ -241,7 +243,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everybody is on the same page
+      label: Everything you need
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -249,7 +251,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Everybody is on the same page
+                    text: Everything you need
                   styles:
                     element: h2
                     width: normal
@@ -286,10 +288,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon gives you everything you need to create and
-                      manage your documentation content, all on one platform.
-                      You’ll be able to build and host the best performing docs
-                      sites on the web with the help of our MkDocs CMS.
+                      Everything you need for content management, all on one
+                      platform. Let your team build new pages, edit them
+                      visually, and host the best performing sites on the web
+                      with the help of the CloudCannon CMS for Hugo.&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -410,8 +412,8 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: split
-                width: 687
+                type: fixed-fluid
+                width: 450
                 gap: 20
                 vertical_gap: 0
               vertical_block_alignment:
@@ -488,9 +490,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on MkDocs
+                    alt: Faster and easier on Hugo
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675213565/marketing-site/Landing%20Pages/MkDocs_1_jlhqd3.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675211799/marketing-site/Landing%20Pages/Group_18880_d9gwjj.png
                   styles:
                     border:
                     rounded:
@@ -565,7 +567,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with your existing MkDocs static sites
+                    text: Works with any Hugo site
                   styles:
                     element: h2
                     width: normal
@@ -602,13 +604,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your MkDocs website directly from your
-                      Git repository, and enables developers to work together,
-                      faster. As for your content team, they won’t need
-                      technical knowledge. From Markdown and HTML, to sections
-                      and data files, everything can be updated by content
-                      editors with CloudCannon. Best of all, no one needs to
-                      learn how to use Git.
+                      CloudCannon syncs your Hugo website from your Git
+                      repository, manages your build process, and enables your
+                      whole team to work together, faster. Everything can be
+                      updated by content editors with CloudCannon.
                   styles:
                     desktop:
                       text_alignment:
@@ -652,7 +651,7 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: split
+                type: fluid-fixed
                 width: 450
                 gap: 20
                 vertical_gap: 0
@@ -722,11 +721,11 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: What you see is what you edit
+      label: Intuitive content editing
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: What you see is what you edit
+            text: Intuitive content editing
           styles:
             element: h2
             width: normal
@@ -763,8 +762,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Level up your documentation team with CloudCannon’s logical and
-              robust visual content editing and publishing workflows.
+              Take your editing team to the next level with CloudCannon’s
+              powerful content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
@@ -808,29 +807,28 @@ content_blocks:
         - _bookshop_name: simple/image-cycle
           content:
             rows:
-              - title: Git Sync
+              - title: Git-based CMS
                 description: >-
-                  Everything syncs back to your Git repo, so development and
-                  content editing teams can always collaborate in sync.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
-              - title: Catered to content editors
+              - title: Publishing workflows
                 description: >-
-                  Empower your editors with our MkDocs CMS, while you and other
-                  developers work in parallel with them.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Robust publishing
+              - title: Range of editors
                 description: >-
-                  Prepare branches for staging and production workflows. Your
-                  content team will use the full power of Git, all behind a
-                  beautiful UI.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
-              - title: Intuitive editing
+              - title: Component-driven workflows
                 description: >-
-                  Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for MkDocs, the whole team can contribute.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
@@ -909,7 +907,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more about MkDocs?
+                          text: Want to learn more about Hugo?
                         styles:
                           element: h3
                           width: normal
@@ -1045,7 +1043,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: MkDocs + CloudCannon Guide
+                          text: Hugo + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1578,28 +1576,28 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your MkDocs site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+              - title: Sync your Hugo site
+                description: >-
+                  Sign in to your GitHub, GitLab or Bitbucket account, and
+                  connect your Hugo repository.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
-              - title: Configure your MkDocs build
+              - title: Configure your Hugo build
                 description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
+                  Define your data types and give your team the ideal editing
+                  interfaces.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675213516/marketing-site/Landing%20Pages/MkDocs-file-detected_myg7uo.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212045/marketing-site/Landing%20Pages/Group_18882_kkehsd.png
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, using
-                  our MkDocs CMS, and without the help of a developer.
+                  Give your team access to update the content on the site, all
+                  without the help of a developer. 
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed. Alternatively, bring your
-                  own hosting provider, and CloudCannon will handle it
-                  seamlessly.
+                  with unparalleled reach and speed.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
@@ -1713,7 +1711,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose MkDocs?
+                    text: Why should you choose Hugo?
                   styles:
                     element: h2
                     width: normal
@@ -1750,15 +1748,24 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      MkDocs is a fast, simple and popular static site generator
-                      that’s geared towards building project documentation.
-                      Documentation source files are written in Markdown, and
-                      configured with a single YAML configuration file.
+                      Hugo is widely supported by the Jamstack community, and
+                      has more than 100K live sites, largely because of its well
+                      deserved reputation for speed, simplicity and flexibility.
+                      It bills itself as “the world’s fastest static website
+                      engine”, with build times on an average site of &lt;1ms
+                      per page.
 
 
-                      MkDocs builds completely static HTML sites that you can
-                      host on CloudCannon’s global CDN, GitHub Pages, Amazon S3,
-                      or anywhere else you choose.
+                      Distributed as a single cross-platform binary and built
+                      with Golang, Hugo lets you get up and running sooner, with
+                      built-in functionalities like menus, sitemaps, feeds, i18n
+                      and image optimization. And when it comes to
+                      themes,&nbsp;[Hugo’s got them in
+                      spades](https://cloudcannon.com/blog/top-10-hugo-themes-for-2022/).
+
+
+                      Above all, Hugo boasts a thriving community of active and
+                      supportive users contributing to Hugo documentation.
                   styles:
                     desktop:
                       text_alignment:
@@ -1803,9 +1810,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: A MkDocs site with intuitive editing
+                    alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675219465/marketing-site/Landing%20Pages/MkDocs-site_2_oiki6u.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212127/marketing-site/Landing%20Pages/Group_18849_hxk8r2.png
                   styles:
                     border:
                     rounded:
@@ -1953,7 +1960,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Get your MkDocs site live and editable in minutes
+            text: Get started with CloudCannon
           styles:
             element: h2
             width: tight
@@ -1989,7 +1996,9 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: Bring your existing MkDocs sites or start fresh.
+            text_markdown: >-
+              Try out CloudCannon with a 14-day free trial, or get in touch with
+              us for a demo.
           styles:
             desktop:
               text_alignment:
@@ -2043,7 +2052,7 @@ content_blocks:
                   extra_classes:
               - _bookshop_name: simple/button
                 content:
-                  text: Book a demo
+                  text: Contact us
                   link: /
                 styles:
                   style: outline-white
