@@ -1,14 +1,14 @@
 ---
 _schema: default
-title: Eleventy
+title: Nuxt.js
 layout: builder.html
-image: /images/icons/ssgs/11ty.svg
+image: /images/icons/ssgs/nuxtjs.svg
+summary: It's Nuxt!
+permalink: /nuxtjs-cms/
 description:
 seo:
   featured_image:
   featured_image_alt:
-summary: It's Eleventy!
-permalink: /eleventy/
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -16,7 +16,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A fully featured Eleventy CMS for everyone.
+            text: The Nuxt.js CMS marketers love
           styles:
             element: h1
             width: normal
@@ -53,8 +53,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your 11ty CMS, your whole team can collaborate
-              to create amazing websites.
+              Develop faster, edit easier, and publish confidently with
+              CloudCannon as your Nuxt.js CMS.
           styles:
             desktop:
               text_alignment:
@@ -255,7 +255,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: It's all right here
+                    text: Everything in one place
                   styles:
                     element: h2
                     width: normal
@@ -292,10 +292,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon gives you everything you need to create and
-                      manage your content, all on one platform. Build and host
-                      the best performing sites on the web with the help of our
-                      CMS for 11ty.
+                      Everything you need for efficient content management, all
+                      on one platform. Let your team build new pages, edit them
+                      visually, and host the best performing sites on the web
+                      with the help of the CloudCannon CMS for Nuxt.js.&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -486,7 +486,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Eleventy site
+      label: Works with any Nuxt.ja site
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -494,9 +494,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on 11ty
+                    alt: Faster and easier on Nuxt.js
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674884132/marketing-site/image_9_yqbchd.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212605/marketing-site/Landing%20Pages/Group_18912_ffgiaf.png
                   styles:
                     border:
                     rounded:
@@ -571,7 +571,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Eleventy site
+                    text: Works with any Nuxt.js site
                   styles:
                     element: h2
                     width: normal
@@ -608,7 +608,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your 11ty website from your Git
+                      CloudCannon syncs your Nuxt.js website from your Git
                       repository, manages your build process, and enables your
                       whole team to work together, faster. Everything can be
                       updated by content editors with CloudCannon.
@@ -911,7 +911,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more about 11ty?
+                          text: Want to learn more about Nuxt.js?
                         styles:
                           element: h3
                           width: normal
@@ -1047,7 +1047,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: 11ty + CloudCannon Guide
+                          text: Nuxt.js + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1580,29 +1580,28 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Eleventy site
+              - title: Sync your Nuxt.js site
                 description: >-
-                  CloudCannon gives you everything you need to create and manage
-                  your content, all on one platform. Build and host the best
-                  performing sites on the web with the help of our CMS for 11ty.
+                  Sign in to your GitHub, GitLab or Bitbucket account, and
+                  connect your Nuxt.js repository.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
-              - title: Configure your Eleventy build
+              - title: Configure your editing
                 description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
+                  Define your data types and give your team the ideal editing
+                  interfaces.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
-              - title: Invite your content team to collaborate
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212552/marketing-site/Landing%20Pages/Group_18911_it9ipo.png
+              - title: ' Invite your content team to collaborate'
                 description: >-
-                  Start collaborating with your team. Edit content right on the
-                  page.
+                  Give your team access to update the content on the site, all
+                  without the help of a developer. 
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
-              - title: Go live with hosting
+              - title: Go live with Nuxt.js hosting included
                 description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed.
+                  Delight your customers by hosting your Nuxt.js sites on a
+                  global CDN with unparalleled reach and speed.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
@@ -1716,7 +1715,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose Eleventy?
+                    text: 'Why should you choose Nuxt.js? '
                   styles:
                     element: h2
                     width: normal
@@ -1753,28 +1752,22 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Eleventy is billed as the “simpler static site generator”,
-                      and was created as a zero-config JavaScript alternative to
-                      Jekyll. It has a growing reputation for its ease of use:
-                      it works well with existing project files and multiple
-                      data sources, maintains low build times, and also features
-                      logical and intuitive hierarchies.
+                      Nuxt.js is a free and open source web application
+                      framework based on Vue.js, Node.js, webpack and Babel.js.
+                      It simplifies the development process for universal or
+                      single-page Vue apps.
 
 
-                      Eleventy is fast, lets you stay flexible, doesn’t require
-                      any client-side JavaScript, and doesn’t require you to
-                      learn any specific frameworks like Vue or React.Built with
-                      JavaScript and easily installed via npm,
+                      With CloudCannon as your Nuxt.js CMS, your whole team can
+                      collaborate to create incredible static sites with Vue
+                      components. Developers can leverage their existing Vue
+                      knowledge, and content editors will reap the benefits of
+                      CloudCannon’s powerful and intuitive CMS.
 
 
-                      Eleventy is also extremely flexible in its range of
-                      template languages: HTML, Markdown, JavaScript, Liquid,
-                      Nunjucks, Handlebars, Mustache, EJS, Haml and Pug. Pick
-                      one, or if your team has a range of experience, use as
-                      many as you want — all within a single project on your
-                      custom domain.With Eleventy’s independent template
-                      engines, your content can remain firmly decoupled for any
-                      future transitions.
+                      Please note: CloudCannon’s Nuxt.js support is focused on
+                      Nuxt.js’s SSG capabilities, and as such does not include
+                      SSR.
                   styles:
                     desktop:
                       text_alignment:
@@ -1821,7 +1814,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674954946/marketing-site/Group_18528_j98j2i.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212489/marketing-site/Landing%20Pages/Group_18855_hw0ykx.png
                   styles:
                     border:
                     rounded:

@@ -2,6 +2,8 @@
 _schema: default
 title: SvelteKit
 layout: builder.html
+image: /images/icons/ssgs/sveltekit.svg
+summary: It's SvelteKit!
 permalink: /sveltekit-cms/
 description:
 seo:
@@ -493,9 +495,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on 11ty
+                    alt: Faster and easier on SvelteKit
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674884132/marketing-site/image_9_yqbchd.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212927/marketing-site/Landing%20Pages/Group_18913_z23spt.png
                   styles:
                     border:
                     rounded:
@@ -1594,19 +1596,19 @@ content_blocks:
               - title: Sync your SvelteKit site
                 description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18831_cx3etv.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your SvelteKit build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212851/marketing-site/Landing%20Pages/SvelteKit-file-detected_b6nztf.png
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
                   our SvelteKit CMS, and without the help of a developer.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18535_mj7jfe.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
@@ -1614,7 +1616,7 @@ content_blocks:
                   own hosting provider, and CloudCannon will handle it
                   seamlessly.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963445/marketing-site/Group_18541_hj3frb.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1828,7 +1830,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674954946/marketing-site/Group_18528_j98j2i.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212718/marketing-site/Landing%20Pages/SvelteKit-screen_kzliu8.png
                   styles:
                     border:
                     rounded:

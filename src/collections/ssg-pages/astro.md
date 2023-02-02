@@ -1,12 +1,10 @@
 ---
 _schema: default
-title: Nuxt.js
+title: Astro
 layout: builder.html
-permalink: /nuxtjs-cms/
-description:
-seo:
-  featured_image:
-  featured_image_alt:
+image: /images/icons/ssgs/astro.svg
+summary: It's Astro!
+permalink: /astro-cms/
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -14,7 +12,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Nuxt.js CMS marketers love
+            text: The Astro CMS you've been waiting for
           styles:
             element: h1
             width: normal
@@ -51,8 +49,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Nuxt.js CMS.
+              With CloudCannon as your Astro CMS, your whole team can
+              collaborate to create incredibly fast static sites with React,
+              Preact, Vue, and Svelte components — and more!
           styles:
             desktop:
               text_alignment:
@@ -245,7 +244,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: It's all right here
+      label: All together now
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -253,7 +252,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Everything in one place
+                    text: All together now
                   styles:
                     element: h2
                     width: normal
@@ -290,10 +289,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Everything you need for efficient content management, all
-                      on one platform. Let your team build new pages, edit them
-                      visually, and host the best performing sites on the web
-                      with the help of the CloudCannon CMS for Nuxt.js.&nbsp;
+                      Build and host the best performing sites on the web.
+                      CloudCannon gives you everything you need to create and
+                      manage your content for your Astro project, all on one
+                      platform.
                   styles:
                     desktop:
                       text_alignment:
@@ -484,7 +483,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Nuxt.ja site
+      label: Works with your existing Astro static sites
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -492,9 +491,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on 11ty
+                    alt: Faster and easier on Astro
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674884132/marketing-site/image_9_yqbchd.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675213435/marketing-site/Landing%20Pages/Group_18915_afi1bb.png
                   styles:
                     border:
                     rounded:
@@ -569,7 +568,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Nuxt.js site
+                    text: Works with your existing Astro static sites
                   styles:
                     element: h2
                     width: normal
@@ -606,10 +605,13 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Nuxt.js website from your Git
-                      repository, manages your build process, and enables your
-                      whole team to work together, faster. Everything can be
-                      updated by content editors with CloudCannon.
+                      CloudCannon syncs your Astro website directly from your
+                      Git repository, and enables developers to work together,
+                      faster. As for your content team, they won’t need
+                      technical knowledge. From Markdown and HTML, to sections
+                      and data files, everything can be updated by content
+                      editors with CloudCannon. Best of all, no one needs to
+                      learn how to use Git.
                   styles:
                     desktop:
                       text_alignment:
@@ -764,8 +766,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Take your editing team to the next level with CloudCannon’s
-              powerful content editing and publishing workflows.
+              Level up your editing team with CloudCannon’s logical and robust
+              visual content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
@@ -809,30 +811,36 @@ content_blocks:
         - _bookshop_name: simple/image-cycle
           content:
             rows:
-              - title: Git-based CMS
+              - title: Git Sync
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Everything syncs back to your Git repo, so development and
+                  content editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
-              - title: Publishing workflows
+              - title: Catered to content editors
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Empower your editors with our CMS for Astro, while you and
+                  other developers work in parallel with them.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Range of editors
+              - title: Robust publishing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Prepare branches for staging and production workflows. Your
+                  content team will use the full power of Git, all behind a
+                  beautiful UI.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
-              - title: Component-driven workflows
+              - title: Intuitive editing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Edit content directly on your website. With CloudCannon’s
+                  Visual Editor for Astro, the whole team can contribute.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+              - title: 'Structured content and granular control '
+                description: >-
+                  Create a library of components for your content editors to
+                  build new pages using our Astro CMS. 
+                image:
           styles:
             desktop:
               transform:
@@ -909,7 +917,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more about Nuxt.js?
+                          text: Want to learn more about Astro?
                         styles:
                           element: h3
                           width: normal
@@ -1045,7 +1053,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: Nuxt.js + CloudCannon Guide
+                          text: Astro + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1422,7 +1430,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Everything you need
+      label: Advance your content workflow with Astro on CloudCannon
       blocks:
         - _bookshop_name: simple/spacer
           content:
@@ -1578,30 +1586,30 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Nuxt.js site
-                description: >-
-                  Sign in to your GitHub, GitLab or Bitbucket account, and
-                  connect your Nuxt.js repository.
+              - title: Sync your Astro site
+                description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18831_cx3etv.png
-              - title: Configure your editing
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
+              - title: Configure your Astro build
                 description: >-
-                  Define your data types and give your team the ideal editing
-                  interfaces.
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
-              - title: ' Invite your content team to collaborate'
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675213365/marketing-site/Landing%20Pages/Astro-file-detected_g7pnzx.png
+              - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, all
-                  without the help of a developer. 
+                  Give your team access to update the content on the site, using
+                  our Astro CMS, and without the help of a developer.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18535_mj7jfe.png
-              - title: Go live with Nuxt.js hosting included
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
+              - title: Go live with hosting
                 description: >-
-                  Delight your customers by hosting your Nuxt.js sites on a
-                  global CDN with unparalleled reach and speed.
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed. Alternatively, bring your
+                  own hosting provider, and CloudCannon will handle it
+                  seamlessly.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963445/marketing-site/Group_18541_hj3frb.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1713,7 +1721,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: 'Why should you choose Nuxt.js? '
+                    text: Why should you choose Astro?
                   styles:
                     element: h2
                     width: normal
@@ -1750,22 +1758,17 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Nuxt.js is a free and open source web application
-                      framework based on Vue.js, Node.js, webpack and Babel.js.
-                      It simplifies the development process for universal or
-                      single-page Vue apps.
+                      Astro is a powerful and lightweight static site generator
+                      that lets developers mix and match a variety of popular
+                      frameworks, including React, Preact, Svelte, Vue, SolidJS,
+                      AlpineJS and Lit.
 
 
-                      With CloudCannon as your Nuxt.js CMS, your whole team can
-                      collaborate to create incredible static sites with Vue
-                      components. Developers can leverage their existing Vue
-                      knowledge, and content editors will reap the benefits of
-                      CloudCannon’s powerful and intuitive CMS.
-
-
-                      Please note: CloudCannon’s Nuxt.js support is focused on
-                      Nuxt.js’s SSG capabilities, and as such does not include
-                      SSR.
+                      Astro automatically renders components to HTML at build
+                      time, stripping away all unnecessary JavaScript and
+                      keeping every site fast by default. With partial
+                      hydration, Astro also lets you hydrate individual
+                      interactive components on the page.
                   styles:
                     desktop:
                       text_alignment:
@@ -1812,7 +1815,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674954946/marketing-site/Group_18528_j98j2i.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675213278/marketing-site/Landing%20Pages/Astro-site_vdlhol.png
                   styles:
                     border:
                     rounded:

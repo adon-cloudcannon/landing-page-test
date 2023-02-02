@@ -451,100 +451,60 @@ content_blocks:
                 active: false
                 align_block: left
             width: full
-        - _bookshop_name: simple/logo-ticker
-          contents:
-            logo_blocks:
-              - _bookshop_name: simple/logo
-                content:
-                  logo: >-
-                    https://res.cloudinary.com/dahpdufoq/image/upload/v1671573531/marketing-site/astro_1.png
-                  name: Astro logo
-                  link: https://astro.build
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: false
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: false
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-              - _bookshop_name: simple/logo
-                content:
-                  logo: >-
-                    https://res.cloudinary.com/dahpdufoq/image/upload/v1671573531/marketing-site/MkDocs.png
-                  name: MkDocs logo
-                  link: /
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: false
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: false
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675236657/marketing-site/mkdocs_logo_y2uijo.svg
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1671570709/marketing-site/jekyll.svg
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1671570601/marketing-site/hugo.svg
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1671570644/marketing-site/NEXTjs.svg
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1671573531/marketing-site/astro_1.png
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1671570626/marketing-site/Gatsby.svg
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675236657/marketing-site/11ty_logo_w9xj9f.svg
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1671570617/marketing-site/NuxtJS.svg
+                title:
+                description:
+              - image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1671570497/marketing-site/sveltekit.svg
+                title:
+                description:
           styles:
             desktop:
               margin:
                 top: 0
-                right: 0
-                bottom: 0
-                left: 0
+                bottom: 60
             tablet:
               margin:
                 active: false
                 top: 0
-                right: 0
                 bottom: 0
-                left: 0
             mobile:
               margin:
                 active: false
                 top: 0
-                right: 0
                 bottom: 0
-                left: 0
     styles:
       background: night
       rounded: top
@@ -589,7 +549,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Developer a page building experience
+      label: Develop a page building experience
       blocks:
         - _bookshop_name: simple/heading
           content:
@@ -983,11 +943,11 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Setup Migration Configuration
+      label: Sync, configure, and go live
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Something about setup/migration/configuration
+            text: Sync, configure, and go live
           styles:
             element: h2
             width: tight
@@ -1021,57 +981,85 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
-        - _bookshop_name: simple/image
+        - _bookshop_name: simple/steps
           content:
-            alt: IMAGE PENDING
-            image: ''
+            steps:
+              - title: Sync your website
+                description: >-
+                  CloudCannon gives you everything you need to create and manage
+                  your content, all on one platform. Build and host the best
+                  performing sites on the web with the help of our Git-based
+                  CMS. 
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675237275/marketing-site/Group_18917_1_fgatxs.png
+              - title: Configure your build
+                description: >-
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675237336/marketing-site/Frame_18714_mbmshj.png
+              - title: Invite your content team to collaborate
+                description: >-
+                  Bring in everyone on your team, and give them the exact
+                  editing interface they need.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18535_mj7jfe.png
+              - title: Go live with hosting
+                description: >-
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed.
+                image: >-
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963445/marketing-site/Group_18541_hj3frb.png
           styles:
-            border:
-            rounded:
-            ontop:
             desktop:
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: left
               margin:
                 top: 0
-                left: 0
-                bottom: 50
-                right: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
+                bottom: 100
             tablet:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
             mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/quote
+          content:
+            quote: >-
+              CloudCannon gives our developers total control over our microsites
+              while giving the content team an easy-to-use interface.
+            name: Jason Adkins
+            position: Creative Specialist
+            company: Netflix
+            image: >-
+              https://res.cloudinary.com/dahpdufoq/image/upload/v1675127781/marketing-site/jason-adkins-1-removebg-preview_1_ybhrzp.png
+            logo: >-
+              https://res.cloudinary.com/dahpdufoq/image/upload/v1671570709/marketing-site/Netflix-og.svg
+          styles:
+            background: caramel
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 100
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
               transform:
                 active: false
                 scale: 1
@@ -1079,136 +1067,240 @@ content_blocks:
                 translate_y: 0
                 rotate: 0
                 skew: 0
-              block_alignment:
-                active: false
-                align_block: left
+            mobile:
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
-                right: 0
-              position:
+              block_alignment:
                 active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: An entire ecosystem behind you
+                  styles:
+                    element: h3
+                    width: tight
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 20
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Take your editing team to the next level with
+                      CloudCannon’s powerful content editing and publishing
+                      workflows.
+
+
+                      * <a target="_blank" rel="noopener"
+                      href="https://github.com/CloudCannon/bookshop"><strong>Bookshop</strong></a>
+                      — create component-driven development workflows and enable
+                      live rendering editing;
+
+                      * <a target="_blank" rel="noopener"
+                      href="https://pagefind.app/"><strong>Pagefind</strong></a>
+                      — static search that scales;
+
+                      * <a target="_blank" rel="noopener"
+                      href="https://reseed.app/"><strong>Reseed</strong></a> —
+                      integrate multiple sites into a single domain;
+
+                      * <a target="_blank" rel="noopener"
+                      href="https://rosey.app/"><strong>Rosey</strong></a> —
+                      manage translations for localization and i18n;
+
+                      * <a target="_blank" rel="noopener"
+                      href="https://github.com/CloudCannon/pagebreak"><strong>Pagebreak</strong></a>
+                      — granular configuration for site pagination.
+                  styles:
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: left
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    width: full
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt:
+                    image: >-
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674953870/marketing-site/Group_18619_ed58la.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+          styles:
+            desktop:
+              columns:
+                type: fixed-fluid
+                width: 400
+                gap: 40
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
     styles:
       background: night
       rounded: top
       size: normal
       align: none
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 80
-          right: 0
-          bottom: 80
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 50
-          right: 0
-          bottom: 80
-          left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: Choose your use case
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Choose your use case
-          styles:
-            element: h3
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 50
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/cards
-          content:
-            cards:
-              - image:
-                title: Marketing Website
-                description: Copy pending.
-              - image:
-                title: Documentation Website
-                description: Copy pending.
-              - image:
-                title: Blog
-                description: Copy pending.
-              - image:
-                title: Ecommerce
-                description: Copy pending.
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: sea
-      rounded: top
       desktop:
         margin:
           top: 0
@@ -1241,13 +1333,11 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 50
           right: 0
-          bottom: 0
+          bottom: 80
           left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
       label: CTA

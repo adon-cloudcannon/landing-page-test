@@ -21,7 +21,7 @@
       - title: Users
         sub_nav:
           - name: For Editors
-            link: ''
+            link: '/for-content-editors/'
             description: "Intutive editing for your content team"
             icon: 'pencil-square'
           - name: For Marketers
@@ -29,7 +29,7 @@
             description: "Work together, faster"
             icon: 'megaphone'
           - name: For Developers
-            link: ''
+            link: '/for-developers/'
             icon: 'command-line'
             description: "Host the fastest websites"
           - name: For Digital Agencies
@@ -81,7 +81,7 @@
             description: "Sharing the knowledge"
             icon: 'microphone'
           - name: Templates
-            link: ''
+            link: '/templates/'
             description: "Learn CloudCannon"
             icon: 'puzzle-piece'
       - title: "Partners"

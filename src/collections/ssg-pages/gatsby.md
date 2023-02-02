@@ -1,8 +1,10 @@
 ---
 _schema: default
-title: Hugo
+title: Gatsby
 layout: builder.html
-permalink: /hugo-cms/
+image: /images/icons/ssgs/gatsby.svg
+summary: It's Gatsby!
+permalink: /gatsby-cms/
 description:
 seo:
   featured_image:
@@ -14,7 +16,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Hugo CMS editors love
+            text: An intuitive Gatsby CMS for everyone.
           styles:
             element: h1
             width: normal
@@ -51,8 +53,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Hugo CMS.
+              With CloudCannon as your Gatsby CMS, your whole team can
+              collaborate to create amazing websites.
           styles:
             desktop:
               text_alignment:
@@ -245,7 +247,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everything you need
+      label: It's all right here
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -253,7 +255,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Everything you need
+                    text: It's all right here
                   styles:
                     element: h2
                     width: normal
@@ -290,10 +292,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Everything you need for content management, all on one
-                      platform. Let your team build new pages, edit them
-                      visually, and host the best performing sites on the web
-                      with the help of the CloudCannon CMS for Hugo.&nbsp;
+                      CloudCannon gives you everything you need to create and
+                      manage your content, all on one platform. Build and host
+                      the best performing sites on the web with the help of our
+                      CMS for Gastby.
                   styles:
                     desktop:
                       text_alignment:
@@ -484,7 +486,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Eleventy site
+      label: Works with any Gatsby site
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -492,9 +494,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on 11ty
+                    alt: Faster and easier on Gatsby
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674884132/marketing-site/image_9_yqbchd.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675213113/marketing-site/Landing%20Pages/Gatsby_sites_cc7xpp.png
                   styles:
                     border:
                     rounded:
@@ -569,7 +571,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Hugo site
+                    text: Works with any Gatsby site
                   styles:
                     element: h2
                     width: normal
@@ -606,10 +608,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Hugo website from your Git
-                      repository, manages your build process, and enables your
-                      whole team to work together, faster. Everything can be
-                      updated by content editors with CloudCannon.
+                      CloudCannon syncs your Gatsby website from your Git
+                      repository and enables the whole team to work together,
+                      faster. Everything can be updated by content editors with
+                      CloudCannon.
                   styles:
                     desktop:
                       text_alignment:
@@ -815,24 +817,31 @@ content_blocks:
                   editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
-              - title: Publishing workflows
+              - title: Built for content editors
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Empower your editors to create, while you work in parallel
+                  with them.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Range of editors
+              - title: Robust publishing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Prepare branches for staging and production workflows. Your
+                  content team will have the full power of Git behind a
+                  beautiful UI.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
-              - title: Component-driven workflows
+              - title: Intuitive inline editing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Edit content directly on your website. With CloudCannon’s
+                  WYSIWYG editor for Gatsby, the whole team can contribute, and
+                  stay on the same page.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+              - title: Structured content and granular control
+                description: >-
+                  Create a library of components for your content editors to
+                  build pages using our Gatsby CMS. 
+                image:
           styles:
             desktop:
               transform:
@@ -909,7 +918,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more about Hugo?
+                          text: Want to learn more about Gastby?
                         styles:
                           element: h3
                           width: normal
@@ -1045,7 +1054,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: Hugo + CloudCannon Guide
+                          text: Gatsby + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1498,7 +1507,7 @@ content_blocks:
                 skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Everything you need
+            text: Advance your content workflow with Gatsby on CloudCannon
           styles:
             element: h2
             width: normal
@@ -1578,30 +1587,28 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Hugo site
-                description: >-
-                  Sign in to your GitHub, GitLab or Bitbucket account, and
-                  connect your Hugo repository.
+              - title: Sync your Gatsby site
+                description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18831_cx3etv.png
-              - title: Configure your Hugo build
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
+              - title: Configure your Gatsby build
                 description: >-
-                  Define your data types and give your team the ideal editing
-                  interfaces.
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675213062/marketing-site/Landing%20Pages/Group_18914_y0kncr.png
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, all
-                  without the help of a developer. 
+                  Give your team members access to update the content on the
+                  site, using our Gatsby CMS — without the help of a developer.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18535_mj7jfe.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963445/marketing-site/Group_18541_hj3frb.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1713,7 +1720,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose Hugo?
+                    text: Why should you choose Gatsby?
                   styles:
                     element: h2
                     width: normal
@@ -1750,24 +1757,21 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Hugo is widely supported by the Jamstack community, and
-                      has more than 100K live sites, largely because of its well
-                      deserved reputation for speed, simplicity and flexibility.
-                      It bills itself as “the world’s fastest static website
-                      engine”, with build times on an average site of &lt;1ms
-                      per page.
+                      Gatsby is a static site generator built with React, and
+                      using React/JSX for its templating and GraphQL for
+                      queries. If you’re familiar with React, JavaScript, and
+                      Graph QL, you’ll be more than ready to get started.&nbsp;
 
 
-                      Distributed as a single cross-platform binary and built
-                      with Golang, Hugo lets you get up and running sooner, with
-                      built-in functionalities like menus, sitemaps, feeds, i18n
-                      and image optimization. And when it comes to
-                      themes,&nbsp;[Hugo’s got them in
-                      spades](https://cloudcannon.com/blog/top-10-hugo-themes-for-2022/).
+                      Gatsby is a developer-friendly SSG right out of the box,
+                      with inbuilt features like hot reloading, code splitting,
+                      prefetching, routing and caching.
 
 
-                      Above all, Hugo boasts a thriving community of active and
-                      supportive users contributing to Hugo documentation.
+                      And because Gatsby is an established static site
+                      generator, you’ll always have a widespread community to
+                      assist with any questions, and an enormous ecosystem of
+                      tried and tested plugins.
                   styles:
                     desktop:
                       text_alignment:
@@ -1814,7 +1818,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674954946/marketing-site/Group_18528_j98j2i.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212978/marketing-site/Landing%20Pages/Gatsby-site_gnv7hd.png
                   styles:
                     border:
                     rounded:

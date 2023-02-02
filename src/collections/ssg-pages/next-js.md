@@ -1,8 +1,10 @@
 ---
 _schema: default
-title: Jekyll
+title: Next.js
 layout: builder.html
-permalink: /jekyll-cms/
+image: /images/icons/ssgs/nextjs.svg
+summary: It's Next.js!
+permalink: /nextjs-cms/
 description:
 seo:
   featured_image:
@@ -14,7 +16,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Visual Jekyll CMS for the whole team
+            text: The Next.js CMS for your entire team.
           styles:
             element: h1
             width: normal
@@ -51,8 +53,11 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your Jekyll CMS, you will have all the tools
-              you need to create amazing static websites.
+              With CloudCannon as your Next.js CMS, your whole team can
+              collaborate to create incredible static sites with React
+              components. Developers can leverage their existing React
+              knowledge, and content editors will reap the benefits of
+              CloudCannon’s powerful and intuitive CMS.
           styles:
             desktop:
               text_alignment:
@@ -245,7 +250,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everything you need, in one place
+      label: It's all right here
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -253,7 +258,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Everything you need, in one place
+                    text: It's all right here
                   styles:
                     element: h2
                     width: normal
@@ -290,9 +295,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Manage content and host Jekyll sites all on a single
-                      platform. Build the best performing content sites on the
-                      web with the help of our Jekyll CMS.
+                      CloudCannon gives you everything you need to create and
+                      manage your content, all on one platform. Build and host
+                      the best performing sites on the web with the help of our
+                      CMS for Next.js.
                   styles:
                     desktop:
                       text_alignment:
@@ -483,7 +489,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Jekyll site
+      label: Works with any Eleventy site
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -491,9 +497,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on Jekyll
+                    alt: Faster and easier on Next.js
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675209051/marketing-site/Landing%20Pages/Jekyll-CMS_mw9dec.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212425/marketing-site/Landing%20Pages/Group_18910_hr8ax0.png
                   styles:
                     border:
                     rounded:
@@ -568,7 +574,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Jekyll site
+                    text: Works with your existing Next.js static sites
                   styles:
                     element: h2
                     width: normal
@@ -605,10 +611,16 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      ​​​​​CloudCannon deeply understands the front matter,
-                      HTML, Markdown, collections and data files on your Jekyll
-                      site. Sync your site and start updating content in
-                      minutes. This is great!
+                      CloudCannon syncs your Next.js website from your Git
+                      repository and enables developers to work together,
+                      faster. And as for your content team, they won’t need
+                      technical knowledge. From Markdown and HTML, to sections
+                      and data files, everything can be updated by content
+                      editors with CloudCannon.
+
+
+                      Or if you want to get started quickly, CloudCannon offers
+                      many free production-ready templates.&nbsp;&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -722,11 +734,11 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Powerful content editing
+      label: Intuitive content editing
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Powerful content editing
+            text: Intuitive content editing
           styles:
             element: h2
             width: normal
@@ -763,8 +775,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Take your editing team to the next level with intuitive content
-              editing and powerful publishing workflows.
+              Level up your editing team with CloudCannon’s logical and robust
+              visual content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
@@ -810,29 +822,34 @@ content_blocks:
             rows:
               - title: Git-based CMS
                 description: >-
-                  All changes and workflows sync back to Git so your development
-                  and content editing teams are always in sync.
+                  Everything syncs back to Git so your development and content
+                  editing teams can always collaborate in sync.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
-              - title: Catered to your editors
+              - title: Catered to content editors
                 description: >-
-                  Give your editors the freedom to change any piece of content,
-                  without fear of breaking the site.
+                  Empower your editors with our Next.js CMS, while you work in
+                  parallel with them.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Flexible publishing
+              - title: Robust publishing
                 description: >-
-                  Create branches with staging/production workflows. Your
-                  content team has the full power of Git behind a beautiful
-                  interface.
+                  Prepare branches for staging and production workflows. Your
+                  content team will use the full power of Git, all behind a
+                  beautiful UI.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
-              - title: Inline editing
+              - title: Intuitive live editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
-                  WYSIWYG editor, the whole team can contribute content.
+                  Visual Editor for Next.js, the whole team can contribute.
                 image: >-
                   https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+              - title: Structured content and granular control with Next.js
+                description: >-
+                  Create a library of components for your content editors to
+                  build new pages using our Next.js CMS. 
+                image:
           styles:
             desktop:
               transform:
@@ -909,7 +926,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Want to learn more about Jekyll?
+                          text: Want to learn more about Next.js?
                         styles:
                           element: h3
                           width: normal
@@ -1045,7 +1062,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url:
-                          text: Jekyll + CloudCannon Guide
+                          text: Next.js + CloudCannon Guide
                         styles:
                           margin:
                             top: 12
@@ -1578,28 +1595,28 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Jekyll site
+              - title: Sync your Next.js site
                 description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18831_cx3etv.png
-              - title: Configure your Eleventy build
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
+              - title: Configure your Next.js build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212378/marketing-site/Landing%20Pages/Group_18909_b9vaha.png
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site
-                  without the help of a developer.
+                  Give your team access to update the content on the site, using
+                  our Next.js CMS, and without the help of a developer.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18535_mj7jfe.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963445/marketing-site/Group_18541_hj3frb.png
+                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1711,7 +1728,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose Jekyll?
+                    text: Why should you choose Next.js?
                   styles:
                     element: h2
                     width: normal
@@ -1748,21 +1765,23 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      A flexible, lightweight and blog-aware static site
-                      generator, Jekyll is one of the most popular SSGs
-                      available. Jekyll is built on Ruby with excellent
-                      documentation and an active (and responsive) community, so
-                      you’ll be able to find plenty of examples of Jekyll
-                      websites doing almost anything.
+                      Next.js is an incredibly popular React Framework for
+                      generating static sites. With CloudCannon and Next.js, you
+                      can use your existing React knowledge to maximum advantage
+                      for your next e-commerce site, web app, or responsive
+                      marketing site.
 
 
-                      By design, Jekyll is relatively stripped back out of the
-                      box, but when you’re configuring your static site’s custom
-                      domain you’ll find an extensive theme and plugin library
-                      available. Jekyll’s&nbsp;[Liquid templating
-                      engine](https://jekyllrb.com/docs/step-by-step/02-liquid/)&nbsp;will
-                      be straightforward to pick up for anyone familiar with
-                      developing for Wordpress.
+                      Next.js is behind some of the world’s largest applications
+                      and websites. With CloudCannon’s Git-based CMS for
+                      Next.js, content teams will easily build pages in our
+                      intuitive visual editor, while developers benefit
+                      from&nbsp; a performant, responsive solution.
+
+
+                      Please note: CloudCannon’s Next.js support is focused on
+                      Next.js’s SSG capabilities, and as such does not include
+                      SSR.
                   styles:
                     desktop:
                       text_alignment:
@@ -1809,7 +1828,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674954946/marketing-site/Group_18528_j98j2i.png
+                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212254/marketing-site/Landing%20Pages/Group_18854_sqg66p.png
                   styles:
                     border:
                     rounded:

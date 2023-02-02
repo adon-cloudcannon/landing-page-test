@@ -16,7 +16,7 @@
     {% assign cross = "bg-blackish" %}
 {% endif %}
 
-<div class="c-announcement-banner {{ background }}" x-data="{ announcementBannerOpen: $persist(true).using(sessionStorage) }">
+<div class="c-announcement-banner {{ background }}" x-data="{ announcementBannerOpen: $persist(true).using(sessionStorage) }" x-cloak>
     <div class="c-announcement-banner__container container flex" x-show="announcementBannerOpen">
         <div class="c-announcement-banner__container__content flex justify-center text-center w-full	{{ text }} py-2 [&_a]:font-bold [&_a]:underline [&_img]:max-h-5 [&_img]:w-auto [&_img]:align-middle">
             {{ announcement_banner.announcement_banner_content | markdownify }}

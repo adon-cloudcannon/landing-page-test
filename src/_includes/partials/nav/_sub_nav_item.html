@@ -1,5 +1,5 @@
 {% assign nav_count = item.sub_navs | size %}
-<div x-show="open" class="caret">
+<div x-show="open" x-cloak class="caret">
 	<div class="shadow-menu bg-white grid grid-cols-3 justify-center right-0 left-0 absolute mt-6 pb-6 z-30 px-10 rounded-xl">
 		{% for sub_nav in item.sub_navs %}
 			<div class="py-5 mx-4">

@@ -1,18 +1,14 @@
 ---
-title: Technologies
+title: Templates
 layout: builder.html
-permalink: /technologies/
-description:
-seo:
-  featured_image:
-  featured_image_alt:
+permalink: /templates/
 content_blocks:
   - _bookshop_name: sections/container
     content:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Use your favorite technology stack
+            text: Themes for Static Site Generators
           styles:
             size: h1
             width: normal
@@ -48,7 +44,7 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: CloudCannon supports all major static site generators so that you can choose the tool that works for your project. 
+            text_markdown: Explore our library of free CloudCannon-ready themes for your Jamstack project. Once you’ve chosen your static site generator (SSG) you can deploy it to CloudCannon with a single click, and you’re all ready to start using our Visual Editor interface.
           styles:
             desktop:
               text_alignment: 
@@ -135,25 +131,25 @@ content_blocks:
 
 <div class="container">
 
-  {% assign ssgs = collections.ssg-pages %}
+  {% assign themes = collections.themes | sort: 'data.priority' %}
 
-  <div class="grid grid-cols-4 gap-x-6 gap-y-10 mb-28 mt-5">
+  <div class="grid grid-cols-2 gap-x-6 gap-y-20 mb-28 mt-5">
     
-    {% for ssg in ssgs %}
-      <a class="group relative transition duration-200 pt-10 pb-16 px-5 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" 
-        href="{{ ssg.url }}">
-        <img src="{{ ssg.data.image }}" class="h-16 w-auto" alt="{{ ssg.data.title }}">
-        <h3 class="text-3xl font-bold mt-8 mb-4">
-          {{ ssg.data.title }}
+    {% for theme in themes %}
+      <div class="relative">
+        <a href="{{ theme.url }}" class="group">
+          <img src="{{ theme.data.image }}" class="h-[373px] transition rounded-lg border group-hover:opacity-80 group-hover:scale-105" alt="{{ theme.data.title }}">
+        </a>
+        <div class="flex mt-3">
+          {% for ssg in theme.data.themes_ssgs %}
+            <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]">
+          {% endfor %}
+        </div>
+        <h3 class="text-xl font-bold mt-1">
+          <a href="{{ theme.url }}" class="hover:underline">{{ theme.data.name }}</a>
         </h3>
-        <p class="text-xl">{{ ssg.data.summary }}</p>
-        <p class="absolute bottom-[15px] text-lg font-bold text-cc group-hover:underline">
-          Learn more
-          <span class="inline-block w-4 relative top-[3px] ml-[2px]">
-            {{ '/src/images/icons/outline/arrow-right.svg' | svgContents }}
-          </span>
-        </p>
-      </a>
+        <p class="">{{ theme.data.description }}</p>
+      </div>
     {% endfor %}
   </div>
 </div>
