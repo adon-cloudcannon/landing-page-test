@@ -7,7 +7,7 @@ description:
 seo:
   featured_image:
   featured_image_alt:
-summary: It's Eleventy!
+summary: Eleventy is one of the most popular (and fastest) static site generators in the world, with absolute flexibility for developers.
 permalink: /eleventy/
 content_blocks:
   - _bookshop_name: sections/container

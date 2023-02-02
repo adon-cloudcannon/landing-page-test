@@ -3,7 +3,7 @@ _schema: default
 title: MkDocs
 layout: builder.html
 image: /images/icons/ssgs/mkdocs.svg
-summary: It's MkDocs!
+summary: MkDocs is a fast and simple static site generator that's geared towards building project documentation.
 permalink: /mkdocs-cms/
 content_blocks:
   - _bookshop_name: sections/container

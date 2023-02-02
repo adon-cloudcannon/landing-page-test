@@ -3,7 +3,7 @@ _schema: default
 title: Jekyll
 layout: builder.html
 image: /images/icons/ssgs/jekyll.svg
-summary: It's Jekyll!
+summary: Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites.
 permalink: /jekyll-cms/
 description:
 seo:

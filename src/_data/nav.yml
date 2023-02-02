@@ -17,60 +17,60 @@
           - name: Technologies
             link: '/technologies/'
             icon: 'cube'
-            description: "Host the fastest websites"
+            description: "Work with the frameworks you love"
       - title: Users
         sub_nav:
           - name: For Editors
             link: '/for-content-editors/'
-            description: "Intutive editing for your content team"
+            description: "Create content with no roadblocks"
             icon: 'pencil-square'
           - name: For Marketers
             link: '/for-marketers/'
-            description: "Work together, faster"
+            description: "Create SEO-optimized sites every time"
             icon: 'megaphone'
           - name: For Developers
             link: '/for-developers/'
             icon: 'command-line'
-            description: "Host the fastest websites"
+            description: "Build, publish, and empower your team"
           - name: For Digital Agencies
             link: '/partner-program/'
             icon: 'paint-brush'
-            description: "Host the fastest websites"
+            description: "Support and empower your clients"
           - name: For Enterprise
             link: '/enterprise/'
             icon: 'building-office'
-            description: "Host the fastest websites"
+            description: "Collaborate, iterate, and publish seamlessly"
       - title: Use Cases
         sub_nav:
           - name: Case Studies
             link: '/customers/'
             icon: 'user-circle'
-            description: "Host the fastest websites"
+            description: "Why the best choose CloudCannon"
   - name: Resources
     sub_navs:
       - title: "Developers"
         sub_nav:
           - name: Documentation
             link: https://cloudcannon.com/documentation/
-            description: "Why companies choose CloudCannon"
+            description: "CloudCannon resources and guides"
             icon: 'code-bracket-square'
           - name: Tutorials
             link: '/learn/'
-            description: "Learn Jamstack"
+            description: "Learn Jamstack with CloudCannon"
             icon: 'academic-cap'
           - name: Cheatsheets
             link: '/community/cheat-sheets/jekyll/'
-            description: "Get help"
+            description: "Everything you need at a glance"
             icon: 'check-badge'
           - name: Jamstack ecosystem
             link: '/ecosystem/'
-            description: "Get help"
+            description: "The best tooling for your next website"
             icon: 'gift'
       - title: CloudCannon
         sub_nav:
           - name: Blog
             link: '/blog/'
-            description: "The latest at CloudCannon"
+            description: "The latest from CloudCannon"
             icon: 'light-bulb'
           - name: Support
             link: ''
@@ -78,17 +78,17 @@
             icon: 'inbox'
           - name: Events
             link: '/events/'
-            description: "Sharing the knowledge"
+            description: "Join us and share the knowledge"
             icon: 'microphone'
           - name: Templates
             link: '/templates/'
-            description: "Learn CloudCannon"
+            description: "Get started with a pre-configured site"
             icon: 'puzzle-piece'
       - title: "Partners"
         sub_nav:
           - name: Partner Program
             link: '/partner-program/'
-            description: "Why companies choose CloudCannon"
+            description: "Support and empower your clients"
             icon: 'briefcase'
           - name: Expert Directory
             link: ''

@@ -3,7 +3,7 @@ _schema: default
 title: SvelteKit
 layout: builder.html
 image: /images/icons/ssgs/sveltekit.svg
-summary: It's SvelteKit!
+summary: Fast and flexible, SvelteKit is powered by Svelte and Vite.
 permalink: /sveltekit-cms/
 description:
 seo:

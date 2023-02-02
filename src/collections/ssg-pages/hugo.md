@@ -8,7 +8,7 @@ seo:
   featured_image:
   featured_image_alt:
 image: /images/icons/ssgs/hugo.svg
-summary: It's Hugo!
+summary: The world’s fastest framework for building websites, with amazing build speed and flexibility.
 content_blocks:
   - _bookshop_name: sections/container
     content:
