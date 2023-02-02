@@ -3,7 +3,7 @@ _schema: default
 title: Nuxt.js
 layout: builder.html
 image: /images/icons/ssgs/nuxtjs.svg
-summary: It's Nuxt!
+summary: An intuitive web framework for Vue.js.
 permalink: /nuxtjs-cms/
 content_blocks:
   - _bookshop_name: sections/container

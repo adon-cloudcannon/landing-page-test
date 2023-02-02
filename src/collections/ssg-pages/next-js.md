@@ -3,7 +3,7 @@ _schema: default
 title: Next.js
 layout: builder.html
 image: /images/icons/ssgs/nextjs.svg
-summary: It's Next.js!
+summary: Next.js brings the power of full-stack (and React) to the frontend.
 permalink: /nextjs-cms/
 content_blocks:
   - _bookshop_name: sections/container
