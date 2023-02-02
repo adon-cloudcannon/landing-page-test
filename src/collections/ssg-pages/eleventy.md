@@ -3,7 +3,7 @@ _schema: default
 title: Eleventy
 layout: builder.html
 image: /images/icons/ssgs/11ty.svg
-summary: It's Eleventy!
+summary: Eleventy is one of the most popular (and fastest) static site generators in the world, with absolute flexibility for developers.
 permalink: /eleventy/
 content_blocks:
   - _bookshop_name: sections/container
