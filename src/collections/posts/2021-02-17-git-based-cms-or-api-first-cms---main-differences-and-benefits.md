@@ -8,6 +8,10 @@ tags:
   - Resources
 author: farrel-burns
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/git-branches.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ## Introduction
 

@@ -7,5 +7,8 @@ description: >-
   static sites.
 short_description: "Web, traffic, business and user behavior analytics tools."
 data: analytics
+seo:
+  featured_image:
+  featured_image_alt:
 ---
 

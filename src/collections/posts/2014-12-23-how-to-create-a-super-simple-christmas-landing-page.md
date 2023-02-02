@@ -5,6 +5,10 @@ tags:
   - Resources
 author: george-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-christmas-bauble.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 This week I felt like doing something Christmas related, it seemed quite relevant. Instead of enjoying the summer sun that a New Zealand Christmas offers I decided to build an experimental landing page to share. Hope you enjoy it.

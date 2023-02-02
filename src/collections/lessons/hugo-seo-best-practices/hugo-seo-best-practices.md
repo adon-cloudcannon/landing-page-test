@@ -3,6 +3,10 @@ title: Hugo SEO Best Practices
 image: /uploads/tutorial-social-image-seo.png
 order: 1
 tutorial: hugo-seo-best-practices-1
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 [Hugo](https://gohugo.io) is a popular static site generator used for a variety of blogs, marketing websites, and documentation websites. Search engine optimization (SEO) is often top-of-mind for these use cases, and there are many techniques you can perform on a Hugo site to improve your site’s ranking on the market-dominating Google and other search engines.

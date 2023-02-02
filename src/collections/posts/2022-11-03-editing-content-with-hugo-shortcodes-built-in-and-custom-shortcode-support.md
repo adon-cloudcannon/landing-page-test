@@ -7,6 +7,10 @@ description: >-
 series:
 permalink: /blog/editing-content-with-hugo-shortcodes/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-hugo-shortcodes.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-11-03T05:00:00+1300
 hide_publish_date: false
 tags:

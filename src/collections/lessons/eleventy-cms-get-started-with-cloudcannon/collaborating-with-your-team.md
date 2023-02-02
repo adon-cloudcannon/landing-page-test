@@ -4,6 +4,10 @@ image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy
 order: 5
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: An overview of collaborating with your team using CloudCannon.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 You can give your team access to update the website by sharing it with them. There are multiple types and levels of sharing:
 

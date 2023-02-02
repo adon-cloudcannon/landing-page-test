@@ -5,6 +5,10 @@ description: >-
   CloudCannon, the Git-based CMS for Hugo.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-fifty-themes.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-05-21T05:00:00+1200
 tags:
   - Hugo

@@ -6,6 +6,10 @@ tags:
   - Jekyll
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/paint.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 It's great to see the different ways people are using the [Jekyll templates we launched late last year](/announcements/2016/12/05/free-jekyll-templates/). To continue this success, we've put together three new templates ready for your next site. These are licensed under MIT to feel free to use them on client/commercial projects.
 

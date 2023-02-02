@@ -5,6 +5,10 @@ breadcrumb_title: Eleventy CMS - Get started with CloudCannon
 order: 1
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: Learn how to get your website set up on the CloudCannon Eleventy CMS.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Welcome to the CloudCannon Eleventy starter guide. If you’re looking to get your Eleventy site set up on CloudCannon and ready to hand off to content editors, you’re in the right place.

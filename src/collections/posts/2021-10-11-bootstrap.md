@@ -1,6 +1,10 @@
 ---
 title: 'Deconstruction: How Bootstrap powers their documentation site with Hugo'
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/showcases/bootstrap/bootstrap-hero.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 permalink: /blog/showcase-bootstrap/
 date: 2021-10-11T13:00:00+1300
 description: >-

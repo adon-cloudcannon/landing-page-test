@@ -6,6 +6,10 @@ tutorial: eleventy-beginner-guide
 description: >-
   Learn how layouts help you set up and reuse the main structure of your
   Eleventy site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Let’s set up our first page on our Eleventy site. Create `/index.html` with the following content:
 

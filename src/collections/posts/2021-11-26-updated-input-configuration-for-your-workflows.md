@@ -4,6 +4,10 @@ description: >-
   We’ve created a consolidated inputs key to streamline your development
   workflows.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/inputs-hero-2.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-11-26T12:00:00+1300
 tags:
   - Features

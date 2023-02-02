@@ -5,6 +5,10 @@ layout: builder.html
 permalink: /eleventy/
 summary: A JavaScript based SSG
 image: /images/icons/ssgs/11ty.svg
+description:
+seo:
+  featured_image:
+  featured_image_alt:
 content_blocks:
   - _bookshop_name: sections/container
     content:

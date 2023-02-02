@@ -8,6 +8,10 @@ tags:
   - Resources
 author: cloudcannon
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/two-developers.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 ## What are Jamstack and WordPress?

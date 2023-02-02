@@ -5,6 +5,10 @@ author: mike-neumegen
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-red-apple.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Until yesterday, my [personal website](http://mikeneumegen.com) was a video of me eating an apple with a moustache. The moustache is long gone so it's time for an update.

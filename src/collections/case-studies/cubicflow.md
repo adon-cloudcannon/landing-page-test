@@ -18,6 +18,10 @@ person:
     path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/matt-ellison.jpg
     alt: Matt Ellison
 date: 2021-03-26 12:37:00
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 As a team, Dan and Matt, the founders of Cubicflow, go all the way back.
 Starting as teenagers meeting online in graphic design forums, they

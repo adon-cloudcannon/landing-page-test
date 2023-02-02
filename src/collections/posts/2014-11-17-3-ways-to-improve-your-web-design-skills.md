@@ -5,6 +5,10 @@ author: george-phillips
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-hand-tracing-table.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Constant self improvement is one of my main philosophies in life. Getting just a little bit better at something every day is not only a way I improve myself professionally but I find it gives me a more fulfilling life.

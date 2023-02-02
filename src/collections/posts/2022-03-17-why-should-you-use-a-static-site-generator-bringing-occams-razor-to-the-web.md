@@ -7,6 +7,10 @@ description: >-
 series:
 permalink: /blog/why-should-you-use-a-static-site-generator/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/ssg-race.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-03-17T05:15:00+1300
 tags:
   - Resources

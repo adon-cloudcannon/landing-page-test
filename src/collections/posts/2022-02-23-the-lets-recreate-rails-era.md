@@ -4,6 +4,10 @@ description: "The sixth part of an ongoing series: In 2019, developers of static
 series: SSGs through the ages
 permalink: /blog/ssg-history-6-lets-recreate-rails/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-6_c0m80i.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-02-23T05:00:00.000Z
 tags:
   - Resources

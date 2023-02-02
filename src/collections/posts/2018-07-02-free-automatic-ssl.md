@@ -5,6 +5,10 @@ tags:
   - Features
 author: george-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-plasma-orb.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 This week [Chrome is releasing an update](https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html) that will show "Not Secure" on any site that uses HTTP. This is part of an ongoing strategy to create a more secure web. To assist with this change, we have added free automatic SSL certificates on all CloudCannon connected domains. This draws our SSL private beta to a close making it available for all CloudCannon users.

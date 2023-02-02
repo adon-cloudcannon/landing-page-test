@@ -5,6 +5,10 @@ description: >-
   that Hugo modules solve many of their consistency and standardization needs. 
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/nuance_hugo.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-07-30T05:00:00+1200
 author: nuance-communications-techpubs-team
 tags:

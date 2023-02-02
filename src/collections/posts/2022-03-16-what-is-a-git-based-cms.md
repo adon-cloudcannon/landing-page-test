@@ -6,6 +6,10 @@ description: >-
   technology? This is precisely the problem Git-based CMSs are addressing.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/what-is-a-git-cms.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-03-16T05:00:00+1300
 tags:
   - Resources

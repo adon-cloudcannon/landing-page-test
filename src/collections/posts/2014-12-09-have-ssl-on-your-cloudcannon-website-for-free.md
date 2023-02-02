@@ -5,6 +5,10 @@ author: mike-neumegen
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/ssl-cert.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Today I’m going to show you how you can add SSL to your CloudCannon website in under 5 minutes. What’s even better, it’s free\!

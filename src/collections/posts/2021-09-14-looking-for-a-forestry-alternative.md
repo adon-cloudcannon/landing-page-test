@@ -5,6 +5,10 @@ description: >-
   and Eleventy static sites? With CloudCannon's Git-based CMS, your search is at
   an end.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/forestry-alternative-2.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-09-14T05:00:00+1200
 tags:
   - Resources

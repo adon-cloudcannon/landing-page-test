@@ -6,6 +6,10 @@ description: >-
   changes mean for you?
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/web-turning-away-wordpress.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-06-24T05:00:00+1200
 tags:
   - Opinion

@@ -6,6 +6,10 @@ tutorial: eleventy-beginner-guide
 description: >-
   Learn basic Liquid templating concepts and see how you can use them on your
   Eleventy site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Templating is what gives us control over how pages are rendered in Eleventy. You can output variables, loop over an array, run a custom plugin to generate data … almost anything you want. The curly braces we were using earlier `{{ }}`, that’s Liquid templating.

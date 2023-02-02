@@ -6,4 +6,8 @@ order: '4'
 description: >-
   Learn how to set up and configure an Eleventy site to get the most out of
   CloudCannon.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---

@@ -5,6 +5,10 @@ tags:
   - Features
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/git-workflow.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 In the past we've talked about our mission of bringing [publishing workflows to non-technical editors](/blog/publishing-workflows-for-jekyll-editors/). This post is an update on some interesting new CloudCannon features bringing us closer to fully realising our vision.
 

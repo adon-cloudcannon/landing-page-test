@@ -5,6 +5,10 @@ description: >-
   reduce maintenance on static websites by developing components in isolation.
 permalink: /blog/introducing-bookshop/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/bookshop-feature-image.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-10-06T05:00:00+1300
 tags:
   - Features

@@ -5,6 +5,10 @@ description: >-
     ready for a slick new CloudCannon.
 permalink: /blog/ui-improvements-2021/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/improvements-hero-c.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-11-12T05:00:00+1300
 tags:
     - Features

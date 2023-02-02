@@ -7,6 +7,10 @@ tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-
   Connect and set up CloudCannon's open-source tool Bookshop to enable you to
   work with components on your Hugo site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### What you'll learn here
 

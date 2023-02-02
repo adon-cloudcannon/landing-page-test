@@ -6,6 +6,10 @@ description: >-
   closer look at Hugo’s archetypes.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-archetypes.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-03-24T06:00:00+1300
 tags:
   - Hugo

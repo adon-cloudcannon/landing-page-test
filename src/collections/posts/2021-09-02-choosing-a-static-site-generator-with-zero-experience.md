@@ -4,6 +4,10 @@ description: >-
   Choosing a static site generator that will work for you, without all that
   pesky 'developer knowledge'.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/choosing-ssg-beginner.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-09-02T05:00:00+1200
 tags:
   - Resources

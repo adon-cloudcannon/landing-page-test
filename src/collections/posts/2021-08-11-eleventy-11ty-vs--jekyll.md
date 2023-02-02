@@ -6,6 +6,10 @@ description: >-
   CMS, and both are ideal for marketing sites (such as this one, built with
   Jekyll), as well as documentation and blogs.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/eleventy-vs-jekyll.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-08-11T05:00:00+1200
 tags:
   - Resources

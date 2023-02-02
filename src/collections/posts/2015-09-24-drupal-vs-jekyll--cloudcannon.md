@@ -6,6 +6,10 @@ tags:
   - Jekyll
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/Shoes.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 There's a huge ecosystem of plugins and add-ons available for any CMS. In this comparison we'll be using the content management systems straight out of the box to reduce the complexity and time to get the sites live.
 

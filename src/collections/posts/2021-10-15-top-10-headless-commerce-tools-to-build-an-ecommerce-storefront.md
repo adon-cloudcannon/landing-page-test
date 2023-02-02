@@ -5,6 +5,10 @@ description: >-
     digital storefront.
 permalink: /blog/headless-commerce-tools/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/ecommerce-hero.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-10-15T05:00:00+1300
 tags:
   - Resources

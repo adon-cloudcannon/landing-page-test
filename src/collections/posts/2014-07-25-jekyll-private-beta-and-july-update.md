@@ -5,6 +5,10 @@ tags:
   - Features
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-night-time-sparklers.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ## Blogging is coming to CloudCannon\!
 

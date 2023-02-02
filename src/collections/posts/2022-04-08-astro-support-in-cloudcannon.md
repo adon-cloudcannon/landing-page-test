@@ -5,6 +5,10 @@ description: >-
   CloudCannon’s Git-based CMS.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/astro-blog.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-04-08T05:00:00+1200
 tags:
   - Features

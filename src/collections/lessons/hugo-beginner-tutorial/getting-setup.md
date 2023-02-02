@@ -5,6 +5,10 @@ breadcrumb_title: Hugo beginner tutorial
 tutorial: hugo-beginner-tutorial
 order: 1
 description: Get Hugo set up and installed for the rest of the lessons.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 {% bookshop "markdown/youtube" id:"SVvihs0WfhQ" title:"Getting set up in Hugo" extend:false %}
 

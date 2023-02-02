@@ -5,6 +5,10 @@ tags:
   - Features
 author: george-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/collection-of-postcards.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 This week we have a smaller release for some highly requested configuration. We added draft post compiling and defaults for creating collection items.
 

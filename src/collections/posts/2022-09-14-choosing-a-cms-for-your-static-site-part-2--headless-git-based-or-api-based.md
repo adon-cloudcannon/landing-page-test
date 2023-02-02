@@ -6,6 +6,10 @@ description: >-
   choose the best CMSs to evaluate.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/how-to-choose-a-cms-2r.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-09-14T05:00:00+1200
 hide_publish_date: true
 tags:

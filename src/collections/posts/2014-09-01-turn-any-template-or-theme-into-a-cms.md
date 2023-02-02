@@ -5,6 +5,10 @@ author: cloudcannon
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-indutratial-printing-press.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 CloudCannon makes it REALLY easy to get any HTML template or theme live and client editable.

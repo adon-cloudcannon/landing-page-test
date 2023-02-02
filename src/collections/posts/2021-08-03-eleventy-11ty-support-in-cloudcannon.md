@@ -5,6 +5,10 @@ description: >-
   levels can enjoy the user friendly all-in-one platform for their Jamstack
   projects.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/introducing-eleventy-1.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-08-03T05:00:00+1200
 tags:
   - Features

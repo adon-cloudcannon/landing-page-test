@@ -5,6 +5,10 @@ author: cloudcannon
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/online-conference.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 We ran JekyllConf, a free online global conference for all things Jekyll static site generator on May 2 2015. 400 people showed up. It cost $50. And we'd never done anything like it before.
 

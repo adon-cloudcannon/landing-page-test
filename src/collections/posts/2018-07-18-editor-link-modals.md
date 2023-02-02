@@ -5,6 +5,10 @@ tags:
   - Features
 author: ross-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-greyscale-3d-triangles.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Front matter is a great way to structure content and metadata for a Jekyll website. We've made some updates to allow you to further integrate your front matter into your editing experience.
 

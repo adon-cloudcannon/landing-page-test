@@ -5,6 +5,10 @@ tags:
   - Features
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-blue-confetti.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 We've been reassessing our brand and how it aligns with our values. Simplicity has always been at the core of everything we do at CloudCannon and we felt we could do better with our branding.

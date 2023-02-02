@@ -18,6 +18,10 @@ person:
     path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/liz-barlow.jpg
     alt: Liz Barlow
 date: 2021-06-12 12:37:00
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 UK-based Diffblue, the maker of AI tools for software testing, had a
 problem familiar to many digital enterprises: Its marketing site just

@@ -5,6 +5,10 @@ author: mike-neumegen
 categories:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/florian-wehde--y3sidwvdxg-unsplash.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 One year ago I decided I needed a change. I’d spent the majority of my life in Dunedin, a small city in New Zealand. I’d flown internationally once and it was to Australia which I’m not sure even counts. Basically, I was living in a bubble.

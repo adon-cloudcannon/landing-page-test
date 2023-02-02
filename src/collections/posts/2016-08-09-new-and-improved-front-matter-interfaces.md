@@ -5,6 +5,10 @@ tags:
   - Features
 author: ross-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/Sunny.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 CloudCannon is committed to bringing the best editing experience to static and Jekyll sites. We provide world-class interfaces for your clients to update their front matter, a core offering of Jekyll.
 

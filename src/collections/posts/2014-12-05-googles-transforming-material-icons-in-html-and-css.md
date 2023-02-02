@@ -5,6 +5,10 @@ author: george-phillips
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-google-web-browser.jpeg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 This week I am deconstructing the Delightful Details from [Google's Material Design](http://www.google.com/design/spec/material-design/introduction.html). It's not built in HTML and CSS but that's not important. What's important is that we can.

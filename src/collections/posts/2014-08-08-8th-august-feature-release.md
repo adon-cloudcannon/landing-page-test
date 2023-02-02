@@ -5,6 +5,10 @@ author: george-phillips
 tags:
   - Features
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-hot-air-balloon.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 A decent sized feature update went out recently, although most of it is under the hood.

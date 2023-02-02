@@ -5,6 +5,10 @@ tags:
   - Features
 author: ross-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-traffic-light-suspended.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Since our last release, we've focused on existing interfaces and adding features in our continuing effort to improve the CloudCannon experience. These improvements are driven by your feedback and support.
 

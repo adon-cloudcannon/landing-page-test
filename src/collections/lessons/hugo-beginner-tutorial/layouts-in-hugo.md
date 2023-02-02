@@ -6,6 +6,10 @@ tutorial: hugo-beginner-tutorial
 description: >-
   Learn how layouts help you set up and reuse the main structure of your Hugo
   site. 
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 {% bookshop "markdown/youtube" id:"xRwZmWItIBA" title:"Hugo Partials" extend:false %}

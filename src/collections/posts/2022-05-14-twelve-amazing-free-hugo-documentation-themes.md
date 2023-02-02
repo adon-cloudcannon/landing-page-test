@@ -5,6 +5,10 @@ description: >-
   generator websites.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-documentation-themes-image.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-05-14T05:00:00+1200
 tags:
   - Hugo

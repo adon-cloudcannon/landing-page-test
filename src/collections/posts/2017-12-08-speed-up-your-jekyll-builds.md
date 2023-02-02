@@ -6,6 +6,10 @@ tags:
   - Jekyll
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-car-speedometer.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Having a short Jekyll build time helps you iterate faster while developing and goes a long way to improving the experience for editors on CloudCannon. In this post, we're going over how to identify bottlenecks in your Jekyll build and tips on how to address them.
 {: .present-before-paste}

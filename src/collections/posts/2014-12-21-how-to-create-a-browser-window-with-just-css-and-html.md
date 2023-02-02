@@ -5,6 +5,10 @@ tags:
   - Resources
 author: george-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-close-up-image-of-code.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 This isn't the weekly deconstruction, that'll be out in a few days. This is a small post to tide you over until then.

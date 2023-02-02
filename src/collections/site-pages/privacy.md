@@ -2,6 +2,9 @@
 layout: markdown.html
 title: Privacy Policy
 description:
+seo:
+  featured_image:
+  featured_image_alt:
 permalink: /privacy/
 ---
 

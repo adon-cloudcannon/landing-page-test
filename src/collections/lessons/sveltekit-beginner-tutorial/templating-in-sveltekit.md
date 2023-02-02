@@ -6,6 +6,10 @@ tutorial: sveltekit-beginner-tutorial-series
 description: >-
   In this tutorial we'll go over basic SvelteKit templating concepts and see how
   you can use templating on your site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Svelte gives us complete control over how pages and components are rendered. We can loop over content, output variables, run logic statements, or pull in data from external sources. We’ve already encountered some templating — the curly braces `{ }` to output the className in the previous lesson.

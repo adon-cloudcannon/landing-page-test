@@ -4,6 +4,10 @@ description: >-
   A full guide for Forestry features and concepts, how they translate to
   CloudCannon, and the steps developers need to take to make the transition.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/migration-from-forestry-to-cloudcannon_vnmicj.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-02-12T05:00:00+1300
 tags:
   - Resources

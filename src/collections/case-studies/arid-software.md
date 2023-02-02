@@ -19,6 +19,10 @@ description: >-
   Find out how Arid Software uses CloudCannon to add value to their clients'
   website projects — with minimal extra development time.
 date: 2022-05-19 12:37:00
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 When Arid Software co-founder Andrew Ek discovered CloudCannon’s Git-based
 CMS, it marked the end of a long discovery process for a client whose web

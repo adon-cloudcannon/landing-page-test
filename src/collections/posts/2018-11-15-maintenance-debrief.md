@@ -5,6 +5,10 @@ tags:
   - Company
 author: george-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-closeup-metal-gears.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 We have successfully completed our [Scheduled Maintenance](/operations/2018/11/13/scheduled-maintenance/). During this time we allocated two hours and completed the migration in just over three hours. During the update we had the following successes:
 

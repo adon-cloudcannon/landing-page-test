@@ -7,6 +7,10 @@ description: >-
   more collaboratively.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cc-and-hugo.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-05-05T05:00:00+1200
 tags:
   - Hugo

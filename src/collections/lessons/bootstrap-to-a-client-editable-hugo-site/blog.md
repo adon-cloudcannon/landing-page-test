@@ -7,6 +7,10 @@ tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-
   Complete your site's conversion to Hugo by applying all of your learning so
   far to the blog section.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 ### What you'll learn here

@@ -5,6 +5,10 @@ description: >-
   content. To help you make the right choice, we look at how they compare.
 date: 2021-03-04T13:00:00+1300
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/comparison-laptops.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 tags:
   - Resources
   - Hugo

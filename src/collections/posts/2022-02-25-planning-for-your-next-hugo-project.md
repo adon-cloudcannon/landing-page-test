@@ -3,6 +3,10 @@ title: Planning for your next Hugo project
 description: Tips and guiding principles for building a new website with Hugo.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/v1671595305/marketing-site/blog/hugo-speed2-min_dcvugy.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-02-25T05:00:00+1300
 tags:
   - Resources

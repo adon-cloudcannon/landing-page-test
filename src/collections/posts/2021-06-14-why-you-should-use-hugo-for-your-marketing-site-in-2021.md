@@ -6,6 +6,10 @@ description: >-
   for many reasons. 
 date: 2021-06-14T03:00:00+1200
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-hugo-marketing-website.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 tags:
   - Resources
   - Hugo

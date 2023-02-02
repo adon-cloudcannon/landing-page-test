@@ -5,6 +5,10 @@ date: "2014-12-12T13:00:00.000Z"
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-desktop-and-laptop.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 > **Update (2022):**  *Are you interested in pushing the boundaries of your Jamstack websites? [Browse our new curated lists of Jamstack tools](https://cloudcannon.com/community/jamstack-ecosystem/), and compare the features that matter to you.*
 

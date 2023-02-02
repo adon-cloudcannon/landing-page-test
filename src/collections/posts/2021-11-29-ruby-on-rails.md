@@ -1,6 +1,10 @@
 ---
 title: How Ruby on Rails uses Jekyll to build their marketing site
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/rails-desktop.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 permalink: /blog/showcase-ruby-on-rails/
 date: 2021-11-29T13:00:00+1300
 description: >-

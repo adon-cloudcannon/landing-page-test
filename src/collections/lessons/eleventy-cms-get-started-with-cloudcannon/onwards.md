@@ -4,6 +4,10 @@ image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy
 order: 6
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: Final words.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 ## Hosting

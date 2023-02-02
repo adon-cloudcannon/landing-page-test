@@ -5,6 +5,10 @@ tags:
   - Features
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-night-earth.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 We've just pushed a whole heap of changes you're going to love.

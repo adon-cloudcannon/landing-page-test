@@ -6,6 +6,10 @@ description: >-
 series: SSGs through the ages
 permalink: /blog/ssg-history-1-before-jekyll/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-1_lxri3y.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-01-15T05:00:00+1300
 tags:
   - Resources

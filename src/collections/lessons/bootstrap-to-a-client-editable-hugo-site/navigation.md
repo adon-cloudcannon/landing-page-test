@@ -7,6 +7,10 @@ tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-
   Simplify your navigation, and learn some Hugo magic to make it easier to
   maintain.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### What you'll learn here
 

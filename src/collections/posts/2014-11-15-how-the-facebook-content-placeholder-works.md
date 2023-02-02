@@ -7,6 +7,10 @@ author: george-phillips
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-mobile-phone-facebook.jpeg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 This is the first post of my new blog series called Deconstructions. Showcasing cool things people are doing in web development and breaking them down step by step. My first target is a cool content placeholder from the most recent Facebook overhaul. Before your friend's latest selfie or dog picture loads you may have noticed this nice bit of polish.

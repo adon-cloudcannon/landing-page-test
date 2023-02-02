@@ -6,6 +6,10 @@ tags:
   - Jekyll
 author: mike-neumegen
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-group-of-people-working.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 [Jekyll’s](http://jekyllrb.com) roots are in providing a tool for hackers to host their blog. It’s not just hackers using Jekyll today though.
 

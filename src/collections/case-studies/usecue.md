@@ -17,6 +17,10 @@ person:
     path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/joost.jpg
     alt: Joost van der Schee
 date: 2021-03-26 12:37:00
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Technical excellence, beautiful design, integrity. All of these are
 important for Joost van der Schee, owner and operator of [Usecue

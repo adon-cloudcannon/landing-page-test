@@ -7,6 +7,10 @@ tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-
   Separate content from structure for areas you might want to update from time
   to time — this time using data files.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 ### What you'll learn here

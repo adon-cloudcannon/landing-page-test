@@ -5,6 +5,10 @@ description: >-
   hosting any infrastructure, while respecting your users’ bandwidth.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/introducing-pagefind.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-07-15T17:00:00.000Z
 tags:
   - Resources

@@ -5,6 +5,10 @@ tags:
   - Company
 author: george-phillips
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-blue-sky-white-cloud.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 The maintenance was a success and everything is back to normal. Read about the update in our [Maintenance Debrief](/operations/2018/11/15/maintenance-debrief/).
 

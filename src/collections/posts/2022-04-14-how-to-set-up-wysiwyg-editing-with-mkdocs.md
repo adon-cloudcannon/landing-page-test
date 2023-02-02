@@ -6,6 +6,10 @@ description: >-
   flow, all in a matter of minutes.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/mkdocs-blog-hero.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-04-14T05:00:00+1200
 tags:
   - Mkdocs

@@ -3,6 +3,9 @@ title: Terms of Service
 description:
 layout: markdown.html
 permalink: /terms/
+seo:
+  featured_image:
+  featured_image_alt:
 ---
 
 ## Overview:

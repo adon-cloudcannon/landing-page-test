@@ -5,6 +5,10 @@ description: >-
   progress bar, a terminal with live code, and a flexible interface for more
   SSGs. 
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/progress-hero-blog-1200x800-3.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-06-23T00:00:00+1200
 tags:
   - Features

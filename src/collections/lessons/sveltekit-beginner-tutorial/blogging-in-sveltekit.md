@@ -6,6 +6,10 @@ tutorial: sveltekit-beginner-tutorial-series
 description: >-
   In this tutorial you will learn how to create a blog with SvelteKit content
   and layouts.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 A blog in SvelteKit consists of a page that lists all the blog posts, and a series of content pages with a date for the posts. That’s all there is to it.

@@ -6,6 +6,10 @@ order: 1
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Clone the Megakit repository, and install the Hugo static site generator.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 In this tutorial, we'll take a polished Bootstrap theme, add some Hugo magic, and upload it to [CloudCannon](https://cloudcannon.com) for easy and intuitive visual editing. You can see the end result in the video below:
 

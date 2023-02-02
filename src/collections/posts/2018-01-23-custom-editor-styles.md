@@ -5,6 +5,10 @@ author: ross-phillips
 tags:
   - Features
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-irridescent-disco-ball.jpeg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 The editing interface is the core of CloudCannon. It has sensible defaults for most use cases, and can be configured to cover more. We've extended the configuration to allow custom styles, alignment and structure.

@@ -5,6 +5,10 @@ order: 8
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Add more pages to your site by converting components.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### What you'll learn here
 

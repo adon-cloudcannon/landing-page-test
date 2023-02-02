@@ -5,6 +5,10 @@ description: >-
   top-heavy and resource-intensive CMSs like WordPress, Drupal and Joomla. But
   what is a headless CMS, and why should you use one?
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/headless-cms-img-compressed.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-07-16T06:00:00+1200
 tags:
   - Features

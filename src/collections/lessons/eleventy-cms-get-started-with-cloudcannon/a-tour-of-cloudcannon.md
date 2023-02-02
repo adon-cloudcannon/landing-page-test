@@ -4,6 +4,10 @@ image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy
 order: 2
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: A brief tour of the pages and features on CloudCannon.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Let’s go through a brief tour of CloudCannon to help you get the most value out of it.

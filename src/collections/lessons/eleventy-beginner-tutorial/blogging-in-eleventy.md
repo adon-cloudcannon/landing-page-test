@@ -4,6 +4,10 @@ image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy
 order: 5
 tutorial: eleventy-beginner-guide
 description: Learn how to use Liquid templating to create a blog with Eleventy.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 A simple Eleventy blog consists of two different page types:

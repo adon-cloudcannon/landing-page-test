@@ -5,6 +5,10 @@ lead_score: 2
 order: 4
 tutorial: hugo-cms---get-started-with-cloudcannon
 description: Hugo content structure on CloudCannon.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 {% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:false %}

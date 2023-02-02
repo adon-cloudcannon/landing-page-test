@@ -6,6 +6,10 @@ tutorial: sveltekit-beginner-tutorial-series
 description: >-
   Use data files to import existing data or have an easy way of managing global
   data in this SvelteKit tutorial.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 In this final lesson, we’ll put everything together to create a page with a map which lists top dog parks. We’ll generate a `.json` file which contains the location and other metadata for a dog walk, then another file which fetches the `.json` file and renders the map. Let’s get to it\!

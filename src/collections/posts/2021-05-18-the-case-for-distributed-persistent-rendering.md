@@ -4,6 +4,10 @@ description: >-
   Let’s explore what Distributed Persistent Rendering (DPR) means for the future
   of Jamstack.
 image:  https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/dpr-1.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-05-18T00:00:00+1200
 tags:
   - Resources

@@ -6,6 +6,10 @@ description: >-
   thousands of pages — sites like documentations, blogs, landing pages or
   marketing websites. But there are several key differences to consider.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/eleventy-vs-hugo.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-08-04T05:00:00+1200
 tags:
   - Resources

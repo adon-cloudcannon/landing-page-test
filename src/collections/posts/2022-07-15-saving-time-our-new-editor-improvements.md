@@ -5,6 +5,10 @@ description: >-
   Our focus: reducing wait time for builds.  
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/editor-hero-c_cikb1v.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-07-15T05:00:00.000Z
 tags:
   - Features

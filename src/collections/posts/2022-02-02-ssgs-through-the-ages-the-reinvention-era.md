@@ -6,6 +6,10 @@ description: >-
 series: SSGs through the ages
 permalink: /blog/ssg-history-3-reinvention/
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-3_zaafvp.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-02-02T05:00:00.000Z
 tags:
   - Resources

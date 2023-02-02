@@ -1,6 +1,10 @@
 ---
 title: 'Deconstruction: How Digital.gov uses Hugo to power their community site'
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/digital-gov-desktop.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 permalink: /blog/showcase-digital-gov/
 date: 2021-10-25T13:00:00+1300
 description: >-

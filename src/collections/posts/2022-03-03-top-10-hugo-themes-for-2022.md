@@ -6,6 +6,10 @@ description: >-
   Hugo, that’s pretty quick).
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/top-ten-hugo-themes-2022_swh5g8.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-03-03T05:00:00+1300
 tags:
   - Hugo

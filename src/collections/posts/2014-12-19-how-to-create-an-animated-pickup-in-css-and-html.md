@@ -5,6 +5,10 @@ author: george-phillips
 tags:
   - Resources
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-long-outdoor-road.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 This week I came across the [7mml](http://7mml.org/) website and I loved the loaded symbol. An animated car with a scrolling background. It was rather sluggish so I looked at how it was built. It was actually built using a large background image with JavaScript changing the background position.

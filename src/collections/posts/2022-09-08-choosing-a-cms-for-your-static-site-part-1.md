@@ -7,6 +7,10 @@ description: >-
   empower you to do your write, edit, and publish content more efficiently.
 series:
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-how-to-choose-a-cms-r.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2022-09-08T05:00:00+1200
 hide_publish_date: true
 tags:

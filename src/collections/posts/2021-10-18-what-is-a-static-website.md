@@ -6,6 +6,10 @@ description: >-
   e-commerce or marketing site. We explain all the reasons why in this blog
   post.
 image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/why-static.png
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 date: 2021-10-18T05:00:00+1300
 tags:
   - Resources
