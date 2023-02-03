@@ -1,5 +1,5 @@
 // const crypto = require('crypto');
-const axios = require('axios');
+const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = {
 	excerpt: function(post) {
@@ -19,12 +19,9 @@ module.exports = {
 		readmeUrl = `${githubFileOrigin}/${branch}/${readme}`;
 		console.log(`Downloading ${readmeUrl}...`);
 
-		return await axios.get(readmeUrl)
-			.then(function (response) {
-				return response.data.replace(/(^!\[.*?\]\()(.+?)(\))/, '').replace(/^# .*$/, '').replace(/^(#* .*)$/, '#\1');
-			})
-			.catch(function (error) {
-				return '';
-			});
+		return EleventyFetch(readmeUrl, {
+			duration: "1d",
+			type: "text"
+		});
 	}
 };

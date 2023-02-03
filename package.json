@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@alpinejs/intersect": "^3.10.4",
     "@divriots/jampack": "^0.7.2",

@@ -1,0 +1,84 @@
+---
+layout: page.html
+---
+
+<div class="bg-sky pt-20 pb-28 flex justify-center">
+	<img src="{{ logo_image }}" alt="{{ title }}" class="max-h-[250px] w-auto max-w-[60%]">
+</div>
+
+<div class="container">
+	<div class="rounded-xl -mt-11 mb-10 text-center mx-auto p-4 grid grid-cols-3 bg-white max-w-4xl drop-shadow-lg">
+		<div>
+			<div class="mb-2">
+				<strong class="block">Location</strong>
+			</div>
+			<div>
+				{{ location }}
+			</div>
+		</div>
+
+		<div>
+			<div class="mb-2">
+				<strong>Frameworks</strong>
+			</div>
+			<div class="flex justify-center">
+				{% for ssg in frameworks %}
+					<img src="/images/icons/ssgs/{{ ssg }}.svg" width="25" height="25" alt="{{ ssg }}" class="mr-[5px] h-[25px] w-auto">
+				{% endfor %}
+			</div>
+		</div>
+
+		<div>
+			<div class="mb-2">
+				<strong>Links</strong>
+			</div>
+			<div class="flex justify-center">
+				{% if links.site_url %}
+					<a href="{{ links.site_url }}" class="hover:scale-110 transition" target="_blank">
+						<img src="/images/icons/outline/link.svg" width="25" height="25" alt="Link Icon" class="mr-[5px] h-[25px] w-auto">
+					</a>
+				{% endif %}
+
+				{% if links.twitter_url %}
+					<a href="{{ links.twitter_url }}" class="hover:scale-110 transition" target="_blank">
+						<img src="/images/icons/social-color/twitter.svg" width="25" height="25" alt="Twitter Icon" class="mr-[5px] h-[25px] w-auto">
+					</a>
+				{% endif %}
+
+				{% if links.facebook_url %}
+					<a href="{{ links.facebook_url }}" class="hover:scale-110 transition" target="_blank">
+						<img src="/images/icons/social-color/facebook.svg" width="25" height="25" alt="Facebook Icon" class="mr-[5px] h-[25px] w-auto">
+					</a>
+				{% endif %}
+
+				{% if links.linkedin_url %}
+					<a href="{{ links.linkedin_url }}" class="hover:scale-110 transition" target="_blank">
+						<img src="/images/icons/social-color/linkedin.svg" width="25" height="25" alt="LinkedIn Icon" class="mr-[5px] h-[25px] w-auto">
+					</a>
+				{% endif %}
+
+				{% if links.twitter_url %}
+					<a href="{{ links.twitter_url }}" class="hover:scale-110 transition" target="_blank">
+						<img src="/images/icons/social-color/twitter.svg" width="25" height="25" alt="Twitter Icon" class="mr-[5px] h-[25px] w-auto">
+					</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	
+
+	<div class="prose prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+		<h1 class="mb-4">{{ title }}</h1>
+		{{ long_description }}
+	</div>
+</div>
+
+<div class="container bg-caramel light-text">
+	<h2>{{ title }}'s work</h2>
+	<div>
+		{% for slide in slides %}
+			<img src="{{ slide.featured_image }}" alt="{{ slide.title }}">
+		{% endfor %}
+	</div>
+</div>

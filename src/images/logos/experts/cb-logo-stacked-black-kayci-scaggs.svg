@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="542" height="249" viewBox="0 0 542 249">
+  <defs>
+    <clipPath id="clip-CB-logo_stacked_black">
+      <rect width="542" height="249"/>
+    </clipPath>
+  </defs>
+  <g id="CB-logo_stacked_black" clip-path="url(#clip-CB-logo_stacked_black)">
+    <text id="Croissant_Baguette" data-name="Croissant
+&amp; Baguette" transform="translate(15 117)" font-size="105" font-family="DMSerifDisplay-Regular, DM Serif Display"><tspan x="0" y="0">Croissant</tspan><tspan x="0" y="90">&amp; Baguette</tspan></text>
+  </g>
+</svg>
