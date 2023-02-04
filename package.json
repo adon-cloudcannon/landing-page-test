@@ -17,7 +17,6 @@
     "@divriots/jampack": "^0.7.2",
     "@tailwindcss/typography": "^0.5.8",
     "alpinejs": "^3.10.4",
-    "axios": "^1.3.0",
     "csvtojson": "^2.0.10",
     "del-cli": "^5.0.0",
     "eleventy-plugin-local-images": "^0.4.1",
