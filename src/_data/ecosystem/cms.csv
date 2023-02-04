@@ -1,16 +1,16 @@
 Name,URL,Image,Git-based,API-based,GDPR compliant,Open source,Visual Editing,Component-based Editing,Free option,Localization
-Amplience,https://amplience.com/jamstack-cms/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/amplience-fav.jpg,0,1,0,0,0,1,0,1
-CloudCannon,https://cloudcannon.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/cloudcannon-logo.jpg,1,0,1,0,1,1,1,1
-Contentful,https://www.contentful.com/resources/static-sites/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/contentful-fav.jpg,0,1,1,0,0,1,1,1
-DatoCMS,https://www.datocms.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/datocms-fav.jpg,0,1,1,0,0,1,1,1
-Forestry,https://forestry.io/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/forestry-fav.jpg,1,1,0,0,,1,1,0
-GraphCMS,https://graphcms.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/graph-cms.jpg,0,1,1,0,0,1,1,1
-Kontent,https://kontent.ai/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/kontent-fav.jpg,0,1,1,0,1,1,1,1
-Netlify CMS,https://www.netlifycms.org/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/netlify-fav.jpg,1,0,0,1,0,0,1,0
-Prismic,https://prismic.io/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/prismic-fav.jpg,0,1,0,0,0,1,1,1
-Publii,https://getpublii.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/publii-fav.jpg,0,1,1,1,0,0,1,0
-Sanity,https://www.sanity.io/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/sanity-fav.jpg,0,1,1,1,0,1,1,
-Siteleaf,https://www.siteleaf.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/siteleaf-fav.jpg,1,0,1,0,0,0,1,1
-Statamic,https://statamic.com/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/statamic-fav.jpg,1,1,1,1,,1,1,1
-Strapi,https://strapi.io/solutions/static-websites,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/strapi-fav.jpg,0,1,1,1,0,1,1,1
-Tina CMS,https://tina.io/,https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/community/assets/ecosystem/cms/tinacms-fav.jpg,1,1,0,1,1,1,1,0
+Amplience,https://amplience.com/jamstack-cms/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/amplience-fav.jpg,0,1,0,0,0,1,0,1
+CloudCannon,https://cloudcannon.com/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/cloudcannon-logo.jpg,1,0,1,0,1,1,1,1
+Contentful,https://www.contentful.com/resources/static-sites/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/contentful-fav.jpg,0,1,1,0,0,1,1,1
+DatoCMS,https://www.datocms.com/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/datocms-fav.jpg,0,1,1,0,0,1,1,1
+Forestry,https://forestry.io/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/forestry-fav.jpg,1,1,0,0,,1,1,0
+GraphCMS,https://graphcms.com/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/graph-cms.jpg,0,1,1,0,0,1,1,1
+Kontent,https://kontent.ai/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/kontent-fav.jpg,0,1,1,0,1,1,1,1
+Netlify CMS,https://www.netlifycms.org/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/netlify-fav.jpg,1,0,0,1,0,0,1,0
+Prismic,https://prismic.io/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/prismic-fav.jpg,0,1,0,0,0,1,1,1
+Publii,https://getpublii.com/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/publii-fav.jpg,0,1,1,1,0,0,1,0
+Sanity,https://www.sanity.io/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/sanity-fav.jpg,0,1,1,1,0,1,1,
+Siteleaf,https://www.siteleaf.com/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/siteleaf-fav.jpg,1,0,1,0,0,0,1,1
+Statamic,https://statamic.com/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/statamic-fav.jpg,1,1,1,1,,1,1,1
+Strapi,https://strapi.io/solutions/static-websites,https://cc-dam.imgix.net/community/assets/ecosystem/cms/strapi-fav.jpg,0,1,1,1,0,1,1,1
+Tina CMS,https://tina.io/,https://cc-dam.imgix.net/community/assets/ecosystem/cms/tinacms-fav.jpg,1,1,0,1,1,1,1,0

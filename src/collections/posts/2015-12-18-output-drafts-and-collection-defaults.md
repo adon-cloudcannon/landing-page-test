@@ -4,7 +4,7 @@ date: 2015-12-18T10:02:00.000Z
 tags:
   - Features
 author: george-phillips
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/collection-of-postcards.jpg
+image: https://cc-dam.imgix.net/blog/uploads/collection-of-postcards.jpg
 ---
 This week we have a smaller release for some highly requested configuration. We added draft post compiling and defaults for creating collection items.
 
@@ -12,7 +12,7 @@ This week we have a smaller release for some highly requested configuration. We 
 
 CloudCannon users can now preview draft posts in staging environments before publishing to the live site. Configure this in the *Site Settings* to add the `--drafts` flag to any Jekyll build on that site. Enabling **Output draft posts** will trigger a build and include drafts with posts.
 
-![Output draft posts option in Site Settings](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drafts-and-defaults/output-drafts-in-settings.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drafts-and-defaults/output-drafts-in-settings.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drafts-and-defaults/output-drafts-in-settings@2x.png 1600w"}
+![Output draft posts option in Site Settings](https://cc-dam.imgix.net/blog/assets/blog/drafts-and-defaults/output-drafts-in-settings.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/drafts-and-defaults/output-drafts-in-settings.png 800w, https://cc-dam.imgix.net/blog/assets/blog/drafts-and-defaults/output-drafts-in-settings@2x.png 1600w"}
 
 In addition to the live site, you can preview drafts within the app. Just like posts, drafts now have the visual and markdown editor options. This will help keep you focused when writing blog posts.
 
@@ -20,7 +20,7 @@ In addition to the live site, you can preview drafts within the app. Just like p
 
 Before this release, new collection items were pre-populated with cleared data from another item. Developers can now create a file within the collection folder to control default values. This file is used to define new items by cloning both the contents and filetype into the new file. Since this file begins with an underscore Jekyll will not output the file to the live site. As an exception, draft posts will always read from `/_posts/` rather than `/_drafts/`. More details are available in [our documentation](/documentation/edit/editing/collections/).
 
-![Defaults in the File Browser](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drafts-and-defaults/defaults-in-browser.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drafts-and-defaults/defaults-in-browser.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/drafts-and-defaults/defaults-in-browser@2x.png 1600w"}
+![Defaults in the File Browser](https://cc-dam.imgix.net/blog/assets/blog/drafts-and-defaults/defaults-in-browser.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/drafts-and-defaults/defaults-in-browser.png 800w, https://cc-dam.imgix.net/blog/assets/blog/drafts-and-defaults/defaults-in-browser@2x.png 1600w"}
 
 ---
 

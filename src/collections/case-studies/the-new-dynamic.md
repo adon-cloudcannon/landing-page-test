@@ -12,14 +12,14 @@ weight: 3
 categories:
   - Agency
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/tnd-card-noborder.png
+  path: https://cc-dam.imgix.net/tnd-card-noborder.png
   alt: The New Dynamic logo
-logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/newdynamic.svg
+logo: https://cc-dam.imgix.net/marketing/uploads/case-study/newdynamic.svg
 person:
   name:  Régis Philibert
   position: Lead Developer
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/regis.jpg
+    path: https://cc-dam.imgix.net/regis.jpg
     alt: Régis Philibert
 date: 2022-08-02T17:00:00.000Z
 ---
@@ -38,7 +38,7 @@ clients. After putting CloudCannon through vigorous testing, he came
 to the conclusion: for clients who want to upload and edit their own
 content, and for developers working with SSGs, "CloudCannon is a better experience."
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/tnd-mockup-phones.png" alt:"The New Dynamic mobile site screenshot" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/tnd-mockup-phones.png" alt:"The New Dynamic mobile site screenshot" %}
 
 ### Why move to CloudCannon?
 
@@ -110,7 +110,7 @@ led by its product developers — to be “super helpful” in their approach to
 feature requests, workarounds, and ready explanations, leaving him
 thrilled with the CMS as a whole.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/agni-mockup-tr.png" alt:"AGNI website screenshot" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/agni-mockup-tr.png" alt:"AGNI website screenshot" %}
 
 One website that R&eacute;gis and tND have already moved to CloudCannon
 is [AGNI Online](https://agnionline.bu.edu/), a literary

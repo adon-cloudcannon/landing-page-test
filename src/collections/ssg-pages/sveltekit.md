@@ -130,7 +130,7 @@ content_blocks:
           content:
             alt: Editing a page on CloudCannon
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674660604/marketing-site/hero_image_w2idkd.png
+              https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -339,7 +339,7 @@ content_blocks:
                   content:
                     alt: Branching and previewing
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674883707/marketing-site/image_8_utyigb.png
+                      https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -493,7 +493,7 @@ content_blocks:
                   content:
                     alt: Faster and easier on SvelteKit
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212927/marketing-site/Landing%20Pages/Group_18913_z23spt.png
+                      https://cc-dam.imgix.net/Landing%20Pages/Group_18913_z23spt.png
                   styles:
                     border:
                     rounded:
@@ -819,26 +819,26 @@ content_blocks:
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
+                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Catered to content editors
                 description: >-
                   Empower your editors with our SvelteKit CMS, while you and
                   other developers work in parallel with them.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
+                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
               - title: Robust publishing
                 description: >-
                   Prepare branches for staging and production workflows. Your
                   content team will use the full power of Git, all behind a
                   beautiful UI.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
+                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Intuitive editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
                   Visual Editor for SvelteKit, the whole team can contribute.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+                  https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
               - title: Structured content and granular control
                 description: >-
                   Create a library of components for your content editors to
@@ -1289,7 +1289,7 @@ content_blocks:
                   content:
                     alt: Overview of Jamstack ecosystem
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674953870/marketing-site/Group_18619_ed58la.png
+                      https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:
@@ -1460,7 +1460,7 @@ content_blocks:
             position: Technical Marketing Director
             company: Twitch
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674695015/marketing-site/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
+              https://cc-dam.imgix.net/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
             logo: /images/logos/twitch.svg
           styles:
             background: white
@@ -1592,19 +1592,19 @@ content_blocks:
               - title: Sync your SvelteKit site
                 description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your SvelteKit build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212851/marketing-site/Landing%20Pages/SvelteKit-file-detected_b6nztf.png
+                  https://cc-dam.imgix.net/Landing%20Pages/SvelteKit-file-detected_b6nztf.png
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
                   our SvelteKit CMS, and without the help of a developer.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
@@ -1612,7 +1612,7 @@ content_blocks:
                   own hosting provider, and CloudCannon will handle it
                   seamlessly.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1826,7 +1826,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212718/marketing-site/Landing%20Pages/SvelteKit-screen_kzliu8.png
+                      https://cc-dam.imgix.net/Landing%20Pages/SvelteKit-screen_kzliu8.png
                   styles:
                     border:
                     rounded:

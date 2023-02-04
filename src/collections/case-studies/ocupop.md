@@ -9,14 +9,14 @@ weight: 4
 categories:
   - Agency
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/ocupop-2.png
+  path: https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png
   alt: Ocupop logo
 logo: /images/logos/ocupop.svg
 person:
   name: Tom Beck
   position: Creative Director
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/ocupop-profile.png
+    path: https://cc-dam.imgix.net/marketing/uploads/ocupop-profile.png
     alt: Tom Beck
 date: 2021-03-26T12:37:00.000Z
 ---
@@ -30,7 +30,7 @@ doing extraordinary work.
 
 > We love supporting CloudCannon growth because the platform is so much better for our clients than any other tool.
 
-![Image of mobile phone showing Ocupop's Our Work page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/ocupop-scene.png)
+![Image of mobile phone showing Ocupop's Our Work page](https://cc-dam.imgix.net/marketing/uploads/ocupop-scene.png)
 
 ## Designers for everyone
 
@@ -41,7 +41,7 @@ big-tech conferences, they have huge range. Oh, and ever seen the HTML 5
 icon? That's Ocupop's work. You don't need to be a massive corporation to
 leave a big impression.
 
-![Image of laptop showcasing Ocupop's website](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/ocupop-scene-2.png)
+![Image of laptop showcasing Ocupop's website](https://cc-dam.imgix.net/marketing/uploads/ocupop-scene-2.png)
 
 ## Old problems from old solutions
 
@@ -99,7 +99,7 @@ and development - and controls how much time they spend with clients.
 
 > CloudCannon really helps us work better. It feels nice to commit clients to the platform, and they feel comfortable with it.
 
-![Image of someone holding a tablet looking at the Ocupop marketing site.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/ocupop-scene3.png)
+![Image of someone holding a tablet looking at the Ocupop marketing site.](https://cc-dam.imgix.net/marketing/uploads/ocupop-scene3.png)
 
 ## Ocupop and CloudCannon’s partnership
 

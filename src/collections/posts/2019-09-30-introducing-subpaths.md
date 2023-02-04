@@ -4,7 +4,7 @@ date: 2019-09-30T13:00:00+1300
 tags:
   - Features
 author: mike-neumegen
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-two-road-signs.jpg
+image: https://cc-dam.imgix.net/blog/uploads/blog-two-road-signs.jpg
 ---
 Subdomains are a great way to separate different sections of your site. You might have your blog at blog.example.com, your docs at docs.example.com while keeping your main marketing site at example.com. Many companies use subdomains this way and it's easy to set up in CloudCannon.
 
@@ -20,11 +20,11 @@ Ideally you could build each site individually and mount them at the desired pat
 
 First set up a site using the primary domain, in the above situation this would be example.com. This site will serve the root and any routes that don't have a subpath.
 
-![subpaths dashboard](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/subpaths/primary_2x.png)
+![subpaths dashboard](https://cc-dam.imgix.net/blog/assets/blog/subpaths/primary_2x.png)
 
 Once the primary domain is configured we can set the subpath for other sites.
 
-![subpaths dashboard](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/subpaths/subpath_2x.png)
+![subpaths dashboard](https://cc-dam.imgix.net/blog/assets/blog/subpaths/subpath_2x.png)
 
 Now anything beginning with the path `/blog/` is handled by the second site, everything else is handled by the first.
 

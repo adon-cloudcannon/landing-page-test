@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/SF-Ep3-haimantika-post.jpg
+  path: https://cc-dam.imgix.net/SF-Ep3-haimantika-post.jpg
   alt: >-
    Blue banner with Static Feedback logo and image of event speaker,
     Haimantika Mitra.

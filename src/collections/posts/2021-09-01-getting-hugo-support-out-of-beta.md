@@ -3,7 +3,7 @@ title: Getting Hugo support out of beta
 description: >-
   CloudCannon support for Hugo is leaving beta. It’s an important milestone, and
   this is how we got there.
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/hugo-out-of-beta.jpg
+image: https://cc-dam.imgix.net/blog/hugo-out-of-beta.jpg
 date: 2021-09-01T05:00:00+1200
 tags:
   - Features
@@ -45,7 +45,7 @@ Our docs, like our source code, were strongly coupled with Jekyll — so much so
 
 Along with the content to write, we also had to redesign our docs entirely to allow for displaying per-SSG instructions. This resulted in the tab interfaces you can see here:
 
-![Screenshot of tab user interface in CloudCannon documentation](https://res.cloudinary.com/dahpdufoq/image/upload/v1671570687/marketing-site/blog/documentation-tabs.png)
+![Screenshot of tab user interface in CloudCannon documentation](https://cc-dam.imgix.net/blog/documentation-tabs.png)
 
 We also used this UI element to show how to set the same thing up in different configuration languages (e.g. YAML, TOML, JSON).
 

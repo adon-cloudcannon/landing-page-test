@@ -4,7 +4,7 @@ date: 2018-01-23
 author: ross-phillips
 tags:
   - Features
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-irridescent-disco-ball.jpeg
+image: https://cc-dam.imgix.net/blog/uploads/blog-irridescent-disco-ball.jpeg
 ---
 
 The editing interface is the core of CloudCannon. It has sensible defaults for most use cases, and can be configured to cover more. We've extended the configuration to allow custom styles, alignment and structure.
@@ -15,7 +15,7 @@ Custom styles allow your editors to mark up inline or block level content with y
 
 This feature uses class names and styles that you define, so the editing experience is seamless in the *Visual Editor*, and much more contextual in the *Content Editor*.
 
-![Content Editor with custom styles and alignment](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/custom-editor-styles/content-editor-custom-styles.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/custom-editor-styles/content-editor-custom-styles.png 740w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/custom-editor-styles/content-editor-custom-styles@2x.png 1480w"}
+![Content Editor with custom styles and alignment](https://cc-dam.imgix.net/blog/assets/blog/custom-editor-styles/content-editor-custom-styles.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/custom-editor-styles/content-editor-custom-styles.png 740w, https://cc-dam.imgix.net/blog/assets/blog/custom-editor-styles/content-editor-custom-styles@2x.png 1480w"}
 
 To set up custom styles, you'll need to define a path to find the styles (following the same convention as our other [configuration options](https://docs.cloudcannon.com/editing/options/)):
 

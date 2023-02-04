@@ -4,7 +4,7 @@ date: 2015-05-12T12:00:00+1200
 tags:
   - Features
 author: cloudcannon
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-rainbow-gradient.jpg
+image: https://cc-dam.imgix.net/blog/uploads/blog-rainbow-gradient.jpg
 ---
 CloudCannon's support for the Jekyll static site generator has moved from private to public beta.
 

@@ -5,7 +5,7 @@ description: >-
   of static site generators.
 series: SSGs through the ages
 permalink: /blog/ssg-history-1-before-jekyll/
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-1_lxri3y.png
+image: https://cc-dam.imgix.net/blog/explorer-1_lxri3y.png
 date: 2022-01-15T05:00:00+1300
 tags:
   - Resources

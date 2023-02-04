@@ -4,7 +4,7 @@ date: 2015-05-19T12:00:00+1200
 author: cloudcannon
 tags:
   - Resources
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/online-conference.jpg
+image: https://cc-dam.imgix.net/blog/uploads/online-conference.jpg
 ---
 We ran JekyllConf, a free online global conference for all things Jekyll static site generator on May 2 2015. 400 people showed up. It cost $50. And we'd never done anything like it before.
 
@@ -123,4 +123,4 @@ Oh and where did the $50 go?
 * Bluetack and printing for our MC background - $12
 * Celebratory burrito (With guacamole) - $9
 
-![MC @SamBonney with JekyllConf background](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/mc_background.png)
+![MC @SamBonney with JekyllConf background](https://cc-dam.imgix.net/blog/assets/blog/mc_background.png)

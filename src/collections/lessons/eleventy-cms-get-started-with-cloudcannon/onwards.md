@@ -1,6 +1,6 @@
 ---
 title: Onwards
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy-cloudcannon-tutorial-social.png
+image: https://cc-dam.imgix.net/eleventy-cloudcannon-tutorial-social.png
 order: 6
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: Final words.

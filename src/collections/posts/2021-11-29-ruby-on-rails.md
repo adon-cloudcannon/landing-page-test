@@ -1,6 +1,6 @@
 ---
 title: How Ruby on Rails uses Jekyll to build their marketing site
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/rails-desktop.png
+image: https://cc-dam.imgix.net/blog/uploads/rails-desktop.png
 permalink: /blog/showcase-ruby-on-rails/
 date: 2021-11-29T13:00:00+1300
 description: >-
@@ -186,7 +186,7 @@ As a user, clicking on the Doctrine page takes me to the English version.
 On the right side, there's a language picker to switch languages. Each
 translation of the page is its own page, with its own URL.
 
-![Ruby on Rails, The Rails Doctrine page](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/rails-doctrine.png)
+![Ruby on Rails, The Rails Doctrine page](https://cc-dam.imgix.net/blog/uploads/rails-doctrine.png)
 
 As we saw in the layout, there's a reference to a JavaScript file for the
 language picker. It happens to be the only piece of JavaScript on the

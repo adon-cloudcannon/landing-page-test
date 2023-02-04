@@ -8,14 +8,14 @@ categories:
   - Company sites
   - Business
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/hnry-card-1.png
+  path: https://cc-dam.imgix.net/marketing/uploads/hnry-card-1.png
   alt: Hnry logo
-logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/hnry-logo2.png
+logo: https://cc-dam.imgix.net/marketing/uploads/case-study/hnry-logo2.png
 person:
   name: James Fuller
   position: Founder / CEO
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/james-fuller.jpg
+    path: https://cc-dam.imgix.net/marketing/uploads/case-study/james-fuller.jpg
     alt: James Fuller
 date: 2021-01-26 12:37:00
 ---
@@ -34,7 +34,7 @@ quickly in the Australian market.
 
 > With CloudCannon we have all the performance and deployment benefits of static websites and easy editing for our team.
 
-![Image of someone holding a tablet looking at the Hnry marketing site.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/hnry/ipad-1.jpg)
+![Image of someone holding a tablet looking at the Hnry marketing site.](https://cc-dam.imgix.net/marketing/uploads/case-study/hnry/ipad-1.jpg)
 
 ## Standard CMS solutions are often a strain on developers
 
@@ -67,7 +67,7 @@ sites.
 
 > With CloudCannon it has just been really easy for us and has actually made it far more efficient for us as a business to react to demand in the market.
 
-![Image of Hnry's logo being displayed on a featured plants wall](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/hnry/hnry-office 1.png)
+![Image of Hnry's logo being displayed on a featured plants wall](https://cc-dam.imgix.net/marketing/uploads/case-study/hnry/hnry-office 1.png)
 
 ## Hnry and CloudCannon’s future together
 

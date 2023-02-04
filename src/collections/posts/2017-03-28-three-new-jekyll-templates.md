@@ -5,7 +5,7 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/paint.jpg
+image: https://cc-dam.imgix.net/blog/uploads/paint.jpg
 ---
 It's great to see the different ways people are using the [Jekyll templates we launched late last year](/announcements/2016/12/05/free-jekyll-templates/). To continue this success, we've put together three new templates ready for your next site. These are licensed under MIT to feel free to use them on client/commercial projects.
 
@@ -13,19 +13,19 @@ It's great to see the different ways people are using the [Jekyll templates we l
 
 [Link to Base](https://cloudcannon.com/community/themes/base/)
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/3-new-jekyll-templates/base/1.jpeg){: width="1600" height="1000"}
+![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/base/1.jpeg){: width="1600" height="1000"}
 
 ## Treat
 
 [Link to Treat](https://cloudcannon.com/community/themes/treat/)
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/3-new-jekyll-templates/treat/1.jpeg){: width="1600" height="1000"}
+![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/treat/1.jpeg){: width="1600" height="1000"}
 
 ## Fur
 
 [Link to Fur](https://cloudcannon.com/community/themes/fur/)
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/3-new-jekyll-templates/fur/1.jpeg){: width="1600" height="1000"}
+![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/fur/1.jpeg){: width="1600" height="1000"}
 
 ## Usage
 

@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/git-merge-mike-git-cms.jpg
+  path: https://cc-dam.imgix.net/git-merge-mike-git-cms.jpg
   alt: >-
     Black background image with picture of speaker, Mike Neumegen
 date: 2022-09-14

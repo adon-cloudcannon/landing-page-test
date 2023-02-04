@@ -8,14 +8,14 @@ categories:
   - Documentation
   - Microsites
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/twitch-card-1.png
+  path: https://cc-dam.imgix.net/marketing/uploads/twitch-card-1.png
   alt: Twitch logo
 logo: /images/logos/twitch.svg
 person:
   name:  Sam Harnack
   position: Technical Marketing Director
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/twitch-profile-small.png
+    path: https://cc-dam.imgix.net/marketing/uploads/case-study/twitch-profile-small.png
     alt: Sam Harnack
 date: 2021-03-26 12:37:00
 ---
@@ -39,7 +39,7 @@ better way. The first step was switching to the Jekyll static site
 generator, which was fast, secure and could easily scale to Twitch’s
 fast-growing global audience. Next, a new CMS.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/twitch-scene.png" alt:"Image of an mac showing Twitch's brand site" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/case-study/twitch-scene.png" alt:"Image of an mac showing Twitch's brand site" %}
 
 ### What Twitch needed
 
@@ -66,7 +66,7 @@ translation process, letting marketers generate content in English and
 then export to human translators via Smartling. The result: frictionless
 creation of multiple language versions of Twitch’s marketing sites.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/twitch-scene-laptop.png" alt:"Image of a laptop showing Twitch's brand site" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/case-study/twitch-scene-laptop.png" alt:"Image of a laptop showing Twitch's brand site" %}
 
 Harnack first transitioned Twitch’s legal pages to CloudCannon and then
 made it the default for all the company’s microsites. “CloudCannon

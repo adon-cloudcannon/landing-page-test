@@ -4,7 +4,7 @@ description: >-
   Agency partners like The New Dynamic help validate and extend CloudCannon's
   technical roadmap. 
 series:
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/tnd-support-assist.jpg
+image: https://cc-dam.imgix.net/tnd-support-assist.jpg
 date: 2022-08-10T05:00:00+1200
 tags:
   - Company

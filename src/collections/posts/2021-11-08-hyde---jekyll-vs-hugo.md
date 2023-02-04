@@ -1,6 +1,6 @@
 ---
 title: Comparing a Jekyll and Hugo template
-image:  https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/hyde-theme.png
+image:  https://cc-dam.imgix.net/blog/uploads/hyde-theme.png
 permalink: /blog/showcase-hyde---jekyll-vs-hugo/
 date: 2021-11-08T13:00:00+1300
 description: >-

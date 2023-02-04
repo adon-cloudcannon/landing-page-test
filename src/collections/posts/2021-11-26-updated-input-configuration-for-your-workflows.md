@@ -3,7 +3,7 @@ title: Updated input configuration for your workflows
 description: >-
   We’ve created a consolidated inputs key to streamline your development
   workflows.
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/inputs-hero-2.jpg
+image: https://cc-dam.imgix.net/blog/uploads/inputs-hero-2.jpg
 date: 2021-11-26T12:00:00+1300
 tags:
   - Features

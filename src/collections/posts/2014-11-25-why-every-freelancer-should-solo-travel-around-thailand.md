@@ -4,7 +4,7 @@ date: 2014-11-25
 author: mike-neumegen
 categories:
   - Resources
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/florian-wehde--y3sidwvdxg-unsplash.jpg
+image: https://cc-dam.imgix.net/blog/uploads/florian-wehde--y3sidwvdxg-unsplash.jpg
 ---
 
 One year ago I decided I needed a change. I’d spent the majority of my life in Dunedin, a small city in New Zealand. I’d flown internationally once and it was to Australia which I’m not sure even counts. Basically, I was living in a bubble.
@@ -29,11 +29,11 @@ Earlier this year I had the opportunity to travel to San Francisco for work with
 
 I love travelling solo because it gives me ultimate flexibility, the downside is it gets pretty lonely. At least once a week I would go to a different city and have to make an entirely new group of friends which gave me a lot of practise building relationships from scratch. It’s amazing how fast you can become close with others if you’re sharing everything and spending all day together.
 
-![Group photo of friends in front of a forest area](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/thailand/friends.jpg)
+![Group photo of friends in front of a forest area](https://cc-dam.imgix.net/blog/assets/blog/thailand/friends.jpg)
 
 One of my favourite moments was interacting with a local boy who spoke no English. I had an English to Thai translator so I tried to start a conversation by typing in “hello”, “how old are you?”. He smiled but didn’t respond. Eventually I opened a “fail video” on YouTube which is basically just 10 minutes of people hurting themselves. His eyes lit up and for every single 10 second clip there was uncontrollable laughter.
 
-![Mike Neumegen and two boys watching a laptop on a table with food](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/thailand/boy.jpg)
+![Mike Neumegen and two boys watching a laptop on a table with food](https://cc-dam.imgix.net/blog/assets/blog/thailand/boy.jpg)
 
 At the core of it, business is about people and relationships. Now I’m much better at understanding someone's motives and interests, while being more open and vulnerable.
 

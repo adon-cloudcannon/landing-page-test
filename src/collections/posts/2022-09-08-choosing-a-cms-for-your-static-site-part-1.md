@@ -6,7 +6,7 @@ description: >-
   the focal point for your content and marketing team’s work, and will help
   empower you to do your write, edit, and publish content more efficiently.
 series:
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-how-to-choose-a-cms-r.jpg
+image: https://cc-dam.imgix.net/blog/blog-how-to-choose-a-cms-r.jpg
 date: 2022-09-08T05:00:00+1200
 hide_publish_date: true
 tags:

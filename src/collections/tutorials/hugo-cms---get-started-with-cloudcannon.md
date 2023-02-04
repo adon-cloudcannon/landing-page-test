@@ -1,6 +1,6 @@
 ---
 title: Hugo CMS — Get started with CloudCannon
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Hugo_and_CloudCannon.png
+image: https://cc-dam.imgix.net/Hugo_and_CloudCannon.png
 author: Mike Neumegen
 order: 4
 description: >-

@@ -1,7 +1,7 @@
 ---
 _uuid:
 name: Sendit
-image: https://dam-cdn.cloudcannon.com/sendit.png
+image: https://cc-dam.imgix.net/sendit.png
 image_alt: Sendit template
 description: Versatile business template made with Bootstrap
 header_description: >-
@@ -9,17 +9,17 @@ header_description: >-
   components have been converted to Bookshop. It's the perfect starting point to
   see how CloudCannon works.
 image_carousel:
-  - image_path: https://dam-cdn.cloudcannon.com/sendit-hero.png
+  - image_path: https://cc-dam.imgix.net/sendit-hero.png
     image_alt: Hero
-  - image_path: https://dam-cdn.cloudcannon.com/sendit-features.png
+  - image_path: https://cc-dam.imgix.net/sendit-features.png
     image_alt: Services
-  - image_path: https://dam-cdn.cloudcannon.com/sendit-features-2.png
+  - image_path: https://cc-dam.imgix.net/sendit-features-2.png
     image_alt: Features
-  - image_path: https://dam-cdn.cloudcannon.com/sendit-blog.png
+  - image_path: https://cc-dam.imgix.net/sendit-blog.png
     image_alt: Blog
-  - image_path: https://dam-cdn.cloudcannon.com/sendit-pricing.png
+  - image_path: https://cc-dam.imgix.net/sendit-pricing.png
     image_alt: pricing
-  - image_path: https://dam-cdn.cloudcannon.com/sendit-footer.png
+  - image_path: https://cc-dam.imgix.net/sendit-footer.png
     image_alt: Footer
 themes_ssgs:
   - ssg_name: hugo

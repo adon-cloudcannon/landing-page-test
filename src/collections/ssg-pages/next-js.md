@@ -132,7 +132,7 @@ content_blocks:
           content:
             alt: Editing a page on CloudCannon
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674660604/marketing-site/hero_image_w2idkd.png
+              https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -341,7 +341,7 @@ content_blocks:
                   content:
                     alt: Branching and previewing
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674883707/marketing-site/image_8_utyigb.png
+                      https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -495,7 +495,7 @@ content_blocks:
                   content:
                     alt: Faster and easier on Next.js
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212425/marketing-site/Landing%20Pages/Group_18910_hr8ax0.png
+                      https://cc-dam.imgix.net/Landing%20Pages/Group_18910_hr8ax0.png
                   styles:
                     border:
                     rounded:
@@ -821,26 +821,26 @@ content_blocks:
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
+                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Catered to content editors
                 description: >-
                   Empower your editors with our Next.js CMS, while you work in
                   parallel with them.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
+                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
               - title: Robust publishing
                 description: >-
                   Prepare branches for staging and production workflows. Your
                   content team will use the full power of Git, all behind a
                   beautiful UI.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
+                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Intuitive live editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
                   Visual Editor for Next.js, the whole team can contribute.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+                  https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
               - title: Structured content and granular control with Next.js
                 description: >-
                   Create a library of components for your content editors to
@@ -1291,7 +1291,7 @@ content_blocks:
                   content:
                     alt: Overview of Jamstack ecosystem
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674953870/marketing-site/Group_18619_ed58la.png
+                      https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:
@@ -1462,7 +1462,7 @@ content_blocks:
             position: Technical Marketing Director
             company: Twitch
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674695015/marketing-site/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
+              https://cc-dam.imgix.net/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
             logo: /images/logos/twitch.svg
           styles:
             background: white
@@ -1594,25 +1594,25 @@ content_blocks:
               - title: Sync your Next.js site
                 description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Next.js build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675212378/marketing-site/Landing%20Pages/Group_18909_b9vaha.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18909_b9vaha.png
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
                   our Next.js CMS, and without the help of a developer.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1824,7 +1824,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675212254/marketing-site/Landing%20Pages/Group_18854_sqg66p.png
+                      https://cc-dam.imgix.net/Landing%20Pages/Group_18854_sqg66p.png
                   styles:
                     border:
                     rounded:

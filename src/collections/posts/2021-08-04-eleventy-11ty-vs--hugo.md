@@ -5,7 +5,7 @@ description: >-
   for fast content delivery and are capable of handling large sites with
   thousands of pages — sites like documentations, blogs, landing pages or
   marketing websites. But there are several key differences to consider.
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/eleventy-vs-hugo.jpg
+image: https://cc-dam.imgix.net/blog/uploads/eleventy-vs-hugo.jpg
 date: 2021-08-04T05:00:00+1200
 tags:
   - Resources

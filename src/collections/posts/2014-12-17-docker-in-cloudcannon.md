@@ -4,11 +4,11 @@ date: 2014-12-17T13:00:00+1300
 author: cloudcannon
 tags:
   - Resources
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/boat.jpg
+image: https://cc-dam.imgix.net/blog/uploads/boat.jpg
 ---
 Environments can be tricky. Making sure the libraries are the same between your developer machines and production servers, updating dependencies consistently and onboarding new staff, it can turn into a mess. Luckily there are tools that can help us. I have previously used [Chef](https://www.chef.io/chef/) for this type of problem but now [Docker](https://www.docker.com/) has arrived to make things easier.
 
-![The docker logo](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/operations/dockerlogo.png)
+![The docker logo](https://cc-dam.imgix.net/blog/assets/blog/operations/dockerlogo.png)
 
 There are [a lot](https://www.docker.com/whatisdocker/) of [in depth](http://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/) [introductions to docker](http://developerblog.redhat.com/2014/05/15/practical-introduction-to-docker-containers/), but basically it is a box that holds your app and its dependencies. You can then run this on any machine and get a consistent experience. Today I will be focusing on how we use docker on our development machines. If you are thinking of trying docker then this is where you will start out, so hopefully you will find some useful tips from our experience.
 

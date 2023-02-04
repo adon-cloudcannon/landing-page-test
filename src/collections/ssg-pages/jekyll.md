@@ -129,7 +129,7 @@ content_blocks:
           content:
             alt: Editing a page on CloudCannon
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674660604/marketing-site/hero_image_w2idkd.png
+              https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -337,7 +337,7 @@ content_blocks:
                   content:
                     alt: Branching and previewing
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674883707/marketing-site/image_8_utyigb.png
+                      https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -491,7 +491,7 @@ content_blocks:
                   content:
                     alt: Faster and easier on Jekyll
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675209051/marketing-site/Landing%20Pages/Jekyll-CMS_mw9dec.png
+                      https://cc-dam.imgix.net/Landing%20Pages/Jekyll-CMS_mw9dec.png
                   styles:
                     border:
                     rounded:
@@ -811,26 +811,26 @@ content_blocks:
                   All changes and workflows sync back to Git so your development
                   and content editing teams are always in sync.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
+                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Catered to your editors
                 description: >-
                   Give your editors the freedom to change any piece of content,
                   without fear of breaking the site.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
+                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
               - title: Flexible publishing
                 description: >-
                   Create branches with staging/production workflows. Your
                   content team has the full power of Git behind a beautiful
                   interface.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
+                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Inline editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
                   WYSIWYG editor, the whole team can contribute content.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+                  https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
             desktop:
               transform:
@@ -1276,7 +1276,7 @@ content_blocks:
                   content:
                     alt: Overview of Jamstack ecosystem
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674953870/marketing-site/Group_18619_ed58la.png
+                      https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:
@@ -1447,7 +1447,7 @@ content_blocks:
             position: Technical Marketing Director
             company: Twitch
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674695015/marketing-site/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
+              https://cc-dam.imgix.net/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
             logo: /images/logos/twitch.svg
           styles:
             background: white
@@ -1579,25 +1579,25 @@ content_blocks:
               - title: Sync your Jekyll site
                 description: Connect your GitHub, GitLab or Bitbucket repository.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Jekyll build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211200/marketing-site/Landing%20Pages/Group_18878_leq2zy.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18878_leq2zy.png
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site
                   without the help of a developer.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1807,7 +1807,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1675210601/marketing-site/Landing%20Pages/Group_18848_lam2e8.png
+                      https://cc-dam.imgix.net/Landing%20Pages/Group_18848_lam2e8.png
                   styles:
                     border:
                     rounded:

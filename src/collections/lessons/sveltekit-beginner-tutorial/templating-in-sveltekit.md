@@ -1,6 +1,6 @@
 ---
 title: Templating in SvelteKit
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/tutorial-sveltekit.png
+image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 4
 tutorial: sveltekit-beginner-tutorial-series
 description: >-

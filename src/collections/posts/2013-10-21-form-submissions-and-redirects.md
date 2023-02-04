@@ -4,7 +4,7 @@ date: 2013-10-21
 author: mike-neumegen
 tags:
   - Features
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-stack-of-binders.jpg
+image: https://cc-dam.imgix.net/blog/uploads/blog-stack-of-binders.jpg
 ---
 
 Today we're announcing two brand-new features which will help you make kick-ass websites.

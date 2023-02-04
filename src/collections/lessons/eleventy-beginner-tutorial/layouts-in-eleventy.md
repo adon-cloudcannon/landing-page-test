@@ -1,6 +1,6 @@
 ---
 title: Layouts in Eleventy
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy-beginner-tutorial-2-layouts.png
+image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-2-layouts.png
 order: 2
 tutorial: eleventy-beginner-guide
 description: >-

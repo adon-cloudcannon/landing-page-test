@@ -4,7 +4,7 @@ description: >-
     Here are the top 10 best headless commerce tools to build an eCommerce
     digital storefront.
 permalink: /blog/headless-commerce-tools/
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/ecommerce-hero.jpg
+image: https://cc-dam.imgix.net/blog/uploads/ecommerce-hero.jpg
 date: 2021-10-15T05:00:00+1300
 tags:
   - Resources

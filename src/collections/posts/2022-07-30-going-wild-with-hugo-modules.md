@@ -4,7 +4,7 @@ description: >-
   The Nuance Technical Publications team recently moved to Hugo, and discovered
   that Hugo modules solve many of their consistency and standardization needs. 
 series:
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/nuance_hugo.jpg
+image: https://cc-dam.imgix.net/nuance_hugo.jpg
 date: 2022-07-30T05:00:00+1200
 author: nuance-communications-techpubs-team
 tags:
@@ -42,7 +42,7 @@ We've broken our journey into three phases to match three distinct goals:
 
 In the first phase, we considered the contents of a typical Hugo project and identified the components that should be the same for all projects.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/nuance_2.0.jpg" alt:"Nuance" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/nuance_2.0.jpg" alt:"Nuance" extend:false border:false %}
 
 The common content that we centralized includes:
 
@@ -110,7 +110,7 @@ directory called `project-specific/`. This directory, which contains
 subdirectories per product, houses each product’s proprietary logo and
 favicon, SCSS, and any file overrides specific to that product.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/nuance_phase_2.jpg" alt:"Nuance" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/nuance_phase_2.jpg" alt:"Nuance" extend:false border:false %}
 
 We then updated our `module.toml` accordingly. In the image below, “mix”
 is a product with its own logo, favicon, color palette, landing page
@@ -118,7 +118,7 @@ images, and so on. By simply changing “mix” to another product name we can
 quickly switch to (import) an entirely different skin for an entirely
 different product.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/nuance_2.1.jpg" alt:"Nuance" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/nuance_2.1.jpg" alt:"Nuance" extend:false border:false %}
 
 ### Phase 3: Content reuse
 
@@ -137,7 +137,7 @@ definitions. As you might expect, we expanded our use of
 definitions. This approach satisfied our goal to write it once and use it
 in many different places.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/nuance_2.2.jpg" alt:"Nuance" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/nuance_2.2.jpg" alt:"Nuance" extend:false border:false %}
 
 However, when a project imports a Hugo module, the content is imported
 *silently*; that is, it does not appear in the project. This approach
@@ -190,7 +190,7 @@ In this example, we are importing documentation and images from two
 modules (`docs-mix-event-logs` and `docs-mix-nluaas-grpc`) and specifying
 the path of both the source and target files.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/nuance_2.3.jpg" alt:"Nuance" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/nuance_2.3.jpg" alt:"Nuance" extend:false border:false %}
 
 ## **Recap**
 

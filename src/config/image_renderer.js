@@ -2,15 +2,9 @@ const probe = require('probe-image-size'),
 hasTemplateFormat = require("@11ty/eleventy-plugin-syntaxhighlight/src/hasTemplateFormat");
 
 module.exports = {
-	image_resize: function(image_path, size) {
-		let path = image_path.split('/image/upload/');
-
-		if (path.length != 2) {
-			throw new Error('Invalid Cloudinary URL');
-		}
-
-		let transformations = `q_auto,f_auto,w_${size}`
-		return `${path[0]}/image/upload/${transformations}/${path[1]}`;
+	image_resize: function(image_path, size, dpr) {
+		let transformations = `auto=compress,format&w=${size}&dpr=${dpr}`
+		return `${image_path}?${transformations}`
 	},
 
 	image_dimensions: async function(image_path) {

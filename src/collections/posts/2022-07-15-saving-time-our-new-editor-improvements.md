@@ -4,7 +4,7 @@ description: >-
   We’re bringing significant improvements to editing and saving in CloudCannon.
   Our focus: reducing wait time for builds.  
 series:
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/editor-hero-c_cikb1v.jpg
+image: https://cc-dam.imgix.net/blog/uploads/editor-hero-c_cikb1v.jpg
 date: 2022-07-15T05:00:00.000Z
 tags:
   - Features
@@ -24,11 +24,11 @@ Our first significant improvement is the **bulk saving** **of edits** in a sessi
 
 Now that you can save multiple edits simultaneously, we’re also giving you a place to **review all your changes** before clicking Save. You’ll first notice the new notification badge we’ve added to the Save button. It acts as a counter of your unsaved edits. When there are multiple edits, an ellipsis appears on the Save button to signal that there is a review step before you finalize your save. 
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/editor-button-c-1_bguzir.gif)
+![](https://cc-dam.imgix.net/blog/editor-button-c-1_bguzir.gif)
 
 Once you click Save, you’ll see a new review modal with a summary of your changes. You’ll see the pages or site data files you changed, and a list of any new files you added. Where necessary, we’ll prompt you for any missing information we need to properly save your work, such as a title or file name. As part of your review, you can view your changed files, or discard any changes you no longer wish to save. 
 
-![CloudCannon interface showing a list of changes that have been made to webpages, with two buttons - view changes or discard.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/editor-review-changes.jpeg "Review your changes screen")
+![CloudCannon interface showing a list of changes that have been made to webpages, with two buttons - view changes or discard.](https://cc-dam.imgix.net/editor-review-changes.jpeg "Review your changes screen")
 
 As you freely navigate your site before saving your edits, you’ll also find a second Save button at the top of your site navigation. And don’t worry: if you’re ever at risk of losing your unsaved changes — by closing a browser window or navigating away from CloudCannon before saving — we’ll alert you.
 
@@ -36,7 +36,7 @@ As you freely navigate your site before saving your edits, you’ll also find a 
 
 With our new Live Editing previews, you can now **get back to editing immediately after saving changes**, even while your build is in progress. We’ll now show a banner on any processing pages and update it when your new build is ready to load. The best part? When you refresh, we’ll load your new build *and* remember any edits you made during the build. 
 
-![Two notification banners. One shows a timer icon with the text &quot;This page has new changes waiting for build&quot;. The other one has a celebration icon with the text &quot;A new version of your page is available&quot; and a refresh button.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/editor-refresh-changes.jpeg "Review changes banners")
+![Two notification banners. One shows a timer icon with the text &quot;This page has new changes waiting for build&quot;. The other one has a celebration icon with the text &quot;A new version of your page is available&quot; and a refresh button.](https://cc-dam.imgix.net/editor-refresh-changes.jpeg "Review changes banners")
 
 ## Edit new pages before building 
 
@@ -50,7 +50,7 @@ All of these new features are available to use now under our Beta version. To sw
 
 To get the most out of your Beta experience, try playing around with our [Megakit](https://cloudcannon.com/community/themes/megakit/) template.
 
-![CloudCannon interface showing the My Account panel, with the &quot;Enter CloudCannon Beta&quot; button circled in yellow](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/editor-beta.jpeg "CloudCannon interface showing the My Account panel, with the &quot;Enter CloudCannon Beta&quot; button circled in yellow")
+![CloudCannon interface showing the My Account panel, with the &quot;Enter CloudCannon Beta&quot; button circled in yellow](https://cc-dam.imgix.net/editor-beta.jpeg "CloudCannon interface showing the My Account panel, with the &quot;Enter CloudCannon Beta&quot; button circled in yellow")
 
 The Beta will only be available when we have large features out for testing. When the features on Beta ship to production, we will end the Beta until our next testing session.
 

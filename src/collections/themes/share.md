@@ -1,7 +1,7 @@
 ---
 _uuid:
 name: Share
-image: https://dam-cdn.cloudcannon.com/share-hero.jpg
+image: https://cc-dam.imgix.net/share-hero.jpg
 image_alt: Share template
 description: >-
   An extremely versatile single page marketing website template with included
@@ -12,11 +12,11 @@ header_description: >-
   live rendering editing, complete with easy site building for non-technical
   editors.
 image_carousel:
-  - image_path: https://dam-cdn.cloudcannon.com/share-hero.jpg
+  - image_path: https://cc-dam.imgix.net/share-hero.jpg
     image_alt: Hero
-  - image_path: https://dam-cdn.cloudcannon.com/share-logo-lr.jpg
+  - image_path: https://cc-dam.imgix.net/share-logo-lr.jpg
     image_alt: Logo ticker and column blocks
-  - image_path: https://dam-cdn.cloudcannon.com/share-video.jpg
+  - image_path: https://cc-dam.imgix.net/share-video.jpg
     image_alt: Video
 themes_ssgs:
   - ssg_name: hugo

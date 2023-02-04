@@ -4,14 +4,14 @@ author: cloudcannon
 date: 2014-07-30
 tags:
   - Resources
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-spilled-coin-jar.jpg
+image: https://cc-dam.imgix.net/blog/uploads/blog-spilled-coin-jar.jpg
 ---
 
 We believe the approach we’ve taken with CloudCannon CMS is the right way to remove the technical junk that web designers shouldn't have to deal with when adding content management to their website, but we’ve struggled to find anyone who has the same philosophy when it comes to e-commerce. Until now.
 
 <div class="cc-helper__h5">Behold:</div>
 
-![Snipcart logo](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/snipcart-response/snipcart.png)
+![Snipcart logo](https://cc-dam.imgix.net/blog/assets/blog/snipcart-response/snipcart.png)
 
 [Snipcart](http://www.snipcart.com) is the solution we’ve been waiting for\! And now we reckon e-commerce on CloudCannon is going to be awesome\!
 
