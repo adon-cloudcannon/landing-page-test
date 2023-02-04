@@ -77,7 +77,15 @@ layout: page.html
 <div class="bg-caramel light-text">
 	<div class="container py-24">
 		<h2 class="text-6xl text-center font-bold mb-16">{{ title }}'s work</h2>
-		<section class="splide" x-data="Splide" data-splide='{"rewind":true, "gap": "20px", "pagination": false, "speed": 1000}' aria-label="Projec Slider">
+		<section class="splide" x-data="Splide({
+			options: {
+				type: 'loop',
+				rewind: true,
+				gap: '20px',
+				pagination: false,
+				speed: 1000
+			}
+		})" aria-label="Projec Slider">
 			<div class="splide__track">
 				<ul class="splide__list">
 					{% assign i = 0 %}
