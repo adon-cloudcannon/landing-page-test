@@ -29,9 +29,7 @@ links:
   linkedin_url:
 slides:
   - title: Panoply
-    featured_image: /uploads/screenshot-2022-12-07-at-10-09-50-am.png
-    featured_image_alt: Panoply site screenshot
-    logo_image: /uploads/image-72.png
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-09-50-am.png
     content_markdown: >-
       Cubicflow worked with Panoply on multiple projects. We lead design and
       development for the Panoply website, UI system, and branding.
@@ -40,9 +38,7 @@ slides:
       We also serve as lead designers on the Panoply app and integrate with
       development teams help to bring their product to life.
   - title: Life Flower
-    featured_image: /uploads/screenshot-2022-12-07-at-10-13-21-am.png
-    featured_image_alt: Life Flower site screenshot
-    logo_image: /uploads/lifeflower-logo-matt-ellison.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-13-21-am.png
     content_markdown: >-
       Cubicflow worked with Life Flower on multiple projects. We designed
       and developed the Life Flower website and ecommerce platform.
@@ -51,9 +47,7 @@ slides:
       We also created Life Flower’s design systems, branding, and Life
       Flower’s product packaging.
   - title: Shotbud
-    featured_image: /uploads/screenshot-2022-12-07-at-10-16-45-am.png
-    featured_image_alt: Shotbud site screenshot
-    logo_image: /uploads/image-73.png
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-16-45-am.png
     content_markdown: >-
       Cubicflow worked with Shotbud on multiple projects. We designed and
       developed the Shotbud website and Apple Watch application.

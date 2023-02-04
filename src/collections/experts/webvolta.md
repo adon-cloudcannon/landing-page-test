@@ -26,6 +26,19 @@ links:
   instagram_url: https://www.instagram.com/webvolta/?hl=en
   twitter_url: https://twitter.com/webvolta
   linkedin_url: https://www.linkedin.com/company/webvolta-llc
+slides:
+  - title: Staffing Proxy
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-10-02-pm.png
+    content_markdown: >-
+      New static site branding, design and development of static site,
+      including integration with recruiting software via a small backend
+      Rails app.
+  - title: Brushed Monkey
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-4-44-44-pm.png
+    content_markdown: Partial rebrand, new website design and development of static site.
+  - title: Rick's Coffee Bar
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-4-20-08-pm.png
+    content_markdown: Rapid late stage design and development of non-profit static site.
 details_block:
   _bookshop_name: experts/details
   location: Minneapolis, MN, USA

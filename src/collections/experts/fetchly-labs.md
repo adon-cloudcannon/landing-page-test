@@ -42,9 +42,7 @@ details_block:
   linkedin_url: https://www.linkedin.com/company/fetchly-labs/
 slides:
   - title: Lowe's Build A Birthday
-    featured_image: /uploads/screenshot-2023-01-31-at-4-23-44-pm.png
-    featured_image_alt: Lowe's Build A Birthday site screenshot
-    logo_image: /uploads/build-a-birthday-event-3.svg
+    image: /uploads/screenshot-2023-01-31-at-4-23-44-pm.png
     content_markdown: >-
       Celebrate your mini DIY-er's birthday with a party at Lowe's with
       everything you need to enjoy a memorable take-home DIY project.
@@ -54,10 +52,7 @@ slides:
       tool allows customers to create their own party experience & custom
       API checkout integration.
   - title: Nightout
-    featured_image: /uploads/screenshot-2022-12-14-at-3-16-05-pm.png
-    featured_image_alt: Nightout site screenshot
-    logo_image: >-
-      /uploads/nightout-a-highly-curated-collection-of-live-events-tickets-sports-and-more-0.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-16-05-pm.png
     content_markdown: >-
       Nationwide event discovery app. Buy tickets, get recommendations, and
       access to exclusive content just for you.
@@ -67,10 +62,7 @@ slides:
       functionality, admin tool for content curation, custom email tool
       (SES) & custom API checkout integration.
   - title: Oats Overnight
-    featured_image: /uploads/screenshot-2022-12-14-at-3-16-48-pm.png
-    featured_image_alt: Oats Overnight site screenshot
-    logo_image: >-
-      /uploads/oats-overnight-nutritious-delicious-convenient-oatmeal-breakfast-18.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-16-48-pm.png
     content_markdown: >-
       The Original Overnight Oats Shake™ is a Complete Grab-and-Go Meal
       Packed with Nutrients. Made in the USA.

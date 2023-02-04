@@ -32,9 +32,7 @@ links:
   linkedin_url: https://www.linkedin.com/company/42714056/
 slides:
   - title: Fiducian
-    featured_image: /uploads/screenshot-2022-12-14-at-3-21-44-pm.png
-    featured_image_alt: Fiducian site screenshot
-    logo_image: /uploads/fiducian-logo-kayci-scaggs.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-21-44-pm.png
     content_markdown: >-
       Fiducian is an ASX-listed diversified financial group. Requirements
       included a modern look and simplified UI, both for the front and back
@@ -45,9 +43,7 @@ slides:
       to allow the internal team to make updates while keeping the design
       integrity. The site scores 99% on GTmetrix despite its massive size.
   - title: EdTripper
-    featured_image: /uploads/screenshot-2022-12-14-at-3-23-40-pm.png
-    featured_image_alt: EdTripper site screenshot
-    logo_image: /uploads/group-6.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-23-40-pm.png
     content_markdown: >-
       EdTripper’s MVP looks simple on the surface, but is packed with
       features.
@@ -58,10 +54,7 @@ slides:
       Airbnb for the search and map function, and includes user dashboards.
       EdTripper scores a 99% on GTmetrix despite its complexity.
   - title: Kate Nixon
-    featured_image: /uploads/screenshot-2022-12-14-at-3-23-56-pm.png
-    featured_image_alt: Kate Nixon site screenshot
-    logo_image: >-
-      /uploads/kate-nixon-australian-stylist-designer-editor-studio-kate-casa-custom-by-kate-nixon-5.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-23-56-pm.png
     content_markdown: >-
       Kate Nixon is an Australian stylist, designer, and the interiors
       editor of Australian House & Garden magazine.

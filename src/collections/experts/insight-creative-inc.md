@@ -42,9 +42,7 @@ details_block:
   linkedin_url: https://www.linkedin.com/company/insight-creative-inc./mycompany/
 slides:
   - title: A to Z Machine
-    featured_image: /uploads/screenshot-2022-12-14-at-3-17-36-pm.png
-    featured_image_alt: A to Z Machine site screenshot
-    logo_image: /uploads/cnc-machine-shop-in-northeast-wisconsin-a-to-z-machine-9.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-17-36-pm.png
     content_markdown: >-
       A to Z Machine came to us with an outdated website built on the Joomla
       Content Management System.
@@ -53,9 +51,7 @@ slides:
       We updated and modernized the look of A to Z Machine’s website and
       optimized the site to meet modern performance standards.
   - title: Baileys Harbor Schoolhouse Inn
-    featured_image: /uploads/screenshot-2022-12-14-at-3-17-56-pm.png
-    featured_image_alt: Immunize Partnership site screenshot
-    logo_image: /uploads/image-81-1.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-17-56-pm.png
     content_markdown: >-
       Frustrated with poor-performing WordPress themes that did not meet
       their needs, Baileys Harbor Schoolhouse Inn knew they needed a new
@@ -66,9 +62,7 @@ slides:
       great but cut the total load time from over 6 seconds down to 0.6
       seconds.
   - title: Matthews Tire
-    featured_image: /uploads/screenshot-2022-12-14-at-3-18-23-pm.png
-    featured_image_alt: Matthews Tire site screenshot
-    logo_image: /uploads/svg30.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-18-23-pm.png
     content_markdown: >-
       After a successful run with Jekyll, we helped Matthews Tire start
       fresh with a site redesign and updated site architecture.

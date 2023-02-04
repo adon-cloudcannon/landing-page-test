@@ -19,6 +19,22 @@ links:
   instagram_url: https://www.instagram.com/w____studio/
   twitter_url:
   linkedin_url: https://www.linkedin.com/in/andrew-winter-111a8114/
+slides:
+  - title: Bluthner Pianos
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-5-07-11-pm.png
+    content_markdown: >-
+      A rich and engaging website experience designed for Bluthner, a
+      high-end piano manufacturer based in Germany.
+  - title: Springs Farm
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-5-09-40-pm.png
+    content_markdown: >-
+      A simple, elegant and visually-rich website designed for a private
+      sculpture park and equestrian centre in Berkshire, England.
+  - title: Wells Motor Cars
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-9-40-40-am.png
+    content_markdown: >-
+      A bespoke website designed for the premium British sports car company
+      Wells Motor Cars.
 details_block:
   _bookshop_name: experts/details
   location: 

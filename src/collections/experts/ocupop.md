@@ -44,9 +44,7 @@ details_block:
   linkedin_url: https://www.linkedin.com/company/ocupop
 slides:
   - title: Kettle
-    featured_image: /uploads/screenshot-2022-12-19-at-9-27-03-am.png
-    featured_image_alt: Kettle site screenshot
-    logo_image: /uploads/group-230.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-9-27-03-am.png
     content_markdown: >-
       Kettle offers a smarter reinsurance model, using advanced data
       modeling to predict and protect against the effects of climate change.
@@ -56,9 +54,7 @@ slides:
       and web development, we’ve helped the brand reimagine the insurance
       industry.
   - title: ReFED
-    featured_image: /uploads/screenshot-2022-12-19-at-9-28-24-am.png
-    featured_image_alt: ReFED site screenshot
-    logo_image: /uploads/layer-2-2.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-9-28-24-am.png
     content_markdown: >-
       ReFED is a national nonprofit dedicated to ending food loss and waste
       across the U.S. food system by advancing data-driven solutions.
@@ -68,9 +64,7 @@ slides:
       solve design and engineering challenges, including the implementation
       of an extensive, fully-searchable research and policy database.
   - title: The Digital Standard
-    featured_image: /uploads/screenshot-2022-12-19-at-9-37-05-am.png
-    featured_image_alt: The Digital Standard site screenshot
-    logo_image: /uploads/group-5.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-9-37-05-am.png
     content_markdown: >-
       The Digital Standard from Consumer Reports is an open-source,
       collaborative framework to measure consumer values like privacy,

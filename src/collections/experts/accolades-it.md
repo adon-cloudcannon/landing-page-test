@@ -19,23 +19,17 @@ frameworks:
   - jekyll
 slides:
   - title: Digital Twin Studios
-    featured_image: /uploads/screenshot-2022-12-14-at-3-06-48-pm.png
-    featured_image_alt: Digital Twin Studios site screenshot
-    logo_image: /uploads/frame-1343.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-06-48-pm.png
     content_markdown: >-
       We created a landing page for the client to inform and recruit new
       talent for future projects sourced by Unity.
   - title: Immunize Partnership
-    featured_image: /uploads/screenshot-2022-12-14-at-3-01-22-pm.png
-    featured_image_alt: Immunize Partnership site screenshot
-    logo_image: /uploads/the-immunization-partnership-1.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-01-22-pm.png
     content_markdown: >-
       We converted the site to Jekyll and built out web apps for the client
       to control various complex elements of their site.
   - title: All Around Lawn Services
-    featured_image: /uploads/screenshot-2022-12-14-at-3-02-08-pm.png
-    featured_image_alt: All Around Lawn Services site screenshot
-    logo_image: /uploads/image-80.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-02-08-pm.png
     content_markdown: >-
       We built a simple one-page site with web app, form, and site editor
       for the client to be able to manage their site easily and efficiently.
@@ -76,23 +70,17 @@ experts_blocks:
     background_color:
     slides:
       - title: Digital Twin Studios
-        featured_image: /uploads/screenshot-2022-12-14-at-3-06-48-pm.png
-        featured_image_alt: Digital Twin Studios site screenshot
-        logo_image: /uploads/frame-1343.svg
+        image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-06-48-pm.png
         content_markdown: >-
           We created a landing page for the client to inform and recruit new
           talent for future projects sourced by Unity.
       - title: Immunize Partnership
-        featured_image: /uploads/screenshot-2022-12-14-at-3-01-22-pm.png
-        featured_image_alt: Immunize Partnership site screenshot
-        logo_image: /uploads/the-immunization-partnership-1.svg
+        featured_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-01-22-pm.png
         content_markdown: >-
           We converted the site to Jekyll and built out web apps for the client
           to control various complex elements of their site.
       - title: All Around Lawn Services
-        featured_image: /uploads/screenshot-2022-12-14-at-3-02-08-pm.png
-        featured_image_alt: All Around Lawn Services site screenshot
-        logo_image: /uploads/image-80.svg
+        featured_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-02-08-pm.png
         content_markdown: >-
           We built a simple one-page site with web app, form, and site editor
           for the client to be able to manage their site easily and efficiently.

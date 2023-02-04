@@ -33,9 +33,7 @@ details_block:
   linkedin_url:
 slides:
   - title: MyPolytek
-    featured_image: /uploads/screenshot-2022-12-14-at-3-27-33-pm.png
-    featured_image_alt: MyPolytek site screenshot
-    logo_image: /uploads/image-59.png
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-27-33-pm.png
     content_markdown: >-
       MyPolytek was looking to upgrade their online presence with a website
       that reflected the promise to their customer. Speed, quality, and
@@ -45,9 +43,7 @@ slides:
       We delivered a product that continues to deliver 2 years after the
       initial launch.
   - title: Brooke Joanna
-    featured_image: /uploads/screenshot-2022-12-07-at-4-18-57-pm.png
-    featured_image_alt: Brooke Joanna site screenshot
-    logo_image: /uploads/image-60.png
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-4-18-57-pm.png
     content_markdown: >-
       Brooke Joanna provides full-service nutrition coaching and they were
       looking for a way to sell programs and facilitate online transactions.
@@ -56,9 +52,7 @@ slides:
       We delivered an e-commerce site with a rich set of educational
       content.
   - title: Revolutionary Earth
-    featured_image: /uploads/screenshot-2022-12-07-at-4-20-08-pm.png
-    featured_image_alt: Revolutionary Earth site screenshot
-    logo_image: /uploads/image-79.svg
+    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-4-20-08-pm.png
     content_markdown: >-
       Revolutionary Earth is a non-profit that aims to restore the urban
       ecosystem one town at a time.
