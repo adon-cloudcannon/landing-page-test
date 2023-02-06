@@ -4,6 +4,10 @@
    <meta name="description" content="{{ description }}">
    <meta property="og:description" content="{{ description }}" />
    <meta property="twitter:description" content="{{ description }}" />
+{% elsif summary %}
+    <meta name="description" content="{{ summary }}">
+    <meta property="og:description" content="{{ summary }}" />
+    <meta property="twitter:description" content="{{ summary }}" />
 {% else %}
    <meta name="description" content="{{ site.description }}">
    <meta property="og:description" content="{{ site.description }}" />

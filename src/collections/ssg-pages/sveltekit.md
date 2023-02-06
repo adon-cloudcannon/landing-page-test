@@ -5,7 +5,6 @@ layout: builder.html
 image: /images/icons/ssgs/sveltekit.svg
 summary: Fast and flexible, and powered by Svelte and Vite.
 permalink: /sveltekit-cms/
-description:
 seo:
   featured_image:
   featured_image_alt:

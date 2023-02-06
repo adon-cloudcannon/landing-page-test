@@ -3,7 +3,6 @@ _schema: default
 title: Hugo
 layout: builder.html
 permalink: /hugo-cms/
-description:
 seo:
   featured_image:
   featured_image_alt:

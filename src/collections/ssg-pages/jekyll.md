@@ -5,7 +5,6 @@ layout: builder.html
 image: /images/icons/ssgs/jekyll.svg
 summary: A simple blog-aware SSG powered by Ruby. 
 permalink: /jekyll-cms/
-description:
 seo:
   featured_image:
   featured_image_alt:

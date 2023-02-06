@@ -3,7 +3,6 @@ _schema: default
 title: Eleventy
 layout: builder.html
 image: /images/icons/ssgs/11ty.svg
-description:
 seo:
   featured_image:
   featured_image_alt:

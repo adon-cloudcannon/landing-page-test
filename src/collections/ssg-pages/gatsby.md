@@ -5,7 +5,6 @@ layout: builder.html
 image: /images/icons/ssgs/gatsby.svg
 summary: A React-based framework with performance, scalability and security built-in.
 permalink: /gatsby-cms/
-description:
 seo:
   featured_image:
   featured_image_alt:
