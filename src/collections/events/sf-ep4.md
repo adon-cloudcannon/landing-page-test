@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/SF-Ep4-nuno-post.jpg
+  path: https://cc-dam.imgix.net/SF-Ep4-nuno-post.jpg
   alt: >-
     Blue banner with Static Feedback logo and image of event speaker, Nuno
     Coração.

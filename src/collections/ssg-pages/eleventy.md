@@ -7,7 +7,7 @@ description:
 seo:
   featured_image:
   featured_image_alt:
-summary: Eleventy is one of the most popular (and fastest) static site generators in the world, with absolute flexibility for developers.
+summary: One of the fastest JavaScript-based SSGs, with absolute flexibility for developers.
 permalink: /eleventy/
 content_blocks:
   - _bookshop_name: sections/container
@@ -133,7 +133,7 @@ content_blocks:
           content:
             alt: Editing a page on CloudCannon
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674660604/marketing-site/hero_image_w2idkd.png
+              https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -342,7 +342,7 @@ content_blocks:
                   content:
                     alt: Branching and previewing
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674883707/marketing-site/image_8_utyigb.png
+                      https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -496,7 +496,7 @@ content_blocks:
                   content:
                     alt: Faster and easier on 11ty
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674884132/marketing-site/image_9_yqbchd.png
+                      https://cc-dam.imgix.net/image_9_yqbchd.png
                   styles:
                     border:
                     rounded:
@@ -816,25 +816,25 @@ content_blocks:
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674920252/marketing-site/image_-_Git-based_CMS_yv8lsy.png
+                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Publishing workflows
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Publishing_workflows_yf5gjl.png
+                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
               - title: Range of editors
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005681/marketing-site/Image_-_Range_of_editors_cuyjmd.png
+                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Component-driven workflows
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675005680/marketing-site/Image_-_Component-driven_workflows_mmwwfs.png
+                  https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
             desktop:
               transform:
@@ -1280,7 +1280,7 @@ content_blocks:
                   content:
                     alt: Overview of Jamstack ecosystem
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674953870/marketing-site/Group_18619_ed58la.png
+                      https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:
@@ -1451,7 +1451,7 @@ content_blocks:
             position: Technical Marketing Director
             company: Twitch
             image: >-
-              https://res.cloudinary.com/dahpdufoq/image/upload/v1674695015/marketing-site/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
+              https://cc-dam.imgix.net/ezgif-2-2c6fd480d3-removebg-preview_1_hxgjs2.png
             logo: /images/logos/twitch.svg
           styles:
             background: white
@@ -1586,25 +1586,25 @@ content_blocks:
                   your content, all on one platform. Build and host the best
                   performing sites on the web with the help of our CMS for 11ty.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675216045/marketing-site/Landing%20Pages/Git-options-screen_o1xt32.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Eleventy build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1674963444/marketing-site/Group_18830_dhpdvu.png
+                  https://cc-dam.imgix.net/Group_18830_dhpdvu.png
               - title: Invite your content team to collaborate
                 description: >-
                   Start collaborating with your team. Edit content right on the
                   page.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211602/marketing-site/Landing%20Pages/Group_18535_ciyft9.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
                 image: >-
-                  https://res.cloudinary.com/dahpdufoq/image/upload/v1675211332/marketing-site/Landing%20Pages/Group_18541_se5b9p.png
+                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
           styles:
             desktop:
               margin:
@@ -1821,7 +1821,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://res.cloudinary.com/dahpdufoq/image/upload/v1674954946/marketing-site/Group_18528_j98j2i.png
+                      https://cc-dam.imgix.net/Group_18528_j98j2i.png
                   styles:
                     border:
                     rounded:

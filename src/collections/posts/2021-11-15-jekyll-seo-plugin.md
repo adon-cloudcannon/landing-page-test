@@ -1,10 +1,10 @@
 ---
 title: How the Jekyll SEO plugin helps you optimize your site
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/jekyll-seo-desktop.png
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/jekyll-seo-desktop.png
 permalink: /blog/showcase-jekyll-seo-plugin/
 date: 2021-11-15T13:00:00+1300
 description: >-

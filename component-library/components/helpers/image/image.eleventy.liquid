@@ -1,4 +1,4 @@
-{% if image contains 'res.cloudinary.com' %}
+{% if image contains 'cc-dam.imgix.net' %}
 	
 	{% unless width %}
 		{% assign width = 1216 %}
@@ -16,15 +16,14 @@
 					{% break %}
 				{% endif %}
 				{% assign c_width = i_width %}
-				{% assign r_width = c_width | times: 2 %}
-				<source media="(min-width: {{ c_width }}px)" srcset="{{ image | image_resize: r_width }} 2x, {{ image | image_resize: c_width }} 1x">
+				<source media="(min-width: {{ c_width }}px)" srcset="{{ image | image_resize: c_width, 2 }} 2x, {{ image | image_resize: c_width, 1 }} 1x">
 			{% endfor %}
 			
-			<img src="{{ image | image_resize: c_width }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
+			<img src="{{ image | image_resize: c_width, 1 }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
 		</picture>
 	{% else %}
-		<img src="{{ image | image_resize: width }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
+		<img src="{{ image | image_resize: width, 1 }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
 	{% endif %}
 {% else %}
-	<img src="{{ image }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
+	<img src="{{ image }}" alt="{{ alt }}" class="{{ classes }}">
 {% endif %}

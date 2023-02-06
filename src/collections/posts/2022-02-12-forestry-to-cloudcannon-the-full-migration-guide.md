@@ -3,11 +3,11 @@ title: 'Forestry to CloudCannon: The full migration guide'
 description: >-
   A full guide for Forestry features and concepts, how they translate to
   CloudCannon, and the steps developers need to take to make the transition.
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/migration-from-forestry-to-cloudcannon_vnmicj.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/migration-from-forestry-to-cloudcannon_vnmicj.jpg
 date: 2022-02-12T05:00:00+1300
 tags:
   - Resources
@@ -150,11 +150,11 @@ right from their own domain. Freelancers and agencies use this feature to
 white-label Forestry and provide a more streamlined way of accessing the
 CMS.
 
-![Screenshot of Forestry remote admin interface](https://res.cloudinary.com/dahpdufoq/image/upload/forestry-to-cloudcannon-1_htdute.png)
+![Screenshot of Forestry remote admin interface](https://cc-dam.imgix.net/forestry-to-cloudcannon-1_htdute.png)
 
 CloudCannon has a similar feature called [client sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/). Instead of setting up user accounts for editors, you set up a password. Clients navigate to theirdomain.com/update, enter the password and get a white labeled interface to update the content on their site.
 
-![Screenshot of CloudCannon's client sharing feature](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/client-sharing-example.png)
+![Screenshot of CloudCannon's client sharing feature](https://cc-dam.imgix.net/client-sharing-example.png)
 
 ### Deployment
 
@@ -177,24 +177,24 @@ websites. Follow these steps and you’ll be up and running in no time:
 Just like Forestry, CloudCannon is a Git-based CMS. To start, sign up to
 CloudCannon, click “Add new site”, and select “Connect your own files.”
 
-![Screenshot of CloudCannon interface showing how you add a new site](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-add-new-site.png)
+![Screenshot of CloudCannon interface showing how you add a new site](https://cc-dam.imgix.net/cloudcannon-add-new-site.png)
 
 Create a name for your site.
 
-![Screenshot of CloudCannon interface where you can name your site](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-name-your-site.png)
+![Screenshot of CloudCannon interface where you can name your site](https://cc-dam.imgix.net/cloudcannon-name-your-site.png)
 
 Select a source for your website files. CloudCannon supports two-way Git
 syncing with GitHub, GitLab, and Bitbucket. Once you’ve selected your Git
 provider, you’ll need to authenticate it to CloudCannon.
 
-![CloudCannon screenshot of the sync files interface](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-sync-files.png)
+![CloudCannon screenshot of the sync files interface](https://cc-dam.imgix.net/cloudcannon-sync-files.png)
 
 From here, select the repository and branch that is connected to your site
 on Forestry. If you want to test CloudCannon out without impacting the
 live Forestry site, select Create new in branch setup to create a new
 branch. You can always merge it to your production branch at a later date.
 
-![Screenshot of CloudCannon interface where you can select your repository](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-repository.png)
+![Screenshot of CloudCannon interface where you can select your repository](https://cc-dam.imgix.net/cloudcannon-repository.png)
 
 ### 2\. Set up your SSG build
 
@@ -202,14 +202,14 @@ CloudCannon will try to connect your SSG and configuration details based
 on your file structure. Review this configuration make any tweaks for your
 project.
 
-![Screenshot of CloudCannon interface](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-build-site.png)
+![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-build-site.png)
 
 If the build succeeds you’re ready to start configuring the editing.
 Otherwise, tweak your build options until you get it working. You can
 always reach out to our [support
 team](https://cloudcannon.com/documentation/support/) if you need help with any step along the way.
 
-![Screenshot of CloudCannon interface](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-site-is-ready.png)
+![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-site-is-ready.png)
 
 ### 3\. Configure the CMS
 
@@ -296,7 +296,7 @@ needs access to the site including content editors, marketers, and
 developers. Guide them through the editing interfaces and they’ll be up to
 speed in no time.
 
-![Screenshot of CloudCannon interface](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-invite-team.png)
+![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-invite-team.png)
 
 ### 5\. Configure your hosting (optional)
 
@@ -309,7 +309,7 @@ All sites on CloudCannon come with their own generated domain name which
 you can use as a testing or staging environment or you can point your own
 domain at CloudCannon’s servers for your production website.
 
-![Screenshot of CloudCannon interface](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/cloudcannon-custom-domain.png)
+![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-custom-domain.png)
 
 ## Come and say hello
 

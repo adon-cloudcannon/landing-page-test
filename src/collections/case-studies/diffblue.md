@@ -8,14 +8,14 @@ categories:
   - Documentation
   - Company sites
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/diffblue-card-1.png
+  path: https://cc-dam.imgix.net/marketing/uploads/diffblue-card-1.png
   alt: Diffblue logo
-logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/diffblue-logo.png
+logo: https://cc-dam.imgix.net/marketing/uploads/case-study/diffblue-logo.png
 person:
   name: Liz Barlow
   position: Marketing Manager
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/liz-barlow.jpg
+    path: https://cc-dam.imgix.net/marketing/uploads/case-study/liz-barlow.jpg
     alt: Liz Barlow
 date: 2021-06-12 12:37:00
 seo:
@@ -35,7 +35,7 @@ relatively inexpensive.
 
 > CloudCannon is so easy and intuitive to use that even a non-tech person can go in and make changes without wrecking the system. It’s an amazing product that has made my work and life significantly easier.
 
-![Diffblue marketing site in action on a laptop](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/diffblue-marketing-c.jpg)
+![Diffblue marketing site in action on a laptop](https://cc-dam.imgix.net/marketing/uploads/diffblue-marketing-c.jpg)
 
 There was no argument from Liz, who quickly grew frustrated with the
 limitations of the existing system’s drag and drop design. “With the
@@ -50,7 +50,7 @@ and to CloudCannon, a combination that both matched her requirements and
 was endorsed by a peer who was well used to it. “I went and sat with him
 and he showed me his CloudCannon set-up,” she says. “He sang its praises.”
 
-![Tablet screen with a conceptual sketch of a website idea](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/diffblue-designing.jpg)
+![Tablet screen with a conceptual sketch of a website idea](https://cc-dam.imgix.net/marketing/uploads/diffblue-designing.jpg)
 
 ## A super smooth transition
 
@@ -83,7 +83,7 @@ documents into it.
 
 > I'd say it is a system that makes it really easy for a developer to have control of what they do.
 
-![The Diffblue documentation site on a tablet](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/diffblue-documentation2-c.jpg)
+![The Diffblue documentation site on a tablet](https://cc-dam.imgix.net/marketing/uploads/diffblue-documentation2-c.jpg)
 
 ## The confidence to make the changes you want, when you want them
 

@@ -1,7 +1,7 @@
 ---
 _uuid: 5ba8a7d4-f0a6-4bb4-9046-e311d763c936
 name: Urban
-image: https://dam-cdn.cloudcannon.com/community/images/templates/urban/1.jpg
+image: https://cc-dam.imgix.net/community/images/templates/urban/1.jpg
 image_alt: >-
   Screenshot of Urban theme layout of the front page containing the menu across
   the top with bold colours and a header, description and contact us button
@@ -12,24 +12,24 @@ header_description: >-
   customers the services you offer, examples of previous work and a contact page
   to get in touch.
 image_carousel:
-  - image_path: https://dam-cdn.cloudcannon.com/community/images/templates/urban/1.jpg
+  - image_path: https://cc-dam.imgix.net/community/images/templates/urban/1.jpg
     image_alt: >-
       Screenshot of Urban theme layout of the front page containing the menu
       across the top with bold colours and a header, description and contact us
       button
-  - image_path: https://dam-cdn.cloudcannon.com/community/images/templates/urban/2.jpg
+  - image_path: https://cc-dam.imgix.net/community/images/templates/urban/2.jpg
     image_alt: >-
       Screenshot of Urban theme layout of the middle of the front page
       containing bold colour background a showcase of work
-  - image_path: https://dam-cdn.cloudcannon.com/community/images/templates/urban/3.jpg
+  - image_path: https://cc-dam.imgix.net/community/images/templates/urban/3.jpg
     image_alt: >-
       Screenshot of Urban theme layout of the bottom of the front page
       containing bold colour background a footer
-  - image_path: https://dam-cdn.cloudcannon.com/community/images/templates/urban/4.jpg
+  - image_path: https://cc-dam.imgix.net/community/images/templates/urban/4.jpg
     image_alt: >-
       Screenshot of Urban theme layout of the an team page containing bold
       colors and a grid containing profile pictures and job descriptions
-  - image_path: https://dam-cdn.cloudcannon.com/community/images/templates/urban/5.jpg
+  - image_path: https://cc-dam.imgix.net/community/images/templates/urban/5.jpg
     image_alt: >-
       Screenshot of Urban theme layout of the contact page with a map in a
       diagonal strip and contact information under it

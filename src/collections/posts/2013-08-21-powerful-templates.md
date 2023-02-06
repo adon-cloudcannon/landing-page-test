@@ -5,7 +5,7 @@ date: 2013-08-21
 tags:
   - Features
 author: mike-neumegen
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-lightbulb.jpg
+image: https://cc-dam.imgix.net/blog/uploads/blog-lightbulb.jpg
 seo:
   open_graph_type: article
   featured_image:
@@ -16,7 +16,7 @@ You guys asked for it, and here it is. We're so excited to announce the brand ne
 
 Making changes to the structure of your website can involve editing every single HTML page. Now you can include a file into your HTML pages making **updating a breeze**.&nbsp;
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/80e7f5d79e8b31e1fe0b0486baefd2d0.png){: width="411" height="240"}
+![](https://cc-dam.imgix.net/blog/uploads/80e7f5d79e8b31e1fe0b0486baefd2d0.png){: width="411" height="240"}
 
 We've made the syntax as simple as possible. Simply adding `<!-- include header.html -->` to an HTML page is all you need to save yourself some **serious time**. See our docs for a more detailed explanation.
 

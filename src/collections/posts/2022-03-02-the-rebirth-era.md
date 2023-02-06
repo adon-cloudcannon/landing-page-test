@@ -6,11 +6,11 @@ description: >-
   older SSGs with modern ideas.
 series: SSGs through the ages
 permalink: /blog/ssg-history-7-rebirth/
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/explorer-7_yy2hqt.png
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/explorer-7_yy2hqt.png
 date: 2022-03-02T05:00:00.000Z
 tags:
   - Resources

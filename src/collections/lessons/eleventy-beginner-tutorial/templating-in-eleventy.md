@@ -1,6 +1,6 @@
 ---
 title: Templating in Eleventy
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/eleventy-beginner-tutorial-4-templating.png
+image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-4-templating.png
 order: 4
 tutorial: eleventy-beginner-guide
 description: >-

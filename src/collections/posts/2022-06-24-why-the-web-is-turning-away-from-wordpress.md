@@ -5,11 +5,11 @@ description: >-
   static site generators, by contrast, are on the rise. Why? And what will these
   changes mean for you?
 series:
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/web-turning-away-wordpress.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/web-turning-away-wordpress.jpg
 date: 2022-06-24T05:00:00+1200
 tags:
   - Opinion
@@ -25,7 +25,7 @@ Yes, WordPress still hovers around the 43% mark when it comes to its share of th
 
 Sites built with static site generators, by contrast, are on the rise within that same five-year period. In fact, SSGs experienced an eightfold increase in their share of the top 10K websites over that period:
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/WP-SSG-graph-10k.png)
+![](https://cc-dam.imgix.net/WP-SSG-graph-10k.png)
 
 (If you'd like to see the data yourself, check out BuiltWith trends on the top 10K sites for [WordPress](https://trends.builtwith.com/cms/WordPress), [Jekyll](https://trends.builtwith.com/cms/Jekyll), [Hugo](https://trends.builtwith.com/cms/Hugo), [Next.js](https://trends.builtwith.com/framework/Next.js), [Nuxt.js](https://trends.builtwith.com/framework/Nuxt.js), and [Gatsby](https://trends.builtwith.com/framework/Gatsby-JS).)
 

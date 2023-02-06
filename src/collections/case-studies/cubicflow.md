@@ -8,14 +8,14 @@ weight: 6
 categories:
   - Agency
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/cubicflow-card-1.png
+  path: https://cc-dam.imgix.net/marketing/uploads/cubicflow-card-1.png
   alt: Cubicflow logo
-logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/cubicflow.svg
+logo: https://cc-dam.imgix.net/marketing/uploads/case-study/cubicflow.svg
 person:
   name: Matt Ellison
   position: Founder
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/matt-ellison.jpg
+    path: https://cc-dam.imgix.net/marketing/uploads/case-study/matt-ellison.jpg
     alt: Matt Ellison
 date: 2021-03-26 12:37:00
 seo:
@@ -33,7 +33,7 @@ eventually led them to found their own design agency - Cubicflow.
 
 > There is no transparency in WordPress' plugins, and you are so dependent on them. When looking at the codebase, I would often ask, where is some of this coming from?
 
-![Image of laptop showcasing Cubicflow's website](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/cubicflow-scene.png)
+![Image of laptop showcasing Cubicflow's website](https://cc-dam.imgix.net/marketing/uploads/cubicflow-scene.png)
 
 Cubicflow is much more than simply websites. Their extensive experience
 and love of impactful design have made them experts who can own and advise
@@ -61,7 +61,7 @@ of the problem, and understanding how exactly the plugins work.
 
 > We needed to figure out a way for our clients to work with static sites - we couldn't expect them to learn Markdown and other tools
 
-![Image of a mobile phone showcasing Cubicflow's Services page.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/cubicflow-scene-2.png)
+![Image of a mobile phone showcasing Cubicflow's Services page.](https://cc-dam.imgix.net/marketing/uploads/cubicflow-scene-2.png)
 
 ## Customization is key for designers
 
@@ -79,7 +79,7 @@ easier, more powerful, and extremely portable. No database or complicated
 setup to worry about. However, while Cubicflow now had a tool for greater
 customization, static sites by themselves were only part of the solution.
 
-![Image of an ipad showcasing the contact us page of Cubicflow's site](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/cubicflow-scene-3.png)
+![Image of an ipad showcasing the contact us page of Cubicflow's site](https://cc-dam.imgix.net/marketing/uploads/cubicflow-scene-3.png)
 
 ## Removing roadblocks with CloudCannon and static sites
 
@@ -98,7 +98,7 @@ solutions, which meant having to straddle two different systems. However,
 Snipcart soon came to solve the e-commerce game, and the team was finally
 able to move forward on one platform for everything.
 
-![Image of an iMac showcasing the portfolio page of Cubicflow's site](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/cubic-scene-4.png)
+![Image of an iMac showcasing the portfolio page of Cubicflow's site](https://cc-dam.imgix.net/marketing/uploads/cubic-scene-4.png)
 
 With static sites and CloudCannon as the spark, Cubicflow joined the
 static site movement, free to design and work as they needed without
@@ -110,7 +110,7 @@ websites. Since working with Jekyll, Cubicflow have discovered a whole
 variety of other options to experiment with and increase their repertoire,
 rather than being confined to one limited ecosystem.
 
-![Image of an iMac showcasing the portfolio page of Cubicflow's site](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/cubicflow-scene-5.png)
+![Image of an iMac showcasing the portfolio page of Cubicflow's site](https://cc-dam.imgix.net/marketing/uploads/cubicflow-scene-5.png)
 
 ##  No looking back - CloudCannon and Cubicflow together
 

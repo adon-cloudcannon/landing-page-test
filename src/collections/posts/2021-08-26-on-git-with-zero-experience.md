@@ -3,11 +3,11 @@ title: On Git, with zero experience
 description: >-
   Git = gud, being a digression in which we kill our darlings (with exquisite
   version control).
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/david-blog-image-2-final-image-min.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/david-blog-image-2-final-image-min.jpg
 date: 2021-08-26T05:00:00+1200
 tags:
   - Resources

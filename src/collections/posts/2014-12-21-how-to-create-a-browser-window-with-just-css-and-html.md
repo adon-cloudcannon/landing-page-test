@@ -4,11 +4,11 @@ date: 2014-12-21
 tags:
   - Resources
 author: george-phillips
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-close-up-image-of-code.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-close-up-image-of-code.jpg
 ---
 
 This isn't the weekly deconstruction, that'll be out in a few days. This is a small post to tide you over until then.
@@ -19,7 +19,7 @@ This deconstruction is from our recent [front page redesign](/). I wanted to dis
 
 It is wrapper with three buttons in the top corner (close, minimize and maximize).
 
-![arrows pointing out the top and bottom of a UI frame and a nice background](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/browser-image-with-arrows.jpg)
+![arrows pointing out the top and bottom of a UI frame and a nice background](https://cc-dam.imgix.net/blog/assets/blog/deconstructions/browser-image-with-arrows.jpg)
 
 ```css
 <div class="fake-browser-ui">
@@ -43,7 +43,7 @@ This doesn't need any explanation. Put what ever you want inside this, I am usin
 
 This div will give us a background colour and some padding to create the frame. I like to put a 2px border on the bottom to give some depth. It also wraps the content in case it is mostly white. Adding a line-height of 0 will prevent any spacing around the image. Then to top all of this off, add a border radius to soften the edges.
 
-![A nice background with some kitchen wares](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/browser-image.jpg)
+![A nice background with some kitchen wares](https://cc-dam.imgix.net/blog/assets/blog/deconstructions/browser-image.jpg)
 
 ```css
 .fake-browser-ui {
@@ -61,7 +61,7 @@ This div will give us a background colour and some padding to create the frame. 
 
 I used 4 elements for this part. One to wrap the buttons and position it correctly. The other 3 are the buttons which just float beside each other.
 
-![arrows pointing out the top and bottom of a UI frame and a nice background](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/browser-image-with-arrows.jpg)
+![arrows pointing out the top and bottom of a UI frame and a nice background](https://cc-dam.imgix.net/blog/assets/blog/deconstructions/browser-image-with-arrows.jpg)
 
 ```css
 .fake-browser-ui .frame {

@@ -1,6 +1,6 @@
 ---
 title: Hugo Beginner Tutorial Series
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Hugo_basics.png
+image: https://cc-dam.imgix.net/Hugo_basics.png
 author: Mike Neumegen
 order: '2'
 description: >-

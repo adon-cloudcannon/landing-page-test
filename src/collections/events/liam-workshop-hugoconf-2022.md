@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/HugoConf-Liams-workshop.jpg
+  path: https://cc-dam.imgix.net/HugoConf-Liams-workshop.jpg
   alt: >-
     Black background image with picture of speaker, Liam.
 date: 2022-07-08

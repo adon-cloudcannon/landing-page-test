@@ -4,11 +4,11 @@ date: 2018-11-13T14:00:00+1300
 tags:
   - Company
 author: george-phillips
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-alarm-clock.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-alarm-clock.jpg
 ---
 Today at [5:00pm NZDT](https://everytimezone.com/#2018-11-13,-480,b8jj) CloudCannon will be set to a read-only state for 2 hours. This will mean the following:
 {: .present-before-paste}

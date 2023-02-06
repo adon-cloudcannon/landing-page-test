@@ -1,0 +1,164 @@
+---
+title: Expoerts
+layout: builder.html
+permalink: /experts/
+content_blocks:
+  - _bookshop_name: sections/container
+    content:
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Experts
+          styles:
+            size: h1
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: biggest
+              margin:
+                top: 0
+                bottom: 35
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: We work with amazing agencies and freelancers that develop great websites for their clients. Need help with a new or existing CloudCannon website? Reach out to one of our experts.
+          styles:
+            desktop:
+              text_alignment: 
+                align: center
+              text_sizing:
+                text_size: biggest
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            width: medium
+    styles:
+      background: white
+      rounded: none
+      size: normal
+      align: none
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 130
+          right: 0
+          bottom: 80
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+---
+
+<div class="container">
+  {% assign experts = collections.experts %}
+
+  <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
+    {% for expert in experts %}
+      <a class="group relative transition duration-200 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" 
+        href="{{ expert.url }}">
+        <div class="h-52 bg-[#f0f5ff] flex justify-center items-center rounded-t-xl">
+          <img src="{{ expert.data.logo_image }}" class="max-w-[220px]" alt="{{ expert.data.title }}">
+        </div>
+        <div class="px-8 pb-14 pt-8">
+          <div class="flex mb-2">
+            {% for ssg in expert.data.frameworks %}
+              <img src="/images/icons/ssgs/{{ ssg }}.svg" width="25" height="25" alt="{{ ssg }}" class="mr-[5px] h-[25px] w-auto">
+            {% endfor %}
+          </div>
+          <h3 class="text-2xl font-bold">
+            {{ expert.data.title }}
+          </h3>
+          <p class="mb-2 text-gray-500">{{ expert.data.location }}</p>
+          
+          <p class="text-lg">{{ expert.data.description }}</p>
+          <p class="absolute bottom-[15px] text-lg font-bold text-cc group-hover:underline">
+            Learn more
+            <span class="inline-block w-4 relative top-[3px] ml-[2px]">
+              {{ '/src/images/icons/outline/arrow-right.svg' | svgContents }}
+            </span>
+          </p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>

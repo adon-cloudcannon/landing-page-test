@@ -4,46 +4,46 @@ date: 2020-02-04T00:00:00Z
 tags:
   - Resources
 author: george-phillips
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-google-sign-on-building.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-google-sign-on-building.jpg
 ---
 
 Internally at CloudCannon, we use G Suite to manage all of our emails. This allows us to work together on products like Google Drive and Google Meet. When a new member joins our team, they need to access all of the relevant documentation. Some of our internal documentation is as you'd expect, a Jekyll site hosted on CloudCannon. This site is only accessible to people within our organisation using Google authentication. When a staff member leaves, we disable their email and the internal documentation is restricted to them once again. This blog post will guide you through the process of adding Google Authentication to one of your  CloudCannon sites.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-21-55.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-21-55.png){: .screenshot width="2880" height="1800"}
 
 ## Creating a SAML app in the G Suite Admin console
 
 Once you have your site ready to go, we will need to add authentication to the site. To achieve this, we will need to go to the [G Suite Admin console](https://admin.google.com/ac/home).
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-48-27.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-48-27.png){: .screenshot width="2880" height="1800"}
 
 Select Apps
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-48-46.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-48-46.png){: .screenshot width="2880" height="1800"}
 
 Select SAML apps
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-48-57.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-48-57.png){: .screenshot width="2880" height="1800"}
 
 Here will be a list of existing SAML applications. Click the yellow plus in the bottom right of the screen.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-49-26.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-49-26.png){: .screenshot width="2880" height="1800"}
 
 Click SETUP MY OWN CUSTOM APP.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-49-37.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-49-37.png){: .screenshot width="2880" height="1800"}
 
 Here some information is provided. Save the SSO URL and Download the Certificate. Once you have those saved click NEXT.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-50-05.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-50-05.png){: .screenshot width="2880" height="1800"}
 
 You can now customise your App with a name, description and logo. Take care to add this information as you will be unable to update this point. Once completed click NEXT.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-55-02.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-55-02.png){: .screenshot width="2880" height="1800"}
 
 Now we need to add the CloudCannon specific information. Below are the details for a site at example.com. Replace example.com with the domain name of your site.
 
@@ -60,7 +60,7 @@ Once the information is correct, click NEXT. On the next slide, click FINISH.
 
 Open CloudCannon at your site, visit *Site Settings / Authentication* and select SAML Authentication.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-46-19.png){: .screenshot width="2880" height="1800"}
+![](https://cc-dam.imgix.net/blog/assets/blog/gsuite-authenticated-sites-with-cloudcannon-and-saml/screen-shot-2020-01-30-at-20-46-19.png){: .screenshot width="2880" height="1800"}
 
 In here you will need to paste the following information:
 

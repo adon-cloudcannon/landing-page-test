@@ -10,14 +10,14 @@ categories:
   - Microsites
   - Documentation
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/netflix-card-black-1.png
+  path: https://cc-dam.imgix.net/marketing/uploads/netflix-card-black-1.png
   alt: Netflix logo
 logo: /images/logos/netflix.svg
 person:
   name: Jason Adkins
   position: Creative Specialist
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/1517429239690.jpg
+    path: https://cc-dam.imgix.net/marketing/uploads/1517429239690.jpg
     alt: Jason Adkins
 date: 2021-03-26T12:37:00.000Z
 seo:
@@ -43,7 +43,7 @@ the CMS platforms was siloed.
 It was time for a better solution.
 
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/netflix-casestudy-2.png" alt:"Netflix devices screenshot" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/netflix-casestudy-2.png" alt:"Netflix devices screenshot" %}
 
 ### The answer: Jekyll and CloudCannon
 
@@ -67,7 +67,7 @@ to consumers.
 
 CloudCannon’s merits quickly became obvious. It lets developers work rapidly and frees them from the overhead of maintaining servers and updates. It gives content editors a staging environment that allows fuss-free content changes and gets everyone pulling in the same direction by syncing through Git. 
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/netflix-casestudy-3.png" alt:"Tablet case study" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/netflix-casestudy-3.png" alt:"Tablet case study" %}
 
 A further benefit is the integration of Netflix’s internal translation system into CloudCannon, which allows for the seamless translation of Netflix sites into more than 30 languages.
 

@@ -5,11 +5,11 @@ description: >-
   number of SSGs bringing the advantages of partial hydration to reality.
 series: SSGs through the ages
 permalink: /blog/ssg-history-8-islands/
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Explorer_8.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/Explorer_8.jpg
 date: 2022-03-09T05:00:00+1300
 tags:
   - Resources

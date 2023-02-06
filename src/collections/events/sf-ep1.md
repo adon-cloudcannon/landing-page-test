@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/SF-Ep1-Pagefind.jpg
+  path: https://cc-dam.imgix.net/SF-Ep1-Pagefind.jpg
   alt: >-
     Blue banner with Static Feedback logo and image of event speaker, Liam
       Bigelow.

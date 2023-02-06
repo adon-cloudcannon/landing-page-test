@@ -2,11 +2,11 @@
 title: Richer Forms with file uploads, Slack integrations, and more
 description: "Forms play a huge role in modern businesses. As part of a good workflow, they not only collect data but send it where you need it most. CloudCannon's forms feature has always done that, and now we've improved on it.\_"
 series:
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/forms-hero-3.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/forms-hero-3.jpg
 date: 2022-03-25T05:00:00+1300
 tags:
   - Features
@@ -54,7 +54,7 @@ The next step is to [point your form at the Inbox](https://cloudcannon.com/docum
 
 Your form will be ready to receive submissions, which you can view in CloudCannon. You'll find your Inbox in the site navigation.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/sites-inbox.jpg)
+![](https://cc-dam.imgix.net/sites-inbox.jpg)
 
 4\. **Forward your submissions to targets:**
 

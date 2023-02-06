@@ -3,11 +3,11 @@ title: How I created my first static website, with zero experience (1/∞)
 description: >-
   Or; A Jamstack Beginner’s Illustrated Primer. A beginner's guide to creating
   static sites. Part 1 of the series.
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/lowry-mss-2.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/lowry-mss-2.jpg
 date: 2021-08-17T05:00:00+1200
 tags:
   - Resources

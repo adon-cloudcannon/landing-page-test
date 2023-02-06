@@ -7,11 +7,11 @@ date: 2021-03-03T09:00:00+1300
 tags:
   - Features
 author: mike-neumegen
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-image.png
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-image.png
 ---
 # Hugo Support in CloudCannon
 
@@ -35,7 +35,7 @@ We see Hugo as a great option for building sites where developer efficiency and 
 
 Combined with CloudCannon’s all-in-one platform, you’ll have the easiest collaboration, fastest builds, and the best hosting for your sites. And, unlike most headless CMSs, CloudCannon is Git based rather than API based, so content changes push back to your repository rather than a 3rd party platform.
 
-![Diagram showing the cycle between Sync, Build and Host](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/2ef169b8aa6209cec3a5eda6f3ccbb79.svg)
+![Diagram showing the cycle between Sync, Build and Host](https://cc-dam.imgix.net/blog/uploads/2ef169b8aa6209cec3a5eda6f3ccbb79.svg)
 
 ## What you can expect
 

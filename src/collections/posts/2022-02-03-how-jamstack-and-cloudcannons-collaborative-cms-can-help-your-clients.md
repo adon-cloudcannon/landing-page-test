@@ -2,11 +2,11 @@
 title: How to pitch a Jamstack website to your clients
 description: "So you're pitching a Jamstack project\_to a prospective client. What are they worried about? And how can you help convince them that static sites are the way of the future? "
 permalink: /blog/how-to-pitch-a-jamstack-website-to-clients/
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/agency-pitch-meeting_r04n38.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/agency-pitch-meeting_r04n38.jpg
 date: 2022-02-03T05:00:00+1300
 tags:
   - Agencies
@@ -95,11 +95,11 @@ You’re closer to your content than anyone else could be. It’s your content e
 
 Where should I start?
 
-![Netflix website on a laptop screen](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/netflix-desktop.png "Netflix website")
+![Netflix website on a laptop screen](https://cc-dam.imgix.net/netflix-desktop.png "Netflix website")
 
 [Netflix uses Jamstack](https://cloudcannon.com/customers/netflix/) (via CloudCannon) to create an extensive network of international sites to maintain and manage relationships with its customers and partners.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/twitch-scene.jpg){: width="600" height="361"}
+![](https://cc-dam.imgix.net/blog/uploads/twitch-scene.jpg){: width="600" height="361"}
 
 [Twitch uses Jamstack](https://cloudcannon.com/customers/twitch/) (via CloudCannon) to deliver sites to their 30 million daily active users.
 

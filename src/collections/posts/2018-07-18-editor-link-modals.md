@@ -4,11 +4,11 @@ date: 2018-07-18T13:06:00+1200
 tags:
   - Features
 author: ross-phillips
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-greyscale-3d-triangles.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-greyscale-3d-triangles.jpg
 ---
 Front matter is a great way to structure content and metadata for a Jekyll website. We've made some updates to allow you to further integrate your front matter into your editing experience.
 
@@ -21,7 +21,7 @@ Editor Links are contextual pointers to front matter fields and other pages in t
 > *Editor Links* can be styled to fit the brand of your site, and are not displayed on your live site.
 {: .explainer}
 
-![Example front matter Editor Link](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/editor-link-modals/sidebar-editor-link.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/editor-link-modals/sidebar-editor-link.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/editor-link-modals/sidebar-editor-link@2x.png 1600w"}
+![Example front matter Editor Link](https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/sidebar-editor-link.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/sidebar-editor-link.png 800w, https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/sidebar-editor-link@2x.png 1600w"}
 
 ## Modals
 
@@ -30,7 +30,7 @@ We've added the option to have *Editor Links* open front matter fields in a moda
 > Modals display the linked field only and provide more screen space than the sidebar. This is particularly useful with *Rich Text* fields.
 {: .explainer}
 
-![Example modal front matter Editor Link](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/editor-link-modals/modal-editor-link.png){: .screenshot srcset="https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/images/blog/editor-link-modals/modal-editor-link.png 800w, https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/images/blog/editor-link-modals/modal-editor-link@2x.png 1600w"}
+![Example modal front matter Editor Link](https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/modal-editor-link.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/images/blog/editor-link-modals/modal-editor-link.png 800w, https://cc-dam.imgix.net/blog/images/blog/editor-link-modals/modal-editor-link@2x.png 1600w"}
 
 Open *Editor Links* in a modal by setting the `data-cms-editor-link-style` attribute to **modal**, or by hiding them in the sidebar.
 

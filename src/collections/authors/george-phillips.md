@@ -2,6 +2,6 @@
 name: George Phillips
 twitter_handle:
 image:
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/george-photo.jpg
+  path: https://cc-dam.imgix.net/blog/uploads/george-photo.jpg
   alt: headshot of George smiling
 ---

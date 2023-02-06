@@ -6,11 +6,11 @@ description: >-
   Editors.
 series:
 permalink: /blog/editing-content-with-hugo-shortcodes/
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-hugo-shortcodes.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/blog-hugo-shortcodes.jpg
 date: 2022-11-03T05:00:00+1300
 hide_publish_date: false
 tags:
@@ -30,15 +30,15 @@ Hugo ships with a set of [predefined shortcodes](https://gohugo.io/content-manag
 
 When you and your team members are working in CloudCannon’s Content Editor or Visual Editor, which provide two different WYSIWYG interfaces for Markdown content, you’ll be able to add a shortcode by simply clicking the ‘Snippet’ button at the top right of the editing pane. (More on Snippets later — we’ll be expanding this functionality across other SSGs in the coming weeks.)
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-hugo-snippets-1.jpg" alt:"WYSIWYG editor" extend:false border:true %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-hugo-snippets-1.jpg" alt:"WYSIWYG editor" extend:false border:true %}
 
 From here you can select your Hugo shortcode.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-hugo-snippets-2.jpg" alt:"Shortcode list" extend:false border:true %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-hugo-snippets-2.jpg" alt:"Shortcode list" extend:false border:true %}
 
 Within the shortcode interface itself, you’ll see all the available options to change the shortcode’s parameters.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-hugo-snippets-3.jpg" alt:"Tweet example" extend:false border:true %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-hugo-snippets-3.jpg" alt:"Tweet example" extend:false border:true %}
 
 This integration means that content editors and marketers will be able to create new shortcodes and edit existing shortcodes via an intuitive interface, without ever needing to work in source files.
 

@@ -4,11 +4,11 @@ description: >-
   Headless CMSs like CloudCannon are enticing many developers away from
   top-heavy and resource-intensive CMSs like WordPress, Drupal and Joomla. But
   what is a headless CMS, and why should you use one?
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/headless-cms-img-compressed.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/headless-cms-img-compressed.jpg
 date: 2021-07-16T06:00:00+1200
 tags:
   - Features
@@ -16,7 +16,7 @@ author: cloudcannon
 ---
 Headless CMSs like CloudCannon are enticing many developers away from top-heavy and resource-intensive CMSs like WordPress, Drupal and Joomla. But what is a headless CMS, and why should *you* use one? The easy answer: flexibility, or future-proofing your content.
 
-![A (simplified) diagram of a headless CMS powering a Jamstack site. APIs are pulled in at build time; updated content is picked up by the next build.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/headless-post-4-caption.svg){: width="1600" height="901"}
+![A (simplified) diagram of a headless CMS powering a Jamstack site. APIs are pulled in at build time; updated content is picked up by the next build.](https://cc-dam.imgix.net/blog/uploads/headless-post-4-caption.svg){: width="1600" height="901"}
 
 At its core, a headless CMS means a fundamental decoupling of content and delivery, which are handled by different software. Unlike a 'traditional' dynamic CMS, with a decoupled CMS your authored content is not restricted to a webpage — if you go headless, your content can easily be published to multiple channels, personalized e-commerce front-ends, mixed reality devices, digital signage, IoT … the list goes on. So far, so good. The main sticking point for many developers is that your content is still abstracted from your live site; it's often hard to know exactly what your data is going to look like in a live environment.
 
@@ -24,7 +24,7 @@ Enter the [Git-based headless CMS](https://cloudcannon.com/git-cms/), which acts
 
 Any CMS that doesn't natively allow both collaborative and independent work — for business users, developers and operations — is a bottleneck. There's no reason it has to be that way. Software development on Git allows agile and collaborative development; with CloudCannon's decoupled headless CMS housing both application and content, we can truly level the playing field for all users.
 
-![Diagram demonstrating CloudCannon's Git-based CMS, which lets non-developers update content, which is then committed back to the repo. You can sync, build, edit and host your static sites all in one place.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/headless-post-2-caption.svg){: width="1600" height="901"}
+![Diagram demonstrating CloudCannon's Git-based CMS, which lets non-developers update content, which is then committed back to the repo. You can sync, build, edit and host your static sites all in one place.](https://cc-dam.imgix.net/blog/uploads/headless-post-2-caption.svg){: width="1600" height="901"}
 
 Developers can establish their own local and intermediary branches, with easily accessible staging environments. Content writers and site admins can work in a responsive editing environment. Experimentation is no longer a luxury; it's just part of the workflow. Here at CloudCannon, we've thought a lot — *a lot* — about the way the web could be, and we're committed to the paradigm of Continuous Integration and Continuous Delivery (CI/CD) for both content *and* code.
 
@@ -32,7 +32,7 @@ Developers can establish their own local and intermediary branches, with easily 
 
 Whether you're a developer or a business, you're already evolving with market trends to stay ahead of the competition. Here's your point of difference. Headless architecture is the next step in CMS evolution and can address rapid changes in consumer demand for content delivery. Further, using a Git-based headless CMS like CloudCannon offers several benefits, including super-fast builds, flexibility, multi-channel delivery, scalability, and enhanced security.
 
-![Triangle diagram showing Git sync, build and edit steps](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/thesyncprocess.svg){: width="1344" height="931"}
+![Triangle diagram showing Git sync, build and edit steps](https://cc-dam.imgix.net/blog/uploads/thesyncprocess.svg){: width="1344" height="931"}
 
  
 

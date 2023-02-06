@@ -91,7 +91,7 @@
             description: "Support and empower your clients"
             icon: 'briefcase'
           - name: Expert Directory
-            link: ''
+            link: '/experts/'
             description: "Find an Expert"
             icon: 'user'
   - name: Pricing

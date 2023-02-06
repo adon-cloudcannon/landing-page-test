@@ -6,14 +6,14 @@ weight: 9
 categories:
   - Agency
 image:
-  path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/arid-card-resize.svg
+  path: https://cc-dam.imgix.net/arid-card-resize.svg
   alt: Arid Software logo
-logo: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/arid.jpg
+logo: https://cc-dam.imgix.net/marketing/uploads/case-study/arid.jpg
 person:
   name: Andrew Ek
   position: Founder
   image: 
-    path: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/marketing/uploads/case-study/1634046696799.jpg
+    path: https://cc-dam.imgix.net/marketing/uploads/case-study/1634046696799.jpg
     alt: Andrew Ek
 description: >-
   Find out how Arid Software uses CloudCannon to add value to their clients'
@@ -54,7 +54,7 @@ looking for, with full support for developer interactions, Git support for
 version control, and easy two-way Git syncing for collaboration between
 Arid’s developers and his client’s content editors.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/arid-desktop-crop.png" alt:"Image of desktop showcasing Arid's website" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/arid-desktop-crop.png" alt:"Image of desktop showcasing Arid's website" %}
 
 ### Developer-focused support and documentation
 
@@ -67,7 +67,7 @@ Arid Software is more empowered than ever to do what they do best — create
 stunning websites for their clients, and let their clients manage their
 own content edits without developer oversight.
 
-{% bookshop "markdown/image" src:"https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/iphone-arid-software-article.jpg" alt:"Image of mobile phone showing Arid Software's article" %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/iphone-arid-software-article.jpg" alt:"Image of mobile phone showing Arid Software's article" %}
 
 ### Always adding value for clients
 

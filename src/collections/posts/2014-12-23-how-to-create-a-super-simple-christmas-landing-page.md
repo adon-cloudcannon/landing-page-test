@@ -4,11 +4,11 @@ date: 2014-12-23
 tags:
   - Resources
 author: george-phillips
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-christmas-bauble.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-christmas-bauble.jpg
 ---
 
 This week I felt like doing something Christmas related, it seemed quite relevant. Instead of enjoying the summer sun that a New Zealand Christmas offers I decided to build an experimental landing page to share. Hope you enjoy it.
@@ -292,7 +292,7 @@ window.onload = function () {
 
 .snow {
     background-color: #eee;
-    background-image: url('https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/snow.png'), url('https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/snow2.png'), url('https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/snow3.png');
+    background-image: url('https://cc-dam.imgix.net/blog/assets/blog/deconstructions/snow.png'), url('https://cc-dam.imgix.net/blog/assets/blog/deconstructions/snow2.png'), url('https://cc-dam.imgix.net/blog/assets/blog/deconstructions/snow3.png');
 
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;

@@ -19,6 +19,7 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"),
 			StyleRenderer = require('./src/config/style_renderer.js'),
 			ImageRenderer = require('./src/config/image_renderer.js'),
+			DataGetter = require('./src/config/data_getter.js'),
 			Helpers = require('./src/config/helpers.js');
 
 module.exports = function (eleventyConfig) {
@@ -56,7 +57,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("excerpt", Helpers.excerpt);
 	eleventyConfig.addFilter("UUID", Helpers.uuid);
-	eleventyConfig.addFilter("download_github_readme", Helpers.download_github_readme);
+	eleventyConfig.addFilter("download_github_readme", DataGetter.download_github_readme);
 
 	eleventyConfig.addPlugin(svgContents);
 	eleventyConfig.addPlugin(syntaxHighlight);

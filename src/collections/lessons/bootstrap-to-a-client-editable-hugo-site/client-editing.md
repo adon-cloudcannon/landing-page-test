@@ -113,7 +113,7 @@ This site is almost ready to hand off to a client or content editing team. Let�
 
 You might have noticed that CloudCannon tries to guess the field type, for example showing an upload input for images. If CloudCannon is not sure, it’ll show a text field. The icon field represents an icon but it’s currently a text box with a string like `ti-desktop`. Our content editors won’t have any context or know what they can change this to. We could send them to the [Themify docs](https://themify.me/themify-icons) as a reference, but that takes them out of the editing experience. Instead, let’s change this input to be a dropdown of all the available icon values.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/cloudcannon-file-interface_eedvjj.jpg)
+![](https://cc-dam.imgix.net/blog/cloudcannon-file-interface_eedvjj.jpg)
 
 On your site click the files and open `cloudcannon.config.yaml`. This opens up the code editor which allows us to make changes directly on CloudCannon. There’s hundreds of icon options so instead of showing a hugely long code snippet, [here’s a link to it](https://gist.github.com/mneumegen/8319cbc3805b007d0a1d5284ce716967). Replace the contents of `cloudcannon.config.yaml` with this snippet, save, and have a look at the editing input now.
 

@@ -4,11 +4,11 @@ date: 2014-09-01
 author: cloudcannon
 tags:
   - Resources
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-indutratial-printing-press.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-indutratial-printing-press.jpg
 ---
 
 CloudCannon makes it REALLY easy to get any HTML template or theme live and client editable.
@@ -40,59 +40,59 @@ In fact it's so easy to bring a template to CloudCannon AND make it updatable th
 
 I signed up for CloudCannon… **\[0:23\]**
 
-![CloudCannon sign up](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_1.png "CloudCannon sign up")
+![CloudCannon sign up](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_1.png "CloudCannon sign up")
 
 …created a new site… **\[0:30\]**
 
-![New site](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_2.png "Creating a new site")
+![New site](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_2.png "Creating a new site")
 
 …that has a folder now ready to receive my files. **\[0:47\]**
 
-![Site ready for files](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_3.png "Site ready for files")
+![Site ready for files](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_3.png "Site ready for files")
 
 Then I headed over to Start Bootstrap and looked for their most popular templates… **\[0:55\]**
 
-![Start Bootstrap](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_4.png "Finding popular templates on Start Bootstrap")
+![Start Bootstrap](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_4.png "Finding popular templates on Start Bootstrap")
 
 …and picked 'Grayscale'. **\[1:02\]**
 
-![Selecting 'Grayscale' template](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_5.png "Selecting Grayscale template")
+![Selecting 'Grayscale' template](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_5.png "Selecting Grayscale template")
 
 I downloaded and unzipped the files… **\[1:12\]**
 
-![Unzipped template files](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_6.png "Unzipped template files")
+![Unzipped template files](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_6.png "Unzipped template files")
 
 …then dragged and dropped those files into CloudCannon. **\[1:19\]**
 
-![Dragging and dropping files into CloudCannon](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_7.png "Dragging and dropping files into CloudCannon")
+![Dragging and dropping files into CloudCannon](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_7.png "Dragging and dropping files into CloudCannon")
 
 When it was uploaded I opened up the Index file using the online editor… **\[2:05\]**
 
-![Open Index in online editor](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_8.png "Open Index in online editor")
+![Open Index in online editor](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_8.png "Open Index in online editor")
 
 …and made all the copy on the front page editable by adding class="editable". **\[2:33\]**
 
-![Making text elements editable](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_9.png "Making text elements editable")
+![Making text elements editable](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_9.png "Making text elements editable")
 
 Then I setup a password so that a client can gain access. **\[2:48\]**
 
-![Client access password](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_10.png "Client access password")
+![Client access password](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_10.png "Client access password")
 
 I can see that all that juicy work is live on the web\! **\[2:53\]**
 
-![Site is live!](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_11.png "Site is live!")
+![Site is live!](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_11.png "Site is live!")
 
 I can also sign in to the client editor by adding "/update" to the site address… **\[3:03\]**
 
-![Client editor sign in](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_12.png "Client editor sign in")
+![Client editor sign in](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_12.png "Client editor sign in")
 
 …and make some changes. **\[3:20\]**
 
-![Updating the site copy](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_13.png "Updating the site copy")
+![Updating the site copy](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_13.png "Updating the site copy")
 
 Once I hit save I can leave the client editor and see that the changes are now on the live site. **\[3:40\]**
 
-![Client updates are now live](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/template-tutorial/Templating_14.png "Client updates are now live")
+![Client updates are now live](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_14.png "Client updates are now live")
 
 Bringing templates to CloudCannon is a great way to get websites turned around for clients really REALLY quickly, while still giving them all the power of a CMS and the ease of editing that CloudCannon allows.
 

@@ -1,10 +1,10 @@
 ---
 title: How the Jekyll Feed plugin generates your Atom feed
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/jekyll-feed-desktop-banner.png
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/jekyll-feed-desktop-banner.png
 permalink: /blog/showcase-how-the-jekyll-feed-plugin-generates-your-atom-feed/
 date: 2021-11-01T13:00:00+1300
 description: >-

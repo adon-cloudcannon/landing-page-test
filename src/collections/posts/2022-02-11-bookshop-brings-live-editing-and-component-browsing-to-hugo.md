@@ -2,11 +2,11 @@
 title: Live editing in Hugo with Bookshop
 description: "Bookshop\_— our open-source component browser and playground, now brings live editing and component-driven workflows to Hugo, as well as Jekyll and Eleventy."
 permalink: /blog/live-editing-in-hugo-with-bookshop/
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/hugo-bookshop-1.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/hugo-bookshop-1.jpg
 date: 2022-02-11T05:00:00+1300
 tags:
   - Features
@@ -132,7 +132,7 @@ front-matter named `content_blocks`.”
 
 In CloudCannon, the editor would see the following:
 
-![Modal in CloudCannnon showing two component examples, with the Hero component highlighted.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Component-modal.png)
+![Modal in CloudCannnon showing two component examples, with the Hero component highlighted.](https://cc-dam.imgix.net/Component-modal.png)
 
 
 Component config files tagged with the correct structure will
@@ -185,7 +185,7 @@ buttons are rendered above and below this component, with which new
 components can be added to the content blocks array. A editor popout sits
 to the right, containing a title field which can be used to edit the hero
 component's title and see the changes
-live.](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/Bookshop-editing-component.png "The
+live.](https://cc-dam.imgix.net/Bookshop-editing-component.png "The
 CloudCannon visual editor")
 
 Whether you run an agency with new projects rolling in, or a business

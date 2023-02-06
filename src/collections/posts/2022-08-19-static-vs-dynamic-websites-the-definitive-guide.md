@@ -5,11 +5,11 @@ description: >-
   static and dynamic. But what do they mean for you? And which approach should
   you choose? 
 series:
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/blog-static-dynamic-definitive-r.jpg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/blog-static-dynamic-definitive-r.jpg
 date: 2022-08-25T05:00:00+1200
 hide_publish_date: true
 tags:
@@ -30,7 +30,7 @@ The other way you can deliver sites is dynamically, which is how content managem
 
 So when a user loads a dynamic site in their browser window, it may look and feel exactly the same as a static site — it’s just the method of delivery that changes. Of course, speed and security come into the picture as well; read on for more.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/static-request-vs-dynamic-request.svg)
+![](https://cc-dam.imgix.net/static-request-vs-dynamic-request.svg)
 
 **Picture** **a static site as the equivalent of a novel that’s on shelves all around the world, just waiting for you to reach out for it**. It’s already printed and bound, and it’s constructed in exactly the same manner for every single reader.
 
@@ -60,7 +60,7 @@ Remember, page load requests can be slow, especially on mobile devices. Often, t
 
 When we optimize for static delivery, the three primary improvements we see are gains in **performance and speed**, **security**, and **flexibility**.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/speedometer-neptune.svg){: width="100"}
+![](https://cc-dam.imgix.net/speedometer-neptune.svg){: width="100"}
 
 ### Deliver the fastest websites
 
@@ -72,7 +72,7 @@ Because **static** **sites don’t need a database or backend to function**, the
 
 (Incidentally, the response times for sites hosted through CloudCannon are [among the fastest in the world](https://cloudcannon.com/community/jamstack-hosting-comparison/). You’re welcome.)
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/chart-line-stacked-neptune.svg){: width="100"}
+![](https://cc-dam.imgix.net/chart-line-stacked-neptune.svg){: width="100"}
 
 ### Static sites work at scale
 
@@ -80,7 +80,7 @@ On a similar note, when demand for your website grows, it’s important to be ab
 
 Delays of even a fraction of a second will increase user bounce rates, so you certainly won’t want your users to encounter long page loads, much less site downtime due to bottlenecks on the server side. Dynamic sites are complex to scale to high demand, because each moving piece needs to be monitored and scaled separately. And remember, a dynamic site is nothing if not *a lot* of moving pieces\! If just one part of a dynamic stack fails (for example, an overloaded database or incorrectly provisioned server), then the whole stack collapses.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/creation-neptune.svg){: width="100"}
+![](https://cc-dam.imgix.net/creation-neptune.svg){: width="100"}
 
 ### Space for your design and creativity
 
@@ -90,7 +90,7 @@ Your static site can be every bit as modern, on-brand, and even as flashy as any
 
 And because static sites are composed of the components every browser understands — HTML, CSS, and JavaScript — your developers can spend their time on the features that matter to you and to every visitor.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/lock-check-neptune.svg){: width="100"}
+![](https://cc-dam.imgix.net/lock-check-neptune.svg){: width="100"}
 
 ### Worried about security? Don’t give hackers an opportunity.
 
@@ -98,7 +98,7 @@ You might not be too worried about your site being hacked. But most security bre
 
 Even if your WordPress install itself is up-to-date and secure (no mean feat for many existing sites), every plugin you install puts the reputation and integrity of your digital presence in the hands of an external developer. Do your developers spend time running security audits for every plugin they install? How do they know a plugin is secure, every time it updates? Wouldn’t you rather avoid these concerns, and reduce your risk?
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/static-security-vs-dynamic-security.svg)
+![](https://cc-dam.imgix.net/static-security-vs-dynamic-security.svg)
 
 There are a few key reasons why static sites are more secure:
 
@@ -106,7 +106,7 @@ There are a few key reasons why static sites are more secure:
 2. **Static sites are not database-driven**. While static sites can *use* databases as external data stores, the static site itself doesn’t depend on a database, meaning the critical parts of the site have less ‘surface area’ to exploit. Databases can be vulnerable if unsecured or not updated.
 3. **Static sites are usually hosted on a CDN**. This means that your site can be globally distributed across multiple servers, making it more difficult to take it down and much more resilient to high demand.
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/wrench-clock-neptune.svg){: width="100"}
+![](https://cc-dam.imgix.net/wrench-clock-neptune.svg){: width="100"}
 
 ### Static lowers technical barriers, and reduces maintenance
 
@@ -122,7 +122,7 @@ Wouldn’t it be easier on everyone to sidestep these concerns entirely? For you
 
 (I’m sure the answer is yes.)
 
-![](https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/briefcase-arrow-left-right-neptune.svg){: width="100"}
+![](https://cc-dam.imgix.net/briefcase-arrow-left-right-neptune.svg){: width="100"}
 
 ### Stay flexible, and take your website anywhere
 

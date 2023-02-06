@@ -4,11 +4,11 @@ date: 2014-11-19
 author: george-phillips
 tags:
   - Resources
-image: https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/uploads/blog-zoomed-in-colour-sheet.jpeg
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+image: https://cc-dam.imgix.net/blog/uploads/blog-zoomed-in-colour-sheet.jpeg
 ---
 
 The last deconstruction about the [Facebook content placeholder](/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html) seemed to be popular so here's my next one. I recently discovered a fantastic start up called Pixelapse and the level of polish on their site was outstanding. Today I am doing a deconstruction on something I found there.
@@ -136,13 +136,13 @@ Note: I used unprefixed CSS in the code examples to keep it clean. You can use [
 
     .the-blurred-image,
     .the-nice-crisp-image {
-        background: url("https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/blurry-golden-gate.jpg") no-repeat center;
+        background: url("https://cc-dam.imgix.net/blog/assets/blog/deconstructions/blurry-golden-gate.jpg") no-repeat center;
         -webkit-background-size: cover;
         background-size: cover;
     }
 
     .the-nice-crisp-image {
-        background-image: url("https://res.cloudinary.com/dahpdufoq/image/upload/marketing-site/blog/assets/blog/deconstructions/crisp-golden-gate.jpg");
+        background-image: url("https://cc-dam.imgix.net/blog/assets/blog/deconstructions/crisp-golden-gate.jpg");
     }
 
     .pixelapse-image .the-blurred-image,

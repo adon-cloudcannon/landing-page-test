@@ -24,7 +24,7 @@ This tutorial’s primary focus is how to optimize a Hugo site’s content struc
 
 The `title` is one of the most important things to get right for each page on the site. It’s the top line of what Google shows in search results:
 
-![SEO Google search](https://res.cloudinary.com/dahpdufoq/image/upload/v1671590422/marketing-site/community/uploads/hugo-seo-tutorial_oaaz0x.jpg)
+![SEO Google search](https://cc-dam.imgix.net/community/uploads/hugo-seo-tutorial_oaaz0x.jpg)
 
 It’s also a key ranking factor for search engines, so any targeted keywords must be in the `title`. In Hugo, the configuration file — usually `config.toml` — will, by default, have a field where you can set the site’s global `title`\:
 
