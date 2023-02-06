@@ -5,6 +5,10 @@ order: 2
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Set up your first layout to set the overall look and feel of the site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 ### What you'll learn here

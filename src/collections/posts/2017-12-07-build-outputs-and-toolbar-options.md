@@ -4,6 +4,10 @@ date: 2017-12-07T01:26:00.000Z
 author: ross-phillips
 tags:
   - Features
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-blue-lego-pieces.jpg
 ---
 Editing and syncing are two critical features in CloudCannon. We've recently improved and added to those features to make them more configurable than ever.

@@ -4,6 +4,10 @@ date: 2019-09-30T13:00:00+1300
 tags:
   - Features
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-two-road-signs.jpg
 ---
 Subdomains are a great way to separate different sections of your site. You might have your blog at blog.example.com, your docs at docs.example.com while keeping your main marketing site at example.com. Many companies use subdomains this way and it's easy to set up in CloudCannon.

@@ -5,6 +5,10 @@ description: >-
   images, videos, and documents needed for your sites. Read how to integrate a
   DAM solution with CloudCannon's Git-powered CMS.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/dam-hero-c.jpg
 date: 2022-04-02T05:00:00+1300
 tags:

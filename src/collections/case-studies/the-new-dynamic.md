@@ -22,6 +22,10 @@ person:
     path: https://cc-dam.imgix.net/regis.jpg
     alt: Régis Philibert
 date: 2022-08-02T17:00:00.000Z
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### Seeking a better editing experience
 

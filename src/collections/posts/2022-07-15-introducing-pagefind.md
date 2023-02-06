@@ -4,6 +4,10 @@ description: >-
   Pagefind is an open-source tool that adds search to static websites without
   hosting any infrastructure, while respecting your users’ bandwidth.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/introducing-pagefind.jpg
 date: 2022-07-15T17:00:00.000Z
 tags:

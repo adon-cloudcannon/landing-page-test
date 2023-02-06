@@ -6,6 +6,10 @@ description: >-
   the focal point for your content and marketing team’s work, and will help
   empower you to do your write, edit, and publish content more efficiently.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/blog-how-to-choose-a-cms-r.jpg
 date: 2022-09-08T05:00:00+1200
 hide_publish_date: true

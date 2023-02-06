@@ -5,6 +5,9 @@ layout: builder.html
 image: /images/icons/ssgs/sveltekit.svg
 summary: Fast and flexible, and powered by Svelte and Vite.
 permalink: /sveltekit-cms/
+seo:
+  featured_image:
+  featured_image_alt:
 content_blocks:
   - _bookshop_name: sections/container
     content:

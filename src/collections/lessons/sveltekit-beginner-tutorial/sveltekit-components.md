@@ -6,6 +6,10 @@ tutorial: sveltekit-beginner-tutorial-series
 description: >-
   Learn how to break down your SvelteKit pages into smaller “components” in this
   tutorial.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Components are core to SvelteKit, so let’s spend this lesson learning how they work by adding a navigation bar to our layout.

@@ -4,6 +4,10 @@ description: >-
   The Nuance Technical Publications team recently moved to Hugo, and discovered
   that Hugo modules solve many of their consistency and standardization needs. 
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/nuance_hugo.jpg
 date: 2022-07-30T05:00:00+1200
 author: nuance-communications-techpubs-team

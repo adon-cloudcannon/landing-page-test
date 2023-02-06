@@ -5,6 +5,10 @@ description: >-
   why we use them, and how they fit into our workflows for publishing new
   content, creating new pages, and keeping our content up to date.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/blog-what-is-an-ssg-r.jpg
 date: 2022-09-01T05:00:00+1200
 hide_publish_date: true

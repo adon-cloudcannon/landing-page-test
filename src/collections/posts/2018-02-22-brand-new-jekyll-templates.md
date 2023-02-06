@@ -5,6 +5,10 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/colored-paper.jpg
 ---
 Jekyll is often pigeon-holed as a tool for developers to write their blog. This is just one of the many great uses of Jekyll. We're always interested in exploring unconventional use cases which push the boundaries in Jekyll. Today we’re releasing three MIT licensed templates which do exactly that.

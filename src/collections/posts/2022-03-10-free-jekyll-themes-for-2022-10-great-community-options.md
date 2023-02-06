@@ -5,6 +5,10 @@ description: >-
   customize to make your life easier.
 series:
 permalink: /blog/free-jekyll-themes-for-2022/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/Jekyll-top-ten.jpg
 date: 2022-03-10T05:00:00+1300
 tags:

@@ -5,6 +5,10 @@ tags:
   - Resources
   - Jekyll
 author: jordan-trbuhovic
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/assets/uploads/website.png
 ---
 Recently we covered [turning a Jekyll theme into a Gem and hosting it privately on GemFury](https://cloudcannon.com/tutorial/2019/06/13/private-jekyll-themes-with-gemfury/) . In this post we’re demonstrating how you can host your theme on GitHub . GitHub allow both public and private repository/theme hosting.

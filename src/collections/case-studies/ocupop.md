@@ -19,6 +19,10 @@ person:
     path: https://cc-dam.imgix.net/marketing/uploads/ocupop-profile.png
     alt: Tom Beck
 date: 2021-03-26T12:37:00.000Z
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Ocupop is a small creative agency who takes huge pride in their work. They
 call themselves "a small super-powered creative agency with zero awards",

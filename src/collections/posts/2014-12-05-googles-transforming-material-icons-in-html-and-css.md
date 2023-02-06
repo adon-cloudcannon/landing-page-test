@@ -4,6 +4,10 @@ date: 2014-12-05
 author: george-phillips
 tags:
   - Resources
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-google-web-browser.jpeg
 ---
 

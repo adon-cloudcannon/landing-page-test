@@ -3,6 +3,10 @@ title: Getting Hugo support out of beta
 description: >-
   CloudCannon support for Hugo is leaving beta. It’s an important milestone, and
   this is how we got there.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/hugo-out-of-beta.jpg
 date: 2021-09-01T05:00:00+1200
 tags:

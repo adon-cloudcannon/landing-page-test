@@ -4,6 +4,10 @@ date: 2016-08-31T14:02:00+1200
 tags:
   - Features
 author: ross-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-colourful-fireworks.jpg
 ---
 Today marks a huge milestone for CloudCannon. We've finished the Jekyll beta, making Jekyll and plugins available to all users on every plan. The latest release also includes some requested features and more Jekyll configuration.

@@ -18,6 +18,10 @@ person:
     path: https://cc-dam.imgix.net/marketing/uploads/case-study/james-fuller.jpg
     alt: James Fuller
 date: 2021-01-26 12:37:00
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Reimaging what professional life looks like with a modern definition, Hnry
 helps creators focus on their craft by lifting the weight and anxieties of

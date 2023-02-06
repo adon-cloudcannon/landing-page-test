@@ -1,5 +1,9 @@
 ---
 title: 'Deconstruction: How Bootstrap powers their documentation site with Hugo'
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-hero.png
 permalink: /blog/showcase-bootstrap/
 date: 2021-10-11T13:00:00+1300

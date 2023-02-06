@@ -4,6 +4,10 @@ date: 2020-02-04T00:00:00Z
 tags:
   - Resources
 author: george-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-google-sign-on-building.jpg
 ---
 

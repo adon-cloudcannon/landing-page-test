@@ -6,6 +6,10 @@ description: >-
   be simpler than straight HTML templates with Markdown content?
 series: SSGs through the ages
 permalink: /blog/ssg-history-5-maybe-static-wasnt-so-bad/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/explorer-5_l0cp08.png
 date: 2022-02-16T05:00:00.000Z
 tags:

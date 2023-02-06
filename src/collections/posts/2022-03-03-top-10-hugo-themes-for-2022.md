@@ -5,6 +5,10 @@ description: >-
   help you get started with your latest build as quickly as possible (and with
   Hugo, that’s pretty quick).
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/top-ten-hugo-themes-2022_swh5g8.jpg
 date: 2022-03-03T05:00:00+1300
 tags:

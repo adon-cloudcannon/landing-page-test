@@ -4,6 +4,10 @@ description: >-
   Have you been looking for an alternative to Forestry for your Jekyll, Hugo,
   and Eleventy static sites? With CloudCannon's Git-based CMS, your search is at
   an end.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/forestry-alternative-2.png
 date: 2021-09-14T05:00:00+1200
 tags:

@@ -4,6 +4,10 @@ date: "2014-07-25T12:00:00+1200"
 tags:
   - Features
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-night-time-sparklers.jpg
 ---
 ## Blogging is coming to CloudCannon\!

@@ -4,6 +4,10 @@ description: >-
   Jekyll and Hugo are great static site generators for creating lean Jamstack
   content. To help you make the right choice, we look at how they compare.
 date: 2021-03-04T13:00:00+1300
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/comparison-laptops.jpg
 tags:
   - Resources

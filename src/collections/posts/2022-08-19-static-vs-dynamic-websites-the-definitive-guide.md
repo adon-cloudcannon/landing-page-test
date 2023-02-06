@@ -5,6 +5,10 @@ description: >-
   static and dynamic. But what do they mean for you? And which approach should
   you choose? 
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/blog-static-dynamic-definitive-r.jpg
 date: 2022-08-25T05:00:00+1200
 hide_publish_date: true

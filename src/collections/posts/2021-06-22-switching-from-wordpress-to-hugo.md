@@ -4,6 +4,10 @@ description: >-
   WordPress has taken over the internet, but sometimes it's not the right tool
   for the job. On this article, we talk about the reasons you should bring your
   WordPress site to Hugo.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/wordpress-to-hugo.png
 date: 2021-06-22T08:00:00+1200
 tags:

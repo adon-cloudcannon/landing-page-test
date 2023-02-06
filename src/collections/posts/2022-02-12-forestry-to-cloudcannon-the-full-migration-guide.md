@@ -3,6 +3,10 @@ title: 'Forestry to CloudCannon: The full migration guide'
 description: >-
   A full guide for Forestry features and concepts, how they translate to
   CloudCannon, and the steps developers need to take to make the transition.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/migration-from-forestry-to-cloudcannon_vnmicj.jpg
 date: 2022-02-12T05:00:00+1300
 tags:

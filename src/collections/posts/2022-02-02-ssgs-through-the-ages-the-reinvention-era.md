@@ -5,6 +5,10 @@ description: >-
   static site generators challenging some of Jekyll's underlying foundations.
 series: SSGs through the ages
 permalink: /blog/ssg-history-3-reinvention/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/explorer-3_zaafvp.jpg
 date: 2022-02-02T05:00:00.000Z
 tags:

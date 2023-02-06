@@ -5,6 +5,10 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-group-of-people-working.jpg
 ---
 [Jekyll’s](http://jekyllrb.com) roots are in providing a tool for hackers to host their blog. It’s not just hackers using Jekyll today though.

@@ -1,10 +1,15 @@
 ---
 title: Powerful Templates
+description:
 date: 2013-08-21
 tags:
   - Features
 author: mike-neumegen
 image: https://cc-dam.imgix.net/blog/uploads/blog-lightbulb.jpg
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 You guys asked for it, and here it is. We're so excited to announce the brand new templating feature in CloudCannon.

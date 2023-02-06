@@ -5,6 +5,10 @@ description: >-
   editing experience that brings collaborative WYSIWYG editing to MkDocs’ build
   flow, all in a matter of minutes.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/mkdocs-blog-hero.jpg
 date: 2022-04-14T05:00:00+1200
 tags:

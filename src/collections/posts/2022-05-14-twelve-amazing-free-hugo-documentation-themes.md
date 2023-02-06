@@ -4,6 +4,10 @@ description: >-
   A hand-picked overview of quality documentation themes for Hugo static site
   generator websites.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/hugo-documentation-themes-image.jpg
 date: 2022-05-14T05:00:00+1200
 tags:

@@ -20,6 +20,10 @@ person:
     path: https://cc-dam.imgix.net/marketing/uploads/1517429239690.jpg
     alt: Jason Adkins
 date: 2021-03-26T12:37:00.000Z
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### The problem
 

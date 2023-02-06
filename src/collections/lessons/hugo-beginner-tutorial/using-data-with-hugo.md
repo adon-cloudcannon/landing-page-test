@@ -6,6 +6,10 @@ tutorial: hugo-beginner-tutorial
 description: |-
   Use data files to import existing data or have an easy way of managing global
     data in this Hugo tutorial.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 {% bookshop "markdown/youtube" id:"SrlKh5Teu6Q" title:"Hugo Data files" extend:false %}

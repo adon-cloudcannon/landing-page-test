@@ -4,6 +4,10 @@ date: 2019-07-29T00:00:00Z
 tags:
   - Features
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/israel-palacio-imcukz72ous-unsplash.jpg
 ---
 

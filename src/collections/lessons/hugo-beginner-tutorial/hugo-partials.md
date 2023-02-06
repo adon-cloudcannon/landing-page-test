@@ -6,6 +6,10 @@ tutorial: hugo-beginner-tutorial
 description: |-
   Learn how to break down your Hugo pages into smaller “components” with
     partials in this Hugo tutorial.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 {% bookshop "markdown/youtube" id:"EGwLmE7hfSE" title:"Hugo Partials" extend:false %}

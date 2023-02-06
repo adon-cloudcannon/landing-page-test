@@ -6,6 +6,10 @@ tutorial: hugo-beginner-tutorial
 description: |-
   In this Hugo tutorial you will learn how to create a blog with Hugo content
     and layouts.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 {% bookshop "markdown/youtube" id:"fa-hCPDy0Rg" title:"Blogging in Hugo" extend:false %}

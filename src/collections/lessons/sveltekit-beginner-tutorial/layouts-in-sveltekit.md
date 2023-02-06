@@ -6,6 +6,10 @@ tutorial: sveltekit-beginner-tutorial-series
 description: >-
   Learn how layouts help you set up and reuse the main structure of your
   SvelteKit site. 
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 The Skeleton website we set up in the previous lesson has an index page that you saw earlier. Let’s update the content on this page to put our own spin on it. Replace the contents of `/src/routes/index.svelte` with the following:

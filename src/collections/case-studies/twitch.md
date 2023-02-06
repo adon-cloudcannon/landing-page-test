@@ -18,6 +18,10 @@ person:
     path: https://cc-dam.imgix.net/marketing/uploads/case-study/twitch-profile-small.png
     alt: Sam Harnack
 date: 2021-03-26 12:37:00
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 ### Why the world’s leading streaming platform chose CloudCannon

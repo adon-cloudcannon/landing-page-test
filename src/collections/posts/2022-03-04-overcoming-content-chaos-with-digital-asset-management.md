@@ -5,6 +5,10 @@ description: >-
   retrieve their digital assets, manage rights and permissions, and establish
   meaningful connections between disparate files.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/content-chaos_xyexmt.jpg
 date: 2022-03-04T05:00:00+1300
 tags:

@@ -4,6 +4,10 @@ date: 2018-01-23
 author: ross-phillips
 tags:
   - Features
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-irridescent-disco-ball.jpeg
 ---
 

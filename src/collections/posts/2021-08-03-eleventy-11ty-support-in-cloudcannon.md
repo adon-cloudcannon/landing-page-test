@@ -4,6 +4,10 @@ description: >-
   Releasing Eleventy support in CloudCannon means 11ty developers from all skill
   levels can enjoy the user friendly all-in-one platform for their Jamstack
   projects.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/introducing-eleventy-1.jpg
 date: 2021-08-03T05:00:00+1200
 tags:

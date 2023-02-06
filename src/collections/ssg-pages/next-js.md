@@ -5,6 +5,9 @@ layout: builder.html
 image: /images/icons/ssgs/nextjs.svg
 summary: Bring the power of full-stack (and React) to the frontend.
 permalink: /nextjs-cms/
+seo:
+  featured_image:
+  featured_image_alt:
 content_blocks:
   - _bookshop_name: sections/container
     content:

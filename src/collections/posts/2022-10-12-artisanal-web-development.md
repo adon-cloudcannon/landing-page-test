@@ -6,6 +6,10 @@ description: >-
   important to you. Perhaps the biggest benefit, however, is both furthering and
   reinforcing your own education.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/blog-artisanal-web-development.jpg
 date: 2022-10-12T05:00:00+1300
 hide_publish_date: false

@@ -5,6 +5,9 @@ layout: builder.html
 image: /images/icons/ssgs/nuxtjs.svg
 summary: An intuitive web framework for Vue.js.
 permalink: /nuxtjs-cms/
+seo:
+  featured_image:
+  featured_image_alt:
 content_blocks:
   - _bookshop_name: sections/container
     content:

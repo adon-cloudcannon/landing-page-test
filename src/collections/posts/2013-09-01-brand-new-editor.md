@@ -4,6 +4,10 @@ date: 2013-09-01
 tags:
   - Features
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-abstract-streert-art.jpg
 ---
 

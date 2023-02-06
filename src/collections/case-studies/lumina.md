@@ -17,6 +17,10 @@ person:
     path: https://cc-dam.imgix.net/marketing/uploads/case-study/lumina/lumina-profile-small.png
     alt: Viv Bakkarat
 date: 2021-02-26 12:37:00
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Lumina Web Solutions helps local businesses and communities to fulfill

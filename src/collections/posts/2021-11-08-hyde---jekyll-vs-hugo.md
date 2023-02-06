@@ -1,5 +1,9 @@
 ---
 title: Comparing a Jekyll and Hugo template
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image:  https://cc-dam.imgix.net/blog/uploads/hyde-theme.png
 permalink: /blog/showcase-hyde---jekyll-vs-hugo/
 date: 2021-11-08T13:00:00+1300

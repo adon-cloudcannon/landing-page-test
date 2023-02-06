@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"> 
-	<link href="/images/favicon.svg" rel="shortcut icon" type="image/svg+xml">
+	<link href="{{ site.favicon }}" rel="shortcut icon" type="image/svg+xml">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>REWORK {{ title }}</title>
 	<link rel="stylesheet" href="/style.css">
@@ -10,6 +10,9 @@
 	<link rel="preload" href="/fonts/tt-norms-pro/bold.woff2" as="font" crossOrigin="anonymous" type="font/woff2">
 	<link href="https://cloudcannon.com/blog/feed.xml" rel="alternate" title="CloudCannon" type="application/atom+xml">
 	<script src="/js/main.js" defer></script>
+
+	<!-- SEO tags -->
+	{% include 'partials/head/seo.html' %}
 </head>
 
 <body class="overflow-x-hidden subpixel-antialiased">

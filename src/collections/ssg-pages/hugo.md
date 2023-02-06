@@ -3,6 +3,9 @@ _schema: default
 title: Hugo
 layout: builder.html
 permalink: /hugo-cms/
+seo:
+  featured_image:
+  featured_image_alt:
 image: /images/icons/ssgs/hugo.svg
 summary: The fastest framework for building websites, with great flexibility.
 content_blocks:

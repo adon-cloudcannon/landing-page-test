@@ -4,6 +4,10 @@ date: 2018-07-02
 tags:
   - Features
 author: george-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-plasma-orb.jpg
 ---
 

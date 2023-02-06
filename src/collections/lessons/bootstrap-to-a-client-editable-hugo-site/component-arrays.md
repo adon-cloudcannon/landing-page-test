@@ -7,6 +7,10 @@ tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-
   Change your front matter into an array of editable components, and open up a
   world of flexibility.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 ### What you'll learn here

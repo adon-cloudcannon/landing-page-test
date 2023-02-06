@@ -4,6 +4,10 @@ date: 2013-09-17
 tags:
   - Features
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-record-player.jpg
 ---
 

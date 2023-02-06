@@ -5,6 +5,10 @@ image: >-
 order: 1
 tutorial: eleventy-beginner-guide
 description: 'Learn the basics of Eleventy in this six-part tutorial series. '
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 Welcome to this Eleventy for Beginners tutorial. In this series we’ll go through the basics of Eleventy from learning how to install the framework, creating layouts, pages, and blog posts, and an introduction to using data files. We’ll build everything from scratch and explain eleventy concepts as we go so no previous eleventy knowledge is necessary. By the end of this tutorial you’ll be able to build your very own Eleventy website.

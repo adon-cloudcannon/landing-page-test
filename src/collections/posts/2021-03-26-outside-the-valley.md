@@ -7,6 +7,10 @@ date: 2021-03-26T12:37:00+1300
 tags:
   - Company
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/outsidethevalley.jpg
 ---
 Silicon Valley is often considered the end all be all for startups. The majority of the world's largest tech companies and VC firms are located in the valley, making it a hub for developers and business people who want to make a name for themselves while working on the next big thing.

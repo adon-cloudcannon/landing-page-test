@@ -6,6 +6,10 @@ description: >-
   applications.
 series: SSGs through the ages
 permalink: /blog/ssg-history-4-spas-are-awesome/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/explorer-4_jk233e.svg
 date: 2022-02-10T05:00:00.000Z
 tags:

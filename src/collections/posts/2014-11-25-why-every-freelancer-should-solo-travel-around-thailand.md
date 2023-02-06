@@ -4,6 +4,10 @@ date: 2014-11-25
 author: mike-neumegen
 categories:
   - Resources
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/florian-wehde--y3sidwvdxg-unsplash.jpg
 ---
 

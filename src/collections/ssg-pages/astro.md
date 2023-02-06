@@ -3,6 +3,9 @@ _schema: default
 title: Astro
 layout: builder.html
 image: /images/icons/ssgs/astro.svg
+seo:
+  featured_image:
+  featured_image_alt:
 summary: Bring your own component framework, with support for frontend tools like React, Vue, and Svelte. 
 permalink: /astro-cms/
 content_blocks:

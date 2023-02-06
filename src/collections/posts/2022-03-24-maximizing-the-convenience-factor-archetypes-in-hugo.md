@@ -5,6 +5,10 @@ description: >-
   convenience to both developers and site owners. In this article, we’ll take a
   closer look at Hugo’s archetypes.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/hugo-archetypes.jpg
 date: 2022-03-24T06:00:00+1300
 tags:

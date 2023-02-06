@@ -4,6 +4,10 @@ author: cloudcannon
 date: 2014-07-30
 tags:
   - Resources
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-spilled-coin-jar.jpg
 ---
 

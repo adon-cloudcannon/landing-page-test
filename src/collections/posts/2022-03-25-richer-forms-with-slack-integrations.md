@@ -2,6 +2,10 @@
 title: Richer Forms with file uploads, Slack integrations, and more
 description: "Forms play a huge role in modern businesses. As part of a good workflow, they not only collect data but send it where you need it most. CloudCannon's forms feature has always done that, and now we've improved on it.\_"
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/forms-hero-3.jpg
 date: 2022-03-25T05:00:00+1300
 tags:

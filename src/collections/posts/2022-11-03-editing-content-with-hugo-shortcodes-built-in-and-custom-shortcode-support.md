@@ -6,6 +6,10 @@ description: >-
   Editors.
 series:
 permalink: /blog/editing-content-with-hugo-shortcodes/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/blog-hugo-shortcodes.jpg
 date: 2022-11-03T05:00:00+1300
 hide_publish_date: false

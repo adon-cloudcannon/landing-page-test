@@ -7,6 +7,10 @@ description: |-
   Go templates is the flexible templating language used in Hugo. In this lesson
     we'll go over basic Go templating concepts and see how you can use it on your
     site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 {% bookshop "markdown/youtube" id:"iDAWQHSH5fE" title:"Hugo Templating Basics" extend:false %}

@@ -5,6 +5,10 @@ description: >-
   experience across multiple SSGs, and for devs importing their existing
   Jamstack sites.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/global-config_enqt8d.jpg
 date: 2022-02-24T05:00:00+1300
 tags:

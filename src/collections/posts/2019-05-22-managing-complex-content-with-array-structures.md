@@ -4,6 +4,10 @@ date: 2019-05-22
 tags:
   - Features
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/lights.jpg
 ---
 At CloudCannon, we're always looking for ways to offload content management from developers and empower editors to make changes themselves. Enabling editors to build their own pages with complex elements such as slideshows, testimonials and call to actions is something we've wanted to support but haven't had a good solution for.

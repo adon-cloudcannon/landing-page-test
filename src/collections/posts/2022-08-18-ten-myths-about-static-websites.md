@@ -5,6 +5,10 @@ description: >-
   pages? Not at all. We confront the main myths about static websites, and set
   the record straight.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog-static-myths.jpg
 date: 2022-08-18T05:00:00+1200
 tags:

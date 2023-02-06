@@ -4,6 +4,10 @@ description: >-
   Content editors on CloudCannon can now access a draggable Editor Panel
   directly next to their styled content on the page, streamlining the editing
   workflow.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/editor-panel-hero.jpg
 date: 2021-12-14T05:00:00+1300
 tags:

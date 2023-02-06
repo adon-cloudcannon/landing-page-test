@@ -4,6 +4,10 @@ image: https://cc-dam.imgix.net/eleventy-cloudcannon-tutorial-social.png
 order: 4
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: Eleventy content structure on CloudCannon.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 CloudCannon provides basic content editing without any configuration. To get the most out of the platform, you have full control to fine-tune the editing experience. CloudCannon configuration typically lives in a [global config file](https://cloudcannon.com/documentation/articles/setting-global-configuration/?ssg=Hugo) but can also be [set at a variety of scopes](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/?ssg=Hugo).
 

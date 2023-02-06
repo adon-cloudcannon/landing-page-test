@@ -5,6 +5,10 @@ image: https://cc-dam.imgix.net/community/Tutorial+social+image.png
 order: 2
 tutorial: hugo-cms---get-started-with-cloudcannon
 description: A brief tour of the pages and features on CloudCannon.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 {% bookshop "markdown/youtube" id:"Vk5R5c1tJX8" title:"Hugo CMS - Get started with CloudCannon" extend:false %}

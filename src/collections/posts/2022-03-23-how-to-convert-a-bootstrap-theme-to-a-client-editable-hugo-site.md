@@ -5,6 +5,10 @@ description: >-
   template, convert it into a Hugo theme, and then set it up for client editing
   and rich page-building with CloudCannon and our open-source Bookshop tool.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/bootstrap-to-hugo2.jpg
 date: 2022-03-23T05:00:00+1300
 tags:

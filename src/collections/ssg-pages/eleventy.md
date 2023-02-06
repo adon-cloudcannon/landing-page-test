@@ -3,6 +3,9 @@ _schema: default
 title: Eleventy
 layout: builder.html
 image: /images/icons/ssgs/11ty.svg
+seo:
+  featured_image:
+  featured_image_alt:
 summary: One of the fastest JavaScript-based SSGs, with absolute flexibility for developers.
 permalink: /eleventy/
 content_blocks:

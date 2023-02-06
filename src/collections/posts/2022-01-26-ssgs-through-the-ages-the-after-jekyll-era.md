@@ -5,6 +5,10 @@ description: >-
   static site generators.
 series: SSGs through the ages
 permalink: /blog/ssg-history-2-after-jekyll/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/explorer-2_vumhwx.svg
 date: 2022-01-26T05:00:00+1300
 tags:

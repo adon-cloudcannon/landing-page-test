@@ -5,6 +5,10 @@ description: >-
   a very close look at what’s possible — for you and your customers — when you
   combine Hugo, Bookshop, and CloudCannon's Git-based CMS.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/stayintherace.jpg
 date: 2022-04-28T05:00:00+1200
 tags:

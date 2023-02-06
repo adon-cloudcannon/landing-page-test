@@ -4,6 +4,10 @@ description: >-
   These upgrades focus on how you first configure your site, including a
   progress bar, a terminal with live code, and a flexible interface for more
   SSGs. 
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/progress-hero-blog-1200x800-3.png
 date: 2021-06-23T00:00:00+1200
 tags:

@@ -4,6 +4,10 @@ image: https://cc-dam.imgix.net/eleventy-cloudcannon-tutorial-social.png
 order: 3
 tutorial: eleventy-cms--get-started-with-cloudcannon
 description: An overview of the editing interfaces available on CloudCannon.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 
 There are four ways to manage content on CloudCannon: the [Visual Editor](https://cloudcannon.com/documentation/articles/introducing-the-visual-editor/), [Content Editor](https://cloudcannon.com/documentation/articles/introducing-the-content-editor/), [Data Editor](https://cloudcannon.com/documentation/articles/introducing-the-data-editor/), and the [Source Editor](https://cloudcannon.com/documentation/articles/introducing-the-source-editor/). Each editing interface is useful in different situations.

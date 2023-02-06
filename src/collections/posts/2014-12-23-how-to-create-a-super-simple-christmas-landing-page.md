@@ -4,6 +4,10 @@ date: 2014-12-23
 tags:
   - Resources
 author: george-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-christmas-bauble.jpg
 ---
 

@@ -4,6 +4,10 @@ description: >-
     Grab a sneak peek of the UI improvements we've been working on, and get
     ready for a slick new CloudCannon.
 permalink: /blog/ui-improvements-2021/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/improvements-hero-c.png
 date: 2021-11-12T05:00:00+1300
 tags:

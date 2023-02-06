@@ -5,6 +5,10 @@ image: >-
 order: 6
 tutorial: eleventy-beginner-guide
 description: Learn how to use a global data file to populate a map on your Eleventy site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 In this final lesson we’re going to put everything we’ve learned so far into one magnificent page which lists top places to spot an opossum.
 

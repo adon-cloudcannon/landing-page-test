@@ -6,6 +6,10 @@ description: >-
   dynamic system. If you’re a fan of Occam’s razor, you’ll see the appeal.
 series:
 permalink: /blog/why-should-you-use-a-static-site-generator/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/ssg-race.jpg
 date: 2022-03-17T05:15:00+1300
 tags:

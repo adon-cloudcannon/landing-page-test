@@ -4,6 +4,10 @@ description: >-
   Compare fifty of the year's most popular Hugo themes, brought to you by
   CloudCannon, the Git-based CMS for Hugo.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/hugo-fifty-themes.jpg
 date: 2022-05-21T05:00:00+1200
 tags:

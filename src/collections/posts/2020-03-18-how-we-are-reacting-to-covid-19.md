@@ -4,6 +4,10 @@ date: 2020-03-18T00:00:00Z
 author: chris-wingate
 tags:
   - Company
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-illustration-of-someone-fighting-vrisu.jpg
 ---
 

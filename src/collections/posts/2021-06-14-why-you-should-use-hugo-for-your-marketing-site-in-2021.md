@@ -5,6 +5,10 @@ description: >-
   build fast HTML websites. Hugo is the ideal SSG for building marketing sites
   for many reasons. 
 date: 2021-06-14T03:00:00+1200
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-hugo-marketing-website.jpg
 tags:
   - Resources

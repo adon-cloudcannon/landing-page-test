@@ -4,6 +4,9 @@ title: MkDocs
 layout: builder.html
 image: /images/icons/ssgs/mkdocs.svg
 summary: A fast and simple static site generator, geared towards building project documentation.
+seo:
+  featured_image:
+  featured_image_alt:
 permalink: /mkdocs-cms/
 content_blocks:
   - _bookshop_name: sections/container

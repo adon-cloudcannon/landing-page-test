@@ -4,6 +4,10 @@ date: 2016-04-11T02:13:00Z
 tags:
   - Features
 author: george-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/letterpress.jpg
 ---
 

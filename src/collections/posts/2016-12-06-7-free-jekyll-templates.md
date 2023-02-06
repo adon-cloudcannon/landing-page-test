@@ -5,6 +5,10 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-rainbow-archway.jpg
 ---
 Jekyll is a fantastic freelancer tool for building client websites. Compared to a traditional CMS like WordPress, there are a number of advantages:

@@ -6,6 +6,10 @@ description: >-
   static site generator, while empowering developers and marketing teams to work
   more collaboratively.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/cc-and-hugo.jpg
 date: 2022-05-05T05:00:00+1200
 tags:

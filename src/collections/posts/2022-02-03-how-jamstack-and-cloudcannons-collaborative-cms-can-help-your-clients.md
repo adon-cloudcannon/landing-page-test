@@ -2,6 +2,10 @@
 title: How to pitch a Jamstack website to your clients
 description: "So you're pitching a Jamstack project\_to a prospective client. What are they worried about? And how can you help convince them that static sites are the way of the future? "
 permalink: /blog/how-to-pitch-a-jamstack-website-to-clients/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/agency-pitch-meeting_r04n38.jpg
 date: 2022-02-03T05:00:00+1300
 tags:

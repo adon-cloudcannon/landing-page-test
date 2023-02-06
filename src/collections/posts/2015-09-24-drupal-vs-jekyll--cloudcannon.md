@@ -5,6 +5,10 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/Shoes.jpg
 ---
 There's a huge ecosystem of plugins and add-ons available for any CMS. In this comparison we'll be using the content management systems straight out of the box to reduce the complexity and time to get the sites live.

@@ -117,3 +117,7 @@ _inputs:
   uuid:
     instance_value: UUID
     hidden: true
+  twitter_site:
+    type: twitter
+  open_graph_type:
+    hidden: true

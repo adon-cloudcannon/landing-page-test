@@ -4,6 +4,10 @@ description: >-
   We’re bringing significant improvements to editing and saving in CloudCannon.
   Our focus: reducing wait time for builds.  
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/editor-hero-c_cikb1v.jpg
 date: 2022-07-15T05:00:00.000Z
 tags:

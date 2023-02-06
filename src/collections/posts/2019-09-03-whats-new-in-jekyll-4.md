@@ -5,6 +5,10 @@ tags:
   - Resources
   - Jekyll
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-night-time-galaxy.jpg
 ---
 Jekyll 4 is here\! It's been a long time coming but the wait was worth it. Let's get down to the details.

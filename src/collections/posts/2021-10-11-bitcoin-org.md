@@ -1,5 +1,9 @@
 ---
 title: 'Deconstruction: How Bitcoin.org uses Jekyll to power their marketing site'
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/bitcoin-desktop.png
 permalink: /blog/showcase-bitcoin-org/
 date: 2021-10-11T13:00:00+1300

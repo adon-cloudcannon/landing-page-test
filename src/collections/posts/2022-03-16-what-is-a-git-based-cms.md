@@ -5,6 +5,10 @@ description: >-
   developers? What other industries and workflows could be transformed with this
   technology? This is precisely the problem Git-based CMSs are addressing.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/what-is-a-git-cms.jpg
 date: 2022-03-16T05:00:00+1300
 tags:

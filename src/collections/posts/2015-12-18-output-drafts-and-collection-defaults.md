@@ -4,6 +4,10 @@ date: 2015-12-18T10:02:00.000Z
 tags:
   - Features
 author: george-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/collection-of-postcards.jpg
 ---
 This week we have a smaller release for some highly requested configuration. We added draft post compiling and defaults for creating collection items.

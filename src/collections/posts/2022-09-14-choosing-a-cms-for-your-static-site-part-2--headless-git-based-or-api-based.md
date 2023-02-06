@@ -5,6 +5,10 @@ description: >-
   API-based CMS? Discover which CMS category will suit you best, so you can
   choose the best CMSs to evaluate.
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/how-to-choose-a-cms-2r.jpg
 date: 2022-09-14T05:00:00+1200
 hide_publish_date: true

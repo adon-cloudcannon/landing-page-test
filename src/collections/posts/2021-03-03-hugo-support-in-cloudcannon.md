@@ -7,6 +7,10 @@ date: 2021-03-03T09:00:00+1300
 tags:
   - Features
 author: mike-neumegen
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-image.png
 ---
 # Hugo Support in CloudCannon

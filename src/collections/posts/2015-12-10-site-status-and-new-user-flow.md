@@ -4,6 +4,10 @@ date: 2015-12-10T13:00:00+1300
 tags:
   - Features
 author: ross-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-traffic-light-suspended.jpg
 ---
 Since our last release, we've focused on existing interfaces and adding features in our continuing effort to improve the CloudCannon experience. These improvements are driven by your feedback and support.

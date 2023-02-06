@@ -6,6 +6,10 @@ tutorial: eleventy-beginner-guide
 description: >-
   Learn how to break down your Eleventy pages into smaller “components” with
   partials in this Eleventy tutorial.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Partials are a way to include a snippet of code into a layout with the goal of reducing repetition or hiding some complexity. In this lesson, we’ll add a navigation bar to the site using a partial. While we could add the nav bar to our existing layout, it’s easier to maintain a site which is broken down into small components rather than sprawling thousand-line files.
 

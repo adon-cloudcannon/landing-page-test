@@ -5,6 +5,10 @@ order: 6
 lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Set up and get two components working with Bookshop, end-to-end.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### What you'll learn here
 

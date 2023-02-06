@@ -5,6 +5,10 @@ description: >-
   static site generators, by contrast, are on the rise. Why? And what will these
   changes mean for you?
 series:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/web-turning-away-wordpress.jpg
 date: 2022-06-24T05:00:00+1200
 tags:

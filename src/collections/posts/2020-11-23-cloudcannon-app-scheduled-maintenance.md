@@ -4,6 +4,10 @@ date: 2020-11-23T17:06:00+1300
 tags:
   - Company
 author: george-phillips
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-blue-sky-white-cloud.jpg
 ---
 The maintenance was a success and everything is back to normal. Read about the update in our [Maintenance Debrief](/operations/2018/11/15/maintenance-debrief/).

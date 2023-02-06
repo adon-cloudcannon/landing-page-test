@@ -4,6 +4,10 @@ date: 2020-04-15T12:00:00+1200
 tags:
   - Company
 author: chris-wingate
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/covid-19.jpg
 ---
 
