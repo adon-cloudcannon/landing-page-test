@@ -147,14 +147,15 @@ content_blocks:
                 - _bookshop_name: simple/video
                   content:
                     title: CMS editing video from CloudCannon
-                    url: https://player.vimeo.com/video/795437736
+                    url: >-
+                      https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
                     autoplay: true
                     loop: true
                   styles:
                     desktop:
                       transform:
                         scale: 1
-                        translate_x: 0
+                        translate_x: 60
                         translate_y: 0
                         rotate: 0
                         skew: 0
@@ -221,10 +222,10 @@ content_blocks:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 20
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
                 active: false
@@ -986,7 +987,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 0
+                bottom: 60
               block_alignment:
                 align_block:
             tablet:
@@ -1018,6 +1019,165 @@ content_blocks:
                 active: false
                 align_block: left
             width: full
+        - _bookshop_name: sections/container
+          content:
+            label: CTA
+            blocks:
+              - _bookshop_name: simple/heading
+                content:
+                  text: Let's talk.
+                styles:
+                  element: h2
+                  width: normal
+                  desktop:
+                    text_alignment:
+                      align: center
+                    text_sizing:
+                      text_size: big
+                    margin:
+                      top: 0
+                      bottom: 20
+                  tablet:
+                    text_alignment:
+                      active: false
+                      align: center
+                    text_sizing:
+                      active: false
+                      text_size: big
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                  mobile:
+                    text_alignment:
+                      active: false
+                      align: center
+                    text_sizing:
+                      active: false
+                      text_size: big
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+              - _bookshop_name: simple/text-block
+                content:
+                  text_markdown: Want to find out more about migrating from Forestry?
+                styles:
+                  desktop:
+                    text_alignment:
+                      align: center
+                    text_sizing:
+                      text_size: normal
+                    margin:
+                      top: 0
+                      bottom: 20
+                    block_alignment:
+                      align_block:
+                  tablet:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: false
+                      text_size: normal
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
+                  mobile:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: false
+                      text_size: normal
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
+                  width: full
+              - _bookshop_name: simple/button-holder
+                content:
+                  button_blocks:
+                    - _bookshop_name: simple/button
+                      content:
+                        text: Book a demo call
+                        link: https://cloudcannon.com/book-a-demo/
+                      styles:
+                        style: white
+                        size: normal
+                        extra_classes:
+                styles:
+                  desktop:
+                    margin:
+                      top: 0
+                      bottom: 0
+                    justify:
+                      align: center
+                  tablet:
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    justify:
+                      active: false
+                      align: center
+                  mobile:
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    justify:
+                      active: false
+                      align: center
+          styles:
+            background: cc-blue
+            rounded: full
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 40
+                right: 0
+                bottom: 40
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            size: normal
+            align: none
     styles:
       background: sky
       rounded: top
@@ -1031,165 +1191,6 @@ content_blocks:
           top: 80
           right: 0
           bottom: 80
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: CTA
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Let’s talk.
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 20
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: Want to find out more about migrating from Forestry?
-          styles:
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 20
-              block_alignment:
-                align_block:
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            width: full
-        - _bookshop_name: simple/button-holder
-          content:
-            button_blocks:
-              - _bookshop_name: simple/button
-                content:
-                  text: Book a demo call
-                  link: https://cloudcannon.com/book-a-demo/
-                styles:
-                  style: white
-                  size: normal
-                  extra_classes:
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-              justify:
-                align: center
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              justify:
-                active: false
-                align: center
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              justify:
-                active: false
-                align: center
-    styles:
-      background: cc-blue
-      rounded: full
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 40
-          right: 0
-          bottom: 40
           left: 0
       tablet:
         margin:
