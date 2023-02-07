@@ -917,12 +917,12 @@ content_blocks:
             width: normal
             desktop:
               text_alignment:
-                align: center
+                align: left
               text_sizing:
                 text_size: big
               margin:
                 top: 0
-                bottom: 0
+                bottom: 20
             tablet:
               text_alignment:
                 active: false
@@ -1040,78 +1040,79 @@ content_blocks:
                 left: 0
                 bottom: 0
                 right: 0
-        - _bookshop_name: simple/expandable-list
+        - _bookshop_name: simple/text-block
           content:
-            rows:
-              - title: qewt
-                description: qwe2d
-                image:
+            text_markdown: >-
+              ### How does your pricing structure differ from Forestry?
+
+
+              Our&nbsp;[Pricing](https://cloudcannon.com/pricing/)&nbsp;structure
+              is slightly different from Forestry's, but for Standard and Team
+              plans the major difference you'll find is that the number of sites
+              you can create is unlimited — with CloudCannon you're not charged
+              on a per-project basis.&nbsp;
+
+
+              For web agencies, we'd recommend our&nbsp;[Partner
+              Program](https://cloudcannon.com/partner-program/), which gives
+              generous discounts, dedicated support, and a unified dashboard of
+              all client sites, with direct billing to clients.&nbsp;
+
+
+              ### What level of support can I expect on CloudCannon?
+
+
+              Our growing team is constantly working on making the best CMS for
+              static sites, and we aim to give you the best support possible.
+              Our support and engineering teams work closely together, and we
+              usually find that we can solve most site problems within a matter
+              of hours.&nbsp;
+
+
+              During your trial period we're happy to get on a call with you and
+              assist with any problems. If you'd like beta access to our
+              migration tool, just
+              email&nbsp;[christopher@cloudcannon.com](mailto:christopher@cloudcannon.com?subject=Migrating%20from%20Forestry).&nbsp;
           styles:
             desktop:
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: left
+              text_alignment:
+                align: left
+              text_sizing:
+                text_size: normal
               margin:
                 top: 0
-                left: 0
                 bottom: 0
-                right: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
+              block_alignment:
+                align_block:
             tablet:
-              transform:
+              text_alignment:
                 active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
+                align: left
+              text_sizing:
                 active: false
-                align_block: left
+                text_size: normal
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
-                right: 0
-              position:
+              block_alignment:
                 active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
+                align_block: left
             mobile:
-              transform:
+              text_alignment:
                 active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
+                align: left
+              text_sizing:
                 active: false
-                align_block: left
+                text_size: normal
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
-                right: 0
-              position:
+              block_alignment:
                 active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
+                align_block: left
+            width: full
     styles:
       background: sky
       rounded: top
@@ -1125,6 +1126,165 @@ content_blocks:
           top: 80
           right: 0
           bottom: 80
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: CTA
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Let’s talk.
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 20
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: Want to find out more about migrating from Forestry?
+          styles:
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 20
+              block_alignment:
+                align_block:
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            width: full
+        - _bookshop_name: simple/button-holder
+          content:
+            button_blocks:
+              - _bookshop_name: simple/button
+                content:
+                  text: Book a demo call
+                  link: https://cloudcannon.com/book-a-demo/
+                styles:
+                  style: white
+                  size: normal
+                  extra_classes:
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+              justify:
+                align: center
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
+    styles:
+      background: cc-blue
+      rounded: full
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 40
+          right: 0
+          bottom: 40
           left: 0
       tablet:
         margin:
