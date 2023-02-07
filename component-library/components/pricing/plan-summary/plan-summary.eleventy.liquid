@@ -29,7 +29,7 @@
 	}
 </style>
 
-<div class="grid grid-cols-{{ content.plans | size }} gap-x-5 {{ container_name }}">
+<div class="grid lg:grid-cols-2 xl:grid-cols-{{ content.plans | size }}  gap-x-5 gap-y-10 {{ container_name }}">
 	{% assign i = 0 %}
 	{% for plan in content.plans %}
 		<div class="border-2 {% if plan.featured %}border-cc{% else %}border-black{% endif %} rounded-2xl">

@@ -1,7 +1,7 @@
 {% assign base_classes = 'border-l-2 border-r-2 border-black px-3' %}
 {% for num in (1..content.plan_count) %}
 	{% assign i = num | minus: 1 %}
-	<table class="w-full border-separate {{ container_name }} border-spacing-y-0 md:hidden">
+	<table class="w-full border-separate border-spacing-y-0 md:hidden mb-10 last:mb-0">
 		<tr>
 			<td class="{{ base_classes }} border-t-2 rounded-t-xl pb-5 text-xl font-bold pt-8">{{ content.names[i] }}</td>
 		</tr>
@@ -47,7 +47,7 @@
 		{% bookshop 'pricing/mobile-features' features:content.features, base_classes:base_classes, index:i %}
 
 		<tr>
-			<td class="{{ base_classes }} pt-16 pb-8 border-b-2 rounded-b-xl">
+			<td class="{{ base_classes }} py-8 border-b-2 rounded-b-xl">
 				{% assign style = 'outline' %}
 				{% if i == 0 %}
 					{% assign style = 'normal' %}
