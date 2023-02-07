@@ -53,9 +53,9 @@
 
 {% assign first_td_classes = 'relative left-[' | append: shift | append: 'px]' %}
 
-<table class="w-full border-separate {{ container_name }} table-fixed border-spacing-y-0 w-[calc(100%+{{ shift }}px)] translate-x-[-{{ shift }}px]">
+<table class="w-full border-separate {{ container_name }} table-fixed border-spacing-y-0 w-[calc(100%+{{ shift }}px)] translate-x-[-{{ shift }}px] hidden md:block">
 	<tr>
-		<td width="300" class="{{ first_td_classes }}"></td>
+		<td width="200" class="{{ first_td_classes }} md:w-[200px] lg:w-[250px] xl:w-[300px]"></td>
 		
 		{% assign i = 0 %}
 		{% for name in content.names %}
@@ -75,7 +75,7 @@
 					<span class="font-bold text-5xl">
 						${{ price }}
 					</span>
-					<span class="relative -top-3">
+					<span class="relative -top-3 block mt-4 xl:inline xl:mt-0">
 						/ month (USD)
 					</span>
 				{% else %}
@@ -101,15 +101,14 @@
 		<td class="{{ first_td_classes }}"></td>
 		
 		{% assign i = 0 %}
-		{% for num in (1..content.plan_count) %}
+		{% for price in content.prices %}
 			<td class="{{ base_classes }} {{ row_classes[i] }} pt-3 pb-6">
 				{% assign style = 'outline' %}
 				{% if i == 0 %}
 					{% assign style = 'normal' %}
 				{% endif %}
 				
-				{% assign priced_plan = price | is_integer %}
-				{% if content.prices[i] | is_integer %}
+				{% if price | is_integer %}
 					{% assign text = 'Start 14-day trial' %}
 				{% else %}
 					{% assign text = 'Book a call with us' %}
@@ -131,134 +130,20 @@
 		{% endfor %}
 	</tr>
 
-	{% assign tr_classes = '' %}
-	{% assign td_before = 'before:absolute before:pointer-events-none before:top-0 before:left-0 before:border-b before:border-b-gray-200 before:w-full before:h-full' %}
-	{% assign td_classes = 'py-4 relative text-xl' %}
-	{% assign total_feature_index = content.features | size | minus: 1 %}
-	{% assign j = 0 %}
-	{% for f in content.features %}
-		{% assign last = false %}
-		{% if j == total_feature_index %}
-			{% assign last = true %}
-		{% endif %}
-
-		{% assign expand = false %}
-		{% assign sub_feature_size = f.sub_features | size %}
-		{% assign sub_feature_last_index = sub_feature_size | minus: 1 %}
-
-		{% if sub_feature_size > 0 %}
-			{% assign expand = true %}
-		{% endif %}
-
-		{% if expand %}
-			<tbody class="border-b-3 border-black" x-data="{ open: false }">
-		{% endif %}
-		<tr class="border-b border-gray-300 {{ tr_classes }}">
-			<td @click="open=!open"
-				class="{{ first_td_classes }} {% unless last %}{{ td_before }}{% endunless %} {{ td_classes }} pr-3 {% if expand %}cursor-pointer{% endif %}">
-				<div class="flex justify-between items-center">
-					<span class="flex items-center">
-						{% if expand %}
-							<span :class="open ? 'rotate-90' : ''" class="w-[20px] h-[20px] transition">{{ '/src/images/icons/solid/chevron-right.svg' | svgContents: 'stroke-gray-800' }}</span>
-						{% endif %}
-						<span class="{% if expand %}ml-1{% else %}ml-[25px]{% endif %}">{{ f.name }}</span>
-					</span>
-					<span class="w-[25px] h-[25px] relative top-[2px] shrink-0 grow-0 group flex flex-col items-center cursor-pointer">
-						{{ '/src/images/icons/outline/information-circle.svg' | svgContents: 'stroke-gray-400' }}
-						<div class="absolute bottom-1 flex-col items-center hidden mb-6 group-hover:flex w-[200px]">
-							<span class="relative z-10 p-2 text-xs rounded leading-none text-white whitespace-no-wrap bg-gray-800 shadow-lg">
-								{{ f.description }}
-							</span>
-							<div class="w-3 h-3 -mt-2 rotate-45 bg-gray-800"></div>
-						</div>
-					</span>
-				</div>
-			</td>
-			
-			{% assign i = 0 %}
-			{% for allocation in f.plan_allocation %}
-				<td class="{{ base_classes }} {{ row_classes[i] }} {% unless last %}{{ td_before }}{% endunless %} {{ td_classes }}">
-					<div class="flex justify-center text-center">
-						{% if allocation == 'yes' %}
-							{{ '/src/images/icons/outline/check-circle.svg' | svgContents: 'stroke-green-600 w-8 h-8' }}
-						{% elsif allocation == 'no' %}
-							{{ '/src/images/icons/outline/x-circle.svg' | svgContents: 'stroke-red-600 w-8 h-8' }}
-						{% else %}
-							{{ allocation }}
-						{% endif %}
-					</div>
-				</td>
-				{% assign i = i | plus: 1 %}
-			{% endfor %}
-		</tr>
-
-		{% if expand %}
-			{% assign sub_bg = 'bg-gray-50' %}
-			{% assign k = 0 %}
-			{% for sf in f.sub_features %}
-				{% assign sub_last = false %}
-				{% if k == sub_feature_last_index %}
-					{% assign sub_last = true %}
-				{% endif %}
-				<tr class="border-b border-gray-300 {{ tr_classes }}" x-cloak :class="open ? '' : 'hidden'" 
-					x-transition:leave="transition ease-in duration-300"
-					x-transition:leave-start="opacity-100"
-					x-transition:leave-end="opacity-0">
-					<td class="{{ first_td_classes }} {% if sub_last %}{{ td_before }}{% endif %} {{ sub_bg }} pr-3 transition">
-						<div class="{{ td_classes }}" x-show="open" x-collapse>
-							<div class="flex justify-between">
-								<span class="text-lg pl-3"><span class="pr-2">•</span> {{ sf.name }}</span>
-								<span class="w-[25px] h-[25px] relative top-[2px] shrink-0 grow-0 group flex flex-col items-center cursor-pointer">
-									{{ '/src/images/icons/outline/information-circle.svg' | svgContents: 'stroke-gray-400' }}
-									<div class="absolute bottom-1 flex-col items-center hidden mb-6 group-hover:flex w-[200px]">
-										<span class="relative z-10 p-2 text-xs rounded leading-none text-white whitespace-no-wrap bg-gray-800 shadow-lg">
-											{{ sf.description }}
-										</span>
-										<div class="w-3 h-3 -mt-2 rotate-45 bg-gray-800"></div>
-									</div>
-								</span>
-							</div>
-						</div>
-					</td>
-
-					{% assign sub_feature_count = 0 %}
-					{% for allocation in sf.plan_allocation %}
-						<td class="{{ base_classes }} {{ row_classes[sub_feature_count] }} {% if sub_last %}{{ td_before }}{% endif %} {{ sub_bg }} transition">
-							<div class="{{ td_classes }}" x-show="open" x-collapse>
-								<div class="flex justify-center text-center">
-									{% if allocation == 'yes' %}
-										{{ '/src/images/icons/outline/check-circle.svg' | svgContents: 'stroke-green-600 w-8 h-8' }}
-									{% elsif allocation == 'no' %}
-										{{ '/src/images/icons/outline/x-circle.svg' | svgContents: 'stroke-red-600 w-8 h-8' }}
-									{% else %}
-										{{ allocation }}
-									{% endif %}
-								</div>
-							</div>
-						</td>
-						{% assign sub_feature_count = sub_feature_count | plus: 1 %}
-					{% endfor %}
-				</tr>
-				{% assign k = k | plus: 1 %}
-			{% endfor %}
-			</tbody>
-		{% endif %}
-		{% assign j = j | plus: 1 %}
-	{% endfor %}
+	{% bookshop 'pricing/features' features:content.features, first_td_classes:first_td_classes, base_classes:base_classes, row_classes:row_classes %}
 
 	<tr>
 		<td class="{{ first_td_classes }}"></td>
 		
 		{% assign i = 0 %}
-		{% for num in (1..content.plan_count) %}
+		{% for price in content.prices %}
 			<td class="{{ base_classes }} {{ row_classes[i] }} pt-16 pb-8 border-b-2 rounded-b-xl">
 				{% assign style = 'outline' %}
 				{% if i == 0 %}
 					{% assign style = 'normal' %}
 				{% endif %}
 				
-				{% assign priced_plan = price | is_integer %}
-				{% if content.prices[i] | is_integer %}
+				{% if price | is_integer %}
 					{% assign text = 'Start 14-day trial' %}
 				{% else %}
 					{% assign text = 'Book a call with us' %}
@@ -269,3 +154,5 @@
 		{% endfor %}
 	</tr>
 </table>
+
+{% bookshop 'pricing/mobile-table' content:content, container_name:container_name %}
