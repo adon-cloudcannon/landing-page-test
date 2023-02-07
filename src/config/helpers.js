@@ -9,5 +9,14 @@ module.exports = {
 	uuid: function(name) {
 		for (var s=''; s.length < 20; s += 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.charAt(Math.random()*62|0));
 		return name + "-" + s;
+	},
+
+	is_integer: function(i) {
+		return Number.isInteger(Number(i))
+	},
+
+	push_to_array: function(arr, el) {
+		arr.push(el);
+		return arr;
 	}
 };

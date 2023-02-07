@@ -136,9 +136,9 @@ layout: page.html
 				</div>
 			</div>
 			<label class="block text-lg mt-4 mb-1">Project Scope <span class="text-red-600">*</span></label>
-			<textarea class="border border-gray-400 h-52 resize-none rounded-lg w-full p-3 text-xl focus:outline-2 focus:outline-blue-200"></textarea>
+			<textarea class="border border-gray-400 h-52 resize-none rounded-lg w-full p-3 mb-5 text-xl focus:outline-2 focus:outline-blue-200"></textarea>
 
-			<input type="submit" value="Send Message" class="font-bold bg-cc text-white mt-5 p-3 hover:bg-cc_hover text-lg cursor-pointer rounded-lg transition">
+			{% bookshop 'helpers/button' type:input, text:'Send Message', size:styles.size, style:'normal' %}
 		</form>
 	</div>
 </div>

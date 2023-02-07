@@ -1,0 +1,474 @@
+---
+title: Pricing
+layout: builder.html
+permalink: /pricing/
+short_plan_features:
+  - Users
+  - Support
+  - Git Syncing
+  - Content scheduling
+features:
+  - name: Users
+    description: abc
+    plan_allocation:
+      - 3 users
+      - 15 users
+      - Custom user allowance
+    sub_features: []
+  - name: Support
+    description: abc
+    plan_allocation:
+      - Standard support
+      - Priority support
+      - Dedicated support
+    sub_features: []
+  - name: Git Syncing
+    description: abc
+    plan_allocation:
+      - yes
+      - yes
+      - Custom Git syncing
+    sub_features: []
+  - name: Automatic site optimizations
+    description: abc
+    plan_allocation:
+      - yes
+      - yes
+      - yes
+    sub_features: []
+  - name: Client Sharing
+    description: abc
+    plan_allocation:
+      - yes
+      - yes
+      - Custom Git syncing
+    sub_features: []
+  - name: Content scheduling
+    description: abc
+    plan_allocation:
+      - yes
+      - Advanced content scheduling
+      - Advanced content scheduling
+    sub_features: []
+  - name: DAM
+    description: abc
+    plan_allocation:
+      - yes
+      - yes
+      - Custom DAM
+    sub_features: []
+  - name: Publishing
+    description: abc
+    plan_allocation:
+      - yes
+      - Advanced publishing
+      - Advanced publishing
+    sub_features: []
+  - name: Build Deploys
+    description: abc
+    plan_allocation:
+      - yes
+      - yes
+      - yes
+    sub_features: []
+  - name: Authentication
+    description: abc
+    plan_allocation:
+      - yes
+      - Advanced authentication
+      - Advanced authentication
+    sub_features: []
+  - name: Forms
+    description: abc
+    plan_allocation:
+      - yes
+      - Advanced forms
+      - Custom forms
+    sub_features: 
+      - name: Advanced forms
+        description: bca
+        plan_allocation:
+          - no
+          - yes
+          - yes
+      - name: Custom forms
+        description: bca
+        plan_allocation:
+          - no
+          - yes
+          - yes
+  - name: Globalization workflows
+    description: abc
+    plan_allocation:
+      - yes
+      - yes
+      - yes
+  - name: Custom branding
+    description: abc
+    plan_allocation:
+      - yes
+      - yes
+      - yes
+  - name: Single sign-on
+    description: abc
+    plan_allocation:
+      - no
+      - no
+      - yes
+  - name: Uptime SLA
+    description: abc
+    plan_allocation:
+      - no
+      - no
+      - yes
+  - name: Professional services
+    description: abc
+    plan_allocation:
+      - no
+      - no
+      - yes
+content_blocks:
+  - _bookshop_name: sections/container
+    content:
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Choose a plan
+          styles:
+            size: h1
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: biggest
+              margin:
+                top: 0
+                bottom: 35
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: No matter the scope of your project, we have a range of options to suit your budget, scaling with your needs.
+          styles:
+            desktop:
+              text_alignment: 
+                align: center
+              text_sizing:
+                text_size: biggest
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            width: medium
+        - _bookshop_name: pricing/plan-summary
+          content:
+            plans:
+              - name: Standard
+                price: 45
+                description: For small teams who want to use our core features.
+                featured: true
+                cta: trial
+                features:
+                  - description: 3 users included
+                    tooltip: 'abc'
+                  - description: Standard support
+                    tooltip: 'abc'
+                  - description: Git Syncing
+                    tooltip: 'abc'
+                  - description: Scheduling
+                    tooltip: 'abc'
+              - name: Team
+                price: 250
+                description: For teams with more advanced editing workflows.
+                featured: false
+                cta: trial
+                features:
+                  - description: 15 users included
+                    tooltip: 'abc'
+                  - description: Priority support
+                    tooltip: 'abc'
+                  - description: Git Syncing
+                    tooltip: 'abc'
+                  - description: Advanced Scheduling
+                    tooltip: 'abc'
+              - name: Enterprise
+                price: Custom
+                description: For large organizations with advanced compliance and security requirements.
+                featured: false
+                cta: demo
+                features:
+                  - description: Custom user allowance
+                    tooltip: 'abc'
+                  - description: Dedicated support
+                    tooltip: 'abc'
+                  - description: Custom Git Syncing
+                    tooltip: 'abc'
+                  - description: Advanced Scheduling
+                    tooltip: 'abc'
+          styles:
+            desktop:
+              margin:
+                top: 100
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: pricing/plan-table
+          content:
+            plan_count: 3
+            names:
+              - Standard
+              - Team
+              - Enterprise
+            prices:
+              - 45
+              - 250
+              - Custom
+            descriptions: 
+              - For small teams who want to use our core features. 
+              - For teams with more advanced editing workflows. 
+              - For large organizations with advanced compliance and security requirements.
+            ctas: 
+              - trial
+              - trial
+              - demo
+            features:
+              - name: Users
+                description: abc
+                plan_allocation:
+                  - 3 users
+                  - 15 users
+                  - Custom user allowance
+                sub_features: []
+              - name: Support
+                description: abc
+                plan_allocation:
+                  - Standard support
+                  - Priority support
+                  - Dedicated support
+                sub_features: []
+              - name: Git Syncing
+                description: abc
+                plan_allocation:
+                  - yes
+                  - yes
+                  - Custom Git syncing
+                sub_features: []
+              - name: Automatic site optimizations
+                description: abc
+                plan_allocation:
+                  - yes
+                  - yes
+                  - yes
+                sub_features: []
+              - name: Client Sharing
+                description: abc
+                plan_allocation:
+                  - yes
+                  - yes
+                  - Custom Git syncing
+                sub_features: []
+              - name: Content scheduling
+                description: abc
+                plan_allocation:
+                  - yes
+                  - Advanced content scheduling
+                  - Advanced content scheduling
+                sub_features: []
+              - name: DAM
+                description: abc
+                plan_allocation:
+                  - yes
+                  - yes
+                  - Custom DAM
+                sub_features: []
+              - name: Publishing
+                description: abc
+                plan_allocation:
+                  - yes
+                  - Advanced publishing
+                  - Advanced publishing
+                sub_features: []
+              - name: Build Deploys
+                description: abc
+                plan_allocation:
+                  - yes
+                  - yes
+                  - yes
+                sub_features: []
+              - name: Authentication
+                description: abc
+                plan_allocation:
+                  - yes
+                  - Advanced authentication
+                  - Advanced authentication
+                sub_features: []
+              - name: Forms
+                description: abc
+                plan_allocation:
+                  - yes
+                  - Advanced forms
+                  - Custom forms
+                sub_features: 
+                  - name: Advanced forms
+                    description: bca
+                    plan_allocation:
+                      - no
+                      - yes
+                      - yes
+                  - name: Custom forms
+                    description: bca
+                    plan_allocation:
+                      - no
+                      - yes
+                      - yes
+              - name: Globalization workflows
+                description: abc
+                plan_allocation:
+                  - yes
+                  - yes
+                  - yes
+              - name: Custom branding
+                description: abc
+                plan_allocation:
+                  - yes
+                  - yes
+                  - yes
+              - name: Single sign-on
+                description: abc
+                plan_allocation:
+                  - no
+                  - no
+                  - yes
+              - name: Uptime SLA
+                description: abc
+                plan_allocation:
+                  - no
+                  - no
+                  - yes
+              - name: Professional services
+                description: abc
+                plan_allocation:
+                  - no
+                  - no
+                  - yes
+
+          styles:
+            desktop:
+              margin:
+                top: 100
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: white
+      rounded: none
+      size: normal
+      align: none
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 130
+          right: 0
+          bottom: 80
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+---
+
+<div class="container">
+  
+</div>

@@ -57,6 +57,8 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("excerpt", Helpers.excerpt);
 	eleventyConfig.addFilter("UUID", Helpers.uuid);
+	eleventyConfig.addFilter("is_integer", Helpers.is_integer);
+	eleventyConfig.addFilter("push", Helpers.push_to_array);
 	eleventyConfig.addFilter("download_github_readme", DataGetter.download_github_readme);
 
 	eleventyConfig.addPlugin(svgContents);
