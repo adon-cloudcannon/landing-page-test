@@ -12,7 +12,7 @@ spec:
 blueprint:
   content:
     label:
-    blocks:
+    blocks: []
   styles:
     background: 
     rounded: none
