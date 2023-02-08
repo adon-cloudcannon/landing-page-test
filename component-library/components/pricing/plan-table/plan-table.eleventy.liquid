@@ -80,7 +80,7 @@
 				<td class="{{ base_classes }} {{ row_classes[i] }}">
 					{% assign priced_plan = price | is_integer %}
 					{% if priced_plan %}
-						{% bookshop 'pricing/price' price:price, description:'/ month (USD)' %}
+						{% bookshop 'pricing/price' price:price description:'/ month (USD)' %}
 					{% else %}
 						<div class="font-bold mb-6 text-3xl">{{ price }}</div>
 					{% endif %}
@@ -116,7 +116,7 @@
 					{% else %}
 						{% assign text = 'Book a call with us' %}
 					{% endif %}
-					{% bookshop 'helpers/button' text:text, size:'normal', style:style extra_classes:'w-full' %}
+					{% bookshop 'helpers/button' text:text size:'normal' style:style extra_classes:'w-full' %}
 				</td>
 				{% assign i = i | plus: 1 %}
 			{% endfor %}
@@ -133,7 +133,7 @@
 			{% endfor %}
 		</tr>
 
-		{% bookshop 'pricing/features' features:content.features, first_td_classes:first_td_classes, base_classes:base_classes, row_classes:row_classes %}
+		{% bookshop 'pricing/features' features:content.features first_td_classes:first_td_classes base_classes:base_classes row_classes:row_classes %}
 
 		<tr>
 			<td class="{{ first_td_classes }}"></td>
@@ -151,7 +151,7 @@
 					{% else %}
 						{% assign text = 'Book a call with us' %}
 					{% endif %}
-					{% bookshop 'helpers/button' text:text, size:'normal', style:style extra_classes:'w-full' %}
+					{% bookshop 'helpers/button' text:text size:'normal' style:style extra_classes:'w-full' %}
 				</td>
 				{% assign i = i | plus: 1 %}
 			{% endfor %}

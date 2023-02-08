@@ -55,7 +55,7 @@
 	</tr>
 
 	{% if expand %}
-	{% bookshop 'pricing/mobile-sub-features' sub_features:f.sub_features, base_classes:base_classes, index:index, sub_feature_last_index:sub_feature_last_index %}
+	{% bookshop 'pricing/mobile-sub-features' sub_features:f.sub_features base_classes:base_classes index:index sub_feature_last_index:sub_feature_last_index %}
 		</tbody>
 	{% endif %}
 	{% assign j = j | plus: 1 %}

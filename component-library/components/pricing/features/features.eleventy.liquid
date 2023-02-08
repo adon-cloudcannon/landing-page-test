@@ -61,7 +61,7 @@
 	</tr>
 
 	{% if expand %}
-	{% bookshop 'pricing/sub_features' sub_features:f.sub_features, first_td_classes:first_td_classes, base_classes:base_classes, row_classes:row_classes, sub_feature_last_index:sub_feature_last_index %}
+	{% bookshop 'pricing/sub_features' sub_features:f.sub_features first_td_classes:first_td_classes base_classes:base_classes row_classes:row_classes sub_feature_last_index:sub_feature_last_index %}
 		</tbody>
 	{% endif %}
 	{% assign j = j | plus: 1 %}

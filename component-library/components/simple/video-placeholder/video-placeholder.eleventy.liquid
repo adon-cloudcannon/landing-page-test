@@ -98,8 +98,8 @@
 
 		{% assign c = 'w-full' %}
 		<div class="{{ container_name }}">
-			{% bookshop "helpers/image" image: content.placeholder_image, alt: content.title, responsive: true, classes: c %}
+			{% bookshop "helpers/image" image: content.placeholder_image alt: content.title responsive: true classes: c %}
 		</div>
-		{% bookshop "helpers/video-modal" video:content.video, title:content.title %}
+		{% bookshop "helpers/video-modal" video:content.video title:content.title %}
 	</div>
 </div>

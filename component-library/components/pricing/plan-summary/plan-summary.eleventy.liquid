@@ -43,7 +43,7 @@
 				<div>
 					{% assign priced_plan = plan.price | is_integer %}
 					{% if priced_plan %}
-						{% bookshop 'pricing/price' price:plan.price, description:'/ month (USD)' %}
+						{% bookshop 'pricing/price' price:plan.price description:'/ month (USD)' %}
 					{% else %}
 						<div class="font-bold mb-6 text-3xl">{{ plan.price }}</div>
 					{% endif %}
@@ -62,7 +62,7 @@
 						{% else %}
 							{% assign text = 'Book a call with us' %}
 						{% endif %}
-					{% bookshop 'helpers/button' text:text, size:'normal', style:style extra_classes:'w-full' %}
+					{% bookshop 'helpers/button' text:text size:'normal' style:style extra_classes:'w-full' %}
 				</div>
 			</div>
 			<div class="px-8 py-6 border-gray-200 border-t">
