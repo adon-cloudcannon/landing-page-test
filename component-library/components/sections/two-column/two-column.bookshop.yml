@@ -11,9 +11,9 @@ spec:
 blueprint:
   content:
     left:
-      blocks:
+      blocks: []
     right:
-      blocks:
+      blocks: []
   styles:
     desktop:
       columns:

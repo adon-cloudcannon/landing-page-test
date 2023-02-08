@@ -14,7 +14,7 @@ blueprint:
       active: true
       icon_path: outline/language
       icon_color: teal
-    blocks:
+    blocks: []
   styles:
     background:
     desktop:
