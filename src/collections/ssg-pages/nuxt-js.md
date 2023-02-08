@@ -2,9 +2,11 @@
 _schema: default
 title: Nuxt.js
 layout: builder.html
-image: /images/icons/ssgs/nuxtjs.svg
-summary: An intuitive web framework for Vue.js.
 permalink: /nuxtjs-cms/
+description: >-
+  Use CloudCannon as your Nuxt CMS to collaborate with your team to build
+  incredibly fast static websites with Vue components, and benefit from an
+  intuitive content manager. 
 seo:
   featured_image:
   featured_image_alt:
@@ -131,8 +133,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
-            image: >-
-              https://cc-dam.imgix.net/hero_image_w2idkd.png
+            image: https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -340,8 +341,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Branching and previewing
-                    image: >-
-                      https://cc-dam.imgix.net/image_8_utyigb.png
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -814,8 +814,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Publishing workflows
                 description: >-
                   Everything syncs back to Git so your development and content
@@ -826,8 +825,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Component-driven workflows
                 description: >-
                   Everything syncs back to Git so your development and content
@@ -1278,8 +1276,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Overview of Jamstack ecosystem
-                    image: >-
-                      https://cc-dam.imgix.net/Group_18619_ed58la.png
+                    image: https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:

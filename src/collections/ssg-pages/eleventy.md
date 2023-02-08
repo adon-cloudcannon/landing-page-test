@@ -2,12 +2,14 @@
 _schema: default
 title: Eleventy
 layout: builder.html
-image: /images/icons/ssgs/11ty.svg
+permalink: /eleventy/
+description: >-
+  Use CloudCannon as your Eleventy CMS to collaborate with your team to build
+  incredibly fast static sites with a wide range of 11ty supported templating
+  languages!
 seo:
   featured_image:
   featured_image_alt:
-summary: One of the fastest JavaScript-based SSGs, with absolute flexibility for developers.
-permalink: /eleventy/
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -131,8 +133,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
-            image: >-
-              https://cc-dam.imgix.net/hero_image_w2idkd.png
+            image: https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -340,8 +341,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Branching and previewing
-                    image: >-
-                      https://cc-dam.imgix.net/image_8_utyigb.png
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -494,8 +494,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier on 11ty
-                    image: >-
-                      https://cc-dam.imgix.net/image_9_yqbchd.png
+                    image: https://cc-dam.imgix.net/image_9_yqbchd.png
                   styles:
                     border:
                     rounded:
@@ -814,8 +813,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Publishing workflows
                 description: >-
                   Everything syncs back to Git so your development and content
@@ -826,8 +824,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Component-driven workflows
                 description: >-
                   Everything syncs back to Git so your development and content
@@ -1278,8 +1275,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Overview of Jamstack ecosystem
-                    image: >-
-                      https://cc-dam.imgix.net/Group_18619_ed58la.png
+                    image: https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:
@@ -1590,8 +1586,7 @@ content_blocks:
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
-                image: >-
-                  https://cc-dam.imgix.net/Group_18830_dhpdvu.png
+                image: https://cc-dam.imgix.net/Group_18830_dhpdvu.png
               - title: Invite your content team to collaborate
                 description: >-
                   Start collaborating with your team. Edit content right on the
@@ -1819,8 +1814,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier SSG
-                    image: >-
-                      https://cc-dam.imgix.net/Group_18528_j98j2i.png
+                    image: https://cc-dam.imgix.net/Group_18528_j98j2i.png
                   styles:
                     border:
                     rounded:

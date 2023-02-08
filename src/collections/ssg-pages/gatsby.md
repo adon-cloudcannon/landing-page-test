@@ -2,9 +2,10 @@
 _schema: default
 title: Gatsby
 layout: builder.html
-image: /images/icons/ssgs/gatsby.svg
-summary: A React-based framework with performance, scalability and security built-in.
 permalink: /gatsby-cms/
+description: >-
+  Use CloudCannon as your Gatsby CMS to collaborate with your content team to
+  build blazing fast static sites with React, GraphQL, and Webpack — and more!
 seo:
   featured_image:
   featured_image_alt:
@@ -131,8 +132,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
-            image: >-
-              https://cc-dam.imgix.net/hero_image_w2idkd.png
+            image: https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -340,8 +340,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Branching and previewing
-                    image: >-
-                      https://cc-dam.imgix.net/image_8_utyigb.png
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -814,8 +813,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Built for content editors
                 description: >-
                   Empower your editors to create, while you work in parallel
@@ -827,8 +825,7 @@ content_blocks:
                   Prepare branches for staging and production workflows. Your
                   content team will have the full power of Git behind a
                   beautiful UI.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Intuitive inline editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
@@ -1285,8 +1282,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Overview of Jamstack ecosystem
-                    image: >-
-                      https://cc-dam.imgix.net/Group_18619_ed58la.png
+                    image: https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:

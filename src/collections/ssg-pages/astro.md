@@ -2,12 +2,14 @@
 _schema: default
 title: Astro
 layout: builder.html
-image: /images/icons/ssgs/astro.svg
+permalink: /astro-cms/
+description: >-
+  Use CloudCannon as your Astro CMS to collaborate with your team to build
+  incredibly fast static sites with React, Preact, Vue, and Svelte components —
+  and more!
 seo:
   featured_image:
   featured_image_alt:
-summary: Bring your own component framework, with support for frontend tools like React, Vue, and Svelte. 
-permalink: /astro-cms/
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -132,8 +134,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
-            image: >-
-              https://cc-dam.imgix.net/hero_image_w2idkd.png
+            image: https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -341,8 +342,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Branching and previewing
-                    image: >-
-                      https://cc-dam.imgix.net/image_8_utyigb.png
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -818,8 +818,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to your Git repo, so development and
                   content editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Catered to content editors
                 description: >-
                   Empower your editors with our CMS for Astro, while you and
@@ -831,8 +830,7 @@ content_blocks:
                   Prepare branches for staging and production workflows. Your
                   content team will use the full power of Git, all behind a
                   beautiful UI.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Intuitive editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
@@ -1288,8 +1286,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Overview of Jamstack ecosystem
-                    image: >-
-                      https://cc-dam.imgix.net/Group_18619_ed58la.png
+                    image: https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:

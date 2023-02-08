@@ -2,9 +2,11 @@
 _schema: default
 title: Jekyll
 layout: builder.html
-image: /images/icons/ssgs/jekyll.svg
-summary: A simple blog-aware SSG powered by Ruby. 
 permalink: /jekyll-cms/
+description: >-
+  Use CloudCannon as your Jekyll CMS to collaborate with your team to build fast
+  static websites with Liquid templates, and manage content with a wysiwyg
+  editor!
 seo:
   featured_image:
   featured_image_alt:
@@ -131,8 +133,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
-            image: >-
-              https://cc-dam.imgix.net/hero_image_w2idkd.png
+            image: https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -339,8 +340,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Branching and previewing
-                    image: >-
-                      https://cc-dam.imgix.net/image_8_utyigb.png
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -813,8 +813,7 @@ content_blocks:
                 description: >-
                   All changes and workflows sync back to Git so your development
                   and content editing teams are always in sync.
-                image: >-
-                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Catered to your editors
                 description: >-
                   Give your editors the freedom to change any piece of content,
@@ -826,8 +825,7 @@ content_blocks:
                   Create branches with staging/production workflows. Your
                   content team has the full power of Git behind a beautiful
                   interface.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Inline editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
@@ -1278,8 +1276,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Overview of Jamstack ecosystem
-                    image: >-
-                      https://cc-dam.imgix.net/Group_18619_ed58la.png
+                    image: https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:

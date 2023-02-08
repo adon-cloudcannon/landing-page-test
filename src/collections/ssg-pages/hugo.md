@@ -3,11 +3,13 @@ _schema: default
 title: Hugo
 layout: builder.html
 permalink: /hugo-cms/
+description: >-
+  Use CloudCannon as your Hugo CMS to collaborate with your content team to
+  build the world's fastest static sites with Go templates, and manage content
+  with ease!
 seo:
   featured_image:
   featured_image_alt:
-image: /images/icons/ssgs/hugo.svg
-summary: The fastest framework for building websites, with great flexibility.
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -131,8 +133,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
-            image: >-
-              https://cc-dam.imgix.net/hero_image_w2idkd.png
+            image: https://cc-dam.imgix.net/hero_image_w2idkd.png
           styles:
             border:
             rounded:
@@ -340,8 +341,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Branching and previewing
-                    image: >-
-                      https://cc-dam.imgix.net/image_8_utyigb.png
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -814,8 +814,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
               - title: Publishing workflows
                 description: >-
                   Everything syncs back to Git so your development and content
@@ -826,8 +825,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Component-driven workflows
                 description: >-
                   Everything syncs back to Git so your development and content
@@ -1278,8 +1276,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Overview of Jamstack ecosystem
-                    image: >-
-                      https://cc-dam.imgix.net/Group_18619_ed58la.png
+                    image: https://cc-dam.imgix.net/Group_18619_ed58la.png
                   styles:
                     border:
                     rounded:
