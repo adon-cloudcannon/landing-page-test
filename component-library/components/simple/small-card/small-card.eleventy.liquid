@@ -1,20 +1,19 @@
-{% assign classes = "" %}
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
 {% assign mobile_styles = "" %}
+
+{% assign classes = "" %}
 
 {% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
 {% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
-{% assign desktop_styles = desktop_styles | render_padding: styles, 'desktop' %}
-{% assign tablet_styles = tablet_styles | render_padding: styles, 'tablet' %}
-{% assign mobile_styles = mobile_styles | render_padding: styles, 'mobile' %}
+{% assign container_name = "small-card" | UUID %}
 
 {% case styles.background %}
 	{% when 'caramel' %}
 		{% assign classes = classes | append: " bg-caramel light-text" %}
-		{% when 'sky' %}
+	{% when 'sky' %}
 		{% assign classes = classes | append: " bg-sky light-text" %}
 	{% when 'sea' %}
 		{% assign classes = classes | append: " bg-sea light-text" %}
@@ -28,28 +27,6 @@
 		{% assign classes = classes | append: " bg-white light-text" %}
 {% endcase %}
 
-{% case styles.rounded %}
-	{% when 'top' %}
-		{% assign classes = classes | append: " rounded-t-[40px]" %}
-		{% assign mt = " margin-top:-40px;" %}
-		{% assign desktop_styles = desktop_styles | append: mt %}
-		{% assign tablet_styles = tablet_styles | append: mt %}
-		{% assign mobile_styles = mobile_styles | append: mt %}
-	{% when 'full' %}
-		{% assign classes = classes | append: " rounded-[20px]" %}
-{% endcase %}
-
-{% case styles.size %}
-{% when 'small' %}
-	{% assign classes = classes | append: " max-w-[1000px] mx-auto" %}
-
-	{% assign mx = " margin-left:auto; margin-right:auto;" %}
-	{% assign desktop_styles = desktop_styles | append: mx %}
-	{% assign tablet_styles = tablet_styles | append: mx %}
-	{% assign mobile_styles = mobile_styles | append: mx %}
-{% endcase %}
-
-{% assign container_name = "container" | UUID %}
 <style>
 	@media (min-width: 1280px) {
 		.{{ container_name}} {
@@ -70,8 +47,11 @@
 	}
 </style>
 
-<div class="{{ classes }} relative {{ container_name }}">
-	<div class="container relative">
+<div class="{{ container_name }} {{ classes }} border border-black flex rounded-xl p-5">
+	<div class="w-[58px] grow-0 shrink-0">
+		{% bookshop "helpers/icon" icon_path:content.icon.icon_path, icon_color:content.icon.icon_color icon_size:'normal' %}
+	</div>
+	<div class="pl-5">
 		{% for component in content.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}

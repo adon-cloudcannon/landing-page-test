@@ -2,22 +2,16 @@
 spec:
   structures:
     - blocks
-  label: "Cards"
-  description: "A grid of information with icons"
-  icon: grid_on
+  label: "Pricing"
+  description: "Display pricing"
+  icon: paid
   tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   content:
-    cards:
-      - image:
-        icon:
-          active: true
-          icon_path: outline/language
-          icon_color: teal
-        title:
-        description:
+    price:
+    description:
   styles:
     desktop:
       margin:
@@ -47,10 +41,3 @@ _inputs:
     comments: Styles for Tablet, unless overridden will also be used for mobile.
   mobile:
     comments: Styles for mobile.
-
-_structures:
-  rows:
-    values: 
-      - image:
-        title:
-        description:

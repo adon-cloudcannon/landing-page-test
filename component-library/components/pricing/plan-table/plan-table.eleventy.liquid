@@ -80,12 +80,7 @@
 				<td class="{{ base_classes }} {{ row_classes[i] }}">
 					{% assign priced_plan = price | is_integer %}
 					{% if priced_plan %}
-						<span class="font-bold text-5xl">
-							${{ price }}
-						</span>
-						<span class="relative -top-3 block mt-4 xl:inline xl:mt-0">
-							/ month (USD)
-						</span>
+						{% bookshop 'pricing/price' price:price, description:'/ month (USD)' %}
 					{% else %}
 						<div class="font-bold mb-6 text-3xl">{{ price }}</div>
 					{% endif %}

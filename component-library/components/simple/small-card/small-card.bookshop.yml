@@ -4,21 +4,19 @@ spec:
     - blocks
   label: "Cards"
   description: "A grid of information with icons"
-  icon: grid_on
+  icon: clarify
   tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   content:
-    cards:
-      - image:
-        icon:
-          active: true
-          icon_path: outline/language
-          icon_color: teal
-        title:
-        description:
+    icon:
+      active: true
+      icon_path: outline/language
+      icon_color: teal
+    blocks:
   styles:
+    background:
     desktop:
       margin:
         top: 0
@@ -48,9 +46,15 @@ _inputs:
   mobile:
     comments: Styles for mobile.
 
-_structures:
-  rows:
-    values: 
-      - image:
-        title:
-        description:
+  background:
+    type: select
+    comment: The background color for the entire section
+    options:
+      values:
+        - white
+        - caramel
+        - sky
+        - sea
+        - cc-blue
+        - ash
+        - night

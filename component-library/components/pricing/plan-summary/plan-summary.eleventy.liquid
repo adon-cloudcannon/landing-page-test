@@ -43,12 +43,7 @@
 				<div>
 					{% assign priced_plan = plan.price | is_integer %}
 					{% if priced_plan %}
-						<span class="font-bold text-5xl">
-							${{ plan.price }}
-						</span>
-						<span class="relative -top-3">
-							/ month (USD)
-						</span>
+						{% bookshop 'pricing/price' price:plan.price, description:'/ month (USD)' %}
 					{% else %}
 						<div class="font-bold mb-6 text-3xl">{{ plan.price }}</div>
 					{% endif %}

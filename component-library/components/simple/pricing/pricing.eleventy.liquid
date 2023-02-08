@@ -6,7 +6,7 @@
 {% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
-{% assign container_name = "steps" | UUID %}
+{% assign container_name = "pricing" | UUID %}
 
 <style>
 	@media (min-width: 1280px) {
@@ -28,16 +28,6 @@
 	}
 </style>
 
-<div class="{{ container_name }} grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-	{% for card in content.cards %}
-		<div class="bg-white rounded-2xl p-10">
-			{% if card.icon.active %}
-				{% bookshop "helpers/icon" icon_path:card.icon.icon_path, icon_color:card.icon.icon_color icon_size:'big' %}
-			{% else %}
-				{% bookshop "helpers/image" image: card.image, alt: card.title, responsive: false, classes: 'w-[70px]' %}
-			{% endif %}
-			<h4 class="text-2xl font-bold mt-5 mb-2">{{ card.title }}</h4>
-			<p>{{ card.description }}</p>
-		</div>
-	{% endfor %}
+<div class="{{ container_name }}">
+	{% bookshop 'pricing/price' price:content.price, description:content.description %}
 </div>
