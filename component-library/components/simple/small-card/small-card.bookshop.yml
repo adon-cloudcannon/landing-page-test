@@ -2,8 +2,8 @@
 spec:
   structures:
     - blocks
-  label: "Cards"
-  description: "A grid of information with icons"
+  label: "Small Card"
+  description: "A small stand alone card"
   icon: clarify
   tags: ['content']
 
