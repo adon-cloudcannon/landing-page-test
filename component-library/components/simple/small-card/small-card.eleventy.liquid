@@ -23,6 +23,8 @@
 		{% assign classes = classes | append: " bg-ash light-text" %}
 	{% when 'night' %}
 		{% assign classes = classes | append: " bg-night dark-text" %}
+	{% when 'blackish' %}
+		{% assign classes = classes | append: " bg-blackish dark-text" %}
 	{% else %}
 		{% assign classes = classes | append: " bg-white light-text" %}
 {% endcase %}
