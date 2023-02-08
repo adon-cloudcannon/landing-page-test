@@ -11,7 +11,6 @@ spec:
 blueprint:
   content:
     icon:
-      active: true
       icon_path: outline/language
       icon_color: teal
     blocks: []
