@@ -7,13 +7,13 @@
 {% endif %}
 {% if announcement_banner.color == "sea" %}
         {% assign background = "bg-sea" %}
-        {% assign text = "text-blackish" %}
-        {% assign cross = "bg-blackish" %}
+        {% assign text = "text-midnight" %}
+        {% assign cross = "bg-midnight" %}
 {% endif %}
 {% if announcement_banner.color == "caramel" %}
     {% assign background = "bg-caramel" %}
-    {% assign text = "text-blackish" %}
-    {% assign cross = "bg-blackish" %}
+    {% assign text = "text-midnight" %}
+    {% assign cross = "bg-midnight" %}
 {% endif %}
 
 <div class="c-announcement-banner {{ background }}" x-data="{ announcementBannerOpen: $persist(true).using(sessionStorage) }" x-cloak>

@@ -23,8 +23,8 @@
 		{% assign classes = classes | append: " bg-ash light-text" %}
 	{% when 'night' %}
 		{% assign classes = classes | append: " bg-night dark-text" %}
-	{% when 'blackish' %}
-		{% assign classes = classes | append: " bg-blackish dark-text" %}
+	{% when 'midnight' %}
+		{% assign classes = classes | append: " bg-midnight dark-text" %}
 	{% else %}
 		{% assign classes = classes | append: " bg-white light-text" %}
 {% endcase %}
@@ -51,7 +51,7 @@
 
 <div class="{{ container_name }} {{ classes }} border border-black flex rounded-xl p-5">
 	<div class="w-[58px] grow-0 shrink-0">
-		{% bookshop "helpers/icon" icon_path:content.icon.icon_path icon_color:content.icon.icon_color icon_size:'normal' %}
+		{% bookshop "helpers/icon_w_bg" icon_path:content.icon.icon_path icon_color:content.icon.icon_color icon_size:'normal' %}
 	</div>
 	<div class="pl-5">
 		{% for component in content.blocks %}

@@ -37,6 +37,10 @@
 		{% assign classes = classes | append: " bg-white light-text" %}
 {% endcase %}
 
+{% if styles.border %}
+	{% assign classes = classes | append: " border border-black" %}
+{% endif %}
+
 {% assign container_name = "quote" | UUID %}
 {% assign image_container_name = "image-quote" | UUID %}
 

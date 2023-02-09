@@ -16,6 +16,8 @@ blueprint:
   styles:
     background: 
     rounded: none
+    size: normal
+    align: none
     desktop:
       margin:
         top: 0
@@ -53,8 +55,6 @@ blueprint:
         right: 0
         bottom: 0
         left: 0
-    size: normal
-    align: none
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -85,6 +85,7 @@ _inputs:
         - cc-blue
         - ash
         - night
+        - transparent
   rounded:
     type: select
     comment: Sets the style of rounded corners on the section.

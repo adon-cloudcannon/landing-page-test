@@ -13,6 +13,7 @@ blueprint:
     list:
       - icon_path: outline/check-circle
         icon_color: green
+        text: Something interesting and insightful
   styles:
     desktop:
       margin:

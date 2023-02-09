@@ -585,7 +585,7 @@ content_blocks:
                                     align_block: left
                                 width: full
                         styles:
-                          background: blackish
+                          background: midnight
                           desktop:
                             margin:
                               top: 20
@@ -787,8 +787,32 @@ content_blocks:
                                     active: false
                                     align_block: left
                                 width: full
+                            - _bookshop_name: simple/icon-list
+                              content:
+                                list:
+                                  - icon_path: outline/check-circle
+                                    icon_color: green
+                                    text: Standard includes 50GB bandwidth
+                                  - icon_path: outline/check-circle
+                                    icon_color: green
+                                    text: Team includes 250GB bandwidth
+                              styles:
+                                desktop:
+                                  margin:
+                                    top: 5
+                                    bottom: 0
+                                tablet:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                mobile:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
                         styles:
-                          background: blackish
+                          background: midnight
                           desktop:
                             margin:
                               top: 20
@@ -909,8 +933,32 @@ content_blocks:
                                     active: false
                                     align_block: left
                                 width: full
+                            - _bookshop_name: simple/icon-list
+                              content:
+                                list:
+                                  - icon_path: outline/check-circle
+                                    icon_color: green
+                                    text: Standard includes 5 custom domains
+                                  - icon_path: outline/check-circle
+                                    icon_color: green
+                                    text: Team includes 5 custom domains
+                              styles:
+                                desktop:
+                                  margin:
+                                    top: 5
+                                    bottom: 0
+                                tablet:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                mobile:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
                         styles:
-                          background: blackish
+                          background: midnight
                           desktop:
                             margin:
                               top: 40
@@ -994,7 +1042,7 @@ content_blocks:
                 right: 0
                 bottom: 0
                 left: 0
-            size: small
+            size: normal
             align: none
         - _bookshop_name: sections/two-column
           content:
@@ -1269,8 +1317,8 @@ content_blocks:
                         styles:
                           desktop:
                             margin:
-                              top: 37
-                              bottom: 0
+                              top: 43
+                              bottom: 26
                             justify:
                               align: start
                           tablet:
@@ -1537,7 +1585,7 @@ content_blocks:
                 bottom: 0
     styles:
       background: white
-      rounded: none
+      rounded: top
       size: normal
       align: none
       desktop:
@@ -1674,6 +1722,113 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
+        - _bookshop_name: sections/container
+          content:
+            label:
+            blocks: 
+              - _bookshop_name: simple/expandable-list
+                content:
+                  rows:
+                    - title: Am I able to turn off overages?
+                      description: Yes. In your account settings you can turn overages off. If you exceed the bandwidth for your plan and you don't have overages switched on, your site will go offline until you purchase an overage or you start a new billing period.
+                      prefix_icon:
+                        icon_path:
+                        icon_color:
+                    - title: What counts as a custom domain?
+                      description: All sites on CloudCannon have a generated "testing" domain name that is great for staging or preview sites, testing domains do not count as a custom domain. For production sites you'll typically buy a custom domain and point it at CloudCannon, each domain and/or subdomain you assign to a site on CloudCannon counts as a custom domain.
+                      prefix_icon:
+                        icon_path:
+                        icon_color:
+                    - title: How do I know how much bandwidth I'm using?
+                      description: In CloudCannon there are dashboards to see your bandwidth usage, you will also receive emails when you hit 50%, 75% and 100% of your bandwidth allocation.
+                      prefix_icon:
+                        icon_path:
+                        icon_color:
+                    - title: When are overages charged?
+                      description: Overages are only charged when you exceed the usage limits on your plan. These charges are added to your next invoice at the end of your billing period.
+                      prefix_icon:
+                        icon_path:
+                        icon_color:
+                    - title: Do overages carry over?
+                      description: No, overages are calculated at the end of a billing period and do not carry over.
+                      prefix_icon:
+                        icon_path:
+                        icon_color:
+                    - title: When am I invoiced?
+                      description: In most cases invoices are sent once a month recurring on the date a plan was purchased. Changing plans will incur an immediate invoice and update your billing date. If you are on a free plan and add an additional subscription item (i.e. a 2nd custom domain) you will receive an immediate invoice. Further additional items will be billed prorated at the end of the month as usual.
+                      prefix_icon:
+                        icon_path:
+                        icon_color:
+                    - title: What happens at the end of my trial?
+                      description: Before the end of your trial, we'll send you an email asking you to enter your credit card to continue using CloudCannon. If no credit card is entered by the end of the trial, you'll be downgraded to our personal plan.
+                      prefix_icon:
+                        icon_path:
+                        icon_color:
+                styles:
+                  background: transparent-light
+                  gaps: false
+                  rotate: true
+                  size: big
+                  dropdown_icon:
+                    icon_path: solid/plus
+                  active_dropdown_icon:
+                    icon_path: solid/minus
+                  desktop:
+                    margin:
+                      top: 40
+                      bottom: 0
+                  tablet:
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                  mobile:
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+          styles:
+            background: transparent
+            rounded: none
+            size: small
+            align: none
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: caramel
       rounded: top

@@ -32,7 +32,7 @@
 	{% for card in content.cards %}
 		<div class="bg-white rounded-2xl p-10">
 			{% if card.icon.active %}
-				{% bookshop "helpers/icon" icon_path:card.icon.icon_path icon_color:card.icon.icon_color icon_size:'big' %}
+				{% bookshop "helpers/icon_w_bg" icon_path:card.icon.icon_path icon_color:card.icon.icon_color icon_size:'big' %}
 			{% else %}
 				{% bookshop "helpers/image" image: card.image alt: card.title responsive: false classes: 'w-[70px]' %}
 			{% endif %}

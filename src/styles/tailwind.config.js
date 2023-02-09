@@ -31,7 +31,7 @@ module.exports = {
 				sky: '#b4e7f7',
 				ash: '#f7f5f2',
 				night: '#2B2B31',
-				blackish: '#26252A'
+				midnight: '#26252A'
 			},
 			boxShadow: {
 				'menu': '0 5px 25px 10px rgb(0 0 0 / 0.08)'
