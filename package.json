@@ -7,7 +7,8 @@
     "start": "run-p dev:*",
     "build:styles": "NODE_ENV=production npx tailwindcss -i src/styles/tailwind.css -c src/styles/tailwind.config.js -o _site/style.css --minify",
     "build:scripts": "esbuild src/main.js --bundle --minify --outfile=_site/js/main.js",
-    "build": "run-s build:* && npx @divriots/jampack ./_site"
+    "polish": "npx @divriots/jampack ./_site",
+    "build": "run-s build:* " 
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
