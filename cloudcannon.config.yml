@@ -715,21 +715,30 @@ _inputs:
     options:
       values:
         - purple-dark
+        - purple-white
         - purple
         - violet-dark
+        - violet-white
         - violet
         - blue-dark
+        - blue-white
         - blue
         - orange-dark
+        - orange-white
         - orange
         - yellow-dark
+        - yellow-white
         - yellow
         - green-dark
+        - green-white
         - green
         - red-dark
+        - red-white
         - red
         - pink-dark
+        - pink-white
         - pink
         - teal-dark
+        - teal-white
         - teal
         - normal
