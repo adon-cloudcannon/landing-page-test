@@ -3,15 +3,15 @@
       - title: Features
         sub_nav:
           - name: Website Editing
-            link: ''
+            link: '/website-editing/'
             description: "Intutive editing for your content team"
             icon: 'pencil'
           - name: Content Publishing
-            link: ''
+            link: '/content-publishing/'
             description: "Work together, faster"
             icon: 'document-arrow-up'
           - name: Website Hosting
-            link: ''
+            link: '/hosting/'
             icon: 'cloud'
             description: "Host the fastest websites"
           - name: Technologies
