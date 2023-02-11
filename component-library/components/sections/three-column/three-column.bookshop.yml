@@ -19,6 +19,7 @@ blueprint:
   styles:
     desktop:
       columns:
+        type: split
         gap: 0
         vertical_gap: 0
       vertical_block_alignment: 
@@ -26,6 +27,7 @@ blueprint:
     tablet:
       columns:
         active: false
+        type: split
         gap: 0
         vertical_gap: 0
       vertical_block_alignment:
@@ -34,6 +36,7 @@ blueprint:
     mobile:
       columns:
         active: false
+        type: split
         gap: 0
         vertical_gap: 0
       vertical_block_alignment:
