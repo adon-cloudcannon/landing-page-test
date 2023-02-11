@@ -146,8 +146,11 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/embed
           content:
-            embed_block: '<div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/christopher-wingate?embed=true"></div>
-            <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>'
+            embed_block: >-
+              <div class="meetings-iframe-container"
+              data-src="https://meetings.hubspot.com/christopher-wingate?embed=true"></div>
+              <script type="text/javascript"
+              src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
           styles:
             desktop:
               margin:
@@ -165,7 +168,7 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/heading
           content:
-            text: Hello World!
+            text: What our customers say about us
           styles:
             element: h2
             width: normal
@@ -199,6 +202,91 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
+        - _bookshop_name: sections/three-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/small-quote
+                  content:
+                    case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+            middle:
+              blocks:
+                - _bookshop_name: simple/small-quote
+                  content:
+                    case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+            right:
+              blocks:
+                - _bookshop_name: simple/small-quote
+                  content:
+                    case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+          styles:
+            desktop:
+              columns:
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: top
+            tablet:
+              columns:
+                active: false
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
     styles:
       background: sea
       rounded: top
