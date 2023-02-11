@@ -77,6 +77,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("render_block_alignment", StyleRenderer.render_block_alignment);
 	eleventyConfig.addFilter("render_visibility", StyleRenderer.render_visibility);
 	eleventyConfig.addFilter("render_columns", StyleRenderer.render_columns);
+	eleventyConfig.addFilter("render_three_columns", StyleRenderer.render_three_columns);
 	eleventyConfig.addFilter("render_vertical_block_alignment", StyleRenderer.render_vertical_block_alignment);
 	
 	eleventyConfig.addFilter("image_resize", ImageRenderer.image_resize);

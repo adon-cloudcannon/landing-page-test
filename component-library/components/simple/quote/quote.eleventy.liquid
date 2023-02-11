@@ -76,7 +76,7 @@
 	}
 </style>
 
-{% assign quote = collections.case-study-quote | where: "data.uuid", uuid | first %}
+{% assign quote = collections.case-study-quote | where: "data.uuid", content.case_study_quote | first %}
 {% if quote %}
 	{% assign person = collections.case-study-people | where: "data.uuid", quote.data.case_study_person | first %}
 	{% if person %}

@@ -28,7 +28,7 @@
 	}
 </style>
 
-{% assign quote = collections.case-study-quote | where: "data.uuid", uuid | first %}
+{% assign quote = collections.case-study-quote | where: "data.uuid", content.case_study_quote | first %}
 {% if quote %}
 	{% assign person = collections.case-study-people | where: "data.uuid", quote.data.case_study_person | first %}
 	{% if person %}
@@ -37,7 +37,11 @@
 {% endif %}
 
 {% if quote and person and case_study %}
-	<div class="{{ container_name }} relative">
+	<div class="{{ container_name }} relative bg-white p-3 border border-black">
 		{% bookshop 'case-studies/head' case_study:case_study %}
+
+		<div class="font-bold text-xl py-3">
+			{{ quote.data.quote }}
+		</div>
 	</div>
 {% endif %}
