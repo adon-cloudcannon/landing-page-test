@@ -1,12 +1,3 @@
-
-{% assign classes = "" %}
-
-{% assign desktop_styles = "" %}
-{% assign tablet_styles = "" %}
-{% assign mobile_styles = "" %}
-
-{% assign classes = "" %}
-
 {% assign column_desktop_styles = "" | render_three_columns: styles, 'desktop' %}
 {% assign column_tablet_styles = "" | render_three_columns: styles, 'tablet' %}
 {% assign column_mobile_styles = "" | render_three_columns: styles, 'mobile' %}
@@ -78,7 +69,7 @@
 		{% endfor %}
 	</div>
 
-	<div class="{{ left_container_name }}">
+	<div class="{{ middle_container_name }}">
 		{% for component in content.middle.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}
