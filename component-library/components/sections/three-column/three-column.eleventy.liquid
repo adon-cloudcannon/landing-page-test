@@ -79,7 +79,7 @@
 	</div>
 
 	<div class="{{ left_container_name }}">
-		{% for component in content.left.blocks %}
+		{% for component in content.middle.blocks %}
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		{% endfor %}
 	</div>
