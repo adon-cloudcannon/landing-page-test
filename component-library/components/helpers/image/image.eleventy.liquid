@@ -1,17 +1,19 @@
 {% if image contains 'cc-dam.imgix.net' %}
 	
-	{% unless width %}
-		{% assign width = 1216 %}
-	{% endunless %}
+	{% if width | is_integer %}
+		{% assign w = width %}
+	{% else  %}
+		{% assign w = 1216 %}
+	{% endif %}
 
-	{% assign dimensions = image | image_resize: width, 1 | image_dimensions %}
+	{% assign dimensions = image | image_resize: w, 1 | image_dimensions %}
 
 	{% if responsive %}
 		<picture>
-			{% assign c_width = width %}
+			{% assign c_width = w %}
 			{% for i in (0..5) %}
 				{% assign m = i | times: 300 %}
-				{% assign i_width = width | minus: m %}
+				{% assign i_width = w | minus: m %}
 				{% if i_width < 200 %}
 					{% break %}
 				{% endif %}
@@ -22,7 +24,7 @@
 			<img src="{{ image | image_resize: c_width, 1 }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
 		</picture>
 	{% else %}
-		<img src="{{ image | image_resize: width, 1 }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
+		<img src="{{ image | image_resize: w, 1 }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
 	{% endif %}
 {% else %}
 	<img src="{{ image }}" alt="{{ alt }}" class="{{ classes }}">

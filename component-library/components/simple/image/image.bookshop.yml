@@ -17,6 +17,7 @@ blueprint:
     rounded:
     ontop:
     width: full
+    pixel_width:
     desktop:
       transform:
         scale: 1

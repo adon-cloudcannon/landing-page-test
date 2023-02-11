@@ -12,6 +12,14 @@ module.exports = {
 	},
 
 	is_integer: function(i) {
+		if (
+			i === null ||
+			i === undefined ||
+			i === false ||
+			i === NaN ||
+			i === ""   ) {
+			return false;
+		}
 		return Number.isInteger(Number(i))
 	},
 
