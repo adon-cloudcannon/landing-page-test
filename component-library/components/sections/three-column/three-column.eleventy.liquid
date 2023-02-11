@@ -1,0 +1,93 @@
+
+{% assign classes = "" %}
+
+{% assign desktop_styles = "" %}
+{% assign tablet_styles = "" %}
+{% assign mobile_styles = "" %}
+
+{% assign classes = "" %}
+
+{% assign column_desktop_styles = "" | render_three_columns: styles, 'desktop' %}
+{% assign column_tablet_styles = "" | render_three_columns: styles, 'tablet' %}
+{% assign column_mobile_styles = "" | render_three_columns: styles, 'mobile' %}
+
+{% assign left_container_name = "left-column" | UUID %}
+{% assign middle_container_name = "middle-column" | UUID %}
+{% assign right_container_name = "right-column" | UUID %}
+
+<style>
+	@media (min-width: 1280px) {
+		.{{ left_container_name}} {
+			{{ column_desktop_styles.left | render_vertical_block_alignment: styles, 'desktop' }}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ left_container_name}} {
+			{{ column_tablet_styles.left | render_vertical_block_alignment: styles, 'tablet' }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ left_container_name}} {
+			{{ column_mobile_styles.left | render_vertical_block_alignment: styles, 'mobile' }}
+		}
+	}
+
+	@media (min-width: 1280px) {
+		.{{ middle_container_name}} {
+			{{ column_desktop_styles.middle | render_vertical_block_alignment: styles, 'desktop' }}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ middle_container_name}} {
+			{{ column_tablet_styles.middle | render_vertical_block_alignment: styles, 'tablet' }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ middle_container_name}} {
+			{{ column_mobile_styles.middle | render_vertical_block_alignment: styles, 'mobile' }}
+		}
+	}
+
+	@media (min-width: 1280px) {
+		.{{ right_container_name}} {
+			{{ column_desktop_styles.right | render_vertical_block_alignment: styles, 'desktop' }}
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1279px) {
+		.{{ right_container_name}} {
+			{{ column_tablet_styles.right | render_vertical_block_alignment: styles, 'tablet' }}
+		}
+	}
+
+	@media (max-width: 767px) {
+		.{{ right_container_name}} {
+			{{ column_mobile_styles.right | render_vertical_block_alignment: styles, 'mobile' }}
+		}
+	}
+</style>
+
+<div class="flex relative flex-wrap">
+	<div class="{{ left_container_name }}">
+		{% for component in content.left.blocks %}
+			{% bookshop "{{component._bookshop_name}}" bind: component %}
+		{% endfor %}
+	</div>
+
+	<div class="{{ left_container_name }}">
+		{% for component in content.left.blocks %}
+			{% bookshop "{{component._bookshop_name}}" bind: component %}
+		{% endfor %}
+	</div>
+
+	<div class="{{ right_container_name }}">
+		{% for component in content.right.blocks %}
+			{% bookshop "{{component._bookshop_name}}" bind: component %}
+		{% endfor %}
+	</div>
+</div>
+

@@ -11,12 +11,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/cubicflow-card-1.png
   alt: Cubicflow logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/cubicflow.svg
-person:
-  name: Matt Ellison
-  position: Founder
-  image: 
-    path: https://cc-dam.imgix.net/marketing/uploads/case-study/matt-ellison.jpg
-    alt: Matt Ellison
+case_study_person: db7ca780-836c-4d66-8a34-b99e36a6a4dc
 date: 2021-03-26 12:37:00
 seo:
   open_graph_type: article

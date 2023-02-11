@@ -13,12 +13,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/netflix-card-black-1.png
   alt: Netflix logo
 logo: /images/logos/netflix.svg
-person:
-  name: Jason Adkins
-  position: Creative Specialist
-  image: 
-    path: https://cc-dam.imgix.net/marketing/uploads/1517429239690.jpg
-    alt: Jason Adkins
+case_study_person: 3b8c8ae9-ef6f-45e3-8472-ba3da3650efb
 date: 2021-03-26T12:37:00.000Z
 seo:
   open_graph_type: article

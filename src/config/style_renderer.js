@@ -397,5 +397,46 @@ module.exports = {
 		}
 
 		return columnData;
+	},
+
+	render_three_columns: function(styles, fm, device) {
+		let columns = module.exports.get_data(fm, device, 'columns');
+
+		if (columns === undefined) {
+			return styles;
+		}
+
+		var columnData = {
+			left: 'box-sizing: border-box;width:33%;',
+			middle: 'box-sizing: border-box;width:33%;',
+			right: 'box-sizing: border-box;width:33%;'
+		};
+
+		switch(columns.type) {
+			case 'split':
+				columnData.left += `width:33%;`;
+				columnData.middle += `width:33%;`;
+				columnData.right += 'width:33%;';
+				break;
+			case 'stacked':
+				columnData.left += 'width:100%;';
+				columnData.middle += `width:100%;`;
+				columnData.right += 'width:100%;';
+				break;
+		}
+		
+		if (module.exports.validInteger('gap', columns)) {
+			columnData.left += `padding-right: ${columns.gap}px;`
+			columnData.middle += `padding-right: ${columns.gap}px;padding-left: ${columns.gap}px;`
+			columnData.right += `padding-left: ${columns.gap}px;`
+		}
+
+		if (module.exports.validInteger('vertical_gap', columns)) {
+			columnData.left += `padding-bottom: ${columns.vertical_gap}px;`
+			columnData.middle += `padding-top: ${columns.vertical_gap}px;padding-bottom: ${columns.vertical_gap}px;`
+			columnData.right += `padding-top: ${columns.vertical_gap}px;`
+		}
+
+		return columnData;
 	}
 };

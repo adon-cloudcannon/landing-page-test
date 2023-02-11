@@ -54,7 +54,7 @@ eleventyComputed:
                 top: 0
                 bottom: 35
               block_alignment:
-                align_block:
+                align_block: center
             tablet:
               text_alignment:
                 active: false
@@ -85,13 +85,7 @@ eleventyComputed:
                 align_block: left
             width: full
         - _bookshop_name: simple/case-study-person
-          person: 
-            image:
-              path: "{{ person.image.path }}"
-              alt: "{{ person.image.alt }}"
-            position: "{{ person.position }}"
-            name: "{{ person.name }}"
-          title: "{{ title }}"
+          uuid: "{{ case_study_person }}"
         - _bookshop_name: simple/spacer
           content:
             title:

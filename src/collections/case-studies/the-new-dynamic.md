@@ -15,12 +15,7 @@ image:
   path: https://cc-dam.imgix.net/tnd-card-noborder.png
   alt: The New Dynamic logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/newdynamic.svg
-person:
-  name:  Régis Philibert
-  position: Lead Developer
-  image: 
-    path: https://cc-dam.imgix.net/regis.jpg
-    alt: Régis Philibert
+case_study_person: 1bb1fc16-d469-4e35-8c53-5dbabf9b35a7
 date: 2022-08-02T17:00:00.000Z
 seo:
   open_graph_type: article

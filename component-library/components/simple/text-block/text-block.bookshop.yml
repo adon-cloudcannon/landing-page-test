@@ -12,6 +12,7 @@ blueprint:
   content:
     text_markdown:
   styles:
+    width: full
     desktop:
       text_alignment: 
         align: left
@@ -21,7 +22,7 @@ blueprint:
         top: 0
         bottom: 0
       block_alignment:
-        align_block:
+        align_block: center
     tablet:
       text_alignment:
         active: false
@@ -50,7 +51,6 @@ blueprint:
       block_alignment:
         active: false
         align_block: left
-    width: full
 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

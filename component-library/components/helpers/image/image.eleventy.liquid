@@ -4,7 +4,7 @@
 		{% assign width = 1216 %}
 	{% endunless %}
 
-	{% assign dimensions = image | image_dimensions %}
+	{% assign dimensions = image | image_resize: width, 1 | image_dimensions %}
 
 	{% if responsive %}
 		<picture>

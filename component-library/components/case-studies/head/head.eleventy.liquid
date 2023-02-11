@@ -1,0 +1,16 @@
+<div class="flex border-b border-gray-300 pb-4">
+	<div class="grow flex">
+		{% assign person = collections.case-study-people | where: "data.uuid", case_study.data.case_study_person | first %}
+
+		{% if person %}
+			{% bookshop "helpers/image" image: person.data.image alt: person.data.name width: 100 classes: 'rounded-full mr-2 w-[50px] h-[50px]' %}
+			<div class="grow">
+				<div class="font-bold">{{ person.data.name }}</div>
+				<div class="text-gray-500 text-sm">{{ person.data.position }}</div>
+			</div>
+		{% endif %}
+	</div>
+	<div class="flex items-center justify-end">
+		<img src="{{ case_study.data.logo }}" class="h-7 max-w-[100px]" alt="{{ case_study.data.title }}">
+	</div>
+</div>

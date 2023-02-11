@@ -11,12 +11,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/diffblue-card-1.png
   alt: Diffblue logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/diffblue-logo.png
-person:
-  name: Liz Barlow
-  position: Marketing Manager
-  image: 
-    path: https://cc-dam.imgix.net/marketing/uploads/case-study/liz-barlow.jpg
-    alt: Liz Barlow
+case_study_person: 0f6680d3-581e-4358-993f-b0531a69449e
 date: 2021-06-12 12:37:00
 seo:
   open_graph_type: article

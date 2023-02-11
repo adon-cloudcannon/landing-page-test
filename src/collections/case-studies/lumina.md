@@ -10,12 +10,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/lumina-card-1.png
   alt: Lumina Web Solutions logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/lumina.png
-person:
-  name: Viv Bakkarat
-  position: Owner and Developer
-  image: 
-    path: https://cc-dam.imgix.net/marketing/uploads/case-study/lumina/lumina-profile-small.png
-    alt: Viv Bakkarat
+case_study_person: f02a6e39-ee65-466d-9480-08bcdaaa2246
 date: 2021-02-26 12:37:00
 seo:
   open_graph_type: article

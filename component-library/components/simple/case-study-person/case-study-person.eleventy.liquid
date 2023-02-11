@@ -1,4 +1,8 @@
-<div class="flex justify-center items-center">
-	<img src="{{ person.image.path }}" alt="{{ person.image.alt }}" class="rounded-full w-16"> 
-	<p class="ml-4"><strong>{{ person.name }}</strong> <br> {{ person.position }} — {{ title }}</p>
-</div>
+{% assign person = collections.case-study-people | where: "data.uuid", uuid | first %}
+
+{% if person %}
+	<div class="flex justify-center items-center">
+		{% bookshop "helpers/image" image: person.data.image alt: person.data.name width: 120 classes: 'rounded-full w-16 h-16' %}
+		<p class="ml-4"><strong>{{ person.data.name }}</strong> <br> {{ person.data.position }} — </p>
+	</div>
+{% endif %}

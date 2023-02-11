@@ -1,9 +1,11 @@
-<footer class="container mx-auto mt-10">
-	<div>
-		<a href="/" class="w-56 block" title="CloudCannon logo">
-			{{ '/src/images/cc-logo.svg' | svgContents }}
-		</a>
+<footer class="pt-10 bg-gray-100 rounded-t-[40px] mt-[-40px] z-10 relative">
+	<div class="container mx-auto">
+		<div>
+			<a href="/" class="w-56 block" title="CloudCannon logo">
+				{{ '/src/images/cc-logo.svg' | svgContents }}
+			</a>
+		</div>
+		{% include 'partials/footer/_columns.html' %}
+		{% include 'partials/footer/_copyright.html' %}
 	</div>
-	{% include 'partials/footer/_columns.html' %}
-	{% include 'partials/footer/_copyright.html' %}
 </footer>

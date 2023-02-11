@@ -11,12 +11,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/twitch-card-1.png
   alt: Twitch logo
 logo: /images/logos/twitch.svg
-person:
-  name:  Sam Harnack
-  position: Technical Marketing Director
-  image: 
-    path: https://cc-dam.imgix.net/marketing/uploads/case-study/twitch-profile-small.png
-    alt: Sam Harnack
+case_study_person: aade817a-8a9f-4633-bfea-4c66d88bd4b7
 date: 2021-03-26 12:37:00
 seo:
   open_graph_type: article

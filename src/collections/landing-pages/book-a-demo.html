@@ -144,6 +144,25 @@ content_blocks:
     content:
       label: Demo
       blocks:
+        - _bookshop_name: simple/embed
+          content:
+            embed_block: '<div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/christopher-wingate?embed=true"></div>
+            <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>'
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: simple/heading
           content:
             text: Hello World!

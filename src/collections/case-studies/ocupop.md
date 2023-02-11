@@ -12,12 +12,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png
   alt: Ocupop logo
 logo: /images/logos/ocupop.svg
-person:
-  name: Tom Beck
-  position: Creative Director
-  image: 
-    path: https://cc-dam.imgix.net/marketing/uploads/ocupop-profile.png
-    alt: Tom Beck
+case_study_person: a07543ae-0a66-4388-a19a-e961e0db78d9
 date: 2021-03-26T12:37:00.000Z
 seo:
   open_graph_type: article

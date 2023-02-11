@@ -44,9 +44,6 @@ collections_config:
     description: Landing pages built entirely with the page builder
     output: true
     path: 'collections/landing-pages'
-    filter:
-      exclude:
-        - 2022-03-03-top-10-hugo-themes-for-2022.md
     schemas:
       default:
         path: .cloudcannon/schemas/page.html
