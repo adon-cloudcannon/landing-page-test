@@ -3,6 +3,10 @@ _schema: default
 title: Hosting
 layout: builder.html
 permalink: /hosting/
+description:
+seo:
+  featured_image:
+  featured_image_alt:
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -134,8 +138,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Computer browser with clouds surrounding it
-            image: >-
-              https://cc-dam.imgix.net/Edge-hosting_zlpzm9.png
+            image: https://cc-dam.imgix.net/Edge-hosting_zlpzm9.png
           styles:
             border:
             rounded:
@@ -338,49 +341,40 @@ content_blocks:
         - _bookshop_name: simple/cards
           content:
             cards:
-              - image: >-
-                  https://cc-dam.imgix.net/tick_b72obe.svg
+              - image: https://cc-dam.imgix.net/tick_b72obe.svg
                 title: Performance
                 description: One of the fastest on the internet...
-              - image: >-
-                  https://cc-dam.imgix.net/shield_plcmji.svg
+              - image: https://cc-dam.imgix.net/shield_plcmji.svg
                 title: Security
                 description: .....
-              - image: >-
-                  https://cc-dam.imgix.net/folder_rwwxoc.svg
+              - image: https://cc-dam.imgix.net/folder_rwwxoc.svg
                 title: Reliable
                 description: >-
                   Trust that your website will stay up and running, even under
                   huge traffic spikes. 
-              - image: >-
-                  https://cc-dam.imgix.net/tick_b72obe.svg
+              - image: https://cc-dam.imgix.net/tick_b72obe.svg
                 title: Git connection
                 description: .....
-              - image: >-
-                  https://cc-dam.imgix.net/shield_plcmji.svg
+              - image: https://cc-dam.imgix.net/shield_plcmji.svg
                 title: Automatic SSL
                 description: >-
                   All builds receive free, automatic SSL certificates so your
                   visitors’ connections are always secure and encrypted.
-              - image: >-
-                  https://cc-dam.imgix.net/folder_rwwxoc.svg
+              - image: https://cc-dam.imgix.net/folder_rwwxoc.svg
                 title: Advanced Routing
                 description: >-
                   Our professional services team works with our enterprise
                   customers to build the unique solutions they need — from app
                   features to website information architecture and development.
-              - image: >-
-                  https://cc-dam.imgix.net/tick_b72obe.svg
+              - image: https://cc-dam.imgix.net/tick_b72obe.svg
                 title: Authentication
                 description: .....
-              - image: >-
-                  https://cc-dam.imgix.net/shield_plcmji.svg
+              - image: https://cc-dam.imgix.net/shield_plcmji.svg
                 title: Form submission
                 description: >-
                   Manage form submissions without server-side code, and forward
                   directly to your email.
-              - image: >-
-                  https://cc-dam.imgix.net/folder_rwwxoc.svg
+              - image: https://cc-dam.imgix.net/folder_rwwxoc.svg
                 title: Geo location
                 description: Enable instant geolocation for i18n and localization.
           styles:
@@ -388,6 +382,93 @@ content_blocks:
               margin:
                 top: 0
                 bottom: 100
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/bolt
+                  icon_color: teal-dark
+                title: Performance
+                description: One of the fastest sites on the internet...
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/lock-closed
+                  icon_color: orange-dark
+                title: Security
+                description: .......
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/presentation-chart-line
+                  icon_color: pink-dark
+                title: Reliable
+                description: >-
+                  Trust that your website will stay up and running, even under
+                  huge traffic spikes. 
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/check-badge
+                  icon_color: green-white
+                title: Git connection
+                description: .......
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/shield-check
+                  icon_color: red-white
+                title: Automatic SSL
+                description: >-
+                  All builds receive free, automatic SSL certificates so your
+                  visitors’ connections are always secure and encrypted.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/arrow-up-right
+                  icon_color: teal
+                title: Advanced Routing
+                description: .........
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: pink-white
+                title: Authentication
+                description: .........
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/envelope-open
+                  icon_color: blue-white
+                title: Form submission
+                description: >-
+                  Manage form submissions without server-side code, and forward
+                  directly to your email. 
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/globe-asia-australia
+                  icon_color: green-white
+                title: Geolocation
+                description: Enable instant geolocation for i18n and localization.
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
             tablet:
               margin:
                 active: false
@@ -410,7 +491,7 @@ content_blocks:
               text_sizing:
                 text_size: big
               margin:
-                top: 0
+                top: 70
                 bottom: 30
             tablet:
               text_alignment:
@@ -483,7 +564,7 @@ content_blocks:
                 align_block: left
             width: full
     styles:
-      background: night
+      background: sky
       rounded: top
       desktop:
         margin:
