@@ -7,6 +7,8 @@ description: >-
   Use CloudCannon as your Astro CMS to collaborate with your team to build
   incredibly fast static sites with React, Preact, Vue, and Svelte components —
   and more!
+summary: >-
+  Test
 seo:
   featured_image:
   featured_image_alt:
