@@ -16,7 +16,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Astro CMS you've been waiting for
+            text: A Git-based CMS for static sites
           styles:
             element: h1
             width: normal
@@ -53,9 +53,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your Astro CMS, your whole team can
-              collaborate to create incredibly fast static sites with React,
-              Preact, Vue, and Svelte components — and more!
+              Keep your developers and editors in sync with Git. Commits pushed
+              by developers automatically sync to CloudCannon. Likewise, content
+              changes made on CloudCannon commit back to your Git repository.
           styles:
             desktop:
               text_alignment:
@@ -130,6 +130,81 @@ content_blocks:
               justify:
                 active: false
                 align: center
+        - _bookshop_name: simple/image
+          content:
+            alt: Github, Bitbucket and GitLab logos side by side
+            image: https://cc-dam.imgix.net/git-providers-list.svg
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: tight
+            pixel_width:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: simple/image
           content:
             alt: Editing a page on CloudCannon
@@ -247,202 +322,411 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: All together now
+      label: Powerful content workflows
       blocks:
-        - _bookshop_name: sections/two-column
+        - _bookshop_name: simple/heading
           content:
-            left:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: All together now
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Build and host the best performing sites on the web.
-                      CloudCannon gives you everything you need to create and
-                      manage your content for your Astro project, all on one
-                      platform.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Branching and previewing
-                    image: https://cc-dam.imgix.net/image_8_utyigb.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
+            text: Powerful content workflows
           styles:
+            element: h2
+            width: normal
             desktop:
-              columns:
-                type: fixed-fluid
-                width: 450
-                gap: 20
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
             tablet:
-              columns:
+              text_alignment:
                 active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
+                align: center
+              text_sizing:
                 active: false
-                v_align: top
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
             mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
+              text_alignment:
                 active: false
-                v_align: center
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Take your editing team to the next level with visual editing and
+              powerful publishing workflows.
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 30
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/image
+          content:
+            alt:
+            image: https://cc-dam.imgix.net/Branching-workflow.png
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 30
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+        - _bookshop_name: sections/container
+          content:
+            label: Branch & Merge
+            blocks:
+              - _bookshop_name: sections/two-column
+                content:
+                  left:
+                    blocks:
+                      - _bookshop_name: simple/heading
+                        content:
+                          text: Branch
+                        styles:
+                          element: h4
+                          width: normal
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 15
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                      - _bookshop_name: simple/text-block
+                        content:
+                          text_markdown: >-
+                            Content editors can create branches for significant
+                            changes to prevent blocking staging environments.
+                        styles:
+                          width: full
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              align_block: center
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                      - _bookshop_name: simple/heading
+                        content:
+                          text: Merge
+                        styles:
+                          element: h4
+                          width: normal
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 30
+                              bottom: 0
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                      - _bookshop_name: simple/text-block
+                        content:
+                          text_markdown: >-
+                            Review changes on a site and merge them into another
+                            branch. Perfect for anything from a simple
+                            staging/production publishing workflow to multiple
+                            reviews and staging environments.
+                        styles:
+                          width: full
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              align_block: center
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                  right:
+                    blocks: []
+                styles:
+                  desktop:
+                    columns:
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      v_align: top
+                  tablet:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+                  mobile:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+          styles:
+            background: white
+            rounded: full
+            size: normal
+            align: none
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 80
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
-      background: sea
+      background: night
       rounded: top
       size: normal
       align:
