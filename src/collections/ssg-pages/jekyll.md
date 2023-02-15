@@ -7,8 +7,10 @@ description: >-
   Use CloudCannon as your Jekyll CMS to collaborate with your team to build fast
   static websites with Liquid templates, and manage content with a wysiwyg
   editor!
+summary: >-
+  Built with Ruby, Jekyll is a simple, blog-aware, static site generator for
+  personal sites, projects, or organizations.
 image: /images/icons/ssgs/jekyll.svg
-summary: Jekyll is a simple, blog-aware, static site generator for personal, project, or organization.
 seo:
   featured_image:
   featured_image_alt:

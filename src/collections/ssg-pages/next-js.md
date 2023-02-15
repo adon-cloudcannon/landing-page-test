@@ -7,8 +7,10 @@ description: >-
   Use CloudCannon as your Nextjs CMS to build content rich static websites with
   React components, and enjoy an intuitive content editor and development
   experience!
+summary: >-
+  Bring the power of full-stack to the frontend, and use your existing React
+  components for your static site..
 image: /images/icons/ssgs/nextjs.svg
-summary: Next.js brings the power of full-stack (and React) to the frontend.
 seo:
   featured_image:
   featured_image_alt:

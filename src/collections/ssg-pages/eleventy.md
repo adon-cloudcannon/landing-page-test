@@ -7,8 +7,10 @@ description: >-
   Use CloudCannon as your Eleventy CMS to collaborate with your team to build
   incredibly fast static sites with a wide range of 11ty supported templating
   languages!
+summary: >-
+  The fastest JavaScript-based static site generator available, with support for
+  a wide range of templating languages.
 image: /images/icons/ssgs/11ty.svg
-summary: Eleventy is one of the most popular (and fastest) static site generators in the world, with absolute flexibility for developers.
 seo:
   featured_image:
   featured_image_alt:
