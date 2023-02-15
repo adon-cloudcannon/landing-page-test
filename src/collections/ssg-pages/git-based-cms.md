@@ -6,6 +6,8 @@ permalink: /git-cms/
 description: >-
   With a Git-based CMS, developers can continue to use the tools that they enjoy
   while editors enjoy collaborative workflows and visual editing. 
+image: /images/icons/ssgs/git.svg
+summary: 
 seo:
   featured_image:
   featured_image_alt:

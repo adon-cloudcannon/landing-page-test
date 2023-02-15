@@ -7,6 +7,8 @@ description: >-
   Use CloudCannon as your MkDocs CMS to collaborate with your team to build fast
   simple static documentation websites, and manage content with a wysiwyg
   editor!
+image: /images/icons/ssgs/mkdocs.svg
+summary: MkDocs is a fast and simple static site generator that's geared towards building project documentation.
 seo:
   featured_image:
   featured_image_alt:

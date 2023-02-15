@@ -7,6 +7,8 @@ description: >-
   Use CloudCannon as a SvelteKit CMS to simplify web development by building
   fast static sites with Svelte, and manage your content with an intuitive
   visual editor!
+image: /images/icons/ssgs/sveltekit.svg
+summary: Fast and flexible, SvelteKit is powered by Svelte and Vite.
 seo:
   featured_image:
   featured_image_alt:
