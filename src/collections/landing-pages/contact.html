@@ -143,7 +143,29 @@ content_blocks:
           content:
             label: form
             blocks:
-              - _bookshop_name: simple/contact-form
+              - _bookshop_name: simple/embed
+                content:
+                  embed_block: >-
+                    <script charset="utf-8" type="text/javascript"
+                    src="//js.hsforms.net/forms/embed/v2.js"></script>
+                    <script>   hbspt.forms.create({     region: "na1",    
+                    portalId: "22461532",     formId:
+                    "a2e105cd-7239-4fe1-8d3c-b4e68dad7a78"   }); </script>
+                styles:
+                  desktop:
+                    margin:
+                      top: 0
+                      bottom: 0
+                  tablet:
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                  mobile:
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
           styles:
             background: white
             rounded: full
