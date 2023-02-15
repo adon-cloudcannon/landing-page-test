@@ -73,7 +73,7 @@
             description: "The latest from CloudCannon"
             icon: 'light-bulb'
           - name: Support
-            link: ''
+            link: '/contact/'
             description: "Deliver your digital experience"
             icon: 'inbox'
           - name: Events
