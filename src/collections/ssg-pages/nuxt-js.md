@@ -7,6 +7,8 @@ description: >-
   Use CloudCannon as your Nuxt CMS to collaborate with your team to build
   incredibly fast static websites with Vue components, and benefit from an
   intuitive content manager. 
+image: /images/icons/ssgs/nuxtjs.svg
+summary: An intuitive web framework for Vue.js.
 seo:
   featured_image:
   featured_image_alt:

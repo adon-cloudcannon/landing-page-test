@@ -8,6 +8,8 @@
 
 	{% assign dimensions = image | image_resize: w, 1 | image_dimensions %}
 
+	{% assign image_path = image | replace: ' ', '%20' %}
+
 	{% if responsive %}
 		<picture>
 			{% assign c_width = w %}
@@ -18,13 +20,13 @@
 					{% break %}
 				{% endif %}
 				{% assign c_width = i_width %}
-				<source media="(min-width: {{ c_width }}px)" srcset="{{ image | image_resize: c_width, 2 }} 2x, {{ image | image_resize: c_width, 1 }} 1x">
+				<source media="(min-width: {{ c_width }}px)" srcset="{{ image_path | image_resize: c_width, 2 }} 2x, {{ image_path | image_resize: c_width, 1 }} 1x">
 			{% endfor %}
 			
-			<img src="{{ image | image_resize: c_width, 1 }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
+			<img src="{{ image_path | image_resize: c_width, 1 }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
 		</picture>
 	{% else %}
-		<img src="{{ image | image_resize: w, 1 }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
+		<img src="{{ image_path | image_resize: w, 1 }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
 	{% endif %}
 {% else %}
 	<img src="{{ image }}" alt="{{ alt }}" class="{{ classes }}">

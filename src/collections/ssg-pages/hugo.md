@@ -7,6 +7,8 @@ description: >-
   Use CloudCannon as your Hugo CMS to collaborate with your content team to
   build the world's fastest static sites with Go templates, and manage content
   with ease!
+image: /images/icons/ssgs/hugo.svg
+summary: The world’s fastest framework for building websites, with amazing build speed and flexibility.
 seo:
   featured_image:
   featured_image_alt:

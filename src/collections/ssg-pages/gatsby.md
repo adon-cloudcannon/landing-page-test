@@ -6,6 +6,8 @@ permalink: /gatsby-cms/
 description: >-
   Use CloudCannon as your Gatsby CMS to collaborate with your content team to
   build blazing fast static sites with React, GraphQL, and Webpack — and more!
+image: /images/icons/ssgs/gatsby.svg
+summary: Gatsby is a React-based framework with performance, scalability and security built-in.
 seo:
   featured_image:
   featured_image_alt:

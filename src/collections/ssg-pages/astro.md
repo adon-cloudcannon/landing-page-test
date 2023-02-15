@@ -3,6 +3,8 @@ _schema: default
 title: Astro
 layout: builder.html
 permalink: /astro-cms/
+image: /images/icons/ssgs/astro.svg
+summary: Bring your own component framework. Astro offers first-class support for front-end tools like React, Vue, Svelte, and Tailwind CSS. 
 description: >-
   Use CloudCannon as your Astro CMS to collaborate with your team to build
   incredibly fast static sites with React, Preact, Vue, and Svelte components —
