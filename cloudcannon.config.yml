@@ -27,6 +27,19 @@ collections_config:
     filter:
       exclude:
         - cheat-sheets.json
+  experts:
+    description: CloudCannon's Partners
+    output: true
+    path: 'collections/experts'
+    disable_add: false
+    disable_add_folder: true
+    disable_file_actions: true
+    _enabled_editors:
+      - content
+    icon: school
+    filter:
+      exclude:
+        - experts.json
   jekyll-cheat-sheets:
     description: Data for the Jekyll cheat sheet
     output: false
