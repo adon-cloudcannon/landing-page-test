@@ -65,7 +65,7 @@ _inputs:
       values:
         - none
         - white
-  size:
+  text_size:
     type: select
     comment: How large the text is
     options:

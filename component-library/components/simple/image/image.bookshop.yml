@@ -124,6 +124,12 @@ _inputs:
     type: switch
   block_alignment:
     comment: Align component within its parent
+  align_block:
+    comment: Aligns the entire block
+    options:
+      values:
+        - left
+        - center
   rounded:
     comment: Rounds the corners of the image
     type: switch

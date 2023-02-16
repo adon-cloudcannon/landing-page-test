@@ -122,6 +122,12 @@ _inputs:
       step: 1
       max: 359
       min: 0
+  align_block:
+    comment: Aligns the entire block
+    options:
+      values:
+        - left
+        - center
   margin:
     comment: Adjust the spacing between this container and others. Can be negative for overlapping.
   top:

@@ -75,6 +75,12 @@ _inputs:
     comment: The list of logos
   margin:
     comment: Adjust the spacing between this component and others. Can be negative for overlapping.
+  align_block:
+    comment: Aligns the entire block
+    options:
+      values:
+        - left
+        - center
   top:
     type: number
   right:
