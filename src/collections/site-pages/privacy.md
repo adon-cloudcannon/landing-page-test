@@ -7,7 +7,6 @@ seo:
   featured_image_alt:
 permalink: /privacy/
 ---
-
 Your privacy is critically important to us. At CloudCannon we have a few fundamental principles:
 
 * We don’t ask you for personal information unless we truly need it.
@@ -26,19 +25,17 @@ This policy does not limit or exclude any of your rights under the New Zealand P
 
 This policy was drafted with brevity and clarity in mind. It does not provide exhaustive detail of all aspects of our collection and use of personal information. We are happy to provide any additional information or explanation needed. Any request for further information should be sent to privacy@cloudcannon.com.
 
-
 ##### **CHANGES TO THIS POLICY**
 
 We may change this policy by uploading a revised policy onto our website. The change will apply from the date that we upload the revised policy.
 
 **This policy was last updated on 4/10/2021.**
 
-
 ##### WHEN DOES THIS PRIVACY POLICY APPLY
 
 This privacy policy applies to personal information we collect from visitors to our website, our customers and other persons with whom we deal directly. In addition, users of our cloud content management system may collect personal information from individuals (e.g. their employees and customers) and upload, store or process that information to or in that service (**User Data**).
 
-We require our customers to obtain the necessary consents from individuals to provide User Data to us and permit us to use it as set out in this privacy policy. If you have any concern about our collection and use of personal information about you contained in User Data, please contact us atprivacy@cloudcannon.com*.*
+We require our customers to obtain the necessary consents from individuals to provide User Data to us and permit us to use it as set out in this privacy policy. If you have any concern about our collection and use of personal information about you contained in User Data, please contact us atprivacy@cloudcannon.com\*.\*
 
 For the purposes of the GDPR, our customers are the data controller when storing or otherwise processing User Data that we hold solely for the purpose of providing our cloud content management system and we are the data processor. We are the data controller when storing or otherwise processing User Data that we use for our own purposes.
 
@@ -47,7 +44,6 @@ We only process User Data as authorized by our customers in our Cloud Cannon Ter
 ##### CHILDREN
 
 We do not intend to collect personal information from or about children aged under 16. If you have reason to believe that we have collected personal information from or about a child under the age of 16, please contact us at privacy@cloudcannon.com.
-
 
 ##### WHAT PERSONAL INFORMATION DO WE COLLECT
 
@@ -88,7 +84,6 @@ Where possible, we collect personal information from you directly. However, some
 
 We may combine the personal information about you that we receive from third parties with the personal information we collect from you directly or with device and usage data we collect automatically when you visit our website.
 
-
 ##### HOW WE USE YOUR PERSONAL INFORMATION
 
 We may use your personal information to:
@@ -111,8 +106,6 @@ We may transfer your information in the case of a sale, merger, consolidation, l
 
 You can stop receiving our marketing emails by following the *unsubscribe* instructions included in those emails.
 
-
-
 ##### DISCLOSING YOUR PERSONAL INFORMATION
 
 We may disclose your personal information to:
@@ -127,25 +120,21 @@ We may disclose your personal information to:
 
 Also, we may share information about your use of our website with our trusted advertising and analytics partners through the use of cookies, web beacons, and similar storage technologies. Please refer to our cookie policy below for further information.
 
-
 ##### INTERNATIONAL TRANSFERS OF PERSONAL INFORMATION
 
 A business that supports our website, products and services may be located outside of New Zealand (the country where we are incorporated) and also outside of the country where you are located. This means that the personal information we collect may be transferred to, and stored in, a country outside of New Zealand and the country where you are located.
 
-If you are located in the European Economic Area (**EEA**), your personal information may be transferred outside of the EEA.  Under the GDPR, the transfer of personal information to a country outside the EEA may take place where the European Commission has decided that the country ensures an adequate level of protection. In the absence of an adequacy decision, we may transfer personal information if other appropriate safeguards are in place.
+If you are located in the European Economic Area (**EEA**), your personal information may be transferred outside of the EEA. Under the GDPR, the transfer of personal information to a country outside the EEA may take place where the European Commission has decided that the country ensures an adequate level of protection. In the absence of an adequacy decision, we may transfer personal information if other appropriate safeguards are in place.
 
 Where we transfer personal information outside the EEA, it will only be transferred to countries that have been identified as providing adequate protection for EEA data, or to a third party where approved transfer mechanisms are in place to protect your personal information (e.g. by entering into the European Commission’s[Standard Contractual Clauses](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en). For further information, please contact at privacy@cloudcannon.com.
 
 Some of the personal information we collect is processed in New Zealand. New Zealand is recognized by the European Commission as a country that has an adequate level of data protection and we rely on this decision in transferring personal information to New Zealand.
-
 
 ##### PROTECTING YOUR PERSONAL INFORMATION
 
 As required by applicable law, we will take steps to keep your personal information safe from loss, unauthorized activity, or other misuse. We implement appropriate technical and organizational measures to ensure a level of security appropriate to the risks inherent in processing personal information.
 
 You play an important role in keeping your personal information secure by maintaining the confidentiality of any password and accounts used in relation to our products and services. You should not disclose your password to third parties. Please notify us immediately if there is any unauthorized use of your account or any other breach of security.
-
-
 
 ##### ACCESSING AND CORRECTING YOUR PERSONAL INFORMATION
 
@@ -157,12 +146,9 @@ If you want to exercise either of the above rights, email us at support@cloudcan
 
 Subject to applicable law, we may charge you our reasonable costs of providing to you copies of your personal information or correcting that information.
 
-
-
 ##### OTHER RIGHTS
 
 In addition to the rights to access and correct your personal information, if you are based in the European Union, you have the additional rights set out in the GDPR Additional Terms section of this privacy policy below.
-
 
 ##### INTERNET USE
 
@@ -172,12 +158,9 @@ If you post your personal information on your website, you acknowledge and agree
 
 If you follow a link on our website to another website, the owner of that website will have its own privacy policy relating to your personal information. We suggest you review that website’s privacy policy before you provide personal information to that owner or website.
 
-
 ##### DATA RETENTION POLICY
 
 The personal information that we collect and use will not be kept longer than necessary for the purposes for which it is collected, or for the duration required for compliance with applicable law, whichever is longer.
-
-
 
 ##### CONTACTING US
 
@@ -185,12 +168,7 @@ If you have any question about this privacy policy, or our privacy practices, or
 
 The name and contact details of our Data Protection Officer for the purposes of the GDPR are:
 
-| Name | Mike Neumegen |
-| Email address | privacy@cloudcannon.com |
-
-
-
-
+\| Name \| Mike Neumegen \| \| Email address \| privacy@cloudcannon.com \|
 
 #### **GDPR ADDITIONAL TERMS**
 
@@ -205,8 +183,6 @@ Where we process personal information based on your consent, you may withdraw yo
 Despite the above, we may process your personal information where such processing is necessary for compliance with applicable laws.
 
 If you have any question about the legal basis on which we process personal information or need further information, please contact us at privacy@cloudcannon.com.
-
-
 
 ##### YOUR RIGHTS UNDER THE GDPR
 
@@ -225,7 +201,6 @@ If you are located in the European Union, your rights in relation to your person
 Where personal information is processed for the purposes of direct marketing, you have the right to object to such processing, including profiling related to direct marketing.
 
 If you would like to exercise any of your above rights, please contact us at support@cloudcannon.com. If you are not satisfied by the way we deal with your query, you may refer your query to your local data protection authority.
-
 
 ### Cookie policy
 
@@ -275,7 +250,7 @@ We use targeting cookies to present interest-based advertising on our website an
 
 We use Google Analytics to collect information about visitors to our website. Google Analytics collects information related to your device, browser, IP address, network location, and website activities to measure and report statistics about your interactions on our website. We use this information to help us manage the performance and design of our website and to improve our website.
 
-We use Google Analytics Advertising Features, including Remarketing with Analytics, Demographic and Interests reporting in Analytics, Campaign Manager integration (formerly known as DoubleClick), Display & Video 360 integration, Google Display Network (GDN) Impression Reporting and Segments. We also use Google Ads. 
+We use Google Analytics Advertising Features, including Remarketing with Analytics, Demographic and Interests reporting in Analytics, Campaign Manager integration (formerly known as DoubleClick), Display & Video 360 integration, Google Display Network (GDN) Impression Reporting and Segments. We also use Google Ads.
 
 For further information on how Google uses your personal information when you use our website and how to opt out of Google’s use of cookies, see [here](https://policies.google.com/?hl=en). In addition to the process described in this link, you can opt out using the process described below.
 
@@ -294,9 +269,9 @@ To learn more about how to control cookie settings through your browser:
 
 *You may opt out of targeted advertising at*[*http://www.youronlinechoices.eu/*](http://www.youronlinechoices.eu/)*. You can learn more about interest-based advertising and opt out of interest-based advertising from participating online advertising companies at the following links.*
 
-* *Network Advertising Initiative (NAI) –*[*http://optout.networkadvertising.org/*](http://optout.networkadvertising.org/)**
-* *Digital Advertising Alliance (DAA) –*[*http://optout.aboutads.info/*](http://optout.aboutads.info/)**
-* *Digital Advertising Alliance EU (EDAA) –*[*http://www.youronlinechoices.com/*](http://www.youronlinechoices.com/)**
+* *Network Advertising Initiative (NAI) –*[*http://optout.networkadvertising.org/*](http://optout.networkadvertising.org/)\*\*
+* *Digital Advertising Alliance (DAA) –*[*http://optout.aboutads.info/*](http://optout.aboutads.info/)\*\*
+* *Digital Advertising Alliance EU (EDAA) –*[*http://www.youronlinechoices.com/*](http://www.youronlinechoices.com/)\*\*
 * *DAA AppChoices page –*[*http://www.aboutads.info/appchoices*](http://www.aboutads.info/appchoices)
 
 *Please note that opting out of interest-based advertising does not mean you will no longer be served advertising. You will continue to receive generic ads*.

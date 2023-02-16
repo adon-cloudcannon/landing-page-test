@@ -7,14 +7,13 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 ## Overview:
 
 We (the folks at CloudCannon) run a cloud hosting and content management platform for static websites (cloudcannon.com and \*.cloudcannon.com) and would love for you to use it. Our service is designed to get your websites online as quickly and easily as possible.
 
 Please read through our terms carefully. If you don't agree to be bound by these terms, you must not use the service. If you continue to use our service you agree to adhere to these terms.
 
-Thank you for your interest in CloudCannon\!
+Thank you for your interest in CloudCannon!
 
 ## Terms of Service:
 
@@ -32,15 +31,11 @@ c. where your access and use is on behalf of another person (e.g. a company), yo
 
 1\.3. If the processing of Content (as defined below) is governed by the GDPR (as defined below), the additional terms in the Data Processing Addendum attached to these Terms also form part of these Terms.
 
-
-
 ##### 2\. CHANGES
 
 2\.1. We may change these Terms at any time by notifying you of the change by email or by posting a notice on the Website. Unless stated otherwise, any change takes effect from the date set out in the notice. You are responsible for ensuring you are familiar with the latest Terms. By continuing to access and use the Service from the date on which the Terms are changed, you agree to be bound by the changed Terms.
 
 2\.2. **These Terms were last updated on 5/5/2021.**
-
-
 
 ##### 3\. INTERPRETATION
 
@@ -99,8 +94,6 @@ Words in the singular include the plural and vice versa.
 
 A reference to a statute includes references to regulations, orders or notices made under or in connection with the statute or regulations and all amendments, replacements or other changes to any of them.
 
-
-
 ##### 4\. PROVISION OF THE SERVICE
 
 4\.1. We must use reasonable efforts to provide the Service:
@@ -118,8 +111,6 @@ c. using suitably skilled, experienced and qualified personnel.
 4\.4. Subject to clause 4.5, we must use reasonable efforts to ensure the Service is available on a 24/7 basis. However, it is possible that on occasion the Service may be unavailable to permit maintenance or other development activity to take place, or in the event of Force Majeure. We must use reasonable efforts to communicate in advance details of any unavailability.
 
 4\.5. Through the use of web services and APIs, the Service interoperates with a range of third party service features. We do not make any warranty or representation on the availability of those features. Without limiting the previous sentence, if a third party feature provider ceases to provide that feature or ceases to make that feature available on reasonable terms, we may cease to make that feature available to you. To avoid doubt, if we exercise our right to cease the availability of a third party feature, you are not entitled to any refund, discount or other compensation.
-
-
 
 ##### 5\. YOUR OBLIGATIONS
 
@@ -191,8 +182,6 @@ iii. reasonable guidance from us;
 
 5\.9. We grant to you a non-exclusive, non-transferable license for the time period that we permit you to promote, market or resell the Service to use our branding and trade marks in order to promote, market or resell the Service in accordance with the Agreement. We may revoke this at any time.
 
-
-
 ##### 6\. BETA VERSION
 
 6\.1. From time to time we may make an early access or beta version of the Service available to you (**Beta Services**) for a pre-agreed period of time (**Trial Period**). When we provide you Beta Services, these Terms apply except to the extent varied in this clause 6.1.
@@ -210,8 +199,6 @@ b. we, as part of that development, may change or remove any feature or part of 
 c. In consideration of our providing the Beta Version for no fees, you agree to inform us of all problems, defects, bugs, errors, issues, and ideas for improvement, relating to the Beta Services of which you become aware.
 
 6\.5. Nothing in these Terms imposes any obligation on us, at the termination or expiry of the Trial Period, maintain any feature or part of the Beta Service in any paid version of the Service or any other service.
-
-
 
 ##### 7\. CONTENT
 
@@ -247,8 +234,6 @@ c. title to, and all Intellectual Property Rights in, Analytical Data is and rem
 
 7\.8. You indemnify us against any liability, claim, proceeding, cost, expense (including the actual legal fees charged by our solicitors) and loss of any kind arising from any actual or alleged claim by a third party that any Content infringes the rights of that third party (including Intellectual Property Rights and privacy rights) or that the Content is Objectionable, incorrect or misleading.
 
-
-
 ##### 8\. FEES
 
 8\.1. You must pay us the Fees.
@@ -267,15 +252,13 @@ b. electronically in cleared funds without any set off or deduction.
 
 8\.6. We may increase the Fees by giving at least 30 days’ notice. If you do not wish to pay the increased Fees, you may terminate these Terms and your right to access and use the Service on no less than 15 days’ notice, provided the notice is received by us before the effective date of the Fee increase. If you do not terminate these Terms and your right to access and use the Service in accordance with this clause, you are deemed to have accepted the increased Fees.
 
-
-
 ##### 9\. INTELLECTUAL PROPERTY
 
 Upon your written request, we will, at your cost, submit to your audits and inspections, and provide you all information necessary, to demonstrate that both you and we are complying with our respective obligations under Applicable Data Protection Laws (including our respective obligations under Article 28 of the GDPR).
 
 9\.1. Subject to clause 9.2, title to, and all Intellectual Property Rights in, the Service, the Website, and all Underlying Systems is and remains our property (and our licensors’ property). You must not contest or dispute that ownership, or the validity of those Intellectual Property Rights.
 
-9\.2. Title to, and all Intellectual Property Rights in, the Content (as between the parties) remains your property. Subject to the Data Processing Addendum attached to these Terms (if applicable), you grant us a worldwide, non-exclusive, fully paid up, transferable, irrevocable license to use, store, copy, modify, make available and communicate the Content for any purpose in connection with the exercise of our rights and performance of our obligations in accordance with these Terms.****
+9\.2. Title to, and all Intellectual Property Rights in, the Content (as between the parties) remains your property. Subject to the Data Processing Addendum attached to these Terms (if applicable), you grant us a worldwide, non-exclusive, fully paid up, transferable, irrevocable license to use, store, copy, modify, make available and communicate the Content for any purpose in connection with the exercise of our rights and performance of our obligations in accordance with these Terms.\*\*\*\*
 
 9\.3. To the extent not owned by us, you grant us a royalty-free, transferable, irrevocable and perpetual license to use for our own business purposes any know-how, techniques, ideas, methodologies, and similar Intellectual Property used by us in the provision of the Service.
 
@@ -286,8 +269,6 @@ a. all Intellectual Property Rights in that feedback, and anything created as a 
 b. we may use or disclose the feedback for any purpose.
 
 9\.5. You acknowledge that the Service may link to third party websites or feeds that are connected or relevant to the Service. Any link from the Service does not imply that we endorse, approve or recommend, or have responsibility for, those websites or feeds or their content or operators. To the maximum extent permitted by law, we exclude all responsibility or liability for those websites or feeds.
-
-
 
 ##### 10\. CONFIDENTIALITY
 
@@ -310,8 +291,6 @@ c. which is publicly available through no fault of the recipient of the Confiden
 d. which was rightfully received by a party from a third party without restriction and without breach of any obligation of confidentiality; or
 
 e. by us if required as part of a *bona fide* sale of our business (assets or shares, whether in whole or in part) to a third party, provided that we enter into a confidentiality agreement with the third party on terms no less restrictive than this clause 9.
-
-
 
 ##### 11\. WARRANTIES
 
@@ -340,8 +319,6 @@ b. it is fair and reasonable that the parties are bound by this clause 11.3.
 a. supplying the Service again; and/or
 
 b. paying the costs of having the Service supplied again.
-
-
 
 ##### 12\. LIABILITY
 
@@ -379,8 +356,6 @@ c. for those matters stated in clause 12.4a to 12.4c.
 
 12\.7. Each party must take reasonable steps to mitigate any loss or damage, cost or expense it may suffer or incur arising out of anything done or not done by the other party under or in connection with these Terms or the Service.
 
-
-
 ##### 13\. **TERM, TERMINATION AND SUSPENSION**
 
 13\.1. Unless terminated under this clause 13, these Terms and your right to access and use the Service:
@@ -407,7 +382,7 @@ b. becomes insolvent, liquidated or bankrupt, has an administrator, receiver, li
 
 13\.6. On termination of these Terms, you must pay all Fees for the provision of the Service prior to that termination.
 
-13\.7. No compensation is payable by us to you as a result of termination of these Terms for whatever reason, and you will not be entitled to a refund of any Fees that you have already paid. 
+13\.7. No compensation is payable by us to you as a result of termination of these Terms for whatever reason, and you will not be entitled to a refund of any Fees that you have already paid.
 
 13\.8. Except to the extent that a party has ongoing rights to use Confidential Information, at the other party’s request following termination of these Terms but subject to clause 13.9, a party must promptly return to the other party or destroy all Confidential Information of the other party that is in the first party’s possession or control.
 
@@ -435,8 +410,6 @@ d. transmitted, inputted or stored any Content that breaches or may breach these
 
 e. otherwise materially breached these Terms.
 
-
-
 ##### 14\. GENERAL
 
 14\.1. You agree that we may use your business name and trademarks in our promotional materials and on our Website, with your prior written consent.
@@ -453,7 +426,7 @@ e. otherwise materially breached these Terms.
 
 14\.7. These Terms, and any dispute relating to these Terms or the Service, are governed by and must be interpreted in accordance with the laws of New Zealand. Each party submits to the non-exclusive jurisdiction of the Courts of New Zealand in relation to any dispute connected with these Terms or the Service.
 
-14\.8. Clauses which, by their nature, are intended to survive termination of these Terms, including clauses 5.7, 7.8, 9, 10, 12, 13.5 to 13.9 and 14.6, continue in force. 
+14\.8. Clauses which, by their nature, are intended to survive termination of these Terms, including clauses 5.7, 7.8, 9, 10, 12, 13.5 to 13.9 and 14.6, continue in force.
 
 14\.9. If any part or provision of these Terms is or becomes illegal, unenforceable, or invalid, that part or provision is deemed to be modified to the extent required to remedy the illegality, unenforceability or invalidity. If modification is not possible, the part or provision must be treated for all purposes as severed from these Terms. The remainder of these Terms will be binding on you.
 
@@ -462,8 +435,6 @@ e. otherwise materially breached these Terms.
 14\.11. These Terms set out everything agreed by the parties relating to the Service, and supersede and cancel anything discussed, exchanged or agreed prior to the Start Date. The parties have not relied on any representation, warranty or agreement relating to the Service that is not expressly set out in these Terms, and no such representation, warranty or agreement has any effect from the Start Date. Without limiting the previous sentence, the parties agree to contract out of sections 9, 12A and 13 of the Fair Trading Act 1986, and that it is fair and reasonable that the parties are bound by this clause 14.10.
 
 14\.12. You may not assign, novate, subcontract or transfer any right or obligation under these Terms without our prior written consent, that consent not to be unreasonably withheld. You remain liable for your obligations under these Terms despite any approved assignment, subcontracting or transfer.
-
-
 
 ## Change log:
 

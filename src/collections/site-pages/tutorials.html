@@ -23,7 +23,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -48,16 +48,19 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: Learn from the CloudCannon team and community members as they share their knowledge about static sites, Git workflows and content management. 
+            text_markdown: >-
+              Learn from the CloudCannon team and community members as they
+              share their knowledge about static sites, Git workflows and
+              content management.
           styles:
             desktop:
-              text_alignment: 
+              text_alignment:
                 align: center
               text_sizing:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 0
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -101,7 +104,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 130
+          top: 90
           right: 0
           bottom: 80
           left: 0
@@ -132,16 +135,14 @@ content_blocks:
           bottom: 0
           left: 0
 ---
-
 <div class="container">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     
     {% for tutorial in collections.tutorials %}
     
     {% assign first_lesson = collections.lessons | where: "data.tutorial", tutorial.fileSlug | sort: "data.order" | first %}
-      <a class="group relative transition duration-200 pb-10 pt-5 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" 
-        target="_blank" href="{{ first_lesson.url }}">
-        <img src="{{ tutorial.data.image }}" class="rounded-t-xl max-h-20 mx-auto block" alt="{{ tutorial.data.title }}">
+      <a class="group relative transition duration-200 pb-10 pt-5 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ first_lesson.url }}">
+        <img src="{{ tutorial.data.image }}" class="rounded-t-xl max-h-20 mx-auto block" alt="{{ tutorial.data.title }}" />
         <div class="p-5 pb-8">
           <h3 class="text-3xl font-bold mb-6">
             {{ tutorial.data.title }}

@@ -19,7 +19,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -44,10 +44,13 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: We work with amazing agencies and freelancers that develop great websites for their clients. Need help with a new or existing CloudCannon website? Reach out to one of our experts.
+            text_markdown: >-
+              We work with amazing agencies and freelancers that develop great
+              websites for their clients. Need help with a new or existing
+              CloudCannon website? Reach out to one of our experts.
           styles:
             desktop:
-              text_alignment: 
+              text_alignment:
                 align: center
               text_sizing:
                 text_size: biggest
@@ -97,9 +100,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 130
+          top: 90
           right: 0
-          bottom: 80
+          bottom: 90
           left: 0
       tablet:
         margin:
@@ -128,21 +131,19 @@ content_blocks:
           bottom: 0
           left: 0
 ---
-
 <div class="container">
   {% assign experts = collections.experts %}
 
   <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     {% for expert in experts %}
-      <a class="group relative transition duration-200 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" 
-        href="{{ expert.url }}">
+      <a class="group relative transition duration-200 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" href="{{ expert.url }}">
         <div class="h-52 bg-[#f0f5ff] flex justify-center items-center rounded-t-xl">
-          <img src="{{ expert.data.logo_image }}" class="max-w-[220px]" alt="{{ expert.data.title }}">
+          <img src="{{ expert.data.logo_image }}" class="max-w-[220px]" alt="{{ expert.data.title }}" />
         </div>
         <div class="px-8 pb-14 pt-8">
           <div class="flex mb-2">
             {% for ssg in expert.data.frameworks %}
-              <img src="/images/icons/ssgs/{{ ssg }}.svg" width="25" height="25" alt="{{ ssg }}" class="mr-[5px] h-[25px] w-auto">
+              <img src="/images/icons/ssgs/{{ ssg }}.svg" width="25" height="25" alt="{{ ssg }}" class="mr-[5px] h-[25px] w-auto" />
             {% endfor %}
           </div>
           <h3 class="text-2xl font-bold">

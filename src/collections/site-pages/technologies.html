@@ -23,7 +23,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -48,16 +48,18 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: CloudCannon supports all major static site generators so that you can choose the tool that works for your project. 
+            text_markdown: >-
+              CloudCannon supports all major static site generators so that you
+              can choose the tool that works for your project.
           styles:
             desktop:
-              text_alignment: 
+              text_alignment:
                 align: center
               text_sizing:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 0
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -101,7 +103,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 130
+          top: 90
           right: 0
           bottom: 80
           left: 0
@@ -132,7 +134,6 @@ content_blocks:
           bottom: 0
           left: 0
 ---
-
 <div class="container">
 
   {% assign ssgs = collections.ssg-pages %}
@@ -140,9 +141,8 @@ content_blocks:
   <div class="grid grid-cols-4 gap-x-6 gap-y-10 mb-28 mt-5">
     
     {% for ssg in ssgs %}
-      <a class="group relative transition duration-200 pt-10 pb-16 px-5 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" 
-        href="{{ ssg.url }}">
-        <img src="{{ ssg.data.image }}" class="h-16 w-auto" alt="{{ ssg.data.title }}">
+      <a class="group relative transition duration-200 pt-10 pb-16 px-5 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" href="{{ ssg.url }}">
+        <img src="{{ ssg.data.image }}" class="h-16 w-auto" alt="{{ ssg.data.title }}" />
         <h3 class="text-3xl font-bold mt-8 mb-4">
           {{ ssg.data.title }}
         </h3>

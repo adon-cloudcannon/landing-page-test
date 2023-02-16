@@ -19,7 +19,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -44,16 +44,20 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: Explore our library of free CloudCannon-ready themes for your Jamstack project. Once you’ve chosen your static site generator (SSG) you can deploy it to CloudCannon with a single click, and you’re all ready to start using our Visual Editor interface.
+            text_markdown: >-
+              Explore our library of free CloudCannon-ready themes for your
+              Jamstack project. Once you’ve chosen your static site generator
+              (SSG) you can deploy it to CloudCannon with a single click, and
+              you’re all ready to start using our Visual Editor interface.
           styles:
             desktop:
-              text_alignment: 
+              text_alignment:
                 align: center
               text_sizing:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 0
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -97,7 +101,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 130
+          top: 90
           right: 0
           bottom: 80
           left: 0
@@ -128,7 +132,6 @@ content_blocks:
           bottom: 0
           left: 0
 ---
-
 <div class="container">
 
   {% assign themes = collections.themes | sort: 'data.priority' %}
@@ -138,17 +141,17 @@ content_blocks:
     {% for theme in themes %}
       <div class="relative">
         <a href="{{ theme.url }}" class="group">
-          <img src="{{ theme.data.image }}" class="h-[373px] transition rounded-lg border group-hover:opacity-80 group-hover:scale-105" alt="{{ theme.data.title }}">
+          <img src="{{ theme.data.image }}" class="h-[373px] transition rounded-lg border group-hover:opacity-80 group-hover:scale-105" alt="{{ theme.data.title }}" />
         </a>
         <div class="flex mt-3">
           {% for ssg in theme.data.themes_ssgs %}
-            <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]">
+            <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]" />
           {% endfor %}
         </div>
         <h3 class="text-xl font-bold mt-1">
           <a href="{{ theme.url }}" class="hover:underline">{{ theme.data.name }}</a>
         </h3>
-        <p class="">{{ theme.data.description }}</p>
+        <p>{{ theme.data.description }}</p>
       </div>
     {% endfor %}
   </div>
