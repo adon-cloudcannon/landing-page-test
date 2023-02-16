@@ -29,7 +29,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -66,7 +66,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -113,7 +113,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 50
+                bottom: 60
               justify:
                 align: center
             tablet:
@@ -154,7 +154,7 @@ content_blocks:
               margin:
                 top: 0
                 left: 0
-                bottom: 70
+                bottom: 90
                 right: 0
               position:
                 top: 0
@@ -219,7 +219,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 130
+          top: 90
           right: 0
           bottom: 0
           left: 0
@@ -266,7 +266,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 0
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -302,8 +302,8 @@ content_blocks:
               text_sizing:
                 text_size: normal
               margin:
-                top: 30
-                bottom: 0
+                top: 0
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -1147,7 +1147,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 50
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -1361,7 +1361,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 80
+          top: 90
           right: 0
           bottom: 120
           left: 0
@@ -1410,7 +1410,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 30
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -1446,7 +1446,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 25
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -1530,7 +1530,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 180
+          top: 90
           right: 0
           bottom: 140
           left: 0

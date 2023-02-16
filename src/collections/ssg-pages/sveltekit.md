@@ -7,8 +7,8 @@ description: >-
   Use CloudCannon as a SvelteKit CMS to simplify web development by building
   fast static sites with Svelte, and manage your content with an intuitive
   visual editor!
-image: /images/icons/ssgs/sveltekit.svg
 summary: Fast and flexible, SvelteKit is powered by Svelte and Vite.
+image: /images/icons/ssgs/sveltekit.svg
 seo:
   featured_image:
   featured_image_alt:
@@ -30,7 +30,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -67,7 +67,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -114,7 +114,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 50
+                bottom: 60
               justify:
                 align: center
             tablet:
@@ -218,7 +218,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 130
+          top: 90
           right: 0
           bottom: 0
           left: 0
@@ -699,7 +699,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 100
+          top: 90
           right: 0
           bottom: 140
           left: 0
@@ -748,7 +748,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 30
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -784,7 +784,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 40
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -1146,9 +1146,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 80
+          top: 90
           right: 0
-          bottom: 80
+          bottom: 90
           left: 0
       tablet:
         margin:
@@ -1401,9 +1401,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 80
+          top: 90
           right: 0
-          bottom: 320
+          bottom: 90
           left: 0
       tablet:
         margin:
@@ -1443,7 +1443,7 @@ content_blocks:
           styles:
             desktop:
               space:
-                size: -242
+                size: 0
             tablet:
               space:
                 active: false
@@ -1513,7 +1513,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 30
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -1547,7 +1547,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 30
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -1631,9 +1631,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 80
+          top: 90
           right: 0
-          bottom: 120
+          bottom: 90
           left: 0
       tablet:
         margin:
@@ -1929,9 +1929,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 80
+          top: 90
           right: 0
-          bottom: 100
+          bottom: 90
           left: 0
       tablet:
         margin:
@@ -1978,7 +1978,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 30
+                bottom: 60
             tablet:
               text_alignment:
                 active: false
@@ -2014,7 +2014,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 25
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -2098,7 +2098,7 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 180
+          top: 90
           right: 0
           bottom: 140
           left: 0
