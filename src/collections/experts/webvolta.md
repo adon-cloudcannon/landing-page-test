@@ -16,7 +16,7 @@ long_description: >-
   business strategy, branding, and digital tools shouldn't be
   either.</p><p>We stay current on changes in the marketplace so that you
   can focus on engaging your customers and building your business.</p>
-logo_image: /images/logos/experts/web-volta-black-1.svg
+logo_image: /images/logos/experts/web-volta-carbon-1.svg
 location: Minneapolis, MN, USA
 frameworks:
   - jekyll

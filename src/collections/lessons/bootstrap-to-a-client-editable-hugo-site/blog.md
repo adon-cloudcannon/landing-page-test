@@ -183,10 +183,10 @@ Back to our `/hugo_src/layouts/posts/list.html` layout, and we can use this part
                     <a href="{{ $href }}">{{ . | humanize }}</a>
                   {{ end }}
                 </span>
-                <span class="text-black text-capitalize d-inline-block mr-3">
+                <span class="text-carbon text-capitalize d-inline-block mr-3">
                   <i class="ti-user mr-1"></i> {{ .Params.author }}
                 </span>
-                <span class="text-black text-capitalize d-inline-block mr-3">
+                <span class="text-carbon text-capitalize d-inline-block mr-3">
                   <i class="ti-time mr-1"></i> 
                   {{ .Date | time.Format ":date_long" }}
                 </span>
@@ -275,8 +275,8 @@ Clicking on a blog post takes us to an empty page. This is because it’s trying
                         <a href="{{ $href }}">{{ . | humanize }}</a>
                       {{ end }}
                     </span>
-                    <span class="text-black text-capitalize d-inline-block mr-3"><i class="ti-user mr-1"></i> {{ .Params.author }}</span>
-                    <span class="text-black text-capitalize d-inline-block mr-3"><i class="ti-time mr-1"></i> {{ .Date | time.Format ":date_long" }}</span>
+                    <span class="text-carbon text-capitalize d-inline-block mr-3"><i class="ti-user mr-1"></i> {{ .Params.author }}</span>
+                    <span class="text-carbon text-capitalize d-inline-block mr-3"><i class="ti-time mr-1"></i> {{ .Date | time.Format ":date_long" }}</span>
                   </div>
 
                   <h2 class="mt-3 mb-4">{{ .Title }}</h2>

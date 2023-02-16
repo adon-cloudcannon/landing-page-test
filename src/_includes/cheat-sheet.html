@@ -150,7 +150,7 @@ eleventyComputed:
             </section>
           {% endif %}
           {% assign previous_category = category %}
-          <section class="border border-black rounded-2xl mt-10 first:mt-0 max-w-[700px] mx-auto">
+          <section class="border border-carbon rounded-2xl mt-10 first:mt-0 max-w-[700px] mx-auto">
             <h2 class="font-bold text-2xl relative bg-[#F5FBFF] p-5 rounded-t-2xl flex justify-between content-center">
               <span>{{ category | replace: '_', ' ' | capitalize }}</span>
               <a class="self-center text-base text-blue-700 hover:underline" 
@@ -161,7 +161,7 @@ eleventyComputed:
             <ul class="list-items">
         {% endif %}
 
-        <li class="border-t border-black group/category" x-data="{ expanded: false }">{% include 'partials/cheat-sheet/item.html' cheat:cheat %}</li>
+        <li class="border-t border-carbon group/category" x-data="{ expanded: false }">{% include 'partials/cheat-sheet/item.html' cheat:cheat %}</li>
       {% endif %}
     {% endfor %}
       </ul>

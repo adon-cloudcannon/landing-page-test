@@ -145,7 +145,7 @@ content_blocks:
 
   <div class="mb-14 mt-5">
     {% for event in future_events %}
-    <a class="group relative transition duration-200 mb-10 hover:scale-105 flex border border-black rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ event.data.link }}">
+    <a class="group relative transition duration-200 mb-10 hover:scale-105 flex border border-carbon rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ event.data.link }}">
       <img src="{{ event.data.image.path }}" class="rounded-l-xl flex-1 w-full h-full object-cover object-center" alt="{{ event.data.image.alt }}" />
       <div class="p-5 pb-8 flex-1">
         <h3 class="text-3xl font-bold mb-6">
@@ -167,7 +167,7 @@ content_blocks:
   <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     
     {% for event in past_events %}
-      <a class="group relative transition duration-200 pb-10 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ event.data.link }}">
+      <a class="group relative transition duration-200 pb-10 hover:scale-105 flex-1 block border border-carbon rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ event.data.link }}">
         <img src="{{ event.data.image.path }}" class="rounded-t-xl" alt="{{ event.data.image.alt }}" />
         <div class="p-5 pb-8">
           <h3 class="text-3xl font-bold mb-6">

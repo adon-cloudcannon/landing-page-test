@@ -32,7 +32,7 @@
 <div class="grid lg:grid-cols-2 xl:grid-cols-{{ content.plans | size }}  gap-x-5 gap-y-10 {{ container_name }}">
 	{% assign i = 0 %}
 	{% for plan in content.plans %}
-		<div class="border-2 {% if plan.featured %}border-cc{% else %}border-black{% endif %} rounded-2xl">
+		<div class="border-2 {% if plan.featured %}border-cc{% else %}border-carbon{% endif %} rounded-2xl">
 			<div class="px-8 py-8 relative">
 				<h2 class="mb-5 text-xl font-bold">{{ plan.name}}</h2>
 				{% if plan.featured %}

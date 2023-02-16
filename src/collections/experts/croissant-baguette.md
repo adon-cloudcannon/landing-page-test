@@ -15,7 +15,7 @@ long_description: >-
   and other technologies.</p><p>We also build internal interfaces,
   dashboards, and apps to help your team seamlessly interact with your new
   or existing tech stack.</p>
-logo_image: /images/logos/experts/cb-logo-stacked-black-kayci-scaggs.svg
+logo_image: /images/logos/experts/cb-logo-stacked-carbon-kayci-scaggs.svg
 location: Sydney, Australia
 frameworks:
   - jekyll

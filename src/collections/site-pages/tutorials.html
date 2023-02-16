@@ -141,7 +141,7 @@ content_blocks:
     {% for tutorial in collections.tutorials %}
     
     {% assign first_lesson = collections.lessons | where: "data.tutorial", tutorial.fileSlug | sort: "data.order" | first %}
-      <a class="group relative transition duration-200 pb-10 pt-5 hover:scale-105 flex-1 block border border-black rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ first_lesson.url }}">
+      <a class="group relative transition duration-200 pb-10 pt-5 hover:scale-105 flex-1 block border border-carbon rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ first_lesson.url }}">
         <img src="{{ tutorial.data.image }}" class="rounded-t-xl max-h-20 mx-auto block" alt="{{ tutorial.data.title }}" />
         <div class="p-5 pb-8">
           <h3 class="text-3xl font-bold mb-6">

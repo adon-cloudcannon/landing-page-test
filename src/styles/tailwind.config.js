@@ -27,7 +27,7 @@ module.exports = {
 				cc: '#034AD8',
 				cc_hover: '#123da6',
 				nimbus: '#707070',
-				carbon: '#393939',
+				carbon: '#212121',
 				caramel: '#fdf6db',
 				sea: '#B9E5E3',
 				sky: '#b4e7f7',

@@ -10,7 +10,7 @@ categories:
   - Microsites
   - Documentation
 image: 
-  path: https://cc-dam.imgix.net/marketing/uploads/netflix-card-black-1.png
+  path: https://cc-dam.imgix.net/marketing/uploads/netflix-card-carbon-1.png
   alt: Netflix logo
 logo: /images/logos/netflix.svg
 case_study_person: 3b8c8ae9-ef6f-45e3-8472-ba3da3650efb
