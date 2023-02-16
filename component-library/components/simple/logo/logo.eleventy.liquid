@@ -10,6 +10,10 @@
 {% assign tablet_styles = tablet_styles | render_visibility: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_visibility: styles, 'mobile' %}
 
+{% assign desktop_styles = desktop_styles | render_transform: styles, 'desktop' %}
+{% assign tablet_styles = tablet_styles | render_transform: styles, 'tablet' %}
+{% assign mobile_styles = mobile_styles | render_transform: styles, 'mobile' %}
+
 {% assign container_name = "logo" | UUID %}
 
 <style>
@@ -32,6 +36,6 @@
 	}
 </style>
 
-<a class="hover:scale-110 transition block px-3 py-5 relative {{ container_name }}" title="{{ content.title }} case study" style="{{ css_styles }}" href="{{ content.link }}" title="{{ content.title }}">
+<div class="px-3 py-5 relative {{ container_name }}" title="{{ content.title }}" style="{{ css_styles }}">
 	{% bookshop "helpers/image" image: content.logo alt: content.title responsive: false classes: 'mx-auto h-8 w-full' %}
-</a>
+</div>

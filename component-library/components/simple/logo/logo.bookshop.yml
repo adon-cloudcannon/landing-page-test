@@ -12,7 +12,6 @@ blueprint:
   content:
     logo: /src/images/logos/netflix.svg
     name: Netflix
-    link: '/'
   styles:
     desktop:
       visibility:
@@ -22,6 +21,12 @@ blueprint:
         right: 0
         bottom: 0
         left: 0
+      transform:
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
     tablet:
       visibility:
         active: false
@@ -32,6 +37,13 @@ blueprint:
         right: 0
         bottom: 0
         left: 0
+      transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
     mobile:
       visibility:
         active: false
@@ -42,6 +54,13 @@ blueprint:
         right: 0
         bottom: 0
         left: 0
+      transform:
+        active: false
+        scale: 1
+        translate_x: 0
+        translate_y: 0
+        rotate: 0
+        skew: 0
   
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -64,9 +83,6 @@ _inputs:
     comment: The path to this logo
   name:
     comment: Used for accessibility, doesn't show on the page otherwise
-  link:
-    type: url
-    comment: The link when the logo is clicked on
   top:
     type: number
   right:
@@ -75,3 +91,28 @@ _inputs:
     type: number
   left:
     type: number
+  transform:
+    comment: Different methods to change how this component displays
+  scale:
+    comment: Increase or decrease the size of the video. 1.0 is the default scale
+    type: number
+  translate_x:
+    comment: Shift the video horizontally
+    type: number
+  translate_y:
+    comment: Shift the video vertically
+    type: number
+  rotate:
+    comment: Rotate the video
+    type: range
+    options:
+      step: 1
+      max: 359
+      min: 0
+  skew:
+    comment: Skew the video
+    type: range
+    options:
+      step: 1
+      max: 359
+      min: 0
