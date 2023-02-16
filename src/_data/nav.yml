@@ -20,7 +20,7 @@
           description: "Work with the frameworks you love"
     - title: Users
       sub_nav:
-        - name: For Editors
+        - name: For Content Editors
           link: '/for-content-editors/'
           description: "Create content with no roadblocks"
           icon: 'pencil-square'
