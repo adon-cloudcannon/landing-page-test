@@ -15,46 +15,46 @@ content_blocks:
     content:
       label: Hero
       blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Migrate from Forestry CMS today
+          styles:
+            element: h1
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 60
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: Migrate from Forestry CMS today
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 60
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -76,7 +76,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         top: 0
-                        bottom: 60
+                        bottom: 30
                       block_alignment:
                         align_block:
                     tablet:
@@ -125,7 +125,7 @@ content_blocks:
                         top: 0
                         bottom: 0
                       justify:
-                        align: center
+                        align: start
                     tablet:
                       margin:
                         active: false
@@ -247,7 +247,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background:
+      background: transparent
       rounded: none
       desktop:
         margin:
@@ -582,7 +582,7 @@ content_blocks:
                 align_block: left
             width: full
     styles:
-      background: sky
+      background: night
       rounded: top
       desktop:
         margin:
@@ -1019,6 +1019,118 @@ content_blocks:
                 active: false
                 align_block: left
             width: full
+        - _bookshop_name: simple/expandable-list
+          content:
+            rows:
+              - title: How does your pricing structure differ from Forestry?
+                description: >-
+                  Our [pricing](/pricing/)&nbsp;structure is slightly different
+                  from Forestry;s, but for Standard and Team plans the major
+                  difference you'll find is that the number of sites you can
+                  create is unlimited — with CloudCannon you're not charged on a
+                  per-project basis.&nbsp;
+
+
+                  For web agencies, we'd recommend our&nbsp;[Partner
+                  Program](https://cloudcannon.com/partner-program/), which
+                  gives generous discounts, dedicated support, and a unified
+                  dashboard of all client sites, with direct billing to
+                  clients.&nbsp;
+                prefix_icon:
+                  icon_path:
+                  icon_color:
+              - title: What level of support can I expect on CloudCannon?
+                description: >-
+                  Our growing team is constantly working on making the best CMS
+                  for static sites, and we aim to give you the best support
+                  possible. Our support and engineering teams work closely
+                  together, and we usually find that we can solve most site
+                  problems within a matter of hours.&nbsp;
+
+
+                  During your trial period we're happy to get on a call with you
+                  and assist with any problems. If you'd like beta access to our
+                  migration tool, just
+                  email&nbsp;[christopher@cloudcannon.com](mailto:christopher@cloudcannon.com?subject=Migrating%20from%20Forestry).&nbsp;
+                prefix_icon:
+                  icon_path:
+                  icon_color:
+          styles:
+            background: transparent-light
+            gaps: false
+            rotate: true
+            size: big
+            dropdown_icon:
+              icon_path: solid/plus
+              icon_color: midnight
+            active_dropdown_icon:
+              icon_path: solid/minus
+              icon_color: midnight
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: sections/container
           content:
             label: CTA
