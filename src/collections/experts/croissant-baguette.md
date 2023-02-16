@@ -1,6 +1,5 @@
 ---
 title: Croissant & Baguette
-image: /uploads/experts-directory.png
 description: >-
   Croissant & Baguette is a boutique digital agency based in Sydney, Australia.
   We specialise in digital transformation, high-quality websites and technical

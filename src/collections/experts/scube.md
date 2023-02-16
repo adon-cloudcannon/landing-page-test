@@ -1,6 +1,5 @@
 ---
 title: SCube
-image: /uploads/experts-directory.png
 description: Purpose driven code house, solving technology challenges and providing value.
 long_description: >-
   <p>SCube is a full-fledged full-service website agency that has continued

@@ -1,6 +1,5 @@
 ---
 title: Cubicflow
-image: /uploads/experts-directory.png
 description: >-
   Cubicflow makes apps, websites, design systems & branding. We specialize in
   full design + frontend development and integrating directly with your teams.

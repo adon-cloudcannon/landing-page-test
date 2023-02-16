@@ -1,6 +1,5 @@
 ---
 title: WebVolta
-image: /uploads/experts-directory.png
 description: |
   We believe every business deserves beautiful design and innovative technology.
 long_description: >-

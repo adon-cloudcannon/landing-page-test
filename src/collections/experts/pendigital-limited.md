@@ -1,6 +1,5 @@
 ---
 title: Pendigital Limited
-image: /uploads/experts-directory.png
 description: >-
   Freelance web developer building performant websites. Specialise in
   CloudCannon and static site generators. Working with clients across the globe.

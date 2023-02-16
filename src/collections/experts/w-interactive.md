@@ -1,6 +1,5 @@
 ---
 title: W-Interactive
-image: /uploads/experts-directory.png
 description: |
   Independent web design and development studio.
 long_description: >-

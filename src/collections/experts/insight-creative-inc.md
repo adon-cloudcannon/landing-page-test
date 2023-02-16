@@ -1,6 +1,5 @@
 ---
 title: Insight Creative Inc
-image: /uploads/experts-directory.png
 description: >-
   When it comes to communication, making a connection is paramount. Our
   full-service team of marketing professionals delivers communication with

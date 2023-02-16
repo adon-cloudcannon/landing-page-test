@@ -1,6 +1,5 @@
 ---
 title: Accolades IT
-image: /uploads/experts-directory.png
 description: Accolades is a business-first, web & app development company.
 long_description: >-
   <p>Technology moves fast, but Accolades moves faster!</p><p>We specialize

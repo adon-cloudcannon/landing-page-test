@@ -1,6 +1,5 @@
 ---
 title: Fetchly Labs
-image: /uploads/experts-directory.png
 description: >-
   Your Dev Team as a Service. Tap into an existing dev team and scale on
   services your business needs.
