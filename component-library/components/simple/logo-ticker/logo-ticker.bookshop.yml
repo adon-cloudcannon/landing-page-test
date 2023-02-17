@@ -12,6 +12,7 @@ blueprint:
   content:
     logo_blocks:
   styles:
+    background_mode: false
     desktop:
       margin:
         top: 0

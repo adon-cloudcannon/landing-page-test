@@ -1,12 +1,21 @@
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
 {% assign mobile_styles = "" %}
+{% assign classes = "" %}
 
 {% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
 {% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
 {% assign container_name = "logo-ticker" | UUID %}
+
+{% assign bg_mode = styles.background_mode %}
+
+{% if bg_mode %}
+	{% assign classes = classes | append: ' flex' %}
+{% else %}
+	{% assign classes = classes | append: ' md:flex' %}
+{% endif %}
 
 <style>
 	@media (min-width: 1280px) {
@@ -28,10 +37,14 @@
 	}
 </style>
 
-<div class="md:flex justify-center flex-wrap gap-4 {{ container_name }}">
+<div class="{{ classes }} justify-center flex-wrap gap-4 {{ container_name }}">
 	{% for item in content.logo_blocks %}
-		<div class="bg-white rounded-xl w-[200px]">
+		{% if bg_mode %}
+			<div class="bg-white rounded-xl w-[200px]">
+		{% endif %}
 			{% bookshop "simple/logo" content:item.content styles:item.styles %}
-		</div>
+		{% if bg_mode %}
+			</div>
+		{% endif %}
 	{% endfor %}
 </div>
