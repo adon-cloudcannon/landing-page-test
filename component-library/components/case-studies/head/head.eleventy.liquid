@@ -3,7 +3,7 @@
 		{% assign person = collections.case-study-people | where: "data.uuid", case_study.data.case_study_person | first %}
 
 		{% if person %}
-			{% bookshop "helpers/image" image: person.data.image alt: person.data.name width: 100 classes: 'rounded-full mr-2 w-[50px] h-[50px]' %}
+			{% bookshop "helpers/image" image: person.data.image alt: person.data.name width: 100 height: 100 classes: 'rounded-full mr-2 w-[50px] h-[50px]' %}
 			<div class="grow">
 				<div class="font-bold">{{ person.data.name }}</div>
 				<div class="text-gray-500 text-sm">{{ person.data.position }}</div>

@@ -21,13 +21,8 @@
 		x-transition:leave-end="translate-x-full"
 	>
 		<div class="px-4 py-6 border-red-700 border-b border-solid border-opacity-[0.09]">
-			<a href="/" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition 
-			text-white bg-cc border-cc hover:bg-cc_hover w-full block text-center
-			">Get Started Free</a>
-			<a href="" class="border-2 rounded-lg py-2 px-2 font-bold text-base transition mt-3
-			text-cc border-cc hover:bg-blue-50 block w-full text-center">
-			Login
-			</a>
+			{% bookshop "helpers/button" text: "Log in" link: "https://app.cloudcannon.com/" style: "outline" extra_classes: "w-full block" %}
+			{% bookshop "helpers/button" text: "Get started" link: "https://app.cloudcannon.com/register?trial=cc_standard" style: "normal" extra_classes: "w-full mt-3 block" %}
 
 		</div>
 		<nav>

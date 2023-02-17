@@ -5,21 +5,21 @@
 <div class="pl-2 inline-block" 
 	{% if sub %}x-data="{ open: false }" x-on:click.outside="open = false"{% endif %}>
 	<div class="inline-block">
-		<a class="font-bold hover:bg-gray-100 transition p-3 rounded-lg text-gray-700"
+		<button class="font-bold hover:bg-gray-100 transition p-3 rounded-lg text-gray-700"
 		{% if sub %}
 			x-on:click="open = !open"
 			:class="{'text-cc [&>svg]:outline-cc': open}"
 		{% else %}
 			href="{{ item.link }}"
 		{% endif %}
-		>
+		aria-label="Open sub nav for {{ item.name }} ">
 			{{ item.name }} 
 			{% if sub %}
 				<span class="w-3 inline-block relative top-0.5 transition-transform" :class="{'rotate-90': open}">
 					{{ '/src/images/icons/outline/chevron-right.svg' | svgContents }}
 				</span>
 			{% endif %}
-		</a>
+		</button>
 
 		{% if sub %}
 			{% include 'partials/nav/_sub_nav_item.html' item:item %}

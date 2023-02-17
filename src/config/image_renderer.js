@@ -2,8 +2,11 @@ const probe = require('probe-image-size'),
 hasTemplateFormat = require("@11ty/eleventy-plugin-syntaxhighlight/src/hasTemplateFormat");
 
 module.exports = {
-	image_resize: function(image_path, size, dpr) {
-		let transformations = `auto=compress&auto=format&w=${size}&dpr=${dpr}`
+	image_resize: function(image_path, width, dpr, height = null) {
+		let transformations = `auto=compress&auto=format&w=${width}&dpr=${dpr}`
+		if (height !== null) {
+			transformations += `&crop=faces&fit=crop&height=${height}`
+		}
 		return `${image_path}?${transformations}`
 	},
 

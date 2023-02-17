@@ -30,22 +30,22 @@
 			{% endfor %}
 		</nav>
 		<div class="ml-4 lg:flex hidden">
-			<a href="" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg [&>svg]:stroke-cc inline-block">
+			<button class="hover:bg-gray-100 transition p-3 w-11 rounded-lg [&>svg]:stroke-cc inline-block" aria-label="Search">
 				{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
-			</a>
+			</button>
 		</div>
 		<div class="ml-3 hidden lg:block">
-			{% bookshop "simple/button" bind: buttons.login %}
-			{% bookshop "simple/button" bind: buttons.signup %}
+			{% bookshop "helpers/button" text: "Log in" link: "https://app.cloudcannon.com/" style: "outline" %}
+			{% bookshop "helpers/button" text: "Get started" link: "https://app.cloudcannon.com/register?trial=cc_standard" style: "normal" extra_classes: "ml-1" %}
 		</div>
 
 
 		<!-- Mobile components -->
 		<div class="ml-auto flex lg:hidden">
-			<a href="" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc">
+			<button class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc" aria-label="Search">
 				{{ '/src/images/icons/outline/magnifying-glass-mobile.svg' | svgContents }}
-			</a>
-			<button x-on:click="mobileNavOpen = !mobileNavOpen" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg">
+			</button>
+			<button x-on:click="mobileNavOpen = !mobileNavOpen" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg" aria-label="Toggle mobile nav">
 				<div class="flex items-center">
 					<div class="h-[14px] w-6 relative mx-auto">
 						<span :class="mobileNavOpen ? 'block absolute h-[3px] bg-blue-700 rounded-lg rotate-0 transition-all duration-200 top-[6px] left-1/2 w-0 ease-cc-cubic' : 'block absolute h-[3px] w-full bg-blue-700 rounded-lg left-0 rotate-0 transition-all duration-200 top-0 ease-cc-cubic'"></span>
