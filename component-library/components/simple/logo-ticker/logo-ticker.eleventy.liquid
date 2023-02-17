@@ -28,8 +28,10 @@
 	}
 </style>
 
-<div class="md:flex justify-around flex-wrap gap-4 {{ container_name }}" >
+<div class="md:flex justify-center flex-wrap gap-4 {{ container_name }}">
 	{% for item in content.logo_blocks %}
-		{% bookshop "simple/logo" content:item.content styles:item.styles %}
+		<div class="bg-white rounded-xl w-[200px]">
+			{% bookshop "simple/logo" content:item.content styles:item.styles %}
+		</div>
 	{% endfor %}
 </div>
