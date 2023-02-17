@@ -79,7 +79,7 @@ _inputs:
   position:
     comment: Adjust the position of this logo.
   logo:
-    type: url
+    type: image
     comment: The path to this logo
   name:
     comment: Used for accessibility, doesn't show on the page otherwise
