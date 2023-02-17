@@ -3,11 +3,11 @@
     "clean": "del _site",
     "dev:styles": "TAILWIND_MODE=WATCH npx postcss src/styles/tailwind.pcss -o _site/style.css --config src/styles/ --watch",
     "dev:scripts": "esbuild src/main.js --bundle --watch --outfile=_site/js/main.js",
-    "dev:11ty": "eleventy --serve --watch --incremental",
+    "dev:11ty": "eleventy --serve --watch --ignore-initial --incremental",
     "start": "run-p dev:*",
     "build:styles": "NODE_ENV=production npx postcss src/styles/tailwind.pcss -o _site/style.css --config src/styles/",
     "build:scripts": "esbuild src/main.js --bundle --minify --outfile=_site/js/main.js",
-    "polish": "npx @divriots/jampack ./_site",
+    "build:polish": "npx @divriots/jampack ./_site",
     "build": "run-s build:* "
   },
   "devDependencies": {
