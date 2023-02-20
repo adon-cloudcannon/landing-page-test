@@ -104,7 +104,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Try for free
-                  link: /
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: normal
                   size: big
@@ -989,51 +989,8 @@ content_blocks:
                               active: false
                               align_block: left
                           width: full
-                      - _bookshop_name: simple/button-holder
-                        content:
-                          button_blocks:
-                            - _bookshop_name: simple/button
-                              content:
-                                text: Explore all
-                                link: /
-                              styles:
-                                style: outline-white
-                                size: normal
-                                extra_classes:
-                        styles:
-                          desktop:
-                            margin:
-                              top: 20
-                              bottom: 0
-                            justify:
-                              align: left
-                          tablet:
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            justify:
-                              active: false
-                              align: center
-                          mobile:
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            justify:
-                              active: false
-                              align: center
                   right:
                     blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /learn/
-                          text: Tutorials
-                        styles:
-                          margin:
-                            top: 0
-                            bottom: 0
-                          style: black
                       - _bookshop_name: simple/content-button
                         content:
                           url: /templates/
@@ -1045,8 +1002,8 @@ content_blocks:
                           style: black
                       - _bookshop_name: simple/content-button
                         content:
-                          url:
-                          text: Nuxt.js + CloudCannon Guide
+                          url: https://cloudcannon.com/documentation/?ssg=Nuxt.js
+                          text: CloudCannon documentation for Nuxt.js
                         styles:
                           margin:
                             top: 12
@@ -2040,7 +1997,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Try for free
-                  link: /
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: white
                   size: big
@@ -2048,7 +2005,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Contact us
-                  link: /
+                  link: https://cloudcannon.com/book-a-demo/
                 styles:
                   style: outline-white
                   size: big
