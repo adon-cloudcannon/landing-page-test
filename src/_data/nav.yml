@@ -55,7 +55,7 @@
           description: "CloudCannon resources and guides"
           icon: 'code-bracket-square'
         - name: Tutorials
-          link: '/learn/'
+          link: '/tutorials/'
           description: "Learn Jamstack with CloudCannon"
           icon: 'academic-cap'
         - name: Cheatsheets
