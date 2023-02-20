@@ -1001,51 +1001,8 @@ content_blocks:
                               active: false
                               align_block: left
                           width: full
-                      - _bookshop_name: simple/button-holder
-                        content:
-                          button_blocks:
-                            - _bookshop_name: simple/button
-                              content:
-                                text: Explore all
-                                link: /
-                              styles:
-                                style: outline-white
-                                size: normal
-                                extra_classes:
-                        styles:
-                          desktop:
-                            margin:
-                              top: 20
-                              bottom: 0
-                            justify:
-                              align: left
-                          tablet:
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            justify:
-                              active: false
-                              align: center
-                          mobile:
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            justify:
-                              active: false
-                              align: center
                   right:
                     blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /learn/
-                          text: Tutorials
-                        styles:
-                          margin:
-                            top: 0
-                            bottom: 0
-                          style: black
                       - _bookshop_name: simple/content-button
                         content:
                           url: /templates/
@@ -1057,7 +1014,8 @@ content_blocks:
                           style: black
                       - _bookshop_name: simple/content-button
                         content:
-                          url:
+                          url: >-
+                            https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
                           text: Astro + CloudCannon Guide
                         styles:
                           margin:
