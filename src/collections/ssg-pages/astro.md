@@ -1234,6 +1234,10 @@ content_blocks:
                       — create component-driven development workflows and enable
                       live rendering editing;
 
+                      * <a target="_blank" rel="noopener"
+                      href="https://pagefind.app">Pagefind</a> — static search
+                      that scales;
+
                       * **<a target="_blank" rel="noopener"
                       href="https://reseed.app/">Reseed</a>** — integrate
                       multiple sites into a single domain;
@@ -1242,8 +1246,8 @@ content_blocks:
                       href="https://rosey.app/">Rosey</a>** — manage
                       translations for localization and i18n;
 
-                      *
-                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
+                      * **<a target="_blank" rel="noopener"
+                      href="https://github.com/CloudCannon/pagebreak">Pagebreak</a>**
                       — granular configuration for site pagination.
                   styles:
                     desktop:
@@ -2043,7 +2047,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Try for free
-                  link: /
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: white
                   size: big
@@ -2051,7 +2055,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Contact us
-                  link: /
+                  link: https://cloudcannon.com/book-a-demo/
                 styles:
                   style: outline-white
                   size: big
