@@ -1234,8 +1234,8 @@ content_blocks:
                       — create component-driven development workflows and enable
                       live rendering editing;
 
-                      * <a target="_blank" rel="noopener"
-                      href="https://pagefind.app">Pagefind</a> — static search
+                      * **<a target="_blank" rel="noopener"
+                      href="https://pagefind.app">Pagefind</a>** — static search
                       that scales;
 
                       * **<a target="_blank" rel="noopener"

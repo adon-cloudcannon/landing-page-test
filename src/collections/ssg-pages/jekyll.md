@@ -1225,6 +1225,10 @@ content_blocks:
                       live rendering editing;
 
                       * **<a target="_blank" rel="noopener"
+                      href="https://pagefind.app">Pagefind</a>** — static search
+                      that scales;
+
+                      * **<a target="_blank" rel="noopener"
                       href="https://reseed.app/">Reseed</a>** — integrate
                       multiple sites into a single domain;
 

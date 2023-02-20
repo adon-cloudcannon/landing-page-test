@@ -106,7 +106,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Try for free
-                  link: /
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: normal
                   size: big
@@ -1223,6 +1223,10 @@ content_blocks:
                       href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
                       — create component-driven development workflows and enable
                       live rendering editing;
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://pagefind.app">Pagefind</a>** — static search
+                      that scales;
 
                       * **<a target="_blank" rel="noopener"
                       href="https://reseed.app/">Reseed</a>** — integrate
