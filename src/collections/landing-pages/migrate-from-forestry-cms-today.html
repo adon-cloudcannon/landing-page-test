@@ -931,84 +931,130 @@ content_blocks:
     content:
       label: Migration resources
       blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Migration resources
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 60
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/content-button
-          content:
-            url: >-
-              https://cloudcannon.com/blog/forestry-to-cloudcannon-the-full-migration-guide/
-            text: Complete guide to migrating from Forestry
-          styles:
-            margin:
-              top: 0
-              bottom: 20
-            style: black
-        - _bookshop_name: simple/content-button
-          content:
-            url: >-
-              https://cloudcannon.com/documentation/articles/setting-global-configuration/
-            text: 'Documentation: Creating your CloudCannon configuration'
-          styles:
-            margin:
-              top: 0
-              bottom: 20
-            style: black
-        - _bookshop_name: simple/content-button
-          content:
-            url: >-
-              https://cloudcannon.com/blog/cloudcannon-2022-highlights-and-2023-roadmap/
-            text: CloudCannon's 2023 Roadmap
-          styles:
-            margin:
-              top: 0
-              bottom: 20
-            style: black
         - _bookshop_name: sections/two-column
           content:
             left:
-              blocks: []
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Helpful resources for your migration
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      There are plenty of resources to help with your migration.
+                      If you need some extra help, reach out to the support
+                      team!&nbsp;
+                  styles:
+                    width: medium
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 60
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
             right:
-              blocks: []
+              blocks:
+                - _bookshop_name: simple/content-button
+                  content:
+                    url: >-
+                      https://cloudcannon.com/blog/forestry-to-cloudcannon-the-full-migration-guide/
+                    text: Complete guide to migrating from Forestry
+                  styles:
+                    margin:
+                      top: 0
+                      bottom: 30
+                    style: black
+                - _bookshop_name: simple/content-button
+                  content:
+                    url: >-
+                      https://cloudcannon.com/documentation/articles/setting-global-configuration/
+                    text: 'Documentation: Creating your CloudCannon configuration'
+                  styles:
+                    margin:
+                      top: 0
+                      bottom: 30
+                    style: black
+                - _bookshop_name: simple/content-button
+                  content:
+                    url: >-
+                      https://cloudcannon.com/blog/cloudcannon-2022-highlights-and-2023-roadmap/
+                    text: CloudCannon's 2023 Roadmap
+                  styles:
+                    margin:
+                      top: 0
+                      bottom: 30
+                    style: black
           styles:
             desktop:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 30
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: top
