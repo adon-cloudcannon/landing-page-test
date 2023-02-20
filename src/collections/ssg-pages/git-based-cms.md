@@ -104,7 +104,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Try for free
-                  link: /
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: normal
                   size: big
@@ -1259,12 +1259,15 @@ content_blocks:
                     content repository, as a robust source management tool, and
                     most importantly, as a publishing workflow. Our decoupled
                     CMS lets you and your editing team create, and it takes care
-                    of everything else. If anyone on your team needs to roll a
-                    site back, CloudCannon has you covered, with full version
-                    control of both code and content. Easily set up staging
-                    environments via branching, hand over sites to content
-                    managers and editors with our fine-tuned granular
-                    permissions, and keep on creating.
+                    of everything else.
+
+
+                    If anyone on your team needs to roll a site back,
+                    CloudCannon has you covered, with full version control of
+                    both code and content. Easily set up staging environments
+                    via branching, hand over sites to content managers and
+                    editors with our fine-tuned granular permissions, and keep
+                    on creating.
 
 
                     With CloudCannon, your creative development and
@@ -1273,7 +1276,7 @@ content_blocks:
                   width: large
                   desktop:
                     text_alignment:
-                      align: center
+                      align: left
                     text_sizing:
                       text_size: normal
                     margin:
@@ -1484,7 +1487,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Try for free
-                  link: /
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: white
                   size: big
@@ -1492,7 +1495,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Contact us
-                  link: /
+                  link: https://cloudcannon.com/book-a-demo/
                 styles:
                   style: outline-white
                   size: big
