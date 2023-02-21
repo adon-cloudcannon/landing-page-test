@@ -24,7 +24,7 @@ frameworks:
   - sveltekit
   - astro
 links:
-  site_link: https://croissantbaguette.com.au/
+  site_url: https://croissantbaguette.com.au/
   facebook_url:
   instagram_url:
   twitter_url:
@@ -79,3 +79,4 @@ details_block:
   linkedin_url: https://www.linkedin.com/company/42714056/
 form_embed:
 ---
+
