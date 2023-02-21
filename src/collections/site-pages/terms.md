@@ -4,8 +4,10 @@ description: CloudCannon Terms of Service
 layout: markdown.html
 permalink: /terms/
 seo:
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
+  featured_image_alt: >-
+    CloudCannon's visual CMS that keeps both content editors and developers
+    happy
 ---
 ## Overview:
 

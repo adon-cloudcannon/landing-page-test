@@ -3,8 +3,10 @@ layout: markdown.html
 title: Privacy Policy
 description: CloudCannon Privacy Policy
 seo:
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
+  featured_image_alt: >-
+    CloudCannon's visual CMS that keeps both content editors and developers
+    happy
 permalink: /privacy/
 ---
 Your privacy is critically important to us. At CloudCannon we have a few fundamental principles:
