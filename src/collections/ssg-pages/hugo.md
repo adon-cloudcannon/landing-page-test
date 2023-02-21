@@ -68,7 +68,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
               block_alignment:
                 align_block: center
             tablet:
@@ -421,7 +421,7 @@ content_blocks:
               columns:
                 type: fixed-fluid
                 width: 450
-                gap: 20
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -660,7 +660,7 @@ content_blocks:
               columns:
                 type: fluid-fixed
                 width: 450
-                gap: 20
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -1026,7 +1026,7 @@ content_blocks:
                     columns:
                       type: split
                       width: 0
-                      gap: 20
+                      gap: 50
                       vertical_gap: 0
                     vertical_block_alignment:
                       v_align: center
@@ -1327,7 +1327,7 @@ content_blocks:
               columns:
                 type: fixed-fluid
                 width: 450
-                gap: 20
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -1854,7 +1854,7 @@ content_blocks:
               columns:
                 type: split
                 width: 0
-                gap: 20
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -1937,7 +1937,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1973,7 +1973,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
               block_alignment:
                 align_block: center
             tablet:
