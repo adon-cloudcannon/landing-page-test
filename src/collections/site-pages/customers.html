@@ -259,7 +259,7 @@ content_blocks:
           left: 0
 ---
 <div class="container">
-	<div class="grid grid-cols-1 mb-20 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12 [&>a]:mx-auto">
+	<div class="grid grid-cols-1 mb-28 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12 [&>a]:mx-auto">
 		{% assign case_studies_sorted = collections.case-studies | sort: "data.weight" %}
 		{% for case_study in case_studies_sorted %}
 			{% bookshop "case-studies/card" case_study:case_study %}
