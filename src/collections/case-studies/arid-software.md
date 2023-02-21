@@ -22,8 +22,10 @@ description: >-
 date: 2022-05-19T12:37:00Z
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
+  featured_image_alt: >-
+    CloudCannon's visual CMS that keeps both content editors and developers
+    happy
 ---
 When Arid Software co-founder Andrew Ek discovered CloudCannon’s Git-based CMS, it marked the end of a long discovery process for a client whose web development project had reached a roadblock.
 
