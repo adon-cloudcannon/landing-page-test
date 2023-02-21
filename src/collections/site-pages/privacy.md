@@ -1,7 +1,7 @@
 ---
 layout: markdown.html
 title: Privacy Policy
-description:
+description: CloudCannon Privacy Policy
 seo:
   featured_image:
   featured_image_alt:

@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-description:
+description: CloudCannon Terms of Service
 layout: markdown.html
 permalink: /terms/
 seo:

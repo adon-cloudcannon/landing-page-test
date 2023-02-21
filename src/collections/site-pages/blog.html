@@ -1,8 +1,10 @@
 ---
 title: Blog
 layout: page.html
-permalink: '/blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
-description:
+permalink: >-
+  /blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{%
+  endif %}/index.html
+description: Learn more about building static websites with CloudCannon's Blog.
 seo:
   featured_image:
   featured_image_alt:
