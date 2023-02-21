@@ -10,8 +10,10 @@ description: >-
 summary: An intuitive web framework for Vue.js.
 image: /images/icons/ssgs/nuxtjs.svg
 seo:
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
+  featured_image_alt: >-
+    CloudCannon's visual CMS that keeps both content editors and developers
+    happy
 content_blocks:
   - _bookshop_name: sections/container
     content:
