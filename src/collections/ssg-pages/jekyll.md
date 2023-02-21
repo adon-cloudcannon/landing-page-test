@@ -819,7 +819,7 @@ content_blocks:
                 description: >-
                   All changes and workflows sync back to Git so your development
                   and content editing teams are always in sync.
-                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/git-sync-r.png
               - title: Catered to your editors
                 description: >-
                   Give your editors the freedom to change any piece of content,

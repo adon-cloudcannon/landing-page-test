@@ -824,7 +824,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to your Git repo, so development and
                   content editing teams can always collaborate in sync.
-                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/git-sync-r.png
               - title: Catered to content editors
                 description: >-
                   Empower your editors with our CMS for Astro, while you and

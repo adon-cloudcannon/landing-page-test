@@ -829,7 +829,7 @@ content_blocks:
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
-                image: https://cc-dam.imgix.net/image_-_Git-based_CMS_yv8lsy.png
+                image: https://cc-dam.imgix.net/git-sync-r.png
               - title: Catered to content editors
                 description: >-
                   Empower your editors with our Next.js CMS, while you work in
