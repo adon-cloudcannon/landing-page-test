@@ -66,7 +66,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
               block_alignment:
                 align_block: center
             tablet:
@@ -336,7 +336,7 @@ content_blocks:
                 align_block: left
         - _bookshop_name: simple/image
           content:
-            alt:
+            alt: Git workflow
             image: https://cc-dam.imgix.net/Branching-workflow.png
           styles:
             border:
@@ -624,7 +624,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/image
                         content:
-                          alt:
+                          alt: Branching and merging in Git
                           image: https://cc-dam.imgix.net/merge-snippet.svg
                         styles:
                           border:
@@ -702,7 +702,7 @@ content_blocks:
                     columns:
                       type: split
                       width: 0
-                      gap: 30
+                      gap: 50
                       vertical_gap: 0
                     vertical_block_alignment:
                       v_align: top
@@ -1022,7 +1022,7 @@ content_blocks:
                     columns:
                       type: split
                       width: 0
-                      gap: 30
+                      gap: 50
                       vertical_gap: 0
                     vertical_block_alignment:
                       v_align: top
@@ -1413,7 +1413,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1449,7 +1449,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
               block_alignment:
                 align_block: center
             tablet:
