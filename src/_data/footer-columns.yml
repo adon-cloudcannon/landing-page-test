@@ -60,7 +60,7 @@
 - title: Community
   items:
     - title: Templates
-      url: /themes/
+      url: /templates/
       open_in_new_tab: false
     - title: Tutorials
       url: /tutorials/
