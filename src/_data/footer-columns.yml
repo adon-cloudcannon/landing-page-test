@@ -60,19 +60,19 @@
 - title: Community
   items:
     - title: Templates
-      url: /community/themes/
+      url: /themes/
       open_in_new_tab: false
     - title: Tutorials
-      url: /community/learn/
+      url: /tutorials/
       open_in_new_tab: false
     - title: Jamstack ecosystem
-      url: /community/jamstack-ecosystem/
+      url: /jamstack-ecosystem/
       open_in_new_tab: false
     - title: Showcases
       url: /blog/archived/showcase/
       open_in_new_tab: false
-    - title: Experts program
-      url: /community/experts
+    - title: Experts
+      url: /experts/
       open_in_new_tab: false
 - title: CloudCannon
   items:

@@ -63,7 +63,7 @@
           description: "Everything you need at a glance"
           icon: 'check-badge'
         - name: Jamstack ecosystem
-          link: '/ecosystem/'
+          link: '/jamstack-ecosystem/'
           description: "The best tooling for your next website"
           icon: 'gift'
     - title: CloudCannon
