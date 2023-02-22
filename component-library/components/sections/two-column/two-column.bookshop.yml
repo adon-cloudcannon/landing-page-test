@@ -55,6 +55,7 @@ _inputs:
     comment: "Components for the right column"
   type:
     comment: "The type of two column layout to render"
+    type: select
     options:
       values:
         - split
@@ -66,7 +67,8 @@ _inputs:
     type: number
   v_align:
     comment: how to vertically align the columns
-    type: options
+    type: select
+    options:
       values:
         - top
         - center
