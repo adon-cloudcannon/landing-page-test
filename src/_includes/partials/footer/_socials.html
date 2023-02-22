@@ -2,11 +2,7 @@
 	{% for item in footer-socials %}
 		<li class="group">
 			{% assign icon_path = '/src/images/icons/social/' | append: item.icon | append: '.svg' %}
-			<button title="{{ item.icon }}" aria-label="{{ item.icon }}" class="[&>svg]:w-4 group-first:ml-0 ml-3 fill-gray-600 hover:fill-carbon inline-block transition" onclick="location.href='{{ item.url }}'
-			{% if item.open_in_new_tab %}
-				target="_blank"
-				rel="noopener"
-			{% endif %}>"
+			<button title="{{ item.icon }}" aria-label="{{ item.icon }}" class="[&>svg]:w-4 group-first:ml-0 ml-3 fill-gray-600 hover:fill-carbon inline-block transition" onclick="location.href='{{ item.url }}' {% if item.open_in_new_tab %} target="_blank" rel="noopener" {% endif %}>"
 				{{ icon_path | svgContents }}
 			</button>
 		</li>
