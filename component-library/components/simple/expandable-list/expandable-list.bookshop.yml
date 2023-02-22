@@ -129,6 +129,12 @@ _inputs:
       values:
         - left
         - center
+  size:
+    comment: The size of the icon and heading
+    options:
+      values:
+        - big
+        - normal
   margin:
     comment: Adjust the spacing between this container and others. Can be negative for overlapping.
   top:

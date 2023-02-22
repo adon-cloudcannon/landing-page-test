@@ -1,8 +1,9 @@
 {% assign person = collections.case-study-people | where: "data.uuid", uuid | first %}
+{% assign company = collections.case-studies | where: "data.uuid", person.data.case_study | first %}
 
 {% if person %}
 	<div class="flex justify-center items-center">
 		{% bookshop "helpers/image" image: person.data.image alt: person.data.name width: 120 classes: 'rounded-full w-16 h-16' %}
-		<p class="ml-4"><strong>{{ person.data.name }}</strong> <br> {{ person.data.position }} — </p>
+		<p class="ml-4"><strong>{{ person.data.name }}</strong> <br> {{ person.data.position }} — {{ company.data.title }}</p>
 	</div>
 {% endif %}
