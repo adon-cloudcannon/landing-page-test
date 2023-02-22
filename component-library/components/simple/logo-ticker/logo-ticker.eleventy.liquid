@@ -12,9 +12,9 @@
 {% assign bg_mode = styles.background_mode %}
 
 {% if bg_mode %}
-	{% assign classes = classes | append: ' flex' %}
+	{% assign classes = classes | append: ' flex justify-center' %}
 {% else %}
-	{% assign classes = classes | append: ' md:flex' %}
+	{% assign classes = classes | append: ' md:flex justify-between' %}
 {% endif %}
 
 <style>
@@ -37,7 +37,7 @@
 	}
 </style>
 
-<div class="{{ classes }} justify-center flex-wrap gap-4 {{ container_name }}">
+<div class="{{ classes }} flex-wrap gap-4 {{ container_name }}">
 	{% for item in content.logo_blocks %}
 		{% if bg_mode %}
 			<div class="bg-white rounded-xl w-[200px]">
