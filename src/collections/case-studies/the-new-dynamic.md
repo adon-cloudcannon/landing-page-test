@@ -10,12 +10,7 @@ image:
   path: https://cc-dam.imgix.net/tnd-card-noborder.png
   alt: The New Dynamic logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/newdynamic.svg
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: 1bb1fc16-d469-4e35-8c53-5dbabf9b35a7
 description: >-
   The New Dynamic is always looking for the best tools, particularly those
   directly used by their clients. After investigating CloudCannon, tND founder

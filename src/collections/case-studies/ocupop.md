@@ -10,12 +10,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png
   alt: Ocupop logo
 logo: /images/logos/ocupop.svg
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: a07543ae-0a66-4388-a19a-e961e0db78d9
 description: >-
   CloudCannon lets Ocupop focus on what they do best - design and development -
   and allows them to choose how much time they spend with clients.

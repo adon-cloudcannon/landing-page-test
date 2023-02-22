@@ -11,12 +11,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/diffblue-card-1.png
   alt: Diffblue logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/diffblue-logo.png
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: 0f6680d3-581e-4358-993f-b0531a69449e
 description: >-
   Diffblue relies on CloudCannon for developer-friendly workflows, and to give
   control to the user.

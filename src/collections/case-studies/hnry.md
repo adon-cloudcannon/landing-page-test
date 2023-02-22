@@ -11,12 +11,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/hnry-card-1.png
   alt: Hnry logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/hnry-logo2.png
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: 825c4abb-3092-4161-bde7-0319971191cc
 description: >-
   CloudCannon allows Hnry to take advantage of all the benefits of great
   performance, fast deployment, and improved developer experience that comes

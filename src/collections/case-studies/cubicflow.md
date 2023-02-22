@@ -10,12 +10,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/cubicflow-card-1.png
   alt: Cubicflow logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/cubicflow.svg
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: db7ca780-836c-4d66-8a34-b99e36a6a4dc
 description: >-
   Cubicflow removes roadblocks for their clients, with CloudCannon and static
   sites.

@@ -10,12 +10,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/lumina-card-1.png
   alt: Lumina Web Solutions logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/lumina.png
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: f02a6e39-ee65-466d-9480-08bcdaaa2246
 description: >-
   Lumina uses CloudCannon to give developers a straightforward setup and
   interface, helping both devs and their clients save time.

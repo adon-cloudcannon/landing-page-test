@@ -11,12 +11,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/twitch-card-1.png
   alt: Twitch logo
 logo: /images/logos/twitch.svg
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: aade817a-8a9f-4633-bfea-4c66d88bd4b7
 description: >-
   Twitch uses CloudCannon to deliver microsites to 30 million customers,
   allowing editors to write directly inline and to publish without the

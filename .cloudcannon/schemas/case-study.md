@@ -8,12 +8,7 @@ image:
   path:
   alt:
 logo:
-person:
-  name:
-  position:
-  image:
-    path: 
-    alt: 
+case_study_person:
 description:
 date:
 seo:

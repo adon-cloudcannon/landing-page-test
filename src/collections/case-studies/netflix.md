@@ -11,12 +11,7 @@ image:
   path: https://cc-dam.imgix.net/marketing/uploads/netflix-card-black-1.png
   alt: Netflix logo
 logo: /images/logos/netflix.svg
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: 3b8c8ae9-ef6f-45e3-8472-ba3da3650efb
 description: >-
   CloudCannon lets Netflix developers work rapidly, empowers content editors,
   and gets everyone pulling in the same direction by syncing through Git.

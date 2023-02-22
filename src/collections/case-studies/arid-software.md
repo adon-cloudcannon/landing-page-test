@@ -10,12 +10,7 @@ image:
   path: https://cc-dam.imgix.net/arid-card-resize.svg
   alt: Arid Software logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/arid.jpg
-person:
-  name:
-  position:
-  image:
-    path:
-    alt:
+case_study_person: a338c132-a99c-11ed-afa1-0242ac120002
 description: >-
   Find out how Arid Software uses CloudCannon to add value to their clients'
   website projects — with minimal extra development time.
