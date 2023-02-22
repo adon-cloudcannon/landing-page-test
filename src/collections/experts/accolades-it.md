@@ -1,5 +1,6 @@
 ---
 title: Accolades IT
+weight: 1
 description: Accolades is a business-first, web & app development company.
 long_description: >-
   <p>Technology moves fast, but Accolades moves faster!</p><p>We specialize in

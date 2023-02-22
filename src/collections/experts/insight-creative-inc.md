@@ -1,5 +1,6 @@
 ---
 title: Insight Creative Inc
+weight: 1
 description: >-
   When it comes to communication, making a connection is paramount. Our
   full-service team of marketing professionals delivers communication with

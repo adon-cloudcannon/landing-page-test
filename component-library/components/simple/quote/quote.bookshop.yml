@@ -89,3 +89,15 @@ _inputs:
     type: number
   left:
     type: number
+  background:
+    type: select
+    comment: The background color for the entire quote
+    options:
+      values:
+        - white
+        - caramel
+        - sky
+        - sea
+        - cc-blue
+        - ash
+        - night

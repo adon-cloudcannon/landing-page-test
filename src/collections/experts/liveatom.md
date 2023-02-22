@@ -1,5 +1,6 @@
 ---
 title: LiveAtom
+weight: 1
 description: LiveAtom helps small businesses grow online.
 long_description: >-
   <p>LiveAtom works with small businesses by amplifying their online presence

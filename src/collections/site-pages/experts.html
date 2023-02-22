@@ -136,7 +136,7 @@ content_blocks:
           left: 0
 ---
 <div class="container">
-  {% assign experts = collections.experts | sort: 'data.title' %}
+  {% assign experts = collections.experts | sort: 'data.weight' %}
 
   <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     {% for expert in experts %}
