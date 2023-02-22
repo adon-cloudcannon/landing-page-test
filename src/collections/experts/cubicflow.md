@@ -6,14 +6,14 @@ description: >-
 long_description: >-
   <p>Cubicflow is your team&rsquo;s frontend team&mdash;for apps, websites,
   design systems &amp; branding.</p><p>We are a bespoke design + development
-  specialty shop that builds projects for SaaS, Ecommerce, and anything
-  wanting amazing design and user experience. We have a focus in creating
-  and scaling design systems. We&rsquo;ve done a ton of brand identities,
-  and we dabble in print and packaging.</p><p>Cubicflow puts an emphasis on
-  client relationships by integrating directly with your team,
-  collaboration, and shaping processes together. Selectively, we also
-  product manage and offer consulting. We truly believe in quality over
-  quantity, only working with a few projects at any time.</p>
+  specialty shop that builds projects for SaaS, Ecommerce, and anything wanting
+  amazing design and user experience. We have a focus in creating and scaling
+  design systems. We&rsquo;ve done a ton of brand identities, and we dabble in
+  print and packaging.</p><p>Cubicflow puts an emphasis on client relationships
+  by integrating directly with your team, collaboration, and shaping processes
+  together. Selectively, we also product manage and offer consulting. We truly
+  believe in quality over quantity, only working with a few projects at any
+  time.</p>
 logo_image: /images/logos/experts/cubicflow-logo-matt-ellison-1.svg
 location: California, USA & Tokyo, Japan
 frameworks:
@@ -39,12 +39,12 @@ slides:
   - title: Life Flower
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-13-21-am.png
     content_markdown: >-
-      Cubicflow worked with Life Flower on multiple projects. We designed
-      and developed the Life Flower website and ecommerce platform.
+      Cubicflow worked with Life Flower on multiple projects. We designed and
+      developed the Life Flower website and ecommerce platform.
 
 
-      We also created Life Flower’s design systems, branding, and Life
-      Flower’s product packaging.
+      We also created Life Flower’s design systems, branding, and Life Flower’s
+      product packaging.
   - title: Shotbud
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-16-45-am.png
     content_markdown: >-
@@ -65,5 +65,9 @@ details_block:
   instagram_url:
   twitter_url:
   linkedin_url:
-form_embed:
+form_embed: >-
+  <script charset="utf-8" type="text/javascript"
+  src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  
+  hbspt.forms.create({     region: "na1",     portalId: "22461532",     formId:
+  "432fa2ab-bc18-46bd-ac83-6c682dee5ecb"   }); </script>
 ---
