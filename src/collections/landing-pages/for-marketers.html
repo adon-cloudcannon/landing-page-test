@@ -63,7 +63,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
               block_alignment:
                 align_block: center
             tablet:
@@ -100,16 +100,16 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Get Started
-                  link: https://app.cloudcannon.com/register?trial=cc_standard
+                  text: Book a demo
+                  link: /book-a-demo/
                 styles:
                   style: normal
                   size: big
                   extra_classes:
               - _bookshop_name: simple/button
                 content:
-                  text: Request a demo
-                  link: /book-a-demo/
+                  text: Start with a free trial
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: outline
                   size: big
@@ -118,7 +118,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 80
+                bottom: 90
               justify:
                 align: center
             tablet:
@@ -493,7 +493,7 @@ content_blocks:
             width: tight
             desktop:
               transform:
-                scale: 1
+                scale: 0.75
                 translate_x: 0
                 translate_y: 0
                 rotate: 0
@@ -501,7 +501,7 @@ content_blocks:
               block_alignment:
                 align_block: left
               margin:
-                top: 100
+                top: 90
                 left: 0
                 bottom: 0
                 right: 0
@@ -600,7 +600,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Version control
+      label: Without the bottleneck
       blocks:
         - _bookshop_name: simple/heading
           content:
@@ -801,7 +801,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Build new pages
+      label: Quote & everything you need
       blocks:
         - _bookshop_name: simple/spacer
           content:
@@ -877,7 +877,7 @@ content_blocks:
                       perform at speed
                   styles:
                     element: h3
-                    width: normal
+                    width: tight
                     desktop:
                       text_alignment:
                         align: left
@@ -1035,9 +1035,9 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: fixed-fluid
+                type: split
                 width: 550
-                gap: 20
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -1150,40 +1150,6 @@ content_blocks:
                               active: false
                               align_block: left
                           width: full
-                      - _bookshop_name: simple/button-holder
-                        content:
-                          button_blocks:
-                            - _bookshop_name: simple/button
-                              content:
-                                text: Explore all Marketer guides
-                                link: /
-                              styles:
-                                style: outline-white
-                                size: normal
-                                extra_classes:
-                        styles:
-                          desktop:
-                            margin:
-                              top: 20
-                              bottom: 0
-                            justify:
-                              align: left
-                          tablet:
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            justify:
-                              active: false
-                              align: center
-                          mobile:
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            justify:
-                              active: false
-                              align: center
                   right:
                     blocks:
                       - _bookshop_name: simple/content-button
@@ -1260,9 +1226,9 @@ content_blocks:
             align: center
             desktop:
               margin:
-                top: 100
+                top: 90
                 right: 0
-                bottom: 0
+                bottom: 90
                 left: 0
               padding:
                 top: 50
