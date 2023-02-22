@@ -17,6 +17,7 @@ blueprint:
           icon_path: outline/language
           icon_color: teal
         title:
+        link:
         description:
   styles:
     desktop:
