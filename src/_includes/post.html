@@ -49,10 +49,10 @@ cta:
 				<div class="sticky top-20">
 					<div class="flex flex-col items-center gap-y-4">
 		{% endif %}
-					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/src/images/icons/social/twitter.svg' | svgContents}}</a>
-					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/src/images/icons/social/facebook.svg' | svgContents}}</a>
-					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="">{{ '/src/images/icons/social/linkedin.svg' | svgContents}}</a>
-					<a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="">{{ '/src/images/icons/outline/envelope.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://twitter.com/share?url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/twitter.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://www.facebook.com/sharer.php?u=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/facebook.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="http://www.linkedin.com/shareArticle?mini=true&url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/linkedin.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://cloudcannon.com{{ page.url }}.">{{ '/src/images/icons/outline/envelope.svg' | svgContents}}</a>
 				</div>
 				{% include 'partials/blog/series.html' %}
 			</div>
