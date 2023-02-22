@@ -820,8 +820,8 @@ content_blocks:
                 image: https://cc-dam.imgix.net/git-sync-r.png
               - title: Built for content editors
                 description: >-
-                  Empower your editors to create, while you work in parallel
-                  with them.
+                  Empower your editors by building a library of components to
+                  create new pages with ease.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
               - title: Robust publishing
@@ -837,11 +837,6 @@ content_blocks:
                   stay on the same page.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
-              - title: Structured content and granular control
-                description: >-
-                  Create a library of components for your content editors to
-                  build pages using our Gatsby CMS. 
-                image:
           styles:
             desktop:
               transform:

@@ -828,8 +828,8 @@ content_blocks:
                 image: https://cc-dam.imgix.net/git-sync-r.png
               - title: Catered to content editors
                 description: >-
-                  Empower your editors with our SvelteKit CMS, while you and
-                  other developers work in parallel with them.
+                  Empower your editors by building a library of components to
+                  create new pages with ease.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
               - title: Robust publishing
@@ -844,11 +844,6 @@ content_blocks:
                   Visual Editor for SvelteKit, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
-              - title: Structured content and granular control
-                description: >-
-                  Create a library of components for your content editors to
-                  build new pages using our SvelteKit CMS.
-                image:
           styles:
             desktop:
               transform:
