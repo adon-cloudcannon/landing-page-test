@@ -110,7 +110,7 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Try for free
+                  text: Start your free trial
                   link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: normal

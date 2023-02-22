@@ -108,7 +108,7 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Try for free
+                  text: Start your free trial
                   link: /
                 styles:
                   style: normal
