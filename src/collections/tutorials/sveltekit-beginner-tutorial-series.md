@@ -1,6 +1,6 @@
 ---
 title: SvelteKit Beginner Tutorial Series
-image: https://cc-dam.imgix.net/SvelteKit_basics.png
+image: https://cc-dam.imgix.net/SvelteKit+basics.png
 author: Mike Neumegen
 order: '1'
 description: >-
