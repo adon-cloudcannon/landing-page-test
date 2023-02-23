@@ -223,7 +223,7 @@ eleventyComputed:
         {% include 'partials/themes/buttons.html' details:r %}
         <div class="prose prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
           
-          {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | markdownify }}
+          {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | markdownify }}
         </div>
       </div>
     {% endfor %}

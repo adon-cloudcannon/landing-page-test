@@ -60,6 +60,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("is_integer", Helpers.is_integer);
 	eleventyConfig.addFilter("push", Helpers.push_to_array);
 	eleventyConfig.addFilter("download_github_readme", DataGetter.download_github_readme);
+	eleventyConfig.addFilter("strip_markdown_images", DataGetter.strip_markdown_images);
 
 	eleventyConfig.addPlugin(svgContents);
 	eleventyConfig.addPlugin(syntaxHighlight);

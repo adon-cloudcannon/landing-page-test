@@ -10,5 +10,9 @@ module.exports = {
 			duration: "1d",
 			type: "text"
 		});
+	},
+
+	strip_markdown_images: function(markdown) {
+		return markdown.replace(/(^!\[.*?\]\()(.+?)(\))/gm, '');
 	}
 };

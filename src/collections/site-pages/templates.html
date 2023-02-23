@@ -142,23 +142,23 @@ content_blocks:
 
   {% assign themes = collections.themes | sort: 'data.priority' %}
 
-  <div class="grid grid-cols-2 gap-x-6 gap-y-20 mb-28 mt-5">
+  <div class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
     
     {% for theme in themes %}
-      <div class="relative">
-        <a href="{{ theme.url }}" class="group">
-          <img src="{{ theme.data.image }}" class="h-[373px] transition rounded-lg border group-hover:opacity-80 group-hover:scale-105" alt="{{ theme.data.title }}" />
-        </a>
-        <div class="flex mt-3">
-          {% for ssg in theme.data.themes_ssgs %}
-            <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]" />
-          {% endfor %}
+      <a href="{{ theme.url }}" class="transition relative border border-midnight rounded-xl block hover:scale-105">
+        {% bookshop "helpers/image" image: theme.data.image alt: theme.data.title responsive: true classes: 'w-full rounded-t-xl' width: 594 height: 371 %}
+        <div class="p-3">
+          <div class="flex my-1">
+            {% for ssg in theme.data.themes_ssgs %}
+              <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]" />
+            {% endfor %}
+          </div>
+          <h3 class="text-xl font-bold mt-1">
+            {{ theme.data.name }}
+          </h3>
+          <p>{{ theme.data.description }}</p>
         </div>
-        <h3 class="text-xl font-bold mt-1">
-          <a href="{{ theme.url }}" class="hover:underline">{{ theme.data.name }}</a>
-        </h3>
-        <p>{{ theme.data.description }}</p>
-      </div>
+      </a>
     {% endfor %}
   </div>
 </div>

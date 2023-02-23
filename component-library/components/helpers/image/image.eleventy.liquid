@@ -12,7 +12,7 @@
 		{% assign h = null %}
 	{% endif %}
 
-	{% assign dimensions = image | image_resize: w, 1 | image_dimensions %}
+	{% assign dimensions = image | image_resize: w, 1, h | image_dimensions %}
 
 	{% assign image_path = image | replace: ' ', '%20' %}
 
@@ -26,10 +26,17 @@
 					{% break %}
 				{% endif %}
 				{% assign c_width = i_width %}
-				<source media="(min-width: {{ c_width }}px)" srcset="{{ image_path | image_resize: c_width, 2 }} 2x, {{ image_path | image_resize: c_width, 1 }} 1x">
+
+				{% assign c_height = nil %}
+				{% if h %}
+					{% assign reduce_ratio = c_width | divided_by: w %}
+					{% assign c_height = h | times: reduce_ratio %}
+				{% endif %}
+
+				<source media="(min-width: {{ c_width }}px)" srcset="{{ image_path | image_resize: c_width, 2, c_height }} 2x, {{ image_path | image_resize: c_width, 1, c_height }} 1x">
 			{% endfor %}
 			
-			<img src="{{ image_path | image_resize: c_width, 1 }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
+			<img src="{{ image_path | image_resize: c_width, 1, c_height }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
 		</picture>
 	{% else %}
 		<img src="{{ image_path | image_resize: w, 1, h }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
