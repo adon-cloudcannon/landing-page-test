@@ -49,11 +49,11 @@ content_blocks:
                 align: left
               text_sizing:
                 active: true
-                text_size: big
+                text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
@@ -90,12 +90,12 @@ content_blocks:
                 active: false
                 align: left
               text_sizing:
-                active: false
+                active: true
                 text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 30
               block_alignment:
                 active: false
                 align_block: left
@@ -247,9 +247,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 60
+          top: 30
           right: 0
-          bottom: 40
+          bottom: 15
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -449,9 +449,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 60
+          top: 30
           right: 0
-          bottom: 100
+          bottom: 60
           left: 0
   - _bookshop_name: sections/container
     content:
