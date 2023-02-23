@@ -181,7 +181,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 0
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -204,91 +204,27 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
-        - _bookshop_name: sections/three-column
+        - _bookshop_name: simple/small-quote-grid
           content:
-            left:
-              blocks:
-                - _bookshop_name: simple/small-quote
-                  content:
-                    case_study_quote: 611404c8-ae5c-11ed-afa1-0242ac120002
-                  styles:
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 0
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-            middle:
-              blocks:
-                - _bookshop_name: simple/small-quote
-                  content:
-                    case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-                  styles:
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 0
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-            right:
-              blocks:
-                - _bookshop_name: simple/small-quote
-                  content:
-                    case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
-                  styles:
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 0
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
+            quotes:
+              - case_study_quote: 611404c8-ae5c-11ed-afa1-0242ac120002
+              - case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+              - case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
           styles:
             desktop:
-              columns:
-                gap: 20
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: top
+              margin:
+                top: 0
+                bottom: 0
             tablet:
-              columns:
+              margin:
                 active: false
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
-                active: false
-                v_align: top
+                top: 0
+                bottom: 0
             mobile:
-              columns:
+              margin:
                 active: false
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
-                active: false
-                v_align: top
+                top: 0
+                bottom: 0
     styles:
       background: sea
       rounded: top

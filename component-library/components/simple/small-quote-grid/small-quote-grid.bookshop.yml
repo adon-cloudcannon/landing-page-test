@@ -2,15 +2,16 @@
 spec:
   structures:
     - blocks
-  label: "Small Quote"
-  description: "Displays a simple quote from a customer"
+  label: "Small Quote Grid"
+  description: "Displays a grid of quotes"
   icon: format_quote
   tags: ['content']
 
 # Defines the structure of this component, as well as the default values
 blueprint:
   content:
-    case_study_quote:
+    quotes:
+      - case_study_quote:
   styles:
     desktop:
       margin:
