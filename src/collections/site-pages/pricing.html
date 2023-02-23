@@ -146,7 +146,7 @@ content_blocks:
             desktop:
               margin:
                 top: 80
-                bottom: 0
+                bottom: 30
             tablet:
               margin:
                 active: false
@@ -157,6 +157,49 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: '[View all features &gt;](__notset__)'
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
     styles:
       background: white
       rounded: none
@@ -409,7 +452,7 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Account
+                          text: Users
                         styles:
                           element: h2
                           width: normal
@@ -1100,7 +1143,7 @@ content_blocks:
                               bottom: 0
                       - _bookshop_name: simple/text-block
                         content:
-                          text_markdown: From
+                          text_markdown: Starting at
                         styles:
                           desktop:
                             text_alignment:
@@ -1269,8 +1312,9 @@ content_blocks:
                       - _bookshop_name: simple/text-block
                         content:
                           text_markdown: >-
-                            If you’re an Agency, we have a special pricing plan
-                            for you, as part of our Partner Program.
+                            If you’re an Agency, join the Partner program to
+                            gain exclusive access to the "Lite" pricing plan for
+                            $10/ month (USD)
                         styles:
                           desktop:
                             text_alignment:
@@ -1391,7 +1435,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: sea
+      background: ash
       rounded: top
       size: normal
       align: none
