@@ -472,6 +472,7 @@ content_blocks:
                           sub_title: Create a site for your changes
                         styles:
                           width:
+                          element: h3
                           desktop:
                             text_alignment:
                               align: left
