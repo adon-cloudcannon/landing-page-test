@@ -41,15 +41,20 @@
 </style>
 
 <div x-data="{ selected:1 }" class="{{ container_name }} grid-cols-2 gap-x-10 hidden md:grid">
-	<div class="flex flex-col justify-center">
+	<div class="flex flex-col">
 		{% assign i = 0 %}
 		{% for row in content.rows %}
 			{% assign i = i | plus: 1 %}
-			<div class="border-l-[3px] pl-3 py-2" :class="selected == {{ i }} ? 'border-blue-700' : 'border-gray-300'">
+			<div class="border-l-[3px] pl-3 py-3" :class="selected == {{ i }} ? 'border-blue-700' : 'border-gray-300'">
 				<h4 class="font-bold text-xl mb-1" @click="selected = {{ i }}">
-					<a>{{ row.title }}</a>
+					<a class="block hover:underline">
+						{{ row.title }}
+						<span class="w-3 inline-block transition-transform" :class="selected == {{ i }} ? 'rotate-90' : ''">
+							{{ '/src/images/icons/outline/chevron-right.svg' | svgContents }}
+						</span>
+					</a>
 				</h4>
-				<div x-show="selected == {{ i }}" {% unless i == 1 %}x-cloak{% endunless %} x-collapse>
+				<div class="text-lg" x-show="selected == {{ i }}" {% unless i == 1 %}x-cloak{% endunless %} x-collapse>
 					{{ row.description }}
 				</div>
 			</div>

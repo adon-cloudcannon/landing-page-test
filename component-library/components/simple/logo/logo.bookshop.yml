@@ -12,6 +12,7 @@ blueprint:
   content:
     logo: /src/images/logos/netflix.svg
     name: Netflix
+    url:
   styles:
     desktop:
       visibility:

@@ -29,12 +29,16 @@
 		.{{ container_name}} {
 			{{ mobile_styles }}
 		}
+
+		.{{ container_name}} a {
+			width: 100%;
+		}
 	}
 </style>
 
-<div class="flex {{ container_name }}">
+<div class="md:flex {{ container_name }}">
 	{% for component in content.button_blocks %}
-		<div class="mr-3 last:mr-0">
+		<div class="mt-3 first:mt-0 md:mt-0 md:mr-3 md:last:mr-0">
 			{% bookshop "{{component._bookshop_name}}" bind: component %}
 		</div>
 	{% endfor %}

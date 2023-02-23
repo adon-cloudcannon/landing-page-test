@@ -42,7 +42,13 @@
 		{% if bg_mode %}
 			<div class="bg-white rounded-xl w-[200px]">
 		{% endif %}
+		{% if item.content.url %}
+			<a href="{{ item.content.url }}" class="hover:scale-110 transition block">
+		{% endif %}
 			{% bookshop "simple/logo" content:item.content styles:item.styles %}
+		{% if item.content.url %}
+			</a>
+		{% endif %}
 		{% if bg_mode %}
 			</div>
 		{% endif %}
