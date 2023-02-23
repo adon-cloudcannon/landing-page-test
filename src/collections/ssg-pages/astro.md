@@ -1085,10 +1085,10 @@ content_blocks:
                 bottom: 0
                 left: 0
               padding:
-                active: false
-                top: 0
+                active: true
+                top: 30
                 right: 0
-                bottom: 0
+                bottom: 30
                 left: 0
     styles:
       background: caramel
