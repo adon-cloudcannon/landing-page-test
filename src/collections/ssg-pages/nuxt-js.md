@@ -50,11 +50,11 @@ content_blocks:
                 align: left
               text_sizing:
                 active: true
-                text_size: big
+                text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
@@ -90,12 +90,12 @@ content_blocks:
                 active: false
                 align: left
               text_sizing:
-                active: false
+                active: true
                 text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 30
               block_alignment:
                 active: false
                 align_block: left
@@ -245,9 +245,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 60
+          top: 30
           right: 0
-          bottom: 40
+          bottom: 15
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -287,12 +287,12 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
-                        active: false
+                        active: true
                         top: 0
-                        bottom: 0
+                        bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -441,7 +441,7 @@ content_blocks:
                 type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 30
+                vertical_gap: 20
               vertical_block_alignment:
                 active: false
                 v_align: center
@@ -483,9 +483,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 60
+          top: 30
           right: 0
-          bottom: 100
+          bottom: 90
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -602,12 +602,12 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
-                        active: false
+                        active: true
                         top: 0
-                        bottom: 0
+                        bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -680,7 +680,7 @@ content_blocks:
                 type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 30
+                vertical_gap: 20
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -720,9 +720,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 80
+          top: 30
           right: 0
-          bottom: 120
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -760,12 +760,12 @@ content_blocks:
                 active: false
                 align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
@@ -804,9 +804,9 @@ content_blocks:
                 active: false
                 text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 30
               block_alignment:
                 active: false
                 align_block: left
@@ -940,8 +940,8 @@ content_blocks:
                               active: false
                               align: left
                             text_sizing:
-                              active: false
-                              text_size: big
+                              active: true
+                              text_size: normal
                             margin:
                               active: false
                               top: 0
@@ -1077,10 +1077,10 @@ content_blocks:
                 bottom: 0
                 left: 0
               padding:
-                active: false
-                top: 0
+                active: true
+                top: 30
                 right: 0
-                bottom: 0
+                bottom: 30
                 left: 0
     styles:
       background: caramel
@@ -1117,10 +1117,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 30
           right: 0
-          bottom: 0
+          bottom: 30
           left: 0
       size: normal
       align: none
@@ -1162,12 +1162,12 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
-                        active: false
+                        active: true
                         top: 0
-                        bottom: 0
+                        bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -1333,11 +1333,11 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 20
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -1377,9 +1377,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 60
+          top: 30
           right: 0
-          bottom: 100
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1480,12 +1480,12 @@ content_blocks:
                 active: false
                 align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: Get up and going in minutes.
@@ -1522,9 +1522,9 @@ content_blocks:
                 active: false
                 text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 30
               block_alignment:
                 active: false
                 align_block: left
@@ -1607,9 +1607,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 80
+          top: 30
           right: 0
-          bottom: 80
+          bottom: 60
           left: 0
       size: normal
       align: none
@@ -1695,12 +1695,12 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
-                        active: false
+                        active: true
                         top: 0
-                        bottom: 0
+                        bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -1862,7 +1862,7 @@ content_blocks:
                 type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 30
+                vertical_gap: 20
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -1942,12 +1942,12 @@ content_blocks:
                 active: false
                 align: left
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
@@ -1986,9 +1986,9 @@ content_blocks:
                 active: false
                 text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 30
               block_alignment:
                 active: false
                 align_block: left
@@ -2070,10 +2070,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 30
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       size: normal
       align: none
