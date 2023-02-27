@@ -20,7 +20,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: An intuitive Gatsby CMS for everyone.
+            text: An intuitive Gatsby CMS for everyone
           styles:
             element: h1
             width: normal

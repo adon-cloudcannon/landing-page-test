@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A fully featured Eleventy CMS for everyone.
+            text: A fully featured Eleventy CMS for everyone
           styles:
             element: h1
             width: normal
