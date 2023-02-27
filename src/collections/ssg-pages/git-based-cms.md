@@ -956,10 +956,10 @@ content_blocks:
                     With CloudCannon, your creative development and
                     experimentation can stay at the forefront of your workflow.
                 styles:
-                  width: large
+                  width: medium
                   desktop:
                     text_alignment:
-                      align: left
+                      align: center
                     text_sizing:
                       text_size: normal
                     margin:
