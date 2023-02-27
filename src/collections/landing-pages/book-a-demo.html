@@ -144,7 +144,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Demo
+      label: Calendar embed
       blocks:
         - _bookshop_name: simple/embed
           content:
@@ -153,63 +153,6 @@ content_blocks:
               data-src="https://meetings.hubspot.com/christopher-wingate?embed=true"></div>
               <script type="text/javascript"
               src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/heading
-          content:
-            text: What our customers say about us
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/small-quote-grid
-          content:
-            quotes:
-              - case_study_quote: 611404c8-ae5c-11ed-afa1-0242ac120002
-              - case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-              - case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
           styles:
             desktop:
               margin:
@@ -271,6 +214,83 @@ content_blocks:
     content:
       label: Demo
       blocks:
+        - _bookshop_name: simple/image
+          content:
+            alt: >-
+              CloudCannon app showing twitch's website surrounded by
+              CloudCannon's employee faces. 
+            image: https://cc-dam.imgix.net/Book-a-demo-hero.png
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                left: 0
+                bottom: 30
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: simple/heading
           content:
             text: What you can expect
@@ -307,27 +327,138 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
-        - _bookshop_name: simple/small-quote-grid
+        - _bookshop_name: sections/two-column
           content:
-            quotes:
-              - case_study_quote: 611404c8-ae5c-11ed-afa1-0242ac120002
-              - case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-              - case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
+            left:
+              blocks:
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      * A brief discussion to discuss your business needs,
+                      current pain points, and how your whole team can
+                      efficiently use CloudCannon
+
+                      * A live demonstration of our platform, tailored to your
+                      business
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+            right:
+              blocks:
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      * Meet our team and get answers to&nbsp; your questions,
+                      making sure you have all the information you need
+
+
+                      * No commitments or pressure at all
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
           styles:
             desktop:
-              margin:
-                top: 0
-                bottom: 0
+              columns:
+                type: split
+                width: 0
+                gap: 30
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
             tablet:
-              margin:
+              columns:
                 active: false
-                top: 0
-                bottom: 0
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
             mobile:
-              margin:
+              columns:
                 active: false
-                top: 0
-                bottom: 0
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
     styles:
       background: white
       rounded: top
