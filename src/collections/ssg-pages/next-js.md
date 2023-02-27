@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Next.js CMS for your entire team.
+            text: The Next.js CMS for your entire team
           styles:
             element: h1
             width: normal
