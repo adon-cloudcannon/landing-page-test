@@ -5,7 +5,7 @@ layout: builder.html
 permalink: /mkdocs-cms/
 description: >-
   Use CloudCannon as your MkDocs CMS to collaborate with your team to build fast
-  simple static documentation websites, and manage content with a wysiwyg
+  and simple static documentation websites, and manage content with a WYSIWYG
   editor!
 summary: >-
   A fast and simple static site generator that's geared towards building project
@@ -1539,7 +1539,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your MkDocs site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your MkDocs build

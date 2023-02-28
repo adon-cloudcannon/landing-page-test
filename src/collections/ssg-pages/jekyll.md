@@ -5,7 +5,7 @@ layout: builder.html
 permalink: /jekyll-cms/
 description: >-
   Use CloudCannon as your Jekyll CMS to collaborate with your team to build fast
-  static websites with Liquid templates, and manage content with a wysiwyg
+  static websites with Liquid templates, and manage content with a WYSIWYG
   editor!
 summary: >-
   Built with Ruby, Jekyll is a simple, blog-aware, static site generator for
@@ -1535,7 +1535,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your Jekyll site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Jekyll build

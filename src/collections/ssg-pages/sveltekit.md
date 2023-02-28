@@ -621,7 +621,8 @@ content_blocks:
 
 
                       To get started quickly, there are also a range of
-                      production-ready templates to choose from.&nbsp;
+                      production-ready [SvelteKit templates](/templates/) to
+                      choose from.&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -1550,7 +1551,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your SvelteKit site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your SvelteKit build

@@ -1533,9 +1533,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your Nuxt.js site
-                description: >-
-                  Sign in to your GitHub, GitLab or Bitbucket account, and
-                  connect your Nuxt.js repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your editing
@@ -1705,7 +1703,7 @@ content_blocks:
                   content:
                     text_markdown: >-
                       Nuxt.js is a free and open source web application
-                      framework based on Vue.js, Node.js, webpack and Babel.js.
+                      framework based on Vue.js, Node.js, webpack, and Babel.js.
                       It simplifies the development process for universal or
                       single-page Vue apps.
 

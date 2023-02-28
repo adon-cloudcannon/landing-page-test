@@ -1544,10 +1544,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your Eleventy site
-                description: >-
-                  CloudCannon gives you everything you need to create and manage
-                  your content, all on one platform. Build and host the best
-                  performing sites on the web with the help of our CMS for 11ty.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Eleventy build
@@ -1731,10 +1728,10 @@ content_blocks:
 
                       Eleventy is also extremely flexible in its range of
                       template languages: HTML, Markdown, JavaScript, Liquid,
-                      Nunjucks, Handlebars, Mustache, EJS, Haml and Pug. Pick
+                      Nunjucks, Handlebars, Mustache, EJS, Haml, and Pug. Pick
                       one, or if your team has a range of experience, use as
                       many as you want — all within a single project on your
-                      custom domain.With Eleventy’s independent template
+                      custom domain. With Eleventy’s independent template
                       engines, your content can remain firmly decoupled for any
                       future transitions.
                   styles:

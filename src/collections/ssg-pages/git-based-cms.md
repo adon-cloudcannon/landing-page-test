@@ -580,9 +580,9 @@ content_blocks:
                         content:
                           text_markdown: >-
                             Review changes on a site and merge them into another
-                            branch. Perfect for anything from a simple
+                            branch. CloudCannon supports anything from a simple
                             staging/production publishing workflow to multiple
-                            reviews and staging environments.
+                            review steps and staging environments.
                         styles:
                           width: full
                           desktop:
@@ -857,7 +857,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your static site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your SSG build
@@ -947,10 +947,10 @@ content_blocks:
 
                     If anyone on your team needs to roll a site back,
                     CloudCannon has you covered, with full version control of
-                    both code and content. Easily set up staging environments
-                    via branching, hand over sites to content managers and
-                    editors with our fine-tuned granular permissions, and keep
-                    on creating.
+                    both code and content. Easily set up your staging
+                    environments via branching, hand over your sites to content
+                    managers and editors with our fine-tuned granular
+                    permissions, and keep on creating.
 
 
                     With CloudCannon, your creative development and

@@ -1555,7 +1555,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your Next.js site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Next.js build

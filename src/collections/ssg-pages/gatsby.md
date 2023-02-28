@@ -1535,7 +1535,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your Gatsby site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Gatsby build
@@ -1712,7 +1712,7 @@ content_blocks:
 
                       Gatsby is a developer-friendly SSG right out of the box,
                       with inbuilt features like hot reloading, code splitting,
-                      prefetching, routing and caching.
+                      prefetching, routing, and caching.
 
 
                       And because Gatsby is an established static site

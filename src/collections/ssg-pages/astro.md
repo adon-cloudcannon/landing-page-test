@@ -1541,7 +1541,7 @@ content_blocks:
           content:
             steps:
               - title: Sync your Astro site
-                description: Connect your GitHub, GitLab or Bitbucket repository.
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
                 image: >-
                   https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
               - title: Configure your Astro build
@@ -1715,7 +1715,7 @@ content_blocks:
                       Astro is a powerful and lightweight static site generator
                       that lets developers mix and match a variety of popular
                       frameworks, including React, Preact, Svelte, Vue, SolidJS,
-                      AlpineJS and Lit.
+                      AlpineJS, and Lit.
 
 
                       Astro automatically renders components to HTML at build
