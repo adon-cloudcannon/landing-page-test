@@ -707,7 +707,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 0
+                bottom: 60
               block_alignment:
                 align_block: center
               transform:
@@ -749,7 +749,43 @@ content_blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
-              blocks: []
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Exclusive pricing plan for Partners
+                  styles:
+                    element: h3
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
             right:
               blocks:
                 - _bookshop_name: pricing/plan-summary
@@ -788,7 +824,7 @@ content_blocks:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: top
