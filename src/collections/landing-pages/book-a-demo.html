@@ -14,6 +14,205 @@ content_blocks:
     content:
       label: Hero
       blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Book a demo
+                  styles:
+                    element: h1
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: biggest
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      We understand the importance of talking to a human being
+                      and seeing a personalized demo when choosing a content
+                      management system for your business.
+
+
+                      Our team is more than happy to have a chat with you. No
+                      commitments, no pressure, just a chat to answer your
+                      questions.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 30
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: >-
+                      Desktop screens showing CloudCannon interfacse with
+                      CloudCannon employees surrounding 
+                    image: https://cc-dam.imgix.net/book-a-demo-hero.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+          styles:
+            desktop:
+              columns:
+                type: split
+                width: 0
+                gap: 30
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: top
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
         - _bookshop_name: simple/heading
           content:
             text: Book a demo
@@ -169,7 +368,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: sea
+      background: ash
       rounded: top
       size: normal
       align: none
@@ -212,85 +411,8 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Demo
+      label: What you can expect
       blocks:
-        - _bookshop_name: simple/image
-          content:
-            alt: >-
-              CloudCannon app showing twitch's website surrounded by
-              CloudCannon's employee faces. 
-            image: https://cc-dam.imgix.net/Book-a-demo-hero.png
-          styles:
-            border:
-            rounded:
-            ontop:
-            width: full
-            pixel_width:
-            desktop:
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: left
-              margin:
-                top: 0
-                left: 0
-                bottom: 30
-                right: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            tablet:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
         - _bookshop_name: simple/heading
           content:
             text: What you can expect
