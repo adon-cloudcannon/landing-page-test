@@ -29,7 +29,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -102,10 +102,18 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Try for free
-                  link: https://app.cloudcannon.com/register?trial=cc_standard
+                  text: Book a demo
+                  link: /book-a-demo/
                 styles:
                   style: normal
+                  size: big
+                  extra_classes:
+              - _bookshop_name: simple/button
+                content:
+                  text: Get started with a free trial
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
+                styles:
+                  style: outline
                   size: big
                   extra_classes:
           styles:
