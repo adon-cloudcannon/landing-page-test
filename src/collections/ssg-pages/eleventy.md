@@ -2,7 +2,7 @@
 _schema: default
 title: Eleventy
 layout: builder.html
-permalink: /eleventy/
+permalink: /eleventy-cms/
 description: >-
   Use CloudCannon as your Eleventy CMS to collaborate with your team to build
   incredibly fast static sites with a wide range of 11ty supported templating
