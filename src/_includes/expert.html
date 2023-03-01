@@ -7,7 +7,7 @@ layout: page.html
 </div>
 
 <div class="container pb-24">
-	<div class="rounded-xl -mt-11 mb-10 text-center mx-auto p-4 grid grid-cols-3 bg-white max-w-4xl drop-shadow-lg">
+	<div class="rounded-xl -mt-11 mb-10 text-center mx-auto p-4 grid grid-cols-1 md:grid-cols-3 bg-white max-w-4xl drop-shadow-lg gap-y-3 md:gap-y-0">
 		<div>
 			<div class="mb-2">
 				<strong class="block">Location</strong>
@@ -21,7 +21,7 @@ layout: page.html
 			<div class="mb-2">
 				<strong>Frameworks</strong>
 			</div>
-			<div class="flex justify-center">
+			<div class="flex flex-wrap justify-center">
 				{% for ssg in frameworks %}
 					<img src="/images/icons/ssgs/{{ ssg }}.svg" width="25" height="25" alt="{{ ssg }}" class="mr-[5px] h-[25px] w-auto">
 				{% endfor %}
@@ -68,7 +68,7 @@ layout: page.html
 
 	
 
-	<div class="prose prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+	<div class="prose md:prose-lg lg:prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
 		<h1 class="mb-4">{{ title }}</h1>
 		{{ long_description }}
 	</div>
@@ -76,7 +76,7 @@ layout: page.html
 
 <div class="bg-caramel light-text">
 	<div class="container py-24">
-		<h2 class="text-6xl text-center font-bold mb-16">{{ title }}'s work</h2>
+		<h2 class="text-2xl md:text-4xl text-center font-bold mb-16">{{ title }}'s work</h2>
 		<section class="splide" x-data="Splide({
 			options: {
 				type: 'loop',
@@ -96,8 +96,9 @@ layout: page.html
 									{% bookshop "helpers/image" image: slide.image, alt: slide.title, responsive: true, classes: 'rounded-xl border-2 border-carbon p-1', width: 784 %}
 								</div>
 								<div class="lg:w-[350px] lg:ml-8 shrink-0 mt-8 lg:mt-0">
-									<h3 class="text-4xl mb-5">{{ slide.title }}</h3>
-									<div class="pt-2 prose prose-lg hover:prose-a:text-cc hover:prose-a:transition">
+									
+									<div class="pt-2 prose lg:prose-lg hover:prose-a:text-cc hover:prose-a:transition">
+										<h3>{{ slide.title }}</h3>
 										{{ slide.content_markdown | markdownify }}
 									</div>
 								</div>

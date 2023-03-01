@@ -107,4 +107,4 @@ shortcode integration for your Hugo sites, and which features are still on
 your wishlist.
 
 As always, feel free to reach out to our dev team in support with any
-questions [or](/hello) comments\!
+questions or comments\!

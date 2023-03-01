@@ -142,14 +142,14 @@ content_blocks:
 <div class="container">
   {% assign experts = collections.experts | sort: 'data.weight' %}
 
-  <div class="grid grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     {% for expert in experts %}
       <a class="group relative transition duration-200 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" href="{{ expert.url }}">
         <div class="h-52 bg-[#f0f5ff] flex justify-center items-center rounded-t-xl">
           <img src="{{ expert.data.logo_image }}" class="max-w-[220px]" alt="{{ expert.data.title }}" />
         </div>
         <div class="px-8 pb-14 pt-8">
-          <div class="flex mb-2">
+          <div class="flex flex-wrap mb-2">
             {% for ssg in expert.data.frameworks %}
               <img src="/images/icons/ssgs/{{ ssg }}.svg" width="25" height="25" alt="{{ ssg }}" class="mr-[5px] h-[25px] w-auto" />
             {% endfor %}

@@ -11,8 +11,8 @@ cta:
       extra_classes:
 ---
 {% assign person = collections.authors | where: "data.slug", author | first %}
-<div class="container py-20">
-	<h1 class="mx-auto text-center leading-tight text-gray-900 max-w-3xl text-5xl font-bold mb-8">{{ title }}</h1>
+<div class="container pt-10 md:pt-20 pb-24">
+	<h1 class="mx-auto text-center leading-tight text-gray-900 max-w-3xl text-3xl md:text-5xl font-bold mb-8">{{ title }}</h1>
 	<div class="flex justify-center items-center">
 		<img src="{{ person.data.image.path }}" alt="{{ person.data.image_alt }}" class="w-12 rounded-full">
 		<span class="ml-3 text-gray-900">
@@ -32,27 +32,27 @@ cta:
 			</a> 
 		{% endfor %}
 	</div>
-	<div class="w-4/5 mx-auto mt-8 mb-20">
-		<img class="w-full h-96 object-cover object-center rounded-lg"
+	<div class="w-full md:w-4/5 mx-auto mt-8 mb-10 md:mb-20">
+		<img class="w-full md:h-96 object-cover object-center rounded-lg"
 			src="{{ image }}" alt="{{ title }}">
 	</div>
 	<div class="relative -mx-[2rem]">
-		<div class="prose prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+		<div class="prose container md:prose-lg lg:prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
 			{{ content }}
 		</div>
 		{% if series %}
-		<div class="absolute -right-12 w-[220px] h-full top-0">
-			<div class="sticky top-5">
+		<div class="xl:absolute xl:right-0 2xl:right-[-40px] xl:w-[220px] xl:h-full top-0 max-w-prose mx-auto xl:mx-0 px-8 xl:px-0 mt-8 xl:mt-0">
+			<div class="xl:sticky top-5">
 				<div class="flex justify-around mb-2">
 		{% else %}
-			<div class="absolute -right-10 top-2 h-full">
-				<div class="sticky top-20">
-					<div class="flex flex-col items-center gap-y-4">
+			<div class="lg:absolute lg:right-0 lg:top-2 lg:h-full">
+				<div class="lg:sticky lg:top-20">
+					<div class="flex lg:flex-col mt-8 lg:mt-0 justify-center items-center gap-y-4 gap-x-4">
 		{% endif %}
-					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://twitter.com/share?url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/twitter.svg' | svgContents}}</a>
-					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://www.facebook.com/sharer.php?u=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/facebook.svg' | svgContents}}</a>
-					<a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="http://www.linkedin.com/shareArticle?mini=true&url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/linkedin.svg' | svgContents}}</a>
-					<a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://cloudcannon.com{{ page.url }}.">{{ '/src/images/icons/outline/envelope.svg' | svgContents}}</a>
+					<a class="w-8 flex justify-center transition" href="https://twitter.com/share?url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/twitter.svg' | svgContents: 'fill-gray-300 hover:fill-gray-500' }}</a>
+					<a class="w-8 flex justify-center transition" href="https://www.facebook.com/sharer.php?u=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/facebook.svg' | svgContents: 'fill-gray-300 hover:fill-gray-500'}}</a>
+					<a class="w-8 flex justify-center transition" href="http://www.linkedin.com/shareArticle?mini=true&url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/linkedin.svg' | svgContents: 'fill-gray-300 hover:fill-gray-500'}}</a>
+					<a class="w-8 flex justify-center transition" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://cloudcannon.com{{ page.url }}.">{{ '/src/images/icons/outline/envelope.svg' | svgContents: 'stroke-gray-300 hover:stroke-gray-500'}}</a>
 				</div>
 				{% include 'partials/blog/series.html' %}
 			</div>
@@ -61,14 +61,14 @@ cta:
 
 	
 
-	<div class="border-2 my-10 rounded-xl pt-12 pb-16 px-10">
-		<h3 class="font-bold text-5xl text-center">Launch your website today</h3>
-		<p class="text-center text-xl mt-6 mb-10">Give your content team full autonomy on your developer-approved tech stack with CloudCannon.</p>
+	<div class="border-2 my-10 rounded-xl pt-6 pb-8 md:pt-12 md:pb-16 px-10">
+		<h3 class="font-bold text-3xl md:text-5xl text-center">Launch your website today</h3>
+		<p class="text-center text-base md:text-xl mt-3 mb-5 md:mt-6 md:mb-10">Give your content team full autonomy on your developer-approved tech stack with CloudCannon.</p>
 		<p class="text-center">{% bookshop "simple/button" bind: cta.button %}</p>
 	</div>
 
 	<h3 class="font-bold text-4xl mb-8">You might also like:</h3>
-	<div class="grid grid-cols-3 gap-x-5 gap-y-12">
+	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
 		{% assign related_posts = collections.posts | where: 'url' | filterByTags: tags | sort: 'date' | reverse %}
 		{% assign count = 0 %}
 		{% for post in related_posts limit:4 %}

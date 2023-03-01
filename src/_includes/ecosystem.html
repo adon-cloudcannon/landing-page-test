@@ -39,12 +39,12 @@ eleventyComputed:
                   active: false
                   align: left
                 text_sizing:
-                  active: false
-                  text_size: big
+                  active: true
+                  text_size: normal
                 margin:
-                  active: false
-                  top: 0
-                  bottom: 0
+                  active: true
+                  top: 10
+                  bottom: 15
           - _bookshop_name: simple/text-block
             content:
               text_markdown: "{{ description }}"
@@ -67,9 +67,9 @@ eleventyComputed:
                   active: false
                   text_size: normal
                 margin:
-                  active: false
+                  active: true
                   top: 0
-                  bottom: 0
+                  bottom: 40
                 block_alignment:
                   active: false
                   align_block: left
@@ -78,7 +78,7 @@ eleventyComputed:
                   active: false
                   align: left
                 text_sizing:
-                  active: false
+                  active: true
                   text_size: normal
                 margin:
                   active: false
@@ -112,10 +112,10 @@ eleventyComputed:
             bottom: 0
             left: 0
           padding:
-            active: false
-            top: 0
+            active: true
+            top: 30
             right: 0
-            bottom: 0
+            bottom: 20
             left: 0
         mobile:
           margin:
@@ -133,46 +133,48 @@ eleventyComputed:
 ---
 {{ content }}
 
-<div class="container mb-24">
-  <table class="w-full border-separate border-spacing-0 table-fixed">
-    <thead class="">
-      <tr class="m-0">
-        {% assign file = ecosystem[data] %}    
-        {% for head in file[0] %}
-          {% if head[0] == "URL" or head[0] == "Image" %}
-            {% continue %}
-          {% endif %}
-          <th class="first:text-left first:w-[200px] px-3 py-4 first:rounded-tl-2xl last:rounded-tr-2xl border-b border-carbon first:border-l border-t last:border-r bg-[#F5FBFF] font-normal">{{ head[0] }}</th>
-        {% endfor %}
-      </tr>
-    </thead>
-    <tbody>
-      {% for row in file %}
-        <tr class=" hover:bg-slate-50 group">
-          {% for item in row %}
-            {% if item[0] == "URL" or item[0] == "Image" %}
+<div class="container mb-24 overflow-hidden">
+  <div class="overflow-x-scroll">
+    <table class="w-full border-separate border-spacing-0 relative">
+      <thead class="">
+        <tr class="m-0">
+          {% assign file = ecosystem[data] %}    
+          {% for head in file[0] %}
+            {% if head[0] == "URL" or head[0] == "Image" %}
               {% continue %}
             {% endif %}
-            <td class="first:font-bold even:bg-gray-100 old:bg-white first:text-left text-center px-3 py-4 first:border-l last:border-r border-b group-last:first:rounded-bl-2xl group-last:last:rounded-br-2xl border-carbon">
-              {% assign c = item[1] | strip %}
-              {% if c == '0' or c == '1' %}
-                {% if c == '1' %}
-                  <span class="w-7 flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-cc">{{ '/src/images/icons/outline/check-circle.svg' | svgContents }}</span>
-                {% endif %}
-              {% else %}
-                {% if item[0] == 'Name' %}
-                  <a href="{{ row.URL }}" rel="noopener noreferrer" target="_blank" class="hover:underline flex items-center">
-                    <img src="{{ row.Image }}" class="w-8 pr-2" alt="{{ row.Name }} ">
-                    {{ c }}
-                  </a>
-                {% else %}
-                  {{ c }}
-                {% endif %}
-              {% endif %}
-            </td>
+            <th class="first:text-left first:z-20 first:sticky first:left-0 first:min-w-[200px] font-bold px-3 py-4 first:rounded-tl-2xl last:rounded-tr-2xl border-b border-carbon first:border-l border-t last:border-r bg-[#F5FBFF]">{{ head[0] }}</th>
           {% endfor %}
         </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        {% for row in file %}
+          <tr class=" hover:bg-slate-50 group">
+            {% for item in row %}
+              {% if item[0] == "URL" or item[0] == "Image" %}
+                {% continue %}
+              {% endif %}
+              <td class="first:font-bold first:z-20 first:sticky first:left-0 even:bg-gray-100 odd:bg-white first:text-left text-center px-3 py-4 first:border-l last:border-r border-b group-last:first:rounded-bl-2xl group-last:last:rounded-br-2xl border-carbon">
+                {% assign c = item[1] | strip %}
+                {% if c == '0' or c == '1' %}
+                  {% if c == '1' %}
+                    <span class="w-7 flex justify-center m-auto [&>svg]:w-full [&>svg]:stroke-cc">{{ '/src/images/icons/outline/check-circle.svg' | svgContents }}</span>
+                  {% endif %}
+                {% else %}
+                  {% if item[0] == 'Name' %}
+                    <a href="{{ row.URL }}" rel="noopener noreferrer" target="_blank" class="hover:underline flex items-center">
+                      <img src="{{ row.Image }}" class="w-8 pr-2" alt="{{ row.Name }} ">
+                      {{ c }}
+                    </a>
+                  {% else %}
+                    {{ c }}
+                  {% endif %}
+                {% endif %}
+              </td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </div>
