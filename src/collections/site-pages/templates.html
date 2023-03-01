@@ -145,7 +145,7 @@ content_blocks:
   <div class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
     
     {% for theme in themes %}
-      <a href="{{ theme.url }}" class="transition relative border border-midnight rounded-xl block hover:scale-105">
+      <a href="{{ theme.url }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105">
         {% bookshop "helpers/image" image: theme.data.image alt: theme.data.title responsive: true classes: 'w-full rounded-t-xl' width: 594 height: 371 %}
         <div class="p-3">
           <div class="flex my-1">

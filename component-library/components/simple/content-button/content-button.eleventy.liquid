@@ -16,7 +16,7 @@
 	{% assign classes = classes | append: " border-white bg-midnight hover:bg-blue-900" %}
 {% endcase %}
 
-<a href="{{ content.url }}" class="transition border rounded-xl p-6 flex group {{ classes }} dark-text" style="{{ css_styles }}">
+<a href="{{ content.url }}" class="transition border-2 rounded-xl p-6 flex group {{ classes }} dark-text" style="{{ css_styles }}">
 	<span class="inline-block flex-1">{{ content.text }}</span>
 	<span class="w-5 group-hover:translate-x-2 flex justify-center transition">{{ '/src/images/icons/outline/arrow-right.svg' | svgContents }}</span>
 </a>
