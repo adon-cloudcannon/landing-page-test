@@ -1546,26 +1546,22 @@ content_blocks:
             steps:
               - title: Sync your Hugo site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
+                image: https://cc-dam.imgix.net/step-1-sync-2.svg
               - title: Configure your Hugo build
                 description: >-
                   Define your data types and give your team the ideal editing
                   interfaces.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18882_kkehsd.png
+                image: https://cc-dam.imgix.net/Step 2 - Hugo.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, all
                   without the help of a developer. 
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
+                image: https://cc-dam.imgix.net/step-3-edit-3.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
+                image: https://cc-dam.imgix.net/step-4-live-3.svg
           styles:
             desktop:
               margin:

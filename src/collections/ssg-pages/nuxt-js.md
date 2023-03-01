@@ -1534,26 +1534,22 @@ content_blocks:
             steps:
               - title: Sync your Nuxt.js site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
+                image: https://cc-dam.imgix.net/step-1-sync-6.svg
               - title: Configure your editing
                 description: >-
                   Define your data types and give your team the ideal editing
                   interfaces.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18911_it9ipo.png
+                image: https://cc-dam.imgix.net/Step 2 - Nuxtjs.svg
               - title: ' Invite your content team to collaborate'
                 description: >-
                   Give your team access to update the content on the site, all
                   without the help of a developer. 
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
+                image: https://cc-dam.imgix.net/step-3-edit-7.svg
               - title: Go live with Nuxt.js hosting included
                 description: >-
                   Delight your customers by hosting your Nuxt.js sites on a
                   global CDN with unparalleled reach and speed.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
+                image: https://cc-dam.imgix.net/step-4-live-7.svg
           styles:
             desktop:
               margin:

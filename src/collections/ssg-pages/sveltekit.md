@@ -1552,28 +1552,24 @@ content_blocks:
             steps:
               - title: Sync your SvelteKit site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
+                image: https://cc-dam.imgix.net/step-1-sync-7.svg
               - title: Configure your SvelteKit build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/SvelteKit-file-detected_b6nztf.png
+                image: https://cc-dam.imgix.net/Step 2 - Svelte.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
                   our SvelteKit CMS, and without the help of a developer.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
+                image: https://cc-dam.imgix.net/step-3-edit-8.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed. Alternatively, bring your
                   own hosting provider, and CloudCannon will handle it
                   seamlessly.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
+                image: https://cc-dam.imgix.net/step-4-live-8.svg
           styles:
             desktop:
               margin:

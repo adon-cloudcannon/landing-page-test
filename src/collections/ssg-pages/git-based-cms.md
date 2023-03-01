@@ -858,28 +858,24 @@ content_blocks:
             steps:
               - title: Sync your static site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Git-options-screen_o1xt32.png
+                image: https://cc-dam.imgix.net/step-1-sync-1.svg
               - title: Configure your SSG build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Astro-file-detected_g7pnzx.png
+                image: https://cc-dam.imgix.net/step-2-all-ssgs.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
                   our Git CMS, and without the help of a developer.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18535_ciyft9.png
+                image: https://cc-dam.imgix.net/step-3-edit-2.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed. Alternatively, bring your
                   own hosting provider, and CloudCannon will handle it
                   seamlessly.
-                image: >-
-                  https://cc-dam.imgix.net/Landing%20Pages/Group_18541_se5b9p.png
+                image: https://cc-dam.imgix.net/step-4-live-2.svg
           styles:
             desktop:
               margin:
