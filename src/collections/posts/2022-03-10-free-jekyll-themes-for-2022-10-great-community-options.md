@@ -49,7 +49,7 @@ Vonge's key features:
 
 Love Netflix’s design? Now you can have your own beautiful, responsive Jekyll theme Netflix-style site for blogging or showcasing other content.
 
-![Jekflix screenshot](https://cc-dam.imgix.net/blog/uploads/jekflix.jpg){: width="1999" height="959"}
+![Jekflix screenshot](https://cc-dam.imgix.net/blog/uploads/jekflix.jpg)
 
 Jekflix's key features:
 
@@ -61,7 +61,7 @@ Jekflix's key features:
 
 From the creator of the most popular Jekyll theme out there, [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), this theme aims to be your new replacement for the standard Minima theme.
 
-![Basically Basic Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/basically-basic.jpg){: width="1554" height="1003"}
+![Basically Basic Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/basically-basic.jpg)
 
 Basically basic's key features:
 
@@ -73,7 +73,7 @@ Basically basic's key features:
 
 The TeXt theme is a hugely customizable Jekyll theme option for just about any project, such as personal/team sites, blogs, or documentation. Influenced by iOS 11 style, it is visually pleasing and responsive, with a number of plugin options.
 
-![Text Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/text-theme.jpg){: width="1268" height="872"}
+![Text Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/text-theme.jpg)
 
 TeXt theme's key features:
 
@@ -85,7 +85,7 @@ TeXt theme's key features:
 
 For developers in need of a personal site, this is a great, flexible option. It’s more than just a portfolio, however, with a whole showcase of other page options available.
 
-![Devlopr Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/devolpr-jekyll.jpg){: width="1999" height="798"}
+![Devlopr Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/devolpr-jekyll.jpg)
 
 Devlopr-Jekyll's features:
 
@@ -114,7 +114,7 @@ Edition's key features:
 
 Jekyll Serif gives you all you need to get a business site up and running quickly. The creators have gone to great lengths to make a great-looking, performant site, with a clean, modern theme that’s appropriate for many typical setups.
 
-![Serif Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/jekyll-serif.jpg){: width="2574" height="1170"}
+![Serif Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/jekyll-serif.jpg)
 
 Jekyll Serif's key features:
 
@@ -126,7 +126,7 @@ Jekyll Serif's key features:
 
 On the lookout for a great-looking, flexible Jekyll theme focusing on text presentation/documentation? Chirpy might be just what you need for almost any kind of documenting need.
 
-![Chirpy Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/chirpy.jpg){: width="2832" height="1340"}
+![Chirpy Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/chirpy.jpg)
 
 Chirpy's key features:
 
@@ -153,7 +153,7 @@ Base's key features:
 
 APIs are an important part of the Jamstack model. The authors of this Jekyll theme wanted a simple solution for documenting them, without the complexity of enterprise solutions. This theme is great for getting documented quickly, focusing purely on written content.
 
-![Carte Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/carte.jpg){: width="2812" height="1168"}
+![Carte Jekyll theme screenshot](https://cc-dam.imgix.net/blog/uploads/carte.jpg)
 
 Carte's key features:
 

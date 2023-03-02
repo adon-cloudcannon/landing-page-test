@@ -43,7 +43,7 @@ Today we release our Hugo beta with the plan to move Hugo out of beta by Septemb
 
 This is a chance to shape the support for Hugo in CloudCannon and make sure it fits your needs, so any and all feedback is highly appreciated.
 
-[Get started with Hugo for free](https://app.cloudcannon.com/register?trial=cc_standard){: .c-link.cc-helper__button.cc-helper__button--button}
+[Get started with Hugo for free](https://app.cloudcannon.com/register?trial=cc_standard)
 
 ## What SSG is next for CloudCannon?
 

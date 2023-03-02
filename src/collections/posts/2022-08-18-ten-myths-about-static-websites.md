@@ -21,7 +21,7 @@ Whether these myths came about from misunderstanding or misinterpretation, let�
 
 ---
 
-## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#1: Static sites are difficult to edit.
 
@@ -29,7 +29,7 @@ This myth is probably the most common one I came across. I’m guessing it comes
 
 The fact is, there are dozens of static-capable content management systems (CMSs) that make editing static websites as easy as working in a rich text editor. Some, like CloudCannon, even add advanced visual page-building into the mix, so anyone can edit and create static pages, as well as manage the contents of their own website.
 
-## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#2: You have to edit each static page separately.
 
@@ -37,7 +37,7 @@ Ok, this one’s false, but the misperception is grounded in history. In the 199
 
 These days, however — and by that I encompass the last twenty years or so — tools called static site generators (SSGs) use templates to build all of a website’s pages. You can design a layout once, and it’s applied to as many pages as you want.
 
-![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#3: There’s no JavaScript in static sites.
 
@@ -45,25 +45,25 @@ I’m honestly not sure where this one comes from, or the complicated chain of h
 
 Some SSGs do not use JavaScript when they build websites; others do, but try to minimize the amount of JavaScript that loads in the client’s browser. What all SSGs share, however, is the capacity to use JavaScript within a webpage if a developer wants to use it.
 
-## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#4: Static sites can’t use external data or APIs
 
 Static sites commonly use external data stores such as JSON, CSV, XML, YML and TOML. They also use APIs for additional functions such as [analytics, commenting, search, and ecommerce](https://cloudcannon.com/community/jamstack-ecosystem/).
 
-![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#5: Static means I can’t use videos or animations.
 
 This one’s probably based on a literal interpretation of the word ‘static’, meaning unmoving. Let the record show that a static site is static in its delivery method only — the site is built by the SSG, and is then immediately ready for user browsers to load, complete with the full spectrum of CSS animations, and as many embedded videos, and GIFs of cats playing keytars as you’d like.
 
-## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#6: Static is only good for tiny sites.
 
 Not at all. This could be related to Myth \#2, but I’m guessing this one is connected to the ‘build time’, which is how long the SSG takes to construct HTML pages. The truth is, [SSGs like Hugo and Eleventy are incredibly fast](https://www.zachleat.com/web/build-benchmark/) at building even large sites. A CMS like CloudCannon — the content management layer that acts as a bridge between the user and the more technical SSG — also helps to reduce build time for non-technical users, who are able to edit as they please and build their sites when they choose to do so.
 
-## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#7: Static websites are usually created in simple text editors like Notepad.
 
@@ -71,7 +71,7 @@ Not as a matter of course. (Unless you *really love* Notepad.)
 
 Static sites are usually created in two main ways, depending on who’s making them. Non-technical editors (like marketers or copywriters) can [create new static sites from a template](https://cloudcannon.com/community/themes/), and [edit them in the browser](https://cloudcannon.com/features/visual-editing/) via a user-friendly CMS. Developers will usually use CLI tools to create their sites locally, and then [connect those files](https://cloudcannon.com/documentation/articles/connecting-your-first-site/) to a [hosting service](https://cloudcannon.com/documentation/articles/hosting-your-live-site/) (and likely a visual CMS, when they hand off the new site to their content or marketing teams for their ongoing use).
 
-## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#8: The static approach for websites is “old-fashioned” or “simple”.
 
@@ -79,7 +79,7 @@ Again, this misconception is rooted in web history (static delivery is how the w
 
 To be clear, there will always be a use case for both static and dynamic sites. But what people seem to be suggesting with this kind of comment is that web developers should always use the latest and shiniest tools because they’re newer. And that’s great, but only if the site needs them\! The truth is, many websites would be better served (faster, more secure) with a static approach.
 
-![](https://cc-dam.imgix.net/material-icon-close-circle-outline-red.svg){: width="70"}
+![](https://cc-dam.imgix.net/material-icon-close-circle-outline-red.svg)
 
 ## Myth \#9: Static sites “don’t respond to user actions”.
 
@@ -87,7 +87,7 @@ This myth is a little vague, to be fair, but is the only one that has a kernel o
 
 What static sites don’t do, however, is show different content to different users, based on their viewing habits or a user's past actions on the site.
 
-## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg){: width="70"}
+## ![](https://cc-dam.imgix.net/material-icon-close-circle-red.svg)
 
 ## Myth \#10: “It can be hard to scale a static website to add new content, once you’ve built the basic structure.”
 
@@ -101,7 +101,7 @@ As I’ve mentioned above, CloudCannon *exists* to make it easier for everyone t
 
 ---
 
-![](https://cc-dam.imgix.net/material-icon-checkbox-marked-circle-outline-green.svg){: width="70"}
+![](https://cc-dam.imgix.net/material-icon-checkbox-marked-circle-outline-green.svg)
 
 ## There we have it.
 

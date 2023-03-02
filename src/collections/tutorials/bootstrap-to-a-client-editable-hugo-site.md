@@ -10,4 +10,4 @@ seo:
   featured_image_alt:
 ---
 
-In this tutorial we’ll take an existing, MIT licensed Bootstrap template made by the talented team at [Themefisher](https://themefisher.com/){: target="_blank" rel="noopener noreferrer"}, and convert it into a client-editable Hugo website. Along the way we’ll learn the basics of Hugo, how to structure the navigation, blog content, and components.
+In this tutorial we’ll take an existing, MIT licensed Bootstrap template made by the talented team at [Themefisher](https://themefisher.com/), and convert it into a client-editable Hugo website. Along the way we’ll learn the basics of Hugo, how to structure the navigation, blog content, and components.

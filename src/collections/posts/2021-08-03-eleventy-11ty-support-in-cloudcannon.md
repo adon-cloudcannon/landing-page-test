@@ -40,7 +40,7 @@ We’ve conducted beta testing with members of the Jamstack community, and we ex
 
 You can help the community shape support for Eleventy in CloudCannon and make sure it fits your needs; we appreciate all feedback.
 
-[Get started with Eleventy for free](https://app.cloudcannon.com/register?trial=cc_standard){: .c-link.cc-helper__button.cc-helper__button--button}
+[Get started with Eleventy for free](https://app.cloudcannon.com/register?trial=cc_standard)
 
 ## Which SSG is next for CloudCannon?
 

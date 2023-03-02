@@ -99,7 +99,7 @@ Where should I start?
 
 [Netflix uses Jamstack](https://cloudcannon.com/customers/netflix/) (via CloudCannon) to create an extensive network of international sites to maintain and manage relationships with its customers and partners.
 
-![](https://cc-dam.imgix.net/blog/uploads/twitch-scene.jpg){: width="600" height="361"}
+![](https://cc-dam.imgix.net/blog/uploads/twitch-scene.jpg)
 
 [Twitch uses Jamstack](https://cloudcannon.com/customers/twitch/) (via CloudCannon) to deliver sites to their 30 million daily active users.
 

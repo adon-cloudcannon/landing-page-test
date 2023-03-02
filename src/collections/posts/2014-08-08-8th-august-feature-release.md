@@ -17,7 +17,6 @@ The best new ability - you can now host sites on CloudCannon without a Dropbox a
 <!-- excerpt stop -->
 
 ## New features
-{: .cc-helper-hidden}
 
 ![New empty site state in CloudCannon](https://cc-dam.imgix.net/blog/assets/blog/2014-08-08-feature-release/new-site-empty-state-header.png "New empty site state in CloudCannon")
 

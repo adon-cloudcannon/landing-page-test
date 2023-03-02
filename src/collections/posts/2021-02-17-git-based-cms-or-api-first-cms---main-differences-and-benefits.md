@@ -21,9 +21,9 @@ Many older content management systems (CMSs) suffer from tightly coupled archite
 
 Modern development demands, including for a CMS, mean moving fast, scaling easily for traffic, and worrying less about security and infrastructure. Both a Git-based CMS and an API-first CMS help with these demands by improving developer workflows and making content more portable, while still giving you a visual interface for management. But how each of these solutions solves these problems is quite different: 
 
-A **Git-based CMS** is a system that synchronizes with your Git repository and pulls its contents into the system for processing, such as editing and viewing. Any changes made are pushed back to the repository to keep the system and code in sync. ![](https://cc-dam.imgix.net/blog/uploads/diagram-git-1.svg){: width="600" height="226"}
+A **Git-based CMS** is a system that synchronizes with your Git repository and pulls its contents into the system for processing, such as editing and viewing. Any changes made are pushed back to the repository to keep the system and code in sync. ![](https://cc-dam.imgix.net/blog/uploads/diagram-git-1.svg)
 
-An **API-first CMS** lets you create structured content, such as tables representing products, in raw form. This content can then be requested via an API, typically as JSON data, and then built into applications of varying types. ![](https://cc-dam.imgix.net/blog/uploads/diagram-api.svg){: width="600" height="367"}
+An **API-first CMS** lets you create structured content, such as tables representing products, in raw form. This content can then be requested via an API, typically as JSON data, and then built into applications of varying types. ![](https://cc-dam.imgix.net/blog/uploads/diagram-api.svg)
 
 In the end, when you’re deciding which option is the best, it comes down to where you want to store your content, and what you want to do with it.
 

@@ -29,7 +29,7 @@ A simple technique for bundling JavaScript is to use Jekyll includes. With this 
 ```
 
 > Remember to add front matter dashes in bundle.js so that Jekyll processes the Liquid.
-{: .explainer}
+
 
 This allows you to divide your JavaScript into manageable pieces in development, while only linking to `bundle.js` on your site:
 

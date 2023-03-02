@@ -17,13 +17,13 @@ Recently we covered [turning a Jekyll theme into a Gem and hosting it privately 
 
 First, [create a repository](https://github.com/new)  on GitHub. Anyone can use your theme if the repository is public.
 
-Clone the repository to your local machine and open it from the command line. The Jekyll `new-theme`{: .language-console} command builds a basic theme structure that includes the `_layouts`, `_includes` and `_sass` directories. Start building a theme by entering the following into your command line:
+Clone the repository to your local machine and open it from the command line. The Jekyll `new-theme` command builds a basic theme structure that includes the `_layouts`, `_includes` and `_sass` directories. Start building a theme by entering the following into your command line:
 
 ```shell
 $ jekyll new-theme mytheme
 ```
 
-This generates a basic Jekyll site which other sites can inherit from. The Jekyll `new-theme`{: .language-console} command also creates a gemspec file (`mytheme.gemspec`). This holds the version, and other relevant theme details.
+This generates a basic Jekyll site which other sites can inherit from. The Jekyll `new-theme` command also creates a gemspec file (`mytheme.gemspec`). This holds the version, and other relevant theme details.
 
 It is good practice to add all relevant details to the `.gemspec` file, and the `README.md` file. You will receive build errors if the `.gemspec` and `README.md` files contain “FIXME” and “TODO” entries.
 
@@ -73,7 +73,7 @@ gem 'mytheme', '>= 0.1.0', :git => 'https://TOKEN:x-oauth-basic@github.com/USERN
 
 If you include the `TOKEN` string in your `Gemfile` directly, you can start to receive a lot of warnings from the GitGuardian. In this case, you can keep your secret key in CloudCannon environment variables. In CloudCannon navigate to *Settings &gt; Configuration &gt; Environment Variables.*
 
-Add the *key* `GIT_SECRET`{: .language-console} and add your token as the value. Then inside of your `Gemfile` import this environment variable and replace the `TOKEN` string with variable.
+Add the *key* `GIT_SECRET` and add your token as the value. Then inside of your `Gemfile` import this environment variable and replace the `TOKEN` string with variable.
 
 ```ruby
 auth = ENV['GIT_SECRET']

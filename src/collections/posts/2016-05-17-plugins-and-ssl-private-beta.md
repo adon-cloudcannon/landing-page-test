@@ -23,7 +23,7 @@ This feature works for all existing and new sites. The only requirement of this 
 
 The controls available to the editable region are decided by the parent element. `span` has less controls than a `p` which has less controls than a `div`. See our [Editable Regions documentation](https://docs.cloudcannon.com/editing/editable-regions/) for more information.
 
-![CloudCannon interface showing inline editing of a blog post](https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable.png 800w, https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable@2x.png 1600w"}
+![CloudCannon interface showing inline editing of a blog post](https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable.png)
 
 The Content Editor is still available for sites that are not set up for inline editing. Existing sites need to trigger a build to access the new feature.
 

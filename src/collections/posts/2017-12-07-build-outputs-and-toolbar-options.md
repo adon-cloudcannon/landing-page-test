@@ -16,7 +16,7 @@ Editing and syncing are two critical features in CloudCannon. We've recently imp
 
 In addition to syncing your source files with Bitbucket and GitHub, you can now set a repository as an output for your site. After every change, CloudCannon builds your site and syncs the output with your selected destination. Use this to create custom deployment flows for external hosting, or reduce the complexity of your current solution.
 
-![Storage Providers interface](https://cc-dam.imgix.net/blog/assets/blog/build-outputs-and-toolbar-options/storage-providers.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/build-outputs-and-toolbar-options/storage-providers.png 800w, https://cc-dam.imgix.net/blog/assets/blog/build-outputs-and-toolbar-options/storage-providers@2x.png 1600w"}
+![Storage Providers interface](https://cc-dam.imgix.net/blog/assets/blog/build-outputs-and-toolbar-options/storage-providers.png)
 
 See our [official documentation](https://cloudcannon.com/documentation/articles/output-a-built-site-from-cloudcannon-to-an-external-provider/) for more details on setting your first output.
 

@@ -19,7 +19,7 @@ Themes are a necessity when managing more than one site that use the same design
 
 ### Creating Jekyll Themes
 
-The Jekyll `new-theme`{: .language-console} command creates a basic theme structure which includes the \_layouts, \_includes and \_sass directories. Start building a theme by entering the following into your command line:
+The Jekyll `new-theme` command creates a basic theme structure which includes the \_layouts, \_includes and \_sass directories. Start building a theme by entering the following into your command line:
 
 ```shell
 $ jekyll new-theme mytheme
@@ -95,7 +95,7 @@ $ bundle config https://gem.fury.io/USERNAME/ DEPLOYTOKEN
 
 Authentication also needs to be added to your site on CloudCannon, which can be done using [environment variables](/documentation/build/setup/environments/#keyword:environment%20variables) . In CloudCannon navigate to *Settings &gt; Configuration &gt; Environment Variables.*
 
-Add the *key* `BUNDLE_GEM__FURY__IO`{: .language-console} and add your deploy token as the *value*. These steps only need to be performed once with each site using a theme.
+Add the *key* `BUNDLE_GEM__FURY__IO` and add your deploy token as the *value*. These steps only need to be performed once with each site using a theme.
 
 Test your theme by building it locally. Note that you need to install your new theme so run `bundle install` before serving your site:
 

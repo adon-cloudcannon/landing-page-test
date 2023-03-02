@@ -93,7 +93,7 @@ Static site generators are used for a huge range of website use cases, from mark
 
 Here are some of the most common use cases for static site generators, as well as our recommendations for which SSG might be suitable for each. You might find it helpful to first ask yourself where your site sits on a sliding scale between ‘Information’ and ‘Application’.<br> 
 
-![](https://cc-dam.imgix.net/page-neptune.svg){: width="70"}
+![](https://cc-dam.imgix.net/page-neptune.svg)
 
 ### **Marketing sites and landing pages**
 
@@ -101,7 +101,7 @@ SSGs are a great choice for marketing websites because the websites load extreme
 
 **We recommend:** Hugo, Jekyll, Eleventy, Gatsby.js.<br> 
 
-![](https://cc-dam.imgix.net/blog-neptune.svg){: width="70"}
+![](https://cc-dam.imgix.net/blog-neptune.svg)
 
 ### **Blogs**
 
@@ -109,7 +109,7 @@ For blogging-centric sites, any SSG will likely do well. Many other types of web
 
 **We recommend:** Hugo, Jekyll, Eleventy (though all major SSGs handle blogging with ease).<br> 
 
-![](https://cc-dam.imgix.net/documentation-neptune.svg){: width="70"}
+![](https://cc-dam.imgix.net/documentation-neptune.svg)
 
 ### **Documentation sites**
 
@@ -117,7 +117,7 @@ Documentation sites can get massive, particularly if they support a large or gro
 
 **We recommend:** Hugo, Jekyll, Eleventy.<br> 
 
-![](https://cc-dam.imgix.net/cart-neptune.svg){: width="100"}
+![](https://cc-dam.imgix.net/cart-neptune.svg)
 
 ### **Ecommerce sites**
 
@@ -125,7 +125,7 @@ Ecommerce is a wide spectrum, and SSGs can support everything from simple shop t
 
 **We recommend:** Hugo, Jekyll, Eleventy (for simple ecommerce sites); or Gatsby.js, Next.js, Nuxt.js (for more complex or interactive ecommerce sites).<br> 
 
-![](https://cc-dam.imgix.net/application-neptune.svg){: width="70"}
+![](https://cc-dam.imgix.net/application-neptune.svg)
 
 ### **Applications**
 

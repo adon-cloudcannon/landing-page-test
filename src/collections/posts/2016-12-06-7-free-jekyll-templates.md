@@ -23,13 +23,13 @@ With a Jekyll CMS like [CloudCannon](https://cloudcannon.com), you have all thes
 
 [Client Sharing](https://docs.cloudcannon.com/sharing/client-sharing/) is a CloudCannon feature specifically for freelancers and agencies. Instead of each client creating their own CloudCannon account, you set up a *Client Sharing* password in *Site Settings / Client Sharing.* Clients then go to https://theirwebsite.com/update/ and enter the password to update content on their site. *Client Sharing* is available on paid plans at no extra charge.
 
-\!\[Image of the client login CloudCannon page](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-login.png)\{: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-login.png 800w, https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-login@2x.png 1600w"\}
+\!\[Image of the client login CloudCannon page](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-login.png)\
 
 ## Start with a template
 
 CloudCannon has [templates available](https://learn.cloudcannon.com/jekyll-templates/) to help kickstart your next project. These templates are designed to get the most out of CloudCannon so they're a great starting point or reference for what's possible on CloudCannon.
 
-![Screenshot of the 'justice' theme homepage](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template.png 800w, https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template@2x.png 1600w"}
+![Screenshot of the 'justice' theme homepage](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template.png)
 
 ## Staging site
 
@@ -43,25 +43,25 @@ Clients updating production sites directly can be a dangerous game. Setting up a
 
 Client sites often have a contact form. CloudCannon has a [Contact Forms](https://docs.cloudcannon.com/hosting/contact-forms/) feature for setting up HTML forms. When a form is submitted, the content is emailed to the client.
 
-\!\[Screenshot of an example contact page](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/contact.png)\{: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/contact.png 800w, https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/contact@2x.png 1600w"\}
+\!\[Screenshot of an example contact page](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/contact.png)\
 
 ## Documentation site
 
 CloudCannon is streamlined and easy to use. However, it's often valuable to give the client instructions for common tasks to help them in a pinch. This is a great use case for the CloudCannon *Edition* template. Simply add instructions and screenshots and your client has their own documentation website.
 
-\!\[Screenshot of example documenation site](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/edition.png)\{: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/edition.png 800w, https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/edition@2x.png 1600w"\}
+\!\[Screenshot of example documenation site](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/edition.png)\
 
 ## Customise the Client interface
 
 Add links to your support email and documentation (like the one mentioned above) to the client interface so your client can get help when they need it. These options are found in *Site Settings / Client Interface*.
 
-\!\[Screenshot of an the client interface on CloudCannon](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-interface.png)\{: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-interface.png 800w, https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-interface@2x.png 1600w"\}
+\!\[Screenshot of an the client interface on CloudCannon](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-interface.png)\
 
 ## White Labelling
 
 The CloudCannon Pro plan allows you to custom brand the application. In *Organisation Settings / Details* you can set a colour and logos for the sidebar, client editor and sites list.
 
-\!\[Screenshot of the CloudCannon interface branded purple instead of the CloudCannon blue](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/branding.png)\{: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/branding.png 800w, https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/branding@2x.png 1600w"\}
+\!\[Screenshot of the CloudCannon interface branded purple instead of the CloudCannon blue](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/branding.png)\
 
 ## Summary
 

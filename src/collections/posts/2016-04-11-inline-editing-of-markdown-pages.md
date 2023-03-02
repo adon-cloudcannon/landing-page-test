@@ -20,8 +20,7 @@ This week we announce a long awaited feature, inline editing of Markdown files. 
 The controls available to the editable region are decided by the parent element. `span` has less controls than a `p` which has less controls than a `div`. See our [Editable Regions documentation](https://docs.cloudcannon.com/editing/editable-regions/) for more information.
 
 ![CloudCannon inline editing of our
-blog](https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable.png){: .screenshot srcset="https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable.png 800w,
-https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable@2x.png 1600w"}
+blog](https://cc-dam.imgix.net/blog/assets/blog/inline-editing/markdown-editable.png)
 
 The Content Editor is still available for sites that are not set up for inline editing. Existing sites need to trigger a build to access the new feature.
 

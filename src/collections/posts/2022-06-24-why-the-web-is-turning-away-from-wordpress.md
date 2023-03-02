@@ -46,7 +46,7 @@ Talented new frontend developers currently enter the workforce with neither the 
 Without a lot of paring back and additional development time, WordPress sites simply don’t perform to our exacting modern standards. To tease out the feelings behind [a tweet from content marketer Brooklin Nash](https://twitter.com/realbrooknash/status/1489017807425748992?lang=en) that’s been stuck in my mind for some time, our desire for instant gratification has the tendency to outpace our ability to be realistic:
 
 > Somehow I’m old enough to remember dial-up but young enough to rage-quit any website that takes longer than 5 seconds to load. — Brooklin Nash (@realBrookNash) [February 2, 2022](https://twitter.com/realBrookNash/status/1489017807425748992?ref_src=twsrc%5Etfw)
-{: .twitter-tweet}
+
 
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

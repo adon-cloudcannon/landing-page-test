@@ -29,4 +29,4 @@ We’re conducting beta testing with members of the Jamstack community, and we e
 
 You can help the community shape support for both Next.js and SvelteKit in CloudCannon and make sure it fits your needs — feel free to contact support through the [CloudCannon app](https://app.cloudcannon.com/register?trial=cc_standard) or on [Twitter](https://twitter.com/CloudCannon) if you'd like to test our support for either SSG; we appreciate all feedback.
 
-[Get started for free](https://app.cloudcannon.com/register?trial=cc_standard){: .c-link.cc-helper__button.cc-helper__button--button}
+[Get started for free](https://app.cloudcannon.com/register?trial=cc_standard)

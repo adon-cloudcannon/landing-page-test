@@ -19,12 +19,12 @@ This week [Chrome is releasing an update](https://security.googleblog.com/2018/0
 
 Once you add a domain name to CloudCannon we will attempt to generate an SSL certificate. We use [Let’s Encrypt](https://letsencrypt.org/) to author the certificate and plug them into our existing SSL system. Let’s Encrypt authorises us to do this by doing a request to that domain name. If the response matches what Let’s Encrypt expected, your certificate will be granted. This means that as soon as your DNS propagates to show your site, it will be protected with HTTPS.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/free-automatic-ssl/f1c251082b2ed18c0769acfd4c61f8ad.png){: .screenshot}
+![](https://cc-dam.imgix.net/blog/assets/blog/free-automatic-ssl/f1c251082b2ed18c0769acfd4c61f8ad.png)
 
 HTTP will default to redirect to HTTPS for all CloudCannon sites. This can be configured using the *Site Settings*. Automatic generation can also be disabled which will enable a custom certificate upload option. If you have any issues, see the [documentation](https://docs.cloudcannon.com/ssl/letsencrypt/#doc) or [contact support](/contact/).
 
 ## What else is new
-{: .present-before-paste}
+
 
 Over the last month we have added four other features:
 

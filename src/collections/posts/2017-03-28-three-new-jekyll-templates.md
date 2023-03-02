@@ -17,19 +17,19 @@ It's great to see the different ways people are using the [Jekyll templates we l
 
 [Link to Base](https://cloudcannon.com/community/themes/base/)
 
-![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/base/1.jpeg){: width="1600" height="1000"}
+![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/base/1.jpeg)
 
 ## Treat
 
 [Link to Treat](https://cloudcannon.com/community/themes/treat/)
 
-![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/treat/1.jpeg){: width="1600" height="1000"}
+![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/treat/1.jpeg)
 
 ## Fur
 
 [Link to Fur](https://cloudcannon.com/community/themes/fur/)
 
-![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/fur/1.jpeg){: width="1600" height="1000"}
+![](https://cc-dam.imgix.net/blog/assets/blog/3-new-jekyll-templates/fur/1.jpeg)
 
 ## Usage
 
