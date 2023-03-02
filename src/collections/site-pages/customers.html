@@ -10,253 +10,425 @@ seo:
   featured_image_alt: >-
     CloudCannon's visual CMS that keeps both content editors and developers
     happy
-content_blocks:
-  - _bookshop_name: sections/container
-    content:
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: 'Effortless content management</br>at any scale '
-          styles:
-            size: h1
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: biggest
-              margin:
-                top: 0
-                bottom: 60
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 15
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Find out why world-leading companies use CloudCannon to power
-              their digital content strategy.
-          styles:
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: biggest
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 30
-              block_alignment:
-                active: false
-                align_block: left
-            width: medium
-        - _bookshop_name: sections/container
-          content:
-            label: G2 awards
-            blocks:
-              - _bookshop_name: simple/image
-                content:
-                  alt:
-                  image: https://cc-dam.imgix.net/G2-awards-winter-2023 (1).png
-                styles:
-                  border:
-                  rounded:
-                  ontop:
-                  width: tight
-                  desktop:
-                    transform:
-                      scale: 0.75
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                    block_alignment:
-                      align_block: left
-                    margin:
-                      top: 0
-                      left: 0
-                      bottom: 0
-                      right: 0
-                    position:
-                      top: 0
-                      left: 0
-                      bottom: 0
-                      right: 0
-                  tablet:
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                    block_alignment:
-                      active: false
-                      align_block: left
-                    margin:
-                      active: false
-                      top: 0
-                      left: 0
-                      bottom: 0
-                      right: 0
-                    position:
-                      active: false
-                      top: 0
-                      left: 0
-                      bottom: 0
-                      right: 0
-                  mobile:
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                    block_alignment:
-                      active: false
-                      align_block: left
-                    margin:
-                      active: false
-                      top: 0
-                      left: 0
-                      bottom: 0
-                      right: 0
-                    position:
-                      active: false
-                      top: 0
-                      left: 0
-                      bottom: 0
-                      right: 0
-          styles:
-            background: white
-            rounded: full
-            size: small
-            align: none
-            desktop:
-              margin:
-                top: 60
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: true
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-    styles:
-      background: white
-      rounded: none
-      size: normal
-      align: none
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 90
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 30
-          right: 0
-          bottom: 41
-          left: 0
+top_content:
+  content_blocks:
+    - _bookshop_name: sections/container
+      content:
+        blocks:
+          - _bookshop_name: simple/heading
+            content:
+              text: 'Effortless content management</br>at any scale '
+            styles:
+              size: h1
+              width: normal
+              desktop:
+                text_alignment:
+                  align: center
+                text_sizing:
+                  text_size: biggest
+                margin:
+                  top: 0
+                  bottom: 60
+              tablet:
+                text_alignment:
+                  active: false
+                  align: left
+                text_sizing:
+                  active: false
+                  text_size: big
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+              mobile:
+                text_alignment:
+                  active: false
+                  align: left
+                text_sizing:
+                  active: true
+                  text_size: normal
+                margin:
+                  active: true
+                  top: 0
+                  bottom: 15
+          - _bookshop_name: simple/text-block
+            content:
+              text_markdown: >-
+                Find out why world-leading companies use CloudCannon to power
+                their digital content strategy.
+            styles:
+              desktop:
+                text_alignment:
+                  align: center
+                text_sizing:
+                  text_size: biggest
+                margin:
+                  top: 0
+                  bottom: 60
+                block_alignment:
+                  align_block: center
+              tablet:
+                text_alignment:
+                  active: false
+                  align: center
+                text_sizing:
+                  active: false
+                  text_size: normal
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+                block_alignment:
+                  active: false
+                  align_block: left
+              mobile:
+                text_alignment:
+                  active: false
+                  align: center
+                text_sizing:
+                  active: true
+                  text_size: normal
+                margin:
+                  active: true
+                  top: 0
+                  bottom: 30
+                block_alignment:
+                  active: false
+                  align_block: left
+              width: medium
+          - _bookshop_name: sections/container
+            content:
+              label: G2 awards
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt:
+                    image: https://cc-dam.imgix.net/G2-awards-winter-2023 (1).png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: tight
+                    desktop:
+                      transform:
+                        scale: 0.75
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+            styles:
+              background: white
+              rounded: full
+              size: small
+              align: none
+              desktop:
+                margin:
+                  top: 60
+                  right: 0
+                  bottom: 0
+                  left: 0
+                padding:
+                  top: 0
+                  right: 0
+                  bottom: 0
+                  left: 0
+              tablet:
+                margin:
+                  active: false
+                  top: 0
+                  right: 0
+                  bottom: 0
+                  left: 0
+                padding:
+                  active: false
+                  top: 0
+                  right: 0
+                  bottom: 0
+                  left: 0
+              mobile:
+                margin:
+                  active: true
+                  top: 0
+                  right: 0
+                  bottom: 0
+                  left: 0
+                padding:
+                  active: false
+                  top: 0
+                  right: 0
+                  bottom: 0
+                  left: 0
+      styles:
+        background: white
+        rounded: none
+        size: normal
+        align: none
+        desktop:
+          margin:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            top: 90
+            right: 0
+            bottom: 90
+            left: 0
+        tablet:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+        mobile:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: true
+            top: 30
+            right: 0
+            bottom: 41
+            left: 0
+bottom_content:
+  content_blocks:
+    - _bookshop_name: sections/container
+      content:
+        label: CTA
+        blocks:
+          - _bookshop_name: simple/heading
+            content:
+              text: Get started with CloudCannon
+            styles:
+              element: h2
+              width: tight
+              desktop:
+                text_alignment:
+                  align: center
+                text_sizing:
+                  text_size: big
+                margin:
+                  top: 0
+                  bottom: 30
+              tablet:
+                text_alignment:
+                  active: false
+                  align: left
+                text_sizing:
+                  active: false
+                  text_size: big
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+              mobile:
+                text_alignment:
+                  active: false
+                  align: left
+                text_sizing:
+                  active: true
+                  text_size: normal
+                margin:
+                  active: true
+                  top: 0
+                  bottom: 30
+          - _bookshop_name: simple/text-block
+            content:
+              text_markdown: >-
+                Try out CloudCannon with a 14-day free trial, or get in touch with
+                us for a demo.
+            styles:
+              desktop:
+                text_alignment:
+                  align: center
+                text_sizing:
+                  text_size: normal
+                margin:
+                  top: 0
+                  bottom: 30
+                block_alignment:
+                  align_block: center
+              tablet:
+                text_alignment:
+                  active: false
+                  align: left
+                text_sizing:
+                  active: false
+                  text_size: normal
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+                block_alignment:
+                  active: false
+                  align_block: left
+              mobile:
+                text_alignment:
+                  active: false
+                  align: left
+                text_sizing:
+                  active: false
+                  text_size: normal
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+                block_alignment:
+                  active: false
+                  align_block: left
+              width: medium
+          - _bookshop_name: simple/button-holder
+            content:
+              button_blocks:
+                - _bookshop_name: simple/button
+                  content:
+                    text: Try for free
+                    link: https://app.cloudcannon.com/register?trial=cc_standard
+                  styles:
+                    style: white
+                    size: big
+                    extra_classes:
+                - _bookshop_name: simple/button
+                  content:
+                    text: Book a demo
+                    link: /book-a-demo/
+                  styles:
+                    style: outline-white
+                    size: big
+                    extra_classes:
+            styles:
+              desktop:
+                margin:
+                  top: 16
+                  bottom: 0
+                justify:
+                  align: center
+              tablet:
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+                justify:
+                  active: false
+                  align: center
+              mobile:
+                margin:
+                  active: false
+                  top: 0
+                  bottom: 0
+                justify:
+                  active: false
+                  align: center
+      styles:
+        background: cc-blue
+        rounded: top
+        desktop:
+          margin:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            top: 90
+            right: 0
+            bottom: 140
+            left: 0
+        tablet:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 90
+            right: 0
+            bottom: 90
+            left: 0
+        mobile:
+          margin:
+            active: true
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: true
+            top: 30
+            right: 0
+            bottom: 90
+            left: 0
+        size: normal
+        align: none
 ---
 <div class="container">
 	<div class="grid grid-cols-1 mb-28 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12 [&>a]:mx-auto">
