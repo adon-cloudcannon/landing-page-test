@@ -19,6 +19,8 @@ blueprint:
     width: full
     pixel_width:
     desktop:
+      visibility:
+        hide: false
       transform:
         scale: 1
         translate_x: 0
@@ -38,6 +40,9 @@ blueprint:
         bottom: 0
         right: 0
     tablet:
+      visibility:
+        active: false
+        hide: false
       transform:
         active: false
         scale: 1
@@ -61,6 +66,9 @@ blueprint:
         bottom: 0
         right: 0
     mobile:
+      visibility:
+        active: false
+        hide: false
       transform:
         active: false
         scale: 1

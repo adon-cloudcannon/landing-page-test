@@ -31,7 +31,7 @@ blueprint:
     tablet:
       visibility:
         active: false
-        hide: false
+        hide: true
       position:
         active: false
         top: 0
@@ -48,7 +48,7 @@ blueprint:
     mobile:
       visibility:
         active: false
-        hide: false
+        hide: true
       position:
         active: false
         top: 0
