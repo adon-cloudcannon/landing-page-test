@@ -107,10 +107,18 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Start your free trial
-                  link: https://app.cloudcannon.com/register?trial=cc_standard
+                  text: Book a demo
+                  link: https://easy-sky.cloudvent.net/book-a-demo/
                 styles:
                   style: normal
+                  size: big
+                  extra_classes:
+              - _bookshop_name: simple/button
+                content:
+                  text: Get started with a free trial
+                  link: /https://app.cloudcannon.com/editor
+                styles:
+                  style: outline
                   size: big
                   extra_classes:
           styles:
@@ -1454,7 +1462,7 @@ content_blocks:
                 skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Everything you need
+            text: Advance your content workflow with Jekyll on CloudCannon
           styles:
             element: h2
             width: normal
@@ -1844,7 +1852,7 @@ content_blocks:
             tablet:
               columns:
                 active: false
-                type: split
+                type: stacked
                 width: 0
                 gap: 0
                 vertical_gap: 0

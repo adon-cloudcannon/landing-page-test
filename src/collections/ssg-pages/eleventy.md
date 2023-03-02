@@ -1471,7 +1471,7 @@ content_blocks:
                 skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow with Astro on CloudCannon
+            text: Advance your content workflow with Eleventy on CloudCannon
           styles:
             element: h2
             width: normal

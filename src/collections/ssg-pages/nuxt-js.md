@@ -105,10 +105,18 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Start your free trial
-                  link: https://app.cloudcannon.com/register?trial=cc_standard
+                  text: Book a demo
+                  link: https://easy-sky.cloudvent.net/book-a-demo/
                 styles:
                   style: normal
+                  size: big
+                  extra_classes:
+              - _bookshop_name: simple/button
+                content:
+                  text: Get started with a free trial
+                  link: /https://app.cloudcannon.com/editor
+                styles:
+                  style: outline
                   size: big
                   extra_classes:
           styles:
@@ -1452,7 +1460,7 @@ content_blocks:
                 skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Everything you need
+            text: Advance your content workflow with Nuxt.js on CloudCannon
           styles:
             element: h2
             width: normal
@@ -1486,49 +1494,6 @@ content_blocks:
                 active: true
                 top: 0
                 bottom: 15
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: Get up and going in minutes.
-          styles:
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 30
-              block_alignment:
-                active: false
-                align_block: left
-            width: medium
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -1843,7 +1808,7 @@ content_blocks:
             tablet:
               columns:
                 active: false
-                type: split
+                type: stacked
                 width: 0
                 gap: 0
                 vertical_gap: 0

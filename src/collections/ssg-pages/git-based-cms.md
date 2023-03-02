@@ -105,10 +105,18 @@ content_blocks:
             button_blocks:
               - _bookshop_name: simple/button
                 content:
-                  text: Start your free trial
-                  link: https://app.cloudcannon.com/register?trial=cc_standard
+                  text: Book a demo
+                  link: https://easy-sky.cloudvent.net/book-a-demo/
                 styles:
                   style: normal
+                  size: big
+                  extra_classes:
+              - _bookshop_name: simple/button
+                content:
+                  text: Get started with a free trial
+                  link: /https://app.cloudcannon.com/editor
+                styles:
+                  style: outline
                   size: big
                   extra_classes:
           styles:
@@ -819,7 +827,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Improve your content workflow with the CloudCannon CMS
+            text: Advance your content workflow on CloudCannon CMS
           styles:
             element: h2
             width: tight
