@@ -441,7 +441,7 @@ content_blocks:
                 active: true
                 type: stacked
                 width: 0
-                gap: 0
+                gap: 30
                 vertical_gap: 0
               vertical_block_alignment:
                 active: false
@@ -683,7 +683,7 @@ content_blocks:
                 active: true
                 type: stacked
                 width: 0
-                gap: 0
+                gap: 30
                 vertical_gap: 0
               vertical_block_alignment:
                 active: false
@@ -1342,7 +1342,7 @@ content_blocks:
                 active: true
                 type: stacked
                 width: 0
-                gap: 0
+                gap: 30
                 vertical_gap: 0
               vertical_block_alignment:
                 active: false
@@ -1815,7 +1815,7 @@ content_blocks:
                 active: true
                 type: stacked
                 width: 0
-                gap: 0
+                gap: 30
                 vertical_gap: 0
               vertical_block_alignment:
                 active: false
