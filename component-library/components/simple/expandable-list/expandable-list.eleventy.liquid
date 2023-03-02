@@ -60,7 +60,7 @@
 		<div :class="open ? '{{ border_open }} highlight-bg' : '{{ border_closed }}'" @click="open=!open" class="cursor-pointer px-5 py-6 {{ classes }}" x-data="{ open: false }">
 			<h4 class="font-bold {{ heading_size}}">
 				<a class="flex justify-between items-center">
-					<span class="[&>svg]:mr-2 [&>svg]:w-[28px] flex items-center">
+					<span class="[&>svg]:mr-3 [&>svg]:w-[28px] flex items-center">
 						{% if row.prefix_icon.icon_path %}
 							{% bookshop 'helpers/icon' icon_path: row.prefix_icon.icon_path icon_color: row.prefix_icon.icon_color %}
 						{% endif %}
