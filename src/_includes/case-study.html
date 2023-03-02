@@ -32,15 +32,15 @@ eleventyComputed:
                 bottom: 0
             mobile:
               text_alignment:
-                active: false
-                align: left
+                active: true
+                align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: "{{ description }}"
@@ -71,10 +71,10 @@ eleventyComputed:
                 align_block: left
             mobile:
               text_alignment:
-                active: false
-                align: left
+                active: true
+                align: center
               text_sizing:
-                active: false
+                active: true
                 text_size: normal
               margin:
                 active: false
@@ -83,7 +83,7 @@ eleventyComputed:
               block_alignment:
                 active: false
                 align_block: left
-            width: full
+            width: large
         - _bookshop_name: simple/case-study-person
           uuid: "{{ case_study_person }}"
         - _bookshop_name: simple/spacer
@@ -113,7 +113,7 @@ eleventyComputed:
             bottom: 0
             left: 0
           padding:
-            top: 130
+            top: 80
             right: 0
             bottom: 80
             left: 0
@@ -125,10 +125,10 @@ eleventyComputed:
             bottom: 0
             left: 0
           padding:
-            active: false
-            top: 0
+            active: true
+            top: 40
             right: 0
-            bottom: 0
+            bottom: 40
             left: 0
         mobile:
           margin:
@@ -146,22 +146,24 @@ eleventyComputed:
 ---
 {% bookshop_include "page" content_blocks: header_blocks %}
 
-<div class="container relative">
-  <div class="prose md:prose-lg lg:prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+<div class="container relative pb-28">
+  <div class="prose md:prose-lg lg:prose-xl mx-auto">
     {{ content }}
 
-    <div class="bg-blue-100 mt-10 rounded-xl pt-7 pb-3 px-10 mb-20">
-      <h3 class="mt-0">Launch your website today</h3>
+    <div class="border border-carbon mt-10 rounded-xl p-10 mb-20 text-center">
+      <h3 style="margin-top: 0">Launch your website today</h3>
       <p>Give your content team full autonomy on your developer-approved tech stack with CloudCannon.</p>
-      <p><a href="https://app.cloudcannon.com/register?trial=cc_standard">Get started free!</a></p>
+      {% bookshop 'helpers/button' text:'Get started free' size:'normal' style:'outline' extra_classes:'no-underline' %}
     </div>
   </div>
-  <div class="absolute right-0 top-2 h-full">
-    <div class="sticky top-20 flex flex-col items-center gap-y-4">
-      <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://twitter.com/share?url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/twitter.svg' | svgContents}}</a>
-      <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://www.facebook.com/sharer.php?u=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/facebook.svg' | svgContents}}</a>
-      <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="http://www.linkedin.com/shareArticle?mini=true&url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/linkedin.svg' | svgContents}}</a>
-      <a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://cloudcannon.com{{ page.url }}.">{{ '/src/images/icons/outline/envelope.svg' | svgContents}}</a>
+  <div class="lg:absolute lg:right-0 lg:top-2 lg:h-full">
+    <div class="lg:sticky lg:top-20">
+      <div class="flex lg:flex-col mt-8 lg:mt-0 justify-center items-center gap-y-4 gap-x-4">
+        <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://twitter.com/share?url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/twitter.svg' | svgContents}}</a>
+        <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://www.facebook.com/sharer.php?u=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/facebook.svg' | svgContents}}</a>
+        <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="http://www.linkedin.com/shareArticle?mini=true&url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/linkedin.svg' | svgContents}}</a>
+        <a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://cloudcannon.com{{ page.url }}.">{{ '/src/images/icons/outline/envelope.svg' | svgContents}}</a>
+      </div>
     </div>
   </div>
 </div>
