@@ -113,9 +113,9 @@ const search = new Instance({
     indexWeight: 2,
     mergeIndex: [
         {
-            bundlePath: "https://cloudcannon.com/blog/_pagefind/",
+            bundlePath: "https://cloudcannon.com/documentation/_pagefind/",
             mergeFilter: {
-                site: "Pretending to be docs"
+                site: "Documentation"
             }
         }
     ]
