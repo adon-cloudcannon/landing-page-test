@@ -441,8 +441,8 @@ content_blocks:
                 active: true
                 type: stacked
                 width: 0
-                gap: 30
-                vertical_gap: 0
+                gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
