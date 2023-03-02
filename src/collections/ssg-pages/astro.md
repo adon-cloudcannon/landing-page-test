@@ -1460,7 +1460,7 @@ content_blocks:
                 skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Everything you need
+            text: Advance your content workflow with Astro on CloudCannon
           styles:
             element: h2
             width: normal
@@ -1494,55 +1494,12 @@ content_blocks:
                 active: true
                 top: 0
                 bottom: 15
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: Get up and going in minutes.
-          styles:
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 30
-              block_alignment:
-                active: false
-                align_block: left
-            width: medium
         - _bookshop_name: simple/steps
           content:
             steps:
               - title: Sync your Astro site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
-                image: https://cc-dam.imgix.net/Step 1 - Sync.svg
+                image: https://cc-dam.imgix.net/step-1-sync-8.svg
               - title: Configure your Astro build
                 description: >-
                   Add your environment variables, command line options, custom
