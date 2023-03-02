@@ -50,8 +50,8 @@ eleventyComputed:
                   active: false
                   align: left
                 text_sizing:
-                  active: false
-                  text_size: big
+                  active: true
+                  text_size: normal
                 margin:
                   active: false
                   top: 0
@@ -67,7 +67,7 @@ eleventyComputed:
                   text_size: biggest
                 margin:
                   top: 0
-                  bottom: 120
+                  bottom: 0
                 block_alignment:
                   align_block:
               tablet:
@@ -89,7 +89,7 @@ eleventyComputed:
                   active: false
                   align: left
                 text_sizing:
-                  active: false
+                  active: true
                   text_size: normal
                 margin:
                   active: false
@@ -111,7 +111,7 @@ eleventyComputed:
             bottom: 0
             left: 0
           padding:
-            top: 130
+            top: 80
             right: 0
             bottom: 80
             left: 0
@@ -136,10 +136,10 @@ eleventyComputed:
             bottom: 0
             left: 0
           padding:
-            active: false
-            top: 0
+            active: true
+            top: 30
             right: 0
-            bottom: 0
+            bottom: 60
             left: 0
 permalink: /blog/tags/{{ tag | slugify }}/
 
