@@ -3,7 +3,9 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
 	content: ['_site/**/*.html'],
-	safelist: [],
+	safelist: [
+		'text-ellipsis'
+	],
 	theme: {
 		extend: {
 			screens: {
@@ -51,7 +53,7 @@ module.exports = {
 		},
 		transitionTimingFunction: {
 			'cc-cubic': 'cubic-bezier(.22 ,1, .36 ,1)',
-		  }
+		}
 	
 	},
 	plugins: [

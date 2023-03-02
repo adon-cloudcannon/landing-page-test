@@ -1,6 +1,9 @@
 <header class="z-50" 
-	x-data="{ mobileNavOpen: false }"
+	x-data="{ mobileNavOpen: false, searchModalOpen: false }"
 	x-init="width = (window.innerWidth > 0) ? window.innerWidth : screen.width;"
+	@keydown.escape="searchModalOpen=false; $focusSearch(searchModalOpen);"
+	@keydown.window.prevent.ctrl.k="searchModalOpen=!searchModalOpen; $focusSearch(searchModalOpen);"
+	@keydown.window.prevent.cmd.k="searchModalOpen=!searchModalOpen; $focusSearch(searchModalOpen);"
 	@resize.window="
 		if(window.innerWidth > 1023){
 			mobileNavOpen = false;
@@ -30,7 +33,7 @@
 			{% endfor %}
 		</nav>
 		<div class="ml-4 lg:flex hidden">
-			<button class="hover:bg-gray-100 transition p-3 w-11 rounded-lg [&>svg]:stroke-cc inline-block" aria-label="Search">
+			<button x-on:click="searchModalOpen = true; $focusSearch(true);" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg [&>svg]:stroke-cc inline-block" aria-label="Search">
 				{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
 			</button>
 		</div>
@@ -42,7 +45,7 @@
 
 		<!-- Mobile components -->
 		<div class="ml-auto flex lg:hidden">
-			<button class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc" aria-label="Search">
+			<button x-on:click="searchModalOpen = true; $focusSearch(true);" class="hover:bg-gray-100 transition inline-block p-3 w-11 rounded-lg [&>svg]:stroke-cc" aria-label="Search">
 				{{ '/src/images/icons/outline/magnifying-glass-mobile.svg' | svgContents }}
 			</button>
 			<button x-on:click="mobileNavOpen = !mobileNavOpen" class="hover:bg-gray-100 transition p-3 w-11 rounded-lg" aria-label="Toggle mobile nav">
@@ -59,4 +62,5 @@
 		</div>
 		{% include 'partials/nav/_mobile_nav.html' %}
 	</div>
+	{% include 'partials/search/modal.html' %}
 </header>

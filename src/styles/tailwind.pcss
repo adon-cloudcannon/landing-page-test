@@ -30,6 +30,18 @@ html {
 	@apply text-gray-900;
 }
 
+body.t-scroll-lock {
+    /* Position-fixed hack, locks iOS too */
+    position: fixed;
+    width: 100%;
+
+    /* Avoids scroll to top */
+    top: calc(var(--scroll-padlock-scroll-top) * -1);
+
+    /* Reserves space for scrollbar */
+    padding-right: var(--scroll-padlock-scrollbar-width);
+}
+
 .caret::before {
 	z-index: 1;
 	content: "";
