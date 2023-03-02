@@ -14,5 +14,9 @@ module.exports = {
 
 	strip_markdown_images: function(markdown) {
 		return markdown.replace(/(^!\[.*?\]\()(.+?)(\))/gm, '');
+	},
+
+	strip_cc_deploy: function(markdown) {
+		return markdown.replace(/\[\!\[Deploy to CloudCannon\]\(https\:\/\/buttons\.cloudcannon\.com\/deploy\.svg\)\]\((https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)\)/gm, '');
 	}
 };

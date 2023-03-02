@@ -221,9 +221,9 @@ eleventyComputed:
 
       <div x-show="selected == {{ i }}">
         {% include 'partials/themes/buttons.html' details:r %}
-        <div class="prose md:prose-lg lg:prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+        <div class="prose md:prose-lg lg:prose-xl prose-li:my-[3px] prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-2 prose-h3:mb-1 prose-h3:mt-2 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
           
-          {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | markdownify }}
+          {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | strip_cc_deploy | markdownify }}
         </div>
       </div>
     {% endfor %}

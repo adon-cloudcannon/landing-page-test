@@ -61,6 +61,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("push", Helpers.push_to_array);
 	eleventyConfig.addFilter("download_github_readme", DataGetter.download_github_readme);
 	eleventyConfig.addFilter("strip_markdown_images", DataGetter.strip_markdown_images);
+	eleventyConfig.addFilter("strip_cc_deploy", DataGetter.strip_cc_deploy);
 
 	eleventyConfig.addPlugin(svgContents);
 	eleventyConfig.addPlugin(syntaxHighlight);

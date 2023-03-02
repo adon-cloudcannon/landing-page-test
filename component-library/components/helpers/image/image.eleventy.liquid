@@ -17,7 +17,7 @@
 	{% assign image_path = image | replace: ' ', '%20' %}
 
 	{% if responsive %}
-		<picture class="{{ outer_classes }}">
+		<picture class="{{ picture_classes }}">
 			{% assign c_width = w %}
 			{% for i in (0..5) %}
 				{% assign m = i | times: 300 %}
