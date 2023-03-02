@@ -438,8 +438,8 @@ content_blocks:
                 v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
                 vertical_gap: 0
@@ -680,8 +680,8 @@ content_blocks:
                 v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
                 vertical_gap: 0
@@ -1339,8 +1339,8 @@ content_blocks:
                 v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
                 vertical_gap: 0
