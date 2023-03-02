@@ -437,11 +437,11 @@ content_blocks:
                 v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -676,11 +676,11 @@ content_blocks:
                 v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -1343,11 +1343,11 @@ content_blocks:
                 v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -1845,7 +1845,7 @@ content_blocks:
                 type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
