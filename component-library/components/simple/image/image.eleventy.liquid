@@ -22,9 +22,11 @@
 {% assign tablet_styles = tablet_styles | render_block_alignment: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_block_alignment: styles, 'mobile' %}
 
-{% assign desktop_styles = desktop_styles | render_visibility: styles, 'desktop' %}
-{% assign tablet_styles = tablet_styles | render_visibility: styles, 'tablet' %}
-{% assign mobile_styles = mobile_styles | render_visibility: styles, 'mobile' %}
+{% if styles.desktop.visibility %}
+	{% assign desktop_styles = desktop_styles | render_visibility: styles, 'desktop' %}
+	{% assign tablet_styles = tablet_styles | render_visibility: styles, 'tablet' %}
+	{% assign mobile_styles = mobile_styles | render_visibility: styles, 'mobile' %}
+{% endif %}
 
 {% if styles.ontop %}
 	{% assign classes = classes | append: " z-10" %}
