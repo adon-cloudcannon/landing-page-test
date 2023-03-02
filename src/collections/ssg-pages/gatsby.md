@@ -1808,7 +1808,7 @@ content_blocks:
                 v_align: center
             tablet:
               columns:
-                active: false
+                active: true
                 type: stacked
                 width: 0
                 gap: 0
