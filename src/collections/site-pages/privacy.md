@@ -264,12 +264,12 @@ You can find out more information about how to change your browser cookie settin
 
 To learn more about how to control cookie settings through your browser:
 
-* click&nbsp;[here](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) to learn more about the *Private Browsing* setting and managing cookie settings in Firefox
-* click&nbsp;[here](https://support.google.com/chrome/answer/95647?hl=en)to learn more about *Incognito* and managing cookie settings in Chrome
+* click [here](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history) to learn more about the *Private Browsing* setting and managing cookie settings in Firefox
+* click [here](https://support.google.com/chrome/answer/95647?hl=en)to learn more about *Incognito* and managing cookie settings in Chrome
 * click [here](https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies) to learn more about *InPrivate* and managing cookie settings in Internet Explorer
 * click [here](https://support.apple.com/en-nz/guide/safari/browse-in-private-ibrw1069/mac) to learn more about *Private Browsing* and managing cookie settings in Safari.
 
-*You may opt out of targeted advertising at&nbsp;*[*http://www.youronlinechoices.eu/*](http://www.youronlinechoices.eu/)*. You can learn more about interest-based advertising and opt out of interest-based advertising from participating online advertising companies at the following links.*
+*You may opt out of targeted advertising at*[*http://www.youronlinechoices.eu/*](http://www.youronlinechoices.eu/)*. You can learn more about interest-based advertising and opt out of interest-based advertising from participating online advertising companies at the following links.*
 
 * *Network Advertising Initiative (NAI) –*[*http://optout.networkadvertising.org/*](http://optout.networkadvertising.org/)\*\*
 * *Digital Advertising Alliance (DAA) –*[*http://optout.aboutads.info/*](http://optout.aboutads.info/)\*\*
