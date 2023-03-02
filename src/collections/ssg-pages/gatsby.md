@@ -1501,11 +1501,21 @@ content_blocks:
             steps:
               - title: Sync your Gatsby site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-1-sync.svg
               - title: Configure your Gatsby build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-2-gatsby.svg
               - title: Invite your content team to collaborate
                 description: >-
@@ -1516,6 +1526,11 @@ content_blocks:
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-4-live-1.svg
           styles:
             desktop:

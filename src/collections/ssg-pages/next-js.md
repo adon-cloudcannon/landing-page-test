@@ -1521,21 +1521,41 @@ content_blocks:
             steps:
               - title: Sync your Next.js site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-1-sync-5.svg
               - title: Configure your Next.js build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-2-nextjs.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
                   our Next.js CMS, and without the help of a developer.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-3-edit-6.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-4-live-6.svg
           styles:
             desktop:

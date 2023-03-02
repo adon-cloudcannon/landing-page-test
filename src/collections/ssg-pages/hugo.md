@@ -1511,21 +1511,41 @@ content_blocks:
             steps:
               - title: Sync your Hugo site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-1-sync-2.svg
               - title: Configure your Hugo build
                 description: >-
                   Define your data types and give your team the ideal editing
                   interfaces.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-2-hugo.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, all
                   without the help of a developer. 
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-3-edit-3.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-4-live-3.svg
           styles:
             desktop:

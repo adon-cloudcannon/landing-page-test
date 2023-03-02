@@ -1510,21 +1510,41 @@ content_blocks:
             steps:
               - title: Sync your Eleventy site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/Step 1 - Sync.svg
               - title: Configure your Eleventy build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/Step 2- 11ty.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Start collaborating with your team. Edit content right on the
                   page.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/Step 3 - Edit.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/Step 4 - Live.svg
           styles:
             desktop:

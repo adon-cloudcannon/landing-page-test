@@ -32,6 +32,54 @@
 	{% assign count = 0 %}
 	<div class="md:grid grid-cols-2 gap-4 gap-y-16">
 		{% for step in content.steps %}
+
+			{% case step.link.icon_color %}
+			{% when 'purple-dark' %} 
+				{% assign foreground = '#cd7eff' %}
+			{% when 'purple' %}
+				{% assign foreground = '#5112ad' %}
+			{% when 'violet-dark' %} 
+				{% assign foreground = '#c847ff' %}
+			{% when 'violet' %}
+				{% assign foreground = '#b12cc8' %}
+			{% when 'blue-dark' %} 
+				{% assign foreground = '#aaabff' %}
+			{% when 'blue' %}
+				{% assign foreground = '#004684' %}
+			{% when 'orange-dark' %} 
+				{% assign foreground = '#f09537' %}
+			{% when 'orange' %}
+				{% assign foreground = '#ff6838' %}
+			{% when 'yellow-dark' %}
+				{% assign foreground = '#f9f846' %}
+			{% when 'yellow' %}
+				{% assign foreground = '#ffd627' %}
+			{% when 'green-dark' %}
+				{% assign foreground = '#46ee8f' %}
+			{% when 'green' %}
+				{% assign foreground = '#2fdd38' %}
+			{% when 'red-dark' %}
+				{% assign foreground = '#ff6565' %}
+			{% when 'red' %}
+				{% assign foreground = '#f30000' %}
+			{% when 'pink-dark' %}
+				{% assign foreground = '#fbc7c7' %}
+			{% when 'pink' %}
+				{% assign foreground = '#f16462' %}
+			{% when 'teal-dark' %}
+				{% assign foreground = '#29d59f' %}
+			{% when 'teal' %}
+				{% assign foreground = '#3dfbbf' %}
+			{% else %}
+				{% assign foreground = '#373737' %}
+			{% endcase %}
+			
+			{% if step.link.icon_path contains 'solid' %}
+				{% assign svg_style = 'fill-[' | append: foreground | append: ']' %}
+			{% else %}
+				{% assign svg_style = 'stroke-[' | append: foreground | append: ']' %}
+			{% endif %}
+
 			{% assign count = count | plus: 1 %}
 			<div class="flex items-center">
 				<div class="flex">
@@ -40,8 +88,17 @@
 					</div>
 					<div>
 						<h3 class="text-2xl font-bold mb-3">{{ step.title }}</h3>
-						<div class="text-lg">
+						<div class="text-lg prose">
 							{{ step.description | markdownify }}
+
+							{% if step.link.url %}
+								<p>
+									<span class="inline-block w-[20px] h-[20px] grow-0 shrink-0 mr-2 relative top-[5px]">
+										{{ '/src/images/icons/' | append: step.link.icon_path | append: '.svg' | svgContents: svg_style }}
+									</span>
+									<a href="{{ step.link.url }}" target="_blank" class="underline">{{ step.link.text }}</a>
+								</p>
+							{% endif %}
 						</div>
 					</div>
 				</div>
@@ -49,7 +106,7 @@
 			<div class="text-right">
 				<div class="max-h-[343px] my-10 md:my-0">
 					{% assign alt = 'step ' | append: count | append: ' to set up CloudCannon' %}
-					{% bookshop "helpers/image" image: step.image alt: content.alt responsive: true classes: 'w-full md:w-auto' %}
+					{% bookshop "helpers/image" image: step.image alt: content.alt responsive: true classes: 'w-full' %}
 				</div>
 			</div>
 		{% endfor %}

@@ -1505,16 +1505,31 @@ content_blocks:
             steps:
               - title: Sync your MkDocs site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-1-sync-4.svg
               - title: Configure your MkDocs build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-2-mkdocs.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
                   our MkDocs CMS, and without the help of a developer.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-3-edit-5.svg
               - title: Go live with hosting
                 description: >-
@@ -1522,6 +1537,11 @@ content_blocks:
                   with unparalleled reach and speed. Alternatively, bring your
                   own hosting provider, and CloudCannon will handle it
                   seamlessly.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-4-live-5.svg
           styles:
             desktop:

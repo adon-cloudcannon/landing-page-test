@@ -13,6 +13,11 @@ blueprint:
     steps:
       - title:
         description:
+        link:
+          text:
+          url:
+          icon_path: outline/check-circle
+          icon_color: green
         image:
   styles:
     desktop:

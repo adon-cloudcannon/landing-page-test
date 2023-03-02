@@ -1544,21 +1544,41 @@ content_blocks:
             steps:
               - title: Sync your Jekyll site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-1-sync-3.svg
               - title: Configure your Jekyll build
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-2-jekyll.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site
                   without the help of a developer.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-3-edit-4.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
                 image: https://cc-dam.imgix.net/step-4-live-4.svg
           styles:
             desktop:
