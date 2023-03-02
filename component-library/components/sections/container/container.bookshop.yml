@@ -18,6 +18,7 @@ blueprint:
     rounded: none
     size: normal
     align: none
+    shadow: false
     desktop:
       margin:
         top: 0

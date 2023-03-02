@@ -50,6 +50,10 @@
 	{% assign mobile_styles = mobile_styles | append: mx %}
 {% endcase %}
 
+{% if styles.shadow %}
+	{% assign classes = classes | append: " shadow-xl" %}
+{% endif %}
+
 {% assign container_name = "container" | UUID %}
 <style>
 	@media (min-width: 1280px) {
