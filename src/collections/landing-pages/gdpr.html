@@ -12,12 +12,45 @@ content_blocks:
     content:
       label: GDPR
       blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: GDPR
+          styles:
+            element: h1
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              # GDPR
-
-
               ## What is GDPR?
 
 
@@ -570,21 +603,32 @@ content_blocks:
 
               ##### **LIST OF SUB-PROCESSORS AS AT 5/5/2021**
 
-              | **Legal Entity** | **Location** | **Purpose** |
-              | Amazon Web Services, Inc. | United States | Cloud Service Provider |
-              | Slack Technologies, Inc | United States | Communication Services |
-              | Rapid7, Inc | United States | Log processing |
-              | Stripe, Inc | United States | Payment Processing |
-              | Intercom, Inc. | United States | Customer Support |
-              | SendGrid, Inc. | United States | Email infrastructure |
-              | Raygun Limited | New Zealand | Error reporting |
-              | Cloudflare, Inc. | United States | Hosting CDN infrastructure |
-              | ChartMogul Ltd | United Kingdom | Financial analytics |
-              | Google Inc. | United States | Analytics, Email and Document Platform |
-              | Notion | United States | Document Management |
-              | MailChimp | United States | Newsletter Software |
-              | SurveyMonkey | United States | Survey Software |
-              | Zapier | United States | Customer Support Forms |
+
+              <table><tbody><tr><td><strong>Legal</strong>
+              <strong>Entity</strong></td><td><strong>Location</strong></td><td><strong>Purpose</strong></td></tr><tr><td>Amazon
+              Web Services, Inc.</td><td>United States</td><td>Cloud Service
+              Provider</td></tr><tr><td>Slack Technologies, Inc</td><td>United
+              States</td><td>Communication Services</td></tr><tr><td>Rapid7,
+              Inc</td><td>United States</td><td>Log
+              processing</td></tr><tr><td>Stripe, Inc</td><td>United
+              States</td><td>Payment Processing</td></tr><tr><td>Intercom,
+              Inc.</td><td>United States</td><td>Customer
+              Support</td></tr><tr><td>SendGrid, Inc.</td><td>United
+              States</td><td>Email infrastructure</td></tr><tr><td>Raygun
+              Limited</td><td>New Zealand</td><td>Error
+              reporting</td></tr><tr><td>Cloudflare, Inc.</td><td>United
+              States</td><td>Hosting CDN
+              infrastructure</td></tr><tr><td>ChartMogul Ltd</td><td>United
+              Kingdom</td><td>Financial analytics</td></tr><tr><td>Google
+              Inc.</td><td>United States</td><td>Analytics, Email and Document
+              Platform</td></tr><tr><td>Notion</td><td>United
+              States</td><td>Document
+              Management</td></tr><tr><td>MailChimp</td><td>United
+              States</td><td>Newsletter
+              Software</td></tr><tr><td>SurveyMonkey</td><td>United
+              States</td><td>Survey
+              Software</td></tr><tr><td>Zapier</td><td>United
+              States</td><td>Customer Support Forms</td></tr></tbody></table>
 
 
               #### SCHEDULE 3
@@ -596,7 +640,10 @@ content_blocks:
               If you would like to opt in to the Standard Contractual Clauses,
               please complete the necessary details, countersign the Standard
               Contractual Clauses, and return a counter-signed copy to us at
-              privacy@cloudcannon.com. [Signed CloudCannon
+              privacy@cloudcannon.com.
+
+
+              [Signed CloudCannon
               SCCs.pdf](https://dam-cdn.cloudcannon.com/SignedCloudCannonSCCs.pdf)
           styles:
             width: full
@@ -652,7 +699,7 @@ content_blocks:
         padding:
           top: 0
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       tablet:
         margin:
