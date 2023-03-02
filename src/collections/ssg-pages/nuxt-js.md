@@ -1539,7 +1539,7 @@ content_blocks:
                 description: >-
                   Define your data types and give your team the ideal editing
                   interfaces.
-                image: https://cc-dam.imgix.net/Step 2 - Nuxtjs.svg
+                image: https://cc-dam.imgix.net/step-2-nuxtjs.svg
               - title: ' Invite your content team to collaborate'
                 description: >-
                   Give your team access to update the content on the site, all

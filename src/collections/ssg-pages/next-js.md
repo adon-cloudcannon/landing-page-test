@@ -1561,7 +1561,7 @@ content_blocks:
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
-                image: https://cc-dam.imgix.net/Step 2 - Nextjs.svg
+                image: https://cc-dam.imgix.net/step-2-nextjs.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using

@@ -1541,7 +1541,7 @@ content_blocks:
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
-                image: https://cc-dam.imgix.net/Step 2 - Gatsby.svg
+                image: https://cc-dam.imgix.net/step-2-gatsby.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team members access to update the content on the

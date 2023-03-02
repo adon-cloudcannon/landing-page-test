@@ -1551,7 +1551,7 @@ content_blocks:
                 description: >-
                   Define your data types and give your team the ideal editing
                   interfaces.
-                image: https://cc-dam.imgix.net/Step 2 - Hugo.svg
+                image: https://cc-dam.imgix.net/step-2-hugo.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, all
