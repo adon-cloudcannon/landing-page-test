@@ -86,13 +86,14 @@
 
 {% if quote and person and case_study %}
 	<div class="flex {{ classes }} {{ container_name }} rounded-2xl max-w-4xl relative">
+		
 		{% if person.data.transparent_image %}
 			<div class="w-[400px] px-5 relative hidden md:block {{ image_container_name }}">
 				{% bookshop "helpers/image" image: person.data.transparent_image alt: person.data.name responsive: true width: 380 classes: 'absolute bottom-0 max-h-[345px] w-auto' %}
 			</div>
 		{% endif %}
 		<div class="flex-1 px-5 py-10">
-			{% bookshop "helpers/image" image: case_study.data.logo alt: case_study.data.title responsive: true width: 150 classes: '' %}
+			{% bookshop "helpers/image" image: case_study.data.logo alt: case_study.data.title responsive: true width: 150 classes: 'max-h-[50px] w-auto' %}
 			<blockquote class="text-2xl my-8 font-bold">
 				{{ quote.data.quote }}
 			</blockquote>
