@@ -567,7 +567,7 @@ content_blocks:
               margin:
                 top: 0
                 right: 0
-                bottom: 85
+                bottom: 0
                 left: 0
             tablet:
               margin:
@@ -729,7 +729,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 100
+                bottom: 0
             tablet:
               margin:
                 active: false
@@ -841,11 +841,16 @@ content_blocks:
                         featured:
                         cta: Join the partner program
                         features:
-                          - 1 user included; add more for $10
-                          - Git syncing
-                          - Automatic site improvements
-                          - Client sharing
-                          - Basic forms
+                          - description: 1 user included; add more for $10
+                            tooltip: abc
+                          - description: Git Syncing
+                            tooltip: abc
+                          - description: Automatic site improvements
+                            tooltip: abc
+                          - description: Client sharing
+                            tooltip: abc
+                          - description: Basic forms
+                            tooltip: abc 
                   styles:
                     desktop:
                       margin:
@@ -872,11 +877,11 @@ content_blocks:
                 v_align: top
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 15
               vertical_block_alignment:
                 active: false
                 v_align: top
