@@ -863,7 +863,7 @@ content_blocks:
                 description: >-
                   Add your environment variables, command line options, custom
                   plugins, and more to automate your build.
-                image: https://cc-dam.imgix.net/step-2-all-ssgs.svg
+                image: https://cc-dam.imgix.net/all-ssgs-build2 (1).svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site, using
