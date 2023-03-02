@@ -52,17 +52,7 @@
 					{{ plan.description }}
 				</p>
 				<div>
-					{% assign style = 'outline' %}
-					{% if plan.featured %}
-						{% assign style = 'normal' %}
-					{% endif %}
-					
-					{% if priced_plan %}
-							{% assign text = 'Start 14-day trial' %}
-						{% else %}
-							{% assign text = 'Book a call with us' %}
-						{% endif %}
-					{% bookshop 'helpers/button' text:text size:'normal' style:style extra_classes:'w-full' %}
+					{% bookshop 'helpers/button' text:plan.cta.text size:'normal' link:plan.cta.link style:plan.cta.style extra_classes:'w-full' %}
 				</div>
 			</div>
 			<div class="px-8 py-6 border-gray-200 border-t">

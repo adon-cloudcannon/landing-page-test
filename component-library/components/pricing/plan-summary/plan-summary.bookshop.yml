@@ -14,8 +14,11 @@ blueprint:
       - name:
         price:
         description:
-        featured:
         cta:
+          text:
+          style:
+          link:
+        featured:
         features:
           - feature:
             tooltip:
