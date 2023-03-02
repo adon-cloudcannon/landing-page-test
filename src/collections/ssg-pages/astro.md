@@ -1805,7 +1805,7 @@ content_blocks:
             tablet:
               columns:
                 active: false
-                type: split
+                type: stacked
                 width: 0
                 gap: 0
                 vertical_gap: 0
