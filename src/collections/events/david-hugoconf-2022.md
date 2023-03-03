@@ -1,6 +1,6 @@
 ---
 image: 
-  path: https://cc-dam.imgix.net/HugoConf-DavidsTalk.jpg
+  path: https://cc-dam.imgix.net/uploads/events/Tech+Talk+-+David+Large.jpg
   alt: >-
     Black background image with picture of speaker, David Large
 date: 2022-07-08
