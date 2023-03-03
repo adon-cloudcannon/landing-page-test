@@ -319,9 +319,9 @@ bottom_content:
 
   <div class="mb-14 mt-5">
     {% for event in future_events %}
-    <a class="group block lg:grid grid-cols-2 relative transition duration-100 mb-10 hover:scale-[1.02] border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ event.data.link }}">
+    <a class="group block lg:grid grid-cols-2 relative transition duration-100 mb-10 hover:scale-[1.02] border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl overflow-hidden" target="_blank" href="{{ event.data.link }}">
       <div class="flex justify-center">
-        {% bookshop "helpers/image" image: event.data.image.path alt: event.data.image.alt responsive: true picture_classes: 'w-full' classes: 'rounded-l-xl w-full h-auto' width: 606 height: 340 %}
+        {% bookshop "helpers/image" image: event.data.image.path alt: event.data.image.alt responsive: true picture_classes: 'w-full' classes: 'w-full h-auto' width: 606 height: 340 %}
       </div>
       <div class="p-5 pb-10">
         <h3 class="text-3xl font-bold mb-6">
@@ -343,8 +343,8 @@ bottom_content:
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     
     {% for event in past_events %}
-      <a class="group relative transition duration-200 pb-10 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" target="_blank" href="{{ event.data.link }}">
-        {% bookshop "helpers/image" image: event.data.image.path alt: event.data.image.alt responsive: false picture_classes: 'w-full' classes: 'rounded-l-xl w-full h-auto' width: 438 %}
+      <a class="group relative transition duration-200 pb-10 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl overflow-hidden" target="_blank" href="{{ event.data.link }}">
+        {% bookshop "helpers/image" image: event.data.image.path alt: event.data.image.alt responsive: false picture_classes: 'w-full' classes: 'w-full h-auto' width: 438 %}
         <div class="p-5 pb-8">
           <h3 class="text-3xl font-bold mb-6">
             {{ event.data.title }}
