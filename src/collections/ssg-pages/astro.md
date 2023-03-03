@@ -284,7 +284,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -324,8 +324,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -599,7 +599,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -642,8 +642,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1164,7 +1164,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1225,8 +1225,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1420,7 +1420,7 @@ content_blocks:
                 size: 0
         - _bookshop_name: simple/quote
           content:
-              case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
           styles:
             background: white
             border: false
@@ -1670,7 +1670,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1717,8 +1717,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
