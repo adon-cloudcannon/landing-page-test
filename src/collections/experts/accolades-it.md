@@ -7,6 +7,7 @@ long_description: >-
   enterprise-ready solutions to take your company to the next level. We use
   technology to solve your problems and increase productivity, efficiency, and
   ultimately, your bottom line.</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-13-at-11-51-49-am.png
 logo_image: /images/logos/experts/lafayette-mobile-web-application-developers-12-1-1.svg
 location: Lafayette, LA, USA
 links:

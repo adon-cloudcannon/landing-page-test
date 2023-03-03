@@ -11,6 +11,7 @@ long_description: >-
   believe in partnering with our clients and growing our businesses together.
   Because of this approach, we are able to offer competitive rates and provide a
   high quality product.</p>
+website_image: https://cc-dam.imgix.net/uploads/liveatom-web.png
 logo_image: /images/logos/experts/mask-group.svg
 location: Rochester, MN, USA
 frameworks:

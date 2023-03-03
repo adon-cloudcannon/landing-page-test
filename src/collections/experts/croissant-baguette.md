@@ -14,6 +14,7 @@ long_description: >-
   your business using automation, bots, software, and other
   technologies.</p><p>We also build internal interfaces, dashboards, and apps to
   help your team seamlessly interact with your new or existing tech stack.</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-11-23-at-9-37-1-2.png
 logo_image: /images/logos/experts/cb-logo-stacked-black-kayci-scaggs.svg
 location: Sydney, Australia
 frameworks:

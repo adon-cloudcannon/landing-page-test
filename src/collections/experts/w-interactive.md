@@ -9,6 +9,7 @@ long_description: >-
   Andrew&rsquo;s studio produces beautifully-crafted and technically superior
   digital experiences that help clients to communicate with clarity, simplicity,
   and visual appeal.</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-5-01-33-pm.png
 logo_image: /images/logos/experts/w-interactive-logo-2.svg
 location: United Kingdom
 frameworks:

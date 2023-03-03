@@ -9,6 +9,7 @@ long_description: >-
   trends worldwide so that you can be sure that your business has exceptional
   website support.</p><p>We only take on board projects we love. You can be sure
   that we put 100% of our passion into every one of them.</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-33-28-am.png
 logo_image: /images/logos/experts/mask-group-2.svg
 location: United Kingdom & India
 frameworks:

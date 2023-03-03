@@ -13,6 +13,7 @@ long_description: >-
   can help create your perfect site using CloudCannon with a choice of Eleventy,
   Astro or Jekyll static site generators.</p><p>We look forward to discussing
   your new site or supporting you with an existing one.</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-9-45-57-am.png
 logo_image: /images/logos/experts/group-1.svg
 location: United Kingdom
 frameworks:

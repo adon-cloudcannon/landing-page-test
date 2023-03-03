@@ -16,6 +16,7 @@ long_description: >-
   and unnecessary coordination.</p><p>Browse our client projects below to see
   how our capabilities combine to create communication with substance that leads
   to results!</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-13-at-9-52-52-am.png
 logo_image: /images/logos/experts/insight-creative.svg
 location: Green Bay, WI, USA
 frameworks:

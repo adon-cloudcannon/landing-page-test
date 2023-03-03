@@ -16,6 +16,7 @@ long_description: >-
   digital tools shouldn't be either.</p><p>We stay current on changes in the
   marketplace so that you can focus on engaging your customers and building your
   business.</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-13-at-2-38-08-pm.png
 logo_image: /images/logos/experts/web-volta-black-1.svg
 location: Minneapolis, MN, USA
 frameworks:

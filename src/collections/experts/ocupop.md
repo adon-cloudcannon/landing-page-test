@@ -14,6 +14,7 @@ long_description: >-
   relationship unlike any other.</p><p>We dig deep, debate and deliver together:
   laughing, crying, and fighting like hell to change lives&mdash;or at the very
   least blow minds.</p>
+website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-10-30-12-am.png
 logo_image: /images/logos/experts/layer-2-1.svg
 location: Milwaukee, Hawaii, Whistler & Savannah
 frameworks:
