@@ -280,7 +280,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -320,8 +320,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -595,7 +595,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -635,8 +635,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1158,7 +1158,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1657,7 +1657,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1683,7 +1683,7 @@ content_blocks:
                       Gatsby is a static site generator built with React, and
                       using React/JSX for its templating and GraphQL for
                       queries. If you’re familiar with React, JavaScript, and
-                      Graph QL, you’ll be more than ready to get started.&nbsp;
+                      Graph QL, you’ll be more than ready to get started.
 
 
                       Gatsby is a developer-friendly SSG right out of the box,
@@ -1708,8 +1708,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
