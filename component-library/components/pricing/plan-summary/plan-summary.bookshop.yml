@@ -19,6 +19,7 @@ blueprint:
           style:
           link:
         featured:
+        feature_heading:
         features:
           - feature:
             tooltip:
