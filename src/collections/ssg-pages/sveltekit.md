@@ -282,7 +282,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -322,8 +322,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -597,7 +597,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -630,7 +630,7 @@ content_blocks:
 
                       To get started quickly, there are also a range of
                       production-ready [SvelteKit templates](/templates/) to
-                      choose from.&nbsp;
+                      choose from.
                   styles:
                     desktop:
                       text_alignment:
@@ -644,8 +644,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1174,7 +1174,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1680,7 +1680,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1735,8 +1735,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal

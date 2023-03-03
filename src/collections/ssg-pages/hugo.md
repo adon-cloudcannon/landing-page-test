@@ -283,7 +283,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -309,7 +309,7 @@ content_blocks:
                       Everything you need for content management, all on one
                       platform. Let your team build new pages, edit them
                       visually, and host the best performing sites on the web
-                      with the help of the CloudCannon CMS for Hugo.&nbsp;
+                      with the help of the CloudCannon CMS for Hugo.
                   styles:
                     desktop:
                       text_alignment:
@@ -323,8 +323,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -598,7 +598,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -638,8 +638,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1168,7 +1168,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1672,7 +1672,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1726,8 +1726,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
