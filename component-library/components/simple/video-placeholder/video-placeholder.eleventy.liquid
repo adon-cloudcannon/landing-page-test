@@ -10,6 +10,20 @@
 {% assign tablet_styles = tablet_styles | render_position: styles, 'tablet' %}
 {% assign mobile_styles = mobile_styles | render_position: styles, 'mobile' %}
 
+{% assign desktop_image = content.placeholder_image.desktop_image %}
+
+{% if content.placeholder_image.tablet_image %}
+	{% assign tablet_image = content.placeholder_image.tablet_image %}
+{% else %}
+	{% assign tablet_image = desktop_image %}
+{% endif %}
+
+{% if content.placeholder_image.mobile_image %}
+	{% assign mobile_image = content.placeholder_image.mobile_image %}
+{% else %}
+	{% assign mobile_image = tablet_image %}
+{% endif %}
+
 {% assign container_name = "video-placeholder" | UUID %}
 
 <style>
@@ -17,17 +31,41 @@
 		.{{ container_name}} {
 			{{ desktop_styles }}
 		}
+
+		.{{ container_name}} .desktop_image {
+			display: block;
+		}
+
+		.{{ container_name}} .tablet_image, .{{ container_name}} .mobile_image {
+			display: none;
+		}
 	}
 
 	@media (min-width: 768px) and (max-width: 1279px) {
 		.{{ container_name}} {
 			{{ tablet_styles }}
 		}
+
+		.{{ container_name}} .tablet_image {
+			display: block;
+		}
+
+		.{{ container_name}} .desktop_image, .{{ container_name}} .mobile_image {
+			display: none;
+		}
 	}
 
 	@media (max-width: 767px) {
 		.{{ container_name}} {
 			{{ mobile_styles }}
+		}
+
+		.{{ container_name}} .mobile_image {
+			display: block;
+		}
+
+		.{{ container_name}} .desktop_image, .{{ container_name}} .tablet_image {
+			display: none;
 		}
 	}
 </style>
@@ -98,7 +136,17 @@
 
 		{% assign c = 'w-full' %}
 		<div class="{{ container_name }}">
-			{% bookshop "helpers/image" image: content.placeholder_image alt: content.title responsive: true classes: c %}
+			<div class="desktop_image">
+				{% bookshop "helpers/image" image: desktop_image alt: content.title responsive: true classes: c %}
+			</div>
+
+			<div class="tablet_image">
+				{% bookshop "helpers/image" image: tablet_image alt: content.title responsive: true classes: c %}
+			</div>
+
+			<div class="mobile_image">
+				{% bookshop "helpers/image" image: mobile_image alt: content.title responsive: true classes: c %}
+			</div>
 		</div>
 		{% bookshop "helpers/video-modal" video:content.video title:content.title %}
 	</div>

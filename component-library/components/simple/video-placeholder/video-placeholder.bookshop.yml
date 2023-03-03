@@ -10,7 +10,10 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   content:
-    placeholder_image: '/images/page/player-frame.png'
+    placeholder_image: 
+      desktop_image: 
+      tablet_image: 
+      mobile_image:
     video: "https://player.vimeo.com/video/668496650?h=88572f7829&amp;app_id=122963"
     title: "How does CloudCannon work?"
   styles:
