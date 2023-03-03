@@ -1,5 +1,6 @@
 {
   "layout": "case-study.html",
   "tags": ["case-studies"],
+  "lead_score": 3,
   "permalink": "/customers/{{ page.fileSlug }}/"
 }

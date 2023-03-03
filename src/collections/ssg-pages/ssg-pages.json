@@ -1,4 +1,5 @@
 {
   "layout": "builder.html",
-  "tags": ["ssg-pages"]
+  "tags": ["ssg-pages"],
+  "lead_score": 5
 }

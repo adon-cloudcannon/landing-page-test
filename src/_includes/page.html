@@ -4,7 +4,7 @@
 	<meta charset="utf-8"> 
 	<link href="{{ site.favicon }}" rel="shortcut icon" type="image/svg+xml">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>REWORK {{ title }}</title>
+	<title>{{ title }} | CloudCannon</title>
 	<link rel="stylesheet" href="/style.css">
 	<link rel="preload" href="/fonts/tt-norms-pro/regular.woff2" as="font" crossOrigin="anonymous" type="font/woff2">
 	<link rel="preload" href="/fonts/tt-norms-pro/bold.woff2" as="font" crossOrigin="anonymous" type="font/woff2">
@@ -13,6 +13,7 @@
 
 	<!-- SEO tags -->
 	{% include 'partials/head/seo.html' %}
+	{% include 'partials/head/analytics.html' %} 
 </head>
 
 <body class="overflow-x-hidden subpixel-antialiased text-carbon">
