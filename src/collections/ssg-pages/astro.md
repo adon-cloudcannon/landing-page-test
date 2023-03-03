@@ -1225,7 +1225,7 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: true
+                        active: false
                         align: center
                       text_sizing:
                         active: false
