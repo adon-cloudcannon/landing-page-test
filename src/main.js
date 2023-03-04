@@ -131,7 +131,7 @@ search.add(new ResultList({
     containerElement: "#searchresults",
     resultTemplate: (result) => {
         const excerpt = trimExcerpt(result.excerpt, 20);
-        return `<li class="flex flex-col gap-2 list-none"><a class="p-6 radius-lg bg-transparent no-underline hover:bg-gray-100" href="${result.url}">
+        return `<li class="flex flex-col gap-2 list-none"><a class="p-6 radius-lg bg-transparent no-underline transition hover:bg-gray-100 rounded-xl" href="${result.url}">
             <span class="block text-cc text-lg font-bold">${result.meta.title}</span>
             <span class="block text-nimbus text-base font-normal whitespace-nowrap overflow-hidden text-ellipsis">${result.meta.site ?? "Company"} • ... ${excerpt} ...</span>
         </a></li>`;

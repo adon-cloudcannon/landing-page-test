@@ -4,11 +4,11 @@
      x-show="searchModalOpen"
      x-cloak
      x-transition>
-    <div class="bg-white flex flex-col overflow-hidden mt-0 md:mt-6 w-screen h-screen max-h-screen rounded-none md:rounded-lg md:w-[820] md:max-w-[90%] md:max-h-[90vh] p-6"
+    <div class="bg-white flex flex-col overflow-hidden mt-0 md:mt-6 w-screen h-screen max-h-screen rounded-none md:rounded-lg md:w-[820] md:max-w-4xl md:max-h-[90vh] p-6"
          x-on:click.away="searchModalOpen = false; $focusSearch(false);">
       <p class="flex items-center justify-between text-3xl font-bold m-0 mb-4">
         <span id="summary">Search</span>
-        <button class="p-3 flex items-center cursor-pointer bg-transparent appearance-none hover:bg-gray-100 transition w-11 rounded-lg"
+        <button class="p-3 flex items-center cursor-pointer bg-transparent appearance-none hover:bg-gray-100 transition w-11 rounded-xl"
                 x-on:click="searchModalOpen = false; $focusSearch(false);" 
                 title="Close Search">
             {{ '/src/images/icons/outline/x-mark.svg' | svgContents }}
@@ -35,7 +35,7 @@
             <button class="w-11 flex items-center gap-2 p-3 cursor-pointer bg-transparent appearance-none text-lg text-gray-500 hover:[&>svg]:stroke-cc"
                     x-on:click="recents = $deleteRecentSearch(recent)" 
                     title="Delete Recent Search">
-                {{ '/src/images/icons/outline/x-mark.svg' | svgContents }}
+                {{ '/src/images/icons/outline/trash.svg' | svgContents }}
             </button>
           </div>
         </template>
