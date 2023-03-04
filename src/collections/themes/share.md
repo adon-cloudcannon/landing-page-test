@@ -1,5 +1,5 @@
 ---
-_uuid:
+uuid:
 name: Share
 image: https://cc-dam.imgix.net/share-hero.jpg
 image_alt: Share template

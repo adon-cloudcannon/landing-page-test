@@ -1,5 +1,5 @@
 ---
-_uuid:
+uuid:
 name: Dante
 image: https://cc-dam.imgix.net/dante_screenshot-resize.png
 image_alt: Dante template

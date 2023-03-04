@@ -1,5 +1,5 @@
 ---
-_uuid:
+uuid:
 name: Megakit
 image: https://cc-dam.imgix.net/_screenshot.png
 image_alt: Megakit template

@@ -1,5 +1,5 @@
 ---
-_uuid: 09229e7e-f9e6-4e0f-a540-ed61f583d57b
+uuid: 09229e7e-f9e6-4e0f-a540-ed61f583d57b
 name: Justice
 image: https://cc-dam.imgix.net/community/images/templates/justice/1.jpg
 description: A simple law firm themed template with testimonials, staff and contact pages.

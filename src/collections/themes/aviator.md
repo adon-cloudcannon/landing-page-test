@@ -1,5 +1,5 @@
 ---
-_uuid: a2dd388b-7254-4797-9da8-128922024b7c
+uuid: a2dd388b-7254-4797-9da8-128922024b7c
 name: Aviator
 image: https://cc-dam.imgix.net/community/images/templates/aviator/1.jpeg
 image_alt: >-

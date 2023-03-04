@@ -1,5 +1,5 @@
 ---
-_uuid: 8dd97722-bd06-407e-8d7d-1af1317b368e
+uuid: 8dd97722-bd06-407e-8d7d-1af1317b368e
 name: Edition
 image: https://cc-dam.imgix.net/community/images/templates/edition/1.jpg
 image_alt: >-

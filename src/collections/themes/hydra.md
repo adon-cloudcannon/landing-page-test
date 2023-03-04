@@ -1,5 +1,5 @@
 ---
-_uuid: 00df184b-95c3-4095-97cd-cd9eda5c955e
+uuid: 00df184b-95c3-4095-97cd-cd9eda5c955e
 name: Hydra
 image: https://cc-dam.imgix.net/community/images/templates/hydra/1.jpg
 image_alt: >-

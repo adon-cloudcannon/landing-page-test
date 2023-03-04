@@ -1,5 +1,5 @@
 ---
-_uuid: 5ba8a7d4-f0a6-4bb4-9046-e311d763c936
+uuid: 5ba8a7d4-f0a6-4bb4-9046-e311d763c936
 name: Urban
 image: https://cc-dam.imgix.net/community/images/templates/urban/1.jpg
 image_alt: >-

@@ -1,5 +1,5 @@
 ---
-_uuid: 332a94d5-cc71-40a2-a946-270675faf678
+uuid: 332a94d5-cc71-40a2-a946-270675faf678
 name: Fiction
 image: https://cc-dam.imgix.net/fiction-image-hero-resized.png
 image_alt: Fiction template

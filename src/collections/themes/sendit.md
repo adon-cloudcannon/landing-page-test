@@ -1,5 +1,5 @@
 ---
-_uuid:
+uuid:
 name: Sendit
 image: https://cc-dam.imgix.net/sendit.png
 image_alt: Sendit template

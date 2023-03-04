@@ -58,10 +58,89 @@ collections_config:
     output: false
     path: '_data'
     icon: settings_applications
+  themes:
+    description: A list of themes
+    output: true
+    path: 'collections/themes'
+    icon: palette
+    schemas:
+      default:
+        path: .cloudcannon/schemas/theme.md
+    filter:
+      exclude:
+        - themes.json
+  tutorials:
+    description: A tutorial contains one or more lessons
+    output: true
+    path: 'collections/tutorials'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/tutorial.md
+    icon: book
+    filter:
+      exclude:
+        - tutorials.json
+  lessons:
+    description: A lesson in a tutorial series
+    output: true
+    path: 'collections/lessons'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/lesson.md
+    icon: menu_book
+    filter:
+      exclude:
+        - lessons.json
+  ecosystem:
+    description:
+    output: true
+    path: 'collections/ecosystem'
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+    filter:
+      exclude:
+        - ecosystem.json
+  case_study_quote:
+    description: A quote for case studies
+    output: false
+    path: 'collections/case-study-quote'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/case-study-quote.md
+    filter:
+      exclude:
+        - case-study-quote.json
+    icon: format_quote
+  case_study_people:
+    description: A person in a case study who can make quotes
+    output: false
+    path: 'collections/case-study-people'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/case-study-people.md
+    filter:
+      exclude:
+        - case-study-people.json
+    icon: sentiment_satisfied
+  events:
+    description: Past and future CloudCannon related events
+    output: false
+    path: 'collections/events'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/event.md
+    filter:
+      exclude:
+        - events.json
+    icon: event
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true
     path: 'collections/landing-pages'
+    filter:
+      exclude:
+        - tags.html
     schemas:
       default:
         path: .cloudcannon/schemas/page.html
