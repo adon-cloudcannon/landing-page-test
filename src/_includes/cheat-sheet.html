@@ -133,7 +133,7 @@ eleventyComputed:
             bottom: 0
             left: 0
 ---
-<div class="container mb-24">
+<div class="container mb-24" data-pagefind-filter="site:Resources" data-pagefind-meta="site:Resources" data-pagefind-body>
   {% assign collection_name = page.fileSlug | append: '-cheat-sheet' %}
   {% assign cheats = collections[collection_name] | sort: "filePathStem" %}
   <div>
