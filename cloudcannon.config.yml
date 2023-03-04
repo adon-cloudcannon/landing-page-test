@@ -53,6 +53,11 @@ collections_config:
     filter:
       exclude:
         - jekyll-cheat-sheet.json
+  meta-data:
+    description: Metadata for site layouts and other data
+    output: false
+    path: '_data'
+    icon: settings_applications
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true
@@ -134,6 +139,13 @@ _inputs:
     type: twitter
   open_graph_type:
     hidden: true
+  v_align:
+    comment: how to vertically align the columns
+    type: select
+    options:
+      values:
+        - top
+        - center
   icon_path:
     type: select
     options:

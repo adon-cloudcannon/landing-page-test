@@ -65,13 +65,6 @@ _inputs:
   width:
     comment: "for a 'fixed' type, the width of the fixed column"
     type: number
-  v_align:
-    comment: how to vertically align the columns
-    type: select
-    options:
-      values:
-        - top
-        - center
   gap:
     comment: The size of the gap between the columns
     type: number

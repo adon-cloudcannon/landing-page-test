@@ -133,6 +133,12 @@ _inputs:
       values:
         - left
         - center
+  width:
+    comment: The width of the image
+    options:
+      values:
+        - normal
+        - tight
   rounded:
     comment: Rounds the corners of the image
     type: switch
