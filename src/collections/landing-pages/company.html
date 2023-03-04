@@ -16,7 +16,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: 'Happy devs. Happy Editors. '
+            text: 'Happy devs. Happy editors. '
           styles:
             element: h1
             width: normal
@@ -60,9 +60,9 @@ content_blocks:
               text_alignment:
                 align: center
               text_sizing:
-                text_size: big
+                text_size: biggest
               margin:
-                top: 60
+                top: 30
                 bottom: 0
               block_alignment:
                 align_block: center
@@ -144,12 +144,13 @@ content_blocks:
                     rounded:
                     ontop:
                     width: full
-                    pixel_width: '200'
+                    pixel_width:
+                    max_width: 300
                     desktop:
                       visibility:
                         hide: false
                       transform:
-                        scale: 0.5
+                        scale: 1
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -159,7 +160,7 @@ content_blocks:
                       margin:
                         top: 0
                         left: 0
-                        bottom: 30
+                        bottom: 15
                         right: 0
                       position:
                         top: 0
@@ -220,13 +221,13 @@ content_blocks:
                         right: 0
                 - _bookshop_name: simple/heading
                   content:
-                    text: Entrepreneurial spirit
+                    text: Entrepreneurial spirit<br>
                   styles:
                     element: h2
                     width: normal
                     desktop:
                       text_alignment:
-                        align: left
+                        align: center
                       text_sizing:
                         text_size: normal
                       margin:
@@ -266,7 +267,7 @@ content_blocks:
                     width: full
                     desktop:
                       text_alignment:
-                        align: left
+                        align: center
                       text_sizing:
                         text_size: normal
                       margin:
@@ -313,12 +314,13 @@ content_blocks:
                     rounded:
                     ontop:
                     width: full
-                    pixel_width: '200'
+                    pixel_width:
+                    max_width: 300
                     desktop:
                       visibility:
                         hide: false
                       transform:
-                        scale: 0.5
+                        scale: 1
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -328,7 +330,7 @@ content_blocks:
                       margin:
                         top: 0
                         left: 0
-                        bottom: 30
+                        bottom: 15
                         right: 0
                       position:
                         top: 0
@@ -389,13 +391,13 @@ content_blocks:
                         right: 0
                 - _bookshop_name: simple/heading
                   content:
-                    text: Manaakitanga
+                    text: Manaakitanga<br>
                   styles:
                     element: h2
                     width: normal
                     desktop:
                       text_alignment:
-                        align: left
+                        align: center
                       text_sizing:
                         text_size: normal
                       margin:
@@ -435,7 +437,7 @@ content_blocks:
                     width: full
                     desktop:
                       text_alignment:
-                        align: left
+                        align: center
                       text_sizing:
                         text_size: normal
                       margin:
@@ -482,12 +484,13 @@ content_blocks:
                     rounded:
                     ontop:
                     width: full
-                    pixel_width: '200'
+                    pixel_width:
+                    max_width: 300
                     desktop:
                       visibility:
                         hide: false
                       transform:
-                        scale: 0.5
+                        scale: 1
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -497,7 +500,7 @@ content_blocks:
                       margin:
                         top: 0
                         left: 0
-                        bottom: 30
+                        bottom: 15
                         right: 0
                       position:
                         top: 0
@@ -564,7 +567,7 @@ content_blocks:
                     width: normal
                     desktop:
                       text_alignment:
-                        align: left
+                        align: center
                       text_sizing:
                         text_size: normal
                       margin:
@@ -604,7 +607,7 @@ content_blocks:
                     width: full
                     desktop:
                       text_alignment:
-                        align: left
+                        align: center
                       text_sizing:
                         text_size: normal
                       margin:
@@ -644,15 +647,15 @@ content_blocks:
             desktop:
               columns:
                 type: split
-                gap: 30
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: center
+                v_align: top
             tablet:
               columns:
-                active: false
-                type: split
-                gap: 0
+                active: true
+                type: stacked
+                gap: 20
                 vertical_gap: 0
               vertical_block_alignment:
                 active: false
@@ -660,8 +663,8 @@ content_blocks:
             mobile:
               columns:
                 active: false
-                type: split
-                gap: 0
+                type: stacked
+                gap: 20
                 vertical_gap: 0
               vertical_block_alignment:
                 active: false
@@ -688,8 +691,8 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: true
-          top: 60
+          active: false
+          top: 0
           right: 0
           bottom: 0
           left: 0

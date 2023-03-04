@@ -406,37 +406,25 @@ module.exports = {
 			return styles;
 		}
 
-		var columnData = {
-			left: 'box-sizing: border-box;width:33%;',
-			middle: 'box-sizing: border-box;width:33%;',
-			right: 'box-sizing: border-box;width:33%;'
-		};
+		var styles = '';
 
 		switch(columns.type) {
 			case 'split':
-				columnData.left += `width:33%;`;
-				columnData.middle += `width:33%;`;
-				columnData.right += 'width:33%;';
+				styles += `display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-template-rows: 1fr;
+				grid-column-gap: ${columns.gap}px;
+				grid-row-gap: 0px;`;
 				break;
 			case 'stacked':
-				columnData.left += 'width:100%;';
-				columnData.middle += `width:100%;`;
-				columnData.right += 'width:100%;';
+				styles += `display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: 1fr;
+				grid-column-gap: 0px;
+				grid-row-gap:${columns.gap}px;`;
 				break;
 		}
-		
-		if (module.exports.validInteger('gap', columns)) {
-			columnData.left += `padding-right: ${columns.gap}px;`
-			columnData.middle += `padding-right: ${columns.gap}px;padding-left: ${columns.gap}px;`
-			columnData.right += `padding-left: ${columns.gap}px;`
-		}
 
-		if (module.exports.validInteger('vertical_gap', columns)) {
-			columnData.left += `padding-bottom: ${columns.vertical_gap}px;`
-			columnData.middle += `padding-top: ${columns.vertical_gap}px;padding-bottom: ${columns.vertical_gap}px;`
-			columnData.right += `padding-top: ${columns.vertical_gap}px;`
-		}
-
-		return columnData;
+		return styles;
 	}
 };

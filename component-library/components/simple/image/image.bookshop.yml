@@ -18,6 +18,7 @@ blueprint:
     ontop:
     width: full
     pixel_width:
+    max_width:
     desktop:
       visibility:
         hide: false

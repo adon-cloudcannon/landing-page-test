@@ -1,3 +1,9 @@
+{% assign img_classes = classes %}
+
+{% if max_width %} 
+	{% assign img_classes = img_classes | append: ' max-w-[' | append: max_width | append: 'px] mx-auto ' %}
+{% endif %}
+
 {% if image contains 'cc-dam.imgix.net' %}
 	
 	{% if width | is_integer %}
@@ -36,11 +42,11 @@
 				<source media="(min-width: {{ c_width }}px)" srcset="{{ image_path | image_resize: c_width, 2, c_height }} 2x, {{ image_path | image_resize: c_width, 1, c_height }} 1x">
 			{% endfor %}
 			
-			<img src="{{ image_path | image_resize: c_width, 1, c_height }}" {{ dimensions }} alt="{{ alt }}" class="{{ classes }}">
+			<img src="{{ image_path | image_resize: c_width, 1, c_height }}" {{ dimensions }} alt="{{ alt }}" class="{{ img_classes }}" >
 		</picture>
 	{% else %}
-		<img src="{{ image_path | image_resize: w, 1, h }}" alt="{{ alt }}" {{ dimensions }} class="{{ classes }}">
+		<img src="{{ image_path | image_resize: w, 1, h }}" alt="{{ alt }}" {{ dimensions }} class="{{ img_classes }}">
 	{% endif %}
 {% else %}
-	<img src="{{ image }}" alt="{{ alt }}" class="{{ classes }}">
+	<img src="{{ image }}" alt="{{ alt }}" class="{{ img_classes }}">
 {% endif %}

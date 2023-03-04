@@ -69,7 +69,7 @@
 	}
 </style>
 
-<div class=" {{ outer_classes }}">
-	{% assign c = classes | append: ' ' | append: container_name | append: ' relative w-full' %}
-	{% bookshop "helpers/image" image: content.image alt: content.alt responsive: true classes: c width: styles.pixel_width %}
+<div class="{{ container_name }} {{ outer_classes }}">
+	{% assign c = classes | append: ' relative w-full' %}
+	{% bookshop "helpers/image" image: content.image alt: content.alt responsive: true classes: c width: styles.pixel_width max_width: styles.max_width %}
 </div>
