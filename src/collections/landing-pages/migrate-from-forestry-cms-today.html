@@ -1002,41 +1002,156 @@ content_blocks:
               top: 0
               bottom: 20
             style: black
-        - _bookshop_name: sections/two-column
+        - _bookshop_name: sections/container
           content:
-            left:
-              blocks: []
-            right:
-              blocks: []
+            label: Migration resources
+            blocks:
+              - _bookshop_name: sections/two-column
+                content:
+                  left:
+                    blocks:
+                      - _bookshop_name: simple/heading
+                        content:
+                          text: Migration resources
+                        styles:
+                          element: h2
+                          width: normal
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 0
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                  right:
+                    blocks:
+                      - _bookshop_name: simple/content-button
+                        content:
+                          url: >-
+                            https://cloudcannon.com/blog/forestry-to-cloudcannon-the-full-migration-guide/
+                          text: Complete guide to migrating from Forestry
+                        styles:
+                          margin:
+                            top: 30
+                            bottom: 30
+                          style: black
+                      - _bookshop_name: simple/content-button
+                        content:
+                          url: >-
+                            https://cloudcannon.com/documentation/articles/setting-global-configuration/
+                          text: >-
+                            Documentation: Creating your CloudCannon
+                            configuration
+                        styles:
+                          margin:
+                            top: 30
+                            bottom: 30
+                          style: black
+                      - _bookshop_name: simple/content-button
+                        content:
+                          url: >-
+                            https://cloudcannon.com/blog/cloudcannon-2022-highlights-and-2023-roadmap/
+                          text: CloudCannon's 2023 Roadmap
+                        styles:
+                          margin:
+                            top: 30
+                            bottom: 30
+                          style: black
+                styles:
+                  desktop:
+                    columns:
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      v_align: center
+                  tablet:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+                  mobile:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
           styles:
+            background: night
+            rounded: full
+            size: small
+            align: none
+            shadow: false
             desktop:
-              columns:
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: top
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 60
+                right: 0
+                bottom: 60
+                left: 0
             tablet:
-              columns:
+              margin:
                 active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
                 active: false
-                v_align: top
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
             mobile:
-              columns:
+              margin:
                 active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
                 active: false
-                v_align: top
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: white
       rounded: top
