@@ -187,7 +187,7 @@ window.rehydrate = (el) => {
 		var svg = ajax.responseXML.documentElement;
 		if (classes) {
 			var c = classes.split(' ');
-			c.forEach(e => svg.classList.add(e));
+			c.forEach(function(e) { if(e) { svg.classList.add(e)}});
 		}
 		el.replaceWith(svg);
 	}
