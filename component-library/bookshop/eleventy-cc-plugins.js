@@ -25,9 +25,10 @@ module.exports = function (Liquid) {
 	this.registerFilter("excerpt", Helpers.excerpt);
 
 	this.registerFilter("svgContents", function(url, classes) {
-		return `document.addEventListener('cloudcannon:load', function (e) {
-			console.log(${url});
-		});`
+		return `<script type="text/javascript">
+			document.addEventListener('cloudcannon:load', function (e) {
+			console.log('${url}');
+		});</script>`;
 		// if (!classes) {
 		// 	classes = "";
 		// }
@@ -50,6 +51,6 @@ module.exports = function (Liquid) {
 		// 		}
 		// 		ajax.send();
 		// 		})();
-		</script>`;
+		// </script>`;
 	});
 }
