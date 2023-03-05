@@ -14,25 +14,25 @@
       open_in_new_tab: false
 - title: Users
   items:
-    - title: For Content Editors
+    - title: Content Editors
       url: /for-content-editors/
       open_in_new_tab: false
-    - title: For Marketers
+    - title: Marketers
       url: /for-marketers/
       open_in_new_tab: false
-    - title: For Developers
+    - title: Developers
       url: /for-developers/
       open_in_new_tab: false
-    - title: For Digital Agencies
+    - title: Digital Agencies
       url: /partner-program/
       open_in_new_tab: false
-    - title: For Enterprise
+    - title: Enterprise
       url: /enterprise/
       open_in_new_tab: false
     - title: Case Studies
       url: /customers/
       open_in_new_tab: false
-- title: Resources for Developers
+- title: Developers
   items:
     - title: Documentation
       url: https://cloudcannon.com/documentation/
@@ -69,12 +69,6 @@
       open_in_new_tab: false
     - title: Expert Directory
       url: /experts/
-      open_in_new_tab: false
-    - title: Changelog
-      url: /changelog/
-      open_in_new_tab: false
-    - title: Support
-      url: /documentation/support/
       open_in_new_tab: false
 - title: Company
   items:
