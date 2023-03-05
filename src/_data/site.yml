@@ -4,5 +4,5 @@ site_title: CloudCannon
 favicon: "/images/favicon.svg"
 description: The Jamstack CMS marketers and developers love to use
 twitter_site: "@CloudCannon"
-image: "https://dam-cdn.cloudcannon.com/marketing/uploads/homepage-meta.jpg"
+image: "https://cc-dam.imgix.net/marketing/uploads/homepage-meta.jpg"
 image_alt: "Showcasing editor options"

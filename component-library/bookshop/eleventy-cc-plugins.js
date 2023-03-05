@@ -21,7 +21,31 @@ module.exports = function (Liquid) {
 
 	// this.registerFilter("image_dimensions", ImageRenderer.image_dimensions);
 	// this.registerFilter("image_resize", ImageRenderer.image_resize);
-
 	this.registerFilter("UUID", Helpers.uuid);
 	this.registerFilter("excerpt", Helpers.excerpt);
+
+	this.register("svgContents", function(url, classes) {
+		if (!classes) {
+			classes = "";
+		}
+		return `<script type="text/javascript">
+		(function() {
+				var scripts= document.getElementsByTagName('script');
+				var script= scripts[scripts.length-1];
+				var ajax = new XMLHttpRequest();
+				ajax.open("GET", "${url}", true);
+				ajax.responseType = "document";
+				ajax.onload = function(e) {
+					var svg = ajax.responseXML.documentElement
+					if ("${classes}") {
+						var c = "${classes}".split(' ');
+						c.forEach(e => svg.classList.add(e));
+					}
+					document.body.insertBefore(svg, script);
+					script.remove();
+				}
+				ajax.send();
+				})();
+		</script>`;
+	});
 }

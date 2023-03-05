@@ -2,7 +2,7 @@
 title: Why every freelancer should solo travel around Thailand
 date: 2014-11-25
 author: mike-neumegen
-categories:
+tags:
   - Resources
 seo:
   open_graph_type: article
