@@ -1,5 +1,6 @@
 ---
 title: Stay in the race with Hugo, Bookshop, and CloudCannon’s Git-powered CMS
+permalink: /blog/stay-in-the-race-with-hugo-bookshop-and-cloudcannons-git-powered-cms/
 description: >-
   If you make a living building Hugo-based sites, you owe it to yourself to take
   a very close look at what’s possible — for you and your customers — when you
