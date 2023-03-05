@@ -177,7 +177,7 @@ if (messageElement) {
 }
 
 window.rehydrate = (el) => {
-	const url = el.dataset.svgj,
+	const url = el.dataset.svg,
 		classes = el.dataset.classes;
 
 	var ajax = new XMLHttpRequest();
