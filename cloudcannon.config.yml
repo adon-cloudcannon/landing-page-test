@@ -101,6 +101,7 @@ collections_config:
     filter:
       exclude:
         - ecosystem.json
+    icon: token
   case_study_quote:
     description: A quote for case studies
     output: false
