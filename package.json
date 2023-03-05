@@ -7,7 +7,6 @@
     "start": "run-p dev:*",
     "build:styles": "NODE_ENV=production npx postcss src/styles/tailwind.pcss -o _site/style.css --config src/styles/",
     "build:scripts": "esbuild src/main.js --bundle --minify --outfile=_site/js/main.js",
-    "build:11ty": "eleventy",
     "polish": "npx @divriots/jampack ./_site",
     "build": "run-s build:* "
   },
