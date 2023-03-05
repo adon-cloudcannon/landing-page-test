@@ -7,7 +7,7 @@ description: >-
   leading SSGs covering a wide range of uses cases.
 series:
 image: https://cc-dam.imgix.net/blog/blog-top-five-ssgs-2023.jpg
-date: 2023-01-14T05:00:00+1300
+date: 2023-01-13T16:00:00Z
 hide_publish_date: false
 tags:
   - Resources
@@ -32,7 +32,7 @@ If you’re not already using an SSG, the answer to this question depends on two
 
 Let’s take a look at my top SSG picks for 2023, in no particular order.
 
-## [Astro](https://astro.build/)
+### [Astro](https://astro.build/)
 
 At the start of last year, [we picked Astro as “one to watch”](https://cloudcannon.com/blog/ssg-history-8-islands/#astro), and it’s certainly lived up to our hopes. The Astro project has grown quite dramatically over the course of 2022, and shows no sign of slowing down. Its team of experienced core maintainers has grown, its appreciative user base has at least tripled in size, and at the time of writing, a 2.0 release is fast approaching.
 
@@ -46,7 +46,7 @@ Get started with Astro on CloudCannon by [syncing an existing site repository](h
 
 ### [Eleventy](https://www.11ty.dev/)
 
-Like Astro, Eleventy had a [banner year](https://www.zachleat.com/web/icymi/2022/#open-source) in 2022. Thanks to Netlify's full-time sponsorship of the project, which began in February, the Eleventy team has been able to release 28 versions and close more than 800 issues and 300 pull requests in the year. The number of tutorials, guides and starters (themes) also skyrocketed over the year, and the Eleventy community grew along with it. Here at CloudCannon we’ve seen a growing number of Eleventy sites being built by our users over the past year, and we’re not surprised\!
+Like Astro, Eleventy had a [banner year](https://www.zachleat.com/web/icymi/2022/#open-source) in 2022. Thanks to Netlify's full-time sponsorship of the project, which began in February, the Eleventy team has been able to release 28 versions and close more than 800 issues and 300 pull requests in the year. The number of tutorials, guides and starters (themes) also skyrocketed over the year, and the Eleventy community grew along with it. Here at CloudCannon we’ve seen a growing number of Eleventy sites being built by our users over the past year, and we’re not surprised!
 
 In July of last year, Eleventy lead maintainer Zach Leatherman set up a [benchmark exercise](https://www.zachleat.com/web/build-benchmark/) that compared build times of six major generators; Eleventy and Hugo were clear winners of the test, which established Eleventy as the fastest JavaScript-based generator — regardless of site size tested (the exercise tested up to 4000 Markdown files). It’ll be fascinating to compare build times for the latest versions of each of the six SSGs tested, but it’s clear that Eleventy had a firm hold on speed.
 
@@ -54,7 +54,7 @@ Overall, Eleventy makes it easy for developers to get started with new website p
 
 With Eleventy, you can choose from a variety of template languages such as Nunjucks, Liquid, and Handlebars to structure and layout your content in the way that you want. Additionally, Eleventy is highly customizable, giving you the ability to tailor it to your specific needs using custom plugins and scripts. With fast build times and an active community of developers, you'll find a wealth of resources and support available to help you along the way.
 
-Eleventy is a great choice for developers who value simplicity, flexibility, and customizability, and who want an SSG with fast build times and a strong community of support. If you’re focused on build speed and site performance, and would rather avoid JavaScript in your built sites where possible, you’d be hard pressed to choose anything other than Eleventy. (Especially with a stable 2.0 release on its way over the next few weeks\!)
+Eleventy is a great choice for developers who value simplicity, flexibility, and customizability, and who want an SSG with fast build times and a strong community of support. If you’re focused on build speed and site performance, and would rather avoid JavaScript in your built sites where possible, you’d be hard pressed to choose anything other than Eleventy. (Especially with a stable 2.0 release on its way over the next few weeks!)
 
 Get started with Eleventy on its own with our [Eleventy Beginner tutorial series](https://cloudcannon.com/community/learn/eleventy-beginner-tutorial/), or find out more about [setting up and configuring an Eleventy site for the ideal editing experience with CloudCannon](https://cloudcannon.com/community/learn/eleventy-cms---get-started-with-cloudcannon/).
 
@@ -108,7 +108,7 @@ If content management is a concern for you and your team, you can find out more 
 
 ## Free and open-source tools to extend your SSGs
 
-As great as SSGs are — and they are\! — they can’t do it all. That’s why we’re creating and maintaining a growing range of free and open-source tools to extend your site functionality — all while paying the utmost attention to your users’ bandwidth, and simplifying your development experience. Regardless of which SSG you use, we think you’ll love the following solutions for search, multilingual translation management, and component development:
+As great as SSGs are — and they are! — they can’t do it all. That’s why we’re creating and maintaining a growing range of free and open-source tools to extend your site functionality — all while paying the utmost attention to your users’ bandwidth, and simplifying your development experience. Regardless of which SSG you use, we think you’ll love the following solutions for search, multilingual translation management, and component development:
 
 ### Site search
 
