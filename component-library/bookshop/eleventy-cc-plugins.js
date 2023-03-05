@@ -26,7 +26,10 @@ module.exports = function (Liquid) {
 
 	this.registerFilter("svgContents", function(url, classes) {
 		return `<script type="text/javascript">
-			console.log('${url}');
+			(function() {
+				var body = document.body;
+				body.classList.add((Math.random() + 1).toString(36).substring(7));
+			})();
 		</script>`;
 		// if (!classes) {
 		// 	classes = "";
