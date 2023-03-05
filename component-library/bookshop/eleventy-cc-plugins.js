@@ -28,13 +28,13 @@ module.exports = function (Liquid) {
 		if (!classes) {
 			classes = "";
 		}
-		url = Regex.Replace(url, "^\/src.(.+)", "$1");
+		let newUrl = url.replace(/^\/src.(.+)/, "$1");
 		return `<script type="text/javascript">
 		(function() {
 				var scripts= document.getElementsByTagName('script');
 				var script= scripts[scripts.length-1];
 				var ajax = new XMLHttpRequest();
-				ajax.open("GET", "${url}", true);
+				ajax.open("GET", "${newUrl}", true);
 				ajax.responseType = "document";
 				ajax.onload = function(e) {
 					var svg = ajax.responseXML.documentElement
@@ -42,7 +42,7 @@ module.exports = function (Liquid) {
 						var c = "${classes}".split(' ');
 						c.forEach(e => svg.classList.add(e));
 					}
-					document.body.insertBefore(svg, script);
+					script.parentNode.insertBefore(svg, script);
 					// script.remove();
 				}
 				ajax.send();
