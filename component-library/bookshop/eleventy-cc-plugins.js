@@ -28,7 +28,7 @@ module.exports = function (Liquid) {
 		if (!classes) {
 			classes = "";
 		}
-		let newUrl = url.replace(/^\/src.(.+)/, "$1");
+		let newUrl = url.replace(/^\/src(.+)/, "$1");
 		return `<script type="text/javascript">
 		(function() {
 				var scripts= document.getElementsByTagName('script');
