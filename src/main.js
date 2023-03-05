@@ -20,52 +20,52 @@ Alpine.magic('isLoggedIn', () => { return /^(.*;)?\s*signed_in\s*=\s*[^;]+(.*)?$
 
 /* Search localstorage helper functions */
 Alpine.magic('getRecentSearches', () => {
-    return () => {
-        try {
-            return JSON.parse(localStorage.getItem("docs-pagefind-recents")) ?? [];
-        } catch {
-            return [];
-        }
-    }
+	return () => {
+		try {
+			return JSON.parse(localStorage.getItem("docs-pagefind-recents")) ?? [];
+		} catch {
+			return [];
+		}
+	}
 });
 Alpine.magic('deleteRecentSearch', () => {
-    return (recent) => {
-        try {
-            let recents = JSON.parse(localStorage.getItem("docs-pagefind-recents")) ?? [];
-            recents = recents.filter(r => r !== recent);
-            localStorage.setItem("docs-pagefind-recents", JSON.stringify(recents));
-            return recents;
-        } catch {
-            return [];
-        }
-    }
+	return (recent) => {
+		try {
+			let recents = JSON.parse(localStorage.getItem("docs-pagefind-recents")) ?? [];
+			recents = recents.filter(r => r !== recent);
+			localStorage.setItem("docs-pagefind-recents", JSON.stringify(recents));
+			return recents;
+		} catch {
+			return [];
+		}
+	}
 });
 Alpine.magic('triggerSearch', () => {
-    return (term) => {
-        window.searchInstance.triggerSearch(term);
-    }
+	return (term) => {
+		window.searchInstance.triggerSearch(term);
+	}
 });
 
 /* Focus search modal once opened, and lock the body scroll behind */
 const scrollElement = document.body, LOCKED_CLASS = "t-scroll-lock";
 
 new ScrollPadlock(
-    scrollElement,
-    LOCKED_CLASS
+	scrollElement,
+	LOCKED_CLASS
 );
 
 Alpine.magic('focusSearch', () => {
-    return (searchModalOpen) => {
-        if (searchModalOpen) {
-            scrollElement.classList.add(LOCKED_CLASS);
-            window?.searchInput?.focus?.();
-            setTimeout(() => {
-                window?.searchInput?.focus?.();
-            }, 100);
-        } else {
-            scrollElement.classList.remove(LOCKED_CLASS);
-        }
-    }
+	return (searchModalOpen) => {
+		if (searchModalOpen) {
+			scrollElement.classList.add(LOCKED_CLASS);
+			window?.searchInput?.focus?.();
+			setTimeout(() => {
+				window?.searchInput?.focus?.();
+			}, 100);
+		} else {
+			scrollElement.classList.remove(LOCKED_CLASS);
+		}
+	}
 });
 
 window.Alpine = Alpine;
@@ -94,84 +94,107 @@ let urls = [];
 
 // TODO: Replace with https://github.com/CloudCannon/pagefind/issues/226
 const trimExcerpt = (excerpt, target) => {
-    const words = excerpt.split(/\s/);
-    let core = words.findIndex(s => s.startsWith("<mark>"));
-    if (core === -1) {
-        core = target/2;
-    }
-    const start = core - Math.floor(target * 0.2);
-    const end = core + Math.floor(target * 0.8);
-    const res = words.slice(
-        start < 0 ? 0 : start,
-        end > words.length-1 ? words.length-1 : end
-    );
-    return res.join(' ');
+	const words = excerpt.split(/\s/);
+	let core = words.findIndex(s => s.startsWith("<mark>"));
+	if (core === -1) {
+		core = target/2;
+	}
+	const start = core - Math.floor(target * 0.2);
+	const end = core + Math.floor(target * 0.8);
+	const res = words.slice(
+		start < 0 ? 0 : start,
+		end > words.length-1 ? words.length-1 : end
+	);
+	return res.join(' ');
 }
 
 const search = new Instance({
-    bundlePath: "/_pagefind/",
-    indexWeight: 2,
-    mergeIndex: [
-        {
-            bundlePath: "https://cloudcannon.com/documentation/_pagefind/",
-            mergeFilter: {
-                site: "Documentation"
-            }
-        }
-    ]
+	bundlePath: "/_pagefind/",
+	indexWeight: 2,
+	mergeIndex: [
+		{
+			bundlePath: "https://cloudcannon.com/documentation/_pagefind/",
+			mergeFilter: {
+				site: "Documentation"
+			}
+		}
+	]
 });
 window.searchInstance = search;
 
 window.searchInput = new Input({
-    containerElement: "#searchbox"
+	containerElement: "#searchbox"
 });
 search.add(window.searchInput);
 
 search.add(new ResultList({
-    containerElement: "#searchresults",
-    resultTemplate: (result) => {
-        const excerpt = trimExcerpt(result.excerpt, 20);
-        return `<li class="flex flex-col gap-2 list-none"><a class="p-6 radius-lg bg-transparent no-underline transition hover:bg-gray-100 rounded-xl" href="${result.url}">
-            <span class="block text-cc text-lg font-bold">${result.meta.title}</span>
-            <span class="block text-nimbus text-base font-normal whitespace-nowrap overflow-hidden text-ellipsis">${result.meta.site ?? "Company"} • ... ${excerpt} ...</span>
-        </a></li>`;
-    }
+	containerElement: "#searchresults",
+	resultTemplate: (result) => {
+		const excerpt = trimExcerpt(result.excerpt, 20);
+		return `<li class="flex flex-col gap-2 list-none"><a class="p-6 radius-lg bg-transparent no-underline transition hover:bg-gray-100 rounded-xl" href="${result.url}">
+			<span class="block text-cc text-lg font-bold">${result.meta.title}</span>
+			<span class="block text-nimbus text-base font-normal whitespace-nowrap overflow-hidden text-ellipsis">${result.meta.site ?? "Company"} • ... ${excerpt} ...</span>
+		</a></li>`;
+	}
 }));
 search.add(new Summary({
-    containerElement: "#summary",
-    defaultMessage: "Search",
+	containerElement: "#summary",
+	defaultMessage: "Search",
 }));
 search.add(new FilterPills({
-    containerElement: "#searchfilter",
-    filter: "site"
+	containerElement: "#searchfilter",
+	filter: "site"
 }));
 
 let recentSearches = null, thisSearch = null;
 search.on("search", (term) => {
-    if (recentSearches === null) {
-        try {
-            recentSearches = JSON.parse(localStorage.getItem("docs-pagefind-recents")) ?? [];
-        } catch {
-            recentSearches = [];
-        }
-    }
-    thisSearch = term;
-    if (thisSearch?.trim?.()?.length) {
-        localStorage.setItem("docs-pagefind-recents", JSON.stringify([term, ...recentSearches.filter(r => r !== thisSearch).slice(0, 4)]));
-    }
+	if (recentSearches === null) {
+		try {
+			recentSearches = JSON.parse(localStorage.getItem("docs-pagefind-recents")) ?? [];
+		} catch {
+			recentSearches = [];
+		}
+	}
+	thisSearch = term;
+	if (thisSearch?.trim?.()?.length) {
+		localStorage.setItem("docs-pagefind-recents", JSON.stringify([term, ...recentSearches.filter(r => r !== thisSearch).slice(0, 4)]));
+	}
 });
 
 const messageElement = document.querySelector("#searchmessage");
 
 if (messageElement) {
-    search.on("loading", () => {
-        if (messageElement.innerText.trim().length) messageElement.innerText = "Loading...";
-    });
-    search.on("results", (results) => {
-        if (!results.results.length) {
-            messageElement.innerText = "No results";
-        } else {
-            messageElement.innerText = "";
-        }
-    });
+	search.on("loading", () => {
+		if (messageElement.innerText.trim().length) messageElement.innerText = "Loading...";
+	});
+	search.on("results", (results) => {
+		if (!results.results.length) {
+			messageElement.innerText = "No results";
+		} else {
+			messageElement.innerText = "";
+		}
+	});
 }
+
+window.rehydrate = (el) => {
+	const url = el.dataset.svg;
+  
+	// do your contents loading stuff
+	const svg = ajax.responseXML.documentElement;
+
+	var ajax = new XMLHttpRequest();
+		ajax.open("GET", "${url}", true);
+		ajax.responseType = "document";
+		ajax.onload = function(e) {
+			var svg = ajax.responseXML.documentElement
+			// if ("${classes}") {
+			// 	var c = "${classes}".split(' ');
+			// 	c.forEach(e => svg.classList.add(e));
+			// }
+			el.replaceWith(svg);
+		}
+		ajax.send();
+  
+	// easier than insertBefore + remove
+	
+  }
