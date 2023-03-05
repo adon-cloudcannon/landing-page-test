@@ -1395,7 +1395,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Everything you need
+      label: Advance your content workfow
       blocks:
         - _bookshop_name: simple/spacer
           content:
@@ -1521,7 +1521,7 @@ content_blocks:
                 description: >-
                   Give your team members access to update the content on the
                   site, using our Gatsby CMS — without the help of a developer.
-                image: https://cc-dam.imgix.net/step-3-edit-1.svg
+                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN

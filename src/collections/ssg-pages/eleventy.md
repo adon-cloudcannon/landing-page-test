@@ -1404,7 +1404,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Everything you need
+      label: Advance your content workflow
       blocks:
         - _bookshop_name: simple/spacer
           content:
@@ -1535,7 +1535,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit.svg
+                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN

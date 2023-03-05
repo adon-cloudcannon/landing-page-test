@@ -1496,49 +1496,6 @@ content_blocks:
                 active: true
                 top: 0
                 bottom: 15
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: Get up and going in minutes.
-          styles:
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 30
-              block_alignment:
-                active: false
-                align_block: left
-            width: medium
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -1569,7 +1526,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-3-edit-4.svg
+                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
