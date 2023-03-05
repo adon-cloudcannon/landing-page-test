@@ -81,3 +81,6 @@
     - title: Contact
       url: /contact/
       open_in_new_tab: false
+    - title: Book a Demo
+      url: /book-a-demo/
+      open_in_new_tab: false
