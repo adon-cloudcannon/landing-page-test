@@ -98,6 +98,6 @@
 	{% assign svg_style = 'stroke-[' | append: foreground | append: ']' %}
 {% endif %}
 
-<div class="{{ size_classes }} bg-[{{ background }}] p-3 rounded-2xl">
+<div class="{{ size_classes }} p-3 rounded-2xl" style="background: {{ background }} ">
 	{{ '/src/images/icons/' | append: icon_path | append: '.svg' | svgContents: svg_style }}
 </div>
