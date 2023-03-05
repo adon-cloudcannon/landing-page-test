@@ -1,86 +1,74 @@
-- title: Platform
+- title: Features
   items:
-    - title: Visual Editing
-      url: /features/visual-editing/
+    - title: Website Editing
+      url: /website-editing/
       open_in_new_tab: false
-    - title: Developer workflows
-      url: /features/developer-workflows/
+    - title: Content Publishing
+      url: /content-publishing/
       open_in_new_tab: false
-    - title: Collaborative publishing
-      url: /features/collaborative-publishing/
+    - title: Website Hosting
+      url: /hosting/
       open_in_new_tab: false
-    - title: Edge hosting
-      url: /features/edge-hosting/
+    - title: Technologies
+      url: /technologies/
       open_in_new_tab: false
-- title: Solutions
+- title: Users
   items:
-    - title: Partner Program
+    - title: For Content Editors
+      url: /for-content-editors/
+      open_in_new_tab: false
+    - title: For Marketers
+      url: /for-marketers/
+      open_in_new_tab: false
+    - title: For Developers
+      url: /for-developers/
+      open_in_new_tab: false
+    - title: For Digital Agencies
       url: /partner-program/
       open_in_new_tab: false
-    - title: Enterprise
+    - title: For Enterprise
       url: /enterprise/
       open_in_new_tab: false
-    - title: Case studies
+    - title: Case Studies
       url: /customers/
       open_in_new_tab: false
-- title: Technologies
+- title: Resources for Developers
   items:
-    - title: Jamstack
-      url: /Jamstack/
+    - title: Documentation
+      url: https://cloudcannon.com/documentation/
       open_in_new_tab: false
-    - title: Jekyll
-      url: /jekyll-cms/
-      open_in_new_tab: false
-    - title: Hugo
-      url: /hugo-cms/
-    - title: 11ty
-      url: /eleventy-cms/
-      open_in_new_tab: false
-    - title: Next.js
-      url: /nextjs-cms/
-      open_in_new_tab: false
-    - title: Nuxt.js
-      url: /nuxtjs-cms/
-      open_in_new_tab: false
-    - title: SvelteKit
-      url: /sveltekit-cms/
-      open_in_new_tab: false
-    - title: Gatsby
-      url: /gatsby-cms/
-      open_in_new_tab: false
-    - title: Astro
-      url: /astro-cms/
-      open_in_new_tab: false
-    - title: MkDocs
-      url: /mkdocs-cms/
-      open_in_new_tab: false
-    - title: Git CMS
-      url: /git-cms/
-      open_in_new_tab: false
-- title: Community
-  items:
-    - title: Templates
-      url: /templates/
+    - title: Changelog
+      url: https://cloudcannon.com/changelog/
       open_in_new_tab: false
     - title: Tutorials
       url: /tutorials/
       open_in_new_tab: false
-    - title: Jamstack ecosystem
+    - title: Cheatsheets
+      url: /community/cheat-sheets/jekyll/
+    - title: Jamstack Ecosystem
       url: /jamstack-ecosystem/
       open_in_new_tab: false
-    - title: Showcases
-      url: /blog/archived/showcase/
-      open_in_new_tab: false
-    - title: Experts
-      url: /experts/
-      open_in_new_tab: false
-- title: CloudCannon
+- title: Resources
   items:
     - title: Blog
       url: /blog/
       open_in_new_tab: false
-    - title: Documentation
-      url: /documentation/
+    - title: Support
+      url: /contact/
+      open_in_new_tab: false
+    - title: Events
+      url: /events/
+      open_in_new_tab: false
+    - title: Templates
+      url: /templates/
+      open_in_new_tab: false
+- title: Partners
+  items:
+    - title: Partner Program
+      url: /partner-program/
+      open_in_new_tab: false
+    - title: Expert Directory
+      url: /experts/
       open_in_new_tab: false
     - title: Changelog
       url: /changelog/
