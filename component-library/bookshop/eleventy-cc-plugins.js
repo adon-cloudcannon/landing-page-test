@@ -26,13 +26,7 @@ module.exports = function (Liquid) {
 
 	this.registerFilter("svgContents", function(url, classes) {
 		return `<script type="text/javascript">
-		if (!window.CloudCannon) {
-			document.addEventListener('cloudcannon:load', function (e) {
-				console.log('${url}');
-			});
-		} else {
 			console.log('${url}');
-		}
 		</script>`;
 		// if (!classes) {
 		// 	classes = "";
