@@ -1,5 +1,6 @@
 ---
 title: 'Introducing Pagefind: Static Low-bandwidth Search at Scale'
+permalink: /blog/introducing-pagefind/
 description: >-
   Pagefind is an open-source tool that adds search to static websites without
   hosting any infrastructure, while respecting your users’ bandwidth.
