@@ -177,17 +177,18 @@ if (messageElement) {
 }
 
 window.rehydrate = (el) => {
-	const url = el.dataset.svg;
+	const url = el.dataset.svgj,
+		classes = el.dataset.classes;
 
 	var ajax = new XMLHttpRequest();
 	ajax.open("GET", url, true);
 	ajax.responseType = "document";
 	ajax.onload = function(e) {
 		var svg = ajax.responseXML.documentElement;
-		// if ("${classes}") {
-		// 	var c = "${classes}".split(' ');
-		// 	c.forEach(e => svg.classList.add(e));
-		// }
+		if (classes) {
+			var c = classes.split(' ');
+			c.forEach(e => svg.classList.add(e));
+		}
 		el.replaceWith(svg);
 	}
 	ajax.send();
