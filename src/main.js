@@ -178,23 +178,17 @@ if (messageElement) {
 
 window.rehydrate = (el) => {
 	const url = el.dataset.svg;
-  
-	// do your contents loading stuff
-	const svg = ajax.responseXML.documentElement;
 
 	var ajax = new XMLHttpRequest();
-		ajax.open("GET", url, true);
-		ajax.responseType = "document";
-		ajax.onload = function(e) {
-			var svg = ajax.responseXML.documentElement;
-			// if ("${classes}") {
-			// 	var c = "${classes}".split(' ');
-			// 	c.forEach(e => svg.classList.add(e));
-			// }
-			el.replaceWith(svg);
-		}
-		ajax.send();
-  
-	// easier than insertBefore + remove
-	
-  }
+	ajax.open("GET", url, true);
+	ajax.responseType = "document";
+	ajax.onload = function(e) {
+		var svg = ajax.responseXML.documentElement;
+		// if ("${classes}") {
+		// 	var c = "${classes}".split(' ');
+		// 	c.forEach(e => svg.classList.add(e));
+		// }
+		el.replaceWith(svg);
+	}
+	ajax.send();
+};
