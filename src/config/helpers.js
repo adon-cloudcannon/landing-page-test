@@ -16,7 +16,6 @@ module.exports = {
 			i === null ||
 			i === undefined ||
 			i === false ||
-			i === NaN ||
 			i === ""   ) {
 			return false;
 		}
