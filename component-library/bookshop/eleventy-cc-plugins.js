@@ -31,8 +31,8 @@ module.exports = function (Liquid) {
 		let newUrl = url.replace(/^\/src(.+)/, "$1");
 		return `<script type="text/javascript">
 		(function() {
-				var scripts= document.getElementsByTagName('script');
-				var script= scripts[scripts.length-1];
+				var scripts = document.getElementsByTagName('script');
+				var script = scripts[scripts.length-1];
 				var ajax = new XMLHttpRequest();
 				ajax.open("GET", "${newUrl}", true);
 				ajax.responseType = "document";
@@ -43,7 +43,7 @@ module.exports = function (Liquid) {
 						c.forEach(e => svg.classList.add(e));
 					}
 					script.parentNode.insertBefore(svg, script);
-					// script.remove();
+					script.remove();
 				}
 				ajax.send();
 				})();
