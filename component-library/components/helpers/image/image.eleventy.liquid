@@ -18,7 +18,11 @@
 		{% assign h = null %}
 	{% endif %}
 
-	{% assign dimensions = image | image_resize: w, 1, h | image_dimensions %}
+	{% if meta.env == 'production' %}
+		{% assign dimensions = image | image_resize: w, 1, h | image_dimensions %}
+	{% else %}
+		{% assign simensions = '' %}
+	{% endif %}
 
 	{% assign image_path = image | replace: ' ', '%20' %}
 
