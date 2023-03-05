@@ -46,7 +46,7 @@ No longer restricted by the constrained nature of out-of-the-box sites, they wer
 
 > With CloudCannon it has just been really easy for us and has actually made it far more efficient for us as a business to react to demand in the market.
 
-!\[Image of Hnry's logo being displayed on a featured plants wall\](https://cc-dam.imgix.net/marketing/uploads/case-study/hnry/hnry-office 1.png)
+![Image of Hnry's logo being displayed on a featured plants wall](https://cc-dam.imgix.net/marketing/uploads/case-study/hnry/hnry-office 1.png)
 
 ## Hnry and CloudCannon’s future together
 
