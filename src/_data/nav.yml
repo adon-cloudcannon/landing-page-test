@@ -62,7 +62,7 @@
           link: /community/cheat-sheets/jekyll/
           description: Everything you need at a glance
           icon: check-badge
-        - name: Jamstack ecosystem
+        - name: Jamstack Ecosystem
           link: /jamstack-ecosystem/
           description: The best tooling for your next website
           icon: gift
