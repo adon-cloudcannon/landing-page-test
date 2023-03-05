@@ -25,28 +25,31 @@ module.exports = function (Liquid) {
 	this.registerFilter("excerpt", Helpers.excerpt);
 
 	this.registerFilter("svgContents", function(url, classes) {
-		if (!classes) {
-			classes = "";
-		}
-		let newUrl = url.replace(/^\/src(.+)/, "$1");
-		return `<script type="text/javascript">
-		(function() {
-				var scripts= document.getElementsByTagName('script');
-				var script= scripts[scripts.length-1];
-				var ajax = new XMLHttpRequest();
-				ajax.open("GET", "${newUrl}", true);
-				ajax.responseType = "document";
-				ajax.onload = function(e) {
-					var svg = ajax.responseXML.documentElement
-					if ("${classes}") {
-						var c = "${classes}".split(' ');
-						c.forEach(e => svg.classList.add(e));
-					}
-					script.parentNode.insertBefore(svg, script);
-					// script.remove();
-				}
-				ajax.send();
-				})();
+		return `document.addEventListener('cloudcannon:load', function (e) {
+			console.log(${url});
+		});`
+		// if (!classes) {
+		// 	classes = "";
+		// }
+		// let newUrl = url.replace(/^\/src(.+)/, "$1");
+		// return `<script type="text/javascript">
+		// (function() {
+		// 		var scripts= document.getElementsByTagName('script');
+		// 		var script= scripts[scripts.length-1];
+		// 		var ajax = new XMLHttpRequest();
+		// 		ajax.open("GET", "${newUrl}", true);
+		// 		ajax.responseType = "document";
+		// 		ajax.onload = function(e) {
+		// 			var svg = ajax.responseXML.documentElement
+		// 			if ("${classes}") {
+		// 				var c = "${classes}".split(' ');
+		// 				c.forEach(e => svg.classList.add(e));
+		// 			}
+		// 			script.parentNode.insertBefore(svg, script);
+		// 			// script.remove();
+		// 		}
+		// 		ajax.send();
+		// 		})();
 		</script>`;
 	});
 }
