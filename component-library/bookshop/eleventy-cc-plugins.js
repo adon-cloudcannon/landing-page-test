@@ -42,7 +42,7 @@ module.exports = function (Liquid) {
 						c.forEach(e => svg.classList.add(e));
 					}
 					document.body.insertBefore(svg, script);
-					script.remove();
+					// script.remove();
 				}
 				ajax.send();
 				})();
