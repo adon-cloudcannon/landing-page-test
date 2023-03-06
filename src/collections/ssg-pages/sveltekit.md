@@ -1029,15 +1029,6 @@ content_blocks:
                             top: 12
                             bottom: 0
                           style: black
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /tutorials/sveltekit-beginner-tutorial-series/
-                          text: SvelteKit Beginner Tutorial
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
                 styles:
                   desktop:
                     columns:

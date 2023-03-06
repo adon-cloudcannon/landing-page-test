@@ -1016,15 +1016,6 @@ content_blocks:
                     blocks:
                       - _bookshop_name: simple/content-button
                         content:
-                          url: /tutorials/
-                          text: Tutorials
-                        styles:
-                          margin:
-                            top: 0
-                            bottom: 0
-                          style: black
-                      - _bookshop_name: simple/content-button
-                        content:
                           url: /templates/
                           text: Templates
                         styles:
