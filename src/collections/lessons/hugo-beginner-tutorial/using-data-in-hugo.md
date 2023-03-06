@@ -1,5 +1,5 @@
 ---
-title: Using Data with Hugo
+title: Using Data in Hugo
 image:
 order: '6'
 tutorial: hugo-beginner-tutorial
