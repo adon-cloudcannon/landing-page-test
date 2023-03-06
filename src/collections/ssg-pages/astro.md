@@ -1447,7 +1447,7 @@ content_blocks:
                 text_size: normal
               margin:
                 active: true
-                top: 60
+                top: 90
                 bottom: 30
         - _bookshop_name: simple/steps
           content:
@@ -1635,7 +1635,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         active: true
-                        top: 0
+                        top: -30
                         bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
