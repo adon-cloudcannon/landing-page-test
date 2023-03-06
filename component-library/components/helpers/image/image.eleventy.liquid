@@ -12,7 +12,8 @@
 		{% assign w = 1216 %}
 	{% endif %}
 
-	{% if height | is_integer %}
+	{% assign is_height_integer = height | is_integer %}
+	{% if is_height_integer and height > 0 and height != "0" %}
 		{% assign h = height %}
 	{% else  %}
 		{% assign h = null %}

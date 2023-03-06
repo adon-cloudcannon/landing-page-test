@@ -4,7 +4,7 @@ hasTemplateFormat = require("@11ty/eleventy-plugin-syntaxhighlight/src/hasTempla
 module.exports = {
 	image_resize: function(image_path, width, dpr, height = null) {
 		let transformations = `auto=compress&auto=format&w=${width}&dpr=${dpr}`
-		if (height !== null) {
+		if (height !== null && height !== 0 && height !== "0") {
 			transformations += `&crop=faces&fit=crop&height=${height}`
 		}
 		return `${image_path}?${transformations}`
