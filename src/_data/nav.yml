@@ -58,10 +58,6 @@
           link: /tutorials/
           description: Learn Jamstack with CloudCannon
           icon: academic-cap
-        - name: Cheatsheets
-          link: /cheat-sheets/jekyll/
-          description: Everything you need at a glance
-          icon: check-badge
         - name: Jamstack Ecosystem
           link: /jamstack-ecosystem/
           description: The best tooling for your next website
