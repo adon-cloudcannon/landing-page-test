@@ -7,8 +7,8 @@ weight: 4
 categories:
   - Agency
 image:
-  path: https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png
-  alt: Ocupop logo
+  path: https://cc-dam.imgix.net/Ocupop-desktop.png
+  alt: Ocupop's website
 logo: /images/logos/ocupop.svg
 case_study_person: a07543ae-0a66-4388-a19a-e961e0db78d9
 description: >-
