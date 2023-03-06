@@ -2,7 +2,7 @@
 title: Layouts in Hugo
 image: 
 order: '2'
-tutorial: hugo-tutorial
+tutorial: hugo-beginner-tutorial
 description: >-
   Learn how layouts help you set up and reuse the main structure of your Hugo
   site. 

@@ -2,7 +2,7 @@
 title: Hugo Partials
 image: 
 order: '3'
-tutorial: hugo-tutorial
+tutorial: hugo-beginner-tutorial
 description: |-
   Learn how to break down your Hugo pages into smaller “components” with
     partials in this Hugo tutorial.
