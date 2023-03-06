@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Top 10 Free SvelteKit Themes for Building Lighting-Fast Static Sites in 2023
 description: >-
   The best 10 open source SvelteKit templates optimized for SEO,
@@ -6,12 +7,17 @@ description: >-
   lightning-fast static sites in 2023.
 series:
 image: https://cc-dam.imgix.net/blog/Top-10-SvelteKit-Themes-2023.png
-date: 2023-03-04T05:02:00+1300
+date: 2023-03-03T16:02:00Z
 hide_publish_date: false
 tags:
   - SvelteKit
   - Resources
 author: jaimie-mcmahon
+permalink: /blog/{{ title | slugify }}/
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 Now that [CloudCannon’s SvelteKit support is out of beta](https://cloudcannon.com/blog/cloudcannon-sveltekit-support-out-of-beta/) and [SvelteKit has released version 1.0](https://svelte.dev/blog/announcing-sveltekit-1.0) it is the perfect time to get started with a new SvelteKit project! We'll highlight the top 10 free SvelteKit themes optimized for SEO, user-experience, and performance, making it easier than ever to build lightning-fast static sites.
 
