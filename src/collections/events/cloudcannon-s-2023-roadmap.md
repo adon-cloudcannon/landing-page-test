@@ -1,7 +1,7 @@
 ---
 _schema: default
 image:
-  path: https://cc-dam.imgix.net/SF-Ep6-george (1).jpg
+  path: https://cc-dam.imgix.net/SF-Ep6-george-sq.jpg
   alt: CloudCannon's 2023 Roadmap
 date: 2023-01-25T11:00:00Z
 upcoming: false
