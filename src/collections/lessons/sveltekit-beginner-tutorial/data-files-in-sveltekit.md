@@ -2,7 +2,7 @@
 title: Data files in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 6
-tutorial: sveltekit-beginner-tutorial-series
+tutorial: sveltekit-beginner-tutorial
 description: >-
   Use data files to import existing data or have an easy way of managing global
   data in this SvelteKit tutorial.

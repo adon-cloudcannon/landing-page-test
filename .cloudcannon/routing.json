@@ -1,0 +1,857 @@
+{
+  "headers": [
+    {
+      "match": "*",
+      "headers": [
+        {
+          "name": "strict-transport-security",
+          "value": "Strict-Transport-Security: max-age=31536000; includeSubDomains"
+        }
+      ]
+    },
+    {
+      "match": ".*_pagefind.*",
+      "headers": [
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "from": "/community/themes/aperture",
+      "to": "/themes/",
+      "status": 301
+    },
+    {
+      "from": "/community/themes/author",
+      "to": "/themes/",
+      "status": 301
+    },
+    {
+      "from": "/community/themes/base",
+      "to": "/themes/",
+      "status": 301
+    },
+    {
+      "from": "/community/themes/cause",
+      "to": "/themes/",
+      "status": 301
+    },
+    {
+      "from": "/community/themes/frisco",
+      "to": "/themes/",
+      "status": 301
+    },
+    {
+      "from": "/community/themes/malt",
+      "to": "/themes/",
+      "status": 301
+    },
+    {
+      "from": "/community/themes/treat",
+      "to": "/themes/",
+      "status": 301
+    },
+    {
+      "from": "/blog/free-jekyll-themes-for-2021-10-great-options-from-the-community/",
+      "to": "/blog/free-jekyll-themes-for-2021-10-great-community-options/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/blog/archived/",
+      "to": "/blog/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/blog/archive/",
+      "to": "/blog/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/blog/free-jekyll-themes-for-2021-10-great-community-options/",
+      "to": "/blog/free-jekyll-themes-for-2022/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/developer-plan/",
+      "to": "/for-developers/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/hosting-comparison/",
+      "to": "https://muggy-okapi.cloudvent.net/community/jamstack-hosting-comparison/",
+      "status": 302,
+      "forced": false
+    },
+		{
+      "from": "/community/hosting-comparison/",
+      "to": "https://muggy-okapi.cloudvent.net/community/jamstack-hosting-comparison/",
+      "status": 302,
+      "forced": false
+    },
+    {
+      "from": "/community/tools-and-resources/",
+      "to": "/jamstack-ecosystem/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/",
+      "to": "/community/learn/hugo-tutorial/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/installing-hugo/",
+      "to": "/community/learn/hugo-tutorial/installing-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/getting-started/",
+      "to": "/community/learn/hugo-tutorial/getting-started/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/layouts-in-hugo/",
+      "to": "/community/learn/hugo-tutorial/layouts-in-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/go-templating-basics/",
+      "to": "/community/learn/hugo-tutorial/go-templating-basics/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/hugo-partials/",
+      "to": "/community/learn/hugo-tutorial/hugo-partials/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/content-and-blogging-in-hugo/",
+      "to": "/community/learn/hugo-tutorial/content-and-blogging-in-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/taxonomies/",
+      "to": "/community/learn/hugo-tutorial/taxonomies/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/page-bundles-and-shortcodes/",
+      "to": "/community/learn/hugo-tutorial/page-bundles-and-shortcodes/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-101/using-data/",
+      "to": "/community/learn/hugo-tutorial/using-data/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/",
+      "to": "/community/learn/jekyll-tutorial/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/installing-jekyll/",
+      "to": "/community/learn/jekyll-tutorial/installing-jekyll/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/getting-started/",
+      "to": "/community/learn/jekyll-tutorial/getting-started/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/introduction-to-liquid/",
+      "to": "/community/learn/jekyll-tutorial/introduction-to-liquid/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/introduction-to-front-matter-and-yaml/",
+      "to": "/community/learn/jekyll-tutorial/introduction-to-front-matter-and-yaml/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/introduction-to-jekyll-layouts/",
+      "to": "/community/learn/jekyll-tutorial/introduction-to-jekyll-layouts/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/introduction-to-jekyll-includes/",
+      "to": "/community/learn/jekyll-tutorial/introduction-to-jekyll-includes/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/introduction-to-blogging/",
+      "to": "/community/learn/jekyll-tutorial/introduction-to-blogging/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/introduction-to-jekyll-collections/",
+      "to": "/community/learn/jekyll-tutorial/introduction-to-jekyll-collections/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-101/introduction-to-jekyll-data-files/",
+      "to": "/community/learn/jekyll-tutorial/introduction-to-jekyll-data-files/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/bitcoin-org/",
+      "to": "/blog/showcase-bitcoin-org/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/bootstrap/",
+      "to": "/blog/showcase-bootstrap/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/digital-gov/",
+      "to": "/blog/showcase-digital-gov/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/how-the-jekyll-feed-plugin-generates-your-atom-feed/",
+      "to": "/blog/showcase-how-the-jekyll-feed-plugin-generates-your-atom-feed/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/hyde---jekyll-vs-hugo/",
+      "to": "/blog/showcase-hyde---jekyll-vs-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/jekyll-seo-plugin/",
+      "to": "/blog/showcase-jekyll-seo-plugin/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/linode/",
+      "to": "/blog/showcase-linode/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/ruby-on-rails/",
+      "to": "/blog/showcase-ruby-on-rails/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/showcases/",
+      "to": "/blog/archived/showcase/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/installing-hugo/",
+      "to": "/community/learn/hugo-tutorial/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/jekyll-tutorial/installing-jekyll/",
+      "to": "/community/learn/jekyll-tutorial/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/jekyll/",
+      "to": "/jekyll-cms/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/hugo/",
+      "to": "/hugo-cms/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/hosting/",
+      "to": "/host/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/cms/",
+      "to": "/edit/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/builds/",
+      "to": "/build/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/editing/",
+      "to": "/edit/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/enterprise/",
+      "to": "/edit/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/files/",
+      "to": "/build/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/hosting/",
+      "to": "/host/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/internationalisation/",
+      "to": "/edit/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/organisations/",
+      "to": "/edit/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/projects/",
+      "to": "/edit/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/sharing/",
+      "to": "/edit/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2013/08/21/powerful-templates.html",
+      "to": "/blog/powerful-templates",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2013/09/01/brand-new-editor.html",
+      "to": "/blog/brand-new-editor",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2013/09/14/international-domains.html",
+      "to": "/blog/international-domain-names",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2013/09/17/audio-and-video-support.html",
+      "to": "/blog/audio-and-video-support",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2013/10/21/redirects-form-submissions.html",
+      "to": "/blog/form-submissions-and-redirects",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2014/04/18/cloud-cannon-and-javascript.html",
+      "to": "/blog/using-cloudcannon-with-javascript",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/newsletter/2014/07/25/jekyll-blogging-and-july-update.html",
+      "to": "/blog/jekyll-private-beta-and-july-update",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2014/07/30/e-commerce-now-on-cloud-cannon-with-snipcart.html",
+      "to": "/blog/build-e-commerce-sites-on-cloudcannon-with-snipcart",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/interview/2014/08/05/designer-spotlight-cody-tatman.html",
+      "to": "/blog/designer-spotlight-cody-tatman",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2014/08/08/feature-release.html",
+      "to": "/blog/8th-august-feature-release",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/interview/2014/08/28/designer-spotlight-jack-ewing-and-seb-petravic.html",
+      "to": "/blog/designer-spotlight-jack-ewing-and-seb-petravic",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2014/09/01/turn-any-template-or-theme-into-a-cms.html",
+      "to": "/blog/turn-any-template-or-theme-into-a-cms",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html",
+      "to": "/blog/how-the-facebook-content-placeholder-works",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2014/11/17/3-ways-to-improve-your-webdesign-skills.html",
+      "to": "/blog/3-ways-to-improve-your-web-design-skills",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/deconstructions/2014/11/19/pixelapse-blurred-image-deconstruction.html",
+      "to": "/blog/how-pixelapse-image-blurring-works",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/deconstructions/2014/11/21/flat-css-browser-wrapper.html",
+      "to": "/blog/how-to-create-a-browser-window-with-just-css-and-html",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/other/2014/11/25/why-every-freelancer-should-solo-travel-around-thailand.html",
+      "to": "/blog/why-every-freelancer-should-solo-travel-around-thailand",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2014/12/01/controlling-video-playback-speed-with-the-mouse.html",
+      "to": "/blog/controlling-video-playback-with-the-mouse",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/deconstructions/2014/12/05/material-design-delightful-details.html",
+      "to": "/blog/googles-transforming-material-icons-in-html-and-css",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2014/12/09/have-ssl-on-your-cloudcannon-website-for-free.html",
+      "to": "/blog/have-ssl-on-your-cloudcannon-website-for-free",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tips/2014/12/12/the-ultimate-list-of-services-for-static-websites.html",
+      "to": "/blog/the-ultimate-list-of-services-for-static-websites",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/operations/2014/12/17/docker-in-cloudcannon-developers.html",
+      "to": "/blog/docker-in-cloudcannon",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tips/2014/12/18/extreme-css-zen-garden.html",
+      "to": "/blog/extreme-css-zen-garden",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/deconstructions/2014/12/19/css-truck-deconstruction.html",
+      "to": "/blog/how-to-create-an-animated-pickup-in-css-and-html",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/deconstructions/2014/12/23/super-simple-christmas-landing-page.html",
+      "to": "/blog/how-to-create-a-super-simple-christmas-landing-page",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/announcements/2015/05/12/cloudcannon-jekyll-support-now-in-public-beta.html",
+      "to": "/blog/cloudcannon-jekyll-support-now-in-public-beta",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/jekyllconf/2015/05/19/lessons-learned-running-a-kickass-online-conference-50-dollars.html",
+      "to": "/blog/running-a-kickass-online-conference-with-400-attendees-for-50",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/jekyll/2015/06/12/whos-using-jekyll.html",
+      "to": "/blog/whos-using-jekyll",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/comparison/2015/09/24/drupal-vs-jekyll-cloudcannon/",
+      "to": "/blog/drupal-vs-jekyll-cloudcannon",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2015/10/06/editables-everywhere-easier-navigation-and-link-editing/",
+      "to": "/blog/editables-everywhere-easier-navigation-and-link-editing",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2015/12/10/site-status-and-new-user-flow/",
+      "to": "/blog/site-status-and-new-user-flow",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2015/12/17/drafts-and-collection-defaults/",
+      "to": "/blog/output-drafts-and-collection-defaults",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorial/2016/01/26/deploy-jekyll-sites-anywhere-with-jekyll-hook/",
+      "to": "/blog/deploy-jekyll-sites-anywhere-using-jekyll-hook",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2016/04/11/inline-editing-of-markdown-pages/",
+      "to": "/blog/inline-editing-of-markdown-pages",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2016/05/17/plugins-and-ssl-private-beta/",
+      "to": "/blog/plugins-and-ssl-private-beta",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "",
+      "to": "/blog/officially-out-of-jekyll-beta",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2016/08/09/new-and-improved-front-matter-interfaces/",
+      "to": "/blog/new-and-improved-front-matter-interfaces",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/announcements/2016/12/05/free-jekyll-templates/",
+      "to": "/blog/7-free-jekyll-templates",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2017/02/01/lightweight-social-share-buttons/",
+      "to": "/blog/lightweight-social-share-buttons",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/announcements/2017/03/28/three-new-jekyll-templates/",
+      "to": "/blog/three-new-jekyll-templates",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/announcements/2017/10/25/new-cloudcannon-brand/",
+      "to": "/blog/new-cloudcannon-brand",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2017/11/22/app-redesign/",
+      "to": "/blog/app-redesign-and-custom-organisation-branding",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tips/2017/11/29/publishing-workflows-for-jekyll-editors/",
+      "to": "/blog/publishing-workflows-for-jekyll-editors",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2017/12/07/build-outputs-and-toolbar-options/",
+      "to": "/blog/build-outputs-and-toolbar-options",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tips/2017/12/08/speed-up-your-jekyll-builds/",
+      "to": "/blog/speed-up-your-jekyll-builds",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2018/01/23/custom-editor-styles/",
+      "to": "/blog/custom-editor-styles",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tips/2018/02/07/jekyll-for-freelancers/",
+      "to": "/blog/jekyll-for-freelancers",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/announcements/2018/02/22/brand-new-jekyll-templates/",
+      "to": "/blog/brand-new-jekyll-templates",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tips/2018/05/09/using-jekyll-plugins-on-github-pages/",
+      "to": "/blog/using-jekyll-plugins-on-github-pages",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2018/06/18/editor-link-modals/",
+      "to": "/blog/editor-link-modals",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2018/07/02/free-automatic-ssl/",
+      "to": "/blog/free-automatic-ssl",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/operations/2018/11/13/scheduled-maintenance/",
+      "to": "/blog/scheduled-maintenance",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/operations/2018/11/15/maintenance-debrief/",
+      "to": "/blog/maintenance-debrief",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2019/05/22/array-structures/",
+      "to": "/blog/managing-complex-content-with-array-structures",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorial/2019/06/13/private-jekyll-themes-with-gemfury/",
+      "to": "/blog/private-jekyll-themes-with-gemfury",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2019/07/29/gitlab-syncing-support/",
+      "to": "/blog/gitlab-syncing-support",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/jekyll/2019/09/03/whats-new-jekyll-4/",
+      "to": "/blog/whats-new-in-jekyll-4",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/jekyll/2019/09/30/exploring-subpaths/",
+      "to": "/blog/introducing-subpaths",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/2019/11/19/make-your-websites-faster-with-cloudcannon/",
+      "to": "/blog/make-your-websites-faster-with-cloudcannon",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorials/2020/02/04/g-suite-authenticated-sites-with-cloudcannon-and-saml/",
+      "to": "/blog/g-suite-authenticated-sites-with-cloudcannon-and-saml",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/announcements/2020/03/18/how-we-are-reacting-to-covid-19/",
+      "to": "/blog/how-we-are-reacting-to-covid-19",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/announcements/2020/04/15/covid-19-were-here-to-help/",
+      "to": "/blog/covid-19-were-here-to-help",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/operations/2020/07/22/cloudcannon-app-scheduled-maintenance/",
+      "to": "/blog/cloudcannon-app-scheduled-maintenance",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/tutorial/2020/11/12/bundling-javascript-for-jekyll/",
+      "to": "/blog/bundling-javascript-for-jekyll",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/about/",
+      "to": "/company/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/blog/free-jekyll-themes-for-2021-10-great-options-from-the-community/",
+      "to": "/blog/free-jekyll-themes-for-2021-10-great-community-options/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/feed.xml",
+      "to": "/blog/feed.xml",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/why-static/",
+      "to": "/blog/what-is-a-static-website/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/sync/",
+      "to": "/features/git-syncing/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/build/",
+      "to": "/all-in-one-platform/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/edit/",
+      "to": "/features/visual-editing/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/host/",
+      "to": "/all-in-one-platform/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/perks/jamstackconf/",
+      "to": "https://app.cloudcannon.com/register#plans/add-coupon/jammie",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/git-syncing/",
+      "to": "/features/developer-workflows/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/structured-content/",
+      "to": "/features/collaborative-publishing/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/features/content-collaboration/",
+      "to": "/features/edge-hosting/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/developer/",
+      "to": "/features/developer-workflows/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/pricing/feature-comparison/",
+      "to": "/pricing/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/agency/",
+      "to": "/partner-program/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/contact-sales/",
+      "to": "/book-a-demo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/blog/editables-everywhere-easier-navigation-and-link-editing/",
+      "to": "/documentation/articles/configuring-your-cms/",
+      "status": 301,
+      "forced": false
+    }
+  ]
+}

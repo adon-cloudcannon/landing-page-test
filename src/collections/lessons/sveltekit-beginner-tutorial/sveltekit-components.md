@@ -2,7 +2,7 @@
 title: SvelteKit Components
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 3
-tutorial: sveltekit-beginner-tutorial-series
+tutorial: sveltekit-beginner-tutorial
 description: >-
   Learn how to break down your SvelteKit pages into smaller “components” in this
   tutorial.

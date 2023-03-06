@@ -2,7 +2,7 @@
 title: Templating in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 4
-tutorial: sveltekit-beginner-tutorial-series
+tutorial: sveltekit-beginner-tutorial
 description: >-
   In this tutorial we'll go over basic SvelteKit templating concepts and see how
   you can use templating on your site.

@@ -2,7 +2,7 @@
 title: Blogging in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 5
-tutorial: sveltekit-beginner-tutorial-series
+tutorial: sveltekit-beginner-tutorial
 description: >-
   In this tutorial you will learn how to create a blog with SvelteKit content
   and layouts.

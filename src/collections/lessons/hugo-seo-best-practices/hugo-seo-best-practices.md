@@ -2,7 +2,7 @@
 title: Hugo SEO Best Practices
 image: /uploads/tutorial-social-image-seo.png
 order: 1
-tutorial: hugo-seo-best-practices-1
+tutorial: hugo-seo-best-practices
 seo:
   open_graph_type: article
   featured_image:

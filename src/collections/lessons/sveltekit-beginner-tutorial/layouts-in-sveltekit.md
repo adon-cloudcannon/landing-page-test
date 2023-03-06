@@ -2,7 +2,7 @@
 title: Layouts in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 2
-tutorial: sveltekit-beginner-tutorial-series
+tutorial: sveltekit-beginner-tutorial
 description: >-
   Learn how layouts help you set up and reuse the main structure of your
   SvelteKit site. 
