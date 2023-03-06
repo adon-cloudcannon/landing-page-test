@@ -2,7 +2,7 @@
 title: Templating in Eleventy
 image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-4-templating.png
 order: 4
-tutorial: eleventy-beginner-guide
+tutorial: eleventy-beginner-tutorial
 description: >-
   Learn basic Liquid templating concepts and see how you can use them on your
   Eleventy site.

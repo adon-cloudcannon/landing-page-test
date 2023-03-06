@@ -2,7 +2,7 @@
 title: Blogging in Eleventy
 image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-5-blogging.png
 order: 5
-tutorial: eleventy-beginner-guide
+tutorial: eleventy-beginner-tutorial
 description: Learn how to use Liquid templating to create a blog with Eleventy.
 seo:
   open_graph_type: article

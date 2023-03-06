@@ -2,7 +2,7 @@
 title: Eleventy Partials
 image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-3-partials.png
 order: 3
-tutorial: eleventy-beginner-guide
+tutorial: eleventy-beginner-tutorial
 description: >-
   Learn how to break down your Eleventy pages into smaller “components” with
   partials in this Eleventy tutorial.

@@ -3,7 +3,7 @@ title: Getting set up in Eleventy
 image: >-
   https://cc-dam.imgix.net/eleventy-beginner-tutorial-1-getting-set-up.png
 order: 1
-tutorial: eleventy-beginner-guide
+tutorial: eleventy-beginner-tutorial
 description: 'Learn the basics of Eleventy in this six-part tutorial series. '
 seo:
   open_graph_type: article
