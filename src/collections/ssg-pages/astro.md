@@ -1760,7 +1760,7 @@ content_blocks:
                         active: true
                         top: 0
                         left: 0
-                        bottom: 45
+                        bottom: 30
                         right: 0
                       position:
                         active: false
@@ -2002,7 +2002,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
