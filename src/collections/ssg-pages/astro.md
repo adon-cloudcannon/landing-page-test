@@ -1440,15 +1440,15 @@ content_blocks:
                 bottom: 0
             mobile:
               text_alignment:
-                active: false
-                align: center
+                active: true
+                align: left
               text_sizing:
                 active: true
                 text_size: normal
               margin:
                 active: true
                 top: 0
-                bottom: 15
+                bottom: 30
         - _bookshop_name: simple/steps
           content:
             steps:
