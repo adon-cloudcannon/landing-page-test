@@ -7,7 +7,7 @@ weight: 9
 categories:
   - Agency
 image:
-  path: https://cc-dam.imgix.net/Arid Software.png
+  path: https://cc-dam.imgix.net/arid-card-resize.svg
   alt: Arid Software's Website
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/arid.jpg
 case_study_person: a338c132-a99c-11ed-afa1-0242ac120002
@@ -28,7 +28,7 @@ More than a hundred hours of development work had already gone into the website 
 
 Andrew had spent hours comparing the features of more than 40 headless content management systems, hoping to find the perfect CMS, but assuming that at the very least he would be able to present a reasonable alternative to his client’s detailed wishlist.
 
-{% bookshop "markdown/quote" quote:"CloudCannon sits really beautifully at that mesh point between the developer experience of creating a site and the client or stakeholder experience of editing it." %}
+{% bookshop &quot;markdown/quote&quot; quote:&quot;CloudCannon sits really beautifully at that mesh point between the developer experience of creating a site and the client or stakeholder experience of editing it.&quot; %}
 
 ### How CloudCannon ticks all the boxes
 
@@ -36,18 +36,18 @@ Rather than lose the work that had already gone into the project, Andrew was abl
 
 CloudCannon’s Git-based CMS ticked all the boxes that Arid Software was looking for, with full support for developer interactions, Git support for version control, and easy two-way Git syncing for collaboration between Arid’s developers and his client’s content editors.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/arid-desktop-crop.png" alt:"Image of desktop showcasing Arid's website" %}
+{% bookshop &quot;markdown/image&quot; src:&quot;https://cc-dam.imgix.net/arid-desktop-crop.png&quot; alt:&quot;Image of desktop showcasing Arid's website&quot; %}
 
 ### Developer-focused support and documentation
 
-Andrew has also found the benefits of CloudCannon‘s world-class support, with "super responsive" product developers on hand to answer his questions, and clear documentation for setting up new web projects.&nbsp;
+Andrew has also found the benefits of CloudCannon‘s world-class support, with "super responsive" product developers on hand to answer his questions, and clear documentation for setting up new web projects.
 
 With the wide range of static site generators supported by CloudCannon, Arid Software is more empowered than ever to do what they do best — create stunning websites for their clients, and let their clients manage their own content edits without developer oversight.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/iphone-arid-software-article.jpg" alt:"Image of mobile phone showing Arid Software's article" %}
+{% bookshop &quot;markdown/image&quot; src:&quot;https://cc-dam.imgix.net/iphone-arid-software-article.jpg&quot; alt:&quot;Image of mobile phone showing Arid Software's article&quot; %}
 
 ### Always adding value for clients
 
 CloudCannon offers significant features for Arid’s clients, at little additional cost. As Andrew notes, the difference in development time between creating a basic static site and creating a CloudCannon site with click-to-edit functionality is very small, but for his clients, there’s a huge difference in what they can achieve with a site they can edit themselves.
 
-## {% bookshop "markdown/quote" quote:"I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for." %}
+## {% bookshop &quot;markdown/quote&quot; quote:&quot;I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for.&quot; %}
