@@ -243,4 +243,4 @@ termsofservice:
 
 Data files are often a dumping ground for copy-pasted spaghetti formatted code. It's nice to see someone take pride in their code, even in a place that isn't seen by many people. Shout out to Jeremy Zilar for the pleasant surprise.
 
-That wraps up the [digital.gov](http://digital.gov) showcase. This is a well-established, frequently updated Hugo use case with interesting complexity around news/blog. If you're interested in using Hugo for your next project, take a look at this [Hugo tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/) to get started. 
+That wraps up the [digital.gov](http://digital.gov) showcase. This is a well-established, frequently updated Hugo use case with interesting complexity around news/blog. If you're interested in using Hugo for your next project, take a look at this [Hugo tutorial](/tutorials/hugo-tutorial/) to get started. 

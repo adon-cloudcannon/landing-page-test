@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 ---
 
-In a previous tutorial, we covered [the basics of using Hugo data files](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/using-data-in-hugo/). There’s one feature of data files we didn’t get a chance to get to — using `getJSON` or `getCSV` to [get remote data](https://gohugo.io/templates/data-templates/). We’ll be going deep into this powerful feature of data files in this tutorial.
+In a previous tutorial, we covered [the basics of using Hugo data files](/tutorials/hugo-beginner-tutorial/using-data-in-hugo/). There’s one feature of data files we didn’t get a chance to get to — using `getJSON` or `getCSV` to [get remote data](https://gohugo.io/templates/data-templates/). We’ll be going deep into this powerful feature of data files in this tutorial.
 
 ## What is a remote data file?
 

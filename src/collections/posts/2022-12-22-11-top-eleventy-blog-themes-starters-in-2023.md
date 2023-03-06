@@ -14,7 +14,7 @@ tags:
   - Resources
 author: david-large
 ---
-With the new year fast approaching, it’s time for a new-look personal website. But where should you start? We’d recommend Eleventy, the simpler static site generator. If you’re new to Eleventy, be sure to check out our [Eleventy Beginner’s tutorial](https://cloudcannon.com/community/learn/eleventy-beginner-tutorial/) to help you get started. If you’d like to get set up with a great Eleventy theme, read on\!
+With the new year fast approaching, it’s time for a new-look personal website. But where should you start? We’d recommend Eleventy, the simpler static site generator. If you’re new to Eleventy, be sure to check out our [Eleventy Beginner’s tutorial](/tutorials/eleventy-beginner-tutorial/) to help you get started. If you’d like to get set up with a great Eleventy theme, read on\!
 
 ## Why use Eleventy themes?
 
@@ -146,4 +146,4 @@ A simple and bright theme, Cool11ty is a straightforward introduction to Elevent
 
 ---
 
-CloudCannon’s Git-based&nbsp;[Eleventy CMS](https://cloudcannon.com/eleventy-cms/)&nbsp;lets developers configure an ideal visual editing experience for any number of content editors. If you’re interested in setting up your new Eleventy blog with a configurable CMS, check out our&nbsp;[Eleventy Setup Tutorial](https://cloudcannon.com/community/learn/eleventy-cms---get-started-with-cloudcannon/)&nbsp;for a straightforward guide to getting started with Eleventy and CloudCannon.
+CloudCannon’s Git-based&nbsp;[Eleventy CMS](https://cloudcannon.com/eleventy-cms/)&nbsp;lets developers configure an ideal visual editing experience for any number of content editors. If you’re interested in setting up your new Eleventy blog with a configurable CMS, check out our&nbsp;[Eleventy Setup Tutorial](/tutorials/eleventy-cms---get-started-with-cloudcannon/)&nbsp;for a straightforward guide to getting started with Eleventy and CloudCannon.

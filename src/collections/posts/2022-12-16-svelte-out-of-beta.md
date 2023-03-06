@@ -29,7 +29,7 @@ We’ve imported, created, and stress-tested a *very* wide range of SvelteKit si
 
 As we stress-test, we’re constantly iterating updating our [documentation for SvelteKit users](https://cloudcannon.com/documentation/?ssg=SvelteKit), making sure that all manner of questions are addressed and easily searchable, as well as offering detailed help and advice on configuring your existing SvelteKit sites for use with CloudCannon’s Visual, Content, and Data Editors.
 
-For users who are completely new to SvelteKit and want to try it out, we’ve also created a full [Beginner’s Guide for new SvelteKit users](https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/) for an easy introduction to layouts, components, templating, blogging and data files. We’ll continue to build on these tutorials over the coming months.
+For users who are completely new to SvelteKit and want to try it out, we’ve also created a full [Beginner’s Guide for new SvelteKit users](/tutorials/sveltekit-beginner-tutorial/) for an easy introduction to layouts, components, templating, blogging and data files. We’ll continue to build on these tutorials over the coming months.
 
 ### Bookshop support for SvelteKit
 

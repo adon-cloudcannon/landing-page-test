@@ -204,5 +204,5 @@ Search is a great way to help users quickly find what they're looking for. There
 3. Algolia gives you a JavaScript snippet to embed on your site. This snippet turns an input box into a fancy autocomplete search box with your content. That's all there is to it\!
 ## Wrap up
 
-Bootstrap is a fantastic example of a well-built documentation site on Hugo. If you're building a documentation site, I'd recommend having a dig around their source code as they typically have elegant solutions to common problems. If Hugo is the static site generator you want to use for your next project, take a look at this [Hugo tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/) to get you started. 
+Bootstrap is a fantastic example of a well-built documentation site on Hugo. If you're building a documentation site, I'd recommend having a dig around their source code as they typically have elegant solutions to common problems. If Hugo is the static site generator you want to use for your next project, take a look at this [Hugo tutorial](/tutorials/hugo-tutorial/) to get you started. 
 

@@ -74,7 +74,7 @@ Let’s hone in on the navigation and sprinkle some Hugo magic to make it easier
 
 This sets up the basic structure for our menu with a `name` and `url`, and handles the ordering with the `weight` field. Coding Concepts has a great example of [how to handle nested menus](https://codingnconcepts.com/hugo/nested-menu-hugo/) if you want to go the extra mile.
 
-With the content structure in place, we can use Hugo’s templating language to iterate over the main menu to build the navigation. We’ll create a [partial](https://cloudcannon.com/community/learn/hugo-tutorial/hugo-partials/) for our navigation logic so we don’t overcomplicate our layout. Create a `partials` directory inside `layouts` and create `/hugo_src/layouts/partials/nav.html` with the following:
+With the content structure in place, we can use Hugo’s templating language to iterate over the main menu to build the navigation. We’ll create a [partial](/tutorials/hugo-tutorial/hugo-partials/) for our navigation logic so we don’t overcomplicate our layout. Create a `partials` directory inside `layouts` and create `/hugo_src/layouts/partials/nav.html` with the following:
 
 {% raw %}
  ```html

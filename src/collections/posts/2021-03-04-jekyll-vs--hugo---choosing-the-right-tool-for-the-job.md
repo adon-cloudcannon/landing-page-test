@@ -178,13 +178,13 @@ A few examples of websites built with each framework:
 
 ### Things to watch out for when choosing Hugo
 
-The learning curve is a bit steeper. This statement is subjective, of course, but it’s a comment that many people make about Hugo. Unless you’re already comfortable with the Go language, it will probably take a bit of time before feeling comfortable with Go templates’ syntax and the general structure of a Hugo project. But you can always follow our helpful [Hugo tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/)\!
+The learning curve is a bit steeper. This statement is subjective, of course, but it’s a comment that many people make about Hugo. Unless you’re already comfortable with the Go language, it will probably take a bit of time before feeling comfortable with Go templates’ syntax and the general structure of a Hugo project. But you can always follow our helpful [Hugo tutorial](/tutorials/hugo-tutorial/)\!
 
 Hugo is extendable… but not as much as Jekyll. Hugo can be extended with many tools, but so does Jekyll **and** it can be extended with plugins made specifically for Jekyll.
 
 ## Why use Jekyll?
 
-If you already have expertise in the Ruby ecosystem, you will feel right at home. Even without much Ruby experience, Jekyll is one of the easiest SSGs to learn. (Try our [Jekyll tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) if you're getting started.) Conventions tend to be clearer with Jekyll. For instance, all blog posts follow a clear naming convention: “year-month-day-title”.
+If you already have expertise in the Ruby ecosystem, you will feel right at home. Even without much Ruby experience, Jekyll is one of the easiest SSGs to learn. (Try our [Jekyll tutorial](/tutorials/jekyll-tutorial/) if you're getting started.) Conventions tend to be clearer with Jekyll. For instance, all blog posts follow a clear naming convention: “year-month-day-title”.
 
 **Easy hosting on GitHub Pages.** (Although [version 4.0](https://github.com/github/pages-gem/issues/651) is still not supported to the community’s disbelief…)
 

@@ -38,7 +38,7 @@ Hugo took some ideas from other static site generators like front matter and Mar
 
 Hugo has seen success with corporate customers, including [1Password](https://support.1password.com/), [Linode](https://www.linode.com/docs/) [Digital.gov](https://digital.gov/), [KeyCDN](https://www.keycdn.com/), and [Let's Encrypt](https://letsencrypt.org/), to name just a few. [Bj&oslash;rn Erik Pedersen](https://github.com/bep) took over as the lead maintainer in 2015 and continues to lead Hugo's thriving community.
 
-*[See our introduction to getting started with Hugo on CloudCannon](https://cloudcannon.com/community/learn/hugo-tutorial/getting-started/#introduction)*.
+*[See our introduction to getting started with Hugo on CloudCannon](/tutorials/hugo-tutorial/getting-started/#introduction)*.
 
 ## [Sculpin](https://sculpin.io/)
 

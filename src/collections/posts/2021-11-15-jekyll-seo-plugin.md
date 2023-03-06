@@ -158,4 +158,4 @@ Liquid::Template.register_tag("seo",Jekyll::SeoTag)
 
 ## Wrap up
 
-The Jekyll SEO tag plugin is a must-have for any Jekyll site. It's usually the first plugin to install on any new Jekyll site. For more learning about Jekyll, try out this [Jekyll tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) to help with your next project. 
+The Jekyll SEO tag plugin is a must-have for any Jekyll site. It's usually the first plugin to install on any new Jekyll site. For more learning about Jekyll, try out this [Jekyll tutorial](/tutorials/jekyll-tutorial/) to help with your next project. 

@@ -448,4 +448,4 @@ aliases:
 
 What's the `--author=` doing here? Send us a Tweet if you have any ideas, I'm curious.
 
-You may have decided by now, that Jekyll is a great static site generator for your next project. If you'd like to learn more, take a look at this [Jekyll tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) to get you started. 
+You may have decided by now, that Jekyll is a great static site generator for your next project. If you'd like to learn more, take a look at this [Jekyll tutorial](/tutorials/jekyll-tutorial/) to get you started. 

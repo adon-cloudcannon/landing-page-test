@@ -23,7 +23,7 @@ The bar is pretty high, to be honest. We need to have a great deal of confidence
 When we say our support for Eleventy has come out of beta, here's what we mean:
 
 1. We’ve imported, created, and tested all manner of different Eleventy sites over the last year, resolving all issues that appeared;
-2. We’ve written up [rock-solid documentation on how to get started with Eleventy](https://cloudcannon.com/community/learn/eleventy-cms---get-started-with-cloudcannon/);
+2. We’ve written up [rock-solid documentation on how to get started with Eleventy](/tutorials/eleventy-cms---get-started-with-cloudcannon/);
 3. We’ve created additional developer tooling like Snippets — and [documented how to configure your existing Eleventy shortcodes and includes for all site users to create and edit them](https://cloudcannon.com/documentation/articles/editing-with-eleventy-shortcodes/?ssg=Eleventy) — so content writers on Eleventy sites benefit from CloudCannon’s intuitive visual UI.
 4. We’ve created a new page-building starter (theme) for Eleventy called [Sendit](https://cloudcannon.com/community/themes/sendit/), which acts as a showcase for both Eleventy’s slick build speeds and CloudCannon’s best-in-class editing features.&nbsp;
 5. For users of our open-source component development workflow [Bookshop](https://github.com/CloudCannon/bookshop), we’ve created a [full reference guide for Bookshop on Eleventy](https://github.com/CloudCannon/bookshop/blob/main/guides/eleventy.adoc) and a [Bookshop starter template](https://github.com/CloudCannon/eleventy-bookshop-starter). (The Sendit theme comes with Bookshop and a wide range of components already configured, too\!)

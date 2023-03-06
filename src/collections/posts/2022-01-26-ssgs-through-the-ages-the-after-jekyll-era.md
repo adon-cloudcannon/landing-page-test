@@ -48,7 +48,7 @@ Jekyll's contributions were dwindling in late 2012 and looked like a dormant fut
 
 [Ashwin Maroli](https://github.com/ashmaroli) and [Matt Rodgers](http://mattr.info/) took over after that and have pushed Jekyll forward to 4.2.1 with many bug fixes, documentation improvements, optimizations and quality of life improvements.
 
-[*See our introduction to getting started with Jekyll on CloudCannon*](https://cloudcannon.com/community/learn/jekyll-tutorial/getting-started/#introduction).
+[*See our introduction to getting started with Jekyll on CloudCannon*](/tutorials/jekyll-tutorial/getting-started/#introduction).
 
 ## [Middleman](https://middlemanapp.com/)
 

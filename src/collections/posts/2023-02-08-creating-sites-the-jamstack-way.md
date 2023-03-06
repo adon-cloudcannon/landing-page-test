@@ -58,7 +58,7 @@ Jamstack is a new approach to building websites and there are new technology and
 
 ### 1\. Learn a Static Site Generator
 
-The first step to building a Jamstack website is choosing a static site generator (SSG). There are many different options available, each with its pros and cons. The most popular include&nbsp;[Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Gatsby](https://www.gatsbyjs.com/), [Next.js](https://nextjs.org/), and [Nuxt.js](https://nuxtjs.org/). Following an introduction tutorial and building a small project is the best way to get your feet wet. CloudCannon offers learning path tutorials for [Jekyll](https://cloudcannon.com/community/learn/jekyll-101/) and [Hugo](https://cloudcannon.com/community/learn/hugo-101/) for those getting started.![](https://cc-dam.imgix.net/marketing/uploads/learn-a-ssg.svg)
+The first step to building a Jamstack website is choosing a static site generator (SSG). There are many different options available, each with its pros and cons. The most popular include&nbsp;[Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Gatsby](https://www.gatsbyjs.com/), [Next.js](https://nextjs.org/), and [Nuxt.js](https://nuxtjs.org/). Following an introduction tutorial and building a small project is the best way to get your feet wet. CloudCannon offers learning path tutorials for [Jekyll](/tutorials/jekyll-101/) and [Hugo](/tutorials/hugo-101/) for those getting started.![](https://cc-dam.imgix.net/marketing/uploads/learn-a-ssg.svg)
 
 ### 2\. Develop your website
 
@@ -90,7 +90,7 @@ To get started, you can sign up for our [free 14-day trial](https://app.cloudcan
 One of the best things about Jamstack is the community and resources available to help you learn. Here’s some of our favorites:
 
 * [The Jamstack Ecosystem](https://cloudcannon.com/community/jamstack-ecosystem/)
-* [CloudCannon's Jamstack tutorials](https://cloudcannon.com/community/learn/)
+* [CloudCannon's Jamstack tutorials](/tutorials/)
 * [Static vs Dynamic Websites: The Definitive Guide](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/)
 * [What is a Static Site Generator?](https://cloudcannon.com/blog/what-is-a-static-site-generator/)
 * [Choosing a CMS for your Static Site](https://cloudcannon.com/blog/choosing-a-cms-for-your-static-site-part-1/)

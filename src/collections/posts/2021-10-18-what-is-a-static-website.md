@@ -60,7 +60,7 @@ Known for its build speed. Large sites can have long upfront build times, but Hu
 #### Eleventy
 
 Ideal for collaborative development across multiple languages. Fast builds, a gentle learning curve, and easy to theme and extend.
-If you're looking to learn a new SSG, there are plenty of [beginner tutorials](https://cloudcannon.com/community/learn/) and community resources to help. 
+If you're looking to learn a new SSG, there are plenty of [beginner tutorials](/tutorials/) and community resources to help. 
 
 ### Building a static site with CloudCannon
 

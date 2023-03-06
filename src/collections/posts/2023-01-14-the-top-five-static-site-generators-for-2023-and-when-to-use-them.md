@@ -56,7 +56,7 @@ With Eleventy, you can choose from a variety of template languages such as Nunju
 
 Eleventy is a great choice for developers who value simplicity, flexibility, and customizability, and who want an SSG with fast build times and a strong community of support. If you’re focused on build speed and site performance, and would rather avoid JavaScript in your built sites where possible, you’d be hard pressed to choose anything other than Eleventy. (Especially with a stable 2.0 release on its way over the next few weeks!)
 
-Get started with Eleventy on its own with our [Eleventy Beginner tutorial series](https://cloudcannon.com/community/learn/eleventy-beginner-tutorial/), or find out more about [setting up and configuring an Eleventy site for the ideal editing experience with CloudCannon](https://cloudcannon.com/community/learn/eleventy-cms---get-started-with-cloudcannon/).
+Get started with Eleventy on its own with our [Eleventy Beginner tutorial series](/tutorials/eleventy-beginner-tutorial/), or find out more about [setting up and configuring an Eleventy site for the ideal editing experience with CloudCannon](/tutorials/eleventy-cms---get-started-with-cloudcannon/).
 
 ### [Hugo](https://gohugo.io/)
 
@@ -70,7 +70,7 @@ Hugo is an incredibly extensible platform, offering a wide range of both free an
 
 Hugo is a great choice for developers who need fast build times and flexible templating, and who value extensibility and a smaller but very knowledgeable and helpful community. (And with the free [HugoConf](https://hugoconf.io) returning for 2023, you’ll have ample chances to show the Hugo community your sites and shortcodes, and hear about new tools and approaches for including Hugo in your workflow.)
 
-You can get started with Hugo on its own through our [Hugo Beginner tutorial series](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/), or [find out more about setting up and configuring a Hugo site for editing with CloudCannon](https://cloudcannon.com/community/learn/hugo-cms---get-started-with-cloudcannon/). We've also created a tutorial on [how to optimise your Hugo site for SEO](https://cloudcannon.com/community/learn/hugo-seo-best-practices/).&nbsp;
+You can get started with Hugo on its own through our [Hugo Beginner tutorial series](/tutorials/hugo-beginner-tutorial/), or [find out more about setting up and configuring a Hugo site for editing with CloudCannon](/tutorials/hugo-cms---get-started-with-cloudcannon/). We've also created a tutorial on [how to optimise your Hugo site for SEO](/tutorials/hugo-seo-best-practices/).&nbsp;
 
 ### [SvelteKit](https://kit.svelte.dev/)
 
@@ -82,7 +82,7 @@ SvelteKit includes automatic code splitting, which means that it can split your 
 
 Svelte compiles its components to highly efficient JavaScript code that runs in the browser, making it a good choice for building fast and responsive web applications. It’s designed to be simple and easy to use, so it’s well established for Svelte developers who want to get up and running quickly with a new project. With its modern and intuitive codebase, developers can quickly create powerful and lightweight sites and web apps, allowing for quick and easy development without sacrificing quality.
 
-You can get started with SvelteKit with our [SvelteKit Beginner tutorial series](https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/), or [find out more about setting up and configuring a SvelteKit site to get the most out of&nbsp; CloudCannon](https://cloudcannon.com/documentation/articles/integrating-your-site/?ssg=SvelteKit).
+You can get started with SvelteKit with our [SvelteKit Beginner tutorial series](/tutorials/sveltekit-beginner-tutorial/), or [find out more about setting up and configuring a SvelteKit site to get the most out of&nbsp; CloudCannon](https://cloudcannon.com/documentation/articles/integrating-your-site/?ssg=SvelteKit).
 
 ### [Next.js](http://nextjs.org/)
 

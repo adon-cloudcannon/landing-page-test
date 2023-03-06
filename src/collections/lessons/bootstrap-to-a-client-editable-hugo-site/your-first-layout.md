@@ -28,7 +28,7 @@ git checkout layouts-start
 git checkout layouts-finish
 ```
 
-Layouts contain the structure of the website. Hugo has strict conventions when it comes to layouts; you can learn more about this in our [getting started with Hugo series](https://cloudcannon.com/community/learn/hugo-tutorial/layouts-in-hugo/).
+Layouts contain the structure of the website. Hugo has strict conventions when it comes to layouts; you can learn more about this in our [getting started with Hugo series](/tutorials/hugo-tutorial/layouts-in-hugo/).
 
 To begin, create the overarching layout for the site at `/hugo_src/layouts/_default/baseof.html`; you’ll have to create the `_default` directory here too. As a starting point, let’s copy the contents of `/theme/index.html` into this file. This is an entire page of the site — doctype, meta-tags, navigation, content, footer, everything\!
 

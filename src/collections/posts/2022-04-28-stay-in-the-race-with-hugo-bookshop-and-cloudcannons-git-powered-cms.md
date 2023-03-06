@@ -119,7 +119,7 @@ Better still . . .
 
 This article you’re reading now purposely **hasn’t** been a tutorial in
 using Bookshop and CloudCannon with Hugo, because an [excellent
-one](https://cloudcannon.com/community/learn/bootstrap-to-a-client-editable-hugo-site/) already exists right here on the
+one](/tutorials/bootstrap-to-a-client-editable-hugo-site/) already exists right here on the
 CloudCannon website\! Do yourself a favor by setting aside some time to go
 through the tutorial in its entirety. Not coincidentally, it uses the
 aforementioned Megakit template.

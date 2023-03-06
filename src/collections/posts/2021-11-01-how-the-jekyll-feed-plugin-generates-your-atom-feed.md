@@ -184,5 +184,5 @@ The [generator](https://github.com/jekyll/jekyll-feed/blob/master/lib/jekyll-fee
 
 Jekyll plugins can be a black box, but they're usually relatively straightforward when you dive into them. Hopefully, this has given you a glimpse into what it takes to generator your Jekyll feed. If you're interested in more deep dives on Jekyll plugins, reach out on Twitter. 
 
-If you're interested in using Jekyll for your next project, take a look at this [Jekyll tutorial](https://cloudcannon.com/community/learn/jekyll-tutorial/) to get started. 
+If you're interested in using Jekyll for your next project, take a look at this [Jekyll tutorial](/tutorials/jekyll-tutorial/) to get started. 
 

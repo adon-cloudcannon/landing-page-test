@@ -118,7 +118,7 @@ This is only the beginning of your Hugo journey. You now have the skills to buil
 
 * The [Hugo documentation](https://gohugo.io/getting-started/installing/) is a great resource for learning everything Hugo has to offer
 * The [Hugo community forums](https://gohugo.io/getting-started/installing/) are welcoming to new comers. This is a good place to get support and connect with the community.
-* [Bootstrap to a client editable Hugo site](https://cloudcannon.com/community/learn/bootstrap-to-a-client-editable-hugo-site/) is a more advanced Hugo tutorial that shows you how to convert a purely static website to a Hugo site clients can update.
+* [Bootstrap to a client editable Hugo site](/tutorials/bootstrap-to-a-client-editable-hugo-site/) is a more advanced Hugo tutorial that shows you how to convert a purely static website to a Hugo site clients can update.
 
 Finally I want to quickly mention [CloudCannon](https://cloudcannon.com/hugo-cms/) - it’s a content management system with first class support for Hugo and syncs directly with your Git repository. So your developer team can continue working in Hugo while your content team can manage the content on the site. It’s the best of both worlds.
 

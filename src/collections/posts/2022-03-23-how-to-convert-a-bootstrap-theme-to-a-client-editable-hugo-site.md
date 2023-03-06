@@ -16,7 +16,7 @@ tags:
   - Resources
 author: cloudcannon
 ---
-Do you want to bring something fresh to your Hugo clients? Or perhaps you want to bring the speed and flexibility of Hugo to non-technical users? Look no further. We’ve launched a [new in-depth tutorial over on the CloudCannon Learn pages](https://cloudcannon.com/community/learn/bootstrap-to-a-client-editable-hugo-site/)\!
+Do you want to bring something fresh to your Hugo clients? Or perhaps you want to bring the speed and flexibility of Hugo to non-technical users? Look no further. We’ve launched a [new in-depth tutorial over on the CloudCannon Learn pages](/tutorials/bootstrap-to-a-client-editable-hugo-site/)\!
 
 In this tutorial, you’ll learn how to take an existing, MIT-licensed Bootstrap template, convert it into a Hugo theme, and then set it up for client editing and rich page-building with CloudCannon and our open-source [Bookshop](https://github.com/CloudCannon/bookshop) tool. You’ll also learn the basics of Hugo navigation, data files, and components, as well as some best practices to ensure that non-technical content editors will be able to make the changes they need, without worrying about breaking the site.
 

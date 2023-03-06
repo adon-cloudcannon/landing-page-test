@@ -89,7 +89,7 @@ Eleventy v2.0 is also approaching. Its first beta release was announced just day
 
 Phew! There’s more over at the [beta release changelog](https://github.com/11ty/eleventy/compare/v1.0.2...v2.0.0-beta.1), but with the above changes it’s clear that the Eleventy team is busier than ever, and the SSG will remain a forerunner in the field over 2023.
 
-[Get started with our Eleventy Beginner tutorial series](https://cloudcannon.com/community/learn/eleventy-beginner-tutorial/)<br>[Bring your Eleventy websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Eleventy sites for CloudCannon editing](https://cloudcannon.com/community/learn/eleventy-cms---get-started-with-cloudcannon/)
+[Get started with our Eleventy Beginner tutorial series](/tutorials/eleventy-beginner-tutorial/)<br>[Bring your Eleventy websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Eleventy sites for CloudCannon editing](/tutorials/eleventy-cms---get-started-with-cloudcannon/)
 
 ## Jekyll
 
@@ -123,7 +123,7 @@ Breaking changes for Jekyll v5 may include:
 
 Some of the above proposed changes to Jekyll appear to be bringing its behavior more in line with other SSGs, particularly in terms of posts and collections. I’ll watch this one closely, since some of my oldest CloudCannon sites are built with Jekyll, and I’d love to improve their performance if I can.
 
-[Get started with our Jekyll Beginner tutorial series](https://cloudcannon.com/community/learn/jekyll-tutorial/)<br>[Bring your Jekyll websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)
+[Get started with our Jekyll Beginner tutorial series](/tutorials/jekyll-tutorial/)<br>[Bring your Jekyll websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)
 
 ## Hugo
 
@@ -137,7 +137,7 @@ Because of the team’s focus on smaller point releases they’re able to move p
 
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[Get started with our Hugo Beginner tutorial series](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/)<br>[Bring your Hugo sites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Hugo sites for CloudCannon editing](https://cloudcannon.com/community/learn/hugo-cms---get-started-with-cloudcannon/)
+[Get started with our Hugo Beginner tutorial series](/tutorials/hugo-beginner-tutorial/)<br>[Bring your Hugo sites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Hugo sites for CloudCannon editing](/tutorials/hugo-cms---get-started-with-cloudcannon/)
 
 ## SvelteKit
 
@@ -153,7 +153,7 @@ Even in the team’s 1.0 release notes, though, they made a point of saying that
 
 I really like the Svelte team’s approach to pitching their product, personally. As they say, Next.js, Remix, Astro, Rails, and Laravel are all wonderful tools, and if you’ve settled on one of them, you should feel great about choosing them. But you should also feel pretty damn good about choosing SvelteKit — it offers perhaps the most flexibility about how you build your sites and apps. You can do build-time validation or render data from the filesystem that your edge functions can’t touch. You don’t necessarily need server-side rendering, but it’s there if you want it, and SvelteKit lets you make the choice with as much granularity as you need — hence the term that Svelte creator Rich Harris coined last year, ‘[transitional apps](https://www.youtube.com/watch?v=860d8usGC0o)’.
 
-[Get started with our SvelteKit Beginner tutorial series](https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/)<br>[Bring your SvelteKit websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)
+[Get started with our SvelteKit Beginner tutorial series](/tutorials/sveltekit-beginner-tutorial/)<br>[Bring your SvelteKit websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)
 
 ## Next.js
 
