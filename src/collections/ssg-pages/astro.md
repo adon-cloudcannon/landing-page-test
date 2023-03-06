@@ -259,7 +259,7 @@ content_blocks:
           active: true
           top: 30
           right: 0
-          bottom: 15
+          bottom: 30
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -495,7 +495,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -735,7 +735,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 45
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -1081,9 +1081,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 30
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1342,7 +1342,7 @@ content_blocks:
           active: true
           top: 60
           right: 0
-          bottom: 100
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1543,9 +1543,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1635,7 +1635,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         active: true
-                        top: 0
+                        top: 60
                         bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
@@ -1832,10 +1832,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       size: normal
       align: none
