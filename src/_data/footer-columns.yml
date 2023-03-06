@@ -35,10 +35,10 @@
 - title: Developers
   items:
     - title: Documentation
-      url: https://cloudcannon.com/documentation/
+      url: /documentation/
       open_in_new_tab: false
     - title: Changelog
-      url: https://cloudcannon.com/changelog/
+      url: /changelog/
       open_in_new_tab: false
     - title: Tutorials
       url: /tutorials/
