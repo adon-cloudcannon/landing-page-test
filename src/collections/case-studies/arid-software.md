@@ -50,4 +50,8 @@ With the wide range of static site generators supported by CloudCannon, Arid Sof
 
 CloudCannon offers significant features for Arid’s clients, at little additional cost. As Andrew notes, the difference in development time between creating a basic static site and creating a CloudCannon site with click-to-edit functionality is very small, but for his clients, there’s a huge difference in what they can achieve with a site they can edit themselves.
 
+<<<<<<< HEAD
 ## {% bookshop "markdown/quote" quote:"I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for." %}
+=======
+{% bookshop "markdown/quote" quote:"I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for." %}
+>>>>>>> 120b564 (add jekyll tutorial)
