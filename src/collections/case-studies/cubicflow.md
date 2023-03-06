@@ -8,7 +8,7 @@ categories:
   - Agency
 image:
   path: https://cc-dam.imgix.net/Cubicflow.png
-  alt: Cubicflow logo
+  alt: Cubicflow's website
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/cubicflow.svg
 case_study_person: db7ca780-836c-4d66-8a34-b99e36a6a4dc
 description: >-
