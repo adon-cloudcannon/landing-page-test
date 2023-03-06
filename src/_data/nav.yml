@@ -80,8 +80,8 @@
           link: /templates/
           description: Get started with a pre-configured site
           icon: puzzle-piece
-        - name: Contact
-          link: /contact/
+        - name: Support
+          link: /support/
           description: We're here to help
           icon: inbox
     - title: Partners

@@ -19,6 +19,49 @@ content_blocks:
           content:
             left:
               blocks:
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: Support
+                  styles:
+                    width: medium
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: left
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: true
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
                 - _bookshop_name: simple/heading
                   content:
                     text: We're here to help
@@ -29,7 +72,7 @@ content_blocks:
                       text_alignment:
                         align: left
                       text_sizing:
-                        text_size: biggest
+                        text_size: big
                       margin:
                         top: 0
                         bottom: 30
@@ -372,7 +415,7 @@ content_blocks:
               - image:
                 icon:
                   active: true
-                  icon_path: outline/check-badge
+                  icon_path: outline/clipboard-document
                   icon_color: orange
                 title: Changelog
                 link: https://cloudcannon.com/changelog/
