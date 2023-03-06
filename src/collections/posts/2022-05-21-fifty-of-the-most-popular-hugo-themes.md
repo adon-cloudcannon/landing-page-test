@@ -1,5 +1,6 @@
 ---
 title: Fifty of 2022's most popular Hugo themes
+permalink: /blog/fifty-of-the-most-popular-hugo-themes/
 description: >-
   Compare fifty of the year's most popular Hugo themes, brought to you by
   CloudCannon, the Git-based CMS for Hugo.
