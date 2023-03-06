@@ -1441,7 +1441,7 @@ content_blocks:
             mobile:
               text_alignment:
                 active: true
-                align: left
+                align: center
               text_sizing:
                 active: true
                 text_size: normal
