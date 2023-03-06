@@ -1447,7 +1447,7 @@ content_blocks:
                 text_size: normal
               margin:
                 active: true
-                top: 15
+                top: 60
                 bottom: 30
         - _bookshop_name: simple/steps
           content:
