@@ -315,7 +315,9 @@ bottom_content:
   {% assign future_events = events | where: "data.upcoming", true %}
   {% assign past_events = events | where: "data.upcoming", false %}
 
-  {% if future_events %}
+  {% assign future_event_length = future_events | size %}
+
+  {% if future_event_length > 0 %}
     <h2 class="font-bold text-4xl text-gray-700">Upcoming Events</h2>
 
     <div class="mb-14 mt-5">

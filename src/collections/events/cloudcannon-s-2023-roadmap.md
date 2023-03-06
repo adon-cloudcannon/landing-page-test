@@ -4,7 +4,7 @@ image:
   path: https://cc-dam.imgix.net/SF-Ep6-george (1).jpg
   alt: CloudCannon's 2023 Roadmap
 date: 2023-01-25T11:00:00Z
-upcoming: true
+upcoming: false
 title: CloudCannon's 2023 Roadmap
 content: >-
   We talk through CloudCannon's feature-packed 2022, and look ahead to what's
