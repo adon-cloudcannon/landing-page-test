@@ -1,5 +1,5 @@
 {
   "layout": "cheat-sheet.html",
   "tags": ["cheat_sheet"],
-	"permalink": "/community/cheat-sheets/{{ page.fileSlug }}/"
+	"permalink": "/cheat-sheets/{{ page.fileSlug }}/"
 }

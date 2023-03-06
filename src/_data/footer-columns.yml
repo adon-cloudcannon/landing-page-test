@@ -44,7 +44,7 @@
       url: /tutorials/
       open_in_new_tab: false
     - title: Cheatsheets
-      url: /community/cheat-sheets/jekyll/
+      url: /cheat-sheets/jekyll/
     - title: Jamstack Ecosystem
       url: /jamstack-ecosystem/
       open_in_new_tab: false
