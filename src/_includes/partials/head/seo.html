@@ -62,9 +62,9 @@
 
 <!--  Canonical URL for SEO -->
 {% if seo.canonical_url %}
-    <meta property="og:url" content="{{ site.BaseURL }}{{ seo.canonical_url | url }}" />
-   <link rel="canonical" href="{{ site.BaseURL }}{{ seo.canonical_url | url }}" />
+    <meta property="og:url" content="{{ site.site_url }}{{ seo.canonical_url | url }}" />
+   <link rel="canonical" href="{{ site.site_url }}{{ seo.canonical_url | url }}" />
 {% else %}
-    <meta property="og:url" content="{{ site.BaseURL }}{{ page.url | url }}" />
-   <link rel="canonical" href="{{ site.BaseURL }}{{ page.url | url }}" />
+    <meta property="og:url" content="{{ site.site_url }}{{ page.url | url }}" />
+   <link rel="canonical" href="{{ site.site_url }}{{ page.url | url }}" />
 {% endif %}

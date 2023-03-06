@@ -1,5 +1,6 @@
 {
   "layout": "expert.html",
+  "permalink": "/experts/{{ page.fileSlug }}/",
   "tags": ["experts"] 
 }
 
