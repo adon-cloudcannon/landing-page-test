@@ -31,7 +31,7 @@ image_carousel:
     image_alt: >-
       Screenshot of Justice theme layout of a blog page full width white blog
       cards on a grey background
-themes_ssgs:
+ssgs:
   - ssg_name: jekyll
     github_repo_url: https://github.com/CloudCannon/justice-jekyll-bookshop-template
     main_branch: main

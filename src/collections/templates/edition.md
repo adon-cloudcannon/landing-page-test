@@ -34,7 +34,7 @@ image_carousel:
     image_alt: >-
       Screenshot of Edition theme layout of a documentation page with a menu on
       the left hand side and the content on the right
-themes_ssgs:
+ssgs:
   - ssg_name: jekyll
     github_repo_url: 'https://github.com/CloudCannon/edition-jekyll-template'
     main_branch: main

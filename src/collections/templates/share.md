@@ -18,7 +18,7 @@ image_carousel:
     image_alt: Logo ticker and column blocks
   - image_path: https://cc-dam.imgix.net/share-video.jpg
     image_alt: Video
-themes_ssgs:
+ssgs:
   - ssg_name: hugo
     github_repo_url: https://github.com/CloudCannon/share-hugo-template
     main_branch: main

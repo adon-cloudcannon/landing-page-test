@@ -33,7 +33,7 @@ image_carousel:
     image_alt: >-
       Screenshot of Hydra theme layout of the contact page with a map at the top
       of the page and contact form below
-themes_ssgs:
+ssgs:
   - ssg_name: jekyll
     github_repo_url: https://github.com/CloudCannon/hydra-jekyll-bookshop-template
     main_branch: main

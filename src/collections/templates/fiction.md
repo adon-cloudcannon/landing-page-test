@@ -22,7 +22,7 @@ image_carousel:
     image_alt: Contact form
   - image_path: https://cc-dam.imgix.net/fiction-footer-resized.png
     image_alt: Footer
-themes_ssgs:
+ssgs:
   - ssg_name: hugo
     github_repo_url: https://github.com/CloudCannon/fiction-hugo-template/
     main_branch: main

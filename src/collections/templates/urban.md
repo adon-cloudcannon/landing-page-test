@@ -33,7 +33,7 @@ image_carousel:
     image_alt: >-
       Screenshot of Urban theme layout of the contact page with a map in a
       diagonal strip and contact information under it
-themes_ssgs:
+ssgs:
   - ssg_name: jekyll
     github_repo_url: 'https://github.com/CloudCannon/urban-jekyll-bookshop-template'
     main_branch: main

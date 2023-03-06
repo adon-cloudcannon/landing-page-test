@@ -30,7 +30,7 @@ image_carousel:
   - image_path: https://cc-dam.imgix.net/community/images/templates/vonge/2.png
     image_alt: >-
       Screenshot of Vonge footer and call to action
-themes_ssgs:
+ssgs:
   - ssg_name: jekyll
     github_repo_url: 'https://github.com/CloudCannon/vonge-jekyll-bookshop-template'
     main_branch: main

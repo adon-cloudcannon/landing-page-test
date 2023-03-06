@@ -1,5 +1,5 @@
 ---
-title: Templates
+title: Templates for Static Site Generators
 layout: builder.html
 permalink: /templates/
 description: >-
@@ -15,7 +15,7 @@ top_content:
         blocks:
           - _bookshop_name: simple/heading
             content:
-              text: Themes for Static Site Generators
+              text: Templates for Static Site Generators
             styles:
               size: h1
               width: normal
@@ -310,23 +310,23 @@ bottom_content:
 ---
 <div class="container">
 
-  {% assign themes = collections.themes | sort: 'data.priority' %}
+  {% assign templates = collections.templates | sort: 'data.priority' %}
 
   <div class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
     
-    {% for theme in themes %}
-      <a href="{{ theme.url }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">
-        {% bookshop "helpers/image" image: theme.data.image alt: theme.data.title responsive: true classes: 'w-full' width: 594 height: 371 %}
+    {% for template in templates %}
+      <a href="{{ template.url }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">
+        {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: 'w-full' width: 594 height: 371 %}
         <div class="p-3">
           <div class="flex my-1">
-            {% for ssg in theme.data.themes_ssgs %}
+            {% for ssg in template.data.ssgs %}
               <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]" />
             {% endfor %}
           </div>
           <h3 class="text-xl font-bold mt-1">
-            {{ theme.data.name }}
+            {{ template.data.name }}
           </h3>
-          <p>{{ theme.data.description }}</p>
+          <p>{{ template.data.description }}</p>
         </div>
       </a>
     {% endfor %}

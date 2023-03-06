@@ -21,7 +21,7 @@ image_carousel:
     image_alt: pricing
   - image_path: https://cc-dam.imgix.net/sendit-footer.png
     image_alt: Footer
-themes_ssgs:
+ssgs:
   - ssg_name: hugo
     github_repo_url: https://github.com/CloudCannon/sendit-hugo-template
     main_branch: main

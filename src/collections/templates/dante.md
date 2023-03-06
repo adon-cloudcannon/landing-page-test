@@ -18,7 +18,7 @@ image_carousel:
     image_alt: Dante contact screenshot
   - image_path: https://cc-dam.imgix.net/dante-portfolio-screenshot.png.png
     image_alt: Dante portfolio screenshot
-themes_ssgs:
+ssgs:
   - ssg_name: jekyll
     github_repo_url: https://github.com/CloudCannon/dante-jekyll-bookshop-template
     main_branch: main

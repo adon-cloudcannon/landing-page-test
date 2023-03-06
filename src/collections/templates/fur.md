@@ -32,7 +32,7 @@ image_carousel:
     image_alt: >-
       Screenshot of Fur theme layout of the contact page with a map on the left
       and simple contact form on the right
-themes_ssgs:
+ssgs:
   - ssg_name: Jekyll
     github_repo_url: https://github.com/CloudCannon/fur-jekyll-template
     main_branch: main

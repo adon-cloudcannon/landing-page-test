@@ -30,7 +30,7 @@ image_carousel:
     image_alt: >-
       Screenshot of Aviator theme layout, with contents in menu bar on the left,
       documentation in the middle and code snippets on the right
-themes_ssgs:
+ssgs:
   - ssg_name: jekyll
     github_repo_url: 'https://github.com/CloudCannon/aviator-jekyll-template'
     main_branch: main
