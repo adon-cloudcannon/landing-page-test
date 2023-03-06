@@ -8,7 +8,7 @@ categories:
   - Agency
 image:
   path: https://cc-dam.imgix.net/arid-card.png
-  alt: Arid Software's Website
+  alt: Arid Software's logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/arid.jpg
 case_study_person: a338c132-a99c-11ed-afa1-0242ac120002
 description: >-
@@ -50,8 +50,10 @@ With the wide range of static site generators supported by CloudCannon, Arid Sof
 
 CloudCannon offers significant features for Arid’s clients, at little additional cost. As Andrew notes, the difference in development time between creating a basic static site and creating a CloudCannon site with click-to-edit functionality is very small, but for his clients, there’s a huge difference in what they can achieve with a site they can edit themselves.
 
-<<<<<<< HEAD
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
 ## {% bookshop "markdown/quote" quote:"I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for." %}
-=======
-{% bookshop "markdown/quote" quote:"I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for." %}
->>>>>>> 120b564 (add jekyll tutorial)
+
+\======= {% bookshop "markdown/quote" quote:"I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for." %}
+
+> > > > > > > 120b564 (add jekyll tutorial)
