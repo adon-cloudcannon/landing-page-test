@@ -2,7 +2,7 @@
 title: Using Data with Hugo
 image:
 order: '6'
-tutorial: hugo-beginner-tutorial
+tutorial: hugo-tutorial
 description: |-
   Use data files to import existing data or have an easy way of managing global
     data in this Hugo tutorial.

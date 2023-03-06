@@ -2,7 +2,7 @@
 title: Getting set up in Hugo
 image: 
 breadcrumb_title: Hugo beginner tutorial
-tutorial: hugo-beginner-tutorial
+tutorial: hugo-tutorial
 order: 1
 description: Get Hugo set up and installed for the rest of the lessons.
 seo:

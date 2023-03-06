@@ -2,7 +2,7 @@
 title: Hugo templating basics
 image: 
 order: '4'
-tutorial: hugo-beginner-tutorial
+tutorial: hugo-tutorial
 description: |-
   Go templates is the flexible templating language used in Hugo. In this lesson
     we'll go over basic Go templating concepts and see how you can use it on your

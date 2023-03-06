@@ -2,7 +2,7 @@
 title: Blogging in Hugo
 image: 
 order: '5'
-tutorial: hugo-beginner-tutorial
+tutorial: hugo-tutorial
 description: |-
   In this Hugo tutorial you will learn how to create a blog with Hugo content
     and layouts.
