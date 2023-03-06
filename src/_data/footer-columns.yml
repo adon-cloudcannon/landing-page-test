@@ -43,7 +43,7 @@
     - title: Tutorials
       url: /tutorials/
       open_in_new_tab: false
-    - title: Cheatsheets
+    - title: Jekyll cheatsheet
       url: /cheat-sheets/jekyll/
     - title: Jamstack Ecosystem
       url: /jamstack-ecosystem/
