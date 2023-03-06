@@ -116,7 +116,7 @@
 					{% else %}
 						{% assign text = 'Book a call with us' %}
 					{% endif %}
-					{% bookshop 'helpers/button' text:text size:'normal' style:style extra_classes:'w-full' %}
+					{% bookshop 'helpers/button' text:text size:'normal' style:style extra_classes:'w-full' link: content.links[i] %}
 				</td>
 				{% assign i = i | plus: 1 %}
 			{% endfor %}
