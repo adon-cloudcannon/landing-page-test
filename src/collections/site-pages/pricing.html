@@ -15,27 +15,24 @@ content_blocks:
   - _bookshop_name: sections/container
     content:
       blocks:
-        - _bookshop_name: simple/heading
+        - _bookshop_name: simple/emoji-heading
           content:
-            text: A plan for all content needs
+            title:
+            emoji:
+            sub_title: Pricing
           styles:
-            size: h1
-            width: normal
+            width: full
+            element: h1
             desktop:
               text_alignment:
                 align: center
-              text_sizing:
-                text_size: biggest
               margin:
                 top: 0
-                bottom: 30
+                bottom: -30
             tablet:
               text_alignment:
                 active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: big
+                align: center
               margin:
                 active: false
                 top: 0
@@ -43,17 +40,57 @@ content_blocks:
             mobile:
               text_alignment:
                 active: false
-                align: left
-              text_sizing:
-                active: true
-                text_size: normal
+                align: center
               margin:
-                active: true
+                active: false
                 top: 0
-                bottom: 15
+                bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: Plans designed for organizations of all sizes.
+            text_markdown: '# Plans for all your content needs'
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: Designed for organizations of all sizes.
           styles:
             desktop:
               text_alignment:
