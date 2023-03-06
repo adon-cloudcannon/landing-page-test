@@ -1833,7 +1833,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
