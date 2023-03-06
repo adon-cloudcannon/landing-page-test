@@ -91,6 +91,17 @@ collections_config:
     filter:
       exclude:
         - lessons.json
+  posts:
+    description: Blog posts
+    output: true
+    path: 'collections/posts'
+    schemas:
+      default:
+        path: .cloudcannon/schemas/post.md
+    icon: rss_feed
+    filter:
+      exclude:
+        - posts.json
   ecosystem:
     description:
     output: true
