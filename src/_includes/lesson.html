@@ -128,18 +128,20 @@ eleventyComputed:
             left: 0
 ---
 <div class="container relative" data-pagefind-filter="site:Resources" data-pagefind-meta="site:Resources" data-pagefind-body>
-  <div class="prose md:prose-lg lg:prose-xl mb-20 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
-    {{ content }}
-  </div>
-  <div class="absolute -right-12 w-[220px] h-full top-0">
-    <div class="sticky top-5">
-      <div class="flex justify-around mb-2">
-        <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://twitter.com/share?url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/twitter.svg' | svgContents}}</a>
-        <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://www.facebook.com/sharer.php?u=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/facebook.svg' | svgContents}}</a>
-        <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="http://www.linkedin.com/shareArticle?mini=true&url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/linkedin.svg' | svgContents}}</a>
-        <a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://cloudcannon.com{{ page.url }}.">{{ '/src/images/icons/outline/envelope.svg' | svgContents}}</a>
+  <div class="relative mx-[-2rem]">
+    <div class="prose container md:prose-lg lg:prose-xl mb-20 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+      {{ content }}
+    </div>
+    <div class="xl:absolute xl:right-0 2xl:right-[-40px] xl:w-[220px] xl:h-full top-0 max-w-prose mx-auto xl:mx-0 px-8 xl:px-0 mt-8 xl:mt-0">
+      <div class="xl:sticky top-5">
+        <div class="flex justify-around mb-2">
+          <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://twitter.com/share?url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/twitter.svg' | svgContents}}</a>
+          <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="https://www.facebook.com/sharer.php?u=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/facebook.svg' | svgContents}}</a>
+          <a class="w-8 flex justify-center transition [&>svg]:fill-gray-300 [&>svg]:hover:fill-gray-500" href="http://www.linkedin.com/shareArticle?mini=true&url=https://cloudcannon.com{{ page.url }}">{{ '/src/images/icons/social/linkedin.svg' | svgContents}}</a>
+          <a class="w-8 flex justify-center transition [&>svg]:stroke-gray-300 [&>svg]:hover:stroke-gray-500" href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://cloudcannon.com{{ page.url }}.">{{ '/src/images/icons/outline/envelope.svg' | svgContents}}</a>
+        </div>
+        {% include 'partials/lesson/table.html' %}
       </div>
-      {% include 'partials/lesson/table.html' %}
     </div>
   </div>
 </div>
