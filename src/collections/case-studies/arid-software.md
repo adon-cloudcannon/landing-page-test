@@ -7,7 +7,7 @@ weight: 9
 categories:
   - Agency
 image:
-  path: https://cc-dam.imgix.net/arid-card.png
+  path: https://cc-dam.imgix.net/arid-card-resize.svg
   alt: Arid Software's logo
 logo: https://cc-dam.imgix.net/marketing/uploads/case-study/arid.jpg
 case_study_person: a338c132-a99c-11ed-afa1-0242ac120002
