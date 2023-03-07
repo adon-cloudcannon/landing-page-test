@@ -858,3 +858,19 @@ _inputs:
         - teal-white
         - teal
         - normal
+
+
+_snippets_imports:
+  eleventy_liquid: true
+
+_snippets:
+  quote:
+    template: eleventy_liquid_bookshop_component
+    inline: false
+    preview:
+      text: My Custom Render
+    definitions:
+      component_name: markdown/quote
+      named_args:
+        - editor_key: quote
+          type: string

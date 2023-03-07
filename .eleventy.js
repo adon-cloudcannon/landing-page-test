@@ -55,6 +55,89 @@ module.exports = function (eleventyConfig) {
 		pathPrefix: '',
 	}));
 
+	// Shortcodes
+    eleventyConfig.addShortcode('youtube', function(title, id, extend, border ){
+		let extendClass = '' ;
+		let borderClass = '';
+		if(extend){
+			extendClass = 'xl:mx-[-9rem]'
+		}
+
+		if(border){
+			borderClass = 'border-2';
+		}
+
+        return `<div class="relative ${extendClass} ${borderClass} ">
+        <iframe
+        class="w-full aspect-video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen="" 
+        frameborder="0"
+        loading="lazy"
+        src="https://www.youtube.com/embed/${id}?rel=0&amp;modestbranding=1&amp;showinfo=0" 
+        title="${title}"></iframe>
+    </div>
+    `
+    });
+	eleventyConfig.addShortcode('vimeo', function(video, title, border){
+		let j= '?';
+		let borderClass= '';
+		if(video.includes('?')){
+			j = '&';
+		}
+		if(border){
+			borderClass = 'border-2';
+		}
+		return `<div class="relative ${borderClass}">
+			<iframe
+				class="w-full aspect-video"
+				src="${video}${j}muted=1&background=1&loop=1&autopause=0&autoplay=1"
+				allow="autoplay; fullscreen; picture-in-picture" 
+				allowfullscreen="" 
+				title="${ title }" 
+				data-ready="true"
+				loading="lazy"
+				frameborder="0"></iframe>
+		</div>`	
+	});
+
+	eleventyConfig.addShortcode('video', function(url, title, border){
+		let borderClass= '';
+		if(border){
+			borderClass = 'border-2';
+		}
+		return `<video 
+		autoplay muted loop
+		class="w-full aspect-video ${borderClass}"
+		title="${ title}">
+		<source src="${ url}" type="video/mp4">
+		</video>`
+	});
+
+	eleventyConfig.addShortcode('quote', function(quote){
+		return `<blockquote class="border-0 px-14 text-3xl leading-relaxed">
+		<p>${ quote}</p>
+		</blockquote>`
+	});
+
+	eleventyConfig.addShortcode('image', function(src, alt, extend, border){
+		let extendContainerClass = '';
+		let extendImageClass = '';
+		let borderClass = '';
+
+		if(extend){
+			extendContainerClass = '-mx-36';
+			extendImageClass = 'w-full max-h-[700px] object-cover object-center';
+		}
+
+		if(border){
+			borderClass = 'border-2';
+		}
+		return `<div class="relative ${extendContainerClass} ${borderClass}">
+			<img src="${src}" alt="${ alt }" class="rounded-xl mx-auto ${ extendImageClass}" />
+		</div>`
+	});
+
 	eleventyConfig.addFilter("excerpt", Helpers.excerpt);
 	eleventyConfig.addFilter("UUID", Helpers.uuid);
 	eleventyConfig.addFilter("is_integer", Helpers.is_integer);
