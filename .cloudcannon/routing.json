@@ -96,12 +96,6 @@
       "status": 302,
       "forced": false
     },
-		{
-      "from": "/community/hosting-comparison/",
-      "to": "https://muggy-okapi.cloudvent.net/community/jamstack-hosting-comparison/",
-      "status": 302,
-      "forced": false
-    },
     {
       "from": "/community/tools-and-resources/",
       "to": "/jamstack-ecosystem/",
