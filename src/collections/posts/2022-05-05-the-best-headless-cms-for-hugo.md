@@ -106,7 +106,7 @@ files to your server.
 Whether you’re a seasoned Hugo developer or just starting out, we’re here
 to support your Hugo projects. In our [Jamstack
 Tutorials](/tutorials/) section you can learn [how to set up and configure a Hugo
-site](/tutorials/hugo-cms---get-started-with-cloudcannon/) to get the most out of CloudCannon, or
+site](https://cloudcannon.com/documentation/guides/hugo-starter-guide/) to get the most out of CloudCannon, or
 learn the basics of Hugo and build your first site in our [Hugo beginner’s
 tutorial](/tutorials/hugo-beginner-tutorial/). Or if you'd prefer to jump straight in,
 why not deploy one of our [Hugo

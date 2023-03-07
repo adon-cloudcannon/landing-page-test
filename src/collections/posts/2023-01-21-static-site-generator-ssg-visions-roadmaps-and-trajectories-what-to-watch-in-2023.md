@@ -72,7 +72,7 @@ Eleventy v2.0 is also approaching. Its first beta release was announced just day
   * Nunjucks: 17% faster;
   * Markdown (with Liquid): 17% faster;
   * JavaScript (11ty.js): 8% faster.
-* [`--incremental` for incremental builds](https://www.11ty.dev/docs/usage/incremental/]&#40;https://www.11ty.dev/docs/usage/incremental/)
+  * [`--incremental` for incremental builds](https://www.11ty.dev/docs/usage/incremental/)
   * Smarter incremental builds with support for layout dependencies,&nbsp;[registered dependencies on custom templates](https://www.11ty.dev/docs/languages/custom/#registering-dependencies), dependencies in `pagination` data or [`eleventyImport`](https://www.11ty.dev/docs/collections/#declare-your-collections-for-incremental-builds)
 * [`--ignore-initial` command line option](https://www.11ty.dev/docs/usage/#ignore-initial-to-run-eleventy-without-an-initial-build]&#40;https://www.11ty.dev/docs/usage/#ignore-initial-to-run-eleventy-without-an-initial-build) to skip the first build (best paired with `-- incremental`);
 * Use&nbsp;[emulated passthrough copy](https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve) to serve passthrough files directly without triggering a build (will still work with live reload);
@@ -89,7 +89,7 @@ Eleventy v2.0 is also approaching. Its first beta release was announced just day
 
 Phew! There’s more over at the [beta release changelog](https://github.com/11ty/eleventy/compare/v1.0.2...v2.0.0-beta.1), but with the above changes it’s clear that the Eleventy team is busier than ever, and the SSG will remain a forerunner in the field over 2023.
 
-[Get started with our Eleventy Beginner tutorial series](/tutorials/eleventy-beginner-tutorial/)<br>[Bring your Eleventy websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Eleventy sites for CloudCannon editing](/tutorials/eleventy-cms---get-started-with-cloudcannon/)
+[Get started with our Eleventy Beginner tutorial series](/tutorials/eleventy-beginner-tutorial/)<br>[Bring your Eleventy websites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Eleventy sites for CloudCannon editing](https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/)
 
 ## Jekyll
 
@@ -137,7 +137,7 @@ Because of the team’s focus on smaller point releases they’re able to move p
 
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[Get started with our Hugo Beginner tutorial series](/tutorials/hugo-beginner-tutorial/)<br>[Bring your Hugo sites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Hugo sites for CloudCannon editing](/tutorials/hugo-cms---get-started-with-cloudcannon/)
+[Get started with our Hugo Beginner tutorial series](/tutorials/hugo-beginner-tutorial/)<br>[Bring your Hugo sites to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard)<br>[Learn how to configure your Hugo sites for CloudCannon editing](https://cloudcannon.com/documentation/guides/hugo-starter-guide/)
 
 ## SvelteKit
 

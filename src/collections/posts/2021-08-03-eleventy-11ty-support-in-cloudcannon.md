@@ -20,7 +20,7 @@ Now you can sync your Eleventy site from your chosen Git provider, build your si
 
 ## We’re rather pleased about this
 
-We’ve always had the end goal of building the world’s best all-in-one Jamstack platform. We started with full [Jekyll](/tutorials/jekyll-101/) and [Hugo](/tutorials/hugo-101/) support, and we’re now picking up speed in adding the rest. With Eleventy support added to CloudCannon, the SSG workflow just got a lot simpler for developers of all skill levels and backgrounds.
+We’ve always had the end goal of building the world’s best all-in-one Jamstack platform. We started with full [Jekyll](/tutorials/jekyll-tutorial/) and [Hugo](/tutorials/hugo-beginner-tutorial/) support, and we’re now picking up speed in adding the rest. With Eleventy support added to CloudCannon, the SSG workflow just got a lot simpler for developers of all skill levels and backgrounds.
 
 ## Why Eleventy?
 

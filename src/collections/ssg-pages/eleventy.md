@@ -1024,7 +1024,7 @@ content_blocks:
                       - _bookshop_name: simple/content-button
                         content:
                           url: >-
-                            /tutorials/eleventy-cms--get-started-with-cloudcannon/
+                            https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/
                           text: 11ty + CloudCannon Guide
                         styles:
                           margin:

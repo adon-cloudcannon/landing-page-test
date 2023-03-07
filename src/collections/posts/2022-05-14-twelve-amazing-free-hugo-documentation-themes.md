@@ -133,4 +133,4 @@ For light-sensitive users, Geekdoc's dark mode can be controlled by a toggle swi
 
 ## **Wrapping up**
 
-There we have it — a dozen top free Hugo documentation themes for any use case. Once you've built your Hugo site with your chosen theme, check out our [Getting Started with Hugo tutorial](/tutorials/hugo-cms---get-started-with-cloudcannon/) to find out how to deploy with CloudCannon and its intuitive editor for documentation teams.
+There we have it — a dozen top free Hugo documentation themes for any use case. Once you've built your Hugo site with your chosen theme, check out our [Getting Started with Hugo tutorial](https://cloudcannon.com/documentation/guides/hugo-starter-guide/) to find out how to deploy with CloudCannon and its intuitive editor for documentation teams.

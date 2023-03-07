@@ -92,7 +92,7 @@ An SEO-friendly theme for Eleventy, featuring grid CSS, blogging with sub-catego
 
 Minimalism allows for even speedier page creation, and comes complete with light and dark modes, RSS, SEO optimization, 404 error pages, easy social links, PWA, sitemaps, and top lighthouse scores.
 
-[Minimalism demo site](https://venerable-sundae-621325.netlify.app/)<br>[Source](https://github.com/MarcoMicale/Minimalism)
+[Source](https://github.com/MarcoMicale/Minimalism)
 
 ### Thisis Classic SEO
 
@@ -146,4 +146,4 @@ A simple and bright theme, Cool11ty is a straightforward introduction to Elevent
 
 ---
 
-CloudCannon’s Git-based&nbsp;[Eleventy CMS](https://cloudcannon.com/eleventy-cms/)&nbsp;lets developers configure an ideal visual editing experience for any number of content editors. If you’re interested in setting up your new Eleventy blog with a configurable CMS, check out our&nbsp;[Eleventy Setup Tutorial](/tutorials/eleventy-cms---get-started-with-cloudcannon/)&nbsp;for a straightforward guide to getting started with Eleventy and CloudCannon.
+CloudCannon’s Git-based [Eleventy CMS](https://cloudcannon.com/eleventy-cms/) lets developers configure an ideal visual editing experience for any number of content editors. If you’re interested in setting up your new Eleventy blog with a configurable CMS, check out our [Eleventy Setup Tutorial](https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon) for a straightforward guide to getting started with Eleventy and CloudCannon.

@@ -88,6 +88,6 @@ While you're likely to need a solid background in React (and therefore JavaScrip
 
 Whichever static site generator you choose for your next website project, CloudCannon CMS will support you and your content editors with [two-way Git syncing](https://cloudcannon.com/features/developer-workflows/) for collaboration, [branch/merge workflows](https://cloudcannon.com/features/collaborative-publishing/) for adding new content and features, [top-tier hosting](https://cloudcannon.com/features/edge-hosting/), and best of all, an intuitive [visual editor](https://cloudcannon.com/features/visual-editing/) interface.
 
-If you're looking for tutorials, find out more about working with [Hugo for beginners](/tutorials/hugo-beginner-tutorial/), or how to [make the most of Hugo and CloudCannon](/tutorials/hugo-cms---get-started-with-cloudcannon/). You may also find it helpful to dig into our [Documentation](https://cloudcannon.com/documentation/) to answer your SSG-specific questions about how to work with CloudCannon and Hugo, Gatsby,js, or any other static site generator. 
+If you're looking for tutorials, find out more about working with [Hugo for beginners](/tutorials/hugo-beginner-tutorial/), or how to [make the most of Hugo and CloudCannon](https://cloudcannon.com/documentation/guides/hugo-starter-guide/). You may also find it helpful to dig into our [Documentation](https://cloudcannon.com/documentation/) to answer your SSG-specific questions about how to work with CloudCannon and Hugo, Gatsby,js, or any other static site generator. 
 
  
