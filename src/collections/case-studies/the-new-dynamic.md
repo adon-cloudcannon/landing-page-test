@@ -39,7 +39,7 @@ Why would a successful agency bring their clients to a new content management sy
 
 As for Régis, who’s put CloudCannon through its paces, how does he feel about the process of actually transitioning clients to a new CMS?
 
-{% bookshop "markdown/quote" quote:"I'm in a position to be confident; there's not much impact on the code itself — most of the content [changes are] in config files and a few form fields, but that's it. We’re very confident." %}
+> I'm in a position to be confident; there's not much impact on the code itself — most of the content \[changes are\] in config files and a few form fields, but that's it. We’re very confident.
 
 Looking at CloudCannon from a client’s perspective (“stepping into the shoes of an editor”, as he puts it), Régis is particularly impressed with the UX.
 
@@ -47,7 +47,7 @@ Working together with CloudCannon as the CMS adds more features for developers a
 
 And with every site tND creates, and every additional content editor taking the reins of their own site, tND will be more empowered to do what they do best: research, design, and develop the best possible websites.
 
-{% bookshop "markdown/quote" quote:"The fact that you can preview links, the way that you choose your images, those kinds of things are really helpful to editors. And when you add content to a page just like a page builder, you can click on any one of those blocks and see all of its styles and its content. That's pretty powerful. As an overall product, it's very cool." %}
+> The fact that you can preview links, the way that you choose your images, those kinds of things are really helpful to editors. And when you add content to a page just like a page builder, you can click on any one of those blocks and see all of its styles and its content. That's pretty powerful. As an overall product, it's very cool.
 
 ## An agency that takes responsibility
 
@@ -69,7 +69,7 @@ With CloudCannon’s Content Editor and tND’s efficient development, AGNI edit
 
 And with the benefits of Jamstack — speed, reliability, and security — AGNI readers have the best possible experience.
 
-{% bookshop "markdown/quote" quote:"We’re eager to port those sites to CloudCannon, to show it to our clients, to discuss it, and get them set up. We're very happy, and I'm thrilled to have more clients seeing their sites on CloudCannon." %}
+> We’re eager to port those sites to CloudCannon, to show it to our clients, to discuss it, and get them set up. We're very happy, and I'm thrilled to have more clients seeing their sites on CloudCannon.
 
 ### Empowered editors without a developer
 
@@ -81,7 +81,7 @@ Rather than freezing a site while the changes are being made, editors on CloudCa
 
 Their existing site can then stay live until they're completely happy with their new content. At this point they'd be able to simply publish all their new changes from their private staging site to their public production site at the precise time they wish to release their new reports — all without involving a developer.
 
-{% bookshop "markdown/quote" quote:"Our users are able to make all of their changes and see them happening on the preview that is shown by CloudCannon, without actually publishing all their changes. So this allows them to do a batch of changes without having any impact until they hit that publish button. It's a very simple way to do it, but it's better for editors." %}
+> Our users are able to make all of their changes and see them happening on the preview that is shown by CloudCannon, without actually publishing all their changes. So this allows them to do a batch of changes without having any impact until they hit that publish button. It's a very simple way to do it, but it's better for editors.
 
 ### Better editing, happy clients
 
