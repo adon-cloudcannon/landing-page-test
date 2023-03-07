@@ -864,7 +864,7 @@ _snippets_imports:
   eleventy_nunjucks: true
 
 _snippets:
-  custom_snippet:
+  quote:
     template: eleventy_nunjucks_shortcode_positional_args
     inline: false
     preview:
@@ -874,4 +874,36 @@ _snippets:
       positional_args:
         - editor_key: quote
           type: string
+  video:
+    template: eleventy_nunjucks_shortcode_positional_args
+    inline: false
+    preview:
+      text: Video
+    definitions:
+      shortcode_name: video
+      positional_args:
+        - editor_key: url
+          type: string
+        - editor_key: title
+          type: string
+        - editor_key: border
+          type: boolean
+  image:
+    template: eleventy_nunjucks_shortcode_positional_args
+    inline: false
+    preview:
+      text: Image
+    definitions:
+      shortcode_name: image
+      positional_args:
+        - editor_key: src
+          type: string
+        - editor_key: alt
+          type: string
+        - editor_key: extend
+          type: boolean
+        - editor_key: border
+          type: boolean
+
+
 
