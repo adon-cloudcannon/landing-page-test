@@ -775,8 +775,8 @@ content_blocks:
                 bottom: 0
                 left: 0
               padding:
-                active: false
-                top: 0
+                active: true
+                top: 60
                 right: 0
                 bottom: 0
                 left: 0
@@ -816,9 +816,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 60
+          top: 90
           right: 0
-          bottom: 90
+          bottom: 125
           left: 0
       size: normal
       align: center
