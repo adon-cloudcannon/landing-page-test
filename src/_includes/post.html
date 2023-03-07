@@ -27,7 +27,7 @@ cta:
 		{% for tag in tags %}
 			{% if tag == "posts" %}{% continue %}{% endif %}
 			<span class="first:hidden"> · </span>
-			<a href="/blog/tags/{{ tag | downcase }}/" class="text-cc uppercase hover:text-cc_hover hover:underline transition">
+			<a href="/blog/tags/{{ tag | downcase | slugify }}/" class="text-cc uppercase hover:text-cc_hover hover:underline transition">
 				{{ tag }}
 			</a> 
 		{% endfor %}

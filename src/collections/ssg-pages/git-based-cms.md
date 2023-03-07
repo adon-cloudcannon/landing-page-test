@@ -106,7 +106,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Book a demo
-                  link: https://easy-sky.cloudvent.net/book-a-demo/
+                  link: /book-a-demo/
                 styles:
                   style: normal
                   size: big
@@ -114,7 +114,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Get started with a free trial
-                  link: /https://app.cloudcannon.com/editor
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: outline
                   size: big
