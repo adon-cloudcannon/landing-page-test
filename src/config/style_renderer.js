@@ -236,7 +236,7 @@ module.exports = {
 			return styles;
 		}
 
-		let transformations = 'translateZ(1px) ';
+		let transformations = '';
 
 		if ('scale' in transform) {
 			transformations += `scale(${transform.scale}) `;
