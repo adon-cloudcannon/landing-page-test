@@ -183,7 +183,7 @@ content_blocks:
                 align: center
         - _bookshop_name: simple/image
           content:
-            alt: 'Waiting on hero image '
+            alt: Hero image review and publish desktop
             image: https://cc-dam.imgix.net/Review-publish-image3.png
           styles:
             border:
@@ -191,7 +191,10 @@ content_blocks:
             ontop:
             width: full
             pixel_width:
+            max_width:
             desktop:
+              visibility:
+                hide: false
               transform:
                 scale: 1
                 translate_x: 0
@@ -202,13 +205,16 @@ content_blocks:
                 align_block: left
               margin:
                 top: 0
-                bottom: 90
+                bottom: 0
               position:
                 top: 0
                 left: 0
                 bottom: 0
                 right: 0
             tablet:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -230,6 +236,87 @@ content_blocks:
                 bottom: 0
                 right: 0
             mobile:
+              visibility:
+                active: true
+                hide: true
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+        - _bookshop_name: simple/image
+          content:
+            alt: Hero image review publish mobile
+            image: https://cc-dam.imgix.net/review-publish-image-mobile_720.png
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: true
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                bottom: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: true
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -243,7 +330,7 @@ content_blocks:
               margin:
                 active: true
                 top: 0
-                bottom: 30
+                bottom: 90
               position:
                 active: false
                 top: 0
