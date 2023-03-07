@@ -859,29 +859,28 @@ _inputs:
         - teal
         - normal
 
-
 _snippets_imports:
-  eleventy_nunjucks: true
+  eleventy_liquid: true
 
 _snippets:
   quote:
-    template: eleventy_nunjucks_shortcode_positional_args
+    template: eleventy_liquid_bookshop_component
     inline: false
     preview:
       text: Quote
     definitions:
-      shortcode_name: quote
-      positional_args:
+      component_name: markdown/quote
+      named_args:
         - editor_key: quote
           type: string
   video:
-    template: eleventy_nunjucks_shortcode_positional_args
+    template: eleventy_liquid_bookshop_component
     inline: false
     preview:
       text: Video
     definitions:
-      shortcode_name: video
-      positional_args:
+      component_name: markdown/video
+      named_args:
         - editor_key: url
           type: string
         - editor_key: title
@@ -889,13 +888,13 @@ _snippets:
         - editor_key: border
           type: boolean
   image:
-    template: eleventy_nunjucks_shortcode_positional_args
+    template: eleventy_liquid_bookshop_component
     inline: false
     preview:
       text: Image
     definitions:
-      shortcode_name: image
-      positional_args:
+      component_name: markdown/image
+      named_args:
         - editor_key: src
           type: string
         - editor_key: alt
@@ -905,13 +904,13 @@ _snippets:
         - editor_key: border
           type: boolean
   vimeo:
-    template: eleventy_nunjucks_shortcode_positional_args
+    template: eleventy_liquid_bookshop_component
     inline: false
     preview:
       text: Vimeo
     definitions:
-      shortcode_name: vimeo
-      positional_args:
+      component_name: markdown/vimeo
+      named_args:
         - editor_key: video
           type: string
         - editor_key: title
@@ -919,13 +918,13 @@ _snippets:
         - editor_key: border
           type: boolean
   youtube:
-    template: eleventy_nunjucks_shortcode_positional_args
+    template: eleventy_liquid_bookshop_component
     inline: false
     preview:
       text: Youtube
     definitions:
-      shortcode_name: youtube
-      positional_args:
+      component_name: markdown/youtube
+      named_args:
         - editor_key: title
           type: string
         - editor_key: id
