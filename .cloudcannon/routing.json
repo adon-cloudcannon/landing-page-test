@@ -21,6 +21,11 @@
   ],
   "routes": [
     {
+      "from": "/changelog/(.*)",
+      "to": "/documentation/$1",
+      "status": 301
+    },
+    {
       "from": "/community/themes/aperture",
       "to": "/themes/",
       "status": 301
