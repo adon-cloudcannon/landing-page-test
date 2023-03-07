@@ -113,10 +113,7 @@ const search = new Instance({
 	indexWeight: 2,
 	mergeIndex: [
 		{
-			bundlePath: "https://cloudcannon.com/documentation/_pagefind/",
-			mergeFilter: {
-				site: "Documentation"
-			}
+			bundlePath: "https://cloudcannon.com/documentation/_pagefind/"
 		}
 	]
 });
