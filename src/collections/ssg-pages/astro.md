@@ -1635,7 +1635,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         active: true
-                        top: -15
+                        top: 0
                         bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
@@ -1760,7 +1760,7 @@ content_blocks:
                         active: true
                         top: 0
                         left: 0
-                        bottom: 30
+                        bottom: 45
                         right: 0
                       position:
                         active: false

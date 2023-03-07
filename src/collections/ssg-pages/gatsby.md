@@ -1805,7 +1805,7 @@ content_blocks:
                         active: true
                         top: 0
                         left: 0
-                        bottom: 60
+                        bottom: 45
                         right: 0
                       position:
                         active: false
