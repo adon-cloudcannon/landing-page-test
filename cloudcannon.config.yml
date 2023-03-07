@@ -864,7 +864,7 @@ _snippets_imports:
   eleventy_liquid: true
 
 _snippets:
-  quote:
+  custom_snippet:
     template: eleventy_nunjucks_shortcode_positional_args
     inline: false
     preview:
