@@ -155,4 +155,3 @@ And there we have it! Ten open source SvelteKit templates for 2023, covering a r
 
 Have we missed your favorite SvelteKit theme? Let us know on [Twitter](https://twitter.com/CloudCannon) or [Mastodon](https://techhub.social/@cloudcannon)!
 
-{% bookshop 'markdown/quote', quote: "kjnkjnkjnkjn" %}

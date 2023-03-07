@@ -865,12 +865,13 @@ _snippets_imports:
 
 _snippets:
   quote:
-    template: eleventy_liquid_bookshop_component
+    template: eleventy_nunjucks_shortcode_positional_args
     inline: false
     preview:
-      text: My Custom Render
+      text: Quote
     definitions:
-      component_name: markdown/quote
-      named_args:
+      shortcode_name: quote
+      positional_args:
         - editor_key: quote
           type: string
+
