@@ -861,7 +861,7 @@ _inputs:
 
 
 _snippets_imports:
-  eleventy_liquid: true
+  eleventy_nunjucks: true
 
 _snippets:
   custom_snippet:
