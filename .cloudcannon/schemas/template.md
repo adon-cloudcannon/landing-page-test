@@ -1,5 +1,5 @@
 ---
-uuid: a2dd388b-7254-4797-9da8-128922024b7c
+uuid:
 name: 
 image: 
 image_alt:
@@ -8,11 +8,11 @@ header_description:
 image_carousel:
   - image_path:
     image_alt:
-themes_ssgs:
+ssgs:
   - ssg_name:
     github_repo_url:
     main_branch:
     readme_filename:
     live_preview_url:
-priority: 6
+priority: 
 ---

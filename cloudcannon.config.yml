@@ -58,17 +58,17 @@ collections_config:
     output: false
     path: '_data'
     icon: settings_applications
-  themes:
-    description: A list of themes
+  templates:
+    description: A list of templates
     output: true
-    path: 'collections/themes'
+    path: 'collections/templates'
     icon: palette
     schemas:
       default:
-        path: .cloudcannon/schemas/theme.md
+        path: .cloudcannon/schemas/template.md
     filter:
       exclude:
-        - themes.json
+        - templates.11tydata.js
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
