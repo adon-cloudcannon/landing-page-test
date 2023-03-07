@@ -491,7 +491,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -728,7 +728,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -1129,9 +1129,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1388,7 +1388,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -1495,8 +1495,8 @@ content_blocks:
                 text_size: normal
               margin:
                 active: true
-                top: 0
-                bottom: 15
+                top: 60
+                bottom: 30
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -1584,9 +1584,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1802,10 +1802,10 @@ content_blocks:
                         active: false
                         align_block: left
                       margin:
-                        active: false
+                        active: true
                         top: 0
                         left: 0
-                        bottom: 0
+                        bottom: 60
                         right: 0
                       position:
                         active: false
@@ -1877,10 +1877,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       size: normal
       align: none

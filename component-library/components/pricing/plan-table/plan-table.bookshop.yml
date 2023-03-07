@@ -12,6 +12,7 @@ blueprint:
   content:
       plan_count: 3
       name: []
+      links: []
       price: []
       description: []
       cta: []
