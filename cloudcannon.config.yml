@@ -904,6 +904,34 @@ _snippets:
           type: boolean
         - editor_key: border
           type: boolean
-
-
+  vimeo:
+    template: eleventy_nunjucks_shortcode_positional_args
+    inline: false
+    preview:
+      text: Vimeo
+    definitions:
+      shortcode_name: vimeo
+      positional_args:
+        - editor_key: video
+          type: string
+        - editor_key: title
+          type: string
+        - editor_key: border
+          type: boolean
+  youtube:
+    template: eleventy_nunjucks_shortcode_positional_args
+    inline: false
+    preview:
+      text: Youtube
+    definitions:
+      shortcode_name: youtube
+      positional_args:
+        - editor_key: title
+          type: string
+        - editor_key: id
+          type: string
+        - editor_key: extend
+          type: boolean          
+        - editor_key: border
+          type: boolean
 
