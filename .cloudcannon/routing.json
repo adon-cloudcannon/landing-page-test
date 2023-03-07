@@ -22,7 +22,7 @@
   "routes": [
     {
       "from": "/changelog/(.*)",
-      "to": "/documentation/$1",
+      "to": "/documentation/changelog/$1",
       "status": 301
     },
     {
