@@ -1823,7 +1823,7 @@ content_blocks:
                         active: false
                         top: 0
                         left: 0
-                        bottom: 30
+                        bottom: 45
                         right: 0
                       position:
                         active: false
