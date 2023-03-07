@@ -65,7 +65,7 @@ _inputs:
   case_study_quote:
     type: select
     options:
-      values: collections.case-study-quote.uuid
+      values: collections.case-study-quote.case_study_person
   active:
     comment: These values won't be used unless active is enabled.
     type: switch
