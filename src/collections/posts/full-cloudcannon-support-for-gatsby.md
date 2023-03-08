@@ -10,8 +10,10 @@ series:
 image: https://cc-dam.imgix.net/blog/blog-gatsby-support-launch-r.jpg
 date: 2023-03-10T05:09:00Z
 hide_publish_date: false
-tags: Gatsby, Features
-author: authors/cloudcannon
+tags:
+  - Gatsby
+  - Features
+author: cloudcannon
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article
