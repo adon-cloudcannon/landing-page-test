@@ -1,7 +1,11 @@
 ---
 _schema: default
 title: Full CloudCannon support for Gatsby
-description:
+description: >-
+  The CloudCannon team is thrilled to introduce our latest release, which brings
+  CloudCannon's support for Gatsby out of beta. For developers using React
+  components, or wanting to bring their data from a legacy CMS to the modern
+  web, Gatsby and CloudCannon make an excellent combination.
 series:
 image: https://cc-dam.imgix.net/blog/blog-gatsby-support-launch-r.jpg
 date: 2023-03-10T05:09:00Z
@@ -11,8 +15,8 @@ author: authors/cloudcannon
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/blog/blog-gatsby-support-launch-r.jpg
+  featured_image_alt: CloudCannon and Gatsby logos
 ---
 What’s that? Another SSG support release for CloudCannon? Absolutely!
 
@@ -34,14 +38,18 @@ We have imported, built, and stress-tested a variety of static Gatsby sites usin
 
 We've updated our Gatsby-specific documentation to ensure that all of your queries are answered and readily searchable, and our support and engineering teams have prepared thoroughly documented advice on configuring your current Gatsby sites for use with CloudCannon's Visual, Content, and Data Editors.
 
-Whether you’re working on page-building; data, content, or visual editing; creating React components or using existing ones; templating; blogging; or using GraphQL data on your CloudCannon Gatsby sites, our [documentation](https://cloudcannon.com/documentation/?ssg=Gatsby), [getting started guide](https://cloudcannon.com/documentation/guides/gatsby-starter-guide/), and support will have you covered.
+Whether you’re working on page-building; data, content, or visual editing; creating React components or using existing ones; templating; blogging; or using GraphQL data on your CloudCannon Gatsby sites, our <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/?ssg=Gatsby">documentation</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/gatsby-starter-guide/">getting started guide</a>, and support will have you covered.
 
 ### **Sendit — a new free page-building theme for Gatsby**
 
-We've extended our new theme Sendit for Gatsby as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Gatsby users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Gatsby sites for CloudCannon, so feel free to dig into that cloudcannon.config.yml file!
+We've extended our new theme Sendit for Gatsby as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Gatsby users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Gatsby sites for CloudCannon, so feel free to dig into that `cloudcannon.config.yml` file!
+
+![](https://cc-dam.imgix.net/sendit-hero.png)
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 
 Check out the Sendit demo site to see its potential. You can also deploy a new Sendit site with Gatsby and CloudCannon in just a minute and experience the best of our Visual Editor for intuitive page building.
+
+---
 
 *Do you have any questions about bringing your Gatsby sites to CloudCannon, or need a little help with migration or configuration? Feel free to book a no-obligation demo call with our Gatsby experts, take a look at our updated documentation, or get in touch with our support team.*
