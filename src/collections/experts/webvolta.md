@@ -1,6 +1,6 @@
 ---
 title: WebVolta
-weight: 2
+weight: 3
 description: |
   We believe every business deserves beautiful design and innovative technology.
 long_description: >-
