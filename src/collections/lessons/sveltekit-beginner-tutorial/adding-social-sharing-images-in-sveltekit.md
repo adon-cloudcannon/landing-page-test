@@ -12,7 +12,9 @@ seo:
   featured_image: https://cc-dam.imgix.net/tutorial-sveltekit.png
   featured_image_alt: SvelteKit Beginner Tutorial with CloudCannon
 ---
-###### !\[\](https://cc-dam.imgix.net/Rodney (1).jpg)
+#
+
+###### ![](https://cc-dam.imgix.net/Rodney &#40;1&#41;.jpg)
 
 ###### By <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>&nbsp;
 
@@ -54,7 +56,7 @@ We also sneaked in a canonical rel tag here. It is a good idea to add this if yo
 
 You might have noticed we included `description` and `slug` fields among the imports in the last section. We have not added them to our post front matter yet though! We can do that now, as well as add some other fields which we will use later. You can edit the file in the CloudCannon Source Editor:
 
-<img width="808" height="455" src="https://cc-dam.imgix.net/rodney1-2.png" />
+![](https://cc-dam.imgix.net/Rodney1.png)
 
 When you click save, the changes are automatically synced to your git repo.
 
@@ -74,7 +76,7 @@ Before we can add the meta we need a picture. You want something engaging and re
 
 As before you can work in the CloudCannon console here. Create a new `static/assets` folder in the project and drop the three images in there. Name them `bed-og.jpg`, `nose-og.jpg` and `sniffing-og.jpg`.
 
-<img width="808" height="455" src="/uploads/rodney-2-2.png" />
+![](https://cc-dam.imgix.net/Rodney 2.png)
 
 ## Open Graph Svelte Markup
 
