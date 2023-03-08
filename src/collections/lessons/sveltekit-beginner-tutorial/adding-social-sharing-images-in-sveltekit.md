@@ -12,8 +12,6 @@ seo:
   featured_image: https://cc-dam.imgix.net/tutorial-sveltekit.png
   featured_image_alt: SvelteKit Beginner Tutorial with CloudCannon
 ---
-# Adding Social Sharing Images & Meta to your SvelteKit Posts
-
 ###### !\[\](https://cc-dam.imgix.net/Rodney (1).jpg)
 
 ###### By <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>&nbsp;
@@ -58,7 +56,7 @@ We also sneaked in a canonical rel tag here. It is a good idea to add this if yo
 
 You might have noticed we included `description` and `slug` fields among the imports in the last section. We have not added them to our post front matter yet though! We can do that now, as well as add some other fields which we will use later. You can edit the file in the CloudCannon Source Editor:
 
-<img width="808" height="455" src="https://cc-dam.imgix.net/uploads/rodney1-2.png" />
+<img width="808" height="455" src="https://cc-dam.imgix.net/rodney1-2.png" />
 
 When you click save, the changes are automatically synced to your git repo.
 
