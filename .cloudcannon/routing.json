@@ -1439,6 +1439,60 @@
         "to":"/sitemap.xml",
         "status":301,
         "forced":false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/using-data/",
+      "to": "/tutorials/hugo-tutorial/using-data/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/taxonomies/",
+      "to": "/tutorials/hugo-tutorial/taxonomies/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/page-bundles-and-shortcodes/",
+      "to": "/tutorials/hugo-tutorial/page-bundles-and-shortcodes/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/layouts-in-hugo/",
+      "to": "/tutorials/hugo-tutorial/layouts-in-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/hugo-partials/",
+      "to": "/tutorials/hugo-tutorial/hugo-partials/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/go-templating-basics/",
+      "to": "/tutorials/hugo-tutorial/go-templating-basics/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/getting-started/",
+      "to": "/tutorials/hugo-tutorial/getting-started/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/content-and-blogging-in-hugo/",
+      "to": "/tutorials/hugo-tutorial/content-and-blogging-in-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/",
+      "to": "/tutorials/hugo-tutorial/",
+      "status": 301,
+      "forced": false
     }
   ]
 }
