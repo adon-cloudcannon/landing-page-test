@@ -8,11 +8,13 @@ description: >-
   performant sites available for non-technical editors to draft, review, and
   publish their content.
 series:
-image: https://cc-dam.imgix.net/blog/Top-10-SvelteKit-Themes-2023.png
-date:
+image: ''
+date: 2023-03-17T05:00:00Z
 hide_publish_date: false
 tags:
-author:
+  - Astro
+  - Features
+author: cloudcannon
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article
@@ -39,10 +41,12 @@ We have imported, built, and stress-tested a variety of static Astro sites using
 
 ### **Sendit — a *stellar* free page-building theme for Astro**
 
-We've extended our new theme Sendit for Astro as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Astro users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Astro sites for editing on CloudCannon: make use of that cloudcannon.config.yml file and see how it’s all set up!
+We've extended our new theme Sendit for Astro as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Astro users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Astro sites for editing on CloudCannon: make use of that `cloudcannon.config.yml` file and see how it’s all set up!
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 
 Check out the Sendit demo site to see its potential. You can also deploy a new Sendit site with Astro and CloudCannon in less than a minute and experience the best of our Visual Editor for intuitive page building.
+
+---
 
 *Do you have any questions about bringing your Astro sites to CloudCannon, or need a little help with migration or configuration? Feel free to book a no-obligation demo call with our Astro experts, take a look at our updated documentation, or get in touch with our support team.*
