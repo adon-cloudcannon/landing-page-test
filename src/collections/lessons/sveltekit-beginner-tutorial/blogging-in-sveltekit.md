@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Blogging in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 5
@@ -11,7 +12,6 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 A blog in SvelteKit consists of a page that lists all the blog posts, and a series of content pages with a date for the posts. That’s all there is to it.
 
 We’re going to use [mdsvex](https://github.com/pngwn/MDsveX) to render our Markdown posts. It’s a Markdown preprocessor for Svelte which allows you to use Svelte templating and components amongst your Markdown.
@@ -54,23 +54,24 @@ export default config;
 The one curious line in the above config is where we set the layout. Any `.md` or `.svx` will use this layout by default. It doesn’t exist yet so let’s create it. Create a directory called `blog` inside the routes folder and inside create `_post.svelte` with the following:
 
 {% raw %}
- ```html
+
+```html
 <script>
-  export let title
-  export let date
+ export let title
+ export let date
 </script>
 
 <svelte:head>
-  <title>{ title }</title>
+ <title>{ title }</title>
 </svelte:head>
 
 <h1>{title}</h1>
 
 <p>Published: {date}</p>
 
-
 <slot />
 ```
+
 {% endraw %}
 
 We’re setting props for `title` and `date` which will be set through front matter in our post (we’ll get to this soon). The rest of this is similar to our first layout, we’re setting a `<title>`, some elements on the page, then calling `<slot />` for our content.
@@ -84,7 +85,7 @@ SvelteKit nests layouts by default, so it will work up the directory tree applyi
 
 ## Creating posts
 
-Each&nbsp;post is a Markdown file and lives in the `/src/routes/blog/` directory we created before. Now let's create three blog posts:
+Each post is a Markdown file and lives in the `/src/routes/blog/` directory we created before. Now let's create three blog posts:
 
 ```markdown
 ---
@@ -94,7 +95,6 @@ date: "2022-07-01"
 A dog's nose is unique, just like the finger prints of a human.
 ```
 
-
 ```markdown
 ---
 title: Owner's bed
@@ -102,7 +102,6 @@ date: "2022-07-02"
 ---
 45% of dogs in the US sleep on their owner's bed.
 ```
-
 
 ```markdown
 ---
@@ -117,46 +116,47 @@ You might be wondering what the triple dashed lines are. They indicate front mat
 Finally we need to create a page which lists all the blog posts. Create `/src/routes/blog/index.svelte` with the following:
 
 {% raw %}
- ```html
+
+```html
 <script context="module">
-  const blogPosts = import.meta.glob('./*.md');
+ const blogPosts = import.meta.glob('./*.md');
 
-  let body = [];
+ let body = [];
 
-  for (let path in blogPosts) {
-    body.push(
-      blogPosts[path]().then(({ metadata }) => {
-        path = path.replace(".md", "").replace(".svx", "");
-        return { path, metadata };
-      })
-    );
-  }
+ for (let path in blogPosts) {
+   body.push(
+     blogPosts[path]().then(({ metadata }) => {
+       path = path.replace(".md", "").replace(".svx", "");
+       return { path, metadata };
+     })
+   );
+ }
 
-  export async function load({ url, params, fetch }) {
-    const posts = await Promise.all(body);
-    return {
-      props: {
-        posts
-      }
-    };
-  }
+ export async function load({ url, params, fetch }) {
+   const posts = await Promise.all(body);
+   return {
+     props: {
+       posts
+     }
+   };
+ }
 </script>
 
 <script>
-  export let posts;
+ export let posts;
 </script>
-
 
 <h1>Blog</h1>
 
 <ul>
-  {#each posts.reverse() as { path, metadata: { title, date }}}
-    <li>
-      <a rel="prefetch" href="blog/{path}">{title}</a> - { date }
-    </li>
-  {/each}
+ {#each posts.reverse() as { path, metadata: { title, date }}}
+   <li>
+     <a rel="prefetch" href="blog/{path}">{title}</a> - { date }
+   </li>
+ {/each}
 </ul>
 ```
+
 {% endraw %}
 
 There’s a lot going on here so let’s break it down.
@@ -198,28 +198,31 @@ export async function load({ url, params, fetch }) {
 And finally, we iterate over the posts prop to output a list of posts:
 
 {% raw %}
- ```html
+
+```html
 <ul>
-  {#each posts.reverse() as { path, metadata: { title, date }}}
-    <li>
-      <a href="blog/{path}">{title}</a> - { date }
-    </li>
-  {/each}
+ {#each posts.reverse() as { path, metadata: { title, date }}}
+   <li>
+     <a href="blog/{path}">{title}</a> - { date }
+   </li>
+ {/each}
 </ul>
 ```
+
 {% endraw %}
 
 There’s one last step before we take a look at the blog in the browser, add the blog to the navigation. Open up your `Nav` component and add a link to the blog:
 
 {% raw %}
- ```html
+
+```html
 <li><a href="/blog/">Blog</a></li>
 ```
+
 {% endraw %}
 
-That’s all there is to it\! Open the site up in the browser and take a browse through your blog.
+That’s all there is to it! Open the site up in the browser and take a browse through your blog.
 
 ## What’s next?
 
 In our final lesson, we’ll use a generated JSON file to populate a map with the top dog parks.
-
