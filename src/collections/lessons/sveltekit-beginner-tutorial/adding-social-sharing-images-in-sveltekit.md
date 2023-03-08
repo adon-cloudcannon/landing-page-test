@@ -14,7 +14,7 @@ seo:
 ---
 # Adding Social Sharing Images & Meta to your SvelteKit Posts
 
-Continuing our&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/">SvelteKit beginner tutorial series</a>, in this installment, we look at adding social sharing images in SvelteKit. We also see how easy it is to add other Search Engine Optimization (SEO) metadata to your Svelte blog posts.
+Continuing our <a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/">SvelteKit beginner tutorial series</a>, in this installment, we look at adding social sharing images in SvelteKit. We also see how easy it is to add other Search Engine Optimization (SEO) metadata to your Svelte blog posts.
 
 We'll start with the basics, adding a meta description. This is the text snippet we want search engines to show when our blog post appears in search results. Taking it up a level we then look at social sharing images and Schema.org SEO markup. We'll talk more about those later.
 
@@ -51,8 +51,7 @@ We also sneaked in a canonical rel tag here. It is a good idea to add this if yo
 ## Updating Post Content
 
 You might have noticed we included `description` and `slug` fields among the imports in the last section. We have not added them to our post front matter yet though! We can do that now, as well as add some other fields which we will use later. You can edit the file in the CloudCannon Source Editor:
-
-<img width="808" height="455" src="/uploads/rodney1-2.png" />
+ <img width="808" height="455" src="/uploads/rodney1-2.png" />
 
 When you click save, the changes are automatically synced to your git repo.
 
@@ -68,11 +67,10 @@ Add the following new fields to the front matter in each blog post:
 
 Another common practice in SEO is to add images which show up when visitors share your post on social media. Without using metadata to tell the social apps which image you want to use here, the platform might take any image on the page and even place an ugly crop on it!
 
-Before we can add the meta we need a picture. You want something engaging and related to the post. There are many options for creating these social sharing images now. You might decide to craft a prompt for your favorite AI platform and let it create a custom image for you. Alternatively, you could use a tool like Satori to generate your images. We will target images which are `1200` pixels wide and `627` pixels tall. If you're lacking inspiration we have some stock images you can opt for (<a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-sveltekit-social-sharing-images/raw/main/static/assets/bed-og.jpg"><code>bed-og.jpg</code></a>,&nbsp;<a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-sveltekit-social-sharing-images/raw/main/static/assets/nose-og.jpg"><code>nose-og.jpg</code></a>&nbsp;and&nbsp;<a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-sveltekit-social-sharing-images/raw/main/static/assets/sniffing-og.jpg"><code>sniffing-og.jpg</code></a>).
+Before we can add the meta we need a picture. You want something engaging and related to the post. There are many options for creating these social sharing images now. You might decide to craft a prompt for your favorite AI platform and let it create a custom image for you. Alternatively, you could use a tool like Satori to generate your images. We will target images which are `1200` pixels wide and `627` pixels tall. If you're lacking inspiration we have some stock images you can opt for (<a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-sveltekit-social-sharing-images/raw/main/static/assets/bed-og.jpg"><code>bed-og.jpg</code></a>, <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-sveltekit-social-sharing-images/raw/main/static/assets/nose-og.jpg"><code>nose-og.jpg</code></a> and <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-sveltekit-social-sharing-images/raw/main/static/assets/sniffing-og.jpg"><code>sniffing-og.jpg</code></a>).
 
 As before you can work in the CloudCannon console here. Create a new `static/assets` folder in the project and drop the three images in there. Name them `bed-og.jpg`, `nose-og.jpg` and `sniffing-og.jpg`.
-
-<img width="808" height="455" src="/uploads/rodney-2-2.png" />
+ <img width="808" height="455" src="/uploads/rodney-2-2.png" />
 
 ## Open Graph Svelte Markup
 
@@ -117,7 +115,7 @@ We put the images in the `static` folder under a new `assets` directory. The `st
 
 ## Schema.org Svelte Markup
 
-Finally we will add a spot of Schema.org markup. This is markup designed to let the search engines know more about our page content and generate&nbsp;<a target="_blank" rel="noopener" href="https://developers.google.com/search/docs/appearance/featured-snippets">featured snippets</a>. For example, on an e-commerce site product page, you can include meta on the price and availability of the featured product. Schema.org is quite an advanced SEO topic so we will just scratch the surface here, but explore&nbsp;<a target="_blank" rel="noopener" href="https://schema.org/">Schema.org</a>&nbsp;if you are keen to learn more.
+Finally we will add a spot of Schema.org markup. This is markup designed to let the search engines know more about our page content and generate <a target="_blank" rel="noopener" href="https://developers.google.com/search/docs/appearance/featured-snippets">featured snippets</a>. For example, on an e-commerce site product page, you can include meta on the price and availability of the featured product. Schema.org is quite an advanced SEO topic so we will just scratch the surface here, but explore <a target="_blank" rel="noopener" href="https://schema.org/">Schema.org</a> if you are keen to learn more.
 
 Schema.org markup goes into a `script` tag with type set to `application/ld+json`. This is a little different to the other meta we added.
 
@@ -191,8 +189,8 @@ The value for `jsonLdScript` looks a little unwieldy! This just prevents automat
 
 ## Adding Social Sharing Images in SvelteKit: What’s next?
 
-We saw a few different elements of technical SEO in this post on adding social sharing images in SvelteKit. There is a lot to dive deeper into. Even so, we have covered most bases in the Svelte code here and you should be able to take it quite far, exploring the most interesting aspects for your project in more detail.&nbsp;<a target="_blank" rel="noopener" href="https://developers.facebook.com/tools/debug/?_fb_noscript=1">Facebook</a>&nbsp;and&nbsp;<a target="_blank" rel="noopener" href="https://cards-dev.twitter.com/validator">Twitter</a>&nbsp;provide tools for checking that your Open Graph meta is up to spec. There is also a&nbsp;<a target="_blank" rel="noopener" href="https://search.google.com/test/rich-results">Google tool</a>&nbsp;for checking your Rich results. You can&nbsp;<a target="_blank" rel="noopener" href="https://svelte.dev/docs#template-syntax-html">learn more about the Svelte <code>@html</code> template syntax</a>&nbsp;in the Svelte docs.
+We saw a few different elements of technical SEO in this post on adding social sharing images in SvelteKit. There is a lot to dive deeper into. Even so, we have covered most bases in the Svelte code here and you should be able to take it quite far, exploring the most interesting aspects for your project in more detail. <a target="_blank" rel="noopener" href="https://developers.facebook.com/tools/debug/?_fb_noscript=1">Facebook</a> and <a target="_blank" rel="noopener" href="https://cards-dev.twitter.com/validator">Twitter</a> provide tools for checking that your Open Graph meta is up to spec. There is also a <a target="_blank" rel="noopener" href="https://search.google.com/test/rich-results">Google tool</a> for checking your Rich results. You can <a target="_blank" rel="noopener" href="https://svelte.dev/docs#template-syntax-html">learn more about the Svelte <code>@html</code> template syntax</a> in the Svelte docs.
 
-Finally I want to briefly mention&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/sveltekit-cms/">CloudCannon</a>&nbsp;— it's a content management system with first-class support for SvelteKit. It syncs directly with your Git repository, so your development team can continue working in SvelteKit while your content team can manage the content on the site. It's the best of both worlds.
+Finally I want to briefly mention <a target="_blank" rel="noopener" href="https://cloudcannon.com/sveltekit-cms/">CloudCannon</a> — it's a content management system with first-class support for SvelteKit. It syncs directly with your Git repository, so your development team can continue working in SvelteKit while your content team can manage the content on the site. It's the best of both worlds.
 
 Thanks for reading and keep on building with SvelteKit!
