@@ -1,6 +1,6 @@
 ---
 title: W-Interactive
-weight: 1
+weight: 2
 description: |
   Independent web design and development studio.
 long_description: >-
