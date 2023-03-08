@@ -926,7 +926,7 @@
     },
     {
         "from":"/community/learn/jekyll-tutorial/getting-started/",
-        "to":"/tutorials/jekyll-tutorial/getting-started/",
+        "to":"/tutorials/jekyll-tutorial/",
         "status":301,
         "forced":false
     },
@@ -1478,7 +1478,7 @@
     },
     {
       "from": "/community/learn/hugo-tutorial/getting-started/",
-      "to": "/tutorials/hugo-beginner-tutorial/getting-started/",
+      "to": "/tutorials/hugo-beginner-tutorial/",
       "status": 301,
       "forced": false
     },
