@@ -1,6 +1,6 @@
 ---
 title: Fetchly Labs
-weight: 1
+weight: 2
 description: >-
   Your Dev Team as a Service. Tap into an existing dev team and scale on
   services your business needs.
