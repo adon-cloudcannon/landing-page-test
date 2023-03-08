@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Stellar support for all Astro users
+title: Out-of-this-world support for all Astro users
 description: >-
   Astro support is now officially out of beta at CloudCannon. With Astro and
   CloudCannon you can pull your content from anywhere and deploy everywhere,
