@@ -517,7 +517,7 @@ content_blocks:
                             text_sizing:
                               text_size: normal
                             margin:
-                              top: 20
+                              top: 0
                               bottom: 0
                             block_alignment:
                               align_block: center
@@ -885,8 +885,8 @@ content_blocks:
                 image: https://cc-dam.imgix.net/all-ssgs-build2 (1).svg
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, using
-                  our Git CMS, and without the help of a developer.
+                  Give your team access to update the content on the site using
+                  our Git CMS and without the help of a developer.
                 link:
                   text:
                   url:
@@ -963,7 +963,7 @@ content_blocks:
               - _bookshop_name: simple/text-block
                 content:
                   text_markdown: >-
-                    Here at CloudCannon we believe in the power of Git — as a
+                    Here at CloudCannon, we believe in the power of Git — as a
                     content repository, as a robust source management tool, and
                     most importantly, as a publishing workflow. Our decoupled
                     CMS lets you and your editing team create, and it takes care
