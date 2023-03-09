@@ -48,5 +48,10 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://freezing-door.cloudvent.net/
+  - ssg_name: astro
+    github_repo_url: https://github.com/CloudCannon/sendit-astro-template
+    main_branch: main
+    readme_filename: README.md
+    live_preview_url: https://top-quail.cloudvent.net/
 priority: 1
 ---
