@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid:
 name: Sendit
 image: https://cc-dam.imgix.net/sendit.png
@@ -42,7 +43,10 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://pleasant-worm.cloudvent.net/
-themes_categories:
-  -
+  - ssg_name: gatsby
+    github_repo_url: https://github.com/CloudCannon/sendit-gatsby-template
+    main_branch: main
+    readme_filename: README.md
+    live_preview_url: https://freezing-door.cloudvent.net/
 priority: 1
 ---
