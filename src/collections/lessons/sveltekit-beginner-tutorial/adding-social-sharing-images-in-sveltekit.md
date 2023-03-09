@@ -195,6 +195,12 @@ The value for `jsonLdScript` looks a little unwieldy! This just prevents automat
 
 We saw a few different elements of technical SEO in this post on adding social sharing images in SvelteKit. There is a lot to dive deeper into. Even so, we have covered most bases in the Svelte code here and you should be able to take it quite far, exploring the most interesting aspects for your project in more detail. <a target="_blank" rel="noopener" href="https://developers.facebook.com/tools/debug/?_fb_noscript=1">Facebook</a> and <a target="_blank" rel="noopener" href="https://cards-dev.twitter.com/validator">Twitter</a> provide tools for checking that your Open Graph meta is up to spec. There is also a <a target="_blank" rel="noopener" href="https://search.google.com/test/rich-results">Google tool</a> for checking your Rich results. You can <a target="_blank" rel="noopener" href="https://svelte.dev/docs#template-syntax-html">learn more about the Svelte <code>@html</code> template syntax</a> in the Svelte docs.
 
+Congratulations on becoming a SvelteKit beginner! You should have a high level understanding of many of the concepts in the framework which will provide a solid foundation to build upon. To continue your journey into the world of SvelteKit, there are a number of great resources I recommend:
+
+* Running through the [interactive Svelte tutoria](https://svelte.dev/tutorial/basics)l is the best place to start. Many of your questions and points of confusion will likely be answered by going through this tutorial.
+* The [Svelte Docs](https://svelte.dev/docs) and [SvelteKit Docs](https://kit.svelte.dev/docs/introduction) are both excellent references.
+* The [SvelteSociety Discord](https://discord.com/invite/svelte) is a good way to get support and connect with the community.
+
 Finally I want to briefly mention <a target="_blank" rel="noopener" href="https://cloudcannon.com/sveltekit-cms/">CloudCannon</a> — it's a content management system with first-class support for SvelteKit. It syncs directly with your Git repository, so your development team can continue working in SvelteKit while your content team can manage the content on the site. It's the best of both worlds.
 
 Thanks for reading and keep on building with SvelteKit!
