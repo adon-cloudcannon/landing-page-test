@@ -624,9 +624,9 @@ content_blocks:
                   content:
                     text_markdown: >-
                       CloudCannon syncs your Astro website directly from your
-                      Git repository, and enables developers to work together,
+                      Git repository enabling developers to work together
                       faster. As for your content team, they won’t need
-                      technical knowledge. From Markdown and HTML, to sections
+                      technical knowledge. From Markdown and HTML to sections
                       and data files, everything can be updated by content
                       editors with CloudCannon. Best of all, no one needs to
                       learn how to use Git.
@@ -1472,8 +1472,8 @@ content_blocks:
                 image: https://cc-dam.imgix.net/step-2-astro.svg
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, using
-                  our Astro CMS, and without the help of a developer.
+                  Give your team access to update the content on the site using
+                  our Astro CMS without the help of a developer.
                 link:
                   text:
                   url:
