@@ -7,7 +7,7 @@ description: >-
   components, or wanting to bring their data from a legacy CMS to the modern
   web, Gatsby and CloudCannon make an excellent combination.
 series:
-image: https://cc-dam.imgix.net/blog/blog-gatsby-support-launch-r.jpg
+image: https://cc-dam.imgix.net/gatsby-launch.jpg
 date: 2023-03-10T05:09:00Z
 hide_publish_date: false
 tags:
@@ -44,14 +44,14 @@ Whether you’re working on page-building; data, content, or visual editing; cre
 
 ### **Sendit — a new free page-building theme for Gatsby**
 
-We've extended our new theme Sendit for Gatsby as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Gatsby users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Gatsby sites for CloudCannon, so feel free to dig into that `cloudcannon.config.yml` file!
+We've extended our new theme <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit</a> for Gatsby as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Gatsby users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Gatsby sites for CloudCannon, so feel free to dig into that `cloudcannon.config.yml` file!
 
 ![](https://cc-dam.imgix.net/sendit-hero.png)
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 
-Check out the Sendit demo site to see its potential. You can also deploy a new Sendit site with Gatsby and CloudCannon in just a minute and experience the best of our Visual Editor for intuitive page building.
+Check out the <a target="_blank" rel="noopener" href="https://freezing-door.cloudvent.net/">Sendit demo site</a> to see its potential. You can also <a target="_blank" rel="noopener" href="https://app.cloudcannon.com/#sites/templates/sveltekit/cloudcannon/sendit-sveltekit-template">deploy a new Sendit site with Gatsby and CloudCannon</a> in just a minute and experience the best of our Visual Editor for intuitive page building.
 
 ---
 
-*Do you have any questions about bringing your Gatsby sites to CloudCannon, or need a little help with migration or configuration? Feel free to book a no-obligation demo call with our Gatsby experts, take a look at our updated documentation, or get in touch with our support team.*
+*Do you have any questions about bringing your Gatsby sites to CloudCannon, or need a little help with migration or configuration? Feel free to <a target="_blank" rel="noopener" href="/book-a-demo/">book a no-obligation demo call</a> with our Gatsby experts, take a look at our <a target="_blank" rel="noopener" href="/documentation/">updated documentation</a>, or <a target="_blank" rel="noopener" href="/support/">get in touch with our support team</a>.*
