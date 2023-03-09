@@ -14,9 +14,7 @@ seo:
 ---
 #
 
-###### !\[\](https://cc-dam.imgix.net/Rodney (1).jpg)
-
-###### By <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>
+###### Lesson by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>
 
 Continuing our <a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/">SvelteKit beginner tutorial series</a>, in this installment, we look at adding social sharing images in SvelteKit. We also see how easy it is to add other Search Engine Optimization (SEO) metadata to your Svelte blog posts.
 
