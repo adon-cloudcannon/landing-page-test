@@ -8,7 +8,7 @@ description: >-
   performant sites available for non-technical editors to draft, review, and
   publish their content.
 series:
-image: ''
+image: /uploads/astro-launch.jpg
 date: 2023-03-17T05:00:00Z
 hide_publish_date: false
 tags:
