@@ -307,7 +307,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Everything you need for content management, all on one
+                      Everything you need for content management is all on one
                       platform. Let your team build new pages, edit them
                       visually, and host the best performing sites on the web
                       with the help of the CloudCannon CMS for Hugo.
@@ -624,8 +624,8 @@ content_blocks:
                     text_markdown: >-
                       CloudCannon syncs your Hugo website from your Git
                       repository, manages your build process, and enables your
-                      whole team to work together, faster. Everything can be
-                      updated by content editors with CloudCannon.
+                      whole team to work together faster. Content editors can
+                      update everything with CloudCannon.
                   styles:
                     desktop:
                       text_alignment:
@@ -827,24 +827,25 @@ content_blocks:
             rows:
               - title: Git-based CMS
                 description: >-
-                  Everything syncs back to Git so your development and content
+                  Everything syncs back to Git, so your development and content
                   editing teams can always collaborate in sync.
                 image: https://cc-dam.imgix.net/git-sync-r.png
+              - title: Built for content editors
+                description: >-
+                  Empower your editors by building a library of components to
+                  create new pages with ease.
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Publishing workflows
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Prepare branches for staging and production workflows. Your
+                  content team will use the full power of Git, all behind a
+                  beautiful UI.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Range of editors
+              - title: Intuitive editing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
-                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
-              - title: Component-driven workflows
-                description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Edit content directly on your website. With CloudCannon’s
+                  Visual Editor for Hugo, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
