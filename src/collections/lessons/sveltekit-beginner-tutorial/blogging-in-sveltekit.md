@@ -225,4 +225,4 @@ That’s all there is to it! Open the site up in the browser and take a browse t
 
 ## What’s next?
 
-In our final lesson, we’ll use a generated JSON file to populate a map with the top dog parks.
+In our next lesson, we’ll use a generated JSON file to populate a map with the top dog parks.
