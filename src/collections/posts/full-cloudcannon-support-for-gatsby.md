@@ -26,7 +26,7 @@ We're thrilled to introduce our latest release, which brings CloudCannon's suppo
 
 We’ve been working on enhancing the development and editing experience for all of our customers on Gatsby, and we’re proud to take off that ‘beta’ flag, bringing CloudCannon’s Gatsby support in line with our integration with other leading SSGs, like Eleventy, Hugo, SvelteKit, Next.js, and Jekyll.
 
-Gatsby’s been in the news quite a lot lately — Netlify acquired Gatsby Inc just over a month ago, which will allow for more growth in the Gatsby framework and help cement its status in the static site community. And speaking of community, the Netlify and Gatsby teams have reaffirmed their commitment to open-source, so Gatsby’s rich ecosystem of plugins and integrations will continue to flourish, allowing developers to easily extend its capabilities and integrate with other tools and services. All in all, it’s a great time to be using Gatsby!
+Gatsby’s been in the news quite a lot lately — Netlify acquired Gatsby Inc just over a month ago, which will allow for more growth in the Gatsby framework and help cement its status in the static site community. And speaking of community, after the acquisition, the Netlify and Gatsby teams both reaffirmed their commitment to open-source. This means Gatsby’s rich ecosystem of plugins and integrations will continue to flourish, allowing developers to easily extend its capabilities and integrate with other tools and services. All in all, it’s a great time to be using Gatsby!
 
 ## **What’s new for Gatsby users on CloudCannon?**
 
@@ -38,7 +38,7 @@ We have imported, built, and stress-tested a variety of static Gatsby sites usin
 
 ### **Complete documentation and guides for Gatsby on CloudCannon**
 
-We've updated our Gatsby-specific documentation to ensure that all of your queries are answered and readily searchable, and our support and engineering teams have prepared thoroughly documented advice on configuring your current Gatsby sites for use with CloudCannon's Visual, Content, and Data Editors.
+We've updated our Gatsby-specific documentation to ensure that all of your queries are answered and readily searchable. Our support and engineering teams have also prepared thorough advice on configuring your current Gatsby sites for use with CloudCannon's Visual, Content, and Data Editors.
 
 Whether you’re working on page-building; data, content, or visual editing; creating React components or using existing ones; templating; blogging; or using GraphQL data on your CloudCannon Gatsby sites, our <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/?ssg=Gatsby">documentation</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/gatsby-starter-guide/">getting started guide</a>, and support will have you covered.
 
@@ -50,8 +50,8 @@ We've extended our new theme <a target="_blank" rel="noopener" href="https://clo
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 
-Check out the <a target="_blank" rel="noopener" href="https://freezing-door.cloudvent.net/">Sendit demo site</a> to see its potential. You can also <a target="_blank" rel="noopener" href="https://app.cloudcannon.com/#sites/templates/sveltekit/cloudcannon/sendit-sveltekit-template">deploy a new Sendit site with Gatsby and CloudCannon</a> in just a minute and experience the best of our Visual Editor for intuitive page building.
+Check out the <a target="_blank" rel="noopener" href="https://freezing-door.cloudvent.net/">Sendit demo site</a> to see its potential. You can also <a target="_blank" rel="noopener" href="https://app.cloudcannon.com/#sites/templates/sveltekit/cloudcannon/sendit-sveltekit-template">deploy a new Sendit site with Gatsby and CloudCannon</a> in less than a minute and experience the best of our Visual Editor for intuitive page building.
 
 ---
 
-*Do you have any questions about bringing your Gatsby sites to CloudCannon, or need a little help with migration or configuration? Feel free to <a target="_blank" rel="noopener" href="/book-a-demo/">book a no-obligation demo call</a> with our Gatsby experts, take a look at our <a target="_blank" rel="noopener" href="/documentation/">updated documentation</a>, or <a target="_blank" rel="noopener" href="/support/">get in touch with our support team</a>.*
+*Do you have any questions about bringing your Gatsby sites to CloudCannon, or need a little help with migration or configuration? Feel free to <a target="_blank" rel="noopener" href="/book-a-demo/">book a demo call</a>, take a look at our <a target="_blank" rel="noopener" href="/documentation/">documentation</a>, or <a target="_blank" rel="noopener" href="/support/">get in touch with our support team</a>.*
