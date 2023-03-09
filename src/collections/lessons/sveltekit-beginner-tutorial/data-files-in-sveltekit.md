@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Data files in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 6
@@ -11,15 +12,13 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
-In this final lesson, we’ll put everything together to create a page with a map which lists top dog parks. We’ll generate a `.json` file which contains the location and other metadata for a dog walk, then another file which fetches the `.json` file and renders the map. Let’s get to it\!
+In this final lesson, we’ll put everything together to create a page with a map which lists top dog parks. We’ll generate a `.json` file which contains the location and other metadata for a dog walk, then another file which fetches the `.json` file and renders the map. Let’s get to it!
 
 ## Generating a JSON file
 
 All the metadata for the park — the name, latitude and longitude — needs to live somewhere. We’re going to store it in a static JSON file to keep things simple. Create `/static/locations.json` with the following content:
 
 ```json
-
 
 [
   {
@@ -50,7 +49,6 @@ All the metadata for the park — the name, latitude and longitude — needs to 
 ]
 ```
 
-
 ### Rendering the map
 
 We’re going to create a reusable component that we can use anywhere on the site to output our favorite dog parks. We’re using a library called [Leaflet](https://leafletjs.com/) to create the map and markers so we’ll install the dependencies for this first. In your terminal run:
@@ -62,49 +60,50 @@ npm i -D leaflet
 With leaflet installed, we can put it to work. Let’s create a new Map component at `/src/lib/Map.svelte` with the following:
 
 {% raw %}
- ```html
+
+```html
 <script>
-  import { onMount } from 'svelte';
-  import { browser } from '$app/env';
+ import { onMount } from 'svelte';
+ import { browser } from '$app/env';
 
-  onMount(async () => {
-    if (browser) {
-      const response = await fetch(`/locations.json`);
-      const markers = await response.json();
+ onMount(async () => {
+   if (browser) {
+     const response = await fetch(`/locations.json`);
+     const markers = await response.json();
 
-      const L = await import('leaflet');
+     const L = await import('leaflet');
 
-      const map = L.map('map');
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
-        {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
-      .addTo(map);
+     const map = L.map('map');
+     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+       {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
+     .addTo(map);
 
+     let bounds = [];
+     for (let i = 0; i < markers.length; i++ ) {
+       const marker = L.marker([markers[i].latitude, markers[i].longitude]).addTo(map);
+       marker.bindPopup(markers[i].name);
+       bounds.push([markers[i].latitude, markers[i].longitude]);
+     }
 
-      let bounds = [];
-      for (let i = 0; i < markers.length; i++ ) {
-        const marker = L.marker([markers[i].latitude, markers[i].longitude]).addTo(map);
-        marker.bindPopup(markers[i].name);
-        bounds.push([markers[i].latitude, markers[i].longitude]);
-      }
-
-      map.fitBounds(bounds);
-    }
-  });
+     map.fitBounds(bounds);
+   }
+ });
 </script>
 
 <svelte:head>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
 </svelte:head>
 
 <div id="map" />
 
 <style lang="scss">
-  #map {
-    height: 400px;
-    width: 100%;
-  }
+ #map {
+   height: 400px;
+   width: 100%;
+ }
 </style>
 ```
+
 {% endraw %}
 
 I’ll break this down so you can understand what’s going on here.
@@ -140,7 +139,7 @@ Then we import the leaflet library and initialize the map:
 const L = await import('leaflet');
 
 const map = L.map('map');
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
   {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
   .addTo(map);
 ```
@@ -161,19 +160,23 @@ map.fitBounds(bounds);
 We have to include the styles which we’re adding straight to the `<head>`\:
 
 {% raw %}
- ```html
+
+```html
 <svelte:head>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
 </svelte:head>
 ```
+
 {% endraw %}
 
 Add the element that holds the map:
 
 {% raw %}
- ```html
+
+```html
 <div id="map" />
 ```
+
 {% endraw %}
 
 And finally add some basic styles:
@@ -187,16 +190,8 @@ And finally add some basic styles:
 </style>
 ```
 
-Phew\! Take a look at your hard work and admire the beautiful map you’ve created.
+Phew! Take a look at your hard work and admire the beautiful map you’ve created.
 
 ## What’s next?
 
-Congratulations on becoming a SvelteKit beginner\! You should have a high level understanding of many of the concepts in the framework which will provide a solid foundation to build upon. To continue your journey into the world of SvelteKit, there are a number of great resources I recommend:
-
-* Running through the [interactive Svelte tutoria](https://svelte.dev/tutorial/basics)l is the best place to start. Many of your questions and points of confusion will likely be answered by going through this tutorial.
-* The [Svelte Docs](https://svelte.dev/docs) and [SvelteKit Docs](https://kit.svelte.dev/docs/introduction) are both excellent references.
-* The [SvelteSociety Discord](https://discord.com/invite/svelte) is a good way to get support and connect with the community.
-
-Finally I want to briefly mention [CloudCannon](https://cloudcannon.com/sveltekit-cms/) — it’s a content management system with first-class support for SvelteKit. It syncs directly with your Git repository, so your development team can continue working in SvelteKit while your content team can manage the content on the site. It’s the best of both worlds.
-
-Thanks for reading and keep on building with SvelteKit\!
+In our final lesson, we'll look at how to add social sharing images and meta.
