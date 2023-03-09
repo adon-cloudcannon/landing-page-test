@@ -12,10 +12,6 @@ seo:
   featured_image: https://cc-dam.imgix.net/tutorial-sveltekit.png
   featured_image_alt: SvelteKit Beginner Tutorial with CloudCannon
 ---
-*Lesson by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>*
-
----
-
 Continuing our <a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/">SvelteKit beginner tutorial series</a>, in this instalment, we look at adding social sharing images in SvelteKit. We also see how easy it is to add other Search Engine Optimization (SEO) metadata to your Svelte blog posts.
 
 We'll start with the basics, adding a meta description. This is the text snippet we want search engines to show when our blog post appears in search results. Taking it up a level we then look at social sharing images and Schema.org SEO markup. We'll talk more about those later.
