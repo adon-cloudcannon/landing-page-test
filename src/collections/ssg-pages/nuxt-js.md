@@ -828,21 +828,22 @@ content_blocks:
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: https://cc-dam.imgix.net/git-sync-r.png
-              - title: Publishing workflows
+              - title: 'Catered to content editors '
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Empower your editors by building a library of components to
+                  create new pages with ease.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Range of editors
+              - title: 'Robust publishing '
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Prepare branches for staging and production workflows. Your
+                  content team will use the full power of Git, all behind a
+                  beautiful UI.
                 image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
-              - title: Component-driven workflows
+              - title: 'Intuitive editing '
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Edit content directly on your website. With CloudCannon’s
+                  Visual Editor for Nuxt.js, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
