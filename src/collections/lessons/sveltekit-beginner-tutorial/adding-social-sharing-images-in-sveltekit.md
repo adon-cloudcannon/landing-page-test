@@ -12,9 +12,9 @@ seo:
   featured_image: https://cc-dam.imgix.net/tutorial-sveltekit.png
   featured_image_alt: SvelteKit Beginner Tutorial with CloudCannon
 ---
-#
+*Lesson by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>*
 
-###### Lesson by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>
+---
 
 Continuing our <a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/">SvelteKit beginner tutorial series</a>, in this installment, we look at adding social sharing images in SvelteKit. We also see how easy it is to add other Search Engine Optimization (SEO) metadata to your Svelte blog posts.
 
@@ -74,7 +74,7 @@ Before we can add the meta we need a picture. You want something engaging and re
 
 As before you can work in the CloudCannon console here. Create a new `static/assets` folder in the project and drop the three images in there. Name them `bed-og.jpg`, `nose-og.jpg` and `sniffing-og.jpg`.
 
-!\[\](https://cc-dam.imgix.net/Rodney 2.png)
+![](https://cc-dam.imgix.net/Rodney+2.png)
 
 ## Open Graph Svelte Markup
 

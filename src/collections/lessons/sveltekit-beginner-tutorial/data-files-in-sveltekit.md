@@ -12,7 +12,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-In this final lesson, we’ll put everything together to create a page with a map which lists top dog parks. We’ll generate a `.json` file which contains the location and other metadata for a dog walk, then another file which fetches the `.json` file and renders the map. Let’s get to it!
+In this lesson, we’ll put everything together to create a page with a map which lists top dog parks. We’ll generate a `.json` file which contains the location and other metadata for a dog walk, then another file which fetches the `.json` file and renders the map. Let’s get to it!
 
 ## Generating a JSON file
 
