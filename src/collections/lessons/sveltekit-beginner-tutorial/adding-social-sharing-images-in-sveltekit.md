@@ -5,8 +5,8 @@ image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: '7'
 tutorial: sveltekit-beginner-tutorial
 description: >-
-  In this tutorial you will learn how to add social sharing images and meta with
-  SvelteKit.
+  In this lesson by <a href="https://rodneylab.com/">Rodney Lab</a> you will
+  learn how to add social sharing images and meta with SvelteKit.
 seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/tutorial-sveltekit.png
