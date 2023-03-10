@@ -24,12 +24,11 @@ If you’re building client websites using static site generators, then we’ve 
 
 We’re excited to introduce the <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner Program</a>. A program built with the help of some <a target="_blank" rel="noopener" href="https://cloudcannon.com/experts/">outstanding CloudCannon agencies</a>&nbsp;to help make their lives easier.
 
-**We understand agencies** because we run one, too. We have an internal agency that works with our enterprise clients, and it’s given us a huge range of insights into the challenges of running a web design and development business. Ultimately, that’s why we’ve built this program, to work with our partners to address these challenges:
+**We understand agencies** because we run one, too. Our Enterprise Success team works with our enterprise clients, and it gives us a huge range of insights into the challenges of running a web design and development business. Ultimately, that’s why we’ve built this program, to work with our partners to address these challenges:
 
 * How can we reach more new clients?&nbsp;
 * How can we keep our current clients happy, so that we get more repeat business from them?
-* Why are our margins shrinking?&nbsp;
-* We’re growing, and our client sites are increasingly difficult to manage.
+* We’re growing, and our client sites are becoming increasingly difficult to manage.
 * We need software that allows us to “set and forget” client websites for a certain amount of time. Reliability is key.
 * We never want to receive urgent late-night emails asking us to make changes to a website, but we also don’t want to give our clients too much leeway. Our clients need *just* the right amount of autonomy.
 * We’re investing heavily into learning and using this CMS — I wish we had some influence on the future of the product. (A new feature would make our lives a lot easier, or allow us to bring on a big new client!)
