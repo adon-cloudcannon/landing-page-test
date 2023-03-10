@@ -24,7 +24,7 @@ If you’re building client websites using static site generators, then we’ve 
 
 We’re excited to introduce the <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner Program</a>. A program built with the help of some <a target="_blank" rel="noopener" href="https://cloudcannon.com/experts/">outstanding agencies</a>[&nbsp;using CloudCannon](https://cloudcannon.com/experts/)&nbsp;to help make their lives easier.
 
-**We understand agencies** because we run one, too. Our Enterprise Success team works with our enterprise clients, and it gives us a huge range of insights into the challenges of running a web design and development business. Ultimately, that’s why we’ve built this program, to work with our partners to address these challenges:
+**We understand agencies** because we run one, too. Our Enterprise Success team works with our enterprise clients, and it gives us a huge range of insights into the challenges of running a web design and development business. Ultimately, that’s why we’ve built this program, to work with our partners to address their challenges:
 
 * How can we reach more new clients?&nbsp;
 * How can we keep our current clients happy, so that we get more repeat business from them?
