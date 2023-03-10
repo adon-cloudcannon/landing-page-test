@@ -7,7 +7,7 @@ description: >-
   benefits, support and savings, keep all your clients happy, and make your life
   easier.
 series:
-image: /uploads/blog-partner-program-prof-text.png
+image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
 date: 2023-03-11T05:00:00Z
 hide_publish_date: false
 tags:
@@ -17,7 +17,7 @@ author: cloudcannon
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article
-  featured_image:
+  featured_image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
   featured_image_alt:
 ---
 If you’re building client websites using static site generators, then we’ve got something special for you!
