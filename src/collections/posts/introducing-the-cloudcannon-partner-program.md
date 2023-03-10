@@ -27,11 +27,11 @@ We’re excited to introduce the <a target="_blank" rel="noopener" href="https:/
 **We understand agencies** because we run one, too. Our Enterprise Success team works with our enterprise clients, and it gives us a huge range of insights into the challenges of running a web design and development business. Ultimately, that’s why we’ve built this program, to work with our partners to address their challenges:
 
 * "How can we reach more new clients?"
+* "We never want to receive urgent late-night emails asking us to make changes to a website, but we also don’t want to give our clients too much leeway. Our clients need *just* the right amount of autonomy."
 * "How can we "wow" our clients to get more repeat business from them?"
 * "We’re growing, and our client sites are becoming increasingly difficult to manage."
-* "We need soltuions that allow us to “set and forget” client websites for a certain amount of time. Reliability is key."
-* "We never want to receive urgent late-night emails asking us to make changes to a website, but we also don’t want to give our clients too much leeway. Our clients need *just* the right amount of autonomy."
-* "We’re investing heavily into learning and using CloudCannon - how do we know the roadmap is heading in a direction that's aligned with our business needs?"
+* "We need solutions that allow us to “set and forget” client websites for a certain amount of time. Reliability is key."
+* "We’re investing heavily into learning and using CloudCannon - how do we know your roadmap is heading in a direction that's aligned with our business needs?"
 * "We’re not getting the support we need to help our clients. 72-hour response times and community support isn’t cutting it."
 
 Are you facing any of these challenges? [Join the CloudCannon Partner Program](/partner-program/) — we’re excited to work with you, and grow together! As a CloudCannon Partner, you’ll be able to access exclusive Partner features, unlock discounts that grow with your business, get referrals, and receive dedicated support.
