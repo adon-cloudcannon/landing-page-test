@@ -35,7 +35,7 @@ We’re excited to introduce the <a target="_blank" rel="noopener" href="https:/
 * We’re investing heavily into learning and using this CMS — I wish we had some influence on the future of the product. (A new feature would make our lives a lot easier, or allow us to bring on a big new client!)
 * We’re not getting the support we need to help our clients. 72-hour response times and community support isn’t cutting it.
 
-Are you facing any of these challenges? Join the CloudCannon Partner Program — we’re excited to work with you, and grow together! As a CloudCannon Partner, you’ll be able to access exclusive Partner features, unlock discounts that grow with your business, get referrals, and receive dedicated support.
+Are you facing any of these challenges? [Join the CloudCannon Partner Program](/partner-program/) — we’re excited to work with you, and grow together! As a CloudCannon Partner, you’ll be able to access exclusive Partner features, unlock discounts that grow with your business, get referrals, and receive dedicated support.
 
 ## Become a CloudCannon expert, and grow with us
 
