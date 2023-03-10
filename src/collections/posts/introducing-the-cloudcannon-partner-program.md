@@ -22,7 +22,7 @@ seo:
 ---
 If you’re building client websites using static site generators, then we’ve got something special for you!
 
-We’re excited to introduce the <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner Program</a>. It’s a program we’ve built with the help of some <a target="_blank" rel="noopener" href="https://cloudcannon.com/experts/">outstanding CloudCannon agencies</a>, and the goal of the program is simple — making your life easier.
+We’re excited to introduce the <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner Program</a>. A program built with the help of some <a target="_blank" rel="noopener" href="https://cloudcannon.com/experts/">outstanding CloudCannon agencies</a>&nbsp;to help make their lives easier.
 
 **We understand agencies** because we run one, too. We have an internal agency that works with our enterprise clients, and it’s given us a huge range of insights into the challenges of running a web design and development business. Ultimately, that’s why we’ve built this program, to work with our partners to address these challenges:
 
