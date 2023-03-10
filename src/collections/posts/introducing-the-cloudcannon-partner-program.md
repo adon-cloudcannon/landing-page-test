@@ -38,6 +38,6 @@ Are you facing any of these challenges? [Join the CloudCannon Partner Program](/
 
 ## Become a CloudCannon expert, and grow with us
 
-New Partners receive immediate access to a free in-depth onboarding session, an exclusive pricing plan for smaller clients, a Partner Dashboard, and unlimited trial periods — you'll only pay when your clients' sites go live.
+New Partners receive immediate access to a onboarding session, an exclusive pricing plan for smaller clients, a Partner Dashboard, and unlimited trial periods — you'll only pay when your clients' sites go live.
 
 As you grow your client list with CloudCannon, you'll receive benefits such as discounts on all of our plans, private support channels, access to exclusive updates, product roadmap voting rights, a listing in our <a target="_blank" rel="noopener" href="https://cloudcannon.com/experts/">Experts Directory</a>, and a dedicated success manager.
