@@ -12,7 +12,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/tutorial-sveltekit.png
   featured_image_alt: SvelteKit Beginner Tutorial with CloudCannon
 ---
-*by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>*
+*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Lab</a>*
 
 Continuing our <a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/sveltekit-beginner-tutorial/">SvelteKit beginner tutorial series</a>, in this instalment, we look at adding social sharing images in SvelteKit. We also see how easy it is to add other Search Engine Optimization (SEO) metadata to your Svelte blog posts.
 
