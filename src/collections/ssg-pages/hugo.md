@@ -1873,7 +1873,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
