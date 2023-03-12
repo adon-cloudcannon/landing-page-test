@@ -20,10 +20,12 @@
 </head>
 
 <body class="overflow-x-hidden subpixel-antialiased text-carbon">
-	{% include 'partials/nav/_nav.html' %}
-	{{ content }}
-	{% include 'partials/footer/_footer.html' %}
-	{% include 'partials/footer/analytics.html' %} 
+	<div class="overflow-x-hidden relative">
+		{% include 'partials/nav/_nav.html' %}
+		{{ content }}
+		{% include 'partials/footer/_footer.html' %}
+		{% include 'partials/footer/analytics.html' %} 
+	</div>
 </body>
 </html>
 
