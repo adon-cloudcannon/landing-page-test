@@ -90,6 +90,31 @@ let urls = [];
 	});
 });
 
+/* script load delay logic */
+
+const autoLoadDuration = 5; //In Seconds
+const eventList = ["keydown", "mousemove", "wheel", "touchmove", "touchstart", "touchend"];
+
+const autoLoadTimeout = setTimeout(runScripts, autoLoadDuration * 1000);
+
+eventList.forEach(function(event) {
+		window.addEventListener(event, triggerScripts, { passive: true })
+});
+
+function triggerScripts() {
+		runScripts();
+		clearTimeout(autoLoadTimeout);
+		eventList.forEach(function(event) {
+				 window.removeEventListener(event, triggerScripts, { passive: true });
+		});
+}
+
+function runScripts() {
+		document.querySelectorAll("script[delay]").forEach(function(scriptTag) {
+				scriptTag.setAttribute("src", scriptTag.getAttribute("delay"));
+		});
+}
+
 /* Pagefind implementation */
 
 // TODO: Replace with https://github.com/CloudCannon/pagefind/issues/226
