@@ -17,7 +17,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-10-30-12-am.png
 logo_image: /images/logos/experts/layer-2-1.svg
 location: Milwaukee, Hawaii, Whistler & Savannah
-frameworks:
+ssg_frameworks:
   - jekyll
   - hugo
   - gatsby
@@ -32,7 +32,7 @@ links:
 details_block:
   _bookshop_name: experts/details
   location: Milwaukee, Hawaii, Whistler & Savannah
-  frameworks:
+  ssg_frameworks:
     - jekyll
     - hugo
     - gatsby

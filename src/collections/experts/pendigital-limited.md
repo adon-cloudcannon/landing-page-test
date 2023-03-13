@@ -16,7 +16,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-9-45-57-am.png
 logo_image: /images/logos/experts/group-1.svg
 location: United Kingdom
-frameworks:
+ssg_frameworks:
   - jekyll
   - 11ty
   - astro
@@ -29,7 +29,7 @@ links:
 details_block:
   _bookshop_name: experts/details
   location:
-  frameworks:
+  ssg_frameworks:
     - jekyll
     - 11ty
     - astro

@@ -18,7 +18,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-08-at-10-41-21-am.png
 logo_image: /images/logos/experts/group-4.svg
 location: Austin, TX, USA
-frameworks:
+ssg_frameworks:
   - jekyll
   - hugo
   - 11ty
@@ -37,7 +37,7 @@ links:
 details_block:
   _bookshop_name: experts/details
   location: Austin, TX, USA
-  frameworks:
+  ssg_frameworks:
     - jekyll
     - hugo
     - 11ty

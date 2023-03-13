@@ -14,7 +14,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/liveatom-web.png
 logo_image: /images/logos/experts/mask-group.svg
 location: Rochester, MN, USA
-frameworks:
+ssg_frameworks:
   - jekyll
 links:
   site_url: https://liveatom.com/
@@ -25,7 +25,7 @@ links:
 details_block:
   _bookshop_name: experts/details
   location: Rochester, MN, USA
-  frameworks:
+  ssg_frameworks:
     - jekyll
   partner_level:
   facebook_url: https://www.facebook.com/liveatomnow/

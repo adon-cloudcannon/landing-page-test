@@ -18,7 +18,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-07-13-am.png
 logo_image: /images/logos/experts/cubicflow-logo-matt-ellison-1.svg
 location: California, USA & Tokyo, Japan
-frameworks:
+ssg_frameworks:
   - jekyll
   - nextjs
   - gatsby
@@ -58,7 +58,7 @@ slides:
 details_block:
   _bookshop_name: experts/details
   location: California, USA & Tokyo, Japan
-  frameworks:
+  ssg_frameworks:
     - jekyll
     - nextjs
     - gatsby

@@ -17,7 +17,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-11-23-at-9-37-1-2.png
 logo_image: /images/logos/experts/cb-logo-stacked-black-kayci-scaggs.svg
 location: Sydney, Australia
-frameworks:
+ssg_frameworks:
   - jekyll
   - hugo
   - nextjs
@@ -63,7 +63,7 @@ slides:
 details_block:
   _bookshop_name: experts/details
   location: Sydney, Australia
-  frameworks:
+  ssg_frameworks:
     - jekyll
     - hugo
     - nextjs

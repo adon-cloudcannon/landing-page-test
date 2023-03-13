@@ -19,7 +19,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-13-at-9-52-52-am.png
 logo_image: /images/logos/experts/insight-creative.svg
 location: Green Bay, WI, USA
-frameworks:
+ssg_frameworks:
   - jekyll
   - hugo
   - 11ty
@@ -32,7 +32,7 @@ links:
 details_block:
   _bookshop_name: experts/details
   location: Green Bay, WI, USA
-  frameworks:
+  ssg_frameworks:
     - jekyll
     - hugo
     - 11ty

@@ -237,6 +237,19 @@ _inputs:
       values:
         - top
         - center
+  ssg_frameworks:
+    type: multiselect
+    options:
+      values:
+        - jekyll
+        - 11ty
+        - astro
+        - gatsby
+        - hugo
+        - mkdocs
+        - nextjs
+        - nuxtjs
+        - sveltekit
   icon_path:
     type: select
     options:

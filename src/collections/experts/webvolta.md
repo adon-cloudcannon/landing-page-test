@@ -19,7 +19,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-13-at-2-38-08-pm.png
 logo_image: /images/logos/experts/web-volta-black-1.svg
 location: Minneapolis, MN, USA
-frameworks:
+ssg_frameworks:
   - jekyll
 links:
   site_url: https://www.webvolta.com/
@@ -42,7 +42,7 @@ slides:
 details_block:
   _bookshop_name: experts/details
   location: Minneapolis, MN, USA
-  frameworks:
+  ssg_frameworks:
     - jekyll
   partner_level:
   facebook_url: https://www.facebook.com/webvolta/

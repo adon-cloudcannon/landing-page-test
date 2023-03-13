@@ -16,7 +16,7 @@ links:
   instagram_url:
   twitter_url:
   linkedin_url:
-frameworks:
+ssg_frameworks:
   - jekyll
 slides:
   - title: Digital Twin Studios
@@ -37,7 +37,7 @@ slides:
 details_block:
   _bookshop_name: experts/details
   location: Lafayette, LA, USA
-  frameworks:
+  ssg_frameworks:
     - jekyll
   partner_level:
   facebook_url: https://www.facebook.com/Accoladesit

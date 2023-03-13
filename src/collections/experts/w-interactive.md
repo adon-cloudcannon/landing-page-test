@@ -12,7 +12,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-5-01-33-pm.png
 logo_image: /images/logos/experts/w-interactive-logo-2.svg
 location: United Kingdom
-frameworks:
+ssg_frameworks:
   - jekyll
 links:
   site_url: http://winteractive.co
@@ -39,7 +39,7 @@ slides:
 details_block:
   _bookshop_name: experts/details
   location:
-  frameworks:
+  ssg_frameworks:
     - jekyll
   partner_level:
   facebook_url:

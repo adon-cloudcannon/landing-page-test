@@ -12,7 +12,7 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-33-28-am.png
 logo_image: /images/logos/experts/mask-group-2.svg
 location: United Kingdom & India
-frameworks:
+ssg_frameworks:
   - jekyll
   - hugo
   - nextjs
@@ -26,7 +26,7 @@ links:
 details_block:
   _bookshop_name: experts/details
   location: United Kingdom & India
-  frameworks:
+  ssg_frameworks:
     - jekyll
     - hugo
     - nextjs
