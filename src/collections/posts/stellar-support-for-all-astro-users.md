@@ -8,7 +8,7 @@ description: >-
   performant sites available for non-technical editors to draft, review, and
   publish their content.
 series:
-image: https://cc-dam.imgix.net/astro launch.jpg
+image: https://cc-dam.imgix.net/astro-launch-update.jpg
 date: 2023-03-17T05:00:00Z
 hide_publish_date: false
 tags:
@@ -23,7 +23,7 @@ seo:
 ---
 *3… 2… 1… Ignition. We have liftoff.*
 
-Another week, another static site generator out of beta support on CloudCannon. But it’s not just any SSG — it’s Astro, the [top-performing](https://astro.build/blog/2023-web-framework-performance-report/) all-in-one web framework designed for speed. With Astro and CloudCannon you can pull your content from anywhere and deploy everywhere, while using your favorite UI components and libraries, and making your highly performant sites available for non-technical editors to draft, review, and publish their content.
+Another week, another static site generator out of beta support on CloudCannon. But it’s not just any SSG — it’s Astro, the [top-performing](https://astro.build/blog/2023-web-framework-performance-report/) all-in-one web framework designed for speed. With Astro and CloudCannon you can manage your content in your own Git repository and deploy everywhere, while using your favorite UI components and libraries. And the final touch? With CloudCannon your highly performant sites are available for non-technical editors to draft, review, and publish their content.
 
 Astro is a lightweight and powerful static site generator that allows developers to mix and match popular frameworks like as React, Preact, Svelte, Vue, SolidJS, AlpineJS, and Lit. Astro keeps your static sites fast by default, automatically converting components to HTML at build time, and removing superfluous JavaScript. And with Astro's partial hydration, you can hydrate specific interactive components on the page.
 
