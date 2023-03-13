@@ -21,6 +21,7 @@
     "slides": {
       "values": [
         {
+          "label": "Slide",
           "value": {
             "title": null,
             "image": null,
