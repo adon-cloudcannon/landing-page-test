@@ -11,7 +11,10 @@
       "type": "number"
     },
     "form_embed": {
-      "type": "code"
+      "type": "code",
+      "options": {
+        "syntax": "html"
+      }
     }
   },
   "_structures": {
