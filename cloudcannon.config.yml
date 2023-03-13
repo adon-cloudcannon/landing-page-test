@@ -8,6 +8,7 @@ collections_config:
     schemas:
       default:
         path: .cloudcannon/schemas/author.md
+    disable_add_folder: true
     _enabled_editors:
       - content
     icon: face
@@ -35,7 +36,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: true
     _enabled_editors:
-      - content
+      - data
     schemas:
       default:
         path: .cloudcannon/schemas/expert.md
@@ -83,6 +84,7 @@ collections_config:
     description: A list of templates
     output: true
     path: 'collections/templates'
+    disable_add_folder: true
     icon: palette
     schemas:
       default:
@@ -93,6 +95,7 @@ collections_config:
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
+    disable_add_folder: true
     path: 'collections/tutorials'
     schemas:
       default:
