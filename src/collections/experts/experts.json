@@ -6,6 +6,15 @@
     "long_description": {
       "type": "html"
     }
+  },
+  "_structures": {
+    "slides": {
+      "values": {
+        "title": "",
+        "image": "",
+        "content_markdown": ""
+      }
+    }
   }
 }
 
