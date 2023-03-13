@@ -43,7 +43,7 @@ We have imported, built, and stress-tested a variety of static Astro sites using
 
 ### **Sendit — a *stellar* free page-building theme for Astro**
 
-We've extended our new theme Sendit for Astro as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Astro users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Astro sites for editing on CloudCannon: make use of that `cloudcannon.config.yml` file and see how it’s all set up!
+We've extended our new theme <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit</a> for Astro as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Astro users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Astro sites for editing on CloudCannon: make use of that `cloudcannon.config.yml` file and see how it’s all set up!
 
 ![](https://cc-dam.imgix.net/sendit-hero.png)
 
