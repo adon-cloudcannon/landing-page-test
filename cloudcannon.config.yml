@@ -874,3 +874,11 @@ _inputs:
         - teal-white
         - teal
         - normal
+
+_structures:
+  slides:
+    values:
+    - value:
+        title:
+        image:
+        content_markdown:
