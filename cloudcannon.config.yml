@@ -43,6 +43,24 @@ collections_config:
     filter:
       exclude:
         - experts.json
+    _inputs:
+      long_description:
+        type: html
+      weight:
+        comment: a lower weight will display this expert higher in the list.
+        type: number
+      form_embed:
+        type: code
+        options:
+          syntax: html
+    _structures:
+      slides:
+        values:
+        - label: Slide
+          value:
+            title:
+            image:
+            content_markdown:
   jekyll-cheat-sheets:
     description: Data for the Jekyll cheat sheet
     output: false

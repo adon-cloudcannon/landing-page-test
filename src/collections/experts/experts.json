@@ -1,35 +1,6 @@
 {
   "layout": "expert.html",
   "permalink": "/experts/{{ page.fileSlug }}/",
-  "tags": ["experts"],
-  "_inputs": {
-    "long_description": {
-      "type": "html"
-    },
-    "weight": {
-      "comment": "a lower weight will display this expert higher in the list.",
-      "type": "number"
-    },
-    "form_embed": {
-      "type": "code",
-      "options": {
-        "syntax": "html"
-      }
-    }
-  },
-  "_structures": {
-    "slides": {
-      "values": [
-        {
-          "label": "Slide",
-          "value": {
-            "title": null,
-            "image": null,
-            "content_markdown": null
-          }
-        }
-      ]
-    }
-  }
+  "tags": ["experts"]
 }
 
