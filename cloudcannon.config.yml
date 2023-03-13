@@ -36,6 +36,9 @@ collections_config:
     disable_file_actions: true
     _enabled_editors:
       - content
+    schemas:
+      default:
+        path: .cloudcannon/schemas/expert.md
     icon: school
     filter:
       exclude:
