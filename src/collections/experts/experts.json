@@ -16,6 +16,20 @@
         "syntax": "html"
       }
     }
+  },
+  "_structures": {
+    "slides": {
+      "values": [
+        {
+          "label": "Slide",
+          "value": {
+            "title": null,
+            "image": null,
+            "content_markdown": null
+          }
+        }
+      ]
+    }
   }
 }
 
