@@ -2,11 +2,11 @@
 _schema: default
 title: Out-of-this-world support for all Astro users
 description: >-
-  Astro support is now officially out of beta at CloudCannon. With Astro and
-  CloudCannon you can pull your content from anywhere and deploy everywhere,
-  while using your favorite UI components and libraries, and making your highly
-  performant sites available for non-technical editors to draft, review, and
-  publish their content.
+  Astro support is now officially out of beta at CloudCannon. With CloudCannon
+  and Astro as your static site generator, you can manage your content in your
+  own Git repository and deploy everywhere, while using your favorite UI
+  components and libraries. What's more, CloudCannon makes your sites available
+  for non-technical editors to draft, review, and publish their content.
 series:
 image: https://cc-dam.imgix.net/astro-launch-update.jpg
 date: 2023-03-17T05:00:00Z
@@ -33,9 +33,9 @@ With CloudCannon as your Astro CMS, your whole team can collaborate to create in
 
 ### **Astro-specific documentation and guides**
 
-Experienced Astro devs use it because they love both the tool’s DX and its performance. We’re big fans too, but we also want to support developers who are new to either Astro or CloudCannon. With that in mind, we've updated our documentation to address Astro specifically, to ensure that all of your questions are answered and readily searchable. (If you work across multiple SSGs, you’ll find a handy SSG-switcher in the top right of our new documentation, so you can compare how CloudCannon adapts to different tools.)
+Experienced devs choose Astro because they love both the tool’s DX and its performance. We’re big fans too, but we also want to support developers who are new to either Astro or CloudCannon. With that in mind, we've updated our documentation to address Astro specifically, to ensure that all of your questions are answered and readily searchable. (If you work across multiple SSGs, you’ll find a handy SSG-switcher in the top right of our new documentation, so you can compare how CloudCannon adapts to different tools.)
 
-We’ve also written up a [Getting Started with Astro](https://cloudcannon.com/documentation/guides/astro-starter-guide/) guide, to help you configure your Astro site for for visual editing with CloudCannon, share your Astro site with others, and set up content publishing workflows for large teams.
+We’ve also written up a [Getting Started with Astro](https://cloudcannon.com/documentation/guides/astro-starter-guide/) guide, to help you configure your Astro site for visual editing with CloudCannon, share your Astro site with others, and set up content publishing workflows for large teams.
 
 ### **We tested an *astronomical* number of Astro sites**
 
