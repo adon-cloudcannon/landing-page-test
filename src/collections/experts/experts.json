@@ -5,6 +5,12 @@
   "_inputs": {
     "long_description": {
       "type": "html"
+    },
+    "weight": {
+      "comment": "a lower weight will display this expert higher in the list."
+    },
+    "form_embed": {
+      "type": "code"
     }
   },
   "_structures": {
