@@ -13,6 +13,6 @@ links:
   twitter_url:
   linkedin_url:
 ssg_frameworks:
-slides:
+slides: []
 form_embed:
 ---
