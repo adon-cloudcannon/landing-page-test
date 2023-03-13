@@ -25,7 +25,9 @@ seo:
 
 Another week, another static site generator out of beta support on CloudCannon. But it’s not just any SSG — it’s Astro, the [top-performing](https://astro.build/blog/2023-web-framework-performance-report/) all-in-one web framework designed for speed. With Astro and CloudCannon you can pull your content from anywhere and deploy everywhere, while using your favorite UI components and libraries, and making your highly performant sites available for non-technical editors to draft, review, and publish their content.
 
-Astro is in fine company on CloudCannon — we’ve recently brought our support for Gatsby, SvelteKit, and Next.js out of beta, joining the likes of Hugo, Jekyll, and Eleventy. (And we’re not stopping there!)
+Astro is a lightweight and powerful static site generator that allows developers to mix and match popular frameworks like as React, Preact, Svelte, Vue, SolidJS, AlpineJS, and Lit. Astro keeps your static sites fast by default, automatically converting components to HTML at build time, and removing superfluous JavaScript. And with Astro's partial hydration, you can hydrate specific interactive components on the page.
+
+With CloudCannon as your Astro CMS, your whole team can collaborate to create incredibly fast static sites with a wide range of components. Astro is in fine company on CloudCannon — we’ve recently brought our support for Gatsby, SvelteKit, and Next.js out of beta, joining the likes of Hugo, Jekyll, and Eleventy. (And we’re not stopping there!)
 
 ## **What’s new for Astro users on CloudCannon?**
 
