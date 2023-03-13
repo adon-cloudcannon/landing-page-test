@@ -47,8 +47,8 @@ We've extended our new theme Sendit for Astro as well, demonstrating the benefit
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 
-Check out the Sendit demo site to see its potential. You can also deploy a new Sendit site with Astro and CloudCannon in less than a minute and experience the best of our Visual Editor for intuitive page building.
+Check out the <a target="_blank" rel="noopener" href="https://top-quail.cloudvent.net/">Sendit demo site</a> to see its potential. You can also <a target="_blank" rel="noopener" href="https://app.cloudcannon.com/#sites/templates/astro/cloudcannon/sendit-astro-template">deploy a new Sendit site with Astro and CloudCannon</a> in one click, and experience the best of our Visual Editor for intuitive page building.
 
 ---
 
-*Do you have any questions about bringing your Astro sites to CloudCannon, or need a little help with migration or configuration? Feel free to <a target="_blank" rel="noopener" href="/book-a-demo/">book a no-obligation demo call with our Astro experts</a>, take a look at our <a target="_blank" rel="noopener" href="/documentation/">updated documentation</a>, or <a target="_blank" rel="noopener" href="/support/">get in touch with our support team</a>.*
+*Do you have any questions about bringing your Astro sites to CloudCannon, or need a little help with migration or configuration? Feel free to <a target="_blank" rel="noopener" href="/book-a-demo/">book a demo call</a>, take a look at our <a target="_blank" rel="noopener" href="/documentation/">documentation</a>, or <a target="_blank" rel="noopener" href="/support/">get in touch with our support team</a>.*
