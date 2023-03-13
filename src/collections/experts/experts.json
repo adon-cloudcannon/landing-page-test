@@ -1,6 +1,11 @@
 {
   "layout": "expert.html",
   "permalink": "/experts/{{ page.fileSlug }}/",
-  "tags": ["experts"] 
+  "tags": ["experts"],
+  "_inputs": {
+    "long_description": {
+      "type": "html"
+    }
+  }
 }
 
