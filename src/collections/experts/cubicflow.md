@@ -55,18 +55,6 @@ slides:
 
 
       We also created Shotbud’s design systems and branding.
-details_block:
-  _bookshop_name: experts/details
-  location: California, USA & Tokyo, Japan
-  ssg_frameworks:
-    - jekyll
-    - nextjs
-    - gatsby
-  partner_level:
-  facebook_url:
-  instagram_url:
-  twitter_url:
-  linkedin_url:
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

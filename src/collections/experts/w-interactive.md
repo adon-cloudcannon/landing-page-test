@@ -36,16 +36,6 @@ slides:
     content_markdown: >-
       A bespoke website designed for the premium British sports car company
       Wells Motor Cars.
-details_block:
-  _bookshop_name: experts/details
-  location:
-  ssg_frameworks:
-    - jekyll
-  partner_level:
-  facebook_url:
-  instagram_url: https://www.instagram.com/w____studio/
-  twitter_url:
-  linkedin_url: https://www.linkedin.com/in/andrew-winter-111a8114/
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

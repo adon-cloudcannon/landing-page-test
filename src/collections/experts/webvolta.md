@@ -39,16 +39,6 @@ slides:
   - title: Rick's Coffee Bar
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-4-20-08-pm.png
     content_markdown: Rapid late stage design and development of non-profit static site.
-details_block:
-  _bookshop_name: experts/details
-  location: Minneapolis, MN, USA
-  ssg_frameworks:
-    - jekyll
-  partner_level:
-  facebook_url: https://www.facebook.com/webvolta/
-  instagram_url: https://www.instagram.com/webvolta/?hl=en
-  twitter_url: https://twitter.com/webvolta
-  linkedin_url: https://www.linkedin.com/company/webvolta-llc
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

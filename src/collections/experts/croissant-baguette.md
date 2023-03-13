@@ -60,21 +60,6 @@ slides:
 
       She’s recently re-launched her business with a range of sub-brands and
       needed a clean, welcoming, and modern website to accompany the new launch.
-details_block:
-  _bookshop_name: experts/details
-  location: Sydney, Australia
-  ssg_frameworks:
-    - jekyll
-    - hugo
-    - nextjs
-    - nuxtjs
-    - sveltekit
-    - astro
-  partner_level:
-  facebook_url:
-  instagram_url:
-  twitter_url:
-  linkedin_url: https://www.linkedin.com/company/42714056/
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

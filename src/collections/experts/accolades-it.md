@@ -34,16 +34,6 @@ slides:
     content_markdown: >-
       We built a simple one-page site with web app, form, and site editor for
       the client to be able to manage their site easily and efficiently.
-details_block:
-  _bookshop_name: experts/details
-  location: Lafayette, LA, USA
-  ssg_frameworks:
-    - jekyll
-  partner_level:
-  facebook_url: https://www.facebook.com/Accoladesit
-  instagram_url:
-  twitter_url:
-  linkedin_url:
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  
