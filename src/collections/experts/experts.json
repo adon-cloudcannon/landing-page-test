@@ -16,11 +16,15 @@
   },
   "_structures": {
     "slides": {
-      "values": {
-        "title": "",
-        "image": "",
-        "content_markdown": ""
-      }
+      "values": [
+        {
+          "values": {
+            "title": "",
+            "image": "",
+            "content_markdown": ""
+          }
+        }
+      ]
     }
   }
 }
