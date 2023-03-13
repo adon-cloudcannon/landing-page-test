@@ -22,9 +22,9 @@
       "values": [
         {
           "value": {
-            "title": "",
-            "image": "",
-            "content_markdown": ""
+            "title": null,
+            "image": null,
+            "content_markdown": null
           }
         }
       ]
