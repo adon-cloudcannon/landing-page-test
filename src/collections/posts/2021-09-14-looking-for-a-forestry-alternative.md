@@ -12,7 +12,7 @@ image: https://cc-dam.imgix.net/blog/forestry-alternative-2.png
 date: 2021-09-14T05:00:00+1200
 tags:
   - Resources
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 ## Your CMS for Jekyll, Hugo, and Eleventy
 

@@ -9,12 +9,12 @@ description: >-
   easier.
 series:
 image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
-date: 2024-03-11T05:00:00Z
+date: 2023-03-11T05:00:00Z
 hide_publish_date: false
 tags:
   - Agencies
   - Company
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article

@@ -3,7 +3,7 @@ title: How the Facebook content placeholder works
 description: >-
   Let's break down the Facebook content placeholder step by step, so that we can understand how it works. This is the first post of the new blog series 'Deconstructions', showcasing interesting things that are being done in web development. 
 date: 2014-11-15
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 tags:
   - Resources
 seo:

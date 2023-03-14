@@ -13,7 +13,7 @@ image: https://cc-dam.imgix.net/blog-static-myths.jpg
 date: 2022-08-18T05:00:00+1200
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 If you’ve ever searched out the differences between static websites and dynamic websites, you’re likely to have discovered several questionable — if not *outright false* — statements about what static websites are and aren’t capable of.
 

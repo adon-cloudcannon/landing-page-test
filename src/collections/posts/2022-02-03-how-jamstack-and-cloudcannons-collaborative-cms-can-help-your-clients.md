@@ -10,7 +10,7 @@ image: https://cc-dam.imgix.net/blog/agency-pitch-meeting_r04n38.jpg
 date: 2022-02-03T05:00:00+1300
 tags:
   - Agencies
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 So you're pitching a Jamstack project uphill — to a prospective client, perhaps a manager, or an entire marketing team. What are they worried about? And how can you help convince them that static sites are the way of the future? You already know static is faster and more reliable, with a better developer experience, but let's put their questions to rest, with questions a (stereotypical) client might ask.
 

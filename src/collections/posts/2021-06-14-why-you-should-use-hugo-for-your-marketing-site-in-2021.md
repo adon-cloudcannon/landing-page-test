@@ -13,7 +13,7 @@ image: https://cc-dam.imgix.net/blog/uploads/blog-hugo-marketing-website.jpg
 tags:
   - Resources
   - Hugo
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 As a developer, you should continuously evolve with market trends to increase your competitive edge. And it all boils down to your tools. A super fast, flexible and efficient framework can give you a huge lead over the competition. For your marketing site, use [Hugo](https://gohugo.io/) to stay ahead of the pack.
 

@@ -11,7 +11,7 @@ image: https://cc-dam.imgix.net/blog/choosing-ssg-beginner.jpg
 date: 2021-09-02T05:00:00+1200
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 ## Part 3: Choices, choices, choices
 

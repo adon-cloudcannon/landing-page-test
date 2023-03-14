@@ -16,7 +16,7 @@ tags:
   - Next.js
   - SvelteKit
   - Astro
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 There’s no shortage of static site generators (SSGs) to choose from, though I’ve limited the below list to five major SSGs covering a wide range of uses, from marketing sites, portfolios and blogs to documentation hubs with hundreds of thousands of pages.
 

@@ -15,7 +15,7 @@ tags:
   - Features
   - Resources
   - Company
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 permalink: /blog/upcoming-cloudcannon-interface-improvements/
 seo:
   open_graph_type: article

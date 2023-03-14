@@ -3,7 +3,7 @@ title: Free Automatic SSL
 date: 2018-07-02
 tags:
   - Features
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 seo:
   open_graph_type: article
   featured_image:

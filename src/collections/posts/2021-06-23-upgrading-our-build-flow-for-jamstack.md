@@ -12,7 +12,7 @@ image: https://cc-dam.imgix.net/blog/uploads/progress-hero-blog-1200x800-3.png
 date: 2021-06-23T00:00:00+1200
 tags:
   - Features
-author: dave-strydom
+author: 94d9454d-d560-4dc5-8acd-1bd804305709
 ---
 Our journey towards becoming a more powerful Jamstack platform takes a huge step forward with the upgrade to our new, flexible build automation flow. 
 

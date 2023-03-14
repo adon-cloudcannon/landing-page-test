@@ -1,6 +1,6 @@
 ---
 title: The ultimate list of services for static websites
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 date: "2014-12-12T13:00:00.000Z"
 tags:
   - Resources

@@ -12,7 +12,7 @@ image: https://cc-dam.imgix.net/blog/bookshop-feature-image.jpg
 date: 2021-10-06T05:00:00+1300
 tags:
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 We're delighted to launch [Bookshop](https://github.com/CloudCannon/bookshop)\: an open-source framework to speed up development and reduce maintenance on static websites by developing components in isolation.
 

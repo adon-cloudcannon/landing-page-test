@@ -13,7 +13,7 @@ image: https://cc-dam.imgix.net/introducing-pagefind.jpg
 date: 2022-07-15T17:00:00.000Z
 tags:
   - Resources
-author: liam-bigelow
+author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
 ---
 We’re delighted to launch Pagefind, an open-source tool that adds search to your static websites without hosting any infrastructure, while respecting your users’ bandwidth.
 

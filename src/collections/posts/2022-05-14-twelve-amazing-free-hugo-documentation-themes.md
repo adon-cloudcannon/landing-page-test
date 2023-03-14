@@ -13,7 +13,7 @@ date: 2022-05-14T05:00:00+1200
 tags:
   - Hugo
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Providing responsive and intuitive documentation is a key concern for every software business, from SaaS to desktop applications. Whether you're documenting a series of steps or explaining precisely how to get the most from your product, you'll need a fast and SEO-friendly website for your knowledge base. 
 

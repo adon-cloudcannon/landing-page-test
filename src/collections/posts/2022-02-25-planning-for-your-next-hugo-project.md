@@ -11,7 +11,7 @@ date: 2022-02-25T05:00:00+1300
 tags:
   - Resources
   - Hugo
-author: bryce-wray
+author: 7abe9500-0933-48af-9130-87389dc36c9b
 templateEngineOverride: md
 ---
 There’s plenty to be said for stuff that *just works*, and the [Hugo](https://gohugo.io/) static site generator (SSG) is a perfect exemplar of that well-worn descriptor. When you’re building a new website for a client, Hugo should be one of the first tools you pull from your bag. 

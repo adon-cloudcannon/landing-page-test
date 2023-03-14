@@ -11,7 +11,7 @@ image: https://cc-dam.imgix.net/blog/migration-from-forestry-to-cloudcannon_vnmi
 date: 2022-02-12T05:00:00+1300
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 As the Forestry CMS moves towards [its sunset](https://forestry.io/blog/tina-cloud-the-next-forestry/), many Hugo, 11ty, and Jekyll developers are looking for a new home for their Jamstack websites. CloudCannon is a Git-based CMS which has been around since 2014 and powers thousands of websites for Fortune 500 companies, digital agencies, freelancers, and global businesses.
 

@@ -14,7 +14,7 @@ tags:
   - Next.js
   - SvelteKit
   - Resources
-author: jaimie-mcmahon
+author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 ---
 If you're looking to build static sites with complex interactive web applications, you’d be hard pressed to find two more suitable static site generators than **[Next.js](https://nextjs.org/)** and **[SvelteKit](https://kit.svelte.dev/)**.&nbsp;
 

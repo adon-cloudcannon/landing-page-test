@@ -20,7 +20,7 @@ tags:
     - Astro
     - Nuxt.js
     - Bridgetown
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Last week I published a list of the [top five static site generators for 2023](https://cloudcannon.com/blog/the-top-five-static-site-generators-for-2023-and-when-to-use-them/). In that article I looked at the major features for each framework, as well as the kinds of development each SSG is best suited for.
 

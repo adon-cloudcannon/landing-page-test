@@ -10,7 +10,7 @@ seo:
   featured_image_alt:
 image: https://cc-dam.imgix.net/nuance_hugo.jpg
 date: 2022-07-30T05:00:00+1200
-author: nuance-communications-techpubs-team
+author: e23ed92b-24aa-4499-b883-bd40e03bad3e
 tags:
   - Hugo
 ---

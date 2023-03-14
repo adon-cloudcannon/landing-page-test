@@ -1,7 +1,7 @@
 ---
 title: 3 ways to improve your web design skills
 date: 2014-11-17
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 tags:
   - Resources
 seo:

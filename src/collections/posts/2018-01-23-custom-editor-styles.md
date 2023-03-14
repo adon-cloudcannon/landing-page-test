@@ -1,7 +1,7 @@
 ---
 title: Custom Editor Styles
 date: 2018-01-23
-author: ross-phillips
+author: 68fdf39d-de6e-4729-8747-1bf901498c5c
 tags:
   - Features
 seo:

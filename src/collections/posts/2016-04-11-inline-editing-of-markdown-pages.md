@@ -3,7 +3,7 @@ title: Inline editing of Markdown pages
 date: 2016-04-11T02:13:00Z
 tags:
   - Features
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 seo:
   open_graph_type: article
   featured_image:

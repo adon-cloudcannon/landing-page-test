@@ -3,7 +3,7 @@ title: Editor Link Modals
 date: 2018-07-18T13:06:00+1200
 tags:
   - Features
-author: ross-phillips
+author: 68fdf39d-de6e-4729-8747-1bf901498c5c
 seo:
   open_graph_type: article
   featured_image:

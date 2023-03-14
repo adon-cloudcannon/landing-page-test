@@ -1,7 +1,7 @@
 ---
 title: Deploy Jekyll sites anywhere using jekyll-hook
 date: 2016-01-26T15:22:00+1300
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 tags:
   - Jekyll
 seo:

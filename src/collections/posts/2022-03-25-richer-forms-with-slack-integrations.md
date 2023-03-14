@@ -11,7 +11,7 @@ image: https://cc-dam.imgix.net/forms-hero-3.jpg
 date: 2022-03-25T05:00:00+1300
 tags:
   - Features
-author: dave-strydom
+author: 94d9454d-d560-4dc5-8acd-1bd804305709
 ---
 A good form is a must-have for any website. Whether someone wants to ask your team a question or register interest in your services, your contact form is the first place visitors will look to get the conversation started. Ask any modern content team, and they'll tell you forms are vital to engage with leads through gated content. However you use forms, you’ll want to keep your visitors connected because your clients are essential to you. 
 

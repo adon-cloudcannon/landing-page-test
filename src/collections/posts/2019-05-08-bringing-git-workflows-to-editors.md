@@ -3,7 +3,7 @@ title: Bringing Git Workflows to Editors
 date: 2019-05-08T12:00:00+1200
 tags:
   - Features
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 seo:
   open_graph_type: article
   featured_image:

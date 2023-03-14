@@ -4,7 +4,7 @@ description: >-
   A simple technique for bundling JavaScript is to use Jekyll includes. We take
   a look at how you can do this and talk you through the approach. 
 date: 2020-11-12T13:00:00+1300
-author: ryan-collins
+author: 48beee1b-cdfc-49fd-b83b-29eb8d1e95f3
 tags:
   - Jekyll
 seo:

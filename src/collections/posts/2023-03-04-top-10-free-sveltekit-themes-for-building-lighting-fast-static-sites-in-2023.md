@@ -12,7 +12,7 @@ hide_publish_date: false
 tags:
   - SvelteKit
   - Resources
-author: jaimie-mcmahon
+author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article

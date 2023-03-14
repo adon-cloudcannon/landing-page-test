@@ -3,7 +3,7 @@ title: CloudCannon Jekyll support now in public beta
 date: 2015-05-12T12:00:00+1200
 tags:
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 seo:
   open_graph_type: article
   featured_image:

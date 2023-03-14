@@ -4,7 +4,7 @@ date: 2016-12-06T14:49:00+1300
 tags:
   - Resources
   - Jekyll
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 seo:
   open_graph_type: article
   featured_image:

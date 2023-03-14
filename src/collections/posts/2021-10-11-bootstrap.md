@@ -14,7 +14,7 @@ description: >-
 tags:
   - Resources
   - Hugo
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Bootstrap is used to rapidly develop consistent, responsive websites. It was initially created at Twitter as a way to encourage design consistency in internal tools. Later it was publicly released in August 2011 and has become one of the most popular projects on GitHub.
 

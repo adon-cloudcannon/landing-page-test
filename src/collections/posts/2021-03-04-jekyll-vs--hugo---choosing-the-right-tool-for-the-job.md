@@ -13,7 +13,7 @@ tags:
   - Resources
   - Hugo
   - Jekyll
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 In the Jamstack world, new static site generators are constantly released. But actively developed, battle-tested solutions are also great options.
 

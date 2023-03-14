@@ -13,7 +13,7 @@ hide_publish_date: false
 tags:
   - Gatsby
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article

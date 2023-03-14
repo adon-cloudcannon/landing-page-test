@@ -13,7 +13,7 @@ image: https://cc-dam.imgix.net/Explorer_8.jpg
 date: 2022-03-09T05:00:00+1300
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 Islands architecture or 'partial hydration' is an approach that gives the fast-loading nature of a purely static website, paired with the dynamic iterations you get from an SPA. To understand why islands architecture is such as big deal, we need a brief internet history lesson.
 

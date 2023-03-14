@@ -13,7 +13,7 @@ date: 2022-04-08T05:00:00+1200
 tags:
   - Features
   - Astro
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 We’re delighted to announce the launch of our support for [Astro](https://astro.build/) within CloudCannon’s Git-based CMS. (Side note: what an exciting week to launch in, as [Astro reaches its 1.0.0 beta](https://astro.build/blog/launch-week/)\!)
 

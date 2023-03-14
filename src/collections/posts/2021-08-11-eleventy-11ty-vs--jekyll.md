@@ -15,7 +15,7 @@ tags:
   - Resources
   - Jekyll
   - Eleventy
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Welcome to the static world. Your sites scale easily, load faster and more efficiently, and you and your clients are already seeing the benefits. The [Jamstack ecosystem](https://cloudcannon.com/community/jamstack-ecosystem/) is thriving, with tools and support for static sites growing day by day, and [CloudCannon has just launched Eleventy support](https://cloudcannon.com/blog/eleventy-11ty-support-in-cloudcannon/), alongside Jekyll and Hugo. There’s never been a better time to be a web developer. But we return to the perennial question: which static site generator (SSG) should you choose for your next project?
 

@@ -14,7 +14,7 @@ image: https://cc-dam.imgix.net/ssg-race.jpg
 date: 2022-03-17T05:15:00+1300
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Static site generators appeal to many developers primarily for reasons relating to their performance. Sites can certainly be faster and more secure if they’re created with an SSG, but some of the additional reasons we love SSGs here at CloudCannon include their simplicity and elegance, as well as the control and freedom they can offer — both to developers and to content editors.
 

@@ -13,7 +13,7 @@ description: >-
 tags:
   - Resources
   - Jekyll
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Bitcoin is a cryptocurrency created in 2008 by a mysterious person or group by the alias Satoshi Nakamoto. It was the first decentralized cryptocurrency and is currently the most valuable, with a market cap of over $2 trillion.
 

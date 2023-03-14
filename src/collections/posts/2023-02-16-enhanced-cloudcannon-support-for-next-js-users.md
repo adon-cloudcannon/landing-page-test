@@ -13,7 +13,7 @@ hide_publish_date: false
 tags:
   - Next.js
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 For developers with existing React UI components, we’re excited to announce our latest release, bringing CloudCannon’s support for Next.js out of beta!
 

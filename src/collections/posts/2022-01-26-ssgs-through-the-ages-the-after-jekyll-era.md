@@ -13,7 +13,7 @@ image: https://cc-dam.imgix.net/blog/explorer-2_vumhwx.svg
 date: 2022-01-26T05:00:00+1300
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 *This is the second part of an ongoing series. If you'd like to read about the genesis of static site generators, see [Part 1: The 'Before Jekyll' era](https://cloudcannon.com/blog/ssg-history-1-before-jekyll/).*
 

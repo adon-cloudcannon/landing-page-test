@@ -9,7 +9,7 @@ hide_publish_date: false
 tags:
   - SvelteKit
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 We’re celebrating the holiday season with another release — this time with increased support for SvelteKit users\! With [SvelteKit itself having just reached v1.0](https://svelte.dev/blog/announcing-sveltekit-1.0), this is perfect timing; our build flow now includes SvelteKit's latest stable release.&nbsp;
 

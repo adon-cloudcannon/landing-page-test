@@ -14,7 +14,7 @@ hide_publish_date: false
 tags:
   - Eleventy
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 With [CloudCannon's support for Eleventy now officially out of beta](https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/), there's no better time to investigate a new project. What's the best way to get started? With an Eleventy theme, of course\!
 

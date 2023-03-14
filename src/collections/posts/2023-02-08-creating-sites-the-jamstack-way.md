@@ -12,7 +12,7 @@ tags:
   - Beginner
   - Features
   - Resources
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 You might have heard web developers talking about Jamstack, or "modern static web development", but what is it exactly? This post provides an overview of what Jamstack is and the benefits of building your next website the Jamstack way.
 

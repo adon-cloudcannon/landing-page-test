@@ -3,7 +3,7 @@ title: Officially Out of Jekyll Beta
 date: 2016-08-31T14:02:00+1200
 tags:
   - Features
-author: ross-phillips
+author: 68fdf39d-de6e-4729-8747-1bf901498c5c
 seo:
   open_graph_type: article
   featured_image:

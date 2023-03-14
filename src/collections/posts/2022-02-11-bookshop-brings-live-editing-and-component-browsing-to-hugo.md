@@ -11,7 +11,7 @@ date: 2022-02-11T05:00:00+1300
 tags:
   - Features
   - Hugo
-author: liam-bigelow
+author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
 ---
 [Bookshop](https://github.com/CloudCannon/bookshop) — our open-source page-building toolkit — now supports Hugo, as well as Jekyll and Eleventy.
 

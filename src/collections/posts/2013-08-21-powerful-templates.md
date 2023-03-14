@@ -4,7 +4,7 @@ description:
 date: 2013-08-21
 tags:
   - Features
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 image: https://cc-dam.imgix.net/blog/uploads/blog-lightbulb.jpg
 seo:
   open_graph_type: article

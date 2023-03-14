@@ -1,7 +1,7 @@
 ---
 title: How Pixelapse image blurring works
 date: 2014-11-19
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 tags:
   - Resources
 seo:

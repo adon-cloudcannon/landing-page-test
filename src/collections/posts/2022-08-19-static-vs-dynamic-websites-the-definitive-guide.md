@@ -14,7 +14,7 @@ date: 2022-08-25T05:00:00+1200
 hide_publish_date: true
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 When it comes to making a website, you’ve probably come across the terms **static** and **dynamic**. But what do they mean for you? And which approach should you choose? Let’s dig into these terms, and the specific kinds of sites they’re each suited for.
 

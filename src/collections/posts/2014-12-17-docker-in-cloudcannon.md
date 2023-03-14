@@ -1,7 +1,7 @@
 ---
 title: Docker in CloudCannon
 date: 2014-12-17T13:00:00+1300
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 tags:
   - Resources
 seo:

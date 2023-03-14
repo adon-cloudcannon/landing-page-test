@@ -3,7 +3,7 @@ title: Make your websites faster with CloudCannon
 date: 2019-11-19T00:00:00Z
 tags:
   - Features
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 seo:
   open_graph_type: article
   featured_image:

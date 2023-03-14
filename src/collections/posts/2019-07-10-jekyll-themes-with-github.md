@@ -4,7 +4,7 @@ date: 2019-07-10T12:00:00+1200
 tags:
   - Resources
   - Jekyll
-author: jordan-trbuhovic
+author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
 seo:
   open_graph_type: article
   featured_image:

@@ -1,7 +1,7 @@
 ---
 title: How we are reacting to COVID-19
 date: 2020-03-18T00:00:00Z
-author: chris-wingate
+author: 4fd4e076-b207-4454-bdec-a060156c4f4a
 tags:
   - Company
 seo:

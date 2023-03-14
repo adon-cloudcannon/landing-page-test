@@ -1,7 +1,7 @@
 ---
 title: Google's transforming material icons in HTML and CSS
 date: 2014-12-05
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 tags:
   - Resources
 seo:

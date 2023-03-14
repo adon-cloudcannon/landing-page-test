@@ -12,7 +12,7 @@ description: >-
   which is built on static site generator Jekyll, to see what makes it tick.
 tags:
   - Resources
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 CloudCannon uses Rails for our backend and I can say that it is an absolute joy to work with. In this showcase, we'll deconstruct the Ruby on Rails marketing website to see what makes it tick.
 

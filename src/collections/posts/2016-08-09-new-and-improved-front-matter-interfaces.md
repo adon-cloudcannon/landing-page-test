@@ -3,7 +3,7 @@ title: New and Improved Front Matter Interfaces
 date: 2016-08-09T14:07:00+1200
 tags:
   - Features
-author: ross-phillips
+author: 68fdf39d-de6e-4729-8747-1bf901498c5c
 seo:
   open_graph_type: article
   featured_image:

@@ -133,6 +133,14 @@ collections_config:
       exclude:
         - posts.json
     _inputs:
+      author:
+        type: select
+        options:
+          values: collections.authors
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
       tags:
         type: multiselect
         options:
