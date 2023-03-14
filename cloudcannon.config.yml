@@ -165,6 +165,15 @@ collections_config:
       exclude:
         - case-study-people.json
     icon: sentiment_satisfied
+    _inputs:
+      case_study:
+        type: select
+        options:
+          values: collections.case-studies
+          value_key: uuid
+          preview:
+            text: 
+            - key: title
   events:
     description: Past and future CloudCannon related events
     output: false
