@@ -1,6 +1,7 @@
 ---
 _schema: default
 title: Introducing the CloudCannon Partner Program
+draft: false
 description: >-
   Do you build client websites using a static site generator? Find out more
   about the CloudCannon Partner Program — you can access exclusive Partner
@@ -8,7 +9,7 @@ description: >-
   easier.
 series:
 image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
-date: 2023-03-11T05:00:00Z
+date: 2024-03-11T05:00:00Z
 hide_publish_date: false
 tags:
   - Agencies

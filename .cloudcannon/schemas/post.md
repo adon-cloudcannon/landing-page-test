@@ -1,6 +1,7 @@
 ---
 title:
 description:
+draft: true
 series:
 image:
 date: 
