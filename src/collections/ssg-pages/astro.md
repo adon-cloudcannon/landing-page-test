@@ -57,53 +57,161 @@ content_blocks:
                 active: true
                 top: 0
                 bottom: 15
-        - _bookshop_name: simple/text-block
+        - _bookshop_name: sections/two-column
           content:
-            text_markdown: >-
-              Choose CloudCannon as your Astro CMS for leading developer
-              experience and intuitive editing. Your whole team can collaborate
-              to create incredibly fast static sites with React, Preact, Vue,
-              and Svelte components — and more!
+            left:
+              blocks:
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Choose CloudCannon as your Astro CMS for leading developer
+                      experience and intuitive editing. Your whole team can
+                      collaborate to create incredibly fast static sites with
+                      React, Preact, Vue, and Svelte components — and more!
+                  styles:
+                    width: medium
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 120
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+            right:
+              blocks:
+                - _bookshop_name: simple/video
+                  content:
+                    title: CloudCannon CMS demo video
+                    url: >-
+                      https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+                    autoplay: true
+                    loop: true
+                  styles:
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: biggest
-              margin:
-                top: 0
-                bottom: 30
-              block_alignment:
-                align_block: center
+              columns:
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: top
             tablet:
-              text_alignment:
+              columns:
                 active: false
-                align: left
-              text_sizing:
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
                 active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
+                v_align: top
             mobile:
-              text_alignment:
+              columns:
                 active: false
-                align: left
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 30
-              block_alignment:
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
                 active: false
-                align_block: left
-            width: medium
+                v_align: top
         - _bookshop_name: simple/button-holder
           content:
             button_blocks:
