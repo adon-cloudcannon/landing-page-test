@@ -188,7 +188,7 @@ content_blocks:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: top
@@ -234,8 +234,8 @@ content_blocks:
           styles:
             desktop:
               margin:
-                top: 0
-                bottom: 60
+                top: 60
+                bottom: 90
               justify:
                 align: center
             tablet:
@@ -254,78 +254,6 @@ content_blocks:
               justify:
                 active: false
                 align: center
-        - _bookshop_name: simple/video
-          content:
-            title: Demonstration of CloudCannon in action
-            url: https://player.vimeo.com/video/668496650
-            autoplay: true
-            loop: true
-          styles:
-            desktop:
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: left
-              margin:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            tablet:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
         - _bookshop_name: simple/fold
     styles:
       background: white
