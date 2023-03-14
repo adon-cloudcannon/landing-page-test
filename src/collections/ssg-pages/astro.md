@@ -57,161 +57,53 @@ content_blocks:
                 active: true
                 top: 0
                 bottom: 15
-        - _bookshop_name: sections/two-column
+        - _bookshop_name: simple/text-block
           content:
-            left:
-              blocks:
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Choose CloudCannon as your Astro CMS for leading developer
-                      experience and intuitive editing. Your whole team can
-                      collaborate to create incredibly fast static sites with
-                      React, Preact, Vue, and Svelte components — and more!
-                  styles:
-                    width: medium
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 120
-                        bottom: 0
-                      block_alignment:
-                        align_block: center
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-            right:
-              blocks:
-                - _bookshop_name: simple/video
-                  content:
-                    title: CloudCannon CMS demo video
-                    url: >-
-                      https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
-                    autoplay: true
-                    loop: true
-                  styles:
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
+            text_markdown: >-
+              Choose CloudCannon as your Astro CMS for leading developer
+              experience and intuitive editing. Your whole team can collaborate
+              to create incredibly fast static sites with React, Preact, Vue,
+              and Svelte components — and more!
           styles:
+            width: full
             desktop:
-              columns:
-                type: split
-                width: 0
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: top
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
             tablet:
-              columns:
+              text_alignment:
                 active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
+                align: left
+              text_sizing:
                 active: false
-                v_align: top
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
             mobile:
-              columns:
+              text_alignment:
                 active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
+                align: left
+              text_sizing:
                 active: false
-                v_align: top
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
         - _bookshop_name: simple/button-holder
           content:
             button_blocks:
@@ -234,8 +126,8 @@ content_blocks:
           styles:
             desktop:
               margin:
-                top: 60
-                bottom: 90
+                top: 30
+                bottom: 60
               justify:
                 align: center
             tablet:
@@ -254,6 +146,79 @@ content_blocks:
               justify:
                 active: false
                 align: center
+        - _bookshop_name: simple/video
+          content:
+            title: CloudCannon cMS demo video
+            url: >-
+              https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+            autoplay: true
+            loop: true
+          styles:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: center
+              margin:
+                top: 0
+                left: 0
+                bottom: 120
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: simple/fold
     styles:
       background: white
