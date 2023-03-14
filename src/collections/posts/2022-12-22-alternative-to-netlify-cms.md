@@ -10,7 +10,7 @@ image: https://cc-dam.imgix.net/blog/blog-netlify-alternative.jpg
 date: 2022-12-17T05:03:00+1300
 hide_publish_date: false
 tags:
-  - Agency
+  - Agencies
   - Resources
   - Tutorials
 author: cloudcannon

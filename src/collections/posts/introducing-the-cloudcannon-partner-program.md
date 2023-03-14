@@ -11,7 +11,7 @@ image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
 date: 2023-03-11T05:00:00Z
 hide_publish_date: false
 tags:
-  - Agency
+  - Agencies
   - Company
 author: cloudcannon
 permalink: /blog/{{ title | slugify }}/

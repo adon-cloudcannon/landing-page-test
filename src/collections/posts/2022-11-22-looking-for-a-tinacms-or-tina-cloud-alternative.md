@@ -12,7 +12,7 @@ image: https://cc-dam.imgix.net/blog/blog-tina-alternative.jpg
 date: 2022-11-22T05:00:00+1300
 hide_publish_date: false
 tags:
-  - Agency
+  - Agencies
   - Resources
   - Tutorials
 author: cloudcannon

@@ -132,6 +132,30 @@ collections_config:
     filter:
       exclude:
         - posts.json
+    _inputs:
+      tags:
+        type: multiselect
+        options:
+          values:
+            - agencies
+            - astro
+            - beginner
+            - bridgetown
+            - cheat-sheet
+            - company
+            - eleventy
+            - experts
+            - features
+            - gatsby
+            - hugo
+            - jekyll
+            - mkdocs
+            - next-js
+            - nuxt-js
+            - opinion
+            - resources
+            - sveltekit
+            - tutorials
   ecosystem:
     description:
     output: true
