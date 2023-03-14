@@ -2,7 +2,7 @@
 title:
 description:
 series:
-image: https://cc-dam.imgix.net/blog/Top-10-SvelteKit-Themes-2023.png
+image:
 date: 
 hide_publish_date: false
 tags:
