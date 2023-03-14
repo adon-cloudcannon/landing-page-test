@@ -10,7 +10,7 @@ collections_config:
         path: .cloudcannon/schemas/author.md
     disable_add_folder: true
     _enabled_editors:
-      - content
+      - data
     icon: face
     filter:
       exclude:
@@ -143,6 +143,8 @@ collections_config:
       exclude:
         - ecosystem.json
     icon: token
+    _enabled_editors:
+      - data
   case-study-quote:
     description: A quote for case studies
     output: false
@@ -154,6 +156,8 @@ collections_config:
       exclude:
         - case-study-quote.json
     icon: format_quote
+    _enabled_editors:
+      - data
     _inputs:
       quote:
         type: textarea
@@ -175,6 +179,8 @@ collections_config:
     filter:
       exclude:
         - case-study-people.json
+    _enabled_editors:
+      - data
     icon: sentiment_satisfied
     _inputs:
       case_study:
@@ -196,6 +202,8 @@ collections_config:
       exclude:
         - events.json
     icon: event
+    _enabled_editors:
+      - data
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true
