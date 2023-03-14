@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Astro CMS you've been waiting for
+            text: The Astro CMS to Manage Your Universe
           styles:
             element: h1
             width: normal
@@ -60,9 +60,10 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your Astro CMS, your whole team can
-              collaborate to create incredibly fast static sites with React,
-              Preact, Vue, and Svelte components — and more!
+              Choose CloudCannon as your Astro CMS for leading developer
+              experience and intuitive editing. Your whole team can collaborate
+              to create incredibly fast static sites with React, Preact, Vue,
+              and Svelte components — and more!
           styles:
             desktop:
               text_alignment:
@@ -145,14 +146,13 @@ content_blocks:
               justify:
                 active: false
                 align: center
-        - _bookshop_name: simple/image
+        - _bookshop_name: simple/video
           content:
-            alt: Editing a page on CloudCannon
-            image: https://cc-dam.imgix.net/ssg-hero-image-2.png
+            title: Demonstration of CloudCannon in action
+            url: https://player.vimeo.com/video/668496650
+            autoplay: true
+            loop: true
           styles:
-            border:
-            rounded:
-            ontop: true
             desktop:
               transform:
                 scale: 1
@@ -165,7 +165,7 @@ content_blocks:
               margin:
                 top: 0
                 left: 0
-                bottom: 120
+                bottom: 0
                 right: 0
               position:
                 top: 0
@@ -207,10 +207,10 @@ content_blocks:
                 active: false
                 align_block: left
               margin:
-                active: true
+                active: false
                 top: 0
                 left: 0
-                bottom: 60
+                bottom: 0
                 right: 0
               position:
                 active: false
