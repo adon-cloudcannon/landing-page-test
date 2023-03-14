@@ -143,7 +143,7 @@ collections_config:
       exclude:
         - ecosystem.json
     icon: token
-  case_study_quote:
+  case-study-quote:
     description: A quote for case studies
     output: false
     path: 'collections/case-study-quote'
@@ -154,7 +154,7 @@ collections_config:
       exclude:
         - case-study-quote.json
     icon: format_quote
-  case_study_people:
+  case-study-people:
     description: A person in a case study who can make quotes
     output: false
     path: 'collections/case-study-people'
@@ -205,7 +205,6 @@ collections_config:
         hidden: true
       pagination:
         hidden: true
-      
   ssg-pages:
     description: SSG Landing Pages
     output: true
