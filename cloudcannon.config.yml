@@ -154,6 +154,17 @@ collections_config:
       exclude:
         - case-study-quote.json
     icon: format_quote
+    _inputs:
+      quote:
+        type: textarea
+      case_study_person:
+        type: select
+        options:
+          values: collections.case-study-people
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
   case-study-people:
     description: A person in a case study who can make quotes
     output: false
