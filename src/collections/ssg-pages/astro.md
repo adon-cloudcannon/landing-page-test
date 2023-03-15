@@ -61,9 +61,11 @@ content_blocks:
           content:
             text_markdown: >-
               Choose CloudCannon as your Astro CMS for leading developer
-              experience and intuitive editing. Your whole team can collaborate
-              to create incredibly fast static sites with React, Preact, Vue,
-              and Svelte components — and more!
+              experience and an intuitive editing interface. No need to
+              compromise with CloudCannon, both editors and developers will be
+              happy. Your whole team can collaborate to create incredibly fast
+              static sites with React, Preact, Vue, and Svelte components — and
+              more!
           styles:
             width: full
             desktop:
@@ -342,7 +344,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with your existing Astro static sites
+      label: Why Choose Astro
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -427,7 +429,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with your existing Astro static sites
+                    text: Why Astro?
                   styles:
                     element: h2
                     width: normal
@@ -464,13 +466,35 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Astro website directly from your
-                      Git repository enabling developers to work together
-                      faster. As for your content team, they won’t need
-                      technical knowledge. From Markdown and HTML to sections
-                      and data files, everything can be updated by content
-                      editors with CloudCannon. Best of all, no one needs to
-                      learn how to use Git.
+                      <a target="_blank" rel="noopener"
+                      href="https://astro.build/">Astro</a> is the all-in-one
+                      framework designed for speed. This open source software
+                      boasts lightning-fast build times! Used by over 100,000
+                      developers and teams around the world, Astro is the
+                      fastest growing static site generator.
+
+
+                      Astro lets you pull your content from anywhere and deploy
+                      everywhere, with your favorite UI components and
+                      libraries. Mix and match a variety of popular frameworks,
+                      React, Preact, Svelte, Vue, SolidJS, AlpineJS, and
+                      Lit.&nbsp;
+
+
+                      You can optimize your website to unlock higher conversion
+                      rates with better SEO, thanks to Astro’s unique <a
+                      target="_blank" rel="noopener"
+                      href="https://docs.astro.build/en/concepts/islands/">zero-JS
+                      frontend architecture</a>. Perfect for any static site
+                      whether it's e-commerce, agencies, marketing, portfolios
+                      or a blog post.
+
+
+                      Astro automatically renders components to HTML at build
+                      time, stripping away all unnecessary JavaScript and
+                      keeping every site fast by default. With partial
+                      hydration, Astro also lets you hydrate individual
+                      interactive components on the page.
                   styles:
                     desktop:
                       text_alignment:
@@ -584,92 +608,15 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Works with your existing Astro static sites
+      label: Why CloudCannon
       blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Faster and easier on Astro
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18915_afi1bb.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-            right:
-              blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with your existing Astro static sites
+                    text: Why CloudCannon?
                   styles:
                     element: h2
                     width: normal
@@ -706,414 +653,27 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Astro website directly from your
-                      Git repository enabling developers to work together
-                      faster. As for your content team, they won’t need
-                      technical knowledge. From Markdown and HTML to sections
-                      and data files, everything can be updated by content
-                      editors with CloudCannon. Best of all, no one needs to
-                      learn how to use Git.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-          styles:
-            desktop:
-              columns:
-                type: fluid-fixed
-                width: 450
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-    styles:
-      background: sea
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 140
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: All together now
-      blocks:
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Faster and easier on Astro
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18915_afi1bb.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    pixel_width:
-                    max_width:
-                    desktop:
-                      visibility:
-                        hide: false
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        bottom: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-            right:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: Why Choose Astro
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: center
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 0
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: something about how great astro is
-                  styles:
-                    width: full
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block: center
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-          styles:
-            desktop:
-              columns:
-                type: fixed-fluid
-                width: 450
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: center
-    styles:
-      background: sea
-      rounded: top
-      size: normal
-      align:
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 130
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: All together now
-      blocks:
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: All together now
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
-                      margin:
-                        active: true
-                        top: 0
-                        bottom: 15
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Build and host the best performing sites on the web.
-                      CloudCannon gives you everything you need to create and
-                      manage your content for your Astro project, all on one
-                      platform.
+                      A visual CMS that gives content teams full autonomy over
+                      your tech stack. Developers push changes directly to Git.
+                      Editors build pages visually using custom components. Your
+                      team stays in sync with a unified workflow.&nbsp;
+
+
+                      Content editors can publish without bugging a developer!
+                      Simply create pages in the visual editor from on-brand
+                      custom components. Share and review changes on a fully
+                      functioning preview site. Publish content live with the
+                      push of a button!
+
+
+                      Developers can focus on building custom components rather
+                      than hand holding editors through changes. Build locally
+                      with your favorite tools and frameworks, then sync changes
+                      to content editors with a Git push.&nbsp;
+
+
+                      CloudCannon is the CMS that keeps both editors and
+                      developers happy!
                   styles:
                     desktop:
                       text_alignment:
@@ -1688,7 +1248,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with your existing Astro static sites
+      label: CloudCannon's Astro CMS
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -1696,9 +1256,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on Astro
+                    alt: An astro site with intuitive editing
                     image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18915_afi1bb.png
+                      https://cc-dam.imgix.net/Landing%20Pages/Astro-site_vdlhol.png
                   styles:
                     border:
                     rounded:
@@ -1773,7 +1333,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with your existing Astro static sites
+                    text: CloudCannon's Astro CMS
                   styles:
                     element: h2
                     width: normal
@@ -1810,13 +1370,25 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Astro website directly from your
-                      Git repository enabling developers to work together
-                      faster. As for your content team, they won’t need
-                      technical knowledge. From Markdown and HTML to sections
-                      and data files, everything can be updated by content
-                      editors with CloudCannon. Best of all, no one needs to
-                      learn how to use Git.
+                      Build and host the best performing sites on the web.
+                      CloudCannon gives you everything you need to create and
+                      manage content for your Astro project, all on one
+                      platform.
+
+
+                      Sync your Astro website directly from your Git repository
+                      enabling developers to work together faster. As for your
+                      content team, they won’t need technical knowledge. From
+                      Markdown and HTML to sections and data files, everything
+                      can be updated by content editors with CloudCannon. Best
+                      of all, no one needs to learn how to use Git.
+
+
+                      Astro’s got the lightning-fast build times and top-notch
+                      developer experience. CloudCannon’s got the power of Git
+                      workflows and easy to use visual editing interface.
+                      Together you’ve got the tools you need to build and edit
+                      top performing static sites!
                   styles:
                     desktop:
                       text_alignment:
@@ -1886,8 +1458,56 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote:
+          styles:
+            background:
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
     styles:
-      background: white
+      background: caramel
       rounded: top
       desktop:
         margin:
@@ -2105,135 +1725,8 @@ content_blocks:
                 left: 0
                 bottom: 0
                 right: 0
-        - _bookshop_name: sections/container
-          content:
-            label: Want to learn more?
-            blocks:
-              - _bookshop_name: sections/two-column
-                content:
-                  left:
-                    blocks:
-                      - _bookshop_name: simple/heading
-                        content:
-                          text: Want to learn more about Astro?
-                        styles:
-                          element: h3
-                          width: normal
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 20
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: big
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: true
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                  right:
-                    blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: >-
-                            https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
-                          text: Astro + CloudCannon Guide
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                styles:
-                  desktop:
-                    columns:
-                      type: split
-                      width: 0
-                      gap: 50
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      v_align: center
-                  tablet:
-                    columns:
-                      active: false
-                      type: split
-                      width: 0
-                      gap: 0
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-                  mobile:
-                    columns:
-                      active: true
-                      type: stacked
-                      width: 0
-                      gap: 0
-                      vertical_gap: 20
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-          styles:
-            background: night
-            rounded: full
-            size: small
-            align: center
-            desktop:
-              margin:
-                top: 100
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                top: 50
-                right: 20
-                bottom: 50
-                left: 20
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: true
-                top: 50
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 30
-                left: 0
     styles:
-      background: caramel
+      background: white
       rounded: top
       desktop:
         margin:
@@ -2274,6 +1767,188 @@ content_blocks:
           left: 0
       size: normal
       align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Learning Resources
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Astro Resources
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 90
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Need help with Astro? Whether it's Astro specific documentation,
+              Astro tutorials, or Astro themes that you're after, CloudCannon's
+              got you covered! Check out these helpful resources and stay tuned
+              for more to come.
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: Documentation
+                link: https://cloudcannon.com/documentation/
+                description: >-
+                  Head over to CloudCannon's documentation site. More than just
+                  a docs site, you'll find helpful guides, product updates, and
+                  support.
+              - image: https://cc-dam.imgix.net/astrocannon.png
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: Astro Starter Guide
+                link: >-
+                  https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
+                description: >-
+                  Check out our Astro tutorial. Get your Astro site set up on
+                  CloudCannon. Making configuration easy so you can focus on
+                  building custom components.
+              - image: https://cc-dam.imgix.net/sendit-hero-browser.png
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: Astro Template
+                link: https://cloudcannon.com/templates/sendit/
+                description: >-
+                  Build your next Astro project with Sendit. CloudCannon's
+                  versatile Astro theme for business websites. Built with
+                  Bootstrap and optimized for editing in CloudCannon. 
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: caramel
+      rounded: none
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
   - _bookshop_name: sections/container
     content:
       label: An entire ecosystem behind you
@@ -2784,206 +2459,6 @@ content_blocks:
                 right: 0
                 bottom: 0
                 left: 0
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: Why should you choose Astro?
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
-                      margin:
-                        active: true
-                        top: 0
-                        bottom: 15
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Astro is a powerful and lightweight static site generator
-                      that lets developers mix and match a variety of popular
-                      frameworks, including React, Preact, Svelte, Vue, SolidJS,
-                      AlpineJS, and Lit.
-
-
-                      Astro automatically renders components to HTML at build
-                      time, stripping away all unnecessary JavaScript and
-                      keeping every site fast by default. With partial
-                      hydration, Astro also lets you hydrate individual
-                      interactive components on the page.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Faster and easier SSG
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Astro-site_vdlhol.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: true
-                        top: 0
-                        left: 0
-                        bottom: 45
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-          styles:
-            desktop:
-              columns:
-                type: split
-                width: 0
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 20
-              vertical_block_alignment:
-                active: false
-                v_align: top
     styles:
       background: white
       rounded: top
