@@ -1783,7 +1783,7 @@ content_blocks:
               text_sizing:
                 text_size: big
               margin:
-                top: 90
+                top: 0
                 bottom: 30
             tablet:
               text_alignment:
@@ -1823,7 +1823,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 0
+                bottom: 30
               block_alignment:
                 align_block: center
             tablet:
@@ -1907,7 +1907,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: caramel
+      background: sea
       rounded: none
       size: normal
       align: none
@@ -1919,9 +1919,9 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          top: 0
+          top: 90
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       tablet:
         margin:
@@ -2370,7 +2370,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: ash
+      background: caramel
       rounded: top
       desktop:
         margin:
