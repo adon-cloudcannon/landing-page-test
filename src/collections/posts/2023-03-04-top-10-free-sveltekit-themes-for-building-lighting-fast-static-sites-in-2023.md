@@ -154,5 +154,3 @@ Qwer is a simply awesome blog starter built with SvelteKit and love.
 And there we have it! Ten open source SvelteKit templates for 2023, covering a range of use cases to take your static website to the next level.
 
 Have we missed your favorite SvelteKit theme? Let us know on [Twitter](https://twitter.com/CloudCannon) or [Mastodon](https://techhub.social/@cloudcannon)!
-
-{% bookshop 'markdown/quote', quote: "asdfasf" %}
