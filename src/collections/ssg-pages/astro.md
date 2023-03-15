@@ -1458,54 +1458,6 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote:
-          styles:
-            background:
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
     styles:
       background: caramel
       rounded: top
@@ -1554,7 +1506,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Level up with CloudCannon
+            text: Intuitive content editing
           styles:
             element: h2
             width: normal
@@ -1895,7 +1847,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 0
+                bottom: 30
             tablet:
               margin:
                 active: false
@@ -1949,6 +1901,291 @@ content_blocks:
           right: 0
           bottom: 0
           left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: Advance your content workflow with Astro on CloudCannon
+      blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: 0
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: true
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+          styles:
+            background: white
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 80
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: true
+                top: 0
+                bottom: 40
+              block_alignment:
+                active: false
+                align_block: left
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+        - _bookshop_name: simple/heading
+          content:
+            text: Advance your content workflow with Astro on CloudCannon
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 60
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: true
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 90
+                bottom: 30
+        - _bookshop_name: simple/steps
+          content:
+            steps:
+              - title: Sync your Astro site
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step-1-sync-8.svg
+              - title: Configure your Astro build
+                description: >-
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step-2-astro.svg
+              - title: Invite your content team to collaborate
+                description: >-
+                  Give your team access to update the content on the site using
+                  our Astro CMS without the help of a developer.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+              - title: Go live with hosting
+                description: >-
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed. Alternatively, bring your
+                  own hosting provider, and CloudCannon will handle it
+                  seamlessly.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step-4-live.svg
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: An entire ecosystem behind you
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Hello World!
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: night
+      rounded: none
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 90
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
   - _bookshop_name: sections/container
     content:
       label: An entire ecosystem behind you
@@ -2179,209 +2416,6 @@ content_blocks:
           top: 90
           right: 0
           bottom: 90
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Advance your content workflow with Astro on CloudCannon
-      blocks:
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: 0
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: true
-                size: 0
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-          styles:
-            background: white
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 80
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: true
-                top: 0
-                bottom: 40
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-        - _bookshop_name: simple/heading
-          content:
-            text: Advance your content workflow with Astro on CloudCannon
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 60
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: true
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 90
-                bottom: 30
-        - _bookshop_name: simple/steps
-          content:
-            steps:
-              - title: Sync your Astro site
-                description: Connect your GitHub, GitLab, or Bitbucket repository.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step-1-sync-8.svg
-              - title: Configure your Astro build
-                description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step-2-astro.svg
-              - title: Invite your content team to collaborate
-                description: >-
-                  Give your team access to update the content on the site using
-                  our Astro CMS without the help of a developer.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
-              - title: Go live with hosting
-                description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed. Alternatively, bring your
-                  own hosting provider, and CloudCannon will handle it
-                  seamlessly.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step-4-live.svg
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: caramel
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 120
           left: 0
       tablet:
         margin:
