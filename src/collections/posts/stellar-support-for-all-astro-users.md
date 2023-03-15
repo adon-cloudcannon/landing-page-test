@@ -23,7 +23,7 @@ seo:
 ---
 *3… 2… 1… Ignition. We have liftoff.*
 
-Another week, another static site generator out of beta support on CloudCannon. But it’s not just any SSG — it’s Astro, the [top-performing](https://astro.build/blog/2023-web-framework-performance-report/) all-in-one web framework designed for speed. With Astro and CloudCannon you can manage your content in your own Git repository and deploy everywhere, while using your favorite UI components and libraries. And the final touch? With CloudCannon your highly performant sites are available for non-technical editors to draft, review, and publish their content.
+Another week, another static site generator out of beta support on CloudCannon. But it’s not just any SSG — it’s Astro, the [top-performing](https://astro.build/blog/2023-web-framework-performance-report/) all-in-one web framework designed for speed. With Astro and CloudCannon you can manage your content in your own Git repository and deploy everywhere, while using your favorite UI components and libraries. And the final touch? With CloudCannon, your highly performant sites are available for non-technical editors to draft, review, and publish their content.
 
 ![](https://cc-dam.imgix.net/astro-launch-hero.png)
 
@@ -50,6 +50,14 @@ We've extended our new theme <a target="_blank" rel="noopener" href="https://clo
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 
 Check out the <a target="_blank" rel="noopener" href="https://top-quail.cloudvent.net/">Sendit demo site</a> to see its potential. You can also <a target="_blank" rel="noopener" href="https://app.cloudcannon.com/#sites/templates/astro/cloudcannon/sendit-astro-template">deploy a new Sendit site with Astro and CloudCannon</a> in one click, and experience the best of our Visual Editor for intuitive page building.
+
+## Thanks to the Astro core team!
+
+We worked closely with members of the Astro core team to reach this milestone release, and it was a really productive process. CloudCannon developer Tate Kennington led the charge on our side, and Astro's concerted \#leanweb approach to building sites with islands architecture and partial hydration for interactivity really won him over.&nbsp;
+
+Here's Tate on Astro — why the tool is such a natural fit for CloudCannon, the steps we took to bring our Astro support out of beta, and his excitement for the future of Astro and CloudCannon features growing alongside each other:
+
+\[video\]
 
 ---
 
