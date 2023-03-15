@@ -1554,7 +1554,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Intuitive content editing
+            text: Level up with CloudCannon
           styles:
             element: h2
             width: normal
