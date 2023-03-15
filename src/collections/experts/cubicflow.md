@@ -53,6 +53,11 @@ slides:
 
       We also created Life Flower’s design systems, branding, and Life Flower’s
       product packaging.
+
+
+      <a target="_blank" rel="noopener"
+      href="wholesale.lifeflowercare.com/shop/">View Life Flower's website
+      &gt;</a>
   - title: Shotbud
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-16-45-am.png
     content_markdown: >-
@@ -61,6 +66,10 @@ slides:
 
 
       We also created Shotbud’s design systems and branding.
+
+
+      <a target="_blank" rel="noopener" href="shotbud.com">View Shotbud's
+      website &gt;</a>
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Croissant & Baguette
 weight: 1
 description: >-
@@ -17,6 +18,12 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-11-23-at-9-37-1-2.png
 logo_image: /images/logos/experts/cb-logo-stacked-black-kayci-scaggs.svg
 location: Sydney, Australia
+links:
+  site_url: https://croissantbaguette.com.au/
+  facebook_url:
+  instagram_url:
+  twitter_url:
+  linkedin_url: https://www.linkedin.com/company/42714056/
 ssg_frameworks:
   - jekyll
   - hugo
@@ -24,12 +31,6 @@ ssg_frameworks:
   - nuxtjs
   - sveltekit
   - astro
-links:
-  site_url: https://croissantbaguette.com.au/
-  facebook_url:
-  instagram_url:
-  twitter_url:
-  linkedin_url: https://www.linkedin.com/company/42714056/
 slides:
   - title: Fiducian
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-21-44-pm.png
@@ -41,6 +42,10 @@ slides:
       We designed and developed a custom drag-and-drop "block format" site to
       allow the internal team to make updates while keeping the design
       integrity. The site scores 99% on GTmetrix despite its massive size.
+
+
+      <a target="_blank" rel="noopener" href="https://www.fiducian.com.au/">View
+      Fiducian's website &gt;</a>
   - title: EdTripper
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-23-40-pm.png
     content_markdown: >-
@@ -51,6 +56,10 @@ slides:
       attractions and tour programs across Australia. The app is inspired by
       Airbnb for the search and map function, and includes user dashboards.
       EdTripper scores a 99% on GTmetrix despite its complexity.
+
+
+      <a target="_blank" rel="noopener" href="https://edtripper.com/">View
+      EdTripper's website &gt;</a>
   - title: Kate Nixon
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-23-56-pm.png
     content_markdown: >-
@@ -60,6 +69,10 @@ slides:
 
       She’s recently re-launched her business with a range of sub-brands and
       needed a clean, welcoming, and modern website to accompany the new launch.
+
+
+      <a target="_blank" rel="noopener" href="https://katenixon.com/">View Kate
+      Nixon's website &gt;</a>
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  
