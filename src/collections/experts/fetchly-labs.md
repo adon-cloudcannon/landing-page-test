@@ -16,7 +16,7 @@ long_description: >-
   and quality assurance.</p><p>Our developers have decades of experience in the
   Web and Mobile, JAMStack, third-party integrations, data driven systems,
   eCommerce, and messaging systems (chat, SMS, email, push notifications).</p>
-website_image: https://cc-dam.imgix.net/Screenshot 2023-03-16 at 9.35.03 AM (1).png
+website_image: https://cc-dam.imgix.net/Screenshot 2023-03-16 at 10.53.54 AM (1).png
 logo_image: /images/logos/experts/group-4.svg
 location: Austin, TX, USA
 links:
