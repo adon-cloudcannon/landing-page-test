@@ -1437,6 +1437,14 @@ content_blocks:
                           text: Try for free
                           link: /https://app.cloudcannon.com/editor
                         styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a demo
+                          link: /https://cloudcannon.com/book-a-demo/
+                        styles:
                           style: outline
                           size: normal
                           extra_classes:
