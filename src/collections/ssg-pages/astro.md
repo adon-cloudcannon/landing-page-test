@@ -1397,7 +1397,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         top: 0
-                        bottom: 0
+                        bottom: 30
                       block_alignment:
                         align_block:
                     tablet:
@@ -1429,6 +1429,40 @@ content_blocks:
                         active: false
                         align_block: left
                     width: full
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Try for free
+                          link: /https://app.cloudcannon.com/editor
+                        styles:
+                          style: outline
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                      justify:
+                        align: start
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: true
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
           styles:
             desktop:
               columns:
