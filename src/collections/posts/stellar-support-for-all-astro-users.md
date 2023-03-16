@@ -7,6 +7,7 @@ description: >-
   own Git repository and deploy everywhere, while using your favorite UI
   components and libraries. What's more, CloudCannon makes your sites available
   for non-technical editors to draft, review, and publish their content.
+draft: false
 series:
 image: https://cc-dam.imgix.net/astro-launch-update.jpg
 date: 2023-03-17T05:00:00Z
@@ -14,7 +15,7 @@ hide_publish_date: false
 tags:
   - Astro
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 seo:
   open_graph_type: article
@@ -53,11 +54,11 @@ Check out the <a target="_blank" rel="noopener" href="https://top-quail.cloudven
 
 ## Thanks to the Astro core team!
 
-We worked closely with members of the Astro core team to reach this milestone release, and it was a really productive process. CloudCannon developer Tate Kennington led the charge on our side, and Astro's concerted \#leanweb approach to building sites with islands architecture and partial hydration for interactivity really won him over.&nbsp;
+We worked closely with members of the Astro core team to reach this milestone release, and it was a really productive process. CloudCannon developer Tate Kennington led the charge on our side, and Astro's concerted \#leanweb approach to building sites with islands architecture and partial hydration for interactivity really won him over.
 
 Here's Tate on Astro — why the tool is such a natural fit for CloudCannon, the steps we took to bring our Astro support out of beta, and his excitement for the future of Astro and CloudCannon features growing alongside each other:
 
-{% bookshop "markdown/youtube" id:"DiB7YZXaQv8" title:"Astro support is now out of beta at CloudCannon" extend:true %}
+{% bookshop &quot;markdown/youtube&quot; id:&quot;DiB7YZXaQv8&quot; title:&quot;Astro support is now out of beta at CloudCannon&quot; extend:true %}
 
 ---
 
