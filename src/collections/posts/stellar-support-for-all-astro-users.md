@@ -10,7 +10,7 @@ description: >-
 draft: false
 series:
 image: https://cc-dam.imgix.net/astro-launch-update.jpg
-date: 2023-03-17T05:00:00Z
+date: 2023-03-16T17:30:00Z
 hide_publish_date: false
 tags:
   - Astro
@@ -58,7 +58,7 @@ We worked closely with members of the Astro core team to reach this milestone re
 
 Here's Tate on Astro — why the tool is such a natural fit for CloudCannon, the steps we took to bring our Astro support out of beta, and his excitement for the future of Astro and CloudCannon features growing alongside each other:
 
-{% bookshop "markdown/youtube" id:"DiB7YZXaQv8" title:"Astro support is now out of beta at CloudCannon" extend:true %}
+{% bookshop &quot;markdown/youtube&quot; id:&quot;DiB7YZXaQv8&quot; title:&quot;Astro support is now out of beta at CloudCannon&quot; extend:true %}
 
 ---
 
