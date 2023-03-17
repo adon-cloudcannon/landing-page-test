@@ -10,7 +10,7 @@ description: >-
 summary: >-
   Bring your own component framework: Astro offers first-class support for
   front-end tools like React, Vue, Svelte, and Tailwind CSS.
-image: /images/icons/ssgs/astro.svg
+image: https://cc-dam.imgix.net/astro-dark.svg
 seo:
   featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
   featured_image_alt: >-
@@ -510,8 +510,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier on Astro
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18915_afi1bb.png
+                    image: https://cc-dam.imgix.net/Group 18945.png
                   styles:
                     border:
                     rounded:
@@ -1469,7 +1468,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-2-astro.svg
+                image: https://cc-dam.imgix.net/Step-2-astro-new.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site using
@@ -1696,8 +1695,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier SSG
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Astro-site_vdlhol.png
+                    image: https://cc-dam.imgix.net/Group 18942.png
                   styles:
                     border:
                     rounded:
