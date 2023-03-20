@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Eleventy
+title: Intuitive Git-based CMS for 11ty
 layout: builder.html
 permalink: /eleventy-cms/
 description: >-

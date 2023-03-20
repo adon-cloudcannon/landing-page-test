@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: SvelteKit
+title: Intuitive Git-based CMS for SvelteKit
 layout: builder.html
 permalink: /sveltekit-cms/
 description: >-

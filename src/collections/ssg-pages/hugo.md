@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Hugo
+title: Intuitive Git-based CMS for Hugo
 layout: builder.html
 permalink: /hugo-cms/
 description: >-

@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Jekyll
+title: Intuitive Git-based CMS for Jekyll
 layout: builder.html
 permalink: /jekyll-cms/
 description: >-

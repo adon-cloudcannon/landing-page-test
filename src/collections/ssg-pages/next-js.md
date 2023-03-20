@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Next.js
+title: Intuitive Git-based CMS for Next.js
 layout: builder.html
 permalink: /nextjs-cms/
 description: >-

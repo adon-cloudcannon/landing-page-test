@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: MkDocs
+title: Intuitive Git-based CMS for MkDocs
 layout: builder.html
 permalink: /mkdocs-cms/
 description: >-
