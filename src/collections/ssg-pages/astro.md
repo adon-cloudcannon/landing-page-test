@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Astro
+title: Git-based CMS for Astro
 layout: builder.html
 permalink: /astro-cms/
 description: >-
