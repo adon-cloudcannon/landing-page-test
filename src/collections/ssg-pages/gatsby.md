@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Intuitive Git-based CMS for Gatsby
+title: The Most Intuitive CMS for Gatsby
 layout: builder.html
 permalink: /gatsby-cms/
 description: >-
