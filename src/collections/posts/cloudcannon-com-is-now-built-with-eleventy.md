@@ -2,11 +2,11 @@
 _schema: default
 title: CloudCannon.com is now built with Eleventy
 description: >-
-  CloudCannon.com officially switched our site over to our Eleventy repository
-  just two weeks ago. Thanks to careful design and development decisions, both
-  our build speed and page load speed have dramatically improved,  our
-  Lighthouse scores for the homepage are perfect 100s across the board, and
-  we’re inching closer to full SEO optimization by default.
+  CloudCannon.com officially switched our website over to build from an Eleventy
+  repository, and the results with this static site generator have been amazing.
+  Our core web vitals, build speeds and page load speeds have all dramatically
+  improved, our Lighthouse scores for the homepage are perfect 100s across the
+  board, and we’re inching closer to full SEO optimization by default. 
 draft: true
 series:
 image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
@@ -58,9 +58,9 @@ We use an S3 bucket for our asset management, and with [Imgix](https://imgix.com
 
 ### Performance: Jampack
 
-Eleventy handles performance well by default, and we’ve leaned into its default optimization strategies, but a tool like Div/Riots’ <a target="_blank" rel="noopener" href="https://jampack.divriots.com/">Jampack</a> also helped to push our Core Web Vitals in the right direction. Jampack is particularly good at optimizing above the fold, and we’ve used their tag `&lt;the-fold&gt;` to indicate where that should sit. (We’ve even built that tag into a simple Bookshop component, so content editors can set the fold without dipping into HTML.)
+Eleventy handles performance well by default, and we’ve leaned into its default optimization strategies, but a tool like Div/Riots’ <a target="_blank" rel="noopener" href="https://jampack.divriots.com/">Jampack</a> also helped to push our Core Web Vitals in the right direction. Jampack is particularly good at optimizing above the fold, and we’ve used their tag `<the-fold>`&nbsp;to indicate where that should sit. (We’ve even built that tag into a simple Bookshop component, so content editors can set the fold without dipping into HTML.)
 
-Adding Jampack to our build was easy — with CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/">build hooks</a>, adding ``\[\[ -n $RUN\_JAMPACK \]\]` to our production postbuild file was a simple one-line addition for a lot of potential gains.
+Adding Jampack to our build was easy — with CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/">build hooks</a>, adding Jampack to our production postbuild file was a simple one-line addition for a lot of potential gains.
 
 ### Site search: Pagefind
 
@@ -70,7 +70,7 @@ It’s probably no surprise that we use our own open-source search tool, <a targ
 
 ### Blogging
 
-Eleventy’s flexible enough that it’ll fit in with anyone’s blogging habits. Since we often schedule our posts and have multiple drafts on the go, we added a few lines of JavaScript logic to our posts/posts.11tydata.js file to ensure we could keep our drafts unpublished, and publish our new posts exactly when we want to.
+Eleventy’s flexible enough that it’ll fit in with anyone’s blogging habits. Since we often schedule our posts and have multiple drafts on the go, we added a few lines of JavaScript logic to our `posts/posts.11tydata.js` file to ensure we could keep our drafts unpublished, and publish our new posts exactly when we want to.
 
 Personally, I almost always use CloudCannon’s Content Editor to draft my posts — as a rich text editor for Markdown files, it’s ideal for writing in a clean and intuitive interface. For shorter posts that rely more heavily on images or videos, I’d switch over to the Visual Editor, where I can see the full context of the page as it would appear to a reader.
 
@@ -115,10 +115,10 @@ When it comes to our CWV — the measurements that make up the Lighthouse catego
 
 ![](https://cc-dam.imgix.net/cloudcannon-core-web-vitals.png)
 
-While we’re always looking for ways to improve theses scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from Imagix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
+While we’re always looking for ways to improve theses scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from Imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
 
 ---
 
-*As CloudCannon’s CMS has grown over the past ten years, we’ve added full support for many SSGs — Jekyll, Eleventy, Hugo, SvelteKit, Gatsby, Next.js, and most recently Astro, with more on the way over the coming months. In all honesty, we could have worked with any of the above generators, and had the same great editing experience alongside excellent site performance.*
+*As CloudCannon’s CMS has grown over the past ten years, we’ve added full support for many SSGs — <a target="_blank" rel="noopener" href="https://cloudcannon.com/jekyll-cms/">Jekyll</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/hugo-cms/">Hugo</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/sveltekit-cms/">SvelteKit</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/gatsby-cms/">Gatsby</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/nextjs-cms/">Next.js</a>, and most recently <a target="_blank" rel="noopener" href="https://cloudcannon.com/astro-cms/">Astro</a>, with more on the way over the coming months. In all honesty, we could have worked with any of the above generators, and had the same great editing experience alongside excellent site performance.*
 
 *Do you have any questions about bringing your static sites to CloudCannon, or need a little help with migration or configuration? Feel free to&nbsp;**[book a demo call](https://cloudcannon.com/book-a-demo/)**, take a look at our&nbsp;**[documentation](https://cloudcannon.com/documentation/)**, or&nbsp;**[get in touch with our support team](https://cloudcannon.com/support/)**.*
