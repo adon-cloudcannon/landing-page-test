@@ -145,25 +145,25 @@ collections_config:
         type: multiselect
         options:
           values:
-            - agencies
-            - astro
-            - beginner
-            - bridgetown
-            - cheat-sheet
-            - company
-            - eleventy
-            - experts
-            - features
-            - gatsby
-            - hugo
-            - jekyll
-            - mkdocs
-            - next-js
-            - nuxt-js
-            - opinion
-            - resources
-            - sveltekit
-            - tutorials
+            - Agencies
+            - Astro
+            - Beginner
+            - Bridgetown
+            - Cheat-sheet
+            - Company
+            - Eleventy
+            - Experts
+            - Features
+            - Gatsby
+            - Hugo
+            - Jekyll
+            - Mkdocs
+            - Next-js
+            - Nuxt-js
+            - Opinion
+            - Resources
+            - Sveltekit
+            - Tutorials
   ecosystem:
     description:
     output: true
