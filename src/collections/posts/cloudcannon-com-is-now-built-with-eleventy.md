@@ -80,9 +80,11 @@ This is the magical part, in my view. Thanks to [Bookshop](https://github.com/Cl
 
 Here's our Marketing Manager Olivia Nicholson, discussing what she looks for in a performant site, and why Eleventy works for her:&nbsp;&nbsp;
 
+{% bookshop "markdown/youtube" id:"ynn1xMfvgDo" title:"CloudCannon.com is now built with Eleventy!" extend:true %}
+
 ### CloudCannon.com’s publishing workflows
 
-We use CloudCannon’s Projects feature to control our publishing workflow. In brief, it’s set up like so:
+We use CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/enabling-editor-branching-with-projects/">Projects</a> feature to control our publishing workflow. In brief, it’s set up like so:
 
 `main` &lt;— `staging` &lt;— `branches`
 
