@@ -6,7 +6,7 @@ description: >-
   just two weeks ago. Thanks to careful design and development decisions, both
   our build speed and page load speed have dramatically improved, our Lighthouse
   scores for the homepage are perfect 100s across the board, and we’re inching
-  closer and closer to full SEO optimization by default.
+  closer to full SEO optimization by default.
 draft: true
 series:
 image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
