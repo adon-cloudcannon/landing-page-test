@@ -4,9 +4,9 @@ title: CloudCannon.com is now built with Eleventy
 description: >-
   CloudCannon.com officially switched our site over to our Eleventy repository
   just two weeks ago. Thanks to careful design and development decisions, both
-  our build speed and page load speed have dramatically improved, our Lighthouse
-  scores for the homepage are perfect 100s across the board, and we’re inching
-  closer to full SEO optimization by default.
+  our build speed and page load speed have dramatically improved,  our
+  Lighthouse scores for the homepage are perfect 100s across the board, and
+  we’re inching closer to full SEO optimization by default.
 draft: true
 series:
 image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
