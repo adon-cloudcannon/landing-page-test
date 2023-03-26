@@ -92,6 +92,8 @@ When we want to draft new content for the site, or edit existing content, we bra
 
 I also spoke with some of the CloudCannon dev team who helped put the site together — Alysha Nolan, Tiaan Fairchild, and Mike Neumegen. Here’s their take on the different elements of our stack, and what makes Eleventy such a great static site generator:
 
+{% bookshop "markdown/youtube" id:"ynn1xMfvgDo" title:"CloudCannon.com is now built with Eleventy!" extend:true %}
+
 ## And finally, some stats
 
 ### Lighthouse
