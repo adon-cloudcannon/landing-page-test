@@ -34,7 +34,7 @@ But how did we get there?
 
 ## Design
 
-Our goal with the new CloudCannon website design was simple: craft a journey for prospective users that was clear, concise, and to the point. To do this we partnered with our friends at <a target="_blank" rel="noopener" href="https://staticmania.com">Static Mania</a> to design a site that’s clean, uses white space effectively across a range of device types, and ensures the layout is easy to navigate.&nbsp;
+Our goal with the new CloudCannon website design was simple: craft a journey for prospective users that was clear, concise, and to the point. To do this we partnered with our friends at <a target="_blank" rel="noopener" href="https://staticmania.com">Static Mania</a> to jointly design a site that’s clean, uses white space effectively across a range of device types, and ensures the layout is easy to navigate.&nbsp;
 
 ![](https://cc-dam.imgix.net/developer-hero+%281%29.png)
 
