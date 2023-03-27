@@ -82,7 +82,7 @@ This is the magical part, in my view. Thanks to [Bookshop](https://github.com/Cl
 
 Here's our Marketing Manager Olivia Nicholson, discussing what she looks for in a performant site, and why Eleventy works for her:&nbsp;&nbsp;
 
-{% bookshop "markdown/youtube" id:"ynn1xMfvgDo" title:"CloudCannon.com is now built with Eleventy!" extend:true %}
+{% bookshop "markdown/youtube" id:"uB3-l0atPok" title:"CloudCannon.com on Eleventy — The Marketing Point of View" extend:true %}
 
 ### CloudCannon.com’s publishing workflows
 
