@@ -72,15 +72,17 @@ It’s probably no surprise that we use our own open-source search tool, <a targ
 
 ### Blogging
 
-Eleventy’s flexible enough that it’ll fit in with anyone’s blogging habits. Since we often schedule our posts and have multiple drafts on the go, we added a few lines of JavaScript logic to our `posts/posts.11tydata.js` file to ensure we could keep our drafts unpublished, and publish our new posts exactly when we want to.
+Eleventy makes blogging flexible enough that it’ll fit in with anyone’s writing habits. Since we often schedule our posts and have multiple drafts on the go, we added a few lines of JavaScript logic to our `posts/posts.11tydata.js` file to ensure we could keep our drafts unpublished, and publish our new posts exactly when we want to.
 
 Personally, I almost always use CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/introducing-the-content-editor/">Content Editor</a> to draft my posts — as a rich text editor for Markdown files, it’s ideal for writing in a clean and intuitive interface. For shorter posts that rely more heavily on images or videos, I’d switch over to the live <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/introducing-the-visual-editor/">Visual Editor</a>, where I can see the full context of the page as it would appear to a reader.
+
+I make a lot of use of Eleventy's shortcodes while blogging, as well. Eleventy supports Nunjucks, Liquid, Handlebars, and JavaScript shortcodes, but with Bookshop we've pulled all of our shortcodes into our global `cloudcannon.config.yml` file instead of Eleventy's `.eleventy.js` file, so I can add them to my posts with a single click. This isn't an essential step, but keeping editing and build features in separate config files means future developers will always know where to find them.
 
 ### Page building
 
 This is the magical part, in my view. Thanks to [Bookshop](https://github.com/CloudCannon/bookshop), pages on [CloudCannon.com](http://CloudCannon.com) are based on a ‘container’ component, which can hold content blocks like headings, Markdown text, images, videos — anything you’d conceivably need to add to a webpage. And because we can use the Visual Editor to edit our pages and nest container components, as well as to select device-specific images, layouts, spacing, margin, and padding attributes, we’re able to turn out pretty complex pages within just a few minutes.
 
-Here's our Marketing Manager Olivia Nicholson, discussing what she looks for in a performant site, and why Eleventy works for her:&nbsp;&nbsp;
+Here's our Marketing Manager Olivia Nicholson, discussing what she looks for in a performant site, and why page building with Eleventy works for her:&nbsp;&nbsp;
 
 {% bookshop "markdown/youtube" id:"uB3-l0atPok" title:"CloudCannon.com on Eleventy — The Marketing Point of View" extend:true %}
 
