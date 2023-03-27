@@ -22,7 +22,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
   featured_image_alt: Graphic of CloudCannon homepage and Eleventy SSG logo
 ---
-CloudCannon.com is now built with Eleventy!
+CloudCannon.com is now <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">built with Eleventy</a>!
 
 We’re big fans of Eleventy for a host of reasons — including its build speed, its focus on making lean websites, and its flexibility and overall developer experience — and moving over to full Eleventy builds on our own site has been something I’ve looked forward to since I started experimenting with the SSG more than a year ago.
 
@@ -34,9 +34,11 @@ But how did we get there?
 
 ## Design
 
-Our goal with the new CloudCannon website design was simple: craft a journey for prospective users that was clear, concise, and to the point. To do this we partnered with our friends at <a target="_blank" rel="noopener" href="https://staticmania.com">Static Mania</a> to design a site that’s clean, uses white space effectively across a range of device types, and ensures the layout is easy to navigate. We also updated our color palette to bring in a range of new, bright colours to reflect our energy and excitement for what we do.
+Our goal with the new CloudCannon website design was simple: craft a journey for prospective users that was clear, concise, and to the point. To do this we partnered with our friends at <a target="_blank" rel="noopener" href="https://staticmania.com">Static Mania</a> to design a site that’s clean, uses white space effectively across a range of device types, and ensures the layout is easy to navigate.&nbsp;
 
-Ultimately, showcasing the CMS is still our main goal, so we’ve also added brand new illustrations that not only give the users an idea of what our app looks like, but also shows them the processes behind it. We want our prospective users to feel confident they know what they’re getting when they choose CloudCannon as a CMS.
+![](https://cc-dam.imgix.net/developer-hero+%281%29.png)
+
+Ultimately, showcasing the CMS is still our main goal, so we’ve also added new illustrations that not only give users an idea of what our app looks like, but also shows them the processes behind it. We want our prospective users to feel confident they know what they’re getting when they choose CloudCannon as a CMS.
 
 ## Development
 
