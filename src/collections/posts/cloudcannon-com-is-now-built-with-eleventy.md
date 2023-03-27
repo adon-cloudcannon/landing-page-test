@@ -123,7 +123,7 @@ When it comes to our CWV — the measurements that make up the Lighthouse catego
 
 ![](https://cc-dam.imgix.net/cloudcannon-core-web-vitals.png)
 
-While we’re always looking for ways to improve theses scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from Imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
+While we’re always looking for ways to improve these scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from Imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
 
 ---
 
