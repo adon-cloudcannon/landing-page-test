@@ -1,13 +1,13 @@
 ---
 _schema: default
-title: CloudCannon.com is now built with Eleventy
+title: CloudCannon.com is now built with Eleventy!
 description: >-
   CloudCannon.com officially switched our website over to build with Eleventy,
   and the results with this static site generator have been amazing. Our core
   web vitals, build speeds and page load speeds have all dramatically improved,
   our Lighthouse scores for the homepage are perfect 100s across the board, and
   we’re inching closer to full SEO optimization by default. 
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
 date: 2023-03-27T16:00:00Z
