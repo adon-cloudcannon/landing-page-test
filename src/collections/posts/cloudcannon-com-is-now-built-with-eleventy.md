@@ -2,11 +2,11 @@
 _schema: default
 title: CloudCannon.com is now built with Eleventy
 description: >-
-  CloudCannon.com officially switched our website over to build from an Eleventy
-  repository, and the results with this static site generator have been amazing.
-  Our core web vitals, build speeds and page load speeds have all dramatically
-  improved, our Lighthouse scores for the homepage are perfect 100s across the
-  board, and we’re inching closer to full SEO optimization by default. 
+  CloudCannon.com officially switched our website over to build with Eleventy,
+  and the results with this static site generator have been amazing. Our core
+  web vitals, build speeds and page load speeds have all dramatically improved,
+  our Lighthouse scores for the homepage are perfect 100s across the board, and
+  we’re inching closer to full SEO optimization by default. 
 draft: true
 series:
 image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
@@ -80,9 +80,9 @@ I make a lot of use of Eleventy's shortcodes while blogging, as well. Eleventy s
 
 ### Page building
 
-This is the magical part, in my view. Thanks to [Bookshop](https://github.com/CloudCannon/bookshop), pages on [CloudCannon.com](http://CloudCannon.com) are based on a ‘container’ component, which can hold content blocks like headings, Markdown text, images, videos — anything you’d conceivably need to add to a webpage. And because we can use the Visual Editor to edit our pages and nest container components, as well as to select device-specific images, layouts, spacing, margin, and padding attributes, we’re able to turn out pretty complex pages within just a few minutes.
+This is the magical part, in my view. Thanks to [Bookshop](https://github.com/CloudCannon/bookshop), pages on [CloudCannon.com](http://CloudCannon.com) are based on a ‘container’ component, which can hold content blocks like headings, Markdown text, images, videos — anything you’d conceivably need to add to a webpage. And because we can use the Visual Editor to edit our pages and nest container components, as well as to select device-specific images, layouts, spacing, margin, and padding attributes, we’re able to turn out quite complex pages within just a few minutes.
 
-Here's our Marketing Manager Olivia Nicholson, discussing what she looks for in a performant site, and why page building with Eleventy works for her:&nbsp;&nbsp;
+Here's our Marketing Manager Olivia Nicholson, discussing what she looks for in a performant site, and why page building with Eleventy is the right workflow for her:&nbsp;&nbsp;
 
 {% bookshop "markdown/youtube" id:"uB3-l0atPok" title:"CloudCannon.com on Eleventy — The Marketing Point of View" extend:true %}
 
@@ -104,7 +104,7 @@ I also spoke with some of the CloudCannon dev team who helped put the site toget
 
 ### Lighthouse
 
-Google’s [PageSpeed Insights](https://pagespeed.web.dev/) offers several helpful indicators of site performance. If you’re interested, I wrote about static sites and page weight in a [previous post](https://cloudcannon.com/blog/does-my-website-look-big-in-this-six-tips-to-lower-your-page-weight/), with six actionable tips to improve your own site performance metrics.
+Google’s [PageSpeed Insights](https://pagespeed.web.dev/) offers several helpful indicators of site performance. (If you’re interested, I wrote about static sites and page weight in a [previous post](https://cloudcannon.com/blog/does-my-website-look-big-in-this-six-tips-to-lower-your-page-weight/), with six actionable tips to improve your own site performance metrics.)
 
 Lighthouse scores are generally used to diagnose performance issues, across the categories Performance, Accessibility, Best Practices, and SEO. We’re currently sitting pretty at 100 across the board for desktop users — proof positive that Eleventy and CloudCannon, together with the rest of our new stack, make for excellent performance.
 
@@ -123,7 +123,7 @@ When it comes to our CWV — the measurements that make up the Lighthouse catego
 
 ![](https://cc-dam.imgix.net/cloudcannon-core-web-vitals.png)
 
-While we’re always looking for ways to improve theses scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from Imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
+While we’ll always be looking for ways to improve theses scores, we can already attribute them to a range of factors: static generation and optimization from Eleventy, image processing from Imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
 
 ---
 
