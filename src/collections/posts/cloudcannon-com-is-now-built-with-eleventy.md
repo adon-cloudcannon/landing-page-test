@@ -21,17 +21,6 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
   featured_image_alt: Graphic of CloudCannon homepage and Eleventy SSG logo
-cta:
-  title:
-  content:
-  button:
-    content:
-      link: https://app.cloudcannon.com/register?trial=cc_standard
-      text: Get started free!
-    styles:
-      size:
-      style: outline
-      extra_classes:
 ---
 CloudCannon.com is now <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">built with Eleventy</a>!
 
