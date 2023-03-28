@@ -55,10 +55,6 @@ collections_config:
         options:
           syntax: html
     _structures:
-      blocks:
-        style: modal
-      content_blocks: 
-        style: modal
       slides:
         values:
         - label: Slide
@@ -321,6 +317,12 @@ collections_config:
           preview:
             text: 
             - key: name
+
+_structures:
+  blocks:
+    style: modal
+  content_blocks: 
+    style: modal
 
 _inputs:
   layout:
