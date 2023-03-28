@@ -21,6 +21,17 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
   featured_image_alt: Graphic of CloudCannon homepage and Eleventy SSG logo
+cta:
+  title:
+  content:
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
 ---
 CloudCannon.com is now <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">built with Eleventy</a>!
 
@@ -54,9 +65,9 @@ The main advantages of <a target="_blank" rel="noopener" href="https://www.11ty.
 
 <a target="_blank" rel="noopener" href="https://tailwindcss.com/">Tailwind</a> has a lot of advantages to it — including the ability to code CSS without leaving HTML, customizability, responsiveness, and a small file size — but the main drawcards for us were reinforcing consistency across our development team with standardized classes, and ensuring that new devs joining our team will find everything in the CloudCannon.com codebase readable. (And Tailwind’s amazing documentation helps, too!)
 
-### Asset management: S3 and Imgix
+### Asset management: S3 and imgix
 
-We use an S3 bucket for our asset management, and with [Imgix](https://imgix.com/) in front of it, all our content editors need to do is upload a high-resolution image directly through the CloudCannon interface. Imgix takes care of everything else — optimizing, resizing, rendering, and serving the right image size and type for the user’s device. As far as workflows for site editors go, it’s ideal for us.
+We use an S3 bucket for our asset management, and with [imgix](https://imgix.com/) in front of it, all our content editors need to do is upload a high-resolution image directly through the CloudCannon interface. Luckily for us, imgix takes care of everything else — optimizing, resizing, rendering, and serving the right image size and type for the user’s device. As far as workflows for site editors go, it’s ideal.
 
 ### Performance: Jampack
 
@@ -123,7 +134,7 @@ When it comes to our CWV — the measurements that make up the Lighthouse catego
 
 ![](https://cc-dam.imgix.net/cloudcannon-core-web-vitals.png)
 
-While we’re always looking for ways to improve these scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from Imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
+While we’re always looking for ways to improve these scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
 
 ---
 
