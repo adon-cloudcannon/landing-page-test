@@ -49,11 +49,11 @@ layout: page.html
 		</div>
 	</div>
 
-	{% if cta %}
+	{% if post.data.cta %}
 		<div class="border-2 my-10 rounded-xl pt-6 pb-8 md:pt-12 md:pb-16 px-10">
-			<h3 class="font-bold text-3xl md:text-5xl text-center">{{ cta.title }}</h3>
-			<p class="text-center text-base md:text-xl mt-3 mb-5 md:mt-6 md:mb-10">{{ cta.body_text }}</p>
-			<p class="text-center">{% bookshop "simple/button" bind: cta.button %}</p>
+			<h3 class="font-bold text-3xl md:text-5xl text-center">{{ post.data.cta.title }}</h3>
+			<p class="text-center text-base md:text-xl mt-3 mb-5 md:mt-6 md:mb-10">{{ post.data.cta.body_text }}</p>
+			<p class="text-center">{% bookshop "simple/button" bind: post.data.cta.button %}</p>
 		</div>
 	{% endif %}
 
