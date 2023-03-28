@@ -13,15 +13,4 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-cta:
-  title:
-  content:
-  button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
-    styles:
-      size:
-      style: "outline"
-      extra_classes:
 ---

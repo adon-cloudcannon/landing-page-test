@@ -59,20 +59,11 @@ default_cta:
 	</div>
 
 	
-	{% if cta %}
-	<div class="border-2 my-10 rounded-xl pt-6 pb-8 md:pt-12 md:pb-16 px-10">
-		<h3 class="font-bold text-3xl md:text-5xl text-center">{{ cta.title }}</h3>
-		<p class="text-center text-base md:text-xl mt-3 mb-5 md:mt-6 md:mb-10">{{ cta.content }}</p>
-		<p class="text-center">{% bookshop "simple/button" bind: cta.button %}</p>
-	</div>
-
-	{% else % }
 	<div class="border-2 my-10 rounded-xl pt-6 pb-8 md:pt-12 md:pb-16 px-10">
 		<h3 class="font-bold text-3xl md:text-5xl text-center">Launch your website today</h3>
 		<p class="text-center text-base md:text-xl mt-3 mb-5 md:mt-6 md:mb-10">Give your content team full autonomy on your developer-approved tech stack with CloudCannon.</p>
 		<p class="text-center">{% bookshop "simple/button" bind: default_cta.button %}</p>
 	</div>
-	{% endif %}
 
 	<h3 class="font-bold text-4xl mb-8">You might also like:</h3>
 	<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
