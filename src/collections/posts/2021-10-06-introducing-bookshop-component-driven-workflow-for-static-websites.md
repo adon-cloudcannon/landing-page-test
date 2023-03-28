@@ -4,6 +4,17 @@ description: >-
   Introducing Bookshop: an open-source framework to speed up development and
   reduce maintenance on static websites by developing components in isolation.
 permalink: /blog/introducing-bookshop/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

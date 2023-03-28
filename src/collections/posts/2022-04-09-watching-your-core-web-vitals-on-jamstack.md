@@ -2,6 +2,17 @@
 title: Watching your Core Web Vitals on Jamstack
 description: "Three major metrics —\_Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift —\_measure a site’s loading time, time to interactivity, and visual stability. Luckily for you, Jamstack sites (including those created with CloudCannon) are perfectly placed to achieve high scores."
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

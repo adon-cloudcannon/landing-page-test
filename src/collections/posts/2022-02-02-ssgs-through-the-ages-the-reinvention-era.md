@@ -5,6 +5,17 @@ description: >-
   static site generators challenging some of Jekyll's underlying foundations.
 series: SSGs through the ages
 permalink: /blog/ssg-history-3-reinvention/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

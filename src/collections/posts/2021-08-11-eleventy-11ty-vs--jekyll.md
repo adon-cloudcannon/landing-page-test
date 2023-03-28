@@ -5,6 +5,17 @@ description: >-
   Eleventy (11ty). They’re both fully compatible with CloudCannon’s Git-based
   CMS, and both are ideal for marketing sites (such as this one, built with
   Jekyll), as well as documentation and blogs.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

@@ -17,6 +17,17 @@ tags:
   - Company
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg

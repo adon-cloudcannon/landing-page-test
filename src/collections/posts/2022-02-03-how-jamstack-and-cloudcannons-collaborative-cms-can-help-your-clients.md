@@ -2,6 +2,17 @@
 title: How to pitch a Jamstack website to your clients
 description: "So you're pitching a Jamstack project\_to a prospective client. What are they worried about? And how can you help convince them that static sites are the way of the future? "
 permalink: /blog/how-to-pitch-a-jamstack-website-to-clients/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

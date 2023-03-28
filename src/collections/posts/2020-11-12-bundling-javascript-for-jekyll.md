@@ -7,6 +7,17 @@ date: 2020-11-12T13:00:00+1300
 author: 48beee1b-cdfc-49fd-b83b-29eb8d1e95f3
 tags:
   - Jekyll
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

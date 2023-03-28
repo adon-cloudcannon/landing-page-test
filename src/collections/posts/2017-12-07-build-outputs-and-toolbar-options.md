@@ -4,6 +4,17 @@ date: 2017-12-07T01:26:00.000Z
 author: 68fdf39d-de6e-4729-8747-1bf901498c5c
 tags:
   - Features
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

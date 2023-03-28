@@ -6,6 +6,17 @@ description: >-
   a very close look at what’s possible — for you and your customers — when you
   combine Hugo, Bookshop, and CloudCannon's Git-based CMS.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

@@ -3,6 +3,17 @@ title: The 'Let's Recreate Rails' era
 description: "The sixth part of an ongoing series: In 2019, developers of static site generators ask the inevitable question —\_why don't we create full-stack applications in one framework?"
 series: SSGs through the ages
 permalink: /blog/ssg-history-6-lets-recreate-rails/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

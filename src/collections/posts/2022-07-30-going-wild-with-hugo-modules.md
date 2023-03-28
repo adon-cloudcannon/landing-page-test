@@ -4,6 +4,17 @@ description: >-
   The Nuance Technical Publications team recently moved to Hugo, and discovered
   that Hugo modules solve many of their consistency and standardization needs. 
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

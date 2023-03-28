@@ -4,6 +4,17 @@ description: >-
   Jekyll and Hugo are great static site generators for creating lean Jamstack
   content. To help you make the right choice, we look at how they compare.
 date: 2021-03-04T13:00:00+1300
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
