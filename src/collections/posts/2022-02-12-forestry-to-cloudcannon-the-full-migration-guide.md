@@ -42,7 +42,7 @@ CloudCannon shares many similarities with Forestry, making for an easy transitio
 
 Forestry had a feature set that made it a great platform for empowering content editors to update content on Jamstack websites. To get a full picture of an alternative to Forestry, we’ll look at how CloudCannon compares to Forestry on a feature-by-feature basis:
 
-### Git provider support=
+### Git provider support
 
 Both Forestry.io and CloudCannon are Git-based CMSs and support the major Git providers and Git LFS. In addition to committing content changes back to the Git repository, CloudCannon also supports workflows for content editors to branch, merge, and open Pull Requests allowing for tight collaboration with developers.
 
