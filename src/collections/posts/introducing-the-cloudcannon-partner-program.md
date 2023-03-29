@@ -19,11 +19,8 @@ permalink: /blog/{{ title | slugify }}/
 cta:
   title: Join the Partner Program
   body_text: >-
-    Offer your clients a complete CMS solution while maintaining the visibility
-    and control you need to manage their websites effectively. As you bring on
-    new clients, you'll unlock exclusive benefits and savings for you and your
-    clients.Give your content team full autonomy on your developer-approved tech
-    stack with CloudCannon.
+    Offer your clients a complete CMS solution. As you bring on new clients,
+    you'll unlock exclusive benefits and savings.
   button:
     content:
       link: https://cloudcannon.com/partner-program/#partner-signup
