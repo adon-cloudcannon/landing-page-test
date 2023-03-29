@@ -7,6 +7,7 @@ description: >-
   feedback, we’ve made a number of refinements that will make for a more
   polished experience. We're releasing the new version of CloudCannon Beta to
   all users, available now.
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-update-interface-hero.jpg
 date: 2023-02-08T16:02:00Z
@@ -19,14 +20,16 @@ author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 permalink: /blog/upcoming-cloudcannon-interface-improvements/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article

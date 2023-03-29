@@ -7,7 +7,7 @@ description: >-
   CloudCannon, with the same quality developer and editor tooling that we offer
   users of other major static site generators like Eleventy, Hugo, SvelteKit,
   and Jekyll.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-nextjs-launch-min.jpg
 date: 2023-02-15T16:02:00Z

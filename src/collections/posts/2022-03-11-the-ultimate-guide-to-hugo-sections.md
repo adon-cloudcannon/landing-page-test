@@ -1,28 +1,34 @@
 ---
+_schema: default
 title: The Ultimate Guide to Hugo Sections
 description: "Everything you've always wanted to know about how Hugo's sections and page bundles work. (Including the  “_index.md\_or\_index.md” question!)"
+draft: true
 series:
+image: https://cc-dam.imgix.net/hugo-sections.jpg
+date: 2022-03-10T16:00:00Z
+hide_publish_date: false
+tags:
+  - Hugo
+  - Resources
+author: 7abe9500-0933-48af-9130-87389dc36c9b
+permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/hugo-sections.jpg
-date: 2022-03-11T05:00:00+1300
-tags:
-  - Hugo
-  - Resources
-author: 7abe9500-0933-48af-9130-87389dc36c9b
 ---
 Because URLs ideally [should never change](https://www.w3.org/Provider/Style/URI), one of the critical steps in your early planning for a website project must be to decide on the site’s structure. Additionally, if you’re converting an existing website to a different platform, you must make such decisions while also respecting the site’s current URLs. Sure, redirects are possible if needed, but their use should be a last resort.
 

@@ -5,7 +5,7 @@ description: >-
   The best 10 open source SvelteKit templates optimized for SEO,
   user-experience, and performance, making it easier than ever to build
   lightning-fast static sites in 2023.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/Top-10-SvelteKit-Themes-2023.png
 date: 2023-03-03T16:02:00Z
