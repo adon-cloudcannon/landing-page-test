@@ -5,6 +5,7 @@ description: >-
   The best 10 open source SvelteKit templates optimized for SEO,
   user-experience, and performance, making it easier than ever to build
   lightning-fast static sites in 2023.
+draft: true
 series:
 image: https://cc-dam.imgix.net/blog/Top-10-SvelteKit-Themes-2023.png
 date: 2023-03-03T16:02:00Z
@@ -15,15 +16,17 @@ tags:
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  title: Launch your SvelteKit website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article

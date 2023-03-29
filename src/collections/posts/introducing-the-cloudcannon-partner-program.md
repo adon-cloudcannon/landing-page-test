@@ -1,12 +1,12 @@
 ---
 _schema: default
 title: Introducing the CloudCannon Partner Program
-draft: false
 description: >-
   Do you build client websites using a static site generator? Find out more
   about the CloudCannon Partner Program — you can access exclusive Partner
   benefits, support and savings, keep all your clients happy, and make your life
   easier.
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
 date: 2023-03-11T05:00:00Z
@@ -17,15 +17,20 @@ tags:
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  title: Join the Partner Program
+  body_text: >-
+    Offer your clients a complete CMS solution while maintaining the visibility
+    and control you need to manage their websites effectively. As you bring on
+    new clients, you'll unlock exclusive benefits and savings for you and your
+    clients.Give your content team full autonomy on your developer-approved tech
+    stack with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://cloudcannon.com/partner-program/#partner-signup
+      text: Join now
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article

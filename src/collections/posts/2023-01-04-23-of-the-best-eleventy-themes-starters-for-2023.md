@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: 23 of the best Eleventy Themes (Starters) for 2023
 description: >-
   There's a huge range of free starter themes available for the Eleventy static
@@ -6,15 +7,33 @@ description: >-
   setups with multiple templates, layouts, and preinstalled plugins. Let's
   explore 23 popular, new, and niche Eleventy themes for a wide range of use
   cases.
+draft: true
 series:
-permalink: /blog/23-of-the-best-eleventy-themes-for-2023/
 image: https://cc-dam.imgix.net/blog/blog-23-11ty-starters.jpg
-date: 2023-01-04T05:12:00+1300
+date: 2023-01-03T16:12:00Z
 hide_publish_date: false
 tags:
   - Eleventy
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/23-of-the-best-eleventy-themes-for-2023/
+cta:
+  title: Launch your Eleventy website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 With [CloudCannon's support for Eleventy now officially out of beta](https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/), there's no better time to investigate a new project. What's the best way to get started? With an Eleventy theme, of course\!
 
