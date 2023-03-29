@@ -2,7 +2,7 @@
 _schema: default
 title: The Ultimate Guide to Hugo Sections
 description: "Everything you've always wanted to know about how Hugo's sections and page bundles work. (Including the  “_index.md\_or\_index.md” question!)"
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/hugo-sections.jpg
 date: 2022-03-10T16:00:00Z
