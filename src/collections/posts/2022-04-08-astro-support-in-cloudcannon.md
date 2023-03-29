@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Astro support in CloudCannon
 description: >-
   We’re delighted to announce the launch of our support for Astro within

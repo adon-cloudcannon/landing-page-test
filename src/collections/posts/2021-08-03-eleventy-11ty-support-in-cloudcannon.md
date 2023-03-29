@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Eleventy (11ty) Support in CloudCannon
 description: >-
   Releasing Eleventy support in CloudCannon means 11ty developers from all skill

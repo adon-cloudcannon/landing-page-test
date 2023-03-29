@@ -1,4 +1,5 @@
 ---
+draft: false
 title: G Suite Authenticated Sites with CloudCannon and SAML
 date: 2020-02-04T00:00:00Z
 tags:

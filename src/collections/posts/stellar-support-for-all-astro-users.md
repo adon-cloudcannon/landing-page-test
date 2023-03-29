@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: Out-of-this-world support for all Astro users
 description: >-
@@ -7,7 +8,6 @@ description: >-
   own Git repository and deploy everywhere, while using your favorite UI
   components and libraries. What's more, CloudCannon makes your sites available
   for non-technical editors to draft, review, and publish their content.
-draft: false
 series:
 image: https://cc-dam.imgix.net/astro-launch-update.jpg
 date: 2023-03-16T17:30:00Z

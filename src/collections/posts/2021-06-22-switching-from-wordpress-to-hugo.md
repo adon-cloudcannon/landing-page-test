@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Switching from WordPress to Hugo
 description: >-
   WordPress has taken over the internet, but sometimes it's not the right tool

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Top 10 Headless Commerce Tools to Build an eCommerce Storefront
 description: >-
     Here are the top 10 best headless commerce tools to build an eCommerce

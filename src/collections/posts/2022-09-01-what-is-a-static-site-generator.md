@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What is a Static Site Generator?
 description: >-
   Learn about the static site generator tools we use to create static websites,

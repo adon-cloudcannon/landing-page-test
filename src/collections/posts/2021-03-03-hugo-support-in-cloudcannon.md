@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Hugo Support in CloudCannon
 description: >-
   Today we’re delighted to announce the public beta of Hugo support in

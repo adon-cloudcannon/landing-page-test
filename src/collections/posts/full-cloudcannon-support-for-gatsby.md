@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: Full CloudCannon support for Gatsby
 description: >-
@@ -6,7 +7,6 @@ description: >-
   CloudCannon's support for Gatsby out of beta. For developers using React
   components, or wanting to bring their data from a legacy CMS to the modern
   web, Gatsby and CloudCannon make an excellent combination.
-draft: false
 series:
 image: https://cc-dam.imgix.net/gatsby-launch.jpg
 date: 2023-03-10T05:09:00Z

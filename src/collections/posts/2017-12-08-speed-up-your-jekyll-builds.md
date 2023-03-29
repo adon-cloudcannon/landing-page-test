@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Speed up your Jekyll builds
 date: 2017-12-08T14:20:00+1300
 tags:

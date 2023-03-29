@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Bundling JavaScript for Jekyll
 description: >-
   A simple technique for bundling JavaScript is to use Jekyll includes. We take

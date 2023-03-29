@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Using CloudCannon with JavaScript
 date: 2014-04-18
 tags:

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Form Submissions and Redirects
 date: 2013-10-21
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10

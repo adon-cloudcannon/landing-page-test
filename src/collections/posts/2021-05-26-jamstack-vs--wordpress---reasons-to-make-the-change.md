@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Jamstack vs. WordPress - reasons to make the change
 description: >-
   WordPress and Jamstack can be used for the same purposes. If you’re reading

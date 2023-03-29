@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Choosing a static site generator with zero experience
 description: >-
   Choosing a static site generator that will work for you, without all that

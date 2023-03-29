@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Turn ANY template or theme into a CMS
 date: 2014-09-01
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28

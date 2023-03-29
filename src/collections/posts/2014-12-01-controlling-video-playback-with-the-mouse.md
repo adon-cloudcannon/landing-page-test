@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Controlling video playback with the mouse
 date: 2014-12-01
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10

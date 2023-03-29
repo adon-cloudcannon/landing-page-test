@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Jekyll vs. Hugo - choosing the right tool for the job
 description: >-
   Jekyll and Hugo are great static site generators for creating lean Jamstack

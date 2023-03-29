@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Build e-commerce sites on CloudCannon with Snipcart
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 date: 2014-07-30

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Does My Website Look Big in This? Six Tips to Lower your Page Weight '
 description: >-
   There are some large bandwidth and data savings we can make on our static

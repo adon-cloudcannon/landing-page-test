@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How Ruby on Rails uses Jekyll to build their marketing site
 cta:
   title: Launch your website today

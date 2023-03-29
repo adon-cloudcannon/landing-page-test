@@ -1,11 +1,11 @@
 ---
+draft: false
 _schema: default
 title: Creating sites, the Jamstack way
 description: >-
   You might have heard developers talking about Jamstack, but what is it
   exactly? This post is an overview of what Jamstack is and the benefits of
   building your next website the Jamstack way.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-what-is-jamstack.jpg
 date: 2023-02-07T16:12:00Z

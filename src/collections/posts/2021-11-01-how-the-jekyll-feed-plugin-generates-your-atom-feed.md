@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How the Jekyll Feed plugin generates your Atom feed
 cta:
   title: Launch your website today

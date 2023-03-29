@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'The Best Marketing Tools and Integrations for your Static Site '
 description: "Marketing and sales teams require a range of integrations with the external tools they depend upon —\_or more performant equivalents. From rich and up-to-date web analytics to SEO, a modern static site can cover all of the bases so your team can be up and running as soon as possible."
 series:

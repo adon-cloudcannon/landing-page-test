@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Global configuration within CloudCannon
 description: >-
   Global configuration within CloudCannon provides a more consistent developer

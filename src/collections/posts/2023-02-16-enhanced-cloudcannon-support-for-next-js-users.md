@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: Enhanced CloudCannon support for Next.js users
 description: >-
@@ -7,7 +8,6 @@ description: >-
   CloudCannon, with the same quality developer and editor tooling that we offer
   users of other major static site generators like Eleventy, Hugo, SvelteKit,
   and Jekyll.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-nextjs-launch-min.jpg
 date: 2023-02-15T16:02:00Z

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Upgrading our build flow for Jamstack
 description: >-
   These upgrades focus on how you first configure your site, including a

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'The ‘Before Jekyll’ era'
 description: >-
   The 'Before Jekyll' Era: part 1 of a series exploring the innovative history

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: >-
     Static Site Generator (SSG) Visions, Roadmaps, and Trajectories: What to
     Watch in 2023 

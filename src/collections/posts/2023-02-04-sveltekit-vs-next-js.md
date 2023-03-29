@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: SvelteKit vs. Next.js
 description: >-
@@ -7,7 +8,6 @@ description: >-
   server-side rendering, code splitting, fast build times, and run on
   JavaScript. SvelteKit is a framework for Svelte, whereas Next.js uses React
   components.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/sk-vs-nextjs-min.jpg
 date: 2023-02-03T16:01:00Z

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How to create a browser window with just CSS and HTML
 date: 2014-12-21
 tags:

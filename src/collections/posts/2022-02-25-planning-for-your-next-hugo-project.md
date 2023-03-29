@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Planning for your next Hugo project
 description: Tips and guiding principles for building a new website with Hugo.
 series:

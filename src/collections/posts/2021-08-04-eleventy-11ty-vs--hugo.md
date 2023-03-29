@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Eleventy (11ty) vs. Hugo
 description: >-
   We’ll compare two excellent SSGs here: Hugo and Eleventy. Both are optimised

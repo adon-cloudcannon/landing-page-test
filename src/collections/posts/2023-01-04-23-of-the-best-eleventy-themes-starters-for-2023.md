@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: 23 of the best Eleventy Themes (Starters) for 2023
 description: >-
@@ -7,7 +8,6 @@ description: >-
   setups with multiple templates, layouts, and preinstalled plugins. Let's
   explore 23 popular, new, and niche Eleventy themes for a wide range of use
   cases.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-23-11ty-starters.jpg
 date: 2023-01-03T16:12:00Z

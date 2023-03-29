@@ -1,4 +1,5 @@
 ---
+draft: false
 title: CloudCannon’s 2022 Highlights and 2023 Roadmap
 description: >-
   CloudCannon’s Cofounder and Chief Technology Officer, George Phillips,

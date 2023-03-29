@@ -1,10 +1,10 @@
 ---
+draft: false
 _schema: default
 title: 'Forestry to CloudCannon: The full migration guide'
 description: >-
   A full guide for Forestry features and concepts, how they translate to
   CloudCannon, and the steps developers need to take to make the transition.
-draft: false
 series:
 image: >-
   https://cc-dam.imgix.net/blog/migration-from-forestry-to-cloudcannon_vnmicj.jpg

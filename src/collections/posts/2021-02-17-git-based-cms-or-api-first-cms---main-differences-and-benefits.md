@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Git-based CMS or API-first CMS - main differences and benefits
 description: >-
   Git-based and API-first CMSs solve many content management problems, but what

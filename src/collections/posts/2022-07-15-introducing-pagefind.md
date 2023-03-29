@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Introducing Pagefind: Static Low-bandwidth Search at Scale'
 permalink: /blog/introducing-pagefind/
 description: >-

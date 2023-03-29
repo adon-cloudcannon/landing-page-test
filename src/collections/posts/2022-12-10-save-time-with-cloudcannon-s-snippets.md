@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Save time with CloudCannon's Snippets
 description: "With CloudCannon Snippets, content editors using a supported static site generators can use a simple interface to easily insert includes, shortcodes and Markdown extensions into their content —\_all without touching the underlying code."
 series:

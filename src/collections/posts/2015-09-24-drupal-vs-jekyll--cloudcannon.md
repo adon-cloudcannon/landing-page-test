@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Drupal vs Jekyll + CloudCannon
 date: 2015-09-24T12:00:00.000Z
 tags:

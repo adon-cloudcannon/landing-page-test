@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The 'SPAs are awesome' era
 description: >-
   The fourth part of an ongoing series: the 'SPAs are awesome' period of static

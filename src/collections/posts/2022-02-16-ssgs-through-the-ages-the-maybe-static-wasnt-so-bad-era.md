@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The 'Maybe Static Wasn't So Bad' era
 description: >-
   The fifth part of an ongoing series: After a period of heavy, complex

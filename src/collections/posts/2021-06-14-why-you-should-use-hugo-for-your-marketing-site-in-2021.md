@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Why you should use Hugo for your Marketing Site in 2021
 description: >-
   Hugo is an open-source Static Site Generator (SSG) that allows developers to

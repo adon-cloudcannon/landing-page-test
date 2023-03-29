@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How I created my first static website, with zero experience (1/∞)
 description: >-
   Or; A Jamstack Beginner’s Illustrated Primer. A beginner's guide to creating

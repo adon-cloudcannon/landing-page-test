@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Looking for an alternative to Netlify CMS?
 description: >-
   If you’ve been looking for an alternative to Netlify CMS for your Hugo,

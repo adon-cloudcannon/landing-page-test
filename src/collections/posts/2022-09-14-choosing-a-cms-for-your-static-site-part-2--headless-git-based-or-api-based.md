@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Choosing a CMS for your Static Site: Part 2 —\_Headless? Git-based, or API-based?"
 description: >-
   What is a headless CMS? What's the difference between a Git-based CMS and an

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Why should you use a static site generator?
 description: >-
   For many developers, the draw of an SSG is that it represents the best of both

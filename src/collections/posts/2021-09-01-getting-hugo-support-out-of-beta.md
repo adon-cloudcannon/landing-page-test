@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Getting Hugo support out of beta
 description: >-
   CloudCannon support for Hugo is leaving beta. It’s an important milestone, and

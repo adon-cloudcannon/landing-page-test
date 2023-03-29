@@ -1,4 +1,5 @@
 ---
+draft: false
 title: On Git, with zero experience
 description: >-
   Git = gud, being a digression in which we kill our darlings (with exquisite

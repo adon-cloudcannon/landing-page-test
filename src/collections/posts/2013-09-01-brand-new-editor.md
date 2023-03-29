@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Brand New Editor
 date: 2013-09-01
 tags:

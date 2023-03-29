@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Managing complex content with Array Structures
 date: 2019-05-22
 tags:

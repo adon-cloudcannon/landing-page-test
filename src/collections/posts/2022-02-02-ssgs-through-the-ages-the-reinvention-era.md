@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The ‘Reinvention’ era'
 description: >-
   The third part of an ongoing series: the reinvention period sees a flurry of

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Introducing Bookshop: component-driven workflow for static websites'
 description: >-
   Introducing Bookshop: an open-source framework to speed up development and

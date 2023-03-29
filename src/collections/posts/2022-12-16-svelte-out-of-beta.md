@@ -1,4 +1,5 @@
 ---
+draft: false
 title: CloudCannon’s SvelteKit support out of beta 🎉
 description: "Developers and content editors using SvelteKit on CloudCannon will now benefit from the same great tooling, tutorials, and documentation  as users of other major SSGs like Eleventy, Hugo, and Jekyll —\_as well as a free new theme!"
 series:

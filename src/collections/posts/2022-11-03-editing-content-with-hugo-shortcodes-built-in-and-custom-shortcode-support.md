@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Editing Content with Hugo Shortcodes: Built-in and Custom Shortcode Support'
 description: >-
   CloudCannon is the first CMS with full support and full integration for

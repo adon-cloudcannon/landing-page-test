@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Officially Out of Jekyll Beta
 date: 2016-08-31T14:02:00+1200
 tags:

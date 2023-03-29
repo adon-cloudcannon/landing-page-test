@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The 'Islands' era
 description: >-
   Concluding the epic history of static site generators, the islands era sees a

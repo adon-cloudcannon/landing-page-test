@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Improving the headless CMS
 description: >-
   Headless CMSs like CloudCannon are enticing many developers away from

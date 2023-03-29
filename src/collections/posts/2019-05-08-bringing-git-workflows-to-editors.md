@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Bringing Git Workflows to Editors
 date: 2019-05-08T12:00:00+1200
 tags:

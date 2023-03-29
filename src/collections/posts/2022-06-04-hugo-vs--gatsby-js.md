@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Hugo vs. Gatsby.js
 description: >-
   Let's compare two excellent static site generators: Hugo and Gatsby.js. Both

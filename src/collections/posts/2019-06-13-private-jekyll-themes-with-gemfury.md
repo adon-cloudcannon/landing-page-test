@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Private Jekyll themes with Gemfury
 date: 2019-06-13T12:48:00+1200
 tags:

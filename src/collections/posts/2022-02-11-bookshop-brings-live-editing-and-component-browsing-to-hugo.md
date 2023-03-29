@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Live editing in Hugo with Bookshop
 description: "Bookshop\_— our open-source component browser and playground, now brings live editing and component-driven workflows to Hugo, as well as Jekyll and Eleventy."
 permalink: /blog/live-editing-in-hugo-with-bookshop/

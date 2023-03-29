@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How to convert a Bootstrap theme to a client-editable Hugo site
 description: >-
   In this tutorial, you’ll learn how to take an existing, MIT-licensed Bootstrap

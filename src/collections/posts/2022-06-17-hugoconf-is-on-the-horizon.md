@@ -1,4 +1,5 @@
 ---
+draft: false
 title: HugoConf is on the horizon!
 description: >-
   HugoConf 2022 is fast approaching, and the team at CloudCannon is excited to

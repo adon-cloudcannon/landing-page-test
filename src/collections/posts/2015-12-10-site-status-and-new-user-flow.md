@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Site Status and New User Flow
 date: 2015-12-10T13:00:00+1300
 tags:

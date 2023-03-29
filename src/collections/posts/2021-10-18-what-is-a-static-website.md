@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'What is a static website? '
 description: >-
   What is a static website? If performance, security, and stability matter to

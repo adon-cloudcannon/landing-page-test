@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 7 Free Jekyll Templates
 date: 2016-12-06T14:49:00+1300
 tags:

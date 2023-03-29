@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Jekyll private beta and July Update
 date: "2014-07-25T12:00:00+1200"
 tags:

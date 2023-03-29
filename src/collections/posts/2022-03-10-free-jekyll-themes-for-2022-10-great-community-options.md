@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Free Jekyll themes for 2022: Ten great community options'
 description: >-
   There is a great catalog of popular, modern Jekyll themes to choose from and

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: App Redesign and Custom Organisation Branding
 date: 2017-11-22
 tags:

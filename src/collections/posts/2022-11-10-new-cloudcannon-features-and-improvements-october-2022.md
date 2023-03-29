@@ -1,4 +1,5 @@
 ---
+draft: false
 title: New CloudCannon features and improvements (October 2022)
 description: >-
   We thought it’d be helpful to wrap up the exciting last month of releases in

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Deconstruction: How Bitcoin.org uses Jekyll to power their marketing site'
 cta:
   title: Launch your website today

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Maximizing the convenience factor: archetypes in Hugo'
 description: >-
   Hugo is packed with features designed specifically to provide category-leading

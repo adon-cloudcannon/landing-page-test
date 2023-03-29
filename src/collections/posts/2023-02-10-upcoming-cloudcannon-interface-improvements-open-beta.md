@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: Upcoming CloudCannon Interface improvements (Open Beta)
 description: >-
@@ -7,7 +8,6 @@ description: >-
   feedback, we’ve made a number of refinements that will make for a more
   polished experience. We're releasing the new version of CloudCannon Beta to
   all users, available now.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-update-interface-hero.jpg
 date: 2023-02-08T16:02:00Z

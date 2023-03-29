@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Fifty of 2022's most popular Hugo themes
 permalink: /blog/fifty-of-the-most-popular-hugo-themes/
 description: >-

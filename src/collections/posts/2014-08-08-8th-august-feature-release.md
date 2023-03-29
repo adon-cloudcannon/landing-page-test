@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 8th August Feature Release
 date: 2014-08-08
 author: be1f96bb-0393-4938-b444-a5fb2f0c8590

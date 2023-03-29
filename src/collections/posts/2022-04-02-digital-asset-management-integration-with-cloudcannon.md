@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Digital Asset Management integration with CloudCannon
 description: >-
   Digital Asset Management (DAM) systems are the right tool to manage all the

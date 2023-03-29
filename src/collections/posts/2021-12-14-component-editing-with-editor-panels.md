@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Component editing with Editor Panels
 description: >-
   Content editors on CloudCannon can now access a draggable Editor Panel

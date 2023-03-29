@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: The Top Five Static Site Generators for 2023 (and when to use them!)
 description: >-
@@ -6,7 +7,6 @@ description: >-
   most popular framework, the site builder you already know how to use, or the
   SSG best suited to your new website project's use case? We've assessed five
   leading SSGs covering a wide range of uses cases.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-top-five-ssgs-2023.jpg
 date: 2023-01-13T16:00:00Z

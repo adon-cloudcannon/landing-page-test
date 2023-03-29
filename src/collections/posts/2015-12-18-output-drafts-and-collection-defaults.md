@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Output Drafts and Collection Defaults
 date: 2015-12-18T10:02:00.000Z
 tags:

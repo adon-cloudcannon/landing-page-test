@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Choosing a CMS for your Static Site: Part 1'
 description: >-
   Choosing a new content management system (CMS) is one of the most important

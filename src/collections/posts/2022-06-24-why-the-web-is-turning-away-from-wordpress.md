@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Why the web is turning away from WordPress
 description: >-
   WordPress’ market share is slipping where it matters, and sites built with

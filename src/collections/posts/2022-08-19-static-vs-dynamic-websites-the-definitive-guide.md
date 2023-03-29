@@ -1,11 +1,11 @@
 ---
+draft: false
 _schema: default
 title: 'Static vs Dynamic Websites: The Definitive Guide'
 description: >-
   When it comes to making a new website, you’ve probably come across the terms
   static and dynamic. But what do they mean for you? And which approach should
   you choose? 
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-static-dynamic-definitive-r.jpg
 date: 2022-08-24T17:00:00Z

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Saving Time: Our New Editor Improvements'
 description: >-
   We’re bringing significant improvements to editing and saving in CloudCannon.

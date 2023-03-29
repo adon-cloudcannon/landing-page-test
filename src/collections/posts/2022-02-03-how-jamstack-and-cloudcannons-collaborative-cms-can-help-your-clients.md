@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How to pitch a Jamstack website to your clients
 description: "So you're pitching a Jamstack project\_to a prospective client. What are they worried about? And how can you help convince them that static sites are the way of the future? "
 permalink: /blog/how-to-pitch-a-jamstack-website-to-clients/

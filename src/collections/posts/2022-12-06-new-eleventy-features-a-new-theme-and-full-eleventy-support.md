@@ -1,4 +1,5 @@
 ---
+draft: false
 title: New Eleventy features, a new theme, and full Eleventy support
 description: "We’re delighted to announce CloudCannon’s full support for Eleventy, one of the most popular (and fast) static site generators in the world. While our Git-based CMS has had very functional Eleventy support over the past year, our product developers have been hard at work on additional features for the SSG —\_like folding Nunjucks and Liquid shortcodes into our new Snippets feature!"
 series:

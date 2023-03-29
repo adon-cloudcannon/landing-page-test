@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Overcoming content chaos with Digital Asset Management
 description: >-
   Digital Asset Management (DAM) solutions help companies organize, store, and

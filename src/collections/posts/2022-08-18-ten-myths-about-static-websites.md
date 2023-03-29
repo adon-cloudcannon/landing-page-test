@@ -1,11 +1,11 @@
 ---
+draft: false
 _schema: default
 title: Ten Myths about Static Websites
 description: >-
   Are static websites difficult to edit? Hard to scale? Only good for a few
   pages? Not at all. We confront the main myths about static websites, and set
   the record straight.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog-static-myths.jpg
 date: 2022-08-17T17:00:00Z

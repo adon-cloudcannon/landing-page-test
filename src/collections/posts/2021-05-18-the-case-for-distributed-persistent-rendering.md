@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The case for Distributed Persistent Rendering
 description: >-
   Let’s explore what Distributed Persistent Rendering (DPR) means for the future

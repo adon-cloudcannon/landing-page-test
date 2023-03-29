@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How to create an animated pickup in CSS and HTML
 date: 2014-12-19
 author: be1f96bb-0393-4938-b444-a5fb2f0c8590

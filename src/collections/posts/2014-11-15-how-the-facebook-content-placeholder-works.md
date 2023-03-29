@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How the Facebook content placeholder works
 description: >-
   Let's break down the Facebook content placeholder step by step, so that we can understand how it works. This is the first post of the new blog series 'Deconstructions', showcasing interesting things that are being done in web development. 

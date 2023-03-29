@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The 'Rebirth' era
 description: >-
   Part 7 of an ongoing series: With modern tooling and the knowledge of better

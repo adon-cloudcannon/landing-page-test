@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How to set up WYSIWYG editing with MkDocs
 description: >-
   With CloudCannon’s Content Editor, you’ll be able to set up a rich content

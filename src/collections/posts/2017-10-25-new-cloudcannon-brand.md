@@ -1,4 +1,5 @@
 ---
+draft: false
 title: New CloudCannon Brand
 date: 2017-10-25
 tags:

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The best headless CMS for Hugo
 description: >-
   Why is CloudCannon the best content management system (CMS) for your next Hugo

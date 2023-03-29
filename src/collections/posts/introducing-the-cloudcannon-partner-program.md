@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: Introducing the CloudCannon Partner Program
 description: >-
@@ -6,7 +7,6 @@ description: >-
   about the CloudCannon Partner Program — you can access exclusive Partner
   benefits, support and savings, keep all your clients happy, and make your life
   easier.
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
 date: 2023-03-11T05:00:00Z

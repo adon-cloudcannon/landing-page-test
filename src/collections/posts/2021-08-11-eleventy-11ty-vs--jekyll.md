@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Eleventy (11ty) vs. Jekyll
 description: >-
   We compare two distinctly different static site generators (SSGs): Jekyll and

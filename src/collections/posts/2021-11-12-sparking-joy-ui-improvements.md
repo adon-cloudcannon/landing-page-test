@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Sparking joy: CloudCannon UI improvements '
 description: >-
     Grab a sneak peek of the UI improvements we've been working on, and get

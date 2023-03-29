@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Make your websites faster with CloudCannon
 date: 2019-11-19T00:00:00Z
 tags:

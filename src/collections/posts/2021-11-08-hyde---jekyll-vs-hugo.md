@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Comparing a Jekyll and Hugo template
 cta:
   title: Launch your website today

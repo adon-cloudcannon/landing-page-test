@@ -1,4 +1,5 @@
 ---
+draft: false
 title: How the Jekyll SEO plugin helps you optimize your site
 cta:
   title: Launch your website today

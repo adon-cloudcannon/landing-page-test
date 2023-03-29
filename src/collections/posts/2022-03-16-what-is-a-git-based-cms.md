@@ -1,4 +1,5 @@
 ---
+draft: false
 title: What is a Git-based CMS?
 description: >-
   If Git is such a powerful, game-changing tool, why is it only used by

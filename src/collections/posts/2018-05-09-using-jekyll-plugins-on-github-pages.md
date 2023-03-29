@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Using Jekyll plugins on GitHub Pages
 date: 2018-05-09T13:10:00+1200
 tags:

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Updated input configuration for your workflows
 description: >-
   We’ve created a consolidated inputs key to streamline your development

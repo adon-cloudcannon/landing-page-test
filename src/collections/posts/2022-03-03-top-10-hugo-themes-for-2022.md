@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Top 10 Hugo Themes for 2022
 description: >-
   CloudCannon showcases a range of popular and actively developed Hugo themes to

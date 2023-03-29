@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The 'Let's Recreate Rails' era
 description: "The sixth part of an ongoing series: In 2019, developers of static site generators ask the inevitable question —\_why don't we create full-stack applications in one framework?"
 series: SSGs through the ages

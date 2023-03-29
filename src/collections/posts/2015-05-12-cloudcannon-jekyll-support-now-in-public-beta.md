@@ -1,4 +1,5 @@
 ---
+draft: false
 title: CloudCannon Jekyll support now in public beta
 date: 2015-05-12T12:00:00+1200
 tags:

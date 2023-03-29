@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: 11 Top Eleventy Blog Themes (Starters) in 2023
 description: >-
@@ -6,7 +7,6 @@ description: >-
   especially for developers who are new to blogging, Eleventy, or static site
   generators in general. This article takes a top ten list of blog themes and
   turns it up to eleven(ty).
-draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-eleventy-blog-starters.jpg
 date: 2022-12-21T16:17:00Z

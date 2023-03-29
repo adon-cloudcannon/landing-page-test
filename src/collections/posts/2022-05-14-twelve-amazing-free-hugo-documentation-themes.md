@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Twelve Amazing Free Hugo Documentation Themes
 description: >-
   A hand-picked overview of quality documentation themes for Hugo static site

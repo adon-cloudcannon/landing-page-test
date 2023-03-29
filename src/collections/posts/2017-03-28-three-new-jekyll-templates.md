@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Three New Jekyll Templates
 date: 2017-03-28T14:42:00+1300
 tags:

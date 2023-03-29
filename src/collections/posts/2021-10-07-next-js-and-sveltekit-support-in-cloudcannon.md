@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Next.js and SvelteKit support in CloudCannon
 description: >-
   We’re beyond excited to announce the launch of our support for both Next.js

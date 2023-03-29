@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Inline editing of Markdown pages
 date: 2016-04-11T02:13:00Z
 tags:

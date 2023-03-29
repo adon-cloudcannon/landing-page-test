@@ -1,4 +1,5 @@
 ---
+draft: false
 title: New CloudCannon features and improvements (November 2022)
 description: >-
   CloudCannon's been hard at work on updates for Eleventy shortcodes (Liquid and
