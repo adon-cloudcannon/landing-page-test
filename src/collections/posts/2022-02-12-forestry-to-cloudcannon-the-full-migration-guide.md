@@ -56,7 +56,7 @@ Forestry had native support for Hugo and Jekyll, while also supporting any SSG t
 
 ### Content editing files support
 
-The majority of content on Forestry is powered by Markdown and front matter. CloudCannon also works with these file formats and adds native support for HTML as an alternative.
+The majority of content on Forestry was powered by Markdown and front matter. CloudCannon also works with these file formats and adds native support for HTML as an alternative.
 
 <table><thead><tr><th>Forestry.io</th><th>CloudCannon</th></tr></thead><tbody><tr><td>Markdown, JSON, YAML, TOML</td><td>HTML, Markdown, JSON, YAML, TOML, CSV, TSV</td></tr></tbody></table>
 
@@ -98,15 +98,13 @@ With a Git-based CMS, storing assets is a major consideration. For a small websi
 
 ### User roles
 
-Controlling access to content on an account or individual site level is important to ensuring everyone has enough access to do their job. Forestry and CloudCannon offer similar levels of user permission granularity and both offer the concept of Organizations which allow admins to give a group of users access across multiple sites. Fine grained permissions are coming to CloudCannon later this year and will enable you to create your own roles with completely custom permission sets.
+Controlling access to content on an account or individual site level is important to ensuring everyone has enough access to do their job. Forestry and CloudCannon offer similar levels of user permission granularity and both offer the concept of Organizations which allow admins to give a group of users access across multiple sites. Fine grained permissions are coming to CloudCannon over the coming months and will enable you to create your own roles with completely custom permission sets.
 
 <table><thead><tr><th>Forestry.io</th><th>CloudCannon</th></tr></thead><tbody><tr><td>Admin, Developer, Editor, Site level sharing</td><td>Owner, Developer, Technical Editor, Editor, Site level sharing</td></tr></tbody></table>
 
 ### Remote admin
 
-Forestry’s remote admin allows editors to manage the content of their site right from their own domain. Freelancers and agencies use this feature to white-label Forestry and provide a more streamlined way of accessing the CMS.
-
-![Screenshot of Forestry remote admin interface](https://cc-dam.imgix.net/forestry-to-cloudcannon-1_htdute.png)
+Forestry’s remote admin allowed editors to manage the content of their site right from their own domain. Freelancers and agencies used this feature to white-label Forestry and provide a more streamlined way of accessing the CMS.
 
 CloudCannon has a similar feature called [client sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/). Instead of setting up user accounts for editors, you set up a password. Clients navigate to theirdomain.com/update, enter the password and get a white labeled interface to update the content on their site.
 
@@ -114,7 +112,7 @@ CloudCannon has a similar feature called [client sharing](https://cloudcannon.co
 
 ### Deployment
 
-Forestry relies on 3rd party hosting providers to publish the website live. CloudCannon includes top tier CI/CD and global hosting as part of its offering. Content changes made in the CloudCannon CMS automatically kick off an SSG build, deploy to a global network across 250 cities, invalidates the cache, and is ready to scale to handle your traffic. Or you can keep your current hosting and just use CloudCannon as your CMS.
+Forestry relied on third-party hosting providers to publish the website live. CloudCannon includes top tier CI/CD and global hosting as part of its offering. Content changes made in the CloudCannon CMS automatically kick off an SSG build, deploy to a global network across 250 cities, invalidates the cache, and is ready to scale to handle your traffic. Or you can keep your current hosting and just use CloudCannon as your CMS.
 
 ## Making the switch
 
@@ -188,7 +186,7 @@ What good is a CMS without a team to share it with? Invite everyone who needs ac
 
 ### 5\. Configure your hosting (optional)
 
-When a developer pushes a change to the repository or a content editor updates content on CloudCannon, CloudCannon automatically starts a build. When the build completes, it’s pushed to CloudCannon’s production-grade global hosting [which ranks among the fastest and most stable with its peers](https://cloudcannon.com/community/jamstack-hosting-comparison/). All sites on CloudCannon come with their own generated domain name which you can use as a testing or staging environment or you can point your own domain at CloudCannon’s servers for your production website.
+When a developer pushes a change to the repository or a content editor updates content on CloudCannon, CloudCannon automatically starts a build. When the build completes, it’s pushed to CloudCannon’s production-grade global hosting [which ranks among the fastest and most stable with its peers](https://cloudcannon.com/community/jamstack-hosting-comparison/). All sites on CloudCannon come with their own generated domain name which you can use as a testing or staging environment, or you can point your own domain at CloudCannon’s servers for your production website.
 
 ![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-custom-domain.png)
 
