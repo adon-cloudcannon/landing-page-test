@@ -19,7 +19,7 @@ tags:
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
+  title: Launch your SvelteKit or Next.js website today
   body_text: >-
     Give your content team full autonomy on your developer-approved tech stack
     with CloudCannon.
