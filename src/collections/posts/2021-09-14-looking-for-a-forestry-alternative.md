@@ -32,7 +32,9 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-***We recently released a Migration tool to help you migrate your existing Forestry configuration into CloudCannon config.&nbsp;***<br>***<a target="_blank" rel="noopener" href="https://github.com/CloudCannon/cloudcannon-config-migrator">Find the tool here &gt;</a>***
+***We've recently released a helpful migration tool! Once you've connected your existing Forestry site repository to CloudCannon, we'll automatically generate a CloudCannon config file from your Forestry settings.***
+
+---
 
 ##
 

@@ -32,11 +32,13 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-***We recently released a Migration tool to help you migrate your existing Forestry configuration into CloudCannon config.&nbsp;***<br>***<a target="_blank" rel="noopener" href="https://github.com/CloudCannon/cloudcannon-config-migrator">Find the tool here &gt;</a><br>​​​​​​***<br><br>As the Forestry CMS moves towards its sunset, many Hugo, 11ty, and Jekyll developers are looking for a new home for their Jamstack websites. CloudCannon is a Git-based CMS which has been around since 2014 and powers thousands of websites for Fortune 500 companies, digital agencies, freelancers, and global businesses.
-
-CloudCannon shares many similarities with Forestry, making for an easy transition for both developers and content editors alike. This post details a full guide for Forestry features and concepts, how they translate to CloudCannon, and the steps developers need to take to make the transition.
+***We've recently released a helpful migration tool! Once you've connected your existing Forestry site repository to CloudCannon, we'll automatically generate a CloudCannon config file from your Forestry settings.***<br>***​​​​***
 
 ---
+
+As the Forestry CMS moves towards its sunset, many Hugo, 11ty, and Jekyll developers are looking for a new home for their Jamstack websites. CloudCannon is a Git-based CMS which has been around since 2014 and powers thousands of websites for Fortune 500 companies, digital agencies, freelancers, and global businesses.
+
+CloudCannon shares many similarities with Forestry, making for an easy transition for both developers and content editors alike. This post details a full guide for Forestry features and concepts, how they translate to CloudCannon, and the steps developers need to take to make the transition.
 
 ## A Forestry.io alternative
 
