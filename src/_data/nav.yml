@@ -5,8 +5,8 @@
         - name: Website Editing
           link: /website-editing/
           description: Intuitive editing for your content team
-          icon_path: outline/paper-airplane
-          nav_icon_color: sea
+          icon_path: outline/pencil
+          nav_icon_color: cc_blue
         - name: Content Publishing
           link: /content-publishing/
           description: Work together, faster
