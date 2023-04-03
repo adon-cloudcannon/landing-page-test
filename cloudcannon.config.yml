@@ -981,3 +981,17 @@ _inputs:
         - teal-white
         - teal
         - normal
+  nav_icon_color:
+    type: select
+    options:
+      values:
+        - cc
+        - cc_hover
+        - nimbus
+        - carbon
+        - caramel
+        - sea
+        - sky
+        - ash
+        - night
+        - midnight

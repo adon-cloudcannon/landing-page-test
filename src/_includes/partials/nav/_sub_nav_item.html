@@ -10,7 +10,7 @@
 						class="block py-2 group">
 						<div class="flex">
 							{% assign icon_path = "/src/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
-							<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.icon_color }}">{{  icon_path | svgContents }}</span>
+							<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.nav_icon_color }}">{{  icon_path | svgContents }}</span>
 							<div class="flex-1 pl-4">
 								<div class="text-base font-semibold {% if sub_item.link == '' %}line-through{% endif %}">
 									{{ sub_item.name }}
