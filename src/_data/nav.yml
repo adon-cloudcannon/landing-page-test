@@ -85,8 +85,8 @@
         - name: Blog
           link: /blog/
           description: The latest from CloudCannon
-          icon_path: outline/light-bulb
-          nav_icon_color: cc
+          icon_path: outline/key
+          nav_icon_color: midnight
         - name: Events
           link: /events/
           description: Join us and share the knowledge
