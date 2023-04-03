@@ -5,8 +5,8 @@
         - name: Website Editing
           link: /website-editing/
           description: Intuitive editing for your content team
-          icon_path: outline/pencil
-          nav_icon_color: cc_blue
+          icon_path: outline/paper-airplane
+          nav_icon_color: sea
         - name: Content Publishing
           link: /content-publishing/
           description: Work together, faster
@@ -36,8 +36,8 @@
           nav_icon_color: cc
         - name: For Developers
           link: /for-developers/
-          icon_path: outline/command-line
-          nav_icon_color: cc
+          icon_path: outline/cpu-chip
+          nav_icon_color: comet
           description: Build, publish, and empower your team
         - name: For Digital Agencies
           link: /partner-program/
