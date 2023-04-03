@@ -986,13 +986,9 @@ _inputs:
     label: "Icon Color"
     options:
       values:
-        - cc
-        - cc_hover
-        - nimbus
-        - carbon
-        - caramel
-        - sea
-        - sky
-        - ash
-        - night
-        - midnight
+        - cc_blue
+        - amber
+        - electric_purple
+        - emerald
+        - ruby
+        - comet
