@@ -983,6 +983,7 @@ _inputs:
         - normal
   nav_icon_color:
     type: select
+    label: "Icon Color"
     options:
       values:
         - cc
