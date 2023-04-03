@@ -6,7 +6,7 @@
           link: /website-editing/
           description: Intuitive editing for your content team
           icon: pencil
-          icon_color: cc
+          icon_color: green-dark
         - name: Content Publishing
           link: /content-publishing/
           description: Work together, faster
