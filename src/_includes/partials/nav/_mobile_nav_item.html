@@ -19,10 +19,10 @@
 			{{ sub_nav.title }}</div>
 				{% for sub_item in sub_nav.sub_nav %}
 					<li>
-						{% assign icon_path = "/src/images/icons/outline/" | append: sub_item.icon | append: ".svg" %}
+						{% assign icon_path_full = "/src/images/icons/" | append: sub_item.icon_path | append: ".svg" %}
 						<a href="{{ sub_item.link }}" class="block py-2 group">
 							<div class="flex">
-								<span class="w-6 relative block transition [&>*]:stroke-cc">{{  icon_path | svgContents }}</span>
+								<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.nav_icon_color }}">{{  icon_path_full | svgContents }}</span>
 								<div class="flex-1 pl-4">
 									<span class="block text-neutral-700 text-base font-medium">
 										{{ sub_item.name }} 
