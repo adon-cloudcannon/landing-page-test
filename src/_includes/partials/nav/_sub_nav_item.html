@@ -9,8 +9,8 @@
 						href="{{ sub_item.link }}" 
 						class="block py-2 group">
 						<div class="flex">
-							{% assign icon_path = "/src/images/icons/" | append: sub_item.icon_path | append: ".svg" %}
-							<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.nav_icon_color }}">{{  icon_path | svgContents }}</span>
+							{% assign icon_path_full = "/src/images/icons/" | append: sub_item.icon_path | append: ".svg" %}
+							<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.nav_icon_color }}">{{  icon_path_full | svgContents }}</span>
 							<div class="flex-1 pl-4">
 								<div class="text-base font-semibold {% if sub_item.link == '' %}line-through{% endif %}">
 									{{ sub_item.name }}
