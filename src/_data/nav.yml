@@ -6,17 +6,21 @@
           link: /website-editing/
           description: Intuitive editing for your content team
           icon: pencil
+          icon_color: cc
         - name: Content Publishing
           link: /content-publishing/
           description: Work together, faster
           icon: document-arrow-up
+          icon_color: cc
         - name: Website Hosting
           link: /hosting/
           icon: cloud
+          icon_color: cc
           description: Host the fastest websites
         - name: Technologies
           link: /technologies/
           icon: cube
+          icon_color: cc
           description: Work with the frameworks you love
     - title: Users
       sub_nav:
@@ -24,27 +28,33 @@
           link: /for-content-editors/
           description: Create content with no roadblocks
           icon: pencil-square
+          icon_color: cc
         - name: For Marketers
           link: /for-marketers/
           description: Create SEO-optimized sites every time
           icon: megaphone
+          icon_color: cc
         - name: For Developers
           link: /for-developers/
           icon: command-line
+          icon_color: cc
           description: Build, publish, and empower your team
         - name: For Digital Agencies
           link: /partner-program/
           icon: paint-brush
+          icon_color: cc
           description: Support and empower your clients
         - name: For Enterprise
           link: /enterprise/
           icon: building-office
+          icon_color: cc
           description: Collaborate, iterate, and publish seamlessly
     - title: Use Cases
       sub_nav:
         - name: Case Studies
           link: /customers/
           icon: user-circle
+          icon_color: cc
           description: Why the best choose CloudCannon
 - name: Resources
   sub_navs:
@@ -54,45 +64,55 @@
           link: https://cloudcannon.com/documentation/
           description: CloudCannon resources and guides
           icon: code-bracket-square
+          icon_color: cc
         - name: Tutorials
           link: /tutorials/
           description: Learn Jamstack with CloudCannon
           icon: academic-cap
+          icon_color: cc
         - name: Jamstack Ecosystem
           link: /jamstack-ecosystem/
           description: The best tooling for your next website
           icon: gift
+          icon_color: cc
         - name: Jekyll Cheatsheet
           link: /cheat-sheets/jekyll/
           description: Everything you need at a glance
           icon: check-badge
+          icon_color: cc
     - title: CloudCannon
       sub_nav:
         - name: Blog
           link: /blog/
           description: The latest from CloudCannon
           icon: light-bulb
+          icon_color: cc
         - name: Events
           link: /events/
           description: Join us and share the knowledge
           icon: microphone
+          icon_color: cc
         - name: Templates
           link: /templates/
           description: Get started with a pre-configured site
           icon: puzzle-piece
+          icon_color: cc
         - name: Support
           link: /support/
           description: We're here to help
           icon: inbox
+          icon_color: cc
     - title: Partners
       sub_nav:
         - name: Partner Program
           link: /partner-program/
           description: Support and empower your clients
           icon: briefcase
+          icon_color: cc
         - name: Expert Directory
           link: /experts/
           description: Find an Expert
           icon: user
+          icon_color: cc
 - name: Pricing
   link: /pricing/
