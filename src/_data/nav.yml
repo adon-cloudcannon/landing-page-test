@@ -36,8 +36,8 @@
           nav_icon_color: cc
         - name: For Developers
           link: /for-developers/
-          icon_path: outline/cpu-chip
-          nav_icon_color: comet
+          icon_path: solid/funnel
+          nav_icon_color: electric_purple
           description: Build, publish, and empower your team
         - name: For Digital Agencies
           link: /partner-program/
