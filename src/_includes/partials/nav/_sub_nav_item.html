@@ -28,24 +28,25 @@
 				{% for sub_item in sub_nav.sub_card %}
 					<a 
 						href="{{ sub_item.featured_post_link }}" 
-						class="block p-2 group border-2 border-indigo-600">
+						class="block p-2 group border-2 border-slate-700 rounded-lg">
 						<div class="flex">
 							<div class="flex-1">
 								{% assign posts = collections.posts %}
 								{% for post in posts %}
 									{% if post.url == sub_item.featured_post_link %}
 										{% if sub_item.image.image_path %}
-											<img src="{{ sub_item.image.image_path }}" alt="">
+											<img class="rounded-lg h-[138px]" src="{{ sub_item.image.image_path }}" alt="">
 										{% else %}
-											<img src="{{ post.data.image }}" alt="">
+											<img class="rounded-lg h-[138px]" src="{{ post.data.image }}" alt="">
 										{% endif %}	
-										<div class="text-base font-semibold">
+										<div class="text-base font-semibold pt-4 pb-2">
 											{% if sub_item.name %}
 												{{ sub_item.name }}
 											{% else %}
 												{{ post.data.title }}
 											{% endif %}
 										</div>
+										<p class="inline-block text-cc">Learn More </p><span class="w-3 inline-block relative top-0.5 text-cc ml-1">{{ '/src/images/icons/solid/arrow-right.svg' | svgContents }}</span>
 									{% endif %}
 								{% endfor %}
 							</div>
