@@ -1,6 +1,7 @@
 - name: Platform
   sub_navs:
     - title: Features
+      sub_card:
       sub_nav:
         - name: Website Editing
           link: /website-editing/
@@ -23,6 +24,7 @@
           nav_icon_color: cc
           description: Work with the frameworks you love
     - title: Users
+      sub_card:
       sub_nav:
         - name: For Content Editors
           link: /for-content-editors/
@@ -50,6 +52,7 @@
           nav_icon_color: cc
           description: Collaborate, iterate, and publish seamlessly
     - title: Use Cases
+      sub_card:
       sub_nav:
         - name: Case Studies
           link: /customers/
@@ -63,10 +66,12 @@
           image:
             image_path:
             image_alt:
+      sub_nav:
 
 - name: Resources
   sub_navs:
     - title: Developers
+      sub_card:
       sub_nav:
         - name: Documentation
           link: https://cloudcannon.com/documentation/
@@ -89,6 +94,7 @@
           icon_path: outline/check-badge
           nav_icon_color: cc
     - title: CloudCannon
+      sub_card:
       sub_nav:
         - name: Blog
           link: /blog/
@@ -111,6 +117,7 @@
           icon_path: outline/inbox
           nav_icon_color: cc
     - title: Partners
+      sub_card:
       sub_nav:
         - name: Partner Program
           link: /partner-program/
