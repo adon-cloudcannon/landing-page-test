@@ -53,6 +53,11 @@
           description: Collaborate, iterate, and publish seamlessly
     - title: Use Cases
       sub_card:
+        - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
       sub_nav:
         - name: Case Studies
           link: /customers/
@@ -67,6 +72,11 @@
             image_path:
             image_alt:
       sub_nav:
+        - name:
+          link:
+          icon_path:
+          nav_icon_color:
+          description:
 
 - name: Resources
   sub_navs:
