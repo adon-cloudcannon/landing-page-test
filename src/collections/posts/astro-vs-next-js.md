@@ -9,7 +9,7 @@ description: >-
 draft: true
 series:
 image: https://cc-dam.imgix.net/Astro vs. Nextjs.png
-date:
+date: 2023-04-05T00:00:00Z
 hide_publish_date: false
 tags:
   - Astro
@@ -83,6 +83,8 @@ Next.js uses an app-like architecture that is ideal for complex use cases that r
 * <a target="_blank" rel="noopener" href="https://linktr.ee/">linktr.ee</a>
 
 ### Comparing Next.js and Astro
+
+<table><thead><tr><th> </th><th>Next.js</th><th>Astro</th></tr></thead><tbody><tr><td>First release</td><td>2016</td><td>2021</td></tr><tr><td>GitHub stars</td><td>101k+</td><td>26K+</td></tr><tr><td>Licence</td><td>MIT</td><td>MIT</td></tr><tr><td>Build speeds</td><td>Fast</td><td>Faster</td></tr><tr><td>Built with</td><td>JavaScript</td><td>JavaScript</td></tr><tr><td>Templating language(s)</td><td>JSX</td><td>Astro, HTML, Markdown, JavaScript, JSX</td></tr><tr><td>Installation requirements</td><td>Node.js must be installed</td><td>Node.js must be installed</td></tr><tr><td>Plugins</td><td>Yes — limited</td><td>Yes — many</td></tr><tr><td>Themes / Templates / Starters</td><td>Yes (templates)</td><td>Yes (themes)</td></tr><tr><td>Easy WordPress / legacy converter</td><td>No; you’ll need to convert to Markdown and then clean up your content</td><td>No; you’ll need to convert to Markdown and then clean up your content</td></tr><tr><td>Disable runtime JS</td><td>Yes</td><td>No runtime JS required by default</td></tr><tr><td>Data Fetching</td><td>Yes</td><td>Yes</td></tr><tr><td>Internationalization (i18n)</td><td>Built-in</td><td>Yes, via integration</td></tr><tr><td>Hot reloading</td><td>Yes</td><td>Yes</td></tr><tr><td>Code splitting</td><td>Automatic</td><td>Automatic</td></tr><tr><td>Image optimization</td><td>Yes</td><td>Yes</td></tr><tr><td>Environment variables</td><td>Yes</td><td>Yes</td></tr><tr><td>Content security policy</td><td>Via next-secure-headers</td><td>Custom HTTP headers rules</td></tr><tr><td>Learning curve</td><td>Moderate; it will help to have React experience</td><td>Easy; it will help to have JavaScript experience</td></tr><tr><td>Documentation</td><td><a target="_blank" rel="noopener" href="https://nextjs.org/docs/getting-started">nextjs.org</a></td><td><a target="_blank" rel="noopener" href="https://docs.astro.build/en/getting-started/">astro.build</a></td></tr><tr><td>GitHub repos</td><td><a target="_blank" rel="noopener" href="https://github.com/vercel/next.js">github.com/vercel/next.js</a></td><td><a target="_blank" rel="noopener" href="https://github.com/withastro/astro">github.com/withastro/astro</a></td></tr><tr><td>Support communities</td><td><a target="_blank" rel="noopener" href="https://discord.com/invite/bUG2bvbtHy">Next.js Discord</a></td><td><a target="_blank" rel="noopener" href="https://discord.com/invite/grF4GTXXYm">Astro Discord</a></td></tr><tr><td>Twitter accounts</td><td><a target="_blank" rel="noopener" href="https://twitter.com/nextjs">Next.js Twitter</a></td><td><a target="_blank" rel="noopener" href="https://twitter.com/astrodotbuild">Astro Twitter</a></td></tr><tr><td>CloudCannon support</td><td>Yes — your&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/nextjs-cms/">Next.js</a>&nbsp;sites (in SSG mode) can be editable in minutes with CloudCannon</td><td>Yes — your&nbsp;<a target="_blank" rel="noopener" href="https://astro.build/">Astro</a>&nbsp;sites can be editable in minutes with CloudCannon</td></tr></tbody></table>
 
 ### Which should I choose?
 
