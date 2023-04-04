@@ -52,12 +52,6 @@
           nav_icon_color: cc
           description: Collaborate, iterate, and publish seamlessly
     - title: Use Cases
-      sub_card:
-        - featured_post_link:
-          name:
-          image:
-            image_path:
-            image_alt:
       sub_nav:
         - name: Case Studies
           link: /customers/
