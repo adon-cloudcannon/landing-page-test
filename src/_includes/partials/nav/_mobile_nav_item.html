@@ -15,67 +15,66 @@
 					<div class="uppercase text-carbon text-xs tracking-[6px] font-medium pb-4 mt-6 first:mt-0">
 						{{ sub_nav.title }}
 					</div>
-						{% for sub_item in sub_nav.sub_card %}
-							{% if sub_item.featured_post_link %}
-
-								<a 
-									href="{{ sub_item.featured_post_link }}" 
-									class="block p-2 group border-2 border-[#393939] rounded-lg">
-									<div class="flex"> 
-										<div class="flex-1">
-											{% assign posts = collections.posts %}
-											{% for post in posts %}
-												{% if post.url == sub_item.featured_post_link %}
-													{% if sub_item.image.image_path %}
-														<img class="rounded-lg object-cover" src="{{ sub_item.image.image_path }}" alt="">
-													{% else %}
-														<img class="rounded-lg object-cover" src="{{ post.data.image }}" alt="">
-													{% endif %}	
-													<div class="text-base font-semibold pt-4 pb-1">
-														{% if sub_item.name %}
-															{{ sub_item.name }}
-														{% else %}
-															{{ post.data.title }}
-														{% endif %}
-													</div>
-												{% endif %}
-											{% endfor %}
-											<p class="flex text-cc font-bold">Learn more 
-												<span class="flex align-items-center w-4 inline-block ml-1 font-bold">
-													{{ "/src/images/icons/solid/arrow-right.svg" | svgContents }}
+					{% for sub_item in sub_nav.sub_nav %}
+						<li>
+							{% if sub_item.link %}
+								<a href="{{ sub_item.link }}" class="block py-2 group">
+									<div class="flex">
+										{% if sub_item.icon_path %}
+											{% assign icon_path = "/src/images/icons/" | append: sub_item.icon_path | append: ".svg" %}
+											<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.nav_icon_color }}">{{  icon_path | svgContents }}</span>
+										{% endif %}
+										<div class="flex-1 pl-4">
+											{% if sub_item.name %}
+												<span class="block text-neutral-700 text-base font-medium">
+													{{ sub_item.name }} 
 												</span>
-											</p>
+											{% endif %}
+											{% if sub_item.description %}
+												<span class="block text-neutral-500 text-xs">
+													{{ sub_item.description }}
+												</span>
+											{% endif %}
 										</div>
 									</div>
 								</a>
 							{% endif %}
-						{% endfor %}
-						{% for sub_item in sub_nav.sub_nav %}
-							<li>
-								{% if sub_item.link %}
-									<a href="{{ sub_item.link }}" class="block py-2 group">
-										<div class="flex">
-											{% if sub_item.icon_path %}
-												{% assign icon_path = "/src/images/icons/" | append: sub_item.icon_path | append: ".svg" %}
-												<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.nav_icon_color }}">{{  icon_path | svgContents }}</span>
+						</li>
+					{% endfor %}
+					{% for sub_item in sub_nav.sub_card %}
+						{% if sub_item.featured_post_link %}
+							<a 
+								href="{{ sub_item.featured_post_link }}" 
+								class="block p-2 group border-2 border-[#393939] rounded-lg">
+								<div class="flex"> 
+									<div class="flex-1">
+										{% assign posts = collections.posts %}
+										{% for post in posts %}
+											{% if post.url == sub_item.featured_post_link %}
+												{% if sub_item.image.image_path %}
+													<img class="rounded-lg object-cover" src="{{ sub_item.image.image_path }}" alt="">
+												{% else %}
+													<img class="rounded-lg object-cover" src="{{ post.data.image }}" alt="">
+												{% endif %}	
+												<div class="text-base font-semibold pt-4 pb-1">
+													{% if sub_item.name %}
+														{{ sub_item.name }}
+													{% else %}
+														{{ post.data.title }}
+													{% endif %}
+												</div>
 											{% endif %}
-											<div class="flex-1 pl-4">
-												{% if sub_item.name %}
-													<span class="block text-neutral-700 text-base font-medium">
-														{{ sub_item.name }} 
-													</span>
-												{% endif %}
-												{% if sub_item.description %}
-													<span class="block text-neutral-500 text-xs">
-														{{ sub_item.description }}
-													</span>
-												{% endif %}
-											</div>
-										</div>
-									</a>
-								{% endif %}
-							</li>
-						{% endfor %}
+										{% endfor %}
+										<p class="flex text-cc font-bold">Learn more 
+											<span class="flex align-items-center w-4 inline-block ml-1 font-bold">
+												{{ "/src/images/icons/solid/arrow-right.svg" | svgContents }}
+											</span>
+										</p>
+									</div>
+								</div>
+							</a>
+						{% endif %}
+					{% endfor %}
 				{% endfor %}
 			</ul>
 		</div>
