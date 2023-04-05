@@ -176,6 +176,6 @@
           name: This partner is really great
           image:
             image_path: https://cc-dam.imgix.net/marketing/partners_1.png
-            image_alt:
+            image_alt: partner dashboard example
 - name: Pricing
   link: /pricing/
