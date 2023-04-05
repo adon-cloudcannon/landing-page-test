@@ -164,18 +164,18 @@
           image:
             image_path:
             image_alt:
-    - title: Featured Post
+    - title: Partner of the month
       sub_nav:
-        - name:
-          link:
-          description:
-          icon_path:
-          nav_icon_color:
+        - name: ''
+          link: ''
+          description: ''
+          icon_path: ''
+          nav_icon_color: ''
       sub_card:
-        - featured_page_link: /blog/cloudcannon-com-is-now-built-with-eleventy/
-          name:
+        - featured_page_link: /blog/introducing-the-cloudcannon-partner-program/
+          name: This partner is really great
           image:
-            image_path:
+            image_path: https://cc-dam.imgix.net/marketing/partners_1.png
             image_alt:
 - name: Pricing
   link: /pricing/
