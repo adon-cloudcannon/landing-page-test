@@ -87,7 +87,7 @@
           image:
             image_path:
             image_alt:
-    - title: ''
+    - title: Another Feature
       sub_nav:
         - name:
           link:
@@ -95,7 +95,7 @@
           nav_icon_color:
           description:
       sub_card:
-        - featured_post_link: /tutorials/eleventy-beginner-tutorial/blogging-in-eleventy/
+        - featured_post_link: /blog/introducing-the-cloudcannon-partner-program/
           name:
           image:
             image_path:
