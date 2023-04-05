@@ -28,19 +28,6 @@
           image:
             image_path:
             image_alt:
-    - title: Featured Case Study
-      sub_nav:
-        - name:
-          link:
-          icon_path:
-          nav_icon_color:
-          description:
-      sub_card:
-        - featured_page_link: /customers/ocupop/
-          name:
-          image:
-            image_path: https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png
-            image_alt: Ocupop Logo
     - title: Users
       sub_nav:
         - name: For Content Editors
@@ -87,7 +74,19 @@
           image:
             image_path:
             image_alt:
-
+    - title: Featured Case Study
+      sub_nav:
+        - name:
+          link:
+          icon_path:
+          nav_icon_color:
+          description:
+      sub_card:
+        - featured_page_link: /customers/ocupop/
+          name:
+          image:
+            image_path: https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png
+            image_alt: Ocupop Logo
 - name: Resources
   sub_navs:
     - title: Developers
@@ -159,7 +158,8 @@
           icon_path: outline/user
           nav_icon_color: cc
       sub_card:
-        - featured_page_link:
+        - featured_page_link: >-
+            /blog/the-top-five-static-site-generators-for-2023-and-when-to-use-them/
           name:
           image:
             image_path:
@@ -177,6 +177,5 @@
           image:
             image_path:
             image_alt:
-
 - name: Pricing
   link: /pricing/
