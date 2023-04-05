@@ -6,10 +6,10 @@ description: >-
   React-based SPA framework with a strong focus on features. Read on to compare
   these two SSGs and determine if you should choose Astro and support the
   underdog, or choose the tried-and-true Next.js.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/Astro vs. Nextjs.png
-date: 2023-04-06T05:03:00Z
+date: 2023-04-06T17:03:00Z
 hide_publish_date: false
 tags:
   - Astro
