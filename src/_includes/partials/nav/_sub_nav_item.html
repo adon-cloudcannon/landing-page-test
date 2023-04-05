@@ -5,16 +5,16 @@
 			<div class="py-5 mx-4">
 				<div class="uppercase text-gray-600 text-xs tracking-[.25em] pb-4">{{ sub_nav.title }}</div>
 				{% for sub_item in sub_nav.sub_nav %}
-					{% if sub_item.link != '' %}
+					{% if sub_item.link %}
 						<a 
 							href="{{ sub_item.link }}" 
 							class="block py-2 group">
 							<div class="flex">
-								{% if sub_item.icon_path != '' %}
+								{% if sub_item.icon_path %}
 									{% assign icon_path = "/src/images/icons/" | append: sub_item.icon_path | append: ".svg" %}
 									<span class="w-6 relative block transition [&>*]:stroke-{{ sub_item.nav_icon_color }}">{{  icon_path | svgContents }}</span>
 								{% endif %}
-								{% if sub_item.name != '' %}
+								{% if sub_item.name %}
 									<div class="flex-1 pl-4">
 										<div class="text-base font-semibold {% if sub_item.link == '' %}line-through{% endif %}">
 											{{ sub_item.name }}
@@ -25,7 +25,7 @@
 											</span>
 										</div>
 									{% endif %}
-									{% if sub_item.description != '' %}
+									{% if sub_item.description %}
 										<div class="text-nimbus text-sm group-hover:text-gray-900 transition max-w-[250px]">{{ sub_item.description }}</div>
 									{% endif %}
 								</div>
@@ -34,7 +34,7 @@
 					{% endif %}
 				{% endfor %}
 				{% for sub_item in sub_nav.sub_card %}
-					{% if sub_item.featured_page_link != '' %}
+					{% if sub_item.featured_page_link %}
 						<a 
 							href="{{ sub_item.featured_page_link }}" 
 							class="block p-2 group border-2 border-[#393939] rounded-lg">
@@ -43,13 +43,13 @@
 									{% assign pages = collections.all %}
 									{% for page in pages %}
 										{% if page.url == sub_item.featured_page_link %}
-											{% if sub_item.image.image_path != '' %}
+											{% if sub_item.image.image_path %}
 												<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ sub_item.image.image_path }}" alt="">
 											{% else %}
 												<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ page.data.image }}" alt="">
 											{% endif %}	
 											<div class="text-base font-semibold pt-4 pb-1">
-												{% if sub_item.name != '' %}
+												{% if sub_item.name %}
 													{{ sub_item.name }}
 												{% else %}
 													{{ page.data.title }}
