@@ -13,6 +13,7 @@ date: 2023-04-06T05:03:00Z
 hide_publish_date: false
 tags:
   - Astro
+  - Next.js
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
