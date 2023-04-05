@@ -76,8 +76,8 @@
             image_alt:
     - title: Featured Post
       sub_nav:
-        - name: 
-          link: 
+        - name:
+          link:
           icon_path:
           nav_icon_color:
           description:
@@ -87,7 +87,19 @@
           image:
             image_path:
             image_alt:
-
+    - title: ''
+      sub_nav:
+        - name:
+          link:
+          icon_path:
+          nav_icon_color:
+          description:
+      sub_card:
+        - featured_post_link: /tutorials/eleventy-beginner-tutorial/blogging-in-eleventy/
+          name:
+          image:
+            image_path:
+            image_alt:
 - name: Resources
   sub_navs:
     - title: Developers
