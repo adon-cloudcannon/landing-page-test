@@ -23,11 +23,24 @@
           nav_icon_color: cc
           description: Work with the frameworks you love
       sub_card:
-        - featured_page_link: ''
-          name: ''
+        - featured_post_link:
+          name:
           image:
-            image_path: ''
-            image_alt: ''
+            image_path:
+            image_alt:
+    - title: Featured Case Study
+      sub_nav:
+        - name:
+          link:
+          icon_path:
+          nav_icon_color:
+          description:
+      sub_card:
+        - featured_post_link: /customers/ocupop/
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Users
       sub_nav:
         - name: For Content Editors
@@ -56,11 +69,11 @@
           nav_icon_color: cc
           description: Collaborate, iterate, and publish seamlessly
       sub_card:
-        - featured_page_link: ''
-          name: ''
+        - featured_post_link:
+          name:
           image:
-            image_path: ''
-            image_alt: ''
+            image_path:
+            image_alt:
     - title: Use Cases
       sub_nav:
         - name: Case Studies
@@ -69,25 +82,29 @@
           nav_icon_color: cc
           description: Why the best choose CloudCannon
       sub_card:
-        - featured_page_link: ''
-          name: ''
+        - featured_post_link:
+          name:
           image:
-            image_path: ''
-            image_alt: ''
-    - title: Featured Case Study
+            image_path:
+            image_alt:
+    - title: Howdy Partners
       sub_nav:
-        - name: ''
-          link: ''
-          icon_path: ''
-          nav_icon_color: ''
-          description: ''
+        - name:
+          link:
+          icon_path:
+          nav_icon_color:
+          description:
       sub_card:
-        - featured_page_link: /customers/ocupop/
-          name: 'How Ocupop rapidly develops exceptional websites for clients'
+        - featured_post_link: /customers/twitch/
+          name:
           image:
-            image_path: 'https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png'
-            image_alt: 'Ocupop logo'
-
+            image_path:
+            image_alt:
+        - featured_post_link: /customers/netflix/
+          name:
+          image:
+            image_path:
+            image_alt:
 - name: Resources
   sub_navs:
     - title: Developers
@@ -113,11 +130,11 @@
           icon_path: outline/check-badge
           nav_icon_color: cc
       sub_card:
-        - featured_page_link: ''
-          name: ''
+        - featured_post_link:
+          name:
           image:
-            image_path: ''
-            image_alt: ''
+            image_path:
+            image_alt:
     - title: CloudCannon
       sub_nav:
         - name: Blog
@@ -141,11 +158,11 @@
           icon_path: outline/inbox
           nav_icon_color: cc
       sub_card:
-        - featured_page_link: ''
-          name: ''
+        - featured_post_link:
+          name:
           image:
-            image_path: ''
-            image_alt: ''
+            image_path:
+            image_alt:
     - title: Partners
       sub_nav:
         - name: Partner Program
@@ -159,11 +176,11 @@
           icon_path: outline/user
           nav_icon_color: cc
       sub_card:
-        - featured_page_link: ''
-          name: ''
+        - featured_post_link:
+          name:
           image:
-            image_path: ''
-            image_alt: ''
+            image_path:
+            image_alt:
     - title: Featured Post
       sub_nav:
         - name: ''
@@ -172,10 +189,10 @@
           icon_path: ''
           nav_icon_color: ''
       sub_card:
-        - featured_page_link: /blog/cloudcannon-com-is-now-built-with-eleventy/
-          name: ''
+        - featured_post_link: /blog/cloudcannon-com-is-now-built-with-eleventy/
+          name:
           image:
-            image_path: ''
-            image_alt: ''
+            image_path:
+            image_alt:
 - name: Pricing
   link: /pricing/
