@@ -6,21 +6,21 @@
           link: /website-editing/
           description: Intuitive editing for your content team
           icon_path: outline/paper-airplane
-          nav_icon_color: sea
+          nav_icon_color: cc_blue
         - name: Content Publishing
           link: /content-publishing/
           description: Work together, faster
           icon_path: outline/document-arrow-up
-          nav_icon_color: cc
+          nav_icon_color: cc_blue
         - name: Website Hosting
           link: /hosting/
           icon_path: outline/cloud
-          nav_icon_color: cc
+          nav_icon_color: cc_blue
           description: Host the fastest websites
         - name: Technologies
           link: /technologies/
           icon_path: outline/cube
-          nav_icon_color: cc
+          nav_icon_color: cc_blue
           description: Work with the frameworks you love
       sub_card:
         - featured_page_link:
@@ -34,26 +34,26 @@
           link: /for-content-editors/
           description: Create content with no roadblocks
           icon_path: outline/pencil-square
-          nav_icon_color: cc
+          nav_icon_color: emerald
         - name: For Marketers
           link: /for-marketers/
           description: Create SEO-optimized sites every time
           icon_path: outline/megaphone
-          nav_icon_color: cc
+          nav_icon_color: emerald
         - name: For Developers
           link: /for-developers/
           icon_path: outline/code-bracket-square
-          nav_icon_color: electric_purple
+          nav_icon_color: emerald
           description: Build, publish, and empower your team
         - name: For Digital Agencies
           link: /partner-program/
           icon_path: outline/paint-brush
-          nav_icon_color: cc
+          nav_icon_color: emerald
           description: Support and empower your clients
         - name: For Enterprise
           link: /enterprise/
           icon_path: outline/building-office
-          nav_icon_color: cc
+          nav_icon_color: emerald
           description: Collaborate, iterate, and publish seamlessly
       sub_card:
         - featured_page_link:
@@ -66,7 +66,7 @@
         - name: Case Studies
           link: /customers/
           icon_path: outline/user-circle
-          nav_icon_color: cc
+          nav_icon_color: amber
           description: Why the best choose CloudCannon
       sub_card:
         - featured_page_link:
@@ -95,22 +95,22 @@
           link: https://cloudcannon.com/documentation/
           description: CloudCannon resources and guides
           icon_path: outline/code-bracket-square
-          nav_icon_color: cc
+          nav_icon_color: comet
         - name: Tutorials
           link: /tutorials/
           description: Learn Jamstack with CloudCannon
           icon_path: outline/academic-cap
-          nav_icon_color: cc
+          nav_icon_color: comet
         - name: Jamstack Ecosystem
           link: /jamstack-ecosystem/
           description: The best tooling for your next website
           icon_path: outline/gift
-          nav_icon_color: cc
+          nav_icon_color: comet
         - name: Jekyll Cheatsheet
           link: /cheat-sheets/jekyll/
           description: Everything you need at a glance
           icon_path: outline/check-badge
-          nav_icon_color: cc
+          nav_icon_color: comet
       sub_card:
         - featured_page_link:
           name:
@@ -123,22 +123,22 @@
           link: /blog/
           description: The latest from CloudCannon
           icon_path: outline/key
-          nav_icon_color: midnight
+          nav_icon_color: electric_purple
         - name: Events
           link: /events/
           description: Join us and share the knowledge
           icon_path: outline/microphone
-          nav_icon_color: cc
+          nav_icon_color: electric_purple
         - name: Templates
           link: /templates/
           description: Get started with a pre-configured site
           icon_path: outline/puzzle-piece
-          nav_icon_color: cc
+          nav_icon_color: electric_purple
         - name: Support
           link: /support/
           description: We're here to help
           icon_path: outline/inbox
-          nav_icon_color: cc
+          nav_icon_color: electric_purple
       sub_card:
         - featured_page_link:
           name:
@@ -151,12 +151,12 @@
           link: /partner-program/
           description: Support and empower your clients
           icon_path: outline/briefcase
-          nav_icon_color: cc
+          nav_icon_color: cc_blue
         - name: Expert Directory
           link: /experts/
           description: Find an Expert
           icon_path: outline/user
-          nav_icon_color: cc
+          nav_icon_color: cc_blue
       sub_card:
         - featured_page_link: >-
             /blog/the-top-five-static-site-generators-for-2023-and-when-to-use-them/
