@@ -4,6 +4,40 @@
 		{% for sub_nav in item.sub_navs %}
 			<div class="py-5 mx-4">
 				<div class="uppercase text-gray-600 text-xs tracking-[.25em] pb-4">{{ sub_nav.title }}</div>
+				{% for sub_item in sub_nav.sub_card %}
+					{% if sub_item.featured_post_link %}
+						<a 
+							href="{{ sub_item.featured_post_link }}" 
+							class="block p-2 group border-2 border-[#393939] rounded-lg">
+							<div class="flex"> 
+								<div class="flex-1">
+									{% assign posts = collections.posts %}
+									{% for post in posts %}
+										{% if post.url == sub_item.featured_post_link %}
+											{% if sub_item.image.image_path %}
+												<img class="rounded-lg h-[138px] object-cover" src="{{ sub_item.image.image_path }}" alt="">
+											{% else %}
+												<img class="rounded-lg h-[138px] object-cover" src="{{ post.data.image }}" alt="">
+											{% endif %}	
+											<div class="text-base font-semibold pt-4 pb-1">
+												{% if sub_item.name %}
+													{{ sub_item.name }}
+												{% else %}
+													{{ post.data.title }}
+												{% endif %}
+											</div>
+										{% endif %}
+									{% endfor %}
+									<p class="flex text-cc font-bold">Learn more 
+										<span class="flex align-items-center w-4 inline-block ml-1 font-bold">
+											{{ "/src/images/icons/solid/arrow-right.svg" | svgContents }}
+										</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					{% endif %}
+				{% endfor %}
 				{% for sub_item in sub_nav.sub_nav %}
 					{% if sub_item.link %}
 						<a 
@@ -28,38 +62,6 @@
 									{% if sub_item.description %}
 										<div class="text-nimbus text-sm group-hover:text-gray-900 transition max-w-[250px]">{{ sub_item.description }}</div>
 									{% endif %}
-								</div>
-							</div>
-						</a>
-					{% endif %}
-					{% if sub_item.sub_card.featured_post_link %}
-						<a 
-							href="{{ sub_item.sub_card.featured_post_link }}" 
-							class="block p-2 group border-2 border-[#393939] rounded-lg">
-							<div class="flex"> 
-								<div class="flex-1">
-									{% assign posts = collections.posts %}
-									{% for post in posts %}
-										{% if post.url == sub_item.sub_card.featured_post_link %}
-											{% if sub_item.sub_card.image.image_path %}
-												<img class="rounded-lg h-[138px] object-cover" src="{{ sub_item.sub_card.image.image_path }}" alt="">
-											{% else %}
-												<img class="rounded-lg h-[138px] object-cover" src="{{ post.data.image }}" alt="">
-											{% endif %}	
-											<div class="text-base font-semibold pt-4 pb-1">
-												{% if sub_item.sub_card.name %}
-													{{ sub_item.sub_card.name }}
-												{% else %}
-													{{ post.data.title }}
-												{% endif %}
-											</div>
-										{% endif %}
-									{% endfor %}
-									<p class="flex text-cc">Learn more 
-										<span class="flex align-items-center w-4 inline-block ml-1">
-											{{ "/src/images/icons/solid/arrow-right.svg" | svgContents }}
-										</span>
-									</p>
 								</div>
 							</div>
 						</a>

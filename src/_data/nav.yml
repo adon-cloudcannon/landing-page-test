@@ -7,45 +7,27 @@
           description: Intuitive editing for your content team
           icon_path: outline/paper-airplane
           nav_icon_color: sea
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
         - name: Content Publishing
           link: /content-publishing/
           description: Work together, faster
           icon_path: outline/document-arrow-up
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
           nav_icon_color: cc
         - name: Website Hosting
           link: /hosting/
           icon_path: outline/cloud
           nav_icon_color: cc
           description: Host the fastest websites
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
         - name: Technologies
           link: /technologies/
           icon_path: outline/cube
           nav_icon_color: cc
           description: Work with the frameworks you love
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
+      sub_card:
+        - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Users
       sub_nav:
         - name: For Content Editors
@@ -53,56 +35,32 @@
           description: Create content with no roadblocks
           icon_path: outline/pencil-square
           nav_icon_color: cc
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
         - name: For Marketers
           link: /for-marketers/
           description: Create SEO-optimized sites every time
           icon_path: outline/megaphone
           nav_icon_color: cc
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
         - name: For Developers
           link: /for-developers/
           icon_path: outline/code-bracket-square
           nav_icon_color: electric_purple
           description: Build, publish, and empower your team
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
         - name: For Digital Agencies
           link: /partner-program/
           icon_path: outline/paint-brush
           nav_icon_color: cc
           description: Support and empower your clients
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
         - name: For Enterprise
           link: /enterprise/
           icon_path: outline/building-office
           nav_icon_color: cc
           description: Collaborate, iterate, and publish seamlessly
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
+      sub_card:
+        - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Use Cases
       sub_nav:
         - name: Case Studies
@@ -110,25 +68,25 @@
           icon_path: outline/user-circle
           nav_icon_color: cc
           description: Why the best choose CloudCannon
-          sub_card:
-            featured_post_link:
-            name:
-            image:
-              image_path: 
-              image_alt:
+      sub_card:
+        - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Featured Post
       sub_nav:
         - name: 
           link: 
           icon_path:
           nav_icon_color:
-          description: 
-          sub_card:
-            featured_post_link: /blog/out-of-this-world-support-for-all-astro-users/
-            name:
-            image:
-              image_path: 
-              image_alt:
+          description:
+      sub_card:
+        - featured_post_link: /blog/out-of-this-world-support-for-all-astro-users/
+          name:
+          image:
+            image_path:
+            image_alt:
 
 - name: Resources
   sub_navs:
@@ -154,6 +112,12 @@
           description: Everything you need at a glance
           icon_path: outline/check-badge
           nav_icon_color: cc
+      sub_card:
+        - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: CloudCannon
       sub_nav:
         - name: Blog
@@ -176,6 +140,12 @@
           description: We're here to help
           icon_path: outline/inbox
           nav_icon_color: cc
+      sub_card:
+        - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Partners
       sub_nav:
         - name: Partner Program
@@ -188,5 +158,11 @@
           description: Find an Expert
           icon_path: outline/user
           nav_icon_color: cc
+      sub_card:
+        - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
 - name: Pricing
   link: /pricing/
