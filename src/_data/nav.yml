@@ -69,17 +69,12 @@
           nav_icon_color: cc
           description: Why the best choose CloudCannon
       sub_card:
-        - featured_post_link: /blog/introducing-the-cloudcannon-partner-program/
+        - featured_post_link:
           name:
           image:
             image_path:
             image_alt:
-        - featured_post_link: /blog/introducing-the-cloudcannon-partner-program/
-          name:
-          image:
-            image_path:
-            image_alt:
-    - title: Featured Post
+    - title: Featured Case Study
       sub_nav:
         - name:
           link:
@@ -87,7 +82,7 @@
           nav_icon_color:
           description:
       sub_card:
-        - featured_post_link: /blog/out-of-this-world-support-for-all-astro-users/
+        - featured_post_link: /customers/ocupop/
           name:
           image:
             image_path:
@@ -164,6 +159,19 @@
           nav_icon_color: cc
       sub_card:
         - featured_post_link:
+          name:
+          image:
+            image_path:
+            image_alt:
+    - title: Featured Post
+      sub_nav:
+        - name: ''
+          link: ''
+          description: ''
+          icon_path: ''
+          nav_icon_color: ''
+      sub_card:
+        - featured_post_link: /blog/cloudcannon-com-is-now-built-with-eleventy/
           name:
           image:
             image_path:
