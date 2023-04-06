@@ -151,7 +151,6 @@ collections_config:
         bulletedlist: true
         numberedlist: true
         code: true
-        embed: true
         horizontalrule: true
         image: true
         table: true
