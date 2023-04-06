@@ -168,14 +168,13 @@
           icon_path: outline/user
           nav_icon_color: cc_blue
       sub_card: []
-    - title: Featured Post
+    - title:
       sub_nav:
       sub_card:
-        - featured_page_link: >-
-            /blog/the-top-five-static-site-generators-for-2023-and-when-to-use-them/
-          name:
+        - featured_page_link: /blog/introducing-the-cloudcannon-partner-program/
+          name: Partner of the month
           image:
-            image_path:
-            image_alt:
+            image_path: https://cc-dam.imgix.net/Partner-test.jpg
+            image_alt: Computer on desk
 - name: Pricing
   link: /pricing/
