@@ -324,7 +324,36 @@ _structures:
   blocks:
     style: modal
   content_blocks: 
-    style: modal
+    style: 
+  sub_navs:
+    values:
+      - label: Card
+        icon: card
+        value:
+          - sub_card:
+      - label: Sub Nav
+        icon: image
+        value:
+          - sub_nav:
+  sub_card:
+    label: Sub Card
+    icon: card
+    value:
+      - featured_page_link:
+        name:
+        image:
+          image_path:
+          image_alt:
+  sub_nav:
+    label: Sub Nav Item
+    icon: image
+    value:
+      - name:
+        link:
+        description:
+        icon_path:
+        nav_icon_color:
+
 
 _inputs:
   layout:
