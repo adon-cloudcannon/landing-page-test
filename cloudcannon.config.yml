@@ -146,17 +146,10 @@ collections_config:
         link: true
         bulletedlist: true
         numberedlist: true
-        embed: true
         horizontalrule: true
         image: true
         table: true
-        removeformat: true
-        copyformatting: true
         styles: /css/editor.css
-        left: align-left
-        center: align-center
-        right: align-right
-        justify: align-justify
         snippet: true
     filter:
       exclude:
