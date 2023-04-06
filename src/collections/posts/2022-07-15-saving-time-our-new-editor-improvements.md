@@ -1,9 +1,21 @@
 ---
+draft: false
 title: 'Saving Time: Our New Editor Improvements'
 description: >-
   We’re bringing significant improvements to editing and saving in CloudCannon.
   Our focus: reducing wait time for builds.  
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/editor-hero-c_cikb1v.jpg
 date: 2022-07-15T05:00:00.000Z
 tags:
   - Features
-author: dave-strydom
+author: 94d9454d-d560-4dc5-8acd-1bd804305709
 ---
 Recently, we’ve devoted our focus to reducing editing disruption and build-wait times when saving and working across our Visual, Source, Content, and Data Editors. Behind this focus are careful conversations with customers and testers. In particular, we wanted to reduce the time our users spent waiting when editing in bulk across multiple pages or on a single page across different Editors.
 

@@ -1,10 +1,22 @@
 ---
+draft: false
 title: 'Maximizing the convenience factor: archetypes in Hugo'
 description: >-
   Hugo is packed with features designed specifically to provide category-leading
   convenience to both developers and site owners. In this article, we’ll take a
   closer look at Hugo’s archetypes.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-03-24T06:00:00+1300
 tags:
   - Hugo
   - Resources
-author: bryce-wray
+author: 7abe9500-0933-48af-9130-87389dc36c9b
 templateEngineOverride: md
 ---
 There are many reasons why static site generators (SSGs) have become so popular, especially in recent years. The reason which seems to come up most often is that SSG-based sites have superior performance and security, which certainly is true enough.

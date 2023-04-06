@@ -1,6 +1,7 @@
 ---
+_schema: default
 title: WebVolta
-weight: 1
+weight: 3
 description: |
   We believe every business deserves beautiful design and innovative technology.
 long_description: >-
@@ -19,36 +20,42 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-13-at-2-38-08-pm.png
 logo_image: /images/logos/experts/web-volta-black-1.svg
 location: Minneapolis, MN, USA
-frameworks:
-  - jekyll
 links:
   site_url: https://www.webvolta.com/
   facebook_url: https://www.facebook.com/webvolta/
   instagram_url: https://www.instagram.com/webvolta/?hl=en
   twitter_url: https://twitter.com/webvolta
   linkedin_url: https://www.linkedin.com/company/webvolta-llc
+ssg_frameworks:
+  - jekyll
 slides:
   - title: Staffing Proxy
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-10-02-pm.png
     content_markdown: >-
       New static site branding, design and development of static site, including
       integration with recruiting software via a small backend Rails app.
+
+
+      <a target="_blank" rel="noopener"
+      href="https://www.staffingproxy.com/">View Staffing Proxy's website
+      &gt;</a>
   - title: Brushed Monkey
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-4-44-44-pm.png
-    content_markdown: Partial rebrand, new website design and development of static site.
+    content_markdown: >-
+      Partial rebrand, new website design and development of static site.
+
+
+      <a target="_blank" rel="noopener" href="https://brushedmonkey.com/">View
+      Brushed Monkey's website &gt;</a>
   - title: Rick's Coffee Bar
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-4-20-08-pm.png
-    content_markdown: Rapid late stage design and development of non-profit static site.
-details_block:
-  _bookshop_name: experts/details
-  location: Minneapolis, MN, USA
-  frameworks:
-    - jekyll
-  partner_level:
-  facebook_url: https://www.facebook.com/webvolta/
-  instagram_url: https://www.instagram.com/webvolta/?hl=en
-  twitter_url: https://twitter.com/webvolta
-  linkedin_url: https://www.linkedin.com/company/webvolta-llc
+    content_markdown: >-
+      Rapid late stage design and development of non-profit static site.
+
+
+      <a target="_blank" rel="noopener"
+      href="https://www.rickscoffeebar.com/">View Rick's Coffee Bar's website
+      &gt;</a>
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

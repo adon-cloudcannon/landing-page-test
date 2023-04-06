@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Top 10 Hugo Themes for 2022
 description: >-
   CloudCannon showcases a range of popular and actively developed Hugo themes to
   help you get started with your latest build as quickly as possible (and with
   Hugo, that’s pretty quick).
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-03-03T05:00:00+1300
 tags:
   - Hugo
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Building websites with Hugo has a broad appeal to many developers and digital agencies, not least among them the raw speed of the static site generator when it comes to build times and deployment. But what about customizing a site's layout and appearance? That's where Hugo's themes come into play. 
 

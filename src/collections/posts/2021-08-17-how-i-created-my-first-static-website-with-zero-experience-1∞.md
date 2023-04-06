@@ -1,8 +1,20 @@
 ---
+draft: false
 title: How I created my first static website, with zero experience (1/∞)
 description: >-
   Or; A Jamstack Beginner’s Illustrated Primer. A beginner's guide to creating
   static sites. Part 1 of the series.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ image: https://cc-dam.imgix.net/blog/lowry-mss-2.jpg
 date: 2021-08-17T05:00:00+1200
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 ## Part **1: Background \| Preamble**
 

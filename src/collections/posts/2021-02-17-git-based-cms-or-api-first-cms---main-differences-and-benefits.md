@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Git-based CMS or API-first CMS - main differences and benefits
 description: >-
   Git-based and API-first CMSs solve many content management problems, but what
@@ -6,7 +7,18 @@ description: >-
 date: 2021-02-17T15:36:00+1300
 tags:
   - Resources
-author: farrel-burns
+author: 93e88eb0-4e70-4537-bbbc-c2ada0537da5
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

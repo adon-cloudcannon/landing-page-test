@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Artisanal Web Development
 description: >-
   Artisanal Web Development is a very useful approach for development projects
@@ -6,6 +7,17 @@ description: >-
   important to you. Perhaps the biggest benefit, however, is both furthering and
   reinforcing your own education.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -15,7 +27,7 @@ date: 2022-10-12T05:00:00+1300
 hide_publish_date: false
 tags:
   - Opinion
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 On [our last episode of Static Feedback](https://www.youtube.com/watch?v=MuAe7aZu0Nw), I spoke with [Joost van der Schee](https://www.usecue.com/) about ‘Artisanal Web Development’, the approach he takes to solo web development projects. Over the course of our conversation we talked at length about the importance of knowing the purpose and scope of each line of code, and the value of approaching new projects like this.
 

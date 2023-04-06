@@ -1,10 +1,22 @@
 ---
+draft: false
 title: "Choosing a CMS for your Static Site: Part 2 —\_Headless? Git-based, or API-based?"
 description: >-
   What is a headless CMS? What's the difference between a Git-based CMS and an
   API-based CMS? Discover which CMS category will suit you best, so you can
   choose the best CMSs to evaluate.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-09-14T05:00:00+1200
 hide_publish_date: true
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Congratulations\! You’re well on your way to identify the right content management system (CMS) for your team. At this stage in your journey you’re already likely to recognize [the benefits of modern static sites](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/), and you might have even chosen your preferred [static site generator (SSG)](https://cloudcannon.com/blog/what-is-a-static-site-generator/) and planned the process of [selecting your new CMS for your static website](https://cloudcannon.com/blog/choosing-a-cms-for-your-static-site-part-1/).
 

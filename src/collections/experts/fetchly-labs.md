@@ -1,6 +1,7 @@
 ---
+_schema: default
 title: Fetchly Labs
-weight: 1
+weight: 2
 description: >-
   Your Dev Team as a Service. Tap into an existing dev team and scale on
   services your business needs.
@@ -15,10 +16,16 @@ long_description: >-
   and quality assurance.</p><p>Our developers have decades of experience in the
   Web and Mobile, JAMStack, third-party integrations, data driven systems,
   eCommerce, and messaging systems (chat, SMS, email, push notifications).</p>
-website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-08-at-10-41-21-am.png
+website_image: https://cc-dam.imgix.net/Screenshot 2023-03-16 at 10.53.54 AM (1).png
 logo_image: /images/logos/experts/group-4.svg
 location: Austin, TX, USA
-frameworks:
+links:
+  site_url: http://www.fetch.ly/
+  facebook_url:
+  instagram_url:
+  twitter_url:
+  linkedin_url: https://www.linkedin.com/company/fetchly-labs/
+ssg_frameworks:
   - jekyll
   - hugo
   - 11ty
@@ -28,30 +35,6 @@ frameworks:
   - sveltekit
   - astro
   - mkdocs
-links:
-  site_url: http://www.fetch.ly/
-  facebook_url:
-  instagram_url:
-  twitter_url:
-  linkedin_url: https://www.linkedin.com/company/fetchly-labs/
-details_block:
-  _bookshop_name: experts/details
-  location: Austin, TX, USA
-  frameworks:
-    - jekyll
-    - hugo
-    - 11ty
-    - gatsby
-    - nextjs
-    - nuxtjs
-    - sveltekit
-    - astro
-    - mkdocs
-  partner_level:
-  facebook_url:
-  instagram_url:
-  twitter_url:
-  linkedin_url: https://www.linkedin.com/company/fetchly-labs/
 slides:
   - title: Lowe's Build A Birthday
     image: https://cc-dam.imgix.net/uploads/screenshot-2023-01-31-at-4-23-44-pm.png
@@ -63,6 +46,11 @@ slides:
       Work highlights: custom web design, custom "Lil Builders Party Kit" tool
       allows customers to create their own party experience & custom API
       checkout integration.
+
+
+      <a target="_blank" rel="noopener"
+      href="https://www.lowes.com/l/shop/build-a-birthday">View Lowe's website
+      &gt;</a>
   - title: Nightout
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-16-05-pm.png
     content_markdown: >-
@@ -73,16 +61,10 @@ slides:
       Work highlights: web & app redesign, powerful ElasticSearch functionality,
       admin tool for content curation, custom email tool (SES) & custom API
       checkout integration.
-  - title: Oats Overnight
-    image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-16-48-pm.png
-    content_markdown: >-
-      The Original Overnight Oats Shake™ is a Complete Grab-and-Go Meal Packed
-      with Nutrients. Made in the USA.
 
 
-      Work highlights: custom “Build a Box” tool allows customers to select
-      various flavors and schedule delivery & user dashboard to manage
-      subscriptions - Shopify API integration.
+      <a target="_blank" rel="noopener" href="http://nightout.com">View
+      Nightout's website &gt;</a>
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

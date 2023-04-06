@@ -1,9 +1,21 @@
 ---
+draft: false
 title: 3 ways to improve your web design skills
 date: 2014-11-17
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 tags:
   - Resources
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

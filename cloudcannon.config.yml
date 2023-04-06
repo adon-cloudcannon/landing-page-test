@@ -8,8 +8,9 @@ collections_config:
     schemas:
       default:
         path: .cloudcannon/schemas/author.md
+    disable_add_folder: true
     _enabled_editors:
-      - content
+      - data
     icon: face
     filter:
       exclude:
@@ -35,11 +36,32 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: true
     _enabled_editors:
-      - content
+      - data
+    schemas:
+      default:
+        path: .cloudcannon/schemas/expert.md
     icon: school
     filter:
       exclude:
         - experts.json
+    _inputs:
+      long_description:
+        type: html
+      weight:
+        comment: a lower weight will display this expert higher in the list.
+        type: number
+      form_embed:
+        type: code
+        options:
+          syntax: html
+    _structures:
+      slides:
+        values:
+        - label: Slide
+          value:
+            title:
+            image:
+            content_markdown:
   jekyll-cheat-sheets:
     description: Data for the Jekyll cheat sheet
     output: false
@@ -58,20 +80,24 @@ collections_config:
     output: false
     path: '_data'
     icon: settings_applications
-  themes:
-    description: A list of themes
+  templates:
+    description: A list of templates
     output: true
-    path: 'collections/themes'
+    path: 'collections/templates'
+    disable_add_folder: true
     icon: palette
+    _enabled_editors:
+      - data
     schemas:
       default:
-        path: .cloudcannon/schemas/theme.md
+        path: .cloudcannon/schemas/template.md
     filter:
       exclude:
-        - themes.json
+        - templates.11tydata.js
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
+    disable_add_folder: true
     path: 'collections/tutorials'
     schemas:
       default:
@@ -88,6 +114,10 @@ collections_config:
       default:
         path: .cloudcannon/schemas/lesson.md
     icon: menu_book
+    _inputs:
+      order:
+        type: number
+        comment: The position of this lesson in the tutorial.
     filter:
       exclude:
         - lessons.json
@@ -98,10 +128,44 @@ collections_config:
     schemas:
       default:
         path: .cloudcannon/schemas/post.md
+        remove_extra_inputs: false
+        remove_empty_inputs: false
     icon: rss_feed
     filter:
       exclude:
         - posts.json
+    _inputs:
+      author:
+        type: select
+        options:
+          values: collections.authors
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
+      tags:
+        type: multiselect
+        options:
+          values:
+            - Agencies
+            - Astro
+            - Beginner
+            - Bridgetown
+            - Cheat-sheet
+            - Company
+            - Eleventy
+            - Experts
+            - Features
+            - Gatsby
+            - Hugo
+            - Jekyll
+            - Mkdocs
+            - Next-js
+            - Nuxt-js
+            - Opinion
+            - Resources
+            - Sveltekit
+            - Tutorials
   ecosystem:
     description:
     output: true
@@ -113,7 +177,9 @@ collections_config:
       exclude:
         - ecosystem.json
     icon: token
-  case_study_quote:
+    _enabled_editors:
+      - data
+  case-study-quote:
     description: A quote for case studies
     output: false
     path: 'collections/case-study-quote'
@@ -124,7 +190,20 @@ collections_config:
       exclude:
         - case-study-quote.json
     icon: format_quote
-  case_study_people:
+    _enabled_editors:
+      - data
+    _inputs:
+      quote:
+        type: textarea
+      case_study_person:
+        type: select
+        options:
+          values: collections.case-study-people
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
+  case-study-people:
     description: A person in a case study who can make quotes
     output: false
     path: 'collections/case-study-people'
@@ -134,7 +213,18 @@ collections_config:
     filter:
       exclude:
         - case-study-people.json
+    _enabled_editors:
+      - data
     icon: sentiment_satisfied
+    _inputs:
+      case_study:
+        type: select
+        options:
+          values: collections.case-studies
+          value_key: uuid
+          preview:
+            text: 
+            - key: title
   events:
     description: Past and future CloudCannon related events
     output: false
@@ -146,6 +236,8 @@ collections_config:
       exclude:
         - events.json
     icon: event
+    _enabled_editors:
+      - data
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true
@@ -219,10 +311,28 @@ collections_config:
       description:
         type: textarea
         comment: Shows under the title on the case study page
+      case_study_person:
+        type: select
+        options:
+          values: collections.case-study-people
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
+
+_structures:
+  blocks:
+    style: modal
+  content_blocks: 
+    style: modal
 
 _inputs:
   layout:
     hidden: true
+  lead_score: 
+    type: number
+  weight: 
+    type: number
   uuid:
     instance_value: UUID
     hidden: true
@@ -237,6 +347,19 @@ _inputs:
       values:
         - top
         - center
+  ssg_frameworks:
+    type: multiselect
+    options:
+      values:
+        - jekyll
+        - 11ty
+        - astro
+        - gatsby
+        - hugo
+        - mkdocs
+        - nextjs
+        - nuxtjs
+        - sveltekit
   icon_path:
     type: select
     options:

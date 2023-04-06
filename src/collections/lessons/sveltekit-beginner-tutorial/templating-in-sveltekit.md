@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Templating in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 4
@@ -20,87 +21,89 @@ Templating is one of the most common things you’ll be doing in SvelteKit, so l
 ### Output a string
 
 {% raw %}
- ```html
-<p>You can write normal HTML, and when you want to switch to Svelte, 
+
+```html
+<p>You can write normal HTML, and when you want to switch to Svelte,
 you can use single curly braces like this: { "Hello!" }</p>
 ```
-{% endraw %}
 
+{% endraw %}
 
 ### Output prop value
 
-
 {% raw %}
- ```html
+
+```html
 <script>
-  export let favorite_treat = 'bone';
+ export let favorite_treat = 'bone';
 </script>
 
 <p>My favorite treat is a { favorite_treat }</p>
 ```
-{% endraw %}
 
+{% endraw %}
 
 ### Conditions
 
-
 {% raw %}
- ```html
+
+```html
 <script>
-  export let goodBoy = true;
+ export let goodBoy = true;
 </script>
 
 {#if goodBoy}
-  <p>One treat please.</p>
+ <p>One treat please.</p>
 {:else}
-  <p>No treats for me.</p>
+ <p>No treats for me.</p>
 {/if}
 ```
-{% endraw %}
 
+{% endraw %}
 
 ### Looping
 
-
 {% raw %}
- ```html
+
+```html
 <script>
-  export let whoLetTheDogsOut = [
-    'Bryan',
-    'Sally',
-    'Garry'
-  ];
+ export let whoLetTheDogsOut = [
+   'Bryan',
+   'Sally',
+   'Garry'
+ ];
 </script>
 
 <ul>
 {#each whoLetTheDogsOut as name}
-  <li>{name}</li>
+ <li>{name}</li>
 {/each}
 </ul>
 ```
-{% endraw %}
 
+{% endraw %}
 
 ### Interactive element
 
-
 {% raw %}
- ```html
+
+```html
 <script>
-  let count = 0;
-	
-  function handleClick() {
-    count += 1;
-  }
+ let count = 0;
+
+ function handleClick() {
+   count += 1;
+ }
 </script>
 
 <button on:click={handleClick}>
-  clicks: {count}
+ clicks: {count}
 </button>
 
 <!-- When you click the button it will run the handleClick function
 and live update {count} -->
 ```
+
 {% endraw %}
 
 That gives you some of the basic tools to play with. You’ll be using these concepts over and over again through your SvelteKit journey.
@@ -112,24 +115,27 @@ We’ve seen a lot of different concepts here. Let’s put it into practice by a
 First, we’ll create a component for the footer. Create `/src/lib/Footer.svelte` with the following content:
 
 {% raw %}
- ```html
+
+```html
 <script>
-  let now = new Date();
+ let now = new Date();
 </script>
 
 <footer>
-  Website was generated { today }
+ Website was generated { today }
 </footer>
 ```
+
 {% endraw %}
 
 Just like we did earlier, now we can import `Footer` into our layout and render the component:
 
 {% raw %}
- ```html
+
+```html
 <script>
-  import Nav from '$lib/Nav.svelte';
-  import Footer from '$lib/Footer.svelte';
+ import Nav from '$lib/Nav.svelte';
+ import Footer from '$lib/Footer.svelte';
 </script>
 
 <h1>Svelte's space</h1>
@@ -140,16 +146,16 @@ Just like we did earlier, now we can import `Footer` into our layout and render 
 <Footer />
 
 <style lang="scss">
-    :global(body) {
-    width: 400px;
-    margin: 0 auto;
-    font-family: sans-serif;
-  }
+   :global(body) {
+   width: 400px;
+   margin: 0 auto;
+   font-family: sans-serif;
+ }
 </style>
 ```
+
 {% endraw %}
 
 ## What’s next?
 
 Let’s put our templating knowledge to the test by creating a blog.
-

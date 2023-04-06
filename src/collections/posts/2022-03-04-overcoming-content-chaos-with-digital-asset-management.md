@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Overcoming content chaos with Digital Asset Management
 description: >-
   Digital Asset Management (DAM) solutions help companies organize, store, and
   retrieve their digital assets, manage rights and permissions, and establish
   meaningful connections between disparate files.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/content-chaos_xyexmt.jpg
 date: 2022-03-04T05:00:00+1300
 tags:
   - Features
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 We're happy to announce Digital Asset Management (DAM) support for [Amazon S3](https://aws.amazon.com/s3/), [Google Cloud Storage buckets](https://cloud.google.com/storage/docs/buckets), and [Cloudinary](https://cloudinary.com/) within CloudCannon for all users, and [Tenovos](https://tenovos.com/) support for users on our Enterprise plans. CloudCannon is proudly Git-powered (with Git LFS support), which is ideal for almost all the files that comprise a static site, but Git repositories aren't always the best place for large volumes of media assets. Git repository sizes are commonly limited to around 2GB, which can pretty quickly be filled with high-resolution images, video, and large documents.
 

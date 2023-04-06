@@ -1,8 +1,20 @@
 ---
+draft: false
 title: Choosing a static site generator with zero experience
 description: >-
   Choosing a static site generator that will work for you, without all that
   pesky 'developer knowledge'.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ image: https://cc-dam.imgix.net/blog/choosing-ssg-beginner.jpg
 date: 2021-09-02T05:00:00+1200
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 ## Part 3: Choices, choices, choices
 

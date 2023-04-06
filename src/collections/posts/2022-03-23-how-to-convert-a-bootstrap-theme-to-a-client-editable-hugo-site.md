@@ -1,10 +1,22 @@
 ---
+draft: false
 title: How to convert a Bootstrap theme to a client-editable Hugo site
 description: >-
   In this tutorial, you’ll learn how to take an existing, MIT-licensed Bootstrap
   template, convert it into a Hugo theme, and then set it up for client editing
   and rich page-building with CloudCannon and our open-source Bookshop tool.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-03-23T05:00:00+1300
 tags:
   - Hugo
   - Resources
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Do you want to bring something fresh to your Hugo clients? Or perhaps you want to bring the speed and flexibility of Hugo to non-technical users? Look no further. We’ve launched a [new in-depth tutorial over on the CloudCannon Learn pages](/tutorials/bootstrap-to-a-client-editable-hugo-site/)\!
 

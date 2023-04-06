@@ -6,9 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }} | CloudCannon</title>
 	<link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/_pagefind/pagefind-modular-ui.css" type="text/css">
+	<link rel="stylesheet" href="/_pagefind/pagefind-modular-ui.css" type="text/css">
 	<link rel="preload" href="/fonts/tt-norms-pro/regular.woff2" as="font" crossOrigin="anonymous" type="font/woff2">
 	<link rel="preload" href="/fonts/tt-norms-pro/bold.woff2" as="font" crossOrigin="anonymous" type="font/woff2">
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://www.google-analytics.com">
 	<link href="https://cloudcannon.com/blog/feed.xml" rel="alternate" title="CloudCannon" type="application/atom+xml">
 	<script src="/js/main.js" defer></script>
 
@@ -17,10 +19,11 @@
 	{% include 'partials/head/analytics.html' %} 
 </head>
 
-<body class="overflow-x-hidden subpixel-antialiased text-carbon">
+<body class="overflow-x-clip subpixel-antialiased text-carbon relative">
 	{% include 'partials/nav/_nav.html' %}
 	{{ content }}
 	{% include 'partials/footer/_footer.html' %}
+	{% include 'partials/footer/analytics.html' %} 
 </body>
 </html>
 

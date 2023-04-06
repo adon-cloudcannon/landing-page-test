@@ -40,7 +40,7 @@ The requirements were demanding. It would need to stand up sites quickly, sharpl
 
 Twitch trialled numerous headless CMS but found in each case that they were too complex in use and that content was disconnected from the live site.
 
-{% bookshop "markdown/quote" quote:"CloudCannon provides a quality editing interface for our marketing team while allowing developers to use the tools and workflows they know." %}
+> CloudCannon provides a quality editing interface for our marketing team while allowing developers to use the tools and workflows they know.
 
 ### The right choice for a fast-moving business
 
@@ -50,7 +50,7 @@ The breakthrough came when CloudCannon was put through its paces. It quickly mat
 
 Harnack first transitioned Twitch’s legal pages to CloudCannon and then made it the default for all the company’s microsites. “CloudCannon provides a quality editing interface for our marketing team,” he explains, “while allowing developers to use the tools and workflows they know.”
 
-{% bookshop "markdown/quote" quote:"CloudCannon is the perfect mix — editors find it easy to update content inline and their content is saved back to our Git repository, so we never felt locked in." %}
+> CloudCannon is the perfect mix — editors find it easy to update content inline and their content is saved back to our Git repository, so we never felt locked in.
 
 ### Twitch and CloudCannon’s partnership
 

@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Git-based CMS
+title: The Best Git-based CMS for Static Sites
 layout: builder.html
 permalink: /git-cms/
 description: >-
@@ -106,7 +106,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Book a demo
-                  link: https://easy-sky.cloudvent.net/book-a-demo/
+                  link: /book-a-demo/
                 styles:
                   style: normal
                   size: big
@@ -114,7 +114,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Get started with a free trial
-                  link: /https://app.cloudcannon.com/editor
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: outline
                   size: big
@@ -458,9 +458,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -517,7 +517,7 @@ content_blocks:
                             text_sizing:
                               text_size: normal
                             margin:
-                              top: 20
+                              top: 0
                               bottom: 0
                             block_alignment:
                               align_block: center
@@ -775,8 +775,8 @@ content_blocks:
                 bottom: 0
                 left: 0
               padding:
-                active: false
-                top: 0
+                active: true
+                top: 60
                 right: 0
                 bottom: 0
                 left: 0
@@ -816,9 +816,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 90
           right: 0
-          bottom: 90
+          bottom: 125
           left: 0
       size: normal
       align: center
@@ -861,7 +861,7 @@ content_blocks:
               margin:
                 active: true
                 top: 0
-                bottom: 15
+                bottom: 30
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -885,8 +885,8 @@ content_blocks:
                 image: https://cc-dam.imgix.net/all-ssgs-build2 (1).svg
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, using
-                  our Git CMS, and without the help of a developer.
+                  Give your team access to update the content on the site using
+                  our Git CMS and without the help of a developer.
                 link:
                   text:
                   url:
@@ -963,7 +963,7 @@ content_blocks:
               - _bookshop_name: simple/text-block
                 content:
                   text_markdown: >-
-                    Here at CloudCannon we believe in the power of Git — as a
+                    Here at CloudCannon, we believe in the power of Git — as a
                     content repository, as a robust source management tool, and
                     most importantly, as a publishing workflow. Our decoupled
                     CMS lets you and your editing team create, and it takes care
@@ -1058,9 +1058,9 @@ content_blocks:
                 left: 0
               padding:
                 active: true
-                top: 30
+                top: 60
                 right: 0
-                bottom: 30
+                bottom: 60
                 left: 0
     styles:
       background: white
@@ -1098,9 +1098,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 80
+          bottom: 90
           left: 0
       size: normal
       align: none

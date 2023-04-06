@@ -1,0 +1,6 @@
+---
+permalink: _schedule.txt
+---
+{% assign now = "now" | date: '%s' %}
+{% for post in collections.posts %}{% assign p_date = post.data.date | date: '%s' %}{% if now < p_date %}{{ post.data.date | date: "%Y-%m-%dT%H:%M:%S.%L%z" }},Build '{{ post.data.title }}',{{ post.filePathStem }} 
+{% endif %}{% endfor %}

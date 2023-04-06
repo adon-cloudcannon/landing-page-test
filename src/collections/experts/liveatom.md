@@ -1,6 +1,7 @@
 ---
+_schema: default
 title: LiveAtom
-weight: 1
+weight: 3
 description: LiveAtom helps small businesses grow online.
 long_description: >-
   <p>LiveAtom works with small businesses by amplifying their online presence
@@ -14,24 +15,14 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/liveatom-web.png
 logo_image: /images/logos/experts/mask-group.svg
 location: Rochester, MN, USA
-frameworks:
-  - jekyll
 links:
   site_url: https://liveatom.com/
   facebook_url: https://www.facebook.com/liveatomnow/
   instagram_url:
   twitter_url:
   linkedin_url:
-details_block:
-  _bookshop_name: experts/details
-  location: Rochester, MN, USA
-  frameworks:
-    - jekyll
-  partner_level:
-  facebook_url: https://www.facebook.com/liveatomnow/
-  instagram_url:
-  twitter_url:
-  linkedin_url:
+ssg_frameworks:
+  - jekyll
 slides:
   - title: MyPolytek
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-27-33-pm.png
@@ -42,6 +33,10 @@ slides:
 
       We delivered a product that continues to deliver 2 years after the initial
       launch.
+
+
+      <a target="_blank" rel="noopener" href="mypolytek.com">View Polytek's
+      website &gt;</a>
   - title: Brooke Joanna
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-4-18-57-pm.png
     content_markdown: >-
@@ -50,6 +45,10 @@ slides:
 
 
       We delivered an e-commerce site with a rich set of educational content.
+
+
+      <a target="_blank" rel="noopener" href="brookejoanna.com">View Brooke
+      Joanna's website &gt;</a>
   - title: Revolutionary Earth
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-4-20-08-pm.png
     content_markdown: >-
@@ -64,6 +63,10 @@ slides:
 
       The delivered website is facilitating their organizational charter and
       expanding their reach.
+
+
+      <a target="_blank" rel="noopener" href="revolutionaryearth.org">View
+      Revolutionary Earth's website &gt;</a>
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

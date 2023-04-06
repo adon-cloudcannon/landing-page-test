@@ -1,10 +1,22 @@
 ---
+draft: false
 title: 'What is a static website? '
 description: >-
   What is a static website? If performance, security, and stability matter to
   you, then you’ll want to be using static for your next documentation, blog,
   e-commerce or marketing site. We explain all the reasons why in this blog
   post.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/uploads/why-static.png
 date: 2021-10-18T05:00:00+1300
 tags:
   - Resources
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Static websites make a statement. They give your users a near instant content experience on both desktop and mobile, they are easy to build for developers, they are inherently secure, and they rank brilliantly in Google. If performance, security, and stability matter to you, then you’re in the right place.
 

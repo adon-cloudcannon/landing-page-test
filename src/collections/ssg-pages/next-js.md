@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Next.js
+title: The Most Intuitive CMS for Next.js
 layout: builder.html
 permalink: /nextjs-cms/
 description: >-
@@ -111,7 +111,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Book a demo
-                  link: https://easy-sky.cloudvent.net/book-a-demo/
+                  link: /book-a-demo/
                 styles:
                   style: normal
                   size: big
@@ -119,7 +119,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Get started with a free trial
-                  link: /https://app.cloudcannon.com/editor
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: outline
                   size: big
@@ -497,7 +497,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -740,7 +740,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -1140,9 +1140,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 30
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1399,7 +1399,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -1506,8 +1506,8 @@ content_blocks:
                 text_size: normal
               margin:
                 active: true
-                top: 0
-                bottom: 15
+                top: 60
+                bottom: 30
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -1600,9 +1600,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1823,7 +1823,7 @@ content_blocks:
                         active: false
                         top: 0
                         left: 0
-                        bottom: 0
+                        bottom: 45
                         right: 0
                       position:
                         active: false
@@ -1872,7 +1872,7 @@ content_blocks:
         padding:
           top: 80
           right: 0
-          bottom: 100
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -1895,10 +1895,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       size: normal
       align: none

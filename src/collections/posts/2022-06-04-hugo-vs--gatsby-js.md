@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Hugo vs. Gatsby.js
 description: >-
   Let's compare two excellent static site generators: Hugo and Gatsby.js. Both
@@ -7,6 +8,17 @@ description: >-
   or marketing websites. But there are several key differences to consider,
   including build times.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -16,7 +28,7 @@ date: 2022-06-04T05:00:00+1200
 tags:
   - Hugo
   - Gatsby
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 With [GatsbyConf](https://gatsbyconf.com/) a few months behind us, and the new-conference-on-the-block [HugoConf](https://hugoconf.io/) approaching on the horizon, we are now — temporally, at least — between Gatsby.js and Hugo. Distinctly different in their approaches to static site generation and developer workflows, both are popular and well established static site generators, with large and active communities surrounding them.
 
@@ -88,6 +100,6 @@ While you're likely to need a solid background in React (and therefore JavaScrip
 
 Whichever static site generator you choose for your next website project, CloudCannon CMS will support you and your content editors with [two-way Git syncing](https://cloudcannon.com/features/developer-workflows/) for collaboration, [branch/merge workflows](https://cloudcannon.com/features/collaborative-publishing/) for adding new content and features, [top-tier hosting](https://cloudcannon.com/features/edge-hosting/), and best of all, an intuitive [visual editor](https://cloudcannon.com/features/visual-editing/) interface.
 
-If you're looking for tutorials, find out more about working with [Hugo for beginners](/tutorials/hugo-beginner-tutorial/), or how to [make the most of Hugo and CloudCannon](/tutorials/hugo-cms---get-started-with-cloudcannon/). You may also find it helpful to dig into our [Documentation](https://cloudcannon.com/documentation/) to answer your SSG-specific questions about how to work with CloudCannon and Hugo, Gatsby,js, or any other static site generator. 
+If you're looking for tutorials, find out more about working with [Hugo for beginners](/tutorials/hugo-beginner-tutorial/), or how to [make the most of Hugo and CloudCannon](https://cloudcannon.com/documentation/guides/hugo-starter-guide/). You may also find it helpful to dig into our [Documentation](https://cloudcannon.com/documentation/) to answer your SSG-specific questions about how to work with CloudCannon and Hugo, Gatsby,js, or any other static site generator. 
 
  

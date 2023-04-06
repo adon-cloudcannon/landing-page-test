@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: The Top Five Static Site Generators for 2023 (and when to use them!)
 description: >-
   What are the top five static site generators for 2023? Should you choose the
@@ -16,7 +18,25 @@ tags:
   - Next.js
   - SvelteKit
   - Astro
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 There’s no shortage of static site generators (SSGs) to choose from, though I’ve limited the below list to five major SSGs covering a wide range of uses, from marketing sites, portfolios and blogs to documentation hubs with hundreds of thousands of pages.
 
@@ -56,7 +76,7 @@ With Eleventy, you can choose from a variety of template languages such as Nunju
 
 Eleventy is a great choice for developers who value simplicity, flexibility, and customizability, and who want an SSG with fast build times and a strong community of support. If you’re focused on build speed and site performance, and would rather avoid JavaScript in your built sites where possible, you’d be hard pressed to choose anything other than Eleventy. (Especially with a stable 2.0 release on its way over the next few weeks!)
 
-Get started with Eleventy on its own with our [Eleventy Beginner tutorial series](/tutorials/eleventy-beginner-tutorial/), or find out more about [setting up and configuring an Eleventy site for the ideal editing experience with CloudCannon](/tutorials/eleventy-cms---get-started-with-cloudcannon/).
+Get started with Eleventy on its own with our [Eleventy Beginner tutorial series](/tutorials/eleventy-beginner-tutorial/), or find out more about [setting up and configuring an Eleventy site for the ideal editing experience with CloudCannon](https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/).
 
 ### [Hugo](https://gohugo.io/)
 
@@ -70,7 +90,7 @@ Hugo is an incredibly extensible platform, offering a wide range of both free an
 
 Hugo is a great choice for developers who need fast build times and flexible templating, and who value extensibility and a smaller but very knowledgeable and helpful community. (And with the free [HugoConf](https://hugoconf.io) returning for 2023, you’ll have ample chances to show the Hugo community your sites and shortcodes, and hear about new tools and approaches for including Hugo in your workflow.)
 
-You can get started with Hugo on its own through our [Hugo Beginner tutorial series](/tutorials/hugo-beginner-tutorial/), or [find out more about setting up and configuring a Hugo site for editing with CloudCannon](/tutorials/hugo-cms---get-started-with-cloudcannon/). We've also created a tutorial on [how to optimise your Hugo site for SEO](/tutorials/hugo-seo-best-practices/).&nbsp;
+You can get started with Hugo on its own through our [Hugo Beginner tutorial series](/tutorials/hugo-beginner-tutorial/), or [find out more about setting up and configuring a Hugo site for editing with CloudCannon](https://cloudcannon.com/documentation/guides/hugo-starter-guide/). We've also created a tutorial on [how to optimise your Hugo site for SEO](/tutorials/hugo-seo-best-practices/).&nbsp;
 
 ### [SvelteKit](https://kit.svelte.dev/)
 

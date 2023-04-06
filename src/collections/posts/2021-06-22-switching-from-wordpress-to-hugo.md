@@ -1,9 +1,21 @@
 ---
+draft: false
 title: Switching from WordPress to Hugo
 description: >-
   WordPress has taken over the internet, but sometimes it's not the right tool
   for the job. On this article, we talk about the reasons you should bring your
   WordPress site to Hugo.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/wordpress-to-hugo.png
 date: 2021-06-22T08:00:00+1200
 tags:
   - Resources
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 **Switching from WordPress to Hugo**
 

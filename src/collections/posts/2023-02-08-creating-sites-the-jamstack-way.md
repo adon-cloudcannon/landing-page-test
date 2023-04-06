@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: Creating sites, the Jamstack way
 description: >-
   You might have heard developers talking about Jamstack, but what is it
@@ -6,13 +8,31 @@ description: >-
   building your next website the Jamstack way.
 series:
 image: https://cc-dam.imgix.net/blog/blog-what-is-jamstack.jpg
-date: 2023-02-08T05:12:00+1300
+date: 2023-02-07T16:12:00Z
 hide_publish_date: false
 tags:
   - Beginner
   - Features
   - Resources
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 You might have heard web developers talking about Jamstack, or "modern static web development", but what is it exactly? This post provides an overview of what Jamstack is and the benefits of building your next website the Jamstack way.
 
@@ -80,8 +100,7 @@ CloudCannon is a platform that makes working with Jamstack sites easy. It’s ev
 
 {% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/795437736" autoplay:true extend:true border:true %}
 
-
-### 
+###
 
 To get started, you can sign up for our [free 14-day trial](https://app.cloudcannon.com/register?trial=cc_standard) and connect your Jamstack repository with CloudCannon. CloudCannon automatically pulls in your files, builds the site, and deploys it to fast CDN hosting. You can share CloudCannon with your team to update content directly on your website using a Git-based visual editor.
 

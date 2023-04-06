@@ -1,8 +1,20 @@
 ---
+draft: false
 title: Next.js and SvelteKit support in CloudCannon
 description: >-
   We’re beyond excited to announce the launch of our support for both Next.js
   and SvelteKit SSGs.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ image: https://cc-dam.imgix.net/blog/introducing-svelte-next.jpg
 date: 2021-10-07T09:00:00+1300
 tags:
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 In the lead-up to [Jamstack Conf 2021](https://jamstackconf.com/), our dev team has been pretty busy behind the scenes at CloudCannon, and we’re beyond excited to announce the launch of our support for both Next.js and SvelteKit SSGs (in public beta).
 

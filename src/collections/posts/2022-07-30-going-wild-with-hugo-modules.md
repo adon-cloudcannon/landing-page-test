@@ -1,16 +1,28 @@
 ---
+draft: false
 title: Going Wild with Hugo Modules
 description: >-
   The Nuance Technical Publications team recently moved to Hugo, and discovered
   that Hugo modules solve many of their consistency and standardization needs. 
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/nuance_hugo.jpg
 date: 2022-07-30T05:00:00+1200
-author: nuance-communications-techpubs-team
+author: e23ed92b-24aa-4499-b883-bd40e03bad3e
 tags:
   - Hugo
 ---

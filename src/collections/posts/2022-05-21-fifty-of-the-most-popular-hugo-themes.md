@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Fifty of 2022's most popular Hugo themes
 permalink: /blog/fifty-of-the-most-popular-hugo-themes/
 description: >-
   Compare fifty of the year's most popular Hugo themes, brought to you by
   CloudCannon, the Git-based CMS for Hugo.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-05-21T05:00:00+1200
 tags:
   - Hugo
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 One reason Hugo is such a popular static site generator is the ease with which you can add visually appealing themes to new and existing website projects. Maybe a responsive Hugo theme is essential to your users, or multi-language capability; maybe it's simple contact forms or an easily adjustable dark mode. Whatever the case, the Hugo community has an option ready for you.  
 

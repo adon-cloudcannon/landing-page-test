@@ -1,8 +1,20 @@
 ---
+draft: false
 title: The case for Distributed Persistent Rendering
 description: >-
   Let’s explore what Distributed Persistent Rendering (DPR) means for the future
   of Jamstack.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ image:  https://cc-dam.imgix.net/blog/uploads/dpr-1.jpg
 date: 2021-05-18T00:00:00+1200
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 As Jamstack adoption grows, we're seeing the limits of static sites put to the test. Excessive build times on large-scale sites are a hot topic and a problem that needs solving for Jamstack to become mainstream. Netlify has recently introduced a [feature](https://www.netlify.com/blog/2021/04/22/next.js-on-netlify-now-with-support-for-on-demand-builders-and-distributed-persistent-rendering/) and [spec](https://github.com/jamstack/jamstack.org/discussions/549) for Distributed Persistent Rendering (DPR). It's a hybrid approach to serving sites - a portion of pages are prerendered, the rest render on-demand to decrease the upfront build time. It's a fascinating idea that begs many questions. Are these sites static? Have we come full circle? Why not just have a dynamic site at this point?
 

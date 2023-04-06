@@ -1,5 +1,17 @@
 ---
+draft: false
 title: 'Deconstruction: How Bootstrap powers their documentation site with Hugo'
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ description: >-
 tags:
   - Resources
   - Hugo
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Bootstrap is used to rapidly develop consistent, responsive websites. It was initially created at Twitter as a way to encourage design consistency in internal tools. Later it was publicly released in August 2011 and has become one of the most popular projects on GitHub.
 

@@ -41,7 +41,7 @@ The next step was a way to host and manage content on the new Jekyll sites.
 
 The answer: CloudCannon. Netflix initially trialled it on a single project, [devices.netflix.com](https://devices.netflix.com/en/), which lists and recommends the vast range of Netflix-supported devices available to consumers.
 
-{% bookshop "markdown/quote" quote:"CloudCannon gives our developers total control over our microsites while giving the content team an easy-to-use interface." %}
+> CloudCannon gives our developers total control over our microsites while giving the content team an easy-to-use interface.
 
 ### Fuss-free content changes, easy syncing and low overheads
 
@@ -53,7 +53,7 @@ A further benefit is the integration of Netflix’s internal translation system 
 
 Netflix has steadily moved more of its microsites across to CloudCannon. In 2017 the effort stepped up with CloudCannon’s adoption by the Product Creative team, whose sites offer the welter of documentation that maintains relationships with Netflix’s creative agency partners.
 
-{% bookshop "markdown/quote" quote:"At Netflix, we cater to audiences all over the world. We need a CMS platform that can translate our microsites to the 30+ languages Netflix supports. CloudCannon integrates with our internal translation workflows and makes the entire process seamless." %}
+> At Netflix, we cater to audiences all over the world. We need a CMS platform that can translate our microsites to the 30+ languages Netflix supports. CloudCannon integrates with our internal translation workflows and makes the entire process seamless.
 
 Today, 20 Netflix microsites and 80 editors are supported by CloudCannon. Among them are [openconnect](https://openconnect.netflix.com/en_gb/), which supports ISP partners, and a site promoting [No Rules Rules](https://www.norulesrules.com/), the book by Netflix co-founder Reed Hastings that explains the company’s unconventional culture.
 

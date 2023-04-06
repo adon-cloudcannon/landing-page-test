@@ -9,7 +9,7 @@
 	x-transition:leave-end="bg-white/0"
 	style="display: none;"
 	>
-		<div class="max-w-sm bg-white w-full absolute right-0 h-screen z-50 overflow-y-scroll" 
+		<div class="max-w-sm bg-white w-full absolute right-0 h-screen z-50 overflow-y-scroll min-h-screen" 
 		x-show="mobileNavOpen"
 		@click.outside="mobileNavOpen = false"
 		x-cloak
@@ -26,11 +26,11 @@
 				{% bookshop "helpers/button" text: "Get started" link: "https://app.cloudcannon.com/register?trial=cc_standard" style: "normal" extra_classes: "w-full mt-3 block" %}
 			</div>
 			<div x-show="loggedIn">
-				{% bookshop "helpers/button" text: "Go to App" link: "https://app.cloudcannon.com/" style: "outline" extra_classses: "w-full block" %}
+				{% bookshop "helpers/button" text: "Go to App" link: "https://app.cloudcannon.com/" style: "outline" extra_classes: "w-full block" %}
 			</div>
 		</div>
 		<nav>
-			<ul>
+			<ul class="h-full pb-36">
 				{% for item in nav %}
 					{% include 'partials/nav/_mobile_nav_item.html' item:item %}
 				{% endfor %}

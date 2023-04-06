@@ -1,6 +1,7 @@
 ---
+_schema: default
 title: SCube
-weight: 1
+weight: 3
 description: Purpose driven code house, solving technology challenges and providing value.
 long_description: >-
   <p>SCube is a full-fledged full-service website agency that has continued
@@ -12,30 +13,17 @@ long_description: >-
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-33-28-am.png
 logo_image: /images/logos/experts/mask-group-2.svg
 location: United Kingdom & India
-frameworks:
-  - jekyll
-  - hugo
-  - nextjs
-  - gatsby
 links:
   site_url: https://scube.co/jamstack/
   facebook_url:
   instagram_url:
   twitter_url: https://twitter.com/scubeco
   linkedin_url: https://www.linkedin.com/in/shovanco/
-details_block:
-  _bookshop_name: experts/details
-  location: United Kingdom & India
-  frameworks:
-    - jekyll
-    - hugo
-    - nextjs
-    - gatsby
-  partner_level:
-  facebook_url:
-  instagram_url:
-  twitter_url: https://twitter.com/scubeco
-  linkedin_url: https://www.linkedin.com/in/shovanco/
+ssg_frameworks:
+  - jekyll
+  - hugo
+  - nextjs
+  - gatsby
 slides:
   - title: Estreet Wines
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-35-57-am.png
@@ -47,6 +35,10 @@ slides:
 
       We helped the client by creating a website with Jekyll, Bootstrap CSS and
       obtained wines from commerce7 platform by using commerce7 API.
+
+
+      <a target="_blank" rel="noopener" href="https://estcru.co/">View eStCru's
+      website &gt;</a>
   - title: Breeze
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-43-41-am.png
     content_markdown: >-
@@ -60,6 +52,10 @@ slides:
 
       We created the site by using templates to allow the client to make their
       own changes within the CMS without the help of a developer coding.
+
+
+      <a target="_blank" rel="noopener" href="https://breeze.bar/">View Breeze's
+      website &gt;</a>
 form_embed: >-
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/embed/v2.js"></script> <script>  

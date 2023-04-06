@@ -1,10 +1,22 @@
 ---
+draft: false
 title: What is a Git-based CMS?
 description: >-
   If Git is such a powerful, game-changing tool, why is it only used by
   developers? What other industries and workflows could be transformed with this
   technology? This is precisely the problem Git-based CMSs are addressing.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/what-is-a-git-cms.jpg
 date: 2022-03-16T05:00:00+1300
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 Git is one of the most popular collaboration platforms in the world. It’s a piece of software that has transformed how we build software together. Before Git, open-source software was built by a small community of renegade hackers. After Git (and GitHub), we have millions of developers seamlessly collaborating on some of the most influential and important software projects.
 

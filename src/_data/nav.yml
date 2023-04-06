@@ -62,6 +62,10 @@
           link: /jamstack-ecosystem/
           description: The best tooling for your next website
           icon: gift
+        - name: Jekyll Cheatsheet
+          link: /cheat-sheets/jekyll/
+          description: Everything you need at a glance
+          icon: check-badge
     - title: CloudCannon
       sub_nav:
         - name: Blog

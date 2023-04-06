@@ -183,7 +183,7 @@ content_blocks:
                 align: center
         - _bookshop_name: simple/image
           content:
-            alt: 'Waiting on hero image '
+            alt: Hero image review and publish desktop
             image: https://cc-dam.imgix.net/Review-publish-image3.png
           styles:
             border:
@@ -191,7 +191,10 @@ content_blocks:
             ontop:
             width: full
             pixel_width:
+            max_width:
             desktop:
+              visibility:
+                hide: false
               transform:
                 scale: 1
                 translate_x: 0
@@ -202,13 +205,16 @@ content_blocks:
                 align_block: left
               margin:
                 top: 0
-                bottom: 90
+                bottom: 30
               position:
                 top: 0
                 left: 0
                 bottom: 0
                 right: 0
             tablet:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -230,6 +236,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             mobile:
+              visibility:
+                active: true
+                hide: true
               transform:
                 active: false
                 scale: 1
@@ -252,6 +261,84 @@ content_blocks:
                 right: 0
         - _bookshop_name: simple/image
           content:
+            alt: Hero image review publish mobile
+            image: https://cc-dam.imgix.net/review-publish-image-mobile_720.png
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: true
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                bottom: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: true
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: true
+                top: 0
+                bottom: 90
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+        - _bookshop_name: simple/image
+          content:
             alt: >-
               G2 badges for High performer, best support, best meets
               requirements. 
@@ -264,7 +351,7 @@ content_blocks:
             pixel_width:
             desktop:
               transform:
-                scale: 1
+                scale: 0.75
                 translate_x: 0
                 translate_y: 0
                 rotate: 0
@@ -370,7 +457,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Draft, review, and approve your content, together
+            text: Collaborate with your team
           styles:
             element: h2
             width: normal
@@ -408,7 +495,7 @@ content_blocks:
           content:
             text_markdown: >-
               Create custom approval workflows that reflect exactly what your
-              team needs. With CloudCannon you can draft, review, and test new
+              team needs. With CloudCannon, you can draft, review, and test new
               features on new branches, live preview URLs, or standalone staging
               sites. View and approve changes on any device before you publish
               to production.
@@ -569,8 +656,8 @@ content_blocks:
                           text_markdown: >-
                             Make sure your changes are exactly right, and get
                             them approved sooner. Saved changes on any
-                            CloudCannon site can be viewed on a live preview
-                            URL, on any device.
+                            CloudCannon site can be viewed on a live preview URL
+                            on any device.
                         styles:
                           width: full
                           desktop:
@@ -1003,9 +1090,9 @@ content_blocks:
                           text_markdown: >-
                             Determine who can do what, where, and how, and make
                             the most of our standard user roles: Owners,
-                            Developers, Technical Editors, and Editors.
-                            Developers can control individuals’ access to CMS
-                            features with these roles, tailoring authorization
+                            Developers, Technical Editors, and Editors. With
+                            these roles, developers can control individuals’
+                            access to CMS features, tailoring authorization
                             levels for each team.
                         styles:
                           width: full
@@ -1153,10 +1240,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
+          active: true
           top: 0
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1169,7 +1256,7 @@ content_blocks:
             text: Bring the power of Git to your whole team
           styles:
             element: h2
-            width: normal
+            width: tight
             desktop:
               text_alignment:
                 align: center
@@ -1250,7 +1337,7 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-            width: large
+            width: medium
         - _bookshop_name: simple/image
           content:
             alt: Git branch process diagram desktop and tablet
@@ -1429,7 +1516,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -1624,7 +1711,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0

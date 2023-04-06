@@ -28,7 +28,7 @@ More than a hundred hours of development work had already gone into the website 
 
 Andrew had spent hours comparing the features of more than 40 headless content management systems, hoping to find the perfect CMS, but assuming that at the very least he would be able to present a reasonable alternative to his client’s detailed wishlist.
 
-{% bookshop "markdown/quote" quote:"CloudCannon sits really beautifully at that mesh point between the developer experience of creating a site and the client or stakeholder experience of editing it." %}
+> CloudCannon sits really beautifully at that mesh point between the developer experience of creating a site and the client or stakeholder experience of editing it.
 
 ### How CloudCannon ticks all the boxes
 
@@ -50,4 +50,4 @@ With the wide range of static site generators supported by CloudCannon, Arid Sof
 
 CloudCannon offers significant features for Arid’s clients, at little additional cost. As Andrew notes, the difference in development time between creating a basic static site and creating a CloudCannon site with click-to-edit functionality is very small, but for his clients, there’s a huge difference in what they can achieve with a site they can edit themselves.
 
-{% bookshop "markdown/quote" quote:"I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for." %}
+> I'm a big fan of what CloudCannon offers. If I had a client who wanted to assert a brand in a cohesive style, rather than just making use of something out of the box, CloudCannon would be the first thing I'd reach for.

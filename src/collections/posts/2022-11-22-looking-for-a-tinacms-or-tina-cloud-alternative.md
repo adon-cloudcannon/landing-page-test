@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Looking for a TinaCMS or Tina Cloud alternative?
 description: >-
   CloudCannon has been helping developers and content writers create, maintain,
@@ -12,10 +13,10 @@ image: https://cc-dam.imgix.net/blog/blog-tina-alternative.jpg
 date: 2022-11-22T05:00:00+1300
 hide_publish_date: false
 tags:
-  - Agency
+  - Agencies
   - Resources
   - Tutorials
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 CloudCannon is here to help if you've been seeking an alternative to TinaCMS or Tina Cloud for your Hugo, Eleventy, Jekyll, Gatsby, Next.js, NuxtJS, Astro, SvelteKit, or MkDocs static sites. CloudCannon is a Git-based content management system that runs hundreds of websites for Fortune 500 firms, digital agencies, freelance developers, and worldwide corporations.&nbsp;
 

@@ -1,10 +1,22 @@
 ---
+draft: false
 title: What is a Static Site Generator?
 description: >-
   Learn about the static site generator tools we use to create static websites,
   why we use them, and how they fit into our workflows for publishing new
   content, creating new pages, and keeping our content up to date.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-09-01T05:00:00+1200
 hide_publish_date: true
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 So you’ve decided you’d like a [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/). Great news\! Let’s dig into the tools we use to create static websites, why we use them, and how they fit into our workflows for publishing new content, creating new pages, and keeping our content up to date.
 

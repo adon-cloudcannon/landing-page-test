@@ -1,9 +1,21 @@
 ---
+draft: false
 title: How users like The New Dynamic help CloudCannon iterate and improve
 description: >-
   Agency partners like The New Dynamic help validate and extend CloudCannon's
   technical roadmap. 
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/tnd-support-assist.jpg
 date: 2022-08-10T05:00:00+1200
 tags:
   - Company
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Several weeks ago, I interviewed [Régis Philibert](https://www.regisphilibert.com/), Lead Developer at [The New Dynamic,](https://www.thenewdynamic.com/) for a [case study about how tND is using CloudCannon](https://cloudcannon.com/customers/the-new-dynamic/). It was an illuminating interview — for me, at least — but I found myself wanting to share something I’ve noticed about CloudCannon’s process of working closely with our users. (And in the case of tND, I should probably say *power users*\: Régis and tND’s clients are really putting our CMS through its paces, and along with our other agency customers, they’ve really helped validate and extend our technical roadmap.)
 

@@ -1,0 +1,46 @@
+{% if meta.env == 'production' %}
+	
+	{% if lead_score %}
+		{% assign ls = lead_score %}
+	{% elsif tags and tags contains "Features" %}
+		{% assign ls = 2 %}
+	{% endif %}
+	
+	{% if ls %}
+		<script>
+			if (gtag) {
+				gtag('event', 'LeadScore', {
+						'event_label': window.location.pathname,
+						'event_category': 'lead_score',
+						'value': {{ ls }},
+						'non_interaction': true
+					});
+
+				var lead = localStorage.getItem('lead');
+				if (lead === null) {
+					lead = 0;
+				}
+
+				lead = parseInt(lead);
+
+				var belowThreshold = lead < 8;
+
+				lead += {{ ls }};
+				localStorage.setItem('lead', lead);
+
+				if (lead >= 8 && belowThreshold) {
+					gtag('event', 'QualityVisitor', {
+						'event_label': window.location.pathname,
+						'event_category': 'lead_score',
+						'value': 1,
+						'non_interaction': true
+					});
+				}
+			}
+		</script>
+	{% endif %}
+
+	<!-- Start of HubSpot Embed Code -->
+	<script type="text/javascript" id="hs-script-loader" async defer delay="//js-na1.hs-scripts.com/22461532.js"></script>
+	<!-- End of HubSpot Embed Code -->
+{% endif %}

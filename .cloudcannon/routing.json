@@ -5,7 +5,19 @@
       "headers": [
         {
           "name": "strict-transport-security",
-          "value": "Strict-Transport-Security: max-age=31536000; includeSubDomains"
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "name": "Referrer-Policy",
+          "value": "same-origin"
+        },
+        { 
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
         }
       ]
     },
@@ -20,6 +32,11 @@
     }
   ],
   "routes": [
+    {
+      "from": "/changelog/(.*)",
+      "to": "/documentation/changelog/$1",
+      "status": 301
+    },
     {
       "from": "/community/themes/aperture",
       "to": "/themes/",
@@ -86,12 +103,6 @@
       "forced": false
     },
     {
-      "from": "/community/hosting-comparison/",
-      "to": "https://muggy-okapi.cloudvent.net/community/jamstack-hosting-comparison/",
-      "status": 302,
-      "forced": false
-    },
-		{
       "from": "/community/hosting-comparison/",
       "to": "https://muggy-okapi.cloudvent.net/community/jamstack-hosting-comparison/",
       "status": 302,
@@ -927,7 +938,7 @@
     },
     {
         "from":"/community/learn/jekyll-tutorial/getting-started/",
-        "to":"/tutorials/jekyll-tutorial/getting-started/",
+        "to":"/tutorials/jekyll-tutorial/",
         "status":301,
         "forced":false
     },
@@ -1440,6 +1451,60 @@
         "to":"/sitemap.xml",
         "status":301,
         "forced":false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/using-data/",
+      "to": "/tutorials/hugo-beginner-tutorial/using-data/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/taxonomies/",
+      "to": "/tutorials/hugo-beginner-tutorial/taxonomies/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/page-bundles-and-shortcodes/",
+      "to": "/tutorials/hugo-beginner-tutorial/page-bundles-and-shortcodes/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/layouts-in-hugo/",
+      "to": "/tutorials/hugo-beginner-tutorial/layouts-in-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/hugo-partials/",
+      "to": "/tutorials/hugo-beginner-tutorial/hugo-partials/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/go-templating-basics/",
+      "to": "/tutorials/hugo-beginner-tutorial/go-templating-basics/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/getting-started/",
+      "to": "/tutorials/hugo-beginner-tutorial/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/content-and-blogging-in-hugo/",
+      "to": "/tutorials/hugo-beginner-tutorial/content-and-blogging-in-hugo/",
+      "status": 301,
+      "forced": false
+    },
+    {
+      "from": "/community/learn/hugo-tutorial/",
+      "to": "/tutorials/hugo-beginner-tutorial/",
+      "status": 301,
+      "forced": false
     }
   ]
 }

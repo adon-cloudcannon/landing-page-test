@@ -1,10 +1,22 @@
 ---
+draft: false
 title: 'The ‘After Jekyll’ era'
 description: >-
   The 'After Jekyll' Era: part 2 of a series exploring the innovative history of
   static site generators.
 series: SSGs through the ages
 permalink: /blog/ssg-history-2-after-jekyll/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/explorer-2_vumhwx.svg
 date: 2022-01-26T05:00:00+1300
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 *This is the second part of an ongoing series. If you'd like to read about the genesis of static site generators, see [Part 1: The 'Before Jekyll' era](https://cloudcannon.com/blog/ssg-history-1-before-jekyll/).*
 

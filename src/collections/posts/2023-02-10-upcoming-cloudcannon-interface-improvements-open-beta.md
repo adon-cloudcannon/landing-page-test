@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: Upcoming CloudCannon Interface improvements (Open Beta)
 description: >-
   The first quarter of 2023 is bringing a new look for some of CloudCannon’s
@@ -7,16 +9,41 @@ description: >-
   polished experience. We're releasing the new version of CloudCannon Beta to
   all users, available now.
 series:
-permalink: /blog/upcoming-cloudcannon-interface-improvements/
 image: https://cc-dam.imgix.net/blog/blog-update-interface-hero.jpg
-date: 2023-02-09T05:02:00+1300
+date: 2023-02-08T16:02:00Z
 hide_publish_date: false
 tags:
   - Features
   - Resources
   - Company
-author: george-phillips
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
+permalink: /blog/upcoming-cloudcannon-interface-improvements/
+cta:
+  title: Launch your website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
+### Update (7 March 2023):&nbsp;
+
+*All changes from our Beta environment are officially released. These changes include consolidation of information to the site dashboard, menus for switching between project branches more easily, greater configurability of the CloudCannon interface, and an overhaul of our <a target="_blank" rel="noopener" href="/documentation/">documentation site</a>.*
+
+*If you need to go back for any reason, click "Enter CloudCannon Legacy" in the contextual menu in the bottom-left of the app.*
+
+---
+
 The first quarter of 2023 is bringing a fresh tidy up for some of CloudCannon’s most frequently used interfaces.
 
 Thanks to the fantastic feedback we have been getting from our users, we’ve made a number of refinements that will make for a more polished experience. Just like our editor release last year, we are releasing the new version of **CloudCannon Beta** to all users, available now. The Beta will give you a chance to try the new updates before the rest of your team.
@@ -78,9 +105,7 @@ Preview URLs are a very popular feature on CloudCannon — once your build has c
 
 In response to this feedback, we’ve moved the Preview URL to a button below the “Publish” button. This button has the text ‘Live site preview’ and the cloudvent address has been moved to the tooltip. If a custom domain is added, the button now becomes a dropdown menu which allows you to choose either of the URLs.
 
-
 **Save**, **Publish** and **Live Preview** buttons are wrapped in a subtle grey line to clarify the scroll area below it. The dashboard change and the new buttons offers a stronger emphasis on your collections. Users with Editor permissions now have fewer options to choose from, and their editing controls are differentiated from those that deal with the site’s data/collections.
-
 
 ## Site Project Navigation
 

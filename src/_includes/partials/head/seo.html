@@ -50,7 +50,7 @@
 {% endif %}
 
 {% if author %}
-    {% assign person = collections.authors | where: "data.slug", author | first %}
+    {% assign person = collections.authors | where: "data.uuid", author | first %}
     {% if person.data.twitter_handle %}
         <meta name="twitter:creator" content="{{ person.data.twitter_handle }}" />
     {% else %}

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The 'Rebirth' era
 description: >-
   Part 7 of an ongoing series: With modern tooling and the knowledge of better
@@ -6,6 +7,17 @@ description: >-
   older SSGs with modern ideas.
 series: SSGs through the ages
 permalink: /blog/ssg-history-7-rebirth/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ image: https://cc-dam.imgix.net/blog/explorer-7_yy2hqt.png
 date: 2022-03-02T05:00:00.000Z
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 What’s old is new again. With modern tooling and the knowledge of better ways of implementing SSGs, the rebirth era sees reincarnations of several older SSGs with modern ideas.
 

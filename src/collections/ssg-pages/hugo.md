@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Hugo
+title: The Most Intuitive CMS for Hugo
 layout: builder.html
 permalink: /hugo-cms/
 description: >-
@@ -108,7 +108,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Book a demo
-                  link: https://easy-sky.cloudvent.net/book-a-demo/
+                  link: /book-a-demo/
                 styles:
                   style: normal
                   size: big
@@ -116,7 +116,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Get started with a free trial
-                  link: /https://app.cloudcannon.com/editor
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: outline
                   size: big
@@ -307,7 +307,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Everything you need for content management, all on one
+                      Everything you need for content management is all on one
                       platform. Let your team build new pages, edit them
                       visually, and host the best performing sites on the web
                       with the help of the CloudCannon CMS for Hugo.
@@ -494,7 +494,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -624,8 +624,8 @@ content_blocks:
                     text_markdown: >-
                       CloudCannon syncs your Hugo website from your Git
                       repository, manages your build process, and enables your
-                      whole team to work together, faster. Everything can be
-                      updated by content editors with CloudCannon.
+                      whole team to work together faster. Content editors can
+                      update everything with CloudCannon.
                   styles:
                     desktop:
                       text_alignment:
@@ -731,9 +731,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 80
+          top: 60
           right: 0
-          bottom: 120
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -827,24 +827,25 @@ content_blocks:
             rows:
               - title: Git-based CMS
                 description: >-
-                  Everything syncs back to Git so your development and content
+                  Everything syncs back to Git, so your development and content
                   editing teams can always collaborate in sync.
                 image: https://cc-dam.imgix.net/git-sync-r.png
+              - title: Built for content editors
+                description: >-
+                  Empower your editors by building a library of components to
+                  create new pages with ease.
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
               - title: Publishing workflows
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Prepare branches for staging and production workflows. Your
+                  content team will use the full power of Git, all behind a
+                  beautiful UI.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Range of editors
+              - title: Intuitive editing
                 description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
-                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
-              - title: Component-driven workflows
-                description: >-
-                  Everything syncs back to Git so your development and content
-                  editing teams can always collaborate in sync.
+                  Edit content directly on your website. With CloudCannon’s
+                  Visual Editor for Hugo, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
@@ -1139,9 +1140,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 30
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1398,7 +1399,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 90
           left: 0
@@ -1505,8 +1506,8 @@ content_blocks:
                 text_size: normal
               margin:
                 active: true
-                top: 0
-                bottom: 15
+                top: 60
+                bottom: 30
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -1599,9 +1600,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 30
+          bottom: 90
           left: 0
       size: normal
       align: none
@@ -1820,10 +1821,10 @@ content_blocks:
                         active: false
                         align_block: left
                       margin:
-                        active: false
+                        active: true
                         top: 0
                         left: 0
-                        bottom: 0
+                        bottom: 45
                         right: 0
                       position:
                         active: false
@@ -1872,7 +1873,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -1895,10 +1896,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
       size: normal
       align: none

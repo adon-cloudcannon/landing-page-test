@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: 11 Top Eleventy Blog Themes (Starters) in 2023
 description: >-
   Using a theme can be a helpful way to get started with a new project,
@@ -7,14 +9,32 @@ description: >-
   turns it up to eleven(ty).
 series:
 image: https://cc-dam.imgix.net/blog/blog-eleventy-blog-starters.jpg
-date: 2022-12-22T05:17:00+1300
+date: 2022-12-21T16:17:00Z
 hide_publish_date: false
 tags:
   - Eleventy
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your Eleventy website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
-With the new year fast approaching, it’s time for a new-look personal website. But where should you start? We’d recommend Eleventy, the simpler static site generator. If you’re new to Eleventy, be sure to check out our [Eleventy Beginner’s tutorial](/tutorials/eleventy-beginner-tutorial/) to help you get started. If you’d like to get set up with a great Eleventy theme, read on\!
+With the new year fast approaching, it’s time for a new-look personal website. But where should you start? We’d recommend Eleventy, the simpler static site generator. If you’re new to Eleventy, be sure to check out our [Eleventy Beginner’s tutorial](/tutorials/eleventy-beginner-tutorial/) to help you get started. If you’d like to get set up with a great Eleventy theme, read on!
 
 ## Why use Eleventy themes?
 
@@ -92,7 +112,7 @@ An SEO-friendly theme for Eleventy, featuring grid CSS, blogging with sub-catego
 
 Minimalism allows for even speedier page creation, and comes complete with light and dark modes, RSS, SEO optimization, 404 error pages, easy social links, PWA, sitemaps, and top lighthouse scores.
 
-[Minimalism demo site](https://venerable-sundae-621325.netlify.app/)<br>[Source](https://github.com/MarcoMicale/Minimalism)
+[Source](https://github.com/MarcoMicale/Minimalism)
 
 ### Thisis Classic SEO
 
@@ -108,8 +128,6 @@ A blog-first and mobile-first Eleventy theme, Thisis is built for speed and SEO 
 
 **License:** MIT<br>**Author:** [Mike Riethmuller](https://github.com/MadeByMike)
 
-&nbsp;
-
 Supermaya is an Eleventy theme designed to help you add rich features to a blog or website without the need for a complicated build process. Along with standard blog features like tags, Posts, Pages, and pagination, Supermaya includes RSS, semantic markup, offline content, lazy loading images and Critical CSS. It also includes seamless JS and SCSS compilation, and, via KeystoneJS, comments, claps, a reading list, and login functions.
 
 [Supermaya demo site](https://supermaya-demo.netlify.app/)<br>[Source](https://github.com/madebymike/supermaya)
@@ -120,7 +138,7 @@ Supermaya is an Eleventy theme designed to help you add rich features to a blog 
 
 ![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-eleventy-high-performance-blog.jpg)
 
-If you’re particularly picky about performance, here’s the perfect Eleventy theme for your blog. High Performance does perform extremely well, as it implements a wide range of performance best practices. It achieves perfect Lighthouse scores, a single HTTP request to First Contentful Paint, a very optimized Largest Contentful Paint, 0 Cumulative Layout Shift, and ~0 First Input Delay. Thanks, Google\!
+If you’re particularly picky about performance, here’s the perfect Eleventy theme for your blog. High Performance does perform extremely well, as it implements a wide range of performance best practices. It achieves perfect Lighthouse scores, a single HTTP request to First Contentful Paint, a very optimized Largest Contentful Paint, 0 Cumulative Layout Shift, and ~0 First Input Delay. Thanks, Google!
 
 [Eleventy High Performance Blog demo site](https://eleventy-high-performance-blog-sample.industrialempathy.com/)<br>[Source](https://github.com/google/eleventy-high-performance-blog)
 
@@ -146,4 +164,4 @@ A simple and bright theme, Cool11ty is a straightforward introduction to Elevent
 
 ---
 
-CloudCannon’s Git-based&nbsp;[Eleventy CMS](https://cloudcannon.com/eleventy-cms/)&nbsp;lets developers configure an ideal visual editing experience for any number of content editors. If you’re interested in setting up your new Eleventy blog with a configurable CMS, check out our&nbsp;[Eleventy Setup Tutorial](/tutorials/eleventy-cms---get-started-with-cloudcannon/)&nbsp;for a straightforward guide to getting started with Eleventy and CloudCannon.
+CloudCannon’s Git-based [Eleventy CMS](https://cloudcannon.com/eleventy-cms/) lets developers configure an ideal visual editing experience for any number of content editors. If you’re interested in setting up your new Eleventy blog with a configurable CMS, check out our [Eleventy Setup Tutorial](https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon) for a straightforward guide to getting started with Eleventy and CloudCannon.

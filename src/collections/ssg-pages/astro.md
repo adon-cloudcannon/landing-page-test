@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Astro
+title: The Most Intuitive CMS for Astro
 layout: builder.html
 permalink: /astro-cms/
 description: >-
@@ -10,7 +10,7 @@ description: >-
 summary: >-
   Bring your own component framework: Astro offers first-class support for
   front-end tools like React, Vue, Svelte, and Tailwind CSS.
-image: /images/icons/ssgs/astro.svg
+image: https://cc-dam.imgix.net/astro-dark.svg
 seo:
   featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
   featured_image_alt: >-
@@ -109,7 +109,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Book a demo
-                  link: /https://easy-sky.cloudvent.net/book-a-demo/
+                  link: /book-a-demo/
                 styles:
                   style: normal
                   size: big
@@ -117,7 +117,7 @@ content_blocks:
               - _bookshop_name: simple/button
                 content:
                   text: Get started with a free trial
-                  link: /https://app.cloudcannon.com/editor
+                  link: https://app.cloudcannon.com/register?trial=cc_standard
                 styles:
                   style: outline
                   size: big
@@ -510,8 +510,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier on Astro
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18915_afi1bb.png
+                    image: https://cc-dam.imgix.net/Group 18945.png
                   styles:
                     border:
                     rounded:
@@ -624,9 +623,9 @@ content_blocks:
                   content:
                     text_markdown: >-
                       CloudCannon syncs your Astro website directly from your
-                      Git repository, and enables developers to work together,
+                      Git repository enabling developers to work together
                       faster. As for your content team, they won’t need
-                      technical knowledge. From Markdown and HTML, to sections
+                      technical knowledge. From Markdown and HTML to sections
                       and data files, everything can be updated by content
                       editors with CloudCannon. Best of all, no one needs to
                       learn how to use Git.
@@ -1447,7 +1446,7 @@ content_blocks:
                 text_size: normal
               margin:
                 active: true
-                top: 0
+                top: 90
                 bottom: 30
         - _bookshop_name: simple/steps
           content:
@@ -1469,11 +1468,11 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-2-astro.svg
+                image: https://cc-dam.imgix.net/Step-2-astro-new.svg
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, using
-                  our Astro CMS, and without the help of a developer.
+                  Give your team access to update the content on the site using
+                  our Astro CMS without the help of a developer.
                 link:
                   text:
                   url:
@@ -1635,7 +1634,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         active: true
-                        top: 60
+                        top: 0
                         bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
@@ -1696,8 +1695,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier SSG
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Astro-site_vdlhol.png
+                    image: https://cc-dam.imgix.net/Group 18942.png
                   styles:
                     border:
                     rounded:
@@ -1757,10 +1755,10 @@ content_blocks:
                         active: false
                         align_block: left
                       margin:
-                        active: false
+                        active: true
                         top: 0
                         left: 0
-                        bottom: 0
+                        bottom: 45
                         right: 0
                       position:
                         active: false
@@ -1809,7 +1807,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:

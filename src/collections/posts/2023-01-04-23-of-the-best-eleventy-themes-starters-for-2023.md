@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: 23 of the best Eleventy Themes (Starters) for 2023
 description: >-
   There's a huge range of free starter themes available for the Eleventy static
@@ -7,18 +9,35 @@ description: >-
   explore 23 popular, new, and niche Eleventy themes for a wide range of use
   cases.
 series:
-permalink: /blog/23-of-the-best-eleventy-themes-for-2023/
 image: https://cc-dam.imgix.net/blog/blog-23-11ty-starters.jpg
-date: 2023-01-04T05:12:00+1300
+date: 2023-01-03T16:12:00Z
 hide_publish_date: false
 tags:
   - Eleventy
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/23-of-the-best-eleventy-themes-for-2023/
+cta:
+  title: Launch your Eleventy website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 With [CloudCannon's support for Eleventy now officially out of beta](https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/), there's no better time to investigate a new project. What's the best way to get started? With an Eleventy theme, of course\!
 
-Developers often use themes to save time and to get a head start on building their projects. Though we do tend to use the terms interchangeably, an Eleventy theme or 'starter' is slightly different in scope to a theme, at least as far as the term is used by other platforms. In a legacy CMS like WordPress, a theme is strictly a visual upgrade — set dressing, effectively. An Eleventy theme, by contrast, is usually a pre-configured Eleventy starter project that includes a basic file and directory structure, as well as some initial content and configuration. By using starter projects like this, developers can avoid having to set up a new project from scratch and can instead focus on customizing and building out the features and functionality of their site. (And, if you're using an [Eleventy CMS](https://cloudcannon.com/eleventy-cms/) like CloudCannon, creating the perfect visual editing experience for your site's content editors — or yourself\! See our [Eleventy Setup Tutorial](/tutorials/eleventy-cms---get-started-with-cloudcannon/) for more advice on getting started with Eleventy and CloudCannon.)
+Developers often use themes to save time and to get a head start on building their projects. Though we do tend to use the terms interchangeably, an Eleventy theme or 'starter' is slightly different in scope to a theme, at least as far as the term is used by other platforms. In a legacy CMS like WordPress, a theme is strictly a visual upgrade — set dressing, effectively. An Eleventy theme, by contrast, is usually a pre-configured Eleventy starter project that includes a basic file and directory structure, as well as some initial content and configuration. By using starter projects like this, developers can avoid having to set up a new project from scratch and can instead focus on customizing and building out the features and functionality of their site. (And, if you're using an [Eleventy CMS](https://cloudcannon.com/eleventy-cms/) like CloudCannon, creating the perfect visual editing experience for your site's content editors — or yourself\! See our [Eleventy Setup Tutorial](https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/) for more advice on getting started with Eleventy and CloudCannon.)
 
 There's a huge range of free themes available for Eleventy — from simple templates with just a few files to more complex setups with multiple templates, layouts, and preinstalled plugins. Some of the themes I’ve listed below are designed to be minimal and bare-bones, while others include a wide range of features and functionality out of the box. By using a theme, you can choose a project structure and set of features that best fits your needs, and then customize and extend it as needed.
 
@@ -50,7 +69,7 @@ Roxo is a responsive Eleventy theme powered by Bootstrap 4, with dedicated portf
 
 ### Vredeburg
 
-**Use case(s):** Blog<br>**Author:** [Daff](https://github.com/dafiulh)<br>**License:** MIT
+**Use case(s):** Blog<br>**Author:** Daff<br>**License:** MIT
 
 ![](https://cc-dam.imgix.net/blog/blog-eleventy-starters-vredeburg.png)
 

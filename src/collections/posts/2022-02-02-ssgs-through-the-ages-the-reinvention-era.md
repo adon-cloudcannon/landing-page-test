@@ -1,10 +1,22 @@
 ---
+draft: false
 title: The ‘Reinvention’ era'
 description: >-
   The third part of an ongoing series: the reinvention period sees a flurry of
   static site generators challenging some of Jekyll's underlying foundations.
 series: SSGs through the ages
 permalink: /blog/ssg-history-3-reinvention/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/explorer-3_zaafvp.jpg
 date: 2022-02-02T05:00:00.000Z
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 After [years of recreating and iterating on Jekyll](/blog/ssg-history-2-after-jekyll/), the reinvention period sees a flurry of static site generators challenging some of Jekyll's underlying foundations.
 

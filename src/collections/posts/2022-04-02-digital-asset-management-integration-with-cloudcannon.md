@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Digital Asset Management integration with CloudCannon
 description: >-
   Digital Asset Management (DAM) systems are the right tool to manage all the
   images, videos, and documents needed for your sites. Read how to integrate a
   DAM solution with CloudCannon's Git-powered CMS.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/dam-hero-c.jpg
 date: 2022-04-02T05:00:00+1300
 tags:
   - Features
-author: dave-strydom
+author: 94d9454d-d560-4dc5-8acd-1bd804305709
 ---
 We are absolutely in love with the Git-powered nature of CloudCannon. The simplicity, security, and control over your code and text-based content is vital to an ideal workflow. We wouldn’t have it any other way for our static site platform, and we know you love it too. Unfortunately, Git isn’t the solution to all of your website needs. Repositories with a maximum size of 2GB just aren’t well poised to manage beautiful modern sites with rich digital assets.
 

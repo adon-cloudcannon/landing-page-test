@@ -1,10 +1,22 @@
 ---
+draft: false
 title: 'Free Jekyll themes for 2022: Ten great community options'
 description: >-
   There is a great catalog of popular, modern Jekyll themes to choose from and
   customize to make your life easier.
 series:
 permalink: /blog/free-jekyll-themes-for-2022/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-03-10T05:00:00+1300
 tags:
   - Resources
   - Jekyll
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Building a website from scratch can be a rewarding experience. But it can also be a long and taxing process that not everyone can afford to do.
 

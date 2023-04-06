@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: SvelteKit vs. Next.js
 description: >-
   SvelteKit vs Next.js compares open source web development tools for creating
@@ -8,13 +10,31 @@ description: >-
   components.
 series:
 image: https://cc-dam.imgix.net/blog/sk-vs-nextjs-min.jpg
-date: 2023-02-04T05:01:00+1300
+date: 2023-02-03T16:01:00Z
 hide_publish_date: false
 tags:
   - Next.js
   - SvelteKit
   - Resources
-author: jaimie-mcmahon
+author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your SvelteKit or Next.js website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 If you're looking to build static sites with complex interactive web applications, you’d be hard pressed to find two more suitable static site generators than **[Next.js](https://nextjs.org/)** and **[SvelteKit](https://kit.svelte.dev/)**.&nbsp;
 
@@ -60,30 +80,7 @@ You have freedom with SvelteKit. Many frameworks make the assumption that there 
 
 ### Comparing Next.js and SvelteKit
 
-|  | **Next.js** | **SvelteKit** |
-| --- | --- | --- |
-| **First release** | 2016 | 2020 |
-| **Built with** | JavaScript (React) | JavaScript |
-| **Templating language(s)** | JSX | Svelte |
-| **Plugins** | Yes | Yes |
-| **GitHub stars** | 96k+ | 13k+ |
-| **Templates / Themes** | Yes (Next.js uses the term ‘Template’.) | Yes (SvelteKit uses the term ‘Themes’.) |
-| **Licence** | MIT | MIT |
-| **Installation requirements** | Via npm | Via npm |
-| **Build speeds** | Fast | Faster |
-| **Multilingual and i18n** | Multilingual with a little work; i18n built-in. | Via `SvelteKit-i18n` |
-| **Easy WordPress / legacy converter** | No; you’ll need to convert to Markdown and then clean up your content. | No; available through third-parties |
-| **Learning curve** | Moderate; it will help to have React experience. | Minimal; it will help to have Svelte experience. |
-| **Documentation** | [nextjs.org](https://nextjs.org/docs/getting-started) | [kit.svelte.dev](https://kit.svelte.dev/docs/introduction) |
-| **Support communities** | [Next.js Discord](https://discord.com/invite/bUG2bvbtHy) | [SvelteKit Discord](https://discord.com/invite/svelte) |
-| **Twitter accounts** | [Next.js Twitter](https://twitter.com/nextjs) | [Svelte Twitter](https://twitter.com/sveltejs) |
-| **GitHub repos** | [github.com/vercel/next.js](https://github.com/vercel/next.js) | [github.com/sveltejs/kit](https://github.com/sveltejs/kit) |
-| **Code splitting** | Yes (automatic) | Yes (automatic) |
-| **Image optimization** | Yes | Yes |
-| **Disable runtime JS** | Yes (experimental feature) | Yes |
-| **Environment variables** | Yes | Yes |
-| **Content security policy** | Via `next-secure-headers` | Yes (built-in) |
-| **CloudCannon support** | Yes — your [Next.js](https://cloudcannon.com/nextjs-cms/) sites (in SSG mode) can be editable in minutes with CloudCannon. | Yes — your [SvelteKit](https://cloudcannon.com/sveltekit-cms/) sites (in SSG mode) can be editable in minutes with CloudCannon. |
+<table><thead><tr><th> </th><th><strong>Next.js</strong></th><th><strong>SvelteKit</strong></th></tr></thead><tbody><tr><td><strong>First release</strong></td><td>2016</td><td>2020</td></tr><tr><td><strong>Built with</strong></td><td>JavaScript (React)</td><td>JavaScript</td></tr><tr><td><strong>Templating language(s)</strong></td><td>JSX</td><td>Svelte</td></tr><tr><td><strong>Plugins</strong></td><td>Yes</td><td>Yes</td></tr><tr><td><strong>GitHub stars</strong></td><td>96k+</td><td>13k+</td></tr><tr><td><strong>Templates / Themes</strong></td><td>Yes (Next.js uses the term ‘Template’.)</td><td>Yes (SvelteKit uses the term ‘Themes’.)</td></tr><tr><td><strong>Licence</strong></td><td>MIT</td><td>MIT</td></tr><tr><td><strong>Installation requirements</strong></td><td>Via npm</td><td>Via npm</td></tr><tr><td><strong>Build speeds</strong></td><td>Fast</td><td>Faster</td></tr><tr><td><strong>Multilingual and i18n</strong></td><td>Multilingual with a little work; i18n built-in.</td><td>Via <code>SvelteKit-i18n</code></td></tr><tr><td><strong>Easy WordPress / legacy converter</strong></td><td>No; you’ll need to convert to Markdown and then clean up your content.</td><td>No; available through third-parties</td></tr><tr><td><strong>Learning curve</strong></td><td>Moderate; it will help to have React experience.</td><td>Minimal; it will help to have Svelte experience.</td></tr><tr><td><strong>Documentation</strong></td><td><a href="https://nextjs.org/docs/getting-started">nextjs.org</a></td><td><a href="https://kit.svelte.dev/docs/introduction">kit.svelte.dev</a></td></tr><tr><td><strong>Support communities</strong></td><td><a href="https://discord.com/invite/bUG2bvbtHy">Next.js Discord</a></td><td><a href="https://discord.com/invite/svelte">SvelteKit Discord</a></td></tr><tr><td><strong>Twitter accounts</strong></td><td><a href="https://twitter.com/nextjs">Next.js Twitter</a></td><td><a href="https://twitter.com/sveltejs">Svelte Twitter</a></td></tr><tr><td><strong>GitHub repos</strong></td><td><a href="https://github.com/vercel/next.js">github.com/vercel/next.js</a></td><td><a href="https://github.com/sveltejs/kit">github.com/sveltejs/kit</a></td></tr><tr><td><strong>Code splitting</strong></td><td>Yes (automatic)</td><td>Yes (automatic)</td></tr><tr><td><strong>Image optimization</strong></td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Disable runtime JS</strong></td><td>Yes (experimental feature)</td><td>Yes</td></tr><tr><td><strong>Environment variables</strong></td><td>Yes</td><td>Yes</td></tr><tr><td><strong>Content security policy</strong></td><td>Via <code>next-secure-headers</code></td><td>Yes (built-in)</td></tr><tr><td><strong>CloudCannon support</strong></td><td>Yes — your <a href="https://cloudcannon.com/nextjs-cms/">Next.js</a> sites (in SSG mode) can be editable in minutes with CloudCannon.</td><td>Yes — your <a href="https://cloudcannon.com/sveltekit-cms/">SvelteKit</a> sites (in SSG mode) can be editable in minutes with CloudCannon.</td></tr></tbody></table>
 
 ### Which should I choose?
 
@@ -101,4 +98,4 @@ The primary benefit of choosing SvelteKit as opposed to Next.js is the ability t
 
 CloudCannon’s focus is, and always has been, making content editing and production more accessible to everyone, no matter the use case. Accordingly, we provide excellent support for both Next.js and SvelteKit, meaning we’re here for you whichever approach you choose. With our Git-based CMS, your content teams will be able to easily build pages in an intuitive visual editor, while developers benefit from our flexible approach to configuration and content management.
 
-We’ve published a series of tutorials on [Getting Set Up In SvelteKit](/tutorials/sveltekit-beginner-tutorial/), and we've also created a comprehensive overview (and video guide) of [H](__notset__)[ow to get started with Next.js and CloudCannon](https://cloudcannon.com/documentation/articles/nextjs-starter-guide/?ssg=Next.js)[.&nbsp;](https://cloudcannon.com/documentation/articles/nextjs-starter-guide/?ssg=Next.js)
+We’ve published a series of tutorials on [Getting Set Up In SvelteKit](/tutorials/sveltekit-beginner-tutorial/), and we've also created a comprehensive overview (and video guide) of [How to get started with Next.js and CloudCannon](https://cloudcannon.com/documentation/articles/nextjs-starter-guide/?ssg=Next.js)[.&nbsp;](https://cloudcannon.com/documentation/articles/nextjs-starter-guide/?ssg=Next.js)

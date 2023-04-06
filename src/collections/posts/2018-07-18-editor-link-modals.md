@@ -1,9 +1,21 @@
 ---
+draft: false
 title: Editor Link Modals
 date: 2018-07-18T13:06:00+1200
 tags:
   - Features
-author: ross-phillips
+author: 68fdf39d-de6e-4729-8747-1bf901498c5c
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

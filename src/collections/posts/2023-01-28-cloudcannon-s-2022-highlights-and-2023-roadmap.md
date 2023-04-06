@@ -1,4 +1,5 @@
 ---
+draft: false
 title: CloudCannon’s 2022 Highlights and 2023 Roadmap
 description: >-
   CloudCannon’s Cofounder and Chief Technology Officer, George Phillips,
@@ -13,7 +14,7 @@ hide_publish_date: false
 tags:
   - Company
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 In the latest episode of Static Feedback, George Phillips — CloudCannon’s Cofounder and Chief Technology Officer — spoke about the roadmap for the year ahead and the changes that have come to CloudCannon over the past twelve months. It’s been a busy year, and the path ahead is looking equally exciting.
 
