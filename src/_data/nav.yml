@@ -167,6 +167,9 @@
           description: Find an Expert
           icon_path: outline/user
           nav_icon_color: cc_blue
+      sub_card: []
+    - title: Featured Post
+      sub_nav:
       sub_card:
         - featured_page_link: >-
             /blog/the-top-five-static-site-generators-for-2023-and-when-to-use-them/
