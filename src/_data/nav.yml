@@ -28,7 +28,6 @@
           image:
             image_path:
             image_alt:
-
     - title: Users
       sub_nav:
         - name: For Content Editors
@@ -62,7 +61,6 @@
           image:
             image_path:
             image_alt:
-
     - title: Use Cases
       sub_nav:
         - name: Case Studies
@@ -76,7 +74,6 @@
           image:
             image_path:
             image_alt:
-
     - title: Featured Case Study
       sub_nav:
         - name:
@@ -84,13 +81,22 @@
           icon_path:
           nav_icon_color:
           description:
+        - name:
+          link:
+          description:
+          icon_path:
+          nav_icon_color:
       sub_card:
         - featured_page_link: /customers/ocupop/
           name:
           image:
             image_path: https://cc-dam.imgix.net/marketing/uploads/ocupop-2.png
             image_alt: Ocupop Logo
-
+        - featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
 - name: Resources
   sub_navs:
     - title: Developers
@@ -121,7 +127,6 @@
           image:
             image_path:
             image_alt:
-
     - title: CloudCannon
       sub_nav:
         - name: Blog
@@ -169,8 +174,7 @@
           image:
             image_path:
             image_alt:
-
-    - title: Partner of the month
+    - title: New Sub Nav
       sub_nav:
         - name:
           link:
@@ -178,11 +182,10 @@
           icon_path:
           nav_icon_color:
       sub_card:
-        - featured_page_link: /blog/introducing-the-cloudcannon-partner-program/
-          name: This partner is really great
+        - featured_page_link: /documentation/articles/using-arrays-to-make-a-gallery/
+          name:
           image:
-            image_path: https://cc-dam.imgix.net/marketing/partners_1.png
-            image_alt: partner dashboard example
-            
+            image_path:
+            image_alt:
 - name: Pricing
   link: /pricing/
