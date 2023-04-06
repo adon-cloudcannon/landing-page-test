@@ -174,18 +174,5 @@
           image:
             image_path:
             image_alt:
-    - title: New Sub Nav
-      sub_nav:
-        - name:
-          link:
-          description:
-          icon_path:
-          nav_icon_color:
-      sub_card:
-        - featured_page_link: /documentation/articles/using-arrays-to-make-a-gallery/
-          name:
-          image:
-            image_path:
-            image_alt:
 - name: Pricing
   link: /pricing/
