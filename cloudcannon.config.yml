@@ -141,7 +141,7 @@ collections_config:
       content:
         blockquote: true
         bold: true
-        format: p h1 h2 h3 h4 h5 h6 pre address div
+        format: p h1 h2 h3 h4 h5 h6 
         italic: true
         strike: true
         subscript: true
@@ -149,9 +149,7 @@ collections_config:
         underline: true
         link: true
         bulletedlist: true
-        indent: true
         numberedlist: true
-        outdent: true
         code: true
         embed: true
         horizontalrule: true
@@ -160,11 +158,6 @@ collections_config:
         undo: true
         redo: true
         removeformat: true
-        copyformatting: true
-        left: align-left
-        center: align-center
-        right: align-right
-        justify: align-justify
         image_size_attributes: true
         snippet: true
     filter:
