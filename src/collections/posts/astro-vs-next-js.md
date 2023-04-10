@@ -9,7 +9,7 @@ description: >-
 draft: false
 series:
 image: https://cc-dam.imgix.net/Astro vs. Nextjs.png
-date: 2023-04-06T17:03:00Z
+date: 2023-04-10T21:20:00Z
 hide_publish_date: false
 tags:
   - Astro
