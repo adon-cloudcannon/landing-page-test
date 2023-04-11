@@ -90,22 +90,22 @@
           link: https://cloudcannon.com/documentation/
           description: CloudCannon resources and guides
           icon_path: outline/code-bracket-square
-          nav_icon_color: comet
+          nav_icon_color: cc_blue
         - name: Tutorials
           link: /tutorials/
           description: Learn Jamstack with CloudCannon
           icon_path: outline/academic-cap
-          nav_icon_color: comet
+          nav_icon_color: cc_blue
         - name: Jamstack Ecosystem
           link: /jamstack-ecosystem/
           description: The best tooling for your next website
           icon_path: outline/gift
-          nav_icon_color: comet
+          nav_icon_color: cc_blue
         - name: Jekyll Cheatsheet
           link: /cheat-sheets/jekyll/
           description: Everything you need at a glance
           icon_path: outline/check-badge
-          nav_icon_color: comet
+          nav_icon_color: cc_blue
       sub_card:
         - featured_page_link:
           name:
