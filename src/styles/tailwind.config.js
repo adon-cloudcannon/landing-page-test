@@ -44,7 +44,7 @@ module.exports = {
 				comet: "#8BB4ED"
 			},
 			boxShadow: {
-				'menu': '0 5px 25px 10px rgb(0 0 0 / 0.08)'
+				'menu': '0 24px 30px 4px rgb(0 0 0 / 0.08)'
 			}
 		},
 		container: {

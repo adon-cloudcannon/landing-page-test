@@ -1,6 +1,6 @@
 {% assign nav_count = item.sub_navs | size %}
 <div x-show="open" x-cloak class="caret">
-	<div class="shadow-menu bg-white grid grid-cols-{{ nav_count }} justify-center right-0 left-0 absolute mt-6 pb-6 z-30 px-10 rounded-xl">
+	<div class="shadow-menu bg-white grid grid-cols-{{ nav_count }} justify-center right-0 left-0 absolute mt-6 pb-6 z-30 px-10 border-t border-t-cc/[.15]">
 		{% for sub_nav in item.sub_navs %}
 			<div class="py-5 mx-4">
 				<div class="uppercase text-gray-600 text-xs tracking-[.25em] pb-4">{{ sub_nav.title }}</div>
@@ -37,7 +37,7 @@
 					{% if sub_item.featured_page_link %}
 						<a 
 							href="{{ sub_item.featured_page_link }}" 
-							class="block p-2 group border border-carbon rounded-lg">
+							class="block p-2 group border border-carbon rounded-lg hover:scale-105 transition">
 							<div class="flex"> 
 								<div class="flex-1">
 									{% assign pages = collections.all %}
@@ -57,11 +57,14 @@
 											</div>
 										{% endif %}
 									{% endfor %}
-									<p class="flex text-cc font-bold">Learn more 
-										<span class="flex align-items-center w-4 inline-block ml-1 font-bold">
-											{{ "/src/images/icons/solid/arrow-right.svg" | svgContents }}
+									<div class="font-bold bottom-5 text-cc transition">
+										<span class="group-hover:underline">Learn more</span>
+										<span class="inline-block w-4 relative top-[3px] outline-cc ml-1">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+											</svg>
 										</span>
-									</p>
+									</div>
 								</div>
 							</div>
 						</a>
