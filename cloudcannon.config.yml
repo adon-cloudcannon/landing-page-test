@@ -352,7 +352,36 @@ _structures:
   blocks:
     style: modal
   content_blocks: 
-    style: modal
+    style: 
+  sub_navs:
+    values:
+      - label: Sub Nav
+        icon: menu
+        value:
+          title:
+          sub_nav:
+          sub_card:
+  sub_card:
+    values:
+      - label: Sub Card
+        icon: card
+        value:
+          featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
+  sub_nav:
+    values:
+      - label: Sub Nav Item
+        icon: image
+        value:
+          name:
+          link:
+          description:
+          icon_path:
+          nav_icon_color:
+
 
 _inputs:
   layout:
@@ -1009,6 +1038,17 @@ _inputs:
         - teal-white
         - teal
         - normal
+  nav_icon_color:
+    type: select
+    label: "Icon Color"
+    options:
+      values:
+        - cc_blue
+        - amber
+        - electric_purple
+        - emerald
+        - ruby
+        - comet
 
 _snippets_imports:
   eleventy_liquid: true
