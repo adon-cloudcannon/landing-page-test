@@ -34,26 +34,26 @@
           link: /for-content-editors/
           description: Create content with no roadblocks
           icon_path: outline/pencil-square
-          nav_icon_color: emerald
+          nav_icon_color: electric_purple
         - name: For Marketers
           link: /for-marketers/
           description: Create SEO-optimized sites every time
           icon_path: outline/megaphone
-          nav_icon_color: emerald
+          nav_icon_color: electric_purple
         - name: For Developers
           link: /for-developers/
           icon_path: outline/code-bracket-square
-          nav_icon_color: emerald
+          nav_icon_color: electric_purple
           description: Build, publish, and empower your team
         - name: For Digital Agencies
           link: /partner-program/
           icon_path: outline/paint-brush
-          nav_icon_color: emerald
+          nav_icon_color: electric_purple
           description: Support and empower your clients
         - name: For Enterprise
           link: /enterprise/
           icon_path: outline/building-office
-          nav_icon_color: emerald
+          nav_icon_color: electric_purple
           description: Collaborate, iterate, and publish seamlessly
       sub_card:
         - featured_page_link:
@@ -66,7 +66,7 @@
         - name: Case Studies
           link: /customers/
           icon_path: outline/user-circle
-          nav_icon_color: amber
+          nav_icon_color: comet
           description: Why the best choose CloudCannon
       sub_card:
         - featured_page_link:
@@ -74,14 +74,14 @@
           image:
             image_path:
             image_alt:
-    - title: Latest on the blog
+    - title: Featured Case Study
       sub_nav: []
       sub_card:
-        - featured_page_link: /blog/cloudcannon-com-is-now-built-with-eleventy/
-          name: New website with 11ty!
+        - featured_page_link: /customers/twitch/
+          name: Delivering microsites to Twitch's daily active users
           image:
-            image_path: https://cc-dam.imgix.net/partner-test.jpg
-            image_alt: laptop
+            image_path: ''
+            image_alt:
 - name: Resources
   sub_navs:
     - title: Developers
@@ -118,22 +118,22 @@
           link: /blog/
           description: The latest from CloudCannon
           icon_path: outline/key
-          nav_icon_color: electric_purple
+          nav_icon_color: emerald
         - name: Events
           link: /events/
           description: Join us and share the knowledge
           icon_path: outline/microphone
-          nav_icon_color: electric_purple
+          nav_icon_color: emerald
         - name: Templates
           link: /templates/
           description: Get started with a pre-configured site
           icon_path: outline/puzzle-piece
-          nav_icon_color: electric_purple
+          nav_icon_color: emerald
         - name: Support
           link: /support/
           description: We're here to help
           icon_path: outline/inbox
-          nav_icon_color: electric_purple
+          nav_icon_color: emerald
       sub_card:
         - featured_page_link:
           name:
@@ -146,20 +146,12 @@
           link: /partner-program/
           description: Support and empower your clients
           icon_path: outline/briefcase
-          nav_icon_color: cc_blue
+          nav_icon_color: amber
         - name: Expert Directory
           link: /experts/
           description: Find an Expert
           icon_path: outline/user
-          nav_icon_color: cc_blue
+          nav_icon_color: amber
       sub_card: []
-    - title: Customer Story
-      sub_nav:
-      sub_card:
-        - featured_page_link: /customers/netflix/
-          name:
-          image:
-            image_path:
-            image_alt:
 - name: Pricing
   link: /pricing/
