@@ -74,10 +74,10 @@
           image:
             image_path:
             image_alt:
-    - title: Case Study
+    - title: Latest Blog
       sub_nav:
       sub_card:
-        - featured_page_link: /customers/twitch/
+        - featured_page_link: /blog/out-of-this-world-support-for-all-astro-users/
           name:
           image:
             image_path:
@@ -156,10 +156,10 @@
     - title: Featured Partner
       sub_nav:
       sub_card:
-        - featured_page_link: /blog/introducing-the-cloudcannon-partner-program/
-          name: Partner of the month
+        - featured_page_link: /customers/twitch/
+          name:
           image:
-            image_path: https://cc-dam.imgix.net/Partner-test.jpg
-            image_alt: Computer on desk
+            image_path: ''
+            image_alt:
 - name: Pricing
   link: /pricing/
