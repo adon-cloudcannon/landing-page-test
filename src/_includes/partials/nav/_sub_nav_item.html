@@ -46,7 +46,11 @@
 											{% if sub_item.image.image_path %}
 												<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ sub_item.image.image_path }}" alt="">
 											{% else %}
-												<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ page.data.image }}" alt="">
+												{% if page.data.image.path %}
+													<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ page.data.image.path }}" alt="{{ page.data.image.alt }}">
+												{% else %}
+													<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ page.data.image }}" alt="">
+												{% endif %}
 											{% endif %}	
 											<div class="text-base font-semibold pt-4 pb-1">
 												{% if sub_item.name %}
