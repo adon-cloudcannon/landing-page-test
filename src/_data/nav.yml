@@ -74,14 +74,14 @@
           image:
             image_path:
             image_alt:
-    - title: Latest Blog
-      sub_nav:
+    - title: Latest on the blog
+      sub_nav: []
       sub_card:
-        - featured_page_link: /blog/out-of-this-world-support-for-all-astro-users/
-          name:
+        - featured_page_link: /blog/cloudcannon-com-is-now-built-with-eleventy/
+          name: New website with 11ty!
           image:
-            image_path:
-            image_alt:
+            image_path: https://cc-dam.imgix.net/partner-test.jpg
+            image_alt: laptop
 - name: Resources
   sub_navs:
     - title: Developers
@@ -153,10 +153,10 @@
           icon_path: outline/user
           nav_icon_color: cc_blue
       sub_card: []
-    - title: Featured Partner
+    - title: Customer Story
       sub_nav:
       sub_card:
-        - featured_page_link: /customers/ocupop/
+        - featured_page_link: /customers/netflix/
           name:
           image:
             image_path:
