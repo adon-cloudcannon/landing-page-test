@@ -74,11 +74,11 @@
           image:
             image_path:
             image_alt:
-    - title:
+    - title: Case Study
       sub_nav:
       sub_card:
         - featured_page_link: /customers/twitch/
-          name: Featured customer
+          name:
           image:
             image_path:
             image_alt:
