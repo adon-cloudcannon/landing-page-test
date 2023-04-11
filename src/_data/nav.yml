@@ -161,10 +161,5 @@
           image:
             image_path:
             image_alt:
-        - featured_page_link: case-studies/twitch
-          name:
-          image:
-            image_path:
-            image_alt:
 - name: Pricing
   link: /pricing/
