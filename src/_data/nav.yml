@@ -156,7 +156,7 @@
     - title: Featured Partner
       sub_nav:
       sub_card:
-        - featured_page_link: /customers/twitch/
+        - featured_page_link: /customers/ocupop/
           name:
           image:
             image_path:
