@@ -74,11 +74,11 @@
           image:
             image_path:
             image_alt:
-    - title: Latest Blog
+    - title:
       sub_nav:
       sub_card:
-        - featured_page_link: /blog/out-of-this-world-support-for-all-astro-users/
-          name:
+        - featured_page_link: /customers/twitch/
+          name: Featured customer
           image:
             image_path:
             image_alt:
