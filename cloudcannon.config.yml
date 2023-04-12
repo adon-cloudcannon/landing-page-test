@@ -1,5 +1,6 @@
 source: src
 collections_config_override: true
+timezone: Pacific/Auckland
 collections_config:
   authors:
     description: The authors of blog posts
