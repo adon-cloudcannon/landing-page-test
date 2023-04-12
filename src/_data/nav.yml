@@ -118,7 +118,7 @@
         - name: Blog
           link: /blog/
           description: The latest from CloudCannon
-          icon_path: outline/key
+          icon_path: outline/light-bulb
           nav_icon_color: emerald
         - name: Events
           link: /events/
