@@ -54,11 +54,15 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 ![](https://cc-dam.imgix.net/potent-ship.cloudvent.net_.png)Sendit is a multipurpose Astro theme made with the Bootstrap CSS framework. The components have been converted to&nbsp;**<a target="_blank" rel="noopener" href="https://github.com/CloudCannon/bookshop">Bookshop</a>**. It’s the perfect starting point to see how CloudCannon works and build out a clean, modern looking site at the same time.<br><br><a target="_blank" rel="noopener" href="https://potent-ship.cloudvent.net/">Sendit demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/CloudCannon/sendit-astro-template">Sendit GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-astro-template"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 22\. Stablo Astro
 
 **Use case(s):** Astro blog template<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/web3templates">web3templates</a><br>**License:** GPL-3.0 license<br>**GitHub** ⭐: 20 stars
 
 ![](https://cc-dam.imgix.net/stablo-astro.web3templates.com_.png)Astro version of the Popular Stablo Blog Template.<br><br><a target="_blank" rel="noopener" href="https://stablo-astro.web3templates.com/">Stablo Astro demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/web3templates/stablo-astro">Stablo Astro GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/web3templates/stablo-astro"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 21\. Astro Big Doc
 
@@ -68,6 +72,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://microwebstacks.github.io/astro-big-doc/blog/gallery/">Astro Big Doc demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/MicroWebStacks/astro-big-doc">Astro Big Doc GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/MicroWebStacks/astro-big-doc"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 20\. Quickstore
 
 **Use case(s):** Astro e-commerce theme<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/michael-andreuzza">michael-andreuzza</a><br>**License:** Unlicensed<br>**GitHub** ⭐: 28 stars
@@ -75,6 +81,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/quickstorre.vercel.app_.png)A free and simple e-commerce theme for Astro where you can embed your Gumroad or lemonsqueezy.
 
 <a target="_blank" rel="noopener" href="https://quickstorre.vercel.app/">Quickstore demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/michael-andreuzza/quickstore">Quickstore GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/michael-andreuzza/quickstore"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 19\. Brutal
 
@@ -84,6 +92,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://brutal.elian.codes/">Brutal demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/eliancodes/brutal">Brutal GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/eliancodes/brutal"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 18\. Astro Design System
 
 **Use case(s):** Starter theme for design systems<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/jordienr">jordienr</a><br>**License:** MIT<br>**GitHub** ⭐: 39 stars
@@ -91,6 +101,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/astro-design-system.vercel.app_.png)Astro Design System is the easiest way to start your our design system. Since Astro is compatible with many frameworks, you can import your components and document them right in the Markdown files.
 
 <a target="_blank" rel="noopener" href="https://astro-design-system.vercel.app/">Astro Design System demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/jordienr/astro-design-system">Astro Design SystemGitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/jordienr/astro-design-system"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 17\. Astrolus
 
@@ -100,6 +112,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://astrolus.netlify.app/">Astrolus demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/Tailus-UI/astro-theme">Astrolus GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/Tailus-UI/astro-theme"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 16\. Astro Shopify
 
 **Use case(s):** Astro e-commerce theme<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/thomasKn">thomasKn</a><br>**License:** MIT<br>**GitHub** ⭐: 47 stars
@@ -107,6 +121,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/astro-shopify.gatto.dev_.png)Astro Shopify is a lightweight and powerful e-commerce starter theme to build headless Shopify storefronts with Astro. The theme is built with Svelte, but you can use any framework you like (React, Vue, Solid, etc.) thanks to Astro. Tailwind UI free components are used for the design.
 
 <a target="_blank" rel="noopener" href="https://astro-shopify.gatto.dev/">Astro Shopify demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/thomasKn/astro-shopify">Astro Shopify GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/thomasKn/astro-shopify"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 15\. Hello Astro
 
@@ -116,6 +132,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://hellotham.github.io/hello-astro/">Hello Astro demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/hellotham/hello-astro">Hello Astro GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/hellotham/hello-astro"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 14\. Astro Toolbox
 
 **Use case(s):** Simple Netlify template<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/tzmanics">tzmanics</a><br>**License:** Unlicensed<br>**GitHub** ⭐: 52 stars
@@ -123,6 +141,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/astro-toolbox.netlify.app_.png)Astro Toolbox is a simple template to give you the code you need to use Netlify features with Astro. It is a reference on how to integrate commonly used features within&nbsp;<a target="_blank" rel="noopener" href="https://netlify.com/">Netlify</a>&nbsp;for Astro.
 
 <a target="_blank" rel="noopener" href="https://astro-toolbox.netlify.app/">Astro Toolbox demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/netlify-templates/astro-toolbox">Astro Toolbox GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/netlify-templates/astro-toolbox"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 13\. Astro Creek
 
@@ -132,6 +152,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://astro-theme-creek.netlify.app/">Astro Creek demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/robertguss/Astro-Theme-Creek">Astro Creek GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/robertguss/Astro-Theme-Creek"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 12\. Astro Blog Template
 
 **Use case(s):** Astro blog template<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/Charca">Charca</a><br>**License:** MIT<br>**GitHub** ⭐: 160 stars
@@ -139,6 +161,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/astro-blog-template.netlify.app_.png)Astro Blog Template is a personal blog theme.
 
 <a target="_blank" rel="noopener" href="https://astro-blog-template.netlify.app/">Astro Blog Template demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/Charca/astro-blog-template">Astro Blog Template GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/Charca/astro-blog-template"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 11\. Astro Modern Personal Website
 
@@ -148,6 +172,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://astro-modern-personal-website.netlify.app/">Astro Modern Personal Website demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/manuelernestog/astro-modern-personal-website">Astro Modern Personal Website GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/manuelernestog/astro-modern-personal-website"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 10\. Astro Theme Cactus
 
 **Use case(s):** A simple opinionated starter theme<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/chrismwilliams">chrismwilliams</a><br>**License:** MIT<br>**GitHub** ⭐: 186 stars
@@ -155,6 +181,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/astro-theme-cactus.netlify.app_.png)Astro Theme Cactus is a simple opinionated starter built with the Astro framework. Use it to create an easy-to-use blog or website.
 
 <a target="_blank" rel="noopener" href="https://astro-theme-cactus.netlify.app/">Astro Theme Cactus demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/chrismwilliams/astro-theme-cactus">Astro Theme Cactus Github repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/chrismwilliams/astro-theme-cactus"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 9\. Astro Landing Page
 
@@ -164,6 +192,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://astro-moon-landing.netlify.app/">Astro Landing Page demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/mhyfritz/astro-landing-page">Astro Landing Page GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/mhyfritz/astro-landing-page"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 8\. Accessible Astro Starter
 
 **Use case(s):** Accessible starter template<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/markteekman">markteekman</a><br>**License:** MIT<br>**GitHub** ⭐: 213 stars
@@ -171,6 +201,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/www.accessible-astro.dev_.png)Accessible Astro Starter is a ready to use, SEO friendly blogging theme. It contains plenty of accessible components to build several page types, Tailwind CSS to help you build faster and example pages such as a dynamic Blog, 404, Markdown and MDX. This theme is designed to help you build your project faster and provide a solid base for accessibility.
 
 <a target="_blank" rel="noopener" href="https://www.accessible-astro.dev/">Accessible Astro Starter demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/markteekman/accessible-astro-starter">Accessible Astro Starter GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/markteekman/accessible-astro-starter"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 7\. Odyssey
 
@@ -180,6 +212,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://odyssey-theme.littlesticks.site/">Odyssey demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/littlesticks/odyssey-theme">Odyssey GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/littlesticks/odyssey-theme"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 6\. Krypton
 
 **Use case(s):** Crypto template<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/cssninjaStudio">cssninjaStudio</a><br>**License:** MIT<br>**GitHub** ⭐: 279 stars
@@ -187,6 +221,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/krypton.cssninja.io_.png)Krypton is a free ICO/Crypto template for Astro.
 
 <a target="_blank" rel="noopener" href="https://krypton.cssninja.io/">Krypton demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/cssninjaStudio/krypton">Krypton GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/cssninjaStudio/krypton"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 5\. Astro Ink
 
@@ -196,6 +232,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://astro-ink.vercel.app/">Astro Ink demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/one-aalam/astro-ink">Astro Ink GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/one-aalam/astro-ink"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 4\. Astroship
 
 **Use case(s):** Starter template for startups, marketing sites, landing pages, and blogs<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/surjithctly">surjithctly</a><br>**License:** GPL-3.0 license<br>**GitHub** ⭐: 420 stars
@@ -203,6 +241,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/astroship.web3templates.com_.png)Astroship is a starter template for startups, marketing websites, landing pages & blogs. Built with Astro & TailwindCSS.
 
 <a target="_blank" rel="noopener" href="https://astroship.web3templates.com/">Astroship demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/surjithctly/astroship">Astroship GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/surjithctly/astroship"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 3\. Fresh
 
@@ -212,6 +252,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 <a target="_blank" rel="noopener" href="https://fresh.cssninja.io/">Fresh demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/cssninjaStudio/fresh">Fresh GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/cssninjaStudio/fresh"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
+###
+
 ### 2\. Astro Paper
 
 **Use case(s):** Minimal blog template<br>**Author:** <a target="_blank" rel="noopener" href="https://github.com/satnaing">satnaing</a><br>**License:** MIT<br>**GitHub** ⭐: 545 stars
@@ -219,6 +261,8 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 ![](https://cc-dam.imgix.net/astro-paper.pages.dev_.png)AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
 
 <a target="_blank" rel="noopener" href="https://astro-paper.pages.dev/">Astro Paper demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/satnaing/astro-paper">Astro Paper GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/satnaing/astro-paper"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+
+###
 
 ### 1\. Astro Wind
 
