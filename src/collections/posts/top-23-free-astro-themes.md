@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Top 23 Free Astro Themes
+title: Top 23 free Astro themes for building out-of-this-world static sites in 2023
 description: >-
   Check out our curated list of 2023’s top 23 free Astro themes for a variety of
   use cases. Find Astro templates perfect for blogs, portfolios, documentation,
@@ -32,7 +32,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/top-23-astro-themes.png
   featured_image_alt: Free Astro Templates
 ---
-# Top 23 free Astro themes for building out-of-this-world static sites in 2023
+#
 
 With CloudCannon’s CMS <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/out-of-this-world-support-for-all-astro-users/">support for Astro out of beta</a>, as well as the release of <a target="_blank" rel="noopener" href="https://astro.build/blog/astro-2/">Astro 2.0</a>, there is no better time to get started on an Astro project. If you’re looking for a theme for your next Astro project, we've curated a list of 2023’s top 23 free Astro themes for a variety of use cases. This list includes actively maintained Astro templates with the most GitHub stars.
 
