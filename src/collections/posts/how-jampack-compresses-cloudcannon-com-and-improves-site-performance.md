@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: How Jampack compresses CloudCannon.com and improves site performance
+title: How Jampack optimizes CloudCannon.com and improves site performance
 description: "Jampack is a post-processing tool that takes the output of any static site generator\_and optimizes it for user experience. CloudCannon uses Jampack to achieve perfect Lighthouse scores and excellent Core Web Vitals scores on cloudcannon.com."
 draft: true
 series:
@@ -29,7 +29,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-I’ve written previously about the performance outcomes of <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">transitioning cloudcannon.com to Eleventy</a>, which include perfect Lighthouse scores and excellent Core Web Vitals. We’re now several weeks into the flow of building our site pages, as well as drafting, editing, and publishing blog posts on Eleventy with CloudCannon as our CMS, and it’s been, as we expected, a joy to work with. But I’ve also wanted to dig a little deeper into each of the tools we used to achieve our performance gains, and to share how we configured these tools. So let’s get started, shall we?
+I’ve written previously about the performance outcomes of <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">transitioning cloudcannon.com to Eleventy</a>, which include perfect Lighthouse scores and excellent Core Web Vitals scores. We’re now several weeks into the flow of building our site pages, as well as drafting, editing, and publishing blog posts on Eleventy with CloudCannon as our CMS, and it’s been, as we expected, a joy to work with. But I’ve also wanted to dig a little deeper into each of the tools we used to achieve our performance gains, and to share how we configured these tools. So let’s get started, shall we?
 
 One of the easiest tools to include in our new stack was <a target="_blank" rel="noopener" href="https://jampack.divriots.com/">Jampack</a> from <a target="_blank" rel="noopener" href="https://divriots.com/">&lt;div&gt;RIOTS</a>, who you may know as the developers of <a target="_blank" rel="noopener" href="https://backlight.dev/">Backlight</a>; the Figma plugins <a target="_blank" rel="noopener" href="https://story.to.design/">story.to.design</a>, <a target="_blank" rel="noopener" href="https://www.figma.com/community/plugin/1159123024924461424/html.to.design">html.to.design</a>, and <a target="_blank" rel="noopener" href="https://www.figma.com/community/plugin/1222554159237609568/code.to.design">code.to.design</a>; and the online IDEs <a target="_blank" rel="noopener" href="https://webcomponents.dev/">WebComponents.dev</a>, <a target="_blank" rel="noopener" href="https://lwc.studio/">LWC.studio</a>, and <a target="_blank" rel="noopener" href="https://components.studio/">Components.studio</a>. Altogether, these tools are used by hundreds of thousands of developers and designers — and for a reasonably small core team, &lt;div&gt;RIOTS punches well above their weight.
 
