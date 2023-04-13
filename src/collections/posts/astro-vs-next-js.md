@@ -9,7 +9,7 @@ description: >-
 draft: false
 series:
 image: https://cc-dam.imgix.net/Astro vs. Nextjs.png
-date: 2023-04-10T21:20:00Z
+date: 2023-04-11T09:20:00+12:00
 hide_publish_date: false
 tags:
   - Astro
@@ -34,7 +34,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/astro-vs-nextjs.png
   featured_image_alt: Astro vs. Next.js
 ---
-# Astro vs. Next.js
+#
 
 Why compare <a target="_blank" rel="noopener" href="https://astro.build/">Astro</a> and <a target="_blank" rel="noopener" href="https://nextjs.org/">Next.js</a>? Astro is the new kid on the block in the web development world, being relatively new to the market but quickly gaining interest. Next.js is arguably the most popular website development framework, having become the go-to for some of the world’s largest companies like OpenAI, Hulu, and Vimeo. Astro is a UI-agnostic MPA framework built for speed, while Next.js is a React-based SPA framework with a strong focus on features.
 
