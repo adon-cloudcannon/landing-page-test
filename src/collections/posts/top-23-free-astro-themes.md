@@ -2,9 +2,9 @@
 _schema: default
 title: Top 23 free Astro themes for building out-of-this-world static sites in 2023
 description: >-
-  Check out our curated list of 2023’s top 23 free Astro themes for a variety of
-  use cases. Find Astro templates perfect for blogs, portfolios, documentation,
-  marketing sites, and e-commerce websites.
+  Check out 2023’s top 23 Astro themes to build with your favorite static site
+  generator. Find Astro templates for blogs, documentation, e-commerce, and
+  more.
 draft: true
 series:
 image: https://cc-dam.imgix.net/Top 23 Astro Themes.png
