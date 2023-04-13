@@ -52,9 +52,7 @@ Now, without further ado, let's dive into 2023’s top 23 free Astro themes for 
 
 **Use case(s):** Marketing website (multipurpose)<br>**​​Author:** <a target="_blank" rel="noopener" href="https://cloudcannon.com/">CloudCannon</a><br>**License:** MIT<br>**GitHub** ⭐: 15 stars
 
-![](https://cc-dam.imgix.net/potent-ship.cloudvent.net_.png)Sendit is a multipurpose Astro theme made with the Bootstrap CSS framework. The components have been converted to&nbsp;**<a target="_blank" rel="noopener" href="https://github.com/CloudCannon/bookshop">Bookshop</a>**. It’s the perfect starting point to see how CloudCannon works and build out a clean, modern looking site at the same time.<br><br><a target="_blank" rel="noopener" href="https://potent-ship.cloudvent.net/">Sendit demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/CloudCannon/sendit-astro-template">Sendit GitHub repo</a>
-
-<a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-astro-template"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
+![](https://cc-dam.imgix.net/potent-ship.cloudvent.net_.png)Sendit is a multipurpose Astro theme made with the Bootstrap CSS framework. The components have been converted to&nbsp;**<a target="_blank" rel="noopener" href="https://github.com/CloudCannon/bookshop">Bookshop</a>**. It’s the perfect starting point to see how CloudCannon works and build out a clean, modern looking site at the same time.<br><br><a target="_blank" rel="noopener" href="https://potent-ship.cloudvent.net/">Sendit demo site</a><br><a target="_blank" rel="noopener" href="https://github.com/CloudCannon/sendit-astro-template">Sendit GitHub repo</a><br><a target="_blank" rel="noopener" href="https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-astro-template"><img alt="Deploy to CloudCannon" src="https://buttons.cloudcannon.com/deploy.svg" /></a>
 
 ### 22\. Stablo Astro
 
