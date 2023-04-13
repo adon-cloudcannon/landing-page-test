@@ -74,7 +74,9 @@ spec:
   structures:
     - blocks
   label: "Fold"
-  description: "Indicates where the page fold is. Everything below this point will be lazy loaded."
+  description: >-
+    Indicates where the page fold is.
+    Everything below this point will be lazy loaded.
   icon: folder_open
   tags: []
 ```
@@ -85,17 +87,17 @@ This component, when added to a page by editors using CloudCannon’s Visual Edi
 <the-fold></the-fold>
 ```
 
-It’s a really simple step, but it gives me and our team of editors a lot of control: we’re able to precisely determine which parts of a page should be more heavily optimized, and which should be lazy-loaded. (And because our components can be shown or hidden, depending on mobile, tablet, or desktop breakpoints, we can set the fold differently for each device type.)
+It’s a really simple step, but it gives me and our team of editors a lot of control: we’re able to precisely determine which parts of a page should be more heavily optimized, and which should be lazy-loaded.
 
 ![](https://cc-dam.imgix.net/blog-jampack-fold.png)
 
-As you can see above, we generally set the fold at the end of the first ‘container’ component on each page.
+As you can see above, we generally set the fold at the end of the first ‘container’ component on each page. (We've set our Bookshop components to be shown or hidden, depending on mobile, tablet, or desktop breakpoints; to make sure that Jampack optimizes above the fold for all device types, we set the fold under all device-specific versions of that top component.)
 
 ## SSG chaining
 
-Jampack fits into a workflow we refer to internally as ‘SSG chaining’ — like our open-source search tool [Pagefind](https://pagefind.app/). The general idea of SSG chaining, as we use the term, is that static sites can (and should) stay simple — and static site generators shouldn’t have to ship and build every single possible feature or optimization strategy. Instead, users can first build their sites using any SSG they like, and then ‘chain’ a series of post-build tools on the static output.
+Jampack fits into a workflow we refer to internally as ‘SSG chaining’ — like our open-source search tool [Pagefind](https://pagefind.app/), and translation management tool <a target="_blank" rel="noopener" href="https://rosey.app/">Rosey</a>. The general idea of SSG chaining, as we use the term, is that static sites can (and should) stay simple — and static site generators shouldn’t have to ship and build every single possible feature or optimization strategy. Instead, users can first build their sites using any SSG they like, and then ‘chain’ a series of post-build tools on the static output.
 
-Rather than building an optimizer or a search plugin for a dozen different SSGs, tools like Jampack are able to share the benefits they offer across the whole static site ecosystem. And when a newer, shinier SSG comes along, there’s no question that these SSG-chaining tools will still work on them: because there’s not the sense of lock-in that can come with plugins we depend upon, developers are freer to shift between static site generators, while still using the same SSG-chaining tools.
+Rather than building an optimizer or a search plugin for a dozen different SSGs, tools like Jampack are able to share the benefits they offer across the whole static site ecosystem. And when a newer, shinier SSG comes along, there’s no question that these SSG-chaining tools will still work on them: because there’s not the sense of lock-in that can come with plugins we depend upon, developers are freer to shift between static site generators, while still using their preferred post-build tools.
 
 ## Final thoughts
 
