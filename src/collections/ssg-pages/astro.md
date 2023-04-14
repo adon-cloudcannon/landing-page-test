@@ -543,7 +543,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: caramel
+      background: sky
       rounded: top
       desktop:
         margin:
@@ -756,48 +756,6 @@ content_blocks:
                         active: false
                         align_block: left
                     width: full
-                - _bookshop_name: simple/button-holder
-                  content:
-                    button_blocks:
-                      - _bookshop_name: simple/button
-                        content:
-                          text: Try for free
-                          link: /https://app.cloudcannon.com/editor
-                        styles:
-                          style: normal
-                          size: normal
-                          extra_classes:
-                      - _bookshop_name: simple/button
-                        content:
-                          text: Book a demo
-                          link: /https://cloudcannon.com/book-a-demo/
-                        styles:
-                          style: outline
-                          size: normal
-                          extra_classes:
-                  styles:
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 0
-                      justify:
-                        align: start
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: true
-                        align: center
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: false
-                        align: center
           styles:
             desktop:
               columns:
@@ -970,6 +928,48 @@ content_blocks:
                         active: false
                         align_block: left
                     width: full
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Try for free
+                          link: //https://app.cloudcannon.com/editor
+                        styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a demo
+                          link: //https://cloudcannon.com/book-a-demo/
+                        styles:
+                          style: outline
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 30
+                        bottom: 0
+                      justify:
+                        align: start
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
             right:
               blocks:
                 - _bookshop_name: simple/image
@@ -1075,393 +1075,8 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: center
-        - _bookshop_name: simple/heading
-          content:
-            text: Trusted by world-leading companies
-          styles:
-            element: h6
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 90
-                bottom: 30
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/logo-ticker
-          content:
-            logo_blocks:
-              - _bookshop_name: simple/logo
-                content:
-                  logo: https://cc-dam.imgix.net/Netflix-og.svg
-                  name: Netflix
-                  url:
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      scale: 2
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-              - _bookshop_name: simple/logo
-                content:
-                  logo: https://cc-dam.imgix.net/Twitch-og.svg
-                  name: Twitch
-                  url:
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      scale: 1.6
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-              - _bookshop_name: simple/logo
-                content:
-                  logo: https://cc-dam.imgix.net/hnry+%281%29.svg
-                  name: Hnry
-                  url:
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      scale: 1.2
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-              - _bookshop_name: simple/logo
-                content:
-                  logo: https://cc-dam.imgix.net/Papercut-logo.svg
-                  name: Papercut
-                  url:
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      scale: 1.2
-                      translate_x: 0
-                      translate_y: -3
-                      rotate: 0
-                      skew: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-              - _bookshop_name: simple/logo
-                content:
-                  logo: https://cc-dam.imgix.net/Ocupop_logo.svg
-                  name: Ocupop
-                  url:
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      scale: 1.2
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-              - _bookshop_name: simple/logo
-                content:
-                  logo: https://cc-dam.imgix.net/Cubicflow-logo.svg
-                  name: Cubicflow
-                  url:
-                styles:
-                  desktop:
-                    visibility:
-                      hide: false
-                    position:
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      scale: 1.2
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  tablet:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-                  mobile:
-                    visibility:
-                      active: false
-                      hide: true
-                    position:
-                      active: false
-                      top: 0
-                      right: 0
-                      bottom: 0
-                      left: 0
-                    transform:
-                      active: false
-                      scale: 1
-                      translate_x: 0
-                      translate_y: 0
-                      rotate: 0
-                      skew: 0
-          styles:
-            background_mode: false
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
     styles:
-      background: sky
+      background: caramel
       rounded: top
       size: normal
       align:
@@ -1501,671 +1116,6 @@ content_blocks:
           top: 60
           right: 0
           bottom: 90
-          left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: Why Choose Astro
-      blocks:
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Faster and easier on Astro
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18915_afi1bb.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-            right:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: Why Astro?
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
-                      margin:
-                        active: true
-                        top: 0
-                        bottom: 15
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      <a target="_blank" rel="noopener"
-                      href="https://astro.build/">Astro</a> is the all-in-one
-                      framework designed for speed. This open source software
-                      boasts lightning-fast build times! Used by over 100,000
-                      developers and teams around the world, Astro is the
-                      fastest growing static site generator.
-
-
-                      Astro lets you pull your content from anywhere and deploy
-                      everywhere, with your favorite UI components and
-                      libraries. Mix and match a variety of popular frameworks,
-                      React, Preact, Svelte, Vue, SolidJS, AlpineJS, and
-                      Lit.&nbsp;
-
-
-                      You can optimize your website to unlock higher conversion
-                      rates with better SEO, thanks to Astro’s unique <a
-                      target="_blank" rel="noopener"
-                      href="https://docs.astro.build/en/concepts/islands/">zero-JS
-                      frontend architecture</a>. Perfect for any static site
-                      whether it's e-commerce, agencies, marketing, portfolios
-                      or a blog post.
-
-
-                      Astro automatically renders components to HTML at build
-                      time, stripping away all unnecessary JavaScript and
-                      keeping every site fast by default. With partial
-                      hydration, Astro also lets you hydrate individual
-                      interactive components on the page.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-          styles:
-            desktop:
-              columns:
-                type: fluid-fixed
-                width: 450
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-    styles:
-      background: sky
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 140
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Intuitive content editing
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Intuitive content editing
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 60
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 15
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Level up your editing team with CloudCannon’s logical and robust
-              visual content editing and publishing workflows.
-          styles:
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 30
-              block_alignment:
-                active: false
-                align_block: left
-            width: full
-        - _bookshop_name: simple/image-cycle
-          content:
-            rows:
-              - title: Git Sync
-                description: >-
-                  Everything syncs back to your Git repo, so development and
-                  content editing teams can always collaborate in sync.
-                image: https://cc-dam.imgix.net/git-sync-r.png
-              - title: Catered to content editors
-                description: >-
-                  Empower your editors by building a library of components to
-                  create new pages with ease.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Robust publishing
-                description: >-
-                  Prepare branches for staging and production workflows. Your
-                  content team will use the full power of Git, all behind a
-                  beautiful UI.
-                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
-              - title: Intuitive editing
-                description: >-
-                  Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for Astro, the whole team can contribute.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
-          styles:
-            desktop:
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: left
-              margin:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            tablet:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-    styles:
-      background: white
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 90
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Learning Resources
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Astro Resources
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Need help with Astro? Whether it's Astro specific documentation,
-              Astro tutorials, or Astro themes that you're after, CloudCannon's
-              got you covered! Check out these helpful resources and stay tuned
-              for more to come.
-          styles:
-            width: full
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 30
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/cards
-          content:
-            cards:
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/document-check
-                  icon_color: blue
-                title: Documentation
-                link: https://cloudcannon.com/documentation/
-                description: >-
-                  Head over to CloudCannon's documentation site. More than just
-                  a docs site, you'll find helpful guides, product updates, and
-                  support.
-              - image: https://cc-dam.imgix.net/astrocannon.png
-                icon:
-                  active: true
-                  icon_path: outline/cog
-                  icon_color: red
-                title: Astro Starter Guide
-                link: >-
-                  https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
-                description: >-
-                  Check out our Astro tutorial. Get your Astro site set up on
-                  CloudCannon. Making configuration easy so you can focus on
-                  building custom components.
-              - image: https://cc-dam.imgix.net/sendit-hero-browser.png
-                icon:
-                  active: true
-                  icon_path: outline/paint-brush
-                  icon_color: purple
-                title: Astro Template
-                link: https://cloudcannon.com/templates/sendit/
-                description: >-
-                  Build your next Astro project with Sendit. CloudCannon's
-                  versatile Astro theme for business websites. Built with
-                  Bootstrap and optimized for editing in CloudCannon. 
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: sea
-      rounded: none
-      size: normal
-      align: none
-      shadow: false
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 90
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -2663,6 +1613,1043 @@ content_blocks:
           top: 90
           right: 0
           bottom: 90
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Intuitive content editing
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Intuitive content editing
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 60
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 0
+                bottom: 15
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Level up your editing team with CloudCannon’s logical and robust
+              visual content editing and publishing workflows.
+          styles:
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: true
+                top: 0
+                bottom: 30
+              block_alignment:
+                active: false
+                align_block: left
+            width: full
+        - _bookshop_name: simple/image-cycle
+          content:
+            rows:
+              - title: Git Sync
+                description: >-
+                  Everything syncs back to your Git repo, so development and
+                  content editing teams can always collaborate in sync.
+                image: https://cc-dam.imgix.net/git-sync-r.png
+              - title: Catered to content editors
+                description: >-
+                  Empower your editors by building a library of components to
+                  create new pages with ease.
+                image: >-
+                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
+              - title: Robust publishing
+                description: >-
+                  Prepare branches for staging and production workflows. Your
+                  content team will use the full power of Git, all behind a
+                  beautiful UI.
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+              - title: Intuitive editing
+                description: >-
+                  Edit content directly on your website. With CloudCannon’s
+                  Visual Editor for Astro, the whole team can contribute.
+                image: >-
+                  https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
+          styles:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+        - _bookshop_name: simple/heading
+          content:
+            text: Trusted by world leading companies
+          styles:
+            element: h3
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 90
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/logo-ticker
+          content:
+            logo_blocks:
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Netflix-og.svg
+                  name: Netflix
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Twitch-og.svg
+                  name: Twitch
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.5
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/hnry-logo.svg
+                  name: Hnry
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Papercut-logo.svg
+                  name: Papercut
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.2
+                      translate_x: 0
+                      translate_y: -4
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Ocupop_logo.svg
+                  name: Ocupop
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Cubicflow-logo.svg
+                  name: Cubicflow
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+          styles:
+            background_mode: false
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 90
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Learning Resources
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Astro Resources
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Need help with Astro? Whether it's Astro specific documentation,
+              Astro tutorials, or Astro themes that you're after, CloudCannon's
+              got you covered! Check out these helpful resources and stay tuned
+              for more to come.
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 30
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: Documentation
+                link: https://cloudcannon.com/documentation/
+                description: >-
+                  Head over to CloudCannon's documentation site. More than just
+                  a docs site, you'll find helpful guides, product updates, and
+                  support.
+              - image: https://cc-dam.imgix.net/astrocannon.png
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: Astro Starter Guide
+                link: >-
+                  https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
+                description: >-
+                  Check out our Astro tutorial. Get your Astro site set up on
+                  CloudCannon. Making configuration easy so you can focus on
+                  building custom components.
+              - image: https://cc-dam.imgix.net/sendit-hero-browser.png
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: Astro Template
+                link: https://cloudcannon.com/templates/sendit/
+                description: >-
+                  Build your next Astro project with Sendit. CloudCannon's
+                  versatile Astro theme for business websites. Built with
+                  Bootstrap and optimized for editing in CloudCannon. 
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: sea
+      rounded: none
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 90
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: Why Astro
+      blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Faster and easier on Astro
+                    image: >-
+                      https://cc-dam.imgix.net/Landing%20Pages/Group_18915_afi1bb.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+            right:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Why Astro?
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: true
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: true
+                        text_size: normal
+                      margin:
+                        active: true
+                        top: 0
+                        bottom: 15
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Astro lets you pull your content from anywhere and deploy
+                      everywhere, with your favorite UI components and
+                      libraries. Mix and match a variety of popular frameworks,
+                      React, Preact, Svelte, Vue, SolidJS, AlpineJS, and Lit.
+
+
+                      You can optimize your website to unlock higher conversion
+                      rates with better SEO, thanks to Astro’s unique zero-JS
+                      frontend architecture.
+
+
+                      Astro is designed for speed; components are automatically
+                      rendered to HTML at build time, stripping away all
+                      unnecessary JavaScript and keeping every site fast by
+                      default. With partial hydration, Astro also lets you
+                      hydrate individual interactive components on the page.
+                  styles:
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block:
+                    tablet:
+                      text_alignment:
+                        active: true
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    width: full
+          styles:
+            desktop:
+              columns:
+                type: fluid-fixed
+                width: 450
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
+            tablet:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 140
           left: 0
       tablet:
         margin:
