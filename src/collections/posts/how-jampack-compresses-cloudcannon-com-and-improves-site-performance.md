@@ -89,7 +89,7 @@ This component, when added to a page by editors using CloudCannon’s Visual Edi
 
 It’s a really simple step, but it gives me and our team of editors a lot of control: we’re able to precisely determine which parts of a page should be more heavily optimized, and which should be lazy-loaded.
 
-![](https://cc-dam.imgix.net/blog-jampack-fold.png)
+![Desktop browser showing CloudCannon visual editor](https://cc-dam.imgix.net/Fold-component-block &#40;2&#41;.png)
 
 As you can see above, we generally set the fold at the end of the first ‘container’ component on each page. (We've set our Bookshop components to be shown or hidden, depending on mobile, tablet, or desktop breakpoints; to make sure that Jampack optimizes above the fold for all device types, we set the fold under all device-specific versions of that top component.)
 
