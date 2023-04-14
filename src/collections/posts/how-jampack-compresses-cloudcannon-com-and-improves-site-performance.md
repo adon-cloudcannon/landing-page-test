@@ -2,10 +2,10 @@
 _schema: default
 title: How Jampack optimizes our Eleventy website and improves performance
 description: "Jampack is a post-processing tool that takes the output of any static site generator\_and optimizes it for user experience. CloudCannon uses Jampack to achieve perfect Lighthouse scores and excellent Core Web Vitals scores on cloudcannon.com."
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/Jampack-CC (2).png
-date: 2023-04-15T05:01:00+12:00
+date: 2023-04-15T05:07:00+12:00
 hide_publish_date: false
 tags:
   - Resources
@@ -26,8 +26,8 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/jampack-cc-2.png
+  featured_image_alt: Image showing a computer screen sketch with a fold line across is
 ---
 I’ve written previously about the performance outcomes of <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">transitioning cloudcannon.com to Eleventy</a>, which include perfect Lighthouse scores and excellent Core Web Vitals scores. We’re now several weeks into the flow of building our site pages, as well as drafting, editing, and publishing blog posts on Eleventy with CloudCannon as our CMS, and it’s been, as we expected, a joy to work with. But I’ve also wanted to dig a little deeper into each of the tools we used to achieve our performance gains, and to share how we configured these tools. So let’s get started, shall we?
 
