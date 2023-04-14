@@ -1,10 +1,10 @@
 ---
 _schema: default
-title: How Jampack optimizes CloudCannon.com and improves site performance
+title: How Jampack optimizes our Eleventy website and improves performance
 description: "Jampack is a post-processing tool that takes the output of any static site generator\_and optimizes it for user experience. CloudCannon uses Jampack to achieve perfect Lighthouse scores and excellent Core Web Vitals scores on cloudcannon.com."
 draft: true
 series:
-image: https://cc-dam.imgix.net/blog-jampack-3.png
+image: https://cc-dam.imgix.net/Jampack-CC (2).png
 date: 2023-04-15T05:01:00+12:00
 hide_publish_date: false
 tags:
