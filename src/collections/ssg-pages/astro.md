@@ -1600,7 +1600,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1772,7 +1772,7 @@ content_blocks:
               text_sizing:
                 text_size: normal
               margin:
-                top: 90
+                top: 120
                 bottom: 30
             tablet:
               text_alignment:
