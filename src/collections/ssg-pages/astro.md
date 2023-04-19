@@ -543,7 +543,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: sky
+      background: sea
       rounded: top
       desktop:
         margin:
@@ -1076,7 +1076,7 @@ content_blocks:
                 active: false
                 v_align: center
     styles:
-      background: caramel
+      background: sky
       rounded: top
       size: normal
       align:
@@ -1542,7 +1542,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: sea
+      background: caramel
       rounded: none
       desktop:
         margin:
@@ -2243,7 +2243,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 30
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
@@ -2327,7 +2327,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: caramel
+      background: sea
       rounded: none
       size: normal
       align: none
