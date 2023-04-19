@@ -34,7 +34,7 @@ seo:
 ---
 #
 
-With CloudCannon’s CMS <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/out-of-this-world-support-for-all-astro-users/">support for Astro out of beta</a>, as well as the release of <a target="_blank" rel="noopener" href="https://astro.build/blog/astro-2/">Astro 2.0</a>, there is no better time to get started on an Astro project. If you’re looking for a theme for your next Astro project, we've curated a list of 2023’s top 23 free Astro themes for a variety of use cases. This list includes actively maintained Astro templates with the most GitHub stars.
+With CloudCannon’s CMS <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/out-of-this-world-support-for-all-astro-users/">support for Astro out of beta</a>, as well as the release of <a target="_blank" rel="noopener" href="https://astro.build/blog/astro-2/">Astro 2.0</a>, there is no better time to get started on an Astro project. If you’re looking for a theme for your next Astro project, we've curated a list of 2023’s top 23 free Astro themes for a variety of use cases. This list includes actively maintained static site Astro templates with the most GitHub stars.
 
 Astro is one of the fastest growing frameworks for static site generation. Designed for building content-rich websites, Astro provides performance features that can’t be matched by other frameworks. With Astro you can build extremely fast static websites, with the flexibility of any UI language, and the ability to easily embed interactive islands. This static site generator is perfect for use cases like marketing sites, documentation websites, personal blogs, portfolio sites, and even smaller e-commerce websites.
 
