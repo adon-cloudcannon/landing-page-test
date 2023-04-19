@@ -2193,7 +2193,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Astro Resources
+            text: CloudCannon's Astro Resources
           styles:
             element: h2
             width: normal
@@ -2336,7 +2336,7 @@ content_blocks:
         margin:
           top: 0
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
         padding:
           top: 90
@@ -2495,13 +2495,10 @@ content_blocks:
                     text_markdown: >-
                       Astro lets you pull your content from anywhere and deploy
                       everywhere, with your favorite UI components and
-                      libraries. Mix and match a variety of popular frameworks,
-                      React, Preact, Svelte, Vue, SolidJS, AlpineJS, and Lit.
-
-
-                      You can optimize your website to unlock higher conversion
-                      rates with better SEO, thanks to Astro’s unique zero-JS
-                      frontend architecture.
+                      libraries. Mix and match React, Preact, Svelte, Vue,
+                      SolidJS, AlpineJS, and Lit. Optimize your website to
+                      unlock higher conversion rates with better SEO, thanks to
+                      Astro’s unique zero-JS frontend architecture.
 
 
                       Astro is designed for speed; components are automatically
@@ -2624,6 +2621,87 @@ content_blocks:
     content:
       label: Case Studies
       blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Case Studies
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Find out how leading companies are successfully leveraging
+              CloudCannon's live visual editing.
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
         - _bookshop_name: case-studies/row
           content:
             case_studies:
