@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Astro CMS for happy developers and happy editors
+            text: Astro CMS for happy developers and happy editors
           styles:
             element: h1
             width: normal
