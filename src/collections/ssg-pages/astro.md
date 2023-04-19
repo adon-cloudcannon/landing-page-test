@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: The Most Intuitive CMS for Astro
+title: Astro CMS
 layout: builder.html
 permalink: /astro-cms/
 description: >-

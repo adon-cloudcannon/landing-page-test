@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: The Best Git-based CMS for Static Sites
+title: Git-based CMS
 layout: builder.html
 permalink: /git-cms/
 description: >-
