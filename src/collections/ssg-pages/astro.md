@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: The Astro CMS for happy developers & happy editors
+title: Astro CMS
 layout: builder.html
 permalink: /astro-cms/
 description: >-
@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Astro CMS for happy developers and happy editors
+            text: Streamline your workflow with our Git-based Astro CMS
           styles:
             element: h1
             width: normal
@@ -65,7 +65,7 @@ content_blocks:
               collaborate to create incredibly fast static sites with React,
               Preact, Vue, and Svelte components — and more!
           styles:
-            width: full
+            width: large
             desktop:
               text_alignment:
                 align: center
