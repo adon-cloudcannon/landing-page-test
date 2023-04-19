@@ -5,10 +5,10 @@ description: >-
   Check out 2023’s top 23 Astro themes to build with your favorite static site
   generator. Find Astro templates for blogs, documentation, e-commerce, and
   more.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/Top 23 Astro Themes.png
-date: 2023-04-27T05:03:00+12:00
+date: 2023-04-21T05:03:00+12:00
 hide_publish_date: false
 tags:
   - Astro
