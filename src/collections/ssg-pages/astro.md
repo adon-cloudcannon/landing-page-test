@@ -1324,95 +1324,13 @@ content_blocks:
     content:
       label: An entire ecosystem behind you
       blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: CloudCannon's open source ecosystem
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Take your editing team to the next level with CloudCannon's
-              powerful open source ecosystem. Check out our collection of
-              helpful tools and keep an eye out for more!
-          styles:
-            width: full
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 30
-                bottom: 30
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Bookshop
+                    text: CloudCannon's open source ecosystem
                   styles:
                     element: h2
                     width: normal
@@ -1423,7 +1341,7 @@ content_blocks:
                         text_size: big
                       margin:
                         top: 0
-                        bottom: 15
+                        bottom: 30
                     tablet:
                       text_alignment:
                         active: false
@@ -1449,8 +1367,31 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Create component-driven development workflows and enable
-                      live rendering editing.
+                      Take your editing team to the next level with
+                      CloudCannon’s powerful content editing and publishing
+                      workflows.
+
+
+                      * **<a rel="noopener" target="_blank"
+                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**&nbsp;—
+                      create component-driven development workflows and enable
+                      live rendering editing;
+
+                      * **<a rel="noopener" target="_blank"
+                      href="https://pagefind.app/">Pagefind</a>**&nbsp;— static
+                      search that scales;
+
+                      * **<a rel="noopener" target="_blank"
+                      href="https://reseed.app/">Reseed</a>**&nbsp;— integrate
+                      multiple sites into a single domain;
+
+                      * **<a rel="noopener" target="_blank"
+                      href="https://rosey.app/">Rosey</a>**&nbsp;— manage
+                      translations for localization and i18n;
+
+                      * **<a rel="noopener" target="_blank"
+                      href="https://github.com/CloudCannon/pagebreak">Pagebreak</a>**&nbsp;—
+                      granular configuration for site pagination.
                   styles:
                     width: full
                     desktop:
@@ -1495,8 +1436,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Bookshop
-                    image: https://cc-dam.imgix.net/bookshop-component.png
+                    alt: open source jamstack tools
+                    image: https://cc-dam.imgix.net/newecosystem-1.png
                   styles:
                     border:
                     rounded:
@@ -1601,13 +1542,13 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: sky
+      background: sea
       rounded: none
       desktop:
         margin:
           top: 0
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
         padding:
           top: 90
@@ -2386,7 +2327,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: sea
+      background: caramel
       rounded: none
       size: normal
       align: none
@@ -2728,7 +2669,7 @@ content_blocks:
                 bottom: 0
                 left: 0
     styles:
-      background: white
+      background: sky
       rounded: top
       desktop:
         margin:
