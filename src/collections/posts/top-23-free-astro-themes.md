@@ -7,7 +7,7 @@ description: >-
   more.
 draft: false
 series:
-image: https://cc-dam.imgix.net/Top 23 Astro Themes.png
+image: https://cc-dam.imgix.net/Top 23 Astro Themes (1).png
 date: 2023-04-21T05:03:00+12:00
 hide_publish_date: false
 tags:
@@ -29,7 +29,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/top-23-astro-themes.png
+  featured_image: https://cc-dam.imgix.net/top-23-astro-themes-1.png
   featured_image_alt: Free Astro Templates
 ---
 #
