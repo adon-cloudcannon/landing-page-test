@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: The Most Intuitive CMS for MkDocs
+title: MkDocs CMS
 layout: builder.html
 permalink: /mkdocs-cms/
 description: >-

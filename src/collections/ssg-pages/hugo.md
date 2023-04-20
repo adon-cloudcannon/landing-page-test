@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: The Most Intuitive CMS for Hugo
+title: Hugo CMS
 layout: builder.html
 permalink: /hugo-cms/
 description: >-
