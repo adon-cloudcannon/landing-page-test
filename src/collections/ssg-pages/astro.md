@@ -65,7 +65,7 @@ content_blocks:
               collaborate to create incredibly fast static sites with React,
               Preact, Vue, and Svelte components — and more!
           styles:
-            width: large
+            width: medium
             desktop:
               text_alignment:
                 align: center
