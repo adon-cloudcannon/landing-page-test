@@ -34,7 +34,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1126,7 +1126,7 @@ content_blocks:
             text: Advance your content workflow with Astro on CloudCannon
           styles:
             element: h2
-            width: normal
+            width: tight
             desktop:
               text_alignment:
                 align: center
@@ -1604,7 +1604,7 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-            width: full
+            width: medium
         - _bookshop_name: simple/image-cycle
           content:
             rows:
@@ -2172,7 +2172,7 @@ content_blocks:
               got you covered! Check out these helpful resources and stay tuned
               for more to come.
           styles:
-            width: full
+            width: medium
             desktop:
               text_alignment:
                 align: center
