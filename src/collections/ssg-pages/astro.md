@@ -2169,8 +2169,7 @@ content_blocks:
             text_markdown: >-
               Need help with Astro? Whether it's Astro specific documentation,
               Astro tutorials, or Astro themes that you're after, CloudCannon's
-              got you covered! Check out these helpful resources and stay tuned
-              for more to come.
+              got you covered!
           styles:
             width: medium
             desktop:
