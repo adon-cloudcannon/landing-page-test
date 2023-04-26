@@ -235,7 +235,7 @@ content_blocks:
               visibility:
                 hide: false
               transform:
-                scale: 1
+                scale: 0.8
                 translate_x: 0
                 translate_y: 0
                 rotate: 0
@@ -1076,7 +1076,7 @@ content_blocks:
                 active: false
                 v_align: center
     styles:
-      background: sky
+      background: caramel
       rounded: top
       size: normal
       align:
@@ -1386,7 +1386,7 @@ content_blocks:
                       visibility:
                         hide: false
                       transform:
-                        scale: 1
+                        scale: 1.2
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -1394,7 +1394,7 @@ content_blocks:
                       block_alignment:
                         align_block: left
                       margin:
-                        top: 0
+                        top: 60
                         bottom: 0
                       position:
                         top: 0
@@ -1479,7 +1479,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: caramel
+      background: ash
       rounded: none
       desktop:
         margin:
@@ -2263,7 +2263,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: sea
+      background: caramel
       rounded: none
       size: normal
       align: none
@@ -2555,11 +2555,11 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Case Studies
+      label: An Astro CMS you can trust
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Case Studies
+            text: An Astro CMS you can trust
           styles:
             element: h2
             width: normal
@@ -2683,7 +2683,7 @@ content_blocks:
                 bottom: 0
                 left: 0
     styles:
-      background: sky
+      background: white
       rounded: top
       desktop:
         margin:
