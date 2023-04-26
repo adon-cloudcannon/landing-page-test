@@ -2392,7 +2392,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why Astro?
+                    text: Why choose Astro?
                   styles:
                     element: h2
                     width: normal
