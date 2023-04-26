@@ -341,7 +341,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: An all purpose 11ty cms
+      label: Build, edit and publish
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -349,7 +349,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: An all purpose 11ty CMS
+                    text: Build, edit and publish
                   styles:
                     element: h2
                     width: normal
@@ -386,10 +386,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon gives you everything you need to create and
-                      manage your content, all on one platform. Build and host
-                      the best performing sites on the web with the help of our
-                      CMS for 11ty.
+                      With CloudCannon, you have everything you need to create
+                      and manage your content. Build and host the best
+                      performing sites on the web with the help of a CMS for
+                      11ty.&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -535,404 +535,8 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: center
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: sections/container
-                  content:
-                    label: An all purpose 11ty CMS
-                    blocks:
-                      - _bookshop_name: simple/image
-                        content:
-                          alt: >-
-                            Desktop screen with CloudCannon dashboard interface
-                            on it 
-                          image: >-
-                            https://cc-dam.imgix.net/image_8_utyigb.png?auto=compress&auto=format&w=1216&dpr=1
-                        styles:
-                          border:
-                          rounded:
-                          ontop:
-                          width: full
-                          pixel_width:
-                          max_width:
-                          desktop:
-                            visibility:
-                              hide: false
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                            block_alignment:
-                              align_block: center
-                            margin:
-                              top: 0
-                              bottom: 0
-                            position:
-                              top: 0
-                              left: 0
-                              bottom: 0
-                              right: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: false
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            position:
-                              active: false
-                              top: 0
-                              left: 0
-                              bottom: 0
-                              right: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: false
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            position:
-                              active: false
-                              top: 0
-                              left: 0
-                              bottom: 0
-                              right: 0
-                      - _bookshop_name: simple/emoji-heading
-                        content:
-                          title: Build, edit and publish
-                          emoji:
-                          sub_title: All in one platform
-                        styles:
-                          width:
-                          element: h3
-                          desktop:
-                            text_alignment:
-                              align: left
-                            margin:
-                              top: 30
-                              bottom: 0
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: center
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: center
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                      - _bookshop_name: simple/text-block
-                        content:
-                          text_markdown: >-
-                            With CloudCannon, you have everything you need to
-                            create and manage your content. Build and host the
-                            best performing sites on the web with the help of a
-                            CMS for 11ty.&nbsp;
-                        styles:
-                          width: full
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              align_block: center
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                  styles:
-                    background:
-                    rounded: full
-                    size: normal
-                    align: none
-                    shadow: false
-                    desktop:
-                      margin:
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        top: 30
-                        right: 0
-                        bottom: 30
-                        left: 0
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-            right:
-              blocks:
-                - _bookshop_name: sections/container
-                  content:
-                    label: Works with any 11ty site
-                    blocks:
-                      - _bookshop_name: simple/image
-                        content:
-                          alt: 'Range of 11ty websites in desktop screens '
-                          image: >-
-                            https://cc-dam.imgix.net/image_9_yqbchd.png?auto=compress&auto=format&w=1216&dpr=1
-                        styles:
-                          border:
-                          rounded:
-                          ontop:
-                          width: full
-                          pixel_width:
-                          max_width:
-                          desktop:
-                            visibility:
-                              hide: false
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                            block_alignment:
-                              align_block: left
-                            margin:
-                              top: 0
-                              bottom: 0
-                            position:
-                              top: 0
-                              left: 0
-                              bottom: 0
-                              right: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: false
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            position:
-                              active: false
-                              top: 0
-                              left: 0
-                              bottom: 0
-                              right: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: false
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            position:
-                              active: false
-                              top: 0
-                              left: 0
-                              bottom: 0
-                              right: 0
-                      - _bookshop_name: simple/emoji-heading
-                        content:
-                          title: Bring your Eleventy site
-                          emoji:
-                          sub_title:
-                        styles:
-                          width:
-                          element: h3
-                          desktop:
-                            text_alignment:
-                              align: left
-                            margin:
-                              top: 0
-                              bottom: 0
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: center
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: center
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                  styles:
-                    background:
-                    rounded: full
-                    size: normal
-                    align: none
-                    shadow: false
-                    desktop:
-                      margin:
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        top: 30
-                        right: 0
-                        bottom: 30
-                        left: 0
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-          styles:
-            desktop:
-              columns:
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: top
-            tablet:
-              columns:
-                active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: false
-                type: split
-                width: 0
-                gap: 0
-                vertical_gap: 0
-              vertical_block_alignment:
-                active: false
-                v_align: top
     styles:
-      background: cc-blue
+      background: white
       rounded: top
       size: normal
       align:
@@ -1217,7 +821,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: CloudCannon's 11ty resources
+            text: Get started with 11ty and CloudCannon
           styles:
             element: h2
             width: normal
@@ -1351,7 +955,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: sea
+      background: ash
       rounded: top
       size: normal
       align: none
@@ -2215,7 +1819,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: caramel
+      background: ash
       rounded: none
       desktop:
         margin:
