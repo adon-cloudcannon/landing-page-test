@@ -1033,7 +1033,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1100,7 +1100,7 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-            width: full
+            width: medium
         - _bookshop_name: simple/image-cycle
           content:
             rows:
