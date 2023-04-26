@@ -745,7 +745,163 @@ content_blocks:
                         bottom: 0
                         left: 0
             right:
-              blocks: []
+              blocks:
+                - _bookshop_name: sections/container
+                  content:
+                    label: Works with any 11ty site
+                    blocks:
+                      - _bookshop_name: simple/image
+                        content:
+                          alt: 'Range of 11ty websites in desktop screens '
+                          image: >-
+                            https://cc-dam.imgix.net/image_9_yqbchd.png?auto=compress&auto=format&w=1216&dpr=1
+                        styles:
+                          border:
+                          rounded:
+                          ontop:
+                          width: full
+                          pixel_width:
+                          max_width:
+                          desktop:
+                            visibility:
+                              hide: false
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                            block_alignment:
+                              align_block: left
+                            margin:
+                              top: 0
+                              bottom: 0
+                            position:
+                              top: 0
+                              left: 0
+                              bottom: 0
+                              right: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: false
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            position:
+                              active: false
+                              top: 0
+                              left: 0
+                              bottom: 0
+                              right: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: false
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            position:
+                              active: false
+                              top: 0
+                              left: 0
+                              bottom: 0
+                              right: 0
+                      - _bookshop_name: simple/emoji-heading
+                        content:
+                          title: Bring your Eleventy site
+                          emoji:
+                          sub_title:
+                        styles:
+                          width:
+                          element: h3
+                          desktop:
+                            text_alignment:
+                              align: left
+                            margin:
+                              top: 0
+                              bottom: 0
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: center
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: center
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                  styles:
+                    background:
+                    rounded: full
+                    size: normal
+                    align: none
+                    shadow: false
+                    desktop:
+                      margin:
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      padding:
+                        top: 30
+                        right: 0
+                        bottom: 30
+                        left: 0
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      padding:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      padding:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
           styles:
             desktop:
               columns:
