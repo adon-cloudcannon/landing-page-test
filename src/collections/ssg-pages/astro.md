@@ -2130,10 +2130,10 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: CloudCannon's Astro Resources
+            text: Get started with CloudCannon's Astro resources
           styles:
             element: h2
-            width: normal
+            width: tight
             desktop:
               text_alignment:
                 align: center
