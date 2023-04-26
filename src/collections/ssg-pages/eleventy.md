@@ -2240,9 +2240,89 @@ content_blocks:
           content:
             left:
               blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: faster and easier SSG
+                    image: https://cc-dam.imgix.net/Group_18528_j98j2i.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+            right:
+              blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose Eleventy?
+                    text: Why choose Eleventy?
                   styles:
                     element: h2
                     width: normal
@@ -2256,7 +2336,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: true
+                        active: false
                         align: center
                       text_sizing:
                         active: false
@@ -2270,8 +2350,8 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: true
-                        text_size: normal
+                        active: false
+                        text_size: big
                       margin:
                         active: false
                         top: 0
@@ -2302,6 +2382,7 @@ content_blocks:
                       engines, your content can remain firmly decoupled for any
                       future transitions.
                   styles:
+                    width: full
                     desktop:
                       text_alignment:
                         align: left
@@ -2311,11 +2392,11 @@ content_blocks:
                         top: 0
                         bottom: 0
                       block_alignment:
-                        align_block:
+                        align_block: center
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
+                        active: false
+                        align: left
                       text_sizing:
                         active: false
                         text_size: normal
@@ -2340,83 +2421,6 @@ content_blocks:
                       block_alignment:
                         active: false
                         align_block: left
-                    width: full
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Faster and easier SSG
-                    image: https://cc-dam.imgix.net/Group_18528_j98j2i.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: true
-                        top: 0
-                        left: 0
-                        bottom: 45
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
           styles:
             desktop:
               columns:
