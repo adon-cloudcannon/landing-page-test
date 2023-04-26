@@ -450,7 +450,7 @@ content_blocks:
                       visibility:
                         hide: false
                       transform:
-                        scale: 1.7
+                        scale: 1
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -458,8 +458,8 @@ content_blocks:
                       block_alignment:
                         align_block: left
                       margin:
-                        top: 90
-                        bottom: 90
+                        top: 0
+                        bottom: 0
                       position:
                         top: 0
                         left: 0
@@ -516,7 +516,7 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: fluid-fixed
+                type: fixed-fluid
                 width: 450
                 gap: 100
                 vertical_gap: 0
