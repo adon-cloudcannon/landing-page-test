@@ -227,7 +227,7 @@ content_blocks:
             border:
             rounded:
             ontop:
-            width: full
+            width: normal
             pixel_width:
             max_width:
             desktop:
