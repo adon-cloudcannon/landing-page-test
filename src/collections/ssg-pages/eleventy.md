@@ -817,11 +817,74 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: learning resources
+      label: Advance your content workflow
       blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: 0
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: true
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+          styles:
+            background: white
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 80
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: true
+                top: 0
+                bottom: 40
+              block_alignment:
+                active: false
+                align_block: left
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Get started with 11ty and CloudCannon
+            text: Advance your content workflow with Eleventy on CloudCannon
           styles:
             element: h2
             width: normal
@@ -832,113 +895,70 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 0
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Need help with Eleventy? Whether it's Eleventy specific
-              documentation, 11ty tutorials, or 11ty themes that you're after,
-              CloudCannon's got you covered!
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 30
                 bottom: 60
-              block_alignment:
-                align_block: center
             tablet:
               text_alignment:
                 active: false
-                align: left
+                align: center
               text_sizing:
                 active: false
-                text_size: normal
+                text_size: big
               margin:
                 active: false
                 top: 0
                 bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
             mobile:
               text_alignment:
                 active: false
-                align: left
+                align: center
               text_sizing:
-                active: false
+                active: true
                 text_size: normal
               margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/cards
+                active: true
+                top: 60
+                bottom: 30
+        - _bookshop_name: simple/steps
           content:
-            cards:
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/document-check
-                  icon_color: blue
-                title: Eleventy starter guide
-                link: >-
-                  https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/
+            steps:
+              - title: Sync your Eleventy site
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/Step 1 - Sync.svg
+              - title: Configure your Eleventy build
                 description: >-
-                  Get your 11ty site set up on CloudCannon. Make configuration
-                  easy so you can focus on building custom components.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/cog
-                  icon_color: red
-                title: Eleventy beginner tutorial
-                link: https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/Step 2- 11ty.svg
+              - title: Invite your content team to collaborate
                 description: >-
-                  Learn the basics of Eleventy in this six-part tutorial series.
-                  Go through the basics of 11ty from learning how to install the
-                  framework, creating layouts, pages, and blog posts, and an
-                  introduction to using data files.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/paint-brush
-                  icon_color: purple
-                title: Eleventy Templates
-                link: https://cloudcannon.com/templates/
+                  Start collaborating with your team. Edit content right on the
+                  page.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+              - title: Go live with hosting
                 description: >-
-                  Explore our library of free CloudCannon-ready themes for your
-                  11ty project. Deploy it to CloudCannon with a single click,
-                  and you’re all ready to start using our Visual Editor
-                  interface.
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/Step 4 - Live.svg
           styles:
             desktop:
               margin:
@@ -955,11 +975,8 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: ash
+      background: caramel
       rounded: top
-      size: normal
-      align: none
-      shadow: false
       desktop:
         margin:
           top: 0
@@ -969,7 +986,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 160
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -992,11 +1009,13 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 90
           left: 0
+      size: normal
+      align: none
   - _bookshop_name: sections/container
     content:
       label: Intuitive content editing
@@ -1603,6 +1622,359 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
+      label: learning resources
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Get started with 11ty and CloudCannon
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Need help with Eleventy? Whether it's Eleventy specific
+              documentation, 11ty tutorials, or 11ty themes that you're after,
+              CloudCannon's got you covered!
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 30
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: Eleventy starter guide
+                link: >-
+                  https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/
+                description: >-
+                  Get your 11ty site set up on CloudCannon. Make configuration
+                  easy so you can focus on building custom components.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: Eleventy beginner tutorial
+                link: https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/
+                description: >-
+                  Learn the basics of Eleventy in this six-part tutorial series.
+                  Go through the basics of 11ty from learning how to install the
+                  framework, creating layouts, pages, and blog posts, and an
+                  introduction to using data files.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: Eleventy Templates
+                link: https://cloudcannon.com/templates/
+                description: >-
+                  Explore our library of free CloudCannon-ready themes for your
+                  11ty project. Deploy it to CloudCannon with a single click,
+                  and you’re all ready to start using our Visual Editor
+                  interface.
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: ash
+      rounded: top
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 160
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: Case Studies
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: An 11ty CMS you can trust
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Find out how leading companies are successfully leveraging
+              CloudCannon's live visual editing.
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: case-studies/row
+          content:
+            case_studies:
+              - ee337cd8-7745-11ed-a1eb-0242ac120002
+              - ff183750-7745-11ed-a1eb-0242ac120002
+              - e1b72b3a-7745-11ed-a1eb-0242ac120002
+          styles:
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 50
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
       label: An entire ecosystem behind you
       blocks:
         - _bookshop_name: sections/two-column
@@ -1831,378 +2203,6 @@ content_blocks:
           top: 90
           right: 0
           bottom: 90
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Case Studies
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: An 11ty CMS you can trust
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Find out how leading companies are successfully leveraging
-              CloudCannon's live visual editing.
-          styles:
-            width: full
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: case-studies/row
-          content:
-            case_studies:
-              - ee337cd8-7745-11ed-a1eb-0242ac120002
-              - ff183750-7745-11ed-a1eb-0242ac120002
-              - e1b72b3a-7745-11ed-a1eb-0242ac120002
-          styles:
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 50
-                left: 0
-              padding:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-    styles:
-      background: white
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 120
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Advance your content workflow
-      blocks:
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: 0
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: true
-                size: 0
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-          styles:
-            background: white
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 80
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: true
-                top: 0
-                bottom: 40
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-        - _bookshop_name: simple/heading
-          content:
-            text: Advance your content workflow with Eleventy on CloudCannon
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 60
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 60
-                bottom: 30
-        - _bookshop_name: simple/steps
-          content:
-            steps:
-              - title: Sync your Eleventy site
-                description: Connect your GitHub, GitLab, or Bitbucket repository.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/Step 1 - Sync.svg
-              - title: Configure your Eleventy build
-                description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/Step 2- 11ty.svg
-              - title: Invite your content team to collaborate
-                description: >-
-                  Start collaborating with your team. Edit content right on the
-                  page.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
-              - title: Go live with hosting
-                description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/Step 4 - Live.svg
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: caramel
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 120
           left: 0
       tablet:
         margin:
