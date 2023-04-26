@@ -1866,7 +1866,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Case Studies
+            text: An 11ty CMS you can trust
           styles:
             element: h2
             width: normal
