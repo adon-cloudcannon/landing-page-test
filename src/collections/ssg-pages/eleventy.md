@@ -2191,7 +2191,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: ash
+      background: caramel
       rounded: top
       desktop:
         margin:
