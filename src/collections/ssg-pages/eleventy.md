@@ -60,8 +60,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your 11ty CMS, your whole team can collaborate
-              to create amazing websites.
+              Reap the performance benefits of static site generator, 11ty while
+              ensuring your content editors can efficiently edit and create new
+              pages with CloudCannon's 11ty CMS.&nbsp;
           styles:
             desktop:
               text_alignment:
@@ -534,8 +535,248 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: center
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: sections/container
+                  content:
+                    label: An all purpose 11ty CMS
+                    blocks:
+                      - _bookshop_name: simple/image
+                        content:
+                          alt: >-
+                            Desktop screen with CloudCannon dashboard interface
+                            on it 
+                          image: >-
+                            https://cc-dam.imgix.net/image_8_utyigb.png?auto=compress&auto=format&w=1216&dpr=1
+                        styles:
+                          border:
+                          rounded:
+                          ontop:
+                          width: full
+                          pixel_width:
+                          max_width:
+                          desktop:
+                            visibility:
+                              hide: false
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                            block_alignment:
+                              align_block: center
+                            margin:
+                              top: 0
+                              bottom: 0
+                            position:
+                              top: 0
+                              left: 0
+                              bottom: 0
+                              right: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: false
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            position:
+                              active: false
+                              top: 0
+                              left: 0
+                              bottom: 0
+                              right: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: false
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            position:
+                              active: false
+                              top: 0
+                              left: 0
+                              bottom: 0
+                              right: 0
+                      - _bookshop_name: simple/emoji-heading
+                        content:
+                          title: Build, edit and publish
+                          emoji:
+                          sub_title: All in one platform
+                        styles:
+                          width:
+                          element: h3
+                          desktop:
+                            text_alignment:
+                              align: left
+                            margin:
+                              top: 30
+                              bottom: 0
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: center
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: center
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                      - _bookshop_name: simple/text-block
+                        content:
+                          text_markdown: >-
+                            With CloudCannon, you have everything you need to
+                            create and manage your content. Build and host the
+                            best performing sites on the web with the help of a
+                            CMS for 11ty.&nbsp;
+                        styles:
+                          width: full
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              align_block: center
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: left
+                            text_sizing:
+                              active: false
+                              text_size: normal
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            block_alignment:
+                              active: false
+                              align_block: left
+                  styles:
+                    background:
+                    rounded: full
+                    size: normal
+                    align: none
+                    shadow: false
+                    desktop:
+                      margin:
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      padding:
+                        top: 30
+                        right: 0
+                        bottom: 30
+                        left: 0
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      padding:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      padding:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+            right:
+              blocks: []
+          styles:
+            desktop:
+              columns:
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: top
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
     styles:
-      background: sky
+      background: cc-blue
       rounded: top
       size: normal
       align:
