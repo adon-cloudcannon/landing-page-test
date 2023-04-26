@@ -536,7 +536,7 @@ content_blocks:
                 active: false
                 v_align: center
     styles:
-      background: white
+      background: sea
       rounded: top
       size: normal
       align:
@@ -975,7 +975,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: caramel
+      background: ash
       rounded: top
       desktop:
         margin:
@@ -1760,7 +1760,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: ash
+      background: caramel
       rounded: top
       size: normal
       align: none
