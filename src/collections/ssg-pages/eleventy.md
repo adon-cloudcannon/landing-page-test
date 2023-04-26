@@ -234,7 +234,7 @@ content_blocks:
               visibility:
                 hide: false
               transform:
-                scale: 1
+                scale: 0.8
                 translate_x: 0
                 translate_y: 0
                 rotate: 0
