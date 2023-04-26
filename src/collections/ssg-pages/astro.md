@@ -350,7 +350,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Happy developers
+                    text: Build static sites your way
                   styles:
                     element: h2
                     width: normal
@@ -394,7 +394,7 @@ content_blocks:
 
                       * Sync changes to content editors with a Git push.
                   styles:
-                    width: full
+                    width: medium
                     desktop:
                       text_alignment:
                         align: left
@@ -437,8 +437,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt:
-                    image:
+                    alt: Branching and previewing
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -450,7 +450,7 @@ content_blocks:
                       visibility:
                         hide: false
                       transform:
-                        scale: 1
+                        scale: 1.7
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -458,8 +458,8 @@ content_blocks:
                       block_alignment:
                         align_block: left
                       margin:
-                        top: 0
-                        bottom: 0
+                        top: 90
+                        bottom: 90
                       position:
                         top: 0
                         left: 0
@@ -518,7 +518,7 @@ content_blocks:
               columns:
                 type: fluid-fixed
                 width: 450
-                gap: 50
+                gap: 100
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -671,7 +671,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Happy editors
+                    text: Manage your content visually
                   styles:
                     element: h2
                     width: normal
@@ -974,8 +974,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Branching and previewing
-                    image: https://cc-dam.imgix.net/image_8_utyigb.png
+                    alt: Git workflow
+                    image: https://cc-dam.imgix.net/Git+workflows-developer2.png
                   styles:
                     border:
                     rounded:
@@ -983,7 +983,7 @@ content_blocks:
                     width: full
                     desktop:
                       transform:
-                        scale: 1
+                        scale: 1.2
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
