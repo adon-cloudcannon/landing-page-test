@@ -49,9 +49,9 @@ Let’s look at how easy Client Sharing is to set up:
 \[VIDEO\]
 
 1. I’ll take an Astro site built with the Sendit template as an example. In the above video I’ve already signed up to CloudCannon and linked my GitHub account; from my account dashboard I’ll create an Astro site from a template, and select the Sendit template, which is already configured for visual editing.
-2. After the site has built, I’ll jump into *Site Settings / Sharing*.<br><br>![](https://cc-dam.imgix.net/blog-client-sharing-screen1.png)<br>
+2. After the site has built, I’ll jump into *Site Settings / Sharing*.<br>![](https://cc-dam.imgix.net/blog-client-sharing-screen1.png)
 3. Under the Sharing tab I’ll select **Client Sharing**, and turn it on by setting a password.
-4. Done! Now all I need to do is share the exact login URL (e.g. `https://example.com/update`) with the person or people I want to have editing access.<br><br>![](https://cc-dam.imgix.net/blog-client-sharing-screen2.png)<br>
+4. Done! Now all I need to do is share the exact login URL (e.g. `https://example.com/update`) with the person or people I want to have editing access.<br>![](https://cc-dam.imgix.net/blog-client-sharing-screen2.png)
 5. (Optional) We can change the URL path from `/update` to `/login` (or anything you’d like), so that users can remember it more easily. To do this, I’ll simply change the URL subpath under *Site Settings / Client Sharing /* **Settings** tab to `login`.<br>We have a few other URL options here, too: Setting a **preview URL** overrides the link to the live site in the CloudCannon sidebar and header, which is handy for sites with redirects or those hosted externally. Similarly, we can set a custom **documentation URL** or **support URL**, the latter of which can also be a `mailto:` link. These options are particularly useful to direct clients to contact you if they have any questions.
 
 ## What your client user sees
