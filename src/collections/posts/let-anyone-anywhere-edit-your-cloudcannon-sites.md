@@ -48,7 +48,7 @@ Let’s look at how easy Client Sharing is to set up:
 
 \[VIDEO\]
 
-1. I’ll take an Astro site built with the <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit template</a> as an example. In the above video I’ve already signed up to CloudCannon and linked my GitHub account; from my account dashboard I’ll create an Astro site from a template, and select the Sendit template, which is already configured for visual editing.
+1. I’ll take an Astro site built with the <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit template</a> as an example. In the above video I’ve already signed up to CloudCannon and linked my GitHub account; from my account dashboard I’ve created an Astro site from a template, and selected the Sendit template, which is already configured for visual editing.
 2. After the site has built, I’ll jump into *Site Settings / Sharing*.<br>![](https://cc-dam.imgix.net/blog-client-sharing-screen1.png)
 3. Under the Sharing tab I’ll select **Client Sharing**, and turn it on by setting a password.
 4. Done! Now all I need to do is share the exact login URL (by default,&nbsp;`https://example.com/update`) with the person or people I want to have editing access.
