@@ -34,7 +34,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-It’s easy to share your static site with anyone, *and allow anyone to edit it*, without new users having to create a CloudCannon account. Allow me to (re)introduce a feature we call **[Client Sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/)**, available for all users on all [paid plans](https://cloudcannon.com/pricing/#all-plan-features).
+It’s easy to share your static site with anyone, *and allow anyone to edit it*, without new users having to create a CloudCannon account. Allow me to (re)introduce a feature we call **[Client Sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/)**, available for users on any&nbsp;[paid plan](https://cloudcannon.com/pricing/#all-plan-features).
 
 Client Sharing lets Organization Owners and Developers set a password to grant access to any user, allowing them to edit any site’s content. (Without access to complicated developer features.)
 
