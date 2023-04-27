@@ -48,11 +48,11 @@ Let’s look at how easy Client Sharing is to set up:
 
 \[VIDEO\]
 
-1. I’ll take an Astro site built with the Sendit template as an example. In the above video I’ve already signed up to CloudCannon and linked my GitHub account; from my account dashboard I’ll create an Astro site from a template, and select the Sendit template, which is already configured for visual editing.
+1. I’ll take an Astro site built with the <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit template</a> as an example. In the above video I’ve already signed up to CloudCannon and linked my GitHub account; from my account dashboard I’ll create an Astro site from a template, and select the Sendit template, which is already configured for visual editing.
 2. After the site has built, I’ll jump into *Site Settings / Sharing*.<br>![](https://cc-dam.imgix.net/blog-client-sharing-screen1.png)
 3. Under the Sharing tab I’ll select **Client Sharing**, and turn it on by setting a password.
-4. Done! Now all I need to do is share the exact login URL (e.g. `https://example.com/update`) with the person or people I want to have editing access.<br>![](https://cc-dam.imgix.net/blog-client-sharing-screen2.png)
-5. (Optional) We can change the URL path from `/update` to `/login` (or anything you’d like), so that users can remember it more easily. To do this, I’ll simply change the URL subpath under *Site Settings / Client Sharing /* **Settings** tab to `login`.<br>We have a few other URL options here, too: Setting a **preview URL** overrides the link to the live site in the CloudCannon sidebar and header, which is handy for sites with redirects or those hosted externally. Similarly, we can set a custom **documentation URL** or **support URL**, the latter of which can also be a `mailto:` link. These options are particularly useful to direct clients to contact you if they have any questions.
+4. Done! Now all I need to do is share the exact login URL (by default,&nbsp;`https://example.com/update`) with the person or people I want to have editing access.
+5. (Optional) We can change the URL path from `/update` to `/login` (or anything you’d like), so that users can remember it more easily. To do this, I’ll simply change the URL subpath under *Site Settings / Client Sharing /* **Settings** tab to `login`.<br>![](https://cc-dam.imgix.net/blog-client-sharing-screen2.png)<br>We have a few other URL options here, too: Setting a **preview URL** overrides the link to the live site in the CloudCannon sidebar and header, which is handy for sites with redirects or those hosted externally. Similarly, we can set a custom **documentation URL** or **support URL**, the latter of which can also be a `mailto:` link. These options are particularly useful to direct clients to contact you if they have any questions.
 
 ## What your client user sees
 
@@ -60,14 +60,16 @@ Now let’s see the site from the user’s perspective:
 
 \[VIDEO 2\]
 
-After navigating to the `/login` path on my preview domain and entering my password, I can see that I’m able to create, change and save page and post content, and then publish my changes, but the more complex developer options are hidden from me — no site files, no source code, and no billing options. If I’m a more non-technical user, that’s probably a good idea!
+After navigating to the `/login` path on my preview domain and entering my password, I can see that I’m able to create, change and save page and post content, and then publish my changes, but the more complex developer options are hidden from me — no site files, no source code, and no billing options.
+
+If I’m a more non-technical user, that’s probably a good idea!
 
 ## When to use Client Sharing
 
 Client Sharing is particularly helpful when your editors don’t need a permanent profile and CloudCannon account set up. Because the site Owner (typically an agency or freelancer) is in control of the password and can easily reset it, the client editor never needs to worry about forgetting how to access their site. Common users of Client Sharing include:
 
-* Agency clients who only need to make infrequent updates to their site, — for example changing their opening hours;
-* Individual contractors or external collaborators whose work on a website will take place within a defined timeframe;
+* Agency clients who only need to make infrequent updates to their site — for example changing their opening hours;
+* External collaborators or individual contractors whose work on a website will take place within a defined timeframe;
 * Subject matter experts such as legal or financial teams who need to read, update, or correct minutiae on a cyclical basis (i.e. quarterly or annually).
 
 Because Client Sharing allows user access to editing Pages and Posts and hides Developer settings like Hosting, Builds, and the File Browser, it’s an easy way for a single editor to view a site on CloudCannon and experience the CloudCannon editing interface.
