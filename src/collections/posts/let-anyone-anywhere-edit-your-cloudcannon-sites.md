@@ -46,7 +46,7 @@ Your site security is important, so the Client Sharing password you set will be 
 
 Let’s look at how easy Client Sharing is to set up:
 
-\[VIDEO\]
+{% bookshop 'markdown/youtube' title: "CloudCannon's Client Sharing" id: "LY0AJgQCFEM" extend: false border: false %}
 
 1. I’ll take an Astro site built with the <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit template</a> as an example. In the above video I’ve already signed up to CloudCannon and linked my GitHub account; from my account dashboard I’ve created an Astro site from a template, and selected the Sendit template, which is already configured for visual editing.
 2. After the site has built, I’ll jump into *Site Settings / Sharing*.<br>![](https://cc-dam.imgix.net/blog-client-sharing-screen1.png)
@@ -58,7 +58,7 @@ Let’s look at how easy Client Sharing is to set up:
 
 Now let’s see the site from the user’s perspective:
 
-\[VIDEO 2\]
+{% bookshop 'markdown/youtube' title: "CloudCannon's Client Sharing — Client View" id: "AkFYJkAlbvs" extend: false border: false %}
 
 After navigating to the `/login` path on my preview domain and entering my password, I can see that I’m able to create, change and save page and post content, and then publish my changes, but the more complex developer options are hidden from me — no site files, no source code, and no billing options.
 
