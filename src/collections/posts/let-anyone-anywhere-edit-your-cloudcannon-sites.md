@@ -6,7 +6,7 @@ description: >-
   editing access to any user. No matter which static site generator you’re using
   on CloudCannon, Client Sharing lets everyone collaborate while maintaining a
   high level of security.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog-client-sharing.png
 date: 2023-04-29T05:00:00+12:00
