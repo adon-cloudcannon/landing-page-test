@@ -2,7 +2,7 @@
 _schema: default
 uuid: 5ba8a7d4-f0a6-4bb4-9046-e311d763c936
 name: Urban
-image: https://cc-dam.imgix.net/community/images/templates/urban/1.jpg
+image: https://cc-dam.imgix.net/Screenshot 2023-04-28 at 2.29.28 PM.png
 image_alt: >-
   Screenshot of Urban theme layout of the front page containing the menu across
   the top with bold colours and a header, description and contact us button
