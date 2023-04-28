@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid: 5ba8a7d4-f0a6-4bb4-9046-e311d763c936
 name: Urban
 image: https://cc-dam.imgix.net/community/images/templates/urban/1.jpg
@@ -35,22 +36,24 @@ image_carousel:
       diagonal strip and contact information under it
 ssgs:
   - ssg_name: jekyll
-    github_repo_url: 'https://github.com/CloudCannon/urban-jekyll-bookshop-template'
+    github_repo_url: https://github.com/CloudCannon/urban-jekyll-bookshop-template
     main_branch: main
     readme_filename: README.md
-    live_preview_url: 'https://placid-beaver.cloudvent.net/'
+    live_preview_url: https://placid-beaver.cloudvent.net/
   - ssg_name: nextjs
-    github_repo_url: 'https://github.com/CloudCannon/urban-nextjs-template'
+    github_repo_url: https://github.com/CloudCannon/urban-nextjs-template
     main_branch: main
     readme_filename: README.md
-    live_preview_url: 'https://just-whistle.cloudvent.net/'
+    live_preview_url: https://just-whistle.cloudvent.net/
   - ssg_name: sveltekit
-    github_repo_url: 'https://github.com/CloudCannon/urban-sveltekit-template'
+    github_repo_url: https://github.com/CloudCannon/urban-sveltekit-template
     main_branch: main
     readme_filename: README.md
-    live_preview_url: 'https://dry-duck.cloudvent.net/'
-themes_categories: []
+    live_preview_url: https://dry-duck.cloudvent.net/
+  - ssg_name: Hugo
+    github_repo_url: https://github.com/CloudCannon/urban-hugo-bookshop-template
+    main_branch: main
+    readme_filename: README.md
+    live_preview_url: https://gentle-candy.cloudvent.net/
 priority: 3
-
 ---
-
