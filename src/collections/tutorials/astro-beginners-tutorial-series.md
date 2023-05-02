@@ -2,9 +2,9 @@
 _schema: default
 title: Astro Beginner Tutorial Series
 image:
-author:
-order:
-description:
+author: authors/cloudcannon
+order: '6'
+description: something
 seo:
   open_graph_type: article
   featured_image:
