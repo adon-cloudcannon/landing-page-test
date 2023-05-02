@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Astro Beginners Tutorial Series
+title: Astro Beginner Tutorial Series
 image:
 author:
 order:
