@@ -70,7 +70,8 @@ The public folder is for files like favicons and `robots.txt` which will not nee
 
 This is your project TypeScript configuration file; Astro has out-of-the-box TypeScript support. Even if you prefer not to work in TypeScript, consider updating this file to support import aliases:
 
-```{
+```
+{
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
     "baseUrl": ".",
@@ -93,7 +94,8 @@ To start up the development server, run the command:
 
 You can now see the site running in your browser at `http://localhost:3000/`. Astro’s dev server supports Hot Module Replacement — changes you make to source files are instantly reflected in the browser. To see the site as it will be in production, you can run a build, and then start Astro’s preview server:
 
-```pnpm
+```
+pnpm
 pnpm preview
 ```
 
@@ -103,7 +105,8 @@ For now, revert to the development server, so you can see the results of changes
 
 Astro files have a top, front matter, section, and a second markup part. The front matter section has `---` delimiters top and bottom, and you add code to it in JavaScript or TypeScript. Use this section to prepare content you need to use in the markup. For example, you might want to manipulate a date, format a text string or import components from other files. We’ll use the front matter for an import here. Add this statement to the front matter in `src/pages/index.astro`\:
 
-```---
+```
+---
 import Menu from "~/components/Menu";
 ---
 
@@ -116,7 +119,8 @@ That line will import the Menu component for us, though we have not yet created 
 
 Notice the Astro template code (the part after the front matter) looks a lot like regular HTML:
 
-```&lt;html
+```
+<html>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -136,7 +140,8 @@ You can see the familiar, `html` and `head` tags then the `body`. Much of this c
 
 Let’s now create that `Menu` component we mentioned, using React. Make a new `src/components` folder, and in there add a `Menu.tsx` file with this content:
 
-```import
+```
+import
 import { useState } from "react";
 
 const Menu: FC = function Menu() {
@@ -212,7 +217,8 @@ export default Menu;
 
 Finally, we can update `src/pages/index.astro` to use this new component (we only imported it previously):
 
-```&lt;!--
+```
+<!-- TRUNCATED... -->
 
   <body>
     <h1>Astro</h1>
