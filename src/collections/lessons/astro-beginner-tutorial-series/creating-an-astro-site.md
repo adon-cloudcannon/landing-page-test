@@ -24,7 +24,7 @@ Astro ships zero JavaScript by default, keeping your site lean. We will see that
 
 To get going, you will need&nbsp;[Node.js installed](https://nodejs.org/en/download)&nbsp;on your machine. We will use&nbsp;[pnpm](https://pnpm.io/installation)&nbsp;to install the packages, though the commands are similar if you prefer npm or yarn.
 
-```
+```html
 pnpm create astro@latest astro-beginners-tutorial
 ```
 
@@ -32,13 +32,13 @@ The fantastic CLI tool will help you in creating your Astro site. Select&nbsp;**
 
 presented project options. Next, choose the default,&nbsp;**Yes**, for installing dependencies. The tool will take a moment to download the project skeleton. Once it is done, change into the new project directory:​​​​
 
-```
+```html
 cd astro-beginners-tutorial
 ```
 
 We will create a basic, collapsible menu component using React. Add an Astro integration to set up React in the project:
 
-```
+```html
 pnpm astro add react
 ```
 
@@ -70,7 +70,7 @@ The public folder is for files like favicons and `robots.txt` which will not nee
 
 This is your project TypeScript configuration file; Astro has out-of-the-box TypeScript support. Even if you prefer not to work in TypeScript, consider updating this file to support import aliases:
 
-```
+```html
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
@@ -90,11 +90,13 @@ We will use this new alias below, when we create and then import the first React
 
 To start up the development server, run the command:
 
-\`\`pnpm dev\`\`\`
+```html
+pnpm dev
+```
 
 You can now see the site running in your browser at `http://localhost:3000/`. Astro’s dev server supports Hot Module Replacement — changes you make to source files are instantly reflected in the browser. To see the site as it will be in production, you can run a build, and then start Astro’s preview server:
 
-```
+```html
 pnpm
 pnpm preview
 ```
@@ -105,7 +107,7 @@ For now, revert to the development server, so you can see the results of changes
 
 Astro files have a top, front matter, section, and a second markup part. The front matter section has `---` delimiters top and bottom, and you add code to it in JavaScript or TypeScript. Use this section to prepare content you need to use in the markup. For example, you might want to manipulate a date, format a text string or import components from other files. We’ll use the front matter for an import here. Add this statement to the front matter in `src/pages/index.astro`\:
 
-```
+```html
 ---
 import Menu from "~/components/Menu";
 ---
@@ -119,8 +121,8 @@ That line will import the Menu component for us, though we have not yet created 
 
 Notice the Astro template code (the part after the front matter) looks a lot like regular HTML:
 
-```
-<html>
+```html
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -140,8 +142,8 @@ You can see the familiar, `html` and `head` tags then the `body`. Much of this c
 
 Let’s now create that `Menu` component we mentioned, using React. Make a new `src/components` folder, and in there add a `Menu.tsx` file with this content:
 
-```
-import
+```html
+import type { FC } from "react";
 import { useState } from "react";
 
 const Menu: FC = function Menu() {
@@ -217,7 +219,7 @@ export default Menu;
 
 Finally, we can update `src/pages/index.astro` to use this new component (we only imported it previously):
 
-```
+```html
 <!-- TRUNCATED... -->
 
   <body>
@@ -234,7 +236,7 @@ Jump over to your browser. Try clicking the menu button and you should see the i
 
 Why did we add `client:load` to the Menu component instance in `index.astro`? Try removing it, so you just have:
 
-```
+```html
 <!-- ...TRUNCATED -->
 
   <body>
@@ -262,7 +264,7 @@ Check&nbsp;[Astro documentation for full details](https://docs.astro.build/en/re
 
 Astro uses file-based routing. We already saw that updating `index.astro` changes the output at `http://localhost:3000/`. Following the file-based routing pattern, creating `src/pages/about.astro` or `src/pages/about.md` results in Astro creating an HTML page at `/about`. Create `src/pages/about.md` with this content:
 
-```
+```html
 ## Hello
 ```
 
@@ -272,7 +274,7 @@ Then, go to `http://localhost:3000/about` in your browser to see the new page. W
 
 Did you notice the import statement in `index.astro` used the alias we defined in `tsconfig.json`? Without it, we would have written:
 
-```
+```html
 import Menu from "../components/Menu";
 ```
 
