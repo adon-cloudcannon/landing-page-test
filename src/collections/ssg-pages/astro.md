@@ -837,7 +837,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Git-based CMS
+                    text: Stay in sync with a Git-based CMS
                   styles:
                     element: h2
                     width: normal
@@ -944,7 +944,7 @@ content_blocks:
                           text: Book a demo
                           link: //https://cloudcannon.com/book-a-demo/
                         styles:
-                          style: outline
+                          style: outline-white
                           size: normal
                           extra_classes:
                   styles:
@@ -1076,7 +1076,7 @@ content_blocks:
                 active: false
                 v_align: center
     styles:
-      background: caramel
+      background: night
       rounded: top
       size: normal
       align:
