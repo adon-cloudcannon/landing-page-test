@@ -773,21 +773,6 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: 0
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: false
-                size: 0
     styles:
       background: white
       rounded: top
@@ -800,7 +785,7 @@ content_blocks:
         padding:
           top: 100
           right: 0
-          bottom: 140
+          bottom: 330
           left: 0
       tablet:
         margin:
@@ -840,7 +825,7 @@ content_blocks:
           styles:
             desktop:
               space:
-                size: 0
+                size: -270
             tablet:
               space:
                 active: false
