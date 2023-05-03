@@ -1,9 +1,9 @@
 ---
 _schema: default
 title: Astro Beginner Tutorial Series
-image:
+image: https://cc-dam.imgix.net/astro-beginner-tutorial-series.png
 author:
-order:
+order: '6'
 description:
 seo:
   open_graph_type: article
