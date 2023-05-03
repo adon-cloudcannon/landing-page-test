@@ -1,12 +1,14 @@
 ---
 _schema: default
 title: Astro Beginner Tutorial Series
-image: https://cc-dam.imgix.net/astro-beginner-tutorial-series.png
-author:
+image: https://cc-dam.imgix.net/Astro Beginner Tutorial Series2.png
+author: authors/rodney-johnson
 order: '6'
-description:
+description: >-
+  Learn how to create an Astro site with layout components, JSON data, Markdown
+  blog posts, content collections, and an RSS feed.
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
+  featured_image_alt: Astro beginner tutorial series
 ---
