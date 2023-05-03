@@ -22,7 +22,7 @@ Astro ships zero JavaScript by default, keeping your site lean. We will see that
 
 ## Creating an Astro Site
 
-To get going, you will need&nbsp;[Node.js installed](https://nodejs.org/en/download)&nbsp;on your machine. We will use&nbsp;[pnpm](https://pnpm.io/installation)&nbsp;to install the packages, though the commands are similar if you prefer npm or yarn.
+To get going, you will need&nbsp;<a target="_blank" rel="noopener" href="https://nodejs.org/en/download">Node.js installed</a>&nbsp;on your machine. We will use&nbsp;<a target="_blank" rel="noopener" href="https://pnpm.io/installation">pnpm</a>&nbsp;to install the packages, though the commands are similar if you prefer npm or yarn.
 
 ```html
 pnpm create astro@latest astro-beginners-tutorial
@@ -44,7 +44,7 @@ pnpm astro add react
 
 Integrations are Astro packages that add necessary configuration files and peer dependencies for frameworks, tooling, or functionality. There are Svelte and Vue integrations, as well as Tailwind and sitemap ones.
 
-For now, accept the default options to install packages and Astro configuration. We will take a closer look at the project files in a moment. For your next project, check the list of available&nbsp;[Astro integrations](https://docs.astro.build/en/guides/integrations-guide/); your favorite framework is probably included.
+For now, accept the default options to install packages and Astro configuration. We will take a closer look at the project files in a moment. For your next project, check the list of available&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/guides/integrations-guide/">Astro integrations</a>; your favorite framework is probably included.
 
 ### What’s Inside?
 
@@ -258,7 +258,7 @@ Astro ships zero JavaScript by default. Our menu will be an Astro Island of Inte
 * `client:media`\: lets you load components based on a CSS media query, often, you will prefer to use CSS paired with other directives instead
 * `client:only`\: a little more advanced; the component will not be rendered when the site is built on the server but will still hydrate in the client browser
 
-Check&nbsp;[Astro documentation for full details](https://docs.astro.build/en/reference/directives-reference/#client-directives)&nbsp;on using these in your project.
+Check&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/reference/directives-reference/#client-directives">Astro documentation for full details</a>&nbsp;on using these in your project.
 
 ### File-based Routing
 
@@ -282,4 +282,4 @@ I guess it is a question of personal taste, however for larger projects with dee
 
 ### Until next time!
 
-That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;[next installment, we will see Astro layouts in action](https://dev.to/community/learn/astro-beginners-tutorial/astro-layouts/)&nbsp;and add some styles too!
+That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;<a target="_blank" rel="noopener" href="https://dev.to/community/learn/astro-beginners-tutorial/astro-layouts/">next installment, we will see Astro layouts in action</a>&nbsp;and add some styles too!
