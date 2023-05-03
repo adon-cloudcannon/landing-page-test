@@ -3,7 +3,7 @@ _schema: default
 title: Astro Beginner Tutorial Series
 image: https://cc-dam.imgix.net/Astro Basics.svg
 author: authors/rodney-johnson
-order: '6'
+order: '1'
 description: >-
   Learn how to create an Astro site with layout components, JSON data, Markdown
   blog posts, content collections, and an RSS feed.
