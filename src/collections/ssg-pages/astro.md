@@ -387,8 +387,8 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      * Focus on building custom components rather than hand
-                      holding editors through changes.
+                      * Focus on building custom components rather than
+                      hand-holding editors through changes.
 
                       * Build locally with your favorite tools and frameworks.
 
@@ -710,7 +710,7 @@ content_blocks:
                     text_markdown: >-
                       * Use custom components to build new pages visually.
 
-                      * Share & review changes with a preview site.
+                      * Share and review changes with a preview site.
 
                       * Publish content confidently with a push of a button.
 
@@ -730,7 +730,7 @@ content_blocks:
                     tablet:
                       text_alignment:
                         active: true
-                        align: center
+                        align: left
                       text_sizing:
                         active: false
                         text_size: normal
@@ -902,7 +902,7 @@ content_blocks:
                     tablet:
                       text_alignment:
                         active: true
-                        align: center
+                        align: left
                       text_sizing:
                         active: false
                         text_size: normal
@@ -2168,8 +2168,8 @@ content_blocks:
           content:
             text_markdown: >-
               Need help with Astro? Whether it's Astro specific documentation,
-              Astro tutorials, or Astro themes that you're after, CloudCannon's
-              got you covered!
+              Astro tutorials, or Astro themes that you're after, CloudCannon
+              has you covered!
           styles:
             width: medium
             desktop:
