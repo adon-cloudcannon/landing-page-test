@@ -16,7 +16,7 @@ seo:
 
 ## Astro Blog Post RSS Feed
 
-So far in this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/astro-beginners-tutorial/creating-an-astro-site/">Astro Beginners’ tutorial</a>, all the routes on the site have been HTML pages; whether generated from Astro markup files or Markdown. In this final lesson, we see Astro can also generate non-HTML content. We focus on adding an Astro Blog RSS feed, though you can use can follow a similar approach to serve a PDF brochure or even some JSON data from your Astro site.
+So far in this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Beginners’ tutorial</a>, all the routes on the site have been HTML pages; whether generated from Astro markup files or Markdown. In this final lesson, we see Astro can also generate non-HTML content. We focus on adding an Astro Blog RSS feed, though you can use can follow a similar approach to serve a PDF brochure or even some JSON data from your Astro site.
 
 ## Astro Resource Routes
 
