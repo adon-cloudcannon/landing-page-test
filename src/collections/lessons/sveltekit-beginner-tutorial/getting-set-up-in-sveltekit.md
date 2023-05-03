@@ -3,7 +3,7 @@ _schema: default
 title: Getting set up in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
 order: 1
-tutorial: tutorials/astro-beginners-tutorial-series
+tutorial: sveltekit-beginner-tutorial
 description: >-
   Learn how to get SvelteKit set up and installed for the rest of the tutorial
   series.
