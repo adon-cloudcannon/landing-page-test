@@ -5,7 +5,7 @@ layout: builder.html
 permalink: /eleventy-cms/
 description: >-
   Use CloudCannon as your Eleventy CMS to collaborate with your team to build
-  incredibly fast static sites with a wide range of 11ty supported templating
+  incredibly fast static sites with a wide range of 11ty-supported templating
   languages!
 summary: >-
   The fastest JavaScript-based static site generator available, with support for
@@ -60,9 +60,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Reap the performance benefits of static site generator, 11ty while
-              ensuring your content editors can efficiently edit and create new
-              pages with CloudCannon's 11ty CMS.&nbsp;
+              Reap the performance benefits of the static site generator 11ty,
+              while ensuring your content editors can efficiently edit and
+              create new pages with CloudCannon's 11ty CMS.&nbsp;
           styles:
             desktop:
               text_alignment:
@@ -388,7 +388,7 @@ content_blocks:
                     text_markdown: >-
                       With CloudCannon, you have everything you need to create
                       and manage your content. Build and host the best
-                      performing sites on the web with the help of a CMS for
+                      performing sites on the web with the help of our CMS for
                       11ty.&nbsp;
                   styles:
                     desktop:
@@ -1665,7 +1665,7 @@ content_blocks:
             text_markdown: >-
               Need help with Eleventy? Whether it's Eleventy specific
               documentation, 11ty tutorials, or 11ty themes that you're after,
-              CloudCannon's got you covered!
+              CloudCannon has you covered!
           styles:
             width: medium
             desktop:
@@ -1729,9 +1729,9 @@ content_blocks:
                 link: https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/
                 description: >-
                   Learn the basics of Eleventy in this six-part tutorial series.
-                  Go through the basics of 11ty from learning how to install the
-                  framework, creating layouts, pages, and blog posts, and an
-                  introduction to using data files.
+                  Go through everything at your own pace, from learning how to
+                  install the 11ty framework, creating layouts, pages, and blog
+                  posts, and an introduction to using data files.
               - image:
                 icon:
                   active: true
@@ -1939,10 +1939,10 @@ content_blocks:
 
                       Eleventy is fast, lets you stay flexible, doesn’t require
                       any client-side JavaScript, and doesn’t require you to
-                      learn any specific frameworks like Vue or React.Built with
-                      JavaScript and easily installed via npm,
+                      learn any specific frameworks like Vue or React.
 
 
+                      Built with JavaScript and easily installed via npm,
                       Eleventy is also extremely flexible in its range of
                       template languages: HTML, Markdown, JavaScript, Liquid,
                       Nunjucks, Handlebars, Mustache, EJS, Haml, and Pug. Pick
