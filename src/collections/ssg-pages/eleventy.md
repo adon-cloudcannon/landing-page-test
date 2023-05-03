@@ -773,6 +773,21 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: 0
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: false
+                size: 0
     styles:
       background: white
       rounded: top
@@ -838,7 +853,7 @@ content_blocks:
           content:
             case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
           styles:
-            background: white
+            background: caramel
             border: false
             desktop:
               margin:
@@ -1804,133 +1819,222 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Case Studies
+      label: Why Choose
       blocks:
-        - _bookshop_name: simple/heading
+        - _bookshop_name: sections/two-column
           content:
-            text: An 11ty CMS you can trust
+            left:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: faster and easier SSG
+                    image: https://cc-dam.imgix.net/Group_18528_j98j2i.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+            right:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Why choose Eleventy?
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Eleventy is billed as the “simpler static site generator”,
+                      and was created as a zero-config JavaScript alternative to
+                      Jekyll. It has a growing reputation for its ease of use:
+                      it works well with existing project files and multiple
+                      data sources, maintains low build times, and also features
+                      logical and intuitive hierarchies.
+
+
+                      Eleventy is fast, lets you stay flexible, doesn’t require
+                      any client-side JavaScript, and doesn’t require you to
+                      learn any specific frameworks like Vue or React.Built with
+                      JavaScript and easily installed via npm,
+
+
+                      Eleventy is also extremely flexible in its range of
+                      template languages: HTML, Markdown, JavaScript, Liquid,
+                      Nunjucks, Handlebars, Mustache, EJS, Haml, and Pug. Pick
+                      one, or if your team has a range of experience, use as
+                      many as you want — all within a single project on your
+                      custom domain. With Eleventy’s independent template
+                      engines, your content can remain firmly decoupled for any
+                      future transitions.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
           styles:
-            element: h2
-            width: normal
             desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
+              columns:
+                type: split
+                width: 0
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
             tablet:
-              text_alignment:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
                 active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
+                v_align: top
             mobile:
-              text_alignment:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
                 active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Find out how leading companies are successfully leveraging
-              CloudCannon's live visual editing.
-          styles:
-            width: full
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: case-studies/row
-          content:
-            case_studies:
-              - ee337cd8-7745-11ed-a1eb-0242ac120002
-              - ff183750-7745-11ed-a1eb-0242ac120002
-              - e1b72b3a-7745-11ed-a1eb-0242ac120002
-          styles:
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 50
-                left: 0
-              padding:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
+                v_align: top
     styles:
       background: white
       rounded: top
@@ -2234,222 +2338,133 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Why Choose
+      label: Case Studies
       blocks:
-        - _bookshop_name: sections/two-column
+        - _bookshop_name: simple/heading
           content:
-            left:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: faster and easier SSG
-                    image: https://cc-dam.imgix.net/Group_18528_j98j2i.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    pixel_width:
-                    max_width:
-                    desktop:
-                      visibility:
-                        hide: false
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        bottom: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-            right:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: Why choose Eleventy?
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Eleventy is billed as the “simpler static site generator”,
-                      and was created as a zero-config JavaScript alternative to
-                      Jekyll. It has a growing reputation for its ease of use:
-                      it works well with existing project files and multiple
-                      data sources, maintains low build times, and also features
-                      logical and intuitive hierarchies.
-
-
-                      Eleventy is fast, lets you stay flexible, doesn’t require
-                      any client-side JavaScript, and doesn’t require you to
-                      learn any specific frameworks like Vue or React.Built with
-                      JavaScript and easily installed via npm,
-
-
-                      Eleventy is also extremely flexible in its range of
-                      template languages: HTML, Markdown, JavaScript, Liquid,
-                      Nunjucks, Handlebars, Mustache, EJS, Haml, and Pug. Pick
-                      one, or if your team has a range of experience, use as
-                      many as you want — all within a single project on your
-                      custom domain. With Eleventy’s independent template
-                      engines, your content can remain firmly decoupled for any
-                      future transitions.
-                  styles:
-                    width: full
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block: center
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
+            text: An 11ty CMS you can trust
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Find out how leading companies are successfully leveraging
+              CloudCannon's live visual editing.
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: case-studies/row
+          content:
+            case_studies:
+              - ee337cd8-7745-11ed-a1eb-0242ac120002
+              - ff183750-7745-11ed-a1eb-0242ac120002
+              - e1b72b3a-7745-11ed-a1eb-0242ac120002
           styles:
             desktop:
-              columns:
-                type: split
-                width: 0
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
+              margin:
+                top: 0
+                right: 0
+                bottom: 50
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
             tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
+              margin:
                 active: false
-                v_align: top
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
             mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
+              margin:
                 active: false
-                v_align: top
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: white
       rounded: top
