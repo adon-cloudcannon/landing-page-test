@@ -16,7 +16,7 @@ seo:
 
 ## Astro Layouts
 
-After seeing how to spin up a new Astro site in the first installment of this&nbsp;[Astro Tutorial series](https://cloudcannon.com/community/learn/astro-beginners-tutorial/creating-an-astro-site/), we now take a look at Astro layouts, styling and adding favicons. Astro layouts let us re-use content over different pages. We will use them here to add headers and footers to the site. Creating a single layout component will make changing headers and footers across all pages quick and convenient. After creating headers and footers, we’ll add styling to the menu from the previous lesson; it will actually open and close! Finally, you will see how to handle static assets in an Astro project.
+After seeing how to spin up a new Astro site in the first installment of this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/astro-beginners-tutorial/creating-an-astro-site/">Astro Tutorial series</a>, we now take a look at Astro layouts, styling and adding favicons. Astro layouts let us re-use content over different pages. We will use them here to add headers and footers to the site. Creating a single layout component will make changing headers and footers across all pages quick and convenient. After creating headers and footers, we’ll add styling to the menu from the previous lesson; it will actually open and close! Finally, you will see how to handle static assets in an Astro project.
 
 Let’s start with adding a new layout file.
 
@@ -109,7 +109,7 @@ Layouts are a powerful Astro feature, you can nest them and even add multiple, n
 
 Astro works with Tailwind and other popular styling frameworks like Sass. It also has out-of-the-box PostCSS support. We will use vanilla CSS here, so you will see a few more Astro features. Using vanilla CSS with Astro, you can add styles in a global CSS file or a separate style tag within your Astro files. A third alternative is to use style elements within your framework components. This last option is limited to frameworks that support style blocks (like Svelte).
 
-Let’s start by adding a global CSS file. Create a new `src/styles` folder. In there, add a `global.css` file, then copy and paste the content from&nbsp;[`global.css`](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/src/styles/global.css).
+Let’s start by adding a global CSS file. Create a new `src/styles` folder. In there, add a `global.css` file, then copy and paste the content from&nbsp;<a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/src/styles/global.css"><code>global.css</code></a>.
 
 Typically, when working with a global CSS file, you will want to add it to every page. This makes the `BaseLayout` the ideal place for us to add global CSS. All we need to do is insert an import statement to the layout’s front matter. Astro takes care of the rest:
 
@@ -142,10 +142,10 @@ The `src` URL links to `/fonts/…`. We mentioned, in the last lesson, that the 
 
 Anything in the `public` folder will be served from the final, built site. So, if we added a robots file as `public/robots.txt`, its URL on the final site would be `https://example.com/robots.txt`. For the font CSS to work, we need to create a `public/fonts` folder, then place the font files in there. Download these four font files and add them to your newly created `fonts` folder:
 
-* [dm-sans-v11-latin-regular.woff](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-regular.woff)
-* [dm-sans-v11-latin-regular.woff2](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-regular.woff2)
-* [dm-sans-v11-latin-700.woff](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-700.woff)
-* [dm-sans-v11-latin-700.woff2](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-700.woff2)
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-regular.woff">dm-sans-v11-latin-regular.woff</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-regular.woff2">dm-sans-v11-latin-regular.woff2</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-700.woff">dm-sans-v11-latin-700.woff</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-700.woff2">dm-sans-v11-latin-700.woff2</a>
 
 ![Astro layout](https://cc-dam.imgix.net/astro-layouts.png "Astro layout")
 
@@ -155,12 +155,12 @@ Save and refresh once more. You should now see a sans-serif font, instead of the
 
 Favicons are another example of a static file, which you can put in the public folder. Let’s wrap up this part of the tutorial by adding favicons to the site. To support both legacy browsers and modern devices, you will want to serve favicons in a few sizes and formats. Save these files to the public folder:
 
-* [apple-touch-icon.png](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/apple-touch-icon.png)
-* [favicon.ico](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/favicon.ico)
-* [icon-192.png](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/icon-192.png)
-* [icon-512.png](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/icon-512.png)
-* [icon.svg](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/icon.svg)
-* [manifest.json](https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/manifest.json)
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/apple-touch-icon.png">apple-touch-icon.png</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/favicon.ico">favicon.ico</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/icon-192.png">icon-192.png</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/icon-512.png">icon-512.png</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/icon.svg">icon.svg</a>
+* <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/manifest.json">manifest.json</a>
 
 Of course, the final part is to link these files in the HTML head section of our site. You guessed it! We will add them to the layout. Update the Astro markup in `src/layouts/BaseLayout.astro`\:
 
@@ -184,8 +184,8 @@ You see here, like a lot you will do in Astro, the code is no different to what 
 
 ## Astro Layouts: What’s Next?
 
-We covered a fair amount in this part of the tutorial. It all centered around the layout component we added. For more&nbsp;[advanced Astro layout use cases, dive into the excellent Astro docs](https://docs.astro.build/en/core-concepts/astro-components/#named-slots). Beyond layouts, see an&nbsp;[Evil Martians blog post](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)&nbsp;for recommended favicon formats for a modern site. Finally, there’s more on self-hosting and&nbsp;[font best practices, in a fantastic web.dev article](https://web.dev/font-best-practices/).
+We covered a fair amount in this part of the tutorial. It all centered around the layout component we added. For more&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/core-concepts/astro-components/#named-slots">advanced Astro layout use cases, dive into the excellent Astro docs</a>. Beyond layouts, see an&nbsp;<a target="_blank" rel="noopener" href="https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs">Evil Martians blog post</a>&nbsp;for recommended favicon formats for a modern site. Finally, there’s more on self-hosting and&nbsp;<a target="_blank" rel="noopener" href="https://web.dev/font-best-practices/">font best practices, in a fantastic web.dev article</a>.
 
-After covering so much in this tutorial, we will take our foot off the gas a little in the next one. We see how you can&nbsp;[import data from JSON files right into your Astro templates](https://cloudcannon.com/community/learn/astro-beginners-tutorial/importing-json-data-in-astro/)&nbsp;— handy for giving content creators more flexibility to update data. We will see you can edit the underlying JSON data visually from your CMS.
+After covering so much in this tutorial, we will take our foot off the gas a little in the next one. We see how you can&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/community/learn/astro-beginners-tutorial/importing-json-data-in-astro/">import data from JSON files right into your Astro templates</a>&nbsp;— handy for giving content creators more flexibility to update data. We will see you can edit the underlying JSON data visually from your CMS.
 
 I hope you enjoyed this tutorial, and you are looking forward to seeing even more Astro features in the next one.
