@@ -1,9 +1,9 @@
 ---
+_schema: default
 title: Getting set up in SvelteKit
 image: https://cc-dam.imgix.net/tutorial-sveltekit.png
-breadcrumb_title: SvelteKit beginner tutorial
 order: 1
-tutorial: sveltekit-beginner-tutorial
+tutorial: tutorials/astro-beginners-tutorial-series
 description: >-
   Learn how to get SvelteKit set up and installed for the rest of the tutorial
   series.
@@ -12,7 +12,6 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 In this series we’re going through the basics of learning the web framework, [SvelteKit](https://kit.svelte.dev/). We’ll go through installing SvelteKit, create a few pages, a blog, and finally take a look at data files. Everything we do will be built from scratch, so no previous Svelte or SvelteKit knowledge is necessary — only basic HTML, CSS, and JavaScript. By the of this series you’ll have the skills and knowledge to build your own SvelteKit projects.
 
 Let’s get started\!
