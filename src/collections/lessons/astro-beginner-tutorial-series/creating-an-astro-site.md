@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Creating an Astro Site
+title: 'Creating an Astro Site: Beginners’ Tutorial'
 image:
 order: 1
 tutorial: tutorials/astro-beginners-tutorial-series
@@ -282,4 +282,4 @@ I guess it is a question of personal taste, however for larger projects with dee
 
 ### Until next time!
 
-That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;<a target="_blank" rel="noopener" href="https://dev.to/community/learn/astro-beginners-tutorial/astro-layouts/">next installment, we will see Astro layouts in action</a>&nbsp;and add some styles too!
+That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;<a target="_blank" rel="noopener" href="cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-layouts/">next installment, we will see Astro layouts in action</a>&nbsp;and add some styles too!
