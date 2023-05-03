@@ -10,7 +10,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
   featured_image_alt: Creating an Astro site
 ---
-**Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>**
+*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
 ## What is Astro and what does it do Differently?
 
