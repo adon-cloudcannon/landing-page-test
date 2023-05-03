@@ -1,5 +1,4 @@
 ---
-_schema: default
 title: Astro Beginner Tutorial Series
 image: https://cc-dam.imgix.net/Astro Basics.svg
 author: authors/rodney-johnson
