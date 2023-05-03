@@ -14,6 +14,8 @@ seo:
 
 **In this lesson you will learn how to create an Astro site.**
 
+**Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>**
+
 ## What is Astro and what does it do Differently?
 
 Before getting on with creating an Astro website in this Astro tutorial, let’s take a quick look at why you should consider using Astro. Astro is a tool for building content sites. It lets you bring your own framework. That means you can code up site content in React, Preact, Svelte, Vue, Solid, Lit, or a number of other frameworks. Of course, you can write your content in Markdown too (Astro has first-class support here). There is also an Astro markup language which looks much like HTML. Astro markup is fantastic for templating content, though we will see frameworks work well with Astro when you need interactivity.
