@@ -10,10 +10,6 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
   featured_image_alt: Creating an Astro site
 ---
-# Creating an Astro Site: Beginners’ Tutorial
-
-**In this lesson you will learn how to create an Astro site.**
-
 **Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>**
 
 ## What is Astro and what does it do Differently?
