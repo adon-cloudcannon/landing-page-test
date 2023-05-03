@@ -1,14 +1,14 @@
 ---
 _schema: default
 title: Astro Blog RSS Feed
-image:
+image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
 order: 6
 tutorial: tutorials/astro-beginners-tutorial-series
-description:
+description: In this lesson you will learn how to add a blog post RSS feed in Astro.
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
+  featured_image_alt: Astro blog RSS feed
 ---
 # Astro Blog RSS Feed
 

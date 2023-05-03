@@ -1,14 +1,16 @@
 ---
 _schema: default
 title: 'Astro Content Collections: Typed Markdown'
-image:
+image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
 order: 5
 tutorial: tutorials/astro-beginners-tutorial-series
-description:
+description: >-
+  In this lesson you will learn how to use Astro Content Collections to output a
+  list of blog posts.
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
+  featured_image_alt: Astro content collections
 ---
 # Astro Content Collections: Typed Markdown
 
