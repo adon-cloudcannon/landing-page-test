@@ -14,13 +14,13 @@ seo:
 ---
 *Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
-## Astro Layouts
+## Astro layouts
 
 After seeing how to spin up a new Astro site in the first installment of this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Tutorial series</a>, we now take a look at Astro layouts, styling and adding favicons. Astro layouts let us re-use content over different pages. We will use them here to add headers and footers to the site. Creating a single layout component will make changing headers and footers across all pages quick and convenient. After creating headers and footers, we’ll add styling to the menu from the previous lesson; it will actually open and close! Finally, you will see how to handle static assets in an Astro project.
 
 Let’s start with adding a new layout file.
 
-## First Astro Layout File
+## First Astro layout file
 
 The idea of layouts is to make repeated content more maintainable. For example, if we want to add a new social network icon to the footer, using a layout file, we do so by only changing the layout component. There is no need to update pages that include the footer individually.
 
@@ -28,7 +28,7 @@ The layout file is an Astro component, and looks much like an Astro page file. T
 
 Create a new `src/layouts` folder, and in there add a `BaseLayout.astro` file with this content:
 
-```html
+```
 ---
 import Menu from "~/components/Menu";
 
@@ -66,15 +66,15 @@ We are taking the boilerplate code from `index.astro` to build the layout. We br
 
 You can find the props defined in the last line of the front matter, where they are destructured from the `Astro.props` object. The `Astro` object will crop up a few more times as you become more familiar with Astro itself. As well as extract props from this object, you can access globally defined variables and meta for the current page. Anyway, back to props, we are working in TypeScript; you see the definition for the `Props` type alias we just used in the `export interface` block, right in the middle of the front matter section.
 
-### Astro Markup JSX
+### Astro markup JSX
 
 Astro markup shares much in common with the JSX used in React. You see that where we use the `title` and `description` props in the `head` markup. You just wrap a JavaScript string variable in braces `{}` whenever you want to use it in a template. We will look at more JSX features, like enumerating an array, later in this tutorial series.
 
-### Using Astro Layouts for Styling
+### Using Astro layouts for styling
 
 Now we have the layout defined, let’s try using it. Layout components are imported just like other components. Replace the existing content in the front matter of the `index.astro` file:
 
-```html
+```
 ---
 import BaseLayout from "~/layouts/BaseLayout.astro";
 
@@ -87,7 +87,7 @@ As well as importing the layout here, we also define the title and description f
 
 Next, replace the template code (below the front matter) using the `BaseLayout` component:
 
-```html
+```
 <!-- ...TRUNCATED -->
 ---
 
@@ -113,7 +113,7 @@ Let’s start by adding a global CSS file. Create a new `src/styles` folder. In 
 
 Typically, when working with a global CSS file, you will want to add it to every page. This makes the `BaseLayout` the ideal place for us to add global CSS. All we need to do is insert an import statement to the layout’s front matter. Astro takes care of the rest:
 
-```html
+```
 ---
 import Menu from "~/components/Menu";
 import "~/styles/global.css";
@@ -123,11 +123,11 @@ import "~/styles/global.css";
 
 If you refresh the browser now, things should already look a little nicer. The menu even opens and closes now!
 
-## Fonts and Static Hosted Files
+## Fonts and static hosted files
 
 You might have noticed that there is some CSS for self-hosted fonts in `global.css`\:
 
-```html
+```
 @font-face {
   font-display: swap;
   font-family: "DM Sans";
@@ -164,7 +164,7 @@ Favicons are another example of a static file, which you can put in the public f
 
 Of course, the final part is to link these files in the HTML head section of our site. You guessed it! We will add them to the layout. Update the Astro markup in `src/layouts/BaseLayout.astro`\:
 
-```html
+```
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -182,7 +182,7 @@ Of course, the final part is to link these files in the HTML head section of our
 
 You see here, like a lot you will do in Astro, the code is no different to what you would have learned in your HTML & JavaScript 101 course.
 
-## Astro Layouts: What’s Next?
+## Astro layouts: what’s next?
 
 We covered a fair amount in this part of the tutorial. It all centered around the layout component we added. For more&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/core-concepts/astro-components/#named-slots">advanced Astro layout use cases, dive into the excellent Astro docs</a>. Beyond layouts, see an&nbsp;<a target="_blank" rel="noopener" href="https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs">Evil Martians blog post</a>&nbsp;for recommended favicon formats for a modern site. Finally, there’s more on self-hosting and&nbsp;<a target="_blank" rel="noopener" href="https://web.dev/font-best-practices/">font best practices, in a fantastic web.dev article</a>.
 

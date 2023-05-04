@@ -12,17 +12,17 @@ seo:
 ---
 *Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
-## Astro Blogging
+## Astro blogging
 
 We will now add some blog posts to the website we are building in this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In earlier lessons, we created a new Astro site, then added a header and footer using Astro Layouts. We also added a contacts page, sourcing contact information from a JSON file within the project.
 
 Turning to Astro blogging, we will source the post content from Markdown files in a project folder. We’ll take a new approach to generate the post pages. You are going to create a single blog template for all posts (instead of individual `.astro` files for each one). Astro will use the template to render the Markdown content into pages.
 
-## Astro Blogging: First Blog Post
+## Astro blogging: first blog post
 
 Astro Collections are fantastic for Markdown blog sites. They give us types and autocompletion on front matter fields and also provide some convenient utility functions. Astro looks for Collections in the project’s `src/content` folder, so create that directory to get started. Then, add a `blog` directory inside it. Finally, create a new Markdown file, `src/content/blog/penny-farthing.md`, with the following content:
 
-```html
+```
 ---
 title: "Penny-Farthing"
 description: "All about penny-farthings"
@@ -41,7 +41,7 @@ Let’s start with the name…
 
 When you save this file, jump to your text editor and look for a \`\`.astro/types.d.ts file\`. Open this up and scan through it. Astro has generated types for you, for the new post:
 
-```html
+```
 declare module "astro:content" {
   // TRUNCATED...
 
@@ -63,19 +63,19 @@ declare module "astro:content" {
 
 `entryMap.blog.data` actually contains front matter fields. In the next lesson, we see how you provide types for these (and get rid of that `any` type).
 
-## Astro Blogging: Template
+## Astro blogging: template
 
 We need Astro to generate a blog post page for each source Markdown file in `src/content/blog`. For that to work, we need to let Astro know:
 
-* which content source files we want Astro to use with the template
-* how to generate an output path from the content
-* how to extract front matter fields (like the title) from the source
+* Which content source files we want Astro to use with the template;
+* How to generate an output path from the content; and
+* How to extract front matter fields (like the title) from the source.
 
 Astro provides a `getStaticPaths` method, which will help with mapping content source files to generated pages. Then, Astro Collections will assist us in extracting the description and title from the content Markdown front matter.
 
 Let’s see this in action. We will name the blog post template file `[...slug].astro` and place it in the `src/pages` folder. The square brackets indicate this file generates dynamic content. We’ll come back to the name itself in a moment. For now, create the file and add some Astro front matter:
 
-```html
+```
 ---
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
@@ -97,7 +97,7 @@ export async function getStaticPaths() {
 
 There is no need to use file APIs to search for Markdown files in the blog directory; Astro provides a `getCollection` helper function for accessing the input Markdown content. That helper function generates an array of posts which looks something like this:
 
-```html
+```
   posts: [
     {
       id: 'penny-farthing.md',
@@ -129,11 +129,11 @@ To help understand how Astro generates pages from a template, it might be useful
 
 There are some restrictions on referencing variables in the `getStaticPaths` function, and also on names for params (param values should be URL-safe). See the&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/reference/api-reference/#getstaticpaths">Astro docs for more on these restrictions</a>, and more detail on `getStaticPaths`, `params` and `props`.
 
-### Astro Blog Post Props
+### Astro blog post props
 
 Next, (still within the template file) we need to generate the markup for each post. You have to instruct Astro what to render for blog post pages. For each concrete, generated blog post page, we will use the same `BaseLayout` that the home page, and contact page used. Add this markup below the front matter:
 
-```html
+```
 <BaseLayout description={description} title={title}>
   <main>
     <h2>{title}</h2>
@@ -144,7 +144,7 @@ Next, (still within the template file) we need to generate the markup for each p
 
 The `Content` component will be supplied by a `render` function which Astro generates for us, to convert content Markdown to HTML. Add this snippet to the bottom of the template front matter section, to give us access to that `render` function, via `props`\:
 
-```html
+```
 // ...TRUNCATED
 
 type Props = CollectionEntry<"blog">;
@@ -164,7 +164,7 @@ Astro Collections are helping us out here once more, this time to create a type 
 * Earlier, we defined `getStaticPaths` to tell Astro which pages we want to generate with this template.
 * Now, we are looking at what to render for any particular blog post.
 
-### Accessing other Markdown Front Matter Fields
+### Accessing other Markdown front matter fields
 
 We only destructured the `description` and `title` fields from `post.data`, though the other fields (included in the Markdown front matter) are all available.
 
@@ -172,11 +172,11 @@ Go to `http://localhost:3000/penny-farthing` in your browser, and you should new
 
 ![Astro blog post](https://cc-dam.imgix.net/blogging-in-astro-blog-post.png "Astro blog post")
 
-## Adding other Blog Posts
+## Adding other blog posts
 
 To wrap up, this Astro blogging lesson, let’s add a couple more blog posts. We will use them to create a list of posts for the home page in the next lesson. Create `src/content/blog/tandem-cycles.md` with this content:
 
-```html
+```
 ---
 title: "Tandem Cycles"
 description: "Sharing is caring, why you might try a tandem"
@@ -194,7 +194,7 @@ Did know you that…
 
 Then finally, `src/content.blog/unicycles.md`\:
 
-```html
+```
 
 ---
 title: "Unicycles"
@@ -211,6 +211,6 @@ Unicycles aren’t just for the circus:
 - unicycle basketball and unicycle hockey are both actually a thing
 ```
 
-## Wrapping Up
+## Wrapping up
 
 That’s all for this part of the Astro Beginners’ tutorial. We have the foundations in place for our blog site. We took a first look at Astro Collections and created a blog post template using `getStaticPaths`. Now you can add more blog post pages to the site just by creating new Markdown files in `src/content/blog`. You will&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-content-collections-typed-markdown/">explore Astro Content Collections</a>&nbsp;a little more in the next lesson. Right now, we have to type the post URLs manually; not ideal for user experience. We will add a list of posts next, to address this. See you there!

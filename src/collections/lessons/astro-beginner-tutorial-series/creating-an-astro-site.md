@@ -12,17 +12,17 @@ seo:
 ---
 *Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
-## What is Astro and what does it do Differently?
+## What is Astro and what does it do differently?
 
 Before getting on with creating an Astro website in this Astro tutorial, let’s take a quick look at why you should consider using Astro. Astro is a tool for building content sites. It lets you bring your own framework. That means you can code up site content in React, Preact, Svelte, Vue, Solid, Lit, or a number of other frameworks. Of course, you can write your content in Markdown too (Astro has first-class support here). There is also an Astro markup language which looks much like HTML. Astro markup is fantastic for templating content, though we will see frameworks work well with Astro when you need interactivity.
 
 Astro ships zero JavaScript by default, keeping your site lean. We will see that when you do want to add interactive, stateful content, you need to let Astro know. That is because Astro uses&nbsp;**Partial Hydration**\: it only adds JavaScript for managing state to elements which require it. You might hear these interactive components being referred to as&nbsp;**Islands of Interactivity**. The pattern of large amounts of text or images and only sparse interactive islands is common on content sites. This makes Astro a marvelous choice for blogs, documentation, and other content rich websites.
 
-## Creating an Astro Site
+## Creating an Astro site
 
 To get going, you will need&nbsp;<a target="_blank" rel="noopener" href="https://nodejs.org/en/download">Node.js installed</a>&nbsp;on your machine. We will use&nbsp;<a target="_blank" rel="noopener" href="https://pnpm.io/installation">pnpm</a>&nbsp;to install the packages, though the commands are similar if you prefer npm or yarn.
 
-```html
+```
 pnpm create astro@latest astro-beginners-tutorial
 ```
 
@@ -30,13 +30,13 @@ The fantastic CLI tool will help you in creating your Astro site. Select&nbsp;**
 
 presented project options. Next, choose the default,&nbsp;**Yes**, for installing dependencies. The tool will take a moment to download the project skeleton. Once it is done, change into the new project directory:​​​​
 
-```html
+```
 cd astro-beginners-tutorial
 ```
 
 We will create a basic, collapsible menu component using React. Add an Astro integration to set up React in the project:
 
-```html
+```
 pnpm astro add react
 ```
 
@@ -44,7 +44,7 @@ Integrations are Astro packages that add necessary configuration files and peer 
 
 For now, accept the default options to install packages and Astro configuration. We will take a closer look at the project files in a moment. For your next project, check the list of available&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/guides/integrations-guide/">Astro integrations</a>; your favorite framework is probably included.
 
-### What’s Inside?
+### What’s inside?
 
 Let’s take a look at the anatomy of an Astro project. Here is the basic project layout:
 
@@ -68,7 +68,7 @@ The public folder is for files like favicons and `robots.txt` which will not nee
 
 This is your project TypeScript configuration file; Astro has out-of-the-box TypeScript support. Even if you prefer not to work in TypeScript, consider updating this file to support import aliases:
 
-```html
+```
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
@@ -84,28 +84,28 @@ This is your project TypeScript configuration file; Astro has out-of-the-box Typ
 
 We will use this new alias below, when we create and then import the first React component.
 
-### Developing the Site
+### Developing the site
 
 To start up the development server, run the command:
 
-```html
+```
 pnpm dev
 ```
 
 You can now see the site running in your browser at `http://localhost:3000/`. Astro’s dev server supports Hot Module Replacement — changes you make to source files are instantly reflected in the browser. To see the site as it will be in production, you can run a build, and then start Astro’s preview server:
 
-```html
+```
 pnpm
 pnpm preview
 ```
 
 For now, revert to the development server, so you can see the results of changes as you make them.
 
-### Astro Pages and Components
+### Astro pages and components
 
 Astro files have a top, front matter, section, and a second markup part. The front matter section has `---` delimiters top and bottom, and you add code to it in JavaScript or TypeScript. Use this section to prepare content you need to use in the markup. For example, you might want to manipulate a date, format a text string or import components from other files. We’ll use the front matter for an import here. Add this statement to the front matter in `src/pages/index.astro`\:
 
-```html
+```
 ---
 import Menu from "~/components/Menu";
 ---
@@ -115,11 +115,11 @@ import Menu from "~/components/Menu";
 
 That line will import the Menu component for us, though we have not yet created it; we will do so in a moment. Components let us compose and reuse interface units.
 
-### Creating an Astro Site: HTML Head
+### Creating an Astro site: HTML head
 
 Notice the Astro template code (the part after the front matter) looks a lot like regular HTML:
 
-```html
+```
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -136,11 +136,11 @@ Notice the Astro template code (the part after the front matter) looks a lot lik
 
 You can see the familiar, `html` and `head` tags then the `body`. Much of this code is boilerplate, which will be the same on every site page. In the next lesson, we will move the `html` and `head` sections to a layout component. That way we will only need to update them in one place, for all pages, whenever we need to make changes.
 
-### Menu Component
+### Menu component
 
 Let’s now create that `Menu` component we mentioned, using React. Make a new `src/components` folder, and in there add a `Menu.tsx` file with this content:
 
-```html
+```
 import type { FC } from "react";
 import { useState } from "react";
 
@@ -217,7 +217,7 @@ export default Menu;
 
 Finally, we can update `src/pages/index.astro` to use this new component (we only imported it previously):
 
-```html
+```
 <!-- TRUNCATED... -->
 
   <body>
@@ -234,7 +234,7 @@ Jump over to your browser. Try clicking the menu button and you should see the i
 
 Why did we add `client:load` to the Menu component instance in `index.astro`? Try removing it, so you just have:
 
-```html
+```
 <!-- ...TRUNCATED -->
 
   <body>
@@ -258,11 +258,11 @@ Astro ships zero JavaScript by default. Our menu will be an Astro Island of Inte
 
 Check&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/reference/directives-reference/#client-directives">Astro documentation for full details</a>&nbsp;on using these in your project.
 
-### File-based Routing
+### File-based routing
 
 Astro uses file-based routing. We already saw that updating `index.astro` changes the output at `http://localhost:3000/`. Following the file-based routing pattern, creating `src/pages/about.astro` or `src/pages/about.md` results in Astro creating an HTML page at `/about`. Create `src/pages/about.md` with this content:
 
-```html
+```
 ## Hello
 ```
 
@@ -272,7 +272,7 @@ Then, go to `http://localhost:3000/about` in your browser to see the new page. W
 
 Did you notice the import statement in `index.astro` used the alias we defined in `tsconfig.json`? Without it, we would have written:
 
-```html
+```
 import Menu from "../components/Menu";
 ```
 
@@ -280,4 +280,4 @@ I guess it is a question of personal taste, however for larger projects with dee
 
 ### Until next time!
 
-That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;<a target="_blank" rel="noopener" href="cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-layouts/">next installment, we will see Astro layouts in action</a>&nbsp;and add some styles too!
+That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;<a target="_blank" rel="noopener" href="cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-layouts/">next instalment, we will see Astro layouts in action</a>&nbsp;and add some styles too!

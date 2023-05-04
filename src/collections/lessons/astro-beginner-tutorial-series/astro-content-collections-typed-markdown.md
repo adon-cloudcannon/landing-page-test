@@ -14,17 +14,17 @@ seo:
 ---
 *Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
-## Astro Content Collections
+## Astro content collections
 
 We are getting close to finishing the site we’re building in this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In the last lesson, we added blog posts. One thing missing is a list of blog posts on the home page, to make it easier for visitors to find content. Let’s build a blog roll in this lesson while taking a deeper dive into Astro Content Collections.
 
-## Auto Type Generation
+## Auto type generation
 
 We had a brief introduction to Astro Content Collections when we added blog posts to the site. At the time, we mentioned that as well as providing utility functions, Astro Collections generate types for us. We found those auto generated types in \`\`.astro/types.d.ts\`. Take another look at the file, and you should see it now shows all three blog posts.
 
 Since this file is generated automatically, there is no need to commit it to your Git repo. Astro probably already added it to your `.gitignore` file. If you are also running Prettier or other code formatters, though, consider adding the `.astro` folder there. As an example, your Prettier ignore file (`.prettierignore`) might look like this:
 
-```html
+```
 # EXAMPLE ONLY
 
 dist/**
@@ -37,17 +37,17 @@ pnpm-lock.yaml
 
 Adding `.astro/` instructs Prettier to ignore that folder when checking formatting. That will be super helpful if you decide to add formatting checks in your project Git hooks.
 
-## Astro Content Collection Schema Validation
+## Astro content collection schema validation
 
 Another advantage Astro Content Collections bring is&nbsp;**front matter validation**. Astro lets you define a schema for front matter fields, so it can later let you know of any front matter inconsistencies (missing title field and such like). Your schema will also include the types each field should be, again helpful for making sure your content data are consistent.
 
 Everything we have seen so far for Astro Content Collections has been self-configured; you just needed to make sure you put your collection-related files in the right folder. Schema validation, however, does require an extra configuration file. That’s to let Astro know what policy to enforce.
 
-### Collection Configuration
+### Collection configuration
 
 Astro looks for Content Collection configuration at `src/content/config.ts`. If it is missing, you can still use Content Collections, albeit without schemas. Create that config file and add this content:
 
-```html
+```
 import { defineCollection, z } from 'astro:content';
 
 const blogCollection = defineCollection({
@@ -77,7 +77,7 @@ There is an error now, which was not there before! Where did it come from? By de
 
 Making the field optional is as easy as chaining an `optional()` method call on the end of `boolean()`\:
 
-```html
+```
 const blogCollection = defineCollection({
     schema: z.object({
         // TRUNCATED...
@@ -88,7 +88,7 @@ const blogCollection = defineCollection({
 
 Whichever method you chose, the errors should now be gone. Under the hood, Astro uses the Zod library to implement schemas. Zod handles far more sophisticated validation than we have here. As an example, you use \`z.string().url()\`\` if you want a front matter field to be a URL.&nbsp;<a target="_blank" rel="noopener" href="https://zod.dev/">Check Zod docs for this and more advanced features</a>.
 
-## Astro Collection APIs
+## Astro collection APIs
 
 ### `getCollection` API
 
@@ -96,7 +96,7 @@ We saw the `getCollection` function briefly in the blog post template. Let’s t
 
 Astro lets you create multiple collections; you just need to create a folder for each collection under `src/content`. We named our folder `blog`, and that means our collection is also called `blog`.You were able to access the `blog` collection data with `getCollection` passing the collection name as an argument:
 
-```html
+```
 import { getCollection } from "astro:content"
 
 posts = await getCollection("blog");
@@ -104,7 +104,7 @@ posts = await getCollection("blog");
 
 We also used the collection name to create a `Props` type alias for an individual post:
 
-```html
+```
 import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"blog">;
@@ -116,7 +116,7 @@ Note, `getCollection` returns a promise. Astro supports&nbsp;**top-level await**
 
 The promise resolves to an array, which now looks something like this, with an element for each post:
 
-```html
+```
 {
   posts: [
     {
@@ -149,22 +149,22 @@ The promise resolves to an array, which now looks something like this, with an e
 
 If ever you need just a single blog post, rather than an array of all the Astro Collection content, there is a convenient alternative to `getCollection`\: `getEntryBySlug`. `getEntryBySlug` takes the collection name and the slug of the entry you are requesting as arguments:
 
-```html
+```
 // EXAMPLE ONLY
 const post = await getEntryBySlug('blog', 'penny-farthing');
 ```
 
-### More Content Collections
+### More content collections
 
 To create a second (or even, third) Content Collection, you just add a new directory in `src/content`. Remember to add it to `src/content/config.ts` to get a schema.
 
-## Adding the Blog Roll
+## Adding the blog roll
 
 To render the blog roll, we will need a title, description and publish date for each post. We have all of these (sourced from Markdown front matter) in the `getCollection` result. It’s impressive that you can pull up those data, for all posts, with just a single function call. Astro Content Collections save you writing quite a few lines of code!
 
 Typically, blog rolls start with the most recent post. We can use the JavaScript `Array.sort` method to get them into order. Update the front matter section of `src/pages/index.astro`\:
 
-```html
+```
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
@@ -182,7 +182,7 @@ The `date` field on posts is a string and `Date.parse` converts it to the number
 
 Next, we want to render these data. As we did for `contacts` when importing JSON data for the contact page, we’ll use the `Array.map` method. Update the markup section of `src/index.astro`\:
 
-```html
+```
 ---
 <BaseLayout description={description} title={title}>
   <main>
@@ -212,7 +212,7 @@ Next, we want to render these data. As we did for `contacts` when importing JSON
 
 The blog roll styling does not look fantastic! Add a `style` element at the bottom of the `src/pages.index.astro` file:
 
-```html
+```
 <!-- ...TRUNCATED -->
 <style>
   ul {
@@ -253,6 +253,6 @@ Your home page should now look something like this:
 
 ![Astro content collections blog roll](https://cc-dam.imgix.net/astro-content-collections-blog-roll.png "Astro content collections terminal validation error")
 
-## Wrapping Up
+## Wrapping up
 
 We only have one more lesson left in our Astro Beginners’ Tutorial series! Hopefully, this lesson helped cement your Astro Content Collections understanding. Don’t worry if it is not all 100% clear yet. In the final lesson,&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-blog-rss-feed/">we add an RSS feed to the Astro site</a>. That will grant us a further opportunity to use Content Collections. Can’t wait to tell you about adding non-HTML resources to your Astro site in the next one!

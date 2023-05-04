@@ -12,17 +12,17 @@ seo:
 ---
 *Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
-## Astro Blog Post RSS Feed
+## Astro blog post RSS feed
 
 So far in this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Beginners’ tutorial</a>, all the routes on the site have been HTML pages, whether generated from Astro markup files or Markdown. In this final lesson, we see Astro can also generate non-HTML content. We focus on adding an Astro Blog RSS feed, though you can follow a similar approach to serve a PDF brochure or even some JSON data from your Astro site.
 
-## Astro Resource Routes
+## Astro resource routes
 
 We saw earlier, if we want Astro to generate an HTML page, we create a `.astro`, Markdown or HTML file within the `src/pages` directory. Astro generates the page using that input file’s path to determine the route the content is served from. So `https://example.com/docs/getting-started` might be generated from `src/pages/docs/getting-started.astro`.
 
 For non-HTML routes, we follow the same file-based routing pattern, still creating the source file within `src/pages`. One difference, though, is that for non-HTML routes, you need to create a TypeScript (or JavaScript) file (instead of `.astro`, etc.). Going back to the PDF brochure example, you might create `src/pages/brochure.pdf.ts`&nbsp;to make the brochure available at the endpoint `https://example.com/brochure.pdf`.
 
-### Astro non-HTML Route Source
+### Astro non-HTML route source
 
 Continuing the PDF example, within the endpoint file we need to export a handler function. That handler function will perform two tasks:
 
@@ -50,7 +50,7 @@ It is important that the exported handler is named `get` (to match the request H
 
 The response will always have a `body` field. Here, the response will be binary data (rather than text), so we include the optional `encoding` field. You can omit `encoding` if sending a JSON text response, for example.
 
-## Astro Blog RSS Feed Endpoint
+## Astro blog RSS feed endpoint
 
 RSS feeds are typically sent as plain text in XML format. We could manually construct a text string containing the XML content, then use that as the response body. However, the `@astrojs/rss` package makes things easier for us.
 
@@ -113,7 +113,7 @@ Let’s add the missing `items` field. `@astrojs/rss` just expects an array of b
 
 If you are already feeling confident with your Astro Content Collection skills, have a go at adding in the items array yourself, before reading on.
 
-### Items Array
+### Items array
 
 Just like when we created the blog roll on the home page, we want the posts to be in reverse chronological order (newest first). We’ll use `Array.sort` once more:
 
@@ -155,7 +155,7 @@ Once you have built the site using your Content Management System (CMS), you wil
 
 ![Astro blog post RSS reader](https://cc-dam.imgix.net/astro-blog-post-rss-feed-rss-reader.png "Astro blog post base RSS")
 
-## RSS Link Tag
+## RSS link tag
 
 Typically you will add an RSS feed link to site headers or footers. You can also add a meta tag to help RSS readers find the feed. It is fine to put this tag on every site page, using `src/layout/BaseLayout.astro`\:
 
