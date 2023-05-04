@@ -1,10 +1,13 @@
 ---
 _schema: default
 title: How to customize CloudCannon’s Client Sharing interface
-description:
+description: >-
+  Developers on CloudCannon can set up external collaborators and other static
+  site users for success, simply by customizing several fields in CloudCannon's
+  Client Sharing feature. 
 draft: true
 series: Client Sharing
-image:
+image: https://cc-dam.imgix.net/blog-client-sharing-2.png
 date: 2023-05-06T03:00:00+12:00
 hide_publish_date: false
 tags:
@@ -27,7 +30,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image:
+  featured_image: https://cc-dam.imgix.net/blog-client-sharing-2.png
   featured_image_alt:
 ---
 In my last post on [sharing your CloudCannon sites with anyone](https://cloudcannon.com/blog/let-anyone-anywhere-edit-your-cloudcannon-sites/) — and letting them edit content without having a CloudCannon account — I briefly mentioned the options available to customize the Client Sharing interface. I wanted to go a little further in this post, and explain why it can be helpful to customize your support and documentation links.
