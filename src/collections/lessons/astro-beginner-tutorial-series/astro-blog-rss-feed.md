@@ -10,9 +10,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro blog RSS feed tutorial
 ---
-# Astro Blog RSS Feed
-
-**In this lesson you will learn how to add a blog post RSS feed in Astro.**
+*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
 ## Astro Blog Post RSS Feed
 

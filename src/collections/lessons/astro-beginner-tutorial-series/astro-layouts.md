@@ -12,9 +12,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro layouts tutorial
 ---
-# Astro Layouts: Shared Headers, Footers and Meta
-
-**In this lesson you will learn how to use Astro layout components for repeated content.**
+*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
 ## Astro Layouts
 

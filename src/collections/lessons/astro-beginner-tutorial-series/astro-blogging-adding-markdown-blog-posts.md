@@ -10,9 +10,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro blog tutorial
 ---
-# Astro Blogging: adding Markdown Blog Posts
-
-**In this lesson you will learn how to get started with Astro blogging.**
+*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
 ## Astro Blogging
 

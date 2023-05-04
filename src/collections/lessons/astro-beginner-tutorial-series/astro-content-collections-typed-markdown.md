@@ -12,9 +12,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro content collections tutorial
 ---
-# Astro Content Collections: Typed Markdown
-
-**In this lesson you will learn how to use Astro Content Collections to output a list of blog posts.**
+*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
 
 ## Astro Content Collections
 
