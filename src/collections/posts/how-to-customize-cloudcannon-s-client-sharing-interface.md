@@ -84,4 +84,6 @@ And, naturally, our features work just the same no matter which static site gene
 
 ---
 
-*\* CloudCannon sponsors HugoConf, which keeps the conference free for all. Several CloudCannon staff members, including myself, are also part of the volunteer committee that helps run the conference. (We’re fans of OSS, and this is a great way to help celebrate the tools we use every day.)*
+*\* CloudCannon sponsors <a target="_blank" rel="noopener" href="https://hugoconf.io">HugoConf</a>, which keeps the conference free for all. *
+
+*Several CloudCannon staff members, including myself, are also part of the volunteer committee that helps run the conference. (We’re fans of OSS, and this is a great way to help celebrate the tools we use every day.)*
