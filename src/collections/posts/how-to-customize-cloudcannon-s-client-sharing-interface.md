@@ -51,7 +51,7 @@ So let’s get stuck in!
 
 ## Customizing what your External Collaborators see
 
-We’ll start with Client Sharing turned on, with a strong password that CloudCannon encrypts on submission.
+We’ll start by turning Client Sharing on, adding a strong password that CloudCannon encrypts on submission.
 
 1. Because I may want to create a page at `/update` at some point in the future, I’m going to first change the URL subpath to `/login`.
 2. My collaborators might need a link to my instructions while they’re adding content, so I’ll add the URL of my public Notion page in the 'Documentation URL' field.
@@ -66,7 +66,7 @@ Now let’s jump over to the user’s view, and see where those links come in.
 
 \[VIDEO 2 — client view, showing the interface and clicking on the Support and Documentation links.\]
 
-And that’s it! With Client Sharing turned on, I’ve set up an easy content-adding flow for our site collaborators, without having to set up a CloudCannon account for them. I’ve also made sure that I’ve supplied the content loading instructions they’ll need, as well as setting myself up the contact person for any support questions.
+And that’s it! With Client Sharing turned on, I’ve set up an easy content-adding flow for our site collaborators, without having to set up a CloudCannon account for them. I’ve also made sure that I’ve supplied the content loading instructions they’ll need, as well as setting myself up as the contact person for any support questions.
 
 ## When to set up and customize Client Sharing
 
@@ -84,6 +84,6 @@ And, naturally, our features work just the same no matter which static site gene
 
 ---
 
-*\* CloudCannon sponsors <a target="_blank" rel="noopener" href="https://hugoconf.io">HugoConf</a>, which keeps the conference free for all. *
+\*\* CloudCannon sponsors <a target="_blank" rel="noopener" href="https://hugoconf.io">HugoConf</a>, which keeps the conference free for all. \*
 
 *Several CloudCannon staff members, including myself, are also part of the volunteer committee that helps run the conference. (We’re fans of OSS, and this is a great way to help celebrate the tools we use every day.)*
