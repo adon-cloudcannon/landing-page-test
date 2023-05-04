@@ -13,8 +13,8 @@ hide_publish_date: false
 tags:
   - Agencies
   - Features
-author:
-permalink: /blog/{{ title | slugify }}/
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/how-to-customize-cloudcannons-client-sharing-interface/
 cta:
   title: Launch your website today
   body_text: >-
