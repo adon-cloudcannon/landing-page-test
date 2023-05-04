@@ -3,7 +3,7 @@ _schema: default
 title: 'Astro Content Collections: Typed Markdown'
 image: https://cc-dam.imgix.net/Astro+Basics.png
 order: 5
-tutorial: tutorials/astro-beginners-tutorial-series
+tutorial: astro-beginners-tutorial-series
 description: >-
   In this lesson you will learn how to use Astro Content Collections to output a
   list of blog posts.

@@ -3,7 +3,7 @@ _schema: default
 title: 'Astro Layouts: Shared Headers, Footers and Meta'
 image: https://cc-dam.imgix.net/Astro+Basics.png
 order: 2
-tutorial: tutorials/astro-beginners-tutorial-series
+tutorial: astro-beginners-tutorial-series
 description: >-
   In this lesson you will learn how to use Astro layout components for repeated
   content.

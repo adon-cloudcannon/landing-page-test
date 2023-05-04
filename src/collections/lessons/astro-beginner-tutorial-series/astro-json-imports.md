@@ -3,7 +3,7 @@ _schema: default
 title: Astro JSON Imports
 image: https://cc-dam.imgix.net/Astro+Basics.png
 order: 3
-tutorial: tutorials/astro-beginners-tutorial-series
+tutorial: astro-beginners-tutorial-series
 description: In this lesson you will learn how to import JSON data in Astro.
 seo:
   open_graph_type: article
