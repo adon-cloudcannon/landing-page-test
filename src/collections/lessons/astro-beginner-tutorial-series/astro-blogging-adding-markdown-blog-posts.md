@@ -1,14 +1,14 @@
 ---
 _schema: default
 title: 'Astro Blogging: adding Markdown Blog Posts'
-image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
+image: https://cc-dam.imgix.net/Astro+Basics.png
 order: 4
 tutorial: tutorials/astro-beginners-tutorial-series
 description: In this lesson you will learn how to get started with Astro blogging.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
-  featured_image_alt: Blogging in Astro
+  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image_alt: Astro blog tutorial
 ---
 # Astro Blogging: adding Markdown Blog Posts
 

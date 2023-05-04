@@ -1,6 +1,7 @@
 ---
+_schema: default
 title: Astro Beginner Tutorial Series
-image: https://cc-dam.imgix.net/Astro Basics.svg
+image: https://cc-dam.imgix.net/Astro Basics.png
 author: authors/rodney-johnson
 order: '8'
 description: >-
@@ -8,6 +9,6 @@ description: >-
   blog posts, content collections, and an RSS feed.
 seo:
   open_graph_type: article
-  featured_image: ''
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image_alt: Astro beginner tutorial
 ---

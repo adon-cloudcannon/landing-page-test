@@ -1,14 +1,14 @@
 ---
 _schema: default
 title: Astro JSON Imports
-image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
+image: https://cc-dam.imgix.net/Astro+Basics.png
 order: 3
 tutorial: tutorials/astro-beginners-tutorial-series
 description: In this lesson you will learn how to import JSON data in Astro.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
-  featured_image_alt: Astro JSON imports
+  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image_alt: Astro JSON imports tutorial
 ---
 # Astro JSON Imports: using JSON with your CMS
 

@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'Astro Content Collections: Typed Markdown'
-image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
+image: https://cc-dam.imgix.net/Astro+Basics.png
 order: 5
 tutorial: tutorials/astro-beginners-tutorial-series
 description: >-
@@ -9,8 +9,8 @@ description: >-
   list of blog posts.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
-  featured_image_alt: Astro content collections
+  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image_alt: Astro content collections tutorial
 ---
 # Astro Content Collections: Typed Markdown
 

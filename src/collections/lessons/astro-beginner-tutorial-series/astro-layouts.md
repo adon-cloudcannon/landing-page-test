@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'Astro Layouts: Shared Headers, Footers and Meta'
-image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
+image: https://cc-dam.imgix.net/Astro+Basics.png
 order: 2
 tutorial: tutorials/astro-beginners-tutorial-series
 description: >-
@@ -9,8 +9,8 @@ description: >-
   content.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Beginner+Tutorial+Series2.png
-  featured_image_alt: Astro layouts
+  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image_alt: Astro layouts tutorial
 ---
 # Astro Layouts: Shared Headers, Footers and Meta
 
