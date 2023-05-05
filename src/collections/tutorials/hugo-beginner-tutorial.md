@@ -1,7 +1,7 @@
 ---
 title: Hugo Beginner Tutorial Series
 image: https://cc-dam.imgix.net/Hugo+basics.png
-author: Mike Neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 order: '2'
 description: >-
   Learn the basics of Hugo and build your first site in this six-part beginner

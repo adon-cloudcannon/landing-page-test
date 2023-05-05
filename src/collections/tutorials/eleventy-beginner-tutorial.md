@@ -1,7 +1,7 @@
 ---
 title: Eleventy Beginner Tutorial Series
 image: https://cc-dam.imgix.net/Eleventy+basics.png
-author: Mike Neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 order: '2'
 description: >-
   Learn the basics of Eleventy by building a complete site with the help of this

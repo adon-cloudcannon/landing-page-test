@@ -116,6 +116,14 @@ collections_config:
         path: .cloudcannon/schemas/lesson.md
     icon: menu_book
     _inputs:
+      author:
+        type: select
+        options:
+          values: collections.authors
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
       order:
         type: number
         comment: The position of this lesson in the tutorial.

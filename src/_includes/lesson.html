@@ -48,7 +48,8 @@ eleventyComputed:
 ---
 
 <div class="container relative" data-pagefind-filter="site:Resources" data-pagefind-meta="site:Resources" data-pagefind-body>
-  {% assign person = collections.authors | where: "data.uuid", author | first %}
+  {% assign tutorial_linked = collections.tutorials | where: "fileSlug", tutorial | first %}
+  {% assign person = collections.authors | where: "data.uuid", tutorial_linked.data.author | first %}
   <h1 class="mx-auto text-center leading-tight text-gray-900 max-w-3xl text-3xl md:text-5xl font-bold mb-8 pt-20">{{ title }}</h1>
   <div class="mt-2 text-center">
     {% bookshop "simple/text-block" bind: text_block %}
