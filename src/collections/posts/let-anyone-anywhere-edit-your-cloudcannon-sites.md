@@ -7,7 +7,7 @@ description: >-
   on CloudCannon, Client Sharing lets everyone collaborate while maintaining a
   high level of security.
 draft: false
-series:
+series: Client Sharing
 image: https://cc-dam.imgix.net/blog-client-sharing.png
 date: 2023-04-29T05:00:00+12:00
 hide_publish_date: false
