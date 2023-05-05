@@ -58,7 +58,7 @@ We’ll start by turning Client Sharing on, adding a strong password that CloudC
 
 Once that’s all done, I’ll click Update Settings, and we’re all set!
 
-![](https://cc-dam.imgix.net/Screenshot 2023-05-05 at 3.58.43 PM.png)
+![](https://cc-dam.imgix.net/client-sharing-custom.png)
 
 Now let’s jump over to the user’s view, and see where those links come in.
 
