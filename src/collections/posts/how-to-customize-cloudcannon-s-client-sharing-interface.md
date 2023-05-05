@@ -56,9 +56,9 @@ We’ll start by turning Client Sharing on, adding a strong password that CloudC
 3. In the 'Support URL' field, I’ll add a `mailto:` link with my email address. And because I like a tidy inbox, I’ll customize this further with a pre-filled subject line. (Of course, I could get as prescriptive as I like with this `mailto:` link, including the body text.)
 4. Note that in this case, I don’t need to update the preview URL field. (If my site was hosted externally, or had a lot of redirects, this would be a handy field to use.)
 
-
-
 Once that’s all done, I’ll click Update Settings, and we’re all set!
+
+![](https://cc-dam.imgix.net/Screenshot 2023-05-05 at 3.58.43 PM.png)
 
 Now let’s jump over to the user’s view, and see where those links come in.
 
