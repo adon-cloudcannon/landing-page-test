@@ -45,9 +45,7 @@ What I *don’t want* is for these external collaborators to be able to break my
 
 So let’s get stuck in!
 
-{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
-
-\[VIDEO, talking through the below steps\]
+{% bookshop 'markdown/youtube' title: "How to customize CloudCannon’s Client Sharing interface" id: "fHSMmg9vJgc" extend: false border: false %}
 
 ## Customizing what your External Collaborators see
 
@@ -60,11 +58,11 @@ We’ll start by turning Client Sharing on, adding a strong password that CloudC
 
 Once that’s all done, I’ll click Update Settings, and we’re all set!
 
+![](https://cc-dam.imgix.net/client-sharing-custom.png)
+
 Now let’s jump over to the user’s view, and see where those links come in.
 
-{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
-
-\[VIDEO 2 — client view, showing the interface and clicking on the Support and Documentation links.\]
+{% bookshop 'markdown/youtube' title: "How to customize CloudCannon’s Client Sharing interface — the client view" id: "FnBHYW8q9wg" extend: false border: false %}
 
 And that’s it! With Client Sharing turned on, I’ve set up an easy content-adding flow for our site collaborators, without having to set up a CloudCannon account for them. I’ve also made sure that I’ve supplied the content loading instructions they’ll need, as well as setting myself up as the contact person for any support questions.
 
