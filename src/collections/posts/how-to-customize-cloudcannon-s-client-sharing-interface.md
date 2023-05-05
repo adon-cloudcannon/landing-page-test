@@ -54,7 +54,9 @@ We’ll start by turning Client Sharing on, adding a strong password that CloudC
 1. Because I may want to create a page at `/update` at some point in the future, I’m going to first change the URL subpath to `/login`.
 2. My collaborators might need a link to my instructions while they’re adding content, so I’ll add the URL of my public Notion page in the 'Documentation URL' field.
 3. In the 'Support URL' field, I’ll add a `mailto:` link with my email address. And because I like a tidy inbox, I’ll customize this further with a pre-filled subject line. (Of course, I could get as prescriptive as I like with this `mailto:` link, including the body text.)
-4. In this case, I don’t need to update the preview URL field. (If my site was hosted externally, or had a lot of redirects, this would be a handy field to use.)
+4. Note that in this case, I don’t need to update the preview URL field. (If my site was hosted externally, or had a lot of redirects, this would be a handy field to use.)
+
+
 
 Once that’s all done, I’ll click Update Settings, and we’re all set!
 
