@@ -7,7 +7,7 @@ description: >-
   Client Sharing feature. 
 draft: true
 series: Client Sharing
-image: https://cc-dam.imgix.net/blog-client-sharing-3.png
+image: https://cc-dam.imgix.net/blog-client-sharing-2 (1).png
 date: 2023-05-06T03:00:00+12:00
 hide_publish_date: false
 tags:
