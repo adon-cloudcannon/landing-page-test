@@ -12,11 +12,9 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro layouts tutorial
 ---
-*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
+## ​​​​Astro layouts
 
-## Astro layouts
-
-After seeing how to spin up a new Astro site in the first installment of this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Tutorial series</a>, we now take a look at Astro layouts, styling and adding favicons. Astro layouts let us re-use content over different pages. We will use them here to add headers and footers to the site. Creating a single layout component will make changing headers and footers across all pages quick and convenient. After creating headers and footers, we’ll add styling to the menu from the previous lesson; it will actually open and close! Finally, you will see how to handle static assets in an Astro project.
+After seeing how to spin up a new Astro site in the first installment of this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial series</a>, we now take a look at Astro layouts, styling and adding favicons. Astro layouts let us re-use content over different pages. We will use them here to add headers and footers to the site. Creating a single layout component will make changing headers and footers across all pages quick and convenient. After creating headers and footers, we’ll add styling to the menu from the previous lesson; it will actually open and close! Finally, you will see how to handle static assets in an Astro project.
 
 Let’s start with adding a new layout file.
 
@@ -186,6 +184,6 @@ You see here, like a lot you will do in Astro, the code is no different to what 
 
 We covered a fair amount in this part of the tutorial. It all centered around the layout component we added. For more&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/core-concepts/astro-components/#named-slots">advanced Astro layout use cases, dive into the excellent Astro docs</a>. Beyond layouts, see an&nbsp;<a target="_blank" rel="noopener" href="https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs">Evil Martians blog post</a>&nbsp;for recommended favicon formats for a modern site. Finally, there’s more on self-hosting and&nbsp;<a target="_blank" rel="noopener" href="https://web.dev/font-best-practices/">font best practices, in a fantastic web.dev article</a>.
 
-After covering so much in this tutorial, we will take our foot off the gas a little in the next one. We see how you can&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-json-imports/">import data from JSON files right into your Astro templates</a>&nbsp;— handy for giving content creators more flexibility to update data. We will see you can edit the underlying JSON data visually from your CMS.
+After covering so much in this tutorial, we will take our foot off the gas a little in the next one. We see how you can&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/astro-json-imports/">import data from JSON files right into your Astro templates</a>&nbsp;— handy for giving content creators more flexibility to update data. We will see you can edit the underlying JSON data visually from your CMS.
 
 I hope you enjoyed this tutorial, and you are looking forward to seeing even more Astro features in the next one.

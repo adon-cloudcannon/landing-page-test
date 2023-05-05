@@ -10,8 +10,6 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro tutorial
 ---
-*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
-
 ## What is Astro and what does it do differently?
 
 Before getting on with creating an Astro website in this Astro tutorial, let’s take a quick look at why you should consider using Astro. Astro is a tool for building content sites. It lets you bring your own framework. That means you can code up site content in React, Preact, Svelte, Vue, Solid, Lit, or a number of other frameworks. Of course, you can write your content in Markdown too (Astro has first-class support here). There is also an Astro markup language which looks much like HTML. Astro markup is fantastic for templating content, though we will see frameworks work well with Astro when you need interactivity.
@@ -280,4 +278,4 @@ I guess it is a question of personal taste, however for larger projects with dee
 
 ### Until next time!
 
-That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;<a target="_blank" rel="noopener" href="cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-layouts/">next instalment, we will see Astro layouts in action</a>&nbsp;and add some styles too!
+That’s it for the first part of our tutorial: creating an Astro site. Stoked you made it to the end! I hope you found this start to the Astro Beginners’ Tutorial useful. We have had a look at what Astro is, and saw the main features. In the&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/astro-layouts/">next instalment, we will see Astro layouts in action</a>&nbsp;and add some styles too!

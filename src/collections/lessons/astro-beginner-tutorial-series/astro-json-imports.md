@@ -10,11 +10,9 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro JSON imports tutorial
 ---
-*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
-
 ## Astro JSON imports
 
-Continuing the <a target="_blank" rel="noopener" href="cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro beginner tutorial series</a>, in this part, we will see how easy it is to add Astro JSON imports. So far, after creating the new Astro site, we added a header and footer to each page using Astro layouts. In this installment, we will add a site contact page with data sourced from a project JSON file.
+Continuing the <a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro beginner tutorial series</a>, in this part, we will see how easy it is to add Astro JSON imports. So far, after creating the new Astro site, we added a header and footer to each page using Astro layouts. In this installment, we will add a site contact page with data sourced from a project JSON file.
 
 JSON is a convenient data format, not only for developers, but also content creators. The files are well-structured and have an intuitive layout. Although JSON files are less intimidating than other formats, for anyone who prefers to work with graphical interfaces, we see you can even update JSON data from your CMS, in-browser. No need to open up a JSON file if you don’t want to!
 
@@ -215,4 +213,4 @@ Here, the data are sourced from the `contacts.json` file within the project. Sel
 
 We saw how you can import JSON files right into Astro templates. We also saw more details on working with Astro JSX, including enumerating an array in your template. How did you find this part of the tutorial? I hope there was something useful in there for you.
 
-See the&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/introducing-the-data-editor/">Data Editor docs to learn more about using this CloudCannon feature</a>&nbsp;in your next project. You can also learn more on&nbsp;<a target="_blank" rel="noopener" href="https://vitejs.dev/guide/features.html#json">Astro JSON imports in the Vite docs</a>. In the next part of this tutorial, we will see how easy it is to&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-blogging-adding-markdown-blog-posts/">generate page templates for a Markdown blog in Astro</a>. You will also get a first look at Astro Content Collections. I can’t wait to tell you about them!
+See the&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/introducing-the-data-editor/">Data Editor docs to learn more about using this CloudCannon feature</a>&nbsp;in your next project. You can also learn more on&nbsp;<a target="_blank" rel="noopener" href="https://vitejs.dev/guide/features.html#json">Astro JSON imports in the Vite docs</a>. In the next part of this tutorial, we will see how easy it is to&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/astro-blogging-adding-markdown-blog-posts/">generate page templates for a Markdown blog in Astro</a>. You will also get a first look at Astro Content Collections. I can’t wait to tell you about them!

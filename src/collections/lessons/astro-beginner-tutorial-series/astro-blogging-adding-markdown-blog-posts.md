@@ -10,11 +10,9 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro blog tutorial
 ---
-*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
-
 ## Astro blogging
 
-We will now add some blog posts to the website we are building in this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In earlier lessons, we created a new Astro site, then added a header and footer using Astro Layouts. We also added a contacts page, sourcing contact information from a JSON file within the project.
+We will now add some blog posts to the website we are building in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In earlier lessons, we created a new Astro site, then added a header and footer using Astro Layouts. We also added a contacts page, sourcing contact information from a JSON file within the project.
 
 Turning to Astro blogging, we will source the post content from Markdown files in a project folder. We’ll take a new approach to generate the post pages. You are going to create a single blog template for all posts (instead of individual `.astro` files for each one). Astro will use the template to render the Markdown content into pages.
 
@@ -213,4 +211,4 @@ Unicycles aren’t just for the circus:
 
 ## Wrapping up
 
-That’s all for this part of the Astro Beginners’ tutorial. We have the foundations in place for our blog site. We took a first look at Astro Collections and created a blog post template using `getStaticPaths`. Now you can add more blog post pages to the site just by creating new Markdown files in `src/content/blog`. You will&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-content-collections-typed-markdown/">explore Astro Content Collections</a>&nbsp;a little more in the next lesson. Right now, we have to type the post URLs manually; not ideal for user experience. We will add a list of posts next, to address this. See you there!
+That’s all for this part of the Astro Beginners’ tutorial. We have the foundations in place for our blog site. We took a first look at Astro Collections and created a blog post template using `getStaticPaths`. Now you can add more blog post pages to the site just by creating new Markdown files in `src/content/blog`. You will&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/astro-content-collections-typed-markdown/">explore Astro Content Collections</a>&nbsp;a little more in the next lesson. Right now, we have to type the post URLs manually; not ideal for user experience. We will add a list of posts next, to address this. See you there!

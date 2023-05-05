@@ -12,11 +12,9 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro content collections tutorial
 ---
-*Written by <a target="_blank" rel="noopener" href="https://rodneylab.com/">Rodney Johnson</a>*
-
 ## Astro content collections
 
-We are getting close to finishing the site we’re building in this&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In the last lesson, we added blog posts. One thing missing is a list of blog posts on the home page, to make it easier for visitors to find content. Let’s build a blog roll in this lesson while taking a deeper dive into Astro Content Collections.
+We are getting close to finishing the site we’re building in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In the last lesson, we added blog posts. One thing missing is a list of blog posts on the home page, to make it easier for visitors to find content. Let’s build a blog roll in this lesson while taking a deeper dive into Astro Content Collections.
 
 ## Auto type generation
 
@@ -255,4 +253,4 @@ Your home page should now look something like this:
 
 ## Wrapping up
 
-We only have one more lesson left in our Astro Beginners’ Tutorial series! Hopefully, this lesson helped cement your Astro Content Collections understanding. Don’t worry if it is not all 100% clear yet. In the final lesson,&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/tutorials/astro-beginners-tutorial-series/astro-blog-rss-feed/">we add an RSS feed to the Astro site</a>. That will grant us a further opportunity to use Content Collections. Can’t wait to tell you about adding non-HTML resources to your Astro site in the next one!
+We only have one more lesson left in our Astro Beginners’ Tutorial series! Hopefully, this lesson helped cement your Astro Content Collections understanding. Don’t worry if it is not all 100% clear yet. In the final lesson,&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/astro-blog-rss-feed/">we add an RSS feed to the Astro site</a>. That will grant us a further opportunity to use Content Collections. Can’t wait to tell you about adding non-HTML resources to your Astro site in the next one!
