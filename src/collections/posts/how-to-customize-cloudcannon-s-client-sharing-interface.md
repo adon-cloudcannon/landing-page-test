@@ -7,7 +7,7 @@ description: >-
   Client Sharing feature. 
 draft: true
 series: Client Sharing
-image: https://cc-dam.imgix.net/blog-client-sharing-2.png
+image: https://cc-dam.imgix.net/blog-client-sharing-3.png
 date: 2023-05-06T03:00:00+12:00
 hide_publish_date: false
 tags:
@@ -45,7 +45,9 @@ What I *don’t want* is for these external collaborators to be able to break my
 
 So let’s get stuck in!
 
-{% bookshop 'markdown/youtube' title: "How to customize CloudCannon’s Client Sharing interface" id: "fHSMmg9vJgc" extend: false border: false %}
+{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
+
+\[VIDEO, talking through the below steps\]
 
 ## Customizing what your External Collaborators see
 
@@ -54,15 +56,15 @@ We’ll start by turning Client Sharing on, adding a strong password that CloudC
 1. Because I may want to create a page at `/update` at some point in the future, I’m going to first change the URL subpath to `/login`.
 2. My collaborators might need a link to my instructions while they’re adding content, so I’ll add the URL of my public Notion page in the 'Documentation URL' field.
 3. In the 'Support URL' field, I’ll add a `mailto:` link with my email address. And because I like a tidy inbox, I’ll customize this further with a pre-filled subject line. (Of course, I could get as prescriptive as I like with this `mailto:` link, including the body text.)
-4. Note that in this case, I don’t need to update the preview URL field. (If my site was hosted externally, or had a lot of redirects, this would be a handy field to use.)
+4. In this case, I don’t need to update the preview URL field. (If my site was hosted externally, or had a lot of redirects, this would be a handy field to use.)
 
 Once that’s all done, I’ll click Update Settings, and we’re all set!
 
-![](https://cc-dam.imgix.net/client-sharing-custom.png)
-
 Now let’s jump over to the user’s view, and see where those links come in.
 
-{% bookshop 'markdown/youtube' title: "How to customize CloudCannon’s Client Sharing interface — the client view" id: "FnBHYW8q9wg" extend: false border: false %}
+{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
+
+\[VIDEO 2 — client view, showing the interface and clicking on the Support and Documentation links.\]
 
 And that’s it! With Client Sharing turned on, I’ve set up an easy content-adding flow for our site collaborators, without having to set up a CloudCannon account for them. I’ve also made sure that I’ve supplied the content loading instructions they’ll need, as well as setting myself up as the contact person for any support questions.
 
