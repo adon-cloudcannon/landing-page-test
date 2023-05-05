@@ -5,7 +5,7 @@ description: >-
   Developers on CloudCannon can set up external collaborators and other static
   site users for success, simply by customizing several fields in CloudCannon's
   Client Sharing feature. 
-draft: true
+draft: false
 series: Client Sharing
 image: https://cc-dam.imgix.net/blog-client-sharing-2 (1).png
 date: 2023-05-06T03:00:00+12:00
