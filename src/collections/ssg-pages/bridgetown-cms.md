@@ -21,7 +21,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Nuxt.js CMS marketers love
+            text: The Bridgetown CMS for your whole team
           styles:
             element: h1
             width: normal
@@ -59,7 +59,7 @@ content_blocks:
           content:
             text_markdown: >-
               Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Nuxt.js CMS.
+              CloudCannon as your Bridgetown CMS.
           styles:
             desktop:
               text_alignment:
@@ -308,7 +308,7 @@ content_blocks:
                       Everything you need for efficient content management, all
                       on one platform. Let your team build new pages, edit them
                       visually, and host the best performing sites on the web
-                      with the help of the CloudCannon CMS for Nuxt.js.&nbsp;
+                      with the help of the CloudCannon CMS for Bridgetown.&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -583,7 +583,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Nuxt.js site
+                    text: Works with any Bridgetown site
                   styles:
                     element: h2
                     width: normal
@@ -620,7 +620,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Nuxt.js website from your Git
+                      CloudCannon syncs your Bridgetown website from your Git
                       repository, manages your build process, and enables your
                       whole team to work together, faster. Everything can be
                       updated by content editors with CloudCannon.
@@ -843,7 +843,7 @@ content_blocks:
               - title: 'Intuitive editing '
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for Nuxt.js, the whole team can contribute.
+                  Visual Editor for Bridgetown, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
@@ -912,132 +912,6 @@ content_blocks:
                 left: 0
                 bottom: 0
                 right: 0
-        - _bookshop_name: sections/container
-          content:
-            label: Want to learn more?
-            blocks:
-              - _bookshop_name: sections/two-column
-                content:
-                  left:
-                    blocks:
-                      - _bookshop_name: simple/heading
-                        content:
-                          text: Want to learn more about Nuxt.js?
-                        styles:
-                          element: h3
-                          width: normal
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 20
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: big
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: true
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                  right:
-                    blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: https://cloudcannon.com/documentation/?ssg=Nuxt.js
-                          text: CloudCannon documentation for Nuxt.js
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                styles:
-                  desktop:
-                    columns:
-                      type: split
-                      width: 0
-                      gap: 50
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      v_align: center
-                  tablet:
-                    columns:
-                      active: false
-                      type: split
-                      width: 0
-                      gap: 0
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-                  mobile:
-                    columns:
-                      active: true
-                      type: stacked
-                      width: 0
-                      gap: 0
-                      vertical_gap: 20
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-          styles:
-            background: night
-            rounded: full
-            size: small
-            align: center
-            desktop:
-              margin:
-                top: 100
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                top: 50
-                right: 20
-                bottom: 50
-                left: 20
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: true
-                top: 50
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 30
-                left: 0
     styles:
       background: caramel
       rounded: top
@@ -1408,7 +1282,7 @@ content_blocks:
                 skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow with Nuxt.js on CloudCannon
+            text: Advance your content workflow with Bridgetown on CloudCannon
           styles:
             element: h2
             width: normal
@@ -1445,7 +1319,7 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Nuxt.js site
+              - title: Sync your Bridgetown site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
                 link:
                   text:
@@ -1473,9 +1347,9 @@ content_blocks:
                   icon_path:
                   icon_color:
                 image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
-              - title: Go live with Nuxt.js hosting included
+              - title: Go live with Bridgetown hosting included
                 description: >-
-                  Delight your customers by hosting your Nuxt.js sites on a
+                  Delight your customers by hosting your Bridgetown sites on a
                   global CDN with unparalleled reach and speed.
                 link:
                   text:
@@ -1594,7 +1468,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: 'Why should you choose Nuxt.js? '
+                    text: 'Why should you choose Bridgetown? '
                   styles:
                     element: h2
                     width: normal
