@@ -46,7 +46,7 @@ For now, accept the default options to install packages and Astro configuration.
 
 Let’s take a look at the anatomy of an Astro project. Here is the basic project layout:
 
-![astro project structure](https://cc-dam.imgix.net/astro-project-structure.png "astro project structure")
+![astro project structure](https://cc-dam.imgix.net/project-structure.png "astro project structure")
 
 Next, we see how to use the most important files and folders.
 
@@ -226,7 +226,7 @@ Finally, we can update `src/pages/index.astro` to use this new component (we onl
   <!-- TRUNCATED... -->
 ```
 
-![Initial astro menu](https://cc-dam.imgix.net/creating-an-astro-site-initial-menu.png "creating an initial astro menu")
+![Initial astro menu](https://cc-dam.imgix.net/initial-menu.png "creating an initial astro menu")
 
 Jump over to your browser. Try clicking the menu button and you should see the icon change. We don’t yet have styling, so it looks a little odd, and the menu does not open or close. That said, the menu icon will change to a close icon when you click, and then revert to the original menu icon if you click again.
 
