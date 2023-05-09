@@ -168,7 +168,7 @@ We only destructured the `description` and `title` fields from `post.data`, thou
 
 Go to `http://localhost:3000/penny-farthing` in your browser, and you should new see your first blog post.
 
-![Astro blog post](https://cc-dam.imgix.net/blogging-in-astro-blog-post.png "Astro blog post")
+![Astro blog post](https://cc-dam.imgix.net/blogging-in-astro-blog.png "Astro blog post")
 
 ## Adding other blog posts
 
