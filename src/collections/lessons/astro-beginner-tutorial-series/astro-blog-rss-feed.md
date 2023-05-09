@@ -175,9 +175,9 @@ Typically you will add an RSS feed link to site headers or footers. You can also
 
 Well done on making it to the end and completing the tutorial. Hopefully, it has provided enough to get you going on your next Astro project. I'm excited to hear what you will do with Astro. Visit the <a target="_blank" rel="noopener" href="https://docs.astro.build/en/getting-started/">Astro docs</a> to learn about more advanced Astro features.
 
-![Astro CloudCannon CMS visual editor](https://cc-dam.imgix.net/astro-cloudcannon-visual-editor.png "Astro CloudCannon CMS visual editor")
+![Astro CloudCannon CMS visual editor](https://cc-dam.imgix.net/astro-cloudcannon-visual.png "Astro CloudCannon CMS visual editor")
 
-![Astro CloudCannon CMS content editor](https://cc-dam.imgix.net/astro-cloudcannon-content-editor.png "Astro CloudCannon CMS content editor")
+![Astro CloudCannon CMS content editor](https://cc-dam.imgix.net/astro-cloudcannon-content.png "Astro CloudCannon CMS content editor")
 
 If you are building a content site,&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/astro-cms/">give CloudCannon a try</a>. It’s a CMS that lets the entire team focus on what they do best. Developers build the site using their preferred code editor and commit source code to a Git repo, as usual. Content creators can choose between seeing their edits live, onscreen, with the visual editor, or alternatively, writing long-form WYSIWYG content in the content editor. When they save their work, CloudCannon syncs changes back to the Git repo and automatically rebuilds your site. The whole team uses the tools they are most comfortable with.
 
