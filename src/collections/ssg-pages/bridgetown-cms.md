@@ -1417,6 +1417,42 @@ content_blocks:
     content:
       label: Case Studies
       blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Hear from our customers
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 45
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
         - _bookshop_name: case-studies/row
           content:
             case_studies:
@@ -1433,7 +1469,7 @@ content_blocks:
               padding:
                 top: 0
                 right: 0
-                bottom: 0
+                bottom: 60
                 left: 0
             tablet:
               margin:
