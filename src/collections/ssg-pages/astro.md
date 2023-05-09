@@ -933,16 +933,16 @@ content_blocks:
                     button_blocks:
                       - _bookshop_name: simple/button
                         content:
-                          text: Try for free
-                          link: //https://app.cloudcannon.com/editor
+                          text: Book a demo
+                          link: //https://cloudcannon.com/book-a-demo/
                         styles:
                           style: normal
                           size: normal
                           extra_classes:
                       - _bookshop_name: simple/button
                         content:
-                          text: Book a demo
-                          link: //https://cloudcannon.com/book-a-demo/
+                          text: Try for free
+                          link: //https://app.cloudcannon.com/editor
                         styles:
                           style: outline-white
                           size: normal
