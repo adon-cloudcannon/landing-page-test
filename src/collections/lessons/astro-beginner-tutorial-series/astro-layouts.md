@@ -97,7 +97,7 @@ Next, replace the template code (below the front matter) using the `BaseLayout` 
 </BaseLayout>
 ```
 
-![Astro layout before styles](https://cc-dam.imgix.net/astro-layouts-layout-before-styles.png "Astro layout before styles")
+![Astro layout before styles](https://cc-dam.imgix.net/astro-layouts-layout-before-styles 1.png "Astro layout before styles")
 
 Save, then jump over to your browser. You should see the browser tab title matches the value we just set. On top, the header, and footer from the layout will both be present. The `<slot />` element from the layout is replaced with the content from `index.astro`.
 
