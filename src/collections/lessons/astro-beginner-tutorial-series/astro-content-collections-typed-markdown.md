@@ -249,7 +249,7 @@ The blog roll styling does not look fantastic! Add a `style` element at the bott
 
 Your home page should now look something like this:
 
-![Astro content collections blog roll](https://cc-dam.imgix.net/astro-content-collections-blog-roll.png "Astro content collections terminal validation error")
+![Astro content collections blog roll](https://cc-dam.imgix.net/astro-content-collections-blog.png "Astro content collections terminal validation error")
 
 ## Wrapping up
 
