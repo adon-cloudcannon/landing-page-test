@@ -203,11 +203,11 @@ You can then use these named import variables in your front matter and Astro mar
 
 Of course, you (or site content editors) can manually edit JSON files. However, for a more visual interface, try the CloudCannon Data Editor. You can quickly add new values, or create and update existing ones.
 
-![JSON data in CloudCannon data editor](https://cc-dam.imgix.net/cloudcannon-data-editor-json-data-view.png "JSON data in CloudCannon data editor")
+![JSON data in CloudCannon data editor](https://cc-dam.imgix.net/cloudcannon-data-editor-json-data.png "JSON data in CloudCannon data editor")
 
 Here, the data are sourced from the `contacts.json` file within the project. Selecting a particular contact, we can edit their Name and Email fields. Once we click save, CloudCannon will automatically update `contacts.json`, commit changes to the project Git repo and update the site.
 
-![Editing JSON data in the CloudCannon data editor](https://cc-dam.imgix.net/cloudcannon-data-editor-editing-json-data.png "Editing JSON data in the CloudCannon data editor")
+![Editing JSON data in the CloudCannon data editor](https://cc-dam.imgix.net/cloudcannon-data-editor-editing-json-data-1.png "Editing JSON data in the CloudCannon data editor")
 
 ## Astro data imports: wrapping up
 
