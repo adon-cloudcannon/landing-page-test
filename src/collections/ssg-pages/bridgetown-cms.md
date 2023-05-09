@@ -507,8 +507,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier on Nuxt.js
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18912_ffgiaf.png
+                    image: https://cc-dam.imgix.net/bridgetown-cms-faster-easier.png
                   styles:
                     border:
                     rounded:
@@ -1336,7 +1335,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-2-nuxtjs.svg
+                image: https://cc-dam.imgix.net/bridgetown-cms-build-site-r.png
               - title: ' Invite your content team to collaborate'
                 description: >-
                   Give your team access to update the content on the site, all
@@ -1505,22 +1504,20 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Nuxt.js is a free and open source web application
-                      framework based on Vue.js, Node.js, webpack, and Babel.js.
-                      It simplifies the development process for universal or
-                      single-page Vue apps.
+                      Bridgetown is a next-generation, progressive site
+                      generator & full stack framework. It's built on the
+                      open-source technologies of Ruby, Puma, and Roda, and is a
+                      fast, scalable, modular, and forward-looking framework for
+                      building websites and frontend applications.
 
 
-                      With CloudCannon as your Nuxt.js CMS, your whole team can
-                      collaborate to create incredible static sites with Vue
-                      components. Developers can leverage their existing Vue
-                      knowledge, and content editors will reap the benefits of
+                      With CloudCannon as your Bridgetown CMS, your whole team
+                      can collaborate to create incredible static sites with
+                      components, themes, plugins, or community gems. Developers
+                      can use JavaScript frameworks like React, Vue, and
+                      Stimulus, as well as CSS frameworks like Bulma or Tailwind
+                      — and content editors will reap the benefits of
                       CloudCannon’s powerful and intuitive CMS.
-
-
-                      Please note: CloudCannon’s Nuxt.js support is focused on
-                      Nuxt.js’s SSG capabilities, and as such does not include
-                      SSR.
                   styles:
                     desktop:
                       text_alignment:
@@ -1567,7 +1564,7 @@ content_blocks:
                   content:
                     alt: Faster and easier SSG
                     image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18855_hw0ykx.png
+                      https://cc-dam.imgix.net/bridgetown-cms-intuitive-editing.png
                   styles:
                     border:
                     rounded:
