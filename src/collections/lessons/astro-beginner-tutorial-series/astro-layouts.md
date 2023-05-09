@@ -145,7 +145,7 @@ Anything in the `public` folder will be served from the final, built site. So, i
 * <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-700.woff">dm-sans-v11-latin-700.woff</a>
 * <a target="_blank" rel="noopener" href="https://github.com/rodneylab/cloudcannon-astro-beginners-tutorial/raw/main/public/fonts/dm-sans-v11-latin-700.woff2">dm-sans-v11-latin-700.woff2</a>
 
-![Astro layout](https://cc-dam.imgix.net/astro-layouts.png "Astro layout")
+![Astro layout](https://cc-dam.imgix.net/astro-layouts-novelty.png "Astro layout")
 
 Save and refresh once more. You should now see a sans-serif font, instead of the browser default.
 
