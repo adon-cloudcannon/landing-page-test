@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Eleventy
+title: Eleventy CMS
 layout: builder.html
 permalink: /eleventy-cms/
 description: >-

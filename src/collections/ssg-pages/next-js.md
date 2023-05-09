@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Next.js
+title: Next.js CMS
 layout: builder.html
 permalink: /nextjs-cms/
 description: >-

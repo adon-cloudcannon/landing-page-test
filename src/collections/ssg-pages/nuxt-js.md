@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Nuxt.js
+title: Nuxt.js CMS
 layout: builder.html
 permalink: /nuxtjs-cms/
 description: >-

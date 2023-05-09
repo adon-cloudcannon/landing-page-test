@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Gatsby
+title: Gatsby CMS
 layout: builder.html
 permalink: /gatsby-cms/
 description: >-

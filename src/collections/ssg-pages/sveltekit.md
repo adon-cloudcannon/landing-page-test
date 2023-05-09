@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: SvelteKit
+title: SvelteKit CMS
 layout: builder.html
 permalink: /sveltekit-cms/
 description: >-
