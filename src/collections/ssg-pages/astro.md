@@ -1480,17 +1480,17 @@ content_blocks:
                 v_align: top
     styles:
       background: ash
-      rounded: none
+      rounded: top
       desktop:
         margin:
           top: 0
           right: 0
-          bottom: 90
+          bottom: 0
           left: 0
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -2264,7 +2264,7 @@ content_blocks:
                 bottom: 0
     styles:
       background: caramel
-      rounded: none
+      rounded: top
       size: normal
       align: none
       shadow: false
@@ -2272,12 +2272,12 @@ content_blocks:
         margin:
           top: 0
           right: 0
-          bottom: 90
+          bottom: 0
           left: 0
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
