@@ -838,7 +838,7 @@ content_blocks:
           content:
             case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
           styles:
-            background: caramel
+            background: night
             border: false
             desktop:
               margin:
