@@ -18,4 +18,4 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   final_crumb:
-    comment: The last section of the breadcrumb indicating the current page. If not set the page title will be used (or part of the title if special characters are used).
+    comment: If not set, the page title will be used. (This will be trimmed if the title contains special characters.)

@@ -1,7 +1,7 @@
 <nav class="c-breadcrumbs" aria-label="breadcrumbs">
-    <ol class="flex align-center flex-wrap">
+    <ol class="align-center flex-wrap hidden sm:flex">
         {% assign crumb_url = "/" %}
-        <li>
+        <li class="flex">
             <a href="{{ crumb_url }}">{{ '/src/images/icons/solid/home.svg' | svgContents: 'stroke-cc fill-cc w-5 h-5 inline align-text-bottom' }}</a>
             <span class="px-2">/</span>
         </li>
@@ -9,8 +9,8 @@
         {% for crumb in breadcrumb %}
             {% unless forloop.first or forloop.last %}
                 {% assign crumb_url = crumb_url | append: crumb | append: "/" %}
-                <li>
-                    <a href="{{ crumb_url }}" class="text-cc hover:underline">{{ crumb | replace: "-", ' ' | capitalize}}</a>
+                <li class="flex">
+                    <a href="{{ crumb_url }}" class="text-cc hover:underline">{{ crumb | replace: "-", ' ' | capitalize }}</a>
                     <span class="px-2">/</span>
                 </li>
             {% endunless -%}
@@ -22,4 +22,10 @@
             <li><span aria-current="page">{{ title | replaceRE: regex, ""}}</span></li>
         {% endif %}
     </ol>
+    {% assign last_crumb = page.url | split: "/" | last | append: "/" %}
+    {% assign breadcrumb = page.url | remove: last_crumb %}
+    <a href="{{ breadcrumb }}" class="text-cc hover:underline flex sm:hidden">
+        <span>{{ '/src/images/icons/outline/chevron-left.svg' | svgContents: 'stroke-cc w-5 h-5 inline align-text-bottom' }}</span>
+        {{- breadcrumb | split: "/" | last | replace: "-", ' ' | capitalize -}}
+    </a>
 </nav>
