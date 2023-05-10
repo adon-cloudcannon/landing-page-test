@@ -7,7 +7,7 @@ description: >-
   project.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/astro-and-11ty.png
 date: 2023-05-13T05:04:00+12:00
 hide_publish_date: false
 tags:
@@ -30,6 +30,6 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Astro-and-11ty.png
+  featured_image_alt: Astro vs. 11ty (Eleventy)
 ---
