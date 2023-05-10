@@ -1800,7 +1800,7 @@ content_blocks:
           active: true
           top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
   - _bookshop_name: sections/container
     content:
