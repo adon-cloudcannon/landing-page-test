@@ -1920,8 +1920,8 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
                         active: false
                         top: 0
@@ -2355,8 +2355,8 @@ content_blocks:
                 active: false
                 align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
                 active: false
                 top: 0
