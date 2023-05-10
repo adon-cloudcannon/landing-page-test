@@ -276,7 +276,7 @@ content_blocks:
             mobile:
               visibility:
                 active: true
-                hide: false
+                hide: true
               transform:
                 active: false
                 scale: 1
