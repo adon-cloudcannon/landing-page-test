@@ -92,6 +92,10 @@ module.exports = function (eleventyConfig) {
 		});
 	});
 
+	eleventyConfig.addFilter("replaceRE", function(input, regex, replacement) {
+		return input.replace(new RegExp(regex), replacement);
+	});
+
 	eleventyConfig.addFilter("markdownify", (markdown) => md.render(markdown));
 
 	return {

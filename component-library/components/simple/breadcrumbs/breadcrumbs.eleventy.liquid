@@ -1,0 +1,25 @@
+<nav class="c-breadcrumbs" aria-label="breadcrumbs">
+    <ol class="flex align-center">
+        {% assign crumb_url = "/" %}
+        <li>
+            <a href="{{ crumb_url }}">{{ '/src/images/icons/solid/home.svg' | svgContents: 'stroke-cc fill-cc w-5 h-5 inline align-text-bottom' }}</a>
+            <span class="px-2">/</span>
+        </li>
+        {% assign breadcrumb = page.url | split: "/" %}
+        {% for crumb in breadcrumb %}
+            {% unless forloop.first or forloop.last %}
+                {% assign crumb_url = crumb_url | append: crumb | append: "/" %}
+                <li>
+                    <a href="{{ crumb_url }}" class="text-cc hover:underline">{{ crumb | replace: "-", ' ' | capitalize}}</a>
+                    <span class="px-2">/</span>
+                </li>
+            {% endunless -%}
+        {% endfor %}
+        {% if content.final_crumb and content.final_crumb != "" %}
+            <li><span aria-current="page">{{ content.final_crumb }}</span></li>
+        {% else %}
+            {% assign regex = "(:|;|—|–|(?<!vs)\\.|!|\\?|\\.\\.\\.) (?!Part).*" %}
+            <li><span aria-current="page">{{ title | replaceRE: regex, ""}}</span></li>
+        {% endif %}
+    </ol>
+</nav>
