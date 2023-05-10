@@ -275,7 +275,7 @@ content_blocks:
                 right: 0
             mobile:
               visibility:
-                active: false
+                active: true
                 hide: false
               transform:
                 active: false
