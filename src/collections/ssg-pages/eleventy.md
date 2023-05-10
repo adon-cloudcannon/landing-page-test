@@ -1791,7 +1791,7 @@ content_blocks:
           left: 0
       mobile:
         margin:
-          active: false
+          active: true
           top: 0
           right: 0
           bottom: 0
