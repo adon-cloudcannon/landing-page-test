@@ -1651,7 +1651,7 @@ content_blocks:
                 bottom: 0
             mobile:
               text_alignment:
-                active: false
+                active: true
                 align: center
               text_sizing:
                 active: false
