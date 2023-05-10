@@ -33,7 +33,7 @@ Editor Links are contextual pointers to front matter fields and other pages in t
 > *Editor Links* can be styled to fit the brand of your site, and are not displayed on your live site.
 
 
-![Example front matter Editor Link](https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/sidebar-editor-link.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/sidebar-editor-link.png" alt:"Example front matter Editor Link" extend:false border:false %}
 
 ## Modals
 
@@ -42,7 +42,7 @@ We've added the option to have *Editor Links* open front matter fields in a moda
 > Modals display the linked field only and provide more screen space than the sidebar. This is particularly useful with *Rich Text* fields.
 
 
-![Example modal front matter Editor Link](https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/modal-editor-link.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/editor-link-modals/modal-editor-link.png" alt:"Example modal front matter Editor Link" extend:false border:false %}
 
 Open *Editor Links* in a modal by setting the `data-cms-editor-link-style` attribute to **modal**, or by hiding them in the sidebar.
 

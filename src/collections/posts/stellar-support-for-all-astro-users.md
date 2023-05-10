@@ -39,7 +39,7 @@ seo:
 
 Another week, another static site generator out of beta support on CloudCannon. But it’s not just any SSG — it’s Astro, the [top-performing](https://astro.build/blog/2023-web-framework-performance-report/) all-in-one web framework designed for speed. With Astro and CloudCannon you can manage your content in your own Git repository and deploy everywhere, while using your favorite UI components and libraries. And the final touch? With CloudCannon, your highly performant sites are available for non-technical editors to draft, review, and publish their content.
 
-![](https://cc-dam.imgix.net/astro-launch-hero.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/astro-launch-hero.png" alt:"" extend:false border:false %}
 
 Astro is a lightweight and powerful static site generator that allows developers to mix and match popular frameworks like as React, Preact, Svelte, Vue, SolidJS, AlpineJS, and Lit. Astro keeps your static sites fast by default, automatically converting components to HTML at build time, and removing superfluous JavaScript. And with Astro's partial hydration, you can hydrate specific interactive components on the page.
 
@@ -59,7 +59,7 @@ We’ve also written up a [Getting Started with Astro](https://cloudcannon.com/d
 
 We've extended our new theme <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit</a> for Astro as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Astro users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Astro sites for editing on CloudCannon: make use of that `cloudcannon.config.yml` file and see how it’s all set up!
 
-![](https://cc-dam.imgix.net/sendit-hero-browser.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/sendit-hero-browser.png" alt:"" extend:false border:false %}
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 

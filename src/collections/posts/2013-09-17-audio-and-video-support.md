@@ -27,4 +27,4 @@ Video promotion is over 6 times more effective than print and online so we thoug
 
 The file browser has also been upgraded so you can preview video, audio and font files.
 
-![Font Preview](https://cc-dam.imgix.net/blog/assets/blog/font-preview.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/font-preview.png" alt:"Font Preview" extend:false border:false %}

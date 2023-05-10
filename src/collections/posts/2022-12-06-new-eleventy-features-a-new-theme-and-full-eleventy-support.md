@@ -39,7 +39,7 @@ In CloudCannon, you can now embed rich Snippets in your Markdown content. Once [
 
 ## Sendit: A new, free, page-building starter for Eleventy
 
-![](https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg" alt:"" extend:false border:false %}
 
 We’ve created a brand new free theme (or ‘starter’, if you prefer) called [Sendit](https://cloudcannon.com/community/themes/sendit/) — for everyone to use and adapt as they see fit. You can [deploy Sendit on CloudCannon right now](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-eleventy-template)&nbsp;and try it for yourself, or check out the [Sendit demo site](https://potent-ship.cloudvent.net/) to see what's possible.
 

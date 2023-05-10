@@ -46,7 +46,7 @@ Markdown is excellent, but it may be limiting when it comes to sophisticated mar
 
 ## Git-based
 
-![](https://cc-dam.imgix.net/marketing/uploads/workflow-diagram.svg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/workflow-diagram.svg" alt:"" extend:false border:false %}
 
 CloudCannon, like TinaCMS, is a Git-based CMS. All modifications in your repository are automatically synced to CloudCannon, and any changes made by editors are committed to your repository. We provide all editors complete Git capability for authoring, reviewing, and publishing — without requiring them to understand how Git works. CloudCannon editors may make clones of sites by branching to make large-scale modifications, check their content on staging sites, then publish via branch merge or pull request afterwards.
 
@@ -61,29 +61,29 @@ You can start testing CloudCannon and transferring your sites from TinaCMS in a 
 
 Like TinaCMS, CloudCannon is a Git-based CMS. To start, [sign up to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard), click “Add new site”, and select “Connect your own files”.
 
-![](https://cc-dam.imgix.net/cloudcannon-add-new-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-add-new-site.png" alt:"" extend:false border:false %}
 
 Create a name for your site.
 
-![](https://cc-dam.imgix.net/cloudcannon-name-your-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-name-your-site.png" alt:"" extend:false border:false %}
 
 Select a source for your website files. CloudCannon supports two-way Git syncing with GitHub, GitLab, and Bitbucket. Once you’ve selected your Git provider, you’ll need to authenticate it to CloudCannon.
 
-![](https://cc-dam.imgix.net/cloudcannon-sync-files.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-sync-files.png" alt:"" extend:false border:false %}
 
 From here, select the repository and branch that is connected to your site on TinaCMS. If you want to test CloudCannon out without impacting the content or setup of your live TinaCMS site, select “Create New” in your branch setup to create a new branch. You can always merge it to your production branch at a later date.
 
-![](https://cc-dam.imgix.net/cloudcannon-repository.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-repository.png" alt:"" extend:false border:false %}
 
 ### 2\. Set up your SSG build
 
 Based on your file structure, CloudCannon will attempt to link your SSG and configuration data. Review this configuration and make any necessary changes for your project.
 
-![](https://cc-dam.imgix.net/cloudcannon-build-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-build-site.png" alt:"" extend:false border:false %}
 
 If the build is successful, you may begin customising the editing experience. Otherwise, fine-tune your build choices. If you need help with any steps along the way, you can always reach out to our helpful [support team](https://cloudcannon.com/documentation/support/).
 
-![](https://cc-dam.imgix.net/cloudcannon-site-is-ready.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-site-is-ready.png" alt:"" extend:false border:false %}
 
 ### 3\. Configure the CMS
 
@@ -213,7 +213,7 @@ If you’re getting started with CloudCannon, we’d highly recommend adding Boo
 
 What’s a CMS without a team to share it with? You’re now ready to invite everyone who requires site access, such as clients, content editors, marketers, and developers. Guide them through the editing interfaces and they’ll be up and running in no time.
 
-![](https://cc-dam.imgix.net/cloudcannon-invite-team.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-invite-team.png" alt:"" extend:false border:false %}
 
 ### 6\. Configure your hosting (optional)
 

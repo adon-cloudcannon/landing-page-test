@@ -43,7 +43,7 @@ Markdown is fantastic, but it can be restrictive when it comes to complex market
 
 ### Git-based
 
-![](https://cc-dam.imgix.net/marketing/uploads/workflow-diagram.svg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/workflow-diagram.svg" alt:"" extend:false border:false %}
 
 Just like Netlify CMS, CloudCannon is a Git-based CMS, with support for GitHub, GitLab, and Bitbucket. All changes in your repository automatically sync to CloudCannon, and all changes editors make will commit back to the repository. We give all editors the full power of Git when it comes to drafting, reviewing, and publishing — all without needing to know exactly how Git works. Editors on CloudCannon can create copies of sites by branching to make large-scale changes, then review their content on staging sites, and publish by a branch merge or pull request at a later date.
 
@@ -59,29 +59,29 @@ You can start testing CloudCannon and transferring your sites from Netlify CMS i
 
 Like Netlify CMS, CloudCannon is a Git-based CMS. To start, [sign up to CloudCannon](https://app.cloudcannon.com/register?trial=cc_standard), click “Add new site”, and select “Connect your own files.”
 
-![](https://cc-dam.imgix.net/cloudcannon-add-new-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-add-new-site.png" alt:"" extend:false border:false %}
 
 Create a name for your site.
 
-![](https://cc-dam.imgix.net/cloudcannon-name-your-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-name-your-site.png" alt:"" extend:false border:false %}
 
 Select a source for your website files. CloudCannon supports two-way Git syncing with GitHub, GitLab, and Bitbucket. Once you’ve selected your Git provider, you’ll need to authenticate it to CloudCannon.
 
-![](https://cc-dam.imgix.net/cloudcannon-sync-files.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-sync-files.png" alt:"" extend:false border:false %}
 
 From here, select the repository and branch that is connected to your site on Netlify CMS. If you want to test CloudCannon out without impacting the live Netlify CMS site, select “Create New” in your branch setup to create a new branch. You can always merge it to your production branch at a later date.
 
-![](https://cc-dam.imgix.net/cloudcannon-repository.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-repository.png" alt:"" extend:false border:false %}
 
 ### 2\. Set up your SSG build
 
 CloudCannon will automatically connect to your SSG and set configuration details based on your file structure. Review this configuration and make any tweaks for your project.
 
-![](https://cc-dam.imgix.net/cloudcannon-build-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-build-site.png" alt:"" extend:false border:false %}
 
 When your build succeeds, you’re ready to start configuring the editing. Otherwise, tweak your build options until you get it working. You can always reach out to our helpful [support team](https://cloudcannon.com/documentation/support/)&nbsp;if you need help with any steps along the way.
 
-![](https://cc-dam.imgix.net/cloudcannon-site-is-ready.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-site-is-ready.png" alt:"" extend:false border:false %}
 
 ### 3\. Configure the CMS
 
@@ -212,7 +212,7 @@ We’ve created an open-source framework called [Bookshop](https://github.com/Cl
 
 Why use a CMS without a team to share it with? You can now invite everyone who needs access to the site, including clients, content editors, marketers, and developers. Guide them through the editing interfaces and they’ll be up to speed in no time.
 
-![](https://cc-dam.imgix.net/cloudcannon-invite-team.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-invite-team.png" alt:"" extend:false border:false %}
 
 ### 6\. Configure your hosting (optional)
 

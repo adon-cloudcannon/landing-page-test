@@ -27,7 +27,7 @@ We believe the approach we’ve taken with CloudCannon CMS is the right way to r
 
 <div class="cc-helper__h5">Behold:</div>
 
-![Snipcart logo](https://cc-dam.imgix.net/blog/assets/blog/snipcart-response/snipcart.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/snipcart-response/snipcart.png" alt:"Snipcart logo" extend:false border:false %}
 
 [Snipcart](http://www.snipcart.com) is the solution we’ve been waiting for\! And now we reckon e-commerce on CloudCannon is going to be awesome\!
 

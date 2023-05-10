@@ -45,11 +45,11 @@ Earlier this year I had the opportunity to travel to San Francisco for work with
 
 I love travelling solo because it gives me ultimate flexibility, the downside is it gets pretty lonely. At least once a week I would go to a different city and have to make an entirely new group of friends which gave me a lot of practise building relationships from scratch. It’s amazing how fast you can become close with others if you’re sharing everything and spending all day together.
 
-![Group photo of friends in front of a forest area](https://cc-dam.imgix.net/blog/assets/blog/thailand/friends.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/thailand/friends.jpg" alt:"Group photo of friends in front of a forest area" extend:false border:false %}
 
 One of my favourite moments was interacting with a local boy who spoke no English. I had an English to Thai translator so I tried to start a conversation by typing in “hello”, “how old are you?”. He smiled but didn’t respond. Eventually I opened a “fail video” on YouTube which is basically just 10 minutes of people hurting themselves. His eyes lit up and for every single 10 second clip there was uncontrollable laughter.
 
-![Mike Neumegen and two boys watching a laptop on a table with food](https://cc-dam.imgix.net/blog/assets/blog/thailand/boy.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/thailand/boy.jpg" alt:"Mike Neumegen and two boys watching a laptop on a table with food" extend:false border:false %}
 
 At the core of it, business is about people and relationships. Now I’m much better at understanding someone's motives and interests, while being more open and vulnerable.
 

@@ -39,7 +39,7 @@ To help you make the most of your assets we’ve added support for [Amazon S3](h
 
 *Update (19 August 2022): We've also added support for [Google Cloud Storage buckets](https://cloud.google.com/storage/docs/buckets).*
 
-![](https://cc-dam.imgix.net/dam-diagram-c.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/dam-diagram-c.png" alt:"" extend:false border:false %}
 
 ## How to integrate your DAM solution
 
@@ -55,7 +55,7 @@ The first step is to link your DAM provider to your Organization in CloudCannon.
 
 You’ll see a popup notification confirming your setup, and you can find the Previewbutton in your settings, where you can check on your connection. Click on **Preview DAM assets** and a modal will open that will let you browse the files in your DAM folder.
 
-![](https://cc-dam.imgix.net/DAM-files-preview-c.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/DAM-files-preview-c.jpg" alt:"" extend:false border:false %}
 
 ### 2\. Link your DAM service to a site
 

@@ -50,19 +50,19 @@ CMSs exist to help editing teams manage a website's contents. The simpler the ed
 
 With CloudCannon, content writers can write and update content directly on the website — what could be more intuitive than that?
 
-![](https://cc-dam.imgix.net/documentation/images/getting-started/Editable-regions.gif)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/documentation/images/getting-started/Editable-regions.gif" alt:"" extend:false border:false %}
 
 ### Component page building
 
 Markdown is fantastic, but it's too restrictive for complex marketing content, especially when content editors prefer a visual approach. That's where using components — which can be pieced together to build a page — are a great idea. On CloudCannon, components are called [array structures](https://cloudcannon.com/documentation/edit/editing/configuration/#array-structures). You start by defining a label and the data fields in your component, and you're free to use the [full range of field types](https://cloudcannon.com/documentation/edit/interfaces/inputs/#inputs) available on CloudCannon; you can even nest array structures! Once configured, editors can use these components to piece together content on a page.
 
-![](https://cc-dam.imgix.net/blog/page-building.gif)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/page-building.gif" alt:"" extend:false border:false %}
 
 ### Git-based
 
 CloudCannon is a Git-based CMS. All changes in your repository automatically sync to CloudCannon, and all changes editors make will commit back to the repository. We're working towards providing editors access to the full power of Git; currently editors can create a branch or copy of a site to make large-scale changes that can be merged in through a branch merge or pull request at a later date.
 
-![](https://cc-dam.imgix.net/blog/git-sync-save.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/git-sync-save.png" alt:"" extend:false border:false %}
 
 ### Hosting included
 

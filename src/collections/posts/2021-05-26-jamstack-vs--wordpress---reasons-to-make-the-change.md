@@ -48,7 +48,7 @@ The possibilities are constantly increasing thanks to a growing community and an
 
  
 
-![](https://cc-dam.imgix.net/blog/uploads/wordpress-issues-1.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/wordpress-issues-1.png" alt:"" extend:false border:false %}
 
 WordPress remains immensely popular, mostly because it allows non-technical people to launch websites without developers. But in this specific niche, those without technical know-how or the budget for developers, other solutions like Wix, SquareSpace, and Shopify are rapidly [gaining ground](https://kinsta.com/wordpress-market-share/). 
 
@@ -106,7 +106,7 @@ It seems weird that Git, which is ubiquitous in modern software development, has
 
  
 
-![](https://cc-dam.imgix.net/blog/uploads/jamstack-benefits-1.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/jamstack-benefits-1.png" alt:"" extend:false border:false %}
 
 ### Speed - static files that require no processing
 
@@ -166,7 +166,7 @@ The beauty of working with Jamstack is that you only need to implement complex s
 
  
 
-![](https://cc-dam.imgix.net/blog/uploads/untitled-artwork-2.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/untitled-artwork-2.png" alt:"" extend:false border:false %}
 
 There is no such thing as a silver bullet. Jamstack isn’t a catch-all solution. For example, you will lack a CMS and hosting, need to re-generate your site manually, and work out architecture and optimization best practices.
 

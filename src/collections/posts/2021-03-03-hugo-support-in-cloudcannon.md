@@ -47,7 +47,7 @@ We see Hugo as a great option for building sites where developer efficiency and 
 
 Combined with CloudCannon’s all-in-one platform, you’ll have the easiest collaboration, fastest builds, and the best hosting for your sites. And, unlike most headless CMSs, CloudCannon is Git based rather than API based, so content changes push back to your repository rather than a 3rd party platform.
 
-![Diagram showing the cycle between Sync, Build and Host](https://cc-dam.imgix.net/blog/uploads/2ef169b8aa6209cec3a5eda6f3ccbb79.svg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/2ef169b8aa6209cec3a5eda6f3ccbb79.svg" alt:"Diagram showing the cycle between Sync, Build and Host" extend:false border:false %}
 
 ## What you can expect
 

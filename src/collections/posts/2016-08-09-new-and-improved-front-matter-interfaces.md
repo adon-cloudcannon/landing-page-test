@@ -24,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/Sunny.jpg
 ---
 CloudCannon is committed to bringing the best editing experience to static and Jekyll sites. We provide world-class interfaces for your clients to update their front matter, a core offering of Jekyll.
 
-![Example front matter in CloudCannon](https://cc-dam.imgix.net/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/new-and-improved-front-matter-interfaces/front-matter-example.png" alt:"Example front matter in CloudCannon" extend:false border:false %}
 
 There are more front matter interfaces available in CloudCannon than ever before. We've recently added more interfaces and ways to customise them.
 

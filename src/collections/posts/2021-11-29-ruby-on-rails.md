@@ -202,7 +202,7 @@ As a user, clicking on the Doctrine page takes me to the English version.
 On the right side, there's a language picker to switch languages. Each
 translation of the page is its own page, with its own URL.
 
-![Ruby on Rails, The Rails Doctrine page](https://cc-dam.imgix.net/blog/uploads/rails-doctrine.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/rails-doctrine.png" alt:"Ruby on Rails, The Rails Doctrine page" extend:false border:false %}
 
 As we saw in the layout, there's a reference to a JavaScript file for the
 language picker. It happens to be the only piece of JavaScript on the

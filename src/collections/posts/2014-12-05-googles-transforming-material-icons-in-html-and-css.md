@@ -25,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/uploads/blog-google-web-browser.jpeg
 
 This week I am deconstructing the Delightful Details from [Google's Material Design](http://www.google.com/design/spec/material-design/introduction.html). It's not built in HTML and CSS but that's not important. What's important is that we can.
 
-![An image version of Google's Delightful Details](https://cc-dam.imgix.net/blog/assets/blog/delightful-details.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/delightful-details.png" alt:"An image version of Google's Delightful Details" extend:false border:false %}
 
 This week I am deconstructing the Delightful Details from [Google's Material Design](http://www.google.com/design/spec/material-design/introduction.html).
 

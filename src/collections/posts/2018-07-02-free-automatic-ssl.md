@@ -25,13 +25,13 @@ image: https://cc-dam.imgix.net/blog/uploads/blog-plasma-orb.jpg
 
 This week [Chrome is releasing an update](https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html) that will show "Not Secure" on any site that uses HTTP. This is part of an ongoing strategy to create a more secure web. To assist with this change, we have added free automatic SSL certificates on all CloudCannon connected domains. This draws our SSL private beta to a close making it available for all CloudCannon users.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/free-automatic-ssl/treatment-of-http-pages1x.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/free-automatic-ssl/treatment-of-http-pages1x.png" alt:"" extend:false border:false %}
 
 ## How it works
 
 Once you add a domain name to CloudCannon we will attempt to generate an SSL certificate. We use [Let’s Encrypt](https://letsencrypt.org/) to author the certificate and plug them into our existing SSL system. Let’s Encrypt authorises us to do this by doing a request to that domain name. If the response matches what Let’s Encrypt expected, your certificate will be granted. This means that as soon as your DNS propagates to show your site, it will be protected with HTTPS.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/free-automatic-ssl/f1c251082b2ed18c0769acfd4c61f8ad.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/free-automatic-ssl/f1c251082b2ed18c0769acfd4c61f8ad.png" alt:"" extend:false border:false %}
 
 HTTP will default to redirect to HTTPS for all CloudCannon sites. This can be configured using the *Site Settings*. Automatic generation can also be disabled which will enable a custom certificate upload option. If you have any issues, see the [documentation](https://docs.cloudcannon.com/ssl/letsencrypt/#doc) or [contact support](/contact/).
 

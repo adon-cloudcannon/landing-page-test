@@ -139,4 +139,4 @@ Oh and where did the $50 go?
 * Bluetack and printing for our MC background - $12
 * Celebratory burrito (With guacamole) - $9
 
-![MC @SamBonney with JekyllConf background](https://cc-dam.imgix.net/blog/assets/blog/mc_background.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/mc_background.png" alt:"MC @SamBonney with JekyllConf background" extend:false border:false %}

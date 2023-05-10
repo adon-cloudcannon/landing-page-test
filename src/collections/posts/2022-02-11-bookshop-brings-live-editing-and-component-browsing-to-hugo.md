@@ -144,7 +144,7 @@ front-matter named `content_blocks`.”
 
 In CloudCannon, the editor would see the following:
 
-![Modal in CloudCannnon showing two component examples, with the Hero component highlighted.](https://cc-dam.imgix.net/Component-modal.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/Component-modal.png" alt:"Modal in CloudCannnon showing two component examples, with the Hero component highlighted." extend:false border:false %}
 
 
 Component config files tagged with the correct structure will
@@ -192,13 +192,13 @@ site. Once that’s all done, your editors will be able to add, edit,
 remove, and rearrange components on the page — all without any developer
 input.
 
-![The CloudCannon visual editor, with the hero component selected. Plus
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/Bookshop-editing-component.png "The
+CloudCannon visual editor"" alt:"The CloudCannon visual editor, with the hero component selected. Plus
 buttons are rendered above and below this component, with which new
 components can be added to the content blocks array. A editor popout sits
 to the right, containing a title field which can be used to edit the hero
 component's title and see the changes
-live.](https://cc-dam.imgix.net/Bookshop-editing-component.png "The
-CloudCannon visual editor")
+live." extend:false border:false %}
 
 Whether you run an agency with new projects rolling in, or a business
 maintaining a fleet of microsites, Bookshop allows you to empower your

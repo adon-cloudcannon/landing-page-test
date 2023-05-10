@@ -60,7 +60,7 @@ Whether you’re working on page-building; data, content, or visual editing; cre
 
 We've extended our new theme <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit</a> for Gatsby as well, demonstrating the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Gatsby users. Sendit provides a sleek, contemporary, and ready-to-use site that is now available for everyone to adapt, edit, and customize. It’s also an excellent working example of how to configure your existing Gatsby sites for CloudCannon, so feel free to dig into that `cloudcannon.config.yml` file!
 
-![](https://cc-dam.imgix.net/sendit-hero.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/sendit-hero.png" alt:"" extend:false border:false %}
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 

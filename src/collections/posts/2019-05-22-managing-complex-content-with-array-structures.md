@@ -84,11 +84,11 @@ _array_structures:
 
 Editors manage content in Array Structures just like a normal front matter array. They can remove, reorder or edit existing items. The only difference is they have multiple options to add new items to the array:
 
-![Array Structures](https://cc-dam.imgix.net/blog/assets/blog/array-structures/array-structure.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/array-structures/array-structure.png" alt:"Array Structures" extend:false border:false %}
 
 Adding a new item copies the `value` from the Array Structure and populates a new item in `page_blocks`. Editors then add their content to the structured interface:
 
-![Add Array](https://cc-dam.imgix.net/blog/assets/blog/array-structures/new.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/array-structures/new.png" alt:"Add Array" extend:false border:false %}
 
 Once saved, the source code for the array contains the various content types:
 

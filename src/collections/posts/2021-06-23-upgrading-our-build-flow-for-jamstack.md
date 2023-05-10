@@ -42,7 +42,7 @@ Once your files are ready, the final step is to configure the build options your
 
 Don’t worry, you can change these later in your settings. Check out our [documentation](https://cloudcannon.com/documentation/build/setup/configuration/#configuration) to better understand your options.
 
-![Produce snippets of the sync and build steps in CloudCannon](https://cc-dam.imgix.net/blog/uploads/sync-build-blog-1200x800.png "Produce snippets of the sync and build steps in CloudCannon")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/sync-build-blog-1200x800.png "Produce snippets of the sync and build steps in CloudCannon"" alt:"Produce snippets of the sync and build steps in CloudCannon" extend:false border:false %}
 
 Once your first build is processed, CloudCannon serves your site on a free testing domain. You can also see all your files in CloudCannon, open the editor to make changes, and view those changes on a 'live’ version of your site. 
 
@@ -50,11 +50,11 @@ Once your first build is processed, CloudCannon serves your site on a free testi
 
 Earlier this year we introduced a simple five pill progress bar to the site build setup process. With this update, we wanted to make it clear where you are every step of the way. Each step is numbered and has a name, and the updated icons show you where you are and what you’ve completed. 
 
-![Before and after view of the updates to our progress bar](https://cc-dam.imgix.net/blog/uploads/progress-bar-blog-1200x800.png "Before and after view of the updates to our progress bar")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/progress-bar-blog-1200x800.png "Before and after view of the updates to our progress bar"" alt:"Before and after view of the updates to our progress bar" extend:false border:false %}
 
 Along with the progress bar we really wanted to give developers a clear understanding of what the platform is doing. Nothing could be simpler than showing what code is running in a terminal - so we’ve done just that. You can now view what’s going on through a terminal window into CloudCannon.
 
-![The new live terminal giving you a &quot;window into CloudCannon&quot;.](https://cc-dam.imgix.net/blog/uploads/terminal-blog-1200x800.png "The new live terminal giving you a &quot;window into CloudCannon&quot;.")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/terminal-blog-1200x800.png "The new live terminal giving you a &quot;window into CloudCannon&quot;."" alt:"The new live terminal giving you a &quot;window into CloudCannon&quot;." extend:false border:false %}
 
 ## A little bit of mobile support
 
