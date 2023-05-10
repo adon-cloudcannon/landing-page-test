@@ -375,11 +375,11 @@ content_blocks:
                         bottom: 0
                     mobile:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
-                        text_size: big
+                        text_size: normal
                       margin:
                         active: false
                         top: 0
@@ -1116,7 +1116,7 @@ content_blocks:
           active: true
           top: 60
           right: 0
-          bottom: 60
+          bottom: 120
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -1252,7 +1252,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 60
+          top: 30
           right: 0
           bottom: 90
           left: 0
@@ -1293,11 +1293,11 @@ content_blocks:
                         bottom: 0
                     mobile:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
                         active: false
                         top: 0
@@ -1471,7 +1471,7 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
+                active: true
                 type: stacked
                 width: 0
                 gap: 50
@@ -2159,8 +2159,8 @@ content_blocks:
                 active: false
                 align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
                 active: false
                 top: 0
@@ -2584,11 +2584,11 @@ content_blocks:
                 bottom: 0
             mobile:
               text_alignment:
-                active: false
+                active: true
                 align: center
               text_sizing:
                 active: false
-                text_size: big
+                text_size: normal
               margin:
                 active: false
                 top: 0
