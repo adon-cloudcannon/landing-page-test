@@ -276,8 +276,8 @@ content_blocks:
                 right: 0
             mobile:
               visibility:
-                active: false
-                hide: false
+                active: true
+                hide: true
               transform:
                 active: false
                 scale: 1
@@ -942,7 +942,8 @@ content_blocks:
                       - _bookshop_name: simple/button
                         content:
                           text: Try for free
-                          link: //https://app.cloudcannon.com/editor
+                          link: >-
+                            https://app.cloudcannon.com/register?trial=cc_standard
                         styles:
                           style: outline-white
                           size: normal
@@ -2077,7 +2078,7 @@ content_blocks:
                 left: 0
             mobile:
               margin:
-                active: false
+                active: true
                 top: 0
                 right: 0
                 bottom: 0
