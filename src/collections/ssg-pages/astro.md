@@ -378,7 +378,7 @@ content_blocks:
                         active: true
                         align: center
                       text_sizing:
-                        active: false
+                        active: true
                         text_size: normal
                       margin:
                         active: false
@@ -1252,7 +1252,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 0
           right: 0
           bottom: 90
           left: 0
@@ -1358,8 +1358,8 @@ content_blocks:
                         align_block: left
                     mobile:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -2301,10 +2301,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 30
           right: 0
-          bottom: 0
+          bottom: 60
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -2587,7 +2587,7 @@ content_blocks:
                 active: true
                 align: center
               text_sizing:
-                active: false
+                active: true
                 text_size: normal
               margin:
                 active: false
