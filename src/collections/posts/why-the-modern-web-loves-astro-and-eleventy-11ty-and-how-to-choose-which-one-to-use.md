@@ -181,7 +181,7 @@ While GitHub stars are solely a metric for how many users have clicked the star 
 
 ### npm trends
 
-![Astro and 11ty (Eleventy) npm downloads over time](https://cc-dam.imgix.net/Screenshot 2023-05-04 at 3.51.25 PM.png "Astro and 11ty &#40;Eleventy&#41; npm downloads over time")
+![Astro and 11ty (Eleventy) npm downloads over time](https://cc-dam.imgix.net/npm-trends.png "Astro and 11ty &#40;Eleventy&#41; npm downloads over time")
 
 npm trends indicate the number of Astro and Eleventy npm downloads over time. Currently, it appears that Astro continues to experience growth in number of downloads, while Eleventy has reached a more steady rate of downloads. Again, it is interesting that Astro has outpaced Eleventy in download number despite being a relatively new framework. You can check out <a target="_blank" rel="noopener" href="https://npmtrends.com/@11ty/eleventy-vs-astro">up-to-date npm trends here</a>.
 
