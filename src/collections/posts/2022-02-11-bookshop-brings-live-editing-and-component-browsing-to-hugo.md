@@ -1,7 +1,19 @@
 ---
+draft: false
 title: Live editing in Hugo with Bookshop
 description: "Bookshop\_— our open-source component browser and playground, now brings live editing and component-driven workflows to Hugo, as well as Jekyll and Eleventy."
 permalink: /blog/live-editing-in-hugo-with-bookshop/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ date: 2022-02-11T05:00:00+1300
 tags:
   - Features
   - Hugo
-author: liam-bigelow
+author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
 ---
 [Bookshop](https://github.com/CloudCannon/bookshop) — our open-source page-building toolkit — now supports Hugo, as well as Jekyll and Eleventy.
 

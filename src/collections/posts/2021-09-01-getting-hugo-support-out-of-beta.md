@@ -1,8 +1,20 @@
 ---
+draft: false
 title: Getting Hugo support out of beta
 description: >-
   CloudCannon support for Hugo is leaving beta. It’s an important milestone, and
   this is how we got there.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ image: https://cc-dam.imgix.net/blog/hugo-out-of-beta.jpg
 date: 2021-09-01T05:00:00+1200
 tags:
   - Features
-author: nathan-kennedy
+author: f0a50d0c-1615-4f97-b7c4-d86b833ac46f
 ---
 Since the dawn of time — well, since around 2015 — [CloudCannon has been the best CMS for Jekyll *by far*](https://cloudcannon.com/jekyll-cms/). But we weren’t content with being a one-trick pony. We knew it was time to fully embrace the Jamstack world, and open up our platform to more and more exciting static site generators (SSGs).
 

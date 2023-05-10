@@ -1,9 +1,21 @@
 ---
+draft: false
 title: Using Jekyll plugins on GitHub Pages
 date: 2018-05-09T13:10:00+1200
 tags:
   - Jekyll
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

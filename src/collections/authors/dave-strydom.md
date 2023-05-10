@@ -1,4 +1,5 @@
 ---
+uuid: 94d9454d-d560-4dc5-8acd-1bd804305709
 name: Dave Strydom
 twitter_handle:
 image:

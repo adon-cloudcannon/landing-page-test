@@ -1,12 +1,24 @@
 ---
+draft: false
 title: Bundling JavaScript for Jekyll
 description: >-
   A simple technique for bundling JavaScript is to use Jekyll includes. We take
   a look at how you can do this and talk you through the approach. 
 date: 2020-11-12T13:00:00+1300
-author: ryan-collins
+author: 48beee1b-cdfc-49fd-b83b-29eb8d1e95f3
 tags:
   - Jekyll
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

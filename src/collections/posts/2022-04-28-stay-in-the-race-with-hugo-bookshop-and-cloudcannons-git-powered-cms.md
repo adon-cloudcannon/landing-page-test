@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Stay in the race with Hugo, Bookshop, and CloudCannon’s Git-powered CMS
 permalink: /blog/stay-in-the-race-with-hugo-bookshop-and-cloudcannons-git-powered-cms/
 description: >-
@@ -6,6 +7,17 @@ description: >-
   a very close look at what’s possible — for you and your customers — when you
   combine Hugo, Bookshop, and CloudCannon's Git-based CMS.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,8 +26,7 @@ image: https://cc-dam.imgix.net/stayintherace.jpg
 date: 2022-04-28T05:00:00+1200
 tags:
   - Hugo
-  - Agency
-author: bryce-wray
+author: 7abe9500-0933-48af-9130-87389dc36c9b
 ---
 It’s tough to be competitive in the ever-changing world of web development. Trends, even fads, come and go. While an experienced web dev learns to know the difference between sound practices and those which are simply forgettable Flavors of the Month, your customers and prospects out in the real world usually lack this ability to differentiate. Often, they simply ask for New Shiny Things that they’ve seen on their competitors’ sites. They don’t have any way to know whether that approach really is best for them long-term, especially when their own, possibly tech-challenged content editors have to maintain the resulting site.
 

@@ -1,9 +1,21 @@
 ---
+draft: false
 title: HugoConf is on the horizon!
 description: >-
   HugoConf 2022 is fast approaching, and the team at CloudCannon is excited to
   share our new Hugo tools and workflows with the community.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/hugoconf.jpg
 date: 2022-06-17T05:00:00+1200
 tags:
   - Hugo
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 As I write this, it’s just over three weeks until the first ever [HugoConf](https://hugoconf.io) will be held. Given the global appeal of Hugo and the amazing response from participants across many different timezones, the conference will be held as a remote event, with a mixture of broadcast talks, live streams, and group workshops.
 

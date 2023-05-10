@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Why you should use Hugo for your Marketing Site in 2021
 description: >-
   Hugo is an open-source Static Site Generator (SSG) that allows developers to
   build fast HTML websites. Hugo is the ideal SSG for building marketing sites
   for many reasons. 
 date: 2021-06-14T03:00:00+1200
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/uploads/blog-hugo-marketing-website.jpg
 tags:
   - Resources
   - Hugo
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 As a developer, you should continuously evolve with market trends to increase your competitive edge. And it all boils down to your tools. A super fast, flexible and efficient framework can give you a huge lead over the competition. For your marketing site, use [Hugo](https://gohugo.io/) to stay ahead of the pack.
 

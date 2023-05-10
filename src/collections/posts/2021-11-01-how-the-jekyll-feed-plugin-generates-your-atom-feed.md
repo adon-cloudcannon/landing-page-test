@@ -1,5 +1,17 @@
 ---
+draft: false
 title: How the Jekyll Feed plugin generates your Atom feed
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ description: >-
 tags:
   - Resources
   - Jekyll
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 In this showcase, we're taking a peek behind the curtain to see how the Jekyll Feed plugin works.
 

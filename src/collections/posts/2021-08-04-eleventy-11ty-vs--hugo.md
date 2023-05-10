@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Eleventy (11ty) vs. Hugo
 description: >-
   We’ll compare two excellent SSGs here: Hugo and Eleventy. Both are optimised
   for fast content delivery and are capable of handling large sites with
   thousands of pages — sites like documentations, blogs, landing pages or
   marketing websites. But there are several key differences to consider.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -15,7 +27,7 @@ tags:
   - Resources
   - Eleventy
   - Hugo
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Better performance. Higher security. Ease of scaling. It’s easy to see why you’d want to move to a SEO-friendly static site built on the Jamstack architecture, where your request times and build times are decoupled.
 

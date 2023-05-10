@@ -19,13 +19,12 @@
 	{% include 'partials/head/analytics.html' %} 
 </head>
 
-<body class="overflow-x-hidden subpixel-antialiased text-carbon">
-	<div class="overflow-x-hidden relative">
-		{% include 'partials/nav/_nav.html' %}
-		{{ content }}
-		{% include 'partials/footer/_footer.html' %}
-		{% include 'partials/footer/analytics.html' %} 
-	</div>
+<body class="overflow-x-clip subpixel-antialiased text-carbon relative">
+	{% include 'partials/analytics/noscript-google-analytics.html' %}
+	{% include 'partials/nav/_nav.html' %}
+	{{ content }}
+	{% include 'partials/footer/_footer.html' %}
+	{% include 'partials/footer/analytics.html' %} 
 </body>
 </html>
 

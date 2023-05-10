@@ -1,9 +1,21 @@
 ---
+draft: false
 title: Upgrading our build flow for Jamstack
 description: >-
   These upgrades focus on how you first configure your site, including a
   progress bar, a terminal with live code, and a flexible interface for more
   SSGs. 
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/progress-hero-blog-1200x800-3.png
 date: 2021-06-23T00:00:00+1200
 tags:
   - Features
-author: dave-strydom
+author: 94d9454d-d560-4dc5-8acd-1bd804305709
 ---
 Our journey towards becoming a more powerful Jamstack platform takes a huge step forward with the upgrade to our new, flexible build automation flow. 
 

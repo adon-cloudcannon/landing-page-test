@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Why should you use a static site generator?
 description: >-
   For many developers, the draw of an SSG is that it represents the best of both
@@ -6,6 +7,17 @@ description: >-
   dynamic system. If you’re a fan of Occam’s razor, you’ll see the appeal.
 series:
 permalink: /blog/why-should-you-use-a-static-site-generator/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ image: https://cc-dam.imgix.net/ssg-race.jpg
 date: 2022-03-17T05:15:00+1300
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Static site generators appeal to many developers primarily for reasons relating to their performance. Sites can certainly be faster and more secure if they’re created with an SSG, but some of the additional reasons we love SSGs here at CloudCannon include their simplicity and elegance, as well as the control and freedom they can offer — both to developers and to content editors.
 

@@ -1,20 +1,36 @@
 ---
+draft: false
+_schema: default
 title: 'Static vs Dynamic Websites: The Definitive Guide'
 description: >-
   When it comes to making a new website, you’ve probably come across the terms
   static and dynamic. But what do they mean for you? And which approach should
   you choose? 
 series:
+image: https://cc-dam.imgix.net/blog/blog-static-dynamic-definitive-r.jpg
+date: 2022-08-24T17:00:00Z
+hide_publish_date: true
+tags:
+  - Resources
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/blog/blog-static-dynamic-definitive-r.jpg
-date: 2022-08-25T05:00:00+1200
-hide_publish_date: true
-tags:
-  - Resources
-author: david-large
 ---
 When it comes to making a website, you’ve probably come across the terms **static** and **dynamic**. But what do they mean for you? And which approach should you choose? Let’s dig into these terms, and the specific kinds of sites they’re each suited for.
 
@@ -44,11 +60,11 @@ You’re probably familiar with the idea of your computer (or your browser) ‘t
 
 At its core, a static site network request works like this:
 
-**YOUR BROWSER:** Can I see this website’s homepage, please?<br>**SERVER:** Sure thing, I have that on hand. Here you go\!
+**YOUR BROWSER:** Can I see this website’s homepage, please?<br>**SERVER:** Sure thing, I have that on hand. Here you go!
 
 By contrast, a dynamic site’s network request works something like this:
 
-**YOUR BROWSER:** Can I see this website’s homepage, please?<br>**SERVER:** Sure thing, let me prepare that for you\!<br>**YOUR BROWSER:** …<br>**SERVER:** Hang on, just talking to the application server.<br>**YOUR BROWSER:** …<br>**SERVER:** Ok, loading plugins now.<br>**YOUR BROWSER:** …<br>**SERVER:** Aaand pulling data from the database.<br>**YOUR BROWSER:** …<br>**SERVER:** Just a sec, now I’m building the page for you.<br>**YOUR BROWSER:** …<br>**SERVER:** Ok, here it is.
+**YOUR BROWSER:** Can I see this website’s homepage, please?<br>**SERVER:** Sure thing, let me prepare that for you!<br>**YOUR BROWSER:** …<br>**SERVER:** Hang on, just talking to the application server.<br>**YOUR BROWSER:** …<br>**SERVER:** Ok, loading plugins now.<br>**YOUR BROWSER:** …<br>**SERVER:** Aaand pulling data from the database.<br>**YOUR BROWSER:** …<br>**SERVER:** Just a sec, now I’m building the page for you.<br>**YOUR BROWSER:** …<br>**SERVER:** Ok, here it is.
 
 That’s a lot more complicated, isn’t it?
 
@@ -60,8 +76,6 @@ Remember, page load requests can be slow, especially on mobile devices. Often, t
 
 When we optimize for static delivery, the three primary improvements we see are gains in **performance and speed**, **security**, and **flexibility**.
 
-![](https://cc-dam.imgix.net/speedometer-neptune.svg)
-
 ### Deliver the fastest websites
 
 Static sites are generally easier to host than dynamic ones, and they load faster for your users, meaning your search engine rankings will be higher, and your users will be happier. Why do they load faster? Simply put, because every page is already made; they're not being generated on the fly. Static websites can also be easily hosted on a content delivery network (CDN) — a network of servers that’s distributed globally, ready to serve your site and its assets (HTML pages, JavaScript files, CSS stylesheets, images, videos and everything else). This means that visitors from around the world will have a fast experience when viewing your site.
@@ -72,25 +86,19 @@ Because **static** **sites don’t need a database or backend to function**, the
 
 (Incidentally, the response times for sites hosted through CloudCannon are [among the fastest in the world](https://cloudcannon.com/community/jamstack-hosting-comparison/). You’re welcome.)
 
-![](https://cc-dam.imgix.net/chart-line-stacked-neptune.svg)
-
 ### Static sites work at scale
 
 On a similar note, when demand for your website grows, it’s important to be able to respond quickly — or better yet, not have to do anything different at all. Static delivery means that your site files are immediately ready for increased demand and high traffic volumes. Because there’s no code or database interactions behind the scenes, static sites are much easier to scale without additional resources.
 
-Delays of even a fraction of a second will increase user bounce rates, so you certainly won’t want your users to encounter long page loads, much less site downtime due to bottlenecks on the server side. Dynamic sites are complex to scale to high demand, because each moving piece needs to be monitored and scaled separately. And remember, a dynamic site is nothing if not *a lot* of moving pieces\! If just one part of a dynamic stack fails (for example, an overloaded database or incorrectly provisioned server), then the whole stack collapses.
-
-![](https://cc-dam.imgix.net/creation-neptune.svg)
+Delays of even a fraction of a second will increase user bounce rates, so you certainly won’t want your users to encounter long page loads, much less site downtime due to bottlenecks on the server side. Dynamic sites are complex to scale to high demand, because each moving piece needs to be monitored and scaled separately. And remember, a dynamic site is nothing if not *a lot* of moving pieces! If just one part of a dynamic stack fails (for example, an overloaded database or incorrectly provisioned server), then the whole stack collapses.
 
 ### Space for your design and creativity
 
 Static sites don’t have to be constrained in terms of their style, or their content. There’s a great deal of creative freedom for designers and frontend developers to create stunning and responsive modern sites that truly represent their clients’ products, perspectives, and unique values.
 
-Your static site can be every bit as modern, on-brand, and even as flashy as any other site — that’s what web designers do\! And with static, you can reach and convert customers more effectively.
+Your static site can be every bit as modern, on-brand, and even as flashy as any other site — that’s what web designers do! And with static, you can reach and convert customers more effectively.
 
 And because static sites are composed of the components every browser understands — HTML, CSS, and JavaScript — your developers can spend their time on the features that matter to you and to every visitor.
-
-![](https://cc-dam.imgix.net/lock-check-neptune.svg)
 
 ### Worried about security? Don’t give hackers an opportunity.
 
@@ -106,15 +114,13 @@ There are a few key reasons why static sites are more secure:
 2. **Static sites are not database-driven**. While static sites can *use* databases as external data stores, the static site itself doesn’t depend on a database, meaning the critical parts of the site have less ‘surface area’ to exploit. Databases can be vulnerable if unsecured or not updated.
 3. **Static sites are usually hosted on a CDN**. This means that your site can be globally distributed across multiple servers, making it more difficult to take it down and much more resilient to high demand.
 
-![](https://cc-dam.imgix.net/wrench-clock-neptune.svg)
-
 ### Static lowers technical barriers, and reduces maintenance
 
 Because static sites are built with HTML, CSS, and JavaScript, and they don’t rely on more complicated frameworks or elements that need to be constantly updated, you won’t need to rely on expensive specialized developers.
 
-Additionally, those developers you work with can be much more efficient: it’s a true win-win scenario\! Development cycles for new static site features are drastically shorter than their dynamic equivalents: within a shorter timespan, developers are able to create sites that perform incredibly well, with quick load speeds, low bandwidth requirements, and optimal Google rankings.
+Additionally, those developers you work with can be much more efficient: it’s a true win-win scenario! Development cycles for new static site features are drastically shorter than their dynamic equivalents: within a shorter timespan, developers are able to create sites that perform incredibly well, with quick load speeds, low bandwidth requirements, and optimal Google rankings.
 
-Most importantly for your budget, static sites are easy to maintain, with no ongoing upgrades, performance tuning, or server provisioning. As a marketer or a content editor, this might not be something you’d often consider — or it might be something you’d rather not think about\!
+Most importantly for your budget, static sites are easy to maintain, with no ongoing upgrades, performance tuning, or server provisioning. As a marketer or a content editor, this might not be something you’d often consider — or it might be something you’d rather not think about!
 
 I’m sure we can agree, though, that your developers definitely don’t want the stress of tracking down exactly what caused your site to break for some users and not others, or the risk of not upgrading PHP because it would cause an essential plugin to fail.
 
@@ -122,13 +128,11 @@ Wouldn’t it be easier on everyone to sidestep these concerns entirely? For you
 
 (I’m sure the answer is yes.)
 
-![](https://cc-dam.imgix.net/briefcase-arrow-left-right-neptune.svg)
-
 ### Stay flexible, and take your website anywhere
 
 If you need to switch platforms in the future, for any reason, how hard will it be? Well, **static backups and migrations are easy**, with no vendor lock-in.
 
-With a static site, you’re always flexible. If your requirements change, you can move your website files to any hosting platform in the world. All you need is a hosting provider or CDN that’s capable of serving static files — and that’s pretty much all of them\!
+With a static site, you’re always flexible. If your requirements change, you can move your website files to any hosting platform in the world. All you need is a hosting provider or CDN that’s capable of serving static files — and that’s pretty much all of them!
 
 What this means for your business is **increased freedom** and a lower technical commitment to the services you use to build and deliver your site.
 
@@ -138,7 +142,7 @@ What this means for your business is **increased freedom** and a lower technical
 
 ## Static? Isn’t that what we did in the '90s?
 
-It is\! When the web was young(er), we hand-coded every single page, and the results were static files: the same prebuilt files served to every user. And looking back on this laborious method of making websites, it’s easy to see why dynamic websites — effectively just complicated sets of instructions that created pages on the fly for each individual user — became popular. But web development has come a long way, and static sites are now faster and more efficient to build, edit, and maintain. Thanks to modern build tools and content management systems (CMSs), we’re able to address the limitations of static sites, and amplify their benefits.
+It is! When the web was young(er), we hand-coded every single page, and the results were static files: the same prebuilt files served to every user. And looking back on this laborious method of making websites, it’s easy to see why dynamic websites — effectively just complicated sets of instructions that created pages on the fly for each individual user — became popular. But web development has come a long way, and static sites are now faster and more efficient to build, edit, and maintain. Thanks to modern build tools and content management systems (CMSs), we’re able to address the limitations of static sites, and amplify their benefits.
 
 With the rapid and enthusiastic development of static site generators (SSGs; the tools we use to create our sites) over the past ten years, we’ve seen faster and faster workflows for creating and editing our websites. We can, for example, create and edit layouts and templates that make changes to all of our pages at once. We can draw upon external data sources. We can build efficiently and host our sites anywhere in the world. And with a user-first CMS like CloudCannon to help users edit their sites, legacy systems like WordPress can be a thing of the past.
 

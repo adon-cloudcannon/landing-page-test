@@ -1,9 +1,21 @@
 ---
+draft: false
 title: 'Introducing Bookshop: component-driven workflow for static websites'
 description: >-
   Introducing Bookshop: an open-source framework to speed up development and
   reduce maintenance on static websites by developing components in isolation.
 permalink: /blog/introducing-bookshop/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/bookshop-feature-image.jpg
 date: 2021-10-06T05:00:00+1300
 tags:
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 We're delighted to launch [Bookshop](https://github.com/CloudCannon/bookshop)\: an open-source framework to speed up development and reduce maintenance on static websites by developing components in isolation.
 

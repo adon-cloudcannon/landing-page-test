@@ -1,4 +1,5 @@
 ---
+uuid: e23ed92b-24aa-4499-b883-bd40e03bad3e
 name: Nuance Communications TechPubs Team
 twitter_handle:
 image:

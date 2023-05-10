@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Save time with CloudCannon's Snippets
 description: "With CloudCannon Snippets, content editors using a supported static site generators can use a simple interface to easily insert includes, shortcodes and Markdown extensions into their content —\_all without touching the underlying code."
 series:
@@ -9,7 +10,7 @@ hide_publish_date: false
 tags:
   - Features
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 It’s only been a few weeks since we first introduced Snippets on CloudCannon, and they’re already saving time for CloudCannon developers, as well as for content teams collaborating on static sites. Today we’ll go through exactly what a Snippet is and how it can save you time on your next web project.
 

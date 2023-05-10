@@ -5,47 +5,84 @@
         - name: Website Editing
           link: /website-editing/
           description: Intuitive editing for your content team
-          icon: pencil
+          icon_path: outline/paper-airplane
+          nav_icon_color: cc_blue
         - name: Content Publishing
           link: /content-publishing/
           description: Work together, faster
-          icon: document-arrow-up
+          icon_path: outline/document-arrow-up
+          nav_icon_color: cc_blue
         - name: Website Hosting
           link: /hosting/
-          icon: cloud
+          icon_path: outline/cloud
+          nav_icon_color: cc_blue
           description: Host the fastest websites
         - name: Technologies
           link: /technologies/
-          icon: cube
+          icon_path: outline/cube
+          nav_icon_color: cc_blue
           description: Work with the frameworks you love
+      sub_card:
+        - featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Users
       sub_nav:
         - name: For Content Editors
           link: /for-content-editors/
           description: Create content with no roadblocks
-          icon: pencil-square
+          icon_path: outline/pencil-square
+          nav_icon_color: electric_purple
         - name: For Marketers
           link: /for-marketers/
           description: Create SEO-optimized sites every time
-          icon: megaphone
+          icon_path: outline/megaphone
+          nav_icon_color: electric_purple
         - name: For Developers
           link: /for-developers/
-          icon: command-line
+          icon_path: outline/code-bracket-square
+          nav_icon_color: electric_purple
           description: Build, publish, and empower your team
         - name: For Digital Agencies
           link: /partner-program/
-          icon: paint-brush
+          icon_path: outline/paint-brush
+          nav_icon_color: electric_purple
           description: Support and empower your clients
         - name: For Enterprise
           link: /enterprise/
-          icon: building-office
+          icon_path: outline/building-office
+          nav_icon_color: electric_purple
           description: Collaborate, iterate, and publish seamlessly
+      sub_card:
+        - featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Use Cases
       sub_nav:
         - name: Case Studies
           link: /customers/
-          icon: user-circle
+          icon_path: outline/user-circle
+          nav_icon_color: emerald
           description: Why the best choose CloudCannon
+      sub_card:
+        - featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
+    - title: Featured Case Study
+      sub_nav: []
+      sub_card:
+        - featured_page_link: /customers/twitch/
+          name: Delivering microsites to Twitch's 26.5 million daily active users
+          image:
+            image_path: >-
+              https://cc-dam.imgix.net/marketing/uploads/case-study/twitch-scene.png
+            image_alt: Desktop computer with Twitch website
 - name: Resources
   sub_navs:
     - title: Developers
@@ -53,46 +90,69 @@
         - name: Documentation
           link: https://cloudcannon.com/documentation/
           description: CloudCannon resources and guides
-          icon: code-bracket-square
+          icon_path: outline/code-bracket-square
+          nav_icon_color: cc_blue
         - name: Tutorials
           link: /tutorials/
           description: Learn Jamstack with CloudCannon
-          icon: academic-cap
+          icon_path: outline/academic-cap
+          nav_icon_color: cc_blue
         - name: Jamstack Ecosystem
           link: /jamstack-ecosystem/
           description: The best tooling for your next website
-          icon: gift
+          icon_path: outline/gift
+          nav_icon_color: cc_blue
         - name: Jekyll Cheatsheet
           link: /cheat-sheets/jekyll/
           description: Everything you need at a glance
-          icon: check-badge
+          icon_path: outline/check-badge
+          nav_icon_color: cc_blue
+      sub_card:
+        - featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: CloudCannon
       sub_nav:
         - name: Blog
           link: /blog/
           description: The latest from CloudCannon
-          icon: light-bulb
+          icon_path: outline/light-bulb
+          nav_icon_color: emerald
         - name: Events
           link: /events/
           description: Join us and share the knowledge
-          icon: microphone
+          icon_path: outline/microphone
+          nav_icon_color: emerald
         - name: Templates
           link: /templates/
           description: Get started with a pre-configured site
-          icon: puzzle-piece
+          icon_path: outline/puzzle-piece
+          nav_icon_color: emerald
         - name: Support
           link: /support/
           description: We're here to help
-          icon: inbox
+          icon_path: outline/inbox
+          nav_icon_color: emerald
+      sub_card:
+        - featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
     - title: Partners
       sub_nav:
         - name: Partner Program
           link: /partner-program/
           description: Support and empower your clients
-          icon: briefcase
+          icon_path: outline/briefcase
+          nav_icon_color: amber
         - name: Expert Directory
           link: /experts/
           description: Find an Expert
-          icon: user
+          icon_path: outline/user
+          nav_icon_color: amber
+      sub_card: []
 - name: Pricing
   link: /pricing/

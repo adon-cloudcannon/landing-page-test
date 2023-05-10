@@ -1,10 +1,22 @@
 ---
+draft: false
 title: 'Does My Website Look Big in This? Six Tips to Lower your Page Weight '
 description: >-
   There are some large bandwidth and data savings we can make on our static
   websites and the tools we use on them, simply by keeping bandwidth constraints
   in the forefront of our minds.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-10-21T05:00:00+1300
 hide_publish_date: false
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 Personally, the biggest drawcards to static sites over yet another WordPress install — and probably the biggest reasons I wanted to work for CloudCannon — were the promises of reducing both overall energy expenditure (in the form of both page weight and compute time) and my own over-reliance on PHP, proprietary databases, and teetering tech stacks.
 

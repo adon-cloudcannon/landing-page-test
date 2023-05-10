@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Editing Content with Hugo Shortcodes: Built-in and Custom Shortcode Support'
 description: >-
   CloudCannon is the first CMS with full support and full integration for
@@ -6,6 +7,17 @@ description: >-
   Editors.
 series:
 permalink: /blog/editing-content-with-hugo-shortcodes/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -16,7 +28,7 @@ hide_publish_date: false
 tags:
   - Features
   - Hugo
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 You asked for it. We’ve done it. CloudCannon is the first CMS with **full support and full integration for built-in and custom Hugo shortcodes** — in our Visual, Content, and Source Editors. That’s a pretty big claim\! What do we mean by this? Let’s take a look.
 

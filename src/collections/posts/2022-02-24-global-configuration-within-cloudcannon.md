@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Global configuration within CloudCannon
 description: >-
   Global configuration within CloudCannon provides a more consistent developer
   experience across multiple SSGs, and for devs importing their existing
   Jamstack sites.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/global-config_enqt8d.jpg
 date: 2022-02-24T05:00:00+1300
 tags:
   - Features
-author: ross-phillips
+author: 68fdf39d-de6e-4729-8747-1bf901498c5c
 ---
 We’ve recently changed the way you set global configuration within CloudCannon. (Any previous configuration will still work, though we do recommend updating.) Rather than relying on your SSG’s config files, we now use a specific file for global configuration, which also acts as the base-level for defining options in your [configuration cascade](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/).
 

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The best headless CMS for Hugo
 description: >-
   Why is CloudCannon the best content management system (CMS) for your next Hugo
@@ -6,6 +7,17 @@ description: >-
   static site generator, while empowering developers and marketing teams to work
   more collaboratively.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ image: https://cc-dam.imgix.net/cc-and-hugo.jpg
 date: 2022-05-05T05:00:00+1200
 tags:
   - Hugo
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 You already know [Hugo](https://gohugo.io/). It’s one of the most popular static site generators in the world, because of its optimized build speeds, built-in templates for SEO, analytics, commenting (and more\!), and its flexibility for developers. But while frontend developers will usually be the ones who build and set up new Hugo websites, they’re far from the only people who use Hugo on a day-to-day basis. In fact, most content and marketing teams will spend more time adding, removing, and tweaking website content than a site’s developer will. (This is another reason Hugo’s blistering fast build speeds are vitally important for production sites which see a lot of content changes.)
 

@@ -1,8 +1,20 @@
 ---
+draft: false
 title: Making a Page Builder with CloudCannon
 description: >-
   Learn how to give content editors the ability to visually build pages, manage,
   and rearrange content.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ image: https://cc-dam.imgix.net/blog/page-builder.jpg
 date: 2021-10-07T05:00:00+1300
 tags:
   - Resources
-author: jordan-trbuhovic
+author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
 ---
 Page builders give editors an intuitive and easy way to manage and build websites. All editing can be done within CloudCannon's Visual Editor in real time.
 

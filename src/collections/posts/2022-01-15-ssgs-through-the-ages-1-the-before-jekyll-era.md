@@ -1,10 +1,22 @@
 ---
+draft: false
 title: 'The ‘Before Jekyll’ era'
 description: >-
   The 'Before Jekyll' Era: part 1 of a series exploring the innovative history
   of static site generators.
 series: SSGs through the ages
 permalink: /blog/ssg-history-1-before-jekyll/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/blog/explorer-1_lxri3y.png
 date: 2022-01-15T05:00:00+1300
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 *Static site generators (SSGs) have exploded in adoption over the past few years. What were once tools for developers to build their personal blogs are now something millions of developers are reaching for to build commercial websites and web applications.*
 

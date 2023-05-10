@@ -1,7 +1,19 @@
 ---
+draft: false
 title: 'The Best Marketing Tools and Integrations for your Static Site '
 description: "Marketing and sales teams require a range of integrations with the external tools they depend upon —\_or more performant equivalents. From rich and up-to-date web analytics to SEO, a modern static site can cover all of the bases so your team can be up and running as soon as possible."
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ date: 2022-10-01T05:00:00+1300
 hide_publish_date: false
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 ## Will my new static website integrate with external applications and services?
 

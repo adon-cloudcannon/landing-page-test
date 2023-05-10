@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Why the web is turning away from WordPress
 description: >-
   WordPress’ market share is slipping where it matters, and sites built with
   static site generators, by contrast, are on the rise. Why? And what will these
   changes mean for you?
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ image: https://cc-dam.imgix.net/web-turning-away-wordpress.jpg
 date: 2022-06-24T05:00:00+1200
 tags:
   - Opinion
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 A few months ago, I read [a fascinating interview with Matt Mullenweg](https://www.theverge.com/2022/3/15/22977857/wordpress-tumblr-simplenote-internet-automattic-matt-mullenweg-interview), the CEO of Automattic and co-founder of WordPress. Among other glimpses into the inner workings of the 17-year-old company — among them the laudable desire to ‘keep the internet weird’ — Mullenweg forecasts that 85% of the web will be on WordPress within the next decade. But which 85%, you might ask? An equally important follow-up question might be, “How well will that 85% of the web perform?”
 

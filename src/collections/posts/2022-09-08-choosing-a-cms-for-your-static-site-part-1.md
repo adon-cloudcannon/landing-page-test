@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Choosing a CMS for your Static Site: Part 1'
 description: >-
   Choosing a new content management system (CMS) is one of the most important
@@ -6,6 +7,17 @@ description: >-
   the focal point for your content and marketing team’s work, and will help
   empower you to do your write, edit, and publish content more efficiently.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -15,7 +27,7 @@ date: 2022-09-08T05:00:00+1200
 hide_publish_date: true
 tags:
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 By now you may have decided on the [static site generator](https://cloudcannon.com/blog/what-is-a-static-site-generator/) (SSG) you’ll use to build your [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/). Let’s now examine the most important web publishing tool in your workflow — and the one you’ll spend the majority of your time in — your content management system (CMS). CMSs help users to create, maintain, and edit material on their websites, and allow users to manage even large, complex websites with little to no coding knowledge. The right CMS will become the focal point for your content and marketing team’s work, and should help empower you to do your jobs more efficiently.
 

@@ -1,8 +1,20 @@
 ---
+draft: false
 title: Updated input configuration for your workflows
 description: >-
   We’ve created a consolidated inputs key to streamline your development
   workflows.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -11,7 +23,7 @@ image: https://cc-dam.imgix.net/blog/uploads/inputs-hero-2.jpg
 date: 2021-11-26T12:00:00+1300
 tags:
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 As your CloudCannon sites grow progressively larger, you’ll want to configure more and more inputs. Our previous input configuration required users to redefine their input keys multiple times, spreading the configuration for an input across multiple places. This was, admittedly, a suboptimal process. But no more\!
 

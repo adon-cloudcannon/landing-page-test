@@ -1,9 +1,21 @@
 ---
+draft: false
 title: Component editing with Editor Panels
 description: >-
   Content editors on CloudCannon can now access a draggable Editor Panel
   directly next to their styled content on the page, streamlining the editing
   workflow.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/editor-panel-hero.jpg
 date: 2021-12-14T05:00:00+1300
 tags:
   - Features
-author: dave-strydom
+author: 94d9454d-d560-4dc5-8acd-1bd804305709
 ---
 Last month [I teased an upgrade](https://cloudcannon.com/blog/ui-improvements-2021/) to editing with inputs in the Visual Editor. And here it is\! We’re giving you the option to free editors from the sidebar, so your content team can focus more on the page itself. 
 

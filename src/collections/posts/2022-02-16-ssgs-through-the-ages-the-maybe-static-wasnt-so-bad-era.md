@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The 'Maybe Static Wasn't So Bad' era
 description: >-
   The fifth part of an ongoing series: After a period of heavy, complex
@@ -6,6 +7,17 @@ description: >-
   be simpler than straight HTML templates with Markdown content?
 series: SSGs through the ages
 permalink: /blog/ssg-history-5-maybe-static-wasnt-so-bad/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ image: https://cc-dam.imgix.net/blog/explorer-5_l0cp08.png
 date: 2022-02-16T05:00:00.000Z
 tags:
   - Resources
-author: mike-neumegen
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 After [a period of heavy, complex JavaScripts integrated into SSGs](/blog/ssg-history-4-spas-are-awesome/), the following period pulls back to simpler times. And what could be simpler than straight HTML templates with Markdown content?
 

@@ -1,4 +1,5 @@
 ---
+draft: false
 _schema: default
 title: Introducing the CloudCannon Partner Program
 description: >-
@@ -11,10 +12,23 @@ image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
 date: 2023-03-11T05:00:00Z
 hide_publish_date: false
 tags:
-  - Agency
+  - Agencies
   - Company
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Join the Partner Program
+  body_text: >-
+    Offer your clients a complete CMS solution. As you bring on new clients,
+    you'll unlock exclusive benefits and savings.
+  button:
+    content:
+      link: https://cloudcannon.com/partner-program/#partner-signup
+      text: Join now
+    styles:
+      size:
+      style: outline
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg

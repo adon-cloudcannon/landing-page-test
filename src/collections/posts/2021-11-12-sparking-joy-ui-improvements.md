@@ -1,9 +1,21 @@
 ---
+draft: false
 title: 'Sparking joy: CloudCannon UI improvements '
 description: >-
     Grab a sneak peek of the UI improvements we've been working on, and get
     ready for a slick new CloudCannon.
 permalink: /blog/ui-improvements-2021/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/improvements-hero-c.png
 date: 2021-11-12T05:00:00+1300
 tags:
     - Features
-author: dave-strydom
+author: 94d9454d-d560-4dc5-8acd-1bd804305709
 ---
 In November 2020, we debuted aesthetic updates to the CloudCannon brand for the first time. The most noticeable impact hit our marketing site, with the app taking a more reserved approach. These brand updates included a new brand font (TT Norms), color palette, illustration style, and layout patterns. Our choices for both the font and colors were supported by internal accessibility research and the resources offered by [The A11y Project](https://www.a11yproject.com/), and took big strides towards making our app and website even more accessible and user-friendly. 
 

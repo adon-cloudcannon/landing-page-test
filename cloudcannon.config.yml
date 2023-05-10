@@ -1,5 +1,6 @@
 source: src
 collections_config_override: true
+timezone: Pacific/Auckland
 collections_config:
   authors:
     description: The authors of blog posts
@@ -10,7 +11,7 @@ collections_config:
         path: .cloudcannon/schemas/author.md
     disable_add_folder: true
     _enabled_editors:
-      - content
+      - data
     icon: face
     filter:
       exclude:
@@ -128,10 +129,72 @@ collections_config:
     schemas:
       default:
         path: .cloudcannon/schemas/post.md
+        remove_extra_inputs: false
+        remove_empty_inputs: false
     icon: rss_feed
+    _editables:
+      text:
+        italic: true
+      block:
+        format: p h3
+        undo: true
+        redo: true
+      content:
+        blockquote: true
+        bold: true
+        format: p h1 h2 h3 h4 h5 h6 
+        italic: true
+        strike: true
+        subscript: true
+        superscript: true
+        underline: true
+        link: true
+        bulletedlist: true
+        numberedlist: true
+        code: true
+        horizontalrule: true
+        image: true
+        table: true
+        undo: true
+        redo: true
+        removeformat: true
+        image_size_attributes: true
+        snippet: true
     filter:
       exclude:
         - posts.json
+    _inputs:
+      author:
+        type: select
+        options:
+          values: collections.authors
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
+      tags:
+        type: multiselect
+        options:
+          values:
+            - Agencies
+            - Astro
+            - Beginner
+            - Bridgetown
+            - Cheat-sheet
+            - Company
+            - Eleventy
+            - Experts
+            - Features
+            - Gatsby
+            - Hugo
+            - Jekyll
+            - Mkdocs
+            - Next-js
+            - Nuxt-js
+            - Opinion
+            - Resources
+            - Sveltekit
+            - Tutorials
   ecosystem:
     description:
     output: true
@@ -143,7 +206,9 @@ collections_config:
       exclude:
         - ecosystem.json
     icon: token
-  case_study_quote:
+    _enabled_editors:
+      - data
+  case-study-quote:
     description: A quote for case studies
     output: false
     path: 'collections/case-study-quote'
@@ -154,7 +219,20 @@ collections_config:
       exclude:
         - case-study-quote.json
     icon: format_quote
-  case_study_people:
+    _enabled_editors:
+      - data
+    _inputs:
+      quote:
+        type: textarea
+      case_study_person:
+        type: select
+        options:
+          values: collections.case-study-people
+          value_key: uuid
+          preview:
+            text: 
+            - key: name
+  case-study-people:
     description: A person in a case study who can make quotes
     output: false
     path: 'collections/case-study-people'
@@ -164,7 +242,18 @@ collections_config:
     filter:
       exclude:
         - case-study-people.json
+    _enabled_editors:
+      - data
     icon: sentiment_satisfied
+    _inputs:
+      case_study:
+        type: select
+        options:
+          values: collections.case-studies
+          value_key: uuid
+          preview:
+            text: 
+            - key: title
   events:
     description: Past and future CloudCannon related events
     output: false
@@ -176,6 +265,8 @@ collections_config:
       exclude:
         - events.json
     icon: event
+    _enabled_editors:
+      - data
   landing-pages:
     description: Landing pages built entirely with the page builder
     output: true
@@ -205,7 +296,6 @@ collections_config:
         hidden: true
       pagination:
         hidden: true
-      
   ssg-pages:
     description: SSG Landing Pages
     output: true
@@ -258,6 +348,41 @@ collections_config:
           preview:
             text: 
             - key: name
+
+_structures:
+  blocks:
+    style: modal
+  content_blocks: 
+    style: 
+  sub_navs:
+    values:
+      - label: Sub Nav
+        icon: menu
+        value:
+          title:
+          sub_nav:
+          sub_card:
+  sub_card:
+    values:
+      - label: Sub Card
+        icon: card
+        value:
+          featured_page_link:
+          name:
+          image:
+            image_path:
+            image_alt:
+  sub_nav:
+    values:
+      - label: Sub Nav Item
+        icon: image
+        value:
+          name:
+          link:
+          description:
+          icon_path:
+          nav_icon_color:
+
 
 _inputs:
   layout:
@@ -914,3 +1039,90 @@ _inputs:
         - teal-white
         - teal
         - normal
+  nav_icon_color:
+    type: select
+    label: "Icon Color"
+    options:
+      values:
+        - cc_blue
+        - amber
+        - electric_purple
+        - emerald
+        - ruby
+        - comet
+
+_snippets_imports:
+  eleventy_liquid: true
+
+_snippets:
+  quote:
+    template: eleventy_liquid_bookshop_component
+    inline: false
+    preview:
+      text: Quote
+    definitions:
+      component_name: markdown/quote
+      named_args:
+        - editor_key: quote
+          type: string
+  video:
+    template: eleventy_liquid_bookshop_component
+    inline: false
+    preview:
+      text: Video
+    definitions:
+      component_name: markdown/video
+      named_args:
+        - editor_key: url
+          type: string
+        - editor_key: title
+          type: string
+        - editor_key: border
+          type: boolean
+  image:
+    template: eleventy_liquid_bookshop_component
+    inline: false
+    preview:
+      text: Image
+    definitions:
+      component_name: markdown/image
+      named_args:
+        - editor_key: src
+          type: string
+        - editor_key: alt
+          type: string
+        - editor_key: extend
+          type: boolean
+        - editor_key: border
+          type: boolean
+  vimeo:
+    template: eleventy_liquid_bookshop_component
+    inline: false
+    preview:
+      text: Vimeo
+    definitions:
+      component_name: markdown/vimeo
+      named_args:
+        - editor_key: video
+          type: string
+        - editor_key: title
+          type: string
+        - editor_key: border
+          type: boolean
+  youtube:
+    template: eleventy_liquid_bookshop_component
+    inline: false
+    preview:
+      text: Youtube
+    definitions:
+      component_name: markdown/youtube
+      named_args:
+        - editor_key: title
+          type: string
+        - editor_key: id
+          type: string
+        - editor_key: extend
+          type: boolean          
+        - editor_key: border
+          type: boolean
+

@@ -1,10 +1,22 @@
 ---
+draft: false
 title: How to set up WYSIWYG editing with MkDocs
 description: >-
   With CloudCannon’s Content Editor, you’ll be able to set up a rich content
   editing experience that brings collaborative WYSIWYG editing to MkDocs’ build
   flow, all in a matter of minutes.
 series:
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -14,7 +26,7 @@ date: 2022-04-14T05:00:00+1200
 tags:
   - Mkdocs
   - Resources
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 ---
 [MkDocs](https://www.mkdocs.org/) is a fantastic static site generator (SSG) for project documentation. It builds quickly, its documentation source files are written in Markdown, and its sites are configured with a single YAML file. It has a [wide variety of themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes), and best of all, its built files are pure static HTML, which can be hosted anywhere. It’s also the most recent SSG we’re supporting at CloudCannon\!
 

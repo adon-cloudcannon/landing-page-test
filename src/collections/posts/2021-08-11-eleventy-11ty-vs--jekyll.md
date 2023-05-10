@@ -1,10 +1,22 @@
 ---
+draft: false
 title: Eleventy (11ty) vs. Jekyll
 description: >-
   We compare two distinctly different static site generators (SSGs): Jekyll and
   Eleventy (11ty). They’re both fully compatible with CloudCannon’s Git-based
   CMS, and both are ideal for marketing sites (such as this one, built with
   Jekyll), as well as documentation and blogs.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -15,7 +27,7 @@ tags:
   - Resources
   - Jekyll
   - Eleventy
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Welcome to the static world. Your sites scale easily, load faster and more efficiently, and you and your clients are already seeing the benefits. The [Jamstack ecosystem](https://cloudcannon.com/community/jamstack-ecosystem/) is thriving, with tools and support for static sites growing day by day, and [CloudCannon has just launched Eleventy support](https://cloudcannon.com/blog/eleventy-11ty-support-in-cloudcannon/), alongside Jekyll and Hugo. There’s never been a better time to be a web developer. But we return to the perennial question: which static site generator (SSG) should you choose for your next project?
 

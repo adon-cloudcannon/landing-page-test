@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: Enhanced CloudCannon support for Next.js users
 description: >-
   Bring your React sites and apps to CloudCannon's Git-based CMS. Developers
@@ -8,12 +10,30 @@ description: >-
   and Jekyll.
 series:
 image: https://cc-dam.imgix.net/blog/blog-nextjs-launch-min.jpg
-date: 2023-02-16T05:02:00+1300
+date: 2023-02-15T16:02:00Z
 hide_publish_date: false
 tags:
   - Next.js
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your Next.js website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 For developers with existing React UI components, we’re excited to announce our latest release, bringing CloudCannon’s support for Next.js out of beta!
 
@@ -36,7 +56,6 @@ We've updated our documentation for Next.js users, ensuring that all questions a
 Check out Colby Fayock’s video introduction to CloudCannon and Next.js as well!
 
 {% bookshop "markdown/youtube" id:"cDP4NA5Bqb4" title:"Deploy Static Sites with a Collaborative CMS for Jamstack Hosting with CloudCannon" extend:true %}
-
 
 ## Introducing Sendit, a new, free, page-building theme for Next.js
 

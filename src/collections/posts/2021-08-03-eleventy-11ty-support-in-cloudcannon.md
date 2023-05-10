@@ -1,9 +1,21 @@
 ---
+draft: false
 title: Eleventy (11ty) Support in CloudCannon
 description: >-
   Releasing Eleventy support in CloudCannon means 11ty developers from all skill
   levels can enjoy the user friendly all-in-one platform for their Jamstack
   projects.
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/introducing-eleventy-1.jpg
 date: 2021-08-03T05:00:00+1200
 tags:
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 We’re incredibly excited to announce the launch of Eleventy support in CloudCannon. Eleventy is the third static site generator we’re offering to our users — and over the past several months, it's also the most frequently requested by the community. With Eleventy alongside Jekyll and Hugo, our goal of becoming the definitive all-in-one platform for Jamstack sites is a step closer.
 

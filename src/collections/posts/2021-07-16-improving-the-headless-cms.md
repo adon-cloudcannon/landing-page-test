@@ -1,9 +1,21 @@
 ---
+draft: false
 title: Improving the headless CMS
 description: >-
   Headless CMSs like CloudCannon are enticing many developers away from
   top-heavy and resource-intensive CMSs like WordPress, Drupal and Joomla. But
   what is a headless CMS, and why should you use one?
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -12,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/headless-cms-img-compressed.jpg
 date: 2021-07-16T06:00:00+1200
 tags:
   - Features
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Headless CMSs like CloudCannon are enticing many developers away from top-heavy and resource-intensive CMSs like WordPress, Drupal and Joomla. But what is a headless CMS, and why should *you* use one? The easy answer: flexibility, or future-proofing your content.
 

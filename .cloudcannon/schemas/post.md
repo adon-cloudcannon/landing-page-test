@@ -1,13 +1,25 @@
 ---
 title:
 description:
+draft: true
 series:
-image: https://cc-dam.imgix.net/blog/Top-10-SvelteKit-Themes-2023.png
+image:
 date: 
 hide_publish_date: false
 tags:
 author:
 permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:

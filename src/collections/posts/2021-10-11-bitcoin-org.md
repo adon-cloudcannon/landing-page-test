@@ -1,5 +1,17 @@
 ---
+draft: false
 title: 'Deconstruction: How Bitcoin.org uses Jekyll to power their marketing site'
+cta:
+  title: Launch your website today
+  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  button:
+    content: 
+      link: "https://app.cloudcannon.com/register?trial=cc_standard"
+      text: "Get started free!"
+    styles:
+      size:
+      style: "outline"
+      extra_classes:
 seo:
   open_graph_type: article
   featured_image:
@@ -13,7 +25,7 @@ description: >-
 tags:
   - Resources
   - Jekyll
-author: cloudcannon
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ---
 Bitcoin is a cryptocurrency created in 2008 by a mysterious person or group by the alias Satoshi Nakamoto. It was the first decentralized cryptocurrency and is currently the most valuable, with a market cap of over $2 trillion.
 

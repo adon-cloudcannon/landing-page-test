@@ -1,4 +1,6 @@
 ---
+draft: false
+_schema: default
 title: The Top Five Static Site Generators for 2023 (and when to use them!)
 description: >-
   What are the top five static site generators for 2023? Should you choose the
@@ -16,7 +18,25 @@ tags:
   - Next.js
   - SvelteKit
   - Astro
-author: david-large
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 There’s no shortage of static site generators (SSGs) to choose from, though I’ve limited the below list to five major SSGs covering a wide range of uses, from marketing sites, portfolios and blogs to documentation hubs with hundreds of thousands of pages.
 
