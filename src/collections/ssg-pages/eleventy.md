@@ -1654,8 +1654,8 @@ content_blocks:
                 active: true
                 align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
                 active: false
                 top: 0
@@ -1797,10 +1797,10 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: false
-          top: 0
+          active: true
+          top: 60
           right: 0
-          bottom: 0
+          bottom: 60
           left: 0
   - _bookshop_name: sections/container
     content:

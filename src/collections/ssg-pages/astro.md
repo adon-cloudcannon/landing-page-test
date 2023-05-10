@@ -1294,7 +1294,7 @@ content_blocks:
                     mobile:
                       text_alignment:
                         active: true
-                        align: center
+                        align: left
                       text_sizing:
                         active: true
                         text_size: normal
@@ -1359,7 +1359,7 @@ content_blocks:
                     mobile:
                       text_alignment:
                         active: true
-                        align: center
+                        align: left
                       text_sizing:
                         active: false
                         text_size: normal
@@ -2302,7 +2302,7 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
           bottom: 60
           left: 0
