@@ -518,7 +518,7 @@ content_blocks:
               columns:
                 type: fixed-fluid
                 width: 450
-                gap: 100
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -1090,7 +1090,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 130
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -1107,7 +1107,7 @@ content_blocks:
           left: 0
       mobile:
         margin:
-          active: false
+          active: true
           top: 0
           right: 0
           bottom: 0
@@ -1116,7 +1116,7 @@ content_blocks:
           active: true
           top: 60
           right: 0
-          bottom: 90
+          bottom: 60
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -1245,7 +1245,7 @@ content_blocks:
           left: 0
       mobile:
         margin:
-          active: false
+          active: true
           top: 0
           right: 0
           bottom: 0
@@ -1472,9 +1472,9 @@ content_blocks:
             mobile:
               columns:
                 active: false
-                type: split
+                type: stacked
                 width: 0
-                gap: 0
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 active: false
@@ -2295,7 +2295,7 @@ content_blocks:
           left: 0
       mobile:
         margin:
-          active: false
+          active: true
           top: 0
           right: 0
           bottom: 0
