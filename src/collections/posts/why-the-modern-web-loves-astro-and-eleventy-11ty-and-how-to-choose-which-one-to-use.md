@@ -39,17 +39,17 @@ Is this the software equivalent of convergent evolution, with both sets of tooli
 
 Whichever SSG you choose, with CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/astro-cms/">Astro</a> and <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> support, you and your team can benefit from flexible development tooling, accessible content management, and visual page building and content editing. Now that CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/out-of-this-world-support-for-all-astro-users/">Astro support</a> and <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/">Eleventy support</a> have both been released out of beta, there’s no better time to get started on a new project. It’s worth mentioning that CloudCannon’s content management support is limited to static site generation (SSG), and does not include server-side rendering (SSR).
 
-## Contents
+### Article contents
 
-[What is Astro?](#what-is-astro) 
-[What is Eleventy?](#what-is-eleventy) 
-[Similarities between Astro and Eleventy](#astro-eleventy-similarities) 
-[Differences between Astro and Eleventy](#astro-eleventy-differences) 
-[Astro vs. 11ty (Eleventy) comparison at a glance](#astro-eleventy-comparison) 
-[Astro vs. 11ty (Eleventy) usage trends](#astro-eleventy-usage) 
-[Which should I choose?](#which-should-i-choose)
+* [What is Astro?](#what-is-astro)
+* [What is Eleventy?](#what-is-eleventy)
+* [Similarities between Astro and Eleventy](#astro-eleventy-similarities)
+* [Differences between Astro and Eleventy](#astro-eleventy-differences)
+* [Astro vs. 11ty (Eleventy) comparison at a glance](#astro-eleventy-comparison)
+* [Astro vs. 11ty (Eleventy) usage trends](#astro-eleventy-usage)
+* [Which should I choose?](#which-should-i-choose)
 
-## What is Astro?<a id="what-is-astro"></a>
+## What is Astro?
 
 Astro is known as the "all-in-one web framework for building fast, content-focused websites". It is the fastest-growing static site generator, with over 100,000 developers and teams using it worldwide. First released in 2021, the most recent (at the time of writing) update to Astro, <a target="_blank" rel="noopener" href="https://astro.build/blog/astro-220/">version 2.2</a>, features CDN support for assets, and an `image()` scheme helper API change. Astro has attracted such interest so quickly because it helps developers build lightning-fast content-rich websites, with the flexibility of any UI language, and the option to easily embed interactive islands.
 
@@ -76,7 +76,7 @@ Astro’s focus on fast content-rich websites makes it perfect for use cases suc
 * **<a target="_blank" rel="noopener" href="https://pngtree.com/">pngtree.com</a>**
 * **<a target="_blank" rel="noopener" href="https://getbem.com/">getbem.com</a>**
 
-## What is Eleventy?<a id="what-is-eleventy"></a>
+## What is Eleventy?
 
 Eleventy (also referred to as 11ty) is known as the “simpler static site generator”. It is the only purely static site generator that has reliably continued to grow in usage share, making Eleventy the clear choice for purely static use cases. First released in 2018, the most recent (at the time of writing) update to 11ty, <a target="_blank" rel="noopener" href="https://www.11ty.dev/blog/eleventy-v2/">version 2.0</a>, features smaller and more secure files, faster builds, more plugins, template language aliasing, and event arguments. Eleventy has successfully maintained interest over time by focusing on speed and flexibility. With Eleventy, developers can build faster static sites, while leveraging the flexibility of multiple template languages — all without being tied to any frameworks.
 
@@ -98,12 +98,12 @@ Eleventy’s focus on fast and flexible static sites makes it perfect for market
 
 ### Sites Made with Eleventy
 
-* <a target="_blank" rel="noopener" href="https://12daysofweb.dev/"><strong>12daysofweb.dev</strong></a>
-* <a target="_blank" rel="noopener" href="https://css-irl.info/"><strong>css-irl.info</strong></a>
-* <a target="_blank" rel="noopener" href="https://chromatichq.com/"><strong>chromatichq.com</strong></a>
-* <a target="_blank" rel="noopener" href="https://www.zachleat.com/"><strong>zachleat.com</strong></a>
+* **<a target="_blank" rel="noopener" href="https://12daysofweb.dev/">12daysofweb.dev</a>**
+* **<a target="_blank" rel="noopener" href="https://css-irl.info/">css-irl.info</a>**
+* **<a target="_blank" rel="noopener" href="https://chromatichq.com/">chromatichq.com</a>**
+* **<a target="_blank" rel="noopener" href="https://www.zachleat.com/">zachleat.com</a>**
 
-## Similarities between Astro and <a id="astro-eleventy-similarities"></a>
+## Similarities between Astro and
 
 Astro and Eleventy are arguably more similar than they are different. You really can’t go wrong with either of these static site generators, so let’s take a look at what makes them both great before jumping into the details of their differences.
 
@@ -139,7 +139,7 @@ Both Astro and Eleventy use partial hydration for interactive islands. Partial h
 
 Astro and 11ty are UI agnostic static site generators, meaning you can use any UI framework you choose to create interactive components. While it is possible to use any framework in both Astro and 11ty, Astro provides built-in support for React, Preact, Svelte, Vue, Solid, and Lit, while Eleventy offers built-in support for Petite Vue, Vue, Svelte, Preact, Lit, and Alpine.js.
 
-## Differences between Astro and Eleventy<a id="astro-eleventy-differences"></a>
+## Differences between Astro and Eleventy
 
 The difference between Astro and Eleventy boils down to the finer details. Let’s take a look at how these static site generators differ, and how these differences will impact your developer and user experience, as well as your sites performance.
 
@@ -175,11 +175,11 @@ Astro includes built-in support for CSS styling and the ability to write CSS mod
 
 While both Astro and Eleventy are designed to generate fast and efficient static sites, Astro provides more built-in performance optimizations than Eleventy. Astro’s built-in features like prerendering, image optimization, HTTP/2 push, lazy loading, and code-splitting make it easier to achieve optimal site performance without additional configuration. Nonetheless, although 11ty doesn’t offer these features built-in, you can easily add these features and more with third-party plugins and custom optimizations to generate equally performant sites. In fact, <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">CloudCannon.com is built with Eleventy</a>, and makes use of various third-party tools for performance optimization.
 
-## Astro vs. 11ty (Eleventy) comparison at a glance<a id="astro-eleventy-comparison"></a>
+## Astro vs. 11ty (Eleventy) comparison at a glance
 
 <table><thead><tr><th> </th><th>Astro</th><th>Eleventy</th></tr></thead><tbody><tr><td>First release</td><td>2021</td><td>2018</td></tr><tr><td>GitHub stars</td><td>26K+</td><td>13k+</td></tr><tr><td>Licence</td><td>MIT</td><td>MIT</td></tr><tr><td>Build speeds</td><td>Very fast</td><td>Very fast</td></tr><tr><td>Built with</td><td>JavaScript</td><td>JavaScript</td></tr><tr><td>Templating language(s)</td><td>Astro, HTML, Markdown, JavaScript, JSX</td><td>JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, WebC</td></tr><tr><td>UI Agnostic</td><td>Yes</td><td>Yes</td></tr><tr><td>Supported UI frameworks</td><td>React, Preact, Svelte, Vue, Solid, Lit</td><td>Petite Vue, Vue, Svelte, Preact, Lit, Alpine.js</td></tr><tr><td>Installation requirements</td><td>Node.js must be installed</td><td>Node.js must be installed</td></tr><tr><td>Plugins</td><td>Yes — many</td><td>Yes</td></tr><tr><td>Themes / Templates / Starters</td><td>Yes (themes)</td><td>Yes (starters)</td></tr><tr><td>Easy WordPress / legacy converter</td><td>No; you’ll need to convert to Markdown and then clean up your content</td><td>No; you’ll need to convert to Markdown and then clean up your content</td></tr><tr><td>Disable runtime JS</td><td>No runtime JS required by default</td><td>No runtime JS required by default</td></tr><tr><td>Data Fetching</td><td>Yes</td><td>Yes</td></tr><tr><td>Internationalization (i18n)</td><td>Yes, via integration</td><td>Yes, via plugin</td></tr><tr><td>Hot reloading</td><td>Yes</td><td>Yes</td></tr><tr><td>Code splitting</td><td>Automatic</td><td>Manual</td></tr><tr><td>Image optimization</td><td>Yes</td><td>Yes, via separate dependency</td></tr><tr><td>Environment variables</td><td>Yes</td><td>Yes</td></tr><tr><td>Content security policy</td><td>Custom HTTP headers rules</td><td>Custom HTTP headers rules</td></tr><tr><td>Island Architecture</td><td>Yes</td><td>Yes, via plugin</td></tr><tr><td>Learning curve</td><td>Easy; it will help to have JavaScript experience</td><td>Easy; it will help to have JavaScript experience</td></tr><tr><td>Documentation</td><td><a target="_blank" rel="noopener" href="https://docs.astro.build/en/getting-started/">astro.build</a></td><td><a target="_blank" rel="noopener" href="http://11ty.dev/">11ty.dev</a></td></tr><tr><td>GitHub repos</td><td><a target="_blank" rel="noopener" href="https://github.com/withastro/astro">Astro GitHub</a></td><td><a target="_blank" rel="noopener" href="https://github.com/11ty/eleventy/">11ty GitHub</a></td></tr><tr><td>Support communities</td><td><a target="_blank" rel="noopener" href="https://discord.com/invite/grF4GTXXYm">Astro Discord</a></td><td><a target="_blank" rel="noopener" href="https://discord.gg/GBkBy9u">11ty Discord</a></td></tr><tr><td>Twitter accounts</td><td><a target="_blank" rel="noopener" href="https://twitter.com/astrodotbuild">Astro Twitter</a></td><td><a target="_blank" rel="noopener" href="https://twitter.com/eleven_ty">11ty Twitter</a></td></tr><tr><td>CloudCannon support</td><td>Yes — you can get <a target="_blank" rel="noopener" href="https://cloudcannon.com/astro-cms/">Astro</a>&nbsp;sites editable in minutes with CloudCannon.</td><td>Yes — you can get <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">11ty</a>&nbsp;sites editable in minutes with CloudCannon.</td></tr></tbody></table>
 
-## Astro vs. 11ty (Eleventy) usage trends<a id="astro-eleventy-usage"></a>
+## Astro vs. 11ty (Eleventy) usage trends
 
 Stability and longevity are important metrics to take into account when considering which static site generator to choose. Usage trends offer useful insights for understanding where both Astro and Eleventy sit in the web development market, how actively each is being developed, and for speculating on the future of these technologies.
 
@@ -199,7 +199,7 @@ npm trends indicate the number of Astro and Eleventy npm downloads over time. Cu
 
 The yearly Jamstack survey records frameworks by usage and satisfaction. You can see how <a target="_blank" rel="noopener" href="https://jamstack.org/survey/2022/#frameworks-by-usage-and-satisfaction">Astro and 11ty 2022 usage and satisfaction compares here</a>. This shows Astro entering the early adoption phase characterized by rapid growth and improving satisfaction scores. On the other hand, 11ty is in the regular growth phase, being singled out as the only purely static site generator to show growth in usage share, which indicates its stability.
 
-## Which should I choose?<a id="which-should-i-choose"></a>
+## Which should I choose?
 
 The choice between Astro and Eleventy ultimately comes down to personal preference. Both Astro and 11ty have impressively fast build times. Both are built for mostly static content-rich use cases with some interactivity. Both are highly flexible and under active development with large user communities. Lastly, both Astro and Eleventy encourage progressive enhancement, helping you prioritize essential static content first and add dynamic functionality later.
 
