@@ -39,9 +39,11 @@ Is this the software equivalent of convergent evolution, with both sets of tooli
 
 Whichever SSG you choose, with CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/astro-cms/">Astro</a> and <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> support, you and your team can benefit from flexible development tooling, accessible content management, and visual page building and content editing. Now that CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/out-of-this-world-support-for-all-astro-users/">Astro support</a> and <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/">Eleventy support</a> have both been released out of beta, there’s no better time to get started on a new project. It’s worth mentioning that CloudCannon’s content management support is limited to static site generation (SSG), and does not include server-side rendering (SSR).
 
+---
+
 ### Article contents
 
-* [What is Astro?](#what-is-astro)
+* [What is Astro?](#what-is-astro?)
 * [What is Eleventy?](#what-is-eleventy)
 * [Similarities between Astro and Eleventy](#astro-eleventy-similarities)
 * [Differences between Astro and Eleventy](#astro-eleventy-differences)
@@ -49,7 +51,9 @@ Whichever SSG you choose, with CloudCannon’s <a target="_blank" rel="noopener"
 * [Astro vs. 11ty (Eleventy) usage trends](#astro-eleventy-usage)
 * [Which should I choose?](#which-should-i-choose)
 
-## What is Astro?
+---
+
+## What is Astro?<a id="what-is-astro"></a>
 
 Astro is known as the "all-in-one web framework for building fast, content-focused websites". It is the fastest-growing static site generator, with over 100,000 developers and teams using it worldwide. First released in 2021, the most recent (at the time of writing) update to Astro, <a target="_blank" rel="noopener" href="https://astro.build/blog/astro-220/">version 2.2</a>, features CDN support for assets, and an `image()` scheme helper API change. Astro has attracted such interest so quickly because it helps developers build lightning-fast content-rich websites, with the flexibility of any UI language, and the option to easily embed interactive islands.
 
