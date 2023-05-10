@@ -3,7 +3,6 @@ layout: page.html
 eleventyComputed:
   breadcrumb_block:
     - _bookshop_name: sections/container
-      live_render: false
       content:
         blocks:
           - _bookshop_name: simple/breadcrumbs
@@ -53,7 +52,7 @@ eleventyComputed:
             left: 0
 ---
 {% assign person = collections.authors | where: "data.uuid", author | first %}
-{% bookshop_include "page" content_blocks: breadcrumb_block %}
+{% bookshop_include "page" live_render: false content_blocks: breadcrumb_block %}
 <div class="container pt-10 md:pt-20 pb-24" data-pagefind-filter="site:Blog" data-pagefind-meta="site:Blog" data-pagefind-body>
 	<h1 class="mx-auto text-center leading-tight text-gray-900 max-w-3xl text-3xl md:text-5xl font-bold mb-8">{{ title }}</h1>
 	<div class="flex justify-center items-center">
