@@ -5,7 +5,7 @@
             <a href="{{ crumb_url }}">{{ '/src/images/icons/solid/home.svg' | svgContents: 'stroke-cc fill-cc w-5 h-5 inline align-text-bottom' }}</a>
             <span class="px-2">/</span>
         </li>
-        {% assign breadcrumb = page.url | split: "/" %}
+        {% assign breadcrumb = page.url | remove: "tags/" | split: "/" %}
         {% for crumb in breadcrumb %}
             {% unless forloop.first or forloop.last %}
                 {% assign crumb_url = crumb_url | append: crumb | append: "/" %}

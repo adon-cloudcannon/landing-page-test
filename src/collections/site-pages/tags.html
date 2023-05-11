@@ -30,6 +30,54 @@ eleventyComputed:
     - _bookshop_name: sections/container
       content:
         blocks:
+          - _bookshop_name: simple/breadcrumbs
+            content:
+              final_crumb: "{{ tag }}"
+      styles:
+        background: white
+        rounded: none
+        size: normal
+        align: none
+        desktop:
+          margin:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            top: 30
+            right: 0
+            bottom: 0
+            left: 0
+        tablet:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+        mobile:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+    - _bookshop_name: sections/container
+      content:
+        blocks:
           - _bookshop_name: simple/heading
             content:
               text: "{{ tag }} posts"
@@ -66,49 +114,6 @@ eleventyComputed:
                   active: false
                   top: 0
                   bottom: 0
-          - _bookshop_name: simple/text-block
-            content:
-              text_markdown: "Go back and <a href='/blog/' class='text-cc hover:underline'>view all posts</a>."
-            styles:
-              desktop:
-                text_alignment: 
-                  align: center
-                text_sizing:
-                  text_size: biggest
-                margin:
-                  top: 0
-                  bottom: 0
-                block_alignment:
-                  align_block:
-              tablet:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: false
-                  text_size: normal
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-                block_alignment:
-                  active: false
-                  align_block: left
-              mobile:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: true
-                  text_size: normal
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-                block_alignment:
-                  active: false
-                  align_block: left
-              width: medium
       styles:
         background: white
         rounded: none
