@@ -54,7 +54,7 @@ Notice how we can add a `style` element at the bottom of Astro files. In this ca
 
 ### JSON data
 
-Next, we need to define some JSON; these are the contact data, which we will import into the new page. Create a `src/data folder` and in there add a `contacts.json` file:
+Next, we need to define some JSON; these are the contact data, which we will import into the new page. Create a `src/data` folder and in there add a `contacts.json` file:
 
 ```
 [
