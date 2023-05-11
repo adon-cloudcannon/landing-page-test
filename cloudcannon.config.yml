@@ -195,6 +195,8 @@ collections_config:
             - Resources
             - Sveltekit
             - Tutorials
+      breadcrumb_title:
+        comment: If not set, the page title will be used. (This will be trimmed if the title contains special characters.)
   ecosystem:
     description:
     output: true
