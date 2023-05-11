@@ -1125,4 +1125,14 @@ _snippets:
           type: boolean          
         - editor_key: border
           type: boolean
+  anchor:
+    template: eleventy_liquid_bookshop_component
+    inline: true
+    preview:
+      text: Anchor
+    definitions:
+      component_name: markdown/anchor
+      named_args:
+        - editor_key: name
+          type: string
 
