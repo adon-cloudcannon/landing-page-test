@@ -24,9 +24,7 @@ To get going, you will need&nbsp;<a target="_blank" rel="noopener" href="https:/
 pnpm create astro@latest astro-beginners-tutorial
 ```
 
-The fantastic CLI tool will help you in creating your Astro site. Select&nbsp;**Empty**&nbsp;from the
-
-presented project options. Next, choose the default,&nbsp;**Yes**, for installing dependencies. The tool will take a moment to download the project skeleton. Once it is done, change into the new project directory:​​​​
+The fantastic CLI tool will help you in creating your Astro site. Select&nbsp;**Empty**&nbsp;from the presented project options. Next, choose the default,&nbsp;**Yes**, for installing dependencies. The tool will take a moment to download the project skeleton. Once it is done, change into the new project directory:​​​​
 
 ```
 cd astro-beginners-tutorial
@@ -93,7 +91,8 @@ pnpm dev
 You can now see the site running in your browser at `http://localhost:3000/`. Astro’s dev server supports Hot Module Replacement — changes you make to source files are instantly reflected in the browser. To see the site as it will be in production, you can run a build, and then start Astro’s preview server:
 
 ```
-pnpm
+shell
+pnpm build
 pnpm preview
 ```
 
