@@ -67,9 +67,16 @@
 		</div>
 
 		{% if pagination %}
-			<nav class="text-center mt-12 grid grid-cols-[1fr_auto_1fr]">
+			{% if pagination.href.previous and pagination.href.next %} 
+				{% assign classes = "grid grid-cols-[1fr_auto_1fr]" %}
+				{% assign width = "w-[5.625]" %}
+			{% else %} 
+				{% assign classes = "flex justify-center" %} 
+				{% assign width = "" %}
+			{% endif %}
+			<nav class="text-center mt-12 {{ classes }}">
 					{% if pagination.href.previous %}
-						<a href="{{ pagination.href.previous }}" class="text-cc group mr-4 font-bold w-[5.625rem] justify-self-end">
+						<a href="{{ pagination.href.previous }}" class="text-cc group mr-4 font-bold {{ width }} justify-self-end">
 							<span class="w-4 relative top-[3px] inline-block group-hover:-translate-x-1 transition">{{ '/src/images/icons/outline/arrow-small-left.svg' | svgContents }}</span>
 							Previous
 						</a>
@@ -78,7 +85,7 @@
 					<span class="text-gray-900 text-base">Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</span>
 
 					{% if pagination.href.next %}
-						<a href="{{ pagination.href.next }}" class="text-cc group ml-4 font-bold w-[5.625rem] justify-self-start text-left">
+						<a href="{{ pagination.href.next }}" class="text-cc group ml-4 font-bold {{ width }} justify-self-start text-left">
 							Next 
 							<span class="w-4 relative top-[3px] inline-block group-hover:translate-x-1 transition">{{ '/src/images/icons/outline/arrow-small-right.svg' | svgContents }}</span>
 						</a>
