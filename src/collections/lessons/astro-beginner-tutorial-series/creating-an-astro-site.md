@@ -91,7 +91,6 @@ pnpm dev
 You can now see the site running in your browser at `http://localhost:3000/`. Astro’s dev server supports Hot Module Replacement — changes you make to source files are instantly reflected in the browser. To see the site as it will be in production, you can run a build, and then start Astro’s preview server:
 
 ```
-shell
 pnpm build
 pnpm preview
 ```
