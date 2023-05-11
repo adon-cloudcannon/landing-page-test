@@ -177,7 +177,7 @@ Astro uses a built-in import function to bundle and optimize static assets. In c
 
 ### Rendering
 
-Eleventy offers a range of template engines for rendering; any of the 12 supported templating languages will work. With 11ty you can choose which engine best suit your needs, or even mix and match templating engines to render your project. On the other hand, Astro uses a combination of JSX and template literals for rendering. In Astro JSX defines the structure and content of components, and template literals define the styles and other attributes. In addition to this, Astro also supports Server-side rendering (SSR), which generates HTML on each request.
+Eleventy offers a range of template engines for rendering; any of the 12 supported templating languages will work. With 11ty you can choose which engine best suit your needs, or even mix and match templating engines to render your project. On the other hand, Astro uses a combination of JSX and template literals for rendering. In Astro JSX defines the structure and content of components, and template literals define the styles and other attributes. In addition to this, Astro also supports server-side rendering (SSR), which generates HTML on each request, while the `11ty/is-land` plugin is needed for SSR in Eleventy.
 
 ### Styling
 
