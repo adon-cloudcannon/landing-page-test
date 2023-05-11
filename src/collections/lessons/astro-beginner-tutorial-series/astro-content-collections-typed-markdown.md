@@ -18,7 +18,7 @@ We are getting close to finishing the site we’re building in this&nbsp;<a targ
 
 ## Auto type generation
 
-We had a brief introduction to Astro Content Collections when we added blog posts to the site. At the time, we mentioned that as well as providing utility functions, Astro Collections generate types for us. We found those auto generated types in \`\`.astro/types.d.ts\`. Take another look at the file, and you should see it now shows all three blog posts.
+We had a brief introduction to Astro Content Collections when we added blog posts to the site. At the time, we mentioned that as well as providing utility functions, Astro Collections generate types for us. We found those auto generated types in `.astro/types.d.ts`. Take another look at the file, and you should see it now shows all three blog posts.
 
 Since this file is generated automatically, there is no need to commit it to your Git repo. Astro probably already added it to your `.gitignore` file. If you are also running Prettier or other code formatters, though, consider adding the `.astro` folder there. As an example, your Prettier ignore file (`.prettierignore`) might look like this:
 
@@ -68,7 +68,7 @@ Here, we define a schema for the existing `blog` collection. We set the types fo
 
 ![Astro content collections browser validation error](https://cc-dam.imgix.net/astro-content-collections-browser-validation-error.png "Astro content collections terminal validation error")
 
-There is an error now, which was not there before! Where did it come from? By default, all fields in the schema are compulsory, and you might have noticed we did not set `draft` in the front matter for the `tandem-cycles` or `unicycles posts`. You have two ways to remedy this:
+There is an error now, which was not there before! Where did it come from? By default, all fields in the schema are compulsory, and you might have noticed we did not set `draft` in the front matter for the `tandem-cycles` or `unicycles` posts. You have two ways to remedy this:
 
 * keep the `draft` field compulsory and add it to posts missing it
 * update the schema to make the draft `field` optional
@@ -84,7 +84,7 @@ const blogCollection = defineCollection({
  });
 ```
 
-Whichever method you chose, the errors should now be gone. Under the hood, Astro uses the Zod library to implement schemas. Zod handles far more sophisticated validation than we have here. As an example, you use \`z.string().url()\`\` if you want a front matter field to be a URL.&nbsp;<a target="_blank" rel="noopener" href="https://zod.dev/">Check Zod docs for this and more advanced features</a>.
+Whichever method you chose, the errors should now be gone. Under the hood, Astro uses the Zod library to implement schemas. Zod handles far more sophisticated validation than we have here. As an example, you use `z.string().url()` if you want a front matter field to be a URL.&nbsp;<a target="_blank" rel="noopener" href="https://zod.dev/">Check Zod docs for this and more advanced features</a>.
 
 ## Astro collection APIs
 
@@ -206,7 +206,7 @@ Next, we want to render these data. As we did for `contacts` when importing JSON
 </BaseLayout>
 ```
 
-`toLocaleString` displays the date in US format here. Update the language code to match your locale, if needed. For example, you might change <code>"en"`` to </code>"en-GB"\`\`.
+`toLocaleString` displays the date in US format here. Update the language code to match your locale, if needed. For example, you might change `"en"` to `"en-GB"`.
 
 The blog roll styling does not look fantastic! Add a `style` element at the bottom of the `src/pages.index.astro` file:
 
