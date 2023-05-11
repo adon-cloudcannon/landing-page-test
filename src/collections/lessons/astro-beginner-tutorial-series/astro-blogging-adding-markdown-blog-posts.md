@@ -37,7 +37,7 @@ Let’s start with the name…
 - penny-farthings were phased out as safer alternatives resembling modern cycles were introduced
 ```
 
-When you save this file, jump to your text editor and look for a \`\`.astro/types.d.ts file\`. Open this up and scan through it. Astro has generated types for you, for the new post:
+When you save this file, jump to your text editor and look for a `.astro/types.d.ts` file. Open this up and scan through it. Astro has generated types for you, for the new post:
 
 ```
 declare module "astro:content" {
@@ -123,7 +123,7 @@ We mentioned the `getStaticPaths` API maps our `posts` array to the pages we wan
 
 **`params`**&nbsp;fields are used to define the page path; we will use `slug` as the only param. For our first post, the value of `slug` is `penny-farthing`, so `...slug` in the template path will be substituted for this value. You can have multiple `params` fields (for example, to add a year to the path), though one is sufficient here.
 
-To help understand how Astro generates pages from a template, it might be useful to think of Astro replacing the template file with a new `src/pages/penny-farthing.astro file`. That would sit beside `src/pages/contact.astro`, which `https://example.com/contact` will be generated from. For more details on&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/core-concepts/endpoints/#params-and-dynamic-routing">how Astro generates dynamic pages, see the Astro docs</a>.
+To help understand how Astro generates pages from a template, it might be useful to think of Astro replacing the template file with a new `src/pages/penny-farthing.astro` file. That would sit beside `src/pages/contact.astro`, which `https://example.com/contact` will be generated from. For more details on&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/core-concepts/endpoints/#params-and-dynamic-routing">how Astro generates dynamic pages, see the Astro docs</a>.
 
 There are some restrictions on referencing variables in the `getStaticPaths` function, and also on names for params (param values should be URL-safe). See the&nbsp;<a target="_blank" rel="noopener" href="https://docs.astro.build/en/reference/api-reference/#getstaticpaths">Astro docs for more on these restrictions</a>, and more detail on `getStaticPaths`, `params` and `props`.
 
@@ -190,7 +190,7 @@ Did know you that…
 - the trident is another option for families with two full adult seats and a smaller child one at the back
 ```
 
-Then finally, `src/content.blog/unicycles.md`\:
+Then finally, `src/content/blog/unicycles.md`\:
 
 ```
 
