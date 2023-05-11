@@ -53,7 +53,7 @@ Whichever SSG you choose, with CloudCannon’s <a target="_blank" rel="noopener"
 
 ---
 
-{% bookshop 'markdown/anchor' name: "what-is-astro" %} 
+{% bookshop 'markdown/anchor' name: "what-is-astro" %}
 
 ## What is Astro?
 
