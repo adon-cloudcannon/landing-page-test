@@ -26,7 +26,7 @@ The layout file is an Astro component, and looks much like an Astro page file. T
 
 Create a new `src/layouts` folder, and in there add a `BaseLayout.astro` file with this content:
 
-```
+```html
 ---
 import Menu from "~/components/Menu";
 
@@ -72,7 +72,7 @@ Astro markup shares much in common with the JSX used in React. You see that wher
 
 Now we have the layout defined, let’s try using it. Layout components are imported just like other components. Replace the existing content in the front matter of the `index.astro` file:
 
-```
+```javascript
 ---
 import BaseLayout from "~/layouts/BaseLayout.astro";
 
@@ -85,7 +85,7 @@ As well as importing the layout here, we also define the title and description f
 
 Next, replace the template code (below the front matter) using the `BaseLayout` component:
 
-```
+```html
 <!-- ...TRUNCATED -->
 ---
 
@@ -111,7 +111,7 @@ Let’s start by adding a global CSS file. Create a new `src/styles` folder. In 
 
 Typically, when working with a global CSS file, you will want to add it to every page. This makes the `BaseLayout` the ideal place for us to add global CSS. All we need to do is insert an import statement to the layout’s front matter. Astro takes care of the rest:
 
-```
+```javascript
 ---
 import Menu from "~/components/Menu";
 import "~/styles/global.css";
@@ -125,7 +125,7 @@ If you refresh the browser now, things should already look a little nicer. The m
 
 You might have noticed that there is some CSS for self-hosted fonts in `global.css`\:
 
-```
+```css
 @font-face {
   font-display: swap;
   font-family: "DM Sans";
@@ -162,7 +162,7 @@ Favicons are another example of a static file, which you can put in the public f
 
 Of course, the final part is to link these files in the HTML head section of our site. You guessed it! We will add them to the layout. Update the Astro markup in `src/layouts/BaseLayout.astro`\:
 
-```
+```html
 <html lang="en">
   <head>
     <meta charset="utf-8" />
