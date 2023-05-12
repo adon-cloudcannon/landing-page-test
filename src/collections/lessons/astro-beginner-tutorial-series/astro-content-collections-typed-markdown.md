@@ -22,7 +22,7 @@ We had a brief introduction to Astro Content Collections when we added blog post
 
 Since this file is generated automatically, there is no need to commit it to your Git repo. Astro probably already added it to your `.gitignore` file. If you are also running Prettier or other code formatters, though, consider adding the `.astro` folder there. As an example, your Prettier ignore file (`.prettierignore`) might look like this:
 
-```
+```plaintext
 # EXAMPLE ONLY
 
 dist/**
@@ -45,7 +45,7 @@ Everything we have seen so far for Astro Content Collections has been self-confi
 
 Astro looks for Content Collection configuration at `src/content/config.ts`. If it is missing, you can still use Content Collections, albeit without schemas. Create that config file and add this content:
 
-```
+```tsx
 import { defineCollection, z } from 'astro:content';
 
 const blogCollection = defineCollection({
@@ -75,7 +75,7 @@ There is an error now, which was not there before! Where did it come from? By de
 
 Making the field optional is as easy as chaining an `optional()` method call on the end of `boolean()`\:
 
-```
+```typescript
 const blogCollection = defineCollection({
     schema: z.object({
         // TRUNCATED...
@@ -94,7 +94,7 @@ We saw the `getCollection` function briefly in the blog post template. Let’s t
 
 Astro lets you create multiple collections; you just need to create a folder for each collection under `src/content`. We named our folder `blog`, and that means our collection is also called `blog`.You were able to access the `blog` collection data with `getCollection` passing the collection name as an argument:
 
-```
+```typescript
 import { getCollection } from "astro:content"
 
 posts = await getCollection("blog");
@@ -102,7 +102,7 @@ posts = await getCollection("blog");
 
 We also used the collection name to create a `Props` type alias for an individual post:
 
-```
+```typescript
 import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"blog">;
@@ -114,7 +114,7 @@ Note, `getCollection` returns a promise. Astro supports&nbsp;**top-level await**
 
 The promise resolves to an array, which now looks something like this, with an element for each post:
 
-```
+```javascript
 {
   posts: [
     {
@@ -147,7 +147,7 @@ The promise resolves to an array, which now looks something like this, with an e
 
 If ever you need just a single blog post, rather than an array of all the Astro Collection content, there is a convenient alternative to `getCollection`\: `getEntryBySlug`. `getEntryBySlug` takes the collection name and the slug of the entry you are requesting as arguments:
 
-```
+```javascript
 // EXAMPLE ONLY
 const post = await getEntryBySlug('blog', 'penny-farthing');
 ```
@@ -162,7 +162,7 @@ To render the blog roll, we will need a title, description and publish date for 
 
 Typically, blog rolls start with the most recent post. We can use the JavaScript `Array.sort` method to get them into order. Update the front matter section of `src/pages/index.astro`\:
 
-```
+```tsx
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
@@ -180,7 +180,7 @@ The `date` field on posts is a string and `Date.parse` converts it to the number
 
 Next, we want to render these data. As we did for `contacts` when importing JSON data for the contact page, we’ll use the `Array.map` method. Update the markup section of `src/index.astro`\:
 
-```
+```html
 ---
 <BaseLayout description={description} title={title}>
   <main>
@@ -210,7 +210,7 @@ Next, we want to render these data. As we did for `contacts` when importing JSON
 
 The blog roll styling does not look fantastic! Add a `style` element at the bottom of the `src/pages.index.astro` file:
 
-```
+```html
 <!-- ...TRUNCATED -->
 <style>
   ul {
