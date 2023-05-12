@@ -29,7 +29,7 @@ Continuing the PDF example, within the endpoint file we need to export a handler
 
 Here is what the code might look like for the PDF endpoint:
 
-```
+```tsx
 // EXAMPLE ONLY
 import type { APIRoute } from 'astro';
 
@@ -54,13 +54,13 @@ RSS feeds are typically sent as plain text in XML format. We could manually cons
 
 Run the command below to install the package:
 
-```
+```shell
 pnpm add @astrojs/rss
 ```
 
 Now we can add some source code for the XML RSS feed route. Create `src/pages/rss.xml.ts` with the following content:
 
-```
+```tsx
 import rss from "@astrojs/rss";
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
@@ -83,7 +83,7 @@ The XML site map will include some site metadata, as well as the list of blog po
 
 Update `astro.config.mjs` with a site field. Use `https://example.com` if you do not yet have a value for your own site:
 
-```
+```javascript
 import { defineConfig } from "astro/config";
 
 import react from "@astrojs/react";
@@ -102,7 +102,7 @@ You can see the `astrojs/rss` package generated the response body for you, using
 
 Let’s add the missing `items` field. `@astrojs/rss` just expects an array of blog posts. Each item will need the following fields:
 
-```
+```plaintext
 - title
 - description
 - link
@@ -115,14 +115,14 @@ If you are already feeling confident with your Astro Content Collection skills, 
 
 Just like when we created the blog roll on the home page, we want the posts to be in reverse chronological order (newest first). We’ll use `Array.sort` once more:
 
-```
+```javascript
  const items = posts
     .sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
 ```
 
 That puts the posts in the right order, and to finish, we just have to map the fields output by `getCollection` to the ones we need for `items`. Here is the complete handler function:
 
-```
+```tsx
 export const get: APIRoute = async function get({ site }) {
   const posts = await getCollection("blog");
 
@@ -157,7 +157,7 @@ Once you have built the site using your Content Management System (CMS), you wil
 
 Typically you will add an RSS feed link to site headers or footers. You can also add a meta tag to help RSS readers find the feed. It is fine to put this tag on every site page, using `src/layout/BaseLayout.astro`\:
 
-```
+```html
 <html lang="en">
   <head>
     <!-- ...TRUNCATED -->
