@@ -10,7 +10,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro blog RSS feed tutorial
 ---
-## Astro blog post RSS feed
+##
 
 So far in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Beginners’ tutorial</a>, all the routes on the site have been HTML pages, whether generated from Astro markup files or Markdown. In this final lesson, we see Astro can also generate non-HTML content. We focus on adding an Astro Blog RSS feed, though you can follow a similar approach to serve a PDF brochure or even some JSON data from your Astro site.
 

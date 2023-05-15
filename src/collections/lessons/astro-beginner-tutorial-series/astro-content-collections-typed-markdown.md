@@ -12,7 +12,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro content collections tutorial
 ---
-## Astro content collections
+##
 
 We are getting close to finishing the site we’re building in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In the last lesson, we added blog posts. One thing missing is a list of blog posts on the home page, to make it easier for visitors to find content. Let’s build a blog roll in this lesson while taking a deeper dive into Astro Content Collections.
 
