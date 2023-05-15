@@ -1,5 +1,6 @@
 ---
 title:
+breadcrumb_title:
 description:
 draft: true
 series:

@@ -226,6 +226,8 @@ collections_config:
             - Resources
             - Sveltekit
             - Tutorials
+      breadcrumb_title:
+        comment: If not set, the page title will be used. (This will be trimmed if the title contains special characters.)
   ecosystem:
     description:
     output: true
@@ -1156,4 +1158,14 @@ _snippets:
           type: boolean          
         - editor_key: border
           type: boolean
+  anchor:
+    template: eleventy_liquid_bookshop_component
+    inline: true
+    preview:
+      text: Anchor
+    definitions:
+      component_name: markdown/anchor
+      named_args:
+        - editor_key: name
+          type: string
 
