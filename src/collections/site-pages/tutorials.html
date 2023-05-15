@@ -312,8 +312,8 @@ bottom_content:
 ---
 <div class="container">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
-    
-    {% for tutorial in collections.tutorials %}
+    {% assign tutorials = collections.tutorials | sort: "data.order" %}
+    {% for tutorial in tutorials %}
     
     {% assign first_lesson = collections.lessons | where: "data.tutorial", tutorial.fileSlug | sort: "data.order" | first %}
       <a class="group relative transition duration-200 pb-10 pt-5 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" href="{{ first_lesson.url }}">

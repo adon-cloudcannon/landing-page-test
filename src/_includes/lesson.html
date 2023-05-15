@@ -1,133 +1,68 @@
 ---
 layout: builder.html
 eleventyComputed:
-  content_blocks:
-    - _bookshop_name: sections/container
-      content:
-        blocks:
-          - _bookshop_name: simple/heading
-            content:
-              text: "{{ title }}"
-            styles:
-              size: h1
-              width: tight
-              desktop:
-                text_alignment:
-                  align: center
-                text_sizing:
-                  text_size: big
-                margin:
-                  top: 0
-                  bottom: 35
-              tablet:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: false
-                  text_size: big
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-              mobile:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: false
-                  text_size: big
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-          - _bookshop_name: simple/text-block
-            content:
-              text_markdown: "{{ description }}"
-            styles:
-              desktop:
-                text_alignment: 
-                  align: center
-                text_sizing:
-                  text_size: biggest
-                margin:
-                  top: 0
-                  bottom: 80
-                block_alignment:
-                  align_block:
-              tablet:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: false
-                  text_size: normal
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-                block_alignment:
-                  active: false
-                  align_block: left
-              mobile:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: false
-                  text_size: normal
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-                block_alignment:
-                  active: false
-                  align_block: left
-              width: full
-      styles:
-        background: white
-        rounded: none
-        size: normal
-        align: none
-        desktop:
-          margin:
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            top: 50
-            right: 0
-            bottom: 30
-            left: 0
-        tablet:
-          margin:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-        mobile:
-          margin:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
+  text_block:
+    _bookshop_name: simple/text-block
+    content:
+      text_markdown: "{{ description }}"
+    styles:
+      desktop:
+        text_alignment: 
+          align: center
+        text_sizing:
+          text_size: biggest
+        margin:
+          top: 0
+          bottom: 32
+        block_alignment:
+          align_block:
+      tablet:
+        text_alignment:
+          active: false
+          align: left
+        text_sizing:
+          active: false
+          text_size: normal
+        margin:
+          active: false
+          top: 0
+          bottom: 0
+        block_alignment:
+          active: false
+          align_block: left
+      mobile:
+        text_alignment:
+          active: false
+          align: left
+        text_sizing:
+          active: false
+          text_size: normal
+        margin:
+          active: false
+          top: 0
+          bottom: 0
+        block_alignment:
+          active: false
+          align_block: left
+      width: full
 ---
+
 <div class="container relative" data-pagefind-filter="site:Resources" data-pagefind-meta="site:Resources" data-pagefind-body>
+  {% assign tutorial_linked = collections.tutorials | where: "fileSlug", tutorial | first %}
+  {% assign person = collections.authors | where: "data.uuid", tutorial_linked.data.author | first %}
+  <h1 class="mx-auto text-center leading-tight text-gray-900 max-w-3xl text-3xl md:text-5xl font-bold mb-8 pt-20">{{ title }}</h1>
+  <div class="mt-2 text-center">
+    {% bookshop "simple/text-block" bind: text_block %}
+  </div>
+  <div class="flex justify-center items-center pb-10">
+    {% bookshop 'helpers/image' image: person.data.image.path alt: person.data.image_alt responsive: false width: 96 height: 96 classes: 'w-12 rounded-full' %}
+    <span class="ml-3 text-gray-900">
+      <strong>
+        By {{ person.data.name }}
+      </strong> 
+    </span>
+  </div>
+
   <div class="relative mx-[-2rem]">
     <div class="prose container md:prose-lg lg:prose-xl mb-20 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
       {{ content }}
