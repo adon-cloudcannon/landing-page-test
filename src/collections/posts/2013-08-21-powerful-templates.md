@@ -28,7 +28,7 @@ You guys asked for it, and here it is. We're so excited to announce the brand ne
 
 Making changes to the structure of your website can involve editing every single HTML page. Now you can include a file into your HTML pages making **updating a breeze**.&nbsp;
 
-![](https://cc-dam.imgix.net/blog/uploads/80e7f5d79e8b31e1fe0b0486baefd2d0.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/80e7f5d79e8b31e1fe0b0486baefd2d0.png" alt:"" extend:false border:false %}
 
 We've made the syntax as simple as possible. Simply adding `<!-- include header.html -->` to an HTML page is all you need to save yourself some **serious time**. See our docs for a more detailed explanation.
 

@@ -49,7 +49,7 @@ But how did we get there?
 
 Our goal with the new CloudCannon website design was simple: craft a journey for prospective users that was clear, concise, and to the point. To do this we partnered with our friends at <a target="_blank" rel="noopener" href="https://staticmania.com">Static Mania</a> to design a site that’s clean, uses white space effectively across a range of device types, and ensures the layout is easy to navigate.&nbsp;
 
-![](https://cc-dam.imgix.net/developer-hero+%281%29.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/developer-hero+%281%29.png" alt:"" extend:false border:false %}
 
 Ultimately, showcasing the CMS is still our main goal, so we’ve also added new illustrations that not only give users an idea of what our app looks like, but also shows them the processes behind it. We want our prospective users to feel confident they know what they’re getting when they choose CloudCannon as a CMS.
 
@@ -121,7 +121,7 @@ Google’s [PageSpeed Insights](https://pagespeed.web.dev/) offers several helpf
 
 Lighthouse scores are generally used to diagnose performance issues, across the categories Performance, Accessibility, Best Practices, and SEO. We’re currently sitting pretty at 100 across the board for desktop users — proof positive that Eleventy and CloudCannon, together with the rest of our new stack, make for excellent performance.
 
-![](https://cc-dam.imgix.net/cloudcannon-lighthouse.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-lighthouse.png" alt:"" extend:false border:false %}
 
 ### Core Web Vitals
 
@@ -134,7 +134,7 @@ When it comes to our CWV — the measurements that make up the Lighthouse catego
 * Interaction to Next Paint (INP): **40ms**
 * Time to First Byte (TTFB): **0\.5s**
 
-![](https://cc-dam.imgix.net/cloudcannon-core-web-vitals.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-core-web-vitals.png" alt:"" extend:false border:false %}
 
 While we’re always looking for ways to improve these scores, we attribute them to a range of factors: static generation and optimization from Eleventy, image processing from imgix, post-build processing from Jampack, and most of all, considered development from the CloudCannon dev team.
 

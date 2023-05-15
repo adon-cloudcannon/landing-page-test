@@ -184,12 +184,12 @@ collections_config:
         numberedlist: true
         code: true
         horizontalrule: true
-        image: true
+        image: false
         table: true
         undo: true
         redo: true
         removeformat: true
-        image_size_attributes: true
+        image_size_attributes: false
         snippet: true
     filter:
       exclude:

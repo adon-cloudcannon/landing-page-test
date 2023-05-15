@@ -41,7 +41,7 @@ With a Jekyll CMS like [CloudCannon](https://cloudcannon.com), you have all thes
 
 CloudCannon has [templates available](https://learn.cloudcannon.com/jekyll-templates/) to help kickstart your next project. These templates are designed to get the most out of CloudCannon so they're a great starting point or reference for what's possible on CloudCannon.
 
-![Screenshot of the 'justice' theme homepage](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template.png" alt:"Screenshot of the 'justice' theme homepage" extend:false border:false %}
 
 ## Staging site
 

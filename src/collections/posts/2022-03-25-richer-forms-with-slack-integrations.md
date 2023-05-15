@@ -67,7 +67,7 @@ The next step is to [point your form at the Inbox](https://cloudcannon.com/docum
 
 Your form will be ready to receive submissions, which you can view in CloudCannon. You'll find your Inbox in the site navigation.
 
-![](https://cc-dam.imgix.net/sites-inbox.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/sites-inbox.jpg" alt:"" extend:false border:false %}
 
 4\. **Forward your submissions to targets:**
 

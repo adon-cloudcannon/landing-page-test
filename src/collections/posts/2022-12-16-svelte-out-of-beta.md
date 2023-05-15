@@ -38,7 +38,7 @@ For users of our open-source component development workflow [Bookshop](https://g
 
 ## Sendit: A new, free, pagebuilding theme for SvelteKit
 
-![](https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg" alt:"" extend:false border:false %}
 
 We’ve released a new free SvelteKit theme called [Sendit](https://cloudcannon.com/community/themes/sendit/) to showcase all the benefits of SvelteKit’s flexibility and CloudCannon’s page-building workflows and responsive Visual Editor in a clean, modern, and ready-to-use site — and it’s available now for everyone to use and adapt as they see fit. Check out the [Sendit demo site](https://pleasant-worm.cloudvent.net/) to see what’s possible.
 

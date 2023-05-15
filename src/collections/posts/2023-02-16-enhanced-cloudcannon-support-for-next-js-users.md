@@ -61,7 +61,7 @@ Check out Colby Fayock’s video introduction to CloudCannon and Next.js as well
 
 We've released a new free Next.js theme called [Sendit](https://cloudcannon.com/community/themes/sendit/) to showcase the benefits of both Next.js's flexibility and CloudCannon's page-building workflows and responsive Visual Editor. Sendit offers a clean, modern, and ready-to-use site that is now available for everyone to use and customize.
 
-![](https://cc-dam.imgix.net/blog/blog-next-launch-sendit.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-next-launch-sendit.jpg" alt:"" extend:false border:false %}
 
 With Sendit, all users can quickly build their pages from a pre-made set of 20 pre-styled and reusable page components, as well as create their own components to extend the project. Sendit has an easily configurable navigation and footer, multiple hero options, and subtle animations, all optimized for editing in CloudCannon.
 

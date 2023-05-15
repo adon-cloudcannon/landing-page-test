@@ -24,7 +24,7 @@ image: https://cc-dam.imgix.net/blog/uploads/blog-colourful-fireworks.jpg
 ---
 Today marks a huge milestone for CloudCannon. We've finished the Jekyll beta, making Jekyll and plugins available to all users on every plan. The latest release also includes some requested features and more Jekyll configuration.
 
-![CloudCannon and Jekyll logos](https://cc-dam.imgix.net/blog/assets/blog/officially-out-of-jekyll-beta/logos.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/officially-out-of-jekyll-beta/logos.png" alt:"CloudCannon and Jekyll logos" extend:false border:false %}
 
 ---
 
@@ -55,7 +55,7 @@ The most notable options are `baseurl`, `source`, and Jekyll's other custom dire
 *settings* [Full documentation for build configuration](/documentation/build/setup/configuration/)
 
 
-![Site Settings Build Interface](https://cc-dam.imgix.net/blog/assets/blog/officially-out-of-jekyll-beta/configuration.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/officially-out-of-jekyll-beta/configuration.png" alt:"Site Settings Build Interface" extend:false border:false %}
 
 ---
 
@@ -71,7 +71,7 @@ For those of you battling targeted spam email, we've added Google reCAPTCHA supp
 *email* [Full documentation for contact forms](https://docs.cloudcannon.com/hosting/contact-forms/)
 
 
-![reCAPTCHA Example](https://cc-dam.imgix.net/blog/assets/blog/officially-out-of-jekyll-beta/captcha.gif)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/officially-out-of-jekyll-beta/captcha.gif" alt:"reCAPTCHA Example" extend:false border:false %}
 
 ---
 

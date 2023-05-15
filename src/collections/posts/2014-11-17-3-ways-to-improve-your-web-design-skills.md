@@ -37,7 +37,7 @@ I can’t recommend Codecademy enough. No matter your skill level there’s goin
 
 The tutorials have step-by-step instructions, a code editor and fake web browser so everything is in one place. There's no need to leave your browser. Even better, it's completely free\!
 
-[![Codecademy](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/codecadmey.png)](http://codecademy.com)
+[{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/codecadmey.png" alt:"Codecademy" extend:false border:false %}](http://codecademy.com)
 
 ### [Treehouse](http://teamtreehouse.com/)
 
@@ -45,13 +45,13 @@ If you’re a visual learner you’ll love Treehouse. There are tutorials coveri
 
 There’s a little more hand-holding here than on Codecademy so if you’re looking for something closer to a classroom environment, Treehouse is your best bet. Plans start at $25/month and there’s even a 14 day free trial available.
 
-[![Treehouse](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/treehouse.png)](http://teamtreehouse.com)
+[{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/treehouse.png" alt:"Treehouse" extend:false border:false %}](http://teamtreehouse.com)
 
 ### [Code School](http://codeschool.com)
 
 Code School has a similar format to Treehouse. There’s a short video followed by a coding exercise. Again, this workflow is fantastic because if you ever get stuck, you can always re watch the video to find the answer. There are free courses available and a monthly subscription of $29 to get full access.
 
-[![Code School](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/codeschool.png)](http://codeschool.com)
+[{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/codeschool.png" alt:"Code School" extend:false border:false %}](http://codeschool.com)
 
 ## 2\. Documentation
 
@@ -61,32 +61,32 @@ When I need to quickly look up how to use css3 rounded corners or what attribute
 
 Mozilla has a beautiful set of documentation for anything web. If I ever need to know what attributes a &lt;video&gt; tag has or the browser support for border-radius, this is my go to.
 
-[![MDN](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/mdn.png)](https://developer.mozilla.org)
+[{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/mdn.png" alt:"MDN" extend:false border:false %}](https://developer.mozilla.org)
 
 ### [W3Schools](http://w3schools.com)
 
 Similar to MDN, an in depth reference of everything HTML and CSS.
 
-[![W3 Schools](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/w3schools.png)](https://w3schools.com)
+[{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/w3schools.png" alt:"W3 Schools" extend:false border:false %}](https://w3schools.com)
 
 ### [W3C](http://www.w3.org/)
 
 HTML and CSS specifications straight from the horses mouth. W3C sets the standards which guides the implementation in web browsers. The descriptions are usually technical and verbose so I typically prefer the other two websites but it can be a good reference if you’re using bleeding edge web technology.
 
-[![W3C](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/w3c.png)](https://www.w3.org)
+[{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/w3c.png" alt:"W3C" extend:false border:false %}](https://www.w3.org)
 
 ## 3\. Work on projects
 
 I find the best way of learning new web design skills is to have a project you can try new things out on. At CloudCannon we’re constantly creating small, seemingly pointless little projects as a way of trying new things out.
 
-There’s our [Solitaire app](http://solitaire.cloudvent.net/) made completely in HTML, CSS and JavaScript. [![solitaire](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/solitaire.png)](http://solitaire.cloudvent.net/)
+There’s our [Solitaire app](http://solitaire.cloudvent.net/) made completely in HTML, CSS and JavaScript. [{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/solitaire.png" alt:"solitaire" extend:false border:false %}](http://solitaire.cloudvent.net/)
 
-[Smileys.js](https://smiley.cloudcannon.com/) is our little way of making websites a happier place. [![Smiley](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/smiley.png)](https://smiley.cloudcannon.com/)
+[Smileys.js](https://smiley.cloudcannon.com/) is our little way of making websites a happier place. [{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/smiley.png" alt:"Smiley" extend:false border:false %}](https://smiley.cloudcannon.com/)
 
-Even [CloudCannon](http://cloudcannon.com) started off as a bedroom project. [![CloudCannon](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/cloudcannon.png)](http://cloudcannon.com/)
+Even [CloudCannon](http://cloudcannon.com) started off as a bedroom project. [{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/cloudcannon.png" alt:"CloudCannon" extend:false border:false %}](http://cloudcannon.com/)
 
 My next project is to revamp my [personal website](http://mikeneumegen.com). That moustache is long gone and I want to do something even cooler than eating an apple with html5 videos.
 
-[![Mike Neumegen](https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/mikeneumegen.png)](http://mikeneumegen.com)
+[{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/3-ways-to-improve-your-webdesign-skills/mikeneumegen.png" alt:"Mike Neumegen" extend:false border:false %}](http://mikeneumegen.com)
 
 Now it’s your turn\! Get out there, work on your web design skills and build something cool. What can you create this weekend?

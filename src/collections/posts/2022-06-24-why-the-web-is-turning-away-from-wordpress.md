@@ -37,7 +37,7 @@ Yes, WordPress still hovers around the 43% mark when it comes to its share of th
 
 Sites built with static site generators, by contrast, are on the rise within that same five-year period. In fact, SSGs experienced an eightfold increase in their share of the top 10K websites over that period:
 
-![](https://cc-dam.imgix.net/WP-SSG-graph-10k.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/WP-SSG-graph-10k.png" alt:"" extend:false border:false %}
 
 (If you'd like to see the data yourself, check out BuiltWith trends on the top 10K sites for [WordPress](https://trends.builtwith.com/cms/WordPress), [Jekyll](https://trends.builtwith.com/cms/Jekyll), [Hugo](https://trends.builtwith.com/cms/Hugo), [Next.js](https://trends.builtwith.com/framework/Next.js), [Nuxt.js](https://trends.builtwith.com/framework/Nuxt.js), and [Gatsby](https://trends.builtwith.com/framework/Gatsby-JS).)
 

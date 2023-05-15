@@ -46,7 +46,7 @@ The other way you can deliver sites is dynamically, which is how content managem
 
 So when a user loads a dynamic site in their browser window, it may look and feel exactly the same as a static site — it’s just the method of delivery that changes. Of course, speed and security come into the picture as well; read on for more.
 
-![](https://cc-dam.imgix.net/static-request-vs-dynamic-request.svg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/static-request-vs-dynamic-request.svg" alt:"" extend:false border:false %}
 
 **Picture** **a static site as the equivalent of a novel that’s on shelves all around the world, just waiting for you to reach out for it**. It’s already printed and bound, and it’s constructed in exactly the same manner for every single reader.
 
@@ -106,7 +106,7 @@ You might not be too worried about your site being hacked. But most security bre
 
 Even if your WordPress install itself is up-to-date and secure (no mean feat for many existing sites), every plugin you install puts the reputation and integrity of your digital presence in the hands of an external developer. Do your developers spend time running security audits for every plugin they install? How do they know a plugin is secure, every time it updates? Wouldn’t you rather avoid these concerns, and reduce your risk?
 
-![](https://cc-dam.imgix.net/static-security-vs-dynamic-security.svg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/static-security-vs-dynamic-security.svg" alt:"" extend:false border:false %}
 
 There are a few key reasons why static sites are more secure:
 

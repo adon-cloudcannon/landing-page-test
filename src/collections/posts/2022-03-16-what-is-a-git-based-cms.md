@@ -33,7 +33,7 @@ If Git is such a powerful, game-changing tool, why is it only used by developers
 
 In this article, we’ll see how a Git-based CMS stacks up against other CMS approaches.
 
-![](https://cc-dam.imgix.net/knife-sa.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/knife-sa.jpg" alt:"" extend:false border:false %}
 
 ## The Traditional CMS
 
@@ -45,7 +45,7 @@ This is the most common approach, due to its flexibility. You know you can alway
 
 The problem with the Swiss army knife is, while it can do many different things, it’s not particularly good at any individual task. Trying to cut bread with a Swiss army knife will look like your 2-year-old attempted to make a sandwich, and it’s the same with a traditional CMS. Yes, a non-developer can set up WordPress by themselves, a developer can heavily customize it, it can be an e-commerce platform, e-learning platform, communication platform, CRM, whatever you’d like really. It’s a great approach if you need something extensible, but if all you’re trying to do is slice bread? Just use a bread knife.
 
-![](https://cc-dam.imgix.net/knife-sharpen.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/knife-sharpen.jpg" alt:"" extend:false border:false %}
 
 ## **The API-based CMS**
 
@@ -57,7 +57,7 @@ Frontend technology typically moves much faster than backend technology. By unbu
 
 Making knives is fun. Who doesn’t want to make their own knife? The problem is while you can build any sort of knife you’d like, the tools, materials, and instructions are not optimized for any particular knife. The backend intentionally doesn’t know anything about the frontend, so editors manage their content using a series of abstract form fields. The editor needs to use their imagination and build up an understanding of how that form field relates to a particular piece of content of the website.
 
-![](https://cc-dam.imgix.net/knife-boning.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/knife-boning.jpg" alt:"" extend:false border:false %}
 
 ## The Git-based CMS
 

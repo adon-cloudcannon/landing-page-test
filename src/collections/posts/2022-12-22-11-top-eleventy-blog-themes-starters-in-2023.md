@@ -58,7 +58,7 @@ There are many reasons why developers might choose to create a personal blog. So
 
 **License:** MIT<br>**Author:** [11ty](https://11ty.dev) / [Zach Leatherman](https://github.com/zachleat)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-eleventy-base-blog.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-eleventy-base-blog.jpg" alt:"" extend:false border:false %}
 
 The one that started it all, the Eleventy base blog is also the basis for many other popular themes. If you’re making your first Eleventy blog, this is the theme for you. It’s deliberately minimal, and functions as its own documentation (though the readme at the GitHub source link below is also very helpful).
 
@@ -68,7 +68,7 @@ The one that started it all, the Eleventy base blog is also the basis for many o
 
 **License:** MIT<br>**Author:** [CloudCannon](https://github.com/CloudCannon)
 
-![](https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg" alt:"" extend:false border:false %}
 
 Sendit is a multipurpose Eleventy theme with a built-in blog, made with the Bootstrap CSS framework. The components have been converted to&nbsp;[Bookshop](https://github.com/CloudCannon/bookshop). It’s the perfect starting point to see how CloudCannon’s Visual Editing and component-based page-building works, and how they can really speed up your blogging flow.
 
@@ -78,7 +78,7 @@ Sendit is a multipurpose Eleventy theme with a built-in blog, made with the Boot
 
 **License:** MIT<br>**Author:** [Yolanda Gorriz Exposito](https://github.com/ygoex)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-yetty.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-yetty.jpg" alt:"" extend:false border:false %}
 
 Built with accessibility and performance in mind, Yetty features Sass/SCSS, Critical CSS, PostCSS, persistent dark mode using local storage, cache busting via filter, minified HTML on production, JS compilation and minification, and image processing with the eleventy-img plugin.
 
@@ -88,7 +88,7 @@ Built with accessibility and performance in mind, Yetty features Sass/SCSS, Crit
 
 **License:** MIT<br>**Author:** [René Winkelmeyer](https://github.com/muenzpraeger)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-chirpy-blog-template.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-chirpy-blog-template.jpg" alt:"" extend:false border:false %}
 
 An Eleventy version of the popular Chirpy Jekyll blog theme, Chirpy features 4x100s on Lighthouse by default, light and dark modes, SEO and OpenGraph optimization, accessibility, JS and CSS build optimization, RSS, sitemap.xml, and responsive image optimization.
 
@@ -98,7 +98,7 @@ An Eleventy version of the popular Chirpy Jekyll blog theme, Chirpy features 4x1
 
 **License:** MIT<br>**Author:** [Jeremy Faucher](https://github.com/jeremyfaucher)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-11ty-theme-by-design-2-seo.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-11ty-theme-by-design-2-seo.jpg" alt:"" extend:false border:false %}
 
 An SEO-friendly theme for Eleventy, featuring grid CSS, blogging with sub-categories, and a clean, modern layout for a simple introduction to blogging.
 
@@ -108,7 +108,7 @@ An SEO-friendly theme for Eleventy, featuring grid CSS, blogging with sub-catego
 
 **License:** MIT<br>**Author:** Marco Micale
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-minimalism.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-minimalism.jpg" alt:"" extend:false border:false %}
 
 Minimalism allows for even speedier page creation, and comes complete with light and dark modes, RSS, SEO optimization, 404 error pages, easy social links, PWA, sitemaps, and top lighthouse scores.
 
@@ -118,7 +118,7 @@ Minimalism allows for even speedier page creation, and comes complete with light
 
 **License:** MIT<br>**Author:** [Mesin Kasir](https://github.com/mesinkasir)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-thisis11ty.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-thisis11ty.jpg" alt:"" extend:false border:false %}
 
 A blog-first and mobile-first Eleventy theme, Thisis is built for speed and SEO — two of the most important considerations when building a new site.
 
@@ -136,7 +136,7 @@ Supermaya is an Eleventy theme designed to help you add rich features to a blog 
 
 **License:** MIT<br>**Author:** [Google](https://github.com/google)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-eleventy-high-performance-blog.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-eleventy-high-performance-blog.jpg" alt:"" extend:false border:false %}
 
 If you’re particularly picky about performance, here’s the perfect Eleventy theme for your blog. High Performance does perform extremely well, as it implements a wide range of performance best practices. It achieves perfect Lighthouse scores, a single HTTP request to First Contentful Paint, a very optimized Largest Contentful Paint, 0 Cumulative Layout Shift, and ~0 First Input Delay. Thanks, Google!
 
@@ -146,7 +146,7 @@ If you’re particularly picky about performance, here’s the perfect Eleventy 
 
 **License:** MIT<br>**Author:** [11ta](https://github.com/11ta)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-11ta.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-11ta.jpg" alt:"" extend:false border:false %}
 
 As the title of this theme suggests, it’s a project template that has TailwindCSS and Alpine.js baked in. 11ta features SIAB (site in a box), 100 Lighthouse scores across Pages and Posts, an ATOM feed, inlined CSS for Prism Okaidia syntax highlighting, Webpack for Alpine and any other custom JS, Purged CSS and minified source on production, and custom 404 pages.
 
@@ -156,7 +156,7 @@ As the title of this theme suggests, it’s a project template that has Tailwind
 
 **License:** MIT<br>**Author:** [Mesin Kasir](https://github.com/mesinkasir)
 
-![](https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-cool11ty.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-11ty-starter-theme-cool11ty.jpg" alt:"" extend:false border:false %}
 
 A simple and bright theme, Cool11ty is a straightforward introduction to Eleventy. More complicated sites might hit the edges of this theme sooner, but for a basic personal homepage and blog setup, this is a great place to start.
 

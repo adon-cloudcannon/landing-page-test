@@ -35,13 +35,13 @@ Jekyll is a fantastic freelancer tool for building client websites. Compared to 
 
 [Client Sharing](https://docs.cloudcannon.com/sharing/client-sharing/) is a CloudCannon feature specifically for freelancers and agencies. Instead of each client creating their own CloudCannon account, you set up a *Client Sharing* password in *Site Settings / Client Sharing.* Clients then go to https://theirwebsite.com/update/ and enter the password to update content on their site. *Client Sharing* is available on paid plans at no extra charge.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-login.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-login.png" alt:"" extend:false border:false %}
 
 ## Start with a template
 
 CloudCannon has [templates available](https://learn.cloudcannon.com/jekyll-templates/) to help kickstart your next project. These templates are designed to get the most out of CloudCannon so they're a great starting point or reference for what's possible on CloudCannon.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/template.png" alt:"" extend:false border:false %}
 
 ## Staging site
 
@@ -57,25 +57,25 @@ Clients updating production sites directly can be a dangerous game. Setting up a
 
 Client sites often have a contact form. CloudCannon has a [Contact Forms](https://docs.cloudcannon.com/hosting/contact-forms/) feature for setting up HTML forms. When a form is submitted, the content is emailed to the client.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/contact.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/contact.png" alt:"" extend:false border:false %}
 
 ## Documentation site
 
 CloudCannon is streamlined and easy to use. However, it's often valuable to give the client instructions for common tasks to help them in a pinch. This is a great use case for the CloudCannon *Edition* template. Simply add instructions and screenshots and your client has their own documentation website.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/edition.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/edition.png" alt:"" extend:false border:false %}
 
 ## Customise the Client interface
 
 Add links to your support email and documentation (like the one mentioned above) to the client interface so your client can get help when they need it. These options are found in *Site Settings / Client Interface*.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-interface.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/client-interface.png" alt:"" extend:false border:false %}
 
 ## White Labelling
 
 The CloudCannon Pro plan allows you to custom brand the application. In *Organisation Settings / Details* you can set a colour and logos for the sidebar, client editor and sites list.
 
-![](https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/branding.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/jekyll-for-freelancers/branding.png" alt:"" extend:false border:false %}
 
 ## Summary
 

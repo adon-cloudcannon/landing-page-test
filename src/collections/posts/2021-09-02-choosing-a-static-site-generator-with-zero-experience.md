@@ -45,7 +45,7 @@ But before I get anywhere near there, I've got one more decision to make.
 
 [Jamstack.org currently lists 333 SSGs](https://jamstack.org/generators/), and that number seems to increase weekly. Rather than be paralyzed by choice I’ll select from three of the most commonly recommended for general use cases: [Hugo](https://cloudcannon.com/hugo-cms/), [Jekyll](https://cloudcannon.com/jekyll-cms/) and [Eleventy](https://cloudcannon.com/eleventy-cms/) (11ty). I've included a some data below (graph courtesy of [GitHub Statistics](https://vesoft-inc.github.io/github-statistics/)) showing the commit activity in each; you can also check out their [relative growth in GitHub stars](https://star-history.t9t.io/#jekyll/jekyll&amp;gohugoio/hugo&amp;11ty/eleventy).
 
-![](https://cc-dam.imgix.net/blog/commits.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/commits.png" alt:"" extend:false border:false %}
 
 You can further compare these three in your own time, and for your own specific use case, but a basic breakdown follows, based on a beginner's scans of their sites and general (mostly Twitter) chat around them:
 

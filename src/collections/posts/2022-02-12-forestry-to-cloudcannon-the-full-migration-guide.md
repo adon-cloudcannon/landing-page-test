@@ -110,7 +110,7 @@ Forestry’s remote admin allowed editors to manage the content of their site ri
 
 CloudCannon has a similar feature called [client sharing](https://cloudcannon.com/documentation/articles/giving-clients-access-to-update-a-site/). Instead of setting up user accounts for editors, you set up a password. Clients navigate to theirdomain.com/update, enter the password and get a white labeled interface to update the content on their site.
 
-![Screenshot of CloudCannon's client sharing feature](https://cc-dam.imgix.net/client-sharing-example.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/client-sharing-example.png" alt:"Screenshot of CloudCannon's client sharing feature" extend:false border:false %}
 
 ### Deployment
 
@@ -124,29 +124,29 @@ The similarities between Forestry and CloudCannon make it a fairly painless swit
 
 Just like Forestry, CloudCannon is a Git-based CMS. To start, sign up to CloudCannon, click “Add new site”, and select “Connect your own files.”
 
-![Screenshot of CloudCannon interface showing how you add a new site](https://cc-dam.imgix.net/cloudcannon-add-new-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-add-new-site.png" alt:"Screenshot of CloudCannon interface showing how you add a new site" extend:false border:false %}
 
 Create a name for your site.
 
-![Screenshot of CloudCannon interface where you can name your site](https://cc-dam.imgix.net/cloudcannon-name-your-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-name-your-site.png" alt:"Screenshot of CloudCannon interface where you can name your site" extend:false border:false %}
 
 Select a source for your website files. CloudCannon supports two-way Git syncing with GitHub, GitLab, and Bitbucket. Once you’ve selected your Git provider, you’ll need to authenticate it to CloudCannon.
 
-![CloudCannon screenshot of the sync files interface](https://cc-dam.imgix.net/cloudcannon-sync-files.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-sync-files.png" alt:"CloudCannon screenshot of the sync files interface" extend:false border:false %}
 
 From here, select the repository and branch that is connected to your site on Forestry. If you want to test CloudCannon out without impacting the live Forestry site, select Create new in branch setup to create a new branch. You can always merge it to your production branch at a later date.
 
-![Screenshot of CloudCannon interface where you can select your repository](https://cc-dam.imgix.net/cloudcannon-repository.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-repository.png" alt:"Screenshot of CloudCannon interface where you can select your repository" extend:false border:false %}
 
 ### 2\. Set up your SSG build
 
 CloudCannon will try to connect your SSG and configuration details based on your file structure. Review this configuration make any tweaks for your project.
 
-![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-build-site.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-build-site.png" alt:"Screenshot of CloudCannon interface" extend:false border:false %}
 
 If the build succeeds you’re ready to start configuring the editing. Otherwise, tweak your build options until you get it working. You can always reach out to our [support team](https://cloudcannon.com/documentation/support/) if you need help with any step along the way.
 
-![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-site-is-ready.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-site-is-ready.png" alt:"Screenshot of CloudCannon interface" extend:false border:false %}
 
 ### 3\. Configure the CMS
 
@@ -184,13 +184,13 @@ Furthermore, we’ve created an open-source framework called [Bookshop](https://
 
 What good is a CMS without a team to share it with? Invite everyone who needs access to the site including content editors, marketers, and developers. Guide them through the editing interfaces and they’ll be up to speed in no time.
 
-![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-invite-team.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-invite-team.png" alt:"Screenshot of CloudCannon interface" extend:false border:false %}
 
 ### 5\. Configure your hosting (optional)
 
 When a developer pushes a change to the repository or a content editor updates content on CloudCannon, CloudCannon automatically starts a build. When the build completes, it’s pushed to CloudCannon’s production-grade global hosting [which ranks among the fastest and most stable with its peers](https://cloudcannon.com/community/jamstack-hosting-comparison/). All sites on CloudCannon come with their own generated domain name which you can use as a testing or staging environment, or you can point your own domain at CloudCannon’s servers for your production website.
 
-![Screenshot of CloudCannon interface](https://cc-dam.imgix.net/cloudcannon-custom-domain.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/cloudcannon-custom-domain.png" alt:"Screenshot of CloudCannon interface" extend:false border:false %}
 
 ## Come and say hello
 

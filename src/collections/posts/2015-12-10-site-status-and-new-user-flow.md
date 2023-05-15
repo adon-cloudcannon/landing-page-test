@@ -28,7 +28,7 @@ Since our last release, we've focused on existing interfaces and adding features
 
 Users were repeatedly missing our indicator for Jekyll build errors. We've made this much more prominent in the user interface by integrated everything related to the health, state and activity of your site in one section called *Status*. The sidebar link for this section displays a quick status of your site and indicates if there is an error.
 
-![New Site Status section](https://cc-dam.imgix.net/blog/assets/blog/site-status-and-new-user-flow/site-status.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/site-status-and-new-user-flow/site-status.png" alt:"New Site Status section" extend:false border:false %}
 
 The *Status* section displays the build progress for your site in real time as CloudCannon processes it. There are site statistics and a stacked bar graph displays your file composition. Suggestions are shown for your site, such as adding a site map file or making use of specific CloudCannon features. Trailing underneath is the redesigned site activity feed.
 
@@ -38,7 +38,7 @@ We plan to improve this section over time. We will expand on the build progress,
 
 Many of our interfaces were rather underwhelming when empty, preventing some users from progressing through the app. Some new users were creating accounts without adding files to their first site. To encourage users to progress, we've added guidance text and artwork to the empty *File Browser* section.
 
-![Empty File Browser](https://cc-dam.imgix.net/blog/assets/blog/site-status-and-new-user-flow/empty-file-browser.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/site-status-and-new-user-flow/empty-file-browser.png" alt:"Empty File Browser" extend:false border:false %}
 
 Other sections will offer short descriptions and guide the user back to this section when there are no files present. We hope that these updates allow new users to discover the full potential of CloudCannon.
 
@@ -46,7 +46,7 @@ Other sections will offer short descriptions and guide the user back to this sec
 
 In addition to our *File Browser* improvements, we've consolidated our file creation options into one menu. The commonly requested feature of creating a folder within the app is also available here.
 
-![New Create Menu open](https://cc-dam.imgix.net/blog/assets/blog/site-status-and-new-user-flow/create-menu.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/site-status-and-new-user-flow/create-menu.png" alt:"New Create Menu open" extend:false border:false %}
 
 The new create menu, and other *File Browser* features are also available in the *Collections* section. Among the most notable requests, folders can be created, files can be dragged into folders and new posts/collection items are automatically opened for editing when created.
 

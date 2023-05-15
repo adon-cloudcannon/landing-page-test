@@ -80,7 +80,7 @@ suitable constraints.
 
 In the data editor it all looks like this:
 
-![](https://cc-dam.imgix.net/blog/uploads/data-editor-1.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/data-editor-1.png" alt:"" extend:false border:false %}
 
 The trouble is — or can be, for some editors — that it still feels like
 you’re filling out a form to submit for a drawing. You fill out a long
@@ -95,14 +95,14 @@ inputs on the page. We’ve extended our Visual Editor to encompass data,
 allowing editors to configure any content defined by inputs — right on the
 page at full width\! 
 
-![](https://cc-dam.imgix.net/blog/uploads/arrays-panel-1.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/arrays-panel-1.png" alt:"" extend:false border:false %}
 
 In the Visual Editor, you’ll be able to configure a group of inputs into a
 component for editing on the same panel. You can configure the editing
 options for front matter, grouping it in the way that best suits you, or
 your editors’ needs.
 
-![](https://cc-dam.imgix.net/blog/uploads/component-editor-1.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/component-editor-1.png" alt:"" extend:false border:false %}
 
 Depending on their needs, or the size of their windows and screens,
 editors can grab the drag handle and move the panel around, or use the
@@ -114,14 +114,14 @@ users.
 
 ## Working with your components visually 
 
-![](https://cc-dam.imgix.net/blog/uploads/move-component.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/move-component.png" alt:"" extend:false border:false %}
 
 Along with the Editor Panel, we’ve added a controls menu in the top right
 corner of components. The menu will help you access the panel, as well as
 move or delete a component. Simply click through to the component you want
 to access and you’ll find the menu in the top right.
 
-![](https://cc-dam.imgix.net/blog/uploads/add-new-component.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/add-new-component.png" alt:"" extend:false border:false %}
 
 The new controls also include a 'plus' button on the edges of your
 components that allows editors to clone them, or even add new components

@@ -52,59 +52,59 @@ In fact it's so easy to bring a template to CloudCannon AND make it updatable th
 
 I signed up for CloudCannon… **\[0:23\]**
 
-![CloudCannon sign up](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_1.png "CloudCannon sign up")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_1.png "CloudCannon sign up"" alt:"CloudCannon sign up" extend:false border:false %}
 
 …created a new site… **\[0:30\]**
 
-![New site](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_2.png "Creating a new site")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_2.png "Creating a new site"" alt:"New site" extend:false border:false %}
 
 …that has a folder now ready to receive my files. **\[0:47\]**
 
-![Site ready for files](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_3.png "Site ready for files")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_3.png "Site ready for files"" alt:"Site ready for files" extend:false border:false %}
 
 Then I headed over to Start Bootstrap and looked for their most popular templates… **\[0:55\]**
 
-![Start Bootstrap](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_4.png "Finding popular templates on Start Bootstrap")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_4.png "Finding popular templates on Start Bootstrap"" alt:"Start Bootstrap" extend:false border:false %}
 
 …and picked 'Grayscale'. **\[1:02\]**
 
-![Selecting 'Grayscale' template](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_5.png "Selecting Grayscale template")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_5.png "Selecting Grayscale template"" alt:"Selecting 'Grayscale' template" extend:false border:false %}
 
 I downloaded and unzipped the files… **\[1:12\]**
 
-![Unzipped template files](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_6.png "Unzipped template files")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_6.png "Unzipped template files"" alt:"Unzipped template files" extend:false border:false %}
 
 …then dragged and dropped those files into CloudCannon. **\[1:19\]**
 
-![Dragging and dropping files into CloudCannon](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_7.png "Dragging and dropping files into CloudCannon")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_7.png "Dragging and dropping files into CloudCannon"" alt:"Dragging and dropping files into CloudCannon" extend:false border:false %}
 
 When it was uploaded I opened up the Index file using the online editor… **\[2:05\]**
 
-![Open Index in online editor](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_8.png "Open Index in online editor")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_8.png "Open Index in online editor"" alt:"Open Index in online editor" extend:false border:false %}
 
 …and made all the copy on the front page editable by adding class="editable". **\[2:33\]**
 
-![Making text elements editable](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_9.png "Making text elements editable")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_9.png "Making text elements editable"" alt:"Making text elements editable" extend:false border:false %}
 
 Then I setup a password so that a client can gain access. **\[2:48\]**
 
-![Client access password](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_10.png "Client access password")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_10.png "Client access password"" alt:"Client access password" extend:false border:false %}
 
 I can see that all that juicy work is live on the web\! **\[2:53\]**
 
-![Site is live!](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_11.png "Site is live!")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_11.png "Site is live!"" alt:"Site is live!" extend:false border:false %}
 
 I can also sign in to the client editor by adding "/update" to the site address… **\[3:03\]**
 
-![Client editor sign in](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_12.png "Client editor sign in")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_12.png "Client editor sign in"" alt:"Client editor sign in" extend:false border:false %}
 
 …and make some changes. **\[3:20\]**
 
-![Updating the site copy](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_13.png "Updating the site copy")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_13.png "Updating the site copy"" alt:"Updating the site copy" extend:false border:false %}
 
 Once I hit save I can leave the client editor and see that the changes are now on the live site. **\[3:40\]**
 
-![Client updates are now live](https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_14.png "Client updates are now live")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/template-tutorial/Templating_14.png "Client updates are now live"" alt:"Client updates are now live" extend:false border:false %}
 
 Bringing templates to CloudCannon is a great way to get websites turned around for clients really REALLY quickly, while still giving them all the power of a CMS and the ease of editing that CloudCannon allows.
 

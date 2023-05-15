@@ -33,7 +33,7 @@ The U.S. government employs millions of people, many of whom are working on gove
 ## Edit me
 
 I'm going to start off with a feature that genuinely surprised and delighted me. When you click on the blue edit symbol at the bottom right of the screen, it highlights all the editable pieces of content on the page with a yellow background. Clicking on one takes you to the source Markdown file on GitHub where you can fork, update the content and submit a pull request.
-![Digital gov landing page, after pressing the edit button](https://cc-dam.imgix.net/blog/uploads/digitalgov-edit.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/digitalgov-edit.png" alt:"Digital gov landing page, after pressing the edit button" extend:false border:false %}
  Clicking the red bug icon takes you a page to create an issue on GitHub with the current page already populated.
 
 How cool is that? You have a basic CMS and bug reporting tool that any visitor to the website can use. It's a website of the people, by the people, for the people. Better yet, they still have all the advantages of a static site and haven't had to set up any extra services. The only downside I can see is throwing the average person in GitHub might be overwhelming, but this site is for a digital audience, so many of them are likely well versed with GitHub and Markdown.

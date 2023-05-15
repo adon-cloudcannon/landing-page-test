@@ -34,7 +34,7 @@ One of the main reasons that developers on CloudCannon use Snippets — and, let
 
 As always, we focus on giving everyone the tools they need to work without getting in their way. Hence the simple Snippets button you’ll see in your Markdown editing menu:
 
-![](https://cc-dam.imgix.net/blog/snippet-toolbar.webp)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/snippet-toolbar.webp" alt:"" extend:false border:false %}
 
 After choosing which Snippet to add, all you’ll need to do is fill in the relevant fields, and your new content block is inserted directly into your Markdown. Here’s the process of adding a Snippet that uses one of Hugo’s built-in shortcodes:
 

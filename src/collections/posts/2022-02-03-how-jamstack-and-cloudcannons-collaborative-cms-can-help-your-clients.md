@@ -107,11 +107,11 @@ You’re closer to your content than anyone else could be. It’s your content e
 
 Where should I start?
 
-![Netflix website on a laptop screen](https://cc-dam.imgix.net/netflix-desktop.png "Netflix website")
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/netflix-desktop.png "Netflix website"" alt:"Netflix website on a laptop screen" extend:false border:false %}
 
 [Netflix uses Jamstack](https://cloudcannon.com/customers/netflix/) (via CloudCannon) to create an extensive network of international sites to maintain and manage relationships with its customers and partners.
 
-![](https://cc-dam.imgix.net/blog/uploads/twitch-scene.jpg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/twitch-scene.jpg" alt:"" extend:false border:false %}
 
 [Twitch uses Jamstack](https://cloudcannon.com/customers/twitch/) (via CloudCannon) to deliver sites to their 30 million daily active users.
 

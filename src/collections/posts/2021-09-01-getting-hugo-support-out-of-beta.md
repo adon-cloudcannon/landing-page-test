@@ -61,7 +61,7 @@ Our docs, like our source code, were strongly coupled with Jekyll — so much so
 
 Along with the content to write, we also had to redesign our docs entirely to allow for displaying per-SSG instructions. This resulted in the tab interfaces you can see here:
 
-![Screenshot of tab user interface in CloudCannon documentation](https://cc-dam.imgix.net/blog/documentation-tabs.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/documentation-tabs.png" alt:"Screenshot of tab user interface in CloudCannon documentation" extend:false border:false %}
 
 We also used this UI element to show how to set the same thing up in different configuration languages (e.g. YAML, TOML, JSON).
 

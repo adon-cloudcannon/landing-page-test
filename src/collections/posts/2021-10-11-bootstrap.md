@@ -63,7 +63,7 @@ Keeping the markdown simple is excellent because it makes it easier for the core
 The Bootstrap documentation has three levels of navigation:
 ### Navbar
 
-![Bootstrap top navigation](https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/1-nav.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/1-nav.png" alt:"Bootstrap top navigation" extend:false border:false %}
  This is the primary navigation for the Bootstrap site and also the most simple in terms of implementation. Each link is hard coded and has an if statement to trigger the active state:
 
 {% raw %}
@@ -82,7 +82,7 @@ The Bootstrap documentation has three levels of navigation:
 
 ### Sidebar
 
-![Bootstrap side navigation](https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs.png" alt:"Bootstrap side navigation" extend:false border:false %}
  The sidebar is more tricky. It's a two-level navigation component used on documentation pages. The first level is the group title, a high-level concept with an arrow indicating it can be expanded. Clicking on the group title expands the sidebar to show the navigation items related to the group. The sidebar is populated from a [YAML data file](https://github.com/twbs/bootstrap/blob/main/site/data/sidebar.yml)\:
 
 ```yaml
@@ -155,7 +155,7 @@ Following the group title, we have the logic to render the navigation items. Fir
 One point worth noting is while it looks easy to update a navigation group or item title in the YAML file, there's more than meets the eye. The titles have `urlize` run on them to link them back to the original document as we saw. If you want to update a title for the navigation, you will also have to change the file name of the source file. Otherwise the link will break. As a small improvement, I would opt to have the slugified references in the YAML file and then have an optional front matter field in each document called `menu_title` if you want to use something other than `title` for menu items.
 ### Table of contents
 
-![Bootstrap documentation table of contents](https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs2.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs2.png" alt:"Bootstrap documentation table of contents" extend:false border:false %}
  On the right side of the most of their documentation pages, Bootstrap includes a table of contents which lists the headings on the page. It's a nice way to help users find the content they're looking for. Hugo makes generating a table of contents super straight forward, it parses the markdown and automatically makes the HTML output available with the variable `.TableOfContents`. As we saw before, some pages have a `toc` front matter variable. The Bootstrap site uses this variable to determine if the table of contents should be rendered:
 
 {% raw %}
@@ -172,7 +172,7 @@ One point worth noting is while it looks easy to update a navigation group or it
 ### Versioning
 
 Successful software frameworks like Bootstrap release many major versions of their software. Each major version likely differs enough from each other to warrant its own documentation. Bootstrap has a clever dropdown that makes it easy to switch between versions.
-![Bootstrap dropdown showing versioning](https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs3.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs3.png" alt:"Bootstrap dropdown showing versioning" extend:false border:false %}
  Clicking [All versions](https://getbootstrap.com/docs/versions/) takes you to a page with the documentation for every major and minor release going back to version 1.0 which is pretty neat. Bootstrap has an elegant way of handling this legacy content. [doc-versions.yml](https://github.com/twbs/bootstrap/blob/main/site/data/docs-versions.yml) is a data file that lists all the available versions:
 
 ```yaml
@@ -208,7 +208,7 @@ I'm a big fan of this strategy for documentation versioning for several reasons:
 ### Search
 
 Search is a great way to help users quickly find what they're looking for. There's several ways to add search to a static site. Bootstrap uses [Algolia](https://www.algolia.com/), which is hard to beat when it comes to ease of integration and search performance.
-![search query in bootstraps search box](https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs4.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/showcases/bootstrap/bootstrap-docs4.png" alt:"search query in bootstraps search box" extend:false border:false %}
  Algolia has a free tool built explicitly for documentation called [Docsearch](https://docsearch.algolia.com/). The way it works is simple:
 
 1. You enter the URL of your documentation site on the Docsearch site.

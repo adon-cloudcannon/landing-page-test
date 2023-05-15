@@ -57,13 +57,13 @@ Our first review focuses on the Developer section available in the main navigati
 1. The Status page had too many responsibilities. Over the course of the last year, we had added more functionality to the Status page, including actions to help solve build and sync errors as well as recommendations to help improve the setup of your site. These two actions are quite different tasks: one is a debugging task and the other is building improvements. We want to decouple these items and create more clarity.
 2. The Reports page showed the history of syncing/building and the editor activity on the site. A summary of the editor activity was available on the editor “Home” page, which made the full history placement in the developer navigation section feel out of place. In contrast, the reports for Sync and Builds are more aligned with the status of the site and are used when debugging issues.
 
-**![](https://cc-dam.imgix.net/blog/blog-interface-status-before.png)**
+**{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-interface-status-before.png" alt:"" extend:false border:false %}**
 
 To resolve these issues we have tidied the grouping of these navigation items.
 
 Our first update is to group all Syncing and Building status information under the “Status” page. The new tabs now show you a summary, and the Sync and Build reports allow you to dig deeper into your development history — all while remaining on the same page. The first tab shows Sync information on the left and Build information on the right, which matches the order that these two actions are run.
 
-![](https://cc-dam.imgix.net/blog/blog-interface-status-after.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-interface-status-after.png" alt:"" extend:false border:false %}
 
 If you need to look back in time, you can select the relevant tab or click on the handy “View more” links. We’ve also moved the setup information into a new interface for creating CloudCannon configuration files, which will be covered later in this article.
 
@@ -83,7 +83,7 @@ We’ve renamed the “Home” section to “Dashboard” in order to set a clea
 
 The “Usage” page shows how much bandwidth and build time has been used on this site. This will eventually be a home for additional analytics for your site's hosting. Currently it shows Build metrics, which are helpful for developers working on the site.
 
-![](https://cc-dam.imgix.net/blog/blog-interface-dashboard-before-after.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-interface-dashboard-before-after.png" alt:"" extend:false border:false %}
 
 Here are the changes we've made:
 
@@ -97,7 +97,7 @@ Publishing is displayed in the Site Navigation if a publishing branch is set wit
 
 Because of this feedback, the Publishing tab has been moved to a “Publish” button below the “Save” button. This groups all Git actions into a single location.
 
-![](https://cc-dam.imgix.net/blog/blog-interface-buttons-before-after.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-interface-buttons-before-after.png" alt:"" extend:false border:false %}
 
 ### Previewing the live site
 
@@ -123,7 +123,7 @@ Once you’ve synced and built your site, some users haven’t found it clear wh
 
 Once your new config is generated, the source editor will be opened on your new config. From here you can edit the config file further, or click “Save” to commit the new files. We have more plans in this area to make the configuration easier to learn and maintain. We’ve also open-sourced the code we use to [migrate Forestry and NetlifyCMS config files to CloudCannon config files on GitHub](https://github.com/CloudCannon/cloudcannon-config-migrator).
 
-![](https://cc-dam.imgix.net/blog/blog-interface-post-build-config.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-interface-post-build-config.png" alt:"" extend:false border:false %}
 
 ### Collection preview options
 
@@ -144,6 +144,6 @@ We’ve upgraded existing sites without breaking any functionality: in the Beta 
 
 All of the above changes are packed into the CloudCannon Beta. We have now enabled the Beta for everyone, and we’d love to hear what you think. Please continue to contact us in [Support](https://cloudcannon.com/documentation/support/) with any questions or feedback you have about the new improvements.
 
-![](https://cc-dam.imgix.net/editor-beta.jpeg)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/editor-beta.jpeg" alt:"" extend:false border:false %}
 
 This Beta release will be made publicly available at the earliest three weeks from now. This date is flexible to account for any feedback received during the Beta. We will make a note of the release on our change log before it goes live.

@@ -58,7 +58,7 @@ We’ll start by turning Client Sharing on, adding a strong password that CloudC
 
 Once that’s all done, I’ll click Update Settings, and we’re all set!
 
-![](https://cc-dam.imgix.net/client-sharing-custom.png)
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/client-sharing-custom.png" alt:"" extend:false border:false %}
 
 Now let’s jump over to the user’s view, and see where those links come in.
 

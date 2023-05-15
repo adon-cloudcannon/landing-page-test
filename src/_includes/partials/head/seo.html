@@ -32,20 +32,38 @@
     <meta property="og:type" content="website" />
 {% endif %}
 
+{% assign og_params = "" %}
+{% assign twitter_params = "" %}
 {% if seo.featured_image %}
-    <meta name="og:image" content="{{ seo.featured_image }}" />
-    <meta name="twitter:image" content="{{ seo.featured_image }}" />
+    {% if seo.featured_image contains "https://cc-dam.imgix.net/" %}
+        {% assign og_params = "?w=1200&h=650" %}
+        {% assign twitter_params = "?w=1200&h=627" %}
+    {% endif %}
+    <meta name="og:image" content="{{ seo.featured_image }}{{ og_params }}" />
+    <meta name="twitter:image" content="{{ seo.featured_image }}{{ twitter_params }}" />
     <meta name="twitter:image:alt" content="{{ seo.featured_image_alt }}" />
 {% elsif image.path %}
-    <meta name="og:image" content="{{ image.path }}" />
-    <meta name="twitter:image" content="{{ image.path }}" />
+    {% if image.path contains "https://cc-dam.imgix.net/" %}
+        {% assign og_params = "?w=1200&h=630" %}
+        {% assign twitter_params = "?w=1200&h=627" %}
+    {% endif %}
+    <meta name="og:image" content="{{ image.path }}{{ og_params }}" />
+    <meta name="twitter:image" content="{{ image.path }}{{ twitter_params }}" />
     <meta name="twitter:image:alt" content="{{ image.alt }}" />
 {% elsif image %}
-    <meta name="og:image" content="{{ image }}" />
-    <meta name="twitter:image" content="{{ image }}" />
+    {% if image contains "https://cc-dam.imgix.net/" %}
+        {% assign og_params = "?w=1200&h=630" %}
+        {% assign twitter_params = "?w=1200&h=627" %}
+    {% endif %}
+    <meta name="og:image" content="{{ image }}{{ og_params }}" />
+    <meta name="twitter:image" content="{{ image }}{{ twitter_params }}" />
 {% else %}
-    <meta name="og:image" content="{{ site.image }}" />
-    <meta name="twitter:image" content="{{site.image }}" />
+    {% if site.image contains "https://cc-dam.imgix.net/" %}
+        {% assign og_params = "?w=1200&h=630" %}
+        {% assign twitter_params = "?w=1200&h=627" %}
+    {% endif %}
+    <meta name="og:image" content="{{ site.image }}{{ og_params }}" />
+    <meta name="twitter:image" content="{{site.image }}{{ twitter_params }}" />
     <meta name="twitter:image:alt" content="{{site.image_alt }}" />
 {% endif %}
 
