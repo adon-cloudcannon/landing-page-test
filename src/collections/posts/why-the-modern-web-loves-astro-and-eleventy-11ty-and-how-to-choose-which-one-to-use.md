@@ -1,6 +1,7 @@
 ---
 _schema: default
 title: "Why the modern web loves Astro and Eleventy (11ty) –\_and how to choose which one to use"
+breadcrumb_title:
 description: >-
   Compare Astro and 11ty (Eleventy) to find out why these two static site
   generators are so powerful, and choose which one is best for your next
@@ -13,6 +14,7 @@ hide_publish_date: false
 tags:
   - Astro
   - Eleventy
+  - Resources
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
