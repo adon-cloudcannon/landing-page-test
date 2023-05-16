@@ -1,13 +1,13 @@
 ---
 _schema: default
 title: 'Astro Blogging: adding Markdown Blog Posts'
-image: https://cc-dam.imgix.net/Astro+Basics.png
+image: https://cc-dam.imgix.net/Tutorial Astro —sublessonsMarkdown.png
 order: 4
 tutorial: astro-beginners-tutorial-series
 description: In this lesson you will learn how to get started with Astro blogging.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image: https://cc-dam.imgix.net/Tutorial+Astro+%E2%80%94sublessonsMarkdown.png
   featured_image_alt: Astro blog tutorial
 ---
 We will now add some blog posts to the website we are building in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In earlier lessons, we created a new Astro site, then added a header and footer using Astro Layouts. We also added a contacts page, sourcing contact information from a JSON file within the project.

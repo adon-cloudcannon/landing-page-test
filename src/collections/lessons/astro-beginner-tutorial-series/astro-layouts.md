@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'Astro Layouts: Shared Headers, Footers and Meta'
-image: https://cc-dam.imgix.net/Astro+Basics.png
+image: https://cc-dam.imgix.net/Tutorial Astro —sublessonsLayouts.png
 order: 2
 tutorial: astro-beginners-tutorial-series
 description: >-
@@ -9,7 +9,7 @@ description: >-
   content.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image: https://cc-dam.imgix.net/Tutorial+Astro+%E2%80%94sublessonsLayouts.png
   featured_image_alt: Astro layouts tutorial
 ---
 After seeing how to spin up a new Astro site in the first installment of this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial series</a>, we now take a look at Astro layouts, styling and adding favicons. Astro layouts let us re-use content over different pages. We will use them here to add headers and footers to the site. Creating a single layout component will make changing headers and footers across all pages quick and convenient. After creating headers and footers, we’ll add styling to the menu from the previous lesson; it will actually open and close! Finally, you will see how to handle static assets in an Astro project.

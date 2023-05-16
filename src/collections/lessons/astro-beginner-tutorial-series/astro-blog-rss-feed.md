@@ -1,13 +1,13 @@
 ---
 _schema: default
 title: Astro Blog RSS Feed
-image: https://cc-dam.imgix.net/Astro Basics.png
+image: https://cc-dam.imgix.net/Tutorial Astro —sublessonRSS.png
 order: 6
 tutorial: astro-beginners-tutorial-series
 description: In this lesson you will learn how to add a blog post RSS feed in Astro.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image: https://cc-dam.imgix.net/Tutorial+Astro+%E2%80%94sublessonRSS.png
   featured_image_alt: Astro blog RSS feed tutorial
 ---
 So far in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Beginners’ tutorial</a>, all the routes on the site have been HTML pages, whether generated from Astro markup files or Markdown. In this final lesson, we see Astro can also generate non-HTML content. We focus on adding an Astro Blog RSS feed, though you can follow a similar approach to serve a PDF brochure or even some JSON data from your Astro site.

@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'Astro Content Collections: Typed Markdown'
-image: https://cc-dam.imgix.net/Astro+Basics.png
+image: https://cc-dam.imgix.net/Tutorial Astro —sublessonsContent.png
 order: 5
 tutorial: astro-beginners-tutorial-series
 description: >-
@@ -9,7 +9,7 @@ description: >-
   list of blog posts.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image: https://cc-dam.imgix.net/Tutorial+Astro+%E2%80%94sublessonsContent.png
   featured_image_alt: Astro content collections tutorial
 ---
 We are getting close to finishing the site we’re building in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In the last lesson, we added blog posts. One thing missing is a list of blog posts on the home page, to make it easier for visitors to find content. Let’s build a blog roll in this lesson while taking a deeper dive into Astro Content Collections.

@@ -1,13 +1,13 @@
 ---
 _schema: default
 title: 'Creating an Astro Site: Beginners’ Tutorial'
-image: https://cc-dam.imgix.net/Astro+Basics.png
+image: https://cc-dam.imgix.net/Tutorial Astro.png
 order: 1
 tutorial: astro-beginners-tutorial-series
 description: In this lesson you will learn how to create an Astro site.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image: https://cc-dam.imgix.net/Tutorial+Astro.png
   featured_image_alt: Astro tutorial
 ---
 ## What is Astro and what does it do differently?

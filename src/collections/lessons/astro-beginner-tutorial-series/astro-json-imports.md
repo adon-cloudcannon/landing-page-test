@@ -1,13 +1,13 @@
 ---
 _schema: default
 title: Astro JSON Imports
-image: https://cc-dam.imgix.net/Astro+Basics.png
+image: https://cc-dam.imgix.net/Tutorial Astro —sublessonsJSON.png
 order: 3
 tutorial: astro-beginners-tutorial-series
 description: In this lesson you will learn how to import JSON data in Astro.
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/Astro+Basics.png
+  featured_image: https://cc-dam.imgix.net/Tutorial+Astro+%E2%80%94sublessonsJSON.png
   featured_image_alt: Astro JSON imports tutorial
 ---
 Continuing the <a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro beginner tutorial series</a>, in this part, we will see how easy it is to add Astro JSON imports. So far, after creating the new Astro site, we added a header and footer to each page using Astro layouts. In this installment, we will add a site contact page with data sourced from a project JSON file.
