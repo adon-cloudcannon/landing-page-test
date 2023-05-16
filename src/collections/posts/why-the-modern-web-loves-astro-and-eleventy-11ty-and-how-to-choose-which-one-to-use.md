@@ -6,10 +6,10 @@ description: >-
   Compare Astro and 11ty (Eleventy) to find out why these two static site
   generators are so powerful, and choose which one is best for your next
   project.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/astro-and-11ty.png
-date: 2023-05-13T05:04:00+12:00
+date: 2023-05-17T05:04:00+12:00
 hide_publish_date: false
 tags:
   - Astro
@@ -203,13 +203,13 @@ Stability and longevity are important metrics to take into account when consider
 
 ### GitHub star history
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/star-history-202354.png" alt:"Astro and 11ty (Eleventy) GitHub star history" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/star-history-202354.png" alt: "Astro and 11ty (Eleventy) GitHub star history" extend: false border: false %}
 
 While GitHub stars are solely a metric for how many users have clicked the star button, whether to indicate a favorite repository, follow active development, recommend similar projects, or just to support friends, it is interesting to compare and contrast Astro and 11ty’s star histories. While Eleventy experienced more of a slow but sustained increase in stars, Astro gained approximately double the stars in half the time. It will be interesting to watch and see if Astro can sustain this growth. You can find an <a target="_blank" rel="noopener" href="https://star-history.com/#11ty/eleventy&amp;withastro/astro&amp;Date">up-to-date star history comparison here</a> to observe any changes.
 
 ### npm trends
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/npm-trends.png" alt:"Astro and 11ty (Eleventy) npm downloads over time" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/npm-trends.png" alt: "Astro and 11ty (Eleventy) npm downloads over time" extend: false border: false %}
 
 npm trends indicate the number of Astro and Eleventy npm downloads over time. Currently, it appears that Astro continues to experience growth in number of downloads, while Eleventy has reached a more steady rate of downloads. Again, it is interesting that Astro has outpaced Eleventy in download number despite being a relatively new framework. You can check out <a target="_blank" rel="noopener" href="https://npmtrends.com/@11ty/eleventy-vs-astro">up-to-date npm trends here</a>.
 
