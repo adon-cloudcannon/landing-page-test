@@ -10,8 +10,6 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro JSON imports tutorial
 ---
-##
-
 Continuing the <a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro beginner tutorial series</a>, in this part, we will see how easy it is to add Astro JSON imports. So far, after creating the new Astro site, we added a header and footer to each page using Astro layouts. In this installment, we will add a site contact page with data sourced from a project JSON file.
 
 JSON is a convenient data format, not only for developers, but also content creators. The files are well-structured and have an intuitive layout. Although JSON files are less intimidating than other formats, for anyone who prefers to work with graphical interfaces, we see you can even update JSON data from your CMS, in-browser. No need to open up a JSON file if you don’t want to!

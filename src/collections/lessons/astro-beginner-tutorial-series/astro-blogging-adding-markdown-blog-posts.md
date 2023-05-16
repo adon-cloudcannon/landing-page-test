@@ -10,8 +10,6 @@ seo:
   featured_image: https://cc-dam.imgix.net/Astro+Basics.png
   featured_image_alt: Astro blog tutorial
 ---
-##
-
 We will now add some blog posts to the website we are building in this&nbsp;<a target="_blank" rel="noopener" href="/tutorials/astro-beginners-tutorial-series/">Astro Tutorial</a>. In earlier lessons, we created a new Astro site, then added a header and footer using Astro Layouts. We also added a contacts page, sourcing contact information from a JSON file within the project.
 
 Turning to Astro blogging, we will source the post content from Markdown files in a project folder. We’ll take a new approach to generate the post pages. You are going to create a single blog template for all posts (instead of individual `.astro` files for each one). Astro will use the template to render the Markdown content into pages.
