@@ -4,9 +4,8 @@ title: Hugo CMS
 layout: builder.html
 permalink: /hugo-cms/
 description: >-
-  Use CloudCannon as your Hugo CMS to collaborate with your content team to
-  build the world's fastest static sites with Go templates, and manage content
-  with ease!
+  Use CloudCannon as your CMS for Hugo to build the world's fastest static sites
+  with Go templates,  collaborate with your team, and manage content with ease!
 summary: >-
   A Go-based framework for building static sites, with amazing build speed and
   flexibility.
@@ -34,7 +33,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -61,7 +60,9 @@ content_blocks:
           content:
             text_markdown: >-
               Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Hugo CMS.
+              CloudCannon as your Hugo CMS. Your whole team can collaborate to
+              create incredibly fast static sites with our intuitive visual
+              editor.
           styles:
             desktop:
               text_alignment:
@@ -144,14 +145,14 @@ content_blocks:
               justify:
                 active: false
                 align: center
-        - _bookshop_name: simple/image
+        - _bookshop_name: simple/video
           content:
-            alt: Editing a page on CloudCannon
-            image: https://cc-dam.imgix.net/ssg-hero-image-2.png
+            title: CloudCannon CMS demo video
+            url: >-
+              https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+            autoplay: true
+            loop: true
           styles:
-            border:
-            rounded:
-            ontop: true
             desktop:
               transform:
                 scale: 1
@@ -160,11 +161,11 @@ content_blocks:
                 rotate: 0
                 skew: 0
               block_alignment:
-                align_block: left
+                align_block: center
               margin:
                 top: 0
                 left: 0
-                bottom: 120
+                bottom: 90
                 right: 0
               position:
                 top: 0
@@ -206,10 +207,10 @@ content_blocks:
                 active: false
                 align_block: left
               margin:
-                active: true
+                active: false
                 top: 0
                 left: 0
-                bottom: 60
+                bottom: 0
                 right: 0
               position:
                 active: false
@@ -218,6 +219,84 @@ content_blocks:
                 bottom: 0
                 right: 0
         - _bookshop_name: simple/fold
+        - _bookshop_name: simple/image
+          content:
+            alt: G2 Awards
+            image: https://cc-dam.imgix.net/G2-awards (1).svg
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: false
+              transform:
+                scale: 0.8
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: center
+              margin:
+                top: 0
+                bottom: 120
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: true
+                hide: true
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
     styles:
       background: white
       rounded: none
@@ -737,6 +816,303 @@ content_blocks:
           left: 0
       size: normal
       align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Git-Based CMS
+      blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Stay in sync with a Git-based CMS
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      More than a headless CMS. CloudCannon's Hugo CMS helps
+                      your team stays in sync with a unified workflow.
+
+
+                      * Editors build pages visually using custom components on
+                      CloudCannon, committing back to your Git repository.
+
+                      * Create branches for significant changes to prevent
+                      blocking staging environments.
+
+                      * Review changes on a site and merge them into another
+                      branch.
+
+                      * Roll a site back with full version control of both code
+                      and content.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 30
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a demo
+                          link: https://cloudcannon.com/book-a-demo/
+                        styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Try for free
+                          link: >-
+                            https://app.cloudcannon.com/register?trial=cc_standard
+                        styles:
+                          style: outline-white
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                      justify:
+                        align: start
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Git Workflow
+                    image: https://cc-dam.imgix.net/Git+workflows-developer2.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1.2
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+          styles:
+            desktop:
+              columns:
+                type: fixed-fluid
+                width: 450
+                gap: 0
+                vertical_gap: 50
+              vertical_block_alignment:
+                v_align: top
+            tablet:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+    styles:
+      background: night
+      rounded: full
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 120
+          left: 0
   - _bookshop_name: sections/container
     content:
       label: Intuitive content editing
