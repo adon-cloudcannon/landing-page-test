@@ -1,31 +1,36 @@
 ---
-draft: false
+_schema: default
 title: The 'Islands' era
+breadcrumb_title:
 description: >-
   Concluding the epic history of static site generators, the islands era sees a
   number of SSGs bringing the advantages of partial hydration to reality.
+draft: false
 series: SSGs through the ages
+image: https://cc-dam.imgix.net/Explorer_8.jpg
+date: 2022-03-09T05:00:00+13:00
+hide_publish_date: false
+tags:
+  - Resources
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 permalink: /blog/ssg-history-8-islands/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/Explorer_8.jpg
-date: 2022-03-09T05:00:00+1300
-tags:
-  - Resources
-author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 ---
 Islands architecture or 'partial hydration' is an approach that gives the fast-loading nature of a purely static website, paired with the dynamic iterations you get from an SPA. To understand why islands architecture is such as big deal, we need a brief internet history lesson.
 
@@ -107,11 +112,11 @@ Astro "borrowed the best parts of our favorite tools and then added a few innova
 
 With Astro, you can bring your own JavaScript framework, including React, Svelte, Vue, Preact, web components, or vanilla HTML & JavaScript. On build, Astro renders the entire website to completely static HTML. Static HTML means the pages load extremely quickly with no JavaScript overhead. When you do need interactive JavaScript on a component, Astro loads just that one component. It's partial hydration or islands architecture like Elder.js. On top of that, Astro has SEO features such as automatic site maps, RSS feeds, pagination, and collections to help ensure your site ranks well.
 
-The combination of bringing your own JavaScript framework with partial hydration created tremendous hype in the community. Astro is still in beta and has already amassed a large following of 8k+ stars on GitHub, as well as taking out the [2021 Jammies Ecosystem Innovation Award](https://jamstackconf.com/jammies/). It's certainly one to watch in the future.
+The combination of bringing your own JavaScript framework with partial hydration created tremendous hype in the community. Astro is still in beta and has already amassed a large following of 8k+ stars on GitHub, as well as taking out the <a target="_blank" rel="noopener" href="https://jamstack.org/conf/jammies/">2021 Jammies Ecosystem Innovation Award</a>. It's certainly one to watch in the future.
 
 ## **[Slinkity](https://slinkity.dev/)**
 
-*First released in 2021 by [Ben Holmes](https://github.com/Holben888)*
+*First released in 2021 by <a target="_blank" rel="noopener" href="https://twitter.com/bholmesdev?lang=en">Ben Holmes</a>*
 
 If there were an award for best SSG launch video, Ben's [Slinkity announcement](https://twitter.com/BHolmesDev/status/1404426841440538627?s=20) would get my vote. Slinkity isn't an SSG in its own right. It's a plugin that extends 11ty to bring React, Vue, or Svelte magic to your static website.
 
@@ -137,7 +142,7 @@ This brings us to the end of this series (for now). The history of SSGs has been
 3. **The SPA** *(Next.js, Nuxt, Gatsby, Sveltekit)* — Bridging the gap between static and dynamic.
 4. **The full stack** *(Redwood.js, Blitz.js)* — Everything you need to build modern web applications.
 
-Which direction will win? Well, all of them\! Each direction has its own benefits and tradeoffs that make sense for particular use cases. The SSG hydra now has full coverage of the web development gamut from a simple company website to a full blown application.
+Which direction will win? Well, all of them! Each direction has its own benefits and tradeoffs that make sense for particular use cases. The SSG hydra now has full coverage of the web development gamut from a simple company website to a full blown application.
 
 As for what comes next, I think we’re already starting to see it — iterations and new SSGs that address downsides of current SSGs. Namely:
 

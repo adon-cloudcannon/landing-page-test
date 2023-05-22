@@ -1,35 +1,42 @@
 ---
-draft: false
+_schema: default
 title: Build e-commerce sites on CloudCannon with Snipcart
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-date: 2014-07-30
+breadcrumb_title:
+description:
+draft: false
+series:
+image: https://cc-dam.imgix.net/blog/uploads/blog-spilled-coin-jar.jpg
+date: 2014-07-30T12:00:00+12:00
+hide_publish_date: false
 tags:
   - Resources
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/blog/uploads/blog-spilled-coin-jar.jpg
 ---
-
 We believe the approach we’ve taken with CloudCannon CMS is the right way to remove the technical junk that web designers shouldn't have to deal with when adding content management to their website, but we’ve struggled to find anyone who has the same philosophy when it comes to e-commerce. Until now.
 
 <div class="cc-helper__h5">Behold:</div>
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/assets/blog/snipcart-response/snipcart.png" alt:"Snipcart logo" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/assets/blog/snipcart-response/snipcart.png" alt: "Snipcart logo" extend: false border: false %}
 
-[Snipcart](http://www.snipcart.com) is the solution we’ve been waiting for\! And now we reckon e-commerce on CloudCannon is going to be awesome\!
+[Snipcart](http://www.snipcart.com) is the solution we’ve been waiting for! And now we reckon e-commerce on CloudCannon is going to be awesome!
 
 ## What is Snipcart?
 
@@ -65,7 +72,7 @@ Snipcart hooks into five payment gateways - with more on the way they tell us - 
 
 ## Excellent… But how?
 
-Fran&ccedil;ois over at Snipcart has just released an [excellent tutorial](https://snipcart.com/blog/how-to-sell-online-with-cloudcannon) on setting up Snipcart on CloudCannon.
+François over at Snipcart has just released an <a target="_blank" rel="noopener" href="https://snipcart.com/blog/cms-jekyll-cloud-cannon-multilingual">excellent tutorial</a> on setting up Snipcart on CloudCannon.
 
 Side notes:
 
@@ -73,4 +80,4 @@ Side notes:
 
 * **Do tell us** if you love using Snipcart on CloudCannon so we can put extra effort into working together on a much simpler integration.
 
-Get designing, and get selling\!
+Get designing, and get selling!
