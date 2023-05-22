@@ -182,7 +182,7 @@ for (let path in blogPosts) {
 }
 ```
 
-SvelteKit components can define a [load function](https://kit.svelte.dev/docs/loading) which runs before the component is loaded. We’re using this function to execute all the promises and save the results to the page props:
+SvelteKit components can define a <a target="_blank" rel="noopener" href="https://kit.svelte.dev/docs/load">load function</a> which runs before the component is loaded. We’re using this function to execute all the promises and save the results to the page props:
 
 ```javascript
 export async function load({ url, params, fetch }) {
