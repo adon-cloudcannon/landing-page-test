@@ -934,7 +934,7 @@ content_blocks:
                       - _bookshop_name: simple/button
                         content:
                           text: Book a demo
-                          link: //https://cloudcannon.com/book-a-demo/
+                          link: https://cloudcannon.com/book-a-demo/
                         styles:
                           style: normal
                           size: normal
