@@ -61,8 +61,8 @@ content_blocks:
             text_markdown: >-
               Develop faster, edit easier, and publish confidently with
               CloudCannon as your Hugo CMS. Your whole team can collaborate to
-              create incredibly fast static sites with an intuitive visual
-              editor.
+              create incredibly fast static sites on an intuitive visual editor
+              with the best CMS for Hugo.
           styles:
             desktop:
               text_alignment:
@@ -1135,7 +1135,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow with Hugo on CloudCannon
+            text: Advance your content workflow
           styles:
             element: h2
             width: normal
@@ -1146,7 +1146,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1169,6 +1169,51 @@ content_blocks:
                 active: true
                 top: 60
                 bottom: 30
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              CloudCannon's Hugo CMS takes your web development workflow to the
+              next level.
+          styles:
+            width: large
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -2248,7 +2293,7 @@ content_blocks:
                 text_size: normal
               margin:
                 top: 0
-                bottom: 30
+                bottom: 60
               block_alignment:
                 align_block: center
             tablet:
