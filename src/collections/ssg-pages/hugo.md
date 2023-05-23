@@ -349,7 +349,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: It's all right here
+                    text: Build Hugo sites your way
                   styles:
                     element: h2
                     width: normal
@@ -386,10 +386,17 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Everything you need for content management is all on one
-                      platform. Let your team build new pages, edit them
-                      visually, and host the best performing sites on the web
-                      with the help of the CloudCannon CMS for Hugo.
+                      CloudCannon’s CMS for Hugo has everything you need to
+                      build, edit, and host the best performing sites on the
+                      web.
+
+
+                      * Focus on building custom components rather than
+                      hand-holding editors through changes.
+
+                      * Build locally with your favorite tools and frameworks.
+
+                      * Sync changes to content editors with a Git push.
                   styles:
                     desktop:
                       text_alignment:
@@ -664,7 +671,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: The best CMS for Hugo sites
+                    text: The best CMS for Hugo websites
                   styles:
                     element: h2
                     width: normal
