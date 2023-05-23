@@ -2179,6 +2179,189 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
+      label: Learning Resources
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Get started with CloudCannon's Hugo learning resources
+          styles:
+            element: h2
+            width: tight
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Need help with Hugo? Whether it's Hugo specific documentation,
+              Hugo tutorials, or Hugo themes that you're after, CloudCannon has
+              you covered!
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 30
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: Hugo Starter Guide
+                link: >-
+                  https://cloudcannon.com/documentation/guides/hugo-starter-guide/
+                description: >-
+                  Head over to our Hugo specific documentation. Get your Hugo
+                  site set up on CloudCannon. Make configuration easy so you can
+                  focus on building custom components.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: Hugo Tutorials
+                link: https://cloudcannon.com/tutorials/
+                description: >-
+                  Check out our collection of Hugo tutorials. Learn the basics
+                  with out beginners tutorial series, or dive into topics like
+                  SEO best practices, remote data files, and working with
+                  Bootstrap.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: Hugo Themes
+                link: https://cloudcannon.com/templates/
+                description: >-
+                  Build your next Hugo project with one of our Hugo templates.
+                  CloudCannon's collection of professional templates suit a wide
+                  range of use cases, and are already optimized for editing in
+                  CloudCannon.
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: caramel
+      rounded: top
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+  - _bookshop_name: sections/container
+    content:
       label: Case Studies
       blocks:
         - _bookshop_name: case-studies/row
@@ -2643,51 +2826,4 @@ content_blocks:
           left: 0
       size: normal
       align: none
-  - _bookshop_name: sections/container
-    content:
-      label:
-      blocks: []
-    styles:
-      background:
-      rounded: none
-      size: normal
-      align: none
-      shadow: false
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
 ---
