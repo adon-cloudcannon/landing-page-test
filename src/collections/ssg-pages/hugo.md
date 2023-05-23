@@ -2672,8 +2672,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Find out how leading companies are successfully leveraging
-              CloudCannon's live visual editing.
+              Find out how world leading companies are successfully leveraging
+              CloudCannon's live visual editing. Learn how the best CMS for Hugo
+              can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:
