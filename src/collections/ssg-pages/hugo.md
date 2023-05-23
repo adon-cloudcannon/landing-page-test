@@ -61,7 +61,7 @@ content_blocks:
             text_markdown: >-
               Develop faster, edit easier, and publish confidently with
               CloudCannon as your Hugo CMS. Your whole team can collaborate to
-              create incredibly fast static sites with our intuitive visual
+              create incredibly fast static sites with an intuitive visual
               editor.
           styles:
             desktop:
@@ -958,7 +958,7 @@ content_blocks:
                     desktop:
                       margin:
                         top: 0
-                        bottom: 0
+                        bottom: 60
                       justify:
                         align: start
                     tablet:
@@ -1133,75 +1133,12 @@ content_blocks:
     content:
       label: Advance your content workflow
       blocks:
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: 0
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: true
-                size: 0
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-          styles:
-            background: white
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 80
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: true
-                top: 0
-                bottom: 40
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
         - _bookshop_name: simple/heading
           content:
             text: Advance your content workflow with Hugo on CloudCannon
           styles:
             element: h2
-            width: tight
+            width: normal
             desktop:
               text_alignment:
                 align: center
@@ -1300,7 +1237,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 120
+          bottom: 330
           left: 0
       tablet:
         margin:
@@ -1334,6 +1271,69 @@ content_blocks:
     content:
       label: Open source ecosystem
       blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: -270
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: false
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+          styles:
+            background: night
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 80
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
         - _bookshop_name: sections/two-column
           content:
             left:
