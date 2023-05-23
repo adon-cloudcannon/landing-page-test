@@ -1588,7 +1588,7 @@ content_blocks:
                 type: stacked
                 width: 0
                 gap: 50
-                vertical_gap: 0
+                vertical_gap: 50
               vertical_block_alignment:
                 active: true
                 v_align: top
