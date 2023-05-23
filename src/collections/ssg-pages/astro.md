@@ -1168,17 +1168,17 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-1-sync-8.svg
+                image: https://cc-dam.imgix.net/step1.svg
               - title: Configure your Astro build
                 description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
+                  Add your environment variables, command line options, and more
+                  to automate your build.
                 link:
                   text:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-2-astro.svg
+                image: https://cc-dam.imgix.net/Step2Astro.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site using
@@ -1188,7 +1188,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+                image: https://cc-dam.imgix.net/step3.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
@@ -1200,7 +1200,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-4-live.svg
+                image: https://cc-dam.imgix.net/step4.svg
           styles:
             desktop:
               margin:
