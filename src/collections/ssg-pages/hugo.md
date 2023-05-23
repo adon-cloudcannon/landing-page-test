@@ -2680,7 +2680,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A CMS for Hugo that you can trust
+            text: A CMS for Hugo you can trust
           styles:
             element: h2
             width: normal
