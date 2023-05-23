@@ -1750,196 +1750,6 @@ content_blocks:
                 left: 0
                 bottom: 0
                 right: 0
-        - _bookshop_name: sections/container
-          content:
-            label: Want to learn more?
-            blocks:
-              - _bookshop_name: sections/two-column
-                content:
-                  left:
-                    blocks:
-                      - _bookshop_name: simple/heading
-                        content:
-                          text: Want to learn more about Hugo?
-                        styles:
-                          element: h3
-                          width: normal
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 20
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: big
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: true
-                              text_size: normal
-                            margin:
-                              active: true
-                              top: 0
-                              bottom: 15
-                      - _bookshop_name: simple/text-block
-                        content:
-                          text_markdown: >-
-                            We’ve got a range of resources to help you every
-                            step of the way.
-                        styles:
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              align_block:
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                          width: full
-                  right:
-                    blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /tutorials/
-                          text: Tutorials
-                        styles:
-                          margin:
-                            top: 0
-                            bottom: 0
-                          style: black
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /templates/
-                          text: Templates
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: >-
-                            https://cloudcannon.com/documentation/articles/hugo-starter-guide/?ssg=Hugo
-                          text: Hugo + CloudCannon Guide
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                styles:
-                  desktop:
-                    columns:
-                      type: split
-                      width: 0
-                      gap: 50
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      v_align: center
-                  tablet:
-                    columns:
-                      active: false
-                      type: split
-                      width: 0
-                      gap: 0
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-                  mobile:
-                    columns:
-                      active: true
-                      type: stacked
-                      width: 0
-                      gap: 0
-                      vertical_gap: 20
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-          styles:
-            background: night
-            rounded: full
-            size: small
-            align: center
-            desktop:
-              margin:
-                top: 100
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                top: 50
-                right: 20
-                bottom: 50
-                left: 20
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: true
-                top: 50
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 30
-                left: 0
         - _bookshop_name: simple/heading
           content:
             text: Hello World!
@@ -2089,8 +1899,170 @@ content_blocks:
                       skew: 0
               - _bookshop_name: simple/logo
                 content:
-                  logo: /src/images/logos/netflix.svg
+                  logo: https://cc-dam.imgix.net/hnry+%281%29.svg
                   name: Hnry
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Papercut-logo.svg
+                  name: Papercut
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.2
+                      translate_x: 0
+                      translate_y: -4
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Ocupop_logo.svg
+                  name: Ocupop
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Cubicflow-logo.svg
+                  name: Cubicflow
                   url:
                 styles:
                   desktop:
@@ -2671,4 +2643,51 @@ content_blocks:
           left: 0
       size: normal
       align: none
+  - _bookshop_name: sections/container
+    content:
+      label:
+      blocks: []
+    styles:
+      background:
+      rounded: none
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
 ---
