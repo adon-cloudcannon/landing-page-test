@@ -2220,9 +2220,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Need help with Hugo? Whether it's Hugo specific documentation,
-              Hugo tutorials, or Hugo themes that you're after, CloudCannon has
-              you covered!
+              Want to learn more about Hugo? Whether it's Hugo specific
+              documentation, Hugo tutorials, or Hugo themes that you're after,
+              CloudCannon has you covered!
           styles:
             width: medium
             desktop:
@@ -2407,19 +2407,19 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Hugo is widely supported by the Jamstack community, and
-                      has more than 100K live sites, largely because of its well
-                      deserved reputation for speed, simplicity and flexibility.
-                      It bills itself as “the world’s fastest static website
-                      engine”, with build times on an average site of &lt;1ms
-                      per page.
+                      Hugo is known as “the world’s fastest static website
+                      engine”, with a well deserved reputation for speed,
+                      simplicity and flexibility. Hugo is one of the fastest
+                      static site generators supported by the Jamstack
+                      community, with site builds faster than 1ms per page on an
+                      average site.
 
 
                       Distributed as a single cross-platform binary and built
-                      with Golang, Hugo lets you get up and running sooner, with
-                      built-in functionalities like menus, sitemaps, feeds, i18n
-                      and image optimization. And when it comes to
-                      themes,&nbsp;[Hugo’s got them in
+                      with Go (Golang), Hugo lets you get up and running sooner,
+                      with built-in functionalities like hugo shortcodes, menus,
+                      sitemaps, feeds, i18n and image optimization. And when it
+                      comes to themes,&nbsp;[Hugo’s got them in
                       spades](https://cloudcannon.com/blog/top-10-hugo-themes-for-2022/).
 
 
@@ -2545,8 +2545,8 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: split
-                width: 0
+                type: fluid-fixed
+                width: 700
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
