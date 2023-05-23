@@ -664,7 +664,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Works with any Hugo site
+                    text: The best CMS for Hugo sites
                   styles:
                     element: h2
                     width: normal
@@ -701,10 +701,19 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Hugo website from your Git
-                      repository, manages your build process, and enables your
-                      whole team to work together faster. Content editors can
-                      update everything with CloudCannon.
+                      CloudCannon’s CMS for Hugo makes content management easy
+                      for your marketing team and content editors.
+
+
+                      * Use custom components to build new Hugo site pages
+                      visually.
+
+                      * Share and review changes with a preview site.
+
+                      * Publish content confidently with a push of a button.
+
+                      * Make changes without bugging a developer, no technical
+                      knowledge needed.
                   styles:
                     desktop:
                       text_alignment:
@@ -867,8 +876,8 @@ content_blocks:
                       your team stays in sync with a unified workflow.
 
 
-                      * Editors build pages visually using custom components on
-                      CloudCannon, committing back to your Git repository.
+                      * Content teams commit back to your Git repository through
+                      CloudCannon's visual editor.
 
                       * Create branches for significant changes to prevent
                       blocking staging environments.
