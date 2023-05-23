@@ -1329,7 +1329,7 @@ content_blocks:
                 size: 0
             mobile:
               space:
-                active: false
+                active: true
                 size: 0
         - _bookshop_name: simple/quote
           content:
