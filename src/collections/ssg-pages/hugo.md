@@ -1135,7 +1135,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow
+            text: Advance your Hugo content workflow
           styles:
             element: h2
             width: normal
