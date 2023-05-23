@@ -1395,7 +1395,7 @@ content_blocks:
                       block_alignment:
                         align_block: left
                       margin:
-                        top: 60
+                        top: 0
                         bottom: 0
                       position:
                         top: 0
@@ -1458,7 +1458,7 @@ content_blocks:
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
                 active: false
