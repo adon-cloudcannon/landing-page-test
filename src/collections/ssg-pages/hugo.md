@@ -1606,7 +1606,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1632,8 +1632,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Take your editing team to the next level with CloudCannon’s
-              powerful content editing and publishing workflows.
+              Take your editing team to the next level with the CloudCannon Hugo
+              CMS’s powerful content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
