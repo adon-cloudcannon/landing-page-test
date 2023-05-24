@@ -1306,7 +1306,7 @@ content_blocks:
                 bottom: 0
                 left: 0
     styles:
-      background: caramel
+      background: white
       rounded: top
       desktop:
         margin:
@@ -1351,13 +1351,76 @@ content_blocks:
     content:
       label: An entire ecosystem behind you
       blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: 0
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: false
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote:
+          styles:
+            background:
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: An entire ecosystem behind you
+                    text: CloudCannon's open source ecosystem
                   styles:
                     element: h2
                     width: normal
@@ -1395,8 +1458,8 @@ content_blocks:
                   content:
                     text_markdown: >-
                       Take your editing team to the next level with
-                      CloudCannon’s powerful content editing and publishing
-                      workflows.
+                      CloudCannon’s powerful open source content editing and
+                      publishing workflows.
 
 
                       * **<a target="_blank" rel="noopener"
@@ -1539,7 +1602,7 @@ content_blocks:
             desktop:
               columns:
                 type: fixed-fluid
-                width: 450
+                width: 600
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
@@ -1565,8 +1628,8 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: night
-      rounded: none
+      background: ash
+      rounded: top
       desktop:
         margin:
           top: 0
@@ -1576,7 +1639,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -1610,69 +1673,6 @@ content_blocks:
     content:
       label: Advance your content workflow
       blocks:
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: 0
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: true
-                size: 0
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote: c0fc56a4-cf27-4474-93e2-f1d0131c9856
-          styles:
-            background: white
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 80
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: true
-                top: 0
-                bottom: 40
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
         - _bookshop_name: simple/heading
           content:
             text: Advance your content workflow with SvelteKit on CloudCannon
@@ -1768,7 +1768,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: ash
+      background: white
       rounded: top
       desktop:
         margin:
