@@ -148,7 +148,7 @@ content_blocks:
                 align: center
         - _bookshop_name: simple/video
           content:
-            title: CloudCannon cMS demo video
+            title: CloudCannon CMS demo video
             url: >-
               https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
             autoplay: true
