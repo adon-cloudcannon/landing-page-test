@@ -920,170 +920,377 @@ content_blocks:
                 left: 0
                 bottom: 0
                 right: 0
-        - _bookshop_name: sections/container
+        - _bookshop_name: simple/heading
           content:
-            label: Want to learn more?
-            blocks:
-              - _bookshop_name: sections/two-column
+            text: Trusted by world leading companies
+          styles:
+            element: h3
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 120
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/logo-ticker
+          content:
+            logo_blocks:
+              - _bookshop_name: simple/logo
                 content:
-                  left:
-                    blocks:
-                      - _bookshop_name: simple/heading
-                        content:
-                          text: Want to learn more about SvelteKit?
-                        styles:
-                          element: h3
-                          width: normal
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 20
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: big
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: true
-                              text_size: normal
-                            margin:
-                              active: true
-                              top: 0
-                              bottom: 15
-                      - _bookshop_name: simple/text-block
-                        content:
-                          text_markdown: >-
-                            We’ve got a range of resources to help you every
-                            step of the way.
-                        styles:
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              align_block:
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                          width: full
-                  right:
-                    blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /tutorials/
-                          text: Tutorials
-                        styles:
-                          margin:
-                            top: 0
-                            bottom: 0
-                          style: black
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /templates/
-                          text: Templates
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: >-
-                            https://cloudcannon.com/documentation/guides/sveltekit-starter-guide/
-                          text: SvelteKit + CloudCannon Guide
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
+                  logo: https://cc-dam.imgix.net/Netflix-og.svg
+                  name: Netflix
+                  url:
                 styles:
                   desktop:
-                    columns:
-                      type: split
-                      width: 0
-                      gap: 50
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      v_align: center
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
                   tablet:
-                    columns:
+                    visibility:
                       active: false
-                      type: split
-                      width: 0
-                      gap: 0
-                      vertical_gap: 0
-                    vertical_block_alignment:
+                      hide: true
+                    position:
                       active: false
-                      v_align: top
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
                   mobile:
-                    columns:
-                      active: true
-                      type: stacked
-                      width: 0
-                      gap: 0
-                      vertical_gap: 20
-                    vertical_block_alignment:
+                    visibility:
                       active: false
-                      v_align: top
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Twitch-og.svg
+                  name: Twitch
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.5
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/hnry-logo.svg
+                  name: Hnry
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Papercut-logo.svg
+                  name: Papercut
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.2
+                      translate_x: 0
+                      translate_y: -4
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Ocupop_logo.svg
+                  name: Ocupop
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Cubicflow-logo.svg
+                  name: Cubicflow
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
           styles:
-            background: night
-            rounded: full
-            size: small
-            align: center
+            background_mode: false
             desktop:
               margin:
-                top: 100
+                top: 0
                 right: 0
-                bottom: 0
+                bottom: 30
                 left: 0
-              padding:
-                top: 50
-                right: 20
-                bottom: 50
-                left: 20
             tablet:
               margin:
                 active: false
@@ -1091,24 +1298,12 @@ content_blocks:
                 right: 0
                 bottom: 0
                 left: 0
-              padding:
+            mobile:
+              margin:
                 active: false
                 top: 0
                 right: 0
                 bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: true
-                top: 50
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 30
                 left: 0
     styles:
       background: caramel
@@ -1911,8 +2106,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Find out how leading companies are leveraging CloudCannon's live
-              visual editing.&nbsp;
+              Find out how world leading companies are successfully leveraging
+              CloudCannon's live visual editing. Learn how the best CMS for
+              SvelteKit can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:
