@@ -1325,7 +1325,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-1-sync-6.svg
+                image: https://cc-dam.imgix.net/step1new.svg
               - title: Configure your editing
                 description: >-
                   Define your data types and give your team the ideal editing
@@ -1345,7 +1345,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+                image: https://cc-dam.imgix.net/step3new.svg
               - title: Go live with Bridgetown hosting included
                 description: >-
                   Delight your customers by hosting your Bridgetown sites on a
@@ -1355,7 +1355,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-4-live-7.svg
+                image: https://cc-dam.imgix.net/step4new.svg
           styles:
             desktop:
               margin:
