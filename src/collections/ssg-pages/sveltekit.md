@@ -967,33 +967,111 @@ content_blocks:
                         active: false
                         align: center
             right:
-              blocks: []
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Git workflow
+                    image: https://cc-dam.imgix.net/Git+workflows-developer2.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1.2
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
               columns:
-                type: split
-                width: 0
-                gap: 0
+                type: fixed-fluid
+                width: 450
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
