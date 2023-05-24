@@ -837,12 +837,12 @@ content_blocks:
                     width: normal
                     desktop:
                       text_alignment:
-                        align: center
+                        align: left
                       text_sizing:
                         text_size: big
                       margin:
                         top: 0
-                        bottom: 0
+                        bottom: 30
                     tablet:
                       text_alignment:
                         active: false
@@ -865,6 +865,107 @@ content_blocks:
                         active: false
                         top: 0
                         bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      More than a headless CMS. CloudCannon's Git-based CMS
+                      helps your team stays in sync with a unified workflow.
+
+
+                      * Content teams commit back to your Git repository through
+                      CloudCannon's visual editor.
+
+                      * Create branches for significant changes to prevent
+                      blocking staging environments.
+
+                      * Review changes on a site and merge them into another
+                      branch.
+
+                      * Roll a site back with full version control of both code
+                      and content.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 30
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a demo
+                          link: https://cloudcannon.com/book-a-demo/
+                        styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Try for free
+                          link: >-
+                            https://app.cloudcannon.com/register?trial=cc_standard
+                        styles:
+                          style: outline-white
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                      justify:
+                        align: start
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
             right:
               blocks: []
           styles:
