@@ -2270,6 +2270,37 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: SvelteKit Starter Guide
+                link: >-
+                  https://cloudcannon.com/documentation/guides/sveltekit-starter-guide/
+                description: >-
+                  Head over to our SvelteKit specific documentation. Get your
+                  Svelte site set up on CloudCannon with a starter guide. Make
+                  configuration easy so you can focus on building custom
+                  components.
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
     styles:
       background: caramel
       rounded: top
