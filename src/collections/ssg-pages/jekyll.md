@@ -1507,7 +1507,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-1-sync-3.svg
+                image: https://cc-dam.imgix.net/step1new.svg
               - title: Configure your Jekyll build
                 description: >-
                   Add your environment variables, command line options, custom
@@ -1517,7 +1517,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-2-jekyll.svg
+                image: https://cc-dam.imgix.net/step2jekyll.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site
@@ -1527,7 +1527,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+                image: https://cc-dam.imgix.net/step3new.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
@@ -1537,7 +1537,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-4-live-4.svg
+                image: https://cc-dam.imgix.net/step4new.svg
           styles:
             desktop:
               margin:
