@@ -880,7 +880,7 @@ content_blocks:
                   content:
                     text_markdown: >-
                       More than a headless CMS. CloudCannon's Hugo CMS helps
-                      your team stays in sync with a unified workflow.
+                      your team stay in sync with a unified workflow.
 
 
                       * Content teams commit back to your Git repository through

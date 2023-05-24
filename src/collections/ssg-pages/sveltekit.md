@@ -869,7 +869,7 @@ content_blocks:
                   content:
                     text_markdown: >-
                       More than a headless CMS. CloudCannon's Git-based CMS
-                      helps your team stays in sync with a unified workflow.
+                      helps your team stay in sync with a unified workflow.
 
 
                       * Content teams commit back to your Git repository through
@@ -1090,7 +1090,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 120
+          bottom: 160
           left: 0
       tablet:
         margin:
