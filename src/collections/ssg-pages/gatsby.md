@@ -1507,7 +1507,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-1-sync.svg
+                image: https://cc-dam.imgix.net/step1new.svg
               - title: Configure your Gatsby build
                 description: >-
                   Add your environment variables, command line options, custom
@@ -1517,12 +1517,12 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-2-gatsby.svg
+                image: https://cc-dam.imgix.net/step2gatsby.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team members access to update the content on the
                   site, using our Gatsby CMS — without the help of a developer.
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+                image: https://cc-dam.imgix.net/step3new.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
@@ -1532,7 +1532,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-4-live-1.svg
+                image: https://cc-dam.imgix.net/step4new.svg
           styles:
             desktop:
               margin:

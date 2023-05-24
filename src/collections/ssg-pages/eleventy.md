@@ -928,7 +928,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 1 - Sync.svg
+                image: https://cc-dam.imgix.net/step1new.svg
               - title: Configure your Eleventy build
                 description: >-
                   Add your environment variables, command line options, custom
@@ -938,7 +938,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 2- 11ty.svg
+                image: https://cc-dam.imgix.net/step2eleventy.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Start collaborating with your team. Edit content right on the
@@ -948,7 +948,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+                image: https://cc-dam.imgix.net/step3new.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
@@ -958,7 +958,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 4 - Live.svg
+                image: https://cc-dam.imgix.net/step4new.svg
           styles:
             desktop:
               margin:
