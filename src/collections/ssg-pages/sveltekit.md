@@ -982,7 +982,7 @@ content_blocks:
                 size: 0
         - _bookshop_name: simple/quote
           content:
-            case_study_quote: 611404c8-ae5c-11ed-afa1-0242ac120002
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
           styles:
             background: night
             border: false
