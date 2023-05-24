@@ -1340,7 +1340,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 80
+                bottom: 90
               block_alignment:
                 align_block: center
               transform:

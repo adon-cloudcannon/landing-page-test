@@ -745,6 +745,468 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
+      label: Advance your content workflow
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Advance your content workflow with SvelteKit on CloudCannon
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 60
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 60
+                bottom: 30
+        - _bookshop_name: simple/steps
+          content:
+            steps:
+              - title: Sync your SvelteKit site
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step1new.svg
+              - title: Configure your SvelteKit build
+                description: >-
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step2svelte.svg
+              - title: Invite your content team to collaborate
+                description: >-
+                  Give your team access to update the content on the site, using
+                  our SvelteKit CMS, and without the help of a developer.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step3new.svg
+              - title: Go live with hosting
+                description: >-
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed. Alternatively, bring your
+                  own hosting provider, and CloudCannon will handle it
+                  seamlessly.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step4new.svg
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 350
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: An entire ecosystem behind you
+      blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: -270
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: true
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: 611404c8-ae5c-11ed-afa1-0242ac120002
+          styles:
+            background: night
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 90
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: CloudCannon's open source ecosystem
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: true
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: true
+                        text_size: normal
+                      margin:
+                        active: true
+                        top: 0
+                        bottom: 15
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Take your editing team to the next level with
+                      CloudCannon’s powerful open source content editing and
+                      publishing workflows.
+
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
+                      — create component-driven development workflows and enable
+                      live rendering editing;
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://pagefind.app">Pagefind</a>** — static search
+                      that scales;
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://reseed.app/">Reseed</a>** — integrate
+                      multiple sites into a single domain;
+
+                      * **<a target="_blank" rel="noopener"
+                      href="https://rosey.app/">Rosey</a>** — manage
+                      translations for localization and i18n;
+
+                      *
+                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
+                      — granular configuration for site pagination.
+                  styles:
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block:
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    width: full
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Overview of Jamstack ecosystem
+                    image: https://cc-dam.imgix.net/newecosystem.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+          styles:
+            desktop:
+              columns:
+                type: fixed-fluid
+                width: 600
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
+            tablet:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 20
+              vertical_block_alignment:
+                active: false
+                v_align: top
+    styles:
+      background: ash
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
       label: Intuitive content editing
       blocks:
         - _bookshop_name: simple/heading
@@ -1317,469 +1779,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: An entire ecosystem behind you
-      blocks:
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: 0
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: false
-                size: 0
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote:
-          styles:
-            background:
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: CloudCannon's open source ecosystem
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
-                      margin:
-                        active: true
-                        top: 0
-                        bottom: 15
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Take your editing team to the next level with
-                      CloudCannon’s powerful open source content editing and
-                      publishing workflows.
-
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
-                      — create component-driven development workflows and enable
-                      live rendering editing;
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://pagefind.app">Pagefind</a>** — static search
-                      that scales;
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://reseed.app/">Reseed</a>** — integrate
-                      multiple sites into a single domain;
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://rosey.app/">Rosey</a>** — manage
-                      translations for localization and i18n;
-
-                      *
-                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
-                      — granular configuration for site pagination.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Overview of Jamstack ecosystem
-                    image: https://cc-dam.imgix.net/newecosystem.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-          styles:
-            desktop:
-              columns:
-                type: fixed-fluid
-                width: 600
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 20
-              vertical_block_alignment:
-                active: false
-                v_align: top
-    styles:
-      background: ash
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
           bottom: 120
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Advance your content workflow
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Advance your content workflow with SvelteKit on CloudCannon
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 60
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 60
-                bottom: 30
-        - _bookshop_name: simple/steps
-          content:
-            steps:
-              - title: Sync your SvelteKit site
-                description: Connect your GitHub, GitLab, or Bitbucket repository.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step1new.svg
-              - title: Configure your SvelteKit build
-                description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step2svelte.svg
-              - title: Invite your content team to collaborate
-                description: >-
-                  Give your team access to update the content on the site, using
-                  our SvelteKit CMS, and without the help of a developer.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with hosting
-                description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed. Alternatively, bring your
-                  own hosting provider, and CloudCannon will handle it
-                  seamlessly.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step4new.svg
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: white
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 90
           left: 0
       tablet:
         margin:
