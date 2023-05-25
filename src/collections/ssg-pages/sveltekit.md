@@ -339,33 +339,30 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everything in one place
+      label: For developers
       blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Everything in one place
+                    title: Build Svelte sites your way
+                    emoji:
+                    sub_title: CloudCannon for developers
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -374,20 +371,23 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon gives you everything you need to create and
-                      manage your content, all on one platform. Build and host
-                      the best performing sites on the web with the help of our
-                      SvelteKit CMS.
+                      Everything you need for building web applications with the
+                      best performance.
+
+
+                      * Focus on building custom components rather than
+                      hand-holding editors through changes.
+
+                      * Build locally with your favorite tools and frameworks.
+
+                      * Sync changes to content editors with a Git push.
                   styles:
                     desktop:
                       text_alignment:
@@ -395,7 +395,7 @@ content_blocks:
                       text_sizing:
                         text_size: normal
                       margin:
-                        top: 0
+                        top: 30
                         bottom: 0
                       block_alignment:
                         align_block:
@@ -577,7 +577,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with your existing SvelteKit static sites
+      label: For editors
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -660,27 +660,24 @@ content_blocks:
                         right: 0
             right:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Works with your existing SvelteKit static sites
+                    title: The best CMS for SvelteKit
+                    emoji:
+                    sub_title: For editors
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -689,27 +686,25 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your SvelteKit website from your Git
-                      repository and enables developers to work together,
-                      faster. And as for your content team, they won’t need
-                      technical knowledge. From Markdown and HTML, to sections
-                      and data files, everything can be updated by content
-                      editors with CloudCannon.
+                      Manage your content with ease using our visual content
+                      editing interface.
 
 
-                      To get started quickly, there are also a range of
-                      production-ready [SvelteKit templates](/templates/) to
-                      choose from.
+                      * Use custom components to build pages visually.
+
+                      * Share and review changes with a preview site.
+
+                      * Publish content confidently with a push of a button.
+
+                      * Make changes without bugging a developer, no technical
+                      knowledge needed.
                   styles:
                     desktop:
                       text_alignment:
@@ -1124,7 +1119,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow with SvelteKit on CloudCannon
+            text: Advance your SvelteKit content workflow
           styles:
             element: h2
             width: normal
@@ -1135,7 +1130,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1158,6 +1153,51 @@ content_blocks:
                 active: true
                 top: 60
                 bottom: 30
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              CloudCannon's CMS for SvelteKit takes your web development
+              workflow to the next level.
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -1597,7 +1637,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -2378,7 +2418,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose SvelteKit?
+                    text: Why choose SvelteKit?
                   styles:
                     element: h2
                     width: normal
@@ -2417,23 +2457,25 @@ content_blocks:
                     text_markdown: >-
                       SvelteKit is a Svelte framework for generating
                       build-optimized static sites that load only the minimal
-                      required code. With CloudCannon and SvelteKit, you can use
-                      your existing Svelte expertise to maximum advantage for
-                      your next e-commerce site, web app, or responsive
-                      marketing site.
+                      required code. Building with SvelteKit, you can use your
+                      existing Svelte expertise to maximum advantage for your
+                      next e-commerce site, web app, or responsive marketing
+                      site.
 
 
-                      SvelteKit is under active development, and is already in
-                      use powering major data visualization projects. With
-                      CloudCannon’s Git-based CMS for SvelteKit, content teams
-                      will easily build pages in our intuitive live visual
-                      editor, while developers will benefit from a performant,
-                      responsive solution.
+                      SvelteKit lets you utilise one language, the logic and
+                      templating is bundled into one file for each component.
+                      After the initial server-rendered page load, it switches
+                      by default to client-side navigation. This means faster
+                      page transitions, state that survives between pages (like
+                      the position of a sidebar's scroll bar), and less data
+                      usage.
 
 
                       Please note: CloudCannon’s SvelteKit support is focused on
-                      SvelteKit’s SSG capabilities, and as such does not include
-                      SSR.
+                      SvelteKit’s static site generation (SSG) capabilities for
+                      web development, and as such does not include server-side
+                      rendering (SSR).
                   styles:
                     desktop:
                       text_alignment:
