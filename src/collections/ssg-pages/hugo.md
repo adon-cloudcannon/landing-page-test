@@ -1581,7 +1581,7 @@ content_blocks:
                 active: true
                 v_align: top
     styles:
-      background: ash
+      background: caramel
       rounded: top
       desktop:
         margin:
@@ -2367,7 +2367,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: caramel
+      background: sea
       rounded: top
       size: normal
       align: none
