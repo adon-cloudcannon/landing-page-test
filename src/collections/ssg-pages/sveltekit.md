@@ -2286,6 +2286,30 @@ content_blocks:
                   Svelte site set up on CloudCannon with a starter guide. Make
                   configuration easy so you can focus on building custom
                   components.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: SvelteKit beginner tutorial
+                link: https://cloudcannon.com/tutorials/sveltekit-beginner-tutorial/
+                description: >-
+                  Learn the basics of SvelteKit in this 7-part tutorial series.
+                  Go through everything at your own pace, from getting set up to
+                  working with layouts, components, templating, blogging, data
+                  files, and social sharing.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: SvelteKit templates
+                link: https://cloudcannon.com/templates/
+                description: >-
+                  Explore our library of free CloudCannon-ready themes for your
+                  Svelte project. Deploy it to CloudCannon with a single click,
+                  and you're all ready to start using our Visual Editor
+                  interface.
           styles:
             desktop:
               margin:
