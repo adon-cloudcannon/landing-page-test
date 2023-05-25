@@ -2,7 +2,9 @@
 _schema: default
 title: Eleventy vs. Gatsby in the Netlify era – which SSG is best for you?
 breadcrumb_title: 11ty vs Gatsby
-description:
+description: >-
+  Compare 11ty (Eleventy) and Gatsby to find out why these two static site
+  generators are so powerful, and choose which one to use for your next project.
 draft: true
 series:
 image: https://cc-dam.imgix.net/11ty vs. Gatsby (1).png
@@ -32,11 +34,11 @@ seo:
   featured_image: https://cc-dam.imgix.net/11ty vs. Gatsby (1).png
   featured_image_alt: 11ty vs. Gatsby
 ---
-With Netlify’s recent <a target="_blank" rel="noopener" href="https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/">acquisition of Gatsby Inc</a>, and their sponsorship last year of <a target="_blank" rel="noopener" href="https://www.11ty.dev/blog/eleventy-oss/">full-time open-source development on Eleventy (11ty)</a>, it’s an exciting time to be choosing a new static site generator (SSG) — particularly if and when Netlify makes Gatsby’s composable architecture primitives available across the web. While GatsbyJS has certainly carved out a name for itself in the Jamstack community, for certain use cases its single-page application (SPA) approach is being challenged by lighter-weight static site generators such as Eleventy.
+With Netlify’s recent <a target="_blank" href="https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/">acquisition of Gatsby Inc</a>, and their sponsorship last year of <a target="_blank" href="https://www.11ty.dev/blog/eleventy-oss/">full-time open-source development on Eleventy (11ty)</a>, it’s an exciting time to be choosing a new static site generator (SSG) — particularly if and when Netlify makes Gatsby’s composable architecture primitives available across the web. While GatsbyJS has certainly carved out a name for itself in the Jamstack community, for certain use cases its single-page application (SPA) approach is being challenged by lighter-weight static site generators such as Eleventy.
 
-Eleventy’s <a target="_blank" rel="noopener" href="https://www.11ty.dev/docs/plugins/partial-hydration/">recent adoption of interactive island architecture</a> means that this previously purely static site generator can more effectively compete with heavyweight frameworks like Gatsby. 11ty’s use of progressive enhancement and multi-page application (MPA) approach to web development makes it easier than ever to achieve top Lighthouse scores, which is often a challenging feat using Gatsby. What’s more, Eleventy is well known for easy site migrations owing to its framework-agnostic approach and its focus on flexibility. So let’s compare 11ty vs. Gatsby to find out whether its worth making the switch from one to the other or, if you’re just starting out, which technology you should choose.
+Eleventy’s <a target="_blank" href="https://www.11ty.dev/docs/plugins/partial-hydration/">recent adoption of interactive island architecture</a> means that this previously purely static site generator can more effectively compete with heavyweight frameworks like Gatsby. 11ty’s use of progressive enhancement and multi-page application (MPA) approach to web development makes it easier than ever to achieve top Lighthouse scores, which is often a challenging feat using Gatsby. What’s more, Eleventy is well known for easy site migrations owing to its framework-agnostic approach and its focus on flexibility. So let’s compare 11ty vs. Gatsby to find out whether its worth making the switch from one to the other or, if you’re just starting out, which technology you should choose.
 
-Whichever SSG you choose, with CloudCannon’s&nbsp;**<a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a>**&nbsp;and **<a target="_blank" rel="noopener" href="https://cloudcannon.com/gatsby-cms/">Gatsby</a>** support, you and your team can benefit from flexible development tooling, accessible content management, and visual page building and content editing. Now that CloudCannon’s&nbsp;**<a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/">Eleventy support</a>**&nbsp;and **<a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/full-cloudcannon-support-for-gatsby/">Gatsby support</a>** have both been released out of beta, there’s no better time to get started on a new project.
+Whichever SSG you choose, with CloudCannon’s&nbsp;**<a target="_blank" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a>**&nbsp;and **<a target="_blank" href="https://cloudcannon.com/gatsby-cms/">Gatsby</a>** support, you and your team can benefit from flexible development tooling, accessible content management, and visual page building and content editing. Now that CloudCannon’s&nbsp;**<a target="_blank" href="https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/">Eleventy support</a>**&nbsp;and **<a target="_blank" href="https://cloudcannon.com/blog/full-cloudcannon-support-for-gatsby/">Gatsby support</a>** have both been released out of beta, there’s no better time to get started on a new project.
 
 ## What is Eleventy?
 
@@ -44,14 +46,14 @@ Eleventy (11ty) is the “simpler static site generator” that focuses on speed
 
 Now for the flexibility. Eleventy exploits the flexibility of 11 different template languages, without tying you up to any client-side frameworks (although you can still choose to use a framework in 11ty if you like). Eleventy lets you mix and match HTML, Markdown, WebC, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, and Pug for templating. Eleventy also offers flexible configuration options and incremental adoption, making it easy to work with your project’s existing directory structure.
 
-Eleventy’s simplicity and customizability flattens the learning curve for getting started; this static site generator effectively adapts to you and your preferences. With Eleventy you can build static sites your way, with full control over the performance of your website and the option to extend complexity as needed. Learning to use 11ty is made easier with helpful **<a target="_blank" rel="noopener" href="https://www.11ty.dev/docs/">documentation</a>** and an active community of passionate developers answering questions, and sharing starters (11ty’s term for structured themes) and plugins. Eleventy is ideal for use cases such as marketing websites with progressive enhancement, blogs, portfolios, documentation sites, and mostly static ecommerce websites.
+Eleventy’s simplicity and customizability flattens the learning curve for getting started; this static site generator effectively adapts to you and your preferences. With Eleventy you can build static sites your way, with full control over the performance of your website and the option to extend complexity as needed. Learning to use 11ty is made easier with helpful **<a target="_blank" href="https://www.11ty.dev/docs/">documentation</a>** and an active community of passionate developers answering questions, and sharing starters (11ty’s term for structured themes) and plugins. Eleventy is ideal for use cases such as marketing websites with progressive enhancement, blogs, portfolios, documentation sites, and mostly static ecommerce websites.
 
 ### Sites made with 11ty
 
-* <a target="_blank" rel="noopener" href="https://12daysofweb.dev/">12daysofweb.dev</a>
-* <a target="_blank" rel="noopener" href="https://css-irl.info/">css-irl.info</a>
-* <a target="_blank" rel="noopener" href="https://chromatichq.com/">chromatichq.com</a>
-* <a target="_blank" rel="noopener" href="https://www.zachleat.com/">zachleat.com</a>
+* <a target="_blank" href="https://12daysofweb.dev/">12daysofweb.dev</a>
+* <a target="_blank" href="https://css-irl.info/">css-irl.info</a>
+* <a target="_blank" href="https://chromatichq.com/">chromatichq.com</a>
+* <a target="_blank" href="https://www.zachleat.com/">zachleat.com</a>
 
 ## What is Gatsby.js?
 
@@ -65,10 +67,10 @@ Gatsby’s well-established position in the world of web development makes for a
 
 ### Sites made with Gatsby
 
-* <a target="_blank" rel="noopener" href="https://ahrefs.com/">ahrefs.com</a>
-* <a target="_blank" rel="noopener" href="https://calendly.com/">calendly.com</a>
-* <a target="_blank" rel="noopener" href="https://bitwarden.com/">bitwarden.com</a>
-* <a target="_blank" rel="noopener" href="https://ably.com/">ably.com</a>
+* <a target="_blank" href="https://ahrefs.com/">ahrefs.com</a>
+* <a target="_blank" href="https://calendly.com/">calendly.com</a>
+* <a target="_blank" href="https://bitwarden.com/">bitwarden.com</a>
+* <a target="_blank" href="https://ably.com/">ably.com</a>
 
 ## 11ty vs. Gatsby at a glance
 
@@ -183,28 +185,28 @@ Gatsby’s well-established position in the world of web development makes for a
 					</tr>
 					<tr>
 						<td>Documentation</td>
-						<td><a target="_blank" rel="noopener" href="https://www.11ty.dev/">11ty.dev</a></td>
-						<td><a target="_blank" rel="noopener" href="https://www.gatsbyjs.com/docs/">gatsbyjs.com</a></td>
+						<td><a target="_blank" href="https://www.11ty.dev/">11ty.dev</a></td>
+						<td><a target="_blank" href="https://www.gatsbyjs.com/docs/">gatsbyjs.com</a></td>
 					</tr>
 					<tr>
 						<td>GitHub repos</td>
-						<td><a target="_blank" rel="noopener" href="https://github.com/11ty/eleventy/">github.com/11ty/eleventy</a></td>
-						<td><a target="_blank" rel="noopener" href="https://github.com/gatsbyjs/gatsby">github.com/gatsbyjs/gatsby</a></td>
+						<td><a target="_blank" href="https://github.com/11ty/eleventy/">github.com/11ty/eleventy</a></td>
+						<td><a target="_blank" href="https://github.com/gatsbyjs/gatsby">github.com/gatsbyjs/gatsby</a></td>
 					</tr>
 					<tr>
 						<td>Support communities</td>
-						<td><a target="_blank" rel="noopener" href="https://discord.com/invite/GBkBy9u">Eleventy Discord</a></td>
-						<td><a target="_blank" rel="noopener" href="https://discord.com/invite/br9rbUE">Gatsby Discord</a></td>
+						<td><a target="_blank" href="https://discord.com/invite/GBkBy9u">Eleventy Discord</a></td>
+						<td><a target="_blank" href="https://discord.com/invite/br9rbUE">Gatsby Discord</a></td>
 					</tr>
 					<tr>
 						<td>Twitter accounts</td>
-						<td><a target="_blank" rel="noopener" href="https://twitter.com/eleven_ty">Eleventy Twitter</a></td>
-						<td><a target="_blank" rel="noopener" href="https://twitter.com/gatsbyjs">Gatsby Twitter</a></td>
+						<td><a target="_blank" href="https://twitter.com/eleven_ty">Eleventy Twitter</a></td>
+						<td><a target="_blank" href="https://twitter.com/gatsbyjs">Gatsby Twitter</a></td>
 					</tr>
 					<tr>
 						<td>CloudCannon support</td>
-						<td>Yes — you can get <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> sites editable in minutes with CloudCannon.</td>
-						<td>Yes — you can get <a target="_blank" rel="noopener" href="https://cloudcannon.com/gatsby-cms/">Gatsby</a> sites editable in minutes with CloudCannon.</td>
+						<td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> sites editable in minutes with CloudCannon.</td>
+						<td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/gatsby-cms/">Gatsby</a> sites editable in minutes with CloudCannon.</td>
 					</tr>
 				</tbody>
 			</table>
@@ -223,4 +225,4 @@ It is also worth nothing that while Gatsby’s composable architecture primitive
 
 Whether you choose Eleventy or Gatsby for your next static site, CloudCannon is here to help make static site generation even easier, with instant (and free) testing domains and a robust Visual Editor. Our focus is, and always has been, making content editing and production more accessible to everyone, no matter the use case. With CloudCannon’s Git-based CMS, your content team can build and edit site pages in our intuitive Visual Editor, while developers enjoy our flexible approach to configuration and content management.
 
-We have published both an&nbsp;**<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/">Eleventy starter guide</a>**&nbsp;and a **<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/gatsby-starter-guide/">Gatsby starter guide</a>** to help you get your project set up in CloudCannon with ease. Or if you’re just getting started with 11ty for the first time, we have a comprehensive&nbsp;**<a target="_blank" rel="noopener" href="https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/">Eleventy beginner tutorial</a>**&nbsp;series to lend you a helping hand while you learn.
+We have published both an&nbsp;**<a target="_blank" href="https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/">Eleventy starter guide</a>**&nbsp;and a **<a target="_blank" href="https://cloudcannon.com/documentation/guides/gatsby-starter-guide/">Gatsby starter guide</a>** to help you get your project set up in CloudCannon with ease. Or if you’re just getting started with 11ty for the first time, we have a comprehensive&nbsp;**<a target="_blank" href="https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/">Eleventy beginner tutorial</a>**&nbsp;series to lend you a helping hand while you learn.
