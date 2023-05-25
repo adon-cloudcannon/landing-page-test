@@ -58,9 +58,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your SvelteKit CMS, your whole team can
-              collaborate to create incredible static sites with Svelte
-              components.
+              Develop faster, edit easier, and publish confidently with
+              CloudCannon as your SvelteKit CMS. Your whole team can collaborate
+              to create incredible static sites with Svelte components.
           styles:
             desktop:
               text_alignment:
@@ -395,7 +395,7 @@ content_blocks:
                       text_sizing:
                         text_size: normal
                       margin:
-                        top: 30
+                        top: 0
                         bottom: 0
                       block_alignment:
                         align_block:
