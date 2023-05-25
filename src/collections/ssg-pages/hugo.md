@@ -341,33 +341,30 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everything you need
+      label: For developers
       blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Build Hugo sites your way
+                    title: Build Hugo sites your way
+                    emoji:
+                    sub_title: CloudCannon for developers
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -376,13 +373,10 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -586,7 +580,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Eleventy site
+      label: For editors
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -669,27 +663,24 @@ content_blocks:
                         right: 0
             right:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: The best CMS for Hugo websites
+                    title: The best CMS for Hugo websites
+                    emoji:
+                    sub_title: CloudCannon for editors
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -698,13 +689,10 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
