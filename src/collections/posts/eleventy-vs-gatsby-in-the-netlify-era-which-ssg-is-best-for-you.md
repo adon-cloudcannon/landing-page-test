@@ -7,7 +7,7 @@ description: >-
   generators are so powerful, and choose which one to use for your next project.
 draft: true
 series:
-image: https://cc-dam.imgix.net/11ty vs. Gatsby (1).png
+image: https://cc-dam.imgix.net/11ty-vs-gatsby.png
 date: 2023-05-27T05:01:00+12:00
 hide_publish_date: false
 tags:
@@ -31,7 +31,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/11ty vs. Gatsby (1).png
+  featured_image: https://cc-dam.imgix.net/11ty-vs-gatsby.png
   featured_image_alt: 11ty vs. Gatsby
 ---
 With Netlify’s recent <a target="_blank" href="https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/">acquisition of Gatsby Inc</a>, and their sponsorship last year of <a target="_blank" href="https://www.11ty.dev/blog/eleventy-oss/">full-time open-source development on Eleventy (11ty)</a>, it’s an exciting time to be choosing a new static site generator (SSG) — particularly if and when Netlify makes Gatsby’s composable architecture primitives available across the web. While GatsbyJS has certainly carved out a name for itself in the Jamstack community, for certain use cases its single-page application (SPA) approach is being challenged by lighter-weight static site generators such as Eleventy.
@@ -74,142 +74,7 @@ Gatsby’s well-established position in the world of web development makes for a
 
 ## 11ty vs. Gatsby at a glance
 
-<table>
-				<thead>
-					<tr>
-						<th> </th>
-						<th>Eleventy</th>
-						<th>Gatsby</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>First release</td>
-						<td>2018</td>
-						<td>2015</td>
-					</tr>
-					<tr>
-						<td>GitHub stars</td>
-						<td>13k+</td>
-						<td>54k+</td>
-					</tr>
-					<tr>
-						<td>Licence</td>
-						<td>MIT</td>
-						<td>MIT</td>
-					</tr>
-					<tr>
-						<td>Build speeds</td>
-						<td>Faster</td>
-						<td>Slower</td>
-					</tr>
-					<tr>
-						<td>Built with</td>
-						<td>JavaScript</td>
-						<td>JavaScript</td>
-					</tr>
-					<tr>
-						<td>Templating language(s)</td>
-						<td>JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, WebC</td>
-						<td>JSX</td>
-					</tr>
-					<tr>
-						<td>Supported UI frameworks</td>
-						<td>Petite Vue, Vue, Svelte, Preact, Lit, Alpine.js</td>
-						<td>JSX</td>
-					</tr>
-					<tr>
-						<td>Installation requirements</td>
-						<td>Node.js must be installed</td>
-						<td>Node.js, Git &amp; Gatsby CLI must be installed</td>
-					</tr>
-					<tr>
-						<td>Plugins</td>
-						<td>Yes</td>
-						<td>Yes — many</td>
-					</tr>
-					<tr>
-						<td>Themes / Templates / Starters</td>
-						<td>Yes (starters)</td>
-						<td>Yes (themes)</td>
-					</tr>
-					<tr>
-						<td>Easy WordPress / legacy converter</td>
-						<td>No; you’ll need to convert to Markdown and then clean up your content</td>
-						<td>No; you’ll need to convert to Markdown and then clean up your content</td>
-					</tr>
-					<tr>
-						<td>Disable runtime JS</td>
-						<td>No runtime JS required by default</td>
-						<td>Yes, via plugin</td>
-					</tr>
-					<tr>
-						<td>Data Fetching</td>
-						<td>Yes</td>
-						<td>Yes</td>
-					</tr>
-					<tr>
-						<td>Internationalization (i18n)</td>
-						<td>Yes, via plugin</td>
-						<td>Yes, via plugin</td>
-					</tr>
-					<tr>
-						<td>Hot reloading</td>
-						<td>Yes</td>
-						<td>Yes</td>
-					</tr>
-					<tr>
-						<td>Code splitting</td>
-						<td>Manual</td>
-						<td>Automatic</td>
-					</tr>
-					<tr>
-						<td>Image optimization</td>
-						<td>Yes, via separate dependency</td>
-						<td>Yes, via plugin</td>
-					</tr>
-					<tr>
-						<td>Environment variables</td>
-						<td>Yes</td>
-						<td>Yes</td>
-					</tr>
-					<tr>
-						<td>Content security policy</td>
-						<td>Custom HTTP headers rules</td>
-						<td>Via gatsby-plugin-csp</td>
-					</tr>
-					<tr>
-						<td>Learning curve</td>
-						<td>Easy; it will help to have JavaScript experience</td>
-						<td>Moderate; it will help to have React &amp; GraphQL experience</td>
-					</tr>
-					<tr>
-						<td>Documentation</td>
-						<td><a target="_blank" href="https://www.11ty.dev/">11ty.dev</a></td>
-						<td><a target="_blank" href="https://www.gatsbyjs.com/docs/">gatsbyjs.com</a></td>
-					</tr>
-					<tr>
-						<td>GitHub repos</td>
-						<td><a target="_blank" href="https://github.com/11ty/eleventy/">github.com/11ty/eleventy</a></td>
-						<td><a target="_blank" href="https://github.com/gatsbyjs/gatsby">github.com/gatsbyjs/gatsby</a></td>
-					</tr>
-					<tr>
-						<td>Support communities</td>
-						<td><a target="_blank" href="https://discord.com/invite/GBkBy9u">Eleventy Discord</a></td>
-						<td><a target="_blank" href="https://discord.com/invite/br9rbUE">Gatsby Discord</a></td>
-					</tr>
-					<tr>
-						<td>Twitter accounts</td>
-						<td><a target="_blank" href="https://twitter.com/eleven_ty">Eleventy Twitter</a></td>
-						<td><a target="_blank" href="https://twitter.com/gatsbyjs">Gatsby Twitter</a></td>
-					</tr>
-					<tr>
-						<td>CloudCannon support</td>
-						<td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> sites editable in minutes with CloudCannon.</td>
-						<td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/gatsby-cms/">Gatsby</a> sites editable in minutes with CloudCannon.</td>
-					</tr>
-				</tbody>
-			</table>
+<table><thead><tr><th> </th><th>Eleventy</th><th>Gatsby</th></tr></thead><tbody><tr><td>First release</td><td>2018</td><td>2015</td></tr><tr><td>GitHub stars</td><td>13k+</td><td>54k+</td></tr><tr><td>Licence</td><td>MIT</td><td>MIT</td></tr><tr><td>Build speeds</td><td>Faster</td><td>Slower</td></tr><tr><td>Built with</td><td>JavaScript</td><td>JavaScript</td></tr><tr><td>Templating language(s)</td><td>JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, WebC</td><td>JSX</td></tr><tr><td>Supported UI frameworks</td><td>Petite Vue, Vue, Svelte, Preact, Lit, Alpine.js</td><td>JSX</td></tr><tr><td>Installation requirements</td><td>Node.js must be installed</td><td>Node.js, Git &amp; Gatsby CLI must be installed</td></tr><tr><td>Plugins</td><td>Yes</td><td>Yes — many</td></tr><tr><td>Themes / Templates / Starters</td><td>Yes (starters)</td><td>Yes (themes)</td></tr><tr><td>Easy WordPress / legacy converter</td><td>No; you’ll need to convert to Markdown and then clean up your content</td><td>No; you’ll need to convert to Markdown and then clean up your content</td></tr><tr><td>Disable runtime JS</td><td>No runtime JS required by default</td><td>Yes, via plugin</td></tr><tr><td>Data Fetching</td><td>Yes</td><td>Yes</td></tr><tr><td>Internationalization (i18n)</td><td>Yes, via plugin</td><td>Yes, via plugin</td></tr><tr><td>Hot reloading</td><td>Yes</td><td>Yes</td></tr><tr><td>Code splitting</td><td>Manual</td><td>Automatic</td></tr><tr><td>Image optimization</td><td>Yes, via separate dependency</td><td>Yes, via plugin</td></tr><tr><td>Environment variables</td><td>Yes</td><td>Yes</td></tr><tr><td>Content security policy</td><td>Custom HTTP headers rules</td><td>Via gatsby-plugin-csp</td></tr><tr><td>Learning curve</td><td>Easy; it will help to have JavaScript experience</td><td>Moderate; it will help to have React &amp; GraphQL experience</td></tr><tr><td>Documentation</td><td><a target="_blank" href="https://www.11ty.dev/">11ty.dev</a></td><td><a target="_blank" href="https://www.gatsbyjs.com/docs/">gatsbyjs.com</a></td></tr><tr><td>GitHub repos</td><td><a target="_blank" href="https://github.com/11ty/eleventy/">github.com/11ty/eleventy</a></td><td><a target="_blank" href="https://github.com/gatsbyjs/gatsby">github.com/gatsbyjs/gatsby</a></td></tr><tr><td>Support communities</td><td><a target="_blank" href="https://discord.com/invite/GBkBy9u">Eleventy Discord</a></td><td><a target="_blank" href="https://discord.com/invite/br9rbUE">Gatsby Discord</a></td></tr><tr><td>Twitter accounts</td><td><a target="_blank" href="https://twitter.com/eleven_ty">Eleventy Twitter</a></td><td><a target="_blank" href="https://twitter.com/gatsbyjs">Gatsby Twitter</a></td></tr><tr><td>CloudCannon support</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> sites editable in minutes with CloudCannon.</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/gatsby-cms/">Gatsby</a> sites editable in minutes with CloudCannon.</td></tr></tbody></table>
 
 ## Which should I choose?
 
