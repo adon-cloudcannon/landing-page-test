@@ -662,7 +662,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for SvelteKit
+                    title: The best CMS for Svelte
                     emoji:
                     sub_title: For editors
                   styles:
@@ -1156,8 +1156,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's CMS for SvelteKit takes your web development
-              workflow to the next level.
+              CloudCannon's Svelte CMS takes your web development workflow to
+              the next level.
           styles:
             width: medium
             desktop:
