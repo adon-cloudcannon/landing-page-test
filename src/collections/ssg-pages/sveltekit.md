@@ -2670,7 +2670,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A SvelteKit CMS you can trust
+            text: A Svelte CMS you can trust
           styles:
             element: h2
             width: normal
