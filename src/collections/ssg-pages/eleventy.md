@@ -1122,7 +1122,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow with Eleventy on CloudCannon
+            text: Advance your Eleventy content workflow
           styles:
             element: h2
             width: tight
@@ -2534,7 +2534,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Eleventy is billed as the “simpler static site generator”,
+                      Eleventy is billed as the 'simpler static site generator',
                       and was created as a zero-config JavaScript alternative to
                       Jekyll. It has a growing reputation for its ease of use:
                       it works well with existing project files and multiple
@@ -2544,7 +2544,9 @@ content_blocks:
 
                       Eleventy is fast, lets you stay flexible, doesn’t require
                       any client-side JavaScript, and doesn’t require you to
-                      learn any specific frameworks like Vue or React.
+                      learn any specific frameworks like Vue or React. You can
+                      integrate a plethora of eleventy plugins to customize your
+                      11ty project.
 
 
                       Built with JavaScript and easily installed via npm,
@@ -2714,7 +2716,7 @@ content_blocks:
               CloudCannon's live visual editing. Learn how the best CMS for 11ty
               can help you and your team.&nbsp;
           styles:
-            width: full
+            width: medium
             desktop:
               text_alignment:
                 align: center
