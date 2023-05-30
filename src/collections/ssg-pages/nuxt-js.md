@@ -510,7 +510,7 @@ content_blocks:
               columns:
                 type: fixed-fluid
                 width: 450
-                gap: 30
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -751,7 +751,7 @@ content_blocks:
               columns:
                 type: fluid-fixed
                 width: 450
-                gap: 30
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: center
@@ -1796,132 +1796,6 @@ content_blocks:
                 left: 0
                 bottom: 0
                 right: 0
-        - _bookshop_name: sections/container
-          content:
-            label: Want to learn more?
-            blocks:
-              - _bookshop_name: sections/two-column
-                content:
-                  left:
-                    blocks:
-                      - _bookshop_name: simple/heading
-                        content:
-                          text: Want to learn more about Nuxt.js?
-                        styles:
-                          element: h3
-                          width: normal
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 20
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: big
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: true
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                  right:
-                    blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: https://cloudcannon.com/documentation/?ssg=Nuxt.js
-                          text: CloudCannon documentation for Nuxt.js
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                styles:
-                  desktop:
-                    columns:
-                      type: split
-                      width: 0
-                      gap: 50
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      v_align: center
-                  tablet:
-                    columns:
-                      active: false
-                      type: split
-                      width: 0
-                      gap: 0
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-                  mobile:
-                    columns:
-                      active: true
-                      type: stacked
-                      width: 0
-                      gap: 0
-                      vertical_gap: 20
-                    vertical_block_alignment:
-                      active: false
-                      v_align: top
-          styles:
-            background: night
-            rounded: full
-            size: small
-            align: center
-            desktop:
-              margin:
-                top: 100
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                top: 50
-                right: 20
-                bottom: 50
-                left: 20
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: true
-                top: 50
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 30
-                left: 0
         - _bookshop_name: simple/heading
           content:
             text: Trusted by world leading companies
@@ -2319,7 +2193,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -2452,203 +2326,6 @@ content_blocks:
                         active: false
                         align_block: left
                     width: full
-                - _bookshop_name: sections/container
-                  content:
-                    label: Documentation
-                    blocks:
-                      - _bookshop_name: sections/two-column
-                        content:
-                          left:
-                            blocks:
-                              - _bookshop_name: simple/heading
-                                content:
-                                  text: Want to learn more about Nuxt.js?
-                                styles:
-                                  element: h3
-                                  width: normal
-                                  desktop:
-                                    text_alignment:
-                                      align: left
-                                    text_sizing:
-                                      text_size: normal
-                                    margin:
-                                      top: 0
-                                      bottom: 0
-                                  tablet:
-                                    text_alignment:
-                                      active: false
-                                      align: center
-                                    text_sizing:
-                                      active: false
-                                      text_size: big
-                                    margin:
-                                      active: false
-                                      top: 0
-                                      bottom: 0
-                                  mobile:
-                                    text_alignment:
-                                      active: false
-                                      align: center
-                                    text_sizing:
-                                      active: false
-                                      text_size: big
-                                    margin:
-                                      active: false
-                                      top: 0
-                                      bottom: 0
-                              - _bookshop_name: simple/text-block
-                                content:
-                                  text_markdown: >-
-                                    Head over to CloudCannon's documentation
-                                    site with Nextjs specific callouts.
-                                styles:
-                                  width: full
-                                  desktop:
-                                    text_alignment:
-                                      align: left
-                                    text_sizing:
-                                      text_size: normal
-                                    margin:
-                                      top: 30
-                                      bottom: 0
-                                    block_alignment:
-                                      align_block: center
-                                  tablet:
-                                    text_alignment:
-                                      active: false
-                                      align: left
-                                    text_sizing:
-                                      active: false
-                                      text_size: normal
-                                    margin:
-                                      active: false
-                                      top: 0
-                                      bottom: 0
-                                    block_alignment:
-                                      active: false
-                                      align_block: left
-                                  mobile:
-                                    text_alignment:
-                                      active: false
-                                      align: left
-                                    text_sizing:
-                                      active: false
-                                      text_size: normal
-                                    margin:
-                                      active: false
-                                      top: 0
-                                      bottom: 0
-                                    block_alignment:
-                                      active: false
-                                      align_block: left
-                          right:
-                            blocks:
-                              - _bookshop_name: simple/button-holder
-                                content:
-                                  button_blocks:
-                                    - _bookshop_name: simple/button
-                                      content:
-                                        text: CloudCannon documentation for Nuxt.js
-                                        link: https://cloudcannon.com/documentation/
-                                      styles:
-                                        style: outline
-                                        size: normal
-                                        extra_classes:
-                                styles:
-                                  desktop:
-                                    margin:
-                                      top: 0
-                                      bottom: 0
-                                    justify:
-                                      align: center
-                                  tablet:
-                                    margin:
-                                      active: false
-                                      top: 0
-                                      bottom: 0
-                                    justify:
-                                      active: false
-                                      align: center
-                                  mobile:
-                                    margin:
-                                      active: false
-                                      top: 0
-                                      bottom: 0
-                                    justify:
-                                      active: false
-                                      align: center
-                        styles:
-                          desktop:
-                            columns:
-                              type: split
-                              width: 0
-                              gap: 50
-                              vertical_gap: 0
-                            vertical_block_alignment:
-                              v_align: center
-                          tablet:
-                            columns:
-                              active: true
-                              type: split
-                              width: 0
-                              gap: 0
-                              vertical_gap: 30
-                            vertical_block_alignment:
-                              active: false
-                              v_align: top
-                          mobile:
-                            columns:
-                              active: true
-                              type: split
-                              width: 0
-                              gap: 0
-                              vertical_gap: 30
-                            vertical_block_alignment:
-                              active: false
-                              v_align: top
-                  styles:
-                    background: white
-                    rounded: full
-                    size: normal
-                    align: center
-                    shadow: false
-                    desktop:
-                      margin:
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        top: 60
-                        right: 0
-                        bottom: 60
-                        left: 0
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
-                      padding:
-                        active: false
-                        top: 0
-                        right: 0
-                        bottom: 0
-                        left: 0
             right:
               blocks:
                 - _bookshop_name: simple/image
@@ -2755,6 +2432,158 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+        - _bookshop_name: sections/container
+          content:
+            label: Learn more
+            blocks:
+              - _bookshop_name: sections/two-column
+                content:
+                  left:
+                    blocks:
+                      - _bookshop_name: simple/heading
+                        content:
+                          text: Want to learn more about Nuxt.js?
+                        styles:
+                          element: h3
+                          width: normal
+                          desktop:
+                            text_alignment:
+                              align: left
+                            text_sizing:
+                              text_size: normal
+                            margin:
+                              top: 0
+                              bottom: 0
+                          tablet:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            text_alignment:
+                              active: false
+                              align: center
+                            text_sizing:
+                              active: false
+                              text_size: big
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                  right:
+                    blocks:
+                      - _bookshop_name: simple/button-holder
+                        content:
+                          button_blocks:
+                            - _bookshop_name: simple/button
+                              content:
+                                text: CloudCannon documentation for Nuxt.js
+                                link: https://cloudcannon.com/documentation/
+                              styles:
+                                style: outline
+                                size: normal
+                                extra_classes:
+                        styles:
+                          desktop:
+                            margin:
+                              top: 0
+                              bottom: 0
+                            justify:
+                              align: center
+                          tablet:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            justify:
+                              active: false
+                              align: center
+                          mobile:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                            justify:
+                              active: false
+                              align: center
+                styles:
+                  desktop:
+                    columns:
+                      type: split
+                      width: 0
+                      gap: 30
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      v_align: center
+                  tablet:
+                    columns:
+                      active: true
+                      type: stacked
+                      width: 0
+                      gap: 0
+                      vertical_gap: 30
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+                  mobile:
+                    columns:
+                      active: true
+                      type: stacked
+                      width: 0
+                      gap: 0
+                      vertical_gap: 30
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+          styles:
+            background: white
+            rounded: full
+            size: normal
+            align: center
+            shadow: false
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 60
+                right: 0
+                bottom: 60
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: sea
       rounded: top
@@ -2801,50 +2630,6 @@ content_blocks:
     content:
       label: Case Studies
       blocks:
-        - _bookshop_name: case-studies/row
-          content:
-            case_studies:
-              - ee337cd8-7745-11ed-a1eb-0242ac120002
-              - ff183750-7745-11ed-a1eb-0242ac120002
-              - e1b72b3a-7745-11ed-a1eb-0242ac120002
-          styles:
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 50
-                left: 0
-              padding:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
         - _bookshop_name: simple/heading
           content:
             text: A CMS for Nuxt you can trust
@@ -2927,6 +2712,50 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
+        - _bookshop_name: case-studies/row
+          content:
+            case_studies:
+              - ee337cd8-7745-11ed-a1eb-0242ac120002
+              - ff183750-7745-11ed-a1eb-0242ac120002
+              - e1b72b3a-7745-11ed-a1eb-0242ac120002
+          styles:
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 50
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: white
       rounded: top
