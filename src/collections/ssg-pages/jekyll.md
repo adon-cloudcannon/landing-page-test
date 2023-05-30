@@ -144,6 +144,79 @@ content_blocks:
               justify:
                 active: false
                 align: center
+        - _bookshop_name: simple/video
+          content:
+            title: CloudCannon CMS demo video
+            url: >-
+              https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+            autoplay: true
+            loop: true
+          styles:
+            desktop:
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: center
+              margin:
+                top: 0
+                left: 0
+                bottom: 90
+                right: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: simple/fold
         - _bookshop_name: simple/image
           content:
@@ -161,7 +234,7 @@ content_blocks:
                 hide: false
               transform:
                 scale: 0.8
-                translate_x: 0
+                translate_x: -40
                 translate_y: 0
                 rotate: 0
                 skew: 0
@@ -217,79 +290,6 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-        - _bookshop_name: simple/video
-          content:
-            title: CloudCannon CMS demo video
-            url: >-
-              https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
-            autoplay: true
-            loop: true
-          styles:
-            desktop:
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: left
-              margin:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            tablet:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
               position:
                 active: false
                 top: 0
