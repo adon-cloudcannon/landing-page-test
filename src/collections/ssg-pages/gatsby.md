@@ -944,7 +944,7 @@ content_blocks:
                     desktop:
                       margin:
                         top: 0
-                        bottom: 90
+                        bottom: 30
                       justify:
                         align: start
                     tablet:
