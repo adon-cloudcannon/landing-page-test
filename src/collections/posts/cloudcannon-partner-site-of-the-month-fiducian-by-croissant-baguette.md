@@ -52,13 +52,13 @@ With more than sixty associated financial planners available across Australia, t
 
 Like many of Croissant & Baguette’s designs, it appears simple and elegant from the user’s perspective, but it contains hundreds of lines of logic and filtering in order to address all of the relevant conditions and varying data — not just a planner’s location at state, territory, and regional levels, but associating both individual Fiducian members and teams working together within offices.
 
-\[<u><strong>IMAGE of the Find a Financial Planner page</strong></u>\]
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/fiducian-find-a-financial-planner.png" alt: "Screenshot of Fiducian's Find a Financial Planner tool" extend: false border: true %}
 
 ## **Comprehensive design refresh**
 
 In addition to the full site build, Croissant & Baguette also completed a branding refresh for Fiducian, encompassing everything from a new color palette to comprehensive guidelines for all website UI and navigation elements — as well as the components that form the basis of the CloudCannon editing experience.
 
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/fiducian-design.png" alt: "Fiducian design assets" extend: false border: false %}
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/fiducian-design.png" alt: "Fiducian design assets" extend: false border: true %}
 
 Overall, Fiducian is a fantastic example of clean, modern design underpinned by reliable and efficient development work. With CloudCannon, it’s easy to update and add new content; with Hugo, the site builds incredibly quickly; and thanks to Croissant & Baguette, Fiducian knows their website will continue to work seamlessly.
 
