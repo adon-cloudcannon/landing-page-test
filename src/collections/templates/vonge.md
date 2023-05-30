@@ -36,7 +36,7 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://jazzed-kale.cloudvent.net/
-  - ssg_name: Hugo
+  - ssg_name: hugo
     github_repo_url: https://github.com/CloudCannon/vonge-hugo-bookshop-template
     main_branch: main
     readme_filename: README.md
