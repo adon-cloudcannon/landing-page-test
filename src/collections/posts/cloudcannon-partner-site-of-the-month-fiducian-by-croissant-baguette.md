@@ -48,7 +48,7 @@ With Hugo and CloudCannon, Fiducian loads on average **ten seconds faster** than
 
 ## Filtering by location: find a financial planner
 
-With more than sixty associated financial planners available across Australia, there’s no shortage of help available to Fiducian’s clients. And to help them [find a financial planner](https://www.fiducian.com.au/financial-advice/find-a-financial-planner/) closest to them, Croissant & Baguette Technical Director Alex Luttringer worked on a particularly intricate filtering tool with multiple selection methods.
+With more than sixty associated financial planners available across Australia, there’s no shortage of help available to Fiducian’s clients. And to help clients&nbsp;[find a financial planner](https://www.fiducian.com.au/financial-advice/find-a-financial-planner/) closest to them, Croissant & Baguette Technical Director Alex Luttringer worked on a particularly intricate filtering tool with multiple selection methods.
 
 Like many of Croissant & Baguette’s designs, it appears simple and elegant from the user’s perspective, but it contains hundreds of lines of logic and filtering in order to address all of the relevant conditions and varying data — not just a planner’s location at state, territory, and regional levels, but associating both individual Fiducian members and teams working together within offices.
 
