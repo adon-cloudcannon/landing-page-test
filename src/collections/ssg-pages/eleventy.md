@@ -34,7 +34,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -341,33 +341,30 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Build, edit and publish
+      label: for developers
       blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Build, edit and publish
+                    title: Build 11ty sites your way
+                    emoji:
+                    sub_title: CloudCannon for developers
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -376,20 +373,24 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      With CloudCannon, you have everything you need to create
-                      and manage your content. Build and host the best
-                      performing sites on the web with the help of our CMS for
-                      11ty.&nbsp;
+                      CloudCannon’s CMS for 11ty has everything you need to
+                      build, edit, and host the best performing sites on the
+                      web.
+
+
+                      * Focus on building custom components rather than
+                      hand-holding editors through changes.
+
+                      * Build locally with your favorite tools and frameworks.
+
+                      * Sync changes to content editors with a Git push.
                   styles:
                     desktop:
                       text_alignment:
@@ -579,7 +580,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Eleventy site
+      label: For editors
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -661,27 +662,24 @@ content_blocks:
                         right: 0
             right:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Works with any Eleventy site
+                    title: The best CMS for 11ty websites
+                    emoji:
+                    sub_title: CloudCannon for editors
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -690,20 +688,26 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your 11ty website from your Git
-                      repository, manages your build process, and enables your
-                      whole team to work together, faster. Everything can be
-                      updated by content editors with CloudCannon.
+                      CloudCannon’s CMS for Eleventy makes content management
+                      easy for your marketing team and content editors.
+
+
+                      * Use custom components to build new 11ty site pages
+                      visually.
+
+                      * Share and review changes with a preview site.
+
+                      * Publish content confidently with a push of a button.
+
+                      * Make changes without bugging a developer, no technical
+                      knowledge needed.
                   styles:
                     desktop:
                       text_alignment:
@@ -1121,7 +1125,7 @@ content_blocks:
             text: Advance your content workflow with Eleventy on CloudCannon
           styles:
             element: h2
-            width: normal
+            width: tight
             desktop:
               text_alignment:
                 align: center
@@ -1406,24 +1410,24 @@ content_blocks:
                   content:
                     text_markdown: >-
                       Take your editing team to the next level with
-                      CloudCannon’s powerful content editing and publishing
-                      workflows.
+                      CloudCannon’s powerful open source content editing and
+                      publishing workflows.
 
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
                       — create component-driven development workflows and enable
                       live rendering editing;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://pagefind.app">Pagefind</a>** — static search
                       that scales;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://reseed.app/">Reseed</a>** — integrate
                       multiple sites into a single domain;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://rosey.app/">Rosey</a>** — manage
                       translations for localization and i18n;
 
@@ -2707,7 +2711,8 @@ content_blocks:
           content:
             text_markdown: >-
               Find out how leading companies are successfully leveraging
-              CloudCannon's live visual editing.
+              CloudCannon's live visual editing. Learn how the best CMS for 11ty
+              can help you and your team.&nbsp;
           styles:
             width: full
             desktop:
