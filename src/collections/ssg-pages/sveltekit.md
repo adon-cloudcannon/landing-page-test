@@ -2318,7 +2318,7 @@ content_blocks:
                   active: true
                   icon_path: outline/document-check
                   icon_color: blue
-                title: SvelteKit Starter Guide
+                title: SvelteKit starter guide
                 link: >-
                   https://cloudcannon.com/documentation/guides/sveltekit-starter-guide/
                 description: >-
