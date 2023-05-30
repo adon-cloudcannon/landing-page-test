@@ -1329,7 +1329,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 120
+                bottom: 90
               block_alignment:
                 align_block: center
               transform:
@@ -1593,7 +1593,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 120
+          bottom: 180
           left: 0
       tablet:
         margin:
