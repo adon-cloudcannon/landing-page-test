@@ -235,7 +235,7 @@ content_blocks:
                 hide: false
               transform:
                 scale: 0.8
-                translate_x: 0
+                translate_x: -40
                 translate_y: 0
                 rotate: 0
                 skew: 0
@@ -872,7 +872,7 @@ content_blocks:
 
 
                       * Content teams commit back to your Git repository through
-                      CloudCannon's Visual Editor.
+                      CloudCannon's visual editor.
 
                       * Create branches for significant changes to prevent
                       blocking staging environments.
@@ -2320,7 +2320,7 @@ content_blocks:
                   active: true
                   icon_path: outline/document-check
                   icon_color: blue
-                title: Hugo Starter Guide
+                title: Hugo starter guide
                 link: >-
                   https://cloudcannon.com/documentation/guides/hugo-starter-guide/
                 description: >-
@@ -2332,7 +2332,7 @@ content_blocks:
                   active: true
                   icon_path: outline/cog
                   icon_color: red
-                title: Hugo Tutorials
+                title: Hugo tutorials
                 link: https://cloudcannon.com/tutorials/
                 description: >-
                   Check out our collection of Hugo tutorials. Learn the basics
@@ -2344,7 +2344,7 @@ content_blocks:
                   active: true
                   icon_path: outline/paint-brush
                   icon_color: purple
-                title: Hugo Themes
+                title: Hugo themes
                 link: https://cloudcannon.com/templates/
                 description: >-
                   Build your next Hugo project with one of our Hugo templates.

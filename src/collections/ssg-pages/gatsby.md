@@ -233,7 +233,7 @@ content_blocks:
                 hide: false
               transform:
                 scale: 0.8
-                translate_x: 0
+                translate_x: -40
                 translate_y: 0
                 rotate: 0
                 skew: 0
@@ -870,7 +870,7 @@ content_blocks:
 
 
                       * Content teams commit back to your Git repository through
-                      CloudCannon's Visual Editor.
+                      CloudCannon's visual editor.
 
                       * Create branches for significant changes to prevent
                       blocking staging environments.
@@ -1632,7 +1632,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
