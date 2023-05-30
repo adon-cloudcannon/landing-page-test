@@ -379,9 +379,16 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Manage content and host Jekyll sites all on a single
-                      platform. Build the best performing content sites on the
-                      web with the help of our Jekyll CMS.
+                      CloudCannon’s Jekyll CMS has everything you need to build,
+                      edit, and host the best performing sites on the web.
+
+
+                      * Focus on building custom components rather than
+                      hand-holding editors through changes.
+
+                      * Build locally with your favorite tools and frameworks.
+
+                      * Sync changes to content editors with a Git push.
                   styles:
                     desktop:
                       text_alignment:
@@ -687,10 +694,19 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      ​​​​​CloudCannon deeply understands the front matter,
-                      HTML, Markdown, collections, and data files on your Jekyll
-                      site. Sync your site and start updating content in
-                      minutes.
+                      CloudCannon’s CMS for Jekyll makes content management easy
+                      for your marketing team and content editors.
+
+
+                      * Use custom components to build new Hugo site pages
+                      visually.
+
+                      * Share and review changes with a preview site.
+
+                      * Publish content confidently with a push of a button.
+
+                      * Make changes without bugging a developer, no technical
+                      knowledge needed.
                   styles:
                     desktop:
                       text_alignment:
@@ -1985,7 +2001,7 @@ content_blocks:
                       skew: 0
               - _bookshop_name: simple/logo
                 content:
-                  logo: https://cc-dam.imgix.net/Papercut-og.svg
+                  logo: https://cc-dam.imgix.net/Papercut-logo.svg
                   name: Papercut
                   url:
                 styles:
