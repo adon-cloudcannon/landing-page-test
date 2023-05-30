@@ -340,7 +340,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Everything you need, in one place
+      label: For developers
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -350,7 +350,7 @@ content_blocks:
                   content:
                     title: Build Jekyll sites your way
                     emoji:
-                    sub_title: For developers
+                    sub_title: CloudCannon for developers
                   styles:
                     width:
                     element: h2
@@ -578,7 +578,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Jekyll site
+      label: For editors
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -663,9 +663,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for Jekyll sites
+                    title: The best CMS for Jekyll websites
                     emoji:
-                    sub_title: For editors
+                    sub_title: CloudCannon for editors
                   styles:
                     width:
                     element: h2
@@ -698,7 +698,7 @@ content_blocks:
                       for your marketing team and content editors.
 
 
-                      * Use custom components to build new Hugo site pages
+                      * Use custom components to build new Jekyll site pages
                       visually.
 
                       * Share and review changes with a preview site.

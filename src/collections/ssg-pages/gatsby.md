@@ -141,14 +141,14 @@ content_blocks:
               justify:
                 active: false
                 align: center
-        - _bookshop_name: simple/image
+        - _bookshop_name: simple/video
           content:
-            alt: Editing a page on CloudCannon
-            image: https://cc-dam.imgix.net/ssg-hero-image-2.png
+            title: CloudCannon CMS demo video
+            url: >-
+              https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+            autoplay: true
+            loop: true
           styles:
-            border:
-            rounded:
-            ontop: true
             desktop:
               transform:
                 scale: 1
@@ -157,11 +157,11 @@ content_blocks:
                 rotate: 0
                 skew: 0
               block_alignment:
-                align_block: left
+                align_block: center
               margin:
                 top: 0
                 left: 0
-                bottom: 120
+                bottom: 90
                 right: 0
               position:
                 top: 0
@@ -203,10 +203,10 @@ content_blocks:
                 active: false
                 align_block: left
               margin:
-                active: true
+                active: false
                 top: 0
                 left: 0
-                bottom: 60
+                bottom: 0
                 right: 0
               position:
                 active: false
@@ -215,6 +215,84 @@ content_blocks:
                 bottom: 0
                 right: 0
         - _bookshop_name: simple/fold
+        - _bookshop_name: simple/image
+          content:
+            alt:
+            image: https://cc-dam.imgix.net/G2-awards.svg
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: false
+              transform:
+                scale: 0.8
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: center
+              margin:
+                top: 0
+                bottom: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: true
+                hide: true
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
     styles:
       background: white
       rounded: none
@@ -259,33 +337,30 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: It's all right here
+      label: For developers
       blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: It's all right here
+                    title: Build Gatsby sites your way
+                    emoji:
+                    sub_title: CloudCannon for developers
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -294,20 +369,24 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon gives you everything you need to create and
-                      manage your content, all on one platform. Build and host
-                      the best performing sites on the web with the help of our
-                      CMS for Gastby.
+                      CloudCannon’s CMS for Gatsby has everything you need to
+                      build, edit, and host the best performing sites on the
+                      web.
+
+
+                      * Focus on building custom components rather than
+                      hand-holding editors through changes.
+
+                      * Build locally with your favorite tools and frameworks.
+
+                      * Sync changes to content editors with a Git push.
                   styles:
                     desktop:
                       text_alignment:
@@ -497,7 +576,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Works with any Gatsby site
+      label: For editors
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -580,27 +659,24 @@ content_blocks:
                         right: 0
             right:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Works with any Gatsby site
+                    title: The best CMS for Gatsby websites
+                    emoji:
+                    sub_title: CloudCannon for editors
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -609,20 +685,26 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon syncs your Gatsby website from your Git
-                      repository and enables the whole team to work together,
-                      faster. Everything can be updated by content editors with
-                      CloudCannon.
+                      CloudCannon’s CMS for Gatsby makes content management easy
+                      for your marketing team and content editors.
+
+
+                      * Use custom components to build new Gatsby site pages
+                      visually.
+
+                      * Share and review changes with a preview site.
+
+                      * Publish content confidently with a push of a button.
+
+                      * Make changes without bugging a developer, no technical
+                      knowledge needed.
                   styles:
                     desktop:
                       text_alignment:
@@ -705,6 +787,803 @@ content_blocks:
           top: 90
           right: 0
           bottom: 140
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Git-based CMS
+      blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Stay in sync with a Git-based CMS
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      More than a headless CMS. CloudCannon's Gatsby CMS helps
+                      your team stay in sync with a unified workflow.
+
+
+                      * Content teams commit back to your Git repository through
+                      CloudCannon's visual editor.
+
+                      * Create branches for significant changes to prevent
+                      blocking staging environments.
+
+                      * Review changes on a site and merge them into another
+                      branch.
+
+                      * Roll a site back with full version control of both code
+                      and content.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 30
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a demo
+                          link: https://cloudcannon.com/book-a-demo/
+                        styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Try for free
+                          link: >-
+                            https://app.cloudcannon.com/register?trial=cc_standard
+                        styles:
+                          style: outline-white
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 90
+                      justify:
+                        align: start
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt:
+                    image: https://cc-dam.imgix.net/Git+workflows-developer.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1.2
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: center
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+          styles:
+            desktop:
+              columns:
+                type: fixed-fluid
+                width: 450
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
+            tablet:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+    styles:
+      background: night
+      rounded: top
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: Advance your content workfow
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: 'Advance your Gatsby content workflow '
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 60
+                bottom: 30
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              CloudCannon's Gatsby CMS takes your web development workflow to
+              the next level.
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: left
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 30
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/steps
+          content:
+            steps:
+              - title: Sync your Gatsby site
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step1new.svg
+              - title: Configure your Gatsby build
+                description: >-
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step2gatsby.svg
+              - title: Invite your content team to collaborate
+                description: >-
+                  Give your team members access to update the content on the
+                  site, using our Gatsby CMS — without the help of a developer.
+                image: https://cc-dam.imgix.net/step3new.svg
+              - title: Go live with hosting
+                description: >-
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step4new.svg
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 300
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: ash
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: An entire ecosystem behind you
+      blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title: '-270'
+          styles:
+            desktop:
+              space:
+                size: -270
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: true
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+          styles:
+            background: night
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 120
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: CloudCannon's open source ecosystem
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: true
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: true
+                        text_size: normal
+                      margin:
+                        active: true
+                        top: 0
+                        bottom: 15
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Take your editing team to the next level with
+                      CloudCannon’s powerful open source content editing and
+                      publishing workflows.
+
+
+                      * **<a target="_blank"
+                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
+                      — create component-driven development workflows and enable
+                      live rendering editing;
+
+                      * **<a target="_blank"
+                      href="https://pagefind.app">Pagefind</a>** — static search
+                      that scales;
+
+                      * **<a target="_blank"
+                      href="https://reseed.app/">Reseed</a>** — integrate
+                      multiple sites into a single domain;
+
+                      * **<a target="_blank"
+                      href="https://rosey.app/">Rosey</a>** — manage
+                      translations for localization and i18n;
+
+                      *
+                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
+                      — granular configuration for site pagination.
+                  styles:
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block:
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    width: full
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Overview of Jamstack ecosystem
+                    image: https://cc-dam.imgix.net/newecosystem.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+          styles:
+            desktop:
+              columns:
+                type: fixed-fluid
+                width: 450
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
+            tablet:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 20
+              vertical_block_alignment:
+                active: false
+                v_align: top
+    styles:
+      background: ash
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 90
           left: 0
       tablet:
         margin:
@@ -912,161 +1791,377 @@ content_blocks:
                 left: 0
                 bottom: 0
                 right: 0
-        - _bookshop_name: sections/container
+        - _bookshop_name: simple/heading
           content:
-            label: Want to learn more?
-            blocks:
-              - _bookshop_name: sections/two-column
+            text: Trusted by world leading companies
+          styles:
+            element: h3
+            width: tight
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 90
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/logo-ticker
+          content:
+            logo_blocks:
+              - _bookshop_name: simple/logo
                 content:
-                  left:
-                    blocks:
-                      - _bookshop_name: simple/heading
-                        content:
-                          text: Want to learn more about Gatsby?
-                        styles:
-                          element: h3
-                          width: normal
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 20
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: big
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: true
-                              text_size: normal
-                            margin:
-                              active: true
-                              top: 0
-                              bottom: 15
-                      - _bookshop_name: simple/text-block
-                        content:
-                          text_markdown: >-
-                            We’ve got a range of resources to help you every
-                            step of the way.
-                        styles:
-                          desktop:
-                            text_alignment:
-                              align: left
-                            text_sizing:
-                              text_size: normal
-                            margin:
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              align_block:
-                          tablet:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                          mobile:
-                            text_alignment:
-                              active: false
-                              align: left
-                            text_sizing:
-                              active: false
-                              text_size: normal
-                            margin:
-                              active: false
-                              top: 0
-                              bottom: 0
-                            block_alignment:
-                              active: false
-                              align_block: left
-                          width: full
-                  right:
-                    blocks:
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: /templates/
-                          text: Templates
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
-                      - _bookshop_name: simple/content-button
-                        content:
-                          url: >-
-                            https://cloudcannon.com/documentation/articles/nextjs-starter-guide/?ssg=Gatsby
-                          text: CloudCannon documentation for Gatsby
-                        styles:
-                          margin:
-                            top: 12
-                            bottom: 0
-                          style: black
+                  logo: https://cc-dam.imgix.net/Netflix-og.svg
+                  name: Netflix
+                  url:
                 styles:
                   desktop:
-                    columns:
-                      type: split
-                      width: 0
-                      gap: 50
-                      vertical_gap: 0
-                    vertical_block_alignment:
-                      v_align: center
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.7
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
                   tablet:
-                    columns:
+                    visibility:
                       active: false
-                      type: split
-                      width: 0
-                      gap: 0
-                      vertical_gap: 0
-                    vertical_block_alignment:
+                      hide: true
+                    position:
                       active: false
-                      v_align: top
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
                   mobile:
-                    columns:
-                      active: true
-                      type: stacked
-                      width: 0
-                      gap: 0
-                      vertical_gap: 20
-                    vertical_block_alignment:
+                    visibility:
                       active: false
-                      v_align: top
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Twitch-og.svg
+                  name: Twitch
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.5
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/hnry-logo.svg
+                  name: Hnry
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Papercut-logo.svg
+                  name: Papercut
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1.2
+                      translate_x: 0
+                      translate_y: -4
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Ocupop_logo.svg
+                  name: Ocupop
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+              - _bookshop_name: simple/logo
+                content:
+                  logo: https://cc-dam.imgix.net/Cubicflow-logo.svg
+                  name: Cubicflow
+                  url:
+                styles:
+                  desktop:
+                    visibility:
+                      hide: false
+                    position:
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  tablet:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                  mobile:
+                    visibility:
+                      active: false
+                      hide: true
+                    position:
+                      active: false
+                      top: 0
+                      right: 0
+                      bottom: 0
+                      left: 0
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
           styles:
-            background: night
-            rounded: full
-            size: small
-            align: center
+            background_mode: false
             desktop:
               margin:
-                top: 100
+                top: 0
                 right: 0
-                bottom: 0
+                bottom: 90
                 left: 0
-              padding:
-                top: 50
-                right: 20
-                bottom: 50
-                left: 20
             tablet:
               margin:
                 active: false
@@ -1074,27 +2169,15 @@ content_blocks:
                 right: 0
                 bottom: 0
                 left: 0
-              padding:
+            mobile:
+              margin:
                 active: false
                 top: 0
                 right: 0
                 bottom: 0
                 left: 0
-            mobile:
-              margin:
-                active: true
-                top: 50
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 30
-                left: 0
     styles:
-      background: caramel
+      background: white
       rounded: top
       desktop:
         margin:
@@ -1137,407 +2220,132 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: An entire ecosystem behind you
+      label: Learning resources
       blocks:
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: An entire ecosystem behind you
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
-                      margin:
-                        active: true
-                        top: 0
-                        bottom: 15
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Take your editing team to the next level with
-                      CloudCannon’s powerful content editing and publishing
-                      workflows.
-
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
-                      — create component-driven development workflows and enable
-                      live rendering editing;
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://pagefind.app">Pagefind</a>** — static search
-                      that scales;
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://reseed.app/">Reseed</a>** — integrate
-                      multiple sites into a single domain;
-
-                      * **<a target="_blank" rel="noopener"
-                      href="https://rosey.app/">Rosey</a>** — manage
-                      translations for localization and i18n;
-
-                      *
-                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
-                      — granular configuration for site pagination.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Overview of Jamstack ecosystem
-                    image: https://cc-dam.imgix.net/newecosystem.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-          styles:
-            desktop:
-              columns:
-                type: fixed-fluid
-                width: 450
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 20
-              vertical_block_alignment:
-                active: false
-                v_align: top
-    styles:
-      background: night
-      rounded: none
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 90
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Advance your content workfow
-      blocks:
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: 0
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: true
-                size: 0
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-          styles:
-            background: white
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 80
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: true
-                top: 0
-                bottom: 40
-              block_alignment:
-                active: false
-                align_block: left
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow with Gatsby on CloudCannon
+            text: Get started with CloudCannon's Gatsby learning resources
           styles:
             element: h2
-            width: normal
+            width: tight
             desktop:
               text_alignment:
                 align: center
               text_sizing:
                 text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Want to learn more about Gatsby? Whether it's Gatsby specific
+              documentation, Gatsby tutorials, or Gatsby themes that you're
+              after, CloudCannon has you covered!
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
               margin:
                 top: 0
                 bottom: 60
+              block_alignment:
+                align_block: center
             tablet:
               text_alignment:
                 active: false
-                align: center
+                align: left
               text_sizing:
                 active: false
-                text_size: big
+                text_size: normal
               margin:
                 active: false
                 top: 0
                 bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
             mobile:
               text_alignment:
                 active: false
-                align: center
+                align: left
               text_sizing:
-                active: true
+                active: false
                 text_size: normal
               margin:
-                active: true
-                top: 60
-                bottom: 30
-        - _bookshop_name: simple/steps
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/cards
           content:
-            steps:
-              - title: Sync your Gatsby site
-                description: Connect your GitHub, GitLab, or Bitbucket repository.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step1new.svg
-              - title: Configure your Gatsby build
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: Documentation
+                link: https://cloudcannon.com/documentation/
                 description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step2gatsby.svg
-              - title: Invite your content team to collaborate
+                  Head over to CloudCannon's documentation site with Gatsby
+                  specific callouts. More than just a docs site, you'll find
+                  helpful guides, product updates, and support.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: Gatsby starter guide
+                link: >-
+                  https://cloudcannon.com/documentation/guides/gatsby-starter-guide/
                 description: >-
-                  Give your team members access to update the content on the
-                  site, using our Gatsby CMS — without the help of a developer.
-                image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with hosting
+                  Check out our Gatsby tutorial. Get your Gatsby site set up on
+                  CloudCannon. Making configuration easy so you can focus on
+                  building custom components.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: Gastby template
+                link: https://cloudcannon.com/templates/sendit/
                 description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step4new.svg
+                  Build your next Gatsby project with Sendit. CloudCannon's
+                  versatile Gatsby theme for business websites. Built with
+                  Bootstrap and optimized for editing in CloudCannon.
           styles:
             desktop:
               margin:
                 top: 0
-                bottom: 0
+                bottom: 90
             tablet:
               margin:
                 active: false
@@ -1549,8 +2357,11 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: ash
+      background: caramel
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -1583,68 +2394,22 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: true
-          top: 60
+          active: false
+          top: 0
           right: 0
-          bottom: 90
+          bottom: 0
           left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
-      label: Case Studies
+      label: Why choose Gatsby
       blocks:
-        - _bookshop_name: case-studies/row
-          content:
-            case_studies:
-              - ee337cd8-7745-11ed-a1eb-0242ac120002
-              - ff183750-7745-11ed-a1eb-0242ac120002
-              - e1b72b3a-7745-11ed-a1eb-0242ac120002
-          styles:
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 50
-                left: 0
-              padding:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why should you choose Gatsby?
+                    text: Why choose Gatsby?
                   styles:
                     element: h2
                     width: normal
@@ -1681,21 +2446,24 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Gatsby is a static site generator built with React, and
-                      using React/JSX for its templating and GraphQL for
-                      queries. If you’re familiar with React, JavaScript, and
-                      Graph QL, you’ll be more than ready to get started.
+                      Gatsby is a 'blazing fast' static site generator built
+                      with React, and using React/JSX for its templating and
+                      GraphQL for queries. If you’re familiar with React,
+                      JavaScript, and Graph QL, you’ll be more than ready to
+                      begin your Gatsby starter project.
 
 
-                      Gatsby is a developer-friendly SSG right out of the box,
-                      with inbuilt features like hot reloading, code splitting,
-                      prefetching, routing, and caching.
+                      Gatsby offers a top-notch development experience right out
+                      of the box. Gatsby enables developers to build with
+                      features like hot reloading, code splitting, prefetching,
+                      routing, caching, and more available through the Gatsby
+                      cloud.&nbsp;
 
 
                       And because Gatsby is an established static site
                       generator, you’ll always have a widespread community to
                       assist with any questions, and an enormous ecosystem of
-                      tried and tested plugins.
+                      tried and tested plugins for Gatsby integrations.
                   styles:
                     desktop:
                       text_alignment:
@@ -1842,6 +2610,178 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Case Studies
+      blocks:
+        - _bookshop_name: case-studies/row
+          content:
+            case_studies:
+              - ee337cd8-7745-11ed-a1eb-0242ac120002
+              - ff183750-7745-11ed-a1eb-0242ac120002
+              - e1b72b3a-7745-11ed-a1eb-0242ac120002
+          styles:
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 50
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+        - _bookshop_name: simple/heading
+          content:
+            text: A CMS for Gatsby you can trust
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Find out how world leading companies are successfully leveraging
+              CloudCannon's live visual editing. Learn how the best CMS for
+              Gatsby can help you and your team.&nbsp;
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
     styles:
       background: white
       rounded: top
