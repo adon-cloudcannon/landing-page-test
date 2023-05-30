@@ -353,7 +353,7 @@ content_blocks:
                         align: left
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
                         active: false
@@ -661,7 +661,7 @@ content_blocks:
                         align: left
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
                         active: false
@@ -1246,7 +1246,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 120
+          bottom: 350
           left: 0
       tablet:
         margin:
@@ -2253,7 +2253,7 @@ content_blocks:
             width: medium
             desktop:
               text_alignment:
-                align: left
+                align: center
               text_sizing:
                 text_size: normal
               margin:
