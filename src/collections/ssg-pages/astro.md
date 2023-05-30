@@ -2263,7 +2263,7 @@ content_blocks:
                   active: true
                   icon_path: outline/cog
                   icon_color: red
-                title: Astro Starter Guide
+                title: Astro starter guide
                 link: >-
                   https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
                 description: >-
@@ -2275,7 +2275,7 @@ content_blocks:
                   active: true
                   icon_path: outline/paint-brush
                   icon_color: purple
-                title: Astro Template
+                title: Astro template
                 link: https://cloudcannon.com/templates/sendit/
                 description: >-
                   Build your next Astro project with Sendit. CloudCannon's
