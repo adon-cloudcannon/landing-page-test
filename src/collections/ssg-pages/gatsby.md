@@ -31,7 +31,7 @@ content_blocks:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -57,8 +57,10 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your Gatsby CMS, your whole team can
-              collaborate to create amazing websites.
+              Develop faster, edit easier, and publish confidently with
+              CloudCannon as your Gatsby CMS. Your whole team can collaborate to
+              create incredibly fast static sites on an intuitive visual editor
+              with the best CMS for Gatsby.
           styles:
             desktop:
               text_alignment:
@@ -239,7 +241,7 @@ content_blocks:
                 align_block: center
               margin:
                 top: 0
-                bottom: 0
+                bottom: 240
               position:
                 top: 0
                 left: 0
@@ -1162,7 +1164,7 @@ content_blocks:
             width: full
             desktop:
               text_alignment:
-                align: left
+                align: center
               text_sizing:
                 text_size: normal
               margin:
@@ -1250,7 +1252,7 @@ content_blocks:
                 top: 0
                 bottom: 0
     styles:
-      background: ash
+      background: white
       rounded: top
       desktop:
         margin:
@@ -1583,7 +1585,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -2160,7 +2162,7 @@ content_blocks:
               margin:
                 top: 0
                 right: 0
-                bottom: 90
+                bottom: 60
                 left: 0
             tablet:
               margin:
@@ -2345,7 +2347,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 90
+                bottom: 60
             tablet:
               margin:
                 active: false
@@ -2656,50 +2658,6 @@ content_blocks:
     content:
       label: Case Studies
       blocks:
-        - _bookshop_name: case-studies/row
-          content:
-            case_studies:
-              - ee337cd8-7745-11ed-a1eb-0242ac120002
-              - ff183750-7745-11ed-a1eb-0242ac120002
-              - e1b72b3a-7745-11ed-a1eb-0242ac120002
-          styles:
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 50
-                left: 0
-              padding:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
         - _bookshop_name: simple/heading
           content:
             text: A CMS for Gatsby you can trust
@@ -2782,6 +2740,50 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
+        - _bookshop_name: case-studies/row
+          content:
+            case_studies:
+              - ee337cd8-7745-11ed-a1eb-0242ac120002
+              - ff183750-7745-11ed-a1eb-0242ac120002
+              - e1b72b3a-7745-11ed-a1eb-0242ac120002
+          styles:
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 50
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
     styles:
       background: white
       rounded: top
