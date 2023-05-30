@@ -14,7 +14,7 @@ tags:
   - Agencies
   - Experts
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-permalink: /blog/{{ title | slugify }}/
+permalink: /blog/partner-site-of-the-month-fiducian-croissant-baguette/
 cta:
   title: Launch your website today
   body_text: >-
