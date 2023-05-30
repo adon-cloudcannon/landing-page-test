@@ -41,54 +41,54 @@ c. where your access and use is on behalf of another person (e.g. a company), yo
 
 ##### 3\. INTERPRETATION
 
-in these Terms:
+In these Terms:
 
 *CloudCannon Platform* means the software owned by us (and our licensors) that is used to provide the Service.
 
-*Confidential Information&nbsp;*means any information that is not public knowledge and that is obtained from the other party in the course of, or in connection with, the provision and use of the Service. Our Confidential Information includes Intellectual Property owned by us (or our licensors), including the CloudCannon Software. Your Confidential Information includes the Content.
+*Confidential Information* means any information that is not public knowledge and that is obtained from the other party in the course of, or in connection with, the provision and use of the Service. Our Confidential Information includes Intellectual Property owned by us (or our licensors), including the CloudCannon Software. Your Confidential Information includes the Content.
 
-*Content&nbsp;*means content, data (including text, images, audio files, links and software), and information (including personal information) that is owned, held, used or created by you or on your behalf, and that is then stored, transmitted via, input into or displayed via you’re the Service, your User Website or User Account.
+*Content* means content, data (including text, images, audio files, links and software), and information (including personal information) that is owned, held, used or created by you or on your behalf, and that is then stored, transmitted via, input into or displayed via you’re the Service, your User Website or User Account.
 
-*Fees&nbsp;*means the applicable fees set out on our pricing page on the Website at [https://cloudcannon.com/pricing/](https://cloudcannon.com/pricing/) or as agreed otherwise in writing between you and us, as may be updated from time to time in accordance with clause 7.6.
+*Fees* means the applicable fees set out on our pricing page on the Website at [https://cloudcannon.com/pricing/](https://cloudcannon.com/pricing/) or as agreed otherwise in writing between you and us, as may be updated from time to time in accordance with clause 7.6.
 
-*Force Majeure&nbsp;*means an event that is beyond the reasonable control of a party, excluding:
+*Force Majeure* means an event that is beyond the reasonable control of a party, excluding:
 
 * an event to the extent that it could have been avoided by a party taking reasonable steps or reasonable care; or
 * a lack of funds for any reason.
 
-*GDPR* means the General Data Protection Regulation of the European Union.
+*GDPR*&nbsp; means the General Data Protection Regulation of the European Union.
 
-*including&nbsp;*and similar words do not imply any limit.
+*Including* and similar words do not imply any limit.
 
-*Intellectual Property Rights&nbsp;*includes copyright and all rights existing anywhere in the world conferred under statute, common law or equity relating to inventions (including patents), registered and unregistered trade marks and designs, data and databases, confidential information, know-how, and all other rights resulting from intellectual activity. *Intellectual Property* has a consistent meaning, and includes any enhancement, modification or derivative work of the Intellectual Property.
+*Intellectual Property Rights* includes copyright and all rights existing anywhere in the world conferred under statute, common law or equity relating to inventions (including patents), registered and unregistered trade marks and designs, data and databases, confidential information, know-how, and all other rights resulting from intellectual activity. *Intellectual Property* has a consistent meaning, and includes any enhancement, modification or derivative work of the Intellectual Property.
 
-*Objectionable&nbsp;*includes being objectionable, defamatory, obscene, pornographic, harassing, violent, threatening, harmful, or unlawful in any way.
+*Objectionable* includes being objectionable, defamatory, obscene, pornographic, harassing, violent, threatening, harmful, or unlawful in any way.
 
-a *party* includes that party’s permitted assigns.
+*A party* includes that party’s permitted assigns.
 
-a *person* includes an individual, a body corporate, an association of persons (whether corporate or not), a trust, a government department, or any other entity.
+*A person* includes an individual, a body corporate, an association of persons (whether corporate or not), a trust, a government department, or any other entity.
 
-*personal information* means information about an identifiable, living person, and includes personal data, personally identifiable information and equivalent information under applicable privacy and data protection laws.
+*Personal information* means information about an identifiable, living person, and includes personal data, personally identifiable information and equivalent information under applicable privacy and data protection laws.
 
-*personnel* includes officers, employees, contractors and agents, but a reference to your personnel does not include us.
+*Personnel* includes officers, employees, contractors and agents, but a reference to your personnel does not include us.
 
-*Service&nbsp;*means provision of the CloudCannon platform, having the core functionality described on the Website, as the Website is updated from time to time.
+*Service* means provision of the CloudCannon platform, having the core functionality described on the Website, as the Website is updated from time to time.
 
-*Start Date&nbsp;*means the date that you set up an account.
+*Start Date* means the date that you set up an account.
 
-*Terms&nbsp;*means these terms titled Cloud Cannon terms of use.
+*Terms* means these terms titled Cloud Cannon terms of use.
 
-*Underlying Systems&nbsp;*means the CloudCannon Software, IT solutions, systems and networks (including software and hardware) used to provide the Service, including any third party solutions, systems and networks.
+*Underlying Systems* means the CloudCannon Software, IT solutions, systems and networks (including software and hardware) used to provide the Service, including any third party solutions, systems and networks.
 
 *User Account* means a unique name and/or password allocated to you to allow you to access certain parts of the Service.
 
 *User Website* means a CloudCannon user’s website, on the CloudCannon platform.
 
-*We*, *us* or *our&nbsp;*means Cloud Cannon Limited, company number 3234469.
+*We*, *us* or *our* means Cloud Cannon Limited, company number 3234469.
 
-*Website&nbsp;*means the internet site at www.cloudcannon.com, \*.cloudcannon.com, or such other site notified to you by us.
+*Website* means the internet site at www.cloudcannon.com, \*.cloudcannon.com, or such other site notified to you by us.
 
-*Year&nbsp;*means a 12-month period starting on the Start Date or the anniversary of that date.
+*Year* means a 12-month period starting on the Start Date or the anniversary of that date.
 
 *You* or *your* means you or, if clause 1.1c applies, both you and the other person on whose behalf you are acting.
 
@@ -194,11 +194,11 @@ iii. reasonable guidance from us;
 
 6\.4. Despite any other provision in these Terms:
 
-a. You acknowledges that the Beta Version is still under development; and
+a. you acknowledge that the Beta Version is still under development; and
 
 b. we, as part of that development, may change or remove any feature or part of the Beta Services at any time and for any reason without liability of any kind.
 
-c. In consideration of our providing the Beta Version for no fees, you agree to inform us of all problems, defects, bugs, errors, issues, and ideas for improvement, relating to the Beta Services of which you become aware.
+c. in consideration of our providing the Beta Version for no fees, you agree to inform us of all problems, defects, bugs, errors, issues, and ideas for improvement, relating to the Beta Services of which you become aware.
 
 6\.5. Nothing in these Terms imposes any obligation on us, at the termination or expiry of the Trial Period, maintain any feature or part of the Beta Service in any paid version of the Service or any other service.
 

@@ -148,7 +148,7 @@ content_blocks:
                 align: center
         - _bookshop_name: simple/video
           content:
-            title: CloudCannon cMS demo video
+            title: CloudCannon CMS demo video
             url: >-
               https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
             autoplay: true
@@ -241,7 +241,7 @@ content_blocks:
                 rotate: 0
                 skew: 0
               block_alignment:
-                align_block: left
+                align_block: center
               margin:
                 top: 0
                 bottom: 120
@@ -934,7 +934,7 @@ content_blocks:
                       - _bookshop_name: simple/button
                         content:
                           text: Book a demo
-                          link: //https://cloudcannon.com/book-a-demo/
+                          link: https://cloudcannon.com/book-a-demo/
                         styles:
                           style: normal
                           size: normal
@@ -1395,7 +1395,7 @@ content_blocks:
                       block_alignment:
                         align_block: left
                       margin:
-                        top: 60
+                        top: 0
                         bottom: 0
                       position:
                         top: 0
@@ -1458,7 +1458,7 @@ content_blocks:
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
                 active: false

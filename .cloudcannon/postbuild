@@ -4,4 +4,4 @@ npm install
 npx @bookshop/generate
 npm run build
 [[ -n $RUN_JAMPACK ]] && npm run polish
-npx -y pagefind@0.12.0 -s _site
+npx -y pagefind@1.0.0-alpha.5 -s _site
