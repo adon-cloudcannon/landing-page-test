@@ -663,7 +663,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for Jekyll
+                    title: The best CMS for Jekyll sites
                     emoji:
                     sub_title: For editors
                   styles:
