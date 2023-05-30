@@ -1637,7 +1637,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
