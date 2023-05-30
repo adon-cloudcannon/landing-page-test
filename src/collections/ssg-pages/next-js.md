@@ -1374,7 +1374,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: An entire ecosystem behind you
+                    text: CloudCannon's open source ecosystem
                   styles:
                     element: h2
                     width: normal
@@ -1411,25 +1411,25 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Take your editing team to the next level with
-                      CloudCannon’s powerful content editing and publishing
-                      workflows.
+                      Take your editing team to the next level with the
+                      CloudCannon Nextjs CMS's powerful open source content
+                      editing and publishing workflows.
 
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
                       — create component-driven development workflows and enable
                       live rendering editing;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://pagefind.app">Pagefind</a>** — static search
                       that scales;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://reseed.app/">Reseed</a>** — integrate
                       multiple sites into a single domain;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://rosey.app/">Rosey</a>** — manage
                       translations for localization and i18n;
 
@@ -1593,7 +1593,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
