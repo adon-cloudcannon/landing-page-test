@@ -64,7 +64,7 @@ content_blocks:
               collaborate to create incredible static sites with React
               components. Developers can leverage their existing React
               knowledge, and content editors will reap the benefits of
-              CloudCannon’s powerful and intuitive CMS.
+              CloudCannon’s powerful and intuitive CMS for Nextjs.
           styles:
             desktop:
               text_alignment:
@@ -892,7 +892,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         top: 0
-                        bottom: 0
+                        bottom: 30
                       block_alignment:
                         align_block: center
                     tablet:
@@ -1320,6 +1320,54 @@ content_blocks:
               space:
                 active: true
                 size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
+          styles:
+            background: night
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 120
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
         - _bookshop_name: sections/two-column
           content:
             left:
@@ -1533,54 +1581,6 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
-          styles:
-            background: night
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 120
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
     styles:
       background: caramel
       rounded: none
@@ -2111,7 +2111,7 @@ content_blocks:
                       skew: 0
               - _bookshop_name: simple/logo
                 content:
-                  logo: /src/images/logos/netflix.svg
+                  logo: https://cc-dam.imgix.net/Cubicflow-logo.svg
                   name: Cubicflow
                   url:
                 styles:
@@ -2169,7 +2169,7 @@ content_blocks:
               margin:
                 top: 0
                 right: 0
-                bottom: 0
+                bottom: 60
                 left: 0
             tablet:
               margin:
@@ -2355,7 +2355,7 @@ content_blocks:
             desktop:
               margin:
                 top: 0
-                bottom: 0
+                bottom: 60
             tablet:
               margin:
                 active: false
@@ -2711,7 +2711,7 @@ content_blocks:
               CloudCannon's live visual editing. Learn how the best CMS for
               Nextjs static websites can help you and your team.&nbsp;
           styles:
-            width: full
+            width: medium
             desktop:
               text_alignment:
                 align: center
