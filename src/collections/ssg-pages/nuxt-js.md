@@ -2432,6 +2432,21 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: 60
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: false
+                size: 0
         - _bookshop_name: sections/container
           content:
             label: Learn more
@@ -2486,7 +2501,7 @@ content_blocks:
                                 text: CloudCannon documentation for Nuxt.js
                                 link: https://cloudcannon.com/documentation/
                               styles:
-                                style: outline
+                                style: normal
                                 size: normal
                                 extra_classes:
                         styles:
@@ -2554,9 +2569,9 @@ content_blocks:
                 bottom: 0
                 left: 0
               padding:
-                top: 60
+                top: 30
                 right: 0
-                bottom: 60
+                bottom: 30
                 left: 0
             tablet:
               margin:
