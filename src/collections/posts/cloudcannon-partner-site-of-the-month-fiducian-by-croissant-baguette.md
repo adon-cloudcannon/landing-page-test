@@ -6,12 +6,13 @@ description: >-
   Introducing Fiducian.com.au — designed and developed by Croissant & Baguette,
   built with Hugo, and optimized for editing on CloudCannon.
 draft: true
-series: Site of the Month
+series:
 image:
 date: 2023-06-01T05:02:00+12:00
 hide_publish_date: false
 tags:
   - Agencies
+  - Experts
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 cta:
@@ -32,7 +33,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Introducing <a rel="noopener noreferrer" href="https://www.fiducian.com.au/">Fiducian</a> — our newest Partner Site of the Month, designed and developed by <a rel="noopener noreferrer" href="https://cloudcannon.com/experts/croissant-baguette/">Croissant &amp; Baguette</a>. Built with <a rel="noopener noreferrer" href="https://cloudcannon.com/hugo-cms/">Hugo</a> and optimized for editing on CloudCannon, Fiducian’s new site replaced a monolithic WordPress install, giving users a much cleaner editing interface, as well as significant performance gains.
+Introducing [Fiducian](https://www.fiducian.com.au/) — our newest Partner Site of the Month, designed and developed by [Croissant & Baguette](https://cloudcannon.com/experts/croissant-baguette/). Built with [Hugo](https://cloudcannon.com/hugo-cms/) and optimized for editing on CloudCannon, Fiducian’s new site replaced a monolithic WordPress install, giving users a much cleaner editing interface, as well as significant performance gains.
 
 \[<u><strong>IMAGE of the homepage</strong></u>\]
 
