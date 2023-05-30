@@ -963,7 +963,85 @@ content_blocks:
                         active: false
                         align: center
             right:
-              blocks: []
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Git workflow
+                    image: https://cc-dam.imgix.net/Git+workflows-developer.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1.2
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: center
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
               columns:
@@ -993,84 +1071,6 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
-        - _bookshop_name: simple/image
-          content:
-            alt: Git workflow
-            image: https://cc-dam.imgix.net/Git+workflows-developer.png
-          styles:
-            border:
-            rounded:
-            ontop:
-            width: full
-            pixel_width:
-            max_width:
-            desktop:
-              visibility:
-                hide: false
-              transform:
-                scale: 1.2
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: center
-              margin:
-                top: 0
-                bottom: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            tablet:
-              visibility:
-                active: false
-                hide: false
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              visibility:
-                active: false
-                hide: false
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
     styles:
       background: night
       rounded: top
@@ -1301,73 +1301,73 @@ content_blocks:
     content:
       label: An entire ecosystem behind you
       blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: -270
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: true
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
+          styles:
+            background: night
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 90
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/spacer
-                  content:
-                    title:
-                  styles:
-                    desktop:
-                      space:
-                        size: -270
-                    tablet:
-                      space:
-                        active: false
-                        size: 0
-                    mobile:
-                      space:
-                        active: true
-                        size: 0
-                - _bookshop_name: simple/quote
-                  content:
-                    case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
-                  styles:
-                    background:
-                    border: false
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 90
-                      block_alignment:
-                        align_block: center
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: center
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: center
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
                 - _bookshop_name: simple/heading
                   content:
                     text: CloudCannon's open source ecosystem
@@ -2559,7 +2559,7 @@ content_blocks:
           styles:
             background: white
             rounded: full
-            size: normal
+            size: small
             align: center
             shadow: false
             desktop:
@@ -2688,7 +2688,7 @@ content_blocks:
               CloudCannon's live visual editing. Learn how the best CMS for
               Nuxtjs static websites can help you and your team.&nbsp;
           styles:
-            width: full
+            width: medium
             desktop:
               text_alignment:
                 align: center
