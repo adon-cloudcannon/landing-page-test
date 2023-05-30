@@ -385,12 +385,12 @@ content_blocks:
 
 
                       * Content teams commit back to your Git repository through
-                      CloudCannon's visual editor.
+                      CloudCannon's Visual Editor.
 
                       * Create branches for significant changes to prevent
                       blocking staging environments.
 
-                      * Review changes on a site and merge them into another
+                      * Review changes to a site and merge them into another
                       branch.
 
                       * Roll a site back with full version control of both code
