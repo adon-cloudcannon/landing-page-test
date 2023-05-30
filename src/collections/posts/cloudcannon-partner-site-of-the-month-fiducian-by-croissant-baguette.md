@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'CloudCannon Partner Site of the Month: Fiducian, by Croissant & Baguette'
-breadcrumb_title:
+breadcrumb_title: Fiducian by Croissant & Baguette
 description: >-
   Introducing Fiducian.com.au — designed and developed by Croissant & Baguette,
   built with Hugo, and optimized for editing on CloudCannon.
