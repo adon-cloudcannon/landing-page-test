@@ -7,7 +7,7 @@ description: >-
   built with Hugo, and optimized for editing on CloudCannon.
 draft: true
 series:
-image: https://cc-dam.imgix.net/blog/uploads/fiducian-color.png
+image: ''
 date: 2023-06-01T05:02:00+12:00
 hide_publish_date: false
 tags:
@@ -59,10 +59,6 @@ Like many of Croissant & Baguette’s designs, it appears simple and elegant fro
 In addition to the full site build, Croissant & Baguette also completed a branding refresh for Fiducian, encompassing everything from a new color palette to comprehensive guidelines for all website UI and navigation elements — as well as the components that form the basis of the CloudCannon editing experience.
 
 \[<u><strong>IMAGE(S) of the design assets</strong></u>\]
-
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/blog/uploads/fiducian-components.png" alt: "" extend: false border: false %}
-
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/blog/uploads/fiducian-color.png" alt: "" extend: false border: false %}
 
 Overall, Fiducian is a fantastic example of clean, modern design underpinned by reliable and efficient development work. With CloudCannon, it’s easy to update and add new content; with Hugo, it builds incredibly quickly; and thanks to Croissant & Baguette, Fiducian knows their website will continue to work seamlessly.
 
