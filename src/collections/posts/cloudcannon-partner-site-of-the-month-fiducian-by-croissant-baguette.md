@@ -60,11 +60,13 @@ In addition to the full site build, Croissant & Baguette also completed a brandi
 
 \[<u><strong>IMAGE(S) of the design assets</strong></u>\]
 
-Overall, Fiducian is a fantastic example of clean, modern design underpinned by reliable and efficient development work. With CloudCannon, it’s easy to update and add new content; with Hugo, it builds incredibly quickly; and thanks to Croissant & Baguette, Fiducian knows their website will continue to work seamlessly.
+Overall, Fiducian is a fantastic example of clean, modern design underpinned by reliable and efficient development work. With CloudCannon, it’s easy to update and add new content; with Hugo, the site builds incredibly quickly; and thanks to Croissant & Baguette, Fiducian knows their website will continue to work seamlessly.
+
+---
 
 ### About Croissant & Baguette
 
-[Croissant & Baguette](https://croissantbaguette.com.au) is a boutique digital agency based in Sydney, Australia. They specialise in digital transformation and innovation, with a focus on best practices, performance, and premium quality projects.
+[Croissant & Baguette](https://croissantbaguette.com.au) is a boutique digital agency based in Sydney, Australia. A <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner</a> and <a target="_blank" rel="noopener" href="https://cloudcannon.com/experts/">CloudCannon Expert</a>&nbsp;agency, they specialise in digital transformation and innovation, with a focus on best practices, performance, and premium quality projects.
 
 ### About Fiducian
 
