@@ -75,7 +75,7 @@ As I mentioned above, Sendit is preconfigured for live visual editing on all of 
 
 During the build process (specifically, in our [postbuild](https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/) file), we use our open-source component development tool [Bookshop](https://github.com/CloudCannon/bookshop) to read the data and default values of our components from .yml files and turn them into inputs config for the editor. For example, here’s `src/components/home/hero/hero.bookshop.yml`, showing the data and default values (pre-filled text) for this hero component:
 
-```
+```yaml
 # Metadata about this component, to be used in the CMS
 spec:
   structures:
@@ -110,7 +110,7 @@ You’ll see that each component has a defined blueprint, label, icon, and tags,
 
 Looking at `src/layouts/PageLayout.astro` below, we can see a component using the `bookshop:live` directive with props sourced from a `frontmatter` variable:
 
-```
+```javascript
 ---
 import Page from "@shared/page";
 import Layout, { SEOProps } from "./Layout.astro";
