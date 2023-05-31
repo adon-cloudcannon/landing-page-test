@@ -1374,7 +1374,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Benefits of Git based static sites
+                    text: Benefits of Git based CMSs
                   styles:
                     element: h2
                     width: normal
