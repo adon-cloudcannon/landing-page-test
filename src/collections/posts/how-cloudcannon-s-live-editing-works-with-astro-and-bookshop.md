@@ -34,13 +34,9 @@ seo:
 ---
 CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? Bookshop, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with [Astro](https://cloudcannon.com/astro-cms/).
 
-{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
-
 To help you integrate your existing Astro sites with Bookshop, we’ve created a new [Bookshop Astro Guide](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/) as part of our documentation. Our [Astro Sendit template](https://cloudcannon.com/templates/sendit/) is also a very helpful reference, as it contains an example site that’s fully integrated with Bookshop’s live visual editing.
 
 While many Astro developers will be accustomed to creating, updating, and removing pages, components, and posts in their IDE, you (and other site users) can also complete all of these tasks within the CMS’s intuitive interface, as pictured above. With the Sendit template, we’ve also allowed users to easily edit our data files with CloudCannon’s Data Editor — meaning information like company details, navigation, footers, and theme colours, stored in .json files in `data/`, can be accessible and editable for all site users.
-
-{% bookshop 'markdown/image' src: "" alt: "" extend: false border: false %}
 
 ## Getting started with Astro and CloudCannon
 
@@ -202,8 +198,6 @@ content_blocks:
 ```
 
 When we view that page in CloudCannon’s Visual Editor, we’ll be able to interact with the component directly on the page. Clicking on the component will open up an editing panel, and our changes will render live on screen.
-
-{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
 
 ## Global configuration with CloudCannon and Astro
 
