@@ -88,8 +88,27 @@ You’ll see that each component has a defined blueprint, label, icon, and tags,
 Looking at `src/layouts/PageLayout.astro` below, we can see a component using the `bookshop:live` directive with props sourced from a `frontmatter` variable:
 
 ```
+---
+import Page from "@shared/page";
+import Layout, { SEOProps } from "./Layout.astro";
 
- 
+type Props = {
+  frontmatter: {
+    title: string;
+    content_blocks: Array<Record<string, any>>;
+    seo?: SEOProps;
+  };
+};
+
+if (!Astro.props.frontmatter) {
+  throw new Error("Page frontmatter must be defined");
+}
+const props = Astro.props.frontmatter;
+---
+
+<Layout {...props}>
+  <Page bookshop:live contentBlocks={props.content_blocks} />
+</Layout>
 ```
 
 And in the front matter of our homepage, we can see that `content_blocks` contains the Bookshop component `home/hero`.
