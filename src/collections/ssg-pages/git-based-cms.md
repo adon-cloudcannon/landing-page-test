@@ -3003,11 +3003,10 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Here at CloudCannon, we believe in the power of Git. A
-                      Git-based CMS stays in sync with your Git repository and
-                      provides an intuitive GUI for managing the content in
-                      these files without needing any Git or web development
-                      knowledge. ​​​​​​
+                      We believe in the power of Git. A Git-based CMS stays in
+                      sync with your Git repository and provides an intuitive
+                      GUI for managing the content in these files without
+                      needing any Git or web development knowledge. ​​​​​​
 
 
                       With a Git-based CMS, you own your content — it’s in your
@@ -3145,12 +3144,12 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: split
-                width: 0
+                type: fixed-fluid
+                width: 450
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
                 active: true
