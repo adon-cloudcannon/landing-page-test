@@ -979,8 +979,117 @@ content_blocks:
                               skew: 0
                       - _bookshop_name: simple/logo
                         content:
-                          logo: https://cc-dam.imgix.net/git-providers-list.svg
-                          name: Git providers
+                          logo: >-
+                            https://cc-dam.imgix.net/logo-gradient-blue-bitbucket.svg
+                          name: BitBucket
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/gitlab-logo-100.svg
+                          name: GitLab
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/github-mark.svg
+                          name: GitHub
                           url:
                         styles:
                           desktop:
