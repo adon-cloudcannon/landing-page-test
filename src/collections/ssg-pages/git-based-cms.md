@@ -1634,7 +1634,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 300
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -1662,6 +1662,191 @@ content_blocks:
           right: 0
           bottom: 0
           left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: Advance your content workflow
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Advance your content workflow
+          styles:
+            element: h2
+            width: tight
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 60
+                bottom: 30
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              CloudCannon's Git based CMS takes your web development workflow to
+              the next level.
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/steps
+          content:
+            steps:
+              - title: Sync your static site
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step1new.svg
+              - title: Configure your SSG build
+                description: >-
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/all-ssgs-build2 (1).svg
+              - title: Invite your content team to collaborate
+                description: >-
+                  Give your team access to update site content without the help
+                  of a developer using our Git CMS. 
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step3new.svg
+              - title: Go live with hosting
+                description: >-
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed. Alternatively, bring your
+                  own hosting provider, and CloudCannon will handle it
+                  seamlessly.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step4new.svg
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 300
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
   - _bookshop_name: sections/container
     content:
       label: An entire ecosystem behind you
@@ -1984,374 +2169,6 @@ content_blocks:
           left: 0
       size: normal
       align: none
-  - _bookshop_name: sections/container
-    content:
-      label: Advance your content workflow
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Advance your content workflow
-          styles:
-            element: h2
-            width: tight
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 60
-                bottom: 30
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              CloudCannon's Git based CMS takes your web development workflow to
-              the next level.
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/steps
-          content:
-            steps:
-              - title: Sync your static site
-                description: Connect your GitHub, GitLab, or Bitbucket repository.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step1new.svg
-              - title: Configure your SSG build
-                description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/all-ssgs-build2 (1).svg
-              - title: Invite your content team to collaborate
-                description: >-
-                  Give your team access to update site content without the help
-                  of a developer using our Git CMS. 
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with hosting
-                description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed. Alternatively, bring your
-                  own hosting provider, and CloudCannon will handle it
-                  seamlessly.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step4new.svg
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: white
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 120
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
-  - _bookshop_name: sections/container
-    content:
-      label: learning resources
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Get started with CloudCannon's Git based CMS learning resources
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: true
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Need help building static sites? Whether it's static site
-              generator specific documentation, tutorials, or themes that you're
-              after, CloudCannon has you covered!
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 30
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/cards
-          content:
-            cards:
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/document-check
-                  icon_color: blue
-                title: Documentation
-                link: https://cloudcannon.com/documentation/
-                description: >-
-                  Head over to CloudCannon's documentation site. More than just
-                  a docs site, you'll find helpful guides, product updates, and
-                  support here.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/cog
-                  icon_color: red
-                title: Tutorials
-                link: https://cloudcannon.com/tutorials/
-                description: >-
-                  Check out our collection of tutorial series. Learn the basics
-                  of a new static site generator with our beginner tutorial
-                  series. Or dive into more advanced topics like working with
-                  Bootstrap templates, remote data files, and SEO best
-                  practices.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/paint-brush
-                  icon_color: purple
-                title: Templates
-                link: https://cloudcannon.com/templates/
-                description: >-
-                  Explore our library of free CloudCannon-ready themes for your
-                  next project. Deploy it to CloudCannon with a single click,
-                  and you’re all ready to start using our Visual Editor
-                  interface.
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: caramel
-      rounded: top
-      size: normal
-      align: none
-      shadow: false
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 160
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: true
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
   - _bookshop_name: sections/container
     content:
       label: Intuitive content editing
@@ -2958,6 +2775,189 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
+      label: learning resources
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Get started with CloudCannon's Git based CMS learning resources
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: true
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Need help building static sites? Whether it's static site
+              generator specific documentation, tutorials, or themes that you're
+              after, CloudCannon has you covered!
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 30
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: Documentation
+                link: https://cloudcannon.com/documentation/
+                description: >-
+                  Head over to CloudCannon's documentation site. More than just
+                  a docs site, you'll find helpful guides, product updates, and
+                  support here.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: Tutorials
+                link: https://cloudcannon.com/tutorials/
+                description: >-
+                  Check out our collection of tutorial series. Learn the basics
+                  of a new static site generator with our beginner tutorial
+                  series. Or dive into more advanced topics like working with
+                  Bootstrap templates, remote data files, and SEO best
+                  practices.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: Templates
+                link: https://cloudcannon.com/templates/
+                description: >-
+                  Explore our library of free CloudCannon-ready themes for your
+                  next project. Deploy it to CloudCannon with a single click,
+                  and you’re all ready to start using our Visual Editor
+                  interface.
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: caramel
+      rounded: top
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 160
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: true
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+  - _bookshop_name: sections/container
+    content:
       label: Why choose a Git-based CMS
       blocks:
         - _bookshop_name: sections/two-column
@@ -3171,7 +3171,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: sea
+      background: white
       rounded: top
       size: normal
       align: none
