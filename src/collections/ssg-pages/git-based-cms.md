@@ -22,7 +22,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A fully featured Eleventy CMS for everyone
+            text: A Git based CMS for static sites
           styles:
             element: h1
             width: normal
@@ -59,9 +59,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Reap the performance benefits of the static site generator 11ty,
-              while ensuring your content editors can efficiently edit and
-              create new pages with CloudCannon's 11ty CMS.&nbsp;
+              Keep your developers and editors in sync with Git. Commits pushed
+              by developers automatically sync to CloudCannon. Likewise, content
+              changes made on CloudCannon commit back to your Git repository.
           styles:
             desktop:
               text_alignment:
@@ -927,6 +927,60 @@ content_blocks:
                         content:
                           logo: https://cc-dam.imgix.net/bridgetown.svg
                           name: bridgetown
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/git-providers-list.svg
+                          name: Git providers
                           url:
                         styles:
                           desktop:
