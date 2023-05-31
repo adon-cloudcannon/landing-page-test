@@ -348,7 +348,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: Build 11ty sites your way
+                    title: Build static sites your way
                     emoji:
                     sub_title: CloudCannon for developers
                   styles:
@@ -379,7 +379,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for 11ty has everything you need to
+                      CloudCannon’s Git based CMS has everything you need to
                       build, edit, and host the best performing sites on the
                       web.
 
@@ -387,9 +387,11 @@ content_blocks:
                       * Focus on building custom components rather than
                       hand-holding editors through changes.
 
-                      * Build locally with your favorite tools and frameworks.
+                      * Build locally with your favorite tools and frameworks,
+                      CloudCannon works with any static site generator (SSG).
 
-                      * Sync changes to content editors with a Git push.
+                      * Sync changes to content editors with a Git push, enjoy
+                      multi-object versioning, and avoid lock-ins.&nbsp;
                   styles:
                     desktop:
                       text_alignment:
@@ -432,80 +434,571 @@ content_blocks:
                     width: full
             right:
               blocks:
-                - _bookshop_name: simple/image
+                - _bookshop_name: simple/logo-ticker
                   content:
-                    alt: Branching and previewing
-                    image: https://cc-dam.imgix.net/image_8_utyigb.png
+                    logo_blocks:
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/jekyll.svg
+                          name: Jekyll
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/hugo.svg
+                          name: hugo
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/astro-logo-dark.svg
+                          name: astro
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/11ty.svg
+                          name: eleventy
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/Gatsby.svg
+                          name: Gatsby
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/MkDocs.svg
+                          name: MkDocs
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/NEXTjs.svg
+                          name: nextjs
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/NuxtJS.svg
+                          name: nuxt
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/sveltekit.svg
+                          name: sveltekit
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                      - _bookshop_name: simple/logo
+                        content:
+                          logo: https://cc-dam.imgix.net/bridgetown.svg
+                          name: bridgetown
+                          url:
+                        styles:
+                          desktop:
+                            visibility:
+                              hide: false
+                            position:
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          tablet:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
+                          mobile:
+                            visibility:
+                              active: false
+                              hide: true
+                            position:
+                              active: false
+                              top: 0
+                              right: 0
+                              bottom: 0
+                              left: 0
+                            transform:
+                              active: false
+                              scale: 1
+                              translate_x: 0
+                              translate_y: 0
+                              rotate: 0
+                              skew: 0
                   styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
+                    background_mode: false
                     desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
                       margin:
                         top: 0
-                        left: 0
-                        bottom: 0
                         right: 0
-                      position:
-                        top: 0
-                        left: 0
                         bottom: 0
-                        right: 0
+                        left: 0
                     tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
                       margin:
                         active: false
                         top: 0
-                        left: 0
-                        bottom: 0
                         right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
                         bottom: 0
-                        right: 0
+                        left: 0
                     mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
                       margin:
                         active: false
                         top: 0
-                        left: 0
-                        bottom: 0
                         right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
                         bottom: 0
-                        right: 0
+                        left: 0
           styles:
             desktop:
               columns:
@@ -587,8 +1080,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on 11ty
-                    image: https://cc-dam.imgix.net/image_9_yqbchd.png
+                    alt: Faster and easier on Git based CMS
+                    image: https://cc-dam.imgix.net/group-18945.png
                   styles:
                     border:
                     rounded:
@@ -663,7 +1156,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for 11ty websites
+                    title: The best Git based CMS for static websites
                     emoji:
                     sub_title: CloudCannon for editors
                   styles:
@@ -694,12 +1187,11 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Eleventy makes content management
+                      CloudCannon’s Git based CMS for makes content management
                       easy for your marketing team and content editors.
 
 
-                      * Use custom components to build new 11ty site pages
-                      visually.
+                      * Use custom components to build new site pages visually.
 
                       * Share and review changes with a preview site.
 
@@ -820,148 +1312,265 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Advance your content workflow
+      label: Git-based benefits
       blocks:
-        - _bookshop_name: simple/heading
+        - _bookshop_name: sections/two-column
           content:
-            text: Advance your Eleventy content workflow
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Benefits of Git based static sites
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      More than a headless CMS. CloudCannon's Git CMS helps your
+                      team stay in sync with a unified workflow without locking
+                      you in.&nbsp;
+
+
+                      * Content editors can create branches for significant
+                      changes to prevent blocking staging environments.
+
+                      * Review changes on a site and merge them into another
+                      branch.
+
+                      * Roll a site back with full version control of both code
+                      and content.
+
+                      * Maintain full access to your code base in the remote
+                      repository/repositories.&nbsp;
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a demo
+                          link: https://cloudcannon.com/book-a-demo/
+                        styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Try for free
+                          link: >-
+                            https://app.cloudcannon.com/register?trial=cc_standard
+                        styles:
+                          style: outline-white
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 30
+                        bottom: 30
+                      justify:
+                        align: start
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Git workflow
+                    image: https://cc-dam.imgix.net/Git+workflows-developer.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1.2
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: center
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
-            element: h2
-            width: tight
             desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
+              columns:
+                type: fixed-fluid
+                width: 450
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
             tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
+              columns:
                 active: true
-                text_size: normal
-              margin:
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
                 active: true
-                top: 60
-                bottom: 30
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              CloudCannon's 11ty CMS takes your web development workflow to the
-              next level.
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
                 active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/steps
-          content:
-            steps:
-              - title: Sync your Eleventy site
-                description: Connect your GitHub, GitLab, or Bitbucket repository.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step1new.svg
-              - title: Configure your Eleventy build
-                description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step2eleventy.svg
-              - title: Invite your content team to collaborate
-                description: >-
-                  Start collaborating with your team. Edit content right on the
-                  page.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with hosting
-                description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed.
-                link:
-                  text:
-                  url:
-                  icon_path:
-                  icon_color:
-                image: https://cc-dam.imgix.net/step4new.svg
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
+                v_align: top
     styles:
-      background: white
+      background: night
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -994,13 +1603,11 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: true
-          top: 60
+          active: false
+          top: 0
           right: 0
-          bottom: 90
+          bottom: 0
           left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
       label: An entire ecosystem behind you
@@ -1323,6 +1930,374 @@ content_blocks:
           left: 0
       size: normal
       align: none
+  - _bookshop_name: sections/container
+    content:
+      label: Advance your content workflow
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Advance your content workflow
+          styles:
+            element: h2
+            width: tight
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 60
+                bottom: 30
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              CloudCannon's Git based CMS takes your web development workflow to
+              the next level.
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/steps
+          content:
+            steps:
+              - title: Sync your static site
+                description: Connect your GitHub, GitLab, or Bitbucket repository.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step1new.svg
+              - title: Configure your SSG build
+                description: >-
+                  Add your environment variables, command line options, custom
+                  plugins, and more to automate your build.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/all-ssgs-build2 (1).svg
+              - title: Invite your content team to collaborate
+                description: >-
+                  Give your team access to update site content without the help
+                  of a developer using our Git CMS. 
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step3new.svg
+              - title: Go live with hosting
+                description: >-
+                  Delight your customers by hosting your site on a global CDN
+                  with unparalleled reach and speed. Alternatively, bring your
+                  own hosting provider, and CloudCannon will handle it
+                  seamlessly.
+                link:
+                  text:
+                  url:
+                  icon_path:
+                  icon_color:
+                image: https://cc-dam.imgix.net/step4new.svg
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: white
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: learning resources
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Get started with CloudCannon's Git based CMS learning resources
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: true
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Need help building static sites? Whether it's static site
+              generator specific documentation, tutorials, or themes that you're
+              after, CloudCannon has you covered!
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 30
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/cards
+          content:
+            cards:
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/document-check
+                  icon_color: blue
+                title: Documentation
+                link: https://cloudcannon.com/documentation/
+                description: >-
+                  Head over to CloudCannon's documentation site. More than just
+                  a docs site, you'll find helpful guides, product updates, and
+                  support here.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/cog
+                  icon_color: red
+                title: Tutorials
+                link: https://cloudcannon.com/tutorials/
+                description: >-
+                  Check out our collection of tutorial series. Learn the basics
+                  of a new static site generator with our beginner tutorial
+                  series. Or dive into more advanced topics like working with
+                  Bootstrap templates, remote data files, and SEO best
+                  practices.
+              - image:
+                icon:
+                  active: true
+                  icon_path: outline/paint-brush
+                  icon_color: purple
+                title: Templates
+                link: https://cloudcannon.com/templates/
+                description: >-
+                  Explore our library of free CloudCannon-ready themes for your
+                  next project. Deploy it to CloudCannon with a single click,
+                  and you’re all ready to start using our Visual Editor
+                  interface.
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+    styles:
+      background: caramel
+      rounded: top
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 160
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: true
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
   - _bookshop_name: sections/container
     content:
       label: Intuitive content editing
@@ -1929,189 +2904,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: learning resources
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Get started with 11ty and CloudCannon
-          styles:
-            element: h2
-            width: normal
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: true
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Need help with Eleventy? Whether it's Eleventy specific
-              documentation, 11ty tutorials, or 11ty themes that you're after,
-              CloudCannon has you covered!
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 30
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/cards
-          content:
-            cards:
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/document-check
-                  icon_color: blue
-                title: Eleventy starter guide
-                link: >-
-                  https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/
-                description: >-
-                  Get your 11ty site set up on CloudCannon. Make configuration
-                  easy so you can focus on building custom components.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/cog
-                  icon_color: red
-                title: Eleventy beginner tutorial
-                link: https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/
-                description: >-
-                  Learn the basics of Eleventy in this six-part tutorial series.
-                  Go through everything at your own pace, from learning how to
-                  install the 11ty framework, creating layouts, pages, and blog
-                  posts, and an introduction to using data files.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/paint-brush
-                  icon_color: purple
-                title: Eleventy templates
-                link: https://cloudcannon.com/templates/
-                description: >-
-                  Explore our library of free CloudCannon-ready themes for your
-                  11ty project. Deploy it to CloudCannon with a single click,
-                  and you’re all ready to start using our Visual Editor
-                  interface.
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: caramel
-      rounded: top
-      size: normal
-      align: none
-      shadow: false
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 160
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: true
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: Git-based CMS
+      label: Why choose a Git-based CMS
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -2119,7 +2912,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Stay in sync with a Git-based CMS
+                    text: Why choose a Git-based CMS
                   styles:
                     element: h2
                     width: normal
@@ -2156,21 +2949,29 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      More than a headless CMS. CloudCannon's Git-based CMS
-                      helps your team stay in sync with a unified workflow.
+                      The Git-based CMS stays in sync with your Git repository
+                      and provides an intuitive GUI for managing the content in
+                      these files without needing any Git or web development
+                      knowledge. With Git at the core of the workflow,
+                      developers and content editors can collaborate closely
+                      using the same workflows.​​​​​​
 
 
-                      * Content teams commit back to your Git repository through
-                      CloudCannon's visual editor.
+                      With a Git-based CMS, you own your content — it’s in your
+                      repository, and you have the complete history of all the
+                      changes. A Git-based CMS provides a superior version
+                      control system compared to traditional CMS platforms.
+                      There’s no need for backups, exports, or concern for data
+                      lock-in. It’s a layer on top of your Git repository that
+                      can be switched out at any time.
 
-                      * Create branches for significant changes to prevent
-                      blocking staging environments.
 
-                      * Review changes on a site and merge them into another
-                      branch.
-
-                      * Roll a site back with full version control of both code
-                      and content.
+                      The added advantage of a Git-based CMS is that it
+                      understands how the content fits into your website, as it
+                      has all your website files. Developers get to familiar
+                      tools and workflows. Editors don’t need to use their
+                      imagination about where content will live on the page:
+                      they can edit directly on the website.
                   styles:
                     width: full
                     desktop:
@@ -2258,8 +3059,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Git workflow
-                    image: https://cc-dam.imgix.net/Git+workflows-developer.png
+                    alt: Branching and previewing with a Git CMS
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -2271,7 +3072,7 @@ content_blocks:
                       visibility:
                         hide: false
                       transform:
-                        scale: 1.2
+                        scale: 1
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -2364,7 +3165,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: night
+      background: sea
       rounded: top
       size: normal
       align: none
@@ -2412,7 +3213,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: An 11ty CMS you can trust
+            text: A Git-based CMS you can trust
           styles:
             element: h2
             width: normal
@@ -2450,8 +3251,8 @@ content_blocks:
           content:
             text_markdown: >-
               Find out how leading companies are successfully leveraging
-              CloudCannon's live visual editing. Learn how the best CMS for 11ty
-              can help you and your team.&nbsp;
+              CloudCannon's live visual editing. Learn how the best Git based
+              CMS can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:
