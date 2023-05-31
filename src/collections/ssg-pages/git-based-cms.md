@@ -2949,8 +2949,11 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      The Git-based CMS stays in sync with your Git repository
-                      and provides an intuitive GUI for managing the content in
+                      Here at CloudCannon, we believe in the power of Git — as a
+                      content repository, as a robust source management tool,
+                      and most importantly, as a publishing workflow. Our
+                      Git-based CMS stays in sync with your Git repository and
+                      provides an intuitive GUI for managing the content in
                       these files without needing any Git or web development
                       knowledge. With Git at the core of the workflow,
                       developers and content editors can collaborate closely
@@ -2981,7 +2984,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                       block_alignment:
                         align_block: center
                     tablet:
@@ -3012,49 +3015,6 @@ content_blocks:
                       block_alignment:
                         active: false
                         align_block: left
-                - _bookshop_name: simple/button-holder
-                  content:
-                    button_blocks:
-                      - _bookshop_name: simple/button
-                        content:
-                          text: Book a demo
-                          link: https://cloudcannon.com/book-a-demo/
-                        styles:
-                          style: normal
-                          size: normal
-                          extra_classes:
-                      - _bookshop_name: simple/button
-                        content:
-                          text: Try for free
-                          link: >-
-                            https://app.cloudcannon.com/register?trial=cc_standard
-                        styles:
-                          style: outline-white
-                          size: normal
-                          extra_classes:
-                  styles:
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 30
-                      justify:
-                        align: start
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: false
-                        align: center
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: false
-                        align: center
             right:
               blocks:
                 - _bookshop_name: simple/image
