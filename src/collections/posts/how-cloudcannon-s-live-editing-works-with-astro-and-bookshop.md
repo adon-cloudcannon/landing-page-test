@@ -32,9 +32,9 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? Bookshop, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with [Astro](https://cloudcannon.com/astro-cms/).
+CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? <a target="_blank" rel="noopener" href="https://github.com/CloudCannon/bookshop">Bookshop</a>, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with <a target="_blank" rel="noopener" href="https://cloudcannon.com/astro-cms/">Astro</a>.
 
-To help you integrate your existing Astro sites with Bookshop, we’ve created a new [Bookshop Astro Guide](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/) as part of our documentation. Our [Astro Sendit template](https://cloudcannon.com/templates/sendit/) is also a very helpful reference, as it contains an example site that’s fully integrated with Bookshop’s live visual editing.
+To help you integrate your existing Astro sites with Bookshop, we’ve created a new <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/bookshop-astro-guide/">Bookshop Astro Guide</a> as part of our documentation. Our <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Astro Sendit template</a> is also a very helpful reference, as it contains an example site that’s fully integrated with Bookshop’s live visual editing.
 
 While many Astro developers will be accustomed to creating, updating, and removing pages, components, and posts in their IDE, you (and other site users) can also complete all of these tasks within the CMS’s intuitive interface, as pictured above. With the Sendit template, we’ve also allowed users to easily edit our data files with CloudCannon’s Data Editor — meaning information like company details, navigation, footers, and theme colours, stored in .json files in `data/`, can be accessible and editable for all site users.
 
@@ -45,6 +45,11 @@ Let’s first spin up a new Sendit site on CloudCannon, explore its features, an
 If you don’t already have a CloudCannon account, take a moment to [create one](https://app.cloudcannon.com/register?trial=cc_standard), link your GitHub, GitLab, or Bitbucket account, and create a new Astro Sendit site from a template. Your site files will stay in your Git repo, and upon triggering any save in CloudCannon, your site will build.
 
 Looking at our `astro.config.mjs` file, there’s not much to it, as you’ll see:
+
+```
+
+ 
+```
 
 We’re importing our configuration, as well as Bookshop and React, and declaring our site’s domain. This `site:` field is temporarily set for you, as above, but you can change this URL to the final, deployed URL of your site.
 
@@ -77,89 +82,6 @@ When we view that page in CloudCannon’s Visual Editor, we’ll be able to inte
 ## Global configuration with CloudCannon and Astro
 
 Bringing it all together, is CloudCannon’s global configuration file, `/cloudcannon.config.cjs`. Under `collections_config` at line 7 you’ll see that we can define (or change) a lot of information about our data, posts, and pages, including where content is stored, which schemas are used for posts and pages, and which editor should be enabled to edit them.
-
-```jsx
-/* -- truncated -- */
-  collections_config: {
-    data: {
-      path: "data",
-      disable_add: true,
-      disable_add_folder: true,
-    },
-    posts: {
-      path: "src/content/blog",
-      output: true,
-      url: "/blog/[slug]/",
-      _enabled_editors: ["content", "visual"],
-      add_options: [
-        {
-          name: "Add New Post",
-          schema: "default",
-          icon: "post_add",
-        },
-      ],
-      schemas: {
-        default: {
-          name: "New Post",
-          path: "schemas/post.md",
-        },
-      },
-      _inputs: {
-        title: {
-          empty_type: "string",
-        },
-        image: {
-          empty_type: "string",
-        },
-        image_alt: {
-          empty_type: "string",
-        },
-        author: {
-          empty_type: "string",
-        },
-        tags: {
-          type: "multiselect",
-          allow_create: true,
-          empty_type: "array",
-        },
-      }
-    },
-    pages: {
-      path: "src/content/pages",
-      url: (filePath, parsed, { buildUrl }) =>
-        buildUrl(filePath, parsed, "/[slug]/").replace(/^\\/_/, "/"),
-      output: true,
-      icon: "wysiwyg",
-      _enabled_editors: ["visual"],
-      add_options: [
-        {
-          name: "Add New Page",
-          schema: "default",
-          icon: "note_add",
-        },
-      ],
-      schemas: {
-        default: {
-          name: "New Page",
-          path: "schemas/page.md",
-          new_preview_url: "/",
-        },
-        paginated_collection: {
-          path: "schemas/paginated-collection.md",
-        },
-      },
-      _inputs: {
-        content_blocks: {
-          empty_type: "array",
-        },
-      },
-      filter: {
-        base: "strict",
-      },
-    },
-  },
-/* -- truncated -- */
-```
 
 You’ll also see that we’ve enabled the Visual Editor for pages on Sendit, but for posts we also give editors the option to use the Content Editor, which is a configurable WYSIWYG Markdown editor for distraction-free writing. (Users with higher-permission roles such as Developers and Site Owners will also be able to view files in the Source Editor.)
 
