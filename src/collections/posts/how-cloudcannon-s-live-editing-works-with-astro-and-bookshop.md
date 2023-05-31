@@ -32,9 +32,9 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? <a target="_blank" rel="noopener" href="https://github.com/CloudCannon/bookshop">Bookshop</a>, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with <a target="_blank" rel="noopener" href="https://cloudcannon.com/astro-cms/">Astro</a>.
+CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? <a target="_blank" href="https://github.com/CloudCannon/bookshop">Bookshop</a>, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with <a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro</a>.
 
-To help you integrate your existing Astro sites with Bookshop, we’ve created a new <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/bookshop-astro-guide/">Bookshop Astro Guide</a> as part of our documentation. Our <a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Astro Sendit template</a> is also a very helpful reference, as it contains an example site that’s fully integrated with Bookshop’s live visual editing.
+To help you integrate your existing Astro sites with Bookshop, we’ve created a new <a target="_blank" href="https://cloudcannon.com/documentation/guides/bookshop-astro-guide/">Bookshop Astro Guide</a> as part of our documentation. Our <a target="_blank" href="https://cloudcannon.com/templates/sendit/">Astro Sendit template</a> is also a very helpful reference, as it contains an example site that’s fully integrated with Bookshop’s live visual editing.
 
 While many Astro developers will be accustomed to creating, updating, and removing pages, components, and posts in their IDE, you (and other site users) can also complete all of these tasks within the CMS’s intuitive interface, as pictured above. With the Sendit template, we’ve also allowed users to easily edit our data files with CloudCannon’s Data Editor — meaning information like company details, navigation, footers, and theme colours, stored in .json files in `data/`, can be accessible and editable for all site users.
 
@@ -61,51 +61,6 @@ And that’s where CloudCannon’s visual editing comes in.
 ## How Visual Editing works on CloudCannon
 
 As I mentioned above, Sendit is preconfigured for live visual editing on all of its pages, so let’s dig into the feature and see how we’ve set it up for Sendit. In the above video, we saw visual editing in the Sendit homepage’s hero component. The component’s information is stored in two places. Its layout and styling is stored in `/src/components/home/hero/hero.jsx`\:
-
-```javascript
-import MarkdownIt from "markdown-it";
-const md = new MarkdownIt({ html: true });
-
-export default function HomeHero(block) {
-  return (
-    <section className="hero-two">
-      <div className="hero-two-shape"></div>
-      <div className="container-fluid">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="hero-two-content">
-              <h1 className="mb-4">{block.title}</h1>
-              <div
-                className="mb-7 w-xxl-80"
-                dangerouslySetInnerHTML={{
-                  __html: md.render(block.description),
-                }}
-              />
-              <div className="">
-                {block.button && (
-                  <a
-                    href={block.button.link}
-                    className="btn btn-primary btn-lg"
-                  >
-                    {" "}
-                    {block.button.text}{" "}
-                  </a>
-                )}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="hero-two-banner">
-              <img src={block.image} alt={block.image_alt} />
-              <div className="hero-two-banner-shape"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-```
 
 During the build process (specifically, in our [postbuild](https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/) file), we use our open-source component development tool [Bookshop](https://github.com/CloudCannon/bookshop) to read the data and default values of our components from .yml files and turn them into inputs config for the editor. For example, here’s `src/components/home/hero/hero.bookshop.yml`, showing the data and default values (pre-filled text) for this hero component:
 
