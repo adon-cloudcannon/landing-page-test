@@ -1,11 +1,16 @@
 ---
+_schema: default
 title: Jekyll Liquid basics
-tutorial: jekyll-tutorial
-order: 3
 image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
-description: >-
+order: 3
+tutorial: jekyll-tutorial
+description: |-
   Learn the basic Liquid templating concepts and see how you can use Liquid on
     your site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### What you’ll learn here:
 
@@ -24,7 +29,6 @@ git checkout liquid-intro-start
 # Finished branch:
 git checkout liquid-intro-finish
 ```
-
 
 ## What is Liquid?
 
@@ -83,88 +87,89 @@ Simple date formatting - international format
 
 ### Conditions
 
-A condition is a great way to display content on your page based on decisions. These also combine well with “logical operators” for making comparisons:
-The most common type of condition in Liquid is the “if” statement. Here’s an example of displaying a title depending on a title variable:
+A condition is a great way to display content on your page based on decisions. These also combine well with “logical operators” for making comparisons: The most common type of condition in Liquid is the “if” statement. Here’s an example of displaying a title depending on a title variable:
 
-<table>
-        <tbody><tr>
-            
-                <th scope="col">Operator</th>
-            
-                <th scope="col">Meaning</th>
-            
+```
+            <th scope="col">Operator</th>
+
+            <th scope="col">Meaning</th>
+
+    </tr>
+
+        <tr>
+
+            <td><p>==</p></td>
+
+            <td><p>Equal to</p></td>
+
         </tr>
-        
-            <tr>
-                
-                <td><p>==</p></td>
-                
-                <td><p>Equal to</p></td>
-                
-            </tr>
-        
-            <tr>
-                
-                <td><p>!=</p></td>
-                
-                <td><p>Not equal to</p></td>
-                
-            </tr>
-        
-            <tr>
-                
-                <td><p>&gt;</td>
-                
-                <td><p>Greater than</p></td>
-                
-            </tr>
-        
-            <tr>
-                
-                <td><p>&lt;</p></td>
-                
-                <td><p>Less than</p></td>
-                
-            </tr>
-        
-            <tr>
-                
-                <td><p>&gt;=</p></td>
-                
-                <td><p>Greater than or equal to</p></td>
-                
-            </tr>
-        
-            <tr>
-                
-                <td><p>&lt;=</p></td>
-                
-                <td><p>Less than or equal to</p></td>
-                
-            </tr>
-        
-            <tr>
-                
-                <td><p>and</p>
-</td>
-                
-                <td><p>Both condition A and B</p>
-</td>
-                
-            </tr>
-        
-            <tr>
-                
-                <td><p>or</p>
-</td>
-                
-                <td><p>Either condition A or B</p>
-</td>
-                
-            </tr>
-        
-    </tbody></table>
 
+        <tr>
+
+            <td><p>!=</p></td>
+
+            <td><p>Not equal to</p></td>
+
+        </tr>
+
+        <tr>
+
+            <td><p>&gt;</td>
+
+            <td><p>Greater than</p></td>
+
+        </tr>
+
+        <tr>
+
+            <td><p>&lt;</p></td>
+
+            <td><p>Less than</p></td>
+
+        </tr>
+
+        <tr>
+
+            <td><p>&gt;=</p></td>
+
+            <td><p>Greater than or equal to</p></td>
+
+        </tr>
+
+        <tr>
+
+            <td><p>&lt;=</p></td>
+
+            <td><p>Less than or equal to</p></td>
+
+        </tr>
+
+        <tr>
+
+            <td><p>and</p>
+```
+
+```
+            <td><p>Both condition A and B</p>
+```
+
+```
+        </tr>
+
+        <tr>
+
+            <td><p>or</p>
+```
+
+```
+            <td><p>Either condition A or B</p>
+```
+
+```
+        </tr>
+
+</tbody></table>
+```
 
 {% raw %}
  ```html
@@ -190,14 +195,11 @@ You can also use additional conditions - `elsif` (else if) and `else` - in each 
 ```
 {% endraw %}
 
-
 ### Loops
 
-A loop makes it easier to work with arrays. Here in NZ, we love our strange and characterful birds, so let’s list some on our page. Normally, in HTML, we would have to manually enter content like this:
-With a loop, we can make this easier and more dynamic. The syntax for a loop is `for <variable> in <list of items>`, where “variable” can be anything you choose:
+A loop makes it easier to work with arrays. Here in NZ, we love our strange and characterful birds, so let’s list some on our page. Normally, in HTML, we would have to manually enter content like this: With a loop, we can make this easier and more dynamic. The syntax for a loop is `for <variable> in <list of items>`, where “variable” can be anything you choose:
 
 It isn’t very easy to create arrays in Liquid - see next lesson
-
 
 {% raw %}
  ```html
@@ -214,4 +216,6 @@ Now we can add extra items to our products array above and it will automatically
 
 ## Whats next?
 
-Now we know a bit of how Liquid works. There's plenty more to learn, as it's a big topic, so we've [prepared a cheat sheet](/cheat-sheet/jekyll-cheat-sheet/) for you too\! Another question worth answering is where we get our data from that we can use with Liquid. The array example above isn’t a great solution. In our next topic - front matter - we’ll deal with this and learn how to make our pages even more powerful.
+Now we know a bit of how Liquid works. There's plenty more to learn, as it's a big topic, so we've <a target="_blank" rel="noopener" href="/cheat-sheets/jekyll/">prepared a cheat sheet</a> for you too! Another question worth answering is where we get our data from that we can use with Liquid. The array example above isn’t a great solution. In our next topic - front matter - we’ll deal with this and learn how to make our pages even more powerful.
+
+<table><tbody><tr></tr></tbody></table>
