@@ -3257,8 +3257,8 @@ content_blocks:
           content:
             text_markdown: >-
               Find out how leading companies are successfully leveraging
-              CloudCannon's live visual editing. Learn how the best Git based
-              CMS can help you and your team.&nbsp;
+              CloudCannon's live Visual Editor with enterprise level security.
+              Learn how the best Git based CMS can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:
