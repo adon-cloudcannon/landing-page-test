@@ -50,7 +50,7 @@ Looking at our `astro.config.mjs` file, there’s not much to it, as you’ll se
 
 ```
 
- 
+
 ```
 
 We’re importing our configuration, as well as Bookshop and React, and declaring our site’s domain. This `site:` field is temporarily set for you, as above, but you can change this URL to the final, deployed URL of your site.
@@ -132,7 +132,6 @@ const props = Astro.props.frontmatter;
 <Layout {...props}>
   <Page bookshop:live contentBlocks={props.content_blocks} />
 </Layout>
-​​​​​​​
 ```
 
 And in the front matter of our homepage, we can see that `content_blocks` contains the Bookshop component `home/hero`.
