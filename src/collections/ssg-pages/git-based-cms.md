@@ -820,303 +820,6 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Git-based CMS
-      blocks:
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: Stay in sync with a Git-based CMS
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      More than a headless CMS. CloudCannon's Git-based CMS
-                      helps your team stay in sync with a unified workflow.
-
-
-                      * Content teams commit back to your Git repository through
-                      CloudCannon's visual editor.
-
-                      * Create branches for significant changes to prevent
-                      blocking staging environments.
-
-                      * Review changes on a site and merge them into another
-                      branch.
-
-                      * Roll a site back with full version control of both code
-                      and content.
-                  styles:
-                    width: full
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 30
-                      block_alignment:
-                        align_block: center
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                - _bookshop_name: simple/button-holder
-                  content:
-                    button_blocks:
-                      - _bookshop_name: simple/button
-                        content:
-                          text: Book a demo
-                          link: https://cloudcannon.com/book-a-demo/
-                        styles:
-                          style: normal
-                          size: normal
-                          extra_classes:
-                      - _bookshop_name: simple/button
-                        content:
-                          text: Try for free
-                          link: >-
-                            https://app.cloudcannon.com/register?trial=cc_standard
-                        styles:
-                          style: outline-white
-                          size: normal
-                          extra_classes:
-                  styles:
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 30
-                      justify:
-                        align: start
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: false
-                        align: center
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: false
-                        align: center
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Git workflow
-                    image: https://cc-dam.imgix.net/Git+workflows-developer.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    pixel_width:
-                    max_width:
-                    desktop:
-                      visibility:
-                        hide: false
-                      transform:
-                        scale: 1.2
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: center
-                      margin:
-                        top: 0
-                        bottom: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-          styles:
-            desktop:
-              columns:
-                type: fixed-fluid
-                width: 450
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: top
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-    styles:
-      background: night
-      rounded: top
-      size: normal
-      align: none
-      shadow: false
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 120
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-  - _bookshop_name: sections/container
-    content:
       label: Advance your content workflow
       blocks:
         - _bookshop_name: simple/heading
@@ -2408,95 +2111,15 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Why Choose
+      label: Git-based CMS
       blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: faster and easier SSG
-                    image: https://cc-dam.imgix.net/Group_18528_j98j2i.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    pixel_width:
-                    max_width:
-                    desktop:
-                      visibility:
-                        hide: false
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        bottom: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-            right:
-              blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why choose Eleventy?
+                    text: Stay in sync with a Git-based CMS
                   styles:
                     element: h2
                     width: normal
@@ -2524,8 +2147,8 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: true
-                        text_size: normal
+                        active: false
+                        text_size: big
                       margin:
                         active: false
                         top: 0
@@ -2533,30 +2156,21 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Eleventy is billed as the 'simpler static site generator',
-                      and was created as a zero-config JavaScript alternative to
-                      Jekyll. It has a growing reputation for its ease of use:
-                      it works well with existing project files and multiple
-                      data sources, maintains low build times, and also features
-                      logical and intuitive hierarchies.
+                      More than a headless CMS. CloudCannon's Git-based CMS
+                      helps your team stay in sync with a unified workflow.
 
 
-                      Eleventy is fast, lets you stay flexible, doesn’t require
-                      any client-side JavaScript, and doesn’t require you to
-                      learn any specific frameworks like Vue or React. You can
-                      integrate a plethora of eleventy plugins to customize your
-                      11ty project.
+                      * Content teams commit back to your Git repository through
+                      CloudCannon's visual editor.
 
+                      * Create branches for significant changes to prevent
+                      blocking staging environments.
 
-                      Built with JavaScript and easily installed via npm,
-                      Eleventy is also extremely flexible in its range of
-                      template languages: HTML, Markdown, JavaScript, Liquid,
-                      Nunjucks, Handlebars, Mustache, EJS, Haml, and Pug. Pick
-                      one, or if your team has a range of experience, use as
-                      many as you want — all within a single project on your
-                      custom domain. With Eleventy’s independent template
-                      engines, your content can remain firmly decoupled for any
-                      future transitions.
+                      * Review changes on a site and merge them into another
+                      branch.
+
+                      * Roll a site back with full version control of both code
+                      and content.
                   styles:
                     width: full
                     desktop:
@@ -2566,7 +2180,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         top: 0
-                        bottom: 0
+                        bottom: 30
                       block_alignment:
                         align_block: center
                     tablet:
@@ -2597,15 +2211,138 @@ content_blocks:
                       block_alignment:
                         active: false
                         align_block: left
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a demo
+                          link: https://cloudcannon.com/book-a-demo/
+                        styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Try for free
+                          link: >-
+                            https://app.cloudcannon.com/register?trial=cc_standard
+                        styles:
+                          style: outline-white
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 30
+                      justify:
+                        align: start
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Git workflow
+                    image: https://cc-dam.imgix.net/Git+workflows-developer.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1.2
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: center
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
               columns:
-                type: split
-                width: 0
+                type: fixed-fluid
+                width: 450
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: center
+                v_align: top
             tablet:
               columns:
                 active: true
@@ -2627,8 +2364,11 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: white
+      background: night
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -2661,13 +2401,11 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: true
-          top: 60
+          active: false
+          top: 0
           right: 0
-          bottom: 90
+          bottom: 0
           left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
       label: Case Studies
