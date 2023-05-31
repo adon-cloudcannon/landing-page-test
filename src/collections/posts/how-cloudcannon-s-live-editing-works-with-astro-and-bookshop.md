@@ -62,81 +62,7 @@ And that’s where CloudCannon’s visual editing comes in.
 
 As I mentioned above, Sendit is preconfigured for live visual editing on all of its pages, so let’s dig into the feature and see how we’ve set it up for Sendit. In the above video, we saw visual editing in the Sendit homepage’s hero component. The component’s information is stored in two places. Its layout and styling is stored in `/src/components/home/hero/hero.jsx`\:
 
-```jsx
-import MarkdownIt from "markdown-it";
-const md = new MarkdownIt({ html: true });
-
-export default function HomeHero(block) {
-  return (
-    <section className="hero-two">
-      <div className="hero-two-shape"></div>
-      <div className="container-fluid">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="hero-two-content">
-              <h1 className="mb-4">{block.title}</h1>
-              <div
-                className="mb-7 w-xxl-80"
-                dangerouslySetInnerHTML={{
-                  __html: md.render(block.description),
-                }}
-              />
-              <div className="">
-                {block.button && (
-                  <a
-                    href={block.button.link}
-                    className="btn btn-primary btn-lg"
-                  >
-                    {" "}
-                    {block.button.text}{" "}
-                  </a>
-                )}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="hero-two-banner">
-              <img src={block.image} alt={block.image_alt} />
-              <div className="hero-two-banner-shape"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-```
-
 During the build process (specifically, in our [postbuild](https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/) file), we use our open-source component development tool [Bookshop](https://github.com/CloudCannon/bookshop) to read the data and default values of our components from .yml files and turn them into inputs config for the editor. For example, here’s `src/components/home/hero/hero.bookshop.yml`, showing the data and default values (pre-filled text) for this hero component:
-
-```yaml
-# Metadata about this component, to be used in the CMS
-spec:
-  structures:
-    - content_blocks
-  label: Home Hero
-  description: Home Hero section
-  icon: "cottage"
-  tags: ["hero"]
-
-# Defines the structure of this component, as well as the default values
-blueprint:
-  title: Email Marketing is the Future for Growing Your Business Revenues
-  description: We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy.
-  image: /images/hero/hero-image-2.png
-  image_alt: Dashboard with reports
-  button:
-    text: Try This Free
-    link: /signup
-
-# Overrides any fields in the blueprint when viewing this component in the component browser
-preview:
-
-# Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs:
-  description:
-    type: markdown
-```
 
 You’ll see that each component has a defined blueprint, label, icon, and tags, and can include default values. The last few lines of this file add extra definitions to CloudCannon’s inputs configuration; in this case we’re setting our description block as a Markdown text area, unlike title or image\_alt, which are plain single-line text inputs by default.
 
@@ -144,58 +70,7 @@ You’ll see that each component has a defined blueprint, label, icon, and tags,
 
 Looking at `src/layouts/PageLayout.astro` below, we can see a component using the `bookshop:live` directive with props sourced from a `frontmatter` variable:
 
-```html
----
-import Page from "@shared/page";
-import Layout, { SEOProps } from "./Layout.astro";
-
-type Props = {
-  frontmatter: {
-    title: string;
-    content_blocks: Array<Record<string, any>>;
-    seo?: SEOProps;
-  };
-};
-
-if (!Astro.props.frontmatter) {
-  throw new Error("Page frontmatter must be defined");
-}
-const props = Astro.props.frontmatter;
----
-
-<Layout {...props}>
-  <Page bookshop:live contentBlocks={props.content_blocks} />
-</Layout>
-```
-
 And in the front matter of on our homepage, we can see that `content_blocks` contains the Bookshop component `home/hero`.
-
-```markdown
----
-_schema: default
-title: Home
-seo:
-  page_description:
-  canonical_url:
-  featured_image:
-  featured_image_alt:
-  author_twitter_handle:
-  open_graph_type:
-  no_index: false
-content_blocks:
-  - _bookshop_name: home/hero
-    title: Beautiful email campaigns
-    description: >-
-      With Sendit, you can quickly create beautiful rich emails that capture a
-      reader's attention, engage them, and convert them into customers.
-    image: /images/hero/hero-image-2.png
-    image_alt: Reports dashboard
-    button:
-      text: Try This Free
-      link: /signup/
-...
----
-```
 
 When we view that page in CloudCannon’s Visual Editor, we’ll be able to interact with the component directly on the page. Clicking on the component will open up an editing panel, and our changes will render live on screen.
 
