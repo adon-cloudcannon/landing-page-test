@@ -237,7 +237,7 @@ content_blocks:
                 hide: false
               transform:
                 scale: 0.8
-                translate_x: 0
+                translate_x: -40
                 translate_y: 0
                 rotate: 0
                 skew: 0
