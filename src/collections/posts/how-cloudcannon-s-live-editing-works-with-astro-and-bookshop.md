@@ -55,7 +55,6 @@ import bookshop from '@bookshop/astro-bookshop';
 export default defineConfig({
   site: "https://top-quail.cloudvent.net/",
   integrations: [bookshop(), react()]
-});
 ```
 
 We’re importing our configuration, as well as Bookshop and React, and declaring our site’s domain. This `site:` field is temporarily set for you, as above, but you can change this URL to the final, deployed URL of your site.
