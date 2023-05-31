@@ -74,7 +74,7 @@ And that’s where CloudCannon’s visual editing comes in.
 
 As I mentioned above, Sendit is preconfigured for live visual editing on all of its pages, so let’s dig into the feature and see how we’ve set it up for Sendit. In the above video, we saw visual editing in the Sendit homepage’s hero component. The component’s information is stored in two places. Its layout and styling is stored in `/src/components/home/hero/hero.jsx`\:
 
-```jsx
+```javascript
 import MarkdownIt from "markdown-it";
 const md = new MarkdownIt({ html: true });
 
