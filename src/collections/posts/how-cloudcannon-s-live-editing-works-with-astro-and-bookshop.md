@@ -92,11 +92,33 @@ Looking at `src/layouts/PageLayout.astro` below, we can see a component using th
  
 ```
 
-And in the front matter of on our homepage, we can see that `content_blocks` contains the Bookshop component `home/hero`.
+And in the front matter of our homepage, we can see that `content_blocks` contains the Bookshop component `home/hero`.
 
-```
-
- 
+```markdown
+---
+_schema: default
+title: Home
+seo:
+  page_description:
+  canonical_url:
+  featured_image:
+  featured_image_alt:
+  author_twitter_handle:
+  open_graph_type:
+  no_index: false
+content_blocks:
+  - _bookshop_name: home/hero
+    title: Beautiful email campaigns
+    description: >-
+      With Sendit, you can quickly create beautiful rich emails that capture a
+      reader's attention, engage them, and convert them into customers.
+    image: /images/hero/hero-image-2.png
+    image_alt: Reports dashboard
+    button:
+      text: Try This Free
+      link: /signup/
+...
+---
 ```
 
 When we view that page in CloudCannon’s Visual Editor, we’ll be able to interact with the component directly on the page. Clicking on the component will open up an editing panel, and our changes will render live on screen.
@@ -104,6 +126,67 @@ When we view that page in CloudCannon’s Visual Editor, we’ll be able to inte
 ## Global configuration with CloudCannon and Astro
 
 Bringing it all together, is CloudCannon’s global configuration file, `/cloudcannon.config.cjs`. Under `collections_config` at line 7 you’ll see that we can define (or change) a lot of information about our data, posts, and pages, including where content is stored, which schemas are used for posts and pages, and which editor should be enabled to edit them.
+
+```yaml
+# -- truncated -- #
+collections_config:
+  data:
+    path: data
+    disable_add: true
+    disable_add_folder: true
+  posts:
+    path: src/content/blog
+    output: true
+    url: "/blog/[slug]/"
+    _enabled_editors:
+      - content
+      - visual
+    add_options:
+      - name: Add New Post
+        schema: default
+        icon: post_add
+    schemas:
+      default:
+        name: New Post
+        path: schemas/post.md
+    _inputs:
+      title:
+        empty_type: string
+      image:
+        empty_type: string
+      image_alt:
+        empty_type: string
+      author:
+        empty_type: string
+      tags:
+        type: multiselect
+        allow_create: true
+        empty_type: array
+  pages:
+    path: src/content/pages
+    url: "/[slug]/"
+    output: true
+    icon: wysiwyg
+    _enabled_editors:
+      - visual
+    add_options:
+      - name: Add New Page
+        schema: default
+        icon: note_add
+    schemas:
+      default:
+        name: New Page
+        path: schemas/page.md
+        new_preview_url: "/"
+      paginated_collection:
+        path: schemas/paginated-collection.md
+    _inputs:
+      content_blocks:
+        empty_type: array
+    filter:
+      base: strict
+# -- truncated -- #
+```
 
 You’ll also see that we’ve enabled the Visual Editor for pages on Sendit, but for posts we also give editors the option to use the Content Editor, which is a configurable WYSIWYG Markdown editor for distraction-free writing. (Users with higher-permission roles such as Developers and Site Owners will also be able to view files in the Source Editor.)
 
