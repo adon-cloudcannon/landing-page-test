@@ -7,7 +7,7 @@ description: >-
   websites — enables live visual editing and page-building with Astro.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/Astro and Bookshop.png
 date: 2023-06-06T05:02:00+12:00
 hide_publish_date: false
 tags:
