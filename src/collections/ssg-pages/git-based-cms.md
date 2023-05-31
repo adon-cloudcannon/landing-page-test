@@ -2779,7 +2779,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Get started with CloudCannon's Git based CMS learning resources
+            text: Learn with CloudCannon
           styles:
             element: h2
             width: tight
