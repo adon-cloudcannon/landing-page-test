@@ -2440,7 +2440,7 @@ content_blocks:
         - _bookshop_name: simple/image-cycle
           content:
             rows:
-              - title: Git-based CMS
+              - title: Stay in sync
                 description: >-
                   Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
@@ -3003,32 +3003,25 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Here at CloudCannon, we believe in the power of Git — as a
-                      content repository, as a robust source management tool,
-                      and most importantly, as a publishing workflow. Our
+                      Here at CloudCannon, we believe in the power of Git. A
                       Git-based CMS stays in sync with your Git repository and
                       provides an intuitive GUI for managing the content in
                       these files without needing any Git or web development
-                      knowledge. With Git at the core of the workflow,
-                      developers and content editors can collaborate closely
-                      using the same workflows.​​​​​​
+                      knowledge. ​​​​​​
 
 
                       With a Git-based CMS, you own your content — it’s in your
                       repository, and you have the complete history of all the
-                      changes. A Git-based CMS provides a superior version
-                      control system compared to traditional CMS platforms.
-                      There’s no need for backups, exports, or concern for data
-                      lock-in. It’s a layer on top of your Git repository that
-                      can be switched out at any time.
+                      changes. With a superior version control system compared
+                      to traditional CMS platforms,&nbsp; there's no need for
+                      backups, exports, or concern for data lock-in.&nbsp;
 
 
-                      The added advantage of a Git-based CMS is that it
-                      understands how the content fits into your website, as it
-                      has all your website files. Developers get to familiar
-                      tools and workflows. Editors don’t need to use their
-                      imagination about where content will live on the page:
-                      they can edit directly on the website.
+                      A Git-based CMS centralizes all your website files, and
+                      understands how the content fits into your website.
+                      Editors don’t need to use their imagination about where
+                      content will live on the page: they can edit directly on
+                      the website.
                   styles:
                     width: full
                     desktop:
