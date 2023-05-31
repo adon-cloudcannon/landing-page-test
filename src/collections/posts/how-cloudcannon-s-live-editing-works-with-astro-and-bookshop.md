@@ -38,6 +38,8 @@ To help you integrate your existing Astro sites with Bookshop, we’ve created a
 
 While many Astro developers will be accustomed to creating, updating, and removing pages, components, and posts in their IDE, you (and other site users) can also complete all of these tasks within the CMS’s intuitive interface, as pictured above. With the Sendit template, we’ve also allowed users to easily edit our data files with CloudCannon’s Data Editor — meaning information like company details, navigation, footers, and theme colours, stored in .json files in `data/`, can be accessible and editable for all site users.&nbsp;
 
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/sendit-cloudcannon-screenshot.png" alt: "Sendit template screenshot in CloudCannon interface" extend: false border: false %}
+
 ## Getting started with Astro and CloudCannon
 
 Let’s first spin up a new Sendit site on CloudCannon, explore its features, and then poke around the files together. (If you’d rather, you can do this directly [via GitHub](https://github.com/CloudCannon/sendit-astro-template).)
@@ -45,6 +47,11 @@ Let’s first spin up a new Sendit site on CloudCannon, explore its features, an
 If you don’t already have a CloudCannon account, take a moment to [create one](https://app.cloudcannon.com/register?trial=cc_standard), link your GitHub, GitLab, or Bitbucket account, and create a new Astro Sendit site from a template. Your site files will stay in your Git repo, and upon triggering any save in CloudCannon, your site will build.
 
 Looking at our `astro.config.mjs` file, there’s not much to it, as you’ll see:
+
+```
+
+ 
+```
 
 We’re importing our configuration, as well as Bookshop and React, and declaring our site’s domain. This `site:` field is temporarily set for you, as above, but you can change this URL to the final, deployed URL of your site.
 
@@ -62,7 +69,17 @@ And that’s where CloudCannon’s visual editing comes in.
 
 As I mentioned above, Sendit is preconfigured for live visual editing on all of its pages, so let’s dig into the feature and see how we’ve set it up for Sendit. In the above video, we saw visual editing in the Sendit homepage’s hero component. The component’s information is stored in two places. Its layout and styling is stored in `/src/components/home/hero/hero.jsx`\:
 
+```
+
+ 
+```
+
 During the build process (specifically, in our [postbuild](https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/) file), we use our open-source component development tool [Bookshop](https://github.com/CloudCannon/bookshop) to read the data and default values of our components from .yml files and turn them into inputs config for the editor. For example, here’s `src/components/home/hero/hero.bookshop.yml`, showing the data and default values (pre-filled text) for this hero component:
+
+```
+
+ 
+```
 
 You’ll see that each component has a defined blueprint, label, icon, and tags, and can include default values. The last few lines of this file add extra definitions to CloudCannon’s inputs configuration; in this case we’re setting our description block as a Markdown text area, unlike title or image\_alt, which are plain single-line text inputs by default.
 
@@ -70,7 +87,17 @@ You’ll see that each component has a defined blueprint, label, icon, and tags,
 
 Looking at `src/layouts/PageLayout.astro` below, we can see a component using the `bookshop:live` directive with props sourced from a `frontmatter` variable:
 
+```
+
+ 
+```
+
 And in the front matter of on our homepage, we can see that `content_blocks` contains the Bookshop component `home/hero`.
+
+```
+
+ 
+```
 
 When we view that page in CloudCannon’s Visual Editor, we’ll be able to interact with the component directly on the page. Clicking on the component will open up an editing panel, and our changes will render live on screen.
 
