@@ -434,734 +434,84 @@ content_blocks:
                     width: full
             right:
               blocks:
-                - _bookshop_name: simple/logo-ticker
+                - _bookshop_name: simple/image
                   content:
-                    logo_blocks:
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/jekyll.svg
-                          name: Jekyll
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/hugo.svg
-                          name: hugo
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/astro-logo-dark.svg
-                          name: astro
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/11ty.svg
-                          name: eleventy
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/Gatsby.svg
-                          name: Gatsby
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/MkDocs.svg
-                          name: MkDocs
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/NEXTjs.svg
-                          name: nextjs
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/NuxtJS.svg
-                          name: nuxt
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/sveltekit.svg
-                          name: sveltekit
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/bridgetown.svg
-                          name: bridgetown
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: >-
-                            https://cc-dam.imgix.net/logo-gradient-blue-bitbucket.svg
-                          name: BitBucket
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/gitlab-logo-100.svg
-                          name: GitLab
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                      - _bookshop_name: simple/logo
-                        content:
-                          logo: https://cc-dam.imgix.net/github-mark.svg
-                          name: GitHub
-                          url:
-                        styles:
-                          desktop:
-                            visibility:
-                              hide: false
-                            position:
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          tablet:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
-                          mobile:
-                            visibility:
-                              active: false
-                              hide: true
-                            position:
-                              active: false
-                              top: 0
-                              right: 0
-                              bottom: 0
-                              left: 0
-                            transform:
-                              active: false
-                              scale: 1
-                              translate_x: 0
-                              translate_y: 0
-                              rotate: 0
-                              skew: 0
+                    alt: CloudCannon technology integrations
+                    image: https://cc-dam.imgix.net/AllLogos.svg
                   styles:
-                    background_mode: false
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
                     desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: center
                       margin:
                         top: 0
-                        right: 0
                         bottom: 0
+                      position:
+                        top: 0
                         left: 0
+                        bottom: 0
+                        right: 0
                     tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
                       margin:
                         active: false
                         top: 0
-                        right: 0
                         bottom: 0
+                      position:
+                        active: false
+                        top: 0
                         left: 0
+                        bottom: 0
+                        right: 0
                     mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
                       margin:
                         active: false
                         top: 0
-                        right: 0
                         bottom: 0
+                      position:
+                        active: false
+                        top: 0
                         left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
               columns:
