@@ -36,7 +36,7 @@ CloudCannon’s Git-based CMS supports live visual editing on a wide range of st
 
 To help you integrate your existing Astro sites with Bookshop, we’ve created a new <a target="_blank" href="https://cloudcannon.com/documentation/guides/bookshop-astro-guide/">Bookshop Astro Guide</a> as part of our documentation. Our <a target="_blank" href="https://cloudcannon.com/templates/sendit/">Astro Sendit template</a> is also a very helpful reference, as it contains an example site that’s fully integrated with Bookshop’s live visual editing.
 
-While many Astro developers will be accustomed to creating, updating, and removing pages, components, and posts in their IDE, you (and other site users) can also complete all of these tasks within the CMS’s intuitive interface, as pictured above. With the Sendit template, we’ve also allowed users to easily edit our data files with CloudCannon’s Data Editor — meaning information like company details, navigation, footers, and theme colours, stored in .json files in `data/`, can be accessible and editable for all site users.
+While many Astro developers will be accustomed to creating, updating, and removing pages, components, and posts in their IDE, you (and other site users) can also complete all of these tasks within the CMS’s intuitive interface, as pictured above. With the Sendit template, we’ve also allowed users to easily edit our data files with CloudCannon’s Data Editor — meaning information like company details, navigation, footers, and theme colours, stored in .json files in `data/`, can be accessible and editable for all site users.&nbsp;
 
 ## Getting started with Astro and CloudCannon
 
