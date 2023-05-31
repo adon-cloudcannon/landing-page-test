@@ -48,7 +48,7 @@ Looking at our `astro.config.mjs` file, there’s not much to it, as you’ll se
 
 We’re importing our configuration, as well as Bookshop and React, and declaring our site’s domain. This `site:` field is temporarily set for you, as above, but you can change this URL to the final, deployed URL of your site.
 
-(Note that all sites built on CloudCannon receive a free preview domain with the format `[adjective-noun.cloudvent.net](<http://adjective-noun.cloudvent.net>)` — if you don’t already have a final URL for your new Astro site you can set this to you free [cloudvent.net](http://cloudvent.net) domain.)
+(Note that all sites built on CloudCannon receive a free preview domain with the format `adjective-noun.cloudvent.net` — if you don’t already have a final URL for your new Astro site you can set this to you free [cloudvent.net](http://cloudvent.net) domain.)
 
 ## Separating content and layout
 
