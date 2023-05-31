@@ -1735,7 +1735,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: An open source ecosystem behind you
+                    text: CloudCannon's open source ecosystem
                   styles:
                     element: h2
                     width: normal
@@ -3152,8 +3152,8 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: fixed-fluid
-                width: 450
+                type: split
+                width: 0
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
