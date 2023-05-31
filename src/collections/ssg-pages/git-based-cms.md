@@ -1668,7 +1668,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow
+            text: Simplify your content workflow
           styles:
             element: h2
             width: tight
@@ -1705,8 +1705,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's Git based CMS takes your web development workflow to
-              the next level.
+              CloudCannon's Git based CMS makes your web development workflow
+              easier than ever with a simple setup.
           styles:
             width: medium
             desktop:
@@ -2782,7 +2782,7 @@ content_blocks:
             text: Get started with CloudCannon's Git based CMS learning resources
           styles:
             element: h2
-            width: normal
+            width: tight
             desktop:
               text_alignment:
                 align: center
