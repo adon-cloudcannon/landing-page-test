@@ -32,7 +32,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? Bookshop, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with <a rel="noopener noreferrer" href="https://cloudcannon.com/astro-cms/">Astro</a>.
+CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? Bookshop, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with [Astro](https://cloudcannon.com/astro-cms/).
 
 {% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
 
@@ -50,8 +50,7 @@ If you don’t already have a CloudCannon account, take a moment to [create one]
 
 Looking at our `astro.config.mjs` file, there’s not much to it, as you’ll see:
 
-```jsx
-import { defineConfig } from 'astro/config';
+{% raw %}import { defineConfig } from 'astro/config';
 import react from "@astrojs/react";
 import bookshop from '@bookshop/astro-bookshop';
 
@@ -59,8 +58,7 @@ import bookshop from '@bookshop/astro-bookshop';
 export default defineConfig({
   site: "<https://top-quail.cloudvent.net/>",
   integrations: [bookshop(), react()]
-});
-```
+});{% endraw %}
 
 We’re importing our configuration, as well as Bookshop and React, and declaring our site’s domain. This `site:` field is temporarily set for you, as above, but you can change this URL to the final, deployed URL of your site.
 
@@ -306,7 +304,7 @@ Bringing it all together, is CloudCannon’s global configuration file, `/cloudc
 
 You’ll also see that we’ve enabled the Visual Editor for pages on Sendit, but for posts we also give editors the option to use the Content Editor, which is a configurable WYSIWYG Markdown editor for distraction-free writing. (Users with higher-permission roles such as Developers and Site Owners will also be able to view files in the Source Editor.)
 
-(If your interest is piqued by `_inputs`, we go into a lot more information about the `_inputs` <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/how-to-choose-what-input-is-used-in-the-data-editor/">configuration in our documentation</a>, which includes a list of all available input types. We also go deep on `_editables`, which allow you to [choose which toolbar controls are available to users in the Content Editor](https://cloudcannon.com/documentation/articles/defining-editable-regions-in-your-html/#options).)
+(If your interest is piqued by `_inputs`, we go into a lot more information about the `_inputs` <a target="_blank" href="https://cloudcannon.com/documentation/articles/how-to-choose-what-input-is-used-in-the-data-editor/">configuration in our documentation</a>, which includes a list of all available input types. We also go deep on `_editables`, which allow you to [choose which toolbar controls are available to users in the Content Editor](https://cloudcannon.com/documentation/articles/defining-editable-regions-in-your-html/#options).)
 
 When you’re setting up your own Astro sites on CloudCannon, you can choose which editing (and publishing) features would work best for your site users. With visual editing, branching for staging and production workflows, and top-tier support, CloudCannon’s got you covered.
 
