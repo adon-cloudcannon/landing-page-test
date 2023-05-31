@@ -47,7 +47,7 @@ If you don’t already have a CloudCannon account, take a moment to [create one]
 Looking at our `astro.config.mjs` file, there’s not much to it, as you’ll see:
 
 ```jsx
-import { defineConfig } from 'astro/config';
+{% raw %}import { defineConfig } from 'astro/config';
 import react from "@astrojs/react";
 import bookshop from '@bookshop/astro-bookshop';
 
@@ -55,7 +55,7 @@ import bookshop from '@bookshop/astro-bookshop';
 export default defineConfig({
   site: "https://top-quail.cloudvent.net/",
   integrations: [bookshop(), react()]
-{% raw %}});{% endraw %}
+);{% endraw %}
 ```
 
 We’re importing our configuration, as well as Bookshop and React, and declaring our site’s domain. This `site:` field is temporarily set for you, as above, but you can change this URL to the final, deployed URL of your site.
