@@ -93,9 +93,7 @@ export default function HomeHero(block) {
               <h1 className="mb-4">{block.title}</h1>
               <div
                 className="mb-7 w-xxl-80"
-                dangerouslySetInnerHTML={{
-                  __html: md.render(block.description),
-                }}
+...
               />
               <div className="">
                 {block.button && (
