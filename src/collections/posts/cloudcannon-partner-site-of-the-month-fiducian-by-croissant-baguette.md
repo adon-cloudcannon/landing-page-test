@@ -34,9 +34,11 @@ seo:
 ---
 Introducing [Fiducian](https://www.fiducian.com.au/) — our newest Partner Site of the Month, designed and developed by [Croissant & Baguette](https://cloudcannon.com/experts/croissant-baguette/). Built with [Hugo](https://cloudcannon.com/hugo-cms/) and optimized for editing on CloudCannon, Fiducian’s new site replaced a monolithic WordPress install, giving users a much cleaner editing interface, as well as significant performance gains.
 
-<br>
+
 
 ## Major speed and performance gains
+
+
 
 Fiducian is an ASX-listed diversified financial group, with multiple services and offerings — meaning their website is necessarily large, with a lot of content. Normally that would bring two problems to a static site: steadily increasing build times as the site grew, and the potential for inefficiencies in managing and editing content. But that’s where Croissant & Baguette stepped in.
 
@@ -44,13 +46,15 @@ Croissant & Baguette introduced Hugo, the static site generator built for speed.
 
 To help Fiducian efficiently manage their existing content and build new pages, Croissant & Baguette designed and developed the website in a block format using CloudCannon’s page-building tools. Now Fiducian team members can build completely new pages in CloudCannon’s Visual Editor by selecting and assembling components from their pool of more than 30 page elements.
 
-> With Hugo and CloudCannon, Fiducian loads on average **ten seconds faster** than it did previously. What’s more, Fiducian’s editors can **build entirely new and on-brand landing pages in just minutes** — a task that had previously been complex and time-consuming, if not impossible, on their old WordPress site.
+Croissant & Baguette Technical Director Alex Luttringer is particularly pleased with the combination of Hugo and CloudCannon's CMS:
+
+> With Hugo and CloudCannon, Fiducian loads on average **ten seconds faster** than it did previously. Fiducian’s editors can **build entirely new and on-brand landing pages in just minutes** — a task that had been complex and time-consuming, if not impossible, on the old WordPress site.
 
 ---
 
 ## Filtering by location: find a financial planner
 
-With more than sixty associated financial planners available across Australia, there’s no shortage of help available to Fiducian’s clients. And to help clients&nbsp;[find a financial planner](https://www.fiducian.com.au/financial-advice/find-a-financial-planner/) closest to them, Croissant & Baguette Technical Director Alex Luttringer worked on a particularly intricate filtering tool with multiple selection methods.
+With more than sixty associated financial planners available across Australia, there’s no shortage of help available to Fiducian’s clients. And to help clients&nbsp;[find a financial planner](https://www.fiducian.com.au/financial-advice/find-a-financial-planner/) closest to them, Luttringer worked on a particularly intricate filtering tool with multiple selection methods.
 
 Like many of Croissant & Baguette’s designs, it appears simple and elegant from the user’s perspective, but it contains hundreds of lines of logic and filtering in order to address all of the relevant conditions and varying data — not just a planner’s location at state, territory, and regional levels, but associating both individual Fiducian members and teams working together within offices.
 
