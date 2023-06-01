@@ -215,7 +215,7 @@ When we view that page in CloudCannon’s Visual Editor, we’ll be able to inte
 
 ## Global configuration with CloudCannon and Astro
 
-Bringing it all together, is CloudCannon’s global configuration file, `/cloudcannon.config.yml`. Under `collections_config` at line 7 you’ll see that we can define (or change) a lot of information about our data, posts, and pages, including where content is stored, which schemas are used for posts and pages, and which editor should be enabled to edit them.
+Bringing it all together, is CloudCannon’s global configuration file, `/cloudcannon.config.yml`. Under `collections_config` at line 5 you’ll see that we can define (or change) a lot of information about our data, posts, and pages, including where content is stored, which schemas are used for posts and pages, and which editor should be enabled to edit them.
 
 ```yaml
 # -- truncated -- #
