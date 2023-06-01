@@ -437,7 +437,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: CloudCannon technology integrations
-                    image: https://cc-dam.imgix.net/newlogocollection.svg
+                    image: https://cc-dam.imgix.net/LogosFinal.svg
                   styles:
                     border:
                     rounded:
