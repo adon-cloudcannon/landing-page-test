@@ -32,7 +32,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-CloudCannon’s Git-based CMS supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to all site users, regardless of their technical knowledge. But how do we do it? The short answer? <a target="_blank" href="https://github.com/CloudCannon/bookshop">Bookshop</a>, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with <a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro</a>.
+CloudCannon supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to everyone. But how do we do it? The short answer: <a target="_blank" href="https://github.com/CloudCannon/bookshop">Bookshop</a>, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with <a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro</a>.
 
 To help you integrate your existing Astro sites with Bookshop, we’ve created a new <a target="_blank" href="https://cloudcannon.com/documentation/guides/bookshop-astro-guide/">Bookshop Astro Guide</a> as part of our documentation. Our <a target="_blank" href="https://cloudcannon.com/templates/sendit/">Astro Sendit template</a> is also a very helpful reference, as it contains an example site that’s fully integrated with Bookshop’s live visual editing.
 
