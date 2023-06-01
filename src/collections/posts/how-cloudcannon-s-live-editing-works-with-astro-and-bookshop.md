@@ -50,12 +50,12 @@ Looking at our `astro.config.mjs` file, there’s not much to it, as you’ll se
 
 ```javascript
 import { defineConfig } from 'astro/config';
-import react from "@astrojs/react";
+import react from '@astrojs/react';
 import bookshop from '@bookshop/astro-bookshop';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://top-quail.cloudvent.net/",
+  site: 'https://top-quail.cloudvent.net/',
   integrations: [bookshop(), react()]
 });
 ```
