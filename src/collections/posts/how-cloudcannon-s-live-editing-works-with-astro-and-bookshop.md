@@ -13,7 +13,7 @@ hide_publish_date: false
 tags:
   - Astro
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-permalink: /blog/{{ title | slugify }}/
+permalink: /blog/how-cloudcannons-live-editing-works-with-astro-and-bookshop/
 cta:
   title: Launch your Astro website today
   body_text: >-
