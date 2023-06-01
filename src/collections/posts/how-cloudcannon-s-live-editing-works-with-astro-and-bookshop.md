@@ -215,7 +215,7 @@ When we view that page in CloudCannon’s Visual Editor, we’ll be able to inte
 
 ## Global configuration with CloudCannon and Astro
 
-Bringing it all together, is CloudCannon’s global configuration file, `/cloudcannon.config.cjs`. Under `collections_config` at line 7 you’ll see that we can define (or change) a lot of information about our data, posts, and pages, including where content is stored, which schemas are used for posts and pages, and which editor should be enabled to edit them.
+Bringing it all together, is CloudCannon’s global configuration file, `/cloudcannon.config.yml`. Under `collections_config` at line 7 you’ll see that we can define (or change) a lot of information about our data, posts, and pages, including where content is stored, which schemas are used for posts and pages, and which editor should be enabled to edit them.
 
 ```yaml
 # -- truncated -- #
@@ -286,7 +286,7 @@ When you’re setting up your own Astro sites on CloudCannon, you can choose whi
 
 ## Where to now?
 
-That brings us to the end of this short and sweet post — we’ve demystified some of the configuration behind our new Astro template within CloudCannon, and we’ve started to define just how CloudCannon lets you and your users interact with your site and its pages. There’s a tremendous amount of power, potential, and flexibility in Bookshop and that&nbsp;`cloudcannon.config.cjs`&nbsp;file, and we’ve barely scratched the surface.
+That brings us to the end of this short and sweet post — we’ve demystified some of the configuration behind our new Astro template within CloudCannon, and we’ve started to define just how CloudCannon lets you and your users interact with your site and its pages. There’s a tremendous amount of power, potential, and flexibility in Bookshop and that&nbsp;`cloudcannon.config.yml`&nbsp;file, and we’ve barely scratched the surface.
 
 If you'd like to dig into more of the deep configuration options in CloudCannon, check out our documentation on&nbsp;[using the configuration cascade](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/), which is a set of sources containing customizable options for the editor, each with a different scope and priority. This allows you to set global defaults and where necessary, override those for specific collections or files.
 
