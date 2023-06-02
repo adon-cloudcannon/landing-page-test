@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   How CloudCannon's Bookshop — a component development workflow for static
   websites — enables live visual editing and page-building with Astro.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/Astro and Bookshop.png
 date: 2023-06-06T05:02:00+12:00
