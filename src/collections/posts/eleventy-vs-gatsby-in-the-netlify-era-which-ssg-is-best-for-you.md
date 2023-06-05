@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Eleventy vs. Gatsby in 2023 – which SSG is best for you?
+title: Eleventy (11ty) vs. Gatsby in 2023 – which SSG is best for you?
 breadcrumb_title: 11ty vs Gatsby
 description: >-
   Compare 11ty (Eleventy) and Gatsby to find out why these two static site
