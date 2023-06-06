@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A fully featured Eleventy CMS for everyone
+            text: The Eleventy CMS for live visual editing
           styles:
             element: h1
             width: normal
@@ -2323,8 +2323,8 @@ content_blocks:
                 link: >-
                   https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/
                 description: >-
-                  Get your 11ty site set up on CloudCannon. Make configuration
-                  easy so you can focus on building custom components.
+                  Configure your 11ty site on CloudCannon with ease so you can
+                  focus on building custom components.
               - image:
                 icon:
                   active: true
@@ -2332,11 +2332,7 @@ content_blocks:
                   icon_color: red
                 title: Eleventy beginner tutorial
                 link: https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/
-                description: >-
-                  Learn the basics of Eleventy in this six-part tutorial series.
-                  Go through everything at your own pace, from learning how to
-                  install the 11ty framework, creating layouts, pages, and blog
-                  posts, and an introduction to using data files.
+                description: Learn the basics of Eleventy in this six-part tutorial series.
               - image:
                 icon:
                   active: true
@@ -2346,9 +2342,7 @@ content_blocks:
                 link: https://cloudcannon.com/templates/
                 description: >-
                   Explore our library of free CloudCannon-ready themes for your
-                  11ty project. Deploy it to CloudCannon with a single click,
-                  and you’re all ready to start using our Visual Editor
-                  interface.
+                  11ty project. 
           styles:
             desktop:
               margin:

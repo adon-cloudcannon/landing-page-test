@@ -21,7 +21,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The SvelteKit CMS for everyone
+            text: The Visual SvelteKit CMS with live editing
           styles:
             element: h1
             width: normal
@@ -662,7 +662,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for Svelte
+                    title: The best CMS for SvelteKit
                     emoji:
                     sub_title: For editors
                   styles:
@@ -1156,8 +1156,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's Svelte CMS takes your web development workflow to
-              the next level.
+              CloudCannon's CMS takes your web development workflow to the next
+              level.
           styles:
             width: medium
             desktop:
@@ -2267,7 +2267,7 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Want to learn more about Svelte? Whether it's Svelte specific
+              Want to learn more about SvelteKit? Whether it's Svelte specific
               documentation, SvelteKit tutorials, or SvelteKit themes that
               you're after, CloudCannon has you covered!
           styles:
@@ -2322,10 +2322,8 @@ content_blocks:
                 link: >-
                   https://cloudcannon.com/documentation/guides/sveltekit-starter-guide/
                 description: >-
-                  Head over to our SvelteKit specific documentation. Get your
-                  Svelte site set up on CloudCannon with a starter guide. Make
-                  configuration easy so you can focus on building custom
-                  components.
+                  Get your Svelte site configured on CloudCannon with ease, so
+                  you can focus on building custom components.
               - image:
                 icon:
                   active: true
@@ -2333,11 +2331,7 @@ content_blocks:
                   icon_color: red
                 title: SvelteKit beginner tutorial
                 link: https://cloudcannon.com/tutorials/sveltekit-beginner-tutorial/
-                description: >-
-                  Learn the basics of SvelteKit in this 7-part tutorial series.
-                  Go through everything at your own pace, from getting set up to
-                  working with layouts, components, templating, blogging, data
-                  files, and social sharing.
+                description: Learn the basics of SvelteKit in this 7-part tutorial series.
               - image:
                 icon:
                   active: true
@@ -2347,9 +2341,7 @@ content_blocks:
                 link: https://cloudcannon.com/templates/
                 description: >-
                   Explore our library of free CloudCannon-ready themes for your
-                  Svelte project. Deploy it to CloudCannon with a single click,
-                  and you're all ready to start using our Visual Editor
-                  interface.
+                  Svelte project.
           styles:
             desktop:
               margin:
@@ -2670,7 +2662,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A Svelte CMS you can trust
+            text: A SvelteKit CMS you can trust
           styles:
             element: h2
             width: normal

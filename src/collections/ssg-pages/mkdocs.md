@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The MkDocs CMS for your whole team
+            text: An intuitive MkDocs CMS for easy collaboration
           styles:
             element: h1
             width: normal

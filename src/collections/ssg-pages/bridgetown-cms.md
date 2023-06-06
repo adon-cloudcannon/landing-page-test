@@ -21,7 +21,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Bridgetown CMS for your whole team
+            text: The Bridgetown CMS for easy collaboration
           styles:
             element: h1
             width: normal

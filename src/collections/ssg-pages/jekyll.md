@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Visual Jekyll CMS for the whole team
+            text: Visual Jekyll CMS for easy collaboration
           styles:
             element: h1
             width: normal
@@ -2322,9 +2322,8 @@ content_blocks:
                 title: Jekyll cheatsheet
                 link: https://cloudcannon.com/cheat-sheets/jekyll/
                 description: >-
-                  Head over to our Jekyll cheatsheet. Learn everything Jekyll is
-                  capable of from an exhaustive list of variables, tags, and
-                  filters.
+                  Head over to our Jekyll cheatsheet for an exhaustive list of
+                  variables, tags, and filters.
               - image:
                 icon:
                   active: true
@@ -2332,11 +2331,7 @@ content_blocks:
                   icon_color: red
                 title: Jekyll beginner tutorials
                 link: https://cloudcannon.com/tutorials/jekyll-tutorial/
-                description: >-
-                  Learn the basics of Jekyll in this 9-part tutorial series. Go
-                  through everything at your own pace, from installing Jekyll,
-                  to working with liquid templates, layouts, collections,
-                  blogging, and data files.
+                description: Learn the basics of Jekyll in this 9-part tutorial series.
               - image:
                 icon:
                   active: true
@@ -2346,9 +2341,7 @@ content_blocks:
                 link: https://cloudcannon.com/templates/
                 description: >-
                   Explore our library of complete static website ready,
-                  CloudCannon-optimized free themes for your Jekyll project.
-                  Deploy it to CloudCannon with a single click, and you're all
-                  ready to start using our Visual Editor interface.
+                  CloudCannon-optimized free themes for your Jekyll project. 
           styles:
             desktop:
               margin:

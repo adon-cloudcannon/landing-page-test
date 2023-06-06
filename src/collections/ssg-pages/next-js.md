@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Next.js CMS for your entire team
+            text: The Next.js CMS for collaborative visual editing
           styles:
             element: h1
             width: normal
@@ -64,7 +64,7 @@ content_blocks:
               collaborate to create incredible static sites with React
               components. Developers can leverage their existing React
               knowledge, and content editors will reap the benefits of
-              CloudCannon’s powerful and intuitive CMS for Nextjs.
+              CloudCannon’s powerful and intuitive CMS for Next.js.
           styles:
             desktop:
               text_alignment:
@@ -382,7 +382,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Nextjs has everything you need to
+                      CloudCannon’s CMS for Next.js has everything you need to
                       build, edit, and host the best performing sites on the
                       web.
 
@@ -667,7 +667,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for Nextjs websites
+                    title: The best CMS for Next.js websites
                     emoji:
                     sub_title: CloudCannon for editors
                   styles:
@@ -698,8 +698,8 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Nextjs makes content management easy
-                      for your marketing team and content editors.
+                      CloudCannon’s CMS for Next.js makes content management
+                      easy for your marketing team and content editors.
 
 
                       * Use custom components to build new site pages visually.
@@ -1161,7 +1161,7 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's Nextjs CMS takes your web development workflow to
+              CloudCannon's Next.js CMS takes your web development workflow to
               the next level.
           styles:
             width: full
@@ -2233,7 +2233,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Get started with CloudCannon's Nextjs learning resources
+            text: Get started with CloudCannon's Next.js learning resources
           styles:
             element: h2
             width: tight
@@ -2270,8 +2270,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Want to learn more about Next.js? Whether it's Nextjs specific
-              documentation, Nextjs tutorials, or Nextjs themes that you're
+              Want to learn more about Next.js? Whether it's Next.js specific
+              documentation, Next.js tutorials, or Next.js themes that you're
               after, CloudCannon has you covered!
           styles:
             width: medium
@@ -2324,9 +2324,8 @@ content_blocks:
                 title: Documentation
                 link: https://cloudcannon.com/documentation/
                 description: >-
-                  Head over to CloudCannon's documentation site with Nextjs
-                  specific callouts. More than just a docs site, you'll find
-                  helpful guides, product updates, and support.
+                  Head over to CloudCannon's documentation site to find helpful
+                  guides, product updates, and support.
               - image:
                 icon:
                   active: true
@@ -2336,9 +2335,8 @@ content_blocks:
                 link: >-
                   https://cloudcannon.com/documentation/guides/nextjs-starter-guide/
                 description: >-
-                  Check out our Nextjs tutorial, video included. Get your Nextjs
-                  site set up on CloudCannon. Making configuration easy so you
-                  can focus on building custom components.
+                  Check out our Next.js tutorial & video to make configuration
+                  easy, so you can focus on building custom components.
               - image:
                 icon:
                   active: true
@@ -2347,10 +2345,8 @@ content_blocks:
                 title: Nextjs templates
                 link: https://cloudcannon.com/templates/
                 description: >-
-                  Build your next Nextjs project with one of our Nextjs
-                  templates. CloudCannon's collection of professional templates
-                  suit a wide range of use cases, and are already optimized for
-                  editing in CloudCannon.
+                  Build your next Next.js project with one of our Next.js
+                  templates optimized for editing in CloudCannon.
           styles:
             desktop:
               margin:
@@ -2469,7 +2465,7 @@ content_blocks:
                       generator it takes care of the tooling and configuration
                       required by React while also giving developers'
                       applications more structure, features, and optimizations.
-                      All this alongside Nextjs's bustling online community
+                      All this alongside Next.js's bustling online community
                       makes for a fantastic developer experience!
 
 

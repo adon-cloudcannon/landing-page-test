@@ -22,7 +22,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Hugo CMS editors love
+            text: The Hugo CMS for visual page building
           styles:
             element: h1
             width: normal
@@ -2324,9 +2324,9 @@ content_blocks:
                 link: >-
                   https://cloudcannon.com/documentation/guides/hugo-starter-guide/
                 description: >-
-                  Head over to our Hugo specific documentation. Get your Hugo
-                  site set up on CloudCannon. Make configuration easy so you can
-                  focus on building custom components.
+                  Head over to our Hugo specific documentation to make
+                  configuration easy so you can focus on building custom
+                  components.
               - image:
                 icon:
                   active: true
@@ -2335,10 +2335,8 @@ content_blocks:
                 title: Hugo tutorials
                 link: https://cloudcannon.com/tutorials/
                 description: >-
-                  Check out our collection of Hugo tutorials. Learn the basics
-                  with out beginners tutorial series, or dive into topics like
-                  SEO best practices, remote data files, and working with
-                  Bootstrap.
+                  Check out our collection of Hugo tutorials to learn the basics
+                  or dive into more advanced topics.
               - image:
                 icon:
                   active: true
@@ -2347,10 +2345,8 @@ content_blocks:
                 title: Hugo themes
                 link: https://cloudcannon.com/templates/
                 description: >-
-                  Build your next Hugo project with one of our Hugo templates.
-                  CloudCannon's collection of professional templates suit a wide
-                  range of use cases, and are already optimized for editing in
-                  CloudCannon.
+                  Build your next Hugo project with one of our Hugo templates
+                  optimized for editing in CloudCannon.
           styles:
             desktop:
               margin:

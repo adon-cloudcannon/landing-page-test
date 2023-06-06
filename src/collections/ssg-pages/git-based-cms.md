@@ -22,7 +22,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A Git based CMS for static sites
+            text: A Git-based CMS for live visual editing
           styles:
             element: h1
             width: normal
@@ -379,7 +379,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s Git based CMS has everything you need to
+                      CloudCannon’s Git-based CMS has everything you need to
                       build, edit, and host the best performing sites on the
                       web.
 
@@ -669,7 +669,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best Git based CMS for static websites
+                    title: The best Git-based CMS for static websites
                     emoji:
                     sub_title: CloudCannon for editors
                   styles:
@@ -700,7 +700,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s Git based CMS for makes content management
+                      CloudCannon’s Git-based CMS for makes content management
                       easy for your marketing team and content editors.
 
 
@@ -833,7 +833,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Benefits of Git based CMSs
+                    text: Benefits of Git-based CMSs
                   styles:
                     element: h2
                     width: normal
@@ -1164,7 +1164,7 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's Git based CMS makes your web development workflow
+              CloudCannon's Git-based CMS makes your web development workflow
               easier than ever with a simple setup.
           styles:
             width: medium
@@ -2329,9 +2329,8 @@ content_blocks:
                 title: Documentation
                 link: https://cloudcannon.com/documentation/
                 description: >-
-                  Head over to CloudCannon's documentation site. More than just
-                  a docs site, you'll find helpful guides, product updates, and
-                  support here.
+                  Head over to CloudCannon's documentation site to find helpful
+                  guides, product updates, and support.
               - image:
                 icon:
                   active: true
@@ -2340,11 +2339,8 @@ content_blocks:
                 title: Tutorials
                 link: https://cloudcannon.com/tutorials/
                 description: >-
-                  Check out our collection of tutorial series. Learn the basics
-                  of a new static site generator with our beginner tutorial
-                  series. Or dive into more advanced topics like working with
-                  Bootstrap templates, remote data files, and SEO best
-                  practices.
+                  Check out our collection of tutorial series to learn more
+                  about building with your favorite static site generator.
               - image:
                 icon:
                   active: true
@@ -2354,9 +2350,7 @@ content_blocks:
                 link: https://cloudcannon.com/templates/
                 description: >-
                   Explore our library of free CloudCannon-ready themes for your
-                  next project. Deploy it to CloudCannon with a single click,
-                  and you’re all ready to start using our Visual Editor
-                  interface.
+                  next project.
           styles:
             desktop:
               margin:
@@ -2717,7 +2711,7 @@ content_blocks:
             text_markdown: >-
               Find out how leading companies are successfully leveraging
               CloudCannon's live Visual Editor with enterprise level security.
-              Learn how the best Git based CMS can help you and your team.&nbsp;
+              Learn how the best Git CMS can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:

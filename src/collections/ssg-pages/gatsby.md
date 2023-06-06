@@ -20,7 +20,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: An intuitive Gatsby CMS for everyone
+            text: A Gatsby CMS for intuitive editing
           styles:
             element: h1
             width: normal
@@ -2317,9 +2317,8 @@ content_blocks:
                 title: Documentation
                 link: https://cloudcannon.com/documentation/
                 description: >-
-                  Head over to CloudCannon's documentation site with Gatsby
-                  specific callouts. More than just a docs site, you'll find
-                  helpful guides, product updates, and support.
+                  Head over to CloudCannon's documentation site to find helpful
+                  guides, product updates, and support.
               - image:
                 icon:
                   active: true
@@ -2329,9 +2328,8 @@ content_blocks:
                 link: >-
                   https://cloudcannon.com/documentation/guides/gatsby-starter-guide/
                 description: >-
-                  Check out our Gatsby tutorial. Get your Gatsby site set up on
-                  CloudCannon. Making configuration easy so you can focus on
-                  building custom components.
+                  Check out our Gatsby tutorial to help make configuration easy
+                  so you can focus on building custom components.
               - image:
                 icon:
                   active: true
@@ -2340,9 +2338,8 @@ content_blocks:
                 title: Gastby template
                 link: https://cloudcannon.com/templates/sendit/
                 description: >-
-                  Build your next Gatsby project with Sendit. CloudCannon's
-                  versatile Gatsby theme for business websites. Built with
-                  Bootstrap and optimized for editing in CloudCannon.
+                  Build your next Gatsby project with CloudCannon's Gatsby theme
+                  for business websites, optimized for editing in CloudCannon.
           styles:
             desktop:
               margin:

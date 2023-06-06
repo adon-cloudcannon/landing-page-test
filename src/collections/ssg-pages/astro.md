@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Streamline your workflow with our Git-based Astro CMS
+            text: An Astro CMS with live visual editing
           styles:
             element: h1
             width: normal
@@ -2255,9 +2255,8 @@ content_blocks:
                 title: Documentation
                 link: https://cloudcannon.com/documentation/
                 description: >-
-                  Head over to CloudCannon's documentation site. More than just
-                  a docs site, you'll find helpful guides, product updates, and
-                  support.
+                  Head over to CloudCannon's documentation site to find helpful
+                  guides, product updates, and support.
               - image: https://cc-dam.imgix.net/astrocannon.png
                 icon:
                   active: true
@@ -2267,9 +2266,8 @@ content_blocks:
                 link: >-
                   https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
                 description: >-
-                  Check out our Astro tutorial. Get your Astro site set up on
-                  CloudCannon. Making configuration easy so you can focus on
-                  building custom components.
+                  Check out our Astro tutorial to make configuration easy, so
+                  you can focus on building custom components.
               - image: https://cc-dam.imgix.net/sendit-hero-browser.png
                 icon:
                   active: true
@@ -2278,9 +2276,8 @@ content_blocks:
                 title: Astro template
                 link: https://cloudcannon.com/templates/sendit/
                 description: >-
-                  Build your next Astro project with Sendit. CloudCannon's
-                  versatile Astro theme for business websites. Built with
-                  Bootstrap and optimized for editing in CloudCannon. 
+                  Build your next Astro project with a versatile Astro theme for
+                  business websites, optimized for editing in CloudCannon. 
           styles:
             desktop:
               margin:
