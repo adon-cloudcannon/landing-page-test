@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: An Astro CMS with live visual editing
+            text: An Astro CMS for live visual editing
           styles:
             element: h1
             width: normal
@@ -2164,7 +2164,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Get started with CloudCannon's Astro resources
+            text: Learn more with CloudCannon's Astro resources
           styles:
             element: h2
             width: tight

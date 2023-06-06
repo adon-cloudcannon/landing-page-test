@@ -2231,7 +2231,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Get started with 11ty and CloudCannon
+            text: Learn more with 11ty and CloudCannon
           styles:
             element: h2
             width: normal
