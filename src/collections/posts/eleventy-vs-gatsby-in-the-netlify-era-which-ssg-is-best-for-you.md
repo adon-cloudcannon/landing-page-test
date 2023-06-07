@@ -5,10 +5,10 @@ breadcrumb_title: 11ty vs Gatsby
 description: >-
   Compare 11ty (Eleventy) and Gatsby to find out why these two static site
   generators are so powerful, and choose which one to use for your next project.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/11ty-vs-gatsby.png
-date: 2023-05-27T05:01:00+12:00
+date: 2023-06-09T05:01:00+12:00
 hide_publish_date: false
 tags:
   - Eleventy
