@@ -1218,7 +1218,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/LumeStep2.svg
+                image: https://cc-dam.imgix.net/Lume-step2.svg
               - title: ' Invite your content team to collaborate'
                 description: >-
                   Give your team access to update the content on the site, all
