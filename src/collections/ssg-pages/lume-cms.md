@@ -8,7 +8,7 @@ description: >-
   incredibly fast static websites, and benefit from an intuitive content
   manager. 
 summary: A  progressive site generator and full stack framework, powered by Ruby.
-image: https://cc-dam.imgix.net/bridgetown.svg
+image: ''
 seo:
   featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
   featured_image_alt: >-
@@ -21,7 +21,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Bridgetown CMS for easy collaboration
+            text: The Lume CMS for live visual editing
           styles:
             element: h1
             width: normal
@@ -59,7 +59,7 @@ content_blocks:
           content:
             text_markdown: >-
               Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Bridgetown CMS.
+              CloudCannon as your Lume CMS.
           styles:
             desktop:
               text_alignment:
@@ -346,7 +346,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: Build Bridgetown sites your way
+                    title: Build Lume sites your way
                     emoji:
                     sub_title: CloudCannon for developers
                   styles:
@@ -377,8 +377,8 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Bridgetown has everything you need
-                      to build, edit, and host the best performing sites on the
+                      CloudCannon’s CMS for Lume has everything you need to
+                      build, edit, and host the best performing sites on the
                       web.
 
 
@@ -585,8 +585,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on Nuxt.js
-                    image: https://cc-dam.imgix.net/bridgetown-cms-faster-easier.png
+                    alt: Faster and easier on Lume
+                    image: ''
                   styles:
                     border:
                     rounded:
@@ -661,7 +661,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for Bridgetown websites
+                    title: The best CMS for Lume websites
                     emoji:
                     sub_title: CloudCannon for editors
                   styles:
@@ -692,8 +692,8 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Bridgetown makes content management
-                      easy for your marketing team and content editors.
+                      CloudCannon’s CMS for Lume makes content management easy
+                      for your marketing team and content editors.
 
 
                       * Use custom components to build new &nbsp;site pages
@@ -1119,7 +1119,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: 'Advance your Bridgetown content workflow '
+            text: 'Advance your Lume content workflow '
           styles:
             element: h2
             width: normal
@@ -1156,8 +1156,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's Bridgetown CMS takes your web development workflow
-              to the next level.
+              CloudCannon's Lume CMS takes your web development workflow to the
+              next level.
           styles:
             width: medium
             desktop:
@@ -1201,7 +1201,7 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Bridgetown site
+              - title: Sync your Lume site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
                 link:
                   text:
@@ -1218,7 +1218,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/bridgetown-cms-build-site-r.png
+                image: ''
               - title: ' Invite your content team to collaborate'
                 description: >-
                   Give your team access to update the content on the site, all
@@ -1229,7 +1229,7 @@ content_blocks:
                   icon_path:
                   icon_color:
                 image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with Bridgetown hosting included
+              - title: Go live with Lume hosting included
                 description: >-
                   Delight your customers by hosting your Bridgetown sites on a
                   global CDN with unparalleled reach and speed.
@@ -2224,7 +2224,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Why choose bridgetown
+      label: Why choose Lume
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -2232,7 +2232,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: 'Why choose Bridgetown? '
+                    text: 'Why choose Lume? '
                   styles:
                     element: h2
                     width: normal
@@ -2268,21 +2268,7 @@ content_blocks:
                         bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
-                    text_markdown: >-
-                      Bridgetown is a next-generation, progressive site
-                      generator & full stack framework. It's built on the
-                      open-source technologies of Ruby, Puma, and Roda, and is a
-                      fast, scalable, modular, and forward-looking framework for
-                      building websites and frontend applications.
-
-
-                      With CloudCannon as your Bridgetown CMS, your whole team
-                      can collaborate to create incredible static sites with
-                      components, themes, plugins, or community gems. Developers
-                      can use JavaScript frameworks like React, Vue, and
-                      Stimulus, as well as CSS frameworks like Bulma or Tailwind
-                      — and content editors will reap the benefits of
-                      CloudCannon’s powerful and intuitive CMS.
+                    text_markdown: ''
                   styles:
                     desktop:
                       text_alignment:
@@ -2328,8 +2314,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier SSG
-                    image: >-
-                      https://cc-dam.imgix.net/bridgetown-cms-intuitive-editing.png
+                    image: ''
                   styles:
                     border:
                     rounded:
@@ -2477,7 +2462,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A CMS for Bridgetown you can trust
+            text: A Lume CMS you can trust
           styles:
             element: h2
             width: normal
@@ -2515,8 +2500,8 @@ content_blocks:
           content:
             text_markdown: >-
               Find out how world leading companies are successfully leveraging
-              CloudCannon's live visual editing. Learn how the best CMS for
-              Bridgetown websites can help you and your team.&nbsp;
+              CloudCannon's live visual editing. Learn how the best CMS for Lume
+              websites can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:
