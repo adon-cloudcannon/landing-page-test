@@ -586,7 +586,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier on Lume
-                    image: ''
+                    image: https://cc-dam.imgix.net/LumeFaster.svg
                   styles:
                     border:
                     rounded:
@@ -1218,7 +1218,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: ''
+                image: https://cc-dam.imgix.net/LumeStep2.svg
               - title: ' Invite your content team to collaborate'
                 description: >-
                   Give your team access to update the content on the site, all
@@ -2314,7 +2314,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier SSG
-                    image: ''
+                    image: https://cc-dam.imgix.net/LumeEditing.svg
                   styles:
                     border:
                     rounded:
