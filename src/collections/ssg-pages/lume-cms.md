@@ -8,7 +8,7 @@ description: >-
   incredibly fast static websites, and benefit from an intuitive content
   manager. 
 summary: A  progressive site generator and full stack framework, powered by Ruby.
-image: ''
+image: https://cc-dam.imgix.net/Lume, the static site generator for Deno - Lume-0.svg
 seo:
   featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
   featured_image_alt: >-
@@ -2268,7 +2268,23 @@ content_blocks:
                         bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
-                    text_markdown: ''
+                    text_markdown: >-
+                      Lume is known as 'the fast and flexible static site
+                      generator for Deno'. Lume supports any templating engine,
+                      so you to build static sites using Markdown, Nunjucks,
+                      Liquid, JSX, TSX, JavaScript, TypeScript, Pug, Eta, or
+                      more. And since it works with Deno, you don't have to
+                      worry about managing thousands of packages in
+                      node\_modules or complex bundlers. With zero runtime
+                      overhead, you can create faster websites with Lume.
+
+
+                      With CloudCannon as your Lume CMS, your whole team can
+                      collaborate to create incredible static sites with
+                      components, themes, and plugins. Developers can use
+                      JavaScript or Typescript, as well as any templating engine
+                      — and content editors will reap the benefits of
+                      CloudCannon’s powerful and intuitive CMS.
                   styles:
                     desktop:
                       text_alignment:
