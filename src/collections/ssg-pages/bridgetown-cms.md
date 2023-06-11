@@ -585,7 +585,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on Nuxt.js
+                    alt: Faster and easier on Bridgetown
                     image: https://cc-dam.imgix.net/bridgetown-cms-faster-easier.png
                   styles:
                     border:
@@ -2327,7 +2327,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier SSG
+                    alt: Intuitive editing with Bridgetown
                     image: >-
                       https://cc-dam.imgix.net/bridgetown-cms-intuitive-editing.png
                   styles:
