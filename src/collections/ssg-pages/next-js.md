@@ -1802,7 +1802,7 @@ content_blocks:
                 right: 0
         - _bookshop_name: simple/heading
           content:
-            text: Trusted by world leading companies
+            text: Trusted by world-leading companies
           styles:
             element: h3
             width: normal

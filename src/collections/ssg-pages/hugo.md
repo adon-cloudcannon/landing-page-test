@@ -872,7 +872,7 @@ content_blocks:
 
 
                       * Content teams commit back to your Git repository through
-                      CloudCannon's visual editor.
+                      CloudCannon's Visual Editor.
 
                       * Create branches for significant changes to prevent
                       blocking staging environments.
@@ -1801,7 +1801,7 @@ content_blocks:
                 right: 0
         - _bookshop_name: simple/heading
           content:
-            text: Trusted by world leading companies
+            text: Trusted by world-leading companies
           styles:
             element: h3
             width: normal
