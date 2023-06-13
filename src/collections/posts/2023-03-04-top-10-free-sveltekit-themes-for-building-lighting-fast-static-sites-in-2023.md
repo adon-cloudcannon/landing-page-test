@@ -49,7 +49,7 @@ Overall, a static website can be made to be more consistent, run better, and be 
 
 **Use case(s):** Marketing website (multipurpose)<br>**Author:** [CloudCannon](https://cloudcannon.com/)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/jovial-pipe.cloudvent.net_.png "Sendit"" alt:"Sendit SvelteKit template demo site" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/jovial-pipe.cloudvent.net_.png" alt:"Sendit SvelteKit template demo site" extend:false border:false %}
 
 Sendit is a multipurpose SvelteKit theme made with the Bootstrap CSS framework. The components have been converted to [Bookshop](https://github.com/CloudCannon/bookshop). It’s the perfect starting point to see how CloudCannon works and build out a clean, modern looking site at the same time.
 
@@ -61,7 +61,7 @@ Sendit is a multipurpose SvelteKit theme made with the Bootstrap CSS framework. 
 
 **Use case(s):** Law firm or local business<br>**Author:** [CloudCannon](https://cloudcannon.com/)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/busy-waves.cloudvent.net_.png "Justice"" alt:"Justice SvelteKit template" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/busy-waves.cloudvent.net_.png" alt:"Justice SvelteKit template" extend:false border:false %}
 
 Justice is a law firm themed template for SvelteKit which can be modified to fit any local business. This clean layout can easily be adjusted to fit any client’s branding. Increase the web presence of a law firm or business with this configurable theme.
 
@@ -73,7 +73,7 @@ Justice is a law firm themed template for SvelteKit which can be modified to fit
 
 **Use case(s):** Web Agency business<br>**Author:** [CloudCannon](https://cloudcannon.com/)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/dry-duck.cloudvent.net_.png "Urban"" alt:"Urban SvelteKit template" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/dry-duck.cloudvent.net_.png" alt:"Urban SvelteKit template" extend:false border:false %}
 
 The Urban SvelteKit template helps you showcase your agency to the world. Show customers the services you offer, examples of previous work and a contact page to get in touch. Increase the web presence of your agency with this configurable theme.
 
@@ -85,7 +85,7 @@ The Urban SvelteKit template helps you showcase your agency to the world. Show c
 
 **Use case(s):** Opinionated blog starter<br>**Author:** [sw-yx](https://github.com/sw-yx)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/swyxkit.netlify.app__ref=sveltethemes.dev.png "Swyxkit"" alt:"Swyxkit SvelteKit theme demo site" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/swyxkit.netlify.app__ref=sveltethemes.dev.png" alt:"Swyxkit SvelteKit theme demo site" extend:false border:false %}
 
 An opinionated blog starter for SvelteKit + Tailwind + Netlify. Refreshed for SvelteKit 1.0!
 
@@ -97,7 +97,7 @@ An opinionated blog starter for SvelteKit + Tailwind + Netlify. Refreshed for Sv
 
 **Use case(s):** Documentation<br>**Author:** [GeopJr](https://github.com/GeopJr)<br>**License:** Unlicensed
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/sveltepress.geopjr.dev__ref=sveltethemes.dev.png "SveltePress"" alt:"SveltePress SvelteKit theme demo site" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/sveltepress.geopjr.dev__ref=sveltethemes.dev.png" alt:"SveltePress SvelteKit theme demo site" extend:false border:false %}
 
 SveltePress is a documentation tool built on top of [SvelteKit](https://kit.svelte.dev/). SvelteKit & Svelte's simplicity allow the user to modify SveltePress to fit their needs with little to no effort while taking advantage of the incredible performance of both of them.
 
@@ -109,7 +109,7 @@ SveltePress is a documentation tool built on top of [SvelteKit](https://kit.svel
 
 **Use case(s):** eCommerce<br>**Author:** [Vercel](https://vercel.com/)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/sveltekit-commerce.vercel.app_.png "SvelteKit Commerce"" alt:"SvelteKit Commerce demo site" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/sveltekit-commerce.vercel.app_.png" alt:"SvelteKit Commerce demo site" extend:false border:false %}
 
 SvelteKit Commerce is an open-source, customizable ecommerce template built with SvelteKit, Tailwind CSS, and Shopify.
 
@@ -121,7 +121,7 @@ SvelteKit Commerce is an open-source, customizable ecommerce template built with
 
 **Use case(s):** Blog<br>**Author:** [ImportantImport](https://github.com/importantimport)<br>**License:** WTFPL
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/urara-demo.netlify.app_.png "Urara"" alt:"Urara SvelteKit theme demo site" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/urara-demo.netlify.app_.png" alt:"Urara SvelteKit theme demo site" extend:false border:false %}
 
 Urara is a sweet, powerful, IndieWeb-compatible SvelteKit Blog Starter.
 
@@ -133,7 +133,7 @@ Urara is a sweet, powerful, IndieWeb-compatible SvelteKit Blog Starter.
 
 **Use case(s):** Minimal websites<br>**Author:** [Sharu725](https://github.com/sharu725)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/yuyutsu.sveltethemes.dev__ref=sveltethemes.dev.png "Yuyutsu"" alt:"Yuyutsu SvelteKit theme demo site" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/yuyutsu.sveltethemes.dev__ref=sveltethemes.dev.png" alt:"Yuyutsu SvelteKit theme demo site" extend:false border:false %}
 
 Yuyutsu is a minimal Sveltekit markdown theme with a sidebar.
 
@@ -145,7 +145,7 @@ Yuyutsu is a minimal Sveltekit markdown theme with a sidebar.
 
 **Use case(s):** Ecommerce websites<br>**Author:** [Ivanlori](https://github.com/ivanlori)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/ivanlori.github.io_Sveltemmerce_.png "Sveltemmerce"" alt:"Sveltemmerce SvelteKit ecommerce template demo" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/ivanlori.github.io_Sveltemmerce_.png" alt:"Sveltemmerce SvelteKit ecommerce template demo" extend:false border:false %}
 
 Sveltemmerce is a simple Ecommerce template built with SvelteJs and Tailwindcss.
 
@@ -157,7 +157,7 @@ Sveltemmerce is a simple Ecommerce template built with SvelteJs and Tailwindcss.
 
 **Use case(s):** Blog Starter<br>**Author:** [Kwchang0831](https://github.com/kwchang0831)<br>**License:** MIT
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/svelte-qwer.vercel.app__ref=sveltethemes.dev.png "Qwer"" alt:"Qwer SvelteKit blog template demo" extend:false border:false %}
+{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/svelte-qwer.vercel.app__ref=sveltethemes.dev.png" alt:"Qwer SvelteKit blog template demo" extend:false border:false %}
 
 Qwer is a simply awesome blog starter built with SvelteKit and love.
 
