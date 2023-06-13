@@ -56,7 +56,7 @@ Sendit is a multipurpose SvelteKit theme made with the Bootstrap CSS framework. 
 
 **[Sendit demo site](https://potent-ship.cloudvent.net/)**<br>**[Sendit GitHub repo](https://github.com/CloudCannon/sendit-eleventy-template)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-sveltekit-template)
 
 ### Justice
 
@@ -68,7 +68,7 @@ Justice is a law firm themed template for SvelteKit which can be modified to fit
 
 [**Justice demo site**](https://busy-waves.cloudvent.net/)<br>[**Justice GitHub repo**](https://github.com/CloudCannon/justice-sveltekit-template)
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/justice-sveltekit-template)
 
 ### Urban
 
@@ -80,7 +80,7 @@ The Urban SvelteKit template helps you showcase your agency to the world. Show c
 
 **[Urban demo site](https://dry-duck.cloudvent.net/)**<br>**[Urban GitHub repo](https://github.com/CloudCannon/urban-sveltekit-template)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/urban-sveltekit-template)
 
 ### Swyxkit
 
@@ -92,7 +92,7 @@ An opinionated blog starter for SvelteKit + Tailwind + Netlify. Refreshed for Sv
 
 [**Swyxkit demo site**](https://swyxkit.netlify.app/?ref=sveltethemes.dev)<br>[**Swyxkit GitHub repo**](https://github.com/sw-yx/swyxkit)
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/sw-yx/swyxkit)
 
 ### SveltePress
 
@@ -104,7 +104,7 @@ SveltePress is a documentation tool built on top of [SvelteKit](https://kit.svel
 
 **[SveltePress demo site](https://sveltepress.geopjr.dev/?ref=sveltethemes.dev)**<br>**[SveltePress GitHub repo](https://github.com/GeopJr/SveltePress)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/GeopJr/SveltePress/)
 
 ### SvelteKit Commerce
 
@@ -116,7 +116,7 @@ SvelteKit Commerce is an open-source, customizable ecommerce template built with
 
 **[SvelteKit Commerce demo site](https://sveltekit-commerce.vercel.app/)**<br>**[SvelteKit GitHub repo](https://github.com/vercel/sveltekit-commerce)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/vercel/sveltekit-commerce)
 
 ### Urara
 
@@ -128,7 +128,7 @@ Urara is a sweet, powerful, IndieWeb-compatible SvelteKit Blog Starter.
 
 **[Urara demo site](https://urara-demo.netlify.app/)**<br>**[Urara GitHub repo](https://github.com/importantimport/urara)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/importantimport/urara)
 
 ### Yuyutsu
 
@@ -140,7 +140,7 @@ Yuyutsu is a minimal Sveltekit markdown theme with a sidebar.
 
 **[Yuyutsu demo site](https://yuyutsu.sveltethemes.dev/?ref=sveltethemes.dev)**<br>**[Yuyutsu GitHub repo](https://github.com/sharu725/yuyutsu)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/sharu725/yuyutsu)
 
 ### Sveltemmerce
 
@@ -152,7 +152,7 @@ Sveltemmerce is a simple Ecommerce template built with SvelteJs and Tailwindcss.
 
 **[Sveltemmerce demo site](https://ivanlori.github.io/Sveltemmerce/)**<br>**[Sveltemmerce GitHub repo](https://github.com/ivanlori/Sveltemmerce)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/ivanlori/Sveltemmerce)
 
 ### Qwer
 
@@ -164,7 +164,7 @@ Qwer is a simply awesome blog starter built with SvelteKit and love.
 
 **[Qwer demo site](https://svelte-qwer.vercel.app/?ref=sveltethemes.dev)**<br>**[Qwer GitHub repo](https://github.com/kwchang0831/svelte-QWER)**
 
-{% bookshop "markdown/image" src: "https://buttons.cloudcannon.com/deploy.svg" alt: "Deploy to CloudCannon" extend: false border: false %}
+[Deploy to CloudCannon](https://app.cloudcannon.com/register#sites/connect/github/kwchang0831/svelte-QWER)
 
 
 
