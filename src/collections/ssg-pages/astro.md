@@ -23,7 +23,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Streamline your workflow with our Git-based Astro CMS
+            text: An Astro CMS for live visual editing
           styles:
             element: h1
             width: normal
@@ -236,7 +236,7 @@ content_blocks:
                 hide: false
               transform:
                 scale: 0.8
-                translate_x: 0
+                translate_x: -40
                 translate_y: 0
                 rotate: 0
                 skew: 0
@@ -348,17 +348,17 @@ content_blocks:
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Build static sites your way
+                    title: Build Astro sites your way
+                    emoji:
+                    sub_title: CloudCannon for developers
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
                         bottom: 0
@@ -366,20 +366,14 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
                       margin:
                         active: false
                         top: 0
                         bottom: 0
                     mobile:
                       text_alignment:
-                        active: true
+                        active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
                         active: false
                         top: 0
@@ -669,27 +663,24 @@ content_blocks:
                         right: 0
             right:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: Manage your content visually
+                    title: The best CMS for Astro websites
+                    emoji:
+                    sub_title: CloudCannon for editors
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -698,13 +689,10 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -1124,7 +1112,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your content workflow with Astro on CloudCannon
+            text: Advance your Astro content workflow
           styles:
             element: h2
             width: tight
@@ -1135,7 +1123,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -1168,17 +1156,17 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-1-sync-8.svg
+                image: https://cc-dam.imgix.net/step1new.svg
               - title: Configure your Astro build
                 description: >-
-                  Add your environment variables, command line options, custom
-                  plugins, and more to automate your build.
+                  Add your environment variables, command line options, and more
+                  to automate your build.
                 link:
                   text:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-2-astro.svg
+                image: https://cc-dam.imgix.net/Step2Astro.svg
               - title: Invite your content team to collaborate
                 description: >-
                   Give your team access to update the content on the site using
@@ -1188,7 +1176,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/Step 3 - Edit (1).png
+                image: https://cc-dam.imgix.net/step3new.svg
               - title: Go live with hosting
                 description: >-
                   Delight your customers by hosting your site on a global CDN
@@ -1200,7 +1188,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step-4-live.svg
+                image: https://cc-dam.imgix.net/step4new.svg
           styles:
             desktop:
               margin:
@@ -1216,6 +1204,51 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              CloudCannon's Astro CMS takes your web development workflow to the
+              next level.
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
     styles:
       background: white
       rounded: top
@@ -1700,7 +1733,7 @@ content_blocks:
                 right: 0
         - _bookshop_name: simple/heading
           content:
-            text: Trusted by world leading companies
+            text: Trusted by world-leading companies
           styles:
             element: h3
             width: normal
@@ -2131,7 +2164,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Get started with CloudCannon's Astro resources
+            text: Learn more with CloudCannon's Astro resources
           styles:
             element: h2
             width: tight
@@ -2222,32 +2255,29 @@ content_blocks:
                 title: Documentation
                 link: https://cloudcannon.com/documentation/
                 description: >-
-                  Head over to CloudCannon's documentation site. More than just
-                  a docs site, you'll find helpful guides, product updates, and
-                  support.
+                  Head over to CloudCannon's documentation site to find helpful
+                  guides, product updates, and support.
               - image: https://cc-dam.imgix.net/astrocannon.png
                 icon:
                   active: true
                   icon_path: outline/cog
                   icon_color: red
-                title: Astro Starter Guide
+                title: Astro starter guide
                 link: >-
                   https://cloudcannon.com/documentation/articles/astro-starter-guide/?ssg=Astro
                 description: >-
-                  Check out our Astro tutorial. Get your Astro site set up on
-                  CloudCannon. Making configuration easy so you can focus on
-                  building custom components.
+                  Check out our Astro tutorial to make configuration easy, so
+                  you can focus on building custom components.
               - image: https://cc-dam.imgix.net/sendit-hero-browser.png
                 icon:
                   active: true
                   icon_path: outline/paint-brush
                   icon_color: purple
-                title: Astro Template
+                title: Astro template
                 link: https://cloudcannon.com/templates/sendit/
                 description: >-
-                  Build your next Astro project with Sendit. CloudCannon's
-                  versatile Astro theme for business websites. Built with
-                  Bootstrap and optimized for editing in CloudCannon. 
+                  Build your next Astro project with a versatile Astro theme for
+                  business websites, optimized for editing in CloudCannon. 
           styles:
             desktop:
               margin:

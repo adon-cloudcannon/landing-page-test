@@ -1,15 +1,14 @@
 ---
 _schema: default
-title: Hugo CMS
+title: Lume CMS
 layout: builder.html
-permalink: /hugo-cms/
+permalink: /lume-cms/
 description: >-
-  Use CloudCannon as your CMS for Hugo to build the world's fastest static sites
-  with Go templates,  collaborate with your team, and manage content with ease!
-summary: >-
-  A Go-based framework for building static sites, with amazing build speed and
-  flexibility.
-image: /images/icons/ssgs/hugo.svg
+  Use CloudCannon as your Lume CMS to collaborate with your team to build
+  incredibly fast static websites, and benefit from an intuitive content
+  manager. 
+summary: A  progressive site generator and full stack framework, powered by Ruby.
+image: https://cc-dam.imgix.net/Lume, the static site generator for Deno - Lume-0.svg
 seo:
   featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png
   featured_image_alt: >-
@@ -22,7 +21,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Hugo CMS for visual page building
+            text: The Lume CMS for live visual editing
           styles:
             element: h1
             width: normal
@@ -60,9 +59,7 @@ content_blocks:
           content:
             text_markdown: >-
               Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Hugo CMS. Your whole team can collaborate to
-              create incredibly fast static sites on an intuitive visual editor
-              with the best CMS for Hugo.
+              CloudCannon as your Lume CMS.
           styles:
             desktop:
               text_alignment:
@@ -221,8 +218,8 @@ content_blocks:
         - _bookshop_name: simple/fold
         - _bookshop_name: simple/image
           content:
-            alt: G2 Awards
-            image: https://cc-dam.imgix.net/G2-awards (1).svg
+            alt: G2 awards
+            image: https://cc-dam.imgix.net/G2-awards.svg
           styles:
             border:
             rounded:
@@ -243,7 +240,7 @@ content_blocks:
                 align_block: center
               margin:
                 top: 0
-                bottom: 120
+                bottom: 90
               position:
                 top: 0
                 left: 0
@@ -349,7 +346,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: Build Hugo sites your way
+                    title: Build Lume sites your way
                     emoji:
                     sub_title: CloudCannon for developers
                   styles:
@@ -380,7 +377,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Hugo has everything you need to
+                      CloudCannon’s CMS for Lume has everything you need to
                       build, edit, and host the best performing sites on the
                       web.
 
@@ -532,7 +529,7 @@ content_blocks:
                 type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 30
+                vertical_gap: 20
               vertical_block_alignment:
                 active: false
                 v_align: center
@@ -588,9 +585,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Faster and easier on Hugo
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18880_d9gwjj.png
+                    alt: Faster and easier on Lume
+                    image: https://cc-dam.imgix.net/LumeFaster.svg
                   styles:
                     border:
                     rounded:
@@ -665,7 +661,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for Hugo websites
+                    title: The best CMS for Lume websites
                     emoji:
                     sub_title: CloudCannon for editors
                   styles:
@@ -696,11 +692,11 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Hugo makes content management easy
+                      CloudCannon’s CMS for Lume makes content management easy
                       for your marketing team and content editors.
 
 
-                      * Use custom components to build new Hugo site pages
+                      * Use custom components to build new &nbsp;site pages
                       visually.
 
                       * Share and review changes with a preview site.
@@ -774,7 +770,7 @@ content_blocks:
                 type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 30
+                vertical_gap: 20
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -822,7 +818,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Git-Based CMS
+      label: Git-based CMS
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -867,8 +863,8 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      More than a headless CMS. CloudCannon's Hugo CMS helps
-                      your team stay in sync with a unified workflow.
+                      More than a headless CMS. CloudCannon's Git-based CMS
+                      helps your team stay in sync with a unified workflow.
 
 
                       * Content teams commit back to your Git repository through
@@ -946,7 +942,7 @@ content_blocks:
                     desktop:
                       margin:
                         top: 0
-                        bottom: 60
+                        bottom: 30
                       justify:
                         align: start
                     tablet:
@@ -969,8 +965,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Git Workflow
-                    image: https://cc-dam.imgix.net/Git+workflows-developer2.png
+                    alt: Git workflow
+                    image: https://cc-dam.imgix.net/Git+workflows-developer.png
                   styles:
                     border:
                     rounded:
@@ -988,7 +984,7 @@ content_blocks:
                         rotate: 0
                         skew: 0
                       block_alignment:
-                        align_block: left
+                        align_block: center
                       margin:
                         top: 0
                         bottom: 0
@@ -1062,8 +1058,8 @@ content_blocks:
                 gap: 0
                 vertical_gap: 30
               vertical_block_alignment:
-                active: true
-                v_align: center
+                active: false
+                v_align: top
             mobile:
               columns:
                 active: true
@@ -1072,8 +1068,8 @@ content_blocks:
                 gap: 0
                 vertical_gap: 30
               vertical_block_alignment:
-                active: true
-                v_align: center
+                active: false
+                v_align: top
     styles:
       background: night
       rounded: top
@@ -1106,16 +1102,16 @@ content_blocks:
           left: 0
       mobile:
         margin:
-          active: true
+          active: false
           top: 0
           right: 0
           bottom: 0
           left: 0
         padding:
-          active: true
-          top: 60
+          active: false
+          top: 0
           right: 0
-          bottom: 120
+          bottom: 0
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -1123,7 +1119,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your Hugo content workflow
+            text: 'Advance your Lume content workflow '
           styles:
             element: h2
             width: normal
@@ -1160,10 +1156,10 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's Hugo CMS takes your web development workflow to the
+              CloudCannon's Lume CMS takes your web development workflow to the
               next level.
           styles:
-            width: large
+            width: medium
             desktop:
               text_alignment:
                 align: center
@@ -1205,7 +1201,7 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Hugo site
+              - title: Sync your Lume site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
                 link:
                   text:
@@ -1213,7 +1209,7 @@ content_blocks:
                   icon_path:
                   icon_color:
                 image: https://cc-dam.imgix.net/step1new.svg
-              - title: Configure your Hugo build
+              - title: Configure your editing
                 description: >-
                   Define your data types and give your team the ideal editing
                   interfaces.
@@ -1222,8 +1218,8 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step2hugo.svg
-              - title: Invite your content team to collaborate
+                image: https://cc-dam.imgix.net/lumestep2 (1).svg
+              - title: ' Invite your content team to collaborate'
                 description: >-
                   Give your team access to update the content on the site, all
                   without the help of a developer. 
@@ -1233,10 +1229,10 @@ content_blocks:
                   icon_path:
                   icon_color:
                 image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with hosting
+              - title: Go live with Lume hosting included
                 description: >-
-                  Delight your customers by hosting your site on a global CDN
-                  with unparalleled reach and speed.
+                  Delight your customers by hosting your Bridgetown sites on a
+                  global CDN with unparalleled reach and speed.
                 link:
                   text:
                   url:
@@ -1270,7 +1266,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 330
+          bottom: 300
           left: 0
       tablet:
         margin:
@@ -1302,7 +1298,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Open source ecosystem
+      label: An entire ecosystem behind you
       blocks:
         - _bookshop_name: simple/spacer
           content:
@@ -1321,7 +1317,7 @@ content_blocks:
                 size: 0
         - _bookshop_name: simple/quote
           content:
-            case_study_quote: 2cf2d39d-21f3-4239-b6ff-c3a3f6f56915
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
           styles:
             background: night
             border: false
@@ -1415,20 +1411,20 @@ content_blocks:
                       publishing workflows.
 
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
                       — create component-driven development workflows and enable
                       live rendering editing;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://pagefind.app">Pagefind</a>** — static search
                       that scales;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://reseed.app/">Reseed</a>** — integrate
                       multiple sites into a single domain;
 
-                      * **<a target="_blank" rel="noopener"
+                      * **<a target="_blank"
                       href="https://rosey.app/">Rosey</a>** — manage
                       translations for localization and i18n;
 
@@ -1488,7 +1484,7 @@ content_blocks:
                     width: full
                     desktop:
                       transform:
-                        scale: 1.2
+                        scale: 1
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
@@ -1540,7 +1536,7 @@ content_blocks:
                         active: false
                         align_block: left
                       margin:
-                        active: true
+                        active: false
                         top: 0
                         left: 0
                         bottom: 0
@@ -1554,8 +1550,8 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: split
-                width: 0
+                type: fixed-fluid
+                width: 450
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
@@ -1575,13 +1571,13 @@ content_blocks:
                 active: true
                 type: stacked
                 width: 0
-                gap: 50
-                vertical_gap: 50
+                gap: 0
+                vertical_gap: 20
               vertical_block_alignment:
-                active: true
+                active: false
                 v_align: top
     styles:
-      background: caramel
+      background: ash
       rounded: top
       desktop:
         margin:
@@ -1665,8 +1661,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Take your editing team to the next level with the CloudCannon Hugo
-              CMS’s powerful content editing and publishing workflows.
+              Take your editing team to the next level with CloudCannon’s
+              powerful content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
@@ -1712,25 +1708,25 @@ content_blocks:
             rows:
               - title: Git-based CMS
                 description: >-
-                  Everything syncs back to Git, so your development and content
+                  Everything syncs back to Git so your development and content
                   editing teams can always collaborate in sync.
                 image: https://cc-dam.imgix.net/git-sync-r.png
-              - title: Built for content editors
+              - title: 'Catered to content editors '
                 description: >-
                   Empower your editors by building a library of components to
                   create new pages with ease.
-                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
-              - title: Publishing workflows
+                image: >-
+                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
+              - title: 'Robust publishing '
                 description: >-
                   Prepare branches for staging and production workflows. Your
                   content team will use the full power of Git, all behind a
                   beautiful UI.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
-              - title: Intuitive editing
+                image: https://cc-dam.imgix.net/Image_-_Range_of_editors_cuyjmd.png
+              - title: 'Intuitive editing '
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for Hugo, the whole team can contribute.
+                  Visual Editor for Bridgetown, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
@@ -1804,14 +1800,14 @@ content_blocks:
             text: Trusted by world-leading companies
           styles:
             element: h3
-            width: normal
+            width: tight
             desktop:
               text_alignment:
                 align: center
               text_sizing:
                 text_size: normal
               margin:
-                top: 120
+                top: 90
                 bottom: 30
             tablet:
               text_alignment:
@@ -1948,7 +1944,7 @@ content_blocks:
                       skew: 0
               - _bookshop_name: simple/logo
                 content:
-                  logo: https://cc-dam.imgix.net/hnry+%281%29.svg
+                  logo: https://cc-dam.imgix.net/hnry-logo.svg
                   name: Hnry
                   url:
                 styles:
@@ -2168,7 +2164,7 @@ content_blocks:
               margin:
                 top: 0
                 right: 0
-                bottom: 60
+                bottom: 30
                 left: 0
             tablet:
               margin:
@@ -2228,186 +2224,7 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: Learning Resources
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: Get started with CloudCannon's Hugo learning resources
-          styles:
-            element: h2
-            width: tight
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Want to learn more about Hugo? Whether it's Hugo specific
-              documentation, Hugo tutorials, or Hugo themes that you're after,
-              CloudCannon has you covered!
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/cards
-          content:
-            cards:
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/document-check
-                  icon_color: blue
-                title: Hugo starter guide
-                link: >-
-                  https://cloudcannon.com/documentation/guides/hugo-starter-guide/
-                description: >-
-                  Head over to our Hugo specific documentation to make
-                  configuration easy so you can focus on building custom
-                  components.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/cog
-                  icon_color: red
-                title: Hugo tutorials
-                link: https://cloudcannon.com/tutorials/
-                description: >-
-                  Check out our collection of Hugo tutorials to learn the basics
-                  or dive into more advanced topics.
-              - image:
-                icon:
-                  active: true
-                  icon_path: outline/paint-brush
-                  icon_color: purple
-                title: Hugo themes
-                link: https://cloudcannon.com/templates/
-                description: >-
-                  Build your next Hugo project with one of our Hugo templates
-                  optimized for editing in CloudCannon.
-          styles:
-            desktop:
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-    styles:
-      background: sea
-      rounded: top
-      size: normal
-      align: none
-      shadow: false
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 120
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: Why Hugo
+      label: Why choose Lume
       blocks:
         - _bookshop_name: sections/two-column
           content:
@@ -2415,7 +2232,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Why choose Hugo?
+                    text: 'Why choose Lume? '
                   styles:
                     element: h2
                     width: normal
@@ -2452,24 +2269,22 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Hugo is known as “the world’s fastest static website
-                      engine”, with a well deserved reputation for speed,
-                      simplicity and flexibility. Hugo is one of the fastest
-                      static site generators supported by the Jamstack
-                      community, with site builds faster than 1ms per page on an
-                      average site.
+                      Lume is known as 'the fast and flexible static site
+                      generator for Deno'. Lume supports any templating engine,
+                      so you to build static sites using Markdown, Nunjucks,
+                      Liquid, JSX, TSX, JavaScript, TypeScript, Pug, Eta, or
+                      more. And since it works with Deno, you don't have to
+                      worry about managing thousands of packages in
+                      node\_modules or complex bundlers. With zero runtime
+                      overhead, you can create faster websites with Lume.
 
 
-                      Distributed as a single cross-platform binary and built
-                      with Go (Golang), Hugo lets you get up and running sooner,
-                      with built-in functionalities like hugo shortcodes, menus,
-                      sitemaps, feeds, i18n and image optimization. And when it
-                      comes to themes,&nbsp;[Hugo’s got them in
-                      spades](https://cloudcannon.com/blog/top-10-hugo-themes-for-2022/).
-
-
-                      Above all, Hugo boasts a thriving community of active and
-                      supportive users contributing to Hugo documentation.
+                      With CloudCannon as your Lume CMS, your whole team can
+                      collaborate to create incredible static sites with
+                      components, themes, and plugins. Developers can use
+                      JavaScript or Typescript, as well as any templating engine
+                      — and content editors will reap the benefits of
+                      CloudCannon’s powerful and intuitive CMS.
                   styles:
                     desktop:
                       text_alignment:
@@ -2515,8 +2330,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: Faster and easier SSG
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/Group_18849_hxk8r2.png
+                    image: https://cc-dam.imgix.net/LumeEditing.svg
                   styles:
                     border:
                     rounded:
@@ -2590,8 +2404,8 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: fluid-fixed
-                width: 700
+                type: split
+                width: 0
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
@@ -2617,7 +2431,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: white
+      background: caramel
       rounded: top
       desktop:
         margin:
@@ -2664,7 +2478,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A CMS for Hugo you can trust
+            text: A Lume CMS you can trust
           styles:
             element: h2
             width: normal
@@ -2675,7 +2489,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 0
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -2702,8 +2516,8 @@ content_blocks:
           content:
             text_markdown: >-
               Find out how world leading companies are successfully leveraging
-              CloudCannon's live visual editing. Learn how the best CMS for Hugo
-              can help you and your team.&nbsp;
+              CloudCannon's live visual editing. Learn how the best CMS for Lume
+              websites can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:
@@ -2712,7 +2526,7 @@ content_blocks:
               text_sizing:
                 text_size: normal
               margin:
-                top: 30
+                top: 0
                 bottom: 60
               block_alignment:
                 align_block: center
@@ -2760,7 +2574,7 @@ content_blocks:
               padding:
                 top: 0
                 right: 0
-                bottom: 0
+                bottom: 60
                 left: 0
             tablet:
               margin:
@@ -2986,7 +2800,7 @@ content_blocks:
           left: 0
       mobile:
         margin:
-          active: false
+          active: true
           top: 0
           right: 0
           bottom: 0
