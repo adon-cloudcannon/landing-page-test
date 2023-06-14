@@ -7,7 +7,7 @@ description: >-
   on all plans.
 draft: true
 series:
-image: https://cc-dam.imgix.net/dam-hero.jpg
+image: https://cc-dam.imgix.net/blog-dam-hero-r.jpg
 date: 2023-06-15T05:00:00+12:00
 hide_publish_date: false
 tags:
