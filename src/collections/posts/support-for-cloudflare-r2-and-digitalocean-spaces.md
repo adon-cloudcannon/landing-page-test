@@ -56,11 +56,11 @@ These new providers join our currently supported DAM systems: Cloudinary, Google
 
 ## Adding a new DAM provider on CloudCannon
 
-You can add a new DAM provider on CloudCannon by navigating to**&nbsp;Settings** / **Assets**, and then linking your DAM.&nbsp;&nbsp;
+You can add a new DAM provider on CloudCannon by navigating to**&nbsp;Settings** / **Assets**.&nbsp;&nbsp;
 
 {% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/blog-dam-link1.png" alt: "" extend: false border: false %}
 
-After clicking on "New DAM", you'll see a list of available options:
+After clicking on **Link DAM**&nbsp;and selecting **New DAM**, you'll see a list of available options:
 
 {% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/blog-dam-link2.png" alt: "" extend: false border: false %}
 
