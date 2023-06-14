@@ -54,9 +54,17 @@ Cloudflare R2 gives users the freedom to create multi-cloud architectures with a
 
 These new providers join our currently supported DAM systems: Cloudinary, Google Cloud Storage, Azure Blob Storage, and S3, which are available for all users; and Tenovos for Enterprise users.
 
----
+## Adding a new DAM provider on CloudCannon
 
-*Interested in creating and connecting a new DAM provider on CloudCannon? Check out our in-depth documentation on [integrating and authenticating your DAM](https://cloudcannon.com/documentation/articles/integrating-your-dam-with-cloudcannon/).*
+You can add a new DAM provider on CloudCannon by navigating to**&nbsp;Settings** / **Assets**, and then linking your DAM.&nbsp;&nbsp;
+
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/blog-dam-link1.png" alt: "" extend: false border: false %}
+
+After clicking on "New DAM", you'll see a list of available options:
+
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/blog-dam-link2.png" alt: "" extend: false border: false %}
+
+For specific instructions on creating and connecting your&nbsp; DAM provider to CloudCannon, see our in-depth documentation on [integrating and authenticating your DAM](https://cloudcannon.com/documentation/articles/integrating-your-dam-with-cloudcannon/).
 
 ---
 
