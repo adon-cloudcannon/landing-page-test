@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Support for Cloudflare R2 and DigitalOcean Spaces
+title: DAM Support for Cloudflare R2 and DigitalOcean Spaces
 breadcrumb_title:
 description: >-
   CloudCannon now supports both DigitalOcean Spaces and Cloudflare R2 digital
@@ -34,7 +34,7 @@ seo:
 ---
 We’ve just released support for two new digital asset management (DAM) providers — DigitalOcean Spaces and Cloudflare R2 — which are available now for all CloudCannon users.
 
-Both DigitalOcean Spaces and Cloudflare R2 are scalable, performant data storage services, compatible with Amazon's S3 service. With both providers you can use the large existing ecosystem of S3 tools, utilities, plugins, extensions, and libraries to manage your assets.
+Both DigitalOcean Spaces and Cloudflare R2 are scalable, performant data storage services, compatible with Amazon's S3 service and APIs. With both providers you can use the large existing ecosystem of S3 tools, utilities, plugins, extensions, and libraries to manage your assets.
 
 ## About DigitalOcean Spaces
 
