@@ -278,39 +278,51 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Demo video & calendar
+      label: 2Demo video & calendar
       blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/video
+                - _bookshop_name: simple/video-placeholder
                   content:
-                    title: CloudCannon Demonstration
-                    url: https://www.youtube.com/watch?v=ftEE9DfE4NY
-                    autoplay: true
-                    loop: false
+                    placeholder_image:
+                      desktop_image: https://cc-dam.imgix.net/video+thumb-teal+%281%29.png
+                      tablet_image:
+                      mobile_image:
+                    video: https://www.youtube.com/watch?v=ftEE9DfE4NY
+                    title: CloudCannon Demo
                   styles:
                     desktop:
+                      margin:
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      position:
+                        top:
+                        left:
+                        bottom:
+                        right:
                       transform:
                         scale: 1
                         translate_x: 0
                         translate_y: 0
                         rotate: 0
                         skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
                     tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
                       transform:
                         active: false
                         scale: 1
@@ -318,22 +330,19 @@ content_blocks:
                         translate_y: 0
                         rotate: 0
                         skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
                     mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        right: 0
+                        bottom: 0
+                        left: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
                       transform:
                         active: false
                         scale: 1
@@ -341,21 +350,6 @@ content_blocks:
                         translate_y: 0
                         rotate: 0
                         skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
             right:
               blocks:
                 - _bookshop_name: simple/emoji-heading
