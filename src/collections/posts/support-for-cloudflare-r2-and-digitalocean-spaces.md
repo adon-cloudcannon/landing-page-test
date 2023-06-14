@@ -46,7 +46,7 @@ DigitalOcean Spaces Object Storage complements local storage to help businesses 
 
 ## About Cloudflare R2
 
-Cloudflare R2 gives you the freedom to create multi-cloud architectures with an S3-compatible object storage.
+Cloudflare R2 gives users the freedom to create multi-cloud architectures with an S3-compatible object storage.
 
 * Global object storage
 * Dynamic functionality via integration with Cloudflare Workers
