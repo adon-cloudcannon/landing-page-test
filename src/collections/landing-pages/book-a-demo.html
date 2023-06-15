@@ -14,60 +14,17 @@ content_blocks:
     content:
       label: 2Demo video & calendar
       blocks:
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: DEMO
-          styles:
-            width: full
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 0
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
         - _bookshop_name: simple/heading
           content:
             text: See CloudCannon in action
           styles:
-            element: h2
+            element: h1
             width: normal
             desktop:
               text_alignment:
                 align: center
               text_sizing:
-                text_size: big
+                text_size: biggest
               margin:
                 top: 0
                 bottom: 60
@@ -169,13 +126,13 @@ content_blocks:
                   content:
                     text_markdown: >-
                       Watch the video to see CloudCannon's editing experience in
-                      just a few minutes.&nbsp;
+                      just a few minutes.
 
 
                       If you'd like to speak to one of our team, book a
-                      personalized demo below!&nbsp;
+                      personalized demo below!
                   styles:
-                    width: medium
+                    width: large
                     desktop:
                       text_alignment:
                         align: left
@@ -217,8 +174,8 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: split
-                width: 400
+                type: fixed-fluid
+                width: 800
                 gap: 0
                 vertical_gap: 0
               vertical_block_alignment:
@@ -292,7 +249,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Book a demo
+            text: Talk to an expert
           styles:
             element: h2
             width: normal
@@ -328,9 +285,12 @@ content_blocks:
                 bottom: 0
         - _bookshop_name: simple/text-block
           content:
-            text_markdown: Get a 30 minute personalized demo of CloudCannon.
+            text_markdown: >-
+              Have more questions about CloudCannon? Want to see a live demo?
+              Book a time to talk to someone from our team for a 30 minute
+              personalized demo of CloudCannon.
           styles:
-            width: full
+            width: medium
             desktop:
               text_alignment:
                 align: center
