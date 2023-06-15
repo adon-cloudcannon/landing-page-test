@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   CloudCannon now supports both DigitalOcean Spaces and Cloudflare R2 digital
   asset management (DAM) solutions, for users on all plans.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog-dam-hero-r2.jpg
 date: 2023-06-16T05:00:00+12:00
