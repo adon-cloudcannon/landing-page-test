@@ -1,7 +1,7 @@
 ---
 _schema: default
 uuid: 0956f6fb-9675-4f44-adaf-554b5a049584
-title: Why Insight Creative, Inc. is a CloudCannon-first agency
+title: Insight Creative, Inc.
 heading: Why Insight Creative, Inc. is a CloudCannon-first agency
 weight:
 categories:
@@ -27,11 +27,11 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Insight Creative, Inc. is the longest-standing single-owner advertising and creative agency in the Green Bay, Wisconsin, area — and they have their finger firmly on the pulse of new technology and marketing trends. Growing from an agency of two in 1988 to a full-service team covering graphic design, web development, photography, social media and more, Insight has it all under one roof. With a strong focus on delivering communication with substance, Insight helps its clients grow effectively, through web design and development, studio services, content and media buys.
+<a target="_blank" href="https://insightcreative.com/">Insight Creative, Inc.</a> is the longest-standing single-owner advertising and creative agency in the Green Bay, Wisconsin, area — and they have their finger firmly on the pulse of new technology and marketing trends. Growing from an agency of two in 1988 to a full-service team covering graphic design, web development, photography, social media and more, Insight has it all under one roof. With a strong focus on delivering communication with substance, Insight helps its clients grow effectively, through web design and development, studio services, content and media buys.
 
 As Insight’s director of front-end development, Justin Parsons designs, builds and maintains custom websites for Insight’s wide-ranging client base. He has found that one particularly effective way the Insight team can support their clients is by enabling them to easily edit, update and change their own websites. A key part of empowering his editors is CloudCannon, which lets anyone on a client team make changes to their site.
 
-“When we’re talking with clients, we describe ourselves as Jamstack first,” Justin says. “Or at this point, CloudCannon first.”
+> When we’re talking with clients, we describe ourselves as Jamstack first. Or at this point, CloudCannon first.
 
 ## **Insight’s preferred tech stack: Hugo and CloudCannon**
 
@@ -55,15 +55,15 @@ Seeing this simplicity in action — and having all essential site files in a Gi
 
 ## **Pagefind: a natural, more intuitive search**
 
-Another kind of magic came when Justin heard about the launch of CloudCannon’s open-source search tool <a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a> at 2022’s <a target="_blank" rel="noopener" href="https://hugoconf.io/">HugoConf</a>. An SSG-agnostic tool, Pagefind brings live search to fully static websites while using as little bandwidth as possible — without hosting any infrastructure.
+Another kind of magic came when Justin heard about the launch of CloudCannon’s open-source search tool <a target="_blank" href="https://pagefind.app/">Pagefind</a> at 2022’s <a target="_blank" href="https://hugoconf.io/">HugoConf</a>. An SSG-agnostic tool, Pagefind brings live search to fully static websites while using as little bandwidth as possible — without hosting any infrastructure.
 
 “I love the fact that we can add search without needing to integrate another tool,” Justin says. “Having Pagefind just feels a little bit more natural, it feels a little bit more intuitive, and it fits in with the stack more seamlessly.”
 
-Justin describes Pagefind as “mind-blowing,” and he’s now added the software to his dev toolkit, enabling him to build live frontend search into his static sites. And with CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/">build hooks</a>, indexing sites is as easy as adding a single npx command to .cloudcannon/postbuild — keeping everything as simple and consistent as possible.
+Justin describes Pagefind as “mind-blowing,” and he’s now added the software to his dev toolkit, enabling him to build live frontend search into his static sites. And with CloudCannon’s <a target="_blank" href="https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/">build hooks</a>, indexing sites is as easy as adding a single `npx` command to `.cloudcannon/postbuild` — keeping everything as simple and consistent as possible.
 
 ## **Happy editors, happy developers**
 
-Developers like Justin and agencies like Insight Creative, Inc. always advocate for their clients’ best interests, and Justin takes time to <a target="_blank" rel="noopener" href="https://insightcreative.com/blog/building-a-well-oiled-marketing-machine-for-a-to-z-machine/">share the benefits that static sites can bring to his clients</a>. He’s also put time into <a target="_blank" rel="noopener" href="https://insightcreative.com/blog/common-jamstack-myths/">busting the myths</a> around static sites. One constant in both his development work and writing, though, is the seamless tech stack that Insight can achieve with CloudCannon, and the benefits that attentive design and development can bring to their clients’ sites.
+Developers like Justin and agencies like Insight Creative, Inc. always advocate for their clients’ best interests, and Justin takes time to <a target="_blank" href="https://insightcreative.com/blog/building-a-well-oiled-marketing-machine-for-a-to-z-machine/">share the benefits that static sites can bring to his clients</a>. He’s also put time into <a target="_blank" href="https://insightcreative.com/blog/common-jamstack-myths/">busting the myths</a> around static sites. One constant in both his development work and writing, though, is the seamless tech stack that Insight can achieve with CloudCannon, and the benefits that attentive design and development can bring to their clients’ sites.
 
 With CloudCannon, Insight Creative, Inc. is able to craft unique web experiences for their customers, giving users the editing interfaces they want to make the changes they need.
 
