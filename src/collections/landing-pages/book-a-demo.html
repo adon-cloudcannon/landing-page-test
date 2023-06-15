@@ -12,7 +12,7 @@ lead_score: 5
 content_blocks:
   - _bookshop_name: sections/container
     content:
-      label: 2Demo video & calendar
+      label: Hero
       blocks:
         - _bookshop_name: simple/heading
           content:
@@ -24,10 +24,10 @@ content_blocks:
               text_alignment:
                 align: center
               text_sizing:
-                text_size: biggest
+                text_size: big
               margin:
                 top: 0
-                bottom: 60
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -50,6 +50,51 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Watch to see how CloudCannon works, if you have more questions —
+              schedule a meeting with our team!&nbsp;
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
         - _bookshop_name: sections/two-column
           content:
             left:
@@ -124,22 +169,16 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/text-block
                   content:
-                    text_markdown: >-
-                      Watch the video to see CloudCannon's editing experience in
-                      just a few minutes.
-
-
-                      If you'd like to speak to one of our team, book a
-                      personalized demo below!
+                    text_markdown: '### See the magic of CloudCannon in just 5 minutes!'
                   styles:
-                    width: large
+                    width: medium
                     desktop:
                       text_alignment:
                         align: left
                       text_sizing:
-                        text_size: normal
+                        text_size: big
                       margin:
-                        top: 70
+                        top: 120
                         bottom: 0
                       block_alignment:
                         align_block: center
@@ -245,7 +284,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
-      label: Hero
+      label: Talk to an expert
       blocks:
         - _bookshop_name: simple/heading
           content:
