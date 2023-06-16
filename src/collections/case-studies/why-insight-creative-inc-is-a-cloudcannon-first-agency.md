@@ -38,7 +38,7 @@ With Hugo’s built-in asset processing ([Hugo Pipes](https://gohugo.io/hugo-pip
 
 Hugo, then, offers exactly the development tooling that Justin and Insight need to create quick and responsive websites. And when it comes to giving clients the power to edit their own sites — whether they’re as small as a few pages or comprised of hundreds upon hundreds of pages and posts — Justin chooses CloudCannon.
 
-![](https://cc-dam.imgix.net/insight-device-whistlers.png)
+![](https://cc-dam.imgix.net/insight-device-whistlers-2.png)
 
 ## **Why CloudCannon?**
 
