@@ -3,15 +3,14 @@ _schema: default
 uuid: 0956f6fb-9675-4f44-adaf-554b5a049584
 title: Insight Creative, Inc.
 heading: Why Insight Creative, Inc. is a CloudCannon-first agency
-weight:
+weight: 4
 categories:
   - Agency
   - Company sites
 image:
-  path: https://cc-dam.imgix.net/insight-logo.svg
+  path: https://cc-dam.imgix.net/insight-creative-card.png
   alt: Insight logo
-logo: >-
-  https://cc-dam.imgix.net/uploads/advertising-agency-in-green-bay-wi-insight-creative-inc-8-1-1.svg
+logo: https://cc-dam.imgix.net/insight-logo.svg
 case_study_person: 27afbdcf-5fdc-40fe-b32d-3831cda9f9e1
 description: >-
   Insight Creative, Inc. is a full-service advertising and creative agency. Part
