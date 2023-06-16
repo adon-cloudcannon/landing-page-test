@@ -21,7 +21,7 @@ description: >-
   experience on the
 
   best-performing websites — and that’s why they choose CloudCannon.
-date:
+date: 2023-06-20T05:00:00+12:00
 seo:
   open_graph_type: article
   featured_image:
