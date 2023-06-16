@@ -13,13 +13,9 @@ image:
 logo: https://cc-dam.imgix.net/insight-logo.svg
 case_study_person: 27afbdcf-5fdc-40fe-b32d-3831cda9f9e1
 description: >-
-  Insight Creative, Inc. is a full-service advertising and creative agency. Part
-  of their full-service
-
-  model includes giving their clients the most intuitive and effective editing
-  experience on the
-
-  best-performing websites — and that’s why they choose CloudCannon.
+  Advertising and creative agency Insight Creative, Inc. gives their clients
+  intuitive and effective editing experience on high-performing websites — and
+  that’s why they choose CloudCannon.
 date: 2023-06-20T05:00:00+12:00
 seo:
   open_graph_type: article
