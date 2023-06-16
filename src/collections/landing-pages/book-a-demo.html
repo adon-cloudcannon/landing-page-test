@@ -211,12 +211,58 @@ content_blocks:
                         skew: 0
             right:
               blocks:
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Ask us anything — we're here to help. Feel free to share
+                      your use case and the ways your team wants to collaborate,
+                      and we'll personalize your demo.&nbsp;
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 30
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
                 - _bookshop_name: simple/icon-list
                   content:
                     list:
                       - icon_path: outline/check-circle
                         icon_color: green-dark
-                        text: Something interesting and insightful
+                        text: Live visual editing
                   styles:
                     desktop:
                       margin:
@@ -237,7 +283,25 @@ content_blocks:
                     list:
                       - icon_path: outline/check-circle
                         icon_color: green-dark
-                        text: Something interesting and insightful
+                        text: Publishing workflows
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 20
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/icon-list
+                  content:
+                    list: []
                   styles:
                     desktop:
                       margin:
@@ -258,7 +322,7 @@ content_blocks:
                     list:
                       - icon_path: outline/check-circle
                         icon_color: green-dark
-                        text: Something interesting and insightful
+                        text: Pricing that scales with your needs
                   styles:
                     desktop:
                       margin:
@@ -274,61 +338,6 @@ content_blocks:
                         active: false
                         top: 0
                         bottom: 0
-                - _bookshop_name: simple/icon-list
-                  content:
-                    list:
-                      - icon_path: outline/check-circle
-                        icon_color: green-dark
-                        text: Something interesting and insightful
-                  styles:
-                    desktop:
-                      margin:
-                        top: 0
-                        bottom: 20
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/button-holder
-                  content:
-                    button_blocks:
-                      - _bookshop_name: simple/button
-                        content:
-                          text: Book a personalized demo
-                          link: /
-                        styles:
-                          style: outline
-                          size: normal
-                          extra_classes:
-                  styles:
-                    desktop:
-                      margin:
-                        top: 30
-                        bottom: 0
-                      justify:
-                        align: start
-                    tablet:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: false
-                        align: center
-                    mobile:
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      justify:
-                        active: false
-                        align: center
           styles:
             desktop:
               columns:
@@ -337,7 +346,7 @@ content_blocks:
                 gap: 0
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: center
+                v_align: top
             tablet:
               columns:
                 active: false
@@ -362,54 +371,76 @@ content_blocks:
           content:
             left:
               blocks:
-                - _bookshop_name: simple/text-block
+                - _bookshop_name: simple/button-holder
                   content:
-                    text_markdown: |-
-                      **Ready to get started?&nbsp;**
-
-                      Trial CloudCannon with a 14-day free trial
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Start my CloudCannon trial
+                          link: /
+                        styles:
+                          style: normal
+                          size: normal
+                          extra_classes:
                   styles:
-                    width: full
                     desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
                       margin:
                         top: 0
                         bottom: 0
-                      block_alignment:
-                        align_block: left
+                      justify:
+                        align: center
                     tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
                       margin:
                         active: false
                         top: 0
                         bottom: 0
-                      block_alignment:
+                      justify:
                         active: false
-                        align_block: left
+                        align: center
                     mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
                       margin:
                         active: false
                         top: 0
                         bottom: 0
-                      block_alignment:
+                      justify:
                         active: false
-                        align_block: left
+                        align: center
             right:
-              blocks: []
+              blocks:
+                - _bookshop_name: simple/button-holder
+                  content:
+                    button_blocks:
+                      - _bookshop_name: simple/button
+                        content:
+                          text: Book a personalized demo
+                          link: /
+                        styles:
+                          style: outline
+                          size: normal
+                          extra_classes:
+                  styles:
+                    desktop:
+                      margin:
+                        top: 0
+                        bottom: 0
+                      justify:
+                        align: center
+                    tablet:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
+                    mobile:
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      justify:
+                        active: false
+                        align: center
           styles:
             desktop:
               columns:
