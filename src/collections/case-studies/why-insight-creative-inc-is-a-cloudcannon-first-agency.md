@@ -8,11 +8,12 @@ categories:
   - Agency
   - Company sites
 image:
-  path:
-  alt:
+  path: >-
+    https://cc-dam.imgix.net/uploads/advertising-agency-in-green-bay-wi-insight-creative-inc-8-1-1.svg
+  alt: Insight logo
 logo: >-
   https://cc-dam.imgix.net/uploads/advertising-agency-in-green-bay-wi-insight-creative-inc-8-1-1.svg
-case_study_person:
+case_study_person: 27afbdcf-5fdc-40fe-b32d-3831cda9f9e1
 description: >-
   Insight Creative, Inc. is a full-service advertising and creative agency. Part
   of their full-service
