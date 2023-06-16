@@ -28,6 +28,8 @@ As Insight’s director of front-end development, Justin Parsons designs, builds
 
 > When we’re talking with clients, we describe ourselves as Jamstack first. Or at this point, CloudCannon first.
 
+![](https://cc-dam.imgix.net/insight-device-azmachines.png)
+
 ## **Insight’s preferred tech stack: Hugo and CloudCannon**
 
 For Justin, Hugo and CloudCannon are a natural fit. He had begun testing Hugo around 2020, when build times on older Jekyll projects grew too long, and he soon found that Hugo’s reputation for speed was well deserved: “The build times with Hugo were just amazing. Insane. I'd never seen anything like it before. I still really haven't, though Eleventy has gotten very, very close.”
@@ -35,6 +37,8 @@ For Justin, Hugo and CloudCannon are a natural fit. He had begun testing Hugo ar
 With Hugo’s built-in asset processing ([Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/)), Justin doesn’t need to use any additional build tools outside of what’s already pre-packaged with Hugo. “As far as our development and our build environment, we don’t need to rely on Gulp or Webpack or any other kind of bundlers or processors. And to me, that's just magic.”
 
 Hugo, then, offers exactly the development tooling that Justin and Insight need to create quick and responsive websites. And when it comes to giving clients the power to edit their own sites — whether they’re as small as a few pages or comprised of hundreds upon hundreds of pages and posts — Justin chooses CloudCannon.
+
+![](https://cc-dam.imgix.net/insight-device-whistlers.png)
 
 ## **Why CloudCannon?**
 
@@ -55,6 +59,8 @@ Another kind of magic came when Justin heard about the launch of CloudCannon’s
 “I love the fact that we can add search without needing to integrate another tool,” Justin says. “Having Pagefind just feels a little bit more natural, it feels a little bit more intuitive, and it fits in with the stack more seamlessly.”
 
 Justin describes Pagefind as “mind-blowing,” and he’s now added the software to his dev toolkit, enabling him to build live frontend search into his static sites. And with CloudCannon’s <a target="_blank" href="https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/">build hooks</a>, indexing sites is as easy as adding a single `npx` command to `.cloudcannon/postbuild` — keeping everything as simple and consistent as possible.
+
+![](https://cc-dam.imgix.net/insight-device-foxstructures.png)
 
 ## **Happy editors, happy developers**
 
