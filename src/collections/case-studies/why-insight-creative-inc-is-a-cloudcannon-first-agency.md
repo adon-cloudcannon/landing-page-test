@@ -8,8 +8,7 @@ categories:
   - Agency
   - Company sites
 image:
-  path: >-
-    https://cc-dam.imgix.net/uploads/advertising-agency-in-green-bay-wi-insight-creative-inc-8-1-1.svg
+  path: https://cc-dam.imgix.net/insight-logo.svg
   alt: Insight logo
 logo: >-
   https://cc-dam.imgix.net/uploads/advertising-agency-in-green-bay-wi-insight-creative-inc-8-1-1.svg
