@@ -66,6 +66,6 @@ Justin describes Pagefind as “mind-blowing,” and he’s now added the softwa
 
 Developers like Justin and agencies like Insight Creative, Inc. always advocate for their clients’ best interests, and Justin takes time to <a target="_blank" href="https://insightcreative.com/blog/building-a-well-oiled-marketing-machine-for-a-to-z-machine/">share the benefits that static sites can bring to his clients</a>. He’s also put time into <a target="_blank" href="https://insightcreative.com/blog/common-jamstack-myths/">busting the myths</a> around static sites. One constant in both his development work and writing, though, is the seamless tech stack that Insight can achieve with CloudCannon, and the benefits that attentive design and development can bring to their clients’ sites.
 
-As a <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner</a>, Insight Creative, Inc. is able to craft unique web experiences for their customers, giving users the editing interfaces they want to make the changes they need.
+As a <a target="_blank" href="https://cloudcannon.com/partner-program/">CloudCannon Partner</a>, Insight Creative, Inc. is able to craft unique web experiences for their customers, giving users the editing interfaces they want to make the changes they need.
 
 And developers like Justin? With CloudCannon, they don’t have to compromise: they can use the tools they love *and* achieve significant gains in efficiency and site performance.
