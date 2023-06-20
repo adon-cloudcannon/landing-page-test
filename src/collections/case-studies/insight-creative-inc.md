@@ -60,7 +60,9 @@ Another kind of magic came when Justin heard about the launch of CloudCannon’s
 
 Justin describes Pagefind as “mind-blowing,” and he’s now added the software to his dev toolkit, enabling him to build live frontend search into his static sites. And with CloudCannon’s <a target="_blank" href="https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/">build hooks</a>, indexing sites is as easy as adding a single `npx` command to `.cloudcannon/postbuild` — keeping everything as simple and consistent as possible.
 
-![](https://cc-dam.imgix.net/insight-device-foxstructures.png)
+![](https://cc-dam.imgix.net/insight-device-fox.png)
+
+
 
 ## **Happy editors, happy developers**
 
