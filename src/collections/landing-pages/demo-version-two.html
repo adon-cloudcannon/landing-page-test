@@ -50,51 +50,6 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Watch to see how CloudCannon works. Have some more questions?
-              Schedule a meeting with an expert from our team!
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 30
-                bottom: 30
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
         - _bookshop_name: simple/embed
           content:
             embed_block: >-
@@ -123,8 +78,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              Watch to see how CloudCannon works. Have some more questions?
-              Schedule a meeting with an expert from our team!
+              Have more questions? Schedule a meeting with an expert from our
+              team!
           styles:
             width: medium
             desktop:
@@ -134,7 +89,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 30
-                bottom: 60
+                bottom: 15
               block_alignment:
                 align_block: center
             tablet:
@@ -165,6 +120,40 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
+        - _bookshop_name: simple/button-holder
+          content:
+            button_blocks:
+              - _bookshop_name: simple/button
+                content:
+                  text: Book a personalized demo
+                  link: '#book-demo'
+                styles:
+                  style: normal
+                  size: normal
+                  extra_classes:
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+              justify:
+                align: center
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
         - _bookshop_name: simple/video
           content:
             title: CloudCannon Demonstration Video
