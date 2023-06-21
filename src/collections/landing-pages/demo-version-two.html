@@ -14,6 +14,49 @@ content_blocks:
     content:
       label: Hero
       blocks:
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: DEMO
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
         - _bookshop_name: simple/heading
           content:
             text: See CloudCannon in action
@@ -27,7 +70,7 @@ content_blocks:
                 text_size: big
               margin:
                 top: 0
-                bottom: 30
+                bottom: 40
             tablet:
               text_alignment:
                 active: false
@@ -75,6 +118,98 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
+        - _bookshop_name: sections/container
+          content:
+            label: Demo banner
+            blocks:
+              - _bookshop_name: simple/text-block
+                content:
+                  text_markdown: >-
+                    Have more questions? **[Schedule a meeting with an expert
+                    from our team!&nbsp;](#book-demo)**
+                styles:
+                  width: full
+                  desktop:
+                    text_alignment:
+                      align: center
+                    text_sizing:
+                      text_size: big
+                    margin:
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      align_block: center
+                  tablet:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: false
+                      text_size: normal
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
+                  mobile:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: false
+                      text_size: normal
+                    margin:
+                      active: false
+                      top: 0
+                      bottom: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
+          styles:
+            background: caramel
+            rounded: full
+            size: small
+            align: none
+            shadow: false
+            desktop:
+              margin:
+                top: 30
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 15
+                right: 0
+                bottom: 15
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
