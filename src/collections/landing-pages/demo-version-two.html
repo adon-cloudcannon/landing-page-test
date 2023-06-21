@@ -63,7 +63,77 @@ content_blocks:
               text_sizing:
                 text_size: big
               margin:
+                top: 30
+                bottom: 30
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
                 top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/embed
+          content:
+            embed_block: >-
+              <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+              src="https://player.vimeo.com/video/836411139?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="CloudCannon Demo Video"></iframe></div><script
+              src="https://player.vimeo.com/api/player.js"></script>
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Watch to see how CloudCannon works. Have some more questions?
+              Schedule a meeting with an expert from our team!
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 30
                 bottom: 60
               block_alignment:
                 align_block: center
