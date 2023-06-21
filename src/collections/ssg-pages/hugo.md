@@ -878,7 +878,7 @@ content_blocks:
                       blocking staging environments.
 
                       * Review changes on a site and merge them into another
-                      branch.
+                      branch in the content management system.
 
                       * Roll a site back with full version control of both code
                       and content.
@@ -2452,12 +2452,11 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Hugo is known as “the world’s fastest static website
-                      engine”, with a well deserved reputation for speed,
-                      simplicity and flexibility. Hugo is one of the fastest
-                      static site generators supported by the Jamstack
-                      community, with site builds faster than 1ms per page on an
-                      average site.
+                      Hugo is known as the world’s fastest framework for
+                      building websites, with a well deserved reputation for
+                      speed, simplicity and flexibility. Hugo the fastest static
+                      site generator supported by the Jamstack community, with
+                      site builds faster than 1ms per page on an average site.
 
 
                       Distributed as a single cross-platform binary and built
