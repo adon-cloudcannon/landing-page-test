@@ -322,20 +322,20 @@ bottom_content:
   {% include 'partials/filters/filter.html' filter_type: filters collection: templates %}
 
 
-<div id="filter-list" class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
+<div class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
   {% for template in templates %}
     {% assign ssg_names = '' %}
     {% assign categories = '' %}
     
-    {% for ssg in template.data.ssgs %}
-        {% assign ssg_names = ssg_names | append: ' ' | append: ssg.ssg_name %}
+    {% for ssg in template.data.ssg_frameworks %}
+        {% assign ssg_names = ssg_names | append: ' ' | append: ssg %}
     {% endfor %}
     
-    {% for category in template.data.themes_categories %}
+    {% for category in template.data.categories %}
         {% assign categories = categories | append: ' ' | append: category %}
     {% endfor %}
 
-    <a href="{{ template.url }}" data-ssg="{{ ssg_names | strip }}" data-categories="{{ categories | strip }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">
+    <a id="list-item" href="{{ template.url }}" data-ssg="{{ ssg_names | strip }}" data-categories="{{ categories | strip }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">
         {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: 'w-full' width: 594 height: 371 %}
         <div class="p-3">
             <div class="flex my-1">
