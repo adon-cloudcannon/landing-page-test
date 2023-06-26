@@ -41,22 +41,41 @@
                 <div x-show.transition="show === '{{ forloop.index }}'" class="absolute top-full z-20 mt-2 w-[200px] shadow-menu rounded-lg px-4 py-4 gap-y-4 whitespace-nowrap bg-white flex-col">
                     {% assign filter_key = filter %}
                     {% assign item_collection = collection %}
-                    {% if filter_key == "ssg" %}
-                        {% assign filter_targets = item_collection | getUniqueSSGs %}
-                    {% elsif filter_key == "categories" %}
+
+                    <h5>{{ filter_key }}</h5>
+
+
+                    
+                    {% case filter_key %}
+                    {% when "ssg", "categories", "location" %}
                         {% assign filter_targets = "" | split: "," %}
-                        {% for item in item_collection  %}
-                            {% assign category_targets = item.data.themes_categories %}
-                            {% for category_target in category_targets %}
-                                {% assign trimmed_category_target = category_target | strip %}
-                                {% if trimmed_category_target != empty and trimmed_category_target != null and trimmed_category_target != "" %}
-                                    {% unless filter_targets contains trimmed_category_target %}
-                                        {% assign filter_targets = filter_targets | push: trimmed_category_target %}
+                        {% assign targets_key = filter_key %}
+                        
+                        {% for item in item_collection %}
+                            {% case targets_key %}
+                                {% when "categories" %}
+                                    {% assign targets = item.data.categories %}
+                                {% when "location" %}
+                                    {% assign targets = item.data.locations %}
+                                {% else %}
+                                    {% assign targets = item.data.ssg_frameworks %}
+                            {% endcase %}
+                            
+                            {% for target in targets %}
+                                {% assign trimmed_target = target | strip %}
+                                {% if trimmed_target != empty and trimmed_target != null and trimmed_target != "" %}
+                                    {% if filter_key == "location" %}
+                                        {% assign trimmed_target = trimmed_target | capitalize %}
+                                    {% endif %}
+                                    {% unless filter_targets contains trimmed_target %}
+                                        {% assign filter_targets = filter_targets | push: trimmed_target %}
                                     {% endunless %}
                                 {% endif %}
                             {% endfor %}
                         {% endfor %}
-                    {% endif %}
+                {% endcase %}
+                
+                    
                     
                     {% for target in filter_targets %}
                         <div class="flex items-center">
@@ -120,6 +139,8 @@
                     console.error(`Invalid filter type: ${filterType}`);
                     return;
                 }
+
+                option =  option.toLowerCase().replace(/ /g, '-');
     
                 const filterArray = this.filters[filterType];
                 const optionIndex = filterArray.indexOf(option);
@@ -157,7 +178,8 @@
                 this.filterTemplates();
             },
             filterTemplates() {
-                updateDisplay(document.querySelectorAll('#filter-list a'), this.filters);
+                updateDisplay(document.querySelectorAll('#list-item'), this.filters);
+                console.log(this.filters)
             }
         };
     }
