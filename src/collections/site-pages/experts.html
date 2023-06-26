@@ -11,6 +11,9 @@ seo:
     CloudCannon's visual CMS that keeps both content editors and developers
     happy
 lead_score: 2
+filters:
+ - ssg
+ - location
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -144,9 +147,29 @@ content_blocks:
 <div class="container">
   {% assign experts = collections.experts | sort: 'data.weight' %}
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
+  {% include 'partials/filters/filter.html' filter_type: filters collection: experts %}
+
+
+  <div id="filter-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     {% for expert in experts %}
-      <a class="group relative transition duration-200 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" href="{{ expert.url }}">
+      {% assign ssg_names = '' %}
+      {% assign locations = '' %}
+
+      {% for ssg in expert.data.ssg_frameworks %}
+        {% assign ssg_names = ssg_names | append: ' ' | append: ssg %}
+      {% endfor %}
+
+      {% for location in expert.data.locations %}
+        {% assign location_with_hyphens = location | downcase | replace: ' ', '-' %}
+        {% assign locations = locations | append: ' ' | append: location_with_hyphens %}
+      {% endfor %}
+  
+    
+
+  
+
+  
+      <a id="list-item" class="group relative transition duration-200 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" data-ssg="{{ ssg_names | strip}}" data-location="{{ locations | strip }}" href="{{ expert.url }}">
         <div class="h-52 bg-[#f0f5ff] flex justify-center items-center rounded-t-xl">
           <img src="{{ expert.data.logo_image }}" class="max-w-[220px]" alt="{{ expert.data.title }}" />
         </div>
