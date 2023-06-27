@@ -99,27 +99,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("markdownify", (markdown) => md.render(markdown));
 
 
-	eleventyConfig.addFilter('getUniqueSSGs', function(collection) {
-		const ssgNames = new Set();
-		collection.forEach((item) => {
-			if (item.data.ssgs) {
-				item.data.ssgs.forEach((ssg) => {
-					if (ssg.ssg_name) {
-						ssgNames.add(ssg.ssg_name.toLowerCase());
-					}
-				});
-			} else if (item.data.ssg_frameworks) {
-				item.data.ssg_frameworks.forEach((ssg) => {
-					console.log(ssg, 'ssg***')
-					ssgNames.add(ssg.toLowerCase());
-				}
-				);
-			}
-		});
-		return Array.from(ssgNames);
-	});
-
-
 	return {
 		dir: {
 			input: "src",
