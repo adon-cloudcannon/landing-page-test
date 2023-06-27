@@ -33,6 +33,11 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/11ty-vs-gatsby.png
   featured_image_alt: 11ty vs. Gatsby
+ssg_frameworks:
+  - 11ty
+  - gatsby
+categories:
+  - resources
 ---
 With Netlify’s recent <a target="_blank" href="https://www.gatsbyjs.com/blog/gatsby-is-joining-netlify/">acquisition of Gatsby Inc</a>, and their sponsorship last year of <a target="_blank" href="https://www.11ty.dev/blog/eleventy-oss/">full-time open-source development on Eleventy (11ty)</a>, it’s an exciting time to be choosing a new static site generator (SSG) — particularly if and when Netlify makes Gatsby’s composable architecture primitives available across the web. While GatsbyJS has certainly carved out a name for itself in the Jamstack community, for certain use cases its single-page application (SPA) approach is being challenged by lighter-weight static site generators such as Eleventy.
 

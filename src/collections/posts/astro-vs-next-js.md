@@ -34,6 +34,10 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/astro-vs-nextjs.png
   featured_image_alt: Astro vs. Next.js
+ssg_frameworks:
+  - astro
+  - nextjs
+categories:
 ---
 #
 

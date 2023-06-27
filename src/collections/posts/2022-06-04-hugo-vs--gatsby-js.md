@@ -29,6 +29,10 @@ tags:
   - Hugo
   - Gatsby
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+  - hugo
+  - gatsby
+categories:
 ---
 With [GatsbyConf](https://gatsbyconf.com/) a few months behind us, and the new-conference-on-the-block [HugoConf](https://hugoconf.io/) approaching on the horizon, we are now — temporally, at least — between Gatsby.js and Hugo. Distinctly different in their approaches to static site generation and developer workflows, both are popular and well established static site generators, with large and active communities surrounding them.
 

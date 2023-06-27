@@ -25,6 +25,9 @@ date: 2021-10-15T05:00:00+1300
 tags:
   - Resources
 author: 361d2445-fcab-44bb-b1d3-4d840d4e8e05
+ssg_frameworks:
+categories:
+  - resources
 ---
 The eCommerce industry is growing exponentially. By 2021 alone, the market is projected to reach a total of [$4.89 trillion](https://www.emarketer.com/content/worldwide-ecommerce-will-approach-5-trillion-this-year). This comes after retail eCommerce grew more than [25%](https://www.statista.com/topics/871/online-shopping/#dossier-chapter1) in 2020.
 

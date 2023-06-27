@@ -28,6 +28,9 @@ hide_publish_date: true
 tags:
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+categories:
+  - resources
 ---
 By now you may have decided on the [static site generator](https://cloudcannon.com/blog/what-is-a-static-site-generator/) (SSG) you’ll use to build your [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/). Let’s now examine the most important web publishing tool in your workflow — and the one you’ll spend the majority of your time in — your content management system (CMS). CMSs help users to create, maintain, and edit material on their websites, and allow users to manage even large, complex websites with little to no coding knowledge. The right CMS will become the focal point for your content and marketing team’s work, and should help empower you to do your jobs more efficiently.
 

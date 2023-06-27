@@ -27,6 +27,9 @@ hide_publish_date: true
 tags:
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+categories:
+  - resources
 ---
 So you’ve decided you’d like a [static website](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/). Great news\! Let’s dig into the tools we use to create static websites, why we use them, and how they fit into our workflows for publishing new content, creating new pages, and keeping our content up to date.
 

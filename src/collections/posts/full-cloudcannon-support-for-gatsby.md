@@ -33,6 +33,10 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/blog/blog-gatsby-support-launch-r.jpg
   featured_image_alt: CloudCannon and Gatsby logos
+ssg_frameworks:
+  - gatsby
+categories:
+  - features
 ---
 What’s that? Another SSG support release for CloudCannon? Absolutely!
 

@@ -26,6 +26,10 @@ tags:
   - Resources
   - Jekyll
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+  - jekyll
+categories:
+  - resources
 ---
 In this showcase, we're taking a peek behind the curtain to see how the Jekyll Feed plugin works.
 

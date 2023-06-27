@@ -27,6 +27,9 @@ hide_publish_date: true
 tags:
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+categories:
+  - resources
 ---
 Congratulations\! You’re well on your way to identify the right content management system (CMS) for your team. At this stage in your journey you’re already likely to recognize [the benefits of modern static sites](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/), and you might have even chosen your preferred [static site generator (SSG)](https://cloudcannon.com/blog/what-is-a-static-site-generator/) and planned the process of [selecting your new CMS for your static website](https://cloudcannon.com/blog/choosing-a-cms-for-your-static-site-part-1/).
 

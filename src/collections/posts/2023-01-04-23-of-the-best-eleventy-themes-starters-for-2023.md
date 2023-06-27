@@ -34,6 +34,10 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - 11ty
+categories:
+  - resources
 ---
 With [CloudCannon's support for Eleventy now officially out of beta](https://cloudcannon.com/blog/new-eleventy-features-a-new-theme-and-full-eleventy-support/), there's no better time to investigate a new project. What's the best way to get started? With an Eleventy theme, of course\!
 

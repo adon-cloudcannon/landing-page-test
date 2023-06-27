@@ -22,6 +22,10 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-group-of-people-working.jpg
+ssg_frameworks:
+  - jekyll
+categories:
+  - resources
 ---
 [Jekyll’s](http://jekyllrb.com) roots are in providing a tool for hackers to host their blog. It’s not just hackers using Jekyll today though.
 

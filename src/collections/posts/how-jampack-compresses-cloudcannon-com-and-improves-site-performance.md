@@ -29,6 +29,10 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/jampack-cc-2.png
   featured_image_alt: Image showing a computer screen sketch with a fold line across is
+ssg_frameworks:
+ - 11ty
+categories:
+  - resources
 ---
 I’ve written previously about the performance outcomes of <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">transitioning cloudcannon.com to Eleventy</a>, which include perfect Lighthouse scores and excellent Core Web Vitals scores. We’re now several weeks into the flow of building our site pages, as well as drafting, editing, and publishing blog posts on Eleventy with CloudCannon as our CMS, and it’s been, as we expected, a joy to work with. But I’ve also wanted to dig a little deeper into each of the tools we used to achieve our performance gains, and to share how we configured these tools. So let’s get started, shall we?
 

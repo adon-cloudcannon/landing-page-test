@@ -27,6 +27,10 @@ tags:
   - Resources
   - Hugo
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+  - hugo
+categories:
+  - resources
 ---
 The U.S. government employs millions of people, many of whom are working on government websites or digital technology. Corralling and informing such a large community is a huge undertaking, and exactly what digital.gov is all about. Let's dive in.
 

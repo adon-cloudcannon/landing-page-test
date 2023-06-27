@@ -26,6 +26,10 @@ date: 2022-02-24T05:00:00+1300
 tags:
   - Features
 author: 68fdf39d-de6e-4729-8747-1bf901498c5c
+categories:
+  - features
+ssg_frameworks:
+
 ---
 We’ve recently changed the way you set global configuration within CloudCannon. (Any previous configuration will still work, though we do recommend updating.) Rather than relying on your SSG’s config files, we now use a specific file for global configuration, which also acts as the base-level for defining options in your [configuration cascade](https://cloudcannon.com/documentation/articles/using-the-configuration-cascade/).
 

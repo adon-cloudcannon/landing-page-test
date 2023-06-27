@@ -25,6 +25,9 @@ date: 2021-06-22T08:00:00+1200
 tags:
   - Resources
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+categories:
+  - resources
 ---
 **Switching from WordPress to Hugo**
 

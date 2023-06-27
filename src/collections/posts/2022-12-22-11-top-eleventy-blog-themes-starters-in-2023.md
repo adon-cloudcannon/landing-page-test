@@ -33,6 +33,10 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+ - 11ty
+categories:
+ - resources
 ---
 With the new year fast approaching, it’s time for a new-look personal website. But where should you start? We’d recommend Eleventy, the simpler static site generator. If you’re new to Eleventy, be sure to check out our [Eleventy Beginner’s tutorial](/tutorials/eleventy-beginner-tutorial/) to help you get started. If you’d like to get set up with a great Eleventy theme, read on!
 

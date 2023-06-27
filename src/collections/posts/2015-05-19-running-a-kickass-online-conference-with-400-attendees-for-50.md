@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/online-conference.jpg
+ssg_frameworks:
+categories:
+  - resources
 ---
 We ran JekyllConf, a free online global conference for all things Jekyll static site generator on May 2 2015. 400 people showed up. It cost $50. And we'd never done anything like it before.
 

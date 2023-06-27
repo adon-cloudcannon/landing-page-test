@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-abstract-streert-art.jpg
+ssg_frameworks:
+categories:
+  - features
 ---
 
 We've completely revamped the editor in CloudCannon to make it even easier for your clients to update their websites on CloudCannon.
