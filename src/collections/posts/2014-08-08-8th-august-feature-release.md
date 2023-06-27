@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-hot-air-balloon.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 
 A decent sized feature update went out recently, although most of it is under the hood.

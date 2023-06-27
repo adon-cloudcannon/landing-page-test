@@ -22,10 +22,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/Shoes.jpg
-ssg_frameworks:
-  - jekyll
-categories:
-  - resources
 ---
 There's a huge ecosystem of plugins and add-ons available for any CMS. In this comparison we'll be using the content management systems straight out of the box to reduce the complexity and time to get the sites live.
 

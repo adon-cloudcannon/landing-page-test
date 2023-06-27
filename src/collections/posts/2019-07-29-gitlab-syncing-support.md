@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/israel-palacio-imcukz72ous-unsplash.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 
 We've seen GitLab grow from a self hosted alternative to GitHub to an entire suite of tools to build and deploy software used by some of the largest companies in the world. GitLab support is one of our most hotly requested features for CloudCannon. Today we're happy to announce CloudCannon now has full GitLab.com integration\!

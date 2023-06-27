@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-close-up-image-of-code.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 
 This isn't the weekly deconstruction, that'll be out in a few days. This is a small post to tide you over until then.

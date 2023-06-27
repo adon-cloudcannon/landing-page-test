@@ -22,10 +22,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-night-time-galaxy.jpg
-ssg_frameworks:
-  - jekyll
-categories:
-  - resources
 ---
 Jekyll 4 is here\! It's been a long time coming but the wait was worth it. Let's get down to the details.
 

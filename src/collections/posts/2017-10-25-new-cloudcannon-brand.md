@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-blue-confetti.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 
 We've been reassessing our brand and how it aligns with our values. Simplicity has always been at the core of everything we do at CloudCannon and we felt we could do better with our branding.

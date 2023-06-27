@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-night-earth.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 
 We've just pushed a whole heap of changes you're going to love.

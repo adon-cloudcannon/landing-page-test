@@ -24,9 +24,6 @@ date: 2022-02-23T05:00:00.000Z
 tags:
   - Resources
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-categories:
-  - resources
-ssg_frameworks:
 
 ---
 It's 2019. Next.js/Nuxt.js are pushing the boundaries of what SSGs are capable of, and are surging in popularity. The 'Let's Recreate Rails' era questions if we can take this paradigm even further. Why don't we create full-stack applications in one framework, in the same vein as Rails?

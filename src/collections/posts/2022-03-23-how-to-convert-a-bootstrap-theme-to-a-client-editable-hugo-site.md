@@ -27,10 +27,6 @@ tags:
   - Hugo
   - Resources
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-  - hugo
-categories:
-  - resources
 ---
 Do you want to bring something fresh to your Hugo clients? Or perhaps you want to bring the speed and flexibility of Hugo to non-technical users? Look no further. We’ve launched a [new in-depth tutorial over on the CloudCannon Learn pages](/tutorials/bootstrap-to-a-client-editable-hugo-site/)\!
 

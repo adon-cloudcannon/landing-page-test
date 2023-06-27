@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-record-player.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 
 Video promotion is over 6 times more effective than print and online so we thought it was about time to support it on CloudCannon. We've always supported video hosted on YouTube and Vimeo but now you can host video and audio on your own website and have complete control of the experience for your users. One thing to note is we treat .ogg as audio files, if you want a video .ogg file rename the extension to .ogv.

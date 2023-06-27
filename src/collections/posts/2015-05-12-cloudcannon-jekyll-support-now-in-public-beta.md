@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-rainbow-gradient.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 CloudCannon's support for the Jekyll static site generator has moved from private to public beta.
 

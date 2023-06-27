@@ -27,9 +27,6 @@ date: 2022-02-10T05:00:00.000Z
 tags:
   - Resources
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-ssg_frameworks:
-categories:
-  - resources
 ---
 In the early 2010s — [while Jekyll was being reinvented](/blog/ssg-history-3-reinvention/) — web browsers were becoming ever more capable, spurring a proliferation of companies developing single-page applications. However, building single-page web applications required a level of shared data consistency that the most popular JavaScript framework at the time, JQuery, was not equipped to handle. We saw a number of frameworks tackle this problem, including [Backbone](https://backbonejs.org/), [Ember](https://emberjs.com/), [Knockout](https://knockoutjs.com/index.html), and most popular, [AngularJs](https://angularjs.org/). These frameworks provided a structure for creating large applications.
 

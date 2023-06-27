@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/collection-of-postcards.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 This week we have a smaller release for some highly requested configuration. We added draft post compiling and defaults for creating collection items.
 

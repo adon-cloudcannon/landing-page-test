@@ -25,9 +25,6 @@ date: 2021-12-14T05:00:00+1300
 tags:
   - Features
 author: 94d9454d-d560-4dc5-8acd-1bd804305709
-ssg_frameworks:
-categories:
-  - features
 ---
 Last month [I teased an upgrade](https://cloudcannon.com/blog/ui-improvements-2021/) to editing with inputs in the Visual Editor. And here it is\! We’re giving you the option to free editors from the sidebar, so your content team can focus more on the page itself. 
 

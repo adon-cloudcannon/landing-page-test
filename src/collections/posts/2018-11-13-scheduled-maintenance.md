@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-alarm-clock.jpg
-ssg_frameworks:
-categories:
-  - company
 ---
 Today at [5:00pm NZDT](https://everytimezone.com/#2018-11-13,-480,b8jj) CloudCannon will be set to a read-only state for 2 hours. This will mean the following:
 

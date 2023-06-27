@@ -28,10 +28,6 @@ tags:
   - Resources
 author: 7abe9500-0933-48af-9130-87389dc36c9b
 templateEngineOverride: md
-ssg_frameworks:
-  - hugo
-categories:
-  - resources
 ---
 There are many reasons why static site generators (SSGs) have become so popular, especially in recent years. The reason which seems to come up most often is that SSG-based sites have superior performance and security, which certainly is true enough.
 

@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/covid-19.jpg
-ssg_frameworks:
-categories:
-  - company
 ---
 
 Last week, we got an email from our landlord (shoutout Nick) telling us he’s going to reduce our rent by 50% for the month of April. No questions asked. No conditions. We thought this was a great way of showing compassion in these unprecedented times.<br><br>We are very grateful for his selfless act of kindness, and now we want to pay it forward.

@@ -22,10 +22,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/paint.jpg
-ssg_frameworks:
-  - jekyll
-categories:
-  - resources
 ---
 It's great to see the different ways people are using the [Jekyll templates we launched late last year](/announcements/2016/12/05/free-jekyll-templates/). To continue this success, we've put together three new templates ready for your next site. These are licensed under MIT to feel free to use them on client/commercial projects.
 

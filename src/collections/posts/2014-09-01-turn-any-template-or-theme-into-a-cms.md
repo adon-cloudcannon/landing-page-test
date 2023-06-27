@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-indutratial-printing-press.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 
 CloudCannon makes it REALLY easy to get any HTML template or theme live and client editable.

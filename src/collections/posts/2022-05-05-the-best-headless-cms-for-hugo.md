@@ -27,9 +27,6 @@ date: 2022-05-05T05:00:00+1200
 tags:
   - Hugo
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-ssg_frameworks:
-  - hugo
-categories:
 ---
 You already know [Hugo](https://gohugo.io/). It’s one of the most popular static site generators in the world, because of its optimized build speeds, built-in templates for SEO, analytics, commenting (and more\!), and its flexibility for developers. But while frontend developers will usually be the ones who build and set up new Hugo websites, they’re far from the only people who use Hugo on a day-to-day basis. In fact, most content and marketing teams will spend more time adding, removing, and tweaking website content than a site’s developer will. (This is another reason Hugo’s blistering fast build speeds are vitally important for production sites which see a lot of content changes.)
 

@@ -26,10 +26,6 @@ tags:
   - Resources
   - Hugo
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-  - hugo
-categories:
-  - resources
 ---
 As a developer, you should continuously evolve with market trends to increase your competitive edge. And it all boils down to your tools. A super fast, flexible and efficient framework can give you a huge lead over the competition. For your marketing site, use [Hugo](https://gohugo.io/) to stay ahead of the pack.
 

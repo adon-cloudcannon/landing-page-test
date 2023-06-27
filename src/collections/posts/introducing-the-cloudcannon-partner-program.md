@@ -33,10 +33,6 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/blog/blog-partner-program-prof-text.jpg
   featured_image_alt:
-ssg_frameworks:
-categories:
-  - company
-  - agencies
 ---
 If you’re building client websites using static site generators, then we’ve got something special for you!
 

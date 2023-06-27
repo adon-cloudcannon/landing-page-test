@@ -26,9 +26,6 @@ date: 2022-02-02T05:00:00.000Z
 tags:
   - Resources
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-ssg_frameworks:
-categories:
-  - resources
 ---
 After [years of recreating and iterating on Jekyll](/blog/ssg-history-2-after-jekyll/), the reinvention period sees a flurry of static site generators challenging some of Jekyll's underlying foundations.
 

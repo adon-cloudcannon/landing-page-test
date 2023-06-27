@@ -25,9 +25,6 @@ date: 2021-11-12T05:00:00+1300
 tags:
     - Features
 author: 94d9454d-d560-4dc5-8acd-1bd804305709
-ssg_frameworks:
-categories:
-  - features
 ---
 In November 2020, we debuted aesthetic updates to the CloudCannon brand for the first time. The most noticeable impact hit our marketing site, with the app taking a more reserved approach. These brand updates included a new brand font (TT Norms), color palette, illustration style, and layout patterns. Our choices for both the font and colors were supported by internal accessibility research and the resources offered by [The A11y Project](https://www.a11yproject.com/), and took big strides towards making our app and website even more accessible and user-friendly. 
 

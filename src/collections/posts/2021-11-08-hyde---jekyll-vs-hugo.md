@@ -27,11 +27,6 @@ tags:
   - Hugo
   - Jekyll
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-  - hugo
-  - jekyll
-categories:
-  - resources
 ---
 For this showcase, I thought it would be interesting to compare the implementations of a template with both Jekyll and Hugo versions.
 

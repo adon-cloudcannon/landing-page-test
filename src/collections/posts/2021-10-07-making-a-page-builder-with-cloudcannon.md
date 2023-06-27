@@ -24,9 +24,6 @@ date: 2021-10-07T05:00:00+1300
 tags:
   - Resources
 author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
-ssg_frameworks:
-categories:
-  - resources
 ---
 Page builders give editors an intuitive and easy way to manage and build websites. All editing can be done within CloudCannon's Visual Editor in real time.
 

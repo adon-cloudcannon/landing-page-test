@@ -33,10 +33,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
-  - sveltekit
-categories:
-  - resources
 ---
 Now that [CloudCannon’s SvelteKit support is out of beta](https://cloudcannon.com/blog/cloudcannon-sveltekit-support-out-of-beta/) and [SvelteKit has released version 1.0](https://svelte.dev/blog/announcing-sveltekit-1.0), it's the perfect time to get started with a new SvelteKit project! We'll highlight the top 10 free SvelteKit themes optimized for SEO, user-experience, and performance, making it easier than ever to build lightning-fast static sites.
 

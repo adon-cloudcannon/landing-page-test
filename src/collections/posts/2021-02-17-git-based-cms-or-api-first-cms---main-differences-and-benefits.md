@@ -24,9 +24,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/git-branches.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 ## Introduction
 

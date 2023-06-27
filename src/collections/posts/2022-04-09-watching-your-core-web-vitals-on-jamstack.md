@@ -23,9 +23,6 @@ date: 2022-04-09T05:00:00+1200
 tags:
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-ssg_frameworks:
-categories:
-  - resources
 ---
 Whether we notice it or not, we’re all living and working in a Core Web Vitals world. Three major metrics — **Largest Contentful Paint**, **First Input Delay**, and **Cumulative Layout Shift** — measure a site’s loading time, time to interactivity, and visual stability, as we’ll examine in this article. Further, we’ll cover why it’s important to consider your site’s core vitals both as you build it, and as you maintain it. Luckily for you, Jamstack sites (including those created with CloudCannon) are perfectly placed to achieve high scores, so you’re already leagues ahead of a developer working with a monolithic CMS.
 

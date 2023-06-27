@@ -25,9 +25,6 @@ date: 2022-07-30T05:00:00+1200
 author: e23ed92b-24aa-4499-b883-bd40e03bad3e
 tags:
   - Hugo
-ssg_frameworks:
-  - hugo
-categories:
 ---
 
 *At the recent [HugoConf](https://hugoconf.io/), **Jeanne Haskett**, **Nathalie Laroche**, and **Kimberley Brown** — part of the Nuance Communications TechPubs team — presented their process for using Hugo modules, which enables efficient content reuse and consistency across Nuance's multiple products. We found [their presentation](https://youtu.be/K4lL3NMRmbY) really helpful and informative, so without further ado, let's find out more about…*

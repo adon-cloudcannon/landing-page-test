@@ -24,9 +24,6 @@ date: 2021-11-26T12:00:00+1300
 tags:
   - Features
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-categories:
-  - features
 ---
 As your CloudCannon sites grow progressively larger, you’ll want to configure more and more inputs. Our previous input configuration required users to redefine their input keys multiple times, spreading the configuration for an input across multiple places. This was, admittedly, a suboptimal process. But no more\!
 

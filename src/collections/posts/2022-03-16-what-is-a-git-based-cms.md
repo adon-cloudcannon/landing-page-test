@@ -26,9 +26,6 @@ date: 2022-03-16T05:00:00+1300
 tags:
   - Resources
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-ssg_frameworks:
-categories:
-  - resources
 ---
 Git is one of the most popular collaboration platforms in the world. It’s a piece of software that has transformed how we build software together. Before Git, open-source software was built by a small community of renegade hackers. After Git (and GitHub), we have millions of developers seamlessly collaborating on some of the most influential and important software projects.
 

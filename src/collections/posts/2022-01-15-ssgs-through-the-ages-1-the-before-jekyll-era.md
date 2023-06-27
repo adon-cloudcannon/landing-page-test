@@ -26,9 +26,6 @@ date: 2022-01-15T05:00:00+1300
 tags:
   - Resources
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-ssg_frameworks:
-categories:
-  - resources
 ---
 *Static site generators (SSGs) have exploded in adoption over the past few years. What were once tools for developers to build their personal blogs are now something millions of developers are reaching for to build commercial websites and web applications.*
 

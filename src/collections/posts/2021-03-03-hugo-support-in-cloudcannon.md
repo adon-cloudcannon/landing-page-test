@@ -24,9 +24,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-image.png
-ssg_frameworks:
-categories:
-  - features
 ---
 # Hugo Support in CloudCannon
 

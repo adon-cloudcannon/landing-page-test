@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/anchor.jpg
-ssg_frameworks:
-  - jekyll
-categories:
 ---
 In the last tutorial, we used [Travis CI](https://travis-ci.org) to deploy a Jekyll site to Amazon S3. This tutorial covers using [jekyll-hook](https://github.com/developmentseed/jekyll-hook) to automatically deploy changes from GitHub/CloudCannon to your own server.
 

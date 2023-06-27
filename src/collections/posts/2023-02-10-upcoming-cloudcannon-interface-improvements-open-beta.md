@@ -35,11 +35,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
-categories:
-  - features
-  - resources
-  - company
 ---
 ### Update (7 March 2023):&nbsp;
 

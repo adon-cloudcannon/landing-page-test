@@ -25,9 +25,6 @@ date: 2022-06-17T05:00:00+1200
 tags:
   - Hugo
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-ssg_frameworks:
-  - hugo
-categories:
 ---
 As I write this, it’s just over three weeks until the first ever [HugoConf](https://hugoconf.io) will be held. Given the global appeal of Hugo and the amazing response from participants across many different timezones, the conference will be held as a remote event, with a mixture of broadcast talks, live streams, and group workshops.
 

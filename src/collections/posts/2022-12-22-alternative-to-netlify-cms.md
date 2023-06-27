@@ -15,11 +15,6 @@ tags:
   - Resources
   - Tutorials
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-categories:
-  - resources
-  - tutorials
-  - agencies
 ---
 If you’ve been looking for an alternative to Netlify CMS for your Hugo, Eleventy, Jekyll, Gatsby, Next.js, NuxtJS, Astro, SvelteKit, or MkDocs static sites, CloudCannon is here to help. CloudCannon is a Git-based CMS which powers thousands of websites for Fortune 500 companies, digital agencies, freelance developers, and global businesses.
 

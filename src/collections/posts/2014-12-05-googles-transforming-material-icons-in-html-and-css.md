@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-google-web-browser.jpeg
-ssg_frameworks:
-categories:
-  - resources
 ---
 
 This week I am deconstructing the Delightful Details from [Google's Material Design](http://www.google.com/design/spec/material-design/introduction.html). It's not built in HTML and CSS but that's not important. What's important is that we can.

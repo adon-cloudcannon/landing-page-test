@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/ssl-cert.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 
 Today I’m going to show you how you can add SSL to your CloudCannon website in under 5 minutes. What’s even better, it’s free\!

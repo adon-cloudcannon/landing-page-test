@@ -28,11 +28,7 @@ tags:
   - Eleventy
   - Hugo
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
- - 11ty
- - hugo
-categories:
-  - resources
+
 ---
 Better performance. Higher security. Ease of scaling. It’s easy to see why you’d want to move to a SEO-friendly static site built on the Jamstack architecture, where your request times and build times are decoupled.
 

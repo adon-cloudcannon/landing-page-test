@@ -25,9 +25,6 @@ date: 2022-07-15T05:00:00.000Z
 tags:
   - Features
 author: 94d9454d-d560-4dc5-8acd-1bd804305709
-ssg_frameworks:
-categories:
-  - features
 ---
 Recently, we’ve devoted our focus to reducing editing disruption and build-wait times when saving and working across our Visual, Source, Content, and Data Editors. Behind this focus are careful conversations with customers and testers. In particular, we wanted to reduce the time our users spent waiting when editing in bulk across multiple pages or on a single page across different Editors.
 

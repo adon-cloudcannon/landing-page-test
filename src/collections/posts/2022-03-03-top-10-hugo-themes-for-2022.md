@@ -27,10 +27,6 @@ tags:
   - Hugo
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-ssg_frameworks:
-  - hugo
-categories:
-  - resources
 ---
 Building websites with Hugo has a broad appeal to many developers and digital agencies, not least among them the raw speed of the static site generator when it comes to build times and deployment. But what about customizing a site's layout and appearance? That's where Hugo's themes come into play. 
 

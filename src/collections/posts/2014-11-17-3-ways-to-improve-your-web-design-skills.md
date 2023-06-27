@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-hand-tracing-table.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 
 Constant self improvement is one of my main philosophies in life. Getting just a little bit better at something every day is not only a way I improve myself professionally but I find it gives me a more fulfilling life.

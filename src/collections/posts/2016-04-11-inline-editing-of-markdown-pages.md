@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/letterpress.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 
 This week we announce a long awaited feature, inline editing of Markdown files. This feature means that posts, collection items or pages written in Markdown are editable in the Visual Editor automatically. The ability to edit posts in context has been requested since the introduction of blogging. This feature works for all existing and new sites. The only requirement of this feature is that the `{% raw %}{{ content }}{% endraw %}` block is the only child of its parent element. For example:

@@ -24,9 +24,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-blue-lightning.jpg
-ssg_frameworks:
-  - jekyll
-categories:
 ---
 Optimising assets can significantly improve load times for visitors to your site. When you build a site on CloudCannon, any assets referenced in your HTML/CSS are automatically [minified and served from a CDN](https://docs.cloudcannon.com/builds/optimisations/). JavaScript files are minified using [UglifyJS](https://www.npmjs.com/package/uglify-js).
 

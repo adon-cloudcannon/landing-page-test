@@ -35,11 +35,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
- - nextjs
- - sveltekit
-categories:
-  - resources
 ---
 If you're looking to build static sites with complex interactive web applications, you’d be hard pressed to find two more suitable static site generators than **[Next.js](https://nextjs.org/)** and **[SvelteKit](https://kit.svelte.dev/)**.&nbsp;
 

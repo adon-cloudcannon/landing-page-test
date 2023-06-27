@@ -26,9 +26,6 @@ date: 2022-06-24T05:00:00+1200
 tags:
   - Opinion
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-categories:
-  - opinion
-ssg_frameworks:
 
 ---
 A few months ago, I read [a fascinating interview with Matt Mullenweg](https://www.theverge.com/2022/3/15/22977857/wordpress-tumblr-simplenote-internet-automattic-matt-mullenweg-interview), the CEO of Automattic and co-founder of WordPress. Among other glimpses into the inner workings of the 17-year-old company — among them the laudable desire to ‘keep the internet weird’ — Mullenweg forecasts that 85% of the web will be on WordPress within the next decade. But which 85%, you might ask? An equally important follow-up question might be, “How well will that 85% of the web perform?”

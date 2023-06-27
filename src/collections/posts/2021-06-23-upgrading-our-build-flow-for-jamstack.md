@@ -25,9 +25,6 @@ date: 2021-06-23T00:00:00+1200
 tags:
   - Features
 author: 94d9454d-d560-4dc5-8acd-1bd804305709
-ssg_frameworks:
-categories:
-  - features
 ---
 Our journey towards becoming a more powerful Jamstack platform takes a huge step forward with the upgrade to our new, flexible build automation flow. 
 

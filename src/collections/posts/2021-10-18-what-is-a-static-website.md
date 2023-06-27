@@ -26,9 +26,6 @@ date: 2021-10-18T05:00:00+1300
 tags:
   - Resources
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-categories:
-  - resources
 ---
 Static websites make a statement. They give your users a near instant content experience on both desktop and mobile, they are easy to build for developers, they are inherently secure, and they rank brilliantly in Google. If performance, security, and stability matter to you, then you’re in the right place.
 

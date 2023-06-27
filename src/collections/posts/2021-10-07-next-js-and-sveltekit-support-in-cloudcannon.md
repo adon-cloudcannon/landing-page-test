@@ -24,9 +24,7 @@ date: 2021-10-07T09:00:00+1300
 tags:
   - Features
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-categories: 
- - features
+
 ---
 In the lead-up to [Jamstack Conf 2021](https://jamstackconf.com/), our dev team has been pretty busy behind the scenes at CloudCannon, and we’re beyond excited to announce the launch of our support for both Next.js and SvelteKit SSGs (in public beta).
 

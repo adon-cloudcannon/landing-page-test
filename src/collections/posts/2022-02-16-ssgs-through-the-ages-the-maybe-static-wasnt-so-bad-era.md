@@ -27,9 +27,6 @@ date: 2022-02-16T05:00:00.000Z
 tags:
   - Resources
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-ssg_frameworks:
-categories:
-  - resources
 ---
 After [a period of heavy, complex JavaScripts integrated into SSGs](/blog/ssg-history-4-spas-are-awesome/), the following period pulls back to simpler times. And what could be simpler than straight HTML templates with Markdown content?
 

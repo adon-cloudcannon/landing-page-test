@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-desktop-and-laptop.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 > **Update (2022):**  *Are you interested in pushing the boundaries of your Jamstack websites? [Browse our new curated lists of Jamstack tools](https://cloudcannon.com/community/jamstack-ecosystem/), and compare the features that matter to you.*
 

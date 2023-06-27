@@ -33,11 +33,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
-categories:
-  - beginner
-  - features
-  - resources
 ---
 You might have heard web developers talking about Jamstack, or "modern static web development", but what is it exactly? This post provides an overview of what Jamstack is and the benefits of building your next website the Jamstack way.
 

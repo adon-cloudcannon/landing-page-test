@@ -26,9 +26,6 @@ date: 2022-01-26T05:00:00+1300
 tags:
   - Resources
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-ssg_frameworks:
-categories:
-  - resources
 ---
 *This is the second part of an ongoing series. If you'd like to read about the genesis of static site generators, see [Part 1: The 'Before Jekyll' era](https://cloudcannon.com/blog/ssg-history-1-before-jekyll/).*
 

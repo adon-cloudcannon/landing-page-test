@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-closeup-metal-gears.jpg
-ssg_frameworks:
-categories:
-  - company
 ---
 We have successfully completed our [Scheduled Maintenance](/operations/2018/11/13/scheduled-maintenance/). During this time we allocated two hours and completed the migration in just over three hours. During the update we had the following successes:
 

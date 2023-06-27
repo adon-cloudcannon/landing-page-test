@@ -29,10 +29,6 @@ tags:
   - Features
   - Hugo
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-  - hugo
-categories:
-  - features
 ---
 You asked for it. We’ve done it. CloudCannon is the first CMS with **full support and full integration for built-in and custom Hugo shortcodes** — in our Visual, Content, and Source Editors. That’s a pretty big claim\! What do we mean by this? Let’s take a look.
 

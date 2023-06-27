@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-birdseye-view-laptop-work.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 
 A common question that comes up is “How can I use JavaScript with CloudCannon?”. As a heavy JavaScript user, I would ask the same and that’s why we build CloudCannon from the ground up to handle a wide range of sites.

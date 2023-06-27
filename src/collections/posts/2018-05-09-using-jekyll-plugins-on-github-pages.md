@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/github-pages.jpg
-ssg_frameworks:
-  - jekyll
-categories:
 ---
 [GitHub Pages](https://pages.github.com/)  is a reliable, performant Jekyll hosting provider which has [recently added support for SSL](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/) . It's a great hosting platform but has a major limitation, you can't use custom Jekyll plugins. Today we're looking at how CloudCannon can help resolve this limitation.
 

@@ -31,9 +31,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
-categories:
-  - resources
 ---
 If you’ve ever searched out the differences between static websites and dynamic websites, you’re likely to have discovered several questionable — if not *outright false* — statements about what static websites are and aren’t capable of.
 

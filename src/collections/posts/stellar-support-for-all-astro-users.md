@@ -34,10 +34,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
-  - astro
-categories:
-  - features
 ---
 *3… 2… 1… Ignition. We have liftoff.*
 

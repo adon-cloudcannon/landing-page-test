@@ -10,10 +10,6 @@ tags:
   - Eleventy
   - Features
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-  - 11ty
-categories:
-  - features
 ---
 We’re delighted to announce CloudCannon’s full support for Eleventy, one of the most popular (and fastest) static site generators in the world. While our Git-based CMS has had *very* functional Eleventy support over the past year, our product developers have been hard at work on additional features (like folding Nunjucks and Liquid shortcodes into our new Snippets feature\!) and additional documentation, to bring our Eleventy developer and editor tooling up to parity with that of other major SSGs like Hugo and Jekyll.
 

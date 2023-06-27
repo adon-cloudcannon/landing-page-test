@@ -32,9 +32,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
-categories:
-  - features
 ---
 We're happy to announce Digital Asset Management (DAM) support for <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/creating-an-s3-dam/">Amazon S3</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/creating-a-google-cloud-storage-dam/">Google Cloud Storage buckets</a>, and <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/creating-a-cloudinary-dam/">Cloudinary</a> within CloudCannon for all users, and <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/creating-a-tenovos-dam/">Tenovos</a> support for users on our Enterprise plans.
 

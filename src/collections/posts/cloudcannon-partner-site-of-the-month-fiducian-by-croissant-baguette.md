@@ -31,9 +31,6 @@ seo:
   open_graph_type: article
   featured_image: ''
   featured_image_alt:
-ssg_frameworks:
-categories:
-  - agencies
 ---
 Introducing [Fiducian](https://www.fiducian.com.au/) — our newest Partner Site of the Month, designed and developed by [Croissant & Baguette](https://cloudcannon.com/experts/croissant-baguette/). Built with [Hugo](https://cloudcannon.com/hugo-cms/) and optimized for editing on CloudCannon, Fiducian’s new site replaced a monolithic WordPress install, giving users a much cleaner editing interface, as well as significant performance gains.
 

@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-blue-lego-pieces.jpg
-ssg_frameworks:
-categories:
-  - features
 ---
 Editing and syncing are two critical features in CloudCannon. We've recently improved and added to those features to make them more configurable than ever.
 

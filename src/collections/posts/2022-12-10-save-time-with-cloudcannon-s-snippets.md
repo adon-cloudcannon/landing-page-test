@@ -11,10 +11,6 @@ tags:
   - Features
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-ssg_frameworks:
-categories:
-  - features
-  - resources
 ---
 It’s only been a few weeks since we first introduced Snippets on CloudCannon, and they’re already saving time for CloudCannon developers, as well as for content teams collaborating on static sites. Today we’ll go through exactly what a Snippet is and how it can save you time on your next web project.
 

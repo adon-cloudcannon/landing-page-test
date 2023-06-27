@@ -15,10 +15,6 @@ tags:
   - Company
   - Features
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-ssg_frameworks:
-categories:
-  - company
-  - features
 ---
 In the latest episode of Static Feedback, George Phillips — CloudCannon’s Cofounder and Chief Technology Officer — spoke about the roadmap for the year ahead and the changes that have come to CloudCannon over the past twelve months. It’s been a busy year, and the path ahead is looking equally exciting.
 

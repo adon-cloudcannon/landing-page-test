@@ -21,9 +21,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/boat.jpg
-ssg_frameworks:
-categories:
-  - resources
 ---
 Environments can be tricky. Making sure the libraries are the same between your developer machines and production servers, updating dependencies consistently and onboarding new staff, it can turn into a mess. Luckily there are tools that can help us. I have previously used [Chef](https://www.chef.io/chef/) for this type of problem but now [Docker](https://www.docker.com/) has arrived to make things easier.
 

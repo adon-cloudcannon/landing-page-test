@@ -31,9 +31,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-categories:
-  - resources
-ssg_frameworks:
 
 ---
 When it comes to making a website, you’ve probably come across the terms **static** and **dynamic**. But what do they mean for you? And which approach should you choose? Let’s dig into these terms, and the specific kinds of sites they’re each suited for.

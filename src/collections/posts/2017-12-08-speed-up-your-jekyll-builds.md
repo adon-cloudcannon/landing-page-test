@@ -22,10 +22,6 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-car-speedometer.jpg
-ssg_frameworks:
-  - jekyll
-categories:
-  - resources
 ---
 Having a short Jekyll build time helps you iterate faster while developing and goes a long way to improving the experience for editors on CloudCannon. In this post, we're going over how to identify bottlenecks in your Jekyll build and tips on how to address them.
 
