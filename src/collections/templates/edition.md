@@ -40,7 +40,12 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: 'https://long-pig.cloudvent.net'
-themes_categories: []
+themes_categories: 
+  - documentation
+ssg_frameworks:
+  - jekyll
+categories:
+  - documentation
 priority: 5
 
 ---

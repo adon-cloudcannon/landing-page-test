@@ -25,6 +25,10 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://hopeful-shoe.cloudvent.net/
 themes_categories:
-  -
+  - company
+ssg_frameworks:
+  - hugo
+categories:
+  - company
 priority: 2
 ---

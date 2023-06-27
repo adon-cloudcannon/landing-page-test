@@ -54,4 +54,17 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://top-quail.cloudvent.net/
 priority: 1
+themes_categories: 
+ - company
+ - blog
+ssg_frameworks:
+  - hugo
+  - 11ty
+  - nextjs
+  - sveltekit
+  - gatsby
+  - astro
+categories:
+  - company
+  - blog
 ---

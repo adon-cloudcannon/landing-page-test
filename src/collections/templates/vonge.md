@@ -42,4 +42,13 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://jazzed-kale.cloudvent.net/
 priority: 1
+theme_categories:
+  - portfolio
+  - blog
+ssg_frameworks:
+  - jekyll
+  - hugo
+categories:
+  - portfolio
+  - blog
 ---

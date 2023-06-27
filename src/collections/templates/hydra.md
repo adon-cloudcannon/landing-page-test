@@ -45,5 +45,13 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://proud-alligator.cloudvent.net
 themes_categories:
+  - company
+  - blog
+ssg_frameworks:
+  - jekyll
+  - hugo
+categories:
+  - company
+  - blog 
 priority: 2
 ---

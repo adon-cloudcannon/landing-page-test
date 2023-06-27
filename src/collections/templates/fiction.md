@@ -29,6 +29,11 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://scenic-sea.cloudvent.net/
 themes_categories:
+  - agencies
+ssg_frameworks:
+  - hugo
+categories:
+  - agencies
 priority: 1
 ---
 

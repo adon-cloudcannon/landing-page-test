@@ -28,7 +28,13 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://timely-land.cloudvent.net/
 themes_categories:
-  -
+  - agencies
+  - blog
+ssg_frameworks:
+  - hugo
+categories:
+  - agencies
+  - blog
 priority: 1
 ---
 

@@ -58,7 +58,17 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://busy-waves.cloudvent.net/
 themes_categories:
-  - Contact Page
+  - company
+  - blog
+ssg_frameworks:
+  - jekyll
+  - 11ty
+  - hugo
+  - nextjs
+  - sveltekit
+categories:
+  - company
+  - blog
 priority: 1
 ---
 

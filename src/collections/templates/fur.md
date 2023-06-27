@@ -44,6 +44,12 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://adept-lemongrass.cloudvent.net
 themes_categories:
+  - company
+ssg_frameworks:
+  - jekyll
+  - hugo
+categories:
+  - company
 priority: 8
 ---
 
