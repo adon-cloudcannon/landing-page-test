@@ -21,6 +21,8 @@ links:
   linkedin_url: https://www.linkedin.com/in/andrew-winter-111a8114/
 ssg_frameworks:
   - jekyll
+locations:
+  - United Kingdom
 slides:
   - title: Bluthner Pianos
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-06-at-5-07-11-pm.png

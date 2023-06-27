@@ -30,6 +30,8 @@ ssg_frameworks:
   - gatsby
   - nextjs
   - astro
+locations: 
+  - USA
 slides:
   - title: Kettle
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-9-27-03-am.png
