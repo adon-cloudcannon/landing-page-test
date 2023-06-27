@@ -1726,7 +1726,7 @@ content_blocks:
               - title: 'Intuitive editing '
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for Bridgetown, the whole team can contribute.
+                  Visual Editor for Lume, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
