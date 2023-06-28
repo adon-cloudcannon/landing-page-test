@@ -320,7 +320,7 @@ bottom_content:
   {% include 'partials/filters/filter.html' filter_type: filters collection: templates %}
 
 
-<div class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
+<div id="list-wrapper" class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
   {% for template in templates %}
     {% assign ssg_names = '' %}
     {% assign categories = '' %}
@@ -357,6 +357,8 @@ bottom_content:
     </a>
   {% endfor %}
 </div>
-
+<div id="no-results" class="text-center mt-[3rem] mb-[5rem] md:mt-[8rem] md:mb-[10rem] text-xl font-bold hidden">
+  <h2>No Results Found</h2>
+</div>
 
 </div>
