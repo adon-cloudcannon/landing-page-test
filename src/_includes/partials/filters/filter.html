@@ -1,3 +1,4 @@
+<!-- custom checkbox styling -->
 <style>
   .custom-checkbox {
       display: inline-block;
@@ -118,12 +119,14 @@
 
 <script>
     function filterComponent() {
+        // takes array of list elements and filters and modifies the display depending on the filters
         const updateDisplay = (templateList, filters) => {
             const anyFiltersSelected = Object.values(filters).some(filterValues => filterValues.length > 0);
             const listWrapper = document.getElementById('list-wrapper');
             const noResults = document.getElementById('no-results');
             let isResultAvailable = false;
     
+            // loop through each template and check if it the item in the filter matches the item in the data attribute
             templateList.forEach(template => {
                 const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
                     filterValues.length === 0 || filterValues.some(value =>
@@ -170,6 +173,7 @@
                 });
             },
             getButtonText(filterType, filterName) {
+                // updates the button labels depending on the number of filters selected, and if the user is on mobile
                 const selectedCount = this.filters[filterType]?.length || 0;
                 const pluralizeFilterName = filterType === 'category' ? 'categories' : `${filterName}s`;
     
@@ -188,10 +192,12 @@
                 return filterText;
             },
             toggleDropdown(index) {
+                // opens and closes the dropdown menu
                 this.open = this.show !== index || !this.open;
                 this.show = this.open ? index : false;
             },
             toggleOption(option, isChecked, filterType) {
+                //
                 const filterArray = this.filters[filterType];
     
                 if (!filterArray) {
@@ -213,6 +219,7 @@
                 this.filterTemplates();
             },
             updateFilters(option, isAdd = true) {
+                // updates the filters object - adds or removes the option from the filters object
                 Object.entries(this.filters).forEach(([filterType, filterArray]) => {
                     const optionIndex = filterArray.indexOf(option);
     
@@ -240,6 +247,7 @@
                 this.filterTemplates();
             },
             filterTemplates() {
+                // stores all list items in an array and passes it to the updateDisplay function
                 const templateList = Array.from(document.querySelectorAll('#list-item'));
                 updateDisplay(templateList, this.filters);
             }
