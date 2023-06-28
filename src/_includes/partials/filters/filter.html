@@ -120,21 +120,12 @@
     function filterComponent() {
         const updateDisplay = (templateList, filters) => {
             const anyFiltersSelected = Object.values(filters).some(filterValues => filterValues.length > 0);
-            let isResultAvailable = false;
-
+            
             templateList.forEach(template => {
-                const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) => {
+                template.style.display = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) => {
                     return filterValues.length === 0 || filterValues.some(value => template.matches(`[data-${filterKey}~="${value}"]`));
-                });
-
-                if (isMatched) {
-                    isResultAvailable = true;
-                }
-
-                template.style.display = isMatched ? 'block' : 'none';
+                }) ? 'block' : 'none';
             });
-            document.getElementById('list').style.display = isResultAvailable ? 'grid' : 'none';
-            document.getElementById('no-results').style.display = isResultAvailable ? 'none' : 'block';
         };
     
         return {
