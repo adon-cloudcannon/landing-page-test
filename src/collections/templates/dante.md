@@ -28,7 +28,6 @@ ssgs:
 priority: 2
 ssg_frameworks:
   - jekyll
-  - docusaurus
 categories:
   - agencies
 ---
