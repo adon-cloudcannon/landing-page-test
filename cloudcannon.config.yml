@@ -473,6 +473,13 @@ _inputs:
         - nextjs
         - nuxtjs
         - sveltekit
+  filters:
+    type: multiselect
+    options:
+      values: 
+        - framework
+        - category
+        - location
   icon_path:
     type: select
     options:
