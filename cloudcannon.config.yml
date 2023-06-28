@@ -54,7 +54,19 @@ collections_config:
       form_embed:
         type: code
         options:
-          syntax: html
+          syntax: html 
+      locations:
+        type: multiselect
+        options:
+          values:
+            - Australia
+            - Canada
+            - Europe
+            - "New Zealand"
+            - "United Kingdom"
+            - "USA"
+            - India
+            - Japan
     _structures:
       slides:
         values:
@@ -95,6 +107,16 @@ collections_config:
     filter:
       exclude:
         - templates.11tydata.js
+    _inputs: 
+      categories:
+          type: multiselect
+          options:
+            values:
+              - Agency
+              - Documentation
+              - "Company sites"
+              - Business
+              - Microsites
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
