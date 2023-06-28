@@ -120,12 +120,26 @@
     function filterComponent() {
         const updateDisplay = (templateList, filters) => {
             const anyFiltersSelected = Object.values(filters).some(filterValues => filterValues.length > 0);
-            
+            const listWrapper = document.getElementById('list-wrapper');
+            const noResults = document.getElementById('no-results');
+            let isResultAvailable = false;
+    
             templateList.forEach(template => {
-                template.style.display = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) => {
-                    return filterValues.length === 0 || filterValues.some(value => template.matches(`[data-${filterKey}~="${value}"]`));
-                }) ? 'block' : 'none';
+                const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
+                    filterValues.length === 0 || filterValues.some(value =>
+                        template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
+                    )
+                );
+    
+                if (isMatched) {
+                    isResultAvailable = true;
+                }
+    
+                template.classList.toggle('hidden', !isMatched);
             });
+    
+            listWrapper.classList.toggle('hidden', !isResultAvailable);
+            noResults.classList.toggle('hidden', isResultAvailable);
         };
     
         return {
@@ -144,66 +158,62 @@
                 window.addEventListener('resize', () => {
                     this.isMobile = window.innerWidth < 768;
                 });
-
-                document.addEventListener('click', (event) => {
-                    if (this.$el.contains(event.target)) {
-                        return;
-                    }
     
-                    if (!this.$el.contains(event.target) && this.open) {
+                document.addEventListener('click', (event) => {
+                    const isDropdownClicked = this.$el.contains(event.target);
+                    const isDropdownOpen = this.open;
+    
+                    if (!isDropdownClicked && isDropdownOpen) {
                         this.open = false;
                         this.show = false;
                     }
                 });
             },
             getButtonText(filterType, filterName) {
-                const selectedCount = this.filters[filterType]?.length ?? 0;
+                const selectedCount = this.filters[filterType]?.length || 0;
                 const pluralizeFilterName = filterType === 'category' ? 'categories' : `${filterName}s`;
-            
+    
                 if (!selectedCount) {
                     return `Filter by ${filterName}`;
                 }
-            
+    
                 const filterText = this.isMobile
                     ? `Filtered by ${selectedCount} ${pluralizeFilterName}`
                     : `Filter by ${filterName}`;
-            
+    
                 if (selectedCount === 1 && this.isMobile) {
                     return `Filtered by 1 ${filterName}`;
                 }
-            
+    
                 return filterText;
             },
             toggleDropdown(index) {
-                if (this.show === index) {
-                    this.open = !this.open;
-                } else {
-                    this.open = true;
-                }
-                this.show = this.show === index ? (this.open ? index : false) : index;
+                this.open = this.show !== index || !this.open;
+                this.show = this.open ? index : false;
             },
             toggleOption(option, isChecked, filterType) {
-                if (!this.filters[filterType]) {
+                const filterArray = this.filters[filterType];
+    
+                if (!filterArray) {
                     console.error(`Invalid filter type: ${filterType}`);
                     return;
                 }
-
-                option =  option.toLowerCase().replace(/ /g, '-');
     
-                const filterArray = this.filters[filterType];
-                const optionIndex = filterArray.indexOf(option);
+                option = option.toLowerCase().replace(/ /g, '-');
     
-                if (isChecked && optionIndex === -1) {
+                if (isChecked && !filterArray.includes(option)) {
                     filterArray.push(option);
-                } else if (!isChecked && optionIndex !== -1) {
-                    filterArray.splice(optionIndex, 1);
+                } else if (!isChecked) {
+                    const optionIndex = filterArray.indexOf(option);
+                    if (optionIndex !== -1) {
+                        filterArray.splice(optionIndex, 1);
+                    }
                 }
     
                 this.filterTemplates();
             },
             updateFilters(option, isAdd = true) {
-                Object.keys(this.filters).forEach(filterType => {
-                    const filterArray = this.filters[filterType];
+                Object.entries(this.filters).forEach(([filterType, filterArray]) => {
                     const optionIndex = filterArray.indexOf(option);
     
                     if (isAdd && optionIndex === -1) {
@@ -215,21 +225,25 @@
             },
             removeOption(option) {
                 const selector = `input[type="checkbox"][value="${option}"]`;
-                document.querySelectorAll(selector).forEach(input => input.checked = false);
+                Array.from(document.querySelectorAll(selector)).forEach(input => {
+                    input.checked = false;
+                });
                 this.updateFilters(option, false);
                 this.filterTemplates();
             },
             removeAllOptions() {
                 const selector = 'input[type="checkbox"]';
-                document.querySelectorAll(selector).forEach(input => input.checked = false);
+                Array.from(document.querySelectorAll(selector)).forEach(input => {
+                    input.checked = false;
+                });
                 this.filters = { framework: [], category: [], location: [] };
                 this.filterTemplates();
             },
             filterTemplates() {
-                updateDisplay(document.querySelectorAll('#list-item'), this.filters);
+                const templateList = Array.from(document.querySelectorAll('#list-item'));
+                updateDisplay(templateList, this.filters);
             }
         };
     }
-    
     
 </script>
