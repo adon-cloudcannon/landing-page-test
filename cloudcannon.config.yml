@@ -473,6 +473,7 @@ _inputs:
         - nextjs
         - nuxtjs
         - sveltekit
+        - docusaurus
   icon_path:
     type: select
     options:
