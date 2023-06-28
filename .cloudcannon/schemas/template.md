@@ -14,5 +14,7 @@ ssgs:
     main_branch:
     readme_filename:
     live_preview_url:
-priority: 
+priority:  
+ssg_frameworks:
+categories:
 ---

@@ -13,6 +13,7 @@ links:
   twitter_url:
   linkedin_url:
 ssg_frameworks:
+locations:
 slides: []
 form_embed:
 ---
