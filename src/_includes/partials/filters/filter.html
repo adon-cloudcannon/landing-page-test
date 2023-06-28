@@ -218,7 +218,6 @@
                 this.filterTemplates();
             },
             updateFilters(option, isAdd = true) {
-                console.log(option, 'option in update filters', isAdd, 'is add')
                 // updates the filters object - adds or removes the option from the filters object
                 Object.entries(this.filters).forEach(([filterType, filterArray]) => {
                     const optionIndex = filterArray.indexOf(option);
