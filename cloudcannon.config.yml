@@ -1,6 +1,10 @@
 source: src
 collections_config_override: true
 timezone: Pacific/Auckland
+data_config:
+  frameworks: true
+  category: true
+  locations: true
 collections_config:
   authors:
     description: The authors of blog posts
@@ -392,10 +396,7 @@ collections_config:
           preview:
             text: 
             - key: name
-data_config:
-  frameworks: true
-  category: true
-  locations: true
+
 
 _structures:
   blocks:
@@ -457,7 +458,7 @@ _inputs:
     label: Framework filter tag
     type: multiselect
     options:
-      values: _data.filter-tags.frameworks.yml
+      values: data.filter-tags.frameworks.yml
   filters:
     type: multiselect
     options:
