@@ -28,7 +28,6 @@ ssg_frameworks:
   - 11ty
   - astro
 locations: 
-  - United Kingdom
 slides:
   - title: Scientific Services
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-9-48-07-am.png

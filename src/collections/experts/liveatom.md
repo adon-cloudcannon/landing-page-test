@@ -24,7 +24,6 @@ links:
 ssg_frameworks:
   - jekyll
 locations: 
-  - USA
 slides:
   - title: MyPolytek
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-27-33-pm.png

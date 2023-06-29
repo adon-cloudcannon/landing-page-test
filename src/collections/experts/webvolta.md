@@ -29,7 +29,6 @@ links:
 ssg_frameworks:
   - jekyll
 locations:
-  - USA
 slides:
   - title: Staffing Proxy
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-10-02-pm.png

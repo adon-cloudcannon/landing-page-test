@@ -30,8 +30,6 @@ ssg_frameworks:
   - nextjs
   - gatsby
 locations:
-  - USA
-  - Japan
 slides:
   - title: Panoply
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-09-50-am.png
