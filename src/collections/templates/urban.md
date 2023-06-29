@@ -56,13 +56,11 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://gentle-candy.cloudvent.net/
 priority: 3
-themes_categories:
-  - agencies
-  - blog
 ssg_frameworks:
   - jekyll
   - nextjs
   - sveltekit
   - hugo
-categories: 
+categories:
+  - Business
 ---

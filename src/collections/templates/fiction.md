@@ -33,4 +33,6 @@ priority: 1
 ssg_frameworks:
   - hugo
 categories:
+  - Business
+  - Blog
 ---

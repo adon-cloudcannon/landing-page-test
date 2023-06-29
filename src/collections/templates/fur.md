@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid: 0f1647eb-6e69-410f-a4a3-4e6c8b0a1648
 name: Fur
 image: https://cc-dam.imgix.net/community/images/templates/fur/1.jpg
@@ -43,12 +44,10 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://adept-lemongrass.cloudvent.net
-themes_categories:
-  - company
+priority: 8
 ssg_frameworks:
   - jekyll
   - hugo
 categories:
-priority: 8
+  - Business
 ---
-

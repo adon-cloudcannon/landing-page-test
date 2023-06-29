@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid: 00df184b-95c3-4095-97cd-cd9eda5c955e
 name: Hydra
 image: https://cc-dam.imgix.net/community/images/templates/hydra/1.jpg
@@ -44,12 +45,11 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://proud-alligator.cloudvent.net
-themes_categories:
-  - company
-  - blog
+priority: 2
 ssg_frameworks:
   - jekyll
   - hugo
 categories:
-priority: 2
+  - Business
+  - Blog
 ---

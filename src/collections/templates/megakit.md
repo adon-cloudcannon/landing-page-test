@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid:
 name: Megakit
 image: https://cc-dam.imgix.net/_screenshot.png
@@ -27,13 +28,10 @@ ssgs:
     main_branch: master
     readme_filename: README.md
     live_preview_url: https://timely-land.cloudvent.net/
-themes_categories:
-  - agencies
-  - blog
+priority: 1
 ssg_frameworks:
   - hugo
 categories:
-
-priority: 1
+  - Business
+  - Blog
 ---
-
