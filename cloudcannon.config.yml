@@ -442,11 +442,11 @@ _inputs:
     comment: What filter to apply to this page for search.
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
       value_key: bucket_id
       values:
         - name: Exclude from search
-          bucket_id:
+          bucket_id: Excluded
         - name: Company
           bucket_id: Company
         - name: Resources
