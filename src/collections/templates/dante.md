@@ -29,4 +29,6 @@ priority: 2
 ssg_frameworks:
   - jekyll
 categories:
+  - Business
+  - Blog
 ---
