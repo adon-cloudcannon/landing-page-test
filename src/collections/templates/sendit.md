@@ -53,7 +53,7 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://top-quail.cloudvent.net/
-  - ssg_name: nuxt
+  - ssg_name: nuxtjs
     github_repo_url: https://github.com/cloudcannon/sendit-nuxtjs-template
     main_branch: main
     readme_filename: README.md
