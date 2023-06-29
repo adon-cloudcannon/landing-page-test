@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid: a2dd388b-7254-4797-9da8-128922024b7c
 name: Aviator
 image: https://cc-dam.imgix.net/community/images/templates/aviator/1.jpeg
@@ -32,16 +33,13 @@ image_carousel:
       documentation in the middle and code snippets on the right
 ssgs:
   - ssg_name: jekyll
-    github_repo_url: 'https://github.com/CloudCannon/aviator-jekyll-template'
+    github_repo_url: https://github.com/CloudCannon/aviator-jekyll-template
     main_branch: main
     readme_filename: README.md
-    live_preview_url: 'https://tangerine-lemon.cloudvent.net'
-themes_categories: 
-  - documentation
+    live_preview_url: https://tangerine-lemon.cloudvent.net
+priority: 6
 ssg_frameworks:
   - jekyll
-categories: 
-  - documentation
-priority: 6
-
+categories:
+  - Agency
 ---
