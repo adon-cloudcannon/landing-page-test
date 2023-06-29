@@ -1,5 +1,5 @@
 <div class="md:flex justify-center mb-16">
-	<a target="_blank" href="https://app.cloudcannon.com/#sites/templates/{{ details.ssg_name | downcase | remove: "."  }}/{{ template_name | downcase }}"
+	<a target="_blank" href="https://app.cloudcannon.com/#sites/connect/github/{{ details.github_repo_url | downcase | remove: 'https://github.com/' }}"
 		class="bg-cc hover:bg-cc_hover hover:scale-105 text-white transition block md:inline-block text-lg py-2 px-3 rounded-lg">
 		<span class="flex items-center">
 			<img src="/images/logos/cloudcannon.svg" alt="CloudCannon logo" class="mr-2 h-[15px] w-auto relative top-[1px]"> Deploy to CloudCannon
