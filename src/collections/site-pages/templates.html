@@ -326,11 +326,11 @@ bottom_content:
     {% assign categories = '' %}
     
     {% for ssg in template.data.ssg_frameworks %}
-        {% assign ssg_names = ssg_names | append: ' ' | append: ssg %}
+        {% assign ssg_names = ssg_names | append: ' ' | append: ssg | downcase %}
     {% endfor %}
     
     {% for category in template.data.categories %}
-        {% assign categories = categories | append: ' ' | append: category %}
+        {% assign categories = categories | append: ' ' | append: category | downcase %}
     {% endfor %}
 
     <a id="list-item" href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">

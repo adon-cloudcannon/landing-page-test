@@ -156,7 +156,7 @@ content_blocks:
       {% assign locations = '' %}
 
       {% for ssg in expert.data.ssg_frameworks %}
-        {% assign ssg_names = ssg_names | append: ' ' | append: ssg %}
+        {% assign ssg_names = ssg_names | append: ' ' | append: ssg  | downcase %}
       {% endfor %}
 
       {% for location in expert.data.locations %}
