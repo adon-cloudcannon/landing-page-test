@@ -2,9 +2,9 @@ source: src
 collections_config_override: true
 timezone: Pacific/Auckland
 data_config:
-  locations: true
-  category: true
-  frameworks: true
+  filter-location-tags: true
+  filter-category-tags: true
+  filter-framework-tags: true
 collections_config:
   authors:
     description: The authors of blog posts
@@ -63,7 +63,7 @@ collections_config:
         label: Location filter tag
         type: multiselect
         options:
-          values: data.locations
+          values: data.filter-location-tags
     _structures:
       slides:
         values:
@@ -109,7 +109,7 @@ collections_config:
           label: Categories filter tag
           type: multiselect
           options:
-            values: data.category
+            values: data.filter-category-tags
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
@@ -458,7 +458,7 @@ _inputs:
     label: Framework filter tag
     type: multiselect
     options:
-      values: data.frameworks
+      values: data.filter-framework.tags
   filters:
     type: multiselect
     options:
