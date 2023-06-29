@@ -51,7 +51,5 @@ ssg_frameworks:
   - jekyll
   - hugo
 categories:
-  - company
-  - blog 
 priority: 2
 ---

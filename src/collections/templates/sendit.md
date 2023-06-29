@@ -65,6 +65,4 @@ ssg_frameworks:
   - gatsby
   - astro
 categories:
-  - company
-  - blog
 ---

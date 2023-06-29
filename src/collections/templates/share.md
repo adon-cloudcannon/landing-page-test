@@ -29,6 +29,5 @@ themes_categories:
 ssg_frameworks:
   - hugo
 categories:
-  - company
 priority: 2
 ---

@@ -49,6 +49,4 @@ ssg_frameworks:
   - jekyll
   - hugo
 categories:
-  - portfolio
-  - blog
 ---

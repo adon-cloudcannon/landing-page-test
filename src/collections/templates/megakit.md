@@ -33,8 +33,7 @@ themes_categories:
 ssg_frameworks:
   - hugo
 categories:
-  - agencies
-  - blog
+
 priority: 1
 ---
 

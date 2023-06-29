@@ -67,8 +67,6 @@ ssg_frameworks:
   - nextjs
   - sveltekit
 categories:
-  - company
-  - blog
 priority: 1
 ---
 

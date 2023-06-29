@@ -49,7 +49,6 @@ ssg_frameworks:
   - jekyll
   - hugo
 categories:
-  - company
 priority: 8
 ---
 

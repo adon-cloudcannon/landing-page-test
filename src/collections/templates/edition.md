@@ -45,7 +45,6 @@ themes_categories:
 ssg_frameworks:
   - jekyll
 categories:
-  - documentation
 priority: 5
 
 ---

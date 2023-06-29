@@ -65,6 +65,4 @@ ssg_frameworks:
   - sveltekit
   - hugo
 categories: 
- - agencies
- - blog
 ---
