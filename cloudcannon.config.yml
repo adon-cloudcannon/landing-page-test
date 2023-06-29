@@ -59,7 +59,7 @@ collections_config:
         label: Location filter tag
         type: multiselect
         options:
-          values: data.filter-tags.locations
+          values: _data.filter-tags.locations
     _structures:
       slides:
         values:
@@ -105,7 +105,7 @@ collections_config:
           label: Categories filter tag
           type: multiselect
           options:
-            values: data.filter-tags.category
+            values: _data.filter-tags.category
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
@@ -457,7 +457,7 @@ _inputs:
     label: Framework filter tag
     type: multiselect
     options:
-      values: data.filter-tags.frameworks
+      values: _data.filter-tags.frameworks
   filters:
     type: multiselect
     options:
