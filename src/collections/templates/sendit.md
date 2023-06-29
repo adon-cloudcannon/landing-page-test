@@ -28,7 +28,7 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://jovial-pipe.cloudvent.net/
-  - ssg_name: 11ty
+  - ssg_name: eleventy
     github_repo_url: https://github.com/CloudCannon/sendit-eleventy-template
     main_branch: main
     readme_filename: Readme.md
