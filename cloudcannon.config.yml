@@ -114,11 +114,10 @@ collections_config:
           type: multiselect
           options:
             values:
-              - Agency
+              - Blog
               - Documentation
-              - "Company sites"
               - Business
-              - Microsites
+              - Portfolio
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
