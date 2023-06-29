@@ -7,6 +7,7 @@ seo:
   featured_image_alt: >-
     CloudCannon's visual CMS that keeps both content editors and developers
     happy
+search_bucket:
 permalink: /privacy/
 ---
 Your privacy is critically important to us. At CloudCannon we have a few fundamental principles:

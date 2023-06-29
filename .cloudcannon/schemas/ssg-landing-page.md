@@ -1,6 +1,7 @@
 ---
 title:
 layout: builder.html
+search_bucket:
 permalink:
 description:
 summary:

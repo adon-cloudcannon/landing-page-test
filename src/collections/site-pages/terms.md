@@ -8,6 +8,7 @@ seo:
   featured_image_alt: >-
     CloudCannon's visual CMS that keeps both content editors and developers
     happy
+search_bucket:
 ---
 ## Overview:
 

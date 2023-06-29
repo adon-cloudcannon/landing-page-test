@@ -438,6 +438,21 @@ _inputs:
       values:
         - top
         - center
+  search_bucket:
+    comment: What filter to apply to this page for search.
+    type: select
+    options:
+      allow_empty: false
+      value_key: bucket_id
+      values:
+        - name: Exclude from search
+          bucket_id:
+        - name: Company
+          bucket_id: Company
+        - name: Resources
+          bucket_id: Resources
+        - name: Blog
+          bucket_id: Blog
   ssg_frameworks:
     type: multiselect
     options:
