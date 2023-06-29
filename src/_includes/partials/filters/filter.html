@@ -88,6 +88,8 @@
                     {% endfor %}
                 {% endfor %}
             {% endif %}
+
+            {% assign filter_targets = filter_targets | sort %}
         
             {% for target in filter_targets %}
                 <div class="flex items-center h-[42px]" role="none">
