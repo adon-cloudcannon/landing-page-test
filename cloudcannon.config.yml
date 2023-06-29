@@ -458,7 +458,7 @@ _inputs:
     label: Framework filter tag
     type: multiselect
     options:
-      values: data.filter-framework.tags
+      values: data.filter-framework-tags
   filters:
     type: multiselect
     options:
