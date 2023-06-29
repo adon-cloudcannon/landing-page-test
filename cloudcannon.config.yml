@@ -404,6 +404,8 @@ collections_config:
           preview:
             text: 
             - key: name
+data_config:
+  frameworks: true
 
 _structures:
   blocks:
@@ -465,16 +467,7 @@ _inputs:
     label: Framework filter tag
     type: multiselect
     options:
-      values:
-        - jekyll
-        - 11ty
-        - astro
-        - gatsby
-        - hugo
-        - mkdocs
-        - nextjs
-        - nuxtjs
-        - sveltekit
+      values: data.filter-tags.frameworks
   filters:
     type: multiselect
     options:
