@@ -1,5 +1,6 @@
 ---
 layout: builder.html
+search_bucket: Resources
 eleventyComputed:
   text_block:
     _bookshop_name: simple/text-block
@@ -47,7 +48,7 @@ eleventyComputed:
       width: full
 ---
 
-<div class="container relative" data-pagefind-filter="site:Resources" data-pagefind-meta="site:Resources" data-pagefind-body>
+<div class="container relative">
   {% assign tutorial_linked = collections.tutorials | where: "fileSlug", tutorial | first %}
   {% assign person = collections.authors | where: "data.uuid", tutorial_linked.data.author | first %}
   <h1 class="mx-auto text-center leading-tight text-gray-900 max-w-3xl text-3xl md:text-5xl font-bold mb-8 pt-20">{{ title }}</h1>

@@ -1,4 +1,7 @@
 {
   "layout": "builder.html",
-  "tags": ["site-pages"]
+  "search_bucket": "Company",
+  "tags": [
+    "site-pages"
+  ]
 }
