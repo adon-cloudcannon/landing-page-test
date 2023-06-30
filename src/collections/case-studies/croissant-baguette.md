@@ -65,11 +65,13 @@ And as for Croissant & Baguette’s clients, they’re equally happy about the m
 
 Croissant & Baguette were early members of [CloudCannon’s Partner Program](https://cloudcannon.com/partner-program/), and also one of the first [CloudCannon Expert](https://cloudcannon.com/experts/) agencies. Croissant & Baguette has already received new business through their association with CloudCannon, and Alex has appreciated the direct line to CloudCannon support engineers.
 
-\[Testimonial block from Alex: I’m a big fan of CloudCannon — I really like everything about it. It’s always a joy to work with CloudCannon.\]
+> I’m a big fan of CloudCannon — I really like everything about it. It’s always a joy to work with CloudCannon.
 
 From the CloudCannon side of the table, we’ve been excited to watch Partners and Experts like Croissant & Baguette grow and flourish with our tools, and bring our intuitive visual editing to a wide range of clients.
 
 Ultimately, CloudCannon has helped Alex and his agency to become more efficient and productive. By providing a fast, user-friendly platform that offers a range of customization options, CloudCannon has become an essential tool for Alex and Kayci. Croissant & Baguette use CloudCannon to build websites that are not only high-performing but also visually appealing, ensuring that their clients are always satisfied with the end result.
+
+---
 
 ## About Croissant & Baguette
 
