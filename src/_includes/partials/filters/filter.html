@@ -91,13 +91,13 @@
             {% assign filter_targets = filter_targets | sort %}
         
             {% for target in filter_targets %}
-                <div class="flex items-center h-[42px]" x-ref="dropdown" @click="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" role="none">
+                <div class="flex items-center h-[42px] " x-ref="dropdown" @click="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" role="none">
                     <input type="checkbox" id="checkbox_{{ target }}" name="type[]" value="{{ target }}" class="hidden" @change="toggleOption($event.target.value, $event.target.checked, '{{ filter_key }}') " aria-labelledby="label_{{ target }}">
-                    <label for="checkbox_{{ target }}" class="custom-checkbox inline-block mr-2" role="menuitemcheckbox"></label>
+                    <label for="checkbox_{{ target }}" class="custom-checkbox inline-block mr-2 cursor-pointer" role="menuitemcheckbox"></label>
                     {% if filter_key == "framework" %}
-                        <img src="/images/icons/ssgs/{{ target }}.svg" width="16" height="16" alt="{{ target.ssg_name }}" class="mr-[4px] inline-block" />
+                        <img src="/images/icons/ssgs/{{ target }}.svg" width="16" height="16" alt="{{ target.ssg_name }}" class="mr-[4px] inline-block cursor-pointer" />
                     {% endif %}
-                    <span>{{ target | capitalize | strip }}</span>
+                    <span class="cursor-pointer">{{ target | capitalize | strip }}</span>
                 </div>
             {% endfor %}
         </div>
@@ -105,7 +105,7 @@
     {% endfor %}
         
         <!-- Clear filters button -->
-        <button x-show="selectedOptions.length > 0" @click="removeAllOptions()" class="inline-block text-cc font-bold text-right py-2 px-3 hover:bg-blue-50 transition" aria-label="Clear all filters">Clear filters</button>
+        <button x-show="selectedOptions.length > 0" @click="removeAllOptions()" class="inline-block text-cc font-bold text-right py-2 px-3 transition hover:bg-[#F0F5FF] hover:rounded-lg" aria-label="Clear all filters">Clear filters</button>
     </div>
     <!-- Selected Options -->
     <div class="mt-4 gap-x-6 gap-y-1 flex-wrap hidden md:flex" x-show="selectedOptions.length > 0 && !isMobile" x-init="$watch('selectedOptions.length', () => { if(window.innerWidth >= 768) { $el.classList.toggle('hidden', !selectedOptions.length); } })">
