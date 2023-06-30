@@ -1,29 +1,28 @@
 <!-- custom checkbox styling -->
 <style>
-  .custom-checkbox {
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      border: 2px solid #034AD8;
-      border-radius: 4px;
-      position: relative;
-      cursor: pointer;
-  }
-
-  input[type="checkbox"]:checked + .custom-checkbox {
-      background-color: #034AD8;
-      border-color: #034AD8;
-  }
-
-  input[type="checkbox"]:checked + .custom-checkbox::after {
-      content: '\2713';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 16px;
-  }
+    .custom-checkbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16px;
+        height: 16px;
+        border: 2px solid #034AD8;
+        border-radius: 4px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    input[type="checkbox"]:checked + .custom-checkbox {
+        background-color: #034AD8;
+        border-color: #034AD8;
+    }
+    
+    input[type="checkbox"]:checked + .custom-checkbox::after {
+        content: '\2713';
+        position: absolute;
+        color: white;
+        font-size: 16px;
+    }
 </style>
 
 <div x-data="filterComponent()" x-init="init()" class="mb-8 relative">
