@@ -52,7 +52,7 @@
                 
                 <!-- Dropdown -->
     
-        <div x-show.transition="show === '{{ forloop.index }}'" role="menu" class="absolute top-full z-20 mt-2 w-full md:w-[200px] shadow-menu rounded-lg px-4 py-4 gap-y-4 whitespace-nowrap bg-white">
+        <div x-show.transition="show === '{{ forloop.index }}'" @click.away="if(show === '{{ forloop.index }}') show = false" role="menu" class="absolute top-full z-20 mt-2 w-full md:w-[200px] shadow-menu rounded-lg px-4 py-4 gap-y-4 whitespace-nowrap bg-white">
             {% assign filter_key = filter %}
             {% assign item_collection = collection %}
             {% assign filter_targets = "" | split: "," %}
@@ -92,7 +92,7 @@
             {% assign filter_targets = filter_targets | sort %}
         
             {% for target in filter_targets %}
-                <div class="flex items-center h-[42px]" role="none">
+                <div class="flex items-center h-[42px]" x-ref="dropdown" @click.self="event.stopPropagation()" role="none">
                     <input type="checkbox" id="checkbox_{{ target }}" name="type[]" value="{{ target }}" class="hidden" @change="toggleOption($event.target.value, $event.target.checked, '{{ filter_key }}') " aria-labelledby="label_{{ target }}">
                     <label for="checkbox_{{ target }}" class="custom-checkbox inline-block mr-2" role="menuitemcheckbox"></label>
                     {% if filter_key == "framework" %}
@@ -168,15 +168,11 @@
                     this.isMobile = window.innerWidth < 768;
                 });
     
-                document.addEventListener('click', (event) => {
-                    const isDropdownClicked = this.$el.contains(event.target);
-                    const isDropdownOpen = this.open;
-    
-                    if (!isDropdownClicked && isDropdownOpen) {
-                        this.open = false;
-                        this.show = false;
-                    }
-                });
+            },
+            closeIfClickedOutside(event, index) {
+                if (this.$refs.dropdown && !this.$refs.dropdown.contains(event.target) && this.show === index) {
+                    this.show = false;
+                }
             },
             getButtonText(filterType, filterName) {
                 // updates the button labels depending on the number of filters selected, and if the user is on mobile
