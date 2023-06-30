@@ -5,15 +5,18 @@ title: Croissant & Baguette
 heading: >-
   "It’s always a joy to work with CloudCannon”: why Croissant & Baguette love
   their new CMS
-weight:
+weight: 0
 categories:
   - Agency
 image:
   path:
   alt:
-logo:
+logo: https://cc-dam.imgix.net/croissant-baguette.svg
 case_study_person: e52e4114-562a-4396-8e5f-1efad7b405e6
-description:
+description: >-
+  When it comes to content management systems (CMS) for static sites, Alex
+  Luttringer has tried and tested many options — and CloudCannon ticks all his
+  boxes.
 date:
 seo:
   open_graph_type: article
@@ -39,8 +42,6 @@ CloudCannon not only leverages the performance gains of the world’s most popul
 > *With Hugo and CloudCannon, Fiducian loads on average&nbsp;**ten seconds faster**&nbsp;than it did previously. Fiducian’s editors can build **entirely new and on-brand landing pages in just minutes**&nbsp;— a task that had been complex and time-consuming, if not impossible, on the old WordPress site.*
 
 *![](https://cc-dam.imgix.net/croissant-device-fiducian.png)*
-
-
 
 ## Building and configuring with CloudCannon
 
