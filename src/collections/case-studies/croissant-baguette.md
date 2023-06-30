@@ -41,7 +41,7 @@ CloudCannon not only leverages the performance gains of the world’s most popul
 
 > *With Hugo and CloudCannon, Fiducian loads on average&nbsp;**ten seconds faster**&nbsp;than it did previously. Fiducian’s editors can build **entirely new and on-brand landing pages in just minutes**&nbsp;— a task that had been complex and time-consuming, if not impossible, on the old WordPress site.*
 
-*![](https://cc-dam.imgix.net/croissant-device-fiducian.png)*
+*![](https://cc-dam.imgix.net/croissant-device-fiducianspace.png)*
 
 ## Building and configuring with CloudCannon
 
