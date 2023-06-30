@@ -184,7 +184,7 @@ collections_config:
         numberedlist: true
         code: true
         horizontalrule: true
-        image: false
+        image: true
         table: true
         undo: true
         redo: true
