@@ -49,7 +49,7 @@ Another feature that Alex loves about CloudCannon is its ability to provide fast
 
 Further, the flexibility and customization options offered by CloudCannon are unmatched. Alex notes that CloudCannon has a robust system that supports content blocks and components, which allows him and Croissant & Baguette Creative Director Kayci Scaggs to design and build out websites that are unique and tailored to their clients' needs. This ensures that the websites they build are not only fast and easy to manage, but also visually stunning, with a range of features that are tailored to each client's individual requirements.
 
-\[Image showing content blocks/components\]
+![](https://cc-dam.imgix.net/home-fiducian-components.png)
 
 ## Migrating to CloudCannon
 
@@ -58,8 +58,6 @@ Croissant & Baguette had previously used Forestry, a now-defunct Git-based CMS. 
 And as for Croissant & Baguette’s clients, they’re equally happy about the move. With CloudCannon’s Visual Editor they can see the changes they’re making rendered live on their site, and they’re completely empowered to edit existing content, add assets, and build new pages from the components Alex has created:
 
 > Our clients are so happy about the move from Forestry to CloudCannon. Now they can see what they are editing and move things around with such a nice interface. I don’t have to do anything for the clients once the site is set up, they can do everything themselves.
-
-![](https://cc-dam.imgix.net/croissant-device-croissant.png)
 
 ## Partner success
 
@@ -72,6 +70,8 @@ From the CloudCannon side of the table, we’ve been excited to watch Partners a
 Ultimately, CloudCannon has helped Alex and his agency to become more efficient and productive. By providing a fast, user-friendly platform that offers a range of customization options, CloudCannon has become an essential tool for Alex and Kayci. Croissant & Baguette use CloudCannon to build websites that are not only high-performing but also visually appealing, ensuring that their clients are always satisfied with the end result.
 
 ---
+
+## ![](https://cc-dam.imgix.net/croissant-device-croissant.png)
 
 ## About Croissant & Baguette
 
