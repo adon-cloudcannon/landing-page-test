@@ -9,7 +9,7 @@ weight: 2
 categories:
   - Agency
 image:
-  path: https://cc-dam.imgix.net/croissant-baguette.svg
+  path: https://cc-dam.imgix.net/croissant-baguette-case-r.png
   alt:
 logo: https://cc-dam.imgix.net/cb-logo-stacked-black.svg
 case_study_person: e52e4114-562a-4396-8e5f-1efad7b405e6
