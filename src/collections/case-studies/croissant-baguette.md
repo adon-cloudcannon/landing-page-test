@@ -3,7 +3,7 @@ _schema: default
 uuid: eb841a72-90a3-425e-9fb4-3f1d2635e038
 title: Croissant & Baguette
 heading: >-
-  "It’s always a joy to work with CloudCannon”: why Croissant & Baguette love
+  “It’s always a joy to work with CloudCannon”: why Croissant & Baguette love
   their new CMS
 weight: 2
 categories:
