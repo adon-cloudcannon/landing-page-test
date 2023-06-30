@@ -23,9 +23,9 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Alex Luttringer, Technical Director of Sydney-based web development agency [Croissant & Baguette](https://croissantbaguette.com.au/), has always been particular about the tools he uses for his website projects. When it comes to content management systems (CMS) for static sites, Alex has tried and tested many options — and CloudCannon ticks all his boxes.
+Alex Luttringer, Technical Director of Sydney-based web development agency [Croissant & Baguette](https://croissantbaguette.com.au/), has always been particular about the tools he uses for his website projects. After using CloudCannon for several projects — with more on the way — he's a huge fan.
 
-Two of the main reasons for this preference are the easy-to-use developer configuration and client editing interfaces that CloudCannon provides. Alex had faced a range of performance and service issues with the solutions offered by both WordPress and Forestry — the CMS options previously used on some of his client sites.
+Two of the main reasons for his preference are the easy-to-use developer configuration and client editing interfaces that CloudCannon provides. Alex had faced a range of performance and service issues with the solutions offered by both WordPress and Forestry — the CMS options previously used on some of his client sites.
 
 With CloudCannon’s Git-based CMS, however, Alex has peace of mind that his websites will never be vendor-locked, and that all of Croissant & Baguette’s clients will have an intuitive way to add and manage content on their static sites, whichever static site generator (SSG) they use.
 
