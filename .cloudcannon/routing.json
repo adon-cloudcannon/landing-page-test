@@ -1501,6 +1501,12 @@
       "forced": false
     },
     {
+      "from": "/nuxtjs-cms/",
+      "to": "/nuxt-cms/",
+      "status": 301,
+      "forced": false
+    },
+    {
       "from": "/community/learn/hugo-tutorial/",
       "to": "/tutorials/hugo-beginner-tutorial/",
       "status": 301,
