@@ -33,6 +33,11 @@
   ],
   "routes": [
     {
+      "from": "/nuxtjs-cms/",
+      "to": "/nuxt-cms/",
+      "status": 301
+    },
+    {
       "from": "/changelog/(.*)",
       "to": "/documentation/changelog/$1",
       "status": 301
