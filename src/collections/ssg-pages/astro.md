@@ -1339,9 +1339,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Take your editing team to the next level with
-                      CloudCannon’s powerful content editing and publishing
-                      workflows.
+                      Upgrade your static sites with CloudCannon’s powerful open source tools for a wide range of SSGs.
 
 
                       * **<a rel="noopener" target="_blank"

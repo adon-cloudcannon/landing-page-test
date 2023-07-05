@@ -2,6 +2,7 @@
 _schema: default
 title: MkDocs CMS
 layout: builder.html
+search_bucket: Blog
 permalink: /mkdocs-cms/
 description: >-
   Use CloudCannon as your MkDocs CMS to collaborate with your team to build fast
@@ -1897,7 +1898,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Take your static sites to the next level with CloudCannon’s powerful open source tools for a wide range of SSGs.
+                      Upgrade your static sites with CloudCannon’s powerful open source tools for a wide range of SSGs.
 
 
                       * **<a target="_blank"
