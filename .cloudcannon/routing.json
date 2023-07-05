@@ -33,6 +33,11 @@
   ],
   "routes": [
     {
+      "from": "/nuxtjs-cms/",
+      "to": "/nuxt-cms/",
+      "status": 301
+    },
+    {
       "from": "/changelog/(.*)",
       "to": "/documentation/changelog/$1",
       "status": 301
@@ -1497,12 +1502,6 @@
     {
       "from": "/community/learn/hugo-tutorial/content-and-blogging-in-hugo/",
       "to": "/tutorials/hugo-beginner-tutorial/content-and-blogging-in-hugo/",
-      "status": 301,
-      "forced": false
-    },
-    {
-      "from": "/nuxtjs-cms/",
-      "to": "/nuxt-cms/",
       "status": 301,
       "forced": false
     },
