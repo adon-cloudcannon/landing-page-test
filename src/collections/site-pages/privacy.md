@@ -36,7 +36,7 @@ You must not provide to us, or use our website or related services to process, a
 
 Where you have agreed to a separate agreement with us, the additional terms set out in that agreement will apply to the processing of personal information under HIPAA or CCPA (as the case may be).
 
-This policy was drafted with brevity and clarity in mind. It does not provide exhaustive detail of all aspects of our collection and use of personal information. We are happy to provide any additional information or explanation needed. Any request for further information should be sent to privacy@cloudcannon.com.
+This policy was drafted with brevity and clarity in mind. It does not provide exhaustive detail of all aspects of our collection and use of personal information. We are happy to provide any additional information or explanation needed. Any request for further information should be sent to [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).
 
 **CHANGES TO THIS POLICY**
 
@@ -48,15 +48,15 @@ We may change this policy by uploading a revised policy onto our website. The ch
 
 This privacy policy applies to personal information we collect from visitors to our website, our customers and other persons with whom we deal directly. In addition, users of our cloud content management system may collect personal information from individuals (e.g. their employees and customers) and upload, store or process that information to or in that service (**User Data**).
 
-We require our customers to obtain the necessary consents from individuals to provide User Data to us and permit us to use it as set out in this privacy policy. If you have any concern about our collection and use of personal information about you contained in User Data, please contact us at privacy@cloudcannon.com\*.\*
+We require our customers to obtain the necessary consents from individuals to provide User Data to us and permit us to use it as set out in this privacy policy. If you have any concern about our collection and use of personal information about you contained in User Data, please contact us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com)\*.\*
 
 For the purposes of the GDPR and the UK GDPR, our customers are the data controller when storing or otherwise processing User Data that we hold solely for the purpose of providing our cloud content management system and we are the data processor. We are the data controller when storing or otherwise processing User Data that we use for our own purposes.
 
-We only process User Data as authorized by our customers in our Cloud Cannon Terms of Use (available at https://cloudcannon.com/terms/)*.*&nbsp;Unless required otherwise under applicable law, if we receive any request or enquiry relating to User Data that we hold solely for the purpose of providing our services, we will forward this request to our relevant customer. If we receive any requests or enquiries relating to User Data that we use for our own purposes, we will deal with these requests or enquiries as set out in this privacy policy.
+We only process User Data as authorized by our customers in our Cloud Cannon Terms of Use (available at [https://cloudcannon.com/terms/](https://cloudcannon.com/terms/))*.*&nbsp;Unless required otherwise under applicable law, if we receive any request or enquiry relating to User Data that we hold solely for the purpose of providing our services, we will forward this request to our relevant customer. If we receive any requests or enquiries relating to User Data that we use for our own purposes, we will deal with these requests or enquiries as set out in this privacy policy.
 
 **CHILDREN**
 
-We do not intend to collect personal information from or about children aged under 16. If you have reason to believe that we have collected personal information from or about a child under the age of 16, please contact us at privacy@cloudcannon.com.
+We do not intend to collect personal information from or about children aged under 16. If you have reason to believe that we have collected personal information from or about a child under the age of 16, please contact us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).
 
 **WHAT PERSONAL INFORMATION DO WE COLLECT**
 
@@ -78,9 +78,9 @@ When you purchase products or services from us, we collect your name, email addr
 
 When you post information for publication on our website (e.g. on message boards or chat rooms), we collect the information you include in those posts.
 
-Some of the personal information that we collect directly from you may be mandatory and some may be optional. We will let you know which of these applies at the time we collect the relevant personal information. While you do not have to provide us with some of the information that we may request, this might mean that our products and services may not perform as well as they should, or that we may not be able to provide some parts of the website or all of our products or services to you. If you require further information about the consequences of not providing us with any information, please contact us at support@cloudcannon.com.
+Some of the personal information that we collect directly from you may be mandatory and some may be optional. We will let you know which of these applies at the time we collect the relevant personal information. While you do not have to provide us with some of the information that we may request, this might mean that our products and services may not perform as well as they should, or that we may not be able to provide some parts of the website or all of our products or services to you. If you require further information about the consequences of not providing us with any information, please contact us at [support@cloudcannon.com](mailto:support@cloudcannon.com).
 
-We use Stripe, a third party service provider, to process credit card transactions. We do not have access to your credit card information. You can see further information about how they process your credit card information in their privacy policy: https://stripe.com/privacy.
+We use Stripe, a third party service provider, to process credit card transactions. We do not have access to your credit card information. You can see further information about how they process your credit card information in their privacy policy: [https://stripe.com/privac](https://stripe.com/privac)y.
 
 ***Automatically when you use our website***
 
@@ -141,7 +141,7 @@ If you are located in the European Economic Area (**EEA**), your personal inform
 
 If you are located in the United Kingdom (**UK**) your personal information may be transferred outside of the UK. Under the UK GDPR, the transfer of personal information to a country outside the UK may take place where the relevant authority has decided that the country ensures an adequate level of protection. In the absence of an adequacy decision, we may transfer personal information if other appropriate safeguards are in place.
 
-Where we transfer personal information outside the EEA or UK, it will only be transferred to countries that have been identified as providing adequate protection for EEA/UK data, or to a third party where approved transfer mechanisms are in place to protect your personal information (e.g. by entering into the European Commission’s [Standard Contractual Clauses](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) with the [appropriate addendum for the UK GDPR](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/international-data-transfer-agreement-and-guidance/) (where applicable). For further information, please contact us at privacy@cloudcannon.com.
+Where we transfer personal information outside the EEA or UK, it will only be transferred to countries that have been identified as providing adequate protection for EEA/UK data, or to a third party where approved transfer mechanisms are in place to protect your personal information (e.g. by entering into the European Commission’s [Standard Contractual Clauses](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) with the [appropriate addendum for the UK GDPR](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/international-data-transfer-agreement-and-guidance/) (where applicable). For further information, please contact us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).
 
 Some of the personal information we collect is processed in New Zealand. New Zealand is recognized by the European Commission and the UK government as a country that has an adequate level of data protection and we rely on this decision in transferring personal information to New Zealand.
 
@@ -183,7 +183,7 @@ If you have any question about this privacy policy, or our privacy practices, or
 
 The name and contact details of our Data Protection Officer for the purposes of the GDPR and the UK GDPR are:
 
-\| Name \| Andrew Long \| \| Email address \| privacy@cloudcannon.com \|
+\| Name \| Andrew Long \| \| Email address \| [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com) \|
 
 **GDPR ADDITIONAL TERMS**
 
@@ -197,7 +197,7 @@ Where we process personal information based on your consent, you may withdraw yo
 
 Despite the above, we may process your personal information where such processing is necessary for compliance with applicable laws.
 
-If you have any question about the legal basis on which we process personal information or need further information, please contact us at privacy@cloudcannon.com.
+If you have any question about the legal basis on which we process personal information or need further information, please contact us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).
 
 **YOUR RIGHTS UNDER THE GDPR AND THE UK GDPR**
 
@@ -215,7 +215,7 @@ If you are located in the European Union or the United Kingdom, your rights in r
 
 Where personal information is processed for the purposes of direct marketing, you have the right to object to such processing, including profiling related to direct marketing.
 
-If you would like to exercise any of your above rights, please contact us at support@cloudcannon.com. If you are not satisfied by the way we deal with your query, you may refer your query to your local data protection authority.
+If you would like to exercise any of your above rights, please contact us at [support@cloudcannon.com](mailto:support@cloudcannon.com). If you are not satisfied by the way we deal with your query, you may refer your query to your local data protection authority.
 
 **Cookie policy**
 

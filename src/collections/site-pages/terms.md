@@ -157,7 +157,7 @@ c. unless agreed with us in writing, not store or process any Sensitive Data usi
 
 a. not permit any other person to use your User Account, including not disclosing or providing it to any other person; and
 
-b. immediately notify us if you become aware of any disclosure or unauthorized use of your User Account, by sending an email to support@cloudcannon.com.
+b. immediately notify us if you become aware of any disclosure or unauthorized use of your User Account, by sending an email to [support@cloudcannon.com](mailto:support@cloudcannon.com).
 
 5\.3. When accessing the Service, you and your personnel are responsible for all Content processed using the Service, and you and your personnel must:
 
@@ -491,7 +491,7 @@ e. otherwise materially breached these Terms.
 
 14\.5. Subject to clause 7.4c, we are your independent contractor, and no other relationship (e.g. joint venture, agency, trust or partnership) exists under these Terms.
 
-14\.6. If we need to contact you, we may do so by email or by posting a notice on the Website. You agree that this satisfies all legal requirements in relation to written communications. You may give notice to us under or in connection with these Terms by emailing support@cloudcannon.com.
+14\.6. If we need to contact you, we may do so by email or by posting a notice on the Website. You agree that this satisfies all legal requirements in relation to written communications. You may give notice to us under or in connection with these Terms by emailing [support@cloudcannon.com](mailto:support@cloudcannon.com).
 
 14\.7. These Terms, and any dispute relating to these Terms or the Service, are governed by and must be interpreted in accordance with the laws of New Zealand. Each party submits to the non-exclusive jurisdiction of the Courts of New Zealand in relation to any dispute connected with these Terms or the Service.
 
