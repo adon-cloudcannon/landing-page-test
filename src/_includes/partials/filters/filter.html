@@ -42,7 +42,7 @@
                 :aria-expanded="open && show === '{{ forloop.index }}'"
                 aria-label="Show filters for {{ filter }}"
                 >
-                    <span class="inline-block" x-text="getButtonText('{{ filter }}', '{{ filter }}')"></span>
+                    <span class="inline-block" x-text="generateFilterButtonLabelBasedOnSelectionAndDevice('{{ filter }}', '{{ filter }}')"></span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="stroke-current inline-block w-3 h-3 text-black transform transition duration-150" :class="{ 'rotate-90': show === '{{ forloop.index }}' }">
                         <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clip-rule="evenodd"/>
                     </svg>
@@ -92,7 +92,7 @@
         
             {% for target in filter_targets %}
                 <div class="flex items-center h-[42px] " x-ref="dropdown" @click="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" role="none">
-                    <input type="checkbox" id="checkbox_{{ target }}" name="type[]" value="{{ target }}" class="hidden" @change="toggleOption($event.target.value, $event.target.checked, '{{ filter_key }}') " aria-labelledby="label_{{ target }}">
+                    <input type="checkbox" id="checkbox_{{ target }}" name="type[]" value="{{ target }}" class="hidden" @change="addOrRemoveFilterOptionAndUpdateRenderedItems($event.target.value, $event.target.checked, '{{ filter_key }}') " aria-labelledby="label_{{ target }}">
                     <label for="checkbox_{{ target }}" class="custom-checkbox inline-block mr-2 cursor-pointer" role="menuitemcheckbox"></label>
                     {% if filter_key == "framework" %}
                         <img src="/images/icons/ssgs/{{ target }}.svg" width="16" height="16" alt="{{ target.ssg_name }}" class="mr-[4px] inline-block cursor-pointer" />
@@ -105,14 +105,14 @@
     {% endfor %}
         
         <!-- Clear filters button -->
-        <button x-show="selectedOptions.length > 0" @click="removeAllOptions()" class="inline-block text-cc font-bold text-right py-2 px-3 transition hover:bg-[#F0F5FF] hover:rounded-lg" aria-label="Clear all filters">Clear filters</button>
+        <button x-show="selectedOptions.length > 0" @click="removeAllOptionsFromFilter()" class="inline-block text-cc font-bold text-right py-2 px-3 transition hover:bg-[#F0F5FF] hover:rounded-lg" aria-label="Clear all filters">Clear filters</button>
     </div>
     <!-- Selected Options -->
     <div class="mt-4 gap-x-6 gap-y-1 flex-wrap hidden md:flex" x-show="selectedOptions.length > 0 && !isMobile" x-init="$watch('selectedOptions.length', () => { if(window.innerWidth >= 768) { $el.classList.toggle('hidden', !selectedOptions.length); } })">
         <template x-for="(option, index) in selectedOptions" :key="index">
             <span class="border-2 border-comet rounded-[24px] relative flex items-center justify-between gap-x-[14px] py-3 px-[22px] leading-none">
                 <span class="capitalize font-medium m-0 text-carbon" x-text="option"></span>
-                <button @click="removeOption(option, index)" class="m-0" aria-label="Remove filter {{ option }}" >
+                <button @click="removeOptionFromFilter(option, index)" class="m-0" aria-label="Remove filter {{ option }}" >
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L11 11M11 1L1 11" stroke="#393939" stroke-width="2"/>
                     </svg>
@@ -124,64 +124,60 @@
 
 <script>
     function filterComponent() {
-        // takes array of list elements and filters and modifies the display depending on the filters
-        const updateDisplay = (templateList, filters) => {
-            const anyFiltersSelected = Object.values(filters).some(filterValues => filterValues.length > 0);
-            const listWrapper = document.getElementById('list-wrapper');
-            const noResults = document.getElementById('no-results');
-            let isResultAvailable = false;
-    
-            // loop through each template and check if it the item in the filter matches the item in the data attribute
-            templateList.forEach(template => {
-                const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
-                    filterValues.length === 0 || filterValues.some(value =>
-                        template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
-                    )
-                );
-    
-                if (isMatched) {
-                    isResultAvailable = true;
-                }
-    
-                template.classList.toggle('hidden', !isMatched);
-            });
-    
-            listWrapper.classList.toggle('hidden', !isResultAvailable);
-            noResults.classList.toggle('hidden', isResultAvailable);
-        };
-    
+
         return {
             show: false,
             open: false,
+            usesPagefind: false,
             isMobile: window.innerWidth < 768,
             filters: {
                 framework: [],
                 category: [],
-                location: [],
+                location: [] || null,
             },
+            renderedItems: new Set(),
+
             get selectedOptions() {
                 return Object.values(this.filters).flat();
             },
             init() {
+                this.setUsesPagefind();
                 window.addEventListener('resize', () => {
                     this.isMobile = window.innerWidth < 768;
                 });
     
             },
+            setUsesPagefind() {
+                // Set usesPagefind to true if an element with id 'page-find' exists, otherwise set it to false.
+                this.usesPagefind = document.getElementById('pagefind-filtering') ? true : false;
+            },
+
+            debounce(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    const later = () => {
+                        clearTimeout(timeout);
+                        func(...args);
+                    };
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                };
+            },
+
             toggleCheckboxEvent(event, option, filterType) {
                 event.stopPropagation();
                 const checkbox = event.currentTarget.querySelector('input[type="checkbox"]');
                 if (checkbox) {
                     checkbox.checked = !checkbox.checked;
-                    this.toggleOption(option, checkbox.checked, filterType);
+                    this.addOrRemoveFilterOptionAndUpdateRenderedItems(option, checkbox.checked, filterType);
                 }
             },
-            closeIfClickedOutside(event, index) {
+            closeIfClickedOutsideOfMenu(event, index) {
                 if (this.$refs.dropdown && !this.$refs.dropdown.contains(event.target) && this.show === index) {
                     this.show = false;
                 }
             },
-            getButtonText(filterType, filterName) {
+            generateFilterButtonLabelBasedOnSelectionAndDevice(filterType, filterName) {
                 // updates the button labels depending on the number of filters selected, and if the user is on mobile
                 const selectedCount = this.filters[filterType]?.length || 0;
                 const pluralizeFilterName = filterType === 'category' ? 'categories' : `${filterName}s`;
@@ -205,7 +201,7 @@
                 this.open = this.show !== index || !this.open;
                 this.show = this.open ? index : false;
             },
-            toggleOption(option, isChecked, filterType) {
+            addOrRemoveFilterOptionAndUpdateRenderedItems(option, isChecked, filterType) {
                 const filterArray = this.filters[filterType];
                 if (!filterArray) {
                     console.error(`Invalid filter type: ${filterType}`);
@@ -214,15 +210,22 @@
                 option = option.toLowerCase().replace(/ /g, '-');
                 if (isChecked && !filterArray.includes(option)) {
                     filterArray.push(option);
+                    if (this.usesPagefind) {
+                        this.renderedItems.add(option); 
+                        console.log(this.renderedItems, 'renderedItems in addOrRemoveFilterOptionAndUpdateRenderedItems')
+                    }
                 } else if (!isChecked) {
                     const optionIndex = filterArray.indexOf(option);
                     if (optionIndex !== -1) {
                         filterArray.splice(optionIndex, 1);
                     }
+                    if (this.usesPagefind) {
+                        this.renderedItems.delete(option); 
+                    }
                 }
-                this.filterTemplates();
+                this.updateShownPostsBasedOnPagefindUsage();
             },
-            updateFilters(option, isAdd = true) {
+            addOrRemoveOptionFromAllFilterTypes(option, isAdd = true) {
                 // updates the filters object - adds or removes the option from the filters object
                 Object.entries(this.filters).forEach(([filterType, filterArray]) => {
                     const optionIndex = filterArray.indexOf(option);
@@ -234,7 +237,7 @@
                     }
                 });
             },
-            removeOption(option) {
+            removeOptionFromFilter(option) {
                 const selector = `input[type="checkbox"]`;
                 Array.from(document.querySelectorAll(selector)).forEach(input => {
                     const inputValue = input.value.toLowerCase().replace(/ /g, '-');
@@ -243,23 +246,214 @@
                         input.checked = false;
                     }
                 });
-                this.updateFilters(option, false);
-                this.filterTemplates();
+                console.log(this.renderedItems, 'rendered items')
+                this.addOrRemoveOptionFromAllFilterTypes(option, false);
+                if (this.usesPagefind) {
+                    this.renderedItems.delete(option.toLowerCase());
+                }
+                this.updateShownPostsBasedOnPagefindUsage();
             },
-            removeAllOptions() {
+            removeAllOptionsFromFilter() {
                 const selector = 'input[type="checkbox"]';
                 Array.from(document.querySelectorAll(selector)).forEach(input => {
                     input.checked = false;
                 });
+                if (this.usesPagefind) {
+                    this.renderedItems.clear(); 
+                }
                 this.filters = { framework: [], category: [], location: [] };
-                this.filterTemplates();
+                this.updateShownPostsBasedOnPagefindUsage();
             },
-            filterTemplates() {
-                // stores all list items in an array and passes it to the updateDisplay function
-                const templateList = Array.from(document.querySelectorAll('#list-item'));
-                updateDisplay(templateList, this.filters);
-            }
+            updateShownPostsBasedOnPagefindUsage() {
+                // stores all list items in an array and passes it to the updateShownPostsWithoutPagefind function
+                if (this.usesPagefind){
+                    this.debounce(this.updateShownPostsWithPagefind(this.filters), 50);
+                }else{
+                    const templateList = Array.from(document.querySelectorAll('#list-item'));
+                     this.updateShownPostsWithoutPagefind(templateList, this.filters);
+                }
+                
+            },
+
+            updateShownPostsWithoutPagefind(templateList, filters) {
+                const anyFiltersSelected = Object.values(filters).some(filterValues => filterValues.length > 0);
+                const listWrapper = document.getElementById('list-wrapper');
+                const noResults = document.getElementById('no-results');
+                let isResultAvailable = false;
+        
+                // loop through each template and check if it the item in the filter matches the item in the data attribute
+                templateList.forEach(template => {
+                    const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
+                        filterValues.length === 0 || filterValues.some(value =>
+                            template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
+                        )
+                    );
+        
+                    if (isMatched) {
+                        isResultAvailable = true;
+                    }
+        
+                    template.classList.toggle('hidden', !isMatched);
+                });
+        
+                listWrapper.classList.toggle('hidden', !isResultAvailable);
+                noResults.classList.toggle('hidden', isResultAvailable);
+            },
+
+            async updateShownPostsWithPagefind(filters) {
+                try {
+                    const pagefind = await import("/_pagefind/pagefind.js");
+                    const areFiltersActive = this.areAnyFiltersSelected(filters);
+
+                      // Clear any existing results in the results container
+                      this.clearResultsContainer();
+        
+                    // If no filters are active, show the post container and exit
+                    if (!areFiltersActive) {
+                        this.toggleElementVisibility("post-container", true);
+                        this.toggleElementVisibility("pagination-container", true);
+                        return;
+                    }
+        
+                    // Hide the post container while fetching results
+                    this.toggleElementVisibility("post-container", false);
+                    this.toggleElementVisibility("pagination-container", false);
+
+                    console.log(filters, 'filters in updateShownPostsWithPagefind')
+        
+                    const searchResults = await pagefind.search(null, { 
+                        filters: {
+                            framework: {
+                                any: filters.framework
+                            },
+                            category: {
+                                any: filters.category
+                            },
+                        }
+                    
+                    });
+                    console.log(searchResults)
+                    const resultsData = await Promise.all(searchResults.results.map(result => result.data()));
+
+                    // Render the new results
+                    this.createAndAppendGridForPosts(resultsData);
+        
+                } catch (error) {
+                    console.error('An error occurred during fetching and displaying the results:', error);
+                }
+            },
+
+            areAnyFiltersSelected(filters){
+                return Object.values(filters).some(filterArray => filterArray.length > 0);
+            },
+    
+            toggleElementVisibility(elementId, isVisible){
+                document.getElementById(elementId).classList.toggle("hidden", !isVisible);
+            },
+        
+            clearResultsContainer(){
+                const resultsContainer = document.getElementById("results");
+                while (resultsContainer.firstChild) {
+                    resultsContainer.removeChild(resultsContainer.firstChild);
+                }
+            },
+
+
+            createAndAppendGridForPosts(results) {
+                console.log(results)
+                const container = document.createElement("div");
+                container.classList.add("grid", "grid-cols-1", "md:grid-cols-2", "xl:grid-cols-3", "gap-x-5", "gap-y-12");
+        
+                results.forEach(post => {
+                    const postContainer = this.createPostContainer(post);
+                    if (postContainer) {
+                        container.appendChild(postContainer);
+                    }
+                });
+        
+                document.getElementById("results").appendChild(container);
+            },
+            
+            createPostContainer(post) {
+                console.log(post, 'post')
+                const tagsArray = post.meta.blog_tags.split(',');
+                const postIdentifiers = [...tagsArray || []];
+                
+
+                const postContainer = document.createElement("div");
+                postContainer.appendChild(this.createImageElement(post));
+                postContainer.appendChild(this.createTagsContainer(post));
+                postContainer.appendChild(this.createTitleElement(post));
+                postContainer.appendChild(this.createAuthorDateElement(post));
+    
+                return postContainer;
+            },
+            
+            createImageElement(post) {
+                const imageLink = document.createElement("a");
+                imageLink.href = post.url;
+                imageLink.classList.add("group");
+    
+                const image = document.createElement("img");
+                image.src = post.meta.blog_image;
+                image.alt = post.meta.image_alt;
+                image.classList.add("transition", "rounded-lg", "group-hover:opacity-80", "group-hover:scale-105", "h-[250px]", "object-center", "object-cover", "w-full");
+    
+                imageLink.appendChild(image);
+    
+                return imageLink;
+            },
+            
+            createTagsContainer(post) {
+                const tagsContainer = document.createElement("div");
+                tagsContainer.classList.add("text-gray-400", "mt-2");
+        
+                const tagsArray = post.meta.blog_tags.split(',');
+        
+                tagsArray.forEach((tag, index) => {
+                    if (tag === "posts") return;
+        
+                    const tagLink = document.createElement("a");
+                    tagLink.href = `/blog/tags/${encodeURIComponent(tag.trim()).toLowerCase()}/`;
+                    tagLink.textContent = tag.trim();
+                    tagLink.classList.add("text-cc", "uppercase", "hover:text-cc_hover", "hover:underline", "transition");
+                    tagsContainer.appendChild(tagLink);
+        
+                    if (index < tagsArray.length - 1) {
+                        const separator = document.createElement("span");
+                        separator.classList.add("first:hidden");
+                        separator.innerHTML = " &middot; ";
+                        tagsContainer.appendChild(separator);
+                    }
+                });
+        
+                return tagsContainer;
+            },
+            
+            createTitleElement(post) {
+                const title = document.createElement("h3");
+                title.classList.add("font-bold", "text-2xl", "md:text-3xl", "mt-1", "text-carbon");
+    
+                const titleLink = document.createElement("a");
+                titleLink.href = post.url;
+                titleLink.textContent = post.meta.title;
+                titleLink.classList.add("hover:underline");
+    
+                title.appendChild(titleLink);
+    
+                return title;
+            },
+            
+            createAuthorDateElement(post) {
+                const authorDateContainer = document.createElement("p");
+                authorDateContainer.classList.add("mt-3", "text-gray-900");
+                authorDateContainer.textContent = `${post.meta.blog_author} · ${new Date(post.meta.blog_date).toLocaleDateString("en-US", { day: 'numeric', month: 'short', year: 'numeric' })}`;
+    
+                return authorDateContainer;
+            },
         };
     }
     
 </script>
+
+
