@@ -88,7 +88,7 @@ In these Terms:
 
 *Personnel*&nbsp;includes officers, employees, contractors and agents, but a reference to your personnel does not include us.
 
-*Privacy Policies* means the Cloud Cannon Privacy Policy (as that policy is set out on the Website and as updated from time to time), and includes any Personal Information Agreement.
+*Privacy Policies* means the CloudCannon Privacy Policy (as that policy is set out on the Website and as updated from time to time), and includes any Personal Information Agreement.
 
 *Sensitive Data* means any Content that is Personal Information and that is commonly treated as “sensitive”, including banking and payment details, financial information, medical records, identity document information, and other data that is likely to cause serious harm if it was used or disclosed without the consent of the individual to whom the Content relates.
 
@@ -96,7 +96,7 @@ In these Terms:
 
 *Start Date*&nbsp;means the date that you set up an account.
 
-*Terms*&nbsp;means these terms titled Cloud Cannon terms of use.
+*Terms*&nbsp;means these terms titled CloudCannon terms of use.
 
 *UK GDPR* means the laws of the United Kingdom equivalent to the GDPR.
 
@@ -106,7 +106,7 @@ In these Terms:
 
 *User Website*&nbsp;means a CloudCannon user’s website, on the CloudCannon platform.
 
-*We*,&nbsp;*us*&nbsp;or&nbsp;*our*&nbsp;means Cloud Cannon Limited, company number 3234469.
+*We*,&nbsp;*us*&nbsp;or&nbsp;*our*&nbsp;means CloudCannon Limited, company number 3234469.
 
 *Website*&nbsp;means the internet site at www.cloudcannon.com, \*.cloudcannon.com, or such other site notified to you by us.
 
