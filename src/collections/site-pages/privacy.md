@@ -48,7 +48,7 @@ We may change this policy by uploading a revised policy onto our website. The ch
 
 This privacy policy applies to personal information we collect from visitors to our website, our customers and other persons with whom we deal directly. In addition, users of our cloud content management system may collect personal information from individuals (e.g. their employees and customers) and upload, store or process that information to or in that service (**User Data**).
 
-We require our customers to obtain the necessary consents from individuals to provide User Data to us and permit us to use it as set out in this privacy policy. If you have any concern about our collection and use of personal information about you contained in User Data, please contact us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com)\*.\*
+We require our customers to obtain the necessary consents from individuals to provide User Data to us and permit us to use it as set out in this privacy policy. If you have any concern about our collection and use of personal information about you contained in User Data, please contact us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).
 
 For the purposes of the GDPR and the UK GDPR, our customers are the data controller when storing or otherwise processing User Data that we hold solely for the purpose of providing our cloud content management system and we are the data processor. We are the data controller when storing or otherwise processing User Data that we use for our own purposes.
 
