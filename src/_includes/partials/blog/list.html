@@ -1,5 +1,5 @@
 {% assign offset = 0 %}
-	<div class="container pt-8 pb-20 lg:mt-10"> 
+	<div id="pagefind-filtering" class="container pt-8 pb-20 lg:mt-10"> 
 		{% if header %}
 			{% assign offset = 1 %}
 			{% assign post = posts[0] %}
@@ -38,7 +38,9 @@
 				</div>
 			</div>
 		{% endif %}
-		<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
+		{% include 'partials/filters/filter.html' filter_type: filters collection: posts %}
+		<div id="results"></div>
+		<div id="post-container" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
 			{% for post in posts offset:offset %}
 			<div>
 				<a href="{{ post.url }}" class="group">
@@ -74,7 +76,7 @@
 				{% assign classes = "flex justify-center" %} 
 				{% assign width = "" %}
 			{% endif %}
-			<nav class="text-center mt-12 {{ classes }}">
+			<nav id="pagination-container" class="text-center mt-12 {{ classes }}">
 					{% if pagination.href.previous %}
 						<a href="{{ pagination.href.previous }}" class="text-cc group mr-4 font-bold {{ width }} justify-self-end">
 							<span class="w-4 relative top-[3px] inline-block group-hover:-translate-x-1 transition">{{ '/src/images/icons/outline/arrow-small-left.svg' | svgContents }}</span>
