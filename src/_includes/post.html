@@ -54,18 +54,38 @@ eleventyComputed:
 {% assign person = collections.authors | where: "data.uuid", author | first %}
 {% bookshop_include "page" live_render: false content_blocks: breadcrumb_block %}
 <div class="container pt-10 md:pt-20 pb-24" data-pagefind-filter="site:Blog" data-pagefind-meta="site:Blog" data-pagefind-body>
+	<!-- testing pagefind filter tags -->
+	{% for ssg in ssg_frameworks %}
+	<div data-pagefind-filter="framework:{{ssg}}" data-pagefind-meta="framework:{{ssg}}"></div>
+	{% endfor %}
+	{% for cat in categories %}
+	<div data-pagefind-filter="category:{{cat}}" data-pagefind-meta="category:{{cat}}"></div>
+	{% endfor %}	
 	<h1 class="mx-auto text-center leading-tight text-gray-900 max-w-3xl text-3xl md:text-5xl font-bold mb-8">{{ title }}</h1>
 	<div class="flex justify-center items-center">
 		{% bookshop 'helpers/image' image: person.data.image.path alt: person.data.image_alt responsive: false width: 96 height: 96 classes: 'w-12 rounded-full' %}
 		<span class="ml-3 text-gray-900">
-			<strong>
+			<strong data-pagefind-meta="blog_author:{{ person.data.name }}">
 				By {{ person.data.name }}
 				<span class="text-gray-400">·</span>
 			</strong> 
-			<span class="text-gray-700">{{ date | date: "%-d %b %Y" }}</span>
+			<span data-pagefind-meta="blog_date:{{  date | date: '%-d %b %Y' }}" class="text-gray-700">{{ date | date: "%-d %b %Y" }}</span>
 		</span>
 	</div>
-	<div class="mt-2 text-gray-400 text-center">
+	{% assign tag_array = "" %}
+	{% for tag in tags %}
+	{% if tag == "posts" %}{% continue %}{% endif %}
+	{% unless tag == 'exclude_this_tag' %}
+		{% assign tag_array = tag_array | append: tag %}
+		{% unless forloop.last %}{% assign tag_array = tag_array | append: ',' %}{% endunless %}
+	{% endunless %}
+	{% endfor %}
+
+	
+	<div
+		data-pagefind-meta="blog_tags:{{ tag_array }}"
+		class="mt-2 text-gray-400 text-center"
+			>
 		{% for tag in tags %}
 			{% if tag == "posts" %}{% continue %}{% endif %}
 			<span class="first:hidden"> · </span>
@@ -75,7 +95,7 @@ eleventyComputed:
 		{% endfor %}
 	</div>
 	<div class="w-full md:w-4/5 mx-auto mt-8 mb-10 md:mb-20">
-		{% bookshop 'helpers/image' image: image alt: title responsive: true width: 972 height: 384 classes: 'w-full md:h-96 object-cover object-center rounded-lg' %}
+		{% bookshop 'helpers/image' pagefind-meta-data: "blog_image[src]" image: image alt: title responsive: true width: 972 height: 384 classes: 'w-full md:h-96 object-cover object-center rounded-lg' %}
 	</div>
 	<div class="relative -mx-[2rem]">
 		<div class="prose container md:prose-lg lg:prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
