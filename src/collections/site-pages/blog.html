@@ -13,5 +13,8 @@ pagination:
   size: 22
   alias: posts
   reverse: true
+filters:
+  - framework
+  - category
 ---
-{% include 'partials/blog/list.html' posts:posts pagination:pagination header:true %}
+{% include 'partials/blog/list.html' posts:posts filters:filters pagination:pagination header:true %}
