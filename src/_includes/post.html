@@ -69,7 +69,7 @@ eleventyComputed:
 				By {{ person.data.name }}
 				<span class="text-gray-400">·</span>
 			</strong> 
-			<span data-pagefind-meta="blog_date:{{  date | date: '%-d %b %Y' }}" class="text-gray-700">{{ date | date: "%-d %b %Y" }}</span>
+			<span data-pagefind-sort="date:{{  date | date: '%Y-%m-%d' }}"  data-pagefind-meta="blog_date:{{  date | date: '%-d %b %Y' }}" class="text-gray-700">{{ date | date: "%-d %b %Y" }}</span>
 		</span>
 	</div>
 	{% assign tag_array = "" %}
