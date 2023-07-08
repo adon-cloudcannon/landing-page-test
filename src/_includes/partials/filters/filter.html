@@ -133,9 +133,8 @@
             filters: {
                 framework: [],
                 category: [],
-                location: [] || null,
+                location: [],
             },
-            renderedItems: new Set(),
 
             get selectedOptions() {
                 return Object.values(this.filters).flat();
@@ -210,17 +209,11 @@
                 option = option.toLowerCase().replace(/ /g, '-');
                 if (isChecked && !filterArray.includes(option)) {
                     filterArray.push(option);
-                    if (this.usesPagefind) {
-                        this.renderedItems.add(option); 
-                        console.log(this.renderedItems, 'renderedItems in addOrRemoveFilterOptionAndUpdateRenderedItems')
-                    }
+
                 } else if (!isChecked) {
                     const optionIndex = filterArray.indexOf(option);
                     if (optionIndex !== -1) {
                         filterArray.splice(optionIndex, 1);
-                    }
-                    if (this.usesPagefind) {
-                        this.renderedItems.delete(option); 
                     }
                 }
                 this.updateShownPostsBasedOnPagefindUsage();
@@ -246,11 +239,8 @@
                         input.checked = false;
                     }
                 });
-                console.log(this.renderedItems, 'rendered items')
                 this.addOrRemoveOptionFromAllFilterTypes(option, false);
-                if (this.usesPagefind) {
-                    this.renderedItems.delete(option.toLowerCase());
-                }
+ 
                 this.updateShownPostsBasedOnPagefindUsage();
             },
             removeAllOptionsFromFilter() {
@@ -259,9 +249,10 @@
                     input.checked = false;
                 });
                 if (this.usesPagefind) {
-                    this.renderedItems.clear(); 
+                    this.toggleElementVisibility("no-results", false);
                 }
                 this.filters = { framework: [], category: [], location: [] };
+                
                 this.updateShownPostsBasedOnPagefindUsage();
             },
             updateShownPostsBasedOnPagefindUsage() {
@@ -304,6 +295,8 @@
                 try {
                     const pagefind = await import("/_pagefind/pagefind.js");
                     const areFiltersActive = this.areAnyFiltersSelected(filters);
+                    const noResults = document.getElementById('no-results');
+
 
                       // Clear any existing results in the results container
                       this.clearResultsContainer();
@@ -329,11 +322,20 @@
                             category: {
                                 any: filters.category
                             },
+                        },
+                        sort: {
+                            date: "dsc"
                         }
                     
                     });
                     console.log(searchResults)
+
+                    // if result is empty show no-results
+                    this.toggleElementVisibility("no-results", searchResults.results.length === 0);
+
                     const resultsData = await Promise.all(searchResults.results.map(result => result.data()));
+
+
 
                     // Render the new results
                     this.createAndAppendGridForPosts(resultsData);
@@ -375,9 +377,7 @@
             },
             
             createPostContainer(post) {
-                console.log(post, 'post')
                 const tagsArray = post.meta.blog_tags.split(',');
-                const postIdentifiers = [...tagsArray || []];
                 
 
                 const postContainer = document.createElement("div");
