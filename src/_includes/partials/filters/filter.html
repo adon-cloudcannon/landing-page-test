@@ -52,7 +52,7 @@
 
                 <!-- Dropdown -->
     
-                <div x-show.transition="show === '{{ forloop.index }}'" @click.away="if(show === '{{ forloop.index }}') show = false" role="menu" class="absolute top-full z-20 mt-2 w-full md:w-[200px] shadow-menu rounded-lg px-4 py-4 gap-y-4 whitespace-nowrap bg-white">
+                <div x-show.transition="show === '{{ forloop.index }}'" @click.away="if(show === '{{ forloop.index }}') show = false" @keydown.escape="if(show === '{{ forloop.index }}') show = false" role="menu"  class="absolute top-full z-20 mt-2 w-full md:w-[200px] shadow-menu rounded-lg px-4 py-4 gap-y-4 whitespace-nowrap bg-white">
                     {% assign filter_key = filter %}
                     {% assign item_collection = collection %}
                     {% assign filter_targets = "" | split: "," %}
@@ -92,13 +92,13 @@
                 {% assign filter_targets = filter_targets | sort %}
 
                     {% for target in filter_targets %}
-                        <div class="flex items-center h-[42px]" x-ref="dropdown" @click="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" role="none" @keydown.space.prevent="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" @keydown.enter.prevent="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')">
+                        <div class="flex items-center h-[42px]" x-ref="dropdown" @click="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" role="none" @keydown.space.prevent="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" @keydown.enter.prevent="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" tabindex="0">
                             <input type="checkbox" id="checkbox_{{ target }}" name="type[]" value="{{ target }}" class="hidden" @change="addOrRemoveFilterOptionAndUpdateRenderedItems($event.target.value, $event.target.checked, '{{ filter_key }}')" aria-labelledby="label_{{ target }}" >
                             <label for="checkbox_{{ target }}" class="custom-checkbox inline-block mr-2 cursor-pointer" role="menuitemcheckbox"></label>
                             {% if filter_key == "framework" %}
                                 <img src="/images/icons/ssgs/{{ target }}.svg" width="16" height="16" alt="{{ target.ssg_name }}" class="mr-[4px] inline-block cursor-pointer"/>
                             {% endif %}
-                            <span class="cursor-pointer" tabindex="0" @keyup.space.prevent="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')" @keyup.enter.prevent="toggleCheckboxEvent($event, '{{ target }}', '{{ filter_key }}')">{{ target | capitalize | strip }}</span>
+                            <span class="cursor-pointer">{{ target | capitalize | strip }}</span>
                         </div>
                     {% endfor %}
                 </div>
