@@ -21,7 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-long-outdoor-road.jpg
-
+ssg_frameworks:
+categories:
+  - resources
 ---
 
 This week I came across the [7mml](http://7mml.org/) website and I loved the loaded symbol. An animated car with a scrolling background. It was rather sluggish so I looked at how it was built. It was actually built using a large background image with JavaScript changing the background position.

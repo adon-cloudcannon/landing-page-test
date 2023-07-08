@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-light-trail-of-traffic.jpg
+ssg_frameworks:
+categories:
+  - features
 ---
 
 The speed of your website impacts many aspects of your business. [Google found](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/) that going from a load time of one second to five increased the bounce rate by 90%.

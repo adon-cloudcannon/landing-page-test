@@ -27,6 +27,9 @@ date: 2022-04-28T05:00:00+1200
 tags:
   - Hugo
 author: 7abe9500-0933-48af-9130-87389dc36c9b
+ssg_frameworks:
+  - hugo 
+categories:
 ---
 It’s tough to be competitive in the ever-changing world of web development. Trends, even fads, come and go. While an experienced web dev learns to know the difference between sound practices and those which are simply forgettable Flavors of the Month, your customers and prospects out in the real world usually lack this ability to differentiate. Often, they simply ask for New Shiny Things that they’ve seen on their competitors’ sites. They don’t have any way to know whether that approach really is best for them long-term, especially when their own, possibly tech-challenged content editors have to maintain the resulting site.
 

@@ -21,7 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-christmas-bauble.jpg
-
+ssg_frameworks:
+categories:
+  - resources
 ---
 
 This week I felt like doing something Christmas related, it seemed quite relevant. Instead of enjoying the summer sun that a New Zealand Christmas offers I decided to build an experimental landing page to share. Hope you enjoy it.

@@ -31,6 +31,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+categories:
+  - resources
 ---
 ***We've recently released a helpful migration tool! Once you've connected your existing Forestry site repository to CloudCannon, we'll automatically generate a CloudCannon config file from your Forestry settings.***
 

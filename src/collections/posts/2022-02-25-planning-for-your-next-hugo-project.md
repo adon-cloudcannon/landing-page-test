@@ -30,6 +30,10 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - hugo
+categories:
+  - resources
 templateEngineOverride: md
 ---
 There’s plenty to be said for stuff that *just works*, and the [Hugo](https://gohugo.io/) static site generator (SSG) is a perfect exemplar of that well-worn descriptor. When you’re building a new website for a client, Hugo should be one of the first tools you pull from your bag.

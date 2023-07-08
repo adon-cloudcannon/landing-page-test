@@ -31,6 +31,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - astro
+categories:
 ---
 CloudCannon supports live visual editing on a wide range of static site generators, bringing intuitive composition, editing, and publishing workflows to everyone. But how do we do it? The short answer: <a target="_blank" href="https://github.com/CloudCannon/bookshop">Bookshop</a>, our component development workflow for static websites, which we’ve just expanded to support live visual editing and page-building with <a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro</a>.
 

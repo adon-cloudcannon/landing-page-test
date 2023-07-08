@@ -27,6 +27,9 @@ hide_publish_date: false
 tags:
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+categories:
+  - resources
 ---
 Personally, the biggest drawcards to static sites over yet another WordPress install — and probably the biggest reasons I wanted to work for CloudCannon — were the promises of reducing both overall energy expenditure (in the form of both page weight and compute time) and my own over-reliance on PHP, proprietary databases, and teetering tech stacks.
 

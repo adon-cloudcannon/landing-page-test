@@ -22,6 +22,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+categories:
+  - features
 ---
 
 You guys asked for it, and here it is. We're so excited to announce the brand new templating feature in CloudCannon.

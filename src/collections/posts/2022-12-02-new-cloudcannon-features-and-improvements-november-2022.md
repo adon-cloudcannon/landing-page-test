@@ -14,6 +14,11 @@ tags:
   - Features
   - Resources
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+categories:
+  - features
+  - company
+  - resources
 ---
 Has it already been a month since our last product update? Time flies when you’re scoping and building new features, and even more so when your sites build quickly and are [hosted on one of the fastest global Jamstack hosts](https://cloudcannon.com/community/jamstack-hosting-comparison/)\!
 

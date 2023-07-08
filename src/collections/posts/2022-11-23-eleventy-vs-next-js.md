@@ -10,7 +10,11 @@ tags:
   - Resources
   - Next.js
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
-
+ssg_frameworks:
+  - 11ty
+  - nextjs
+categories:
+  - resources
 ---
 You’d be hard pressed to find two more popular but distinctly different tools to use for static site generation than [Eleventy](https://www.11ty.dev/) and [Next.js](https://nextjs.org/). In fact, simply comparing Eleventy and Next.js suggests a false equivalency — while both tools can generate static websites, they’re intended for two very different markets and use cases, from a focus on lightweight static sites (Eleventy) all the way up to complex and interactive web apps (Next.js).
 

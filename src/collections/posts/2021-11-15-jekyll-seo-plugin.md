@@ -27,6 +27,10 @@ tags:
   - Resources
   - Jekyll
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+  - jekyll
+categories:
+  - resources
 ---
 SEO is a hot topic for Jekyll and static sites in general. WordPress has the famous Yoast plugin, which does a great job of helping you optimize a site's SEO. Jekyll has the Jekyll SEO tag plugin, which serves a similar purpose. In this showcase, we're diving into what this plugin does and how it works.
 

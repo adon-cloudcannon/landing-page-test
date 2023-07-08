@@ -34,6 +34,10 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/cloudcannon-com-eleventy-11ty.jpg
   featured_image_alt: Graphic of CloudCannon homepage and Eleventy SSG logo
+ssg_frameworks:
+  - 11ty
+categories:
+  - company
 ---
 CloudCannon.com is now <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">built with Eleventy</a>!
 

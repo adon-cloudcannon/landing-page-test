@@ -17,6 +17,11 @@ tags:
   - Features
   - Resources
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+categories:
+  - company
+  - features
+  - resources
 ---
 If you could get a glimpse behind the scenes at CloudCannon — via our sprint planning and tickets, our internal beta testing, and the *very* involved discussions going on within our engineering, ops, and product teams — you’d probably be as excited about the future as we are.
 

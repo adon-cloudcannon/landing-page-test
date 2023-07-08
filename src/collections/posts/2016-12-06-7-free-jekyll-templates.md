@@ -22,6 +22,10 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-rainbow-archway.jpg
+ssg_frameworks:
+  - jekyll
+categories:
+  - resources
 ---
 Jekyll is a fantastic freelancer tool for building client websites. Compared to a traditional CMS like WordPress, there are a number of advantages:
 

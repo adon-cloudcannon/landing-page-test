@@ -25,6 +25,9 @@ description: >-
 tags:
   - Resources
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+categories:
+  - resources
 ---
 CloudCannon uses Rails for our backend and I can say that it is an absolute joy to work with. In this showcase, we'll deconstruct the Ruby on Rails marketing website to see what makes it tick.
 

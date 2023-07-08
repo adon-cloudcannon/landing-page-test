@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/git-workflow.jpg
+ssg_frameworks:
+categories:
+  - features
 ---
 In the past we've talked about our mission of bringing [publishing workflows to non-technical editors](/blog/publishing-workflows-for-jekyll-editors/). This post is an update on some interesting new CloudCannon features bringing us closer to fully realising our vision.
 

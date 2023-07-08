@@ -34,6 +34,11 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/Astro-and-11ty.png
   featured_image_alt: Astro vs. 11ty (Eleventy)
+ssg_frameworks:
+  - astro
+  - 11ty
+categories:
+  - resources
 ---
 ## Why the modern web loves Astro and Eleventy (11ty) – and how to choose which one to use
 

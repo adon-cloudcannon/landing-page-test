@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-stack-of-binders.jpg
+ssg_frameworks:
+categories:
+  - features
 ---
 
 Today we're announcing two brand-new features which will help you make kick-ass websites.

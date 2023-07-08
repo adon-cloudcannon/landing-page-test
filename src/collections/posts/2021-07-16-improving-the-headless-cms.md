@@ -25,6 +25,9 @@ date: 2021-07-16T06:00:00+1200
 tags:
   - Features
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+categories:
+  - features
 ---
 Headless CMSs like CloudCannon are enticing many developers away from top-heavy and resource-intensive CMSs like WordPress, Drupal and Joomla. But what is a headless CMS, and why should *you* use one? The easy answer: flexibility, or future-proofing your content.
 
