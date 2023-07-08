@@ -38,7 +38,7 @@
 				</div>
 			</div>
 		{% endif %}
-		{% include 'partials/filters/filter.html' filter_type: filters collection: posts %}
+		{% include 'partials/filters/filter.html' filter_type: filters collection: collections.posts %}
 		<div id="results"></div>
 		<div id="post-container" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
 			{% for post in posts offset:offset %}
@@ -67,6 +67,10 @@
 			</div>
 			{% endfor %}
 		</div>
+
+		<div id="no-results" class="text-center mt-[3rem] mb-[5rem] md:mt-[8rem] md:mb-[10rem] text-xl font-bold hidden">
+			<h2>No Results Found</h2>
+		  </div>
 
 		{% if pagination %}
 			{% if pagination.href.previous and pagination.href.next %} 
