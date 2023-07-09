@@ -9,29 +9,29 @@ seo:
 lead_score:
 search_bucket: Company
 ---
-**GDPR**
+# **GDPR**
 
-**What is GDPR?**
+### **What is GDPR?**
 
 The European Union General Data Protection Regulation 2016/679 (**EU GDPR**) is a set of rules enforced on 25th May 2018. The EU GDPR gives EU citizens more control over their personal data. It aims to simplify the regulatory environment for business so both citizens and businesses in the European Union can fully benefit from the digital economy.
 
 The United Kingdom’s Data Protection Act 2018 (**UK GDPR**) is the United Kingdom’s implementation of the EU GDPR.
 
-**Protecting your data**
+### **Protecting your data**
 
 CloudCannon is committed to complying with all EU GDPR and UK GDPR requirements that apply to your use of our services. We've added internal procedures and security measures to ensure your data remains protected.
 
-**Data processing addendum**
+## **Data processing addendum**
 
-1. **APPLICATION OF THIS ADDENDUM**
-   1. This Data Processing Addendum, including its Schedules (**Addendum**) forms part of our Terms of Use at https://cloudcannon.com/terms/ (**Terms**), and applies if the Processing (as defined below) of Data (as defined in the Terms) is governed by EU/UK Data Protection Laws (as defined below).
-   2. If this Addendum applies, this Addendum forms part of the Terms between us and you (as defined in the Terms) and sets out the parties’ agreement in relation to the processing of Personal Data (as defined below) in accordance with Applicable Data Protection Laws (as defined below).
-   3. We are located in New Zealand, which has been determined provides adequate protection for the purposes of:&nbsp;
-      1. Article 45 of the GDPR by the European Commission; and&nbsp;
-      2. section 17A of the UK Data Protection Act 1918 by the UK Government.&nbsp;&nbsp;
-   4. However, as part of the Service, we may also transmit Personal Data to third countries which are not the subject of an adequacy determination by the European Commission and/or the UK Government.&nbsp; To provide you with additional assurance as to our data protection commitments, this Addendum includes Standard Contractual Clauses (as defined below), which are pre-signed by us.&nbsp; If our Processing of Personal Data is subject to EU/UK Data Protection Laws and you would like to opt in to the Standard Contractual Clauses, please complete the necessary details, countersign the Standard Contractual Clauses, and return a counter-signed copy to us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).&nbsp;
-   5. In the case of inconsistency between this Addendum (including the Standard Contractual Clauses, if applicable) and the Terms, this Addendum prevails to the extent of that inconsistency.&nbsp; Otherwise, all terms and conditions set out in the Terms apply to this Addendum.
-2. **INTERPRETATION**
+**APPLICATION OF THIS ADDENDUM<br><br>​​​​​1.1**&nbsp;This Data Processing Addendum, including its Schedules (**Addendum**) forms part of our Terms of Use at https://cloudcannon.com/terms/ (**Terms**), and applies if the Processing (as defined below) of Data (as defined in the Terms) is governed by EU/UK Data Protection Laws (as defined below).<br><br>**1\.2**&nbsp;If this Addendum applies, this Addendum forms part of the Terms between us and you (as defined in the Terms) and sets out the parties’ agreement in relation to the processing of Personal Data (as defined below) in accordance with Applicable Data Protection Laws (as defined below).<br><br>**1\.3**&nbsp;We are located in New Zealand, which has been determined provides adequate protection for the purposes of:<br><br>**a**. Article 45 of the GDPR by the European Commission; and
+
+**b.**&nbsp;section 17A of the UK Data Protection Act 1918 by the UK Government.&nbsp;&nbsp;
+
+However, as part of the Service, we may also transmit Personal Data to third countries which are not the subject of an adequacy determination by the European Commission and/or the UK Government.&nbsp; To provide you with additional assurance as to our data protection commitments, this Addendum includes Standard Contractual Clauses (as defined below), which are pre-signed by us.&nbsp; If our Processing of Personal Data is subject to EU/UK Data Protection Laws and you would like to opt in to the Standard Contractual Clauses, please complete the necessary details, countersign the Standard Contractual Clauses, and return a counter-signed copy to us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).&nbsp;
+
+In the case of inconsistency between this Addendum (including the Standard Contractual Clauses, if applicable) and the Terms, this Addendum prevails to the extent of that inconsistency.&nbsp; Otherwise, all terms and conditions set out in the Terms apply to this Addendum.
+
+1. **INTERPRETATION**
    1. Unless the context requires otherwise:
       1. capitalized terms used, but not defined, in this Addendum will have the meanings given to them in the Applicable Data Protection Laws (or, if not defined in the Applicable Data Protection Laws, given to them in the Terms);&nbsp;
       2. the rules of interpretation set out in the Terms apply to this Addendum; and
@@ -64,54 +64,67 @@ CloudCannon is committed to complying with all EU GDPR and UK GDPR requirements 
 *UK GDPR* has the meaning given in the UK Data Protection Act 2018.
 
 1. To the extent that there is any conflict between any of the following, they will have precedence in the descending order of priority set out below:
+
    1. the Standard Contractual Clauses (if applicable);
    2. this Addendum; and&nbsp;
    3. the remainder of the Terms.
+2. **PROCESSING OF PERSONAL DATA**
 
-1. **PROCESSING OF PERSONAL DATA**
    1. With respect to the Processing of Personal Data under the Terms:
       1. for the purposes of EU/UK Data Protection Laws:
+3. you act as the Data Controller; and
 
-1. you act as the Data Controller; and
-2. we act as the Data Processor;&nbsp;
+4. we act as the Data Processor;&nbsp;
 
-1. we are acting as your agent for the purposes of the NZ Privacy Act 2020; and
-2. subject to paragraph 6, we may engage the Sub-Processors listed in this document.
+5. we are acting as your agent for the purposes of the NZ Privacy Act 2020; and
 
-1. We will comply with all Applicable Data Protection Laws that apply to our Processing of Personal Data on your behalf, including, if and as applicable, all EU/UK Data Protection Laws that apply to Data Processors.&nbsp;&nbsp;
-2. You must, when using the Website and the Service, comply with all Applicable Data Protection Laws that apply to your Processing of Personal Data, including, if applicable, all EU/UK Data Protection Laws that apply to Data Controllers.&nbsp;&nbsp;
-3. You instruct us * * to Process Personal Data and in particular, subject to paragraph 6, transfer Personal Data to any country or territory:
+6. subject to paragraph 6, we may engage the Sub-Processors listed in this document.
+
+7. We will comply with all Applicable Data Protection Laws that apply to our Processing of Personal Data on your behalf, including, if and as applicable, all EU/UK Data Protection Laws that apply to Data Processors.&nbsp;&nbsp;
+
+8. You must, when using the Website and the Service, comply with all Applicable Data Protection Laws that apply to your Processing of Personal Data, including, if applicable, all EU/UK Data Protection Laws that apply to Data Controllers.&nbsp;&nbsp;
+
+9. You instruct us \* \* to Process Personal Data and in particular, subject to paragraph 6, transfer Personal Data to any country or territory:
+
    1. as reasonably necessary to provide the Service in accordance with the Terms;
    2. as initiated through the use of the Service by you, your Personnel and other end users you allow to use the Service; and
    3. to comply with any further instruction from you (including by email or through our support channels) that is consistent with the Terms and this Addendum.
-4. This Addendum and the remainder of the Terms are your complete and final instructions for the Processing of Personal Data as at the time this Addendum takes effect.&nbsp; Any additional or alternate instructions must be agreed between us and you separately in writing.
-5. We will not Process Personal Data other than on your Instructions unless required by any law to which we are subject, in which case we will to the extent permitted by applicable law inform you of that legal requirement before we Process that Personal Data.
-6. As required by Article 28(3) of the GDPR, Article 28(3) of the UK GDPR and, if applicable, equivalent requirements of other Applicable Data Protection Laws, the nature and purpose of the Processing, the types of Personal Data and categories of Data Subjects Processed under this Addendum are set out in Schedule 1.&nbsp; We may amend Schedule 1 from time to time on written notice to you as we reasonably consider necessary to meet the requirements of Applicable Data Protection Laws.&nbsp;&nbsp;
-7. The duration of Processing is limited to the duration of the Terms.&nbsp; Our obligations in relation to Processing will continue until the Personal Data has been properly deleted or returned to you in accordance with paragraph 11 of this Addendum.&nbsp;
-8. You are solely responsible for ensuring that your Instructions comply with Applicable Data Protection Laws.&nbsp; It is also your responsibility to enter into data processing agreements with other relevant Data Controllers in order to allow us and our Sub-Processors to Process Personal Data in accordance with this Addendum.&nbsp;
-9. If, in our reasonable opinion, an Instruction infringes Applicable Data Protection Laws, we will notify you as soon as reasonably practicable and will not be required to comply with that Instruction.&nbsp; To avoid doubt, we will not be in breach of this Addendum or the Terms for any failure to comply with instructions given by you if this would violate Applicable Data Protection Laws.
+10. This Addendum and the remainder of the Terms are your complete and final instructions for the Processing of Personal Data as at the time this Addendum takes effect.&nbsp; Any additional or alternate instructions must be agreed between us and you separately in writing.
 
-1. **DATA SUBJECT REQUESTS**
-   1. To the extent permitted by law, we will notify you promptly if we receive a request from a Data Subject to exercise the Data Subject’s rights under Applicable Data Protection Laws relating to any Personal Data (**Data Subject Request**).&nbsp;&nbsp;
-   2. Taking into account the nature of the Processing, we will assist you by implementing appropriate technical and organizational measures, to the extent possible, to fulfil your obligation to respond to a Data Subject Request under Applicable Data Protection Laws.&nbsp;&nbsp;
-   3. To the extent you do not have the ability to address a Data Subject Request, we will, on your written request, provide reasonable assistance in accordance with Applicable Data Protection Laws to facilitate that Data Subject Request.&nbsp; You will reimburse us for the costs arising from this assistance.&nbsp;&nbsp;
-   4. We will not respond to a Data Subject Request except on your written request or if required by applicable law.&nbsp;
-2. **OUR PERSONNEL&nbsp;**
-   1. We will:
-      1. take reasonable steps to ensure the reliability of any of our Personnel engaged in the Processing of Personal Data;
-      2. ensure that access to Personal Data is limited to our Personnel who require that access as strictly necessary for the purposes of exercising our rights and performing our obligations under the Terms;&nbsp;
-      3. ensure that our Personnel engaged in Processing Personal Data are subject to confidentiality undertakings or professional or statutory obligations of confidentiality; and
-      4. ensure that our Personnel engaged in Processing Personal Data are informed of the confidential nature of the Personal Data and receive appropriate training on their responsibilities.
-   2. We have appointed a data protection officer who can be contacted at privacy@cloudcannon.com.
-3. **SUB-PROCESSORS&nbsp;**
-   1. You acknowledge and agree that we may engage third party Sub-Processors in connection with the provision of the Service.
-   2. We have entered into (and will, for any new Sub-Processor, enter into) written agreements with each Sub-Processor containing data protection obligations which offer at least the same level of protection for Personal Data as set out in this Addendum and that meet the requirements of Article 28(3) of the GDPR, Article 28(3) of the UK GDPR, and/or equivalent requirements of other Applicable Data Protection Laws, as applicable to the nature of the services provided by that Sub-Processor.
-   3. You may request copies of our written agreements with Sub-Processors (which may be redacted to remove confidential information not relevant to this Addendum).&nbsp;
-   4. A list of current Sub-Processors for the Service \[*as at 3/3/2023*\] is set out on our [Website](https://cloudcannon.com/gdpr/).&nbsp; We may update the list of Sub-Processors on the Website from time to time and, subject to paragraph 6.5, we will give at least 30 days’ notice of any new Sub-Processor (**Change Notice**).&nbsp;&nbsp;
-   5. We may engage Sub-Processors as needed to serve as an Emergency Replacement to maintain and support the Service.&nbsp; *Emergency Replacement* ** ** means a sudden replacement of a Sub-Processor where a change is outside our reasonable control.&nbsp; In this case, we will inform you of the replacement Sub-Processor as soon as reasonably practicable.&nbsp;
-   6. You may object to any new Sub-Processor on reasonable grounds by notifying us within 10 days of receipt of a Change Notice.&nbsp; Your notice of objection to any new Sub-Processor must explain the reasonable grounds for your objection.&nbsp; The parties must discuss your concerns about the new Sub-Processor in good faith with a view to resolve the objection to the use of the new Sub-Processor in a commercially reasonable manner.&nbsp; If it is not possible to resolve the objection, and we do not revoke the Change Notice before the date the Change Notice takes effect, you may, despite anything to the contrary in the Terms, terminate the applicable Service under the Terms that cannot be provided to you without that new Sub-Processor.&nbsp; If you do not terminate the relevant Service under the Terms in accordance with this paragraph, you are deemed to have agreed to the new Sub-Processor.&nbsp; Termination of the applicable service is your sole remedy in respect of the change of Sub-Processor.
-   7. We are liable for the acts and omissions of our Sub-Processors to the same extent we would be liable if performing the services of each Sub-Processor directly under the terms of this Addendum, except as otherwise set out in this Addendum.&nbsp;
-4. **SECURITY&nbsp;**
+11. We will not Process Personal Data other than on your Instructions unless required by any law to which we are subject, in which case we will to the extent permitted by applicable law inform you of that legal requirement before we Process that Personal Data.
+
+12. As required by Article 28(3) of the GDPR, Article 28(3) of the UK GDPR and, if applicable, equivalent requirements of other Applicable Data Protection Laws, the nature and purpose of the Processing, the types of Personal Data and categories of Data Subjects Processed under this Addendum are set out in Schedule 1.&nbsp; We may amend Schedule 1 from time to time on written notice to you as we reasonably consider necessary to meet the requirements of Applicable Data Protection Laws.&nbsp;&nbsp;
+
+13. The duration of Processing is limited to the duration of the Terms.&nbsp; Our obligations in relation to Processing will continue until the Personal Data has been properly deleted or returned to you in accordance with paragraph 11 of this Addendum.&nbsp;
+
+14. You are solely responsible for ensuring that your Instructions comply with Applicable Data Protection Laws.&nbsp; It is also your responsibility to enter into data processing agreements with other relevant Data Controllers in order to allow us and our Sub-Processors to Process Personal Data in accordance with this Addendum.&nbsp;
+
+15. If, in our reasonable opinion, an Instruction infringes Applicable Data Protection Laws, we will notify you as soon as reasonably practicable and will not be required to comply with that Instruction.&nbsp; To avoid doubt, we will not be in breach of this Addendum or the Terms for any failure to comply with instructions given by you if this would violate Applicable Data Protection Laws.
+
+16. **DATA SUBJECT REQUESTS**
+
+    1. To the extent permitted by law, we will notify you promptly if we receive a request from a Data Subject to exercise the Data Subject’s rights under Applicable Data Protection Laws relating to any Personal Data (**Data Subject Request**).&nbsp;&nbsp;
+    2. Taking into account the nature of the Processing, we will assist you by implementing appropriate technical and organizational measures, to the extent possible, to fulfil your obligation to respond to a Data Subject Request under Applicable Data Protection Laws.&nbsp;&nbsp;
+    3. To the extent you do not have the ability to address a Data Subject Request, we will, on your written request, provide reasonable assistance in accordance with Applicable Data Protection Laws to facilitate that Data Subject Request.&nbsp; You will reimburse us for the costs arising from this assistance.&nbsp;&nbsp;
+    4. We will not respond to a Data Subject Request except on your written request or if required by applicable law.&nbsp;
+17. **OUR PERSONNEL&nbsp;**
+
+    1. We will:
+       1. take reasonable steps to ensure the reliability of any of our Personnel engaged in the Processing of Personal Data;
+       2. ensure that access to Personal Data is limited to our Personnel who require that access as strictly necessary for the purposes of exercising our rights and performing our obligations under the Terms;&nbsp;
+       3. ensure that our Personnel engaged in Processing Personal Data are subject to confidentiality undertakings or professional or statutory obligations of confidentiality; and
+       4. ensure that our Personnel engaged in Processing Personal Data are informed of the confidential nature of the Personal Data and receive appropriate training on their responsibilities.
+    2. We have appointed a data protection officer who can be contacted at privacy@cloudcannon.com.
+18. **SUB-PROCESSORS&nbsp;**
+
+    1. You acknowledge and agree that we may engage third party Sub-Processors in connection with the provision of the Service.
+    2. We have entered into (and will, for any new Sub-Processor, enter into) written agreements with each Sub-Processor containing data protection obligations which offer at least the same level of protection for Personal Data as set out in this Addendum and that meet the requirements of Article 28(3) of the GDPR, Article 28(3) of the UK GDPR, and/or equivalent requirements of other Applicable Data Protection Laws, as applicable to the nature of the services provided by that Sub-Processor.
+    3. You may request copies of our written agreements with Sub-Processors (which may be redacted to remove confidential information not relevant to this Addendum).&nbsp;
+    4. A list of current Sub-Processors for the Service \[*as at 3/3/2023*\] is set out on our [Website](https://cloudcannon.com/gdpr/).&nbsp; We may update the list of Sub-Processors on the Website from time to time and, subject to paragraph 6.5, we will give at least 30 days’ notice of any new Sub-Processor (**Change Notice**).&nbsp;&nbsp;
+    5. We may engage Sub-Processors as needed to serve as an Emergency Replacement to maintain and support the Service.&nbsp; *Emergency Replacement* \*\* \*\* means a sudden replacement of a Sub-Processor where a change is outside our reasonable control.&nbsp; In this case, we will inform you of the replacement Sub-Processor as soon as reasonably practicable.&nbsp;
+    6. You may object to any new Sub-Processor on reasonable grounds by notifying us within 10 days of receipt of a Change Notice.&nbsp; Your notice of objection to any new Sub-Processor must explain the reasonable grounds for your objection.&nbsp; The parties must discuss your concerns about the new Sub-Processor in good faith with a view to resolve the objection to the use of the new Sub-Processor in a commercially reasonable manner.&nbsp; If it is not possible to resolve the objection, and we do not revoke the Change Notice before the date the Change Notice takes effect, you may, despite anything to the contrary in the Terms, terminate the applicable Service under the Terms that cannot be provided to you without that new Sub-Processor.&nbsp; If you do not terminate the relevant Service under the Terms in accordance with this paragraph, you are deemed to have agreed to the new Sub-Processor.&nbsp; Termination of the applicable service is your sole remedy in respect of the change of Sub-Processor.
+    7. We are liable for the acts and omissions of our Sub-Processors to the same extent we would be liable if performing the services of each Sub-Processor directly under the terms of this Addendum, except as otherwise set out in this Addendum.&nbsp;
+19. **SECURITY&nbsp;**
 
 We will maintain technical and organizational measures to protect the confidentiality, integrity and security of Personal Data (including protection against unauthorized or unlawful Processing and against accidental or unlawful destruction, loss or alteration or damage, unauthorized disclosure of, or access to, Personal Data), and to manage data security incidents affecting Personal Data, in accordance with Annex 2 of the Standard Contractual Clauses (as updated from time to time by us).
 
@@ -150,8 +163,6 @@ To the maximum extent permitted by applicable law, the liability of each party t
 
 If any provision of this Addendum is, or becomes unenforceable, illegal or invalid for any reason, the relevant provision is deemed to be varied to the extent necessary to remedy the unenforceability, illegality or invalidity.&nbsp; If variation is not possible, the provision must be treated as severed from this Addendum without affecting any other provisions of this Addendum.&nbsp;
 
-
-
 **SCHEDULE 1**
 
 **DETAILS OF PROCESSING&nbsp;**
@@ -179,8 +190,6 @@ You may submit Personal Data to the Service, the extent of which is determined a
 * Configuration, including security keys and other metadata needed to provide the Service
 * Audit logs and metadata needed to provide the service.
 
-
-
 **SCHEDULE 2**
 
 **STANDARD CONTRACTUAL CLAUSES**
@@ -196,8 +205,6 @@ If you would like to opt in to the Standard Contractual Clauses, please complete
 This UK addendum (“Addendum”) to the Cloud Cannon EU Standard Contractual Clauses applies where the Data Subject is subject to UK Data Protection Laws.&nbsp;
 
 **UK Addendum.pdf (link)**
-
-
 
 **SCHEDULE 4**
 
