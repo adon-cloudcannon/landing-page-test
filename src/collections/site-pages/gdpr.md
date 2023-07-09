@@ -209,3 +209,5 @@ This UK addendum (“Addendum”) to the Cloud Cannon EU Standard Contractual Cl
 **SCHEDULE 4**
 
 **LIST OF SUB-PROCESSORS AS AT 3/3/2023**
+
+<table><tbody><tr><td><strong>Legal entity</strong></td><td><strong>Location</strong></td><td><strong>Purpose</strong></td></tr><tr><td>Amazon Web Services, Inc.</td><td>United States</td><td>Cloud Service Provider</td></tr><tr><td> </td><td> </td><td> </td></tr><tr><td> </td><td> </td><td> </td></tr><tr><td> </td><td> </td><td> </td></tr></tbody></table>
