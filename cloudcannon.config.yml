@@ -109,7 +109,7 @@ collections_config:
           label: Categories filter tag
           type: multiselect
           options:
-            values: data.filter-category-tags
+            values: data.filter-template-category-tags
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
