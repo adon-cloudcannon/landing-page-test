@@ -1,7 +1,7 @@
 ---
 layout: markdown.html
 title: GDPR
-permalink: /gdpr2/
+permalink: /gdpr/
 description:
 seo:
    featured_image:
