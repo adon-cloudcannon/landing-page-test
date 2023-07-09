@@ -241,6 +241,10 @@ collections_config:
             - Resources
             - Sveltekit
             - Tutorials
+      categories:
+        type: multiselect
+        options:
+          values: data.filter-blog-category-tags 
       breadcrumb_title:
         comment: If not set, the page title will be used. (This will be trimmed if the title contains special characters.)
   ecosystem:
