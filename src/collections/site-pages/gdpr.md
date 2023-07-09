@@ -9,8 +9,6 @@ seo:
 lead_score:
 search_bucket: Company
 ---
-# **GDPR**
-
 ### **What is GDPR?**
 
 The European Union General Data Protection Regulation 2016/679 (**EU GDPR**) is a set of rules enforced on 25th May 2018. The EU GDPR gives EU citizens more control over their personal data. It aims to simplify the regulatory environment for business so both citizens and businesses in the European Union can fully benefit from the digital economy.
@@ -105,7 +103,7 @@ CloudCannon is committed to complying with all EU GDPR and UK GDPR requirements 
 
 **3\.5&nbsp;**This Addendum and the remainder of the Terms are your complete and final instructions for the Processing of Personal Data as at the time this Addendum takes effect.&nbsp; Any additional or alternate instructions must be agreed between us and you separately in writing.
 
-We will not Process Personal Data other than on your Instructions unless required by any law to which we are subject, in which case we will to the extent permitted by applicable law inform you of that legal requirement before we Process that Personal Data.
+**3\.6&nbsp;**We will not Process Personal Data other than on your Instructions unless required by any law to which we are subject, in which case we will to the extent permitted by applicable law inform you of that legal requirement before we Process that Personal Data.
 
 As required by Article 28(3) of the GDPR, Article 28(3) of the UK GDPR and, if applicable, equivalent requirements of other Applicable Data Protection Laws, the nature and purpose of the Processing, the types of Personal Data and categories of Data Subjects Processed under this Addendum are set out in Schedule 1.&nbsp; We may amend Schedule 1 from time to time on written notice to you as we reasonably consider necessary to meet the requirements of Applicable Data Protection Laws.&nbsp;&nbsp;
 
