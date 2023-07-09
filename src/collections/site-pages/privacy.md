@@ -284,9 +284,9 @@ To learn more about how to control cookie settings through your browser:
 
 *You may opt out of targeted advertising at*[*http://www.youronlinechoices.eu/*](http://www.youronlinechoices.eu/)*. You can learn more about interest-based advertising and opt out of interest-based advertising from participating online advertising companies at the following links.*
 
-* *Network Advertising Initiative (NAI) –*[*http://optout.networkadvertising.org/*](http://optout.networkadvertising.org/)\*\*
-* *Digital Advertising Alliance (DAA) –*[*http://optout.aboutads.info/*](http://optout.aboutads.info/)\*\*
-* *Digital Advertising Alliance EU (EDAA) –*[*http://www.youronlinechoices.com/*](http://www.youronlinechoices.com/)\*\*
+* *Network Advertising Initiative (NAI) –*[*http://optout.networkadvertising.org/*](http://optout.networkadvertising.org/)
+* *Digital Advertising Alliance (DAA) –*[*http://optout.aboutads.info/*](http://optout.aboutads.info/)
+* *Digital Advertising Alliance EU (EDAA) –*[*http://www.youronlinechoices.com/*](http://www.youronlinechoices.com/)
 * *DAA AppChoices page –*[*http://www.aboutads.info/appchoices*](http://www.aboutads.info/appchoices)
 
 *Please note that opting out of interest-based advertising does not mean you will no longer be served advertising. You will continue to receive generic ads*.
