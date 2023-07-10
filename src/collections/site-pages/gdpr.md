@@ -23,7 +23,7 @@ CloudCannon is committed to complying with all EU GDPR and UK GDPR requirements 
 
 ## **Data processing addendum**
 
-**APPLICATION OF THIS ADDENDUM**<br><br>​​​​​1.1 This Data Processing Addendum, including its Schedules (Addendum) forms part of our Terms of Use at https://cloudcannon.com/terms/ (Terms), and applies if the Processing (as defined below) of Data (as defined in the Terms) is governed by EU/UK Data Protection Laws (as defined below).<br><br>1\.2 If this Addendum applies, this Addendum forms part of the Terms between us and you (as defined in the Terms) and sets out the parties’ agreement in relation to the processing of Personal Data (as defined below) in accordance with Applicable Data Protection Laws (as defined below).<br><br>1\.3 We are located in New Zealand, which has been determined provides adequate protection for the purposes of:<br><br>a. Article 45 of the GDPR by the European Commission; and
+**APPLICATION OF THIS ADDENDUM**<br><br>​​​​​1.1 This Data Processing Addendum, including its Schedules (Addendum) forms part of our Terms of Use at [https://cloudcannon.com/terms](https://cloudcannon.com/terms)/ (Terms), and applies if the Processing (as defined below) of Data (as defined in the Terms) is governed by EU/UK Data Protection Laws (as defined below).<br><br>1\.2 If this Addendum applies, this Addendum forms part of the Terms between us and you (as defined in the Terms) and sets out the parties’ agreement in relation to the processing of Personal Data (as defined below) in accordance with Applicable Data Protection Laws (as defined below).<br><br>1\.3 We are located in New Zealand, which has been determined provides adequate protection for the purposes of:<br><br>a. Article 45 of the GDPR by the European Commission; and
 
 b. section 17A of the UK Data Protection Act 1918 by the UK Government.&nbsp;&nbsp;
 
@@ -81,7 +81,7 @@ c. the remainder of the Terms.
 
 3\.1 With respect to the Processing of Personal Data under the Terms:
 
-a for the purposes of EU/UK Data Protection Laws:
+a. for the purposes of EU/UK Data Protection Laws:
 
 i. you act as the Data Controller; and
 
@@ -97,7 +97,7 @@ c. subject to paragraph 6, we may engage the Sub-Processors listed in this docum
 
 3\.4 You instruct us to Process Personal Data and in particular, subject to paragraph 6, transfer Personal Data to any country or territory:
 
-a as reasonably necessary to provide the Service in accordance with the Terms;
+a. as reasonably necessary to provide the Service in accordance with the Terms;
 
 b. as initiated through the use of the Service by you, your Personnel and other end users you allow to use the Service; and
 
@@ -233,19 +233,16 @@ Subject to paragraph 11 of this Addendum, we will Process Personal Data for the 
 
 You may submit Personal Data to the Service, the extent of which is determined and controlled by you in your sole discretion, and which may include, but is not limited to, Personal Data relating to the following categories of data subjects:&nbsp;
 
-Developers, Marketers, Company Executives, Content Creators, Editors, Writers and Designers, to the extent that they are users of the Service under the Terms.
+* Developers, Marketers, Company Executives, Content Creators, Editors, Writers and Designers, to the extent that they are users of the Service under the Terms.
 
 **Type of Data&nbsp;**
 
 You may submit Personal Data to the Service, the extent of which is determined and controlled by you in your sole discretion, and which may include, but is not limited to, the following categories of personal data:&nbsp;
 
-Customer data, usernames, email addresses, full names, IP Addresses, passwords, third party Oauth tokens, company name and address and billing address details (to the extent that information falls within the definition of Personal Data)
-
-Content provided by the user
-
-Configuration, including security keys and other metadata needed to provide the Service
-
-Audit logs and metadata needed to provide the service.
+* Customer data, usernames, email addresses, full names, IP Addresses, passwords, third party Oauth tokens, company name and address and billing address details (to the extent that information falls within the definition of Personal Data)
+* Content provided by the user
+* Configuration, including security keys and other metadata needed to provide the Service
+* Audit logs and metadata needed to provide the service.
 
 ## **SCHEDULE 2**
 
@@ -253,7 +250,7 @@ Audit logs and metadata needed to provide the service.
 
 If you would like to opt in to the Standard Contractual Clauses, please complete the necessary details, countersign the Standard Contractual Clauses, and return a counter-signed copy to us at privacy@cloudcannon.com.
 
-[**Signed CloudCannon SCCs.pdf**](https://cc-dam.imgix.net/Signed+CloudCannon+SCCs.pdf)
+[**Signed CloudCannon SCCs.pdf**](https://cc-dam.imgix.net/Signed+CloudCannon+SCCs+%281%29.pdf)
 
 ## **SCHEDULE 3**
 
@@ -261,7 +258,7 @@ If you would like to opt in to the Standard Contractual Clauses, please complete
 
 This UK addendum (“Addendum”) to the Cloud Cannon EU Standard Contractual Clauses applies where the Data Subject is subject to UK Data Protection Laws.&nbsp;
 
-[**UK Addendum.pdf**](https://cc-dam.imgix.net/UK+Addendum.pdf)
+[**UK Addendum.pdf**](https://cc-dam.imgix.net/UK+Addendum+%281%29.pdf)
 
 ## **SCHEDULE 4**
 
