@@ -35,7 +35,7 @@ b. section 17A of the UK Data Protection Act 1918 by the UK Government.&nbsp;&nb
 
 2\.1 Unless the context requires otherwise:
 
-a.   capitalized terms used, but not defined, in this Addendum will have the meanings given to them in the Applicable Data Protection Laws (or, if not defined in the Applicable Data Protection Laws, given to them in the Terms);&nbsp;
+a. capitalized terms used, but not defined, in this Addendum will have the meanings given to them in the Applicable Data Protection Laws (or, if not defined in the Applicable Data Protection Laws, given to them in the Terms);&nbsp;
 
 b. the rules of interpretation set out in the Terms apply to this Addendum; and
 
