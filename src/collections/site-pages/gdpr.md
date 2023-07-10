@@ -29,19 +29,19 @@ b. section 17A of the UK Data Protection Act 1918 by the UK Government.&nbsp;&nb
 
 1\.4 However, as part of the Service, we may also transmit Personal Data to third countries which are not the subject of an adequacy determination by the European Commission and/or the UK Government.&nbsp; To provide you with additional assurance as to our data protection commitments, this Addendum includes Standard Contractual Clauses (as defined below), which are pre-signed by us.&nbsp; If our Processing of Personal Data is subject to EU/UK Data Protection Laws and you would like to opt in to the Standard Contractual Clauses, please complete the necessary details, countersign the Standard Contractual Clauses, and return a counter-signed copy to us at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).&nbsp;
 
-1\.5**&nbsp;**In the case of inconsistency between this Addendum (including the Standard Contractual Clauses, if applicable) and the Terms, this Addendum prevails to the extent of that inconsistency.&nbsp; Otherwise, all terms and conditions set out in the Terms apply to this Addendum.
+1\.5 In the case of inconsistency between this Addendum (including the Standard Contractual Clauses, if applicable) and the Terms, this Addendum prevails to the extent of that inconsistency.&nbsp; Otherwise, all terms and conditions set out in the Terms apply to this Addendum.
 
 **2\. INTERPRETATION**
 
-2\.1**&nbsp;**Unless the context requires otherwise:
+2\.1 Unless the context requires otherwise:
 
-a. ** ** capitalized terms used, but not defined, in this Addendum will have the meanings given to them in the Applicable Data Protection Laws (or, if not defined in the Applicable Data Protection Laws, given to them in the Terms);&nbsp;
+a.   capitalized terms used, but not defined, in this Addendum will have the meanings given to them in the Applicable Data Protection Laws (or, if not defined in the Applicable Data Protection Laws, given to them in the Terms);&nbsp;
 
-b.**&nbsp;**the rules of interpretation set out in the Terms apply to this Addendum; and
+b. the rules of interpretation set out in the Terms apply to this Addendum; and
 
-c.**&nbsp;**references to *paragraphs* are references to the paragraphs in this Addendum.
+c. references to *paragraphs* are references to the paragraphs in this Addendum.
 
-2\.2**&nbsp;**In this Addendum:&nbsp;
+2\.2 In this Addendum:&nbsp;
 
 *Applicable Data Protection Laws* means EU/UK Data Protection Laws and the NZ Privacy Act 2020
 
@@ -69,43 +69,43 @@ b. where the Data Subject is subject to UK Data Protection Laws, the Internation
 
 *UK GDPR* has the meaning given in the UK Data Protection Act 2018.
 
-2\.3**&nbsp;**To the extent that there is any conflict between any of the following, they will have precedence in the descending order of priority set out below:
+2\.3 To the extent that there is any conflict between any of the following, they will have precedence in the descending order of priority set out below:
 
-a**.&nbsp;**the Standard Contractual Clauses (if applicable);
+a the Standard Contractual Clauses (if applicable);
 
-b.**&nbsp;**this Addendum; and&nbsp;
+b. this Addendum; and&nbsp;
 
-c.**&nbsp;**the remainder of the Terms.
+c. the remainder of the Terms.
 
 **3\. PROCESSING OF PERSONAL DATA**
 
-3\.1**&nbsp;**With respect to the Processing of Personal Data under the Terms:
+3\.1 With respect to the Processing of Personal Data under the Terms:
 
-a**.&nbsp;**for the purposes of EU/UK Data Protection Laws:
+a for the purposes of EU/UK Data Protection Laws:
 
-i.**&nbsp;**you act as the Data Controller; and
+i. you act as the Data Controller; and
 
-ii.**&nbsp;**we act as the Data Processor;&nbsp;
+ii. we act as the Data Processor;&nbsp;
 
-b.**&nbsp;**we are acting as your agent for the purposes of the NZ Privacy Act 2020; and
+b. we are acting as your agent for the purposes of the NZ Privacy Act 2020; and
 
-c.**&nbsp;**subject to paragraph 6, we may engage the Sub-Processors listed in this document.
+c. subject to paragraph 6, we may engage the Sub-Processors listed in this document.
 
-3\.2**&nbsp;**We will comply with all Applicable Data Protection Laws that apply to our Processing of Personal Data on your behalf, including, if and as applicable, all EU/UK Data Protection Laws that apply to Data Processors.&nbsp;&nbsp;
+3\.2 We will comply with all Applicable Data Protection Laws that apply to our Processing of Personal Data on your behalf, including, if and as applicable, all EU/UK Data Protection Laws that apply to Data Processors.&nbsp;&nbsp;
 
-3\.3**&nbsp;**You must, when using the Website and the Service, comply with all Applicable Data Protection Laws that apply to your Processing of Personal Data, including, if applicable, all EU/UK Data Protection Laws that apply to Data Controllers.&nbsp;&nbsp;
+3\.3 You must, when using the Website and the Service, comply with all Applicable Data Protection Laws that apply to your Processing of Personal Data, including, if applicable, all EU/UK Data Protection Laws that apply to Data Controllers.&nbsp;&nbsp;
 
-3\.4**&nbsp;**You instruct us to Process Personal Data and in particular, subject to paragraph 6, transfer Personal Data to any country or territory:
+3\.4 You instruct us to Process Personal Data and in particular, subject to paragraph 6, transfer Personal Data to any country or territory:
 
-a**.&nbsp;**as reasonably necessary to provide the Service in accordance with the Terms;
+a as reasonably necessary to provide the Service in accordance with the Terms;
 
-b.**&nbsp;**as initiated through the use of the Service by you, your Personnel and other end users you allow to use the Service; and
+b. as initiated through the use of the Service by you, your Personnel and other end users you allow to use the Service; and
 
-c.**&nbsp;**to comply with any further instruction from you (including by email or through our support channels) that is consistent with the Terms and this Addendum.
+c. to comply with any further instruction from you (including by email or through our support channels) that is consistent with the Terms and this Addendum.
 
-3\.5**&nbsp;**This Addendum and the remainder of the Terms are your complete and final instructions for the Processing of Personal Data as at the time this Addendum takes effect.&nbsp; Any additional or alternate instructions must be agreed between us and you separately in writing.
+3\.5 This Addendum and the remainder of the Terms are your complete and final instructions for the Processing of Personal Data as at the time this Addendum takes effect.&nbsp; Any additional or alternate instructions must be agreed between us and you separately in writing.
 
-3\.6**&nbsp;**We will not Process Personal Data other than on your Instructions unless required by any law to which we are subject, in which case we will to the extent permitted by applicable law inform you of that legal requirement before we Process that Personal Data.
+3\.6 We will not Process Personal Data other than on your Instructions unless required by any law to which we are subject, in which case we will to the extent permitted by applicable law inform you of that legal requirement before we Process that Personal Data.
 
 3\.7 As required by Article 28(3) of the GDPR, Article 28(3) of the UK GDPR and, if applicable, equivalent requirements of other Applicable Data Protection Laws, the nature and purpose of the Processing, the types of Personal Data and categories of Data Subjects Processed under this Addendum are set out in Schedule 1.&nbsp; We may amend Schedule 1 from time to time on written notice to you as we reasonably consider necessary to meet the requirements of Applicable Data Protection Laws.&nbsp;&nbsp;
 
