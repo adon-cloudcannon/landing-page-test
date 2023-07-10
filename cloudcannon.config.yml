@@ -106,10 +106,10 @@ collections_config:
         - templates.11tydata.js
     _inputs: 
       categories:
-          label: Categories filter tag
-          type: multiselect
-          options:
-            values: data.filter-template-category-tags
+        label: Categories filter tag
+        type: multiselect
+        options:
+          values: data.filter-template-category-tags
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
@@ -210,6 +210,11 @@ collections_config:
       exclude:
         - posts.json
     _inputs:
+      categories:
+        label: Categories filter tag
+        type: multiselect
+        options:
+          values: data.filter-blog-category-tags
       author:
         type: select
         options:
@@ -241,11 +246,6 @@ collections_config:
             - Resources
             - Sveltekit
             - Tutorials
-      categories:
-          label: Categories filter tag
-          type: multiselect
-          options:
-            values: data.filter-blog-category-tags
       breadcrumb_title:
         comment: If not set, the page title will be used. (This will be trimmed if the title contains special characters.)
   ecosystem:
