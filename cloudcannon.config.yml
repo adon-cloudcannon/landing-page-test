@@ -3,7 +3,8 @@ collections_config_override: true
 timezone: Pacific/Auckland
 data_config:
   filter-location-tags: true
-  filter-category-tags: true
+  filter-blog-category-tags: true
+  filter-template-category-tags: true
   filter-framework-tags: true
 collections_config:
   authors:
