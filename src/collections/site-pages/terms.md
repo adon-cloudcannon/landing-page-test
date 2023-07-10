@@ -325,7 +325,7 @@ b. electronically in cleared funds without any set off or deduction.
 
 9\.1. Subject to clause 9.2, title to, and all Intellectual Property Rights in, the Service, the Website, and all Underlying Systems is and remains our property (and our licensors’ property). You must not contest or dispute that ownership, or the validity of those Intellectual Property Rights.
 
-9\.2. Title to, and all Intellectual Property Rights in, the Content (as between the parties) remains your property. Subject to the Data Processing Addendum attached to these Terms (if applicable), you grant us a worldwide, non-exclusive, fully paid up, transferable, irrevocable license to use, store, copy, modify, make available and communicate the Content for any purpose in connection with the exercise of our rights and performance of our obligations in accordance with these Terms.\*\*\*\*
+9\.2. Title to, and all Intellectual Property Rights in, the Content (as between the parties) remains your property. Subject to the Data Processing Addendum attached to these Terms (if applicable), you grant us a worldwide, non-exclusive, fully paid up, transferable, irrevocable license to use, store, copy, modify, make available and communicate the Content for any purpose in connection with the exercise of our rights and performance of our obligations in accordance with these Terms.
 
 9\.3. To the extent not owned by us, you grant us a royalty-free, transferable, irrevocable and perpetual license to use for our own business purposes any know-how, techniques, ideas, methodologies, and similar Intellectual Property used by us in the provision of the Service.
 
