@@ -6,6 +6,7 @@ import focus from '@alpinejs/focus'
 import persist from '@alpinejs/persist'
 import ScrollPadlock from "scroll-padlock";
 import { Instance, Input, ResultList, Summary, FilterPills } from "@pagefind/modular-ui";
+import filterComponent from './_js/filterComponent'
 
 
 Alpine.plugin(focus);
@@ -13,6 +14,7 @@ Alpine.plugin(intersect);
 Alpine.plugin(collapse);
 Alpine.plugin(persist)
 Alpine.data('Splide', Splide)
+Alpine.data('filterComponent', filterComponent)
 
 /* Logged into app utility */
 Alpine.magic('isLoggedIn', () => { return /^(.*;)?\s*signed_in\s*=\s*[^;]+(.*)?$/.test(document.cookie); });
