@@ -2,7 +2,9 @@
 layout: markdown.html
 title: GDPR
 permalink: /gdpr/
-description:
+description: >-
+   CloudCannon is committed to complying with all EU GDPR and UK GDPR
+   requirements that apply to your use of our services. 
 seo:
    featured_image:
    featured_image_alt:
@@ -105,117 +107,117 @@ CloudCannon is committed to complying with all EU GDPR and UK GDPR requirements 
 
 **3\.6&nbsp;**We will not Process Personal Data other than on your Instructions unless required by any law to which we are subject, in which case we will to the extent permitted by applicable law inform you of that legal requirement before we Process that Personal Data.
 
-As required by Article 28(3) of the GDPR, Article 28(3) of the UK GDPR and, if applicable, equivalent requirements of other Applicable Data Protection Laws, the nature and purpose of the Processing, the types of Personal Data and categories of Data Subjects Processed under this Addendum are set out in Schedule 1.&nbsp; We may amend Schedule 1 from time to time on written notice to you as we reasonably consider necessary to meet the requirements of Applicable Data Protection Laws.&nbsp;&nbsp;
+**3\.7** As required by Article 28(3) of the GDPR, Article 28(3) of the UK GDPR and, if applicable, equivalent requirements of other Applicable Data Protection Laws, the nature and purpose of the Processing, the types of Personal Data and categories of Data Subjects Processed under this Addendum are set out in Schedule 1.&nbsp; We may amend Schedule 1 from time to time on written notice to you as we reasonably consider necessary to meet the requirements of Applicable Data Protection Laws.&nbsp;&nbsp;
 
-The duration of Processing is limited to the duration of the Terms.&nbsp; Our obligations in relation to Processing will continue until the Personal Data has been properly deleted or returned to you in accordance with paragraph 11 of this Addendum.&nbsp;
+**3\.8** The duration of Processing is limited to the duration of the Terms.&nbsp; Our obligations in relation to Processing will continue until the Personal Data has been properly deleted or returned to you in accordance with paragraph 11 of this Addendum.&nbsp;
 
-You are solely responsible for ensuring that your Instructions comply with Applicable Data Protection Laws.&nbsp; It is also your responsibility to enter into data processing agreements with other relevant Data Controllers in order to allow us and our Sub-Processors to Process Personal Data in accordance with this Addendum.&nbsp;
+**3\.9** You are solely responsible for ensuring that your Instructions comply with Applicable Data Protection Laws.&nbsp; It is also your responsibility to enter into data processing agreements with other relevant Data Controllers in order to allow us and our Sub-Processors to Process Personal Data in accordance with this Addendum.&nbsp;
 
-If, in our reasonable opinion, an Instruction infringes Applicable Data Protection Laws, we will notify you as soon as reasonably practicable and will not be required to comply with that Instruction.&nbsp; To avoid doubt, we will not be in breach of this Addendum or the Terms for any failure to comply with instructions given by you if this would violate Applicable Data Protection Laws.
+**3\.10** If, in our reasonable opinion, an Instruction infringes Applicable Data Protection Laws, we will notify you as soon as reasonably practicable and will not be required to comply with that Instruction.&nbsp; To avoid doubt, we will not be in breach of this Addendum or the Terms for any failure to comply with instructions given by you if this would violate Applicable Data Protection Laws.
 
-**DATA SUBJECT REQUESTS**
+**4\. DATA SUBJECT REQUESTS**
 
-To the extent permitted by law, we will notify you promptly if we receive a request from a Data Subject to exercise the Data Subject’s rights under Applicable Data Protection Laws relating to any Personal Data (**Data Subject Request**).&nbsp;&nbsp;
+**4\.1** To the extent permitted by law, we will notify you promptly if we receive a request from a Data Subject to exercise the Data Subject’s rights under Applicable Data Protection Laws relating to any Personal Data (**Data Subject Request**).&nbsp;&nbsp;
 
-Taking into account the nature of the Processing, we will assist you by implementing appropriate technical and organizational measures, to the extent possible, to fulfil your obligation to respond to a Data Subject Request under Applicable Data Protection Laws.&nbsp;&nbsp;
+**4\.2** Taking into account the nature of the Processing, we will assist you by implementing appropriate technical and organizational measures, to the extent possible, to fulfil your obligation to respond to a Data Subject Request under Applicable Data Protection Laws.&nbsp;&nbsp;
 
-To the extent you do not have the ability to address a Data Subject Request, we will, on your written request, provide reasonable assistance in accordance with Applicable Data Protection Laws to facilitate that Data Subject Request.&nbsp; You will reimburse us for the costs arising from this assistance.&nbsp;&nbsp;
+**4\.3** To the extent you do not have the ability to address a Data Subject Request, we will, on your written request, provide reasonable assistance in accordance with Applicable Data Protection Laws to facilitate that Data Subject Request.&nbsp; You will reimburse us for the costs arising from this assistance.&nbsp;&nbsp;
 
-We will not respond to a Data Subject Request except on your written request or if required by applicable law.&nbsp;
+**4\.4** We will not respond to a Data Subject Request except on your written request or if required by applicable law.&nbsp;
 
-**OUR PERSONNEL&nbsp;**
+**5\. OUR PERSONNEL&nbsp;**
 
-We will:
+**5\.1** We will:
 
-take reasonable steps to ensure the reliability of any of our Personnel engaged in the Processing of Personal Data;
+a. take reasonable steps to ensure the reliability of any of our Personnel engaged in the Processing of Personal Data;
 
-ensure that access to Personal Data is limited to our Personnel who require that access as strictly necessary for the purposes of exercising our rights and performing our obligations under the Terms;&nbsp;
+b. ensure that access to Personal Data is limited to our Personnel who require that access as strictly necessary for the purposes of exercising our rights and performing our obligations under the Terms;&nbsp;
 
-ensure that our Personnel engaged in Processing Personal Data are subject to confidentiality undertakings or professional or statutory obligations of confidentiality; and
+c. ensure that our Personnel engaged in Processing Personal Data are subject to confidentiality undertakings or professional or statutory obligations of confidentiality; and
 
-ensure that our Personnel engaged in Processing Personal Data are informed of the confidential nature of the Personal Data and receive appropriate training on their responsibilities.
+d. ensure that our Personnel engaged in Processing Personal Data are informed of the confidential nature of the Personal Data and receive appropriate training on their responsibilities.
 
-We have appointed a data protection officer who can be contacted at privacy@cloudcannon.com.
+5\.2 We have appointed a data protection officer who can be contacted at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).
 
-**SUB-PROCESSORS&nbsp;**
+**6\. SUB-PROCESSORS&nbsp;**
 
-You acknowledge and agree that we may engage third party Sub-Processors in connection with the provision of the Service.
+6\.1 You acknowledge and agree that we may engage third party Sub-Processors in connection with the provision of the Service.
 
-We have entered into (and will, for any new Sub-Processor, enter into) written agreements with each Sub-Processor containing data protection obligations which offer at least the same level of protection for Personal Data as set out in this Addendum and that meet the requirements of Article 28(3) of the GDPR, Article 28(3) of the UK GDPR, and/or equivalent requirements of other Applicable Data Protection Laws, as applicable to the nature of the services provided by that Sub-Processor.
+6\.2 We have entered into (and will, for any new Sub-Processor, enter into) written agreements with each Sub-Processor containing data protection obligations which offer at least the same level of protection for Personal Data as set out in this Addendum and that meet the requirements of Article 28(3) of the GDPR, Article 28(3) of the UK GDPR, and/or equivalent requirements of other Applicable Data Protection Laws, as applicable to the nature of the services provided by that Sub-Processor.
 
-You may request copies of our written agreements with Sub-Processors (which may be redacted to remove confidential information not relevant to this Addendum).&nbsp;
+6\.3 You may request copies of our written agreements with Sub-Processors (which may be redacted to remove confidential information not relevant to this Addendum).&nbsp;
 
-A list of current Sub-Processors for the Service \[*as at 3/3/2023*\] is set out on our [Website](https://cloudcannon.com/gdpr/).&nbsp; We may update the list of Sub-Processors on the Website from time to time and, subject to paragraph 6.5, we will give at least 30 days’ notice of any new Sub-Processor (**Change Notice**).&nbsp;&nbsp;
+6\.4 A list of current Sub-Processors for the Service \[*as at 3/3/2023*\] is set out on our [Website](https://cloudcannon.com/gdpr/).&nbsp; We may update the list of Sub-Processors on the Website from time to time and, subject to paragraph 6.5, we will give at least 30 days’ notice of any new Sub-Processor (**Change Notice**).&nbsp;&nbsp;
 
-We may engage Sub-Processors as needed to serve as an Emergency Replacement to maintain and support the Service.&nbsp; *Emergency Replacement* \*\* \*\* means a sudden replacement of a Sub-Processor where a change is outside our reasonable control.&nbsp; In this case, we will inform you of the replacement Sub-Processor as soon as reasonably practicable.&nbsp;
+6\.5 We may engage Sub-Processors as needed to serve as an Emergency Replacement to maintain and support the Service.&nbsp; *Emergency Replacement* \*\* \*\* means a sudden replacement of a Sub-Processor where a change is outside our reasonable control.&nbsp; In this case, we will inform you of the replacement Sub-Processor as soon as reasonably practicable.&nbsp;
 
-You may object to any new Sub-Processor on reasonable grounds by notifying us within 10 days of receipt of a Change Notice.&nbsp; Your notice of objection to any new Sub-Processor must explain the reasonable grounds for your objection.&nbsp; The parties must discuss your concerns about the new Sub-Processor in good faith with a view to resolve the objection to the use of the new Sub-Processor in a commercially reasonable manner.&nbsp; If it is not possible to resolve the objection, and we do not revoke the Change Notice before the date the Change Notice takes effect, you may, despite anything to the contrary in the Terms, terminate the applicable Service under the Terms that cannot be provided to you without that new Sub-Processor.&nbsp; If you do not terminate the relevant Service under the Terms in accordance with this paragraph, you are deemed to have agreed to the new Sub-Processor.&nbsp; Termination of the applicable service is your sole remedy in respect of the change of Sub-Processor.
+6\.6 You may object to any new Sub-Processor on reasonable grounds by notifying us within 10 days of receipt of a Change Notice.&nbsp; Your notice of objection to any new Sub-Processor must explain the reasonable grounds for your objection.&nbsp; The parties must discuss your concerns about the new Sub-Processor in good faith with a view to resolve the objection to the use of the new Sub-Processor in a commercially reasonable manner.&nbsp; If it is not possible to resolve the objection, and we do not revoke the Change Notice before the date the Change Notice takes effect, you may, despite anything to the contrary in the Terms, terminate the applicable Service under the Terms that cannot be provided to you without that new Sub-Processor.&nbsp; If you do not terminate the relevant Service under the Terms in accordance with this paragraph, you are deemed to have agreed to the new Sub-Processor.&nbsp; Termination of the applicable service is your sole remedy in respect of the change of Sub-Processor.
 
-We are liable for the acts and omissions of our Sub-Processors to the same extent we would be liable if performing the services of each Sub-Processor directly under the terms of this Addendum, except as otherwise set out in this Addendum.&nbsp;
+6\.7 We are liable for the acts and omissions of our Sub-Processors to the same extent we would be liable if performing the services of each Sub-Processor directly under the terms of this Addendum, except as otherwise set out in this Addendum.&nbsp;
 
-**SECURITY&nbsp;**
+**7\. SECURITY&nbsp;**
 
 We will maintain technical and organizational measures to protect the confidentiality, integrity and security of Personal Data (including protection against unauthorized or unlawful Processing and against accidental or unlawful destruction, loss or alteration or damage, unauthorized disclosure of, or access to, Personal Data), and to manage data security incidents affecting Personal Data, in accordance with Annex 2 of the Standard Contractual Clauses (as updated from time to time by us).
 
-**SECURITY BREACH MANAGEMENT**
+**8\. SECURITY BREACH MANAGEMENT**
 
-We will comply with all Applicable Data Protection Laws requiring notification to you of any accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Personal Data Processed by us or our Sub-Processors of which we become aware (**Breach Incident**).&nbsp;&nbsp;
+8\.1 We will comply with all Applicable Data Protection Laws requiring notification to you of any accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Personal Data Processed by us or our Sub-Processors of which we become aware (**Breach Incident**).&nbsp;&nbsp;
 
-We will make reasonable efforts to identify the cause of that Breach Incident, notify you within a timely manner to allow you to meet your obligations to report a Breach Incident, cooperate with you in good faith and provide any assistance reasonably necessary for you to comply with your obligations under Applicable Data Protection Laws with respect to a Breach Incident, including any obligations you have under Applicable Data Protection Laws to report, notify or investigate a Breach Incident, and take steps we consider necessary and reasonable to remediate the cause of the Breach Incident, to the extent remediation is within our reasonable control.&nbsp;&nbsp;
+8\.2 We will make reasonable efforts to identify the cause of that Breach Incident, notify you within a timely manner to allow you to meet your obligations to report a Breach Incident, cooperate with you in good faith and provide any assistance reasonably necessary for you to comply with your obligations under Applicable Data Protection Laws with respect to a Breach Incident, including any obligations you have under Applicable Data Protection Laws to report, notify or investigate a Breach Incident, and take steps we consider necessary and reasonable to remediate the cause of the Breach Incident, to the extent remediation is within our reasonable control.&nbsp;&nbsp;
 
-**AUDIT AND COMPLIANCE**
+**9\. AUDIT AND COMPLIANCE**
 
-Upon your written request, we will, at your cost, submit to your audits or inspections, and provide you all information necessary, to demonstrate that both you and we are complying with our respective obligations under Applicable Data Protection Laws (including our respective obligations under Article 28 of the GDPR and/or Article 28 of the UK GDPR).&nbsp;
+9\.1 Upon your written request, we will, at your cost, submit to your audits or inspections, and provide you all information necessary, to demonstrate that both you and we are complying with our respective obligations under Applicable Data Protection Laws (including our respective obligations under Article 28 of the GDPR and/or Article 28 of the UK GDPR).&nbsp;
 
-You will:
+9\.2 You will:
 
-give reasonable notice of an audit or inspection and must not conduct more than one audit or inspection in any calendar year;
+a. give reasonable notice of an audit or inspection and must not conduct more than one audit or inspection in any calendar year;
 
-ensure audits or inspections are conducted during our business hours;
+b. ensure audits or inspections are conducted during our business hours;
 
-comply with our reasonable security and confidentiality obligations in respect of the audit or inspection (and will procure any auditor to do the same); and
+c. comply with our reasonable security and confidentiality obligations in respect of the audit or inspection (and will procure any auditor to do the same); and
 
-avoid damage, injury or disruption to any premises, equipment, personnel and business the subject of the audit or inspection (and will procure any auditor to do the same).
+d. avoid damage, injury or disruption to any premises, equipment, personnel and business the subject of the audit or inspection (and will procure any auditor to do the same).
 
-**DATA PROTECTION IMPACT ASSESSMENT**
+**10\. DATA PROTECTION IMPACT ASSESSMENT**
 
 Upon your written request, we will, at your cost, provide you with reasonable assistance needed to fulfil your obligations under Applicable Data Protection Laws to carry out a data protection impact assessment relating to your use of the Service, to the extent you do not otherwise have access to the relevant information.&nbsp;
 
-**RETURN AND DELETION OF PERSONAL DATA&nbsp;**
+**11\. RETURN AND DELETION OF PERSONAL DATA&nbsp;**
 
-Subject to paragraphs 11.2 and 11.3, following termination of the Terms we will delete all Personal Data within a reasonable period from termination of the Terms.&nbsp;&nbsp;
+11\.1 Subject to paragraphs 11.2 and 11.3, following termination of the Terms we will delete all Personal Data within a reasonable period from termination of the Terms.&nbsp;&nbsp;
 
-Subject to paragraph 11.3, you may submit a written request to us within 10 working days of the termination of the Terms requiring us, within 20 working days of your written request, to:
+11\.2 Subject to paragraph 11.3, you may submit a written request to us within 10 working days of the termination of the Terms requiring us, within 20 working days of your written request, to:
 
-return a complete copy of all Personal Data by secure file transfer in a common format; and
+a. return a complete copy of all Personal Data by secure file transfer in a common format; and
 
-delete all other copies of Personal Data Processed by us or any Sub-Processor.&nbsp;&nbsp;
+b. delete all other copies of Personal Data Processed by us or any Sub-Processor.&nbsp;&nbsp;
 
-We, or each Sub-Processor, may retain Personal Data to the extent that it is required by applicable laws, provided that we ensure the confidentiality of all such Personal Data and ensure that such Data is only processed as necessary for the purposes required under applicable laws requiring its Processing and for no other purpose.&nbsp;
+11\.3 We, or each Sub-Processor, may retain Personal Data to the extent that it is required by applicable laws, provided that we ensure the confidentiality of all such Personal Data and ensure that such Data is only processed as necessary for the purposes required under applicable laws requiring its Processing and for no other purpose.&nbsp;
 
-If we cannot delete all Personal Data due to technical reasons, we will inform you as soon as reasonably practicable and will take reasonably necessary steps to:
+11\.4 If we cannot delete all Personal Data due to technical reasons, we will inform you as soon as reasonably practicable and will take reasonably necessary steps to:
 
-come as close as possible to a complete and permanent deletion of the Personal Data;
+a. come as close as possible to a complete and permanent deletion of the Personal Data;
 
-fully and effectively anonymize the remaining data; and
+b. fully and effectively anonymize the remaining data; and
 
-make the remaining Personal Data which is not deleted or effectively anonymized unavailable for future Processing.&nbsp;
+c. make the remaining Personal Data which is not deleted or effectively anonymized unavailable for future Processing.&nbsp;
 
-**CHANGES IN DATA PROTECTION LAWS**
+**12\. CHANGES IN DATA PROTECTION LAWS**
 
-We may on at least 30 days' written notice to you from time to time, make any variations to this Addendum (including to the Standard Contractual Clauses), which we consider (acting reasonably) are required as a result of any change in, or decision of a competent authority under, Applicable Data Protection Laws, to allow transfers and Processing of Personal Data to continue without breach of Applicable Data Protection Laws.
+12\.1 We may on at least 30 days' written notice to you from time to time, make any variations to this Addendum (including to the Standard Contractual Clauses), which we consider (acting reasonably) are required as a result of any change in, or decision of a competent authority under, Applicable Data Protection Laws, to allow transfers and Processing of Personal Data to continue without breach of Applicable Data Protection Laws.
 
-If you object to any variation under paragraph 12.1 on reasonable grounds, you may, despite anything to the contrary in the Terms, terminate the Terms and your right to access and use the Website and the Service without penalty on written notice, provided your notice of termination is received by us before the effective date of our notice.&nbsp; If you do not terminate the Terms and your right to access and use the Service in accordance with this paragraph, you are deemed to have agreed to the variation.&nbsp;&nbsp;
+12\.2 If you object to any variation under paragraph 12.1 on reasonable grounds, you may, despite anything to the contrary in the Terms, terminate the Terms and your right to access and use the Website and the Service without penalty on written notice, provided your notice of termination is received by us before the effective date of our notice.&nbsp; If you do not terminate the Terms and your right to access and use the Service in accordance with this paragraph, you are deemed to have agreed to the variation.&nbsp;&nbsp;
 
-**LIMITATION OF LIABILITY&nbsp;**
+**13\. LIMITATION OF LIABILITY&nbsp;**
 
 To the maximum extent permitted by applicable law, the liability of each party to the other party under or in connection with this Addendum is subject to the limitations and exclusions set out in the Terms, and any reference in the Terms to the liability of a party means the aggregate liability of that party under the Terms and this Addendum together.&nbsp;
 
-**GENERAL**
+**14\. GENERAL**
 
 If any provision of this Addendum is, or becomes unenforceable, illegal or invalid for any reason, the relevant provision is deemed to be varied to the extent necessary to remedy the unenforceability, illegality or invalidity.&nbsp; If variation is not possible, the provision must be treated as severed from this Addendum without affecting any other provisions of this Addendum.&nbsp;
 
-**SCHEDULE 1**
+## **SCHEDULE 1**
 
 **DETAILS OF PROCESSING&nbsp;**
 
@@ -245,23 +247,23 @@ Configuration, including security keys and other metadata needed to provide the 
 
 Audit logs and metadata needed to provide the service.
 
-**SCHEDULE 2**
+## **SCHEDULE 2**
 
 **STANDARD CONTRACTUAL CLAUSES**
 
 If you would like to opt in to the Standard Contractual Clauses, please complete the necessary details, countersign the Standard Contractual Clauses, and return a counter-signed copy to us at privacy@cloudcannon.com.
 
-**Signed CloudCannon SCCs.pdf (link)**
+[**Signed CloudCannon SCCs.pdf**](https://cc-dam.imgix.net/Signed+CloudCannon+SCCs.pdf)
 
-**SCHEDULE 3**
+## **SCHEDULE 3**
 
 **UK ADDENDUM TO DATA PROCESSING ADDENDUM**
 
 This UK addendum (“Addendum”) to the Cloud Cannon EU Standard Contractual Clauses applies where the Data Subject is subject to UK Data Protection Laws.&nbsp;
 
-**UK Addendum.pdf (link)**
+[**UK Addendum.pdf**](https://cc-dam.imgix.net/UK+Addendum.pdf)
 
-**SCHEDULE 4**
+## **SCHEDULE 4**
 
 **LIST OF SUB-PROCESSORS AS AT 3/3/2023**
 
