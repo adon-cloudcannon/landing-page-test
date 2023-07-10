@@ -71,7 +71,7 @@ b. where the Data Subject is subject to UK Data Protection Laws, the Internation
 
 2\.3 To the extent that there is any conflict between any of the following, they will have precedence in the descending order of priority set out below:
 
-a the Standard Contractual Clauses (if applicable);
+a. the Standard Contractual Clauses (if applicable);
 
 b. this Addendum; and&nbsp;
 
