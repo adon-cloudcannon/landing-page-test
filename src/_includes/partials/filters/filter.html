@@ -351,6 +351,8 @@
                         return;
                     }
 
+                    alert("updateShownPostsWithPagefind before search")
+
                     const searchResults = await this.pagefind.search(null, { 
                         filters: {
                             framework: {
