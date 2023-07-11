@@ -60,9 +60,9 @@ Insight also uses CloudCannon's <a target="_blank" rel="noopener" href="https://
 
 One further key feature of the website is the custom-built image sliders, which allow users to easily navigate through the site's content. Additionally, the site includes a locations tab group, which makes it easy for users to find information about the business's various locations.
 
-![](https://cc-dam.imgix.net/stadium-bike-slider.gif)
+<div>![](https://cc-dam.imgix.net/stadium-bike-slider.gif)</div>
 
-## ​​​​​​Performance improvements via Hugo; editing improvements via CloudCannon
+## Performance improvements via Hugo; editing improvements via CloudCannon
 
 <a target="_blank" rel="noopener" href="http://stadiumbike.com">Stadiumbike.com</a> performs remarkably well, delivering content to users in less than half a second. Its GTmetrix score of 100% for both performance and structure is a testament to the efficiency of Justin’s design and development, as well as his choice of Hugo as the underlying static site generator:
 
