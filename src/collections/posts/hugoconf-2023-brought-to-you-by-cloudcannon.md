@@ -8,7 +8,7 @@ description: >-
   Hugo-specific links, showcases, tutorials, tips and tricks.
 draft: true
 series:
-image: https://cc-dam.imgix.net/HugoConf 2023.png
+image: https://cc-dam.imgix.net/HugoConf-2023-r.png
 date: 2023-07-12T05:00:00+12:00
 hide_publish_date: false
 tags:
