@@ -91,6 +91,12 @@ collections_config:
     output: false
     path: '_data'
     icon: settings_applications
+    filter: 
+      exclude:
+        - filter-blog-category-tags.yml
+        - filter-template-category-tags.yml
+        - filter-framework-tags.yml
+        - filter-location-tags.yml
   templates:
     description: A list of templates
     output: true
@@ -105,10 +111,6 @@ collections_config:
     filter:
       exclude:
         - templates.11tydata.js
-        - filter-blog-category-tags.yml
-        - filter-template-category-tags.yml
-        - filter-framework-tags.yml
-        - filter-location-tags.yml
     _inputs: 
       categories:
         label: Categories filter tag
