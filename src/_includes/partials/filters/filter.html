@@ -287,7 +287,7 @@
                 this.updateShownPostsBasedOnPagefindUsage();
             },
             updateShownPostsBasedOnPagefindUsage() {
-                window.requestAnimationFrame(() => {
+         
                 // stores all list items in an array and passes it to the updateShownPostsWithoutPagefind function
                 if (this.usesPagefind){
                     this.debounce(this.updateShownPostsWithPagefind(this.filters), 50);
@@ -295,8 +295,7 @@
                     const templateList = Array.from(document.querySelectorAll('#list-item'));
                      this.updateShownPostsWithoutPagefind(templateList, this.filters);
                 }
-                });
-                
+             
             },
 
             updateShownPostsWithoutPagefind(templateList, filters) {
