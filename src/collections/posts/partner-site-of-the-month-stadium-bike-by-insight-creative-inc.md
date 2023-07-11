@@ -3,7 +3,7 @@ _schema: default
 title: 'Partner Site of the Month: Stadium Bike, by Insight Creative, Inc.'
 breadcrumb_title:
 description: >-
-  Introducing StadiumBike.com: designed and developed by Insight Creative, Inc.
+  Introducing StadiumBike.com, designed and developed by Insight Creative, Inc.
   — built with Hugo, and optimized for editing on CloudCannon.
 draft: true
 series:
@@ -32,7 +32,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-[Stadium Bike’s new website](http://StadiumBike.com), designed and built by Insight Creative, Inc., is built with Hugo and CloudCannon.
+[Stadium Bike’s new website](http://StadiumBike.com), designed and built by <a target="_blank" rel="noopener" href="https://cloudcannon.com/customers/insight-creative-inc/">Insight Creative, Inc.</a>, is built with Hugo and CloudCannon.
 
 StadiumBike.com boasts a wide range of features that are designed to make it easy for visitors to find what they are looking for. And for a business that encompasses two brands and multiple store locations, this was a key focus for Insight Creative, Inc.’s director of front-end development, Justin Parsons.
 
