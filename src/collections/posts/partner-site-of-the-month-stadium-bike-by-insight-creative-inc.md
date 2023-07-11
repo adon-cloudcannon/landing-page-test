@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   Introducing StadiumBike.com, designed and developed by Insight Creative, Inc.
   — built with Hugo, and optimized for editing on CloudCannon.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/partner-site-stadium-bike.png
 date: 2023-07-13T05:00:00+12:00
@@ -70,7 +70,7 @@ One further key feature of the website is the custom-built image sliders, which 
 
 The Stadium Bike team themselves are very happy with both the design and functionality of the website. And when it comes to managing their content with CloudCannon, they’re in full control. The team can add and edit their existing content, and create and manage <a target="_blank" rel="noopener" href="https://www.stadiumbike.com/events">events</a> tagged to each store’s location, with full calendar integrations — all without relying on a developer to assist them.
 
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/events-stadium-bike.png" alt: "" extend: false border: false %}
+![](https://cc-dam.imgix.net/editing-stadium-bike.png)
 
 ---
 
