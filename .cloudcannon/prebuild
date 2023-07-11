@@ -3,13 +3,13 @@
 npm i
 node generate-build-schedule.js
 
-ls
-
 outfile="src/_data/filter-tags.yml"
 
 tempfile=$(mktemp)
 
+echo "🏷️ Generating tags at $outfile"
 if [[ -f "$outfile" ]]; then
+    echo "🏷️ Copying $outfile to $tempfile"
     cp "$outfile" "$tempfile"
 fi
 
@@ -32,6 +32,7 @@ rm -f "$tempfile"
 rm -f "$outfile"
 
 for file in src/_data/filter-*.yml; do
+    echo "🏷️ Reading $file..."
     base=$(basename -- "$file")
     key="${base%.*}"
 
@@ -44,3 +45,4 @@ for file in src/_data/filter-*.yml; do
         fi
     done < "$file"
 done
+cat $outfile
