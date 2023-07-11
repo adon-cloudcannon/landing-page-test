@@ -1,6 +1,54 @@
+#!/bin/bash
+
 npm i
 node generate-build-schedule.js
 
+outfile="src/_data/filter-tags.yml"
+
+tempfile=$(mktemp)
+
+echo "🏷️ Generating tags at $outfile"
+if [[ -f "$outfile" ]]; then
+    echo "🏷️ Copying $outfile to $tempfile"
+    cp "$outfile" "$tempfile"
+fi
+
+while IFS= read -r line; do
+    if [[ "$line" =~ :$ ]]; then
+        key=${line%:}
+        file="src/_data/$key.yml"
+        
+        echo -n > "$file"
+        continue
+    fi
+
+    line="${line#"${line%%[![:space:]]*}"}"
+    echo "$line" >> "$file"
+
+done < "$tempfile"
+
+rm -f "$tempfile"
+
+rm -f "$outfile"
+
+for file in src/_data/filter-*.yml; do
+    echo "🏷️ Reading $file..."
+    base=$(basename -- "$file")
+    key="${base%.*}"
+
+    echo "$key:" >> "$outfile"
+
+    while IFS= read -r line; do
+        if [[ ! -z "$line" ]]; then
+            line="${line#"${line%%[![:space:]]*}"}"
+            echo "  $line" >> "$outfile"
+        fi
+    done < "$file"
+done
+cat $outfile
+
+echo "🏷️ Done generating tags at $outfile, listing files:"
+ls -l src/_data
 
 
 
