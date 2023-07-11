@@ -173,8 +173,6 @@
             },
 
             initialisePagefind() {
-                console.log('start timer')
-                console.time("Execution Time");
                 (async () => {
                     try {
                         this.pagefind = this.pagefind
@@ -184,7 +182,6 @@
                         this.error = 'Failed to load search, please refresh'
                     }
                     })();
-                    console.timeEnd("Execution Time");
             },
 
             get selectedOptions() {
@@ -377,7 +374,6 @@
                     // Render the new results
                     this.createAndAppendGridForPosts(resultsData);
 
-                    console.log('posts created')
 
                     // Hide the post container while fetching results
                     this.toggleElementVisibility("post-container", false);
@@ -431,7 +427,7 @@
                 }
             
                 gridContainer.appendChild(container);
-                console.log('posts appended')
+
             },
             
             createPostContainer(post) {
