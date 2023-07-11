@@ -105,6 +105,10 @@ collections_config:
     filter:
       exclude:
         - templates.11tydata.js
+        - filter-blog-category-tags.yml
+        - filter-template-category-tags.yml
+        - filter-framework-tags.yml
+        - filter-location-tags.yml
     _inputs: 
       categories:
         label: Categories filter tag
