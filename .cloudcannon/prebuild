@@ -13,19 +13,19 @@ if [[ -f "$outfile" ]]; then
     cp "$outfile" "$tempfile"
 fi
 
-while IFS= read -r line; do
+cat "$tempfile" | while read -r line; do
     if [[ "$line" =~ :$ ]]; then
         key=${line%:}
         file="src/_data/$key.yml"
         
-        echo -n > "$file"
+        truncate -s 0 "$file"
         continue
     fi
 
     line="${line#"${line%%[![:space:]]*}"}"
     echo "$line" >> "$file"
 
-done < "$tempfile"
+done
 
 rm -f "$tempfile"
 
@@ -40,19 +40,18 @@ for file in src/_data/filter-*.yml; do
 
     echo "$key:" >> "$outfile"
 
-    while IFS= read -r line; do
+    cat "$file" | while read -r line; do
         if [[ ! -z "$line" ]]; then
             line="${line#"${line%%[![:space:]]*}"}"
             echo "  $line" >> "$outfile"
         fi
-    done < "$file"
+    done
 
     SYNC_PATHS="${SYNC_PATHS}${file},"
 done
 
 SYNC_PATHS=${SYNC_PATHS%,}
 
-export SYNC_PATHS
 echo "🏷️ SYNC_PATHS=$SYNC_PATHS"
 
 cat $outfile
