@@ -6,7 +6,7 @@ description: >-
   HugoConf 2023 is scheduled for Thursday September 21 (PDT), at hugoconf.io.
   Register now to receive our conference updates, as well as regular helpings of
   Hugo-specific links, showcases, tutorials, tips and tricks.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/HugoConf-2023-r.png
 date: 2023-07-12T05:00:00+12:00
