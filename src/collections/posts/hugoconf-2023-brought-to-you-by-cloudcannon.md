@@ -53,25 +53,19 @@ Want to speak at HugoConf? We’ll offer the same three types of presentation as
 
 ### Tech talk
 
-Pre-recorded, 20 minutes
-
-Great for workflow, product, and feature demonstrations or tutorials that require additional context or explanations.
+*Pre-recorded, 20 minutes*<br>Great for workflow, product, and feature demonstrations or tutorials that require additional context or explanations.
 
 Past tech talks have included <a target="_blank" rel="noopener" href="https://youtu.be/z4n2qu7ZlSo">Custom Shortcodes for the Win</a>, <a target="_blank" rel="noopener" href="https://youtu.be/jvgtbgQBjlM">Beyond the Static: adding interactivity to your Hugo sites</a>, and <a target="_blank" rel="noopener" href="https://youtu.be/K4lL3NMRmbY">Going wild with Hugo modules</a>.
 
 ### Lightning talk
 
-Pre-recorded, 10 minutes
-
-A fast walkthrough of a workflow, showcase of a new feature or module, or that ‘one weird trick’ you’ve discovered for Hugo. Ideal for topics that are reasonably self-explanatory, or rely more on a single dependency.
+*Pre-recorded, 10 minutes*<br>A fast walkthrough of a workflow, showcase of a new feature or module, or that ‘one weird trick’ you’ve discovered for Hugo. Ideal for topics that are reasonably self-explanatory, or rely more on a single dependency.
 
 Past lightning talks have included <a target="_blank" rel="noopener" href="https://youtu.be/qg1MkT1o_PI">Using Purge CSS with Hugo</a>, <a target="_blank" rel="noopener" href="https://youtu.be/y6_v7Jc6R2I">Resize all images</a>, and <a target="_blank" rel="noopener" href="https://youtu.be/PC9NZOcCdTI">Word to Web with Hugo in 5 Minutes</a>.
 
 ### Workshop
 
-Live, 45 minutes
-
-Suitable for long-form examples or workflows that may require full explanation, live code commentary, or may depend on chaining multiple (3+) software tools.
+*Live, 45 minutes*<br>Suitable for long-form examples or workflows that may require full explanation, live code commentary, or may depend on chaining multiple (3+) software tools.
 
 Past workshops have included <a target="_blank" rel="noopener" href="https://youtu.be/qUniGSAZ_8k">Building an open-source blogging platform with Appwrite and Hugo</a>, <a target="_blank" rel="noopener" href="https://youtu.be/Z_7RIuf_Z-Q">Using GitHub Pages with Actions to deploy Hugo sites in seconds</a>, and <a target="_blank" rel="noopener" href="https://youtu.be/Z_7RIuf_Z-Q">How to achieve perfect Google Lighthouse Scores using Hugo</a>.
 
