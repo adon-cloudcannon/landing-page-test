@@ -62,7 +62,7 @@ One further key feature of the website is the custom-built image sliders, which 
 
 ![](https://cc-dam.imgix.net/stadium-bike-slider.gif)
 
-​​​​​​Performance improvements via Hugo; editing improvements via CloudCannon
+## ​​​​​​Performance improvements via Hugo; editing improvements via CloudCannon
 
 [Stadiumbike.com](http://Stadiumbike.com) performs remarkably well, delivering content to users in less than half a second. Its GTmetrix score of 100% for both performance and structure is a testament to the efficiency of Justin’s design and development, as well as his choice of Hugo as the underlying static site generator:
 
