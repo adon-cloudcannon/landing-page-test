@@ -60,8 +60,6 @@ Insight also uses CloudCannon's <a target="_blank" rel="noopener" href="https://
 
 One further key feature of the website is the custom-built image sliders, which allow users to easily navigate through the site's content. Additionally, the site includes a locations tab group, which makes it easy for users to find information about the business's various locations.
 
-<p style="text-align: center"><img src="https://cc-dam.imgix.net/stadium-bike-slider.gif"></p>
-
 ![](https://cc-dam.imgix.net/stadium-bike-slider.gif)
 
 ## Performance improvements via Hugo; editing improvements via CloudCannon
