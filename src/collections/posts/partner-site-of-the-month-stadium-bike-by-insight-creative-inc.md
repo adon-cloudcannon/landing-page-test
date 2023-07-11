@@ -6,7 +6,7 @@ description: >-
   Introducing StadiumBike.com, designed and developed by Insight Creative, Inc.
   — built with Hugo, and optimized for editing on CloudCannon.
 draft: false
-series:
+series: Partner Site of the Month
 image: https://cc-dam.imgix.net/partner-site-stadium-bike.png
 date: 2023-07-13T05:00:00+12:00
 hide_publish_date: false
