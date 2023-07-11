@@ -25,7 +25,7 @@
     }
 </style>
 
-<div x-data="filterComponent()" x-init="init()" class="mb-8 relative">
+<div x-data="filterComponent()" x-init="init(); initialisePagefind();" class="mb-8 relative">
     <!-- Dropdowns -->
     <div class="flex flex-col md:flex-row gap-4">
         {% for filter in filter_type %}
@@ -164,11 +164,24 @@
             show: false,
             open: false,
             usesPagefind: false,
+            pagefind: "",
             isMobile: window.innerWidth < 768,
             filters: {
                 framework: [],
                 category: [],
                 location: [],
+            },
+
+            initialisePagefind() {
+                (async () => {
+                    try {
+                        this.pagefind = this.pagefind
+                        ? this.pagefind
+                        : await import("/_pagefind/pagefind.js");
+                    } catch (e) {
+                        this.error = 'Failed to load search, please refresh'
+                    }
+                    })();
             },
 
             get selectedOptions() {
@@ -326,7 +339,7 @@
 
             async updateShownPostsWithPagefind(filters) {
                 try {
-                    const pagefind = await import("/_pagefind/pagefind.js");
+                    const pagefind = this.pagefind
                     const areFiltersActive = this.areAnyFiltersSelected(filters);
                     const noResults = document.getElementById('no-results');
 
