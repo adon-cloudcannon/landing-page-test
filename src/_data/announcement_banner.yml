@@ -1,6 +1,4 @@
-announcement_banner_content: >-
-  📢 &nbsp;[Sign up for a free Hugo conference: HugoConf 2023, sponsored by
-  CloudCannon](https://hugoconf.io/?utm_source=announcement-banner)
+announcement_banner_content: "📢 &nbsp;[Sign up free for HugoConf 2023 —\_proudly sponsored by CloudCannon](https://hugoconf.io/?utm_source=announcement-banner)"
 color: cloudcannon-blue
 _inputs:
   color:
