@@ -47,4 +47,8 @@ for file in src/_data/filter-*.yml; do
 done
 cat $outfile
 
-echo "🏷️ Done generating tags at $outfile"
+echo "🏷️ Done generating tags at $outfile, listing files:"
+ls -l src/_data
+
+
+
