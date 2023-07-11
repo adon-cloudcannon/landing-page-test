@@ -356,13 +356,9 @@
 
                     // if result is empty show no-results
                     this.toggleElementVisibility("no-results", searchResults.results.length === 0);
-                    let time_start = new Date().getTime();
-                    let time_end = new Date().getTime();
-                    console.log('start time', time_start);
-
+                    console.time("Execution Time");
                     const resultsData = await Promise.all(searchResults.results.map(result => result.data()));
-                    console.log('results reciedved in', time_end - time_start, 'ms');
-
+                    console.timeEnd("Execution Time");
                     // Render the new results
                     this.createAndAppendGridForPosts(resultsData);
 
