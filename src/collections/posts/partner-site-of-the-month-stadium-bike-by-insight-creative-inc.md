@@ -46,11 +46,15 @@ Insight faced something of a unique challenge with this site: [Stadium Bike](htt
 
 ### Session storage
 
-In order to provide a seamless experience for Stadium Bike's users, Insight uses session storage and local storage to limit the modal’s appearance to each user’s individual browsing session, meaning that users aren’t continually bothered by the popup if they’ve already chosen to browse the entire site.
+In order to provide a seamless experience for Stadium Bike's users, Insight uses session storage to limit the modal’s appearance to each user’s individual browsing session, meaning that users aren’t continually bothered by the popup if they’ve already chosen to browse the entire site.
 
 ### Clear branding
 
 Additionally, Insight made sure to prominently feature both Stadium Bike and Trek brands on the homepage, with clear calls-to-action for each. This helps to reinforce which brand the visitor selects and ensures they can easily navigate to the content they’re most interested in.
+
+### Scheduled builds
+
+Insight also uses CloudCannon's <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/scheduling-your-next-build-automatically/">scheduled builds</a> feature to help clear expired events. At 12:01am each day, the site is automatically rebuilt, and events that have already been held are removed from the front-end, without the Stadium Bike team needing to manually remove it.
 
 ### Custom image sliders
 
