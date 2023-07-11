@@ -2,9 +2,9 @@ filter-blog-category-tags:
   - agencies
   - beginner
   - company
-  - features 
-  - opinion 
-  - resources 
+  - features
+  - opinion
+  - resources
 filter-framework-tags:
   - jekyll
   - 11ty
@@ -19,11 +19,12 @@ filter-location-tags:
   - Australia
   - Canada
   - Europe
-  - "New Zealand"
-  - "United Kingdom"
-  - "USA"
+  - New Zealand
+  - United Kingdom
+  - USA
   - India
 filter-template-category-tags:
   - Blog
   - Documentation
   - Business
+  - Portfolio
