@@ -362,6 +362,8 @@
                     // Render the new results
                     this.createAndAppendGridForPosts(resultsData);
 
+                    console.log('posts created')
+
                     // Hide the post container while fetching results
                     this.toggleElementVisibility("post-container", false);
                     this.toggleElementVisibility("pagination-container", false);
@@ -414,6 +416,7 @@
                 }
             
                 gridContainer.appendChild(container);
+                console.log('posts appended')
             },
             
             createPostContainer(post) {
