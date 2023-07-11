@@ -3,6 +3,8 @@
 npm i
 node generate-build-schedule.js
 
+ls
+
 outfile="src/_data/filter-tags.yml"
 
 tempfile=$(mktemp)
