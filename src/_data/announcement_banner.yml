@@ -1,7 +1,7 @@
 announcement_banner_content: >-
   ✨ &nbsp;[Introducing HugoConf 2023: the free, online Hugo
   conference](https://hugoconf.io/?utm_source=announcement-banner)&nbsp;✨
-color: caramel
+color: black
 _inputs:
   color:
     type: select
