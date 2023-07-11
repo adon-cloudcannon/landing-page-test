@@ -173,6 +173,8 @@
             },
 
             initialisePagefind() {
+                console.log('start timer')
+                console.time("Execution Time");
                 (async () => {
                     try {
                         this.pagefind = this.pagefind
@@ -182,6 +184,7 @@
                         this.error = 'Failed to load search, please refresh'
                     }
                     })();
+                    console.timeEnd("Execution Time");
             },
 
             get selectedOptions() {
@@ -339,7 +342,6 @@
 
             async updateShownPostsWithPagefind(filters) {
                 try {
-                    const pagefind = this.pagefind
                     const areFiltersActive = this.areAnyFiltersSelected(filters);
                     const noResults = document.getElementById('no-results');
 
@@ -352,7 +354,7 @@
                         return;
                     }
 
-                    const searchResults = await pagefind.search(null, { 
+                    const searchResults = await this.pagefind.search(null, { 
                         filters: {
                             framework: {
                                 any: filters.framework
@@ -369,10 +371,9 @@
 
                     // if result is empty show no-results
                     this.toggleElementVisibility("no-results", searchResults.results.length === 0);
-                    console.log('start timer')
-                    console.time("Execution Time");
+                   
                     const resultsData = await Promise.all(searchResults.results.map(result => result.data()));
-                    console.timeEnd("Execution Time");
+                    
                     // Render the new results
                     this.createAndAppendGridForPosts(resultsData);
 
