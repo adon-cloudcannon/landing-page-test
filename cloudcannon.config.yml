@@ -189,12 +189,12 @@ collections_config:
         undo: true
         redo: true
         removeformat: true
-        left: align-left
-        center: align-center
-        right: align-right
-        justify: align-justify
         image_size_attributes: false
         snippet: true
+          options:
+            styles:
+/src/styles/tailwind.pcss
+            center: align-center
     filter:
       exclude:
         - posts.json
