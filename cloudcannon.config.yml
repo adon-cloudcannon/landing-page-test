@@ -191,9 +191,6 @@ collections_config:
         removeformat: true
         image_size_attributes: false
         snippet: true
-          options:
-            styles: /src/styles/tailwind.pcss
-            center: align-center
     filter:
       exclude:
         - posts.json
