@@ -1,40 +1,9 @@
 #!/bin/bash
 
-declare -A SYNC_PATHS_DICT
-
-function check_and_add {
-    local path=$1
-    local old_time=$2
-
-    
-    local new_time=$(date -r "$path" +%s)
-
- 
-    if (( old_time != new_time )); then
-        echo "📄 File $path has been modified"
-     
-        if [[ -z "${SYNC_PATHS_DICT[$path]}" ]]; then
-            SYNC_PATHS_DICT[$path]=1
-
-            
-            if [[ ! -z "$SYNC_PATHS" ]]; then
-                SYNC_PATHS+=","
-            fi
-
-            
-            SYNC_PATHS+="${path}"
-            echo "➕ Adding $path to SYNC_PATHS"
-        fi
-    fi
-}
-
 npm i
 node generate-build-schedule.js
 
 outfile="src/_data/filter-tags.yml"
-
-
-old_time_outfile=$(date -r "$outfile" +%s 2>/dev/null || echo 0)
 
 tempfile=$(mktemp)
 
@@ -62,8 +31,7 @@ rm -f "$tempfile"
 
 rm -f "$outfile"
 
-
-declare -A old_time_files
+SYNC_PATHS=""
 
 for file in src/_data/filter-*.yml; do
     echo "🏷️ Reading $file..."
@@ -72,33 +40,22 @@ for file in src/_data/filter-*.yml; do
 
     echo "$key:" >> "$outfile"
 
-   
-    old_time_files["$file"]=$(date -r "$file" +%s 2>/dev/null || echo 0)
-
     while IFS= read -r line; do
         if [[ ! -z "$line" ]]; then
             line="${line#"${line%%[![:space:]]*}"}"
             echo "  $line" >> "$outfile"
         fi
     done < "$file"
+
+    SYNC_PATHS="${SYNC_PATHS}${file},"
 done
 
+SYNC_PATHS=${SYNC_PATHS%,}
 
-check_and_add "$outfile" "$old_time_outfile"
-
-for file in src/_data/filter-*.yml; do
-    check_and_add "$file" "${old_time_files["$file"]}"
-done
+export SYNC_PATHS
+echo "🏷️ SYNC_PATHS=$SYNC_PATHS"
 
 cat $outfile
 
 echo "🏷️ Done generating tags at $outfile, listing files:"
 ls -l src/_data
-
-
-if [[ -z "$SYNC_PATHS" ]]; then
-    echo "⚠️ No files have been changed"
-else
-    echo "✅ The following files have been changed and added to SYNC_PATHS: ${SYNC_PATHS}"
-    export SYNC_PATHS
-fi
