@@ -154,5 +154,14 @@
           icon_path: outline/user
           nav_icon_color: amber
       sub_card: []
+    - title: Partner Showcase
+      sub_nav:
+      sub_card:
+        - featured_page_link: >-
+            /blog/partner-site-of-the-month-stadium-bike-by-insight-creative-inc/
+          name: Partner site of the month
+          image:
+            image_path:
+            image_alt:
 - name: Pricing
   link: /pricing/
