@@ -191,6 +191,8 @@ collections_config:
         removeformat: true
         image_size_attributes: false
         snippet: true
+        styles: /src/styles/editor.css
+        center: center-text
     filter:
       exclude:
         - posts.json
