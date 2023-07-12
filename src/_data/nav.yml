@@ -154,7 +154,7 @@
           icon_path: outline/user
           nav_icon_color: amber
       sub_card: []
-    - title:
+    - title: Partners
       sub_nav:
       sub_card:
         - featured_page_link: >-
