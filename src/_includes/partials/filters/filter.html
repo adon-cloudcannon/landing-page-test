@@ -370,13 +370,13 @@
                         const skeletonPost = this.createSkeletonPost();
                         loadingContainer.appendChild(skeletonPost);
                     }
-                    this.toggleElementVisibility("loading-container", true);
+                    //this.toggleElementVisibility("loading-container", true);
                 } else {
                     // Remove skeleton posts
                     while(loadingContainer.firstChild){
                         loadingContainer.removeChild(loadingContainer.firstChild);
                     }
-                    this.toggleElementVisibility("loading-container", false);
+                    //this.toggleElementVisibility("loading-container", false);
                     this.toggleLoadingState(false);
                 }
             },
@@ -405,7 +405,7 @@
                     this.toggleElementVisibility("post-container", false);
                     this.toggleElementVisibility("pagination-container", false);
                     
-                    const estimatedPostHeight = 200; 
+                    const estimatedPostHeight = 150; 
                     let visiblePostCount = this.calculateVisiblePosts(estimatedPostHeight);
                     
                     visiblePostCount = Math.min(visiblePostCount, searchResults.results.length);
@@ -431,17 +431,66 @@
             
             
             createSkeletonPost() {
+                
                 const skeletonPost = document.createElement("div");
                 skeletonPost.classList.add(
                   "skeleton-post",
                   "animate-pulse",
-                  "p-4",
                   "mb-4",
-                  "bg-gray-300",
-                  "h-64",
-                  "rounded-md"
+                  "flex",
+                  "flex-col",
+                  "gap-y-4"
 
                 );
+
+                const skeletonPostImage = document.createElement("div");
+                skeletonPostImage.classList.add(
+                  "skeleton-post-Image",
+                  "transition",
+                   "rounded-lg",
+                  "h-[250px]",
+                   "w-full",
+                   "animate-pulse",
+                  "bg-gray-400",
+
+                );
+                skeletonPost.appendChild(skeletonPostImage);
+
+                const skeletonPostTags = document.createElement("div");
+                skeletonPostTags.classList.add(
+                  "skeleton-post-Tags",
+                  "p-4",
+                  "w-1/2",
+                  "bg-gray-400",
+                  "animate-pulse",
+                  "rounded-lg"
+                );
+
+                skeletonPost.appendChild(skeletonPostTags);
+
+
+                const skeletonPostTitle = document.createElement("div");
+                skeletonPostTitle.classList.add(
+                  "skeleton-post-Title",
+                  "p-8",
+                  "w-full",
+                  "bg-gray-400",
+                  "animate-pulse",
+                  "rounded-lg"
+                );
+                skeletonPost.appendChild(skeletonPostTitle);
+                
+                const skeletonPostAuthor = document.createElement("div");
+                skeletonPostAuthor.classList.add(
+                  "skeleton-post-Author",
+                  "p-2",
+                  "w-1/2",
+                  "bg-gray-400",
+                  "rounded-lg"
+                );
+                skeletonPost.appendChild(skeletonPostAuthor);
+
+                console.log(skeletonPost)
 
                 return skeletonPost;
               },
