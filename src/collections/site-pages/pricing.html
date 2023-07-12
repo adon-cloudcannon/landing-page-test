@@ -89,52 +89,31 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: Designed for organizations of all sizes.
-          styles:
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: biggest
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 30
-              block_alignment:
-                active: false
-                align_block: left
-            width: medium
         - _bookshop_name: pricing/plan-summary
           content:
             plans:
+              - name: Lite
+                price: '10'
+                description: >-
+                  For Partners: A pay-as-you-go plan for smaller clients with
+                  basic features included. 
+                cta:
+                  text: Join the Partner Program
+                  style:
+                  link: /partner-program/
+                featured:
+                feature_heading: 'Lite plan includes:'
+                features:
+                  - feature: 1 user included; add more for $10
+                    tooltip: >-
+                      Users are any person you've shared a site or organization
+                      with.
+                  - feature: Git Syncing
+                    tooltip: >-
+                      Connect your GitHub, GitLab or BitBucket repositories to
+                      CloudCannon.
+                  - feature: Visual Editing
+                    tooltip: Give your clients a visual editing experience.
               - name: Standard
                 price: 45
                 description: For small teams who want to use our core features.
@@ -227,6 +206,49 @@ content_blocks:
                 active: false
                 top: 0
                 bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: Designed for organizations of all sizes.
+          styles:
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: biggest
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 0
+                bottom: 30
+              block_alignment:
+                active: false
+                align_block: left
+            width: medium
         - _bookshop_name: simple/fold
         - _bookshop_name: simple/text-block
           content:
