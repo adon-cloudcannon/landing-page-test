@@ -136,26 +136,26 @@ content_blocks:
           content:
             plans:
               - name: Lite
-                price: '10'
+                price: 10
                 description: >-
-                  For Partners: A pay-as-you-go plan for smaller clients with
-                  basic features included. 
+                  For partners: A plan for smaller clients with basic features
+                  included. 
+                featured: false
                 cta:
                   text: Join the Partner Program
-                  style:
+                  style: outline
                   link: /partner-program/
-                featured:
                 feature_heading: 'Lite plan includes:'
                 features:
-                  - feature: 1 user included; add more for $10
+                  - description: 1 user included; add more for $10
                     tooltip: >-
-                      Users are any person you've shared a site or organization
-                      with.
-                  - feature: Git Syncing
+                      Users are any person you share a site or organization
+                      with; add more for $10/month per user.
+                  - description: Git syncing
                     tooltip: >-
-                      Connect your GitHub, GitLab or BitBucket repositories to
+                      Connect your GitHub, GitLab, or Bitbucket repositories to
                       CloudCannon.
-                  - feature: Visual Editing
+                  - description: Visual editing
                     tooltip: Give your clients a visual editing experience.
               - name: Standard
                 price: 45
@@ -340,6 +340,392 @@ content_blocks:
   - _bookshop_name: sections/container
     content:
       blocks:
+        - _bookshop_name: sections/container
+          content:
+            label: 'Two column '
+            blocks:
+              - _bookshop_name: sections/two-column
+                content:
+                  left:
+                    blocks:
+                      - _bookshop_name: simple/small-card
+                        content:
+                          icon:
+                            icon_path: outline/cog
+                            icon_color: pink
+                          blocks:
+                            - _bookshop_name: simple/heading
+                              content:
+                                text: Site configuration
+                              styles:
+                                element: h4
+                                width: normal
+                                desktop:
+                                  text_alignment:
+                                    align: left
+                                  text_sizing:
+                                    text_size: small
+                                  margin:
+                                    top: 0
+                                    bottom: 0
+                                tablet:
+                                  text_alignment:
+                                    active: false
+                                    align: center
+                                  text_sizing:
+                                    active: false
+                                    text_size: big
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                mobile:
+                                  text_alignment:
+                                    active: false
+                                    align: center
+                                  text_sizing:
+                                    active: false
+                                    text_size: big
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                            - _bookshop_name: simple/text-block
+                              content:
+                                text_markdown: Starting at
+                              styles:
+                                width: full
+                                desktop:
+                                  text_alignment:
+                                    align: left
+                                  text_sizing:
+                                    text_size: normal
+                                  margin:
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    align_block: center
+                                tablet:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                                mobile:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                            - _bookshop_name: simple/pricing
+                              content:
+                                price: '500'
+                                description: / per project
+                              styles:
+                                desktop:
+                                  margin:
+                                    top: 0
+                                    bottom: 0
+                                tablet:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                mobile:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                            - _bookshop_name: simple/text-block
+                              content:
+                                text_markdown: >-
+                                  If you need help getting set up on
+                                  CloudCannon, our migration team can get your
+                                  site configured for your ideal editing
+                                  experience.
+                              styles:
+                                width: full
+                                desktop:
+                                  text_alignment:
+                                    align: left
+                                  text_sizing:
+                                    text_size: normal
+                                  margin:
+                                    top: 10
+                                    bottom: 0
+                                  block_alignment:
+                                    align_block: center
+                                tablet:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                                mobile:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                        styles:
+                          background: midnight
+                          desktop:
+                            margin:
+                              top: 0
+                              bottom: 0
+                          tablet:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                  right:
+                    blocks:
+                      - _bookshop_name: simple/small-card
+                        content:
+                          icon:
+                            icon_path: outline/user-group
+                            icon_color: blue-white
+                          blocks:
+                            - _bookshop_name: simple/heading
+                              content:
+                                text: Become a partner
+                              styles:
+                                element: h4
+                                width: normal
+                                desktop:
+                                  text_alignment:
+                                    align: left
+                                  text_sizing:
+                                    text_size: small
+                                  margin:
+                                    top: 0
+                                    bottom: 0
+                                tablet:
+                                  text_alignment:
+                                    active: false
+                                    align: center
+                                  text_sizing:
+                                    active: false
+                                    text_size: big
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                mobile:
+                                  text_alignment:
+                                    active: false
+                                    align: center
+                                  text_sizing:
+                                    active: false
+                                    text_size: big
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                            - _bookshop_name: simple/text-block
+                              content:
+                                text_markdown: >-
+                                  If you’re an Agency or Freelancer, join the
+                                  Partner program to gain access to a "Lite"
+                                  pricing plan for $10/ month (USD).
+                              styles:
+                                width: full
+                                desktop:
+                                  text_alignment:
+                                    align: left
+                                  text_sizing:
+                                    text_size: normal
+                                  margin:
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    align_block: center
+                                tablet:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                                mobile:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                            - _bookshop_name: simple/button-holder
+                              content:
+                                button_blocks:
+                                  - _bookshop_name: simple/button
+                                    content:
+                                      text: Find out more
+                                      link: /partner-program/
+                                    styles:
+                                      style: white
+                                      size: normal
+                                      extra_classes:
+                              styles:
+                                desktop:
+                                  margin:
+                                    top: 16
+                                    bottom: 16
+                                  justify:
+                                    align: start
+                                tablet:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  justify:
+                                    active: false
+                                    align: center
+                                mobile:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  justify:
+                                    active: false
+                                    align: center
+                        styles:
+                          background: cc-blue
+                          desktop:
+                            margin:
+                              top: 0
+                              bottom: 0
+                          tablet:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                          mobile:
+                            margin:
+                              active: false
+                              top: 0
+                              bottom: 0
+                styles:
+                  desktop:
+                    columns:
+                      type: split
+                      width: 0
+                      gap: 50
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      v_align: top
+                  tablet:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+                  mobile:
+                    columns:
+                      active: false
+                      type: split
+                      width: 0
+                      gap: 0
+                      vertical_gap: 0
+                    vertical_block_alignment:
+                      active: false
+                      v_align: top
+          styles:
+            background: transparent
+            rounded: full
+            desktop:
+              margin:
+                top: -280
+                right: 0
+                bottom: 160
+                left: 0
+              padding:
+                top: 50
+                right: 50
+                bottom: 50
+                left: 50
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: true
+                top: 30
+                right: 0
+                bottom: 30
+                left: 0
+            size: normal
+            align: none
         - _bookshop_name: sections/two-column
           content:
             left:
@@ -1367,167 +1753,6 @@ content_blocks:
                 top: 0
                 right: 0
                 bottom: 0
-                left: 0
-            size: normal
-            align: none
-        - _bookshop_name: sections/container
-          content:
-            label: Free demo
-            blocks:
-              - _bookshop_name: simple/heading
-                content:
-                  text: Get a free demo
-                styles:
-                  element: h2
-                  width: normal
-                  desktop:
-                    text_alignment:
-                      align: center
-                    text_sizing:
-                      text_size: big
-                    margin:
-                      top: 0
-                      bottom: 0
-                  tablet:
-                    text_alignment:
-                      active: false
-                      align: center
-                    text_sizing:
-                      active: false
-                      text_size: big
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                  mobile:
-                    text_alignment:
-                      active: false
-                      align: center
-                    text_sizing:
-                      active: true
-                      text_size: normal
-                    margin:
-                      active: true
-                      top: 0
-                      bottom: 15
-              - _bookshop_name: simple/text-block
-                content:
-                  text_markdown: >-
-                    Contact us for an obligation-free assessment of your
-                    project.
-                styles:
-                  desktop:
-                    text_alignment:
-                      align: center
-                    text_sizing:
-                      text_size: normal
-                    margin:
-                      top: 30
-                      bottom: 30
-                    block_alignment:
-                      align_block: center
-                  tablet:
-                    text_alignment:
-                      active: false
-                      align: left
-                    text_sizing:
-                      active: false
-                      text_size: normal
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                    block_alignment:
-                      active: false
-                      align_block: left
-                  mobile:
-                    text_alignment:
-                      active: false
-                      align: left
-                    text_sizing:
-                      active: false
-                      text_size: normal
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                    block_alignment:
-                      active: false
-                      align_block: left
-                  width: large
-              - _bookshop_name: simple/button-holder
-                content:
-                  button_blocks:
-                    - _bookshop_name: simple/button
-                      content:
-                        text: Book a demo
-                        link: /book-a-demo/
-                      styles:
-                        style: white
-                        size: big
-                        extra_classes:
-                styles:
-                  desktop:
-                    margin:
-                      top: 0
-                      bottom: 0
-                    justify:
-                      align: center
-                  tablet:
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                    justify:
-                      active: false
-                      align: center
-                  mobile:
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                    justify:
-                      active: false
-                      align: center
-          styles:
-            background: cc-blue
-            rounded: full
-            desktop:
-              margin:
-                top: -280
-                right: 0
-                bottom: 60
-                left: 0
-              padding:
-                top: 50
-                right: 50
-                bottom: 50
-                left: 50
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 30
                 left: 0
             size: normal
             align: none
