@@ -154,14 +154,5 @@
           icon_path: outline/user
           nav_icon_color: amber
       sub_card: []
-    - title: Partners
-      sub_nav:
-      sub_card:
-        - featured_page_link: >-
-            cloudcannon.com/blog/partner-site-of-the-month-stadium-bike-by-insight-creative-inc/
-          name: Partner Site of the Month
-          image:
-            image_path: https://cc-dam.imgix.net/repair-stadium-bike.png
-            image_alt: CloudCannon Partner Site of the Month
 - name: Pricing
   link: /pricing/
