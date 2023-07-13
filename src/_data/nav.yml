@@ -161,7 +161,7 @@
             /blog/partner-site-of-the-month-stadium-bike-by-insight-creative-inc/
           name: 'Partner of the month: Insight Creative, Inc.'
           image:
-            image_path: https://cc-dam.imgix.net/partner-site-stadium-bike-1.png
+            image_path: https://cc-dam.imgix.net/partner-site-image.png
             image_alt: CloudCannon Partner Site of the Month
 - name: Pricing
   link: /pricing/
