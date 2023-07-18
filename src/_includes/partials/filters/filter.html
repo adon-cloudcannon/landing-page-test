@@ -174,11 +174,11 @@
                 category: [],
                 location: [],
             },
-
+    
             toggleLoadingState(isLoading) {
                 this.loading = isLoading;
             },
-
+    
             initialisePagefind() {
                 (async () => {
                     try {
@@ -190,7 +190,7 @@
                     }
                     })();
             },
-
+    
             get selectedOptions() {
                 return Object.values(this.filters).flat();
             },
@@ -205,7 +205,7 @@
                 // Set usesPagefind to true if an element with id 'page-find' exists, otherwise set it to false.
                 this.usesPagefind = document.getElementById('pagefind-filtering') ? true : false;
             },
-
+    
             debounce(func, wait) {
                 let timeout;
                 return function executedFunction(...args) {
@@ -217,7 +217,7 @@
                     timeout = setTimeout(later, wait);
                 };
             },
-
+    
             toggleCheckboxEvent(event, option, filterType) {
                 event.stopPropagation();
                 const checkbox = event.currentTarget.querySelector('input[type="checkbox"]');
@@ -226,7 +226,7 @@
                     this.addOrRemoveFilterOptionAndUpdateRenderedItems(option, checkbox.checked, filterType);
                 }
             },
-
+    
             generateFilterButtonLabelBasedOnSelectionAndDevice(filterType, filterName) {
                 // updates the button labels depending on the number of filters selected, and if the user is on mobile
                 const selectedCount = this.filters[filterType]?.length || 0;
@@ -260,7 +260,7 @@
                 option = option.toLowerCase().replace(/ /g, '-');
                 if (isChecked && !filterArray.includes(option)) {
                     filterArray.push(option);
-
+    
                 } else if (!isChecked) {
                     const optionIndex = filterArray.indexOf(option);
                     if (optionIndex !== -1) {
@@ -291,7 +291,7 @@
                     }
                 });
                 this.addOrRemoveOptionFromAllFilterTypes(option, false);
- 
+    
                 this.updateShownPostsBasedOnPagefindUsage();
             },
             removeAllOptionsFromFilter() {
@@ -317,7 +317,7 @@
                 }
              
             },
-
+    
             updateShownPostsWithoutPagefind(templateList, filters) {
                 const anyFiltersSelected = this.areAnyFiltersSelected(filters);
                 const listWrapper = document.getElementById('list-wrapper');
@@ -342,10 +342,10 @@
                 listWrapper.classList.toggle('hidden', !isResultAvailable);
                 noResults.classList.toggle('hidden', isResultAvailable);
             },
-
+    
             
-
-
+    
+    
             async getSearchResults(filters) {
                 return await this.pagefind.search(null, { 
                     filters: {
@@ -421,7 +421,7 @@
                 }
             },
             
-
+    
             calculateVisiblePosts(estimatedPostHeight) {
                 const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
                 return Math.floor(viewportHeight / estimatedPostHeight);
@@ -429,73 +429,40 @@
             
             
             
+            createSkeletonElement(elementType, classNames) {
+                const element = document.createElement(elementType);
+                element.classList.add(...classNames);
+                return element;
+            },
             
             createSkeletonPost() {
-                
-                const skeletonPost = document.createElement("div");
-                skeletonPost.classList.add(
-                  "skeleton-post",
-                  "animate-pulse",
-                  "mb-4",
-                  "flex",
-                  "flex-col",
-                  "gap-y-4"
-
-                );
-
-                const skeletonPostImage = document.createElement("div");
-                skeletonPostImage.classList.add(
-                  "skeleton-post-Image",
-                  "transition",
-                   "rounded-lg",
-                  "h-[250px]",
-                   "w-full",
-                   "animate-pulse",
-                  "bg-gray-400",
-
-                );
+                const fragment = document.createDocumentFragment();
+            
+                const skeletonPost = this.createSkeletonElement("div", ["skeleton-post", "animate-pulse", "mb-4", "flex", "flex-col", "gap-y-4"]);
+                fragment.appendChild(skeletonPost);
+            
+                const skeletonPostImage = this.createSkeletonElement("div", ["skeleton-post-Image", "transition", "rounded-lg", "h-64", "w-full", "animate-pulse", "bg-gray-400"]);
                 skeletonPost.appendChild(skeletonPostImage);
-
-                const skeletonPostTags = document.createElement("div");
-                skeletonPostTags.classList.add(
-                  "skeleton-post-Tags",
-                  "p-4",
-                  "w-1/2",
-                  "bg-gray-400",
-                  "animate-pulse",
-                  "rounded-lg"
-                );
-
+            
+                const skeletonPostTags = this.createSkeletonElement("div", ["skeleton-post-Tags", "p-4", "w-1/2", "bg-gray-400", "animate-pulse", "rounded-lg"]);
                 skeletonPost.appendChild(skeletonPostTags);
-
-
-                const skeletonPostTitle = document.createElement("div");
-                skeletonPostTitle.classList.add(
-                  "skeleton-post-Title",
-                  "p-8",
-                  "w-full",
-                  "bg-gray-400",
-                  "animate-pulse",
-                  "rounded-lg"
-                );
+            
+                const skeletonPostTitle = this.createSkeletonElement("div", ["skeleton-post-Title", "p-6", "w-full", "bg-gray-400", "animate-pulse", "rounded-lg"]);
                 skeletonPost.appendChild(skeletonPostTitle);
-                
-                const skeletonPostAuthor = document.createElement("div");
-                skeletonPostAuthor.classList.add(
-                  "skeleton-post-Author",
-                  "p-2",
-                  "w-1/2",
-                  "bg-gray-400",
-                  "rounded-lg"
-                );
+            
+                const skeletonPostAuthor = this.createSkeletonElement("div", ["skeleton-post-Author", "p-2", "w-1/2", "bg-gray-400", "rounded-lg"]);
                 skeletonPost.appendChild(skeletonPostAuthor);
+            
+                
+                return fragment;
+            },
 
-                return skeletonPost;
-              },
+             
+            
               
               
               
-
+    
             areAnyFiltersSelected(filters){
                 return Object.values(filters).some(filterArray => filterArray.length > 0);
             },
@@ -510,10 +477,10 @@
                     resultsContainer.removeChild(resultsContainer.firstChild);
                 }
             },
-
-
+    
+    
             createAndAppendGridForPosts(results) {
-
+    
                 const container = document.createElement("div");
                 container.classList.add("grid", "grid-cols-1", "md:grid-cols-2", "xl:grid-cols-3", "gap-x-5", "gap-y-12");
             
@@ -539,15 +506,15 @@
                 }
             
                 gridContainer.appendChild(container);
-
-
+    
+    
             },
             
             createPostContainer(post) {
                 const tagsArray = post.meta.blog_tags.split(',');
                 
                 
-
+    
                 const postContainer = document.createElement("div");
                 
                 postContainer.appendChild(this.createImageElement(post));
