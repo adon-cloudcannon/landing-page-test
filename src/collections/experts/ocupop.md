@@ -14,8 +14,8 @@ long_description: >-
   unparalleled enthusiasm and empathy to make a creative experience and working
   relationship unlike any other.</p><p>We dig deep, debate and deliver together:
   laughing, crying, and fighting like hell to change lives—or at the very least
-  blow minds.</p><p><a href="/customers/ocupop/">Read the Ocupop Case Study here
-  &gt;</a></p>
+  blow minds.</p><p>Read the&nbsp;<a href="/customers/ocupop/">Ocupop Case Study
+  here &gt;</a></p>
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-10-30-12-am.png
 logo_image: /images/logos/experts/layer-2-1.svg
 location: Milwaukee, Hawaii, Whistler & Savannah

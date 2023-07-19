@@ -49,10 +49,6 @@ slides:
       Read more about the Fiducian website design and development on the
       [Partner Site of the Month study
       &gt;](/blog/partner-site-of-the-month-fiducian-croissant-baguette/)
-
-
-      <a target="_blank" rel="noopener" href="https://www.fiducian.com.au/">View
-      Fiducian's website &gt;</a>
   - title: EdTripper
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-23-40-pm.png
     content_markdown: >-
