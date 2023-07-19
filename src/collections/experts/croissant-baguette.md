@@ -46,8 +46,8 @@ slides:
       integrity. The site scores 99% on GTmetrix despite its massive size.
 
 
-      Read more about the Fiducian website design and development on the
-      [Partner Site of the Month study
+      Fiducian's website was awarded our Partner Site of the Month in June 2023,
+      [read more about it here
       &gt;](/blog/partner-site-of-the-month-fiducian-croissant-baguette/)
   - title: EdTripper
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-23-40-pm.png
