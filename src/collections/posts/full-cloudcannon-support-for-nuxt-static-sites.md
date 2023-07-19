@@ -11,7 +11,6 @@ image: https://cc-dam.imgix.net/blog-nuxt-launch.png
 date: 2023-07-21T05:00:00+12:00
 hide_publish_date: false
 tags:
-  - Nuxt-js
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 cta:
