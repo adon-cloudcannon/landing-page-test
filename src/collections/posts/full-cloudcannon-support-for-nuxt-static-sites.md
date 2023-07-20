@@ -11,6 +11,7 @@ image: https://cc-dam.imgix.net/blog-nuxt-launch.png
 date: 2023-07-21T05:00:00+12:00
 hide_publish_date: false
 tags:
+    - Nuxt.js
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 cta:
@@ -35,23 +36,19 @@ Another week, and another static site generator out of beta and into full suppor
 
 ## What’s new for Nuxt users?
 
-Let's explore what's new for Nuxt users on CloudCannon:
-
 ### Full support for all Nuxt static sites
 
 We have extensively imported, built, and stress-tested various static Nuxt sites using CloudCannon. Whether you're developing locally with GitHub, GitLab, and Bitbucket connections or spinning up new Nuxt sites directly on CloudCannon from our existing themes, we have improved the Nuxt experience for all our users.
 
-### Comprehensive documentation and guides for Nuxt on CloudCannon:
+### Documentation and guides for Nuxt users
 
 Our <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/">Nuxt-specific documentation</a> has been thoroughly updated to provide clear answers to all your queries. Additionally, our support and engineering teams have prepared detailed advice on configuring your current Nuxt sites to seamlessly integrate with CloudCannon's Visual, Content, and Data Editors.
 
 Whether you're working on page-building, content editing, visual design, creating Vue.js components, or any other aspect of your CloudCannon Nuxt sites, our documentation, <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/nuxtjs-starter-guide/">getting started guide</a>, and support resources have got you covered.
 
-![](https://cc-dam.imgix.net/blog/blog-next-launch-sendit.jpg)
-
 ### Introducing "Sendit" — a new free page-building theme for Nuxt
 
-We've extended our theme "<a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit</a>" to support Nuxt, showcasing the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Nuxt users. Sendit offers a sleek, modern, and ready-to-use website template that is available for everyone to adapt, edit, and customize. It also serves as an excellent example of how to configure your existing Nuxt sites for CloudCannon, with a lot of insights provided in the /`cloudcannon.config.yml` file.
+![](https://cc-dam.imgix.net/blog/blog-next-launch-sendit.jpg)We've extended our theme "<a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit</a>" to support Nuxt, showcasing the benefits of CloudCannon's page-building processes and adaptable Visual Editor for Nuxt users. Sendit offers a sleek, modern, and ready-to-use website template that is available for everyone to adapt, edit, and customize. It also serves as an excellent example of how to configure your existing Nuxt sites for CloudCannon, with a lot of insights provided in the /`cloudcannon.config.yml` file.
 
 With Sendit, all users can effortlessly create pages from a set of 20 pre-styled and reusable components. Additionally, you can easily customize the navigation, footer, hero options, and subtle animations, all optimized for seamless editing within CloudCannon.
 
