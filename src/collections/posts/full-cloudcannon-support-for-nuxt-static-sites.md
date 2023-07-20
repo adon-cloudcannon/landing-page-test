@@ -5,13 +5,13 @@ breadcrumb_title: 'Full support for Nuxt static sites '
 description: >-
   We've added full support for Nuxt static sites on CloudCannon, including
   visual editing, page-building, and a new Nuxt theme.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog-nuxt-launch.png
 date: 2023-07-21T05:00:00+12:00
 hide_publish_date: false
 tags:
-    - Nuxt.js
+  - Nuxt.js
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 cta:
@@ -35,8 +35,6 @@ seo:
 Another week, and another static site generator out of beta and into full support on CloudCannon! We’re excited to add <a target="_blank" rel="noopener" href="/nuxt-cms/">Nuxt</a> to our selection of leading SSGs, including <a target="_blank" rel="noopener" href="/astro-cms/">Astro</a>, <a target="_blank" rel="noopener" href="/eleventy-cms/">Eleventy</a>, <a target="_blank" rel="noopener" href="/hugo-cms/">Hugo</a>, <a target="_blank" rel="noopener" href="/sveltekit-cms/">SvelteKit</a>, <a target="_blank" rel="noopener" href="/nextjs-cms/">Next.js</a>, <a target="_blank" rel="noopener" href="/gatsby-cms/">Gatsby</a>, and <a target="_blank" rel="noopener" href="/jekyll-cms/">Jekyll</a>. (What a crowd!)
 
 ## What’s new for Nuxt users?
-
-### Full support for all Nuxt static sites
 
 We have extensively imported, built, and stress-tested various static Nuxt sites using CloudCannon. Whether you're developing locally with GitHub, GitLab, and Bitbucket connections or spinning up new Nuxt sites directly on CloudCannon from our existing themes, we have improved the Nuxt experience for all our users.
 
