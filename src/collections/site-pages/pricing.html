@@ -329,7 +329,7 @@ content_blocks:
                       - _bookshop_name: simple/emoji-heading
                         content:
                           title: Are you an Agency or Freelancer?
-                          emoji: 🌟
+                          emoji:
                           sub_title:
                         styles:
                           width:
@@ -403,22 +403,148 @@ content_blocks:
                               align_block: left
                   right:
                     blocks:
-                      - _bookshop_name: pricing/plan-summary
+                      - _bookshop_name: simple/small-card
                         content:
-                          plans:
-                            - name: Lite
-                              price: '10'
-                              description: >-
-                                A pay-as-you-go plan for smaller clients with
-                                basic features included. 
-                              cta:
-                                text: Learn more about the Partner Program
-                                style:
-                                link: /partner-program/
-                              featured:
-                              feature_heading:
-                              features: []
+                          icon:
+                            icon_path: outline/check-circle
+                            icon_color: blue
+                          blocks:
+                            - _bookshop_name: simple/heading
+                              content:
+                                text: Lite
+                              styles:
+                                element: h4
+                                width: normal
+                                desktop:
+                                  text_alignment:
+                                    align: left
+                                  text_sizing:
+                                    text_size: small
+                                  margin:
+                                    top: 0
+                                    bottom: 20
+                                tablet:
+                                  text_alignment:
+                                    active: false
+                                    align: center
+                                  text_sizing:
+                                    active: false
+                                    text_size: big
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                mobile:
+                                  text_alignment:
+                                    active: false
+                                    align: center
+                                  text_sizing:
+                                    active: false
+                                    text_size: big
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                            - _bookshop_name: simple/pricing
+                              content:
+                                price: '10'
+                                description: / month (USD)
+                              styles:
+                                desktop:
+                                  margin:
+                                    top: 0
+                                    bottom: 0
+                                tablet:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                mobile:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                            - _bookshop_name: simple/text-block
+                              content:
+                                text_markdown: >-
+                                  A pay-as-you go plan for smaller clients with
+                                  basic features included.
+                              styles:
+                                width: medium
+                                desktop:
+                                  text_alignment:
+                                    align: left
+                                  text_sizing:
+                                    text_size: normal
+                                  margin:
+                                    top: 20
+                                    bottom: 0
+                                  block_alignment:
+                                    align_block: center
+                                tablet:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                                mobile:
+                                  text_alignment:
+                                    active: false
+                                    align: left
+                                  text_sizing:
+                                    active: false
+                                    text_size: normal
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  block_alignment:
+                                    active: false
+                                    align_block: left
+                            - _bookshop_name: simple/button-holder
+                              content:
+                                button_blocks:
+                                  - _bookshop_name: simple/button
+                                    content:
+                                      text: Learn more about the Partner Program
+                                      link: /partner-program/
+                                    styles:
+                                      style: normal
+                                      size: normal
+                                      extra_classes:
+                              styles:
+                                desktop:
+                                  margin:
+                                    top: 20
+                                    bottom: 0
+                                  justify:
+                                    align: start
+                                tablet:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  justify:
+                                    active: false
+                                    align: center
+                                mobile:
+                                  margin:
+                                    active: false
+                                    top: 0
+                                    bottom: 0
+                                  justify:
+                                    active: false
+                                    align: center
                         styles:
+                          background:
                           desktop:
                             margin:
                               top: 0
