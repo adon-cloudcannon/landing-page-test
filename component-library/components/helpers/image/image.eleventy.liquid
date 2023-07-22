@@ -44,10 +44,7 @@
           {% assign c_height = h | times: reduce_ratio %}
         {% endif %}
 
-        <source
-          data-pagefind-meta="{{ pagefind-meta-data }}"
-          media="(min-width: {{ c_width }}px)"
-          srcset="{{ image_path | image_resize: c_width, 2, c_height }} 2x, {{ image_path | image_resize: c_width, 1, c_height }} 1x">
+        <source media="(min-width: {{ c_width }}px)" srcset="{{ image_path | image_resize: c_width, 2, c_height }} 2x, {{ image_path | image_resize: c_width, 1, c_height }} 1x">
       {% endfor %}
 
       <img
@@ -59,7 +56,6 @@
     </picture>
   {% else %}
     <img
-      data-pagefind-meta="{{ pagefind-meta-data }}"
       src="{{ image_path | image_resize: w, 1, h }}"
       alt="{{ alt }}"
       {{ dimensions }}
@@ -67,7 +63,6 @@
   {% endif %}
 {% else %}
   <img
-    data-pagefind-meta="{{ pagefind-meta-data }}"
     src="{{ image }}"
     alt="{{ alt }}"
     class="{{ img_classes }}">
