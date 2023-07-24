@@ -12,6 +12,8 @@ image: https://cc-dam.imgix.net/11ty-zach.png
 date: 2023-07-26T05:00:00+12:00
 hide_publish_date: false
 tags:
+  - Company
+  - Eleventy
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 permalink: /blog/{{ title | slugify }}/
 cta:
@@ -46,7 +48,7 @@ We talk a lot about the ‘lean web’ at CloudCannon. (And we’ll talk a lot m
 
 Our developers are really looking forward to the chance to work with Zach as he continues development on Eleventy. We spoke with several devs when we first switched our stack, and their experiences with using Eleventy on CloudCannon were uniformly positive:
 
-{% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/848156181" autoplay:false extend:true border:true %}
+{% bookshop 'markdown/youtube' title: "Why CloudCannon Developers love Eleventy" id: "Mlpe3oNb7Sg" extend: false border: false %}
 
 ## Welcome, Zach!
 
