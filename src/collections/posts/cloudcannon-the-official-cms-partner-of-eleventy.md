@@ -15,7 +15,7 @@ tags:
 author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
+  title: Launch your Eleventy website today
   body_text: >-
     Give your content team full autonomy on your developer-approved tech stack
     with CloudCannon.
