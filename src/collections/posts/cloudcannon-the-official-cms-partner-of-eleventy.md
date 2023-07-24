@@ -60,7 +60,7 @@ Zach has gone into more detail about Eleventy’s roadmap, but it’s worth stat
 
 ### Eleventy 3.0 alpha
 
-While we’re over here being excited about everything, we’re also really looking forward to Eleventy’s 3.0 alpha release in the coming weeks. We’ll let Zach fill you in on the forthcoming features and changes, but for obvious (lean web) reasons we’re excited to see what’s coming — largely based on the Eleventy community feedback survey.
+While we’re over here being excited about everything, we’re also really looking forward to Eleventy’s 3.0 alpha release in the coming weeks. We’ll let Zach fill you in on the forthcoming features and changes, but for obvious (lean web) reasons we’re excited to see what’s coming — largely based on the <a target="_blank" rel="noopener" href="https://www.11ty.dev/blog/community-survey-results/">Eleventy community feedback survey</a>.
 
 ## Here’s to the future of the (lean) web!
 
