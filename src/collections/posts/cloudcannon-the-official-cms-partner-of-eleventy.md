@@ -46,7 +46,7 @@ We talk a lot about the ‘lean web’ at CloudCannon. (And we’ll talk a lot m
 
 Our developers are really looking forward to the chance to work with Zach as he continues development on Eleventy. We spoke with several devs when we first switched our stack, and their experiences with using Eleventy on CloudCannon were uniformly positive:
 
-{% bookshop 'markdown/vimeo' video: "https://player.vimeo.com/video/848156181" title: "Why CloudCannon Developers love Eleventy" border: false %}
+{% bookshop 'markdown/vimeo' video: "https://vimeo.com/video/848156181" title: "Why CloudCannon Developers love Eleventy" border: false %}
 
 ## Welcome, Zach!
 
