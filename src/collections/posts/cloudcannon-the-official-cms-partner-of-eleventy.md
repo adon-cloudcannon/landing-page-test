@@ -34,7 +34,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-We’re big fans of <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> here at CloudCannon — so much so that <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">we switched CloudCannon.com over to Eleventy </a>at the start of this year. With decreased build times for our editors and a much smoother workflow for our developers — not to mention the performance gains across the site — we knew it was the right choice.
+We’re big fans of <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> here at CloudCannon — so much so that <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">we switched CloudCannon.com over to Eleventy </a>at the start of this year. With faster build times for our editors and a much smoother workflow for our developers — not to mention the performance gains across the site — we knew it was the right choice.
 
 So we’re particularly excited to announce that CloudCannon and Eleventy have made it official: **CloudCannon is now the official CMS Partner for Eleventy**, and **Eleventy creator Zach Leatherman will be joining the CloudCannon team** as our new Developer Advocate!
 
@@ -68,8 +68,6 @@ Our goal is to make editing and building static sites easier for everyone. It’
 
 Helping people succeed comes first at CloudCannon. We’ve invested our time and energy in open-source development of SSG-agnostic tools like <a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a>, [Rosey](https://rosey.app/), <a target="_blank" rel="noopener" href="https://reseed.app/">Reseed</a>, <a target="_blank" rel="noopener" href="https://github.com/CloudCannon/pagebreak">Pagebreak</a>, and <a target="_blank" rel="noopener" href="https://github.com/CloudCannon/bookshop">Bookshop</a>. For the same reasons, we organize and host <a target="_blank" rel="noopener" href="https://hugoconf.io">HugoConf</a> — because we firmly believe that giving people tools and opportunities to learn, grow, and to share their stories is what the lean web community is all about.
 
-All of which is to say that there’s already an incredible amount of alignment between Eleventy and CloudCannon, and there will be more to come!
+All of which is to say that there’s already an incredible amount of alignment between Eleventy and CloudCannon, and there will be more to come.
 
----
-
-We think the future’s looking pretty bright! What do you think?
+The future of the lean web is bright, and we're excited to be part of it!
