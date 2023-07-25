@@ -21,12 +21,20 @@
 {% case styles.background-color %}
   {% when 'grey' %}
     {% assign bg_color = "bg-[#ECECEC]" %}
+  {% when 'white' %}
+    {% assign bg_color = "bg-white" %}
+  {% when 'cc blue' %}
+    {% assign bg_color = "bg-cc_blue" %}
+  {% when 'carbon' %}
+    {% assign bg_color = "bg-carbon" %}
 {% endcase %}
 
 
 {% case styles.border-radius %}
   {% when 'full' %}
     {% assign border_radius = "rounded-full" %}
+  {% when 'half' %}
+    {% assign border_radius = "rounded" %}
   {% when 'none' %}
     {% assign border_radius = "rounded-none" %}
 {% endcase %}

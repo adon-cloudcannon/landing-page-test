@@ -62,7 +62,7 @@ preview:
 _inputs:
   text:
     comment: The text for the pill
-  text-size:
+  text_size:
     comment: The size of the text.
     type: select
     options:
@@ -77,7 +77,15 @@ _inputs:
       values:
         - grey
         - white
-        - cc-blue
+        - "cc blue"
         - carbon
+  border-radius:
+    comment: The border radius of the pill.
+    type: select
+    options:
+      values:
+        - full
+        - half
+        - none
   extra_classes:
     comment: Special circumstances. Allows you to add a class to a button (You probably don't need this).
