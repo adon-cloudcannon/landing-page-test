@@ -40,6 +40,10 @@ So we’re particularly excited to announce that CloudCannon and Eleventy have m
 
 And more good news for everyone: with our support, Zach will continue to work on Eleventy alongside his role at CloudCannon.
 
+Here's Zach sharing the news:
+
+{% bookshop 'markdown/youtube' title: "" id: "nypsmn70ipI" extend: false border: false %}
+
 ## Our visions for the web
 
 We talk a lot about the ‘lean web’ at CloudCannon. (And we’ll talk a lot more about it in the future, I’m sure!) Eleventy’s approach to the web dovetails incredibly well with ours because we share the same core goals: to improve the tools we use to make websites, to make them more accessible, more open, and more intuitive to all users.
@@ -57,10 +61,6 @@ Of course, we’re also really looking forward to working with Zach. Zach’s cr
 ## Eleventy’s future
 
 <a target="_blank" rel="noopener" href="https://www.11ty.dev/blog/cloudcannon/">Zach has gone into more detail about Eleventy’s roadmap</a>, but it’s worth stating it here as well: active development on Eleventy will continue, and Eleventy will remain completely independent, led by Zach and the 11ty community. It’s an ideal outcome for everyone involved, and we’re delighted that we can help Eleventy continue as an independent open-source SSG.
-
-Here's Zach sharing the news:
-
-{% bookshop 'markdown/youtube' title: "" id: "nypsmn70ipI" extend: false border: false %}
 
 ### Eleventy 3.0 alpha
 
