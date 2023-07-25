@@ -74,6 +74,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("render_text_alignment", StyleRenderer.render_text_alignment);
 	eleventyConfig.addFilter("render_heading_text_size", StyleRenderer.render_heading_text_size);
 	eleventyConfig.addFilter("render_text_block_text_size", StyleRenderer.render_text_block_text_size);
+	eleventyConfig.addFilter("render_sub_text_block_text_size", StyleRenderer.render_sub_text_block_text_size);
 	eleventyConfig.addFilter("render_justify", StyleRenderer.render_justify);
 	eleventyConfig.addFilter("render_spacer", StyleRenderer.render_spacer);
 	eleventyConfig.addFilter("render_block_alignment", StyleRenderer.render_block_alignment);
