@@ -12,7 +12,6 @@ blueprint:
   content:
     text: Info
   styles:
-    style: "normal"
     background-color: "grey"
     border-radius: "full"
     desktop:
@@ -63,15 +62,6 @@ preview:
 _inputs:
   text:
     comment: The text for the pill
-  style:
-    comment: The color combination of the info pill
-    type: select
-    options:
-      values:
-        - normal
-        - outline
-        - outline-white
-        - white
   text-size:
     comment: The size of the text.
     type: select
