@@ -6,7 +6,7 @@ description: >-
   CloudCannon is now the official CMS Partner for Eleventy, and Eleventy creator
   Zach Leatherman is joining the CloudCannon team. With our support, Zach will
   continue to work on Eleventy alongside his role at CloudCannon.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/11ty-zach.png
 date: 2023-07-26T03:00:00+12:00
@@ -52,15 +52,19 @@ Our developers are really looking forward to the chance to work with Zach as he 
 
 ## Welcome, Zach!
 
-Of course, we’re also incredibly excited about working with Zach. Zach’s credentials as a developer are apparent to everyone in the modern web development community, and we know he’ll be a fantastic advocate and educator for CloudCannon users alongside his continuing stewardship of the Eleventy community.
+Of course, we’re also really looking forward to working with Zach. Zach’s credentials as a developer are apparent to everyone in the modern web development community, and we know he’ll be a fantastic advocate and educator for CloudCannon users alongside his continuing stewardship of the Eleventy community.
 
 ## Eleventy’s future
 
-Zach has gone into more detail about Eleventy’s roadmap, but it’s worth stating it here as well: active development on Eleventy will continue, and Eleventy will remain completely independent, led by Zach and the 11ty community. It’s an ideal outcome for everyone involved, and we’re delighted that we can help Eleventy continue as an independent open-source SSG.
+<a target="_blank" rel="noopener" href="https://www.11ty.dev/blog/cloudcannon/">Zach has gone into more detail about Eleventy’s roadmap</a>, but it’s worth stating it here as well: active development on Eleventy will continue, and Eleventy will remain completely independent, led by Zach and the 11ty community. It’s an ideal outcome for everyone involved, and we’re delighted that we can help Eleventy continue as an independent open-source SSG.
+
+Here's Zach sharing the news:
+
+{% bookshop 'markdown/youtube' title: "" id: "nypsmn70ipI" extend: false border: false %}
 
 ### Eleventy 3.0 alpha
 
-While we’re over here being excited about everything, we’re also really looking forward to Eleventy’s 3.0 alpha release in the coming weeks. We’ll let Zach fill you in on the forthcoming features and changes, but for obvious (lean web) reasons we’re excited to see what’s coming — largely based on the <a target="_blank" rel="noopener" href="https://www.11ty.dev/blog/community-survey-results/">Eleventy community feedback survey</a>.
+While we’re over here being excited about everything, we’re also really looking forward to Eleventy’s 3.0 alpha release in the coming weeks. We’ll let Zach fill you in on the forthcoming features and changes, but for obvious (lean web) reasons we’re looking forward to what’s coming — which will be largely based on the <a target="_blank" rel="noopener" href="https://www.11ty.dev/blog/community-survey-results/">Eleventy community feedback survey</a>.
 
 ## Here’s to the future of the (lean) web!
 
