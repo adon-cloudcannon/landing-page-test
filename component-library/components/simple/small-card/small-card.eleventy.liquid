@@ -30,10 +30,10 @@
   {% assign classes = classes | append: " bg-white light-text" %}
 {% endcase %}
 
-{% if not content.icon %}
-  {% assign classes_main_div = classes_main_div | append: " p-8 md:min-w-[300px] xlg:max-w-[374px]" %}
-{% else %}
+{% if content.icon %}
   {% assign classes_sub_div = classes_sub_div | append: "pt-5 md:pt-0 md:pl-5" %}
+{% else %}
+  {% assign classes_main_div = classes_main_div | append: " p-8 md:min-w-[300px] xlg:max-w-[374px]" %}
 {% endif %}
 
 <style>
