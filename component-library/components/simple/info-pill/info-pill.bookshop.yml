@@ -77,7 +77,7 @@ _inputs:
       values:
         - grey
         - white
-        - "cc blue"
+        - "cc-blue"
         - carbon
   border-radius:
     comment: The border radius of the pill.
