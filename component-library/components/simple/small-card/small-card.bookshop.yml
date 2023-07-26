@@ -64,14 +64,13 @@ _inputs:
     type: select
     options:
       values:
-        - black
         - white
+        - carbon
         - grey
         - cc-blue
         - ash 
         - night
         - midnight
-        - carbon
         - none
   icon_color:
     hidden: hide_icon 
