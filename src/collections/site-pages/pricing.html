@@ -15,6 +15,7 @@ search_bucket: Company
 content_blocks:
   - _bookshop_name: sections/container
     content:
+      label:
       blocks:
         - _bookshop_name: simple/emoji-heading
           content:
@@ -93,6 +94,7 @@ content_blocks:
           content:
             text_markdown: Designed for organizations of all sizes.
           styles:
+            width: medium
             desktop:
               text_alignment:
                 align: center
@@ -131,19 +133,18 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-            width: medium
         - _bookshop_name: pricing/plan-summary
           content:
             plans:
               - name: Standard
                 price: 45
                 description: For small teams who want to use our core features.
-                featured: true
                 cta:
                   text: Start 14-day trial
                   style: normal
                   link: >-
                     https://app.cloudcannon.com/register#plans/start-trial?trial=cc_standard
+                featured: true
                 feature_heading: 'Standard plan includes:'
                 features:
                   - description: 3 users
@@ -163,12 +164,12 @@ content_blocks:
               - name: Team
                 price: 250
                 description: For teams with more advanced editing workflows.
-                featured: false
                 cta:
                   text: Start 14-day trial
                   style: outline
                   link: >-
                     https://app.cloudcannon.com/register#plans/start-trial?trial=cc_team
+                featured: false
                 feature_heading: 'Standard plan plus:'
                 features:
                   - description: 15 users
@@ -190,11 +191,11 @@ content_blocks:
                 description: >-
                   For large organizations with advanced compliance and security
                   requirements.
-                featured: false
                 cta:
                   text: Book a call with us
                   style: outline
                   link: /book-a-demo/
+                featured: false
                 feature_heading: 'Team plan plus:'
                 features:
                   - description: Custom user allowance
@@ -278,6 +279,7 @@ content_blocks:
       rounded: none
       size: normal
       align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -317,6 +319,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
+      label:
       blocks:
         - _bookshop_name: sections/container
           content:
@@ -407,9 +410,10 @@ content_blocks:
                       - _bookshop_name: simple/small-card
                         content:
                           icon:
+                            hide_icon: true
                             icon_path: outline/heart
                             icon_color: teal
-                            hide_icon: true
+                          info_pill:
                           blocks:
                             - _bookshop_name: simple/heading
                               content:
@@ -457,11 +461,9 @@ content_blocks:
                                   text_sizing:
                                     text_size: normal
                                   position:
-                                    active: true
                                     top: -4
                                     right: 0
                                   padding:
-                                    active: false
                                     top: 8
                                     left: 20
                                     bottom: 8
@@ -487,13 +489,14 @@ content_blocks:
                                   position:
                                     active: true
                                     top: -4
+                                    left: 0
+                                    bottom: 0
                                     right: 0
                                   padding:
                                     active: false
                                     top: 8
-                                    left: 20
-                                    bottom: 8
                                     right: 20
+                                extra_classes:
                             - _bookshop_name: simple/pricing
                               content:
                                 price: '10'
@@ -570,7 +573,6 @@ content_blocks:
                                       size: normal
                                       extra_classes: min-w-full
                               styles:
-                                extra_classes: min-w-full
                                 desktop:
                                   margin:
                                     top: 20
@@ -593,9 +595,10 @@ content_blocks:
                                   justify:
                                     active: false
                                     align: center
+                                extra_classes: min-w-full
                         styles:
-                          background: white
                           border_color: white
+                          background: white
                           desktop:
                             margin:
                               top: 0
@@ -689,8 +692,10 @@ content_blocks:
                 - _bookshop_name: simple/small-card
                   content:
                     icon:
+                      hide_icon: false
                       icon_path: outline/cog
                       icon_color: orange
+                    info_pill:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
@@ -732,6 +737,7 @@ content_blocks:
                         content:
                           text_markdown: Starting at
                         styles:
+                          width: full
                           desktop:
                             text_alignment:
                               align: left
@@ -741,7 +747,7 @@ content_blocks:
                               top: 0
                               bottom: 0
                             block_alignment:
-                              align_block:
+                              align_block: center
                           tablet:
                             text_alignment:
                               active: false
@@ -770,7 +776,6 @@ content_blocks:
                             block_alignment:
                               active: false
                               align_block: left
-                          width: full
                       - _bookshop_name: simple/pricing
                         content:
                           price: '500'
@@ -797,6 +802,7 @@ content_blocks:
                             migration team can get your site configured for your
                             ideal editing experience.
                         styles:
+                          width: full
                           desktop:
                             text_alignment:
                               align: left
@@ -806,7 +812,7 @@ content_blocks:
                               top: 10
                               bottom: 0
                             block_alignment:
-                              align_block:
+                              align_block: center
                           tablet:
                             text_alignment:
                               active: false
@@ -835,8 +841,8 @@ content_blocks:
                             block_alignment:
                               active: false
                               align_block: left
-                          width: full
                   styles:
+                    border_color:
                     background:
                     desktop:
                       margin:
@@ -857,12 +863,14 @@ content_blocks:
                 - _bookshop_name: simple/small-card
                   content:
                     icon:
+                      hide_icon: false
                       icon_path: outline/user-group
                       icon_color: blue
+                    info_pill:
                     blocks:
                       - _bookshop_name: simple/heading
                         content:
-                          text: Get a free demo
+                          text: See CloudCannon in action
                         styles:
                           element: h4
                           width: normal
@@ -899,9 +907,10 @@ content_blocks:
                       - _bookshop_name: simple/text-block
                         content:
                           text_markdown: >-
-                            Contact us for an obligation-free assessment of your
-                            project.
+                            Watch our 5-minute demo video, and if you have more
+                            questions book a call with one of our team.&nbsp;
                         styles:
+                          width: medium
                           desktop:
                             text_alignment:
                               align: left
@@ -911,7 +920,7 @@ content_blocks:
                               top: 0
                               bottom: 0
                             block_alignment:
-                              align_block:
+                              align_block: center
                           tablet:
                             text_alignment:
                               active: false
@@ -940,7 +949,6 @@ content_blocks:
                             block_alignment:
                               active: false
                               align_block: left
-                          width: medium
                       - _bookshop_name: simple/button-holder
                         content:
                           button_blocks:
@@ -956,7 +964,7 @@ content_blocks:
                           desktop:
                             margin:
                               top: 16
-                              bottom: 16
+                              bottom: 54
                             justify:
                               align: start
                           tablet:
@@ -975,7 +983,9 @@ content_blocks:
                             justify:
                               active: false
                               align: center
+                          extra_classes:
                   styles:
+                    border_color:
                     background: white
                     desktop:
                       margin:
@@ -1104,6 +1114,7 @@ content_blocks:
                         content:
                           text_markdown: Add users and shares as you need them.
                         styles:
+                          width: full
                           desktop:
                             text_alignment:
                               align: left
@@ -1113,7 +1124,7 @@ content_blocks:
                               top: 0
                               bottom: 0
                             block_alignment:
-                              align_block:
+                              align_block: center
                           tablet:
                             text_alignment:
                               active: false
@@ -1142,12 +1153,13 @@ content_blocks:
                             block_alignment:
                               active: false
                               align_block: left
-                          width: full
                       - _bookshop_name: simple/small-card
                         content:
                           icon:
+                            hide_icon: false
                             icon_path: outline/users
                             icon_color: green-dark
+                          info_pill:
                           blocks:
                             - _bookshop_name: simple/heading
                               content:
@@ -1210,6 +1222,7 @@ content_blocks:
                                   Add additional users on your Standard or Team
                                   plan, including client sharing.
                               styles:
+                                width: full
                                 desktop:
                                   text_alignment:
                                     align: left
@@ -1219,7 +1232,7 @@ content_blocks:
                                     top: 10
                                     bottom: 0
                                   block_alignment:
-                                    align_block:
+                                    align_block: center
                                 tablet:
                                   text_alignment:
                                     active: false
@@ -1248,8 +1261,8 @@ content_blocks:
                                   block_alignment:
                                     active: false
                                     align_block: left
-                                width: full
                         styles:
+                          border_color:
                           background: midnight
                           desktop:
                             margin:
@@ -1309,6 +1322,7 @@ content_blocks:
                             Access hosting add-ons to extend your account
                             resources.
                         styles:
+                          width: full
                           desktop:
                             text_alignment:
                               align: left
@@ -1318,7 +1332,7 @@ content_blocks:
                               top: 0
                               bottom: 0
                             block_alignment:
-                              align_block:
+                              align_block: center
                           tablet:
                             text_alignment:
                               active: false
@@ -1347,12 +1361,13 @@ content_blocks:
                             block_alignment:
                               active: false
                               align_block: left
-                          width: full
                       - _bookshop_name: simple/small-card
                         content:
                           icon:
+                            hide_icon: false
                             icon_path: outline/chart-pie
                             icon_color: blue-dark
+                          info_pill:
                           blocks:
                             - _bookshop_name: simple/heading
                               content:
@@ -1415,6 +1430,7 @@ content_blocks:
                                   Extend your bandwidth as needed with a 100GB
                                   bandwidth package.
                               styles:
+                                width: full
                                 desktop:
                                   text_alignment:
                                     align: left
@@ -1424,7 +1440,7 @@ content_blocks:
                                     top: 10
                                     bottom: 0
                                   block_alignment:
-                                    align_block:
+                                    align_block: center
                                 tablet:
                                   text_alignment:
                                     active: false
@@ -1453,7 +1469,6 @@ content_blocks:
                                   block_alignment:
                                     active: false
                                     align_block: left
-                                width: full
                             - _bookshop_name: simple/icon-list
                               content:
                                 list:
@@ -1479,6 +1494,7 @@ content_blocks:
                                     top: 0
                                     bottom: 0
                         styles:
+                          border_color:
                           background: midnight
                           desktop:
                             margin:
@@ -1497,8 +1513,10 @@ content_blocks:
                       - _bookshop_name: simple/small-card
                         content:
                           icon:
+                            hide_icon: false
                             icon_path: outline/globe-asia-australia
                             icon_color: purple-dark
+                          info_pill:
                           blocks:
                             - _bookshop_name: simple/heading
                               content:
@@ -1561,6 +1579,7 @@ content_blocks:
                                   Add an additional domain or subdomain to your
                                   plan.
                               styles:
+                                width: full
                                 desktop:
                                   text_alignment:
                                     align: left
@@ -1570,7 +1589,7 @@ content_blocks:
                                     top: 10
                                     bottom: 0
                                   block_alignment:
-                                    align_block:
+                                    align_block: center
                                 tablet:
                                   text_alignment:
                                     active: false
@@ -1599,7 +1618,6 @@ content_blocks:
                                   block_alignment:
                                     active: false
                                     align_block: left
-                                width: full
                             - _bookshop_name: simple/icon-list
                               content:
                                 list:
@@ -1625,6 +1643,7 @@ content_blocks:
                                     top: 0
                                     bottom: 0
                         styles:
+                          border_color:
                           background: midnight
                           desktop:
                             margin:
@@ -1672,6 +1691,9 @@ content_blocks:
           styles:
             background: night
             rounded: full
+            size: normal
+            align: none
+            shadow: false
             desktop:
               margin:
                 top: 0
@@ -1709,13 +1731,12 @@ content_blocks:
                 right: 0
                 bottom: 0
                 left: 0
-            size: normal
-            align: none
     styles:
       background: ash
       rounded: top
       size: normal
       align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -1755,6 +1776,7 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
+      label:
       blocks:
         - _bookshop_name: simple/heading
           content:
@@ -1795,30 +1817,16 @@ content_blocks:
         - _bookshop_name: pricing/plan-table
           content:
             plan_count: 3
-            names:
-              - Standard
-              - Team
-              - Enterprise
-            prices:
-              - 45
-              - 250
-              - Custom
+            name: []
             links:
               - >-
                 https://app.cloudcannon.com/register#plans/start-trial?trial=cc_standard
               - >-
                 https://app.cloudcannon.com/register#plans/start-trial?trial=cc_team
               - https://staging.cloudcannon.com/book-a-demo/
-            descriptions:
-              - For small teams who want to use CloudCannon's core features.
-              - For teams with more advanced editing workflows.
-              - >-
-                For large organizations with advanced compliance and security
-                requirements.
-            ctas:
-              - trial
-              - trial
-              - demo
+            price: []
+            description: []
+            cta: []
             features:
               - name: Users
                 description: >-
@@ -1949,6 +1957,7 @@ content_blocks:
                   - 'yes'
                   - 'yes'
                   - 'yes'
+                sub_features: []
               - name: Custom branding
                 description: >-
                   Customize your Organization’s interface by adding your brand
@@ -1957,6 +1966,7 @@ content_blocks:
                   - 'yes'
                   - 'yes'
                   - 'yes'
+                sub_features: []
               - name: Branching workflows
                 description: >-
                   Let editors create, edit, and merge sites in the CloudCannon
@@ -1974,12 +1984,14 @@ content_blocks:
                   - 'no'
                   - 'no'
                   - 'yes'
+                sub_features: []
               - name: Uptime SLA
                 description: Service Level Agreement to guarantee uptime on your site.
                 plan_allocation:
                   - 'no'
                   - 'no'
                   - 'yes'
+                sub_features: []
               - name: Professional services
                 description: >-
                   Get access to the CloudCannon Enterprise Applications team for
@@ -1988,6 +2000,7 @@ content_blocks:
                   - 'no'
                   - 'no'
                   - 'yes'
+                sub_features: []
           styles:
             desktop:
               margin:
@@ -2008,6 +2021,7 @@ content_blocks:
       rounded: top
       size: normal
       align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -2214,27 +2228,81 @@ content_blocks:
                   size: big
                   dropdown_icon:
                     icon_path: solid/plus
+                    icon_color: midnight
                   active_dropdown_icon:
                     icon_path: solid/minus
+                    icon_color: midnight
                   desktop:
+                    transform:
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    block_alignment:
+                      align_block: left
                     margin:
                       top: 30
+                      left: 0
                       bottom: 0
+                      right: 0
+                    position:
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
                   tablet:
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
                     margin:
                       active: false
                       top: 0
+                      left: 0
                       bottom: 0
+                      right: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
                   mobile:
+                    transform:
+                      active: false
+                      scale: 1
+                      translate_x: 0
+                      translate_y: 0
+                      rotate: 0
+                      skew: 0
+                    block_alignment:
+                      active: false
+                      align_block: left
                     margin:
                       active: false
                       top: 0
+                      left: 0
                       bottom: 0
+                      right: 0
+                    position:
+                      active: false
+                      top: 0
+                      left: 0
+                      bottom: 0
+                      right: 0
           styles:
             background: transparent
             rounded: none
             size: small
             align: none
+            shadow: false
             desktop:
               margin:
                 top: 0
@@ -2275,6 +2343,9 @@ content_blocks:
     styles:
       background: caramel
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -2312,6 +2383,4 @@ content_blocks:
           right: 0
           bottom: 0
           left: 0
-      size: normal
-      align: none
 ---
