@@ -1815,16 +1815,30 @@ content_blocks:
         - _bookshop_name: pricing/plan-table
           content:
             plan_count: 3
-            name: []
+            names:
+              - Standard
+              - Team
+              - Enterprise
+            prices:
+              - 45
+              - 250
+              - Custom
             links:
               - >-
                 https://app.cloudcannon.com/register#plans/start-trial?trial=cc_standard
               - >-
                 https://app.cloudcannon.com/register#plans/start-trial?trial=cc_team
               - https://staging.cloudcannon.com/book-a-demo/
-            price: []
-            description: []
-            cta: []
+            descriptions:
+              - For small teams who want to use CloudCannon's core features.
+              - For teams with more advanced editing workflows.
+              - >-
+                For large organizations with advanced compliance and security
+                requirements.
+            ctas:
+              - trial
+              - trial
+              - demo
             features:
               - name: Users
                 description: >-
