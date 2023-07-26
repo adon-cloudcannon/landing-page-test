@@ -68,9 +68,6 @@ _inputs:
         - carbon
         - grey
         - cc-blue
-        - ash 
-        - night
-        - midnight
         - none
   icon_color:
     hidden: hide_icon 
