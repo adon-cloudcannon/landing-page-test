@@ -59,6 +59,7 @@ _inputs:
         - ash
         - night
         - midnight
-  icon: 
-    type: object
-  
+  icon_color:
+    hidden: hide_icon 
+  icon_path:
+    hidden: hide_icon
