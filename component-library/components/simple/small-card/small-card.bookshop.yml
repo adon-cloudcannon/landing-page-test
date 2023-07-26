@@ -45,10 +45,6 @@ _inputs:
     comments: Styles for Tablet, unless overridden will also be used for mobile.
   mobile:
     comments: Styles for mobile.
-  icon: 
-    type: object
-    comment: The icon for the card
-  icon_path: 
   background:
     type: select
     comment: The background color for the entire section
