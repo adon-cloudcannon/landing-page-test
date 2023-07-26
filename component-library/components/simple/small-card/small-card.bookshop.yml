@@ -58,3 +58,6 @@ _inputs:
         - ash
         - night
         - midnight
+  icon: 
+    type: object
+  
