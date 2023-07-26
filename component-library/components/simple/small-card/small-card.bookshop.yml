@@ -17,6 +17,7 @@ blueprint:
     info_pill:
     blocks: []
   styles:
+    border_color: 
     background:
     desktop:
       margin:
@@ -57,6 +58,17 @@ _inputs:
         - sea
         - cc-blue
         - ash
+        - night
+        - midnight
+  border_color:
+    type: select
+    options:
+      values:
+        - black
+        - white
+        - grey
+        - cc-blue
+        - ash 
         - night
         - midnight
   icon_color:

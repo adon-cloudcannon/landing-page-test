@@ -30,6 +30,23 @@
   {% assign classes = classes | append: " bg-white light-text" %}
 {% endcase %}
 
+{% case styles.border %}
+  {% when 'black' %}
+    {% assign classes = classes | append: " border-black" %}
+  {% when 'white' %}
+    {% assign classes = classes | append: " border-white" %}
+  {% when 'grey' %}
+    {% assign classes = classes | append: " border-grey" %}
+  {% when 'cc-blue' %}
+    {% assign classes = classes | append: " border-cc" %}
+  {% when 'ash' %}
+    {% assign classes = classes | append: " border-ash" %}
+  {% when 'night' %}
+    {% assign classes = classes | append: " border-night" %}
+  {% when 'midnight' %}
+    {% assign classes = classes | append: " border-midnight" %}
+{% endcase %}
+
 {% if content.icon.hide_icon %}
 {% assign classes_main_div = classes_main_div | append: " p-8 md:min-w-[300px] xlg:max-w-[374px]" %}
 {% else %}
@@ -56,7 +73,7 @@
   }
 </style>
 
-<div class="{{ container_name }} {{ classes }} border-2 border-carbon md:flex rounded-xl p-5 {{ classes_main_div }}">
+<div class="{{ container_name }} {{ classes }} border-2 md:flex rounded-xl p-5 {{ classes_main_div }}">
   {% if content.icon.hide_icon != true %}
     <div class="w-[58px] grow-0 shrink-0">
       {% bookshop "helpers/icon_w_bg" icon_path: content.icon.icon_path icon_color: content.icon.icon_color icon_size: 'normal' %}
