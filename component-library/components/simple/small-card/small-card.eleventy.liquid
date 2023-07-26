@@ -45,6 +45,8 @@
     {% assign classes = classes | append: " border-night" %}
   {% when 'midnight' %}
     {% assign classes = classes | append: " border-midnight" %}
+{% else %}
+  {% assign classes = classes | append: " border-carbon" %}
 {% endcase %}
 
 {% if content.icon.hide_icon %}
