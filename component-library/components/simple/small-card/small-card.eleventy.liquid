@@ -47,6 +47,8 @@
     {% assign classes = classes | append: " border-midnight" %}
   {% when 'carbon' %}
     {% assign classes = classes | append: " border-carbon" %}
+  {% when 'none' %}
+    {% assign classes = classes | append: "" %}
 {% else %}
   {% assign classes = classes | append: " border-carbon" %}
 {% endcase %}

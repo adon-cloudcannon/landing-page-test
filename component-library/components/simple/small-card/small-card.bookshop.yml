@@ -72,6 +72,7 @@ _inputs:
         - night
         - midnight
         - carbon
+        - none
   icon_color:
     hidden: hide_icon 
   icon_path:
