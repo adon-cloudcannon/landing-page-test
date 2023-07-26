@@ -11,9 +11,9 @@ spec:
 blueprint:
   content:
     icon:
+      hide_icon: false
       icon_path: outline/language
       icon_color: teal
-      hide_icon: false
     info_pill:
     blocks: []
   styles:
