@@ -71,6 +71,7 @@ _inputs:
         - ash 
         - night
         - midnight
+        - carbon
   icon_color:
     hidden: hide_icon 
   icon_path:
