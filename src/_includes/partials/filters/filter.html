@@ -574,30 +574,32 @@
                 return imageLink;
             },
             
-            
             createTagsContainer(post) {
                 const tagsContainer = document.createElement("div");
                 tagsContainer.classList.add("text-gray-400", "mt-2");
-        
+            
                 const tagsArray = post.meta.blog_tags.split(',');
-        
+            
                 tagsArray.forEach((tag, index) => {
                     if (tag === "posts") return;
-        
+            
                     const tagLink = document.createElement("a");
                     tagLink.href = `/blog/tags/${encodeURIComponent(tag.trim()).toLowerCase()}/`;
                     tagLink.textContent = tag.trim();
                     tagLink.classList.add("text-cc", "uppercase", "hover:text-cc_hover", "hover:underline", "transition");
                     tagsContainer.appendChild(tagLink);
-        
+            
                     if (index < tagsArray.length - 1) {
                         const separator = document.createElement("span");
                         separator.classList.add("first:hidden");
-                        separator.innerHTML = " &middot; ";
+                        
+                        const separatorText = document.createTextNode(" · "); 
+                        separator.appendChild(separatorText); 
+                        
                         tagsContainer.appendChild(separator);
                     }
                 });
-        
+            
                 return tagsContainer;
             },
             
