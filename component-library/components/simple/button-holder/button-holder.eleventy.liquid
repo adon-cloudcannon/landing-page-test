@@ -1,6 +1,7 @@
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
 {% assign mobile_styles = "" %}
+{% assign classes = styles.extra_classes %}
 
 {% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
 {% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
@@ -13,33 +14,33 @@
 {% assign container_name = "button-holder" | UUID %}
 
 <style>
-	@media (min-width: 1280px) {
-		.{{ container_name}} {
-			{{ desktop_styles }}
-		}
-	}
+  @media(min-width: 1280px) {
+    .{{ container_name}}{
+      {{ desktop_styles }}
+    }
+  }
 
-	@media (min-width: 768px) and (max-width: 1279px) {
-		.{{ container_name}} {
-			{{ tablet_styles }}
-		}
-	}
+  @media(min-width: 768px) and (max-width: 1279px) {
+    .{{ container_name}}{
+      {{ tablet_styles }}
+    }
+  }
 
-	@media (max-width: 767px) {
-		.{{ container_name}} {
-			{{ mobile_styles }}
-		}
+  @media(max-width: 767px) {
+    .{{ container_name}}{
+      {{ mobile_styles }}
+    }
 
-		.{{ container_name}} a {
-			width: 100%;
-		}
-	}
+    .{{ container_name}}a {
+      width: 100%;
+    }
+  }
 </style>
 
 <div class="md:flex {{ container_name }}">
-	{% for component in content.button_blocks %}
-		<div class="mt-3 first:mt-0 md:mt-0 md:mr-3 md:last:mr-0">
-			{% bookshop "{{component._bookshop_name}}" bind: component %}
-		</div>
-	{% endfor %}
+  {% for component in content.button_blocks %}
+    <div class="mt-3 first:mt-0 md:mt-0 md:mr-3 md:last:mr-0 {{ classes }}">
+      {% bookshop "{{component._bookshop_name}}" bind: component %}
+    </div>
+  {% endfor %}
 </div>

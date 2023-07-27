@@ -34,6 +34,7 @@ blueprint:
       justify:
         active: false
         align: center
+    extra_classes:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
@@ -70,3 +71,5 @@ _inputs:
         - between
         - around
         - evenly
+  extra_classes:
+    comment: Special circumstances. Allows you to add a class to a button (You probably don't need this).
