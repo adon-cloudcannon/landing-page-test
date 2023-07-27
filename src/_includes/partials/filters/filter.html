@@ -362,7 +362,31 @@
                 });
             },
             
-             manageLoadingState(isLoading, loadingContainer, visiblePostCount) {
+            observeImage(image, imagesLoadedCount, totalImagesCount, onAllImagesLoaded) {
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            const src = img.dataset.src;
+                            img.src = src;
+            
+                            img.onload = () => {
+                                imagesLoadedCount++; 
+                                if (imagesLoadedCount === totalImagesCount) { 
+                                    onAllImagesLoaded(); 
+                                }
+                            };
+                            
+                            observer.unobserve(img); 
+                        }
+                    });
+                });
+            
+                observer.observe(image); 
+            },
+            
+
+            manageLoadingState(isLoading, loadingContainer, visiblePostCount) {
                 if (isLoading) {
                     this.clearResultsContainer();
                     // Show skeleton posts
@@ -370,16 +394,23 @@
                         const skeletonPost = this.createSkeletonPost();
                         loadingContainer.appendChild(skeletonPost);
                     }
-                    //this.toggleElementVisibility("loading-container", true);
                 } else {
                     // Remove skeleton posts
                     while(loadingContainer.firstChild){
                         loadingContainer.removeChild(loadingContainer.firstChild);
                     }
-                    //this.toggleElementVisibility("loading-container", false);
-                    this.toggleLoadingState(false);
+            
+                    const images = document.querySelectorAll('img[data-observer="true"]');
+                    let imagesLoadedCount = 0;
+            
+                    images.forEach(image => {
+                        this.observeImage(image, imagesLoadedCount, images.length, () => this.toggleLoadingState(false));
+                    });
                 }
             },
+            
+            
+            
             
             async getPagefindResults(results) {
                 const resultsData = await Promise.all(results.map(result => result.data()));
@@ -531,15 +562,18 @@
                 imageLink.classList.add("group");
                 
                 const image = document.createElement("img");
-                image.src = `${post.meta.blog_image}?auto=compress&auto=format&w=584&dpr=2&crop=faces&fit=crop&height=316`;
+                image.dataset.src = `${post.meta.blog_image}?auto=compress&auto=format&w=584&dpr=2&crop=faces&fit=crop&height=316`; // Use data attribute to store the URL
                 image.alt = post.meta.image_alt;
                 image.classList.add("transition", "rounded-lg", "group-hover:opacity-80", "group-hover:scale-105", "h-[250px]", "object-center", "object-cover", "w-full");
                 image.setAttribute("loading", "lazy");
-    
+                
+                image.dataset.observer = 'true';
+            
                 imageLink.appendChild(image);
-    
+                
                 return imageLink;
             },
+            
             
             createTagsContainer(post) {
                 const tagsContainer = document.createElement("div");
