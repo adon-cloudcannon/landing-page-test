@@ -11,16 +11,16 @@ spec:
 blueprint:
   content:
       plan_count: 3
-      names: []
-      links: []
-      prices: []
-      descriptions: []
-      ctas: []
+      names: 
+      links: 
+      prices: 
+      descriptions: 
+      ctas: 
       features:
         - name:
           description: 
-          plan_allocation: []
-          sub_features: []
+          plan_allocation: 
+          sub_features: 
   styles:
     desktop:
       margin:
