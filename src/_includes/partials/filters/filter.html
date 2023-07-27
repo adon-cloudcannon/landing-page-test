@@ -534,6 +534,7 @@
                 image.src = `${post.meta.blog_image}?auto=compress&auto=format&w=584&dpr=2&crop=faces&fit=crop&height=316`;
                 image.alt = post.meta.image_alt;
                 image.classList.add("transition", "rounded-lg", "group-hover:opacity-80", "group-hover:scale-105", "h-[250px]", "object-center", "object-cover", "w-full");
+                image.setAttribute("loading", "lazy");
     
                 imageLink.appendChild(image);
     
