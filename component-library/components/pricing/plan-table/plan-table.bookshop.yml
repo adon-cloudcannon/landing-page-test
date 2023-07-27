@@ -11,11 +11,11 @@ spec:
 blueprint:
   content:
       plan_count: 3
-      name: []
+      names: []
       links: []
-      price: []
-      description: []
-      cta: []
+      prices: []
+      descriptions: []
+      ctas: []
       features:
         - name:
           description: 
