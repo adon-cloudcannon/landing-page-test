@@ -362,8 +362,9 @@ content_blocks:
                       - _bookshop_name: simple/text-block
                         content:
                           text_markdown: >-
-                            Join the CloudCannon Partner Program and get access
-                            to the Lite plan for your clients.
+                            Join the CloudCannon Partner Program and gain
+                            special access to the Lite pricing plan for your
+                            clients.&nbsp;
                         styles:
                           width: full
                           desktop:
@@ -904,9 +905,8 @@ content_blocks:
                       - _bookshop_name: simple/text-block
                         content:
                           text_markdown: >-
-                            Watch a 5-minute demo video of the CloudCannon CMS.
-                            If you still have questions, book a personalized
-                            demo with someone from our team.
+                            Watch our 5-minute demo video, and if you have more
+                            questions book a call with one of our team.&nbsp;
                         styles:
                           width: medium
                           desktop:
@@ -952,7 +952,7 @@ content_blocks:
                           button_blocks:
                             - _bookshop_name: simple/button
                               content:
-                                text: 'Watch the video '
+                                text: Book a demo
                                 link: /book-a-demo/
                               styles:
                                 style: white
@@ -962,7 +962,7 @@ content_blocks:
                           desktop:
                             margin:
                               top: 16
-                              bottom: 22
+                              bottom: 54
                             justify:
                               align: start
                           tablet:
@@ -1062,7 +1062,7 @@ content_blocks:
                 text_size: normal
               margin:
                 active: true
-                top: 90
+                top: 0
                 bottom: 30
         - _bookshop_name: sections/container
           content:
@@ -1815,19 +1815,30 @@ content_blocks:
         - _bookshop_name: pricing/plan-table
           content:
             plan_count: 3
-            name: []
+            names:
+              - Standard
+              - Team
+              - Enterprise
+            prices:
+              - 45
+              - 250
+              - Custom
             links:
               - >-
                 https://app.cloudcannon.com/register#plans/start-trial?trial=cc_standard
               - >-
                 https://app.cloudcannon.com/register#plans/start-trial?trial=cc_team
               - https://staging.cloudcannon.com/book-a-demo/
-            price:
-              - '45'
-            description:
+            descriptions:
               - For small teams who want to use CloudCannon's core features.
-            cta:
-              - Start 14-day trial
+              - For teams with more advanced editing workflows.
+              - >-
+                For large organizations with advanced compliance and security
+                requirements.
+            ctas:
+              - trial
+              - trial
+              - demo
             features:
               - name: Users
                 description: >-
