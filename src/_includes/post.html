@@ -94,8 +94,8 @@ eleventyComputed:
 			</a> 
 		{% endfor %}
 	</div>
-	<div class="w-full md:w-4/5 mx-auto mt-8 mb-10 md:mb-20">
-		{% bookshop 'helpers/image' pagefind-meta-data: "blog_image[src]" image: image alt: title responsive: true width: 972 height: 384 classes: 'w-full md:h-96 object-cover object-center rounded-lg' %}
+	<div data-pagefind-meta="blog_image:{{ image }}" class="w-full md:w-4/5 mx-auto mt-8 mb-10 md:mb-20">
+		{% bookshop 'helpers/image' image: image alt: title responsive: true width: 972 height: 384 classes: 'w-full md:h-96 object-cover object-center rounded-lg' %}
 	</div>
 	<div class="relative -mx-[2rem]">
 		<div class="prose container md:prose-lg lg:prose-xl mx-auto hover:prose-a:text-cc hover:prose-a:transition">
