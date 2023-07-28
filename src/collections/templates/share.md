@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid:
 name: Share
 image: https://cc-dam.imgix.net/share-hero.jpg
@@ -24,7 +25,5 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://hopeful-shoe.cloudvent.net/
-themes_categories:
-  -
-priority: 2
+priority: 7
 ---

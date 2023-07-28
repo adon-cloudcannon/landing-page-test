@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid:
 name: Dante
 image: https://cc-dam.imgix.net/dante_screenshot-resize.png
@@ -24,8 +25,5 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://zealous-sketchpad.cloudvent.net/
-themes_categories:
-  -
-priority: 2
+priority: 6
 ---
-

@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid: 332a94d5-cc71-40a2-a946-270675faf678
 name: Fiction
 image: https://cc-dam.imgix.net/fiction-image-hero-resized.png
@@ -28,7 +29,5 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://scenic-sea.cloudvent.net/
-themes_categories:
-priority: 1
+priority: 8
 ---
-

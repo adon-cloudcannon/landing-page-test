@@ -7,9 +7,7 @@ image_alt: >-
   Screenshot of Alto Hugo theme layout of a documentation page with a menu on
   the left hand side and the content on the right
 description: Alto is a minimal and modern Hugo template for static documentation sites.
-header_description: >-
-  Alto is a minimal and modern Hugo template for static documentation sites,
-  created by and optimized for CloudCannon. 
+header_description: 'Alto is a minimal and modern Hugo template for static documentation sites. '
 image_carousel:
   - image_path: https://cc-dam.imgix.net/rosey.app_docs_translating-images_.png
     image_alt: >-
@@ -33,5 +31,5 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://holy-ball.cloudvent.net/
-priority:
+priority: '2'
 ---

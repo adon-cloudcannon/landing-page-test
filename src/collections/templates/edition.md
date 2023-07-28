@@ -1,4 +1,5 @@
 ---
+_schema: default
 uuid: 8dd97722-bd06-407e-8d7d-1af1317b368e
 name: Edition
 image: https://cc-dam.imgix.net/community/images/templates/edition/1.jpg
@@ -36,11 +37,9 @@ image_carousel:
       the left hand side and the content on the right
 ssgs:
   - ssg_name: jekyll
-    github_repo_url: 'https://github.com/CloudCannon/edition-jekyll-template'
+    github_repo_url: https://github.com/CloudCannon/edition-jekyll-template
     main_branch: main
     readme_filename: README.md
-    live_preview_url: 'https://long-pig.cloudvent.net'
-themes_categories: []
-priority: 5
-
+    live_preview_url: https://long-pig.cloudvent.net
+priority: 9
 ---

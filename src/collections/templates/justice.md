@@ -1,7 +1,9 @@
 ---
+_schema: default
 uuid: 09229e7e-f9e6-4e0f-a540-ed61f583d57b
 name: Justice
 image: https://cc-dam.imgix.net/community/images/templates/justice/1.jpg
+image_alt:
 description: A simple law firm themed template with testimonials, staff and contact pages.
 header_description: >-
   Justice is a law firm themed template for Jekyll which can be modified to fit
@@ -57,8 +59,5 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://busy-waves.cloudvent.net/
-themes_categories:
-  - Contact Page
-priority: 1
+priority: 5
 ---
-
