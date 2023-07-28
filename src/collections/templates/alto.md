@@ -2,7 +2,7 @@
 _schema: default
 uuid: 67e780b5-0b9c-49c9-8183-6a71a7cfbfe1
 name: Alto
-image: https://cc-dam.imgix.net/alto-screenshot.png
+image: https://cc-dam.imgix.net/alto-dark-screenshot.png
 image_alt: >-
   Screenshot of Alto Hugo theme layout of a documentation page with a menu on
   the left hand side and the content on the right
