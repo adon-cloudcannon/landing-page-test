@@ -2,10 +2,10 @@
 _schema: default
 uuid: 67e780b5-0b9c-49c9-8183-6a71a7cfbfe1
 name: Alto
-image: https://cc-dam.imgix.net/alto-dark-screenshot.png
+image: https://cc-dam.imgix.net/holy-ball.cloudvent.net_.png
 image_alt: >-
-  Screenshot of Alto Hugo theme layout of a documentation page with a menu on
-  the left hand side and the content on the right
+  Screenshot of Alto Hugo theme layout of a documentation page in dark mode with
+  a menu on the left hand side and the content on the right
 description: Alto is a minimal and modern Hugo template for static documentation sites.
 header_description: 'Alto is a minimal and modern Hugo template for static documentation sites. '
 image_carousel:
