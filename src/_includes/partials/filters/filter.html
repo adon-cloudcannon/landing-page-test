@@ -24,10 +24,15 @@
         font-size: 16px;
     }
 
+    [x-cloak] {
+        display: none;
+    }
+
 
 </style>
 
-<div x-data="filterComponent()" x-init="init(); initialisePagefind();" class="mb-8 relative">
+<div x-data="filterComponent" x-init="init(); initialisePagefind();" class="mb-8 relative">
+
     <!-- Dropdowns -->
     <div class="flex flex-col md:flex-row gap-4">
         {% for filter in filter_type %}
@@ -157,474 +162,58 @@
             </span>
         </template>
     </div>
+
+    <!-- Skeleton loader -->
+	<div id="loading-container" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12 pt-20" x-cloak x-show="loading">
+        <template x-for="i in 6" >
+            <div class="skeleton-post animate-pulse mb-4 flex flex-col gap-y-4">
+                <div class="skeleton-post-Image transition rounded-lg h-64 w-full animate-pulse bg-gray-400"></div>
+                <div class="skeleton-post-Tags p-4 w-1/2 bg-gray-400 animate-pulse rounded-lg"></div>
+                <div class="skeleton-post-Title p-6 w-full bg-gray-400 animate-pulse rounded-lg"></div>
+                <div class="skeleton-post-Author p-2 w-1/2 bg-gray-400 rounded-lg"></div>
+            </div>
+        </template>
+    </div>
+    
+
+    <!-- Pagefind post results -->
+    <div id="results" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12 pt-8" 
+     x-show="!loading && pagefindResults.length > 0" 
+     x-cloak>
+        <template x-for="(post, index) in pagefindResults" :key="index">
+            
+            <div>
+                <a :href="post.url" class="group">
+                    <img :src="`${post.meta.blog_image}?auto=compress&auto=format&w=584&dpr=2&crop=faces&fit=crop&height=316`"
+                        :alt="post.meta.image_alt"
+                        class="transition rounded-lg group-hover:opacity-80 group-hover:scale-105 h-[250px] object-center object-cover w-full"
+                        loading="lazy"
+                        data-observer="true">
+                </a>
+                
+                <div class="text-gray-400 mt-2">
+                    <template x-for="(tag, tagIndex) in post.meta.blog_tags.split(',')" :key="tagIndex">
+                        <span>
+                            <a :href="`/blog/tags/${encodeURIComponent(tag.trim()).toLowerCase()}/`"
+                            x-text="tag.trim()"
+                            class="text-cc uppercase hover:text-cc_hover hover:underline transition"></a>
+                            <span x-show="tagIndex < post.meta.blog_tags.split(',').length - 1">·</span>
+                        </span>
+                    </template>
+                </div>
+                
+                <h3 class="font-bold text-2xl md:text-3xl mt-1 text-carbon">
+                    <a :href="post.url" x-text="post.meta.title" class="hover:underline"></a>
+                </h3>
+                
+                <p class="mt-3 text-gray-900" x-text="`${post.meta.blog_author} · ${new Date(post.meta.blog_date).toLocaleDateString('en-us', { day: 'numeric', month: 'short', year: 'numeric' })}`"></p>
+            </div>
+        </template>
+    </div>
+    
+
+    
+
 </div>
 
-
-<script>
-    function filterComponent() {
-        return {
-            show: false,
-            open: false,
-            usesPagefind: false,
-            loading: false,
-            pagefind: "",
-            isMobile: window.innerWidth < 768,
-            filters: {
-                framework: [],
-                category: [],
-                location: [],
-            },
-    
-            toggleLoadingState(isLoading) {
-                this.loading = isLoading;
-            },
-    
-            initialisePagefind() {
-                (async () => {
-                    try {
-                        this.pagefind = this.pagefind
-                        ? this.pagefind
-                        : await import("/_pagefind/pagefind.js");
-                    } catch (e) {
-                        this.error = 'Failed to load search, please refresh'
-                    }
-                    })();
-            },
-    
-            get selectedOptions() {
-                return Object.values(this.filters).flat();
-            },
-            init() {
-                this.setUsesPagefind();
-                window.addEventListener('resize', () => {
-                    this.isMobile = window.innerWidth < 768;
-                });
-    
-            },
-            setUsesPagefind() {
-                // Set usesPagefind to true if an element with id 'page-find' exists, otherwise set it to false.
-                this.usesPagefind = document.getElementById('pagefind-filtering') ? true : false;
-            },
-    
-            debounce(func, wait) {
-                let timeout;
-                return function executedFunction(...args) {
-                    const later = () => {
-                        clearTimeout(timeout);
-                        func(...args);
-                    };
-                    clearTimeout(timeout);
-                    timeout = setTimeout(later, wait);
-                };
-            },
-    
-            toggleCheckboxEvent(event, option, filterType) {
-                event.stopPropagation();
-                const checkbox = event.currentTarget.querySelector('input[type="checkbox"]');
-                if (checkbox) {
-                    checkbox.checked = !checkbox.checked;
-                    this.addOrRemoveFilterOptionAndUpdateRenderedItems(option, checkbox.checked, filterType);
-                }
-            },
-    
-            generateFilterButtonLabelBasedOnSelectionAndDevice(filterType, filterName) {
-                // updates the button labels depending on the number of filters selected, and if the user is on mobile
-                const selectedCount = this.filters[filterType]?.length || 0;
-                const pluralizeFilterName = filterType === 'category' ? 'categories' : `${filterName}s`;
-    
-                if (!selectedCount) {
-                    return `Filter by ${filterName}`;
-                }
-    
-                const filterText = this.isMobile
-                    ? `Filtered by ${selectedCount} ${pluralizeFilterName}`
-                    : `Filter by ${filterName}`;
-    
-                if (selectedCount === 1 && this.isMobile) {
-                    return `Filtered by 1 ${filterName}`;
-                }
-    
-                return filterText;
-            },
-            toggleDropdown(index) {
-                // opens and closes the dropdown menu
-                this.open = this.show !== index || !this.open;
-                this.show = this.open ? index : false;
-            },
-            addOrRemoveFilterOptionAndUpdateRenderedItems(option, isChecked, filterType) {
-                const filterArray = this.filters[filterType];
-                if (!filterArray) {
-                    console.error(`Invalid filter type: ${filterType}`);
-                    return;
-                }
-                option = option.toLowerCase().replace(/ /g, '-');
-                if (isChecked && !filterArray.includes(option)) {
-                    filterArray.push(option);
-    
-                } else if (!isChecked) {
-                    const optionIndex = filterArray.indexOf(option);
-                    if (optionIndex !== -1) {
-                        filterArray.splice(optionIndex, 1);
-                    }
-                }
-                this.updateShownPostsBasedOnPagefindUsage();
-            },
-            addOrRemoveOptionFromAllFilterTypes(option, isAdd = true) {
-                // updates the filters object - adds or removes the option from the filters object
-                Object.entries(this.filters).forEach(([filterType, filterArray]) => {
-                    const optionIndex = filterArray.indexOf(option);
-    
-                    if (isAdd && optionIndex === -1) {
-                        filterArray.push(option);
-                    } else if (!isAdd && optionIndex !== -1) {
-                        filterArray.splice(optionIndex, 1);
-                    }
-                });
-            },
-            removeOptionFromFilter(option) {
-                const selector = `input[type="checkbox"]`;
-                Array.from(document.querySelectorAll(selector)).forEach(input => {
-                    const inputValue = input.value.toLowerCase().replace(/ /g, '-');
-                    const optionValue = option.toLowerCase().replace(/ /g, '-');
-                    if (inputValue === optionValue) {
-                        input.checked = false;
-                    }
-                });
-                this.addOrRemoveOptionFromAllFilterTypes(option, false);
-    
-                this.updateShownPostsBasedOnPagefindUsage();
-            },
-            removeAllOptionsFromFilter() {
-                const selector = 'input[type="checkbox"]';
-                Array.from(document.querySelectorAll(selector)).forEach(input => {
-                    input.checked = false;
-                });
-                if (this.usesPagefind) {
-                    this.toggleElementVisibility("no-results", false);
-                }
-                this.filters = { framework: [], category: [], location: [] };
-                
-                this.updateShownPostsBasedOnPagefindUsage();
-            },
-            updateShownPostsBasedOnPagefindUsage() {
-         
-                // stores all list items in an array and passes it to the updateShownPostsWithoutPagefind function
-                if (this.usesPagefind){
-                    this.debounce(this.updateShownPostsWithPagefind(this.filters), 50);
-                }else{
-                    const templateList = Array.from(document.querySelectorAll('#list-item'));
-                     this.updateShownPostsWithoutPagefind(templateList, this.filters);
-                }
-             
-            },
-    
-            updateShownPostsWithoutPagefind(templateList, filters) {
-                const anyFiltersSelected = this.areAnyFiltersSelected(filters);
-                const listWrapper = document.getElementById('list-wrapper');
-                const noResults = document.getElementById('no-results');
-                let isResultAvailable = false;
-        
-                // loop through each template and check if it the item in the filter matches the item in the data attribute
-                templateList.forEach(template => {
-                    const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
-                        filterValues.length === 0 || filterValues.some(value =>
-                            template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
-                        )
-                    );
-        
-                    if (isMatched) {
-                        isResultAvailable = true;
-                    }
-        
-                    template.classList.toggle('hidden', !isMatched);
-                });
-        
-                listWrapper.classList.toggle('hidden', !isResultAvailable);
-                noResults.classList.toggle('hidden', isResultAvailable);
-            },
-    
-            
-    
-    
-            async getSearchResults(filters) {
-                return await this.pagefind.search(null, { 
-                    filters: {
-                        framework: {
-                            any: filters.framework
-                        },
-                        category: {
-                            any: filters.category
-                        },
-                    },
-                    sort: {
-                        date: "desc"
-                    }
-                });
-            },
-            
-            observeImage(image, imagesLoadedCount, totalImagesCount, onAllImagesLoaded) {
-                const observer = new IntersectionObserver(entries => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            const img = entry.target;
-                            const src = img.dataset.src;
-                            img.src = src;
-            
-                            img.onload = () => {
-                                imagesLoadedCount++; 
-                                if (imagesLoadedCount === totalImagesCount) { 
-                                    onAllImagesLoaded(); 
-                                }
-                            };
-                            
-                            observer.unobserve(img); 
-                        }
-                    });
-                });
-            
-                observer.observe(image); 
-            },
-            
-
-            manageLoadingState(isLoading, loadingContainer, visiblePostCount) {
-                if (isLoading) {
-                    this.clearResultsContainer();
-                    // Show skeleton posts
-                    for(let i = 0; i < visiblePostCount; i++) {
-                        const skeletonPost = this.createSkeletonPost();
-                        loadingContainer.appendChild(skeletonPost);
-                    }
-                } else {
-                    // Remove skeleton posts
-                    while(loadingContainer.firstChild){
-                        loadingContainer.removeChild(loadingContainer.firstChild);
-                    }
-            
-                    const images = document.querySelectorAll('img[data-observer="true"]');
-                    let imagesLoadedCount = 0;
-            
-                    images.forEach(image => {
-                        this.observeImage(image, imagesLoadedCount, images.length, () => this.toggleLoadingState(false));
-                    });
-                }
-            },
-            
-            
-            
-            
-            async getPagefindResults(results) {
-                const resultsData = await Promise.all(results.map(result => result.data()));
-                this.createAndAppendGridForPosts(resultsData);
-            },
-            
-            async updateShownPostsWithPagefind(filters) {
-                try {
-                    const areFiltersActive = this.areAnyFiltersSelected(filters);
-                    const noResults = document.getElementById('no-results');
-                    const loadingContainer = document.getElementById('loading-container');
-            
-                    if (!areFiltersActive) {
-                        this.clearResultsContainer();
-                        this.toggleElementVisibility("post-container", true);
-                        this.toggleElementVisibility("pagination-container", true);
-                        return;
-                    }
-            
-                    const searchResults = await this.getSearchResults(filters);
-            
-                    this.toggleElementVisibility("no-results", searchResults.results.length === 0);
-                    this.toggleElementVisibility("post-container", false);
-                    this.toggleElementVisibility("pagination-container", false);
-                    
-                    const estimatedPostHeight = 150; 
-                    let visiblePostCount = this.calculateVisiblePosts(estimatedPostHeight);
-                    
-                    visiblePostCount = Math.min(visiblePostCount, searchResults.results.length);
-                    visiblePostCount = Math.max(visiblePostCount, 1);
-            
-                    this.manageLoadingState(true, loadingContainer, visiblePostCount);
-            
-                    await this.getPagefindResults(searchResults.results);
-            
-                    this.manageLoadingState(false, loadingContainer);
-                } catch (error) {
-                    console.error('An error occurred during fetching and displaying the results:', error);
-                }
-            },
-            
-    
-            calculateVisiblePosts(estimatedPostHeight) {
-                const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-                return Math.floor(viewportHeight / estimatedPostHeight);
-            },
-            
-            
-            
-            createSkeletonElement(elementType, classNames) {
-                const element = document.createElement(elementType);
-                element.classList.add(...classNames);
-                return element;
-            },
-            
-            createSkeletonPost() {
-                const fragment = document.createDocumentFragment();
-            
-                const skeletonPost = this.createSkeletonElement("div", ["skeleton-post", "animate-pulse", "mb-4", "flex", "flex-col", "gap-y-4"]);
-                fragment.appendChild(skeletonPost);
-            
-                const skeletonPostImage = this.createSkeletonElement("div", ["skeleton-post-Image", "transition", "rounded-lg", "h-64", "w-full", "animate-pulse", "bg-gray-400"]);
-                skeletonPost.appendChild(skeletonPostImage);
-            
-                const skeletonPostTags = this.createSkeletonElement("div", ["skeleton-post-Tags", "p-4", "w-1/2", "bg-gray-400", "animate-pulse", "rounded-lg"]);
-                skeletonPost.appendChild(skeletonPostTags);
-            
-                const skeletonPostTitle = this.createSkeletonElement("div", ["skeleton-post-Title", "p-6", "w-full", "bg-gray-400", "animate-pulse", "rounded-lg"]);
-                skeletonPost.appendChild(skeletonPostTitle);
-            
-                const skeletonPostAuthor = this.createSkeletonElement("div", ["skeleton-post-Author", "p-2", "w-1/2", "bg-gray-400", "rounded-lg"]);
-                skeletonPost.appendChild(skeletonPostAuthor);
-            
-                
-                return fragment;
-            },
-
-             
-            
-              
-              
-              
-    
-            areAnyFiltersSelected(filters){
-                return Object.values(filters).some(filterArray => filterArray.length > 0);
-            },
-    
-            toggleElementVisibility(elementId, isVisible){
-                document.getElementById(elementId).classList.toggle("hidden", !isVisible);
-            },
-        
-            clearResultsContainer(){
-                const resultsContainer = document.getElementById("results");
-                while (resultsContainer.firstChild) {
-                    resultsContainer.removeChild(resultsContainer.firstChild);
-                }
-            },
-    
-    
-            createAndAppendGridForPosts(results) {
-    
-                const container = document.createElement("div");
-                container.classList.add("grid", "grid-cols-1", "md:grid-cols-2", "xl:grid-cols-3", "gap-x-5", "gap-y-12");
-            
-                // Create a new DocumentFragment
-                const fragment = document.createDocumentFragment();
-            
-                results.forEach(post => {
-                    const postContainer = this.createPostContainer(post);
-                    if (postContainer) {
-                        // Appends postContainer to the fragment instead of the actual container
-                        fragment.appendChild(postContainer);
-                    }
-                });
-            
-                // Appends the DocumentFragment to the container
-                container.appendChild(fragment);
-    
-                const gridContainer = document.getElementById("results");
-            
-                // Clear the current grid before appending new one
-                while (gridContainer.firstChild) {
-                    gridContainer.removeChild(gridContainer.firstChild);
-                }
-            
-                gridContainer.appendChild(container);
-    
-    
-            },
-            
-            createPostContainer(post) {
-                const tagsArray = post.meta.blog_tags.split(',');
-                
-                
-    
-                const postContainer = document.createElement("div");
-                
-                postContainer.appendChild(this.createImageElement(post));
-                postContainer.appendChild(this.createTagsContainer(post));
-                postContainer.appendChild(this.createTitleElement(post));
-                postContainer.appendChild(this.createAuthorDateElement(post));
-    
-                return postContainer;
-            },
-            
-            createImageElement(post) {
-                const imageLink = document.createElement("a");
-                imageLink.href = post.url;
-                imageLink.classList.add("group");
-                
-                const image = document.createElement("img");
-                image.dataset.src = `${post.meta.blog_image}?auto=compress&auto=format&w=584&dpr=2&crop=faces&fit=crop&height=316`; // Use data attribute to store the URL
-                image.alt = post.meta.image_alt;
-                image.classList.add("transition", "rounded-lg", "group-hover:opacity-80", "group-hover:scale-105", "h-[250px]", "object-center", "object-cover", "w-full");
-                image.setAttribute("loading", "lazy");
-                
-                image.dataset.observer = 'true';
-            
-                imageLink.appendChild(image);
-                
-                return imageLink;
-            },
-            
-            createTagsContainer(post) {
-                const tagsContainer = document.createElement("div");
-                tagsContainer.classList.add("text-gray-400", "mt-2");
-            
-                const tagsArray = post.meta.blog_tags.split(',');
-            
-                tagsArray.forEach((tag, index) => {
-                    if (tag === "posts") return;
-            
-                    const tagLink = document.createElement("a");
-                    tagLink.href = `/blog/tags/${encodeURIComponent(tag.trim()).toLowerCase()}/`;
-                    tagLink.textContent = tag.trim();
-                    tagLink.classList.add("text-cc", "uppercase", "hover:text-cc_hover", "hover:underline", "transition");
-                    tagsContainer.appendChild(tagLink);
-            
-                    if (index < tagsArray.length - 1) {
-                        const separator = document.createElement("span");
-                        separator.classList.add("first:hidden");
-                        
-                        const separatorText = document.createTextNode(" · "); 
-                        separator.appendChild(separatorText); 
-                        
-                        tagsContainer.appendChild(separator);
-                    }
-                });
-            
-                return tagsContainer;
-            },
-            
-            createTitleElement(post) {
-                const title = document.createElement("h3");
-                title.classList.add("font-bold", "text-2xl", "md:text-3xl", "mt-1", "text-carbon");
-    
-                const titleLink = document.createElement("a");
-                titleLink.href = post.url;
-                titleLink.textContent = post.meta.title;
-                titleLink.classList.add("hover:underline");
-    
-                title.appendChild(titleLink);
-    
-                return title;
-            },
-            
-            createAuthorDateElement(post) {
-                const authorDateContainer = document.createElement("p");
-                authorDateContainer.classList.add("mt-3", "text-gray-900");
-                authorDateContainer.textContent = `${post.meta.blog_author} · ${new Date(post.meta.blog_date).toLocaleDateString("en-US", { day: 'numeric', month: 'short', year: 'numeric' })}`;
-    
-                return authorDateContainer;
-            },
-        };
-    }
-</script>
 
