@@ -11,10 +11,13 @@ spec:
 blueprint:
   content:
     icon:
+      hide_icon: false
       icon_path: outline/language
       icon_color: teal
+    info_pill:
     blocks: []
   styles:
+    border_color: 
     background:
     desktop:
       margin:
@@ -44,7 +47,6 @@ _inputs:
     comments: Styles for Tablet, unless overridden will also be used for mobile.
   mobile:
     comments: Styles for mobile.
-
   background:
     type: select
     comment: The background color for the entire section
@@ -58,3 +60,16 @@ _inputs:
         - ash
         - night
         - midnight
+  border_color:
+    type: select
+    options:
+      values:
+        - white
+        - carbon
+        - grey
+        - cc-blue
+        - none
+  icon_color:
+    hidden: hide_icon 
+  icon_path:
+    hidden: hide_icon

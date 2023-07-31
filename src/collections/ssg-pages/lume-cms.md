@@ -14,6 +14,7 @@ seo:
   featured_image_alt: >-
     CloudCannon's visual CMS that keeps both content editors and developers
     happy
+search_bucket: Company
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -1406,9 +1407,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Take your editing team to the next level with
-                      CloudCannon’s powerful open source content editing and
-                      publishing workflows.
+                      Upgrade your static sites with CloudCannon’s powerful open source tools for a wide range of SSGs.
 
 
                       * **<a target="_blank"
@@ -1726,7 +1725,7 @@ content_blocks:
               - title: 'Intuitive editing '
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for Bridgetown, the whole team can contribute.
+                  Visual Editor for Lume, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:

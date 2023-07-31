@@ -2,6 +2,7 @@
 _schema: default
 title: MkDocs CMS
 layout: builder.html
+search_bucket: Blog
 permalink: /mkdocs-cms/
 description: >-
   Use CloudCannon as your MkDocs CMS to collaborate with your team to build fast
@@ -60,8 +61,9 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              With CloudCannon as your MkDocs CMS, your whole team can
-              collaborate to create incredible documentation sites.
+              With CloudCannon as your MkDocs CMS, your documentation workflows
+              are in your control. Write in Markdown, WYSIWYG, or live on the
+              page, and collaborate with your whole team.
           styles:
             desktop:
               text_alignment:
@@ -144,15 +146,20 @@ content_blocks:
               justify:
                 active: false
                 align: center
-        - _bookshop_name: simple/video
+        - _bookshop_name: simple/image
           content:
-            title: CloudCannon CMS demo video
-            url: >-
-              https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
-            autoplay: true
-            loop: true
+            alt:
+            image: https://cc-dam.imgix.net/G2-awards.svg
           styles:
+            border:
+            rounded:
+            ontop:
+            width: tight
+            pixel_width:
+            max_width:
             desktop:
+              visibility:
+                hide: false
               transform:
                 scale: 1
                 translate_x: 0
@@ -160,18 +167,19 @@ content_blocks:
                 rotate: 0
                 skew: 0
               block_alignment:
-                align_block: center
+                align_block: left
               margin:
                 top: 0
-                left: 0
-                bottom: 90
-                right: 0
+                bottom: 0
               position:
                 top: 0
                 left: 0
                 bottom: 0
                 right: 0
             tablet:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -185,9 +193,7 @@ content_blocks:
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
-                right: 0
               position:
                 active: false
                 top: 0
@@ -195,6 +201,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             mobile:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -208,9 +217,7 @@ content_blocks:
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
-                right: 0
               position:
                 active: false
                 top: 0
@@ -218,84 +225,6 @@ content_blocks:
                 bottom: 0
                 right: 0
         - _bookshop_name: simple/fold
-        - _bookshop_name: simple/image
-          content:
-            alt: G2 awards
-            image: https://cc-dam.imgix.net/G2-awards.svg
-          styles:
-            border:
-            rounded:
-            ontop:
-            width: full
-            pixel_width:
-            max_width:
-            desktop:
-              visibility:
-                hide: false
-              transform:
-                scale: 0.8
-                translate_x: -40
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: center
-              margin:
-                top: 0
-                bottom: 120
-              position:
-                top: 0
-                left: 0
-                bottom: 120
-                right: 0
-            tablet:
-              visibility:
-                active: false
-                hide: false
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              visibility:
-                active: true
-                hide: true
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
     styles:
       background: white
       rounded: none
@@ -310,7 +239,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 0
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -338,487 +267,6 @@ content_blocks:
           right: 0
           bottom: 15
           left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: For developers
-      blocks:
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/emoji-heading
-                  content:
-                    title: Build MkDocs sites your way
-                    emoji:
-                    sub_title: CloudCannon for developers
-                  styles:
-                    width:
-                    element: h2
-                    desktop:
-                      text_alignment:
-                        align: left
-                      margin:
-                        top: 0
-                        bottom: 0
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      CloudCannon’s CMS for MkDocs has everything you need to
-                      build, edit, and host the best performing sites on the
-                      web.
-
-
-                      * Focus on building custom components rather than
-                      hand-holding editors through changes.
-
-                      * Build locally with your favorite tools and frameworks.
-
-                      * Sync changes to content editors with a Git push.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 15
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Branching and previewing
-                    image: https://cc-dam.imgix.net/image_8_utyigb.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-          styles:
-            desktop:
-              columns:
-                type: split
-                width: 687
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 20
-              vertical_block_alignment:
-                active: false
-                v_align: center
-    styles:
-      background: sea
-      rounded: top
-      size: normal
-      align:
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 130
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: For editors
-      blocks:
-        - _bookshop_name: sections/two-column
-          content:
-            left:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Faster and easier on MkDocs
-                    image: >-
-                      https://cc-dam.imgix.net/Landing%20Pages/MkDocs_1_jlhqd3.png
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    desktop:
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-            right:
-              blocks:
-                - _bookshop_name: simple/emoji-heading
-                  content:
-                    title: The best CMS for MkDocs websites
-                    emoji:
-                    sub_title: CloudCannon for editors
-                  styles:
-                    width:
-                    element: h2
-                    desktop:
-                      text_alignment:
-                        align: left
-                      margin:
-                        top: 0
-                        bottom: 0
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      CloudCannon’s CMS for MkDocs makes content management easy
-                      for your marketing team and content editors.
-
-
-                      * Use custom components to build new &nbsp;site pages
-                      visually.
-
-                      * Share and review changes with a preview site.
-
-                      * Publish content confidently with a push of a button.
-
-                      * Make changes without bugging a developer, no technical
-                      knowledge needed.
-                  styles:
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block:
-                    tablet:
-                      text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    width: full
-          styles:
-            desktop:
-              columns:
-                type: split
-                width: 450
-                gap: 50
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
-            tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-            mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 30
-              vertical_block_alignment:
-                active: false
-                v_align: top
-    styles:
-      background: white
-      rounded: top
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 90
-          right: 0
-          bottom: 140
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 60
-          right: 0
-          bottom: 90
-          left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
       label: Git-based CMS
@@ -867,11 +315,11 @@ content_blocks:
                   content:
                     text_markdown: >-
                       More than a headless CMS. CloudCannon's Git-based CMS
-                      helps your team stay in sync with a unified workflow.
+                      helps your docs team stay in sync with a unified workflow.
 
 
-                      * Content teams commit back to your Git repository through
-                      CloudCannon's Visual Editor.
+                      * Technical writers commit back to your Git repository
+                      through CloudCannon's Content, Source, or Visual Editors.
 
                       * Create branches for significant changes to prevent
                       blocking staging environments.
@@ -1122,7 +570,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your MkDocs content workflow
+            text: CloudCannon's MkDocs CMS advances your web development workflows.
           styles:
             element: h2
             width: normal
@@ -1156,51 +604,6 @@ content_blocks:
                 active: true
                 top: 60
                 bottom: 30
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              CloudCannon's MkDocs CMS takes your web development workflow to
-              the next level.
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
         - _bookshop_name: simple/steps
           content:
             steps:
@@ -1211,7 +614,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step1new.svg
+                image: https://cc-dam.imgix.net/step1-sync-docs.svg
               - title: Configure your MkDocs build
                 description: >-
                   Add your environment variables, command line options, custom
@@ -1224,15 +627,15 @@ content_blocks:
                 image: https://cc-dam.imgix.net/step2mkdocs.svg
               - title: Invite your content team to collaborate
                 description: >-
-                  Give your team access to update the content on the site, using
-                  our MkDocs CMS, and without the help of a developer.
+                  Give your team access to update the content on the site, all
+                  without the help of a developer.
                 link:
                   text:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with hosting
+                image: https://cc-dam.imgix.net/step3-docs.svg
+              - title: Go live with MkDocs hosting included
                 description: >-
                   Delight your customers by hosting your site on a global CDN
                   with unparalleled reach and speed. Alternatively, bring your
@@ -1243,7 +646,7 @@ content_blocks:
                   url:
                   icon_path:
                   icon_color:
-                image: https://cc-dam.imgix.net/step4new.svg
+                image: https://cc-dam.imgix.net/step4-live-docs.svg
           styles:
             desktop:
               margin:
@@ -1271,7 +674,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 350
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -1303,96 +706,30 @@ content_blocks:
       align: none
   - _bookshop_name: sections/container
     content:
-      label: An entire ecosystem behind you
+      label: For developers
       blocks:
-        - _bookshop_name: simple/spacer
-          content:
-            title:
-          styles:
-            desktop:
-              space:
-                size: -270
-            tablet:
-              space:
-                active: false
-                size: 0
-            mobile:
-              space:
-                active: true
-                size: 0
-        - _bookshop_name: simple/quote
-          content:
-            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
-          styles:
-            background: night
-            border: false
-            desktop:
-              margin:
-                top: 0
-                bottom: 90
-              block_alignment:
-                align_block: center
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            tablet:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: center
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
+                - _bookshop_name: simple/emoji-heading
                   content:
-                    text: CloudCannon's open source ecosystem
+                    title: Build MkDocs sites your way
+                    emoji:
+                    sub_title: CloudCannon for developers
                   styles:
+                    width:
                     element: h2
-                    width: normal
                     desktop:
                       text_alignment:
                         align: left
-                      text_sizing:
-                        text_size: big
                       margin:
                         top: 0
-                        bottom: 30
+                        bottom: 0
                     tablet:
                       text_alignment:
-                        active: true
-                        align: center
-                      text_sizing:
                         active: false
-                        text_size: big
+                        align: center
                       margin:
                         active: false
                         top: 0
@@ -1401,41 +738,24 @@ content_blocks:
                       text_alignment:
                         active: false
                         align: center
-                      text_sizing:
-                        active: true
-                        text_size: normal
                       margin:
-                        active: true
+                        active: false
                         top: 0
-                        bottom: 15
+                        bottom: 0
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Take your editing team to the next level with
-                      CloudCannon’s powerful open source content editing and
-                      publishing workflows.
+                      CloudCannon’s CMS for MkDocs has everything you need to
+                      build, edit, and host the best performing documentation
+                      sites on the web.
 
 
-                      * **<a target="_blank"
-                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
-                      — create component-driven development workflows and enable
-                      live rendering editing;
+                      * Focus on building custom components rather than
+                      hand-holding editors through changes.
 
-                      * **<a target="_blank"
-                      href="https://pagefind.app">Pagefind</a>** — static search
-                      that scales;
+                      * Build locally with your favorite tools and frameworks.
 
-                      * **<a target="_blank"
-                      href="https://reseed.app/">Reseed</a>** — integrate
-                      multiple sites into a single domain;
-
-                      * **<a target="_blank"
-                      href="https://rosey.app/">Rosey</a>** — manage
-                      translations for localization and i18n;
-
-                      *
-                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
-                      — granular configuration for site pagination.
+                      * Sync changes to content editors with a Git push.
                   styles:
                     desktop:
                       text_alignment:
@@ -1449,8 +769,8 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1471,7 +791,7 @@ content_blocks:
                       margin:
                         active: false
                         top: 0
-                        bottom: 0
+                        bottom: 15
                       block_alignment:
                         active: false
                         align_block: left
@@ -1480,8 +800,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Overview of Jamstack ecosystem
-                    image: https://cc-dam.imgix.net/newecosystem.png
+                    alt: Branching and previewing
+                    image: https://cc-dam.imgix.net/image_8_utyigb.png
                   styles:
                     border:
                     rounded:
@@ -1555,7 +875,248 @@ content_blocks:
           styles:
             desktop:
               columns:
-                type: fixed-fluid
+                type: split
+                width: 687
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
+            tablet:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 20
+              vertical_block_alignment:
+                active: false
+                v_align: center
+    styles:
+      background: sea
+      rounded: top
+      size: normal
+      align:
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 130
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: For editors
+      blocks:
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Faster and easier on MkDocs
+                    image: https://cc-dam.imgix.net/mkdocs-easier.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+            right:
+              blocks:
+                - _bookshop_name: simple/emoji-heading
+                  content:
+                    title: The best CMS for MkDocs websites
+                    emoji:
+                    sub_title: CloudCannon for editors
+                  styles:
+                    width:
+                    element: h2
+                    desktop:
+                      text_alignment:
+                        align: left
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      CloudCannon’s CMS for MkDocs makes content management easy
+                      for your documentation team and technical writers.
+
+
+                      * Use custom components to build new &nbsp;site pages
+                      visually.
+
+                      * Share and review changes with a preview site.
+
+                      * Publish content confidently with a push of a button.
+
+                      * Make changes without bugging a developer — no additional
+                      technical knowledge needed.
+                  styles:
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block:
+                    tablet:
+                      text_alignment:
+                        active: true
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    width: full
+          styles:
+            desktop:
+              columns:
+                type: split
                 width: 450
                 gap: 50
                 vertical_gap: 0
@@ -1573,16 +1134,16 @@ content_blocks:
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 30
               vertical_block_alignment:
                 active: false
                 v_align: top
     styles:
-      background: ash
+      background: white
       rounded: top
       desktop:
         margin:
@@ -1593,7 +1154,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 120
+          bottom: 140
           left: 0
       tablet:
         margin:
@@ -1629,7 +1190,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: What you see is what you edit
+            text: Intuitive content editing
           styles:
             element: h2
             width: normal
@@ -1667,7 +1228,7 @@ content_blocks:
           content:
             text_markdown: >-
               Level up your documentation team with CloudCannon’s logical and
-              robust visual content editing and publishing workflows.
+              robust content editing and publishing workflows.
           styles:
             desktop:
               text_alignment:
@@ -1714,14 +1275,13 @@ content_blocks:
               - title: Git Sync
                 description: >-
                   Everything syncs back to your Git repo, so development and
-                  content editing teams can always collaborate in sync.
+                  editing teams can always collaborate in sync.
                 image: https://cc-dam.imgix.net/git-sync-r.png
-              - title: Catered to content editors
+              - title: Ideal for technical writers
                 description: >-
-                  Empower your editors with our MkDocs CMS, while you and other
-                  developers work in parallel with them.
-                image: >-
-                  https://cc-dam.imgix.net/Image_-_Publishing_workflows_yf5gjl.png
+                  Empower your docs team with our MkDocs CMS, while developers
+                  work in parallel with them.
+                image: https://cc-dam.imgix.net/publishing-workflows-docs-r.png
               - title: Robust publishing
                 description: >-
                   Prepare branches for staging and production workflows. Your
@@ -1731,7 +1291,8 @@ content_blocks:
               - title: Intuitive editing
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for MkDocs, the whole team can contribute.
+                  range of editing interfaces for MkDocs, the whole team can
+                  contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
@@ -2186,6 +1747,326 @@ content_blocks:
                 bottom: 0
                 left: 0
     styles:
+      background: ash
+      rounded: top
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 300
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+      size: normal
+      align: none
+  - _bookshop_name: sections/container
+    content:
+      label: An entire ecosystem behind you
+      blocks:
+        - _bookshop_name: simple/spacer
+          content:
+            title:
+          styles:
+            desktop:
+              space:
+                size: -270
+            tablet:
+              space:
+                active: false
+                size: 0
+            mobile:
+              space:
+                active: true
+                size: 0
+        - _bookshop_name: simple/quote
+          content:
+            case_study_quote: fb03c4ed-3d99-48f9-a5c7-21fe47dabd65
+          styles:
+            background: night
+            border: false
+            desktop:
+              margin:
+                top: 0
+                bottom: 90
+              block_alignment:
+                align_block: center
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: center
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+        - _bookshop_name: sections/two-column
+          content:
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: CloudCannon's open source ecosystem
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: true
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: true
+                        text_size: normal
+                      margin:
+                        active: true
+                        top: 0
+                        bottom: 15
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      Upgrade your static sites with CloudCannon’s powerful open source tools for a wide range of SSGs.
+
+
+                      * **<a target="_blank"
+                      href="https://github.com/CloudCannon/bookshop">Bookshop</a>**
+                      — create component-driven development workflows and enable
+                      live rendering editing;
+
+                      * **<a target="_blank"
+                      href="https://pagefind.app">Pagefind</a>** — static search
+                      that scales;
+
+                      * **<a target="_blank"
+                      href="https://reseed.app/">Reseed</a>** — integrate
+                      multiple sites into a single domain;
+
+                      * **<a target="_blank"
+                      href="https://rosey.app/">Rosey</a>** — manage
+                      translations for localization and i18n;
+
+                      *
+                      **[Pagebreak](https://github.com/CloudCannon/pagebreak)**
+                      — granular configuration for site pagination.
+                  styles:
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block:
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    width: full
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt: Overview of Jamstack ecosystem
+                    image: https://cc-dam.imgix.net/newecosystem.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+          styles:
+            desktop:
+              columns:
+                type: fixed-fluid
+                width: 450
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
+            tablet:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 30
+              vertical_block_alignment:
+                active: false
+                v_align: top
+            mobile:
+              columns:
+                active: false
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
+                active: false
+                v_align: top
+    styles:
       background: white
       rounded: top
       desktop:
@@ -2197,7 +2078,7 @@ content_blocks:
         padding:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 120
           left: 0
       tablet:
         margin:
@@ -2515,8 +2396,8 @@ content_blocks:
           content:
             text_markdown: >-
               Find out how world leading companies are successfully leveraging
-              CloudCannon's live visual editing. Learn how the best CMS for
-              MkDocs can help you and your team.&nbsp;
+              CloudCannon's editing and publishing workflows. Learn how the best
+              CMS for MkDocs can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:

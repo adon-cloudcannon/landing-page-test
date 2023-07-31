@@ -14,7 +14,9 @@ long_description: >-
   back end, we can help you identify opportunities to build efficiencies into
   your business using automation, bots, software, and other
   technologies.</p><p>We also build internal interfaces, dashboards, and apps to
-  help your team seamlessly interact with your new or existing tech stack.</p>
+  help your team seamlessly interact with your new or existing tech
+  stack.</p><p>Read the <a href="/customers/croissant-baguette/">Croissant &amp;
+  Baguette Case Study here &gt;</a></p>
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-11-23-at-9-37-1-2.png
 logo_image: /images/logos/experts/cb-logo-stacked-black-kayci-scaggs.svg
 location: Sydney, Australia
@@ -45,8 +47,9 @@ slides:
       integrity. The site scores 99% on GTmetrix despite its massive size.
 
 
-      <a target="_blank" rel="noopener" href="https://www.fiducian.com.au/">View
-      Fiducian's website &gt;</a>
+      Fiducian's website was awarded our Partner Site of the Month in June 2023,
+      [read more about it here
+      &gt;](/blog/partner-site-of-the-month-fiducian-croissant-baguette/)
   - title: EdTripper
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-23-40-pm.png
     content_markdown: >-

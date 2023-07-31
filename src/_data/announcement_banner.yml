@@ -1,7 +1,5 @@
-announcement_banner_content: >-
-  🌐 &nbsp;[Let anyone, anywhere, edit your CloudCannon
-  sites](https://cloudcannon.com/blog/let-anyone-anywhere-edit-your-cloudcannon-sites/?utm_source=announcement-banner)
-color: cloudcannon-blue
+announcement_banner_content:
+color: black
 _inputs:
   color:
     type: select

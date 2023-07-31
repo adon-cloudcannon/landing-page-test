@@ -25,7 +25,7 @@ ssgs:
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://hopeful-shoe.cloudvent.net/
-priority: 2
+priority: 7
 ssg_frameworks:
   - hugo
 categories:

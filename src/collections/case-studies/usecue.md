@@ -14,7 +14,7 @@ case_study_person: 780a4139-082d-4d29-b963-9d446f4e9200
 description: >-
   Usecue finds that CloudCannon gives them greater control over content, and
   intuitive content editing for clients.
-date: 2021-03-26T12:37:00Z
+date: 2021-03-27T01:37:00+13:00
 seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/Home-Page-OG (2).png

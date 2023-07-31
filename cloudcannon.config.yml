@@ -206,13 +206,15 @@ collections_config:
         numberedlist: true
         code: true
         horizontalrule: true
-        image: false
+        image: true
         table: true
         undo: true
         redo: true
         removeformat: true
         image_size_attributes: false
         snippet: true
+        styles: /src/styles/editor.css
+        center: center-text
     filter:
       exclude:
         - posts.json
@@ -339,6 +341,7 @@ collections_config:
         path: .cloudcannon/schemas/page.html
     _enabled_editors:
       - visual
+      - content
     icon: flight_land
   site-pages:
     path: 'collections/site-pages'
@@ -356,6 +359,28 @@ collections_config:
         hidden: true
       pagination:
         hidden: true
+    _editables:
+      content:
+        blockquote: true
+        bold: true
+        format: p h1 h2 h3 h4 h5 h6 
+        italic: true
+        strike: true
+        subscript: true
+        superscript: true
+        underline: true
+        link: true
+        bulletedlist: true
+        numberedlist: true
+        code: true
+        horizontalrule: true
+        image: true
+        table: true
+        undo: true
+        redo: true
+        removeformat: true
+        image_size_attributes: true
+        snippet: true
   ssg-pages:
     description: SSG Landing Pages
     output: true
@@ -466,6 +491,21 @@ _inputs:
       values:
         - top
         - center
+  search_bucket:
+    comment: What filter to apply to this page for search.
+    type: select
+    options:
+      allow_empty: false
+      value_key: bucket_id
+      values:
+        - name: Exclude from search
+          bucket_id: Excluded
+        - name: Company
+          bucket_id: Company
+        - name: Resources
+          bucket_id: Resources
+        - name: Blog
+          bucket_id: Blog
   ssg_frameworks:
     label: Framework filter tag
     type: multiselect

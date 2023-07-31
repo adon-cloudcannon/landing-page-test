@@ -1,5 +1,6 @@
 ---
 layout: page.html
+search_bucket: Resources
 eleventyComputed:
   header_blocks:
     - _bookshop_name: sections/container
@@ -208,7 +209,7 @@ eleventyComputed:
 ---
 {% bookshop_include "page" content_blocks: header_blocks %}
 
-<div class="container mb-20" data-pagefind-filter="site:Resources" data-pagefind-meta="site:Resources" data-pagefind-body>
+<div class="container mb-20">
   <div x-data="{ selected:1 }">
     <div class="container flex justify-center mt-2 border-b-gray-300 border-b mb-10">
       {% assign i = 0 %}
@@ -226,7 +227,7 @@ eleventyComputed:
       {% assign i = i | plus: 1 %}
 
       <div x-show="selected == {{ i }}">
-        {% include 'partials/templates/buttons.html' details:r %}
+        {% include 'partials/templates/buttons.html' details:r template_name:name %}
         <div class="prose md:prose-lg lg:prose-xl prose-li:my-[3px] prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-2 prose-h3:mb-1 prose-h3:mt-2 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
           
           {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | strip_cc_deploy | markdownify }}

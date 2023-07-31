@@ -28,7 +28,7 @@ ssgs:
     main_branch: master
     readme_filename: README.md
     live_preview_url: https://timely-land.cloudvent.net/
-priority: 1
+priority: 4
 ssg_frameworks:
   - hugo
 categories:

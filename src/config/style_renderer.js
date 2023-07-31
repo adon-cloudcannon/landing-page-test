@@ -175,6 +175,34 @@ module.exports = {
 		return styles +  `font-size: ${textSize};`;
 	},
 
+	render_sub_text_block_text_size: function(styles, fm, device) {
+		let sizing = module.exports.get_data(fm, device, 'text_sizing');
+
+		if (sizing === undefined) {
+			return styles;
+		}
+
+		let textSize = '1rem';
+
+		switch(sizing.text_size) {
+			case 'biggest':
+				textSize = '1.25rem';
+				break;
+			case 'big':
+				textSize = '1.125rem';
+				break;
+			case 'small':
+				textSize = '0.875rem';
+				break;
+			case 'normal':
+				textSize = '1rem';
+				break;
+		}
+
+		return styles +  `font-size: ${textSize};`;
+	},
+
+
 	render_justify: function(styles, fm, device) {
 		let justify = module.exports.get_data(fm, device, 'justify');
 

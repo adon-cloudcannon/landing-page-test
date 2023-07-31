@@ -8,13 +8,14 @@ description: >-
   in-between.
 long_description: >-
   <p>Ocupop has helped to define the strategic and visual language of the web
-  and beyond since 2000. We&rsquo;ve led projects for companies at all ends of
-  the spectrum, from web giants and consumer brands to nonprofits and countless
+  and beyond since 2000. We’ve led projects for companies at all ends of the
+  spectrum, from web giants and consumer brands to nonprofits and countless
   startups.</p><p>At Ocupop, we pair the power of design thinking with
   unparalleled enthusiasm and empathy to make a creative experience and working
   relationship unlike any other.</p><p>We dig deep, debate and deliver together:
-  laughing, crying, and fighting like hell to change lives&mdash;or at the very
-  least blow minds.</p>
+  laughing, crying, and fighting like hell to change lives—or at the very least
+  blow minds.</p><p>Read the&nbsp;<a href="/customers/ocupop/">Ocupop Case Study
+  here &gt;</a></p>
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-19-at-10-30-12-am.png
 logo_image: /images/logos/experts/layer-2-1.svg
 location: Milwaukee, Hawaii, Whistler & Savannah

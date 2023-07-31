@@ -1,8 +1,8 @@
 ---
 _schema: default
-title: Nuxt.js CMS
+title: Nuxt CMS
 layout: builder.html
-permalink: /nuxtjs-cms/
+permalink: /nuxt-cms/
 description: >-
   Use CloudCannon as your Nuxt CMS to collaborate with your team to build
   incredibly fast static websites with Vue components, and benefit from an
@@ -14,6 +14,7 @@ seo:
   featured_image_alt: >-
     CloudCannon's visual CMS that keeps both content editors and developers
     happy
+search_bucket: Company
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -21,7 +22,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: The Nuxt.js CMS for collaborative visual editing
+            text: The Nuxt CMS for collaborative visual editing
           styles:
             element: h1
             width: normal
@@ -59,9 +60,9 @@ content_blocks:
           content:
             text_markdown: >-
               Develop faster, edit easier, and publish confidently with
-              CloudCannon as your Nuxt.js CMS. Your whole team can collaborate
-              to create incredibly fast static sites on an intuitive visual
-              editor with the best CMS for Nuxt.js.
+              CloudCannon as your Nuxt CMS. Your whole team can collaborate to
+              create incredibly fast static sites on an intuitive visual editor
+              with the best CMS for Nuxt.
           styles:
             desktop:
               text_alignment:
@@ -348,7 +349,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: Build Nuxt.js sites your way
+                    title: Build Nuxt sites your way
                     emoji:
                     sub_title: CloudCannon for developers
                   styles:
@@ -379,7 +380,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon's CMS for Nuxt.js has everything you need for
+                      CloudCannon's CMS for Nuxt has everything you need for
                       building web applications with the best performance.
 
 
@@ -663,7 +664,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/emoji-heading
                   content:
-                    title: The best CMS for Nuxt.js websites
+                    title: The best CMS for Nuxt websites
                     emoji:
                     sub_title: CloudCannon for editors
                   styles:
@@ -694,8 +695,8 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      CloudCannon’s CMS for Nuxt.js makes content management
-                      easy for your marketing team and content editors.
+                      CloudCannon’s CMS for Nuxt makes content management easy
+                      for your marketing team and content editors.
 
 
                       * Use custom components to build new site pages visually.
@@ -1120,7 +1121,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: Advance your Nuxt.js content workflow
+            text: Advance your Nuxt content workflow
           styles:
             element: h2
             width: normal
@@ -1157,8 +1158,8 @@ content_blocks:
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
-              CloudCannon's Nuxt.js CMS takes your web development workflow to
-              the next level.
+              CloudCannon's Nuxt CMS takes your web development workflow to the
+              next level.
           styles:
             width: medium
             desktop:
@@ -1202,7 +1203,7 @@ content_blocks:
         - _bookshop_name: simple/steps
           content:
             steps:
-              - title: Sync your Nuxt.js site
+              - title: Sync your Nuxt site
                 description: Connect your GitHub, GitLab, or Bitbucket repository.
                 link:
                   text:
@@ -1230,10 +1231,10 @@ content_blocks:
                   icon_path:
                   icon_color:
                 image: https://cc-dam.imgix.net/step3new.svg
-              - title: Go live with Nuxt.js hosting included
+              - title: Go live with Nuxt hosting included
                 description: >-
-                  Delight your customers by hosting your Nuxt.js sites on a
-                  global CDN with unparalleled reach and speed.
+                  Delight your customers by hosting your Nuxt sites on a global
+                  CDN with unparalleled reach and speed.
                 link:
                   text:
                   url:
@@ -1407,9 +1408,7 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Take your editing team to the next level with
-                      CloudCannon’s powerful open source content editing and
-                      publishing workflows.
+                      Upgrade your static sites with CloudCannon’s powerful open source tools for a wide range of SSGs.
 
 
                       * **<a target="_blank"
@@ -1727,7 +1726,7 @@ content_blocks:
               - title: 'Intuitive editing '
                 description: >-
                   Edit content directly on your website. With CloudCannon’s
-                  Visual Editor for Nuxt.js, the whole team can contribute.
+                  Visual Editor for Nuxt, the whole team can contribute.
                 image: >-
                   https://cc-dam.imgix.net/Image_-_Component-driven_workflows_mmwwfs.png
           styles:
@@ -2233,7 +2232,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: 'Why choose Nuxt.js? '
+                    text: 'Why choose Nuxt? '
                   styles:
                     element: h2
                     width: normal
@@ -2270,21 +2269,21 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      Nuxt.js is a free and open source web application
-                      framework based on Vue.js, Node.js, webpack, and Babel.js.
-                      It simplifies the web development process for universal or
+                      Nuxt is a free and open source web application framework
+                      based on Vue.js, Node.js, webpack, and Babel.js. It
+                      simplifies the web development process for universal or
                       single-page Vue apps (SPAs).
 
 
                       Developers can leverage their existing Vue knowledge to
-                      create incredible static sites with Vue components.
-                      Nuxt.js provides a fantastic developer experience,
-                      offering many in-built features: file-system routing, data
-                      fetching, zero configuration, and more.&nbsp;
+                      create incredible static sites with Vue components. Nuxt
+                      provides a fantastic developer experience, offering many
+                      in-built features: file-system routing, data fetching,
+                      zero configuration, and more.&nbsp;
 
 
-                      Please note: CloudCannon’s Nuxt.js support is focused on
-                      Nuxt.js' static site generation (SSG) capabilities, and as
+                      Please note: CloudCannon’s Nuxt support is focused on
+                      Nuxt's static site generation (SSG) capabilities, and as
                       such does not include server-side rendering (SSR).
                   styles:
                     desktop:
@@ -2495,7 +2494,7 @@ content_blocks:
       blocks:
         - _bookshop_name: simple/heading
           content:
-            text: A CMS for Nuxt.js you can trust
+            text: A CMS for Nuxt you can trust
           styles:
             element: h2
             width: normal
@@ -2533,8 +2532,8 @@ content_blocks:
           content:
             text_markdown: >-
               Find out how world leading companies are successfully leveraging
-              CloudCannon's live visual editing. Learn how the best CMS for
-              Nuxt.js static websites can help you and your team.&nbsp;
+              CloudCannon's live visual editing. Learn how the best CMS for Nuxt
+              static websites can help you and your team.&nbsp;
           styles:
             width: medium
             desktop:

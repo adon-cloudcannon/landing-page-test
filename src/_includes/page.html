@@ -19,7 +19,14 @@
 	{% include 'partials/head/analytics.html' %} 
 </head>
 
-<body class="overflow-x-clip subpixel-antialiased text-carbon relative">
+<body
+	class="overflow-x-clip subpixel-antialiased text-carbon relative"
+	{% if search_bucket %}
+	{% if search_bucket != "Excluded" %}
+	data-pagefind-filter="site:{{search_bucket}}" data-pagefind-meta="site:{{search_bucket}}" data-pagefind-body
+	{% endif %}
+	{% endif %}
+	>
 	{% include 'partials/analytics/noscript-google-analytics.html' %}
 	{% include 'partials/nav/_nav.html' %}
 	{{ content }}

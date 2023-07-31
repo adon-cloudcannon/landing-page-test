@@ -15,7 +15,8 @@ long_description: >-
   integrating directly with your team, collaboration, and shaping processes
   together. Selectively, we also product manage and offer consulting. We truly
   believe in quality over quantity, only working with a few projects at any
-  time.</p>
+  time.</p><p>Read the <a href="/customers/cubicflow/">Cubicflow Case Study here
+  &gt;</a></p>
 website_image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-07-13-am.png
 logo_image: /images/logos/experts/cubicflow-logo-matt-ellison-1.svg
 location: California, USA & Tokyo, Japan
