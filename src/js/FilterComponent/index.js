@@ -1,169 +1,283 @@
-const PAGEFIND_FILTERS = { site: 'Blog' };
-const PAGEFIND_SORT = { date: 'desc' };
-const INITIAL_FILTERS = { framework: [], category: [], location: [] };
-const MOBILE_VIEWPORT_WIDTH = 768;
-const HIDDEN_CLASS = 'hidden';
-const ELEMENT_IDS = ['post-container', 'pagination-container', 'no-results'];
-
-const visibilityState = ELEMENT_IDS.reduce((acc, id) => ({ ...acc, [id]: true }), {});
-
-const setVisibility = (stateUpdates) => {
-  Object.assign(visibilityState, stateUpdates);
-  Object.entries(visibilityState).forEach(([id, isVisible]) => 
-    document.getElementById(id).classList.toggle(HIDDEN_CLASS, !isVisible));
-};
-
-const handleResize = (callback) => {
-  let timer;
-  window.addEventListener('resize', () => {
-    clearTimeout(timer);
-    timer = setTimeout(callback, 250);
-  });
-};
-
-const fetchResults = async (pagefind) => {
-  const allResults = await pagefind.search(null, { filters: PAGEFIND_FILTERS, sort: PAGEFIND_SORT });
-  return Promise.all(allResults.results.map(result => result.data()));
-};
-
 export default () => {
-  return {
-    show: false,
-    open: false,
-    usesPagefind: false,
-    loading: false,
-    pagefind: "",
-    isMobile: window.innerWidth < MOBILE_VIEWPORT_WIDTH,
-    filters: { ...INITIAL_FILTERS },
-    pagefindResults: [],
-    pagefindSearchResults: [],
+    return {
+        show: false,
+        open: false,
+        usesPagefind: false,
+        loading: false,
+        pagefind: "",
+        isMobile: window.innerWidth < 768,
+        filters: {
+            framework: [],
+            category: [],
+            location: [],
+        },
+        pagefindResults: [],
+        pagefindSearchResults: [],
 
-    init() {
-      this.usesPagefind = Boolean(document.getElementById('pagefind-filtering'));
-      handleResize(() => this.isMobile = window.innerWidth < MOBILE_VIEWPORT_WIDTH);
-    },
+        init() {
+            this.setUsesPagefind();
+            window.addEventListener('resize', () => {
+                this.isMobile = window.innerWidth < 768;
+            });
 
-    async initialisePagefind() {
-      this.loading = true;
-      setVisibility({ 'post-container': false, 'pagination-container': false });
+        },
 
-      if (!this.pagefind) {
-        this.pagefind = await import("/_pagefind/pagefind.js");
-      }
 
-      if (!this.usesPagefind) {
-        this.loading = false;
-        return;
-      }
+        initialisePagefind() {
+            (async () => {
+                try {
+                    this.pagefind = this.pagefind
+                    ? this.pagefind
+                    : await import("/_pagefind/pagefind.js");
+        
+                    this.dataReadyForFiltering = false;
+                    this.loading = true;
+                    this.toggleElementVisibility("post-container", false);
+                    this.toggleElementVisibility("pagination-container", false);
+        
+                    if (this.usesPagefind) {
+                        const allResults = await this.pagefind.search(null, {
+                            filters: {
+                                site: 'Blog'
+                            },
+                            sort: {
+                                date: "desc"
+                            }
+                        });
+                        this.pagefindSearchResults = await Promise.all(allResults.results.map(result => result.data()));
+                        this.dataReadyForFiltering = true;
+                        this.loading = false;
+                        this.toggleElementVisibility("post-container", true);
+                        this.toggleElementVisibility("pagination-container", true);
+                    }
+                } catch (e) {
+                    this.error = 'Failed to load search, please refresh'
+                    this.loading = false;
+                }
+            })();
+        },
+ 
 
-      try {
-        this.pagefindSearchResults = await fetchResults(this.pagefind);
-      } catch (e) {
-        this.error = 'Failed to load search, please refresh';
-      } finally {
-        this.loading = false;
-        setVisibility({ 'post-container': true, 'pagination-container': true });
-      }
-    },
+        get selectedOptions() {
+            return Object.values(this.filters).flat();
+        },
 
-    toggleCheckboxEvent(event, option, filterType) {
-      event.stopPropagation();
-      const checkbox = event.target.querySelector('input[type="checkbox"]');
-      if (checkbox) {
-        checkbox.checked = !checkbox.checked;
-        this.updateFilters(option, checkbox.checked, filterType);
-      }
-    },
 
-    updateFilters(option, isChecked, filterType) {
-      const sanitizedOption = option.toLowerCase().replace(/ /g, '-');
-      const filterArray = this.filters[filterType];
+        toggleLoadingState(isLoading) {
+            this.loading = isLoading;
+        },
 
-      if (isChecked) {
-        filterArray.push(sanitizedOption);
-      } else {
-        const index = filterArray.indexOf(sanitizedOption);
-        filterArray.splice(index, 1);
-      }
+        clearPagefindResults() {
+            this.pagefindResults = [];
+        },
+        
 
-      this.updatePostsVisibility();
-    },
+        debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        },
 
-    removeOptionFromFilter(option) {
-      this.filters = this.removeOptionFromAllFilters(option);
-      this.updatePostsVisibility();
-    },
 
-    removeAllOptionsFromFilter() {
-      this.filters = { ...INITIAL_FILTERS };
-      this.updatePostsVisibility();
-    },
+        setUsesPagefind() {
+            // Set usesPagefind to true if an element with id 'page-find' exists, otherwise set it to false.
+            this.usesPagefind = document.getElementById('pagefind-filtering') ? true : false;
+        },
 
-    removeOptionFromAllFilters(option) {
-      return Object.keys(this.filters).reduce((acc, key) => {
-        acc[key] = this.filters[key].filter(item => item !== option);
-        return acc;
-      }, {});
-    },
+        areAnyFiltersSelected(filters){
+            return Object.values(filters).some(filterArray => filterArray.length > 0);
+        },
 
-    get selectedOptions() {
-      return Object.values(this.filters).flat();
-    },
+        toggleElementVisibility(elementId, isVisible){
+            document.getElementById(elementId).classList.toggle("hidden", !isVisible);
+        },
+    
+        clearResultsContainer(){
+            const resultsContainer = document.getElementById("results");
+            while (resultsContainer.firstChild) {
+                resultsContainer.removeChild(resultsContainer.firstChild);
+            }
+        },
 
-    generateFilterButtonLabel(filterType, filterName) {
-      const selectedCount = this.filters[filterType]?.length || 0;
-      const pluralizeFilterName = filterType === 'category' ? 'categories' : `${filterName}s`;
 
-      if (selectedCount === 0) {
-        return `Filter by ${filterName}`;
-      }
+        toggleDropdown(index) {
+            // opens and closes the dropdown menu
+            this.open = this.show !== index || !this.open;
+            this.show = this.open ? index : false;
+        },
 
-      if (this.isMobile) {
-        return selectedCount === 1
-          ? `Filtered by 1 ${filterName}`
-          : `Filtered by ${selectedCount} ${pluralizeFilterName}`;
-      }
+        toggleCheckboxEvent(event, option, filterType) {
+            event.stopPropagation();
+            const checkbox = event.currentTarget.querySelector('input[type="checkbox"]');
+            if (checkbox) {
+                checkbox.checked = !checkbox.checked;
+                this.addOrRemoveFilterOptionAndUpdateRenderedItems(option, checkbox.checked, filterType);
+            }
+        },
 
-      return `Filter by ${filterName}`;
-    },
+        generateFilterButtonLabelBasedOnSelectionAndDevice(filterType, filterName) {
+            // updates the button labels depending on the number of filters selected, and if the user is on mobile
+            const selectedCount = this.filters[filterType]?.length || 0;
+            const pluralizeFilterName = filterType === 'category' ? 'categories' : `${filterName}s`;
 
-    updatePostsVisibility() {
-      this.usesPagefind ? this.updatePagefindPosts() : this.updateNonPagefindPosts();
-    },
+            if (!selectedCount) {
+                return `Filter by ${filterName}`;
+            }
 
-    updateNonPagefindPosts() {
-      const posts = document.querySelectorAll('#list-item');
-      const foundMatch = Array.from(posts).some(post => post.classList.toggle(HIDDEN_CLASS, !this.isPostMatchFilters(post)));
+            const filterText = this.isMobile
+                ? `Filtered by ${selectedCount} ${pluralizeFilterName}`
+                : `Filter by ${filterName}`;
 
-      setVisibility({ 'no-results': !foundMatch, 'post-container': foundMatch });
-    },
+            if (selectedCount === 1 && this.isMobile) {
+                return `Filtered by 1 ${filterName}`;
+            }
 
-    isPostMatchFilters(post) {
-      return Object.entries(this.filters).every(([filterKey, filterValues]) => {
-        const postFilters = post.getAttribute(`data-${filterKey}`).split(' ');
-        return filterValues.every(value => postFilters.includes(value));
-      });
-    },
+            return filterText;
+        },
+        
 
-    async updatePagefindPosts() {
-      this.loading = true;
+        addOrRemoveFilterOptionAndUpdateRenderedItems(option, isChecked, filterType) {
+            const filterArray = this.filters[filterType];
+            if (!filterArray) {
+                console.error(`Invalid filter type: ${filterType}`);
+                return;
+            }
+            option = option.toLowerCase().replace(/ /g, '-');
+            if (isChecked && !filterArray.includes(option)) {
+                filterArray.push(option);
 
-      if (this.isAnyFilterSelected()) {
-        this.pagefindResults = this.pagefindSearchResults.filter(result =>
-          Object.entries(this.filters).every(([filterKey, filterValues]) =>
-            filterValues.every(value => result.filters[filterKey]?.includes(value))
-          )
-        );
-      } else {
-        this.pagefindResults = [];
-      }
+            } else if (!isChecked) {
+                const optionIndex = filterArray.indexOf(option);
+                if (optionIndex !== -1) {
+                    filterArray.splice(optionIndex, 1);
+                }
+            }
+            this.updateShownPostsBasedOnPagefindUsage();
+        },
 
-      this.loading = false;
-      setVisibility({ 'no-results': this.pagefindResults.length === 0, 'post-container': true, 'pagination-container': true });
-    },
+        addOrRemoveOptionFromAllFilterTypes(option, isAdd = true) {
+            // updates the filters object - adds or removes the option from the filters object
+            Object.entries(this.filters).forEach(([filterType, filterArray]) => {
+                const optionIndex = filterArray.indexOf(option);
 
-    isAnyFilterSelected() {
-      return Object.values(this.filters).some(filterArray => filterArray.length > 0);
-    },
-  }
+                if (isAdd && optionIndex === -1) {
+                    filterArray.push(option);
+                } else if (!isAdd && optionIndex !== -1) {
+                    filterArray.splice(optionIndex, 1);
+                }
+            });
+        },
+
+        removeOptionFromFilter(option) {
+            const selector = `input[type="checkbox"]`;
+            Array.from(document.querySelectorAll(selector)).forEach(input => {
+                const inputValue = input.value.toLowerCase().replace(/ /g, '-');
+                const optionValue = option.toLowerCase().replace(/ /g, '-');
+                if (inputValue === optionValue) {
+                    input.checked = false;
+                }
+            });
+            this.addOrRemoveOptionFromAllFilterTypes(option, false);
+
+            this.updateShownPostsBasedOnPagefindUsage();
+        },
+
+        removeAllOptionsFromFilter() {
+            const selector = 'input[type="checkbox"]';
+            Array.from(document.querySelectorAll(selector)).forEach(input => {
+                input.checked = false;
+            });
+            if (this.usesPagefind) {
+                this.toggleElementVisibility("no-results", false);
+            }
+            this.filters = { framework: [], category: [], location: [] };
+            
+            this.updateShownPostsBasedOnPagefindUsage();
+        },
+
+
+
+        updateShownPostsBasedOnPagefindUsage() {
+            
+                // stores all list items in an array and passes it to the updateShownPostsWithoutPagefind function
+                if (this.usesPagefind){
+                    this.debounce(this.updateShownPostsWithPagefind(this.filters),50);
+                }else{
+                    const templateList = Array.from(document.querySelectorAll('#list-item'));
+                    this.updateShownPostsWithoutPagefind(templateList, this.filters);
+                }
+            
+        },
+         
+
+        updateShownPostsWithoutPagefind(templateList, filters) {
+            const anyFiltersSelected = this.areAnyFiltersSelected(filters);
+            const listWrapper = document.getElementById('list-wrapper');
+            const noResults = document.getElementById('no-results');
+            let isResultAvailable = false;
+    
+            // loop through each template and check if it the item in the filter matches the item in the data attribute
+            templateList.forEach(template => {
+                const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
+                    filterValues.length === 0 || filterValues.some(value =>
+                        template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
+                    )
+                );
+    
+                if (isMatched) {
+                    isResultAvailable = true;
+                }
+    
+                template.classList.toggle('hidden', !isMatched);
+            });
+    
+            listWrapper.classList.toggle('hidden', !isResultAvailable);
+            noResults.classList.toggle('hidden', isResultAvailable);
+        },
+
+        
+
+
+        
+        async updateShownPostsWithPagefind(filters) {
+            this.toggleLoadingState(true); 
+
+            const areFiltersActive = this.areAnyFiltersSelected(filters);
+        
+            if (!areFiltersActive) {
+                this.pagefindResults = [];
+                this.toggleElementVisibility("post-container", true);
+                this.toggleElementVisibility("pagination-container", true);
+                this.toggleLoadingState(false); 
+                return;
+            }
+        
+           // Filter results based on the filters object.
+           this.pagefindResults = [...this.pagefindSearchResults.filter(result => {
+            return Object.entries(this.filters).every(([filterKey, filterValues]) =>
+                filterValues.length === 0 || 
+                (result.filters && result.filters[filterKey] && filterValues.some(value =>
+                    result.filters[filterKey].includes(value)
+                ))
+            );
+        })].map(result => result);
+        
+            // Check if there are any results after filtering
+            this.toggleElementVisibility("no-results", this.pagefindResults.length === 0);
+            this.toggleElementVisibility("post-container", false);
+            this.toggleElementVisibility("pagination-container", false);
+        
+            this.toggleLoadingState(false); 
+        }
+        
+        
+    }
+
+       
 }
