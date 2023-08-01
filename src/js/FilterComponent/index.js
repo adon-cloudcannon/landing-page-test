@@ -32,9 +32,7 @@ export default () => {
         
                     this.dataReadyForFiltering = false;
                     this.loading = true;
-                    this.toggleElementVisibility("post-container", false);
-                    this.toggleElementVisibility("pagination-container", false);
-        
+      
                     if (this.usesPagefind) {
                         const allResults = await this.pagefind.search(null, {
                             filters: {
@@ -47,8 +45,7 @@ export default () => {
                         this.pagefindSearchResults = await Promise.all(allResults.results.map(result => result.data()));
                         this.dataReadyForFiltering = true;
                         this.loading = false;
-                        this.toggleElementVisibility("post-container", true);
-                        this.toggleElementVisibility("pagination-container", true);
+                        
                     }
                 } catch (e) {
                     this.error = 'Failed to load search, please refresh'
