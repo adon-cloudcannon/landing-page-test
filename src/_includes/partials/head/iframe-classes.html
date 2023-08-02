@@ -1,0 +1,39 @@
+{% assign first_segment = page.url | remove_first: "/" | split: "/" | first %}
+{% if first_segment == 'templates' %}
+    <script>
+        (() => {
+            try {
+                if (window.self === window.top) {
+                    return;
+                }
+            } catch (e) {
+                console.warn(e);
+                // This means that we can't access window.top
+            }
+
+            document.documentElement.classList.add("iframed");
+            const base = document.createElement("base");
+            base.target = "_blank";
+            document.getElementsByTagName('head')[0].appendChild(base);
+
+            const links = document.getElementsByTagName('a');
+            for (let i = 0; i < links.length; i++) {
+                const element = links[i];
+                if (element?.href?.startsWith?.('https://app.cloudcannon.com/#')) {
+                    const url = new URL(element.href);
+                    element.href = url.hash;
+                    element.target = "_top";
+                } else {
+                    element.target = "_blank";
+                }
+            }
+        })();
+    </script>
+    <style>
+        .iframed body > header,
+        .iframed body > footer,
+        .iframed div.bg-cc.dark-text {
+            display: none;
+        }
+    </style>
+{% endif %} 
