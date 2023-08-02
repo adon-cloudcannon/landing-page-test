@@ -8,12 +8,16 @@
           "value": "max-age=31536000; includeSubDomains"
         },
         {
+          "name": "Access-Control-Allow-Origin",
+          "value": "https://app.cloudcannon.com"
+        },
+        {
           "name": "Referrer-Policy",
           "value": "same-origin"
         },
-        { 
-          "name": "X-Frame-Options",
-          "value": "SAMEORIGIN"
+        {
+          "name": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://app.cloudcannon.com https://dev-app.cloudcannon.com https://staging-app.cloudcannon.io;"
         },
         {
           "name": "X-Content-Type-Options",
