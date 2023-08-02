@@ -25,7 +25,7 @@ image_carousel:
     image_alt: Footer
 ssgs:
   - ssg_name: hugo
-    github_repo_url: https://github.com/CloudCannon/fiction-hugo-template/
+    github_repo_url: https://github.com/CloudCannon/fiction-hugo-template
     main_branch: main
     readme_filename: README.md
     live_preview_url: https://scenic-sea.cloudvent.net/
