@@ -45,13 +45,13 @@
                       'bg-[#F0F5FF]': open && show === '{{ forloop.index }}',
                       'bg-white border-comet/50': !open && isMobile && filters['{{filter}}']?.length > 0,
                       'border-stone-300/20': !open && (!isMobile || filters['{{filter}}']?.length === 0),
-                      'opacity-50': loading
+                      'opacity-50': usesPagefind && loading
                   }"
                   data-index="{{ forloop.index }}"
                   aria-haspopup="true" 
                   :aria-expanded="open && show === '{{ forloop.index }}'"
                   aria-label="Show filters for {{ filter }}"
-                  :disabled="loading"
+                  :disabled="usesPagefind && loading"
                   tabindex="0"
                 >
                     <span class="inline-block" x-text="generateFilterButtonLabelBasedOnSelectionAndDevice('{{ filter }}', '{{ filter }}')"></span>
