@@ -60,7 +60,7 @@ In short, the new interface is for everyone — we’ve created it to help all C
 
 ### … you can set site-wide editing interfaces, and override them within specific collections as needed?
 
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/global-editing-interfaces-config-gui.png" alt: "Config interface showing Inputs" extend: false border: true %}
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/global-editing-interfaces-config-gui.png" alt: "Config interface showing Inputs" extend: false border: false %}
 
 Under **Global editing interfaces** you can set which of the Visual, Content, and Data Editors are enabled, and in which order. You can also customize the appearance and behaviour of your **Inputs** in data editing interfaces, including adding Instance Values, as well as Labels or Comments to assist your content team.
 
