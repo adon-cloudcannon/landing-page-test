@@ -24,7 +24,7 @@ image_carousel:
     image_alt: Footer
 ssgs:
   - ssg_name: hugo
-    github_repo_url: https://github.com/CloudCannon/megakit-hugo-template/
+    github_repo_url: https://github.com/CloudCannon/megakit-hugo-template
     main_branch: master
     readme_filename: README.md
     live_preview_url: https://timely-land.cloudvent.net/
