@@ -30,7 +30,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-We’ve just released a new way to create and edit your CloudCannon configuration files within CloudCannon itself — enabling all users to clearly see what’s possible in our *very detailed* global configuration options.
+We’ve just released a new way to create and edit your [CloudCannon configuration files](https://cloudcannon.com/documentation/guides/getting-started/configuring-your-cms/) within CloudCannon itself — enabling all users to clearly see what’s possible in our *very detailed* global configuration options.
 
 Developers on CloudCannon can now view and edit their config files in the Data Editor, which allows them to see their configuration at a glance — as well as to learn more about the options that are available to them.
 
