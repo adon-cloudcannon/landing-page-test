@@ -5,7 +5,7 @@ breadcrumb_title:
 description: "We’ve just released a new way to create and edit your CloudCannon configuration files within CloudCannon itself\_—\_enabling all users to clearly see what’s possible in our very detailed global configuration options. "
 draft: true
 series:
-image: https://cc-dam.imgix.net/config-gui-hero-image.png
+image: https://cc-dam.imgix.net/config-gui-hero.png
 date: 2023-08-04T05:00:00+12:00
 hide_publish_date: false
 tags:
