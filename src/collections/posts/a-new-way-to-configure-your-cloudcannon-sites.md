@@ -6,11 +6,11 @@ description: "We’ve just released a new way to create and edit your CloudCanno
 draft: true
 series:
 image: https://cc-dam.imgix.net/config-gui-hero (2).png
-date: 2023-08-04T05:00:00+12:00
+date: 2023-08-08T05:00:00+12:00
 hide_publish_date: false
 tags:
   - Features
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 permalink: /blog/{{ title | slugify }}/
 cta:
   title: Try the new config interface today
@@ -37,6 +37,8 @@ We’ve just released a new way to create and edit your [CloudCannon configurati
 Developers on CloudCannon can now view and edit their config files at a glance — as well as learning more about the options that are available to them.
 
 Here’s our Engineering Lead, Ross Phillips, on what the new configuration view brings to CloudCannon users:
+
+{% bookshop 'markdown/youtube' title: "Static Feedback #7 — A new way to configure your CloudCannon sites" id: "Xlxr0j6nhyE" extend: false border: false %}
 
 ## How to configure the ideal editing experience for your static site
 

@@ -1,21 +1,22 @@
 ---
-draft: false
 _schema: default
 title: Enhanced CloudCannon support for Next.js users
+breadcrumb_title:
 description: >-
   Bring your React sites and apps to CloudCannon's Git-based CMS. Developers
   using Next.js to create static sites will have a seamless experience on
   CloudCannon, with the same quality developer and editor tooling that we offer
   users of other major static site generators like Eleventy, Hugo, SvelteKit,
   and Jekyll.
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-nextjs-launch-min.jpg
-date: 2023-02-15T16:02:00Z
+date: 2023-02-16T05:02:00+13:00
 hide_publish_date: false
 tags:
   - Next.js
   - Features
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your Next.js website today

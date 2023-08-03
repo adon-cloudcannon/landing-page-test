@@ -1,21 +1,41 @@
 ---
-draft: false
+_schema: default
 title: New Eleventy features, a new theme, and full Eleventy support
+breadcrumb_title:
 description: "We’re delighted to announce CloudCannon’s full support for Eleventy, one of the most popular (and fast) static site generators in the world. While our Git-based CMS has had very functional Eleventy support over the past year, our product developers have been hard at work on additional features for the SSG —\_like folding Nunjucks and Liquid shortcodes into our new Snippets feature!"
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-eleventy-launch-r.jpg
-date: 2022-12-06T05:00:00+1300
+date: 2022-12-06T05:00:00+13:00
 hide_publish_date: false
 tags:
   - Eleventy
   - Features
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
-We’re delighted to announce CloudCannon’s full support for Eleventy, one of the most popular (and fastest) static site generators in the world. While our Git-based CMS has had *very* functional Eleventy support over the past year, our product developers have been hard at work on additional features (like folding Nunjucks and Liquid shortcodes into our new Snippets feature\!) and additional documentation, to bring our Eleventy developer and editor tooling up to parity with that of other major SSGs like Hugo and Jekyll.
+We’re delighted to announce CloudCannon’s full support for Eleventy, one of the most popular (and fastest) static site generators in the world. While our Git-based CMS has had *very* functional Eleventy support over the past year, our product developers have been hard at work on additional features (like folding Nunjucks and Liquid shortcodes into our new Snippets feature!) and additional documentation, to bring our Eleventy developer and editor tooling up to parity with that of other major SSGs like Hugo and Jekyll.
 
 We love Eleventy for a wide range of reasons: firstly, Eleventy has extremely fast build times, so even large, complex sites can build in a matter of seconds. Secondly, we appreciate the developer freedom that Eleventy promotes in its templating languages: WebC, HTML, Markdown, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, and Pug. Developers can pick one, or be as flexible as they want and choose multiple languages — all within a single project. Finally, we love Eleventy’s ease of use: it works well with existing project files and multiple data sources, and features logical and intuitive hierarchies.
 
-Speed and flexibility with no required client-side JavaScript? Sign us up\!
+Speed and flexibility with no required client-side JavaScript? Sign us up!
 
 ## What does ‘out of beta’ mean to CloudCannon?
 
@@ -27,7 +47,7 @@ When we say our support for Eleventy has come out of beta, here's what we mean:
 2. We’ve written up [rock-solid documentation on how to get started with Eleventy](/tutorials/eleventy-cms---get-started-with-cloudcannon/);
 3. We’ve created additional developer tooling like Snippets — and [documented how to configure your existing Eleventy shortcodes and includes for all site users to create and edit them](https://cloudcannon.com/documentation/articles/editing-with-eleventy-shortcodes/?ssg=Eleventy) — so content writers on Eleventy sites benefit from CloudCannon’s intuitive visual UI.
 4. We’ve created a new page-building starter (theme) for Eleventy called [Sendit](https://cloudcannon.com/community/themes/sendit/), which acts as a showcase for both Eleventy’s slick build speeds and CloudCannon’s best-in-class editing features.&nbsp;
-5. For users of our open-source component development workflow [Bookshop](https://github.com/CloudCannon/bookshop), we’ve created a [full reference guide for Bookshop on Eleventy](https://github.com/CloudCannon/bookshop/blob/main/guides/eleventy.adoc) and a [Bookshop starter template](https://github.com/CloudCannon/eleventy-bookshop-starter). (The Sendit theme comes with Bookshop and a wide range of components already configured, too\!)
+5. For users of our open-source component development workflow [Bookshop](https://github.com/CloudCannon/bookshop), we’ve created a [full reference guide for Bookshop on Eleventy](https://github.com/CloudCannon/bookshop/blob/main/guides/eleventy.adoc) and a [Bookshop starter template](https://github.com/CloudCannon/eleventy-bookshop-starter). (The Sendit theme comes with Bookshop and a wide range of components already configured, too!)
 
 With these major milestones achieved, we’re confident that CloudCannon can offer the best development and editing experience for all Eleventy users.
 
@@ -39,7 +59,7 @@ In CloudCannon, you can now embed rich Snippets in your Markdown content. Once [
 
 ## Sendit: A new, free, page-building starter for Eleventy
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg" alt:"" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/blog-eleventy-launch-sendit.jpg" alt: "" extend: false border: false %}
 
 We’ve created a brand new free theme (or ‘starter’, if you prefer) called [Sendit](https://cloudcannon.com/community/themes/sendit/) — for everyone to use and adapt as they see fit. You can [deploy Sendit on CloudCannon right now](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/sendit-eleventy-template)&nbsp;and try it for yourself, or check out the [Sendit demo site](https://potent-ship.cloudvent.net/) to see what's possible.
 
@@ -47,11 +67,11 @@ Sendit is a clean and modern Eleventy theme, with easily configurable navigation
 
 In less than a minute, anyone can spin up a new Sendit site with Eleventy and CloudCannon, and experience the best of our Visual Editor for intuitive page building.
 
-With Sendit, all users can quickly build out their pages from a pre-made set of twenty(\!) pre-styled and reusable page components, as well as create their own components to extend the project.
+With Sendit, all users can quickly build out their pages from a pre-made set of twenty(!) pre-styled and reusable page components, as well as create their own components to extend the project.
 
 ## What’s next on the SSG roadmap?
 
-There’s no resting on laurels for the CloudCannon product development team\! We’re working on adding equally rich support for a range of SSGs, including Next.js, Astro, and SvelteKit — with the same high level of features, new page-building themes, and documentation. (And if you’re working on product documentation sites, there’s not need to feel left out — we’re also working on MkDocs support, among others\!)
+There’s no resting on laurels for the CloudCannon product development team! We’re working on adding equally rich support for a range of SSGs, including Next.js, Astro, and SvelteKit — with the same high level of features, new page-building themes, and documentation. (And if you’re working on product documentation sites, there’s not need to feel left out — we’re also working on MkDocs support, among others!)
 
 We’re always focused on allowing developers and content teams as much freedom as possible. That means static site developers can work with their preferred tools on CloudCannon, and content editors can use our CMS tooling to create, manage, and edit content on all sites.
 

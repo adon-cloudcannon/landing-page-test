@@ -12,7 +12,7 @@ date: 2023-07-21T05:00:00+12:00
 hide_publish_date: false
 tags:
   - Nuxt.js
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your Nuxt static site today
