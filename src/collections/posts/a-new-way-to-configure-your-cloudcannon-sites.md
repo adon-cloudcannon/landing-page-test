@@ -6,21 +6,22 @@ description: "We’ve just released a new way to create and edit your CloudCanno
 draft: true
 series:
 image: https://cc-dam.imgix.net/config-gui-hero-image.png
-date:
+date: 2023-08-04T05:00:00+12:00
 hide_publish_date: false
 tags:
   - Features
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
+  title: Try it out today
   body_text: >-
-    Give your content team full autonomy on your developer-approved tech stack
-    with CloudCannon.
+    Build a new static site on CloudCannon, or open one of your existing sites,
+    and try browsing through your configuration file. We’d love to know what you
+    think!
   button:
     content:
       link: https://app.cloudcannon.com/register?trial=cc_standard
-      text: Get started free!
+      text: Get started!
     styles:
       size:
       style: outline
@@ -56,34 +57,30 @@ In creating the new visual configuration interface, we responded to requests fro
 
 In short, the new interface is for everyone — we’ve created it to help all CloudCannon users. New users will benefit from the helpful links to our documentation, as well as the scoped options within each config field. Existing CloudCannon users will find logical connections between the grouped options, and may discover new ways to create ideal editing environments for their content teams. We’re also hoping that our power users, who create and configure multiple sites daily, will find their workflows greatly assisted by the new interface.
 
-## Did you know…<br>​​​​​
+## Did you know…
 
-### … you can set site-wide editing interfaces, and override them within specific collections as needed?
+### ​​​… you can set site-wide editing interfaces, and override them within specific collections as needed?
 
 {% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/global-editing-interfaces-config-gui.png" alt: "Config interface showing Inputs" extend: false border: false %}
 
 Under **Global editing interfaces** you can set which of the Visual, Content, and Data Editors are enabled, and in which order. You can also customize the appearance and behaviour of your **Inputs** in data editing interfaces, including adding Instance Values, as well as Labels or Comments to assist your content team.
 
-Because some elements of CloudCannon’s config operate as a cascade, you can always override these global settings with more specific settings for defined groups of files (collections).<br>
+Because some elements of CloudCannon’s config operate as a cascade, you can always override these global settings with more specific settings for defined groups of files (collections).
 
-### … you can sort your collections based on custom keys in their front matter?<br>
+### … you can sort your collections based on custom keys in their front matter?
 
 {% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/config-gui-sort-final.png" alt: "Config interface in CloudCannon" extend: false border: false %}
 
-We’re all about flexibility for site users — and the way developers present and sort site files can make a huge difference to how quickly a content team works. Maybe you’d like to sort the way your blog posts appear within the CMS: ordered by author name, descending? Or organize your pages by lead score? It’s up to you — define your default sorting and add customized **Sort** **Options** under **Collection Display**.<br>
+We’re all about flexibility for site users — and the way developers present and sort site files can make a huge difference to how quickly a content team works. Maybe you’d like to sort the way your blog posts appear within the CMS: ordered by author name, descending? Or organize your pages by lead score? It’s up to you — define your default sorting and add customized **Sort** **Options** under **Collection Display**.
 
 ### … you can add Editables to create much richer input options for the Content Editor
 
 {% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/config-gui-editables.png" alt: "Editable options in CloudCannon config interface" extend: false border: false %}
 
-Most writers will have a personally preferred set of rich text editing controls, or will need specific options enabled. Under **Global editing interfaces &gt; Editables** you can set **text** editables for richer text editing; **content / block** editables for managing blocks of text; and **image** editables for orientation, image size, mime type, and paths.<br>
+Most writers will have a personally preferred set of rich text editing controls, or will need specific options enabled. Under **Global editing interfaces &gt; Editables** you can set **text** editables for richer text editing; **content / block** editables for managing blocks of text; and **image** editables for orientation, image size, mime type, and paths.
 
 ### … you can choose your preferred syntax highlighting in the Source Editor?
 
 {% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/source-editor-config-gui.png" alt: "Source Editor configuration interface" extend: false border: false %}
 
 By default your Source Editor will display code with **monokai** highlighting, but there are 38 different color schemes to choose from — see **Global site configuration &gt; Source Editor** for more!
-
----
-
-*Build a new static site on CloudCannon, or open one of your existing sites, and try browsing through your configuration file. We’d love to know what you think!*
