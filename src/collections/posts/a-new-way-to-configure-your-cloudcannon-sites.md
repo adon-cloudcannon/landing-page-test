@@ -38,8 +38,6 @@ Developers on CloudCannon can now view and edit their config files at a glance �
 
 Here’s our Engineering Lead, Ross Phillips, on what the new configuration view brings to CloudCannon users:
 
-{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
-
 ## How to configure the ideal editing experience for your static site
 
 If you’re new to CloudCannon, when you create a new site or import an existing SSG repository you’ll be prompted to generate a new CloudCannon configuration file — either completely fresh or from any existing build settings in your repo.
@@ -86,4 +84,4 @@ Most writers will have a personally preferred set of rich text editing controls,
 
 {% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/source-editor-config-gui.png" alt: "Source Editor configuration interface" extend: false border: false %}
 
-By default your Source Editor will display code with **monokai** highlighting, but there are 38 different color schemes to choose from — see **Global site configuration &gt; Source Editor** for more!
+By default your Source Editor will display code with `monokai` highlighting, but there are 38 different color schemes to choose from — see **Global site configuration &gt; Source Editor** for more!
