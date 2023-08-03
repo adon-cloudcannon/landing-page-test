@@ -13,11 +13,10 @@ tags:
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Try it out today
+  title: Try the new config interface today
   body_text: >-
-    Build a new static site on CloudCannon, or open one of your existing sites,
-    and try browsing through your configuration file. We’d love to know what you
-    think!
+    Build a new static site or open one of your existing sites, and try browsing
+    through your configuration file. <br/>We’d love to know what you think!
   button:
     content:
       link: https://app.cloudcannon.com/register?trial=cc_standard
