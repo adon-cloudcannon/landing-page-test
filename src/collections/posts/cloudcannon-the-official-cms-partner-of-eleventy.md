@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   CloudCannon is now the official CMS Partner for Eleventy, and Eleventy creator
   Zach Leatherman is joining the CloudCannon team. With our support, Zach will
-  continue to work on Eleventy alongside his role at CloudCannon.
+  continue to work on 11ty alongside his role at CloudCannon.
 draft: false
 series:
 image: https://cc-dam.imgix.net/11ty-zach.png
