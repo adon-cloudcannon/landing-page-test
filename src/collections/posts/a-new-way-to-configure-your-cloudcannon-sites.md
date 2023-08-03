@@ -17,6 +17,8 @@ cta:
   body_text: >-
     Build a new static site or open one of your existing sites, and try browsing
     through your configuration file. <br/>We’d love to know what you think!
+    (Feel free to let us know, at <a
+    href="mailto:support@cloudcannon.com">support@cloudcannon.com</a>.)
   button:
     content:
       link: https://app.cloudcannon.com/register?trial=cc_standard
@@ -32,9 +34,11 @@ seo:
 ---
 We’ve just released a new way to create and edit your [CloudCannon configuration files](https://cloudcannon.com/documentation/guides/getting-started/configuring-your-cms/) within CloudCannon itself — enabling all users to clearly see what’s possible in our *very detailed* global configuration options.
 
-Developers on CloudCannon can now view and edit their config files in the Data Editor, which allows them to see their configuration at a glance — as well as to learn more about the options that are available to them.
+Developers on CloudCannon can now view and edit their config files at a glance — as well as learning more about the options that are available to them.
 
 Here’s our Engineering Lead, Ross Phillips, on what the new configuration view brings to CloudCannon users:
+
+{% bookshop 'markdown/youtube' title: "" id: "" extend: false border: false %}
 
 ## How to configure the ideal editing experience for your static site
 
@@ -42,7 +46,7 @@ If you’re new to CloudCannon, when you create a new site or import an existing
 
 Note that while some automatic generation is possible — identifying collections in SSGs like Eleventy, Jekyll, or Hugo, for example — the generated config file should be treated as a starting point to build upon. (CloudCannon’s strength is in its flexibility, after all, and we don’t want to make decisions about your data for you.)
 
-Once your site has built, — or if you’re a current CloudCannon user with an existing site, navigate to **Site Settings &gt; Editing** to see your new configuration view and explore your options. You can also browse to your site’s config file, then open it in the Data Editor view.
+Once your site has built, — or if you’re a current CloudCannon user with an existing site, navigate to **Site Settings &gt; Editing** to see your new configuration view and explore your options. You can also browse to your site’s config file, then open it in CloudCannon's Data Editor view. Of course, if you prefer, you can always continue to edit your config file in the Source Editor — it's entirely up to you.
 
 ## Think globally (and work locally)
 
