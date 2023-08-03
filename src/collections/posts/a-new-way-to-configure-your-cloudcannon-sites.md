@@ -5,7 +5,7 @@ breadcrumb_title:
 description: "We’ve just released a new way to create and edit your CloudCannon configuration files within CloudCannon itself\_—\_enabling all users to clearly see what’s possible in our very detailed global configuration options. "
 draft: true
 series:
-image: https://cc-dam.imgix.net/sort-config-gui.png
+image: https://cc-dam.imgix.net/source-editor-config-gui.png
 date:
 hide_publish_date: false
 tags:
@@ -68,19 +68,19 @@ Because some elements of CloudCannon’s config operate as a cascade, you can al
 
 ### … you can sort your collections based on custom keys in their front matter?<br>
 
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/sort-config-gui.png" alt: "Config interface in CloudCannon" extend: false border: true %}
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/sort-config-gui.png" alt: "Config interface in CloudCannon" extend: false border: false %}
 
 We’re all about flexibility for site users — and the way developers present and sort site files can make a huge difference to how quickly a content team works. Maybe you’d like to sort the way your blog posts appear within the CMS: ordered by author name, descending? Or organize your pages by lead score? It’s up to you — define your default sorting and add customized **Sort** **Options** under **Collection Display**.<br>
 
 ### … you can add Editables to create much richer input options for the Content Editor
 
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/config-gui-editabes.png" alt: "Editable options in CloudCannon config interface" extend: false border: true %}
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/config-gui-editables.png" alt: "Editable options in CloudCannon config interface" extend: false border: false %}
 
 Most writers will have a personally preferred set of rich text editing controls, or will need specific options enabled. Under **Global editing interfaces &gt; Editables** you can set **text** editables for richer text editing; **content / block** editables for managing blocks of text; and **image** editables for orientation, image size, mime type, and paths.<br>
 
 ### … you can choose your preferred syntax highlighting in the Source Editor?
 
-{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/config-gui-editabes.png" alt: "Source Editor configuration interface" extend: false border: true %}
+{% bookshop 'markdown/image' src: "https://cc-dam.imgix.net/source-editor-config-gui.png" alt: "Source Editor configuration interface" extend: false border: false %}
 
 By default your Source Editor will display code with **monokai** highlighting, but there are 38 different color schemes to choose from — see **Global site configuration &gt; Source Editor** for more!
 
