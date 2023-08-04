@@ -42,7 +42,7 @@ Here’s our Engineering Lead, Ross Phillips, on what the new configuration view
 
 ## How to configure the ideal editing experience for your static site
 
-If you’re new to CloudCannon, when you create a new site or import an existing SSG repository you’ll be prompted to generate a new CloudCannon configuration file — either completely fresh or from any existing build settings in your repo.
+If you’re new to CloudCannon, when you create a new site or import an existing SSG repository you’ll be prompted to generate a new CloudCannon configuration file — either completely fresh or from any existing build settings in your repo. (And if you have existing Forestry or Netlify CMS config files, we'll pick those up and adapt them to CloudCannon.)&nbsp;
 
 Note that while some automatic generation is possible — identifying collections in SSGs like Eleventy, Jekyll, or Hugo, for example — the generated config file should be treated as a starting point to build upon. (CloudCannon’s strength is in its flexibility, after all, and we don’t want to make decisions about your data for you.)
 
