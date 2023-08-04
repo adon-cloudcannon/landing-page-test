@@ -6,6 +6,9 @@ eleventyComputed:
     - _bookshop_name: sections/container
       content:
         blocks:
+        - _bookshop_name: simple/back-button 
+          content:
+            text: Go back to templates
         - _bookshop_name: simple/heading
           content:
             text: "{{ name }} template"
@@ -209,14 +212,18 @@ eleventyComputed:
 ---
 {% bookshop_include "page" content_blocks: header_blocks %}
 
+
+
 <div class="container mb-20">
-  <div x-data="{ selected:1 }">
-    <div class="container flex justify-center mt-2 border-b-gray-300 border-b mb-10">
+  <div x-data="{ selected:1, loading: false, loading_time: {{ loading_time | default: 500 }} }">
+    <div class="container flex justify-center mt-2 border-b-gray-300 border-b mb-10 gap-1 pl-6 pr-6 xsm:gap-0 xsm:pl-8 xsm:pr-8">
       {% assign i = 0 %}
       {% for ssg in ssgs %}
         {% assign i = i | plus: 1 %}
-        <a class="border-b transition hover:opacity-100" :class="selected == {{ i }} ? 'border-b-cc' : 'opacity-50'" @click="selected = {{ i }}" >
-          <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="60" height="60" alt="{{ ssg.ssg_name }}" class="h-16 w-auto mx-3 mb-2">
+        <a class="border-b transition hover:opacity-100" 
+           :class="selected == {{ i }} ? 'border-b-[3px] border-b-cc' : 'opacity-50'" 
+           @click.prevent="selected = {{ i }}; loading = true; setTimeout(() => { loading = false }, loading_time)">
+           <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="60" height="60" alt="{{ ssg.ssg_name }}" class="h-16 w-auto mx-1 xsm:mx-3 xsm:mb-2">
         </a>
       {% endfor %}
     </div>
@@ -225,14 +232,32 @@ eleventyComputed:
     {% for ssg in ssgs %}
       {% assign r = ssgs[i] %}
       {% assign i = i | plus: 1 %}
-
-      <div x-show="selected == {{ i }}">
-        {% include 'partials/templates/buttons.html' details:r template_name:name %}
-        <div class="prose md:prose-lg lg:prose-xl prose-li:my-[3px] prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-2 prose-h3:mb-1 prose-h3:mt-2 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
-          
-          {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | strip_cc_deploy | markdownify }}
+      <div x-show.transition.opacity="selected == {{ i }}" class="transition-opacity duration-500">
+        <!-- Loading Skeleton -->
+        <div x-show="loading" x-cloak class=" space-y-4">
+          <div class="md:flex justify-center mb-16 md:space-x-4">
+            <div class=" bg-[#ECECEC] block md:inline-block text-lg py-2 px-3 rounded-lg w-full min-h-[44px] md:min-h-[48px] md:w-[250px]"></div>
+            <div class=" bg-[#ECECEC] block my-3 md:my-0 md:inline-block text-lg py-2 px-3 rounded-lg w-full min-h-[44px] md:min-h-[48px] md:w-[178px]"></div>
+            <div class=" bg-[#ECECEC] block md:inline-block text-lg py-2 px-3 rounded-lg w-full min-h-[44px] md:min-h-[48px] md:w-[152px]"></div>
+          </div>
+          <div class="prose md:prose-lg lg:prose-xl mx-auto">
+            <div class=" bg-[#ECECEC] rounded-[20px] w-3/4 h-[77px] mb-8"></div>
+            <div class=" bg-[#ECECEC] rounded-[20px] w-full mb-6 h-[77px]"></div>
+            <div class="h-[235px] bg-[#ECECEC] rounded-[20px] w-full mb-6"></div>
+            <div class=" h-[235px] bg-[#ECECEC] rounded-[20px] w-full mb-6"></div>
+            <div class=" h-[235px] bg-[#ECECEC] rounded-[20px] w-full mb-6"></div>
+          </div>
+        </div>
+      
+        <!-- Loaded Content -->
+        <div x-show="!loading">
+          {% include 'partials/templates/buttons.html' details:r template_name:name %}
+          <div class="prose md:prose-lg lg:prose-xl prose-li:my-[3px] prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-2 prose-h3:mb-1 prose-h3:mt-2 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+            {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | strip_cc_deploy | markdownify }}
+          </div>
         </div>
       </div>
     {% endfor %}
   </div>
 </div>
+
