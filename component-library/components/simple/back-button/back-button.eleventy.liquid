@@ -1,0 +1,8 @@
+{% assign parent_url = page.url | parent_url %}
+
+<nav class="c-back-button mb-14" aria-label="back-button">
+    <a href="{{ parent_url }}" class="inline-flex items-end px-1 gap-2 text-cc text-lg font-bold transition-all duration-200 ease-in-out hover:gap-1 active:gap-1 active:text-[#0015B7] focus:gap-2 focus:border-2 focus:border-cc focus:rounded-md">
+    <span>{{ '/src/images/icons/outline/arrow-left.svg' | svgContents: 'stroke-cc w-5 h-5 inline align-text-bottom active:stroke-[#0015B7]' }}</span>
+    {{ content.text }}
+</a>
+</nav>
