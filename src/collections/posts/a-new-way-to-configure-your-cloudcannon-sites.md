@@ -46,7 +46,9 @@ If you’re new to CloudCannon, when you create a new site or import an existing
 
 Note that while some automatic generation is possible — identifying collections in SSGs like Eleventy, Jekyll, or Hugo, for example — the generated config file should be treated as a starting point to build upon. (CloudCannon’s strength is in its flexibility, after all, and we don’t want to make decisions about your data for you.)
 
-Once your site has built, — or if you’re a current CloudCannon user with an existing site, navigate to **Site Settings &gt; Editing** to see your new configuration view and explore your options. You can also browse to your site’s config file, then open it in CloudCannon's Data Editor view. Of course, if you prefer, you can always continue to edit your config file in the Source Editor — it's entirely up to you.
+![](https://cc-dam.imgix.net/site-settings-config-gui-r.png)
+
+Once your site has built on CloudCannon, navigate to **Site Settings &gt; Editing** to see your new configuration view and explore your options. You can also browse to your site’s config file, then open it in CloudCannon's Data Editor view. Of course, if you prefer, you can always continue to edit your config file in the Source Editor — it's entirely up to you.
 
 ## Think globally (and work locally)
 
