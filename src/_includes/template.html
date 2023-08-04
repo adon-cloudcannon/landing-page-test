@@ -222,7 +222,7 @@ eleventyComputed:
         {% assign i = i | plus: 1 %}
         <a class="border-b transition hover:opacity-100" 
            :class="selected == {{ i }} ? 'border-b-[3px] border-b-cc' : 'opacity-50'" 
-           @click.prevent="selected = {{ i }}; loading = true; setTimeout(() => { loading = false }, loading_time)">
+           @click.prevent="if(selected != {{ i }}){ selected = {{ i }}; loading = true; setTimeout(() => { loading = false }, loading_time);}">
            <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="60" height="60" alt="{{ ssg.ssg_name }}" class="h-16 w-auto mx-1 xsm:mx-3 xsm:mb-2">
         </a>
       {% endfor %}
