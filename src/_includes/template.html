@@ -215,7 +215,7 @@ eleventyComputed:
 
 
 <div class="container mb-20">
-  <div x-data="{ selected:1, loading: false, loading_time: {{ loading_time | default: 500 }} }">
+  <div x-data="{ selected:1, loading: false, loading_time: 200 }">
     <div class="container flex justify-center mt-2 border-b-gray-300 border-b mb-10 gap-1 pl-6 pr-6 xsm:gap-0 xsm:pl-8 xsm:pr-8">
       {% assign i = 0 %}
       {% for ssg in ssgs %}
