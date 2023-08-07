@@ -6,7 +6,7 @@ description: "We’ve just released a new way to create and edit your CloudCanno
 draft: true
 series:
 image: https://cc-dam.imgix.net/config-gui-hero (2).png
-date: 2023-08-08T05:00:00+12:00
+date: 2023-08-09T05:00:00+12:00
 hide_publish_date: false
 tags:
   - Features
