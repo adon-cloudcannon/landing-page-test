@@ -15,6 +15,7 @@ filter-framework-tags:
   - nextjs
   - nuxtjs
   - sveltekit
+  - bridgetown
 filter-location-tags:
   - Australia
   - Canada
