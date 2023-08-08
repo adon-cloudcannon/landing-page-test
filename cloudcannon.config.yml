@@ -518,6 +518,14 @@ _inputs:
         - framework
         - category
         - location
+  filter-blog-category-tags:
+    type: array
+  filter-template-category-tags:
+    type: array
+  filter-framework-tags:
+    type: array
+  filter-location-tags:
+    type: array
   icon_path:
     type: select
     options:
