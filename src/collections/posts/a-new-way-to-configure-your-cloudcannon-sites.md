@@ -3,10 +3,10 @@ _schema: default
 title: A new way to configure your CloudCannon sites
 breadcrumb_title:
 description: "We’ve just released a new way to create and edit your CloudCannon configuration files within CloudCannon itself\_—\_enabling all users to clearly see what’s possible in our very detailed global configuration options. "
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/config-gui-hero (2).png
-date: 2023-08-09T05:00:00+12:00
+date: 2023-08-09T02:00:00+12:00
 hide_publish_date: false
 tags:
   - Features
