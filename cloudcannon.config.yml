@@ -526,6 +526,14 @@ _inputs:
     type: array
   filter-location-tags:
     type: array
+  filter-blog-category-tags[*]:
+    type: text
+  filter-template-category-tags[*]:
+    type: text
+  filter-framework-tags[*]:
+    type: text
+  filter-location-tags[*]:
+    type: text
   icon_path:
     type: select
     options:
