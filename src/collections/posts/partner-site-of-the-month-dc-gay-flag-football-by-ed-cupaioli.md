@@ -52,7 +52,9 @@ Now that Ed has set up the site, adding new players, teams, and locations via Cl
 
 Because DCGFFL spans both social sport and competitive travel play, it’s important to the league that the site also reflects the fun that players are having on the field. To do this, Ed built in a small blogging feature called <a target="_blank" rel="noopener" href="https://www.dcgffl.org/power-rankings/">Power Rankings</a>. With CloudCannon’s WYSIWYG Content Editor, writers can report on teams’ progress for each week of the season — and encourage or trash talk each other with precisely targeted GIFs.
 
-![](https://cc-dam.imgix.net/dcgffl-power-rankings &#40;1&#41;.png)
+![](https://cc-dam.imgix.net/dcgffl-power-rankings-inset.png)
+
+
 
 > They'll do the power rankings based on everybody's records, but of course they have GIFs and fun stuff like that. So I wanted to give them a space that they could actually easily update this. So they can order by the teams, they'll add a team, they'll add in their record.<br><br>Because we're using this relational content, they can see the team, their record, and their schedule. And I'm actually using Liquid here to calculate a win, a loss, or a tie.
 
