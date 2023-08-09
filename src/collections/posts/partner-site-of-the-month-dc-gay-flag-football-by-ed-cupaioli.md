@@ -7,7 +7,7 @@ description: >-
   Jekyll, and optimized for editing on CloudCannon.
 draft: true
 series: Partner Site of the Month
-image: https://cc-dam.imgix.net/www.dcgffl.org_ (3).png
+image: https://cc-dam.imgix.net/partner-site-dcgffl.png
 date: 2023-08-16T02:00:00+12:00
 hide_publish_date: false
 tags:
@@ -15,10 +15,12 @@ tags:
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Become a CloudCannon Partner
+  title: Drive your growth with CloudCannon’s Partner Program
   body_text: >-
-    As you bring on new clients, you'll unlock benefits and savings for you and
-    your clients.
+    As a CloudCannon Partner, agencies and freelance developers can access an
+    exclusive pricing plan, and offer clients a complete CMS solution — while
+    maintaining the visibility and control needed to manage their websites
+    effectively.
   button:
     content:
       link: https://cloudcannon.com/partner-program/#partner-signup
@@ -69,7 +71,3 @@ And for a league as actively welcoming to players of all backgrounds as the DCGF
 ### About DC Gay Flag Football League
 
 The <a target="_blank" rel="noopener" href="https://www.dcgffl.org/">DCGFFL</a> started informally in 1994 and is now DC’s premier LGBTQ+ flag football league. Since its early beginnings, the league has grown to over 200 players. As a vibrant community of athletes, allies, family, and friends, the league welcomes new players, regardless of their experience.
-
-## **Drive your growth with CloudCannon’s Partner Program**
-
-As a <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner</a>, agencies and freelance developers can access an exclusive pricing plan, and offer clients a complete CMS solution — while maintaining the visibility and control needed to manage their websites effectively.
