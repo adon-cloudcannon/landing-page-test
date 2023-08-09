@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: "Partner Site of the Month:\_DC Gay Flag Football, by Ed Cupaioli"
+title: "Partner Site of the Month:\_DC Gay Flag Football League, by Ed Cupaioli"
 breadcrumb_title:
 description: >-
   Introducing DCGFFL.org, designed and developed by Ed Cupaioli — built with
