@@ -2,7 +2,9 @@
 _schema: default
 title: "Partner Site of the Month:\_DC Gay Flag Football, by Ed Cupaioli"
 breadcrumb_title:
-description:
+description: >-
+  Introducing DCGFFL.org, designed and developed by Ed Cupaioli — built with
+  Jekyll, and optimized for editing on CloudCannon.
 draft: true
 series: Partner Site of the Month
 image: https://cc-dam.imgix.net/www.dcgffl.org_ (3).png
@@ -42,7 +44,7 @@ As a new <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner
 
 Now that Ed has set up the site, adding new players, teams, and locations via CloudCannon’s Data Editor is a straightforward task for anyone — there’s no technical knowledge required:
 
-VIDEO
+{% bookshop 'markdown/youtube' title: "CloudCannon Partner Site of the Month: DC Gay Flag Football, by Ed Cupaioli" id: "wnskMy39zbE" extend: false border: false %}
 
 ## Microblogging in the Content Editor
 
