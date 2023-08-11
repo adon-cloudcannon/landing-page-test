@@ -33,6 +33,10 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - 11ty
+categories:
+  - company
 ---
 We’re big fans of <a target="_blank" rel="noopener" href="https://cloudcannon.com/eleventy-cms/">Eleventy</a> here at CloudCannon — so much so that <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">we switched CloudCannon.com over to Eleventy </a>at the start of this year. With faster build times for our editors and a much smoother workflow for our developers — not to mention the performance gains across the site — we knew it was the right choice.
 

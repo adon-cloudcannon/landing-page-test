@@ -32,6 +32,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - hugo
+categories:
 ---
 After <a target="_blank" rel="noopener" href="https://hugoconf.io/hugoconf-2022/">last year’s successful HugoConf</a>, with 32 speakers and more than 500 registered attendees from 49 countries, we had so much fun producing and taking part that we decided to do it again!
 
