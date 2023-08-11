@@ -31,11 +31,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/blog/uploads/ecommerce-hero.jpg
-date: 2021-10-15T05:00:00+1300
-tags:
-  - Resources
-author: 361d2445-fcab-44bb-b1d3-4d840d4e8e05
 ssg_frameworks:
 categories:
   - resources
