@@ -17,8 +17,8 @@ permalink: /blog/{{ title | slugify }}/
 cta:
   title: Grow with CloudCannon’s Partner Program
   body_text: >-
-    As a CloudCannon Partner, agencies and freelance developers can access an
-    exclusive pricing plan, and offer clients a complete CMS solution
+    Agencies and freelance developers can access an exclusive pricing plan, and
+    offer clients a complete CMS solution.
   button:
     content:
       link: https://cloudcannon.com/partner-program/#partner-signup
