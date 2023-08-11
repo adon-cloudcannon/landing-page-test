@@ -63,7 +63,8 @@
 
                 <!-- Dropdown -->
     
-                <div 
+                <div
+                  x-cloak 
                   x-show.transition="show === '{{ forloop.index }}'" 
                   @click.away="if(show === '{{ forloop.index }}') show = false" 
                   @keydown.escape="if(show === '{{ forloop.index }}') show = false" role="menu"  
