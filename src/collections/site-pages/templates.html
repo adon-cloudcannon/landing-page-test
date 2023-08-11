@@ -337,7 +337,7 @@ bottom_content:
     <a id="list-item" href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">
         {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: 'w-full' width: 594 height: 371 %}
         <div class="p-3">
-            <div class="flex justify-between items-center">
+            <div class="flex flex-col items-start justify-between gap-2 xsm:gap-0 xsm:flex-row xsm:items-center">
                <div class="flex ">
                   {% for ssg in template.data.ssgs %}
                       <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]" />
