@@ -23,36 +23,46 @@ export default () => {
         },
 
 
-        initialisePagefind() {
-            (async () => {
+        async initialisePagefind() {
+            if (this.pagefind) {
+                this.setupPagefind();
+            } else {
                 try {
-                    this.pagefind = this.pagefind
-                    ? this.pagefind
-                    : await import("/_pagefind/pagefind.js");
-        
-                    this.dataReadyForFiltering = false;
-                    this.loading = true;
-      
-                    if (this.usesPagefind) {
-                        const allResults = await this.pagefind.search(null, {
-                            filters: {
-                                site: 'Blog'
-                            },
-                            sort: {
-                                date: "desc"
-                            }
-                        });
-                        this.pagefindSearchResults = await Promise.all(allResults.results.map(result => result.data()));
-                        this.dataReadyForFiltering = true;
-                        this.loading = false;
-                        
-                    }
+                    this.pagefind = await import("/_pagefind/pagefind.js");
+                    this.setupPagefind();
                 } catch (e) {
-                    this.error = 'Failed to load search, please refresh'
+                    this.error = 'Failed to load search, please refresh';
                     this.loading = false;
                 }
-            })();
+            }
         },
+        
+        async setupPagefind() {
+            this.dataReadyForFiltering = false;
+            this.loading = true;
+        
+            if (this.usesPagefind) {
+                try {
+                    const allResults = await this.pagefind.search(null, {
+                        filters: {
+                            site: 'Blog'
+                        },
+                        sort: {
+                            date: "desc"
+                        }
+                    });
+        
+                    const dataPromises = allResults.results.map(result => result.data());
+                    this.pagefindSearchResults = await Promise.all(dataPromises);
+                    this.dataReadyForFiltering = true;
+                    this.loading = false;
+                } catch (e) {
+                    this.error = 'Failed to load search, please refresh';
+                    this.loading = false;
+                }
+            }
+        },
+        
  
 
         get selectedOptions() {
@@ -238,8 +248,20 @@ export default () => {
             noResults.classList.toggle('hidden', isResultAvailable);
         },
 
-        
 
+        isResultPassingFilter(result, filters) {
+            if (!result.filters) return false; 
+          
+            for (let [filterKey, filterValues] of Object.entries(filters)) {
+              if (filterValues.length === 0) continue; 
+              if (!result.filters[filterKey]) return false; 
+
+              const isValuePresent = filterValues.some(value => result.filters[filterKey].includes(value));
+              if (!isValuePresent) return false; 
+            }
+          
+            return true;
+          },
 
         
         async updateShownPostsWithPagefind(filters) {
@@ -256,14 +278,10 @@ export default () => {
             }
         
            // Filter results based on the filters object.
-           this.pagefindResults = [...this.pagefindSearchResults.filter(result => {
-            return Object.entries(this.filters).every(([filterKey, filterValues]) =>
-                filterValues.length === 0 || 
-                (result.filters && result.filters[filterKey] && filterValues.some(value =>
-                    result.filters[filterKey].includes(value)
-                ))
-            );
-        })].map(result => result);
+           
+          
+          this.pagefindResults = this.pagefindSearchResults.filter(result => this.isResultPassingFilter(result, this.filters));
+           
         
             // Check if there are any results after filtering
             this.toggleElementVisibility("no-results", this.pagefindResults.length === 0);
