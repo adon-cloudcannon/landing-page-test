@@ -14,5 +14,8 @@ pagination:
   alias: posts
   reverse: true
 search_bucket: Blog
+filters:
+  - framework
+  - category
 ---
-{% include 'partials/blog/list.html' posts:posts pagination:pagination header:true %}
+{% include 'partials/blog/list.html' posts:posts filters:filters pagination:pagination header:true %}

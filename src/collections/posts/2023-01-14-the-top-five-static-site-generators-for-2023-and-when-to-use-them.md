@@ -37,6 +37,14 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - 11ty
+  - hugo
+  - nextjs
+  - sveltekit
+  - astro
+categories:
+  - resources
 ---
 There’s no shortage of static site generators (SSGs) to choose from, though I’ve limited the below list to five major SSGs covering a wide range of uses, from marketing sites, portfolios and blogs to documentation hubs with hundreds of thousands of pages.
 

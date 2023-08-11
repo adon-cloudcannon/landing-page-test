@@ -32,6 +32,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+categories:
+  - features
 ---
 We are absolutely in love with the Git-powered nature of CloudCannon. The simplicity, security, and control over your code and text-based content is vital to an ideal workflow. We wouldn’t have it any other way for our static site platform, and we know you love it too. Unfortunately, Git isn’t the solution to all of your website needs. Repositories with a maximum size of 2GB just aren’t well poised to manage beautiful modern sites with rich digital assets.
 

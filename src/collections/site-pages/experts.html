@@ -12,6 +12,8 @@ seo:
     happy
 lead_score: 2
 search_bucket: Resources
+filters:
+  - framework
 content_blocks:
   - _bookshop_name: sections/container
     content:
@@ -145,9 +147,29 @@ content_blocks:
 <div class="container">
   {% assign experts = collections.experts | sort: 'data.weight' %}
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
+  {% include 'partials/filters/filter.html' filter_type: filters collection: experts %}
+
+
+  <div id="list-wrapper" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 mb-28 mt-5">
     {% for expert in experts %}
-      <a class="group relative transition duration-200 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" href="{{ expert.url }}">
+      {% assign ssg_names = '' %}
+      {% assign locations = '' %}
+
+      {% for ssg in expert.data.ssg_frameworks %}
+        {% assign ssg_names = ssg_names | append: ' ' | append: ssg  | downcase %}
+      {% endfor %}
+
+      {% for location in expert.data.locations %}
+        {% assign processedLocation = location | downcase | replace: ' ', '-' %}
+        {% assign locations = locations | append: ' ' | append: processedLocation %}
+      {% endfor %}
+  
+    
+
+  
+
+  
+      <a id="list-item" class="group relative transition duration-200 hover:scale-105 flex-1 block border-2 border-carbon rounded-xl bg-white hover:drop-shadow-xl" data-framework="{{ ssg_names | strip}}" data-location="{{ locations | strip }}" href="{{ expert.url }}">
         <div class="h-52 bg-[#f0f5ff] flex justify-center items-center rounded-t-xl">
           <img src="{{ expert.data.logo_image }}" class="max-w-[220px]" alt="{{ expert.data.title }}" />
         </div>
@@ -156,6 +178,7 @@ content_blocks:
             {% for ssg in expert.data.ssg_frameworks %}
               <img src="/images/icons/ssgs/{{ ssg }}.svg" width="25" height="25" alt="{{ ssg }}" class="mr-[5px] h-[25px] w-auto" />
             {% endfor %}
+            
           </div>
           <h3 class="text-2xl font-bold">
             {{ expert.data.title }}
@@ -172,5 +195,8 @@ content_blocks:
         </div>
       </a>
     {% endfor %}
+  </div>
+  <div id="no-results" class="text-center mt-[3rem] mb-[5rem] md:mt-[8rem] md:mb-[10rem] text-xl font-bold hidden">
+    <h2>No Results Found</h2>
   </div>
 </div>

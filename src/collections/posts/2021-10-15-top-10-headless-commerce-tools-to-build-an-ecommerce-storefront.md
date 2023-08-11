@@ -31,6 +31,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+categories:
+  - resources
 ---
 Despite economic slowdown, the eCommerce industry continues growing exponentially. U.S. retail eCommerce sales for the fourth quarter of 2022 reached <a target="_blank" rel="noopener" href="https://supplygem.com/ecommerce-statistics/">$262.0 billion USD</a>. And by 2027, eCommerce is projected to reach <a target="_blank" rel="noopener" href="https://supplygem.com/ecommerce-statistics/">27% of global commerce</a>!
 

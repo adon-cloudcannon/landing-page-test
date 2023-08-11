@@ -2,6 +2,9 @@
 title: Templates for Static Site Generators
 layout: builder.html
 permalink: /templates/
+filters:
+  - framework
+  - category
 description: >-
   Explore our library of free CloudCannon-ready themes for your Jamstack project
   and deploy to your static site generator of choice.
@@ -312,25 +315,51 @@ bottom_content:
 ---
 <div class="container">
 
+
   {% assign templates = collections.templates | sort: 'data.priority' %}
 
-  <div class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
+  {% include 'partials/filters/filter.html' filter_type: filters collection: templates %}
+
+
+<div id="list-wrapper" class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
+  {% for template in templates %}
+    {% assign ssg_names = '' %}
+    {% assign categories = '' %}
     
-    {% for template in templates %}
-      <a href="{{ template.url }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">
+    {% for ssg in template.data.ssg_frameworks %}
+        {% assign ssg_names = ssg_names | append: ' ' | append: ssg | downcase %}
+    {% endfor %}
+    
+    {% for category in template.data.categories %}
+        {% assign categories = categories | append: ' ' | append: category | downcase %}
+    {% endfor %}
+
+    <a id="list-item" href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" class="transition relative border-2 border-midnight rounded-xl block hover:scale-105 overflow-hidden">
         {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: 'w-full' width: 594 height: 371 %}
         <div class="p-3">
-          <div class="flex my-1">
-            {% for ssg in template.data.ssgs %}
-              <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]" />
-            {% endfor %}
-          </div>
-          <h3 class="text-xl font-bold mt-1">
-            {{ template.data.name }}
-          </h3>
-          <p>{{ template.data.description }}</p>
+            <div class="flex justify-between items-center">
+               <div class="flex ">
+                  {% for ssg in template.data.ssgs %}
+                      <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}" class="mr-[5px]" />
+                  {% endfor %}
+               </div>
+                <div class="flex gap-x-1">
+                  {% for cat in template.data.categories %}
+                  <span class="text-cc border capitalize border-cc rounded-full px-2 py-1 text-xs font-medium">{{ cat }}</span>
+                {% endfor %}
+                </div>
+            </div>
+            
+            <h3 class="text-xl font-bold mt-1">
+                {{ template.data.name }}
+            </h3>
+            <p>{{ template.data.description }}</p>
         </div>
-      </a>
-    {% endfor %}
-  </div>
+    </a>
+  {% endfor %}
+</div>
+<div id="no-results" class="text-center mt-[3rem] mb-[5rem] md:mt-[8rem] md:mb-[10rem] text-xl font-bold hidden">
+  <h2>No Results Found</h2>
+</div>
+
 </div>

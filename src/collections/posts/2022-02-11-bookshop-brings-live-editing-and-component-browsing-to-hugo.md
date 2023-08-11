@@ -24,6 +24,10 @@ tags:
   - Features
   - Hugo
 author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
+ssg_frameworks:
+  - hugo
+categories:
+  - features
 ---
 [Bookshop](https://github.com/CloudCannon/bookshop) — our open-source page-building toolkit — now supports Hugo, as well as Jekyll and Eleventy.
 

@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/florian-wehde--y3sidwvdxg-unsplash.jpg
+ssg_frameworks:
+categories:
+  - resources
 ---
 
 One year ago I decided I needed a change. I’d spent the majority of my life in Dunedin, a small city in New Zealand. I’d flown internationally once and it was to Australia which I’m not sure even counts. Basically, I was living in a bubble.

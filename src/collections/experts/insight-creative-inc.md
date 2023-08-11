@@ -31,6 +31,7 @@ ssg_frameworks:
   - jekyll
   - hugo
   - 11ty
+locations:
 slides:
   - title: A to Z Machine
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-17-36-pm.png

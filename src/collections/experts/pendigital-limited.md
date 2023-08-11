@@ -27,6 +27,7 @@ ssg_frameworks:
   - jekyll
   - 11ty
   - astro
+locations: 
 slides:
   - title: Scientific Services
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-9-48-07-am.png

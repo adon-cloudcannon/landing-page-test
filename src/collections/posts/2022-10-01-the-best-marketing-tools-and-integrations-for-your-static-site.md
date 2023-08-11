@@ -24,6 +24,9 @@ hide_publish_date: false
 tags:
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+categories:
+  - resources
 ---
 ## Will my new static website integrate with external applications and services?
 

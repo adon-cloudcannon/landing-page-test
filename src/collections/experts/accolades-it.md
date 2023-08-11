@@ -19,6 +19,7 @@ links:
   linkedin_url:
 ssg_frameworks:
   - jekyll
+locations:
 slides:
   - title: Digital Twin Studios
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-06-48-pm.png

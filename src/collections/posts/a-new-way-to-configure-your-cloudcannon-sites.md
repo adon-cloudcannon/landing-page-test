@@ -31,6 +31,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks: 
+categories: 
+  - features
 ---
 We’ve just released a new way to create and edit your [CloudCannon configuration files](https://cloudcannon.com/documentation/guides/getting-started/configuring-your-cms/) within CloudCannon itself — enabling all users to clearly see what’s possible in our *very detailed* global configuration options.
 

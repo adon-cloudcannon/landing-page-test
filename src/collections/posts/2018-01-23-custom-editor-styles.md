@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-irridescent-disco-ball.jpeg
+ssg_frameworks:
+categories:
+  - features
 ---
 
 The editing interface is the core of CloudCannon. It has sensible defaults for most use cases, and can be configured to cover more. We've extended the configuration to allow custom styles, alignment and structure.

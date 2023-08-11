@@ -32,6 +32,9 @@ seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/top-23-astro-themes-1.png
   featured_image_alt: Free Astro Templates
+ssg_frameworks:
+  - astro
+categories:
 ---
 #
 

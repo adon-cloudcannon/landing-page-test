@@ -31,6 +31,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+categories:
+  - agencies
 ---
 <a target="_blank" rel="noopener" href="http://StadiumBike.com">Stadium Bike’s new website</a>, designed and built by <a target="_blank" rel="noopener" href="https://cloudcannon.com/customers/insight-creative-inc/">Insight Creative, Inc.</a>, is built with Hugo and CloudCannon.
 

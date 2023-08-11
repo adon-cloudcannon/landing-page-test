@@ -33,6 +33,7 @@ ssg_frameworks:
   - nuxtjs
   - sveltekit
   - astro
+locations: 
 slides:
   - title: Fiducian
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-14-at-3-21-44-pm.png

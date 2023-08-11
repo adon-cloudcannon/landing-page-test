@@ -30,4 +30,9 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://scenic-sea.cloudvent.net/
 priority: 8
+ssg_frameworks:
+  - hugo
+categories:
+  - Business
+  - Blog
 ---

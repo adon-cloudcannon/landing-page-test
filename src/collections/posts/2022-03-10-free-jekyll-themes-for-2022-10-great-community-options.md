@@ -27,6 +27,10 @@ tags:
   - Resources
   - Jekyll
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+  - jekyll
+categories:
+  - resources
 ---
 Building a website from scratch can be a rewarding experience. But it can also be a long and taxing process that not everyone can afford to do.
 

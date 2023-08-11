@@ -32,4 +32,8 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://holy-ball.cloudvent.net/
 priority: '2'
+ssg_frameworks:
+  - hugo
+categories:
+  - Documentation
 ---

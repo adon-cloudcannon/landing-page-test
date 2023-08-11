@@ -26,4 +26,9 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://zealous-sketchpad.cloudvent.net/
 priority: 6
+ssg_frameworks:
+  - jekyll
+categories:
+  - Business
+  - Blog
 ---

@@ -22,6 +22,10 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/rings.jpg
+ssg_frameworks:
+  - jekyll
+categories:
+  - resources
 ---
 Jekyll themes allow styles and site structures to be reused across any number of sites. This eliminates the need to duplicate content, layouts, includes and assets across multiple sites.
 

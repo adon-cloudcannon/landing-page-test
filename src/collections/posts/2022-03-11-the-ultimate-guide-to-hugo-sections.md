@@ -29,6 +29,11 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - hugo
+categories:
+  - resources
+
 ---
 Because URLs ideally [should never change](https://www.w3.org/Provider/Style/URI), one of the critical steps in your early planning for a website project must be to decide on the site’s structure. Additionally, if you’re converting an existing website to a different platform, you must make such decisions while also respecting the site’s current URLs. Sure, redirects are possible if needed, but their use should be a last resort.
 

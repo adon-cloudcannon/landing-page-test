@@ -24,6 +24,7 @@ ssg_frameworks:
   - hugo
   - nextjs
   - gatsby
+locations:
 slides:
   - title: Estreet Wines
     image: https://cc-dam.imgix.net/uploads/screenshot-2022-12-07-at-10-35-57-am.png

@@ -24,6 +24,9 @@ date: 2021-09-01T05:00:00+1200
 tags:
   - Features
 author: f0a50d0c-1615-4f97-b7c4-d86b833ac46f
+ssg_frameworks:
+categories:
+  - features
 ---
 Since the dawn of time — well, since around 2015 — [CloudCannon has been the best CMS for Jekyll *by far*](https://cloudcannon.com/jekyll-cms/). But we weren’t content with being a one-trick pony. We knew it was time to fully embrace the Jamstack world, and open up our platform to more and more exciting static site generators (SSGs).
 

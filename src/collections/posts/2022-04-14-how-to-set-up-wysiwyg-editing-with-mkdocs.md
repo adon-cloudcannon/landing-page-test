@@ -27,6 +27,10 @@ tags:
   - Mkdocs
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+  - mkdocs
+categories:
+  - resources
 ---
 [MkDocs](https://www.mkdocs.org/) is a fantastic static site generator (SSG) for project documentation. It builds quickly, its documentation source files are written in Markdown, and its sites are configured with a single YAML file. It has a [wide variety of themes](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes), and best of all, its built files are pure static HTML, which can be hosted anywhere. It’s also the most recent SSG we’re supporting at CloudCannon\!
 

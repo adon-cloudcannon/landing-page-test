@@ -21,6 +21,9 @@ seo:
   featured_image:
   featured_image_alt:
 image: https://cc-dam.imgix.net/blog/uploads/blog-paint-pots.jpg
+ssg_frameworks:
+categories:
+  - features
 ---
 
 Today we released our rebranding across our app. This includes a large number of usability fixes. Below are the most notable changes:

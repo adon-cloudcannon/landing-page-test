@@ -25,6 +25,9 @@ date: 2021-08-03T05:00:00+1200
 tags:
   - Features
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+ssg_frameworks:
+categories:
+  - features
 ---
 We’re incredibly excited to announce the launch of Eleventy support in CloudCannon. Eleventy is the third static site generator we’re offering to our users — and over the past several months, it's also the most frequently requested by the community. With Eleventy alongside Jekyll and Hugo, our goal of becoming the definitive all-in-one platform for Jamstack sites is a step closer.
 

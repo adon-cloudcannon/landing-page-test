@@ -35,6 +35,10 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+  - nextjs
+categories:
+  - features
 ---
 For developers with existing React UI components, we’re excited to announce our latest release, bringing CloudCannon’s support for Next.js out of beta!
 

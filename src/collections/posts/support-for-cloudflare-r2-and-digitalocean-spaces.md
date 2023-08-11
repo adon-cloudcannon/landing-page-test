@@ -31,6 +31,9 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
+ssg_frameworks:
+categories:
+  - features
 ---
 We’ve just released support for two new digital asset management (DAM) providers — DigitalOcean Spaces and Cloudflare R2 — which are available now for all CloudCannon users.
 

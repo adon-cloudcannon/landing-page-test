@@ -35,6 +35,7 @@ ssg_frameworks:
   - sveltekit
   - astro
   - mkdocs
+locations: 
 slides:
   - title: Lowe's Build A Birthday
     image: https://cc-dam.imgix.net/uploads/screenshot-2023-01-31-at-4-23-44-pm.png

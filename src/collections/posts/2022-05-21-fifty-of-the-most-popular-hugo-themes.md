@@ -27,6 +27,10 @@ tags:
   - Hugo
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+  - hugo
+categories:
+  - resources
 ---
 One reason Hugo is such a popular static site generator is the ease with which you can add visually appealing themes to new and existing website projects. Maybe a responsive Hugo theme is essential to your users, or multi-language capability; maybe it's simple contact forms or an easily adjustable dark mode. Whatever the case, the Hugo community has an option ready for you.  
 

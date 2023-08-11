@@ -29,4 +29,9 @@ ssgs:
     readme_filename: README.md
     live_preview_url: https://timely-land.cloudvent.net/
 priority: 4
+ssg_frameworks:
+  - hugo
+categories:
+  - Business
+  - Blog
 ---

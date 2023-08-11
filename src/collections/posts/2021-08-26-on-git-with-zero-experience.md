@@ -24,6 +24,9 @@ date: 2021-08-26T05:00:00+1200
 tags:
   - Resources
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+ssg_frameworks:
+categories:
+  - resources
 ---
 ## Part 2: **Git = gud**
 
