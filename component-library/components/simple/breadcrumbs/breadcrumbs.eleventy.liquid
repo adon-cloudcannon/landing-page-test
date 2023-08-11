@@ -1,12 +1,6 @@
 <nav class="c-breadcrumbs" aria-label="breadcrumbs">
     <ol class="align-center flex-wrap hidden sm:flex">
         {% assign crumb_url = "/" %}
-        {% unless page.url contains "/templates/" %}
-        <li class="flex">
-            <a href="{{ crumb_url }}">{{ '/src/images/icons/solid/home.svg' | svgContents: 'stroke-cc fill-cc w-5 h-5 inline align-text-bottom' }}</a>
-            <span class="px-2">/</span>
-        </li>
-        {% endunless %}
         {% assign breadcrumb = page.url | remove: "tags/" | split: "/" %}
         {% for crumb in breadcrumb %}
             {% unless forloop.first or forloop.last %}

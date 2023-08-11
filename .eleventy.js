@@ -97,12 +97,6 @@ module.exports = function (eleventyConfig) {
 		return input.replace(new RegExp(regex), replacement);
 	});
 
-	eleventyConfig.addLiquidFilter("parent_url", function(url) {
-		url = url.replace(/\/$/, '');
-    	url = url.substring(0, url.lastIndexOf('/'));
-   		return `${url}/`;
-	});
-
 	eleventyConfig.addFilter("markdownify", (markdown) => md.render(markdown));
 
 	return {
