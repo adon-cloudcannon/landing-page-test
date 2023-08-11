@@ -1,21 +1,22 @@
 ---
-draft: false
 _schema: default
 title: Out-of-this-world support for all Astro users
+breadcrumb_title:
 description: >-
   Astro support is now officially out of beta at CloudCannon. With CloudCannon
   and Astro as your static site generator, you can manage your content in your
   own Git repository and deploy everywhere, while using your favorite UI
   components and libraries. What's more, CloudCannon makes your sites available
   for non-technical editors to draft, review, and publish their content.
+draft: false
 series:
 image: https://cc-dam.imgix.net/astro-launch-update.jpg
-date: 2023-03-16T17:30:00Z
+date: 2023-03-17T06:30:00+13:00
 hide_publish_date: false
 tags:
   - Astro
   - Features
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your Astro website today

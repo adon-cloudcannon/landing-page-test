@@ -1,20 +1,31 @@
 ---
-draft: false
+_schema: default
 title: Top 10 Headless Commerce Tools to Build an eCommerce Storefront
+breadcrumb_title:
 description: >-
-    Here are the top 10 best headless commerce tools to build an eCommerce
-    digital storefront.
+  Here are the top 10 best headless commerce tools to build an eCommerce digital
+  storefront.
+draft: false
+series:
+image: https://cc-dam.imgix.net/blog/uploads/ecommerce-hero.jpg
+date: 2021-10-15T05:00:00+13:00
+hide_publish_date: false
+tags:
+  - Resources
+author: 361d2445-fcab-44bb-b1d3-4d840d4e8e05
 permalink: /blog/headless-commerce-tools/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
@@ -29,7 +40,7 @@ ssg_frameworks:
 categories:
   - resources
 ---
-The eCommerce industry is growing exponentially. By 2021 alone, the market is projected to reach a total of [$4.89 trillion](https://www.emarketer.com/content/worldwide-ecommerce-will-approach-5-trillion-this-year). This comes after retail eCommerce grew more than [25%](https://www.statista.com/topics/871/online-shopping/#dossier-chapter1) in 2020.
+Despite economic slowdown, the eCommerce industry continues growing exponentially. U.S. retail eCommerce sales for the fourth quarter of 2022 reached <a target="_blank" rel="noopener" href="https://supplygem.com/ecommerce-statistics/">$262.0 billion USD</a>. And by 2027, eCommerce is projected to reach <a target="_blank" rel="noopener" href="https://supplygem.com/ecommerce-statistics/">27% of global commerce</a>!
 
 With the quick uptick of the market valuation — due largely to the pandemic — comes the increase of software and tools available to brands to improve their stores. As an eCommerce business owner, the problem then becomes deciding on what technology to choose, or even where to look.
 
@@ -157,7 +168,7 @@ Founded in 2016, Commerce.js enables businesses to rapidly build their front-end
 
 #### **Cons**
 
-* It may take time to get used to it. (Though this is the case with anything new\!)
+* It may take time to get used to it. (Though this is the case with anything new!)
 
 #### **Who is this tool suited for?**
 

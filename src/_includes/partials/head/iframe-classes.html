@@ -1,0 +1,53 @@
+{% assign first_segment = page.url | remove_first: "/" | split: "/" | first %}
+{% if first_segment == 'templates' %}
+    <script>
+        (() => {
+            try {
+                if (window.self === window.top) {
+                    return;
+                }
+            } catch (e) {
+                console.warn(e);
+                // This means that we can't access window.top
+            }
+
+            document.documentElement.classList.add("iframed");
+            const base = document.createElement("base");
+            base.target = "_blank";
+            document.getElementsByTagName('head')[0].appendChild(base);
+
+            if (window.top) {
+                window.addEventListener("DOMContentLoaded", (event) => {
+                    const links = document.getElementsByTagName('a');
+                    for (let i = 0; i < links.length; i++) {
+                        const element = links[i];
+                        const href = element.getAttribute('href') || '';
+
+                        if (href.startsWith?.('/templates/')) {
+                            element.target = '_self';
+                        } else if (href.startsWith?.('https://app.cloudcannon.com/#')) {
+                            element.addEventListener('click', (e) => {
+                                const url = new URL(element.href);
+                                e?.preventDefault();
+                                
+                                window.top.postMessage({
+                                    name: 'click',
+                                    hash: url.hash
+                                }, '*')
+                            });
+                        } else {
+                            element.target = "_blank";
+                        }
+                    }
+                });
+            }
+        })();
+    </script>
+    <style>
+        .iframed body > header,
+        .iframed body > footer,
+        .iframed div.bg-cc.dark-text {
+            display: none;
+        }
+    </style>
+{% endif %} 

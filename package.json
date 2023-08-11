@@ -7,7 +7,7 @@
     "start": "run-p dev:*",
     "build:styles": "NODE_ENV=production npx postcss src/styles/tailwind.pcss -o _site/style.css --config src/styles/",
     "build:scripts": "esbuild src/main.js --bundle --minify --outfile=_site/js/main.js",
-    "polish": "npx @divriots/jampack ./_site",
+    "polish": "npx @divriots/jampack ./_site --fast",
     "build": "run-s build:* "
   },
   "devDependencies": {
@@ -15,7 +15,7 @@
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@alpinejs/intersect": "^3.10.4",
-    "@divriots/jampack": "^0.7.2",
+    "@divriots/jampack": "^0.13.0",
     "@pagefind/modular-ui": "1.0.0-alpha.5",
     "@tailwindcss/typography": "^0.5.8",
     "alpine-splide": "^1.2.0",
