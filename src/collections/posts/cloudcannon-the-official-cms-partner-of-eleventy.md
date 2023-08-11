@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: CloudCannon — the official CMS partner of Eleventy
-breadcrumb_title:
+breadcrumb_title: CloudCannon, the official CMS partner of Eleventy
 description: >-
   CloudCannon is now the official CMS Partner for Eleventy, and Eleventy creator
   Zach Leatherman is joining the CloudCannon team. With our support, Zach will
