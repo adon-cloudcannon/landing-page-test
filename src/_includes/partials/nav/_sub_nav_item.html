@@ -43,15 +43,18 @@
 									{% assign pages = collections.all %}
 									{% for page in pages %}
 										{% if page.url == sub_item.featured_page_link %}
+											
 											{% if sub_item.image.image_path %}
-												<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ sub_item.image.image_path }}" alt="">
+												{% assign image_path = sub_item.image.image_path %}
 											{% else %}
 												{% if page.data.image.path %}
-													<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ page.data.image.path }}" alt="{{ page.data.image.alt }}">
+													{% assign image_path = page.data.image.path  %}
+													{% assign image_alt = page.data.image.alt %}													
 												{% else %}
-													<img class="rounded-lg object-cover min-h-[138px] min-w-full" src="{{ page.data.image }}" alt="">
+													{% assign image_path = page.data.image %}
 												{% endif %}
 											{% endif %}	
+											{% bookshop "helpers/image" image: image_path alt: person.data.name width: 500 responsive: false classes: 'rounded-lg object-cover min-h-[138px] min-w-full' %}
 											<div class="text-base font-semibold pt-4 pb-1">
 												{% if sub_item.name %}
 													{{ sub_item.name }}
