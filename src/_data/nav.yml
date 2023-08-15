@@ -158,10 +158,10 @@
       sub_nav:
       sub_card:
         - featured_page_link: >-
-            /blog/partner-site-of-the-month-stadium-bike-by-insight-creative-inc/
-          name: 'Partner of the month: Insight Creative, Inc.'
+            /blog/partner-site-of-the-month-dc-gay-flag-football-league-by-ed-cupaioli/
+          name: 'Partner of the month: Ed Cupaioli'
           image:
-            image_path: https://cc-dam.imgix.net/partner-site-img.png
+            image_path: https://cc-dam.imgix.net/partner-site-img-dcgffl.png
             image_alt: CloudCannon Partner Site of the Month
 - name: Pricing
   link: /pricing/
