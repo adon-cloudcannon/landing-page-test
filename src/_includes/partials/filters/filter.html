@@ -4,12 +4,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 16px;
-        height: 16px;
+        padding: 6px;
         border: 2px solid #034AD8;
         border-radius: 4px;
         position: relative;
         cursor: pointer;
+     
     }
     
     input[type="checkbox"]:checked + .custom-checkbox {
@@ -20,15 +20,19 @@
     input[type="checkbox"]:checked + .custom-checkbox::after {
         content: '\2713';
         position: absolute;
-        color: white;
-        font-size: 16px;
+        color: #fff;
+        font-size: 14px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        height: 100%; 
     }
-
+    
     [x-cloak] {
         display: none;
     }
-
-
+    
 </style>
 
 <div x-data="filterComponent" x-init="init(); initialisePagefind();" class="mb-8 relative">
@@ -150,14 +154,14 @@
     </div>
      <!-- Selected Options -->
      <div 
-     class="mt-4 gap-x-6 gap-y-1 flex-wrap hidden md:flex" 
-     x-show="selectedOptions.length > 0 && !isMobile" 
-     x-init="$watch('selectedOptions.length', () => { if(window.innerWidth >= 768) { $el.classList.toggle('hidden', !selectedOptions.length); } })"
-     >
+        class="mt-4 gap-x-6 gap-y-1 flex-wrap hidden md:flex" 
+        x-show="selectedOptions.length > 0 && !isMobile" 
+        x-init="$watch('selectedOptions.length', () => { if(window.innerWidth >= 768) { $el.classList.toggle('hidden', !selectedOptions.length); } })"
+        >
         <template x-for="(option, index) in selectedOptions" :key="index">
             <span class="border-2 border-comet rounded-[24px] relative flex items-center justify-between gap-x-[14px] py-3 px-[22px] leading-none">
-                <span class="capitalize font-medium m-0 text-carbon" x-text="option"></span>
-                <button @click="removeOptionFromFilter(option, index)" class="m-0" aria-label="Remove filter {{ option }}" >
+                <span class="capitalize font-medium text-carbon leading-[12px]" x-text="option"></span> 
+                <button @click="removeOptionFromFilter(option, index)" class="flex items-center justify-center relative top-px" aria-label="Remove filter {{ option }}">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L11 11M11 1L1 11" stroke="#393939" stroke-width="2"/>
                     </svg>
@@ -165,6 +169,8 @@
             </span>
         </template>
     </div>
+
+
 
     <!-- Skeleton loader -->
 
