@@ -64,7 +64,7 @@ Create a directory in the root of your site called `_includes` and inside that, 
 ```
 {% endraw %}
 
-This is almost identical to our original index file except it has two snippets: {% raw %}{{ title }}{% endraw %} and {% raw %}{{ content }}{% endraw %} replacing the content we had for this page. These snippets are a templating language called [Liquid](https://liquidjs.com/). If you’ve used the static site generator Jekyll before, this will all look very familiar.
+This is almost identical to our original index file except it has two snippets: {% raw %}`{{ title }}`{% endraw %} and {% raw %}`{{ content }}`{% endraw %} replacing the content we had for this page. These snippets are a templating language called [Liquid](https://liquidjs.com/). If you’ve used the static site generator Jekyll before, this will all look very familiar.
 
 Now we can reference the new layout in `/index.html` and change the page to only specify the placeholders for content — title and content. Replace the contents of `/index.html` with the following:
 
