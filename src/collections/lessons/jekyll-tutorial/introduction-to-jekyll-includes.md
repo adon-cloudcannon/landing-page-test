@@ -2,7 +2,7 @@
 title: Includes in Jekyll
 tutorial: jekyll-tutorial
 order: 6
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
    Learn how Jekyll includes allow you to break down your pages into smaller
     “components”.

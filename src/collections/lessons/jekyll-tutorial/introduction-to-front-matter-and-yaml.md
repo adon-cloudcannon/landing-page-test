@@ -2,7 +2,7 @@
 title: Jekyll front matter & YAML
 tutorial: jekyll-tutorial
 order: 4
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
   Front matter and YAML are like bread and butter in Jekyll. Learn these
     concepts and their relationship with Liquid.

@@ -2,7 +2,7 @@
 title: Layouts in Jekyll
 tutorial: jekyll-tutorial
 order: 5
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
   Layouts help you set up and reuse the main structure of your Jekyll
     site.

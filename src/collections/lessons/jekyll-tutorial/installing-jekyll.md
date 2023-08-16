@@ -2,7 +2,7 @@
 title: Installing Jekyll
 tutorial: jekyll-tutorial
 order: 1
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
   Install Jekyll - a simple, blog aware static site generator Ruby Gem.
 ---

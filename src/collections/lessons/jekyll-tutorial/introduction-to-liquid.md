@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: Jekyll Liquid basics
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 order: 3
 tutorial: jekyll-tutorial
 description: |-
