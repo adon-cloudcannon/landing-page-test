@@ -2,7 +2,7 @@
 title: Collections in Jekyll
 tutorial: jekyll-tutorial
 order: 8
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
   Create and display related groups of content, independent of date, with Jekyll
   collections in this tutorial.

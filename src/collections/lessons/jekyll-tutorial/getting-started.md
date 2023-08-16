@@ -2,7 +2,7 @@
 title: Getting started with Jekyll
 tutorial: jekyll-tutorial
 order: 2
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
   Set the ground work for the rest of the series by setting up a Jekyll site
     and going over Jekyll conventions.

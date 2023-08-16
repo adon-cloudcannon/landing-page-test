@@ -2,7 +2,7 @@
 title: Data files in Jekyll
 tutorial: jekyll-tutorial
 order: 9
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
   Supplement your Jekyll site with globally available data that can be used on
   any page in this Jekyll tutorial.

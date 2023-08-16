@@ -2,7 +2,7 @@
 title: Blogging in Jekyll
 tutorial: jekyll-tutorial
 order: 7
-image: https://dam-cdn.cloudcannon.com/community/Jekyll-tutorial.jpg
+image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
 description: >-
   Create and manage blogging content quickly with Jekyll's easy-to-use post
   setup.
