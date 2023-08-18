@@ -70,49 +70,9 @@ layout: page.html
 
 There’s a few new concepts here; let me explain.
 
-1. `collections.posts` doesn’t exist yet. We’ll set this up later in the tutorial.
+1. `collections.posts` doesn’t exist yet. We’ll set this up in the next step.
 2. We’re calling the `reverse` filter on the posts. By default it returns the posts oldest to newest. A blog is the opposite.
 3. `.url` can be called on any page to get its output URL. It’s particularly useful if you want to link to a page.
-4. `readableDate`&nbsp;
-
-### It's a date
-
-When you look at your blog page, you will see that the date is quite long.
-
-We want to simplify this to&nbsp;**01 Jun 2022**. To achieve this we'll use the plugin luxon and create the date time filter .
-
-First we’ll install the `luxon`&nbsp;plugin to our site using the terminal:
-
-```shell
-npm install luxon
-```
-
-Next we’ll tell Eleventy about this plugin. `.eleventy.js` is where the global configuration for our eleventy site lives. Update&nbsp;`.eleventy.js`&nbsp;to include luxon.​​​​​​Your&nbsp;`.eleventy.js` file should now look like this:
-
-
-
-```javascript
-const eleventySass = require("eleventy-sass");
-const { DateTime } = require('luxon');
-
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(eleventySass);
-
-  eleventyConfig.addFilter('readableDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-      'dd LLL yyyy'
-    );
-  });
-
-  // Copy any file in assets to `_site`, via Glob pattern
-  // Keeps the same directory structure.
-  eleventyConfig.addPassthroughCopy("assets/map.js");
-};
-```
-
-
-
-`.eleventy.js` is where the global configuration for our eleventy site lives. In this case we’re importing the `eleventy-sass` plugin and loading it into Eleventy as a plugin. Now any `.scss` file will automatically be built into a `.css` file.
 
 That’s it for the list page, let’s have a look at the posts.
 
