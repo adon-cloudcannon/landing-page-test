@@ -80,7 +80,7 @@ layout: page.html
 
 You may have noticed the triple dashes at the top of the file. These dashes indicate metadata for the page, commonly known as front matter. We’ll dive deeper into front matter later in the series. For now, I want you to see the connection between setting the title in the page front matter and referencing it in the layout file. We’re also using front matter here to tell Eleventy which layout to use for this page.
 
-The body content is available using the `{{ content }}` variable in the layout. Let’s make one further iteration here. This content is relatively simple and would be a great fit for Markdown. If we change the extension of our index file to `.md` and change the body content to Markdown (in this case by simply removing `<p>` and `</p>`), we have an even simpler way to maintain our content. The end result looks like this:
+The body content is available using the&nbsp;{% raw %}{{ content }}{% endraw %}&nbsp;variable in the layout. Let’s make one further iteration here. This content is relatively simple and would be a great fit for Markdown. If we change the extension of our index file to `.md` and change the body content to Markdown (in this case by simply removing `<p>` and `</p>`), we have an even simpler way to maintain our content. The end result looks like this:
 
 ```markdown
 ---
