@@ -1,7 +1,7 @@
 ---
+_schema: default
 title: Eleventy global data files
-image: >-
-  https://cc-dam.imgix.net/eleventy-beginner-tutorial-6-global-data-files.png
+image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-6-global-data-files.png
 order: 6
 tutorial: eleventy-beginner-tutorial
 description: Learn how to use a global data file to populate a map on your Eleventy site.
@@ -50,20 +50,18 @@ First, we’ll create a global data file with top opossum spots. Create the dire
 ]
 ```
 
-
 ## Map include
 
 Putting a map with markers on our site is one thing, creating a reusable component where we can pass in an array of markers and plot them is another. With the latter we can reuse this map component any time we want to plot a list of markers on a map.
 
 To make this a reusable component, we’ll create a partial which expects an array to be passed to it. Create `/_includes/_map.html` with the following content:
 
-{% raw %}
- ```html
+{% raw %} ```html
 <div id="map"></div>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
 <script>
-  let markers = {{ markers | json }};
+  markers = {{ markers | json }};
 </script>
 <script src="/assets/map.js"></script>
 ```
@@ -82,7 +80,7 @@ Let’s add the JavaScript to initialize the map and add the markers. Create `/a
 ```javascript
 const map = L.map('map');
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
     {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
     .addTo(map);
 
@@ -119,4 +117,4 @@ This is only the beginning of your Eleventy journey. You now have the skills to 
 
 Finally I want to briefly mention [CloudCannon](https://cloudcannon.com/eleventy-cms/) — it’s a content management system with first-class support for Eleventy. It syncs directly with your Git repository, so your development team can continue working in Eleventy while your content team can manage the content on the site. It’s the best of both worlds.
 
-Thanks for reading and keep on building with Eleventy\!
+Thanks for reading and keep on building with Eleventy!
