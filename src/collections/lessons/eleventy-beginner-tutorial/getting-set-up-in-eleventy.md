@@ -1,7 +1,7 @@
 ---
+_schema: default
 title: Getting set up in Eleventy
-image: >-
-  https://cc-dam.imgix.net/eleventy-beginner-tutorial-1-getting-set-up.png
+image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-1-getting-set-up.png
 order: 1
 tutorial: eleventy-beginner-tutorial
 description: 'Learn the basics of Eleventy in this six-part tutorial series. '
@@ -10,10 +10,9 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 Welcome to this Eleventy for Beginners tutorial. In this series we’ll go through the basics of Eleventy from learning how to install the framework, creating layouts, pages, and blog posts, and an introduction to using data files. We’ll build everything from scratch and explain eleventy concepts as we go so no previous eleventy knowledge is necessary. By the end of this tutorial you’ll be able to build your very own Eleventy website.
 
-Let’s get into it\!
+Let’s get into it!
 
 ## What is Eleventy?
 
@@ -52,8 +51,10 @@ npm init -y
 Now we can install Eleventy and add it as a development dependency to our `package.json`\:
 
 ```shell
-npm install --save-dev @11ty/eleventy
+npm install --save-dev @11ty/eleventy luxon
 ```
+
+You may notice we are also installing luxon. We will be using luxon to format date in part five of this tutorial series, Blogging in Eleventy, so don't worry about it for now.
 
 Let’s check that all went to plan:
 
@@ -75,5 +76,3 @@ For this tutorial, we’ll be using the default directory structure which I’ll
 ## What’s next?
 
 In our next lesson, we’ll learn the basics of Eleventy layouts.
-
-

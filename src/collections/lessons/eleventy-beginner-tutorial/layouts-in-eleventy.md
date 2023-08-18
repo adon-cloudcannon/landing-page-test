@@ -12,7 +12,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Let’s set up our first page on our Eleventy site. Create `/index.html` with the following content:
+Let’s set up our first page on our Eleventy site. Create `index.html`&nbsp;in your root directory with the following content:
 
 {% raw %}
  ```html
@@ -42,7 +42,7 @@ Now open [http://localhost:8080](http://localhost:8080) in your web browser and 
 
 One of the main benefits of a static site generator over a purely static website is reducing repetition. One tool Eleventy gives us to reduce repetition is layouts. A layout is typically comprised of all the HTML on a website that remains relatively unchanged between the pages of the site. The head metadata, header, navigation, and footer are often perfect candidates for a layout.
 
-Let’s take everything except the content of our `/index.html` file and put it into a layout so it can be used for other pages.
+Let’s take everything except the content of our `index.html` file and put it into a layout so it can be used for other pages.
 
 ## Your first layout
 
@@ -66,7 +66,7 @@ Create a directory in the root of your site called `_includes` and inside that, 
 
 This is almost identical to our original index file except it has two snippets: {% raw %}`{{ title }}`{% endraw %} and {% raw %}`{{ content }}`{% endraw %} replacing the content we had for this page. These snippets are a templating language called [Liquid](https://liquidjs.com/). If you’ve used the static site generator Jekyll before, this will all look very familiar.
 
-Now we can reference the new layout in `/index.html` and change the page to only specify the placeholders for content — title and content. Replace the contents of `/index.html` with the following:
+Now we can reference the new layout in `index.html` and change the page to only specify the placeholders for content — title and content. Replace the contents of `index.html` with the following:
 
 {% raw %}
  ```html
@@ -80,7 +80,7 @@ layout: page.html
 
 You may have noticed the triple dashes at the top of the file. These dashes indicate metadata for the page, commonly known as front matter. We’ll dive deeper into front matter later in the series. For now, I want you to see the connection between setting the title in the page front matter and referencing it in the layout file. We’re also using front matter here to tell Eleventy which layout to use for this page.
 
-The body content is available using the `{{ content }}` variable in the layout. Let’s make one further iteration here. This content is relatively simple and would be a great fit for Markdown. If we change the extension of our index file to `.md` and change the body content to Markdown (in this case by simply removing `<p>` and `</p>`), we have an even simpler way to maintain our content. The end result looks like this:
+The body content is available using the&nbsp;{% raw %}{{ content }}{% endraw %}&nbsp;variable in the layout. Let’s make one further iteration here. This content is relatively simple and would be a great fit for Markdown. If we change the extension of our index file to `.md` and change the body content to Markdown (in this case by simply removing `<p>` and `</p>`), we have an even simpler way to maintain our content. The end result looks like this:
 
 ```markdown
 ---
@@ -94,7 +94,7 @@ Hello, I'm an Opossum.
 
 Let’s create a second page on the site to demonstrate how the layout is doing most of the heavy lifting for us.
 
-Create `/about.md` with the following content:
+Create `about.md`&nbsp;in your root directory with the following content:
 
 ```markdown
 ---
@@ -166,7 +166,7 @@ footer {
 }
 ```
 
-Finally we need to reference the CSS in our layout below `</title>`\:
+Finally we need to reference the CSS in our layout below `</title>`&nbsp;in you&nbsp;`page.html` layout.
 
 {% raw %}
  ```html
