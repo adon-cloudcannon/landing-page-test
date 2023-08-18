@@ -12,7 +12,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Templating is what gives us control over how pages are rendered in Eleventy. You can output variables, loop over an array, run a custom plugin to generate data … almost anything you want. The curly braces we were using earlier{% raw %}{{ }}{% endraw %}, that’s Liquid templating.
+Templating is what gives us control over how pages are rendered in Eleventy. You can output variables, loop over an array, run a custom plugin to generate data … almost anything you want. The curly braces we were using earlier&nbsp;{% raw %}{{ }}{% endraw %}, that’s Liquid templating.
 
 Liquid is the default templating language for HTML and Markdown files, and it’s what we’ll be using throughout this series. If Liquid doesn’t float your boat, Eleventy has a number of other built in templating languages including [Nunjucks](https://www.11ty.dev/docs/languages/nunjucks/), [Handlebars](https://www.11ty.dev/docs/languages/handlebars/), [Mustache](https://www.11ty.dev/docs/languages/mustache/), [EJS](https://www.11ty.dev/docs/languages/ejs/), [HAML](https://www.11ty.dev/docs/languages/haml/), and [PUG](https://www.11ty.dev/docs/languages/pug/), or you can [add your own custom template extension](https://www.11ty.dev/docs/languages/custom/).
 
