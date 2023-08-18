@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Templating in Eleventy
 image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-4-templating.png
 order: 4
@@ -11,8 +12,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
-Templating is what gives us control over how pages are rendered in Eleventy. You can output variables, loop over an array, run a custom plugin to generate data … almost anything you want. The curly braces we were using earlier `{{ }}`, that’s Liquid templating.
+Templating is what gives us control over how pages are rendered in Eleventy. You can output variables, loop over an array, run a custom plugin to generate data … almost anything you want. The curly braces we were using earlier{% raw %}{{ }}{% endraw %}, that’s Liquid templating.
 
 Liquid is the default templating language for HTML and Markdown files, and it’s what we’ll be using throughout this series. If Liquid doesn’t float your boat, Eleventy has a number of other built in templating languages including [Nunjucks](https://www.11ty.dev/docs/languages/nunjucks/), [Handlebars](https://www.11ty.dev/docs/languages/handlebars/), [Mustache](https://www.11ty.dev/docs/languages/mustache/), [EJS](https://www.11ty.dev/docs/languages/ejs/), [HAML](https://www.11ty.dev/docs/languages/haml/), and [PUG](https://www.11ty.dev/docs/languages/pug/), or you can [add your own custom template extension](https://www.11ty.dev/docs/languages/custom/).
 
@@ -31,24 +31,20 @@ layout: page.html
 ```
 {% endraw %}
 
-
 ## How do I use templating and front matter?
 
 Templating and working with front matter are the two things you’ll be doing most of in your Eleventy site, so let’s go through some examples to demonstrate how they work.
 
 ### Output a string:
 
-
 {% raw %}
  ```html
-<p>You can write normal HTML, and when you want to switch to Liquid, 
+<p>You can write normal HTML, and when you want to switch to Liquid,
 you can use double curly braces like this: {{ "Hello!" }}</p>
 ```
 {% endraw %}
 
-
 ### Output a front matter value:
-
 
 {% raw %}
  ```html
@@ -59,10 +55,9 @@ favorite_animal: "Opossum"
 ```
 {% endraw %}
 
-
 ### Conditions
 
-Logic statements are surrounded in curly brace percentage sign e.g. {% raw %}`{% if statement %}`{% endraw %} \:
+Logic statements are surrounded in curly brace percentage sign e.g. {% raw %}`{% if statement %}`{% endraw %} :
 
 {% raw %}
  ```html
@@ -77,9 +72,7 @@ show_sidebar: true
 ```
 {% endraw %}
 
-
 ### Set and output a variable:
-
 
 {% raw %}
  ```html
@@ -88,9 +81,7 @@ show_sidebar: true
 ```
 {% endraw %}
 
-
 ### Looping:
-
 
 {% raw %}
  ```html
@@ -110,9 +101,7 @@ opossum_fun_facts:
 ```
 {% endraw %}
 
-
 ### Nested key values:
-
 
 {% raw %}
  ```html
@@ -151,7 +140,7 @@ appearance:
 	  <ul>
     {{ for limb in appearance.limbs }}
       <li>
-        {{ limb.position }} {{ limb.side }} 
+        {{ limb.position }} {{ limb.side }}
         {{ limb.claws }
       </li>
     {{ endfor }}
@@ -160,7 +149,6 @@ appearance:
 </dl>
 ```
 {% endraw %}
-
 
 ### Filters:
 
@@ -174,9 +162,7 @@ Liquid filters are a way of changing the value of a variable. The pipe character
 ```
 {% endraw %}
 
-
 #### Output:
-
 
 {% raw %}
  ```html

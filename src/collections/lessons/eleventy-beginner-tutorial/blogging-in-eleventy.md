@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: Blogging in Eleventy
 image: https://cc-dam.imgix.net/eleventy-beginner-tutorial-5-blogging.png
 order: 5
@@ -9,7 +10,6 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 A simple Eleventy blog consists of two different page types:
 
 1. A page to list all the posts.
@@ -19,7 +19,7 @@ In this lesson we’ll demonstrate how these page types work together to create 
 
 ## Collections
 
-Collections are a way of grouping content together which allows you to list, paginate, filter in interesting ways. We’re going to use a collection for our blog.
+Collections are a way of grouping content together which allows you to list, paginate, and filter in interesting ways. We’re going to use a collection for our blog.
 
 You add a piece of content to a collection by assigning it a string in a front matter field called `tags`. Pages with the same tag are grouped together in a collection.
 
@@ -58,14 +58,14 @@ The hard part is already done. Let’s get this blog going by creating some post
 
 First we’ll create a folder in the root of the site called `posts`. As you may have guessed, this is where our posts will live.
 
-Let’s create three blog posts:
+Let’s create three blog posts in your `posts`&nbsp;file, with a markdown `.md`&nbsp;file extension. We named them after the post title, but you can use any naming convention.
 
 ```markdown
 ---
 title: Playing dead
 date: 2022-06-01
 layout: post.html
-tags: 
+tags:
   - posts
 ---
 Opossums have a physiological response to play dead when
@@ -73,30 +73,28 @@ danger is presented. They have no control over this response,
 similar to fainting for humans.
 ```
 
-
 ```markdown
 ---
 title: Tick eaters
 date: 2022-06-02
 layout: post.html
-tags: 
+tags:
   - posts
 ---
-Ticks don't stand a chance with opossums around. A single 
+Ticks don't stand a chance with opossums around. A single
 opossum can eat up to 5,000 ticks per season.
 ```
-
 
 ```markdown
 ---
 title: Immunities
 date: 2022-06-03
 layout: post.html
-tags: 
+tags:
   - posts
 ---
-Opossums have a wide range of natural immunities 
-including rabies, snake venom, honeybee stings, 
+Opossums have a wide range of natural immunities
+including rabies, snake venom, honeybee stings,
 and botulism toxin. (I hope they enjoy their natural wrinkles.)
 ```
 
@@ -138,7 +136,7 @@ Let’s break it down. First create `/posts/posts.json` with the following conte
 ```json
 {
   "layout": "post.html",
-  "tags": ["posts"] 
+  "tags": ["posts"]
 }
 ```
 
@@ -148,11 +146,11 @@ Now we can remove the following from the post files' front matter:
 
 ```markdown
 layout: post.html
-tags: 
+tags:
   - posts
 ```
 
-and *voila*. Hello, easier-to-maintain code\!
+and *voila*. Hello, easier-to-maintain code!
 
 As your blog grows, you may want to look at paginating the blog list page. Pagination is outside the scope of this tutorial, however, if you’re interested, [check out the docs](https://www.11ty.dev/docs/pagination/). Eleventy has one of the nicest built-in pagination systems.
 
