@@ -51,10 +51,8 @@ npm init -y
 Now we can install Eleventy and add it as a development dependency to our `package.json`\:
 
 ```shell
-npm install --save-dev @11ty/eleventy luxon
+npm install --save-dev @11ty/eleventy
 ```
-
-You may notice we are also installing luxon. We will be using luxon to format date in part five of this tutorial series, Blogging in Eleventy, so don't worry about it for now.
 
 Let’s check that all went to plan:
 
