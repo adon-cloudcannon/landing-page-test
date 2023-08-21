@@ -71,8 +71,6 @@ To make this a reusable component, we’ll create a partial which expects an arr
 
 <img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
 
-
-
 There’s a lot going on here. Let me explain:
 
 1. First we have the map element which will hold the map.
@@ -132,7 +130,7 @@ module.exports = function(eleventyConfig) {
 };
 ```
 
-The final set is to actually use the include. Open up `/about.md` and append the following:
+The final step is to actually use the include. Open up `/about.md` and append the following:
 
 {% raw %}
 ```markdown
@@ -143,8 +141,6 @@ The final set is to actually use the include. Open up `/about.md` and append the
 <div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
 
 <img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
 
 This passes the locations global data file we created earlier into the map partial.
 
