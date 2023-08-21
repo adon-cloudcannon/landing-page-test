@@ -43,22 +43,6 @@ layout: page.html
 ```
 {% endraw %}
 
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
 There’s a few new concepts here; let me explain.
 
 1. `collections.posts` doesn’t exist yet. We’ll set this up in the next step.
@@ -126,22 +110,6 @@ layout: page.html
 ```
 {% endraw %}
 
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
 One thing to note here is we have front matter in a layout, which is setting another layout. In Eleventy, this is called layout chaining: our posts call the `post.html` layout, which in turn calls the `page.html` layout. This allows us to reuse layouts in a variety of situations which promotes better maintainability.
 
 Finally, let’s add the blog to the navigation. Open `/_includes/_nav.html` and add another list item:
@@ -151,22 +119,6 @@ Finally, let’s add the blog to the navigation. Open `/_includes/_nav.html` and
 <li><a href="/blog/">Blog</a></li>
 ```
 {% endraw %}
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
 
 Take a look at the site in your browser and navigate through your very own Eleventy-powered blog.
 
