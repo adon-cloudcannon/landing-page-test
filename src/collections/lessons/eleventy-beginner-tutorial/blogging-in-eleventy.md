@@ -124,9 +124,9 @@ Take a look at the site in your browser and navigate through your very own Eleve
 
 ## It's a date
 
-We want to display the date each blog post was published on our blog list page. At the moment, our page will display each post with a long date format which is more complex than we need.
+We want to display the date each blog post was published on our blog list page. At the moment, our page will display each post with a long date format which is more complex than we need. Depending on what timezone you are in, it might look something like this:
 
-**Wed Jun 01 2022 12:00:00 GMT+1200 (New Zealand Standard Time)**
+**Wed Jun 01 2022 12:00:00 UTC+0000**
 
 We want to simplify this date to something more readable, such as:
 
@@ -146,7 +146,7 @@ Next we’ll tell Eleventy about this plugin. This will require two lines in&nbs
 const { DateTime } = require('luxon');
 ```
 
-In&nbsp;`.eleventy.js`, add the following line to the&nbsp;`eleventyConfig`&nbsp;quote block:
+Then add the following line to the&nbsp;`eleventyConfig`&nbsp;quote block:
 
 ```jsx
   eleventyConfig.addFilter('readableDate', (dateObj) => {
@@ -195,7 +195,7 @@ layout: page.html
 </ul>{% endraw %}
 ```
 
-If you look at the site in your browser, the blog date-time display has changed! This is much more readable than the long form date.
+If you look at <a target="_blank" rel="noopener" href="http://localhost:8080/blog">your site</a>, the blog date format has changed! This is much more readable than the long form date.
 
 ## Cleaning up
 
