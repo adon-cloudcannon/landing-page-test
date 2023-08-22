@@ -3,13 +3,13 @@ _schema: default
 uuid: 4e2ab250-6d23-48cf-ae6f-88bc5978e62c
 title: Ed Cupaioli
 heading: 'Build for every user: How Ed Cupaioli focuses on UX with CloudCannon'
-weight: 0
+weight: 8
 categories:
   - Agency
 image:
   path:
   alt:
-logo:
+logo: https://cc-dam.imgix.net/EC.svg
 case_study_person: cf357f70-8be6-4546-8e36-bc29082a83cf
 description: >-
   When Ed Cupaioli found CloudCannon and saw visual editing on a static site,
