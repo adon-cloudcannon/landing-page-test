@@ -67,6 +67,10 @@ To make this a reusable component, we’ll create a partial which expects an arr
 ```
 {% endraw %}
 
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
+
+<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
+
 There’s a lot going on here. Let me explain:
 
 1. First we have the map element which will hold the map.
@@ -96,13 +100,47 @@ map.fitBounds(bounds);
 
 We’re not here to learn JavaScript so I’ll leave this one for you to decipher (or not).
 
-The final set is to actually use the include. Open up `/about.md` and append the following:
+Next we’ll tell Eleventy to copy the&nbsp;`map.js`&nbsp;file to the built site. In&nbsp;`.eleventy.js`, add the following line to the&nbsp;`eleventyConfig`&nbsp;quote block:
+
+```javascript
+eleventyConfig.addPassthroughCopy("assets/map.js");
+```
+
+Your&nbsp;`.eleventy.js`&nbsp;file should now look like this.
+
+```javascript
+//Include the eleventy-sass plugin
+const eleventySass = require("eleventy-sass");
+
+//Include the luxon plugin
+const { DateTime } = require('luxon');
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventySass);
+
+  //Add the filter "readableDate" to simplify the way blog dates are presented
+  eleventyConfig.addFilter('readableDate', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
+      'dd LLL yyyy'
+    );
+  });
+
+  //Tells eleventy to copy map.js into your site
+  eleventyConfig.addPassthroughCopy("assets/map.js");
+};
+```
+
+The final step is to actually use the include. Open up `/about.md` and append the following:
 
 {% raw %}
 ```markdown
 {% include "_map.html" markers:locations %}
 ```
 {% endraw %}
+
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
+
+<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
 
 This passes the locations global data file we created earlier into the map partial.
 
