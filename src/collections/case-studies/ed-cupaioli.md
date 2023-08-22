@@ -7,8 +7,8 @@ weight: 8
 categories:
   - Agency
 image:
-  path:
-  alt:
+  path: https://cc-dam.imgix.net/ed-cupaioli-logo.png
+  alt: Ed Ecupaioli logo
 logo: https://cc-dam.imgix.net/EC.svg
 case_study_person: cf357f70-8be6-4546-8e36-bc29082a83cf
 description: >-
