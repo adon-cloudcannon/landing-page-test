@@ -60,7 +60,13 @@ For our first example, let’s take our existing navigation and footer from our 
 </body>
 </html>
 ```
-{% endraw %} Now our default layout is quite a bit cleaner and easier to read, and it’s easier for us to work with these areas individually.
+{% endraw %}
+
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" /> Now our default layout is quite a bit cleaner and easier to read, and it’s easier for us to work with these areas individually.
+
+
 
 ### Add some versatility - pass parameters to includes
 
@@ -82,6 +88,12 @@ Let’s create a YouTube component that we can put on our page. Create `youtube.
 ```
 {% endraw %}
 
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
+
 Notice the placeholder for a YouTube video ID. Now, all we need to do is include our YouTube component in our page, with our unique code. Let’s add two to our page to show how easily we can now display different videos:
 
 {% raw %}
@@ -94,6 +106,12 @@ Notice the placeholder for a YouTube video ID. Now, all we need to do is include
 </div>
 ```
 {% endraw %}
+
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:data_object" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Raw</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
 
 You can apply this same logic to Instagram, Facebook, or any other social media posts. Simply find the “embed” option for a post/content to create your include, then replace the unique code with `{{ include.&lt;your variable&gt; }}`. Now all you need to add is the unique code whenever there is a new post to add.
 
