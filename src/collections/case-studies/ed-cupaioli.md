@@ -1,7 +1,7 @@
 ---
 _schema: default
 uuid: 4e2ab250-6d23-48cf-ae6f-88bc5978e62c
-title: Ed Cupaioli
+title: Ed Cupaioli LLC
 heading: 'Build for every user: How Ed Cupaioli focuses on UX with CloudCannon'
 weight: 4
 categories:
