@@ -21,7 +21,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-<a target="_blank" rel="noopener" href="https://edcupaioli.com/">Ed Cupaioli</a> got started on static site generators while working for the Democratic National Convention between 2015 and 2018. Using Jekyll and Gatsby as the frontend representative of the engineering team, he developed new features for the enterprise-level website of the Democratic Party, as well as maintaining the site. During this time, he also built a reusable website template for rapid response microsites.
+<a target="_blank" rel="noopener" href="https://edcupaioli.com/">Ed Cupaioli</a> got started on static site generators while working for the Democratic National Convention between 2015 and 2018. Using both Jekyll and Gatsby as the frontend representative of the engineering team, he maintained and developed new features for the enterprise-level website of the Democratic Party. During this time, he also built a reusable website template for rapid response microsites.
 
 Now, as a freelance developer and [CloudCannon Partner](https://cloudcannon.com/partner-program/) building non-profit and e-commerce sites, Ed focuses on user experience and conversion optimization. With CloudCannon on hand to provide a fast and intuitive editing experience and to simplify site migrations, Ed is able to build sites he’s proud of and hand them over to editors, content teams, and business owners, knowing that his clients will be able to manage their content themselves.
 
