@@ -1,13 +1,17 @@
 ---
+_schema: default
 title: Layouts in Jekyll
-tutorial: jekyll-tutorial
-order: 5
 image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
-description: >-
+order: 5
+tutorial: jekyll-tutorial
+description: |-
   Layouts help you set up and reuse the main structure of your Jekyll
     site.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
-
 ### What you’ll learn here:
 
 * Creating layouts for your pages
@@ -25,10 +29,9 @@ git checkout layouts-intro-start
 git checkout layouts-intro-finish
 ```
 
-
 ## What are Jekyll layouts?
 
-When writing a website in HTML, you will probably notice that many sections stay the same across multiple pages, such as head, footers, and navigation. If your site contains more than a few pages, that’s a lot of content to copy and paste - and any changes need to be made across all pages. Jekyll gives us an easy solution to this problem - layouts. Read more on layouts [on Jekyll's official site](https://jekyllrb.com/docs/layouts/){: target="_blank" rel="noopener noreferrer"}.
+When writing a website in HTML, you will probably notice that many sections stay the same across multiple pages, such as head, footers, and navigation. If your site contains more than a few pages, that’s a lot of content to copy and paste - and any changes need to be made across all pages. Jekyll gives us an easy solution to this problem - layouts. Read more on layouts <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/layouts/">on Jekyll's official site</a>.
 
 ### How to use layouts
 
@@ -36,10 +39,9 @@ Layouts are simple to set up and use. To begin with, we need to create a `_layou
 
 Next, let’s create `default.html` within that folder. This will be the default “shell” of a webpage. Now let’s look at our `index.html`&nbsp;and separate the unique content from the repeatable content. We will take all of the content from `index.html` and paste it into `default.html`. Then, we need to tell Jekyll where to inject our content - simply insert this tag into the area missing content:
 
-```plaintext
-<!-- Content goes here: -->
-{{ content }}
-
+```
+{% raw %}<!-- Content goes here: -->
+{{ content }}{% endraw %}
 ```
 
 We’re almost there - let’s actually use the layout. Back in our `index.html`, we need to use **front matter** to tell Jekyll that the page’s content should be injected into a layout. To do this, simply add front matter with the special **layout** variable and add default(without .html) as the value:
@@ -63,15 +65,14 @@ A layout can also be referenced within another layout. But when could this be us
 
 In our current layout, the hero section is used in `default.html`, which means it will appear in all pages using it. Let’s create another layout called `page.html` with the hero section from `default` removed and pasted into it, then add front matter with **layout** itself pointing to **default:**
 
-```plaintext
----
+```
+{% raw %}---
 layout: default
 ---
 <div class="hero">
 <h1 class="hero__header dark-orange">{{ site.title }}</h1>
 </div>
-{{ content }}
-
+{{ content }}{% endraw %}
 ```
 
 To use this page, we will modify our index page’s front matter:
@@ -91,16 +92,14 @@ Remember that we also added `{{ page.title }}` to the title tag of our index pag
 
 ```plaintext
 title: Home
-
 ```
 
 ```plaintext
 title: About
 ```
 
-Any other page variables can be referenced in the same way. This makes it easier to set content once in a layout but have different output, depending on the page. There are more variables than page - including site, which points to your `_config.yml` file. Check out the [Jekyll Variables](https://jekyllrb.com/docs/variables/){: target="_blank" rel="noopener noreferrer"} page if you are interested in more. We will deal with `_config.yml` more in future lessons.
+Any other page variables can be referenced in the same way. This makes it easier to set content once in a layout but have different output, depending on the page. There are more variables than page - including site, which points to your `_config.yml` file. Check out the <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/variables/">Jekyll Variables</a>&nbsp;page if you are interested in more. We will deal with `_config.yml` more in future lessons.
 
 ## What’s next?
 
 Layouts are great for making out sites cleaner and more manageable. But Jekyll still has more to offer. Let’s look at reusing even smaller pieces of pages with **includes.**
-
