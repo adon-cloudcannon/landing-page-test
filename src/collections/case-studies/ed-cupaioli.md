@@ -35,7 +35,7 @@ Because Ed takes a user-first approach to his websites — whether they’re ent
 
 And when he first saw CloudCannon’s visual editing, he knew that he’d be able to provide an even more intuitive and user-friendly CMS for future clients:
 
-> Once I discovered the Visual Editor I was like, “Oh man, this is so much better!” And making component-based pages is such a great way to build.
+> Once I discovered the Visual Editor I was like, 'Oh man, this is so much better!' And making component-based pages is such a great way to build.
 
 Ed’s recent e-commerce sites, <a target="_blank" rel="noopener" href="https://tolenaswinery.com/">Tolenas Winery</a> and <a target="_blank" rel="noopener" href="https://www.republicrestoratives.com/">Republic Restoratives Distillery</a>, are great examples of his foresight in working with relational data and optimizing for user success. Working with existing designs for each site, Ed built and configured responsive Jekyll sites for each business. Among other tasks, he added their respective e-commerce providers, and connected everything to CloudCannon for users to add and manage their content, pricing, stock, and reservations.
 
@@ -57,7 +57,7 @@ And when he needs assistance, or wants to add a new feature? CloudCannon’s sup
 
 When Forestry sunset its CMS, Ed was faced with the task of finding a replacement for his users to continue editing their static sites. Wanting to ensure a seamless transition for his users while adding functionality, he evaluated a range of tools. Ultimately, he decided that CloudCannon not only met his users’ current needs but also offered additional features that could benefit users in the long run:
 
-> I looked at it from a holistic viewpoint and it was like, “CloudCannon’s got it. They’ve been in business for many years; they have a partner program; I can separate the billing for clients. And they have this wonderful Visual Editor that I can customize.” It was just like, “Check, check, check.”
+> I looked at it from a holistic viewpoint and it was like, 'CloudCannon’s got it. They’ve been in business for many years; they have a partner program; I can separate the billing for clients. And they have this wonderful Visual Editor that I can customize.' It was just like, 'Check, check, check.'
 
 Ed worked closely with his clients and CloudCannon to ensure a smooth transition, providing training and support to his users throughout the process. In the end, the transition was a success, and Ed's users were able to continue editing their static sites without any disruption to their workflow.
 
@@ -67,7 +67,7 @@ Ed worked closely with his clients and CloudCannon to ensure a smooth transition
 
 While Ed has primarily built with Jekyll in the past, he’s very interested in using other SSGs in the future, depending on what his clients need. Knowing that CloudCannon supports a wide range of SSGs, and that his expertise with the CMS will easily transfer regardless of which build tool he uses, was another drawcard for him:
 
-> That’s the other reason I really chose CloudCannon. Because the CloudCannon people I spoke with were just like, “Yes, we support all the major SSGs, and we encourage you to use whatever you want.”
+> That’s the other reason I really chose CloudCannon. Because the CloudCannon people I spoke with were just like, 'Yes, we support all the major SSGs, and we encourage you to use whatever you want.'
 
 When it comes down to it, giving users the freedom to make their own choices is the ultimate user experience — whether that’s how they edit their content, how they build their pages, or even which static site generator they use. And that’s why Ed is so excited about working with CloudCannon.
 
