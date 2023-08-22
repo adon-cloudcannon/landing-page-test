@@ -6,8 +6,6 @@ heading: 'Build for every user: How Ed Cupaioli focuses on UX with CloudCannon'
 weight: 0
 categories:
   - Agency
-  - Business
-  - Company sites
 image:
   path:
   alt:
@@ -17,7 +15,7 @@ description: >-
   When Ed Cupaioli found CloudCannon and saw visual editing on a static site,
   his first thought was that he’d been building websites the wrong way for ten
   years. 
-date: 2023-08-28T08:00:00+12:00
+date:
 seo:
   open_graph_type: article
   featured_image:
