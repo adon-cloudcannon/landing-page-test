@@ -113,7 +113,7 @@ Notice the placeholder for a YouTube video ID. Now, all we need to do is include
 
 
 
-You can apply this same logic to Instagram, Facebook, or any other social media posts. Simply find the “embed” option for a post/content to create your include, then replace the unique code with {% raw %}{{ include.<your variable> }}{% endraw %}. Now all you need to add is the unique code whenever there is a new post to add.
+You can apply this same logic to Instagram, Facebook, or any other social media posts. Simply find the “embed” option for a post/content to create your include, then replace the unique code with {% raw %}{{ include."your variable" }}{% endraw %}. Now all you need to add is the unique code whenever there is a new post to add.
 
 ## What’s next?
 
