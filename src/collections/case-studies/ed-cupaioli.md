@@ -10,7 +10,7 @@ image:
   path:
   alt:
 logo:
-case_study_person:
+case_study_person: cf357f70-8be6-4546-8e36-bc29082a83cf
 description: >-
   When Ed Cupaioli found CloudCannon and saw visual editing on a static site,
   his first thought was that he’d been building websites the wrong way for ten
