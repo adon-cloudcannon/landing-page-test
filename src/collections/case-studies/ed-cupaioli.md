@@ -3,7 +3,7 @@ _schema: default
 uuid: 4e2ab250-6d23-48cf-ae6f-88bc5978e62c
 title: Ed Cupaioli
 heading: 'Build for every user: How Ed Cupaioli focuses on UX with CloudCannon'
-weight: 8
+weight: 4
 categories:
   - Agency
 image:
@@ -21,7 +21,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Ed Cupaioli got started on static site generators while working for the Democratic National Convention between 2015 and 2018. Using Jekyll and Gatsby as the frontend representative of the engineering team, he developed new features for the enterprise-level website of the Democratic Party, as well as maintaining the site. During this time, he also built a reusable website template for rapid response microsites.
+<a target="_blank" rel="noopener" href="https://edcupaioli.com/">Ed Cupaioli</a> got started on static site generators while working for the Democratic National Convention between 2015 and 2018. Using Jekyll and Gatsby as the frontend representative of the engineering team, he developed new features for the enterprise-level website of the Democratic Party, as well as maintaining the site. During this time, he also built a reusable website template for rapid response microsites.
 
 Now, as a freelance developer and [CloudCannon Partner](https://cloudcannon.com/partner-program/) building non-profit and e-commerce sites, Ed focuses on user experience and conversion optimization. With CloudCannon on hand to provide a fast and intuitive editing experience and to simplify site migrations, Ed is able to build sites he’s proud of and hand them over to editors, content teams, and business owners, knowing that his clients will be able to manage their content themselves.
 
@@ -37,7 +37,7 @@ And when he first saw CloudCannon’s visual editing, he knew that he’d be abl
 
 > Once I discovered the Visual Editor I was like, “Oh man, this is so much better!” And making component-based pages is such a great way to build.
 
-Ed’s recent e-commerce sites, [Tolenas Winery](https://tolenaswinery.com/) and [Republic Restoratives Distillery](https://www.republicrestoratives.com/), are great examples of his foresight in working with relational data and optimizing for user success. Working with existing designs for each site, Ed built and configured responsive Jekyll sites for each business. Among other tasks, he added their respective e-commerce providers, and connected everything to CloudCannon for users to add and manage their content, pricing, stock, and reservations.
+Ed’s recent e-commerce sites, <a target="_blank" rel="noopener" href="https://tolenaswinery.com/">Tolenas Winery</a> and <a target="_blank" rel="noopener" href="https://www.republicrestoratives.com/">Republic Restoratives Distillery</a>, are great examples of his foresight in working with relational data and optimizing for user success. Working with existing designs for each site, Ed built and configured responsive Jekyll sites for each business. Among other tasks, he added their respective e-commerce providers, and connected everything to CloudCannon for users to add and manage their content, pricing, stock, and reservations.
 
 And because CloudCannon handles relational data so well, he was able to build additional features to showcase his clients’ products: a cocktail recipe section to complement Republic Restoratives’ range of spirits, and a ‘new release’ section for Tolenas Winery.
 
@@ -71,6 +71,8 @@ While Ed has primarily built with Jekyll in the past, he’s very interested in 
 
 When it comes down to it, giving users the freedom to make their own choices is the ultimate user experience — whether that’s how they edit their content, how they build their pages, or even which static site generator they use. And that’s why Ed is so excited about working with CloudCannon.
 
+---
+
 ## About Ed Cupaioli
 
-[Ed Cupaioli](https://edcupaioli.com/) is a one-person web department with 10 years experience embedded with marketing, digital, and communications teams. He takes a determinedly user-first approach, driven by data, and works as a frontend developer, UX researcher, designer, and product manager.
+<a target="_blank" rel="noopener" href="https://edcupaioli.com/">Ed Cupaioli</a> is a one-person web department with 10 years experience embedded with marketing, digital, and communications teams. He takes a determinedly user-first approach, driven by data, and works as a frontend developer, UX researcher, designer, and product manager.
