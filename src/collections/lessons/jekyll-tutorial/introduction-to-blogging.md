@@ -1,13 +1,17 @@
 ---
+_schema: default
 title: Blogging in Jekyll
-tutorial: jekyll-tutorial
-order: 7
 image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
+order: 7
+tutorial: jekyll-tutorial
 description: >-
   Create and manage blogging content quickly with Jekyll's easy-to-use post
   setup.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
-
 ### What you’ll learn here:
 
 * Creating blog posts
@@ -25,10 +29,9 @@ git checkout blogging-intro-start
 git checkout blogging-intro-finish
 ```
 
-
 ## Creating a blog with Jekyll
 
-A blog wouldn’t be complete without articles of some kind. Fortunately, Jekyll makes it easy to manage your blog posts. In this lesson we will explain the conventions for Jekyll posts and how to display them on your site. Read more on posts [on Jekyll's official site](https://jekyllrb.com/docs/posts/).
+A blog wouldn’t be complete without articles of some kind. Fortunately, Jekyll makes it easy to manage your blog posts. In this lesson we will explain the conventions for Jekyll posts and how to display them on your site. Read more on posts <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/posts/">on Jekyll's official site</a>.
 
 ### Conventions for blog posts
 
@@ -100,7 +103,6 @@ As you can see, this is still simple HTML styling, but all post titles with link
 {% endfor %}
 ```
 {% endraw %}
-
 
 ### Using a layout
 

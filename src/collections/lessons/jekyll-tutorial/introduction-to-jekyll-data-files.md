@@ -1,11 +1,16 @@
 ---
+_schema: default
 title: Data files in Jekyll
-tutorial: jekyll-tutorial
-order: 9
 image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
+order: 9
+tutorial: jekyll-tutorial
 description: >-
   Supplement your Jekyll site with globally available data that can be used on
   any page in this Jekyll tutorial.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### What you’ll learn here:
 
@@ -22,7 +27,6 @@ git checkout data-intro-start
 # Finished branch:
 git checkout data-intro-finish
 ```
-
 
 ## What are Jekyll data files?
 
@@ -97,5 +101,3 @@ This will output all of our staff information, including names, images, and link
 This is the end of the Jekyll beginner tutorial. We have dealt with all of the major topics in Jekyll and built a basic but decent-looking site. Hopefully you now feel confident putting together an easily maintainable static site.
 
 Of course, Jekyll is not a CMS. If you wish to deploy your site into the wider world and have other people contribute to it - especially non-technical people - CloudCannon offers an easy-to-use and [beautiful CMS solution](https://cloudcannon.com/jekyll-cms/).
-
-

@@ -1,13 +1,17 @@
 ---
+_schema: default
 title: Includes in Jekyll
-tutorial: jekyll-tutorial
-order: 6
 image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
-description: >-
+order: 6
+tutorial: jekyll-tutorial
+description: |-
    Learn how Jekyll includes allow you to break down your pages into smaller
     “components”.
+seo:
+   open_graph_type: article
+   featured_image:
+   featured_image_alt:
 ---
-
 ### What you’ll learn here:
 
 * Creating and using Jekyll includes
@@ -24,10 +28,9 @@ git checkout includes-intro-start
 git checkout includes-intro-finish
 ```
 
-
 ## What are Jekyll includes?
 
-Previously, we looked at creating layouts as an outer “frame” for page content. But sometimes we have smaller page fragments that we want to remain consistent over multiple pages. Great examples of this are social media sharing and forms. [Jekyll](https://jekyllrb.com/docs/includes/){: target="_blank" rel="noopener noreferrer"}&nbsp;[includes](https://jekyllrb.com/docs/includes/){: target="_blank" rel="noopener noreferrer"} allow you to break down your pages into smaller “components” like navigation, section titles, and footers - there are many potential use cases. Read more on includes [on Jekyll's official site](https://jekyllrb.com/docs/includes/){: target="_blank" rel="noopener noreferrer"}.
+Previously, we looked at creating layouts as an outer “frame” for page content. But sometimes we have smaller page fragments that we want to remain consistent over multiple pages. Great examples of this are social media sharing and forms. <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/includes/">Jekyll</a>&nbsp;<a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/includes/">includes</a>&nbsp;allow you to break down your pages into smaller “components” like navigation, section titles, and footers - there are many potential use cases. Read more on includes <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/includes/">on Jekyll's official site</a>.
 
 ## How to use includes
 
@@ -36,8 +39,7 @@ Setting up our includes is much like layouts - we need to create an `_includes` 
 For our first example, let’s take our existing navigation and footer from our `default.html` layout and place them in their own files:
 
 * Create `_includes/nav.html`. Cut and paste all of the `<header>` element from `_layouts/default.html` into this file.
-* Create `_includes/footer.html`. Cut and paste all of the `<footer>` element from `_layouts/default.html` into this file.
-Lastly, to use our new includes, simply add these in the place of the content we have moved:
+* Create `_includes/footer.html`. Cut and paste all of the `<footer>` element from `_layouts/default.html` into this file. Lastly, to use our new includes, simply add these in the place of the content we have moved:
 
 {% raw %}
 ```plaintext
@@ -58,8 +60,7 @@ Lastly, to use our new includes, simply add these in the place of the content we
 </body>
 </html>
 ```
-{% endraw %}
-Now our default layout is quite a bit cleaner and easier to read, and it’s easier for us to work with these areas individually.
+{% endraw %} Now our default layout is quite a bit cleaner and easier to read, and it’s easier for us to work with these areas individually.
 
 ### Add some versatility - pass parameters to includes
 
@@ -72,9 +73,9 @@ Let’s create a YouTube component that we can put on our page. Create `youtube.
 {% raw %}
  ```html
 <div class="spacing youtube">
-<iframe width="560" height="315" 
-	src="https://www.youtube.com/embed/{{ include.youtube_id }}" 
-	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+<iframe width="560" height="315"
+	src="https://www.youtube.com/embed/{{ include.youtube_id }}"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 	allowfullscreen>
 </iframe>
 </div>
@@ -94,7 +95,7 @@ Notice the placeholder for a YouTube video ID. Now, all we need to do is include
 ```
 {% endraw %}
 
-You can apply this same logic to Instagram, Facebook, or any other social media posts. Simply find the “embed” option for a post/content to create your include, then replace the unique code with `{{ include.<your variable> }}`. Now all you need to add is the unique code whenever there is a new post to add.
+You can apply this same logic to Instagram, Facebook, or any other social media posts. Simply find the “embed” option for a post/content to create your include, then replace the unique code with `{{ include.&lt;your variable&gt; }}`. Now all you need to add is the unique code whenever there is a new post to add.
 
 ## What’s next?
 

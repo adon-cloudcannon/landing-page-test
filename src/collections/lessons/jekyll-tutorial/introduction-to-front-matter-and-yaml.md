@@ -1,15 +1,18 @@
 ---
+_schema: default
 title: Jekyll front matter & YAML
-tutorial: jekyll-tutorial
-order: 4
 image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
-description: >-
+order: 4
+tutorial: jekyll-tutorial
+description: |-
   Front matter and YAML are like bread and butter in Jekyll. Learn these
     concepts and their relationship with Liquid.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
-
-
-**Clone: **git clone https://github.com/CloudCannon/jekyll-learn-blog-template.git
+\*\*Clone: \*\*git clone https://github.com/CloudCannon/jekyll-learn-blog-template.git
 
 **Starter branch:** git checkout front-matter-intro-start
 
@@ -24,13 +27,13 @@ description: >-
 
 ## What is front matter?
 
-In the previous lesson, we mentioned “front matter”. But what exactly is it, and why should we use it? Front matter is an area at the top of your HTML/Markdown documents that lets you write variables and even content for your pages. It uses YAML, a simple and friendly serialization language, and it works well in combination with Liquid. Read more on front matter [on Jekyll's official site](https://jekyllrb.com/docs/front-matter/).
+In the previous lesson, we mentioned “front matter”. But what exactly is it, and why should we use it? Front matter is an area at the top of your HTML/Markdown documents that lets you write variables and even content for your pages. It uses YAML, a simple and friendly serialization language, and it works well in combination with Liquid. Read more on front matter <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/front-matter/">on Jekyll's official site</a>.
 
 ## Front matter and YAML basics
 
 To write a simple YAML variable, use `key: value` notation, with a colon. The value itself can be just about anything you want: 4, 4.1, “4”, true/false.
 
-In addition, comments (helpful notes that don’t get processed) in YAML are also possible with the “\#’ sign, which can be very helpful.
+In addition, comments (helpful notes that don’t get processed) in YAML are also possible with the “#’ sign, which can be very helpful.
 
 Let’s start by adding front matter to our index.html page, with a variable for the page title:
 
@@ -39,10 +42,9 @@ Let’s start by adding front matter to our index.html page, with a variable for
 # the title that will appear in the HTML head tag
 title: Home
 ---
-
 ```
 
-That’s all we really need to start - no quotation marks are necessary for your text. Now, to access this, we can use Liquid and reference the “page” object with “dot notation” - i.e., `page.title`. Here, if the title variable exists, we will output it in the title tag - otherwise we simply set it to `CawCannon`:
+That’s all we really need to start - no quotation marks are necessary for your text. Now, to access this, we can use Liquid and reference the “page” object with “dot notation” - i.e., `page.title`. Here, if the title variable exists, we will output it in the title tag - otherwise we simply set it to `CawCannon`\:
 
 {% raw %}
 ```plaintext
@@ -57,8 +59,6 @@ That’s all we really need to start - no quotation marks are necessary for your
 </head>
 ```
 {% endraw %}
-
-
 
 ### Data structures
 
@@ -79,7 +79,6 @@ birds_vertical:
   - Weka
 # inline
 birds_inline: [Kiwi, Tui, Kea, Karakiri, Weka]
-
 ```
 
 {% raw %}
@@ -90,7 +89,6 @@ birds_inline: [Kiwi, Tui, Kea, Karakiri, Weka]
 {% endfor %}
 ```
 {% endraw %}
-
 
 ### Objects
 
@@ -140,7 +138,6 @@ birds:
 ```
 {% endraw %}
 
-
 ### Multiline text in YAML/front matter
 
 An issue you might run into is writing text that spans multiple lines. One option is to simply surround text with **quotation marks** when it gets too long. However, there are additional options to give you more control - especially with recognizing a **line break**.
@@ -150,17 +147,17 @@ To do this in YAML/front matter, there are two main formats:
 * If **new lines are not important** (i.e., one long sentence), use the **folded style:**
 
 ```plaintext
-Kea: >-  
-  The kea is the world’s only alpine parrot and native to New Zealand, 
+Kea: >-
+  The kea is the world’s only alpine parrot and native to New Zealand,
   with high intelligence and curiosity - which also extends to its eating habits.
 ```
 
 * If **new lines are important** (i.e., a paragraph), use the **literal style**\:
 
 ```plaintext
-kakapo: |-  
+kakapo: |-
   The kakapo is another parrot native to New Zealand
-  Unlike the kea, it is a nocturnal, flightless herbivore, and the heaviest parrot in the world.
+  Unlike the kea, it is a nocturnal, flightless herbivore, and the heaviest parrot in the world.
   Unfortunately, these traits have led to it being critically endangered.
 ```
 

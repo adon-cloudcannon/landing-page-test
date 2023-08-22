@@ -1,11 +1,16 @@
 ---
+_schema: default
 title: Getting started with Jekyll
-tutorial: jekyll-tutorial
-order: 2
 image: https://cc-dam.imgix.net/community/Jekyll-tutorial.jpg
-description: >-
+order: 2
+tutorial: jekyll-tutorial
+description: |-
   Set the ground work for the rest of the series by setting up a Jekyll site
     and going over Jekyll conventions.
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ---
 ### Prerequisites:
 
@@ -16,7 +21,7 @@ description: >-
 
 ## Introduction
 
-Welcome to CloudCannon’s Jekyll Beginners tutorial series\! We’ll provide you with tools and practice to help you use the Jekyll static site generator.
+Welcome to CloudCannon’s Jekyll Beginners tutorial series! We’ll provide you with tools and practice to help you use the Jekyll static site generator.
 
 In this lesson, we will concentrate on the setup and contents of a basic Jekyll project, so you can get a feel for how it works. Feel free to continue using this basic setup for your own project, but we recommend checking out the code in each subsequent lesson, as that will help you practice specific Jekyll topics, step by step.
 
@@ -64,17 +69,14 @@ In addition to these basics, you can also manually add other folders with specif
 
 ### Building and serving your website
 
-There are a few different commands worth looking at for different purposes in Jekyll. For more detail, see the [Jekyll Command Line page](https://jekyllrb.com/docs/usage/).
+There are a few different commands worth looking at for different purposes in Jekyll. For more detail, see the <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/usage/">Jekyll Command Line page</a>.
 
 * `bundle exec jekyll serve` - when **developing** your site, you’ll want to create your site’s files as well as serve them so that you can view the site in the browser.
 * `jekyll build` - when **deploying** your site to production, you’ll just want to build its files.
 * `jekyll help` - run this if you need general command-line help, or **`jekyll help <command name>`** for more specific help.
 
-For local development, you can also use jekyll serve, but we recommend the slightly longer bundle exec jekyll serve. Don’t worry much about the difference - this is just so the versions you installed locally are used (and not some other version), which might save you some troubleshooting.
-
+For local development, you can also use `jekyll serve`, but we recommend the slightly longer `bundle exec jekyll serve`. Don’t worry much about the difference - this is just so the versions you installed locally are used (and not some other version), which might save you some troubleshooting.
 
 ## What’s next?
 
 We can now create, run, and understand the basic structure of a Jekyll project. But let’s actually start using Jekyll and improving our workflow - starting with the Liquid templating language.
-
-
