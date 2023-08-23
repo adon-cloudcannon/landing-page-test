@@ -25,9 +25,9 @@ seo:
 
 Now, as a freelance developer and [CloudCannon Partner](https://cloudcannon.com/partner-program/) building non-profit and e-commerce sites, Ed focuses on user experience and conversion optimization. With CloudCannon on hand to provide a fast and intuitive editing experience and to simplify site migrations, Ed is able to build sites he’s proud of and hand them over to editors, content teams, and business owners, knowing that his clients will be able to manage their content themselves.
 
-![](https://cc-dam.imgix.net/ed-c-editing.png)
+Ed’s [site for the DC Gay Flag Football League](https://cloudcannon.com/blog/partner-site-of-the-month-dc-gay-flag-football-league-by-ed-cupaioli/), below, makes use of CloudCannon’s Data Editor for community microblogging. Teams’ wins and losses are calculated automatically with Liquid.
 
-Ed’s [site for the DC Gay Flag Football League](https://cloudcannon.com/blog/partner-site-of-the-month-dc-gay-flag-football-league-by-ed-cupaioli/), above, makes use of CloudCannon’s Data Editor for community microblogging. Teams’ wins and losses are calculated automatically with Liquid.
+![](https://cc-dam.imgix.net/ed-c-editing.png)
 
 ## “This is so much better!”
 
@@ -45,8 +45,6 @@ And because CloudCannon handles relational data so well, he was able to build ad
 
 ## How CloudCannon enables a great user experience
 
-Ed sees a lot of parallels between his previous work as a classroom teacher and his development focus on user experience — both jobs require data tracking, managing behavior, and trying to influence people to do the best thing possible at all times.
-
 In order to help his clients, Ed writes custom documentation ensuring that they know exactly how to achieve their website goals, and he also leverages CloudCannon’s flexible configuration to help his users. Ed’s confident that CloudCannon can give both him and his users the reliable developer experience and the intuitive user experience they each need. From specific instructions in comment fields and callouts he’s added to site dashboards, through to automatic calculations, linked relational data, and page previews, he’s enjoying the development process.
 
 And when he needs assistance, or wants to add a new feature? CloudCannon’s support is right there to help:
@@ -61,7 +59,7 @@ When Forestry sunset its CMS, Ed was faced with the task of finding a replacemen
 
 Ed worked closely with his clients and CloudCannon to ensure a smooth transition, providing training and support to his users throughout the process. In the end, the transition was a success, and Ed's users were able to continue editing their static sites without any disruption to their workflow.
 
-![](https://cc-dam.imgix.net/ed-c-portfolio.png)
+![](https://cc-dam.imgix.net/ed-c-case-study-portfolio.png)
 
 ## One CMS to support them all
 
