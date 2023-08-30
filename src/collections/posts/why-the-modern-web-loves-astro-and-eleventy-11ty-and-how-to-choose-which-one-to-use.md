@@ -254,9 +254,7 @@ While GitHub stars are solely a metric for how many users have clicked the star 
 
 ### npm trends
 
-![Line graph showing the number of npm downloads for both Astro and Eleventy (11ty) overtime](https://cc-dam.imgix.net/Screenshot 2023-08-30 at 12.26.04 PM.png "Astro and 11ty &#40;Eleventy&#41; npm downloads over time")
-
-npm trends indicate the number of Astro and Eleventy npm downloads over time. Currently, it appears that both Astro and Eleventy continue to experience growth in number of downloads. Although, 11ty's growth has reached a more steady rate of downloads. Again, it is interesting that Astro has outpaced Eleventy in download numbers despite being a relatively new framework. You can check out <a target="_blank" href="https://npmtrends.com/@11ty/eleventy-vs-astro">up-to-date npm trends here</a>.
+![npm downloads over time for Astro and Eleventy (11ty) static site generators](https://cc-dam.imgix.net/npmdownloads.png "npm downloads over time for Astro and Eleventy &#40;11ty&#41; static site generators")npm trends indicate the number of Astro and Eleventy npm downloads over time. Currently, it appears that both Astro and Eleventy continue to experience growth in number of downloads. Although, 11ty's growth has reached a more steady rate of downloads. Again, it is interesting that Astro has outpaced Eleventy in download numbers despite being a relatively new framework. You can check out <a target="_blank" href="https://npmtrends.com/@11ty/eleventy-vs-astro">up-to-date npm trends here</a>.
 
 ### Framework usage by satisfaction
 
