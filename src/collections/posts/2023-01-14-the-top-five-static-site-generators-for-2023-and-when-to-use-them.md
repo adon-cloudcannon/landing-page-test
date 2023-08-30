@@ -1,12 +1,13 @@
 ---
-draft: false
 _schema: default
 title: The Top Five Static Site Generators for 2023 (and when to use them!)
+breadcrumb_title:
 description: >-
   What are the top five static site generators for 2023? Should you choose the
   most popular framework, the site builder you already know how to use, or the
   SSG best suited to your new website project's use case? We've assessed five
   leading SSGs covering a wide range of uses cases.
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-top-five-ssgs-2023.jpg
 date: 2023-01-13T16:00:00Z
@@ -62,7 +63,7 @@ Let’s take a look at my top SSG picks for 2023, in no particular order.
 
 ### [Astro](https://astro.build/)
 
-At the start of last year, [we picked Astro as “one to watch”](https://cloudcannon.com/blog/ssg-history-8-islands/#astro), and it’s certainly lived up to our hopes. The Astro project has grown quite dramatically over the course of 2022, and shows no sign of slowing down. Its team of experienced core maintainers has grown, its appreciative user base has at least tripled in size, and at the time of writing, a 2.0 release is fast approaching.
+At the start of last year, [we picked Astro as “one to watch”](https://cloudcannon.com/blog/ssg-history-8-islands/#astro), and it’s certainly lived up to our hopes. The Astro project has grown quite dramatically over the course of 2022, and shows no sign of slowing down. Its team of experienced core maintainers has grown, its appreciative user base has at least tripled in size, and a 3.0 release fast approaching.
 
 With partial hydration or islands architecture at its core, Astro extracts UI into smaller, isolated components on the page, and replaces unused JavaScript with lightweight HTML, giving site users faster loads and lower time-to-interactive (TTI).
 
@@ -82,7 +83,7 @@ Overall, Eleventy makes it easy for developers to get started with new website p
 
 With Eleventy, you can choose from a variety of template languages such as Nunjucks, Liquid, and Handlebars to structure and layout your content in the way that you want. Additionally, Eleventy is highly customizable, giving you the ability to tailor it to your specific needs using custom plugins and scripts. With fast build times and an active community of developers, you'll find a wealth of resources and support available to help you along the way.
 
-Eleventy is a great choice for developers who value simplicity, flexibility, and customizability, and who want an SSG with fast build times and a strong community of support. If you’re focused on build speed and site performance, and would rather avoid JavaScript in your built sites where possible, you’d be hard pressed to choose anything other than Eleventy. (Especially with a stable 2.0 release on its way over the next few weeks!)
+Eleventy is a great choice for developers who value simplicity, flexibility, and customizability, and who want an SSG with fast build times and a strong community of support. If you’re focused on build speed and site performance, and would rather avoid JavaScript in your built sites where possible, you’d be hard pressed to choose anything other than Eleventy. (Especially with a this year's stable 2.0 release!)
 
 Get started with Eleventy on its own with our [Eleventy Beginner tutorial series](/tutorials/eleventy-beginner-tutorial/), or find out more about [setting up and configuring an Eleventy site for the ideal editing experience with CloudCannon](https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/).
 

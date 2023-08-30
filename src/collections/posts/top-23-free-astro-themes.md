@@ -34,17 +34,16 @@ seo:
   featured_image_alt: Free Astro Templates
 ssg_frameworks:
   - astro
-categories:
 ---
 #
 
-With CloudCannon’s CMS <a target="_blank" href="https://cloudcannon.com/blog/out-of-this-world-support-for-all-astro-users/">support for Astro out of beta</a>, as well as the release of <a target="_blank" href="https://astro.build/blog/astro-2/">Astro 2.0</a>, there is no better time to get started on an Astro project. If you’re looking for a theme for your next Astro project, we've curated a list of 2023’s top 23 free Astro themes for a variety of use cases. This list includes actively maintained static site Astro templates with the most GitHub stars.
+With CloudCannon’s CMS <a target="_blank" href="https://cloudcannon.com/blog/out-of-this-world-support-for-all-astro-users/">support for Astro out of beta</a>, as well as the release of <a target="_blank" rel="noopener" href="https://docs.astro.build/en/guides/upgrade-to/v3/">Astro 3.0</a>, there is no better time to get started on an Astro project. If you’re looking for a theme for your next Astro project, we've curated a list of 2023’s top 23 free Astro themes for a variety of use cases. This list includes actively maintained static site Astro templates with the most GitHub stars.
 
 Astro is one of the fastest growing frameworks for static site generation. Designed for building content-rich websites, Astro provides performance features that can’t be matched by other frameworks. With Astro you can build extremely fast static websites, with the flexibility of any UI language, and the ability to easily embed interactive islands. This static site generator is perfect for use cases like marketing sites, documentation websites, personal blogs, portfolio sites, and even smaller e-commerce websites.
 
 You can save a lot of time and energy by using pre-built Astro themes, sometimes called Astro templates, instead of writing your code from scratch. Themes save even more time for static sites, since they’re less likely to need as much dynamic functionality as other web applications. Using a pre-built Astro theme will help maintain a consistent user experience across components, ensure high quality site performance, and save you time on development. Put your saved time to good use by building out the features and functionality of your static website.
 
-If you’re using an **<a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro CMS</a>**&nbsp;like CloudCannon for your static site, you can put that additional time towards&nbsp;**<a target="_blank" href="https://cloudcannon.com/documentation/articles/introducing-the-visual-editor/?ssg=Other">improving the visual editing experience</a>** for your content editors.
+If you’re using an **<a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro CMS</a>**&nbsp;like CloudCannon for your static site, you can put that additional time towards&nbsp;**<a target="_blank" href="https://cloudcannon.com/documentation/articles/introducing-the-visual-editor/?ssg=Other">improving the visual editing experience</a>** for your content editors. Our **<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/bookshop-astro-guide/">Astro Bookshop Guide</a>**&nbsp;will take you through the steps needed to make a live-editable site with Astro and <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/introducing-bookshop/"><strong>Bookshop</strong></a>, the CloudCannon open-source component building workflow.
 
 Building with an Astro starter theme is also a great way for beginners to learn Astro. Themes often include great documentation and examples to help you learn how to use different configurations and features.
 
