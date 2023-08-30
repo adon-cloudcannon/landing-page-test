@@ -42,6 +42,8 @@ categories:
 ---
 ## Why the modern web loves Astro and Eleventy (11ty) – and how to choose which one to use
 
+*Last updated September 1st 2023.*
+
 <a target="_blank" href="https://astro.build/">Astro</a> and <a target="_blank" href="https://www.11ty.dev/">Eleventy</a> (11ty) are two of the most popular (and arguably most similar) technologies available for static site generation. So what is it about their approach to static sites that resonates so strongly with the modern web development community? In short, both focus on content-heavy use cases, both reduce boilerplate code for faster websites, and both take a multi-page application (MPA) approach to web development, encouraging progressive enhancement.
 
 Is this the software equivalent of convergent evolution, with both sets of tooling following the same trends or guiding principles (static first, with a dual emphasis on build speed and flexibility)? Or are there significant differences that will impact your developer experience? And how should you choose between Astro and 11ty? Let’s explore both static site generators (SSGs), and find out.
@@ -64,9 +66,15 @@ Whichever SSG you choose, with CloudCannon’s <a target="_blank" href="https://
 
 {% bookshop 'markdown/anchor' name: "what-is-astro" %}
 
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
+
 ## What is Astro?
 
-Astro is known as the "all-in-one web framework for building fast, content-focused websites". It is the fastest-growing static site generator, with over 100,000 developers and teams using it worldwide. First released in 2021, the most recent (at the time of writing) update to Astro, <a target="_blank" href="https://astro.build/blog/astro-220/">version 2.2</a>, features CDN support for assets, and an `image()` scheme helper API change. Astro has attracted such interest so quickly because it helps developers build lightning-fast content-rich websites, with the flexibility of any UI language, and the option to easily embed interactive islands.
+Astro is known as the "all-in-one web framework for building fast, content-focused websites". It is the fastest-growing static site generator, with over 100,000 developers and teams using it worldwide. First released in 2021, the most recent update to Astro, <a target="_blank" rel="noopener" href="https://docs.astro.build/en/guides/upgrade-to/v3/">version 3.0</a>, features the release of View Transitions, the &lt;Image /&gt; component, React Fast Refresh, supercharged rendering, the 'astro: Namespace', and more! Astro has attracted such interest so quickly because it helps developers build lightning-fast content-rich websites, with the flexibility of any UI language, and the option to easily embed interactive islands.
 
 ### Astro’s key features
 
@@ -92,6 +100,12 @@ Astro’s focus on fast content-rich websites makes it perfect for use cases suc
 * **<a target="_blank" href="https://getbem.com/">getbem.com</a>**
 
 {% bookshop 'markdown/anchor' name: "what-is-eleventy" %}
+
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
 
 ## What is Eleventy?
 
@@ -121,6 +135,12 @@ Eleventy’s focus on fast and flexible static sites makes it perfect for market
 * **<a target="_blank" href="https://www.zachleat.com/">zachleat.com</a>**
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-similarities" %}
+
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
 
 ## Similarities between Astro and Eleventy
 
@@ -160,13 +180,19 @@ Astro and 11ty are UI agnostic static site generators, meaning you can use any U
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-differences" %}
 
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
+
 ## Differences between Astro and Eleventy
 
 The difference between Astro and Eleventy boils down to the finer details. Let’s take a look at how these static site generators differ, and how these differences will impact your developer and user experience, as well as your sites performance.
 
 ### Templating languages
 
-While Eleventy supports a numerous templating languages, including HTML, Markdown, WebC, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, and Custom, Astro uses `.astro` layouts, pages, and components for most page templating. Eleventy’s use of independent templating languages means you can mix and match your favorite templating languages without being held hostage to a custom format. This decoupling makes future migrations easier should you choose to use a different syntax. Comparatively, Astro’s use of <a target="_blank" href="https://docs.astro.build/en/core-concepts/astro-components/">Astro components</a> for templating offers reusable UI, like headers, and contain small snippets of HTML, or even entire page layouts. Astro components are HTML-only with no client-side runtime. This makes Astro more opinionated than 11ty in terms of templating.
+While Eleventy supports numerous templating languages, including HTML, Markdown, WebC, JavaScript, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, and Custom, Astro uses `.astro` layouts, pages, and components for most page templating. Eleventy’s use of independent templating languages means you can mix and match your favorite templating languages without being held hostage to a custom format. This decoupling makes future migrations easier should you choose to use a different syntax. Comparatively, Astro’s use of <a target="_blank" href="https://docs.astro.build/en/core-concepts/astro-components/">Astro components</a> for templating offers reusable UI, like headers, and contain small snippets of HTML, or even entire page layouts. Astro components are HTML-only with no client-side runtime. This makes Astro more opinionated than 11ty in terms of templating.
 
 ### Asset Management
 
@@ -178,7 +204,7 @@ Astro uses a `src/` directory for all files and metadata needed for querying and
 
 ### Routing
 
-While both Astro and 11ty leverage file-based routing systems that are simple, flexible, and easy to use, dynamic routing is a built-in Astro feature, whereas dynamic routing requires additional setup in Eleventy.
+Both Astro and 11ty leverage file-based routing systems that are simple, flexible, and easy to use. Although, dynamic routing is a built-in Astro feature, whereas dynamic routing requires additional setup in Eleventy.
 
 ### Static Assets
 
@@ -186,7 +212,7 @@ Astro uses a built-in import function to bundle and optimize static assets. In c
 
 ### Rendering
 
-Eleventy offers a range of template engines for rendering; any of the 12 supported templating languages will work. With 11ty you can choose which engine best suit your needs, or even mix and match templating engines to render your project. On the other hand, Astro uses a combination of JSX and template literals for rendering. In Astro JSX defines the structure and content of components, and template literals define the styles and other attributes. In addition to this, Astro also supports server-side rendering (SSR), which generates HTML on each request, while the `11ty/is-land` plugin is needed for SSR in Eleventy.
+Eleventy offers a range of template engines for rendering; any of the 12 supported templating languages will work. With 11ty you can choose whichever engine best suits your needs, or even mix and match templating engines to render your project. On the other hand, Astro uses a combination of JSX and template literals for rendering. In Astro JSX defines the structure and content of components, and template literals define the styles and other attributes. In addition to this, Astro also supports server-side rendering (SSR), which generates HTML on each request, while the `11ty/is-land` plugin is needed for SSR in Eleventy.
 
 ### Styling
 
@@ -198,11 +224,23 @@ While both Astro and Eleventy are designed to generate fast and efficient static
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-comparison" %}
 
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
+
 ## Astro vs. 11ty (Eleventy) comparison at a glance
 
-<table><thead><tr><th> </th><th>Astro</th><th>Eleventy</th></tr></thead><tbody><tr><td>First release</td><td>2021</td><td>2018</td></tr><tr><td>GitHub stars</td><td>26K+</td><td>13k+</td></tr><tr><td>Licence</td><td>MIT</td><td>MIT</td></tr><tr><td>Build speeds</td><td>Very fast</td><td>Very fast</td></tr><tr><td>Built with</td><td>JavaScript</td><td>JavaScript</td></tr><tr><td>Templating language(s)</td><td>Astro, HTML, Markdown, JavaScript, JSX</td><td>JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, WebC</td></tr><tr><td>UI Agnostic</td><td>Yes</td><td>Yes</td></tr><tr><td>Supported UI frameworks</td><td>React, Preact, Svelte, Vue, Solid, Lit</td><td>Petite Vue, Vue, Svelte, Preact, Lit, Alpine.js</td></tr><tr><td>Installation requirements</td><td>Node.js must be installed</td><td>Node.js must be installed</td></tr><tr><td>Plugins</td><td>Yes — many</td><td>Yes</td></tr><tr><td>Themes / Templates / Starters</td><td>Yes (themes)</td><td>Yes (starters)</td></tr><tr><td>Easy WordPress / legacy converter</td><td>No; you’ll need to convert to Markdown and then clean up your content</td><td>No; you’ll need to convert to Markdown and then clean up your content</td></tr><tr><td>Disable runtime JS</td><td>No runtime JS required by default</td><td>No runtime JS required by default</td></tr><tr><td>Data Fetching</td><td>Yes</td><td>Yes</td></tr><tr><td>Internationalization (i18n)</td><td>Yes, via integration</td><td>Yes, via plugin</td></tr><tr><td>Hot reloading</td><td>Yes</td><td>Yes</td></tr><tr><td>Code splitting</td><td>Automatic</td><td>Manual</td></tr><tr><td>Image optimization</td><td>Yes</td><td>Yes, via separate dependency</td></tr><tr><td>Environment variables</td><td>Yes</td><td>Yes</td></tr><tr><td>Content security policy</td><td>Custom HTTP headers rules</td><td>Custom HTTP headers rules</td></tr><tr><td>Island Architecture</td><td>Yes</td><td>Yes, via plugin</td></tr><tr><td>Learning curve</td><td>Easy; it will help to have JavaScript experience</td><td>Easy; it will help to have JavaScript experience</td></tr><tr><td>Documentation</td><td><a target="_blank" href="https://docs.astro.build/en/getting-started/">astro.build</a></td><td><a target="_blank" href="http://11ty.dev/">11ty.dev</a></td></tr><tr><td>GitHub repos</td><td><a target="_blank" href="https://github.com/withastro/astro">Astro GitHub</a></td><td><a target="_blank" href="https://github.com/11ty/eleventy/">11ty GitHub</a></td></tr><tr><td>Support communities</td><td><a target="_blank" href="https://discord.com/invite/grF4GTXXYm">Astro Discord</a></td><td><a target="_blank" href="https://discord.gg/GBkBy9u">11ty Discord</a></td></tr><tr><td>Twitter accounts</td><td><a target="_blank" href="https://twitter.com/astrodotbuild">Astro Twitter</a></td><td><a target="_blank" href="https://twitter.com/eleven_ty">11ty Twitter</a></td></tr><tr><td>CloudCannon support</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro</a>&nbsp;sites editable in minutes with CloudCannon.</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/eleventy-cms/">11ty</a>&nbsp;sites editable in minutes with CloudCannon.</td></tr></tbody></table>
+<table><thead><tr><th> </th><th>Astro</th><th>Eleventy</th></tr></thead><tbody><tr><td>First release</td><td>2021</td><td>2018</td></tr><tr><td>GitHub stars</td><td>33.1K+</td><td>14.9k+</td></tr><tr><td>Licence</td><td>MIT</td><td>MIT</td></tr><tr><td>Build speeds</td><td>Very fast</td><td>Very fast</td></tr><tr><td>Built with</td><td>JavaScript</td><td>JavaScript</td></tr><tr><td>Templating language(s)</td><td>Astro, HTML, Markdown, JavaScript, JSX</td><td>JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, WebC</td></tr><tr><td>UI Agnostic</td><td>Yes</td><td>Yes</td></tr><tr><td>Supported UI frameworks</td><td>React, Preact, Svelte, Vue, Solid, Lit</td><td>Petite Vue, Vue, Svelte, Preact, Lit, Alpine.js</td></tr><tr><td>Installation requirements</td><td>Node.js must be installed</td><td>Node.js must be installed</td></tr><tr><td>Plugins</td><td>Yes — many</td><td>Yes</td></tr><tr><td>Themes / Templates / Starters</td><td>Yes (themes)</td><td>Yes (starters)<br />​​​​​​</td></tr><tr><td>Easy WordPress / legacy converter</td><td>No; you’ll need to convert to Markdown and then clean up your content</td><td>No; you’ll need to convert to Markdown and then clean up your content</td></tr><tr><td>Disable runtime JS</td><td>No runtime JS required by default</td><td>No runtime JS required by default</td></tr><tr><td>Data Fetching</td><td>Yes</td><td>Yes</td></tr><tr><td>Internationalization (i18n)</td><td>Yes, via integration</td><td>Yes, via plugin</td></tr><tr><td>Hot reloading</td><td>Yes</td><td>Yes</td></tr><tr><td>Code splitting</td><td>Automatic</td><td>Manual</td></tr><tr><td>Image optimization</td><td>Yes</td><td>Yes, via separate dependency</td></tr><tr><td>Environment variables</td><td>Yes</td><td>Yes</td></tr><tr><td>Content security policy</td><td>Custom HTTP headers rules</td><td>Custom HTTP headers rules</td></tr><tr><td>Island Architecture</td><td>Yes</td><td>Yes, via plugin</td></tr><tr><td>Learning curve</td><td>Easy; it will help to have JavaScript experience</td><td>Easy; it will help to have JavaScript experience</td></tr><tr><td>Documentation</td><td><a target="_blank" href="https://docs.astro.build/en/getting-started/">astro.build</a></td><td><a target="_blank" href="http://11ty.dev/">11ty.dev</a></td></tr><tr><td>GitHub repos</td><td><a target="_blank" href="https://github.com/withastro/astro">Astro GitHub</a></td><td><a target="_blank" href="https://github.com/11ty/eleventy/">11ty GitHub</a></td></tr><tr><td>Support communities</td><td><a target="_blank" href="https://discord.com/invite/grF4GTXXYm">Astro Discord</a></td><td><a target="_blank" href="https://discord.gg/GBkBy9u">11ty Discord</a></td></tr><tr><td>Twitter accounts</td><td><a target="_blank" href="https://twitter.com/astrodotbuild">Astro Twitter</a></td><td><a target="_blank" href="https://twitter.com/eleven_ty">11ty Twitter</a></td></tr><tr><td>CloudCannon support</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro</a>&nbsp;sites editable in minutes with CloudCannon.</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/eleventy-cms/">11ty</a>&nbsp;sites editable in minutes with CloudCannon.</td></tr></tbody></table>
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-usage" %}
+
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
 
 ## Astro vs. 11ty (Eleventy) usage trends
 
@@ -210,15 +248,15 @@ Stability and longevity are important metrics to take into account when consider
 
 ### GitHub star history
 
-{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/star-history-202354.png" alt: "Astro and 11ty (Eleventy) GitHub star history" extend: false border: false %}
+![Line graph showing upwards trend of accumulated GitHub stars for Astro and Eleventy (11ty)](https://cc-dam.imgix.net/star-history-2023830.png "Astro and 11ty &#40;Eleventy&#41; GitHub star history")
 
 While GitHub stars are solely a metric for how many users have clicked the star button, whether to indicate a favorite repository, follow active development, recommend similar projects, or just to support friends, it is interesting to compare and contrast Astro and 11ty’s star histories. While Eleventy experienced more of a slow but sustained increase in stars, Astro gained approximately double the stars in half the time. It will be interesting to watch and see if Astro can sustain this growth. You can find an <a target="_blank" href="https://star-history.com/#11ty/eleventy&amp;withastro/astro&amp;Date">up-to-date star history comparison here</a> to observe any changes.
 
 ### npm trends
 
-{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/npm-trends.png" alt: "Astro and 11ty (Eleventy) npm downloads over time" extend: false border: false %}
+![Line graph showing the number of npm downloads for both Astro and Eleventy (11ty) overtime](https://cc-dam.imgix.net/Screenshot 2023-08-30 at 12.26.04 PM.png "Astro and 11ty &#40;Eleventy&#41; npm downloads over time")
 
-npm trends indicate the number of Astro and Eleventy npm downloads over time. Currently, it appears that Astro continues to experience growth in number of downloads, while Eleventy has reached a more steady rate of downloads. Again, it is interesting that Astro has outpaced Eleventy in download number despite being a relatively new framework. You can check out <a target="_blank" href="https://npmtrends.com/@11ty/eleventy-vs-astro">up-to-date npm trends here</a>.
+npm trends indicate the number of Astro and Eleventy npm downloads over time. Currently, it appears that both Astro and Eleventy continue to experience growth in number of downloads. Although, 11ty's growth has reached a more steady rate of downloads. Again, it is interesting that Astro has outpaced Eleventy in download numbers despite being a relatively new framework. You can check out <a target="_blank" href="https://npmtrends.com/@11ty/eleventy-vs-astro">up-to-date npm trends here</a>.
 
 ### Framework usage by satisfaction
 
@@ -226,13 +264,19 @@ The yearly Jamstack survey records frameworks by usage and satisfaction. You can
 
 {% bookshop 'markdown/anchor' name: "which-should-i-choose" %}
 
+<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon "><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="Click and drag to move" height="15" role="presentation" draggable="true" />
+
+
+
 ## Which should I choose?
 
 The choice between Astro and Eleventy ultimately comes down to personal preference. Both Astro and 11ty have impressively fast build times. Both are built for mostly static content-rich use cases with some interactivity. Both are highly flexible and under active development with large user communities. Lastly, both Astro and Eleventy encourage progressive enhancement, helping you prioritize essential static content first and add dynamic functionality later.
 
 But at the end of the day the choice of Astro vs. 11ty depends on what means more to you, flexibility and control, or ease of use.
 
-**Choose Astro** if you prefer a more opinionated framework with many built-in features, or you envision your static site project evolving in a more app-like direction. Although Astro is more opinionated than 11ty, Astro still offers plenty of customizability and opt-in complexity. Astro use of built-in features for templating, styling, asset management, and more can be beneficial to beginners learning web development. The Astro learning curve is also flattened by their fantastic documentation. And unlike Eleventy, Astro offers server-side rendering (SSR) in addition to static site generation (SSG), which means that if you think your project will need more and more interactivity as it evolves, Astro may be the better fit.
+**Choose Astro** if you prefer a more opinionated framework with many built-in features, or you envision your static site project evolving in a more app-like direction. Although Astro is more opinionated than 11ty, Astro still offers plenty of customizability and opt-in complexity. Astro's use of built-in features for templating, styling, asset management, and more, can be beneficial to beginners learning web development. The Astro learning curve is also flattened by their fantastic documentation. And unlike Eleventy, Astro offers server-side rendering (SSR) in addition to static site generation (SSG), which means that if you think your project will need more and more interactivity as it evolves, Astro may be the better fit.
 
 **Choose Eleventy** if you prefer more simplicity, flexibility, and granular control over your static site. Although Eleventy does not offer as many built-in features as Astro, Eleventy offers greater ‘pluggability’. With 11ty you are in full control over the HTML rendered to your site pages. This means that as the developer you are in full control over the performance of your project, which may require more work to stay organized, but is a powerful position to be in. You can use your templating languages of choice, and make use of any file structure, asset management, styling, optimizations, and rendering systems you choose when building with Eleventy. It is also worth nothing that 11ty is a more mature technology compared to Astro, meaning 11ty has had more time to work out potential issues and gain a broad user base.
 
@@ -240,4 +284,4 @@ But at the end of the day the choice of Astro vs. 11ty depends on what means mor
 
 Whether you choose Astro or Eleventy for your content-rich static websites, CloudCannon is here to help make your static site generation even easier, with instant (and free) testing domains and a robust Visual Editor. Our focus is, and always has been, making content editing and production more accessible to everyone, no matter the use case. With CloudCannon’s Git-based CMS, your content team can set up site pages in our intuitive Visual Editor, while developers enjoy our flexible approach to configuration and content management.
 
-We have published both an <a target="_blank" href="https://cloudcannon.com/documentation/guides/astro-starter-guide/">Astro starter guide</a> and an <a target="_blank" href="https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/">Eleventy starter guide</a> to help you get your project set up in CloudCannon with ease. Or if you’re just getting started with these technologies for the first time, we have both a comprehensive [Astro beginner tutorial](/tutorials/astro-beginners-tutorial-series/) and <a target="_blank" href="https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/">Eleventy beginner tutorial</a> series to lend you a helping hand while you learn.
+We have published both an <a target="_blank" href="https://cloudcannon.com/documentation/guides/astro-starter-guide/">Astro starter guide</a> and an <a target="_blank" href="https://cloudcannon.com/documentation/guides/eleventy-cms-get-started-with-cloudcannon/">Eleventy starter guide</a> to help you get your project set up in CloudCannon with ease. And if you are ready to add live visual editing and page building to your project, you can check out our <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/bookshop-astro-guide/">Astro Bookshop guide</a>, and <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/">Eleventy Bookshop guide</a>. Or if you’re just getting started with these technologies for the first time, we have both a comprehensive [Astro beginner tutorial](/tutorials/astro-beginners-tutorial-series/) and <a target="_blank" href="https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/">Eleventy beginner tutorial</a> series to lend you a helping hand while you learn.
