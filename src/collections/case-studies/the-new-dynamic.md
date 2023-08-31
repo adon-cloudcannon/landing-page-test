@@ -15,7 +15,7 @@ description: >-
   The New Dynamic is always looking for the best tools, particularly those
   directly used by their clients. After investigating CloudCannon, tND founder
   Bud Parr and Lead Developer Régis Philibert felt it was time to transition to
-  a new Git-based CMS. Their conclusion? CloudCannon is "a better experience"
+  a new Git-based CMS. Their conclusion? CloudCannon is /"a better experience/"
   than the competition.
 date: 2022-08-02T17:00:00Z
 seo:
