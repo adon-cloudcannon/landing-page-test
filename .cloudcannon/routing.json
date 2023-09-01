@@ -1514,6 +1514,11 @@
       "to": "/tutorials/hugo-beginner-tutorial/",
       "status": 301,
       "forced": false
+    {
+      "from": "/community/jamstack-hosting-comparison/",
+      "to": "/hosting/",
+      "status": 301,
+      "forced": false
     }
   ]
 }
