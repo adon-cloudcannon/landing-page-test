@@ -1,29 +1,34 @@
 ---
-draft: false
+_schema: default
 title: Watching your Core Web Vitals on Jamstack
+breadcrumb_title:
 description: "Three major metrics —\_Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift —\_measure a site’s loading time, time to interactivity, and visual stability. Luckily for you, Jamstack sites (including those created with CloudCannon) are perfectly placed to achieve high scores."
+draft: false
 series:
+image: https://cc-dam.imgix.net/core-vitals.jpg
+date: 2022-04-09T05:00:00+12:00
+hide_publish_date: false
+tags:
+  - Resources
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/core-vitals.jpg
-date: 2022-04-09T05:00:00+1200
-tags:
-  - Resources
-author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-ssg_frameworks:
 categories:
   - resources
 ---
@@ -81,10 +86,10 @@ Core Web Vitals can be improved in many ways, though it’s always more effectiv
 
 Start with these high impact methods to improve your Core Web Vitals on your static sites:
 
-* Use a CDN to deploy on the edge. See CloudCannon’s [Jamstack hosting performance comparison](https://cloudcannon.com/community/jamstack-hosting-comparison/). 
-* Remove unnecessary JavaScript. Static site generators like [Astro](https://astro.build/) and [SvelteKit](https://kit.svelte.dev/) (both supported by CloudCannon) are great solutions here, as they give both the speed of static and dynamic interactions of an SPA.
+* Use a CDN to deploy on the edge. Find out more about [how to deliver the fastest websites](https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/).
+* Remove unnecessary JavaScript. Static site generators like <a target="_blank" rel="noopener" href="https://astro.build/">Astro</a> and <a target="_blank" rel="noopener" href="https://kit.svelte.dev/">SvelteKit</a> (both supported by CloudCannon) are great solutions here, as they give both the speed of static and dynamic interactions of an SPA.
 * Minify your CSS, JS, and HTML where possible. Again, your chosen build tools will help you here — Sass allows `style: compressed`, for example, and something like [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier) could be a solid turnkey option for Jekyll users to minify HTML, XML, CSS, JSON, and JavaScript.
 * Reduce the number of redirects you use by planning ahead. It’s really tempting to take the path of least resistance and use redirects when you change a site layout, but if you begin your build process with a clear plan for navigation, you will greatly reduce the need to redirect in the first place.
 * Serve optimized images and videos that only load when they’re needed. Formats like AVIF and [WebP](https://developers.google.com/speed/webp/faq) images are generally better optimized than legacy image formats — though depending on the image you're serving, in some cases a PNG or SVG might be ideal. Further, [lazy loading](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/) is a simple change to add into your workflow.
 
-It’s worth keeping in mind that because Core Web Vitals reflect metrics for the past 28 days, any changes you make now will take at least four weeks to be reflected in Google’s report. So there’s never a better time than now to make a change — even a small one\!
+It’s worth keeping in mind that because Core Web Vitals reflect metrics for the past 28 days, any changes you make now will take at least four weeks to be reflected in Google’s report. So there’s never a better time than now to make a change — even a small one!

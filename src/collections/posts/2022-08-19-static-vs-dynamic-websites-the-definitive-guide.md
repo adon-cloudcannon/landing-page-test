@@ -1,11 +1,12 @@
 ---
-draft: false
 _schema: default
 title: 'Static vs Dynamic Websites: The Definitive Guide'
+breadcrumb_title:
 description: >-
   When it comes to making a new website, you’ve probably come across the terms
   static and dynamic. But what do they mean for you? And which approach should
   you choose? 
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-static-dynamic-definitive-r.jpg
 date: 2022-08-24T17:00:00Z
@@ -31,10 +32,8 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
 categories:
   - resources
-
 ---
 When it comes to making a website, you’ve probably come across the terms **static** and **dynamic**. But what do they mean for you? And which approach should you choose? Let’s dig into these terms, and the specific kinds of sites they’re each suited for.
 
@@ -50,7 +49,7 @@ The other way you can deliver sites is dynamically, which is how content managem
 
 So when a user loads a dynamic site in their browser window, it may look and feel exactly the same as a static site — it’s just the method of delivery that changes. Of course, speed and security come into the picture as well; read on for more.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/static-request-vs-dynamic-request.svg" alt:"" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/static-request-vs-dynamic-request.svg" alt: "" extend: false border: false %}
 
 **Picture** **a static site as the equivalent of a novel that’s on shelves all around the world, just waiting for you to reach out for it**. It’s already printed and bound, and it’s constructed in exactly the same manner for every single reader.
 
@@ -88,7 +87,7 @@ Why is speed so important? Well, according to [recent research on user behavior]
 
 Because **static** **sites don’t need a database or backend to function**, there’s no server-side code or database queries to slow down the process of serving pages. You’re not waiting for every single section of a page to be assembled before you see it: you simply request the page, and you get it.
 
-(Incidentally, the response times for sites hosted through CloudCannon are [among the fastest in the world](https://cloudcannon.com/community/jamstack-hosting-comparison/). You’re welcome.)
+(Incidentally, the response times for sites hosted through CloudCannon are among the fastest in the world. You’re welcome.)
 
 ### Static sites work at scale
 
@@ -110,7 +109,7 @@ You might not be too worried about your site being hacked. But most security bre
 
 Even if your WordPress install itself is up-to-date and secure (no mean feat for many existing sites), every plugin you install puts the reputation and integrity of your digital presence in the hands of an external developer. Do your developers spend time running security audits for every plugin they install? How do they know a plugin is secure, every time it updates? Wouldn’t you rather avoid these concerns, and reduce your risk?
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/static-security-vs-dynamic-security.svg" alt:"" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/static-security-vs-dynamic-security.svg" alt: "" extend: false border: false %}
 
 There are a few key reasons why static sites are more secure:
 
