@@ -128,6 +128,9 @@ eleventyComputed:
 			<p class="text-center text-base md:text-xl mt-3 mb-5 md:mt-6 md:mb-10">{{ cta.body_text }}</p>
 			<p class="text-center">{% bookshop "simple/button" bind: cta.button %}</p>
 		</div>
+	{% else %}
+	  <div class ="md:pb-16">
+	  </div>
 	{% endif %}
 
 	<h3 class="font-bold text-4xl mb-8">You might also like:</h3>
