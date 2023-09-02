@@ -72,7 +72,7 @@ Are you building a client website that includes blog or other content-heavy web 
 
 Give your clients the ability to manage their own metadata by configuring their website onto a CMS with a Data Editor. This will provide them with more fine-grained control over their website’s Search Engine Optimization (SEO) by making it easy to input the meta tags needed by search engines. <a target="_blank" rel="noopener" href="/for-marketers/">CloudCannon’s Data Editor</a> offers an intuitive interface for managing metadata, so that you can offer your web development clients more control over their sites.
 
-
+![CloudCannon Data Editor for metadata editing](https://cc-dam.imgix.net/DataEditorUpsell.png "CloudCannon Data Editor")
 
 ### 3\. Live visual editing
 
@@ -92,7 +92,7 @@ Is it likely that your web development client will need new landing pages built 
 
 It doesn’t always make sense to publish a page as soon as it is created. What if it needs to be publicly released at a specific time? Or needs to be reviewed by many stakeholders in-situ before publishing? Offer your clients an <a target="_blank" rel="noopener" href="/content-publishing/">advanced publishing workflow</a> by choosing a CMS that easily allows for pages to be set as drafts, with the publishing date and time set in advance! Our team at CloudCannon frequently makes use of drafts and scheduled publishing for our blog. It may seem like a small upsell offering, but the utility cannot be understated!
 
-
+![Advance your publishing workflow with drafts and scheduled publishing](https://cc-dam.imgix.net/PublishingImage.png "CloudCannon's advanced publishing workflow")
 
 ### 6\. Live preview sites
 
@@ -110,7 +110,7 @@ Does your client frequent collaborates with external businesses and individuals 
 
 You can learn more about <a target="_blank" rel="noopener" href="/documentation/articles/viewing-your-site-on-a-testing-domain/">Client Sharing with CloudCannon</a> here:
 
-{% bookshop 'markdown/video' url: "" title: "" border: false %}
+{% bookshop 'markdown/youtube' title: "CloudCannon Client Sharing" id: "LY0AJgQCFEM" extend: false border: false %}
 
 ## {% bookshop 'markdown/anchor' name: "static-website-plugin-upsells" %}
 
@@ -132,9 +132,9 @@ If your client’s business operates internationally, or is based in a bilingual
 
 Upsell your web development clients by adding a search function to their website. Including a search bar will significantly improve their website’s user experience. Open source search tools like <a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a> make it easier than ever to set up search on static websites. Learn more about Pagefind:
 
-{% bookshop 'markdown/video' url: "https://www.youtube.com/watch?v=74lsEXqRQys" title: "Pagefind Static Search Open Source Tool" border: false %}
+{% bookshop 'markdown/youtube' title: "Introducing Pagefind: static low-bandwidth search at scale" id: "74lsEXqRQys" extend: false border: false %}
 
-### 13\. Ecommerce
+13\. Ecommerce
 
 This one is for clients with static websites that would benefit from the ability to sell either physical or digital goods online. Connect their website to an ecommerce plugin to add this dynamic functionality to a static website. We have compiled a helpful list, <a target="_blank" rel="noopener" href="/jamstack-ecosystem/ecommerce/">comparing ecommerce plugins</a> for static sites.
 
