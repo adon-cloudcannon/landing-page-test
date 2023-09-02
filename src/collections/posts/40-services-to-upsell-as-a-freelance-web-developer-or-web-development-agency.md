@@ -50,13 +50,15 @@ We’ve put together this handy list of 40 different web development services to
 
 ## Table of Contents
 
-* Content management system (CMS) upsells
-* Static website plugin upsells
-* Design & content creation upsells
-* Marketing & SEO upsells
-* Web analytics upsells
-* Web development & security upsells
-* Bonus upsells
+* [Content management system (CMS) upsells](content-management-system-&#40;CMS&#41;-upsells)
+* [Static website plugin upsells](#static-website-plugin-upsells)
+* [Design & content creation upsells](#design-content-creation-upsells)
+* [Marketing & SEO upsells](#marketing-SEO-upsells)
+* [Web analytics upsells](#web-analytics-upsells)
+* [Web development & security upsells](#web-development-security-upsells)
+* [Bonus upsells](#bonus-upsells)
+
+## {% bookshop 'markdown/anchor' name: "content-management-system-(CMS)-upsells" %}
 
 ## Content management system (CMS) upsells
 
@@ -110,6 +112,8 @@ You can learn more about <a target="_blank" rel="noopener" href="/documentation/
 
 {% bookshop 'markdown/video' url: "" title: "" border: false %}
 
+## {% bookshop 'markdown/anchor' name: "static-website-plugin-upsells" %}
+
 ## Static website plugin upsells
 
 ### 9\. Commenting
@@ -154,6 +158,8 @@ If your client doesn’t have the time or resources to respond to chat box enqui
 
 If your client sends out newsletters, offer to streamline and automate this process by connecting their website to a newsletter automation tool. We have compiled a <a target="_blank" rel="noopener" href="/jamstack-ecosystem/newsletters/">comparison list of newsletter plugins</a> that are compatible with static websites, to help you choose the best one for your client’s use case. This is an ideal upsell for clients with businesses that rely on email marketing and lead generation.
 
+## {% bookshop 'markdown/anchor' name: "design-content-creation-upsells" %}
+
 ## Design & content creation upsells
 
 ### 19\. Digital asset creation
@@ -163,6 +169,8 @@ Is your web development client a new business owner setting up their first websi
 ### 20\. Branding
 
 Sometimes the creation of a new website can highlight branding inconsistencies. If you believe that your client would benefit from a full company <a target="_blank" rel="noopener" href="https://business.adobe.com/blog/basics/how-to-build-a-brand">re-brand</a>, or the creation of new <a target="_blank" rel="noopener" href="https://www.oberlo.com/blog/brand-guidelines">brand guidelines</a>, these are excellent services to upsell along with a site build or redesign. Partnering with marketing and design professional can take a client’s website to the next level with some branding work.
+
+## {% bookshop 'markdown/anchor' name: "marketing-SEO-upsells" %}
 
 ## Marketing & SEO upsells
 
@@ -190,6 +198,8 @@ If your web development client needs a new site built, or even just a new page, 
 
 Upsell your clients by offering digital ad management as an add-on service. Connect your clients websites to <a target="_blank" rel="noopener" href="https://ads.google.com/home/campaigns/search-ads/">Google Ads</a> and create, monitor, and optimize their ads. You can create search, display, or YouTube ads, depending on your clients’ specific industry and budget constraints.
 
+## {% bookshop 'markdown/anchor' name: "web-analytics-upsells" %}
+
 ## Web analytics upsells
 
 ### 27\. Analytics integrations
@@ -199,6 +209,8 @@ Upsell almost any web development client by offering to connect free website ana
 ### 28\. Web analytics reporting
 
 Many of your clients may not know how (or why) to use their connected web analytics tools. As a freelance web developer or agency owner, you can step in to fill this knowledge gap by offering monthly <a target="_blank" rel="noopener" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=6431-google-analytics-4">web analytics reporting</a> as an add-on service. This saves your clients the time and effort required to learn to navigate web analytics tools and make sense of the data, while still being able to benefit from analytics insights!
+
+## {% bookshop 'markdown/anchor' name: "web-development-security-upsells" %}
 
 ## Web development & security upsells
 
@@ -229,6 +241,8 @@ Protect your clients web forms and mailbox from spam by connecting their website
 ### 35\. Cyber security penetration testing
 
 Online threats to your clients’ website are constantly evolving, and so should your client’s cyber security strategy. Offer to conduct periodic <a target="_blank" rel="noopener" href="https://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/">cyber security penetration tests</a> on your client’s website to identify and resolve potential vulnerabilities.
+
+## {% bookshop 'markdown/anchor' name: "bonus-upsells" %}
 
 ## Bonus upsells
 
