@@ -60,14 +60,13 @@ We’ve put together this handy list of 40 different web development services to
 
 ## {% bookshop 'markdown/anchor' name: "content-management-system-upsells" %}
 
-
 ## Content management system (CMS) upsells
 
 ### 1\. Content editing
 
 Are you building a client website that includes blog or other content-heavy web pages? Upselling your clients a Content Management System (CMS) with an easy-to-use Content Editor for rich-text will be invaluable to both you the developer, and your client. Having a Content Editor makes it easier for your clients to add new pages to their website, or update site copy without needing to contact you for help! This is a win-win:, your clients gain more control and flexibility, while you gain time. Whether your clients are creating blog posts or new website pages, we recommend <a target="_blank" rel="noopener" href="/for-content-editors/">CloudCannon’s Content Editor</a> to give even the least tech-savvy clients the confidence to write, review, and publish their content.
 
-{% bookshop 'markdown/video' url: "" title: "" border: false %}
+{% bookshop 'markdown/youtube' title: "CloudCannon Content Editor" id: "KU_eR5HHYTE" extend: false border: false %}
 
 ### 2\. Data editing
 
@@ -81,13 +80,13 @@ Almost every web development client will need to edit their webpages, so why not
 
 And with <a target="_blank" rel="noopener" href="/website-editing/">CloudCannon’s Visual Editor</a>, there’s no need to worry about your clients breaking anything. You can set clearly defined control over their pages content, without them needing to worry about anything too technical.
 
-{% bookshop 'markdown/video' url: "" title: "" border: false %}
+{% bookshop 'markdown/youtube' title: "CloudCannon Visual Editor" id: "dLVcA_kBK4o" extend: false border: false %}
 
 ### 4\. Visual page building
 
 Is it likely that your web development client will need new landing pages built in the future? Give them the ability to easily build their own web pages directly in the CMS! In CloudCannon’s Visual Editor, developers make use of our open-source component management tool <a target="_blank" rel="noopener" href="/blog/introducing-bookshop/">Bookshop</a> to build custom components that can be used in the Visual Editor to build new pages. This empowers your clients to build new web pages with no technical knowledge needed.
 
-{% bookshop 'markdown/video' url: "" title: "" border: false %}
+{% bookshop 'markdown/youtube' title: "Live Visual Page Building with Bookshop" id: "zTg76VkzSXM" extend: false border: false %}
 
 ### 5\. Advanced publishing workflow
 
@@ -99,7 +98,7 @@ It doesn’t always make sense to publish a page as soon as it is created. What 
 
 When editing or creating new web pages it’s crucial to know exactly how the page will appear on the website. Give your web development clients peace of mind by choosing a CMS with live preview sites. This will not only improve your clients’ review processes, but also give them the confidence to publish changes without needing to contact you, the developer, for help. CloudCannon provides <a target="_blank" rel="noopener" href="/website-editing/">live preview websites</a> out of the box with Cloudvent URLs:
 
-{% bookshop 'markdown/video' url: "" title: "" border: false %}
+{% bookshop 'markdown/youtube' title: "CloudCannon Live Site Preview" id: "-pxThBj0-4o" extend: false border: false %}
 
 ### 7\. Editor collaboration
 
