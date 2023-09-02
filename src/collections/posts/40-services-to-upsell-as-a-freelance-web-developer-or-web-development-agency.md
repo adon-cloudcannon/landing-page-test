@@ -7,7 +7,7 @@ description: >-
   agencies can upsell to clients.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/Upsell.png
 date: 2023-09-08T05:05:00+12:00
 hide_publish_date: false
 tags:
@@ -16,22 +16,22 @@ tags:
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
+  title: Join CloudCannon's Partner Program
   body_text: >-
-    Give your content team full autonomy on your developer-approved tech stack
-    with CloudCannon.
+    As you bring on new clients, you'll unlock exclusive benefits and savings
+    for you and your clients.
   button:
     content:
-      link: https://app.cloudcannon.com/register?trial=cc_standard
-      text: Get started free!
+      link: https://cloudcannon.com/partner-program/
+      text: Become a partner
     styles:
       size:
       style: outline
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Upsell.png
+  featured_image_alt: 40 web development services to upsell
 ---
 Upselling is an essential strategy for freelance web developers and web development agencies to increase revenue by delivering more value to clients. If you’ve never heard of upselling before, it involves offering, or rather ‘suggesting’, additional services that are above and beyond the initial purchase or project scope.
 
@@ -266,4 +266,4 @@ Upsell your web development clients with reputation management tools like the fr
 
 When developing new site’s, <a target="_blank" rel="noopener" href="https://www.cloudways.com/blog/hand-off-a-website/">upsell your clients a workshop</a> to help clients, and their employees, set up accounts on any new platforms, like a CMS, CMR, Analytics tools, etc. Provide a virtual or in-person overview of how to manage their new website, and leave extra time to answer questions.
 
-Did we miss an web development upsell service? Let us know on <a target="_blank" rel="noopener" href="https://twitter.com/CloudCannon">Twitter</a> or <a target="_blank" rel="noopener" href="https://techhub.social/@cloudcannon">Mastodon</a>! And take your freelance web development career, or web development agency, to the next level by signing up for the **CloudCannon <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Partner Program</a>**. As a CloudCannon Partner, you’ll unlock exclusive benefits and savings for you, and your clients, with every new clients you bring on. All while benefitting from the many services you can upsell by choosing CloudCannon as your CMS!
+Did we miss an web development upsell service? Let us know on <a target="_blank" rel="noopener" href="https://twitter.com/CloudCannon">Twitter</a> or <a target="_blank" rel="noopener" href="https://techhub.social/@cloudcannon">Mastodon</a>! And take your freelance web development career, or web development agency, to the next level by signing up for the [**CloudCannon**](__notset__)**<a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Partner Program</a>**. As a CloudCannon Partner, you’ll unlock exclusive benefits and savings for you, and your clients, with every new clients you bring on. All while benefitting from the many services you can upsell by choosing CloudCannon as your CMS!
