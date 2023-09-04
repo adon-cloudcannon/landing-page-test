@@ -70,13 +70,13 @@ Are you building a client website that includes blog or other content-heavy web 
 
 ### 2\. Data editing
 
-Give your clients the ability to manage their own metadata by configuring their website onto a CMS with a Data Editor. This will provide them with more fine-grained control over their website’s Search Engine Optimization (SEO) by making it easy to input the meta tags needed by search engines. <a target="_blank" rel="noopener" href="/for-marketers/">CloudCannon’s Data Editor</a> offers an intuitive interface for managing metadata, so that you can offer your web development clients more control over their sites.
+Give your clients the ability to manage their own metadata by configuring their website onto a CMS with a Data Editor. This will provide them with more fine-grained control over their website’s Search Engine Optimization (SEO) by making it easy to input the meta tags needed by search engines. <a target="_blank" rel="noopener" href="/website-editing/">CloudCannon’s Data Editor</a> offers an intuitive interface for managing metadata, so that you can offer your web development clients more control over their sites.
 
 ![CloudCannon Data Editor for metadata editing](https://cc-dam.imgix.net/DataEditorUpsell.png "CloudCannon Data Editor")
 
 ### 3\. Live visual editing
 
-Almost every web development client will need to edit their webpages, so why not upsell their web development project by offering your clients an easy interface for live editing? As a freelance web developer or web development agency, you can save both you and your clients many hours by offering a CMS with a Visual Editor. This will allow your clients to make changes right on the page, in real time. This is a huge game-changer for your clients! It completely eliminates the need for them to go back an forth between an Editor and Preview.
+Almost every web development client will need to edit their webpages, so why not upsell their web development project by offering your clients an easy interface for live editing? As a freelance web developer or web development agency, you can save both you, and your clients many hours by offering a CMS with a Visual Editor. This will allow your clients to make changes right on the page, in real time. This is a huge game-changer for your clients! It completely eliminates the need for them to go back an forth between an Editor and Preview.
 
 And with <a target="_blank" rel="noopener" href="/website-editing/">CloudCannon’s Visual Editor</a>, there’s no need to worry about your clients breaking anything. You can set clearly defined control over their pages content, without them needing to worry about anything too technical.
 
@@ -84,7 +84,7 @@ And with <a target="_blank" rel="noopener" href="/website-editing/">CloudCannon�
 
 ### 4\. Visual page building
 
-Is it likely that your web development client will need new landing pages built in the future? Give them the ability to easily build their own web pages directly in the CMS! In CloudCannon’s Visual Editor, developers make use of our open-source component management tool <a target="_blank" rel="noopener" href="/blog/introducing-bookshop/">Bookshop</a> to build custom components that can be used in the Visual Editor to build new pages. This empowers your clients to build new web pages with no technical knowledge needed.
+Is it likely that your web development client will need new landing pages built in the future? Give them the ability to easily build their own web pages directly in the CMS! In CloudCannon’s Visual Editor, developers make use of our open-source component management tool <a target="_blank" rel="noopener" href="/blog/introducing-bookshop/">Bookshop</a>, to build custom web components that can be used in the Visual Editor to build new pages. This empowers your clients to build new web pages with no technical knowledge needed.
 
 {% bookshop 'markdown/youtube' title: "Live Visual Page Building with Bookshop" id: "zTg76VkzSXM" extend: false border: false %}
 
@@ -106,7 +106,7 @@ Upsell your web development clients by offering them advanced collaboration capa
 
 ### 8\. Client Sharing
 
-Does your client frequent collaborates with external businesses and individuals to create site content? You can upsell CMS Client Sharing so that your client can share their website with external collaborator, without needing to create a new account. This will both make external collaboration easier, and improve security by eliminating the need to share full access to external collaborators.
+Does your client frequently collaborate with external businesses and individuals to create site content? You can upsell CMS Client Sharing so that your client can share their website with external collaborators, without needing to create a new account. This will make external collaboration easier, and improve security by eliminating the need to share full access to external collaborators.
 
 You can learn more about <a target="_blank" rel="noopener" href="/documentation/articles/viewing-your-site-on-a-testing-domain/">Client Sharing with CloudCannon</a> here:
 
@@ -130,11 +130,11 @@ If your client’s business operates internationally, or is based in a bilingual
 
 ### 12\. Site Search
 
-Upsell your web development clients by adding a search function to their website. Including a search bar will significantly improve their website’s user experience. Open source search tools like <a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a> make it easier than ever to set up search on static websites. Learn more about Pagefind:
+Upsell your web development clients by adding a search function to their website. Including search functionality will significantly improve their website’s user experience. Open source search tools like <a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a> make it easier than ever to set up search on static websites. Learn more about Pagefind:
 
 {% bookshop 'markdown/youtube' title: "Introducing Pagefind: static low-bandwidth search at scale" id: "74lsEXqRQys" extend: false border: false %}
 
-13\. Ecommerce
+## 13\. Ecommerce
 
 This one is for clients with static websites that would benefit from the ability to sell either physical or digital goods online. Connect their website to an ecommerce plugin to add this dynamic functionality to a static website. We have compiled a helpful list, <a target="_blank" rel="noopener" href="/jamstack-ecosystem/ecommerce/">comparing ecommerce plugins</a> for static sites.
 
@@ -164,11 +164,11 @@ If your client sends out newsletters, offer to streamline and automate this proc
 
 ### 19\. Digital asset creation
 
-Is your web development client a new business owner setting up their first website? Or are their website digital assets outdated and in need of a refresh? You can upsell graphic design, photography, and even videography to create digital assets for your clients’ websites! If your agency doesn’t have graphic design, photography, or videography expertise, or if you’re a freelancer who only wants to focus on web development, consider partnering with others. You can develop a long-lasting partnerships with graphic designers, photographers, and videographers, while <a target="_blank" rel="noopener" href="https://www.getthereferral.com/blog/referral-fees-best-practices-for-success">earning a commission by referring your web development clients</a>.
+Is your web development client a new business owner setting up their first website? Or are their website digital assets outdated and in need of a refresh? You can upsell graphic design, photography, and even videography to create digital assets for your clients’ websites! If your agency doesn’t have graphic design, photography, or videography expertise, or if you’re a freelancer who only wants to focus on web development, consider partnering with others. You can develop long-lasting partnerships with graphic designers, photographers, and videographers, while <a target="_blank" rel="noopener" href="https://www.getthereferral.com/blog/referral-fees-best-practices-for-success">earning a commission by referring your web development clients</a>.
 
 ### 20\. Branding
 
-Sometimes the creation of a new website can highlight branding inconsistencies. If you believe that your client would benefit from a full company <a target="_blank" rel="noopener" href="https://business.adobe.com/blog/basics/how-to-build-a-brand">re-brand</a>, or the creation of new <a target="_blank" rel="noopener" href="https://www.oberlo.com/blog/brand-guidelines">brand guidelines</a>, these are excellent services to upsell along with a site build or redesign. Partnering with marketing and design professional can take a client’s website to the next level with some branding work.
+Sometimes the creation of a new website can highlight branding inconsistencies. If you believe that your client would benefit from a full company <a target="_blank" rel="noopener" href="https://business.adobe.com/blog/basics/how-to-build-a-brand">re-brand</a>, or the creation of new <a target="_blank" rel="noopener" href="https://www.oberlo.com/blog/brand-guidelines">brand guidelines</a>, these are excellent services to upsell along with a site build or redesign. Partnering with marketing and design professionals can take a client’s website to the next level with some branding work.
 
 ## {% bookshop 'markdown/anchor' name: "marketing-SEO-upsells" %}
 
@@ -220,7 +220,7 @@ Offering <a target="_blank" rel="noopener" href="/hosting/">web hosting</a> is t
 
 ### 30\. Content delivery network (CDN)
 
-Upsell a CDN to <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/watching-your-core-web-vitals-on-jamstack/">optimize loading times</a> for your clients website visitors. The CDN will store your clients’ websites in multiple servers across the globe, and choose the nearest server to their website visitor’s location to reduce load times. This is an ideal upsell for clients with businesses that operate internationally.
+Upsell a CDN to <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/watching-your-core-web-vitals-on-jamstack/">optimize loading times</a> for your client's website visitors. The CDN will store your clients’ websites in multiple servers across the globe, and choose the nearest server to their website visitor’s location to reduce load times. This is an ideal upsell for clients with businesses that operate internationally.
 
 ### 31\. Domain names
 
@@ -266,4 +266,4 @@ Upsell your web development clients with reputation management tools like the fr
 
 When developing new site’s, <a target="_blank" rel="noopener" href="https://www.cloudways.com/blog/hand-off-a-website/">upsell your clients a workshop</a> to help clients, and their employees, set up accounts on any new platforms, like a CMS, CMR, Analytics tools, etc. Provide a virtual or in-person overview of how to manage their new website, and leave extra time to answer questions.
 
-Did we miss any web development upsell services? Let us know on <a target="_blank" rel="noopener" href="https://twitter.com/CloudCannon">Twitter</a> or <a target="_blank" rel="noopener" href="https://techhub.social/@cloudcannon">Mastodon</a>! And take your freelance web development career, or web development agency, to the next level by signing up for the <a target="_blank" rel="noopener" href="/partner-program/"><b>CloudCannon Partner Program</b></a>. As a CloudCannon Partner, you’ll unlock exclusive benefits and savings for you, and your clients, with every new clients you bring on. All while benefitting from the many services you can upsell by choosing CloudCannon as your CMS!
+Did we miss any web development upsell services? Let us know on <a target="_blank" rel="noopener" href="https://twitter.com/CloudCannon">Twitter</a> or <a target="_blank" rel="noopener" href="https://techhub.social/@cloudcannon">Mastodon</a>! And take your freelance web development career, or web development agency, to the next level by signing up for the <a target="_blank" rel="noopener" href="/partner-program/"><b>CloudCannon Partner Program</b></a>. As a CloudCannon Partner, you’ll unlock exclusive benefits and savings for you, and your clients, with every new client you bring on. All while benefitting from the many services you can upsell by choosing CloudCannon as your CMS!
