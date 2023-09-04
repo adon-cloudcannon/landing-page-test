@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 40 services to upsell as a freelance web developer or web development agency
-breadcrumb_title: 40-upsell-web-development-services
+breadcrumb_title: 40 web development services to upsell
 description: >-
   Learn 40 unique services that freelance web developers and web development
   agencies can upsell to clients.
@@ -41,26 +41,26 @@ The guiding principles of upselling are simple:
 
 * Upsell **after** your client has made a commitment to employ your web development services.
 * Only suggest additional services that are relevant to your clients web development project and business goals.
-* Consider bundling your web development services together as 2-for-1 offer, i.e. offer the additional service at half price with the initial purchase.
+* Consider bundling your web development services together as a 2-for-1 offer, i.e. offer the additional service at half price with the initial purchase.
 * Keep the cost of the additional services lower than the initial web development project cost.
 
-Now you know why and how to upsell your web development services to earn more from each project you or your agency takes on, while building valuable, and long-lasting relationships! But what web development related services should you be upselling?
+Now you know why and how to upsell your web development services to earn more from each project, while building valuable, and long-lasting relationships! But what web development related services should you be upselling?
 
-We’ve put together this handy list of 40 different web development services to upsell to your static website clients. Just keep in mind that not every service will make sense for every client; always consider what web development add-on services to suggest on a case-by-case basis.
+We’ve put together this handy list of 40 different web development services to upsell to your web development clients. Just keep in mind that not every service will make sense for every client; always consider what web development add-on services to suggest on a case-by-case basis.
 
 ## Table of Contents
 
-* [Content management system (CMS) upsells](#content-management-system-upsells)
-* [Static website plugin upsells](#static-website-plugin-upsells)
-* [Design & content creation upsells](#design-content-creation-upsells)
-* [Marketing & SEO upsells](#marketing-SEO-upsells)
-* [Web analytics upsells](#web-analytics-upsells)
-* [Web development & security upsells](#web-development-security-upsells)
-* [Bonus upsells](#bonus-upsells)
+* [Content management system (CMS) services](#content-management-system-upsells)
+* [Static website plugin services](#static-website-plugin-upsells)
+* [Design & content creation services](#design-content-creation-upsells)
+* [Marketing & SEO services](#marketing-SEO-upsells)
+* [Web analytics services](#web-analytics-upsells)
+* [Web development & security services](#web-development-security-upsells)
+* [Bonus upsell services](#bonus-upsells)
 
 ## {% bookshop 'markdown/anchor' name: "content-management-system-upsells" %}
 
-## Content management system (CMS) upsells
+## Content management system (CMS) services
 
 ### 1\. Content editing
 
@@ -114,7 +114,7 @@ You can learn more about <a target="_blank" rel="noopener" href="/documentation/
 
 ## {% bookshop 'markdown/anchor' name: "static-website-plugin-upsells" %}
 
-## Static website plugin upsells
+## Static website plugin services
 
 ### 9\. Commenting
 
@@ -160,7 +160,7 @@ If your client sends out newsletters, offer to streamline and automate this proc
 
 ## {% bookshop 'markdown/anchor' name: "design-content-creation-upsells" %}
 
-## Design & content creation upsells
+## Design & content creation services
 
 ### 19\. Digital asset creation
 
@@ -172,7 +172,7 @@ Sometimes the creation of a new website can highlight branding inconsistencies. 
 
 ## {% bookshop 'markdown/anchor' name: "marketing-SEO-upsells" %}
 
-## Marketing & SEO upsells
+## Marketing & SEO services
 
 ### 21\. Customer relationship management (CRM)
 
@@ -200,7 +200,7 @@ Upsell your clients by offering digital ad management as an add-on service. Conn
 
 ## {% bookshop 'markdown/anchor' name: "web-analytics-upsells" %}
 
-## Web analytics upsells
+## Web analytics services
 
 ### 27\. Analytics integrations
 
@@ -212,7 +212,7 @@ Many of your clients may not know how (or why) to use their connected web analyt
 
 ## {% bookshop 'markdown/anchor' name: "web-development-security-upsells" %}
 
-## Web development & security upsells
+## Web development & security services
 
 ### 29\. Hosting
 
@@ -244,7 +244,7 @@ Online threats to your clients’ website are constantly evolving, and so should
 
 ## {% bookshop 'markdown/anchor' name: "bonus-upsells" %}
 
-## Bonus upsells
+## Bonus upsell services
 
 ### 36\. Email addresses
 
