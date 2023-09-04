@@ -35,7 +35,7 @@ seo:
 ---
 Upselling is an essential strategy for freelance web developers and web development agencies to increase revenue by delivering more value to clients. If you’ve never heard of upselling before, it involves offering, or rather ‘suggesting’, additional services that are above and beyond the initial purchase or project scope.
 
-McDonald’s has truly mastered the art of upselling with their well-known catchphrase “Would you like fries with that?”, which is <a target="_blank" rel="noopener" href="https://shopney.co/blog/how-mcdonalds-mastered-cross-selling-to-add-15-40-in-revenue-how-you-can-too">estimated to account for a whopping 15-40% of McDonald’s annual profits</a>. The goal of upselling is first and foremost to add value by providing additional benefits and features to clients. Delivering more value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you, or your agency in the future. There’s no doubt about it, upselling works! So how can you make upselling work for you, so you can provide greater value to your clients, and make more money as a freelance web developer or web development agency owner?
+McDonald’s has truly mastered the art of upselling with their well-known catchphrase “Would you like fries with that?”, which is <a target="_blank" rel="noopener" href="https://shopney.co/blog/how-mcdonalds-mastered-cross-selling-to-add-15-40-in-revenue-how-you-can-too">estimated to account for a whopping 15-40% of McDonald’s annual profits</a>. The goal of upselling is first and foremost to add value by providing additional benefits and features to clients. Delivering more value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you, or your agency in the future. There’s no doubt about it, upselling works! So how can you make upselling work for you, so you can provide greater value to your clients, and increase revenue your freelance or agency web development projects?
 
 The guiding principles of upselling are simple:
 
@@ -72,7 +72,7 @@ Are you building a client website that includes blog or other content-heavy web 
 
 Give your clients the ability to manage their own metadata by configuring their website onto a CMS with a Data Editor. This will provide them with more fine-grained control over their website’s Search Engine Optimization (SEO) by making it easy to input the meta tags needed by search engines. <a target="_blank" rel="noopener" href="/website-editing/">CloudCannon’s Data Editor</a> offers an intuitive interface for managing metadata, so that you can offer your web development clients more control over their sites.
 
-![CloudCannon Data Editor for metadata editing](https://cc-dam.imgix.net/DataEditorUpsell.png "CloudCannon Data Editor")
+![CloudCannon Data Editor for metadata editing](https://cc-dam.imgix.net/DataEditoerUpsellFinal &#40;1&#41;.png "CloudCannon Data Editor")
 
 ### 3\. Live visual editing
 
