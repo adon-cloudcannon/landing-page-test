@@ -7,7 +7,7 @@ description: >-
   agencies can upsell to clients.
 draft: true
 series:
-image: https://cc-dam.imgix.net/UpsellListicle.png
+image: https://cc-dam.imgix.net/UpsellListicle2.png
 date: 2023-09-08T05:05:00+12:00
 hide_publish_date: false
 tags:
@@ -30,7 +30,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/UpsellListicle.png
+  featured_image: https://cc-dam.imgix.net/UpsellListicle2.png
   featured_image_alt: 40 web development services to upsell
 ---
 Upselling is an essential strategy for freelance web developers and web development agencies to increase revenue by delivering more value to clients. If you’ve never heard of upselling before, it involves offering, or rather ‘suggesting’, additional services that are above and beyond the initial purchase or project scope.
