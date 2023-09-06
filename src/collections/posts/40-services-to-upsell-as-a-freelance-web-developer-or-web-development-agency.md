@@ -33,40 +33,38 @@ seo:
   featured_image: https://cc-dam.imgix.net/UpsellListicle4.png
   featured_image_alt: 40 web development services to upsell
 ---
-Providing more value to your clients is essential to build longterm symbiotic business relationships. Delivering more value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you, or your agency in the future. You can deliver more value to your web development clients by offering add-on services, which are suggested to your clients above and beyond the initial project scope.
+Providing more value to your clients is essential to building symbiotic business relationships. Delivering more value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you, or your agency in the future. You can deliver more value to your web development clients by offering add-on services, which are suggested to your clients above and beyond the initial project scope.
 
 The guiding principles of suggesting additional services are simple:
 
 * Offer add-ons&nbsp;**after** your client has made a commitment to employ your web development services.
-* Only suggest additional services that are relevant to your clients web development project and business goals.
+* Only suggest additional services that are relevant to your clients web development project, and business goals.
 * Consider bundling your web development services together as a 2-for-1 offer, i.e. offer the additional service at half price with the initial purchase.
-* Keep the cost of the additional services lower than the initial web development project cost.
+* Keep the cost of the additional services lower than the initial web development project's cost.
 
-We’ve put together this handy list of X different web development services you can leverage to provide more value to your clients. Just keep in mind that not every service will make sense for every client; always consider what web development add-on services to suggest on a case-by-case basis.
+We’ve put together this handy list of X different web development services you can leverage to provide more value to your clients. Just keep in mind that not every service will make sense for every client; always consider which web development add-on services to suggest on a case-by-case basis.
 
 ## Table of Contents
 
-* [Content management system (CMS) services](#content-management-system-upsells)
 * [Static website plugin services](#static-website-plugin-upsells)
-* [Design & content creation services](#design-content-creation-upsells)
 * [Marketing & SEO services](#marketing-SEO-upsells)
 * [Web analytics services](#web-analytics-upsells)
 * [Web development & security services](#web-development-security-upsells)
 * [Bonus upsell services](#bonus-upsells)
 
-## {% bookshop 'markdown/anchor' name: "content-management-system-upsells" %}
-
-## Content management system (CMS) services
-
-### 1\. Content management system (CMS)
-
-Offering your clients a Content Management System (CMS) with an easy-to-use Content Editor for rich-text, and an intuitive Visual Editor for web pages, will be invaluable to both you the developer, and your client. Having a CMS makes it easier for your clients to add new pages to their website, or make changes without needing to contact you for help! We recommend choosing CloudCannon to provide your clients with a customizable <a target="_blank" rel="noopener" href="/for-content-editors/">Content Editor</a>&nbsp;for blog posts or documentations, and a <a target="_blank" rel="noopener" href="/website-editing/">Visual Editor</a> for live visual editing and page building!
-
-{% bookshop 'markdown/youtube' title: "CloudCannon Visual Editor" id: "dLVcA_kBK4o" extend: false border: false %}
+##
 
 ## {% bookshop 'markdown/anchor' name: "static-website-plugin-upsells" %}
 
-## Static website plugin services
+## Website functionality services
+
+### 1\. Content management system (CMS)
+
+Offering your clients a Content Management System (CMS) with an easy-to-use Content Editor for rich-text, and an intuitive Visual Editor for web pages, will be invaluable to both you the developer, and your client. Having a CMS makes it easier for your clients to add new pages to their website, or make changes without needing to contact you for help! We recommend choosing CloudCannon to provide your clients with a customizable <a target="_blank" rel="noopener" href="/for-content-editors/">Content Editor</a>&nbsp;for blog posts or documentation pages, and a <a target="_blank" rel="noopener" href="/website-editing/">Visual Editor</a> for live visual editing and page building!
+
+{% bookshop 'markdown/youtube' title: "CloudCannon Visual Editor" id: "dLVcA_kBK4o" extend: false border: false %}
+
+##
 
 ### 2\. Commenting
 
@@ -78,17 +76,17 @@ It can be such a pain to spend time uploading images to a website only to find t
 
 ### 4\. Site internationalization
 
-If your client’s business operates internationally, or is based in a bilingual (or multi-lingual) location, it makes sense to offer site internationalization. This will make your clients website available in multiple languages! Managing translations on static websites is easier than you think with open-source tools like <a target="_blank" rel="noopener" href="https://rosey.app/">Rosey i18n</a>. We have even created a <a target="_blank" rel="noopener" href="/documentation/guides/rosey-migration-guide/">Rosey Migration Guide</a> to help you set up Rosey on CloudCannon.
+If your client’s business operates internationally, or is based in a bilingual (or multi-lingual) location, it makes sense to offer site internationalization as an add-on service. This will make your client's website available in multiple languages! Managing translations on static websites is easier than you think with open-source tools like <a target="_blank" rel="noopener" href="https://rosey.app/">Rosey i18n</a>. We have created a <a target="_blank" rel="noopener" href="/documentation/guides/rosey-migration-guide/">Rosey Migration Guide</a> to help you set up Rosey on CloudCannon.
 
 ### 5\. Site Search
 
-Upsell your web development clients by adding a search function to their website. Including search functionality will significantly improve their website’s user experience. Open source search tools like <a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a> make it easier than ever to set up search on static websites. Learn more about Pagefind:
+Deliver more value to your web development clients by adding a search function to their websites. Including search functionality will significantly improve their website’s user experience. Open source search tools like <a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a> make it easier than ever to set up search on static websites. Learn more about Pagefind:
 
 {% bookshop 'markdown/youtube' title: "Introducing Pagefind: static low-bandwidth search at scale" id: "74lsEXqRQys" extend: false border: false %}
 
 ### 6\. Ecommerce
 
-This one is for clients with static websites that would benefit from the ability to sell either physical or digital goods online. Connect their website to an ecommerce plugin to add this dynamic functionality to a static website. We have compiled a helpful list, <a target="_blank" rel="noopener" href="/jamstack-ecosystem/ecommerce/">comparing ecommerce plugins</a> for static sites.
+This add-on service is for clients with static websites that would benefit from the ability to sell either physical or digital goods online. Connect their website to an ecommerce plugin to add this dynamic functionality to a static website. We have compiled a helpful list, <a target="_blank" rel="noopener" href="/jamstack-ecosystem/ecommerce/">comparing ecommerce plugins</a> for static sites.
 
 ### 7\. Booking capabilities
 
@@ -96,37 +94,31 @@ Suggest the&nbsp; addition of <a target="_blank" rel="noopener" href="https://ww
 
 ### 8\. Contact forms
 
-Make it easy for users to contact your clients through their websites by upselling the creation of contact forms. Providing a site contact form can increase your clients’ leads by making it clear how to get in touch. Here is a list <a target="_blank" rel="noopener" href="/jamstack-ecosystem/contact-forms/">comparing contact form plugins</a> for static websites to help you choose the one thats right for you and your client.
+Make it easy for users to contact your clients through their websites by suggesting the creation of contact forms. Providing a site contact form can increase your clients’ leads by making it clear how to get in touch. Here is a list <a target="_blank" rel="noopener" href="/jamstack-ecosystem/contact-forms/">comparing contact form plugins</a> for static websites to help you choose the one that's right for you, and your client.
 
 ### 9\. AI powered chat bot
 
-Add value to your client’s web development project by offering the creation of a website <a target="_blank" rel="noopener" href="https://www.giosg.com/blog/ai-chatbot">AI powered chat bot</a>&nbsp;to make it even easier for their site users to ask questions, and find what they are looking for. This way your clients can rest assured that questions will receive a prompt response, and their users will be directed to the appropriate resources without the need for constant monitoring.
+Add value to your client’s web development project by offering the creation of an&nbsp;<a target="_blank" rel="noopener" href="https://www.giosg.com/blog/ai-chatbot">AI powered chat bot</a>&nbsp;to make it easier for their site users to ask questions, and find what they are looking for. This way your clients can rest assured that questions will receive a prompt response, and their users will be directed to the appropriate resources without the need for constant monitoring.
 
 ### 10\. Newsletter automation
 
-If your client sends out newsletters, offer to streamline and automate this process by connecting their website to a newsletter automation tool. We have compiled a <a target="_blank" rel="noopener" href="/jamstack-ecosystem/newsletters/">comparison list of newsletter plugins</a> that are compatible with static websites, to help you choose the best one for your client’s use case. This is an ideal upsell for clients with businesses that rely on email marketing and lead generation.
+If your client sends out newsletters, offer to streamline and automate this process by connecting their website to a newsletter automation tool. We have compiled a <a target="_blank" rel="noopener" href="/jamstack-ecosystem/newsletters/">comparison list of newsletter plugins</a> that are compatible with static websites, to help you choose the best one for your client’s use case. This is an ideal value-add for clients with businesses that rely on email marketing and lead generation.
 
-## {% bookshop 'markdown/anchor' name: "design-content-creation-upsells" %}
-
-## Design & content creation services
-
-### 11\. Digital assets & branding
-
-Is your web development client a new business owner setting up their first website? Or are their website digital assets, or company branding outdated and in need of a refresh? You can offer graphic design, photography, videography, or even the creation of <a target="_blank" rel="noopener" href="https://www.oberlo.com/blog/brand-guidelines">brand guidelines</a>, to create digital assets with consistent brand! If your agency doesn’t have graphic design, photography, videography, or branding expertise, or if you’re a freelancer who only wants to focus on web development, consider partnering with others. You can develop long-lasting partnerships with graphic designers, photographers, videographers, and branding experts, while <a target="_blank" rel="noopener" href="https://www.getthereferral.com/blog/referral-fees-best-practices-for-success">earning a commission by referring your web development clients</a>.
+##
 
 ## {% bookshop 'markdown/anchor' name: "marketing-SEO-upsells" %}
 
 ## Marketing & SEO services
+
+### 11\. Digital assets & branding
+
+Is your web development client a new business owner setting up their first website? Or are their website digital assets, or company branding outdated and in need of a refresh? You can offer graphic design, photography, videography, or even the creation of <a target="_blank" rel="noopener" href="https://www.oberlo.com/blog/brand-guidelines">brand guidelines</a>, to create digital assets with consistent branding! If your agency doesn’t have graphic design, photography, videography, or branding expertise, or if you’re a freelancer who only wants to focus on web development, consider partnering with others. You can develop long-lasting partnerships with graphic designers, photographers, videographers, and branding experts, while <a target="_blank" rel="noopener" href="https://www.getthereferral.com/blog/referral-fees-best-practices-for-success">earning a commission by referring your web development clients</a>.
 
 ### 12\. Customer relationship management (CRM)
 
 Consider becoming an affiliate for a <a target="_blank" rel="noopener" href="https://www.g2.com/categories/crm">customer relationship management (CRM) software provider</a>. You can set up your clients’ CRM account, and connect it to their website. This is a highly relevant upsell for client sites that collect data from ecommerce sales and web forms.
 
 ### 13\. SEO services
-
-
-
-
 
 The technical aspects of search engine optimization (SEO) can feel intimidating to many less tech-savvy website owners. You can upsell these types of clients by offering to <a target="_blank" rel="noopener" href="https://ahrefs.com/blog/seo-audit/">conduct full SEO audits and reports</a>, on an agreed upon basis (quarterly, yearly, etc). You can fix any SEO related technical issues, and provide them with insights about their individual web page’s search engine rankings to help them make improvements.
 
