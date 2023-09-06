@@ -1,7 +1,7 @@
 ---
 _schema: default
-title: Deliver more value to your web development clients with X add-on services
-breadcrumb_title: Deliver value with X services
+title: Deliver more value to your web development clients with 22 add-on services
+breadcrumb_title: Deliver value with 22 services
 description: >-
   Learn how to provide your web development clients with more value by offering
   additional services.
@@ -31,7 +31,7 @@ cta:
 seo:
   open_graph_type: article
   featured_image: https://cc-dam.imgix.net/UpsellListicle4.png
-  featured_image_alt: 40 web development services to upsell
+  featured_image_alt: 22 services to add value to web development projects
 ---
 Providing more value to your clients is essential to building symbiotic business relationships. Delivering more value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you, or your agency in the future. You can deliver more value to your web development clients by offering add-on services, which are suggested to your clients above and beyond the initial project scope.
 
@@ -42,13 +42,12 @@ The guiding principles of suggesting additional services are simple:
 * Consider bundling your web development services together as a 2-for-1 offer, i.e. offer the additional service at half price with the initial purchase.
 * Keep the cost of the additional services lower than the initial web development project's cost.
 
-We’ve put together this handy list of X different web development services you can leverage to provide more value to your clients. Just keep in mind that not every service will make sense for every client; always consider which web development add-on services to suggest on a case-by-case basis.
+We’ve put together this handy list of 22 different web development services you can leverage to provide more value to your clients. Just keep in mind that not every service will make sense for every client; always consider which web development add-on services to suggest on a case-by-case basis.
 
 ## Table of Contents
 
 * [Static website plugin services](#static-website-plugin-upsells)
-* [Marketing & SEO services](#marketing-SEO-upsells)
-* [Web analytics services](#web-analytics-upsells)
+* [Marketing, SEO & Analytics services](#marketing-SEO-upsells)
 * [Web development & security services](#web-development-security-upsells)
 * [Bonus upsell services](#bonus-upsells)
 
@@ -116,94 +115,56 @@ Is your web development client a new business owner setting up their first websi
 
 ### 12\. Customer relationship management (CRM)
 
-Consider becoming an affiliate for a <a target="_blank" rel="noopener" href="https://www.g2.com/categories/crm">customer relationship management (CRM) software provider</a>. You can set up your clients’ CRM account, and connect it to their website. This is a highly relevant upsell for client sites that collect data from ecommerce sales and web forms.
+Consider becoming an affiliate for a <a target="_blank" rel="noopener" href="https://www.g2.com/categories/crm">customer relationship management (CRM) software provider</a>. You can set up your clients’ CRM account, and connect it to their website. This is a highly relevant add-on service for client sites that collect data from ecommerce sales and web forms.
 
 ### 13\. SEO services
 
-The technical aspects of search engine optimization (SEO) can feel intimidating to many less tech-savvy website owners. You can upsell these types of clients by offering to <a target="_blank" rel="noopener" href="https://ahrefs.com/blog/seo-audit/">conduct full SEO audits and reports</a>, on an agreed upon basis (quarterly, yearly, etc). You can fix any SEO related technical issues, and provide them with insights about their individual web page’s search engine rankings to help them make improvements.
+You can deliver more value to clients without in-house marketing expertise by offering to <a target="_blank" rel="noopener" href="https://ahrefs.com/blog/seo-audit/">conduct full SEO audits and reports</a>, on an agreed upon basis (quarterly, yearly, etc). Fix any SEO related technical issues, and provide clients with insights about their individual web page’s search engine rankings to help them make improvements. There are many free (<a target="_blank" rel="noopener" href="https://trends.google.com/trends/">Google Trends</a>, <a target="_blank" rel="noopener" href="https://answerthepublic.com/">Answer the Public</a>) and paid tools (<a target="_blank" rel="noopener" href="https://ahrefs.com/">Ahefs</a>, <a target="_blank" rel="noopener" href="http://www.semrush.com">SemRush</a>) that you can use to conduct keyword research to inform a content marketing strategy for your clients' websites. Or you can conduct <a target="_blank" rel="noopener" href="https://www.searchenginewatch.com/2021/01/20/how-to-perform-seo-a-b-testing-in-google-search-console/">A/B tests with free tools like Google Search Console</a> to evaluate the effectiveness of on-page SEO changes.&nbsp; <a target="_blank" rel="noopener" href="https://yoast.com/complete-guide-seo-copywriting/">SEO copywriting</a>&nbsp;is another great value-add for clients building new websites from scratch.
 
-### 23\. Content marketing strategy
+### 14\. Pay-per-click advertising
 
-Take SEO reporting a step further by creating a content marketing strategy for your clients, based on insights found. Help your web development clients identify opportunities for the creation of new landing pages or blog post topics based on SEO keyword research. There are many free (<a target="_blank" rel="noopener" href="https://trends.google.com/trends/">Google Trends</a>, <a target="_blank" rel="noopener" href="https://answerthepublic.com/">Answer the Public</a>) and paid tools (<a target="_blank" rel="noopener" href="https://ahrefs.com/">Ahefs</a>, <a target="_blank" rel="noopener" href="http://www.semrush.com">SemRush</a>) that you can use to conduct this research. Or simply partner with a SEO specialist to deliver this add-on service to your clients.
+Deliver more value to your clients by offering digital ad management as an add-on service. Connect your clients' websites to <a target="_blank" rel="noopener" href="https://ads.google.com/home/campaigns/search-ads/">Google Ads</a> and create, monitor, and optimize their ads. You can create search, display, or YouTube ads, depending on each client's specific industry and budget constraints.
 
-### 24\. On-page SEO
+##
 
-Upsell your web development clients by offering on-page SEO as an add-on service. Based on SEO keyword research findings, make incremental changes to their existing web pages to help them attract more site visitors from organic search. Conduct <a target="_blank" rel="noopener" href="https://www.searchenginewatch.com/2021/01/20/how-to-perform-seo-a-b-testing-in-google-search-console/">A/B tests with free tools like Google Search Console</a> to evaluate the effectiveness of on-page changes.
+### 15\. Web Analytics
 
-### 25\. SEO copywriting
-
-If your web development client needs a new site built, or even just a new page, you can upsell them by offering <a target="_blank" rel="noopener" href="https://yoast.com/complete-guide-seo-copywriting/">SEO copywriting</a>. This way your client does not need to spend time writing their site copy, and they can rest assured that the copy provided is already optimized for search engines.
-
-### 26\. Pay-per-click advertising
-
-Upsell your clients by offering digital ad management as an add-on service. Connect your clients websites to <a target="_blank" rel="noopener" href="https://ads.google.com/home/campaigns/search-ads/">Google Ads</a> and create, monitor, and optimize their ads. You can create search, display, or YouTube ads, depending on your clients’ specific industry and budget constraints.
-
-## {% bookshop 'markdown/anchor' name: "web-analytics-upsells" %}
-
-## Web analytics services
-
-### 27\. Analytics integrations
-
-Upsell almost any web development client by offering to connect free website analytics tools, like <a target="_blank" rel="noopener" href="https://analytics.google.com/">Google Analytics</a>, to their website. This can be easily done through Google Tag Manager or directly in the website’s code. Alternatively, you can earn a commission by referring your clients to paid web analytics providers.
-
-### 28\. Web analytics reporting
-
-Many of your clients may not know how (or why) to use their connected web analytics tools. As a freelance web developer or agency owner, you can step in to fill this knowledge gap by offering monthly <a target="_blank" rel="noopener" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=6431-google-analytics-4">web analytics reporting</a> as an add-on service. This saves your clients the time and effort required to learn to navigate web analytics tools and make sense of the data, while still being able to benefit from analytics insights!
+Deliver more value to almost any web development client by offering to connect free website analytics tools, like <a target="_blank" rel="noopener" href="https://analytics.google.com/">Google Analytics</a>, to their website. This can be easily done through Google Tag Manager or directly in the website’s code. Alternatively, you can earn a commission by referring your clients to paid web analytics providers. Many of your clients may not know how (or why) to use their connected web analytics tools. So as a freelance web developer or agency owner, you can step in to fill this knowledge gap by offering monthly <a target="_blank" rel="noopener" href="https://skillshop.exceedlms.com/student/catalog/list?category_ids=6431-google-analytics-4">web analytics reporting</a> as an additional service. This saves your clients the time and effort required to learn to navigate web analytics tools and make sense of the data, while still being able to benefit from analytics insights!
 
 ## {% bookshop 'markdown/anchor' name: "web-development-security-upsells" %}
 
 ## Web development & security services
 
-### 29\. Hosting
+### 16\. Hosting, domain names & CDNs
 
-Offering <a target="_blank" rel="noopener" href="/hosting/">web hosting</a> is the most common web development add-on service to upsell. This is because web development and hosting go hand-in-hand. You can manage your client’s hosting, and bill them for the costs along with your web development services. It is up to you how much to charge for hosting, so this upsell is a no-brainer. You can offer shared hosting packages, cloud servers, or virtual private servers, depending on your client’s needs and budget.
+Offering <a target="_blank" rel="noopener" href="/hosting/">web hosting</a>&nbsp;and a <a target="_blank" rel="noopener" href="/documentation/articles/hosting-your-site-on-a-custom-domain/">custom domain name</a>&nbsp;are the most common web development add-on services, they go hand-in-hand. You can offer shared hosting packages, cloud servers, or virtual private servers, depending on your client’s needs and budget. You can add even more value to clients who operate internationally by bundling web hosting with a Content Delivery Network (CDN) to <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/watching-your-core-web-vitals-on-jamstack/">optimize loading times</a>&nbsp;by storing their websites in multiple servers across the globe. You can manage your client’s hosting, domain, and CDN, and bill them for the costs along with your web development services. It is up to you how much to charge for these services, so these add-ons are no-brainers.&nbsp;
 
-### 30\. Content delivery network (CDN)
+### 17\. Site maintenance
 
-Upsell a CDN to <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/watching-your-core-web-vitals-on-jamstack/">optimize loading times</a> for your client's website visitors. The CDN will store your clients’ websites in multiple servers across the globe, and choose the nearest server to their website visitor’s location to reduce load times. This is an ideal upsell for clients with businesses that operate internationally.
+As the world of web development continues to evolve, it is necessary to make incremental changes to maintain best practices. Provide your clients with the best website possible by bundling website builds with a yearly <a target="_blank" rel="noopener" href="https://danlok.com/how-to-negotiate-a-retainer-fee-with-a-new-client/">site maintenance retainer</a>. This will provide you or your web development agency with a recurring income, while ensuring that your client's receive a top-notch service.
 
-### 31\. Domain names
+### 18\. Spam prevention
 
-Every website needs a domain name, so why not bundle the purchase of the domain name with your web development services. The benefit of upselling clients a <a target="_blank" rel="noopener" href="/documentation/articles/hosting-your-site-on-a-custom-domain/">custom domain name</a> is that this is a recurring cost that can help you to build longevity with your clients.
+Add value by protecting your clients' web forms and mailbox's from spam by connecting their websites to anti-spam software like Google’s free <a target="_blank" rel="noopener" href="https://www.google.com/recaptcha/about/">ReCaptcha</a>. This will save your clients the headache of clearing out spam.
 
-### 32\. Site maintenance
+### 19\. Cyber security testing & HTTPS/(SSL)
 
-As the world of web development continues to evolve, it is necessary to make incremental changes to maintain best practices. Provide your clients with the best website possible by bundling website builds with a yearly <a target="_blank" rel="noopener" href="https://danlok.com/how-to-negotiate-a-retainer-fee-with-a-new-client/">site maintenance retainer</a>. This will provide you or your web development agency with a recurring income.
-
-### 33\. HTTPS/(SSL)
-
-Upsell an <a target="_blank" rel="noopener" href="/blog/have-ssl-on-your-cloudcannon-website-for-free/">SSL certificate</a> for every website you build! Ensuring that your clients’ websites are secured with an encrypted connection is a must.
-
-### 34\. Spam prevention
-
-Protect your clients web forms and mailbox from spam by connecting their website to an anti-spam software like Google’s free <a target="_blank" rel="noopener" href="https://www.google.com/recaptcha/about/">ReCaptcha</a>. This will save your clients the headache of clearing out spam.
-
-### 35\. Cyber security penetration testing
-
-Online threats to your clients’ website are constantly evolving, and so should your client’s cyber security strategy. Offer to conduct periodic <a target="_blank" rel="noopener" href="https://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/">cyber security penetration tests</a> on your client’s website to identify and resolve potential vulnerabilities.
+Online threats to your clients’ websites are constantly evolving, and so should your clients' cyber security strategies. Offer to conduct periodic <a target="_blank" rel="noopener" href="https://www.softwaretestinghelp.com/getting-started-with-web-application-penetration-testing/">cyber security penetration tests</a> on your clients' websites to identify and resolve potential vulnerabilities. Ensure that your clients’ websites are secured with an encrypted connection by offering an&nbsp;<a target="_blank" rel="noopener" href="/blog/have-ssl-on-your-cloudcannon-website-for-free/">SSL certificate</a>&nbsp;with every new site you build!
 
 ## {% bookshop 'markdown/anchor' name: "bonus-upsells" %}
 
 ## Bonus upsell services
 
-### 36\. Email addresses
+### 20\. Email addresses & signatures
 
-Have you already sold your web development client a domain name? Upsell the creation of <a target="_blank" rel="noopener" href="https://fitsmallbusiness.com/create-email-custom-address/">domain connected email addresses</a>. This will improve your client’s business credibility.
+Have you already sold your web development client a domain name? Add-on the creation of <a target="_blank" rel="noopener" href="https://fitsmallbusiness.com/create-email-custom-address/">domain connected email addresses</a>, to improve your client’s business credibility. You can deliver even more value by offering to design <a target="_blank" rel="noopener" href="https://www.indeed.com/career-advice/career-development/business-email-signature">on-brand email signatures</a> to boost your client’s perceived professionalism.
 
-### 37\. Email signatures
+### 21\. Business profile & reputation management
 
-You can upsell email services even further by offering to design <a target="_blank" rel="noopener" href="https://www.indeed.com/career-advice/career-development/business-email-signature">on-brand email signatures</a> to boost your client’s perceived professionalism.
+Is your clients starting a new business? Offer to setup their business profile on <a target="_blank" rel="noopener" href="https://www.google.com/intl/en/business/">Google Business Profile</a>, <a target="_blank" rel="noopener" href="https://business.facebook.com/">Facebook Business Pages</a>, and any other platforms relevant to your client’s industry. Add more value by then setting your client's business up on free eputation management tools like the free <a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/google-review-link-genera/bobfhoaocndhlbmgihenjonpopncakbn">Google Review Link</a> and <a target="_blank" rel="noopener" href="https://developers.google.com/maps/documentation/places/web-service/place-id">Place ID Generator</a>. This will help them keep an eye on reviews and comments about their business.
 
-### 38\. Business profile setup
+### 22\. Site hand-off workshop
 
-This one is for web development clients that are starting a new business. Offer to setup their business profile on <a target="_blank" rel="noopener" href="https://www.google.com/intl/en/business/">Google Business Profile</a>, <a target="_blank" rel="noopener" href="https://business.facebook.com/">Facebook Business Pages</a>, and any other platforms relevant to your client’s industry.
+When developing new website’s, deliver more value by <a target="_blank" rel="noopener" href="https://www.cloudways.com/blog/hand-off-a-website/">running a hand-off workshop</a>&nbsp;to help clients, and their employees, set up accounts and learn to use any new platforms, like a CMS, CMR, Analytics tool, or more. Provide a virtual or in-person overview of how to manage their new website, and leave extra time to answer questions.
 
-### 39\. Reputation management
-
-Upsell your web development clients with reputation management tools like the free <a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/google-review-link-genera/bobfhoaocndhlbmgihenjonpopncakbn">Google Review Link</a> and <a target="_blank" rel="noopener" href="https://developers.google.com/maps/documentation/places/web-service/place-id">Place ID Generator</a>. This will help keep an eye on reviews and comments about your client’s business, so that they can respond promptly.
-
-### 40\. Site hand-off workshop
-
-When developing new site’s, <a target="_blank" rel="noopener" href="https://www.cloudways.com/blog/hand-off-a-website/">upsell your clients a workshop</a> to help clients, and their employees, set up accounts on any new platforms, like a CMS, CMR, Analytics tools, etc. Provide a virtual or in-person overview of how to manage their new website, and leave extra time to answer questions.
-
-Did we miss any web development upsell services? Let us know on <a target="_blank" rel="noopener" href="https://twitter.com/CloudCannon">Twitter</a> or <a target="_blank" rel="noopener" href="https://techhub.social/@cloudcannon">Mastodon</a>! And take your freelance web development career, or web development agency, to the next level by signing up for the <a target="_blank" rel="noopener" href="/partner-program/"><b>CloudCannon Partner Program</b></a>. As a CloudCannon Partner, you’ll unlock exclusive benefits and savings for you, and your clients, with every new client you bring on. All while benefitting from the many services you can upsell by choosing CloudCannon as your CMS!
+Did we miss any web development value add-on services? Let us know on <a target="_blank" rel="noopener" href="https://twitter.com/CloudCannon">Twitter</a> or <a target="_blank" rel="noopener" href="https://techhub.social/@cloudcannon">Mastodon</a>! And take your freelance web development career, or web development agency, to the next level by signing up for the <a target="_blank" rel="noopener" href="/partner-program/"><b>CloudCannon Partner Program</b></a>. As a CloudCannon Partner, you’ll unlock exclusive benefits and savings for you, and your clients, with every new client you bring on. All while delivering more value to your clients by choosing CloudCannon as your easy-to -use CMS!
