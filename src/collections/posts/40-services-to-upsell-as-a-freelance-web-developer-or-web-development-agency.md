@@ -1,7 +1,7 @@
 ---
 _schema: default
-title: Deliver more value to your web development clients with 22 add-on services
-breadcrumb_title: Deliver value with 22 services
+title: 22 ways to deliver more value to your web development clients
+breadcrumb_title: 22 ways to deliver more value to your web development clients
 description: >-
   Learn how to provide your web development clients with more value by offering
   additional services.
@@ -33,7 +33,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/UpsellListicle4.png
   featured_image_alt: 22 services to add value to web development projects
 ---
-Providing more value to your clients is essential to building symbiotic business relationships. Delivering more value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you, or your agency in the future. You can deliver more value to your web development clients by offering add-on services, which are suggested to your clients above and beyond the initial project scope.
+Providing more value to your clients is essential to building business relationships that last. Delivering more value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you or your agency in the future. You can deliver more value to your web development clients by offering add-on services, which can be suggested to your clients above and beyond the initial project scope.
 
 The guiding principles of suggesting additional services are simple:
 
