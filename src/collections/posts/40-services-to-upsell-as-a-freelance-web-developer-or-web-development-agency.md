@@ -33,14 +33,13 @@ seo:
   featured_image: https://cc-dam.imgix.net/UpsellListicle4.png
   featured_image_alt: 22 services to add value to web development projects
 ---
-Providing more value than your clients expect is a great way to build business relationships that last. Delivering additional value to your web development clients can do wonders by making your clients feel understood, and more likely to continue working with you or your agency in the future. You can deliver more value to your web development clients by offering add-on services, which can be suggested to your clients above and beyond the initial project scope.
+Providing more value than your clients expect is a great way to build business relationships that last. Delivering additional value to your web development clients can help show you're clients that you're thinking of all aspects of their website project and business, and also make them more likely to continue working with you or your agency in the future.
 
 The guiding principles of suggesting additional services are simple:
 
-* Offer add-ons&nbsp;**after** your client has made a commitment to employ your web development services.
-* Only suggest additional services that are relevant to your clients web development project, and business goals.
-* Consider bundling your web development services together as a 2-for-1 offer, i.e. offer the additional service at half price with the initial purchase.
-* Keep the cost of the additional services lower than the initial web development project's cost.
+* Only suggest additional services that are relevant to your clients' web development project, business goals, and that fit within a reasonable budget.
+* Consider bundling your web development services together, i.e. offering the additional services at a reduced price when bundled together with the initial price of the website project.
+* Try to keep the cost of the additional services lower than the initial web development project's cost.
 
 We’ve put together this handy list of 22 different web development services you can leverage to provide more value to your clients. Just keep in mind that not every service will make sense for every client; always consider which web development add-on services to suggest on a case-by-case basis.
 
@@ -59,23 +58,21 @@ We’ve put together this handy list of 22 different web development services yo
 
 ### 1\. Content management system (CMS)
 
-Offering your clients a Content Management System (CMS) with an easy-to-use Content Editor for rich-text, and an intuitive Visual Editor for web pages, will be invaluable to both you the developer, and your client. Having a CMS makes it easier for your clients to add new pages to their website, or make changes without needing to contact you for help! We recommend choosing CloudCannon to provide your clients with a customizable <a target="_blank" rel="noopener" href="/for-content-editors/">Content Editor</a>&nbsp;for blog posts or documentation pages, and a <a target="_blank" rel="noopener" href="/website-editing/">Visual Editor</a> for live visual editing and page building!
+Offering your clients a Content Management System (CMS) with both an easy-to-use WYSIWYG editor for rich text and an intuitive Visual Editor for web pages will be invaluable to both you as a developer, and to your client. Having a user-friendly CMS makes it easier for your clients to add new pages to their website, or make changes without needing to contact you for help! We recommend choosing CloudCannon to provide your clients with a customizable <a target="_blank" rel="noopener" href="/for-content-editors/">Content Editor</a>&nbsp;for blog posts or documentation pages, and a <a target="_blank" rel="noopener" href="/website-editing/">Visual Editor</a> for live visual editing and page building!
 
 {% bookshop 'markdown/youtube' title: "CloudCannon Visual Editor" id: "dLVcA_kBK4o" extend: false border: false %}
 
-##
-
 ### 2\. Commenting
 
-Take collaboration a step further by giving your web development clients’ users the ability to comment on their site. There are countless tools that provide websites with commenting and community management capabilities. We have compiled a <a target="_blank" rel="noopener" href="/jamstack-ecosystem/commenting/">comparison table of some of the most popular commenting tools</a> to make it easy for freelance developers and agencies to find the one that best suits their clients needs.
+Take collaboration a step further by giving your clients' customers and site users the ability to comment on their site. There are countless tools that provide websites with commenting and community management capabilities. We've compiled a <a target="_blank" rel="noopener" href="/jamstack-ecosystem/commenting/">comparison table of some of the most popular commenting tools</a> to make it easy for freelance developers and agencies to find the one that best suits their clients needs.
 
 ### 3\. Digital asset management (DAMs)
 
-It can be such a pain to spend time uploading images to a website only to find that the file is too large, or the dimensions are incompatible with the website. You can fully eliminate the need for your clients to worry about their site’s digital assets by connecting their website to a Digital Asset Management (DAM) tool. This way the DAM will handle asset optimization for your clients, making their lives easier. You can easily <a target="_blank" rel="noopener" href="/documentation/articles/integrating-your-dam-with-cloudcannon/">connect your DAM of choice to CloudCannon</a>!
+It can be such a pain to spend time uploading images to a website only to find that the file is too large, or the dimensions are incompatible with the website. You can completely eliminate the need for your clients to worry about their site’s digital assets by connecting their website to a Digital Asset Management (DAM) tool. Together with a DAM, tools like&nbsp;<a target="_blank" rel="noopener" href="https://imgix.com/">imgix</a> can handle asset optimization for your clients, making their lives easier. You can easily <a target="_blank" rel="noopener" href="/documentation/articles/integrating-your-dam-with-cloudcannon/">connect your DAM of choice to CloudCannon</a>!
 
 ### 4\. Site internationalization
 
-If your client’s business operates internationally, or is based in a bilingual (or multi-lingual) location, it makes sense to offer site internationalization as an add-on service. This will make your client's website available in multiple languages! Managing translations on static websites is easier than you think with open-source tools like <a target="_blank" rel="noopener" href="https://rosey.app/">Rosey i18n</a>. We have created a <a target="_blank" rel="noopener" href="/documentation/guides/rosey-migration-guide/">Rosey Migration Guide</a> to help you set up Rosey on CloudCannon.
+If your clients' businesses operate internationally, or are based in a bilingual (or multi-lingual) location, it makes sense to offer site internationalization as an add-on service. This will make your clients' website available in multiple languages! Managing translations on static websites is easier than you think with open-source tools like <a target="_blank" rel="noopener" href="https://rosey.app/">Rosey i18n</a>. Check out the&nbsp;<a target="_blank" rel="noopener" href="/documentation/guides/rosey-migration-guide/">Rosey Migration Guide</a> to help you set up Rosey on CloudCannon.
 
 ### 5\. Site Search
 
