@@ -7,8 +7,8 @@ description: >-
   additional services.
 draft: true
 series:
-image: https://cc-dam.imgix.net/UpsellListicle4.png
-date: 2023-09-08T05:05:00+12:00
+image: https://cc-dam.imgix.net/blog-value-add.png
+date: 2023-09-09T05:05:00+12:00
 hide_publish_date: false
 tags:
   - Agencies
@@ -30,7 +30,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/UpsellListicle4.png
+  featured_image: https://cc-dam.imgix.net/blog-value-add.png
   featured_image_alt: 22 services to add value to web development projects
 ---
 Providing more value than your clients expect is a great way to build business relationships that last. Delivering additional value to your web development clients can help show you're clients that you're thinking of all aspects of their website project and business, and also make them more likely to continue working with you or your agency in the future.
