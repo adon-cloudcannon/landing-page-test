@@ -1,32 +1,36 @@
 ---
-draft: false
+_schema: default
 title: 'Introducing Pagefind: Static Low-bandwidth Search at Scale'
-permalink: /blog/introducing-pagefind/
+breadcrumb_title:
 description: >-
   Pagefind is an open-source tool that adds search to static websites without
   hosting any infrastructure, while respecting your users’ bandwidth.
+draft: false
 series:
+image: https://cc-dam.imgix.net/introducing-pagefind.jpg
+date: 2022-07-15T17:00:00Z
+hide_publish_date: false
+tags:
+  - Resources
+author: b952ac52-a3ac-4b0f-b17f-9bbe6c5a7a1b
+permalink: /blog/introducing-pagefind/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/introducing-pagefind.jpg
-date: 2022-07-15T17:00:00.000Z
-tags:
-  - Resources
-author: 5fad7fde-98d2-49f6-95fb-984ec6dce1f4
-ssg_frameworks:
 categories:
   - resources
 ---
