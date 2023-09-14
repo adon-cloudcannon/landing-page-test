@@ -8,8 +8,8 @@ description: >-
   improvements to our CMS.
 draft: true
 series:
-image:
-date: 2023-09-15T05:00:00+12:00
+image: https://cc-dam.imgix.net/blog-q3-features.png
+date: 2023-09-16T05:00:00+12:00
 hide_publish_date: false
 tags:
   - Company
