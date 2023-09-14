@@ -39,15 +39,11 @@ Looking back over the past few months in our [changelog](https://cloudcannon.com
 
 ## Site navigation, Dashboard, and migration improvements
 
-\[IMAGE\]
+![](https://cc-dam.imgix.net/blog-q3-features-projects.png)
 
 We wanted to show you more of your team’s activities on CloudCannon, so we added Site Activity to your Dashboard, and now show reports on your Status page. When editing a site, you can now use a dropdown in the top-left to quickly access the associated project, and other sites from that project.
 
-\[IMAGE\]
-
-As an added bonus for fans of flexibility (and custom branding), you can now configure the color of icons in the CloudCannon interface, using the&nbsp;`preview.icon_color`&nbsp;option.
-
-\[IMAGE\]
+![](https://cc-dam.imgix.net/blog-q3-features-config.png)
 
 We also added a neat feature to auto-detect Forestry and Netlify CMS configuration on new sites, giving users the option to migrate from either to a CloudCannon configuration. And on that note…
 
@@ -89,9 +85,9 @@ DAM systems are fantastic tools to manage all the images, videos, and documents 
 There’s a lot here! It feels like we’ve already packed a year’s worth of work into the CMS, and this isn’t even our final form. In brief, everything here is aimed at improving the day-to-day workflow with CloudCannon, both for developers, technical editors, and non-technical client users.
 
 * We now automatically give new sites a sensible name based on the source, if you haven’t named them deliberately.
-* CloudCannon can now auto-detect build settings for Astro sites.
 * You can now describe your site changes to your team, either with a templated message or as free text. <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/formatting-your-commit-messages/">Commit message templates</a>&nbsp;are now available to all users, with a large text area for editing by default.
 * MDX is now supported in the Content Editor, and we’ve added MDX syntax highlighting in the Source Editor. 🎉
+* You can now configure the color of icons in the CloudCannon interface, using the&nbsp;`preview.icon_color`&nbsp;option.
 * We’ve increased the maximum size for uploaded .zip files to 500mb, and added the option to exclude your .git folder for a smaller download size.
 * We’ve made ongoing incident reports more visible from the login page.
 * You’ll now see automated suggestions for several common build issues.
