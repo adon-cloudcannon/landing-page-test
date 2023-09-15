@@ -108,6 +108,6 @@ This may all seem like a lot, but we’re working on some even bigger improvemen
 
 ---
 
-*Do you have any questions about our recent releases and updates? Or is there a feature you’d love to use on CloudCannon? Check out our&nbsp;**<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation">documentation</a>**, or get in touch via in-app support, and we’ll get back to you as soon as we can.*
+*Do you have any questions about our recent releases and updates? Or is there a feature you’d love to use on CloudCannon? Check out our&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation">documentation</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/contact/">contact us here</a>, or get in touch via in-app support, and we’ll get back to you as soon as we can.*
 
-*Our roadmaps are heavily influenced by our users, so we’d love to hear what would make your CloudCannon experience more efficient, more pleasant, or more flexible for the way you want to work. Feel free to get in touch via in-app Support!*
+*Our roadmaps are heavily influenced by our users, so we’d love to hear what would make your CloudCannon experience more efficient, more pleasant, or more flexible for the way you want to work.*&nbsp;
