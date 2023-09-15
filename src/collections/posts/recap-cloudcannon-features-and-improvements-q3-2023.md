@@ -6,7 +6,7 @@ description: >-
   Based on the feedback we receive from our users and Partners, the CloudCannon
   team is always working on big features alongside smaller quality-of-life
   improvements to our CMS.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog-q3-features-hero.png
 date: 2023-09-16T05:00:00+12:00
@@ -35,7 +35,7 @@ seo:
 ---
 Here at CloudCannon we’re all about making life easier for editors and developers. Based on the feedback we receive from our users and [Partners](https://cloudcannon.com/partner-program/), we’re always working on big features alongside smaller quality-of-life improvements to our CMS.
 
-Looking back over the past few months in our [changelog](https://cloudcannon.com/documentation/changelog/), we’ve released some huge (and some small) features in our updates — from GUI improvements for editing your configurations, to supporting an even wider range of static site generators (SSGs). Let's dive in and explore the some of the exciting enhancements that have come to CloudCannon so far this year!
+Looking back over the past few months in our [changelog](https://cloudcannon.com/documentation/changelog/), we’ve released some huge (and some small) features in our updates — from GUI improvements for editing your configurations, to supporting an even wider range of static site generators (SSGs). Let's dive in and explore some of the exciting enhancements that have come to CloudCannon so far this year!
 
 ## Site navigation, Dashboard, and migration improvements
 
@@ -43,7 +43,7 @@ Looking back over the past few months in our [changelog](https://cloudcannon.com
 
 We wanted to show you more of your team’s activities on CloudCannon, so we added Site Activity to your Dashboard, and now show reports on your Status page. When editing a site, you can now use a dropdown in the top-left to quickly access the associated project, and other sites from that project.
 
-![](https://cc-dam.imgix.net/blog-q3-features-config.png)
+![](https://cc-dam.imgix.net/blog-q3-config-r.png)
 
 We also added a neat feature to auto-detect Forestry and Netlify CMS configuration on new sites, giving users the option to migrate from either to a CloudCannon configuration. And on that note…
 
@@ -61,7 +61,7 @@ See our <a target="_blank" rel="noopener" href="https://cloudcannon.com/document
 
 For developers excited about working with the newest SSGs on on the market (and the most up-to-date versions of them!), we’ve released full support for Astro v3.0, Next.js 13, Nuxt v3.6, and Gatsby v5.12. (And yes, we’ve also updated Eleventy support for their v2.0 release.)
 
-What does this mean? It means that not only does CloudCannon correctly build with these tools, we’ve documented how to get the most out of them, and built out at least one template to demonstrate how to configure your websites.
+What does this mean? It means that CloudCannon builds efficiently with these tools, we’ve documented how to get the most out of them, and that we've built out at least one template to demonstrate how to configure your websites.
 
 To get started with these SSGs, try our&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/templates/sendit/">Sendit template</a>, a fully featured SAAS-themed template optimized for visual editing in CloudCannon. Check out&nbsp;<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/">our starter guides</a> for all supported SSGs over on the CloudCannon docs.
 
@@ -71,13 +71,14 @@ However you want to build your static sites, we’ve got you covered. Docusaurus
 
 ## Digital Asset Management improvements
 
-DAM systems are fantastic tools to manage all the images, videos, and documents needed for your sites, and we’ve been busy adding extra DAM features and support for more DAMs.
+DAM systems are fantastic tools to manage all the images, videos, and documents needed for your sites, and we’ve been busy adding extra DAM features alongside support for more DAMs.
 
-* Cloudflare R2 and DigitalOcean Spaces users, rejoice! Both are now supported as DAMs on CloudCannon.
+* We're now an <a target="_blank" rel="noopener" href="https://cloudinary.com/partners/partner-network/cloudcannon">official Cloudinary Partner</a>&nbsp;— check out Cloudinary's <a target="_blank" rel="noopener" href="https://cloudinary.com/documentation/cloudcannon_partner_built_integration">integration docs for CloudCannon</a>.&nbsp;
+* Cloudinary users can now choose whether to <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/creating-a-cloudinary-dam/#link-cloudinary-to-your-site">preview assets</a> in the CloudCannon browser or the Cloudinary widget.​​​
+* Cloudflare R2 and DigitalOcean Spaces users, rejoice! Both are now supported as DAM solutions on CloudCannon.
 * For users who want their assets to only be available in a DAM, we’ve added the option to set a DAM as the main asset source on a site. This means that CloudCannon will omit the base URL for assets from that DAM.
 * For more visibility and user assistance, we’ve added a confirmation step and a progress indicator when uploading assets through the DAM browser.
 * You can now <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/managing-your-connected-dams/#limiting-size-of-uploads-to-your-dam">configure maximum file size limits for your DAM uploads</a>, <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/managing-your-connected-dams/#determine-where-on-the-site-your-dam-can-be-used">choose which DAMs are available for different inputs</a> on your site, and <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/adjusting-the-uploads-path/">define the way files are named</a> when uploaded to your site or DAM.
-* Cloudinary users can now choose whether to <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/creating-a-cloudinary-dam/#link-cloudinary-to-your-site">preview assets</a> in the CloudCannon browser or the Cloudinary widget.
 * Sites with Azure DAMs now have an option to tag uploaded files with the email of the user who uploaded them.
 
 ## Quality of life improvements
@@ -88,7 +89,7 @@ There’s a lot here! It feels like we’ve already packed a year’s worth of w
 * You can now describe your site changes to your team, either with a templated message or as free text. <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/formatting-your-commit-messages/">Commit message templates</a>&nbsp;are now available to all users, with a large text area for editing by default.
 * MDX is now supported in the Content Editor, and we’ve added MDX syntax highlighting in the Source Editor. 🎉
 * You can now configure the color of icons in the CloudCannon interface, using the&nbsp;`preview.icon_color`&nbsp;option.
-* We’ve increased the maximum size for uploaded .zip files to 500mb, and added the option to exclude your .git folder for a smaller download size.
+* We’ve increased the maximum size for uploaded .zip files to 500mb, and added the option to exclude your `.git` folder for a smaller download size.
 * We’ve made ongoing incident reports more visible from the login page.
 * You’ll now see automated suggestions for several common build issues.
 * You can now configure the&nbsp;`image_size_attributes`&nbsp;option to choose whether to add width and height attributes to your rich text images.
@@ -109,4 +110,4 @@ This may all seem like a lot, but we’re working on some even bigger improvemen
 
 *Do you have any questions about our recent releases and updates? Or is there a feature you’d love to use on CloudCannon? Check out our&nbsp;**<a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation">documentation</a>**, or get in touch via in-app support, and we’ll get back to you as soon as we can.*
 
-*Our roadmaps are heavily influenced by our users, so we’d love to hear what would make your CloudCannon experience more efficient, more pleasant, or more flexible for the way you want to work.*
+*Our roadmaps are heavily influenced by our users, so we’d love to hear what would make your CloudCannon experience more efficient, more pleasant, or more flexible for the way you want to work. Feel free to get in touch via in-app Support!*
