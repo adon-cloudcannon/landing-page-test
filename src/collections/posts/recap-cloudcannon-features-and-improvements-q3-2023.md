@@ -8,7 +8,7 @@ description: >-
   improvements to our CMS.
 draft: true
 series:
-image: https://cc-dam.imgix.net/test12345.png
+image: https://cc-dam.imgix.net/blog-q3-features-hero.png
 date: 2023-09-16T05:00:00+12:00
 hide_publish_date: false
 tags:
