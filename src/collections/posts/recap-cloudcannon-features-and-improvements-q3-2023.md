@@ -1,14 +1,14 @@
 ---
 _schema: default
-title: 'Recap: CloudCannon features and improvements (Q3 2023)'
-breadcrumb_title:
+title: 'Q3 2023: CloudCannon features and improvements'
+breadcrumb_title: CloudCannon features and improvements
 description: >-
   Based on the feedback we receive from our users and Partners, the CloudCannon
   team is always working on big features alongside smaller quality-of-life
   improvements to our CMS.
 draft: true
 series:
-image: https://cc-dam.imgix.net/blog-q3-features.png
+image: https://cc-dam.imgix.net/test12345.png
 date: 2023-09-16T05:00:00+12:00
 hide_publish_date: false
 tags:
