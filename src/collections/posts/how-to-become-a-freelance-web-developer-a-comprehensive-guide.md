@@ -37,12 +37,14 @@ As remote work opportunities become more commonplace, web development has emerge
 
 ### Steps to become a freelance web developer
 
-1. Setting up your freelance business
-2. How to get your first clients as a freelance web developer
-3. How much to charge for a website
-4. Career development for freelance web developers
+1. [Setting up your freelance business](#step-one)
+2. [How to get your first clients as a freelance web developer](#step-two)
+3. [How much to charge for a website](#step-three)
+4. [Career development for freelance web developers](#step-four)
 
 ---
+
+{% bookshop 'markdown/anchor' name: "step-one" %}
 
 ## 1\. Setting up your freelance business
 
@@ -97,6 +99,8 @@ Remember that your portfolio should be an ever-evolving project that is frequent
 
 ---
 
+{% bookshop 'markdown/anchor' name: "step-two" %}
+
 ## 2\. How to get your first clients as a freelance web developer
 
 Now that you have identified your target audience, built a strong portfolio, and collected social proof to establish your brand, it is time to start seeking out your first paying web development clients! It can feel intimidating to ‘sell’ your services for the first time, especially if you aren’t used to doing this. You can overcome this fear of ‘selling’ by remembering that <a target="_blank" rel="noopener" href="https://www.notion.so/How-to-become-a-freelance-web-developer-blog-843566e01f984c0782350068c14f4463?pvs=21">sales is all about solving problems</a>. You’re not trying to persuade potential clients to buy your services, you are seeking to solve your potential clients’ problems. Always approach potential clients with the mindset that you are on their team, and want to help them succeed! As for where to find your first paying clients, here is where to start.
@@ -149,6 +153,8 @@ For instance, as a freelance web developer you can apply to join <a target="_bla
 
 ---
 
+{% bookshop 'markdown/anchor' name: "step-three" %}
+
 ## 3\. How much to charge for a website
 
 Now that you’ve got clients knocking on your door asking for a website, you need to write up a contract! A contract must outline the project scope, timeline, payment terms, and any security or confidentiality clauses requested by your clients. Whipping up a contract is easier than ever with AI tools like <a target="_blank" rel="noopener" href="https://chat.openai.com/">Chat-GPT</a>, but you should still go over your contract details with a fine-toothed comb. Remember, contracts exist to protect your interests and maintain transparency with your clients by setting clear expectations. \*\*
@@ -178,6 +184,8 @@ You should also re-evaluate your pricing strategy as you scale your freelance we
 Combining pricing strategies or experimenting with different offerings might be the key to your career’s success. In the long run, it’s crucial to maintain transparent communication, deliver excellent results, and ensure a win-win situation for both you and your web development clients.
 
 ---
+
+{% bookshop 'markdown/anchor' name: "step-four" %}
 
 ## 4\. Career development for freelance web developers
 
