@@ -145,9 +145,7 @@ Partnering with complementary businesses will broaden your potential client base
 
 For instance, as a freelance web developer you can apply to join <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon’s Partner Program</a>, which works to drive your growth and connect you with clients in need of a CMS solution. As a CloudCannon Partner, you'll unlock exclusive benefits and savings for you and your clients, with every new client you bring on. Unlimited trial periods, co-marketing opportunities, dedicated support, exclusive roadmap influence, and discounts, just to name a few of these benefits!
 
-{% bookshop 'markdown/quote' quote: "f3f15cf4-b169-11ed-afa1-0242ac120002" %}
-
->
+> > “We've been very fortunate to have developed such a great partnership with the CloudCannon team.” -**Tom Beck,** Director of Operations, Ocupop
 
 ---
 
