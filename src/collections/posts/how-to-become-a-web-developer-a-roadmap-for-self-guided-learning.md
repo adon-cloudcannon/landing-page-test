@@ -73,10 +73,10 @@ Git is an open-source version control system that is crucial for collaborative w
 
 There are many excellent free interactive learning resources to help you learn to use Git, including:
 
-* <a target="_blank" rel="noopener" href="https://gitimmersion.com/">Guided tour of the fundamentals of Git</a> – Git Immersion
-* <a target="_blank" rel="noopener" href="https://www.theodinproject.com/lessons/foundations-git-basics">Git basics foundations course</a> – The Odin Project
-* <a target="_blank" rel="noopener" href="https://ohmygit.org/">Learning Git game</a> – Oh My Git!
-* <a target="_blank" rel="noopener" href="https://profy.dev/project/github-minesweeper">Bot assisted Git workflow course</a> – GitHub Minesweeper
+* **<a target="_blank" rel="noopener" href="https://gitimmersion.com/">Guided tour of the fundamentals of Git</a>** – Git Immersion
+* **<a target="_blank" rel="noopener" href="https://www.theodinproject.com/lessons/foundations-git-basics">Git basics foundations course</a>** – The Odin Project
+* **<a target="_blank" rel="noopener" href="https://ohmygit.org/">Learning Git game</a>** – Oh My Git!
+* **<a target="_blank" rel="noopener" href="https://profy.dev/project/github-minesweeper">Bot assisted Git workflow course</a>** – GitHub Minesweeper
 
   ---
 
@@ -130,7 +130,7 @@ Here are three free online resources to turn to when you’re ready to dive deep
 
 1. **<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn">MDN Web Docs</a>**: MDN Web Docs ‘learn web development’ guide is a trustworthy source for in-depth web development topics. It provides excellent documentation, tutorials, and guides to help you fine tune your frontend web development knowledge.
 2. **<a target="_blank" rel="noopener" href="https://www.w3schools.com/">W3Schools</a>**: W3Schools provides tutorials and references covering all aspects of web development. It's a fantastic resource for intermediate learners.
-3. <a target="_blank" rel="noopener" href="https://roadmap.sh/frontend"><strong>Frontend Roadmap</strong></a>: <a target="_blank" rel="noopener" href="http://Roadmap.sh">Roadmap.sh</a> offers community roadmaps to help guide developers in their learning. Each roadmap is an interactive diagram that opens to a resources page. The frontend roadmap is a great reference for discovering what topics to learn next.
+3. **<a target="_blank" rel="noopener" href="https://roadmap.sh/frontend">Frontend Roadmap</a>**: <a target="_blank" rel="noopener" href="http://Roadmap.sh">Roadmap.sh</a> offers community roadmaps to help guide developers in their learning. Each roadmap is an interactive diagram that opens to a resources page. The frontend roadmap is a great reference for discovering what topics to learn next.
 
    ---
 
@@ -150,9 +150,9 @@ You’ll find that content-rich static websites are simpler to create, load fast
 
 While static sites can be built only using HTML, CSS, and JavaScript, it will be beneficial for you to familiarize yourself with <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/what-is-a-static-site-generator/">static site generators (SSGs)</a> to help you build faster-performing static websites. Here are a few of the best static site generators for beginner web developers:
 
-* <a target="_blank" rel="noopener" href="https://www.11ty.dev/">Eleventy (11ty)</a>: a fantastic beginner-friendly static site generator designed for simplicity and flexibility.
-* <a target="_blank" rel="noopener" href="https://astro.build/">Astro</a>: another great choice for beginners with crystal-clear documentation, although it does use its own templating language (`.astro`), which while simple, is an additional step to learn.
-* <a target="_blank" rel="noopener" href="https://hugo.io/">Hugo</a>: a great SSG to begin exploring once you gain more confidence! <a target="_blank" rel="noopener" href="https://www.zachleat.com/web/build-benchmark/">Hugo’s speed is unmatched</a>, but deep customization of the SSG requires some understanding of Golang, which makes for a steeper learning curve.
+* **<a target="_blank" rel="noopener" href="https://www.11ty.dev/">Eleventy (11ty)</a>**: a fantastic beginner-friendly static site generator designed for simplicity and flexibility.
+* **<a target="_blank" rel="noopener" href="https://astro.build/">Astro</a>**: another great choice for beginners with crystal-clear documentation, although it does use its own templating language (`.astro`), which while simple, is an additional step to learn.
+* **<a target="_blank" rel="noopener" href="https://hugo.io/">Hugo</a>**: a great SSG to begin exploring once you gain more confidence! <a target="_blank" rel="noopener" href="https://www.zachleat.com/web/build-benchmark/">Hugo’s speed is unmatched</a>, but deep customization of the SSG requires some understanding of Golang, which makes for a steeper learning curve.
 
 It may also be worthwhile to spend some time learning about popular user interface (UI) frameworks like React, Svelte, and Vue, so that you can learn to build interactive components to embed within your static web pages.
 
