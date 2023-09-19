@@ -2,7 +2,7 @@
 _schema: default
 title: 'How to become a freelance web developer: a comprehensive guide'
 breadcrumb_title: Freelance web development guide
-description: Learn how to set up your freelance web development business for sucess!
+description: Learn how to set up your freelance web development business for success!
 draft: true
 series:
 image: https://cc-dam.imgix.net/FreelanceGuide.png
@@ -85,8 +85,6 @@ Your aim should be to shape your freelance web development business around the n
 
 Any new freelancer needs to put effort into building trust with their clients. One of the best ways to begin building trust is through social proof, like reviews and testimonials. Reach out to the people you did voluntary web development work for, and collect reviews and testimonials. Showcasing social proof will boost your credibility as a new freelance web developer, making it easier for potential clients to trust you.
 
-*CC testimonal example*
-
 ### Build your brand & showcase your work
 
 As a freelance web developer, building a brand is essential. Here are the essentials for showcasing your brand online:
@@ -141,15 +139,15 @@ Use your blog for inbound content marketing, so that your clients will come to y
 
 Where do your potential clients spend their time online? Are they Facebook users? Do they prefer LinkedIn? Twitter, Mastodon, or Bluesky? Or even Instagram and Tiktok? Your social media strategy must focus on the social channels and content types that appeal to your target audience. Share your expertise and engage with others on digital channels to put your work in front of your potential web development clients, and don’t be afraid to show off your unique personality!
 
-*CC social post embed*
-
 ### Partner with compatible businesses
 
 Partnering with complementary businesses will broaden your potential client base and lead to new web development opportunities. Seek out collaborations with web designers, marketers, and any other compatible businesses in the web development industry.
 
 For instance, as a freelance web developer you can apply to join <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon’s Partner Program</a>, which works to drive your growth and connect you with clients in need of a CMS solution. As a CloudCannon Partner, you'll unlock exclusive benefits and savings for you and your clients, with every new client you bring on. Unlimited trial periods, co-marketing opportunities, dedicated support, exclusive roadmap influence, and discounts, just to name a few of these benefits!
 
-> “We've been very fortunate to have developed such a great partnership with the CloudCannon team.” -**Tom Beck,** Director of Operations, Ocupop
+{% bookshop 'markdown/quote' quote: "f3f15cf4-b169-11ed-afa1-0242ac120002" %}
+
+>
 
 ---
 
