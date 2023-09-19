@@ -2,10 +2,10 @@
 _schema: default
 title: 'How to become a web developer: a roadmap for self-guided learning'
 breadcrumb_title: Learn web development
-description:
+description: Follow this roadmap to becoming a web developer through self-guided learning.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/LearnWebDev.png
 date: 2023-09-30T05:04:00+13:00
 hide_publish_date: false
 tags:
@@ -14,10 +14,8 @@ tags:
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
-  body_text: >-
-    Give your content team full autonomy on your developer-approved tech stack
-    with CloudCannon.
+  title: Launch your first website today
+  body_text: Visually edit your static websites with CloudCannon.
   button:
     content:
       link: https://app.cloudcannon.com/register?trial=cc_standard
@@ -28,8 +26,8 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/LearnWebDev.png
+  featured_image_alt: learn web development
 ---
 Looking to start a career as a web developer? It’s no wonder why! Web development is a fast-paced, highly creative, and innovative career. And web developers remain in high demand, with an <a target="_blank" rel="noopener" href="https://www.indeed.com/career/web-developer/salaries">average US salary of $81,074USD</a> — more than $20,000USD over the <a target="_blank" rel="noopener" href="https://finance.yahoo.com/news/average-salary-state-us-152311356.html">US national average salary in 2023</a>! What’s more, web development jobs often offer flexible working conditions, such as hybrid, or fully remote work, along with the freedom to start your own web development business as a freelancer or agency.
 
@@ -37,7 +35,22 @@ So how do you become a web developer? Good news is, it is entirely possible to b
 
 ---
 
-## Understand the internet
+### How to learn web development
+
+1. [Understand the internet](#step-one)
+2. [Learn version control with Git](#step-two)
+3. [Master the basics – HTML, CSS, & JavaScript](#step-three)
+4. [Understand web security](#step-four)
+5. [Deepen your knowledge of frontend development](#step-five)
+6. [Decide what type of website to build – static or dynamic](#step-six)
+7. [Choose a content management system (CMS)](#step-seven)
+8. [Build a portfolio site to showcase your work](#step-eight)
+
+---
+
+{% bookshop 'markdown/anchor' name: "step-one" %}
+
+## 1\. Understand the internet
 
 First things first, it is essential to understand the fundamental concepts that make up websites. If you haven’t already, set some time aside to learn about the internet, web browsers, HTTP, Domain Names, DNS (domain name system), and hosting. Any web developer needs to understand these website building blocks, and how they work together. Here are a few recommended resources to help you get started (or to refresh your memory):
 
@@ -48,7 +61,13 @@ First things first, it is essential to understand the fundamental concepts that 
 * <a target="_blank" rel="noopener" href="https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/">What is DNS?</a>
 * <a target="_blank" rel="noopener" href="https://www.hostinger.com/tutorials/what-is-web-hosting/">What is web hosting?</a>
 
-## Learn version control with Git
+  ---
+
+
+
+## {% bookshop 'markdown/anchor' name: "step-two" %}
+
+## 2\. Learn version control with Git
 
 Git is an open-source version control system that is crucial for collaborative web development and project management. Git workflows allow web developers to keep code organized, collaborate with others, and easily roll back changes so that nothing is ever lost. It is smart for new web developers to learn Git's basic commands, branching strategies, and merging techniques early on, to reap the benefits of full version control. It is worth noting that programming languages are often learnt before Git, but we suggest learning to use Git first so that you can benefit from learning languages in a real-world coding environment.
 
@@ -59,7 +78,13 @@ There are many excellent free interactive learning resources to help you learn t
 * <a target="_blank" rel="noopener" href="https://ohmygit.org/">Learning Git game</a> – Oh My Git!
 * <a target="_blank" rel="noopener" href="https://profy.dev/project/github-minesweeper">Bot assisted Git workflow course</a> – GitHub Minesweeper
 
-## Master the basics – HTML, CSS, & JavaScript
+  ---
+
+
+
+## {% bookshop 'markdown/anchor' name: "step-three" %}
+
+## 3\. Master the basics – HTML, CSS, & JavaScript
 
 The next step on your journey to becoming a web developer is to learn and master the basics of web development. Get started by learning to code with HTML, CSS, and JavaScript, as these languages form the backbone of web development. This is where things get exciting! You can <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/what-is-a-static-website/">learn more about static sites</a>, and begin building them with HTML for page layouts, CSS for styling, and JavaScript to add interactivity.
 
@@ -76,7 +101,11 @@ Alternatively, if you are the type of learner who requires more structured guida
 
 Keep in mind that it is important to develop the right mindset for tolerating frustration and breaking down problems logically to find a solution when learning how to code. You need to be prepared to take notes, research errors, search for answers, and communicate your problems to other developers.
 
-## Understand web security
+---
+
+## {% bookshop 'markdown/anchor' name: "step-four" %}
+
+## 4\. Understand web security
 
 Now that you are able to build static sites, it is necessary to understand the basics of web security. These are the protective measures that you, the developer, must take to protect your websites from threats. Key topics to grasp are HTTPS, CORS, OWASP, and CSPs.
 
@@ -87,7 +116,11 @@ Find out more about these important security topics here:
 * <a target="_blank" rel="noopener" href="https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html">OWASP cheatsheet</a>
 * <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">Content Security Policy (CSP)</a>
 
-## Deepen your knowledge of frontend development
+  ---
+
+## {% bookshop 'markdown/anchor' name: "step-five" %}
+
+## 5\. Deepen your knowledge of frontend development
 
 Frontend development focuses on the client-side of web development, dealing with the visual and user interface aspects of your websites. While your knowledge base of HTML, CSS, and JavaScript equips you to get started building sites, diving deeper into frontend development topics will vastly improve your abilities as a web developer.
 
@@ -99,7 +132,13 @@ Here are three free online resources to turn to when you’re ready to dive deep
 2. **<a target="_blank" rel="noopener" href="https://www.w3schools.com/">W3Schools</a>**: W3Schools provides tutorials and references covering all aspects of web development. It's a fantastic resource for intermediate learners.
 3. <a target="_blank" rel="noopener" href="https://roadmap.sh/frontend"><strong>Frontend Roadmap</strong></a>: <a target="_blank" rel="noopener" href="http://Roadmap.sh">Roadmap.sh</a> offers community roadmaps to help guide developers in their learning. Each roadmap is an interactive diagram that opens to a resources page. The frontend roadmap is a great reference for discovering what topics to learn next.
 
-## Decide what type of website to build – static or dynamic
+   ---
+
+
+
+## {% bookshop 'markdown/anchor' name: "step-six" %}
+
+## 6\. Decide what type of website to build – static or dynamic
 
 This is the perfect time to begin thinking about your future as a web developer. Do you want to work for a web development agency, become a freelance web developer, or find a job as an in-house developer in a specific industry? Consider what type of websites you will need to create and maintain in your desired role.
 
@@ -117,9 +156,7 @@ While static sites can be built only using HTML, CSS, and JavaScript, it will be
 
 It may also be worthwhile to spend some time learning about popular user interface (UI) frameworks like React, Svelte, and Vue, so that you can learn to build interactive components to embed within your static web pages.
 
-
-
-image from: <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/">https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/</a>
+![Comparing dynamic and static websites](https://cc-dam.imgix.net/Dynamic vs. Static.png "Dynamic sites vs. Static sites")
 
 ### **Learning to build dynamic websites**
 
@@ -127,11 +164,15 @@ Dynamic websites leverage responsive content that changes based on user interact
 
 Overall, you will need to develop a greater understanding of backend web development to build dynamic sites. While the frontend focuses on the client-side, the backend focuses on the server-side. Backend web development deals with APIs, databases, authentication, and data handling. A web developer who works in both the frontend and backend, handling the entire process of web development, is considered a fullstack developer. Static websites may still require some knowledge of backend development, particularly if a static site includes interactive components that use or collect data. However, static websites typically meet all the requirements of an average business case, meaning that there is no need for aspiring web developers to feel intimidated by the backend.
 
-## Choose a content management system (CMS)
+---
+
+## {% bookshop 'markdown/anchor' name: "step-seven" %}
+
+## 7\. Choose a content management system (CMS)
 
 Now that you are able to build beautiful websites, the last piece of the puzzle is to choose a content management system (CMS) for your projects. Your content management system is what makes it possible to change the content on a website without needing to know how to code. A CMS is essential to allow content editors and marketers to make changes to a website without needing to ask a developer for help every time they want to fix a typo or add a new image.
 
-
+![Comparing traditional and headless CMSs](https://cc-dam.imgix.net/HeadlessComparison.png "Traditional CMS vs. Headless CMS")
 
 ### **Traditional CMS**
 
@@ -141,13 +182,13 @@ Content management systems fall into two main categories: the traditional CMS an
 
 Headless CMSs separate the website content from the backend, that way you can manage your content on the headless CMS and deploy it to any channel to choose. This gives developers more control and flexibility to build websites using their preferred tools, while reducing security threats. There are two types of headless content management systems: API-driven CMSs and Git-based CMSs.
 
-
+![API-first content delivery.](https://cc-dam.imgix.net/ApiCMSimage &#40;1&#41;.png "API-driven CMS")
 
 ### **API-driven CMS**
 
 An API-driven CMS serves content through an API. This set up stores your content in a central location (the CMS), making it easy to deliver to any channel. This is generally suitable for dynamic websites that require responsive designs, varying by device, channel, or audience. Using an API-driven headless CMS, you can serve your content to both a website and a mobile app, and have the content display differently depending on the user.
 
-
+![Git-based content workflow.](https://cc-dam.imgix.net/GitCMSimage &#40;1&#41;.png "Git-based CMS")
 
 ### **Git-based CMS**
 
@@ -157,9 +198,13 @@ Considering that learning to use Git is the second step on your journey to learn
 
 As a web developer, you will often find yourself setting up a CMS for non-technical editors, whether they’re external clients and editors, or your co-workers. It is crucial to choose a CMS that is easy for non-technical editors to use so that they can feel confident making changes without a developers’ help. By choosing <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a>, you can go above and beyond to provide your editors with a flexible interface, all the tools needed to build new pages themselves, and live previews via CloudCannon’s intuitive visual editing. This makes it easier than ever for even non-technical editors to feel confident making content updates to their own websites.
 
-[https://player.vimeo.com/progressive\_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9](https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&amp;signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9)
+{% bookshop 'markdown/video' url: "https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9" title: "CloudCannon CMS" border: false %}
 
-## Build a portfolio site to showcase your work
+---
+
+## {% bookshop 'markdown/anchor' name: "step-eight" %}
+
+## 8\. Build a portfolio site to showcase your work
 
 Now that you have mastered your craft as a self-taught web developer, it’s time to show the world what you can do! Whether you plan to apply for web development jobs, or become a freelance web developer, your potential employers or clients will want to see your work. Put your new skills to good use by building a professional portfolio website to showcase your web development skills. Be sure to make your portfolio accessible through your CV, GitHub account, and professional LinkedIn profile.
 
