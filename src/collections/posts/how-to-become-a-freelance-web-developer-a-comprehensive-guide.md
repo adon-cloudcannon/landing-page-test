@@ -2,10 +2,10 @@
 _schema: default
 title: 'How to become a freelance web developer: a comprehensive guide'
 breadcrumb_title: Freelance web development guide
-description:
+description: Learn how to set up your freelance web development business for sucess!
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/FreelanceGuide.png
 date: 2023-09-23T05:05:00+12:00
 hide_publish_date: false
 tags:
@@ -14,22 +14,22 @@ tags:
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
+  title: Join CloudCannon's Partner Program
   body_text: >-
-    Give your content team full autonomy on your developer-approved tech stack
-    with CloudCannon.
+    As you bring on new clients, you'll unlock exclusive benefits and savings
+    for you and your clients.
   button:
     content:
-      link: https://app.cloudcannon.com/register?trial=cc_standard
-      text: Get started free!
+      link: https://cloudcannon.com/partner-program/
+      text: Become a Partner!
     styles:
       size:
       style: outline
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/FreelanceGuide.png
+  featured_image_alt: Freelance web development guide
 ---
 As remote work opportunities become more commonplace, web development has emerged as one of the most sought-after remote roles. And with businesses and individuals continuing to establish their online presence, the demand for talented web developers is higher than ever. If you're a web developer wanting to start freelancing, this comprehensive guide will provide you with a clear roadmap to success.
 
