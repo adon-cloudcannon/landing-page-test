@@ -5,7 +5,7 @@ breadcrumb_title: Learn web development
 description: Follow this roadmap to becoming a web developer through self-guided learning.
 draft: true
 series:
-image: https://cc-dam.imgix.net/LearnWebDev.png
+image: https://cc-dam.imgix.net/LearnWebDevelopment.png
 date: 2023-09-30T05:04:00+13:00
 hide_publish_date: false
 tags:
@@ -26,7 +26,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/LearnWebDev.png
+  featured_image: https://cc-dam.imgix.net/LearnWebDevelopment.png
   featured_image_alt: learn web development
 ---
 Looking to start a career as a web developer? It’s no wonder why! Web development is a fast-paced, highly creative, and innovative career. And web developers remain in high demand, with an <a target="_blank" rel="noopener" href="https://www.indeed.com/career/web-developer/salaries">average US salary of $81,074USD</a> — more than $20,000USD over the <a target="_blank" rel="noopener" href="https://finance.yahoo.com/news/average-salary-state-us-152311356.html">US national average salary in 2023</a>! What’s more, web development jobs often offer flexible working conditions, such as hybrid, or fully remote work, along with the freedom to start your own web development business as a freelancer or agency.
@@ -182,13 +182,13 @@ Content management systems fall into two main categories: the traditional CMS an
 
 Headless CMSs separate the website content from the backend, that way you can manage your content on the headless CMS and deploy it to any channel to choose. This gives developers more control and flexibility to build websites using their preferred tools, while reducing security threats. There are two types of headless content management systems: API-driven CMSs and Git-based CMSs.
 
-![API-first content delivery.](https://cc-dam.imgix.net/ApiCMSimage &#40;1&#41;.png "API-driven CMS")
+![](https://cc-dam.imgix.net/ApiCMSfinalimage.png)
 
 ### **API-driven CMS**
 
 An API-driven CMS serves content through an API. This set up stores your content in a central location (the CMS), making it easy to deliver to any channel. This is generally suitable for dynamic websites that require responsive designs, varying by device, channel, or audience. Using an API-driven headless CMS, you can serve your content to both a website and a mobile app, and have the content display differently depending on the user.
 
-![Git-based content workflow.](https://cc-dam.imgix.net/GitCMSimage &#40;1&#41;.png "Git-based CMS")
+![](https://cc-dam.imgix.net/GitCMSfinalimage.png)
 
 ### **Git-based CMS**
 
@@ -198,7 +198,7 @@ Considering that learning to use Git is the second step on your journey to learn
 
 As a web developer, you will often find yourself setting up a CMS for non-technical editors, whether they’re external clients and editors, or your co-workers. It is crucial to choose a CMS that is easy for non-technical editors to use so that they can feel confident making changes without a developers’ help. By choosing <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a>, you can go above and beyond to provide your editors with a flexible interface, all the tools needed to build new pages themselves, and live previews via CloudCannon’s intuitive visual editing. This makes it easier than ever for even non-technical editors to feel confident making content updates to their own websites.
 
-{% bookshop 'markdown/video' url: "https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9" title: "CloudCannon CMS" border: false %}
+{% bookshop 'markdown/vimeo' video: "https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9" title: "CloudCannon CMS" border: false %}
 
 ---
 
@@ -208,4 +208,6 @@ As a web developer, you will often find yourself setting up a CMS for non-techni
 
 Now that you have mastered your craft as a self-taught web developer, it’s time to show the world what you can do! Whether you plan to apply for web development jobs, or become a freelance web developer, your potential employers or clients will want to see your work. Put your new skills to good use by building a professional portfolio website to showcase your web development skills. Be sure to make your portfolio accessible through your CV, GitHub account, and professional LinkedIn profile.
 
-Begin reaching out to potential employers on popular <a target="_blank" rel="noopener" href="https://skillcrush.com/blog/job-sites-to-find-your-first-developer-job/">job boards for web developers</a>, or potential web development clients on <a target="_blank" rel="noopener" href="https://www.hostinger.com/tutorials/freelance-websites-for-developers">freelance platforms for web developers</a>. If you are seeking traditional employment it is a good idea to <a target="_blank" rel="noopener" href="https://brainstation.io/career-guides/web-developer-interview-questions">brush up on your job interviewing skills</a> so you can make your best impression. For aspiring freelance web developers, dedicate some time to learn how to <a target="_blank" rel="noopener" href="https://gracethemes.com/5-ways-to-prepare-for-negotiating-your-first-offer-as-a-web-developer/">negotiate your first offers as a freelance web developer</a>. And remember that it is important to adopt a growth mindset in this field of work: a career in web development will make you a life-long learner!
+Begin reaching out to potential employers on popular <a target="_blank" rel="noopener" href="https://skillcrush.com/blog/job-sites-to-find-your-first-developer-job/">job boards for web developers</a>, or potential web development clients on <a target="_blank" rel="noopener" href="https://www.hostinger.com/tutorials/freelance-websites-for-developers">freelance platforms for web developers</a>. If you are seeking traditional employment it is a good idea to <a target="_blank" rel="noopener" href="https://brainstation.io/career-guides/web-developer-interview-questions">brush up on your job interviewing skills</a> so you can make your best impression.
+
+For aspiring freelance web developers, check out our [comprehensive guide to becoming a freelance web developer](/blog/how-to-become-a-freelance-web-developer-a-comprehensive-guide/). You'll learn how to set up your freelance business, attract your first clients, how much to charge for your services, and how to keep growing your business! Remember that it is important to adopt a growth mindset in this field of work: a career in web development will make you a life-long learner!
