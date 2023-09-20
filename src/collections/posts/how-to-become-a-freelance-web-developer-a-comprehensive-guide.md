@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'How to become a freelance web developer: a comprehensive guide'
-breadcrumb_title: Freelance web development guide
+breadcrumb_title: How to become a freelance web developer
 description: Learn how to set up your freelance web development business for success!
 draft: true
 series:
@@ -101,7 +101,7 @@ Remember that your portfolio should be an ever-evolving project that is frequent
 
 ## 2\. How to get your first clients as a freelance web developer
 
-Now that you have identified your target audience, built a strong portfolio, and collected social proof to establish your brand, it is time to start seeking out your first paying web development clients! It can feel intimidating to ‘sell’ your services for the first time, especially if you aren’t used to doing this. You can overcome this fear of ‘selling’ by remembering that <a target="_blank" rel="noopener" href="https://www.notion.so/How-to-become-a-freelance-web-developer-blog-843566e01f984c0782350068c14f4463?pvs=21">sales is all about solving problems</a>. You’re not trying to persuade potential clients to buy your services, you are seeking to solve your potential clients’ problems. Always approach potential clients with the mindset that you are on their team, and want to help them succeed! As for where to find your first paying clients, here is where to start.
+Now that you have identified your target audience, built a strong portfolio, and collected social proof to establish your brand, it is time to start seeking out your first paying web development clients! It can feel intimidating to ‘sell’ your services for the first time, especially if you aren’t used to doing this. You can overcome this fear of ‘selling’ by remembering that <a target="_blank" rel="noopener" href="https://salespop.net/sales-professionals/3-reasons-sales-is-really-about-solving-problems/">sales is all about solving problems</a>. You’re not trying to persuade potential clients to buy your services, you are seeking to solve your potential clients’ problems. Always approach potential clients with the mindset that you are on their team, and want to help them succeed! As for where to find your first paying clients, here is where to start.
 
 ### Tap into your personal network
 
@@ -144,8 +144,6 @@ Where do your potential clients spend their time online? Are they Facebook users
 Partnering with complementary businesses will broaden your potential client base and lead to new web development opportunities. Seek out collaborations with web designers, marketers, and any other compatible businesses in the web development industry.
 
 For instance, as a freelance web developer you can apply to join <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon’s Partner Program</a>, which works to drive your growth and connect you with clients in need of a CMS solution. As a CloudCannon Partner, you'll unlock exclusive benefits and savings for you and your clients, with every new client you bring on. Unlimited trial periods, co-marketing opportunities, dedicated support, exclusive roadmap influence, and discounts, just to name a few of these benefits!
-
-> “We've been very fortunate to have developed such a great partnership with the CloudCannon team.” -**Tom Beck,** Director of Operations, Ocupop
 
 ---
 
@@ -196,8 +194,6 @@ By continuing to improve your website’s SEO, content marketing strategy, and s
 ### Cultivate social proof & encourage word-of-mouth (WOM)
 
 Client testimonials, case studies, and reviews act as powerful social proof for your freelance web development business. Be sure to showcase this social proof on your website to instill confidence in your potential clients. Encourage your satisfied customers to refer you to their contacts in need of web development services. You can take this a step further by offering incentives for successful referrals.
-
-*CC case study embed?*
 
 ### Drill down into your web development niche
 
