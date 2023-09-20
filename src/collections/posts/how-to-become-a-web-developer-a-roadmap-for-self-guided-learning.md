@@ -5,7 +5,7 @@ breadcrumb_title: How to become a web developer
 description: Follow this roadmap to becoming a web developer through self-guided learning.
 draft: true
 series:
-image: https://cc-dam.imgix.net/LearnWebDevelopment.png
+image: https://cc-dam.imgix.net/Howtobecomeawebdev.png
 date: 2023-09-30T05:04:00+13:00
 hide_publish_date: false
 tags:
@@ -26,8 +26,8 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/LearnWebDevelopment.png
-  featured_image_alt: learn web development
+  featured_image: https://cc-dam.imgix.net/Howtobecomeawebdev.png
+  featured_image_alt: How to become a web developer
 ---
 Looking to start a career as a web developer? It’s no wonder why! Web development is a fast-paced, highly creative, and innovative career. And web developers remain in high demand, with an <a target="_blank" rel="noopener" href="https://www.indeed.com/career/web-developer/salaries">average US salary of $81,074USD</a> — more than $20,000USD over the <a target="_blank" rel="noopener" href="https://finance.yahoo.com/news/average-salary-state-us-152311356.html">US national average salary in 2023</a>! What’s more, web development jobs often offer flexible working conditions, such as hybrid, or fully remote work, along with the freedom to start your own web development business as a freelancer or agency.
 
@@ -205,7 +205,7 @@ Considering that learning to use Git is the second step on your journey to learn
 
 As a web developer, you will often find yourself setting up a CMS for non-technical editors, whether they’re external clients and editors, or your co-workers. It is crucial to choose a CMS that is easy for non-technical editors to use so that they can feel confident making changes without a developers’ help. By choosing <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a>, you can go above and beyond to provide your editors with a flexible interface, all the tools needed to build new pages themselves, and live previews via CloudCannon’s intuitive visual editing. This makes it easier than ever for even non-technical editors to feel confident making content updates to their own websites.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/668496650?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="How does CloudCannon work?"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div><iframe src="https://player.vimeo.com/video/668496650?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="How does CloudCannon work?"></iframe></div>
 
 
 
