@@ -1,7 +1,7 @@
 ---
 _schema: default
 title: 'How to become a web developer: a roadmap for self-guided learning'
-breadcrumb_title: Learn web development
+breadcrumb_title: How to become a web developer
 description: Follow this roadmap to becoming a web developer through self-guided learning.
 draft: true
 series:
@@ -55,15 +55,18 @@ So how do you become a web developer? Good news is, it is entirely possible to b
 First things first, it is essential to understand the fundamental concepts that make up websites. If you haven’t already, set some time aside to learn about the internet, web browsers, HTTP, Domain Names, DNS (domain name system), and hosting. Any web developer needs to understand these website building blocks, and how they work together. Here are a few recommended resources to help you get started (or to refresh your memory):
 
 * <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work">How does the internet work?</a>
+
 * <a target="_blank" rel="noopener" href="https://web.dev/howbrowserswork/">How do web browsers work?</a>
+
 * <a target="_blank" rel="noopener" href="https://cs.fyi/guide/http-in-depth">What is HTTP?</a>
+
 * <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name">What is a Domain name?</a>
+
 * <a target="_blank" rel="noopener" href="https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/">What is DNS?</a>
+
 * <a target="_blank" rel="noopener" href="https://www.hostinger.com/tutorials/what-is-web-hosting/">What is web hosting?</a>
 
   ---
-
-
 
 ## {% bookshop 'markdown/anchor' name: "step-two" %}
 
@@ -74,13 +77,14 @@ Git is an open-source version control system that is crucial for collaborative w
 There are many excellent free interactive learning resources to help you learn to use Git, including:
 
 * **<a target="_blank" rel="noopener" href="https://gitimmersion.com/">Guided tour of the fundamentals of Git</a>** – Git Immersion
+
 * **<a target="_blank" rel="noopener" href="https://www.theodinproject.com/lessons/foundations-git-basics">Git basics foundations course</a>** – The Odin Project
+
 * **<a target="_blank" rel="noopener" href="https://ohmygit.org/">Learning Git game</a>** – Oh My Git!
+
 * **<a target="_blank" rel="noopener" href="https://profy.dev/project/github-minesweeper">Bot assisted Git workflow course</a>** – GitHub Minesweeper
 
   ---
-
-
 
 ## {% bookshop 'markdown/anchor' name: "step-three" %}
 
@@ -112,8 +116,11 @@ Now that you are able to build static sites, it is necessary to understand the b
 Find out more about these important security topics here:
 
 * <a target="_blank" rel="noopener" href="https://web.dev/why-https-matters/">Why HTTPS matters</a>
+
 * <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">Cross-origin resource sharing (CORS)</a>
+
 * <a target="_blank" rel="noopener" href="https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html">OWASP cheatsheet</a>
+
 * <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">Content Security Policy (CSP)</a>
 
   ---
@@ -129,12 +136,12 @@ Learning about package managers, CSS architecture, CSS frameworks (like Tailwind
 Here are three free online resources to turn to when you’re ready to dive deeper into these topics:
 
 1. **<a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn">MDN Web Docs</a>**: MDN Web Docs ‘learn web development’ guide is a trustworthy source for in-depth web development topics. It provides excellent documentation, tutorials, and guides to help you fine tune your frontend web development knowledge.
+
 2. **<a target="_blank" rel="noopener" href="https://www.w3schools.com/">W3Schools</a>**: W3Schools provides tutorials and references covering all aspects of web development. It's a fantastic resource for intermediate learners.
+
 3. **<a target="_blank" rel="noopener" href="https://roadmap.sh/frontend">Frontend Roadmap</a>**: <a target="_blank" rel="noopener" href="http://Roadmap.sh">Roadmap.sh</a> offers community roadmaps to help guide developers in their learning. Each roadmap is an interactive diagram that opens to a resources page. The frontend roadmap is a great reference for discovering what topics to learn next.
 
    ---
-
-
 
 ## {% bookshop 'markdown/anchor' name: "step-six" %}
 
@@ -156,7 +163,7 @@ While static sites can be built only using HTML, CSS, and JavaScript, it will be
 
 It may also be worthwhile to spend some time learning about popular user interface (UI) frameworks like React, Svelte, and Vue, so that you can learn to build interactive components to embed within your static web pages.
 
-![Comparing dynamic and static websites](https://cc-dam.imgix.net/Dynamic vs. Static.png "Dynamic sites vs. Static sites")
+!\[Comparing dynamic and static websites\](https://cc-dam.imgix.net/Dynamic vs. Static.png "Dynamic sites vs. Static sites")
 
 ### **Learning to build dynamic websites**
 
@@ -198,7 +205,9 @@ Considering that learning to use Git is the second step on your journey to learn
 
 As a web developer, you will often find yourself setting up a CMS for non-technical editors, whether they’re external clients and editors, or your co-workers. It is crucial to choose a CMS that is easy for non-technical editors to use so that they can feel confident making changes without a developers’ help. By choosing <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a>, you can go above and beyond to provide your editors with a flexible interface, all the tools needed to build new pages themselves, and live previews via CloudCannon’s intuitive visual editing. This makes it easier than ever for even non-technical editors to feel confident making content updates to their own websites.
 
-<div style="padding:70.87% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/795437736?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CMS editing video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div><iframe src="https://player.vimeo.com/video/795437736?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CMS editing video"></iframe></div>
+
+
 
 ---
 
