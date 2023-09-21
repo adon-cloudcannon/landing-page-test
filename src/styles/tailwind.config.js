@@ -41,7 +41,11 @@ module.exports = {
 				electric_purple: "#C703D8",
 				emerald: "#38A413",
 				ruby: "#F03A47",
-				comet: "#8BB4ED"
+				comet: "#8BB4ED",
+				bronze: "#F4A34E",
+				silver: "#C0C0C0",
+				gold: "#C9B25F",
+				platinum: "#B9C8E6"
 			},
 			boxShadow: {
 				'menu': '0 24px 30px 4px rgb(0 0 0 / 0.08)'
@@ -60,7 +64,7 @@ module.exports = {
 		transitionTimingFunction: {
 			'cc-cubic': 'cubic-bezier(.22 ,1, .36 ,1)',
 		}
-	
+
 	},
 	plugins: [
 		require('@tailwindcss/typography')
