@@ -163,7 +163,7 @@ While static sites can be built only using HTML, CSS, and JavaScript, it will be
 
 It may also be worthwhile to spend some time learning about popular user interface (UI) frameworks like React, Svelte, and Vue, so that you can learn to build interactive components to embed within your static web pages.
 
-!\[Comparing dynamic and static websites\](https://cc-dam.imgix.net/Dynamic vs. Static.png "Dynamic sites vs. Static sites")
+![Comparing Dynamic and Static Websites](https://cc-dam.imgix.net/DynamicStaticImage.png "Comparing Dynamic and Static Websites")
 
 ### **Learning to build dynamic websites**
 
