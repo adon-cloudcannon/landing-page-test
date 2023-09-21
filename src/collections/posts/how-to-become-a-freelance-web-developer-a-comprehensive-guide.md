@@ -5,7 +5,7 @@ breadcrumb_title: How to become a freelance web developer
 description: Learn how to set up your freelance web development business for success!
 draft: true
 series:
-image: https://cc-dam.imgix.net/FreelanceGuide.png
+image: https://cc-dam.imgix.net/FreelancerImage.png
 date: 2023-09-23T05:05:00+12:00
 hide_publish_date: false
 tags:
@@ -28,7 +28,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/FreelanceGuide.png
+  featured_image: https://cc-dam.imgix.net/FreelancerImage.png
   featured_image_alt: Freelance web development guide
 ---
 As remote work opportunities become more commonplace, web development has emerged as one of the most sought-after remote roles. And with businesses and individuals continuing to establish their online presence, the demand for talented web developers is higher than ever. If you're a web developer wanting to start freelancing, this comprehensive guide will provide you with a clear roadmap to success.
