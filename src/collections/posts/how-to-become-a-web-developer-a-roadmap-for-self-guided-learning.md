@@ -179,11 +179,13 @@ Overall, you will need to develop a greater understanding of backend web develop
 
 Now that you are able to build beautiful websites, the last piece of the puzzle is to choose a content management system (CMS) for your projects. Your content management system is what makes it possible to change the content on a website without needing to know how to code. A CMS is essential to allow content editors and marketers to make changes to a website without needing to ask a developer for help every time they want to fix a typo or add a new image.
 
-![Comparing traditional and headless CMSs](https://cc-dam.imgix.net/HeadlessComparison.png "Traditional CMS vs. Headless CMS")
+![Traditional vs. Headless CMS](https://cc-dam.imgix.net/TraditionalCMS.png "Traditional CMS")
 
 ### **Traditional CMS**
 
 Content management systems fall into two main categories: the traditional CMS and the headless CMS. You are likely already familiar with some traditional CMSs like Wordpress, Wix, and Squarespace. While traditional content management systems make it easy for people with no technical knowledge to get a website up and running, these websites come with several drawbacks. Using a traditional CMS will make your websites less secure, slower, and less flexible. This is why web developers are increasingly choosing headless CMSs.
+
+![CloudCannon Headless CMS](https://cc-dam.imgix.net/HeadlessCMS.png "Headless CMS")
 
 ### **Headless CMS**
 
