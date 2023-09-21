@@ -152,6 +152,6 @@ _structures:
   rows:
     values: 
       - value:
-        title:
-        description:
-        image:
+          title:
+          description:
+          image:
