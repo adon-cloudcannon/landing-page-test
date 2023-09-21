@@ -163,7 +163,7 @@ While static sites can be built only using HTML, CSS, and JavaScript, it will be
 
 It may also be worthwhile to spend some time learning about popular user interface (UI) frameworks like React, Svelte, and Vue, so that you can learn to build interactive components to embed within your static web pages.
 
-!\[Comparing dynamic and static websites\](https://cc-dam.imgix.net/Dynamic vs. Static.png "Dynamic sites vs. Static sites")
+![Comparing dynamic and static websites](https://cc-dam.imgix.net/DynamicStatic.png "Dynamic vs. Static Websites")
 
 ### **Learning to build dynamic websites**
 
@@ -181,15 +181,11 @@ Now that you are able to build beautiful websites, the last piece of the puzzle 
 
 ![Traditional Content Management System](https://cc-dam.imgix.net/TraditionalCMSnologo.png "Traditional CMS")
 
-
-
 ### **Traditional CMS**
 
 Content management systems fall into two main categories: the traditional CMS and the headless CMS. You are likely already familiar with some traditional CMSs like Wordpress, Wix, and Squarespace. While traditional content management systems make it easy for people with no technical knowledge to get a website up and running, these websites come with several drawbacks. Using a traditional CMS will make your websites less secure, slower, and less flexible. This is why web developers are increasingly choosing headless CMSs.
 
 ![Headless content management system](https://cc-dam.imgix.net/HeadlessCMSnologo.png "Headless CMS")
-
-
 
 ### **Headless CMS**
 
@@ -210,7 +206,6 @@ On the other hand, a Git-based CMS is ideal for managing sites where you want ev
 Considering that learning to use Git is the second step on your journey to learning web development, Git-based CMSs are great choices for beginner web developers because they allow you to work with tools that you are already familiar with. Website owners will also appreciate that choosing a Git-based CMS means they always own their content. Full access to content is retained even if you ever need to move a site elsewhere.
 
 As a web developer, you will often find yourself setting up a CMS for non-technical editors, whether they’re external clients and editors, or your co-workers. It is crucial to choose a CMS that is easy for non-technical editors to use so that they can feel confident making changes without a developers’ help. By choosing <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a>, you can go above and beyond to provide your editors with a flexible interface, all the tools needed to build new pages themselves, and live previews via CloudCannon’s intuitive visual editing. This makes it easier than ever for even non-technical editors to feel confident making content updates to their own websites.
-
 
 ---
 
