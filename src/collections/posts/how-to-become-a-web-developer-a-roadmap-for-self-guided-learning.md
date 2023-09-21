@@ -1,7 +1,7 @@
 ---
 _schema: default
-title: 'How to become a web developer: a roadmap for self-guided learning'
-breadcrumb_title: How to become a web developer
+title: 'Learning web development: a self-guided roadmap'
+breadcrumb_title: Learning web development
 description: Follow this roadmap to becoming a web developer through self-guided learning.
 draft: true
 series:
