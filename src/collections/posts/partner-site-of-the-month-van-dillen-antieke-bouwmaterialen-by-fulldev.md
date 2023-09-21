@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: 'Partner site of the month: Van Dillen Antieke Bouwmaterialen, by Fulldev'
+title: 'Partner Site of the Month: Van Dillen Antieke Bouwmaterialen, by Fulldev'
 breadcrumb_title:
 description: >-
   Introducing vdabouwmaterialen.nl, designed and developed by Fulldev — built
