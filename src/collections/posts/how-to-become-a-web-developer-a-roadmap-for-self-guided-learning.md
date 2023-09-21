@@ -179,13 +179,17 @@ Overall, you will need to develop a greater understanding of backend web develop
 
 Now that you are able to build beautiful websites, the last piece of the puzzle is to choose a content management system (CMS) for your projects. Your content management system is what makes it possible to change the content on a website without needing to know how to code. A CMS is essential to allow content editors and marketers to make changes to a website without needing to ask a developer for help every time they want to fix a typo or add a new image.
 
-![Traditional vs. Headless CMS](https://cc-dam.imgix.net/TraditionalCMS.png "Traditional CMS")
+![Traditional Content Management System](https://cc-dam.imgix.net/TraditionalCMSnologo.png "Traditional CMS")
+
+
 
 ### **Traditional CMS**
 
 Content management systems fall into two main categories: the traditional CMS and the headless CMS. You are likely already familiar with some traditional CMSs like Wordpress, Wix, and Squarespace. While traditional content management systems make it easy for people with no technical knowledge to get a website up and running, these websites come with several drawbacks. Using a traditional CMS will make your websites less secure, slower, and less flexible. This is why web developers are increasingly choosing headless CMSs.
 
-![CloudCannon Headless CMS](https://cc-dam.imgix.net/HeadlessCMS.png "Headless CMS")
+![Headless content management system](https://cc-dam.imgix.net/HeadlessCMSnologo.png "Headless CMS")
+
+
 
 ### **Headless CMS**
 
@@ -208,8 +212,6 @@ Considering that learning to use Git is the second step on your journey to learn
 As a web developer, you will often find yourself setting up a CMS for non-technical editors, whether they’re external clients and editors, or your co-workers. It is crucial to choose a CMS that is easy for non-technical editors to use so that they can feel confident making changes without a developers’ help. By choosing <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a>, you can go above and beyond to provide your editors with a flexible interface, all the tools needed to build new pages themselves, and live previews via CloudCannon’s intuitive visual editing. This makes it easier than ever for even non-technical editors to feel confident making content updates to their own websites.
 
 <div><iframe src="https://player.vimeo.com/video/668496650?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="How does CloudCannon work?"></iframe></div>
-
-
 
 ---
 
