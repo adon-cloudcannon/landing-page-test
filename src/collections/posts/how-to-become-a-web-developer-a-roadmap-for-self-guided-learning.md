@@ -207,7 +207,7 @@ Considering that learning to use Git is the second step on your journey to learn
 
 As a web developer, you will often find yourself setting up a CMS for non-technical editors, whether they’re external clients and editors, or your co-workers. It is crucial to choose a CMS that is easy for non-technical editors to use so that they can feel confident making changes without a developers’ help. By choosing <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a>, you can go above and beyond to provide your editors with a flexible interface, all the tools needed to build new pages themselves, and live previews via CloudCannon’s intuitive visual editing. This makes it easier than ever for even non-technical editors to feel confident making content updates to their own websites.
 
-{% bookshop 'markdown/youtube' title: "CloudCannon Git-based CMS" id: "riXoAr6gO" extend: false border: false %}
+{% bookshop 'markdown/youtube' title: "CloudCannon Git-based CMS" id: "riXoAr6gO-E" extend: false border: false %}
 
 ---
 
