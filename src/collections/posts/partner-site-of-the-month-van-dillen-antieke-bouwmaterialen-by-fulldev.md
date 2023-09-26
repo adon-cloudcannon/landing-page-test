@@ -58,7 +58,7 @@ Whenever the Van Dillen team restocks their sales yard with new antique construc
 
 *— Sil Veltman, Full Stack Developer, Fulldev​​​​*
 
-\[Image of staging and production branches here\]
+![](https://cc-dam.imgix.net/partner-site-VDAB-branching.png)
 
 ## Git-based publishing workflow
 
