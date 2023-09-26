@@ -99,84 +99,6 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-        - _bookshop_name: simple/image
-          content:
-            alt: Desktop screen with security icons around it
-            image: https://cc-dam.imgix.net/Security-hero.png
-          styles:
-            border:
-            rounded:
-            ontop:
-            width: tight
-            pixel_width:
-            max_width:
-            desktop:
-              visibility:
-                hide: false
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: left
-              margin:
-                top: 70
-                bottom: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            tablet:
-              visibility:
-                active: false
-                hide: false
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              visibility:
-                active: false
-                hide: false
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
     styles:
       background: white
       rounded: none
@@ -231,7 +153,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: SOC2 badge
-                    image: https://cc-dam.imgix.net/SOC2-badge.png
+                    image: https://cc-dam.imgix.net/SOC2-badge-blue.png
                   styles:
                     border:
                     rounded:
@@ -311,6 +233,9 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
+                      ## We’re committed to your security
+
+
                       CloudCannon has achieved&nbsp;<a target="_blank"
                       rel="noopener"
                       href="https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report">SOC
@@ -363,34 +288,11 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      ## We’re committed to your security
+                      ##
 
 
                       Here's why CloudCannon's SOC 2 Type 1 certification
                       matters:
-
-
-                      1. **Enhanced Data Security:** Your data security is our
-                      top priority. Achieving SOC 2 Type 1 certification
-                      demonstrates that CloudCannon has invested in robust
-                      security measures to safeguard your data from threats and
-                      breaches.
-
-                      2. **Compliance and Responsibility:** Achieving SOC 2 Type
-                      1 certification reflects our dedication to complying with
-                      industry regulations and standards, especially in
-                      industries where data security is paramount.
-
-                      3. **Risk Mitigation:** Through rigorous assessment and
-                      auditing, we have identified and addressed potential
-                      security risks. This proactive approach minimizes
-                      vulnerabilities, making our platform even more secure for
-                      you.
-
-                      4. **Trust and Transparency:** We value your trust. SOC 2
-                      Type 1 certification helps to show our dedication to
-                      transparency — and to show that we’ve earned the trust you
-                      place in us.
                   styles:
                     width: full
                     desktop:
@@ -400,7 +302,7 @@ content_blocks:
                         text_size: normal
                       margin:
                         top: 0
-                        bottom: 0
+                        bottom: 10
                       block_alignment:
                         align_block: center
                     tablet:
@@ -431,6 +333,120 @@ content_blocks:
                       block_alignment:
                         active: false
                         align_block: left
+                - _bookshop_name: simple/expandable-list
+                  content:
+                    rows:
+                      - title: Enhanced Data Security
+                        description: >-
+                          Your data security is our top priority. Achieving SOC
+                          2 Type 1 certification demonstrates that CloudCannon
+                          has invested in robust security measures to safeguard
+                          your data from threats and breaches.
+                        prefix_icon:
+                          icon_path: outline/shield-exclamation
+                          icon_color:
+                      - title: Compliance and Responsibility
+                        description: >-
+                          Achieving SOC 2 Type 1 certification reflects our
+                          dedication to complying with industry regulations and
+                          standards, especially in industries where data
+                          security is paramount.
+                        prefix_icon:
+                          icon_path: outline/face-smile
+                          icon_color:
+                      - title: Risk Mitigation
+                        description: >-
+                          Through rigorous assessment and auditing, we have
+                          identified and addressed potential security risks.
+                          This proactive approach minimizes vulnerabilities,
+                          making our platform even more secure for you.
+                        prefix_icon:
+                          icon_path: outline/cog
+                          icon_color:
+                      - title: Trust and Transparency
+                        description: >-
+                          We value your trust. SOC 2 Type 1 certification helps
+                          to show our dedication to transparency — and to show
+                          that we’ve earned the trust you place in us.
+                        prefix_icon:
+                          icon_path: outline/chat-bubble-left
+                          icon_color:
+                  styles:
+                    background: transparent-light
+                    gaps: false
+                    rotate: true
+                    size: normal
+                    dropdown_icon:
+                      icon_path: solid/plus
+                      icon_color: midnight
+                    active_dropdown_icon:
+                      icon_path: solid/minus
+                      icon_color: midnight
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
               columns:
@@ -461,7 +477,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: cc-blue
+      background: white
       rounded: top
       size: normal
       align: none
