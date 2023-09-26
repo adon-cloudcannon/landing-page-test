@@ -17,99 +17,221 @@ content_blocks:
     content:
       label: Hero
       blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: CloudCannon's Security Procedures
+          styles:
+            element: h1
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: biggest
+              margin:
+                top: 0
+                bottom: 0
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              At CloudCannon, security is important to us. We are always looking
+              for ways to improve our product and a big part of that is
+              security.&nbsp;
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 30
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/image
+          content:
+            alt: Desktop screen with security icons around it
+            image: https://cc-dam.imgix.net/Security-hero.png
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: tight
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: false
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 70
+                bottom: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+    styles:
+      background: white
+      rounded: none
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 90
+          right: 0
+          bottom: 90
+          left: 0
+        padding:
+          top: 50
+          right: 0
+          bottom: 50
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: SOC2
+      blocks:
         - _bookshop_name: sections/two-column
           content:
             left:
               blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: Security
-                  styles:
-                    element: h1
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: biggest
-                      margin:
-                        top: 0
-                        bottom: 0
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      Security is important to us. We are always looking for
-                      ways to improve our product and a big part of that is
-                      security. This includes our product, our services, and the
-                      way our people conduct themselves.
-                  styles:
-                    width: medium
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 30
-                        bottom: 0
-                      block_alignment:
-                        align_block: center
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-            right:
-              blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: Desktop screen with security icons surrounding it
-                    image: https://cc-dam.imgix.net/Security-hero.png
+                    alt: SOC2 badge
+                    image: https://cc-dam.imgix.net/SOC2-badge.png
                   styles:
                     border:
                     rounded:
@@ -121,13 +243,13 @@ content_blocks:
                       visibility:
                         hide: false
                       transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
+                        scale: 0.75
+                        translate_x: 1
+                        translate_y: -45
                         rotate: 0
                         skew: 0
                       block_alignment:
-                        align_block: center
+                        align_block: left
                       margin:
                         top: 0
                         bottom: 0
@@ -184,11 +306,136 @@ content_blocks:
                         left: 0
                         bottom: 0
                         right: 0
+            right:
+              blocks:
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      CloudCannon has achieved&nbsp;<a target="_blank"
+                      rel="noopener"
+                      href="https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report">SOC
+                      2 Type 1 certification</a>, signifying our ongoing
+                      commitment to enhancing data security, and ensuring the
+                      protection of your valuable information. This
+                      certification helps to verify that our security controls,
+                      policies, and procedures are designed and implemented
+                      effectively.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 30
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      ## We’re committed to your security
+
+
+                      Here's why CloudCannon's SOC 2 Type 1 certification
+                      matters:
+
+
+                      1. **Enhanced Data Security:** Your data security is our
+                      top priority. Achieving SOC 2 Type 1 certification
+                      demonstrates that CloudCannon has invested in robust
+                      security measures to safeguard your data from threats and
+                      breaches.
+
+                      2. **Compliance and Responsibility:** Achieving SOC 2 Type
+                      1 certification reflects our dedication to complying with
+                      industry regulations and standards, especially in
+                      industries where data security is paramount.
+
+                      3. **Risk Mitigation:** Through rigorous assessment and
+                      auditing, we have identified and addressed potential
+                      security risks. This proactive approach minimizes
+                      vulnerabilities, making our platform even more secure for
+                      you.
+
+                      4. **Trust and Transparency:** We value your trust. SOC 2
+                      Type 1 certification helps to show our dedication to
+                      transparency — and to show that we’ve earned the trust you
+                      place in us.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
           styles:
             desktop:
               columns:
-                type: split
-                width: 0
+                type: fixed-fluid
+                width: 400
                 gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
@@ -214,8 +461,8 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: white
-      rounded: none
+      background: cc-blue
+      rounded: top
       size: normal
       align: none
       shadow: false
