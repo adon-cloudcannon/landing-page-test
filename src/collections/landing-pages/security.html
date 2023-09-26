@@ -17,88 +17,202 @@ content_blocks:
     content:
       label: Hero
       blocks:
-        - _bookshop_name: simple/heading
+        - _bookshop_name: sections/two-column
           content:
-            text: CloudCannon's Security Procedures
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: CloudCannon's Security Procedures
+                  styles:
+                    element: h1
+                    width: tight
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 0
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      At CloudCannon, security is important to us. We are always
+                      looking for ways to improve our product and a big part of
+                      that is security. This includes our product, our services,
+                      and the way our people conduct themselves.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 30
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+            right:
+              blocks:
+                - _bookshop_name: simple/image
+                  content:
+                    alt:
+                    image: https://cc-dam.imgix.net/Security-hero.png
+                  styles:
+                    border:
+                    rounded:
+                    ontop:
+                    width: full
+                    pixel_width:
+                    max_width:
+                    desktop:
+                      visibility:
+                        hide: false
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        bottom: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      visibility:
+                        active: false
+                        hide: false
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
-            element: h1
-            width: normal
             desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: biggest
-              margin:
-                top: 0
-                bottom: 0
+              columns:
+                type: split
+                width: 0
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: top
             tablet:
-              text_alignment:
+              columns:
                 active: false
-                align: center
-              text_sizing:
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
                 active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
+                v_align: top
             mobile:
-              text_alignment:
+              columns:
                 active: false
-                align: center
-              text_sizing:
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 0
+              vertical_block_alignment:
                 active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              At CloudCannon, security is important to us. We are always looking
-              for ways to improve our product and a big part of that is
-              security.&nbsp;
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 30
-                bottom: 0
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
+                v_align: top
     styles:
       background: white
       rounded: none
@@ -153,7 +267,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt: SOC2 badge
-                    image: https://cc-dam.imgix.net/SOC2-badge-blue.png
+                    image: https://cc-dam.imgix.net/SOC2-badge.png
                   styles:
                     border:
                     rounded:
@@ -447,12 +561,59 @@ content_blocks:
                         left: 0
                         bottom: 0
                         right: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      CloudCannon's SOC 2 Type 1 certification is a significant
+                      step in our ongoing commitment to securing your data. It
+                      assures you that your data is in safe hands, protected by
+                      a CMS provider that takes security seriously.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 20
+                        bottom: 10
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
           styles:
             desktop:
               columns:
                 type: fixed-fluid
-                width: 400
-                gap: 50
+                width: 500
+                gap: 70
                 vertical_gap: 0
               vertical_block_alignment:
                 v_align: top
@@ -477,7 +638,7 @@ content_blocks:
                 active: false
                 v_align: top
     styles:
-      background: white
+      background: cc-blue
       rounded: top
       size: normal
       align: none
@@ -486,12 +647,12 @@ content_blocks:
         margin:
           top: 90
           right: 0
-          bottom: 90
+          bottom: 0
           left: 0
         padding:
           top: 50
           right: 0
-          bottom: 50
+          bottom: 90
           left: 0
       tablet:
         margin:
