@@ -6,7 +6,7 @@ description: Learn how to set up your freelance web development business for suc
 draft: true
 series:
 image: https://cc-dam.imgix.net/FreelancerImage.png
-date: 2023-09-23T05:05:00+12:00
+date: 2023-09-28T05:05:00+13:00
 hide_publish_date: false
 tags:
   - Agencies
