@@ -9,7 +9,7 @@ description: >-
   information.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/soc-2-1-hero.png
 date: 2023-09-29T05:00:00+13:00
 hide_publish_date: false
 tags:
