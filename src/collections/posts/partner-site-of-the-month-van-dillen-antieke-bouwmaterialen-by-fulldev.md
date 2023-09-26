@@ -40,13 +40,11 @@ When Van Dillen Antieke Bouwmaterialen \[Antique Building Materials\] began to e
 
 ## Custom design for custom materials
 
-The nature of Van Dillen’s refurnished materials means that every order is unique. And because customers commonly purchase these unique materials for their own homes, personal inspections are still the best way to decide which bricks, tiles, or fittings are most suitable. Rather than functioning as a ‘click and ship’ ecommerce site with online payments, then, Van Dillen’s new website needed to do two main things: showcase the products effectively, and direct customers to a contact form to enable them to inspect the goods in person. To help direct visitors to the contact form, and maximize the results of the new website, Fulldev focussed on delivering an effective custom design.
+The nature of Van Dillen’s refurnished materials means that every order is unique. And because customers commonly purchase these unique materials for their own homes, personal inspections are still the best way to decide which bricks, tiles, or fittings are most suitable. Rather than functioning as a ‘click and ship’ ecommerce site with online payments, then, Van Dillen’s new website needed to do two main things: showcase the look and feel of their products effectively, and direct customers to a contact form, enabling them to arrange to inspect the goods in person. To help direct visitors to the contact form, and maximize the results of the new website, Fulldev focussed on delivering an effective custom design.
 
-\[Image of Fulldev Design system here\]
+It was important that the website reflect Van Dillen’s authentic construction materials. Fulldev achieved this by showcasing high-resolution assets depicting Van Dillen's materials, combined with a restrained, natural color palette. The site design was built to be responsive to all devices, ensuring a quality experience for all users.
 
-It was important that the website reflect Van Dillen’s atmospheric construction materials. Fulldev achieved this by creating a custom design system for their new website. This sleek design system features 3 classes for font size, 5 classes for spacing, and predefined color rules. Options were also added for card and section layouts, and the design was built to be responsive to all devices, ensuring a quality experience for all users.
-
-> Van Dillen loved the new website’s style and premium look. The consistent design system makes the website look very professional.
+> Van Dillen loved the new website’s style and premium look.
 
 *— Sil Veltman, Full Stack Developer, Fulldev​​​​*
 
@@ -62,15 +60,11 @@ Whenever the Van Dillen team restocks their sales yard with new antique construc
 
 \[Image of staging and production branches here\]
 
-
-
 ## Git-based publishing workflow
 
 It’s also important for Van Dillen to be able to make changes to their website without publishing immediately. Fulldev tapped into the power of Git by providing a production branch (for the published website), and a staging branch (for the draft website) on CloudCannon.
 
 Fulldev knew it would be important to offer this feature to ensure the website publishing workflow remains sustainable as the Van Dillen team grows and takes on more business: using a draft or staging website, multiple editors can collaborate on content changes with no risk of bottlenecks.
-
-<a target="_blank" rel="noopener" href="https://prod-files-secure.s3.us-west-2.amazonaws.com/74c5cf3b-7179-4e0f-bd84-34a50a84d741/854d7268-8c56-4b4d-995e-3ff2614289d3/Screen_Recording_2023-09-21_at_10.10.33_AM.mov">Screen Recording 2023-09-21 at 10.10.33 AM.mov</a>
 
 ---
 
@@ -80,4 +74,4 @@ Fulldev knew it would be important to offer this feature to ensure the website p
 
 ## About Van Dillen Antieke Bouwmaterialen
 
-<a target="_blank" rel="noopener" href="https://vdabouwmaterialen.nl/">Van Dillen</a> is a young company with a vision to improve construction sustainability by breathing new life into old, atmospheric, and authentic construction materials. They offer a personalized service to their customers, helping them build and restore beautiful buildings as efficiently as possible.
+<a target="_blank" rel="noopener" href="https://vdabouwmaterialen.nl/">Van Dillen</a> is a young company with a vision to improve construction sustainability by breathing new life into old, atmospheric, and authentic construction materials. They offer a personalized service to their customers, helping them build and restore beautiful buildings.
