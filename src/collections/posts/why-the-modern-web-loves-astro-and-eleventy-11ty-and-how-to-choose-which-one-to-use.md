@@ -66,18 +66,6 @@ Whichever SSG you choose, with CloudCannon’s <a target="_blank" href="https://
 
 {% bookshop 'markdown/anchor' name: "what-is-astro" %}
 
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
 ## What is Astro?
 
 Astro is known as the "all-in-one web framework for building fast, content-focused websites". It is the fastest-growing static site generator, with over 100,000 developers and teams using it worldwide. First released in 2021, the most recent update to Astro, <a target="_blank" rel="noopener" href="https://docs.astro.build/en/guides/upgrade-to/v3/">version 3.0</a>, features the release of View Transitions, the &lt;Image /&gt; component, React Fast Refresh, supercharged rendering, the 'astro: Namespace', and more! Astro has attracted such interest so quickly because it helps developers build lightning-fast content-rich websites, with the flexibility of any UI language, and the option to easily embed interactive islands.
@@ -107,18 +95,6 @@ Astro’s focus on fast content-rich websites makes it perfect for use cases suc
 
 {% bookshop 'markdown/anchor' name: "what-is-eleventy" %}
 
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
 ## What is Eleventy?
 
 Eleventy (also referred to as 11ty) is known as the “simpler static site generator”. It is the only purely static site generator that has reliably continued to grow in usage share, making Eleventy the clear choice for purely static use cases. First released in 2018, the most recent (at the time of writing) update to 11ty, <a target="_blank" href="https://www.11ty.dev/blog/eleventy-v2/">version 2.0</a>, features smaller and more secure files, faster builds, more plugins, template language aliasing, and event arguments. Eleventy has successfully maintained interest over time by focusing on speed and flexibility. With Eleventy, developers can build faster static sites, while leveraging the flexibility of multiple template languages — all without being tied to any frameworks.
@@ -147,18 +123,6 @@ Eleventy’s focus on fast and flexible static sites makes it perfect for market
 * **<a target="_blank" href="https://www.zachleat.com/">zachleat.com</a>**
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-similarities" %}
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
 
 ## Similarities between Astro and Eleventy
 
@@ -198,18 +162,6 @@ Astro and 11ty are UI agnostic static site generators, meaning you can use any U
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-differences" %}
 
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
 ## Differences between Astro and Eleventy
 
 The difference between Astro and Eleventy boils down to the finer details. Let’s take a look at how these static site generators differ, and how these differences will impact your developer and user experience, as well as your sites performance.
@@ -248,35 +200,11 @@ While both Astro and Eleventy are designed to generate fast and efficient static
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-comparison" %}
 
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
 ## Astro vs. 11ty (Eleventy) comparison at a glance
 
 <table><thead><tr><th> </th><th>Astro</th><th>Eleventy</th></tr></thead><tbody><tr><td>First release</td><td>2021</td><td>2018</td></tr><tr><td>GitHub stars</td><td>33.1K+</td><td>14.9k+</td></tr><tr><td>Licence</td><td>MIT</td><td>MIT</td></tr><tr><td>Build speeds</td><td>Very fast</td><td>Very fast</td></tr><tr><td>Built with</td><td>JavaScript</td><td>JavaScript</td></tr><tr><td>Templating language(s)</td><td>Astro, HTML, Markdown, JavaScript, JSX</td><td>JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug, WebC</td></tr><tr><td>UI Agnostic</td><td>Yes</td><td>Yes</td></tr><tr><td>Supported UI frameworks</td><td>React, Preact, Svelte, Vue, Solid, Lit</td><td>Petite Vue, Vue, Svelte, Preact, Lit, Alpine.js</td></tr><tr><td>Installation requirements</td><td>Node.js must be installed</td><td>Node.js must be installed</td></tr><tr><td>Plugins</td><td>Yes — many</td><td>Yes</td></tr><tr><td>Themes / Templates / Starters</td><td>Yes (themes)</td><td>Yes (starters)<br />​​​​​​</td></tr><tr><td>TypeScript support</td><td>Yes</td><td>Yes</td></tr><tr><td>Easy WordPress / legacy converter</td><td>No; you’ll need to convert to Markdown and then clean up your content</td><td>No; you’ll need to convert to Markdown and then clean up your content</td></tr><tr><td>Built-in module bundler</td><td>Snowpack</td><td>eleventy-webpack, eleventy-parcel</td></tr><tr><td>Disable runtime JS</td><td>No runtime JS required by default</td><td>No runtime JS required by default</td></tr><tr><td>Data Fetching</td><td>Yes</td><td>Yes</td></tr><tr><td>Internationalization (i18n)</td><td>Yes, via integration</td><td>Yes, via plugin</td></tr><tr><td>Hot reloading</td><td>Yes</td><td>Yes</td></tr><tr><td>Code splitting</td><td>Automatic</td><td>Manual</td></tr><tr><td>Image optimization</td><td>Yes</td><td>Yes, via separate dependency</td></tr><tr><td>Environment variables</td><td>Yes</td><td>Yes</td></tr><tr><td>Content security policy</td><td>Custom HTTP headers rules</td><td>Custom HTTP headers rules</td></tr><tr><td>Island Architecture</td><td>Yes</td><td>Yes, via plugin</td></tr><tr><td>Learning curve</td><td>Easy; it will help to have JavaScript experience</td><td>Easy; it will help to have JavaScript experience</td></tr><tr><td>Documentation</td><td><a target="_blank" href="https://docs.astro.build/en/getting-started/">astro.build</a></td><td><a target="_blank" href="http://11ty.dev/">11ty.dev</a></td></tr><tr><td>GitHub repos</td><td><a target="_blank" href="https://github.com/withastro/astro">Astro GitHub</a></td><td><a target="_blank" href="https://github.com/11ty/eleventy/">11ty GitHub</a></td></tr><tr><td>Support communities</td><td><a target="_blank" href="https://discord.com/invite/grF4GTXXYm">Astro Discord</a></td><td><a target="_blank" href="https://discord.gg/GBkBy9u">11ty Discord</a></td></tr><tr><td>Twitter accounts</td><td><a target="_blank" href="https://twitter.com/astrodotbuild">Astro Twitter</a></td><td><a target="_blank" href="https://twitter.com/eleven_ty">11ty Twitter</a></td></tr><tr><td>Site Type</td><td>Content-rich, mostly static MPAs with progressive enhancement &amp; websites requiring flexible framework usage.</td><td>Content-rich, mostly static MPAs with progressive enhancement &amp; websites requiring flexible templating or framework usage.</td></tr><tr><td>Use case(s)</td><td>Small e-commerce websites, marketing websites, blogs, portfolios, documentation websites</td><td>Small e-commerce websites, marketing websites, blogs, portfolios, documentation websites</td></tr><tr><td>CloudCannon support</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/astro-cms/">Astro</a>&nbsp;sites editable in minutes with CloudCannon.</td><td>Yes — you can get <a target="_blank" href="https://cloudcannon.com/eleventy-cms/">11ty</a>&nbsp;sites editable in minutes with CloudCannon.</td></tr></tbody></table>
 
 {% bookshop 'markdown/anchor' name: "astro-eleventy-usage" %}
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
 
 ## Astro vs. 11ty (Eleventy) usage trends
 
@@ -297,18 +225,6 @@ While GitHub stars are solely a metric for how many users have clicked the star 
 The yearly Jamstack survey records frameworks by usage and satisfaction. You can see how <a target="_blank" href="https://jamstack.org/survey/2022/#frameworks-by-usage-and-satisfaction">Astro and 11ty 2022 usage and satisfaction compares here</a>. This shows Astro entering the early adoption phase characterized by rapid growth and improving satisfaction scores. On the other hand, 11ty is in the regular growth phase, being singled out as the only purely static site generator to show growth in usage share, which indicates its stability.
 
 {% bookshop 'markdown/anchor' name: "which-should-i-choose" %}
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
-
-<div class="c-card c-card--clickable"><div class="c-card__preview"><p class="u-hide-when-loaded">No preview available</p></div><div class="c-card__content"><div class="c-card__heading"><div class="c-card__icon"><cc-icon name="mdi:text_snippet" class="u-hide-when-loaded"></cc-icon></div><div class="c-card__heading-content"><p class="c-card__text c-card__text--full-height">Anchor</p></div></div></div></div>
-
-<img width="15" title="Click and drag to move" height="15" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" />
-
-
 
 ## Which should I choose?
 
