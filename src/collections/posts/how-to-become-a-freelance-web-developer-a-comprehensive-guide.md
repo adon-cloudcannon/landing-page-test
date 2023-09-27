@@ -3,7 +3,7 @@ _schema: default
 title: 'How to become a freelance web developer: a comprehensive guide'
 breadcrumb_title: How to become a freelance web developer
 description: Learn how to set up your freelance web development business for success!
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/FreelancerImage.png
 date: 2023-09-28T05:05:00+13:00
