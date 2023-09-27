@@ -7,9 +7,9 @@ description: >-
   2 Type 1 certification. This certification signifies our ongoing commitment to
   enhancing data security and ensuring the protection of your valuable
   information.
-draft: true
+draft: false
 series:
-image: https://cc-dam.imgix.net/soc-2-1-hero.png
+image: https://cc-dam.imgix.net/soc-2-1-hero-r.png
 date: 2023-09-29T05:00:00+13:00
 hide_publish_date: false
 tags:
@@ -34,7 +34,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-We're pleased to announce that CloudCannon has successfully completed our SOC 2 Type 1 certification with a "clean" audit opinion from <a target="_blank" rel="noopener" href="https://sensiba.com/">Sensiba</a>. This certification signifies our <a target="_blank" rel="noopener" href="/security/">ongoing commitment</a> to enhancing data security and ensuring the protection of your valuable information.
+We're pleased to announce that CloudCannon has successfully completed our SOC 2 Type 1 certification with a "clean" audit opinion from <a target="_blank" rel="noopener" href="https://sensiba.com/">Sensiba</a>. This certification signifies <a target="_blank" rel="noopener" href="/security/">our ongoing commitment to enhancing data security</a> and ensuring the protection of your valuable information.
 
 ### Understanding SOC 2 Type 1 Certification
 
