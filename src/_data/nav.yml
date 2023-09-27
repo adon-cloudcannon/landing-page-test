@@ -22,6 +22,11 @@
           icon_path: outline/cube
           nav_icon_color: cc_blue
           description: Work with the frameworks you love
+        - name: Security
+          link: /security/
+          description: We're committed to your security
+          icon_path: outline/shield-check
+          nav_icon_color: cc_blue
       sub_card:
         - featured_page_link:
           name:
