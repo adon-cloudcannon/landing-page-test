@@ -26,7 +26,7 @@
           link: /security/
           description: We're committed to your security
           icon_path: outline/shield-check
-          nav_icon_color: ruby
+          nav_icon_color: cc_blue
       sub_card:
         - featured_page_link:
           name:
