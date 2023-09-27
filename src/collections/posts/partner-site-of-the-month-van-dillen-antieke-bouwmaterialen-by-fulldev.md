@@ -48,7 +48,7 @@ It was important that the website reflect Van Dillen’s authentic construction 
 
 *— Sil Veltman, Full Stack Developer, Fulldev​​​​*
 
-\[Image of CC interface here\]
+![](https://cc-dam.imgix.net/VDAM-materials-interface-rounded.png)
 
 ## Easy website updates
 
