@@ -14,7 +14,7 @@ date: 2023-09-29T05:00:00+13:00
 hide_publish_date: false
 tags:
   - Company
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+author: be1f96bb-0393-4938-b444-a5fb2f0c8590
 permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your website today
