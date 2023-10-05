@@ -30,16 +30,12 @@
     .{{ container_name}}{
       {{ mobile_styles }}
     }
-
-    .{{ container_name}} {
-      width: 100%;
-    }
   }
 </style>
 
-<div class="flex {{ container_name }}">
+<div class="flex flex-wrap items-center gap-2 {{ container_name }}">
   {% for component in content.button_blocks %}
-    <div class="inline-flex mt-3 first:mt-0 md:mt-0 md:mr-3 md:last:mr-0 {{ buttonHolderClasses }}">
+    <div class="inline-flex {{ buttonHolderClasses }}">
       {% bookshop "{{component._bookshop_name}}" bind: component %}
     </div>
   {% endfor %}
