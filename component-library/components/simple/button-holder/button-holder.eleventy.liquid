@@ -35,7 +35,7 @@
 
 <div class="flex flex-wrap items-center gap-2 {{ container_name }}">
   {% for component in content.button_blocks %}
-    <div class="inline-flex {{ buttonHolderClasses }}">
+    <div class="{{ buttonHolderClasses }}">
       {% bookshop "{{component._bookshop_name}}" bind: component %}
     </div>
   {% endfor %}
