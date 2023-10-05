@@ -30,12 +30,18 @@
     .{{ container_name}}{
       {{ mobile_styles }}
     }
+    .{{ container_name}} > * {
+      flex-basis: 100%;
+    }
+    .{{ container_name}} a {
+      display: block;
+    }
   }
 </style>
 
 <div class="flex flex-wrap items-center gap-2 {{ container_name }}">
   {% for component in content.button_blocks %}
-    <div class="{{ buttonHolderClasses }}">
+    <div{% if buttonHolderClasses %} class="{{ buttonHolderClasses }}"{% endif %}>
       {% bookshop "{{component._bookshop_name}}" bind: component %}
     </div>
   {% endfor %}
