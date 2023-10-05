@@ -46,6 +46,7 @@
     "@bookshop/eleventy-engine": "3.6.3",
     "@bookshop/generate": "3.6.3",
     "@tailwindcss/container-queries": "^0.1.0",
+    "@zachleat/table-saw": "^1.0.6",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
     "recursive-copy": "^2.0.14"

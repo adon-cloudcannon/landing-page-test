@@ -51,6 +51,8 @@ Here's why CloudCannon's SOC 2 Type 1 certification matters:
 3. **Risk Mitigation:** Through rigorous assessment and auditing, we identify and address potential security risks. This proactive approach minimizes vulnerabilities, making our platform even more secure for you.
 4. **Trust and Transparency:** We value your trust. SOC 2 Type 1 certification helps to show our dedication to transparency — and to show that we’ve earned the trust you place in us.
 
+
+
 CloudCannon's SOC 2 Type 1 certification is a significant step in our ongoing commitment to securing your data. It assures you that your data is in safe hands, protected by a CMS provider that takes security seriously.
 
 ## What’s the next step?

@@ -1251,4 +1251,19 @@ _snippets:
       named_args:
         - editor_key: name
           type: string
+  tablesaw:
+    template: eleventy_liquid_bookshop_component
+    inline: false
+    preview:
+      text: Responsive Table
+    definitions:
+      component_name: markdown/tablesaw
+      named_args:
+        - editor_key: content_markdown
+          type: string
+    _inputs:
+      content_markdown:
+        type: markdown
+        options:
+          table: true
 

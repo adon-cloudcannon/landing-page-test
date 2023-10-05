@@ -42,6 +42,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/images")
 	eleventyConfig.addPassthroughCopy("src/fonts")
 	eleventyConfig.addPassthroughCopy("src/robots.txt");
+	eleventyConfig.addPassthroughCopy({
+		"node_modules/@zachleat/table-saw/table-saw.js": "/js/table-saw.js"
+	});
 	
 
 	eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
@@ -99,7 +102,6 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("markdownify", (markdown) => md.render(markdown));
-
 
 	return {
 		dir: {
