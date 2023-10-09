@@ -5,10 +5,10 @@ breadcrumb_title:
 description: >-
   Introducing vdabouwmaterialen.nl, designed and developed by Fulldev — built
   with Astro, and optimized for editing on CloudCannon.
-draft: true
+draft: false
 series: Partner Site of the Month
 image: https://cc-dam.imgix.net/partner-site-VDAM-new.png
-date: 2023-09-28T05:00:00+13:00
+date: 2023-10-11T05:00:00+13:00
 hide_publish_date: false
 tags:
   - Agencies
