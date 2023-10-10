@@ -1,7 +1,7 @@
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
 {% assign mobile_styles = "" %}
-{% assign classes = styles.extra_classes %}
+{% assign buttonHolderClasses = styles.extra_classes %}
 
 {% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
 {% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
@@ -30,16 +30,18 @@
     .{{ container_name}}{
       {{ mobile_styles }}
     }
-
-    .{{ container_name}}a {
-      width: 100%;
+    .{{ container_name}} > * {
+      flex-basis: 100%;
+    }
+    .{{ container_name}} a {
+      display: block;
     }
   }
 </style>
 
-<div class="md:flex {{ container_name }}">
+<div class="flex flex-wrap items-center gap-2 {{ container_name }}">
   {% for component in content.button_blocks %}
-    <div class="mt-3 first:mt-0 md:mt-0 md:mr-3 md:last:mr-0 {{ classes }}">
+    <div{% if buttonHolderClasses %} class="{{ buttonHolderClasses }}"{% endif %}>
       {% bookshop "{{component._bookshop_name}}" bind: component %}
     </div>
   {% endfor %}
