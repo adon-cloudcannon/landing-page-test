@@ -53,7 +53,7 @@ To make your decision easier, we’ve divided the themes into blogging/personal 
 
 ## Jekyll blog themes
 
-### 1\. [Vonge theme](https://cloudcannon.com/community/themes/vonge/)
+### 1\. **[Vonge theme](https://cloudcannon.com/community/themes/vonge/)**
 
 Vonge is a personal portfolio site template for Jekyll, with full support for blogging. This theme also includes a full component library for website building with live editing, so you can show off your personal brand faster.
 
@@ -116,7 +116,7 @@ Devlopr-Jekyll's features:
 
 ## Jekyll professional themes
 
-### 1\. [Edition theme](https://cloudcannon.com/community/themes/edition/)
+### 1\. **[Edition theme](https://cloudcannon.com/community/themes/edition/)**
 
 With Edition you can create beautiful documentation for your product or service. (It's how we run the [CloudCannon Documentation](http://docs.cloudcannon.com/) site, and helps us structure content into categories.)
 
