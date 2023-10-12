@@ -1,32 +1,37 @@
 ---
-draft: false
+_schema: default
 title: 'Free Jekyll themes for 2022: Ten great community options'
+breadcrumb_title:
 description: >-
   There is a great catalog of popular, modern Jekyll themes to choose from and
   customize to make your life easier.
+draft: false
 series:
+image: https://cc-dam.imgix.net/Jekyll-top-ten.jpg
+date: 2022-03-10T05:00:00+13:00
+hide_publish_date: false
+tags:
+  - Resources
+  - Jekyll
+author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 permalink: /blog/free-jekyll-themes-for-2022/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/Jekyll-top-ten.jpg
-date: 2022-03-10T05:00:00+1300
-tags:
-  - Resources
-  - Jekyll
-author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
 ssg_frameworks:
   - jekyll
 categories:
@@ -52,7 +57,7 @@ To make your decision easier, we’ve divided the themes into blogging/personal 
 
 Vonge is a personal portfolio site template for Jekyll, with full support for blogging. This theme also includes a full component library for website building with live editing, so you can show off your personal brand faster.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/vonge-screenshot.png" alt:"" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/vonge-screenshot.png" alt: "" extend: false border: false %}
 
 Vonge's key features:
 
@@ -61,11 +66,11 @@ Vonge's key features:
 * Optimized for editing in CloudCannon
 * [Deploy to CloudCannon with one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template)
 
-### **2\. **[**Jekflix theme**](https://github.com/thiagorossener/jekflix-template)
+### 2\. [**Jekflix theme**](https://github.com/thiagorossener/jekflix-template)
 
 Love Netflix’s design? Now you can have your own beautiful, responsive Jekyll theme Netflix-style site for blogging or showcasing other content.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/jekflix.jpg" alt:"Jekflix screenshot" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/uploads/jekflix.jpg" alt: "Jekflix screenshot" extend: false border: false %}
 
 Jekflix's key features:
 
@@ -73,11 +78,11 @@ Jekflix's key features:
 * Estimated reading time and reading progress
 * Lazy-loaded images for best performance
 
-### **3\. **[**Basically Basic theme**](https://github.com/mmistakes/jekyll-theme-basically-basic)
+### 3\. [**Basically Basic theme**](https://github.com/mmistakes/jekyll-theme-basically-basic)
 
 From the creator of the most popular Jekyll theme out there, [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), this theme aims to be your new replacement for the standard Minima theme.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/basically-basic.jpg" alt:"Basically Basic Jekyll theme screenshot" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/uploads/basically-basic.jpg" alt: "Basically Basic Jekyll theme screenshot" extend: false border: false %}
 
 Basically basic's key features:
 
@@ -85,11 +90,11 @@ Basically basic's key features:
 * Built-in search options and easy SEO
 * Resume/CV layout ready to go
 
-### **4\. **[**TeXt theme**](https://github.com/kitian616/jekyll-TeXt-theme)
+### 4\. [**TeXt theme**](https://github.com/kitian616/jekyll-TeXt-theme)
 
 The TeXt theme is a hugely customizable Jekyll theme option for just about any project, such as personal/team sites, blogs, or documentation. Influenced by iOS 11 style, it is visually pleasing and responsive, with a number of plugin options.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/text-theme.jpg" alt:"Text Jekyll theme screenshot" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/uploads/text-theme.jpg" alt: "Text Jekyll theme screenshot" extend: false border: false %}
 
 TeXt theme's key features:
 
@@ -97,11 +102,11 @@ TeXt theme's key features:
 * Enhancements for multiple media types, math, diagrams, and charts
 * Built-in search and multiple plugin options
 
-### **5\. **[**Devlopr-Jekyll theme**](https://github.com/sujaykundu777/devlopr-jekyll)
+### 5\. [**Devlopr-Jekyll theme**](https://github.com/sujaykundu777/devlopr-jekyll)
 
 For developers in need of a personal site, this is a great, flexible option. It’s more than just a portfolio, however, with a whole showcase of other page options available.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/devolpr-jekyll.jpg" alt:"Devlopr Jekyll theme screenshot" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/uploads/devolpr-jekyll.jpg" alt: "Devlopr Jekyll theme screenshot" extend: false border: false %}
 
 Devlopr-Jekyll's features:
 
@@ -115,7 +120,7 @@ Devlopr-Jekyll's features:
 
 With Edition you can create beautiful documentation for your product or service. (It's how we run the [CloudCannon Documentation](http://docs.cloudcannon.com/) site, and helps us structure content into categories.)
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/edition-screenshot.jpeg" alt:"" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/edition-screenshot.jpeg" alt: "" extend: false border: false %}
 
 Edition's key features:
 
@@ -126,11 +131,11 @@ Edition's key features:
 * Optimized for editing in CloudCannon
 * [Deploy to CloudCannon with one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/edition-jekyll-template)
 
-### **2\. **[**Jekyll Serif theme**](https://github.com/zerostaticthemes/jekyll-serif-theme)
+### 2\. [**Jekyll Serif theme**](https://github.com/zerostaticthemes/jekyll-serif-theme)
 
 Jekyll Serif gives you all you need to get a business site up and running quickly. The creators have gone to great lengths to make a great-looking, performant site, with a clean, modern theme that’s appropriate for many typical setups.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/jekyll-serif.jpg" alt:"Serif Jekyll theme screenshot" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/uploads/jekyll-serif.jpg" alt: "Serif Jekyll theme screenshot" extend: false border: false %}
 
 Jekyll Serif's key features:
 
@@ -138,11 +143,11 @@ Jekyll Serif's key features:
 * Minimal size for maximum UX, with under 80kb including all assets
 * Great aesthetics with royalty-free illustrations and content
 
-### **3\. **[**Chirpy theme**](https://github.com/cotes2020/jekyll-theme-chirpy/)
+### 3\. [**Chirpy theme**](https://github.com/cotes2020/jekyll-theme-chirpy/)
 
 On the lookout for a great-looking, flexible Jekyll theme focusing on text presentation/documentation? Chirpy might be just what you need for almost any kind of documenting need.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/chirpy.jpg" alt:"Chirpy Jekyll theme screenshot" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/uploads/chirpy.jpg" alt: "Chirpy Jekyll theme screenshot" extend: false border: false %}
 
 Chirpy's key features:
 
@@ -150,11 +155,11 @@ Chirpy's key features:
 * Built-in search and dark mode
 * Syntax highlighting and math presentation
 
-### **4\. **[**Base theme**](https://cloudcannon.com/community/themes/base/)
+### 4\. [**Base theme**](https://cloudcannon.com/community/themes/base/)
 
-Base is a clean and simple knowledge base Jekyll template. It’s useful for creating a site with searchable tutorials, which are organized into categories. 
+Base is a clean and simple knowledge base Jekyll template. It’s useful for creating a site with searchable tutorials, which are organized into categories.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/base-screenshot.jpeg" alt:"" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/base-screenshot.jpeg" alt: "" extend: false border: false %}
 
 Base's key features:
 
@@ -165,11 +170,11 @@ Base's key features:
 * Optimized for editing in CloudCannon
 * [Deploy to CloudCannon in one click](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/base-jekyll-template)
 
-### **5\. **[**Carte theme**](https://github.com/Wiredcraft/carte)
+### 5\. [**Carte theme**](https://github.com/Wiredcraft/carte)
 
 APIs are an important part of the Jamstack model. The authors of this Jekyll theme wanted a simple solution for documenting them, without the complexity of enterprise solutions. This theme is great for getting documented quickly, focusing purely on written content.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/blog/uploads/carte.jpg" alt:"Carte Jekyll theme screenshot" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/blog/uploads/carte.jpg" alt: "Carte Jekyll theme screenshot" extend: false border: false %}
 
 Carte's key features:
 
