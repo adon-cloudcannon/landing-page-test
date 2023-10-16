@@ -18,13 +18,13 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Fulldev is a technology and design company based in Groningen, and active throughout the Netherlands. Known for their down-to-earth approach to their work, they aim to create beautiful, functional, and effective websites — and CloudCannon has been their CMS of choice for several years.
+<a target="_blank" rel="noopener" href="https://full.dev/">Fulldev</a> is a technology and design company based in Groningen, and active throughout the Netherlands. Known for their down-to-earth approach to their work, they aim to create beautiful, functional, and effective websites — and CloudCannon has been their CMS of choice for several years.
 
 ![](https://cc-dam.imgix.net/fulldev-cs-1r.png)
 
 ## A CMS to support growth and stack changes
 
-Fulldev Lead Developer Sil Veltman started using CloudCannon to build websites with Jekyll, before moving first to Eleventy, and then to Astro. Despite migrating between static site generators as his clients’ tech needs changed, Sil’s experience with CloudCannon has stayed consistent throughout the years.
+Fulldev Lead Developer Sil Veltman started using CloudCannon to build websites with <a target="_blank" rel="noopener" href="/jekyll-cms/">Jekyll</a>, before moving first to <a target="_blank" rel="noopener" href="/eleventy-cms/">Eleventy</a>, and then to <a target="_blank" rel="noopener" href="/astro-cms/">Astro</a>. Despite migrating between static site generators as his clients’ tech needs changed, Sil’s experience with CloudCannon has stayed consistent throughout the years.
 
 According to Sil, there are two main reasons he and his team have kept using CloudCannon: the simplicity and intuitive nature of the CMS, and its top-tier support. “The main thing I love about CloudCannon is that my clients just get it, which saves me a lot of time.” For Sil, who started out as a solo freelancer, having that extra time to pour back into his development work was very valuable.
 
@@ -56,9 +56,9 @@ On that note, what’s his favorite editor feature of CloudCannon? The sidebar, 
 
 > What I really love about how the sidebar of CloudCannon works is that it's very variable and makes everything a lot easier. Once you go into an object, it slides into a new panel. It's just a very clean object.
 
-Sil also discovered CloudCannon’s staging and branching workflows quite early on in his time with the CMS. Since then, he has set up publication workflows on every single Fulldev site he ships, reasoning that development updates should be evaluated before being shipped to production, and that content editors should have the choice to see their content changes on a draft site before publication.
+Sil also discovered CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/staging-workflow-guide/staging-branch/">staging and branching features</a>&nbsp;early on in his time with the CMS. Since then, he has set up publishing workflows on every single Fulldev site he ships, reasoning that development updates should be evaluated before being shipped to production, and that content editors should have the choice to see their content changes on a draft site before publication:
 
-“I just always apply \[a staging site\] because sometimes I push an update to the website when the client wants something changed, and I don't want it going directly to the production branch. And why not just give the user a staging branch too?”
+> I just always apply \[a staging site\] because sometimes I push an update to the website when the client wants something changed, and I don't want it going directly to the production branch. And why not just give the user a staging branch too?
 
 Why not, indeed? Custom publication workflows allow everyone to publish changes with confidence — and with Fulldev and CloudCannon, they’re easy to set up.
 
