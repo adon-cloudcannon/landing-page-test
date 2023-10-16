@@ -11,9 +11,7 @@ image:
   alt:
 logo: https://cc-dam.imgix.net/Fulldev - Web development & design Groningen-0.svg
 case_study_person: 9a59d297-c50b-4d93-93ad-ce74b95b0f78
-description: >-
-  Fulldev aims to create beautiful, functional, and effective websites — and
-  CloudCannon has been their CMS of choice for several years.
+description: "CloudCannon helps Fulldev create beautiful websites that are intuitive to update for any user —\_across a wide variety of static site generators."
 date: 2023-10-17T05:00:00+13:00
 seo:
   open_graph_type: article
