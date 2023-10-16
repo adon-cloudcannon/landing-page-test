@@ -3,15 +3,17 @@ _schema: default
 uuid: f8d60e70-4fc9-45ee-848f-29b9b2df93d9
 title: Fulldev
 heading: 'Simplicity and Support: Why Fulldev chooses CloudCannon '
-weight:
+weight: 8
 categories:
   - Agency
 image:
-  path:
+  path: https://cc-dam.imgix.net/fulldev-case-study.png
   alt:
-logo:
+logo: https://cc-dam.imgix.net/Fulldev - Web development & design Groningen-0.svg
 case_study_person:
-description:
+description: >-
+  Fulldev aims to create beautiful, functional, and effective websites — and
+  CloudCannon has been their CMS of choice for several years.
 date: 2023-10-17T05:00:00+13:00
 seo:
   open_graph_type: article
@@ -26,7 +28,7 @@ Fulldev is a technology and design company based in Groningen, and active throug
 
 Fulldev Lead Developer Sil Veltman started using CloudCannon to build websites with Jekyll, before moving first to Eleventy, and then to Astro. Despite migrating between static site generators as his clients’ tech needs changed, Sil’s experience with CloudCannon has stayed consistent throughout the years.
 
-According to Sil, there are two main reasons he and his team have kept using CloudCannon: the simplicity and intuitive nature of the product, and its top-tier support. “The main thing I love about CloudCannon is that my clients just get it, which saves me a lot of time.” For Sil, who started out as a solo freelancer, having that extra time to pour back into his development work was very valuable.
+According to Sil, there are two main reasons he and his team have kept using CloudCannon: the simplicity and intuitive nature of the CMS, and its top-tier support. “The main thing I love about CloudCannon is that my clients just get it, which saves me a lot of time.” For Sil, who started out as a solo freelancer, having that extra time to pour back into his development work was very valuable.
 
 Secondly, CloudCannon’s support has always been there for Sil and his team, for big and small questions.
 
@@ -54,7 +56,7 @@ On that note, what’s his favorite editor feature of CloudCannon? The sidebar, 
 
 ![](https://cc-dam.imgix.net/fulldev-case-study-03.png)
 
-> What I really love about how the sidebar of CloudCannon works, is that it's very variable and makes everything a lot easier. Once you go into an object, it slides into a new panel. It's just a very clean object.
+> What I really love about how the sidebar of CloudCannon works is that it's very variable and makes everything a lot easier. Once you go into an object, it slides into a new panel. It's just a very clean object.
 
 Sil also discovered CloudCannon’s staging and branching workflows quite early on in his time with the CMS. Since then, he has set up publication workflows on every single Fulldev site he ships, reasoning that development updates should be evaluated before being shipped to production, and that content editors should have the choice to see their content changes on a draft site before publication.
 
