@@ -20,7 +20,7 @@ seo:
 ---
 Fulldev is a technology and design company based in Groningen, and active throughout the Netherlands. Known for their down-to-earth approach to their work, they aim to create beautiful, functional, and effective websites — and CloudCannon has been their CMS of choice for several years.
 
-![](https://cc-dam.imgix.net/fulldev-case-study-01.png)
+![](https://cc-dam.imgix.net/fulldev-cs-1r.png)
 
 ## A CMS to support growth and stack changes
 
@@ -34,15 +34,19 @@ Secondly, CloudCannon’s support has always been there for Sil and his team, fo
 
 Sil’s company has grown over that time, too — from a one-man show to a team of up to five people, depending on the project. Together with CloudCannon to handle content and staging workflows, Sil and his team have been able to turn out beautiful and performant websites for businesses as varied as an [antique building material vendor](https://vdabouwmaterialen.nl/), [Amsterdam’s leading Miele dealer](https://witgoedcenteramsterdam.nl/), a [Friesland boat rental company](https://sloepverhuurbolsward.nl/), and [an improvisational theater group](https://meintheater.nl/).
 
-![](https://cc-dam.imgix.net/fulldev-case-study-02.png)
+![](https://cc-dam.imgix.net/fulldev-cs-2.png)
 
-## Fresh builds, every time
+## Bespoke designs for every site<!-- notionvc: efc51ea8-eaa8-4521-9a5c-b0525e277048 -->
 
-Many clients who come to Fulldev with old websites hampered by WordPress are pleasantly surprised by the team’s readiness to build from the ground up. It’s partly because Sil and the team take great pains to build out the most flexible design system they can, and partly because they genuinely enjoy designing and engineering improvements for their clients — as well as their clients’ customers.
+Many clients who come to Fulldev are pleasantly surprised by the team’s readiness to build from the ground up. It’s partly because Sil and the team have taken great pains to build out the most flexible design system they can, and partly because they genuinely enjoy designing and engineering improvements for their clients — as well as their clients’ customers.
+
+For those clients who come from WordPress expecting a similar CMS experience, Sil has a confident message:
+
+<!-- notionvc: fa4d4210-4485-4803-88ab-071ac3d6e5a9 -->
 
 > And my clients who were going to switch from WordPress to another system? I can 100 percent assure them that \[Astro and CloudCannon\] is going to be better than what they currently have. It’s always true.
 
-## Configure your CMS *and* your publication workflow
+## Configure your CMS *and* your publishing workflow
 
 CloudCannon’s highly configurable CMS is another drawcard. Whenever Sil receives questions from his clients, asking how or where to edit something, it’s easy for him to add editor links, change the configuration of the CMS, and make it work for his users.
 
@@ -50,7 +54,7 @@ On that note, what’s his favorite editor feature of CloudCannon? The sidebar, 
 
 ![](https://cc-dam.imgix.net/fulldev-case-study-03.png)
 
-> What I really love about how the sidebar of CloudCanon works, is that it's very variable and makes everything a lot easier. Once you go into an object, it slides into a new panel. It's just a very clean object.
+> What I really love about how the sidebar of CloudCannon works, is that it's very variable and makes everything a lot easier. Once you go into an object, it slides into a new panel. It's just a very clean object.
 
 Sil also discovered CloudCannon’s staging and branching workflows quite early on in his time with the CMS. Since then, he has set up publication workflows on every single Fulldev site he ships, reasoning that development updates should be evaluated before being shipped to production, and that content editors should have the choice to see their content changes on a draft site before publication.
 
