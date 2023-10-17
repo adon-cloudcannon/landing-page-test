@@ -24,7 +24,7 @@ seo:
 
 ## A CMS to support growth and stack changes
 
-Fulldev Lead Developer Sil Veltman started using CloudCannon to build websites with <a target="_blank" rel="noopener" href="/jekyll-cms/">Jekyll</a>, before moving first to <a target="_blank" rel="noopener" href="/eleventy-cms/">Eleventy</a>, and then to <a target="_blank" rel="noopener" href="/astro-cms/">Astro</a>. Despite migrating between static site generators as his clients’ tech needs changed, Sil’s experience with CloudCannon has stayed consistent throughout the years.
+Fulldev Lead Developer Sil Veltman started using CloudCannon to build websites with <a target="_blank" rel="noopener" href="/jekyll-cms/">Jekyll</a>, before moving first to <a target="_blank" rel="noopener" href="/eleventy-cms/">Eleventy</a>, and then to <a target="_blank" rel="noopener" href="/astro-cms/">Astro</a>. Despite migrating between static site generators as development tools evolved, Sil’s experience with CloudCannon has stayed consistent throughout the years.
 
 According to Sil, there are two main reasons he and his team have kept using CloudCannon: the simplicity and intuitive nature of the CMS, and its top-tier support. “The main thing I love about CloudCannon is that my clients just get it, which saves me a lot of time.” For Sil, who started out as a solo freelancer, having that extra time to pour back into his development work was very valuable.
 
@@ -34,7 +34,7 @@ Secondly, CloudCannon’s support has always been there for Sil and his team, fo
 
 Sil’s company has grown over that time, too — from a one-man show to a team of up to five people, depending on the project. Together with CloudCannon to handle content and staging workflows, Sil and his team have been able to turn out beautiful and performant websites for businesses as varied as an [antique building material vendor](https://vdabouwmaterialen.nl/), [Amsterdam’s leading Miele dealer](https://witgoedcenteramsterdam.nl/), a [Friesland boat rental company](https://sloepverhuurbolsward.nl/), and [an improvisational theater group](https://meintheater.nl/).
 
-![](https://cc-dam.imgix.net/fulldev-cs-2.png)
+![](https://cc-dam.imgix.net/fulldev-2r.png)
 
 ## Bespoke designs for every site<!-- notionvc: efc51ea8-eaa8-4521-9a5c-b0525e277048 -->
 
@@ -44,7 +44,7 @@ For those clients who come from WordPress expecting a similar CMS experience, Si
 
 <!-- notionvc: fa4d4210-4485-4803-88ab-071ac3d6e5a9 -->
 
-> And my clients who were going to switch from WordPress to another system? I can 100 percent assure them that \[Astro and CloudCannon\] is going to be better than what they currently have. It’s always true.
+> And my clients who are switching from WordPress to our system? I can 100 percent assure them that \[Astro and CloudCannon\] is going to be better than what they currently have. It’s always true.
 
 ## Configure your CMS *and* your publishing workflow
 
@@ -54,7 +54,7 @@ On that note, what’s his favorite editor feature of CloudCannon? The sidebar, 
 
 ![](https://cc-dam.imgix.net/fulldev-case-study-03.png)
 
-> What I really love about how the sidebar of CloudCannon works is that it's very variable and makes everything a lot easier. Once you go into an object, it slides into a new panel. It's just a very clean object.
+> What I really love about how the sidebar of CloudCannon works is that it's clean and straightforward. When you open an object it slides into a new panel which removes distractions. It's just a very clean object.
 
 Sil also discovered CloudCannon’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/guides/staging-workflow-guide/staging-branch/">staging and branching features</a>&nbsp;early on in his time with the CMS. Since then, he has set up publishing workflows on every single Fulldev site he ships, reasoning that development updates should be evaluated before being shipped to production, and that content editors should have the choice to see their content changes on a draft site before publication:
 
