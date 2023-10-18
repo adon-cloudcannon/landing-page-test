@@ -60,13 +60,13 @@ In the same vein, my other highlights (listed below in no particular order) all 
 
 One of the biggest hurdles to using a static site generator like Hugo is the initial transition from a different build tool, or a monolithic legacy CMS (WordPress, Drupal, etc). Of course, the advantages of an SSG are huge: you can select the best hosting, CI/CD, and CMS options for yourself, and maintain full control of your site content, without the same maintenance overheads.
 
-Using CloudCannon’s (very) new open-source tool StaticShape, George Phillips showed the beginnings of a new process — migrating and converting any site's static output to a set of templates, markup, and layouts ready for use in Hugo.
+Using CloudCannon’s (very) new open-source tool <a target="_blank" rel="noopener" href="https://staticshape.app/">StaticShape</a>, George Phillips showed the beginnings of a new process — migrating and converting any site's static output to a set of templates, markup, and layouts ready for use in Hugo.
 
 {% bookshop 'markdown/youtube' title: "" id: "wlJkQEC2LNQ" extend: false border: false %}
 
 ### Pagefind’s journey to v1.0
 
-Pagefind, the free and fully static search library, launched at last year’s HugoConf, and it’s obviously been a busy year for lead maintainer Liam Bigelow. Pagefind is positively constrained by the guiding principles of performing well on large sites, while using as little bandwidth as possible, and without hosting any infrastructure.
+<a target="_blank" rel="noopener" href="https://pagefind.app/">Pagefind</a>, the free and fully static search library, launched at last year’s HugoConf, and it’s obviously been a busy year for lead maintainer Liam Bigelow. Pagefind is positively constrained by the guiding principles of performing well on large sites, while using as little bandwidth as possible, and without hosting any infrastructure.
 
 In his presentation, Liam showcased the newly released features in Pagefind 1.0, allowing users to index custom content and improve the relevance of your search results. He also discussed what he’s built and learned over the last year (and 58 releases) since launch, and expressed his appreciation for the contributors who raised and discussed issues, surfaced edge cases, and translated the tool for dozens of languages.
 
@@ -88,7 +88,7 @@ Even though Hugo handles a lot from configuration, most of its later features (p
 
 {% bookshop 'markdown/youtube' title: "" id: "z3sWZu7pEPI" extend: false border: false %}
 
-(If you missed anything, you can watch all of the videos at the&nbsp;<a target="_blank" rel="noopener" href="https://hugoconf.io/">HugoConf site</a>, or on&nbsp;<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLrxYIq_0LFJcU9FQHt5FDpb90D_Tpzopw">YouTube through our HugoConf playlist</a>.)
+(If you missed anything, you can watch all of the videos at the&nbsp;<a target="_blank" rel="noopener" href="https://hugoconf.io/">HugoConf site</a>, or on&nbsp;<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLrxYIq_0LFJf2a_s3DM7dAVwkmvsUVsDf">YouTube through our HugoConf playlist</a>.)
 
 Overall, I’m delighted with another successful HugoConf. We all came together, celebrated the tools and services we rely upon, cheered each other on, and — I hope — left the conference with a little more enthusiasm for contributing to Hugo and other open-source projects.
 
@@ -96,8 +96,8 @@ By the end of the day, we had more than 750 registered participants from 50 coun
 
 ## What’s next?
 
-Personally, if you hadn’t noticed, I’m quite keen to run another HugoConf.
+Personally, if you hadn’t noticed, I’m quite keen to help organize another HugoConf.
 
-In the meantime, I’ll keep running the&nbsp;<a target="_blank" rel="noopener" href="https://twitter.com/hugoconf">@hugoconf</a>&nbsp;Twitter and Mastodon accounts to signal-boost and discuss Hugo news and release notes, as well as share the community’s tutorials, tips, tricks, and tools. If you’re not on the list, you can sign up at <a target="_blank" rel="noopener" href="http://hugoconf.io">hugoconf.io</a> — and be first in line to hear about next year’s conference!
+In the meantime, I’ll keep running the HugoConf <a target="_blank" rel="noopener" href="https://twitter.com/hugoconf">X/Twitter</a> and <a target="_blank" rel="noopener" href="https://fosstodon.org/@hugoconf">Mastodon</a> accounts to signal-boost and discuss Hugo news and release notes, as well as share the community’s tutorials, tips, tricks, and tools. If you’re not on the list, you can sign up at <a target="_blank" rel="noopener" href="http://hugoconf.io">hugoconf.io</a> — and be first in line to hear about next year’s conference!
 
 <!-- notionvc: 03353bfe-f00a-460f-ba4e-4883cbb01727 -->
