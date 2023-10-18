@@ -7,7 +7,7 @@ description: >-
   participants from 50 countries.
 draft: true
 series:
-image: https://cc-dam.imgix.net/hugoconf-wrapup-2023 (2).png
+image: https://cc-dam.imgix.net/hugoconf-wrapup-2023-1.png
 date: 2023-10-19T05:00:00+13:00
 hide_publish_date: false
 tags:
