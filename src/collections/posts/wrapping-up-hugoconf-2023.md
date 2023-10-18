@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   Last month CloudCannon held the second HugoConf, with more than 750 registered
   participants from 50 countries.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/hugoconf-wrapup-2023-1.png
 date: 2023-10-20T05:00:00+13:00
