@@ -62,7 +62,7 @@ One of the biggest hurdles to using a static site generator like Hugo is the ini
 
 Using CloudCannon’s (very) new open-source tool StaticShape, George Phillips showed the beginnings of a new process — migrating and converting any site's static output to a set of templates, markup, and layouts ready for use in Hugo.
 
-
+{% bookshop 'markdown/youtube' title: "" id: "wlJkQEC2LNQ" extend: false border: false %}
 
 ### Pagefind’s journey to v1.0
 
