@@ -32,7 +32,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-The team at CloudCannon really appreciates the Hugo community, and we’ve really enjoyed interacting with a vibrant group of Hugo developers and users over the past few years. Last month we held the second HugoConf, with additional sponsorship from [PaperCut](https://www.papercut.com/) and [OpenGraphImage](https://opengraphimage.com/).
+The team at CloudCannon really appreciates the Hugo community, and we’ve really enjoyed interacting with a vibrant group of Hugo developers and users over the past few years. Last month we held the second HugoConf, with additional sponsorship from <a target="_blank" rel="noopener" href="https://www.papercut.com/">PaperCut</a> and <a target="_blank" rel="noopener" href="https://opengraphimage.com/">OpenGraphImage</a>.
 
 ## **Why HugoConf?**
 
@@ -52,7 +52,7 @@ Joe’s perspective on Hugo, and open source contributions in general, was fasci
 
 {% bookshop 'markdown/youtube' title: "" id: "PuRDrL0NcAg" extend: false border: false %}
 
-Joe also encouraged everyone to support — and not just sponsor — developers who work on&nbsp;open-source projects, and to remember that everyone appreciates positive motivation. He’s clearly committed to helping the Hugo community grow as a vibrant group of developers and Hugo users. For people like me, who use Hugo but don’t always feel confident contributing code, it’s particularly encouraging to see that there are pathways to contribute.
+Joe also encouraged everyone to support — and not just sponsor — developers who work on open-source projects, and to remember that everyone appreciates positive motivation. He’s clearly committed to helping the Hugo community grow as a vibrant group of developers and Hugo users. For people like me, who use Hugo but don’t always feel confident contributing code, it’s particularly encouraging to see that there are pathways to contribute.
 
 In the same vein, my other highlights (listed below in no particular order) all feature either open-source tools, tutorials, or approaches given to the community for no other reason than to help out.
 
@@ -88,7 +88,7 @@ Even though Hugo handles a lot from configuration, most of its later features (p
 
 {% bookshop 'markdown/youtube' title: "" id: "z3sWZu7pEPI" extend: false border: false %}
 
-(If you missed anything, you can watch all of the videos at the&nbsp;[HugoConf site](https://hugoconf.io/), or on&nbsp;[YouTube through our HugoConf playlist](https://www.youtube.com/playlist?list=PLrxYIq_0LFJcU9FQHt5FDpb90D_Tpzopw).)
+(If you missed anything, you can watch all of the videos at the&nbsp;<a target="_blank" rel="noopener" href="https://hugoconf.io/">HugoConf site</a>, or on&nbsp;<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLrxYIq_0LFJcU9FQHt5FDpb90D_Tpzopw">YouTube through our HugoConf playlist</a>.)
 
 Overall, I’m delighted with another successful HugoConf. We all came together, celebrated the tools and services we rely upon, cheered each other on, and — I hope — left the conference with a little more enthusiasm for contributing to Hugo and other open-source projects.
 
@@ -98,6 +98,6 @@ By the end of the day, we had more than 750 registered participants from 50 coun
 
 Personally, if you hadn’t noticed, I’m quite keen to run another HugoConf.
 
-In the meantime, I’ll keep running the&nbsp;[@hugoconf](https://twitter.com/hugoconf)&nbsp;Twitter and Mastodon accounts to signal-boost and discuss Hugo news and release notes, as well as share the community’s tutorials, tips, tricks, and tools. If you’re not on the list, you can sign up at [hugoconf.io](http://hugoconf.io) — and be first in line to hear about next year’s conference!
+In the meantime, I’ll keep running the&nbsp;<a target="_blank" rel="noopener" href="https://twitter.com/hugoconf">@hugoconf</a>&nbsp;Twitter and Mastodon accounts to signal-boost and discuss Hugo news and release notes, as well as share the community’s tutorials, tips, tricks, and tools. If you’re not on the list, you can sign up at <a target="_blank" rel="noopener" href="http://hugoconf.io">hugoconf.io</a> — and be first in line to hear about next year’s conference!
 
 <!-- notionvc: 03353bfe-f00a-460f-ba4e-4883cbb01727 -->
