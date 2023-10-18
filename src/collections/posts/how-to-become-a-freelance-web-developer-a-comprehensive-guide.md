@@ -222,6 +222,7 @@ Here are a few resources to help you progress in your career as a freelance web 
 * <a target="_blank" rel="noopener" href="https://hashnode.com/">Hashnode</a>: Blogging platform for developers.
 * <a target="_blank" rel="noopener" href="https://esif.dev/">ESIF</a>: A historical record of foundational web development blog posts.
 * <a target="_blank" rel="noopener" href="https://frontendmasters.com/">Frontend Masters</a>: Valuable platform for learning web development, with comprehensive courses, quality content, and trusted instructors.
+* <a target="_blank" rel="noopener" href="https://www.instituteofcode.com/">Institute of Code</a>: Online and in-person web development courses designed to help you start making a living doing what you love.
 
 ---
 
