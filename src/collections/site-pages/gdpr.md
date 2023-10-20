@@ -125,7 +125,7 @@ c. to comply with any further instruction from you (including by email or throug
 
 4\.4 We will not respond to a Data Subject Request except on your written request or if required by applicable law.&nbsp;
 
-**5\. OUR PERSONNEL&nbsp;**
+**5\. OUR PERSONNEL**&nbsp;
 
 5\.1 We will:
 
@@ -139,7 +139,7 @@ d. ensure that our Personnel engaged in Processing Personal Data are informed of
 
 5\.2 We have appointed a data protection officer who can be contacted at [privacy@cloudcannon.com](mailto:privacy@cloudcannon.com).
 
-**6\. SUB-PROCESSORS&nbsp;**
+**6\. SUB-PROCESSORS**&nbsp;
 
 6\.1 You acknowledge and agree that we may engage third party Sub-Processors in connection with the provision of the Service.
 
@@ -155,7 +155,7 @@ d. ensure that our Personnel engaged in Processing Personal Data are informed of
 
 6\.7 We are liable for the acts and omissions of our Sub-Processors to the same extent we would be liable if performing the services of each Sub-Processor directly under the terms of this Addendum, except as otherwise set out in this Addendum.&nbsp;
 
-**7\. SECURITY&nbsp;**
+**7\. SECURITY**&nbsp;
 
 We will maintain technical and organizational measures to protect the confidentiality, integrity and security of Personal Data (including protection against unauthorized or unlawful Processing and against accidental or unlawful destruction, loss or alteration or damage, unauthorized disclosure of, or access to, Personal Data), and to manage data security incidents affecting Personal Data, in accordance with Annex 2 of the Standard Contractual Clauses (as updated from time to time by us).
 
@@ -183,7 +183,7 @@ d. avoid damage, injury or disruption to any premises, equipment, personnel and 
 
 Upon your written request, we will, at your cost, provide you with reasonable assistance needed to fulfil your obligations under Applicable Data Protection Laws to carry out a data protection impact assessment relating to your use of the Service, to the extent you do not otherwise have access to the relevant information.&nbsp;
 
-**11\. RETURN AND DELETION OF PERSONAL DATA&nbsp;**
+**11\. RETURN AND DELETION OF PERSONAL DATA**&nbsp;
 
 11\.1 Subject to paragraphs 11.2 and 11.3, following termination of the Terms we will delete all Personal Data within a reasonable period from termination of the Terms.&nbsp;&nbsp;
 
@@ -209,7 +209,7 @@ c. make the remaining Personal Data which is not deleted or effectively anonymiz
 
 12\.2 If you object to any variation under paragraph 12.1 on reasonable grounds, you may, despite anything to the contrary in the Terms, terminate the Terms and your right to access and use the Website and the Service without penalty on written notice, provided your notice of termination is received by us before the effective date of our notice.&nbsp; If you do not terminate the Terms and your right to access and use the Service in accordance with this paragraph, you are deemed to have agreed to the variation.&nbsp;&nbsp;
 
-**13\. LIMITATION OF LIABILITY&nbsp;**
+**13\. LIMITATION OF LIABILITY**&nbsp;
 
 To the maximum extent permitted by applicable law, the liability of each party to the other party under or in connection with this Addendum is subject to the limitations and exclusions set out in the Terms, and any reference in the Terms to the liability of a party means the aggregate liability of that party under the Terms and this Addendum together.&nbsp;
 
@@ -219,23 +219,23 @@ If any provision of this Addendum is, or becomes unenforceable, illegal or inval
 
 ## **SCHEDULE 1**
 
-**DETAILS OF PROCESSING&nbsp;**
+**DETAILS OF PROCESSING**&nbsp;
 
-**Nature and Purpose of Processing&nbsp;**
+**Nature and Purpose of Processing**&nbsp;
 
 We will Process Personal Data as necessary to provide the Website and the Service in accordance with the Terms, as further specified in our online documentation relating to the Website and the Service, and as further instructed by you and your Personnel and other end users you allow to use the Service through the use of the Website and Service.&nbsp;
 
-**Duration of Processing&nbsp;**
+**Duration of Processing**&nbsp;
 
 Subject to paragraph 11 of this Addendum, we will Process Personal Data for the duration of the Terms, unless otherwise agreed upon in writing.&nbsp;
 
-**Categories of Data Subjects&nbsp;**
+**Categories of Data Subjects**&nbsp;
 
 You may submit Personal Data to the Service, the extent of which is determined and controlled by you in your sole discretion, and which may include, but is not limited to, Personal Data relating to the following categories of data subjects:&nbsp;
 
 * Developers, Marketers, Company Executives, Content Creators, Editors, Writers and Designers, to the extent that they are users of the Service under the Terms.
 
-**Type of Data&nbsp;**
+**Type of Data**&nbsp;
 
 You may submit Personal Data to the Service, the extent of which is determined and controlled by you in your sole discretion, and which may include, but is not limited to, the following categories of personal data:&nbsp;
 

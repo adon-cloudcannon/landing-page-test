@@ -21,7 +21,7 @@ top_content:
             content:
               text: 'Effortless content management</br>at any scale '
             styles:
-              size: h1
+              element: h1
               width: normal
               desktop:
                 text_alignment:
@@ -53,12 +53,14 @@ top_content:
                   active: true
                   top: 0
                   bottom: 15
+              size: h1
           - _bookshop_name: simple/text-block
             content:
               text_markdown: >-
                 Find out why world-leading companies use CloudCannon to power
                 their digital content strategy.
             styles:
+              width: medium
               desktop:
                 text_alignment:
                   align: center
@@ -97,12 +99,12 @@ top_content:
                 block_alignment:
                   active: false
                   align_block: left
-              width: medium
       styles:
         background: white
         rounded: none
         size: normal
         align: none
+        shadow: false
         desktop:
           margin:
             top: 0
@@ -188,6 +190,7 @@ bottom_content:
                 Try out CloudCannon with a 14-day free trial, or get in touch
                 with us for a demo.
             styles:
+              width: medium
               desktop:
                 text_alignment:
                   align: center
@@ -226,7 +229,6 @@ bottom_content:
                 block_alignment:
                   active: false
                   align_block: left
-              width: medium
           - _bookshop_name: simple/button-holder
             content:
               button_blocks:
@@ -272,6 +274,9 @@ bottom_content:
       styles:
         background: cc-blue
         rounded: top
+        size: normal
+        align: none
+        shadow: false
         desktop:
           margin:
             top: 0
@@ -309,8 +314,6 @@ bottom_content:
             right: 0
             bottom: 90
             left: 0
-        size: normal
-        align: none
 ---
 <div class="container">
 	<div class="grid grid-cols-1 mb-28 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12 [&>a]:mx-auto">

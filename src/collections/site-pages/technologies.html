@@ -10,7 +10,7 @@ seo:
   featured_image_alt: >-
     CloudCannon's visual CMS that keeps both content editors and developers
     happy
-search_bucket:
+search_bucket: Blog
 top_content:
   content_blocks:
     - _bookshop_name: sections/container
@@ -20,7 +20,7 @@ top_content:
             content:
               text: Use your favorite technology stack
             styles:
-              size: h1
+              element: h1
               width: normal
               desktop:
                 text_alignment:
@@ -52,12 +52,14 @@ top_content:
                   active: true
                   top: 0
                   bottom: 15
+              size: h1
           - _bookshop_name: simple/text-block
             content:
               text_markdown: >-
                 CloudCannon supports all major static site generators, so you
                 can choose the tool that works for your project.
             styles:
+              width: medium
               desktop:
                 text_alignment:
                   align: center
@@ -96,13 +98,13 @@ top_content:
                 block_alignment:
                   active: false
                   align_block: left
-              width: medium
           - _bookshop_name: simple/fold
       styles:
         background: white
         rounded: none
         size: normal
         align: none
+        shadow: false
         desktop:
           margin:
             top: 0
@@ -188,6 +190,7 @@ bottom_content:
                 Try out CloudCannon with a 14-day free trial, or get in touch
                 with us for a demo.
             styles:
+              width: medium
               desktop:
                 text_alignment:
                   align: center
@@ -226,7 +229,6 @@ bottom_content:
                 block_alignment:
                   active: false
                   align_block: left
-              width: medium
           - _bookshop_name: simple/button-holder
             content:
               button_blocks:
@@ -272,6 +274,9 @@ bottom_content:
       styles:
         background: cc-blue
         rounded: top
+        size: normal
+        align: none
+        shadow: false
         desktop:
           margin:
             top: 0
@@ -309,8 +314,6 @@ bottom_content:
             right: 0
             bottom: 90
             left: 0
-        size: normal
-        align: none
 ---
 <div class="container">
 
