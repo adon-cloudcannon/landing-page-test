@@ -138,12 +138,12 @@ const trimExcerpt = (excerpt, target) => {
 const search = new Instance({
 	bundlePath: "/_pagefind/",
 	indexWeight: 2,
-	mergeIndex: [
-		{
-			bundlePath: "https://cloudcannon.com/documentation/_pagefind/",
-			baseUrl: "/"
-		}
-	]
+	// mergeIndex: [
+	// 	{
+	// 		bundlePath: "https://cloudcannon.com/documentation/_pagefind/",
+	// 		baseUrl: "/"
+	// 	}
+	// ]
 });
 window.searchInstance = search;
 
