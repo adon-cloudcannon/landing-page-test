@@ -20,17 +20,17 @@
 	{% include 'partials/head/iframe-classes.html' %}
 </head>
 
-<body
-	class="overflow-x-clip subpixel-antialiased text-carbon relative"
-	{% if search_bucket %}
-	{% if search_bucket != "Excluded" %}
-	data-pagefind-filter="site:{{search_bucket}}" data-pagefind-meta="site:{{search_bucket}}" data-pagefind-body
-	{% endif %}
-	{% endif %}
-	>
+<body class="overflow-x-clip subpixel-antialiased text-carbon relative">
 	{% include 'partials/analytics/noscript-google-analytics.html' %}
 	{% include 'partials/nav/_nav.html' %}
-	{{ content }}
+	<div 
+		{% if search_bucket %}
+		{% if search_bucket != "Excluded" %}
+		data-pagefind-filter="site:{{search_bucket}}" data-pagefind-meta="site:{{search_bucket}}" data-pagefind-body
+		{% endif %}
+		{% endif %}>
+		{{ content }}
+	</div>
 	{% include 'partials/footer/_footer.html' %}
 	{% include 'partials/footer/analytics.html' %} 
 </body>
