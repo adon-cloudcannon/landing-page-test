@@ -16,7 +16,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@alpinejs/intersect": "^3.10.4",
     "@divriots/jampack": "^0.13.0",
-    "@pagefind/modular-ui": "1.0.0-alpha.5",
+    "@pagefind/modular-ui": "1.0.3",
     "@tailwindcss/typography": "^0.5.8",
     "alpine-splide": "^1.2.0",
     "alpinejs": "^3.10.4",

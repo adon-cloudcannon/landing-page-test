@@ -138,6 +138,7 @@ const trimExcerpt = (excerpt, target) => {
 const search = new Instance({
 	bundlePath: "/_pagefind/",
 	indexWeight: 2,
+	excerptLength: 15,
 	// mergeIndex: [
 	// 	{
 	// 		bundlePath: "https://cloudcannon.com/documentation/_pagefind/",
@@ -152,15 +153,41 @@ window.searchInput = new Input({
 });
 search.add(window.searchInput);
 
+const searchResultTemplate = (result) => {
+	let base_title = result.meta.title;
+	if (result.meta.guide_title) {
+	  base_title = `${result.meta.guide_title} • ${base_title}`;
+	}
+  
+	let base_result = `<li class="result base"><a class="link" href="${result.url}">
+	  <span class="section">${result.meta.site}</span>
+	  <span class="title">${base_title}</span>
+	</a></li>`;
+  
+	const has_root_result = !result.sub_results[0].anchor;
+	if (has_root_result) {
+	  const root_result = result.sub_results.shift();
+	  base_result = `<li class="result base"><a class="link" href="${root_result.url}">
+		<span class="section">${result.meta.site}</span>
+		<span class="title">${base_title}</span>
+		<span class="info">${root_result.excerpt}</span>
+	  </a></li>`;
+	}
+  
+	result.sub_results.sort((a, b) => b.locations.length - a.locations.length);
+  
+	const subs = result.sub_results.slice(0, 3).map((sub) => {
+	  return `<li class="result sub"><a class="link" href="${sub.url}">
+		<span class="title">${sub.title}
+		<span class="info">${sub.excerpt}</span>
+	  </a></li>`;
+	});
+	return base_result + subs.join("\n");
+  };
+
 search.add(new ResultList({
 	containerElement: "#searchresults",
-	resultTemplate: (result) => {
-		const excerpt = trimExcerpt(result.excerpt, 20);
-		return `<li class="flex flex-col gap-2 list-none"><a class="p-6 radius-lg bg-transparent no-underline transition hover:bg-gray-100 rounded-xl" href="${result.url}">
-			<span class="block text-cc text-lg font-bold">${result.meta.title}</span>
-			<span class="block text-nimbus text-base font-normal whitespace-nowrap overflow-hidden text-ellipsis">${result.meta.site ?? "Company"} • ... ${excerpt} ...</span>
-		</a></li>`;
-	}
+	resultTemplate: searchResultTemplate
 }));
 search.add(new Summary({
 	containerElement: "#summary",
