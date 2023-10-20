@@ -1,8 +1,8 @@
 announcement_banner_content: >-
   Join us for the live stream: <a
   href="https://www.youtube.com/live/wwsMsolPrtw?feature=shared">Jamming on the
-  Jamstack with Matt Biilman & Mike Neumegen 🤩</a>
-color: black
+  Jamstack with Matt Biilman & Mike Neumegen</a> 🤩
+color: cloudcannon-blue
 _inputs:
   color:
     type: select
