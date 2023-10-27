@@ -29,15 +29,15 @@ To begin with, Ed believes that most websites should be static content anyway, a
 
 > Once I learned about Jamstack, I fell in love with it right away. Just out of the box, it solved all the problems that we had to manage. It just made sense to do it this way. It was the same when I picked CloudCannon as a CMS.
 
-Not wanting to deal with WordPress updates or plugins was another factor, and Ed wanted a simple CMS \*\*\*\*solution for his client. While the client had initially approached him to help update their site, he knew that giving them the tools to create and update content themselves would be a better solution for everyone.
+Not wanting to deal with WordPress updates or plugins was another factor, and Ed wanted a simple CMS solution for his client. While the client had initially approached him to help update their site, he knew that giving them the tools to create and update content themselves would be a better solution for everyone.
 
-That’s where CloudCannon’s approach to visual editing came in. Ed had been looking for an intuitive way for his clients to work — something simpler that refreshing previews in WordPress — and wanted to make sure his clients could see the changes they were making *before* they built their site.
+That’s where CloudCannon’s approach to visual editing came in. Ed had been looking for an intuitive way for his clients to work — something simpler than refreshing previews in WordPress — and wanted to make sure his clients could immediately see the changes they were making, while they were editing.<!-- notionvc: c4f6ba92-32a5-40bc-b9e5-677009553fd3 -->
 
 > I showed \[the client\] how to publish and how to build pages, and he pretty much took it from there. So I think it just shows that how intuitive the UI is on CloudCannon — it was pretty straightforward for him.
 
 CloudCannon’s support is another reason Ed loves the platform. His initial questions on configuring CloudCannon were answered quickly, and CloudCannon engineers also helped him integrate <a target="_blank" rel="noopener" href="https://imgix.com/">imgix</a> into his build flow. This integration means users can upload high-resolution images to the site, and they’re automatically resized, transformed, and optimized for performance.
 
-> I got a lot of really good customer support from CloudCannon. CloudCannon is awesome at following up and I loved it, because I've worked with other CMSs, and you just get a chat window. You don't get a person, so you don't really feel like anyone's there going to solve your problem. I was really stoked to see that level of support from CloudCannon.
+> I got a lot of really good customer support from CloudCannon. CloudCannon is awesome at following up and I loved it, because I've worked with other CMSs, and you just get a chat window. You don't get a person, so you don't really feel like anyone's going to solve your problem. I was really stoked to see that level of support from CloudCannon.
 
 And what’s next for Ed? Well, he’s a convert to the Git-based CMS approach, where site files and content can be stored in a repository that the user always owns: “I actually think that for these types of projects it's a much better choice. It definitely is more of a deciding factor for future projects, for sure.”
 
