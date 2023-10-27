@@ -7,7 +7,7 @@ weight: 9
 categories:
   - Agency
 image:
-  path:
+  path: https://cc-dam.imgix.net/ed-meehan-cs-frame.png
   alt:
 logo: https://cc-dam.imgix.net/wave-e-color.svg
 case_study_person: 5a6ca7af-ef28-4915-9e07-df5814351f0a
