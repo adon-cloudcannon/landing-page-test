@@ -9,8 +9,8 @@ categories:
 image:
   path:
   alt:
-logo:
-case_study_person:
+logo: https://cc-dam.imgix.net/wave-e-color.svg
+case_study_person: 5a6ca7af-ef28-4915-9e07-df5814351f0a
 description: >-
   When Ed Meehan was approached by a client to help solve their publishing
   dilemma and find a way to easily update their static website, he turned to
@@ -27,7 +27,7 @@ It’s a common problem for a business to face: you have a beautiful static webs
 
 To begin with, Ed believes that most websites should be static content anyway, and felt that the original Jamstack approach — static-first content — was compelling.
 
-> Once I learned about Jamstack, I fell in love with it right away. Just out of the box, it solved all the problems that we had to manage. It just made sense to do it this way. It was same when I picked CloudCannon as a CMS.
+> Once I learned about Jamstack, I fell in love with it right away. Just out of the box, it solved all the problems that we had to manage. It just made sense to do it this way. It was the same when I picked CloudCannon as a CMS.
 
 Not wanting to deal with WordPress updates or plugins was another factor, and Ed wanted a simple CMS \*\*\*\*solution for his client. While the client had initially approached him to help update their site, he knew that giving them the tools to create and update content themselves would be a better solution for everyone.
 
