@@ -42,7 +42,7 @@ Ed’s solution was straightforward: find and implement a content management sys
 
 After testing and evaluating a range of content management systems, Ed decided that CloudCannon offered everything that Cru Uncorked needed: a way for editors to make their changes with live previews of the site’s pages; built-in static site hosting to reduce their reliance on external services; and support for a wide range of static site generators (SSGs). When it came to the SSG itself, Ed selected Eleventy for its flexibility, fast builds, and compatibility with CloudCannon’s component-based page building — meaning that any Cru Uncorked staff member, regardless of their technical knowledge, could update the restaurant’s menu, add news items and event listings, and even build entirely new pages.
 
-![](https://cc-dam.imgix.net/cru-cloudcannon-interface &#40;1&#41;.png)
+![](https://cc-dam.imgix.net/cru-cloudcannon-interface+%281%29.png)
 
 Together, CloudCannon and Eleventy are an efficient solution to Cru Uncorked’s initial content publishing problem, thanks to Ed’s planning and foresight.
 
