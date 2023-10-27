@@ -23,6 +23,8 @@ seo:
 ---
 Ed Meehan, a <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner</a>, has been a solo freelance developer for the past ten years. He works with a range of web and design agencies, and undertakes contract development work with small, medium, and large companies, including Sun Bum and Intuit. From building sites to migrations, he’s done it all, and is particularly sensitive to finding technical solutions for clients with specific needs.
 
+![](https://cc-dam.imgix.net/ed-meehan-cs.png)
+
 It’s a common problem for a business to face: you have a beautiful static website, but no way to easily edit it without diving into the code. This is exactly the issue that developer Ed Meehan encountered with a new client. His solution was to bring their existing site to CloudCannon and configure the site to build with Eleventy, unblocking their team to create and edit new content on their existing site. But why did he choose CloudCannon?
 
 To begin with, Ed believes that most websites should be static content anyway, and felt that the original Jamstack approach — static-first content — was compelling.
@@ -32,6 +34,8 @@ To begin with, Ed believes that most websites should be static content anyway, a
 Not wanting to deal with WordPress updates or plugins was another factor, and Ed wanted a simple CMS solution for his client. While the client had initially approached him to help update their site, he knew that giving them the tools to create and update content themselves would be a better solution for everyone.
 
 That’s where CloudCannon’s approach to visual editing came in. Ed had been looking for an intuitive way for his clients to work — something simpler than refreshing previews in WordPress — and wanted to make sure his clients could immediately see the changes they were making, while they were editing.<!-- notionvc: c4f6ba92-32a5-40bc-b9e5-677009553fd3 -->
+
+![](https://cc-dam.imgix.net/ed-meehan-cs-cru.png)
 
 > I showed \[the client\] how to publish and how to build pages, and he pretty much took it from there. So I think it just shows that how intuitive the UI is on CloudCannon — it was pretty straightforward for him.
 
