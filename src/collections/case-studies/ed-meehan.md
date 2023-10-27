@@ -35,9 +35,9 @@ Not wanting to deal with WordPress updates or plugins was another factor, and Ed
 
 That’s where CloudCannon’s approach to visual editing came in. Ed had been looking for an intuitive way for his clients to work — something simpler than refreshing previews in WordPress — and wanted to make sure his clients could immediately see the changes they were making, while they were editing.<!-- notionvc: c4f6ba92-32a5-40bc-b9e5-677009553fd3 -->
 
-![](https://cc-dam.imgix.net/ed-meehan-cs-cru.png)
-
 > I showed \[the client\] how to publish and how to build pages, and he pretty much took it from there. So I think it just shows that how intuitive the UI is on CloudCannon — it was pretty straightforward for him.
+
+![](https://cc-dam.imgix.net/ed-meehan-cs-cru.png)
 
 CloudCannon’s support is another reason Ed loves the platform. His initial questions on configuring CloudCannon were answered quickly, and CloudCannon engineers also helped him integrate <a target="_blank" rel="noopener" href="https://imgix.com/">imgix</a> into his build flow. This integration means users can upload high-resolution images to the site, and they’re automatically resized, transformed, and optimized for performance.
 
