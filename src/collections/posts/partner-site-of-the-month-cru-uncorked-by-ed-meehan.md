@@ -2,12 +2,16 @@
 _schema: default
 title: 'Partner Site of the Month: Cru Uncorked, by Ed Meehan'
 breadcrumb_title:
-description:
+description: >-
+  Fast builds, visual editing, and the performance of static sites: why
+  developer Ed Meehan brought Cru Uncorked to CloudCannon and Eleventy.
 draft: true
 series: Partner Site of the Month
 image: https://cc-dam.imgix.net/partner-site-cru-uncorked (1).png
 date: 2023-10-30T05:00:00+13:00
 hide_publish_date: false
+tags:
+  - Agencies
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
 permalink: /blog/{{ title | slugify }}/
 cta:
