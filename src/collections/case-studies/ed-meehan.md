@@ -39,11 +39,13 @@ That’s where CloudCannon’s approach to visual editing came in. Ed had been l
 
 ![](https://cc-dam.imgix.net/ed-meehan-cs-cru.png)
 
-CloudCannon’s support is another reason Ed loves the platform. His initial questions on configuring CloudCannon were answered quickly, and CloudCannon engineers also helped him integrate <a target="_blank" rel="noopener" href="https://imgix.com/">imgix</a> into his build flow. This integration means users can upload high-resolution images to the site, and they’re automatically resized, transformed, and optimized for performance.
+CloudCannon’s support is another reason Ed loves the platform. His initial questions on configuring CloudCannon were answered quickly, and CloudCannon engineers also helped him integrate <a target="_blank" rel="noopener" href="https://imgix.com/">imgix</a> into his build flow. This integration means users can upload high-resolution images directly to the CMS, and they’re automatically resized, transformed, and optimized for performance.
 
 > I got a lot of really good customer support from CloudCannon. CloudCannon is awesome at following up and I loved it, because I've worked with other CMSs, and you just get a chat window. You don't get a person, so you don't really feel like anyone's going to solve your problem. I was really stoked to see that level of support from CloudCannon.
 
 And what’s next for Ed? Well, he’s a convert to the Git-based CMS approach, where site files and content can be stored in a repository that the user always owns: “I actually think that for these types of projects it's a much better choice. It definitely is more of a deciding factor for future projects, for sure.”
+
+![](https://cc-dam.imgix.net/ed-meehan-cs-cru-home.png)
 
 CloudCannon has made such an impact on Ed that he’s even considering switching his own website, <a target="_blank" rel="noopener" href="https://edmeehan.dev">edmeehan.dev</a>, over to the CMS.
 
