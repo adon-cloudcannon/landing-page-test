@@ -33,7 +33,7 @@ To begin with, Ed believes that most websites should be static content anyway, a
 
 Not wanting to deal with WordPress updates or plugins was another factor, and Ed wanted a simple CMS solution for his client. While the client had initially approached him to help update their site, he knew that giving them the tools to create and update content themselves would be a better solution for everyone.
 
-That’s where CloudCannon’s approach to visual editing came in. Ed had been looking for an intuitive way for his clients to work — something simpler than refreshing previews in WordPress — and wanted to make sure his clients could immediately see the changes they were making, while they were editing.<!-- notionvc: c4f6ba92-32a5-40bc-b9e5-677009553fd3 -->
+That’s where CloudCannon’s approach to visual editing came in. Ed had been looking for an intuitive way for his clients to work — something simpler than refreshing previews in WordPress — and wanted to make sure his clients could immediately see the changes they were making, while they were editing.
 
 > I showed \[the client\] how to publish and how to build pages, and he pretty much took it from there. So I think it just shows that how intuitive the UI is on CloudCannon — it was pretty straightforward for him.
 
@@ -52,5 +52,3 @@ CloudCannon has made such an impact on Ed that he’s even considering switching
 ## About Ed Meehan
 
 <a target="_blank" rel="noopener" href="https://edmeehan.dev/">Ed Meehan</a>, a <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">CloudCannon Partner</a>, develops and delivers websites built on the latest web technology, with a focus on modern frameworks and tools. For his clients that means faster page speeds, superior security, and the ability to handle high demand through scalability.
-
-<!-- notionvc: f0371b25-59c0-4920-b122-9f835935428f -->
