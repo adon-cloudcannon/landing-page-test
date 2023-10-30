@@ -8,7 +8,7 @@ description: >-
 draft: true
 series:
 image: https://cc-dam.imgix.net/responsive-tables-CC.png
-date: 2023-11-01T05:00:00+13:00
+date: 2023-11-02T05:00:00+13:00
 hide_publish_date: false
 tags:
   - Eleventy
@@ -46,7 +46,7 @@ We’ve already deployed it live to the CloudCannon website. Depending on your v
 
 {% bookshop 'markdown/youtube' title: "" id: "tKrJTc2DgbY" extend: false border: false %}
 
-Within the CloudCannon CMS, any content author can easily add this responsive table to their own page or blog post, just by adding a <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/editing-with-eleventy-shortcodes/">Snippet</a> (a.k.a. an Eleventy shortcode). This will lets editor build tables with a familiar table layout, with inline editing of the headers and data cells.
+Within the CloudCannon CMS, any content author can easily add this responsive table to their own page or blog post, just by adding a <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/editing-with-eleventy-shortcodes/">Snippet</a> (a.k.a. an Eleventy shortcode). This will lets editors build tables with a familiar table layout, with inline editing of the headers and data cells.
 
 ## How to add responsive tables on CloudCannon
 
