@@ -2,7 +2,9 @@
 _schema: default
 title: Adding a responsive HTML table to your CloudCannon site
 breadcrumb_title:
-description:
+description: >-
+  Add a responsive HTML table with the new web component <table-saw>, which
+  detects your viewport and renders the table accordingly.
 draft: true
 series:
 image:
@@ -12,7 +14,7 @@ tags:
   - Eleventy
   - Features
   - Resources
-author:
+author: a110034b-fb1b-44a0-bf3e-1b4aa5f4dfd8
 permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your Eleventy website today
