@@ -7,7 +7,7 @@ description: >-
   detects your viewport and renders the table accordingly.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/responsive-tables-CC.png
 date: 2023-11-01T05:00:00+13:00
 hide_publish_date: false
 tags:
