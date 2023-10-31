@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Adding a responsive HTML table to your static site
+title: New web component for responsive HTML tables
 breadcrumb_title:
 description: >-
   Add a responsive HTML table with the new web component <table-saw>, which
