@@ -79,7 +79,7 @@ _inputs:
 In order to access the new ‘Responsive Table’ Snippet in the toolbar, I’ve also added the following under `_snippets` in my `cloudcannon.config.yml` file:
 
 ```yaml
-	tablesaw:
+  tablesaw:
     template: eleventy_liquid_bookshop_component
     inline: false
     preview:
