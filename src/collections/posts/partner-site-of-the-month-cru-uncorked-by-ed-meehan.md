@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   Fast builds, visual editing, and the performance of static sites: why
   developer Ed Meehan brought Cru Uncorked to CloudCannon and Eleventy.
-draft: true
+draft: false
 series: Partner Site of the Month
 image: https://cc-dam.imgix.net/partner-site-cru-uncorked (1).png
 date: 2023-11-03T05:00:00+13:00

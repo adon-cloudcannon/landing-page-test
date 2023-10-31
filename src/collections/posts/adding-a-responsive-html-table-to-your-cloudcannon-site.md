@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   Add a responsive HTML table with the new web component <table-saw>, which
   detects your viewport and renders the table accordingly.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/responsive-tables-CC.png
 date: 2023-11-02T05:00:00+13:00
