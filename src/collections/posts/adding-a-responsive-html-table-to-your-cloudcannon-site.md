@@ -17,14 +17,14 @@ tags:
 author: a110034b-fb1b-44a0-bf3e-1b4aa5f4dfd8
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your Eleventy website today
+  title: Launch your website today
   body_text: >-
     Give your content team full autonomy on your developer-approved tech stack
     with CloudCannon.
   button:
     content:
-      link: https://app.cloudcannon.com/register?trial=cc_standard
-      text: Get started free!
+      link: https://cloudcannon.com/for-developers/
+      text: Find out more!
     styles:
       size:
       style: outline
@@ -42,7 +42,7 @@ As you’ll see in the demo, if we resize this container, it will re-render the 
 
 This is an open-source web component — try it out and use it on your own projects!
 
-We’ve already deployed it live to the CloudCannon website. Depending on your viewport size, you’ll see either the original tables rendering or a two-column layout; we’ve set a specific breakpoint for that swap.
+We’ve already deployed it live to the <a target="_blank" rel="noopener" href="https://cloudcannon.com">CloudCannon website</a>. Depending on your viewport size, you’ll see either the original tables rendering or a two-column layout; we’ve set a specific breakpoint for that swap.
 
 {% bookshop 'markdown/youtube' title: "" id: "tKrJTc2DgbY" extend: false border: false %}
 
