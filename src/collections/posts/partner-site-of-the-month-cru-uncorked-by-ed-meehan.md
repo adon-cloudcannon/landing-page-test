@@ -38,7 +38,7 @@ Cru Uncorked, a French restaurant near Cleveland, Ohio, already had a beautifull
 
 ## The problem
 
-Cru Uncorked update their menu seasonally, and also host events such as wine tastings and live music performances throughout the year. Wanting to keep their customers up to date, they tried several avenues — managing websites updates through an agency, which made for a lot of back-and-forth communication, and even bringing the task in-house, which required a restaurant employee who also had web development skills. Ultimately, neither approach was suitable for the restaurant, who simply needed an easy method to update their content, while maintaining the performance benefits of their existing static site.
+> Cru Uncorked update their menu seasonally, and also host events such as **wine** tastings and live music performances throughout the year. Wanting to keep their customers up to date, they tried several avenues — managing websites updates through an agency, which made for a lot of back-and-forth communication, and even bringing the task in-house, which required a restaurant employee who also had web development skills. Ultimately, neither approach was suitable for the restaurant, who simply needed an easy method to update their content, while maintaining the performance benefits of their existing static site.
 
 ## Visual editing and fast builds
 
