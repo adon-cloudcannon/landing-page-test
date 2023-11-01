@@ -103,6 +103,7 @@ content_blocks:
               efficiently, so you can rapidly iterate and publish new content
               and features — all with enterprise-level security and support.
           styles:
+            width: large
             desktop:
               text_alignment:
                 align: center
@@ -141,7 +142,6 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-            width: large
         - _bookshop_name: simple/button-holder
           content:
             button_blocks:
@@ -186,6 +186,8 @@ content_blocks:
             ontop:
             width: full
             desktop:
+              visibility:
+                hide: false
               transform:
                 scale: 1
                 translate_x: 0
@@ -196,8 +198,8 @@ content_blocks:
                 align_block: left
               margin:
                 top: 0
-                left: 0
                 bottom: 90
+                left: 0
                 right: 0
               position:
                 top: 0
@@ -205,6 +207,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             tablet:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -218,8 +223,8 @@ content_blocks:
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
+                left: 0
                 right: 0
               position:
                 active: false
@@ -228,6 +233,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             mobile:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -241,8 +249,8 @@ content_blocks:
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
+                left: 0
                 right: 0
               position:
                 active: false
@@ -538,6 +546,8 @@ content_blocks:
             ontop:
             width: tight
             desktop:
+              visibility:
+                hide: false
               transform:
                 scale: 1
                 translate_x: 0
@@ -555,6 +565,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             tablet:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -576,6 +589,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             mobile:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -599,6 +615,9 @@ content_blocks:
     styles:
       background:
       rounded: none
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -631,13 +650,11 @@ content_blocks:
           bottom: 0
           left: 0
         padding:
-          active: 'true'
+          active: false
           top: 30
           right: 0
           bottom: 90
           left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
       label: One platform
@@ -682,8 +699,11 @@ content_blocks:
           content:
             text_markdown: >-
               Operate at scale across large, distributed organizations and
-              within rigorous security frameworks with CloudCannon.
+              within rigorous security frameworks with CloudCannon. Aggregate
+              and syndicate your source files and site content across multiple
+              sites without GraphQL — all from a content lake you control.
           styles:
+            width: full
             desktop:
               text_alignment:
                 align: center
@@ -722,7 +742,6 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-            width: full
         - _bookshop_name: simple/cards
           content:
             cards:
@@ -852,6 +871,9 @@ content_blocks:
     styles:
       background: sky
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -889,8 +911,6 @@ content_blocks:
           right: 0
           bottom: 90
           left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
       label: Enterprise Plan
@@ -944,6 +964,7 @@ content_blocks:
                       discuss your needs and how CloudCannon will work perfectly
                       with your organization.
                   styles:
+                    width: full
                     desktop:
                       text_alignment:
                         align: left
@@ -982,7 +1003,6 @@ content_blocks:
                       block_alignment:
                         active: false
                         align_block: left
-                    width: full
             right:
               blocks:
                 - _bookshop_name: simple/heading
@@ -1067,20 +1087,75 @@ content_blocks:
                     size: big
                     dropdown_icon:
                       icon_path: solid/plus
+                      icon_color: midnight
                     active_dropdown_icon:
                       icon_path: solid/minus
+                      icon_color: midnight
                     desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
                       margin:
                         top: 0
+                        left: 0
                         bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
                     tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
                       margin:
+                        active: false
                         top: 0
+                        left: 0
                         bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
                     mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
                       margin:
+                        active: false
                         top: 0
+                        left: 0
                         bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
             desktop:
               columns:
@@ -1158,6 +1233,7 @@ content_blocks:
                     expert development services to support your business goals.
                     Let’s get started.
                 styles:
+                  width: full
                   desktop:
                     text_alignment:
                       align: center
@@ -1196,7 +1272,6 @@ content_blocks:
                     block_alignment:
                       active: false
                       align_block: left
-                  width: full
               - _bookshop_name: simple/button-holder
                 content:
                   button_blocks:
@@ -1234,6 +1309,9 @@ content_blocks:
           styles:
             background: cc-blue
             rounded: full
+            size: small
+            align: none
+            shadow: false
             desktop:
               margin:
                 top: 90
@@ -1271,11 +1349,12 @@ content_blocks:
                 right: 0
                 bottom: 90
                 left: 0
-            size: small
-            align: none
     styles:
       background: night
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -1313,6 +1392,4 @@ content_blocks:
           right: 0
           bottom: 90
           left: 0
-      size: normal
-      align: none
 ---
