@@ -50,7 +50,7 @@ CloudCannon’s merits quickly became obvious. It lets developers work rapidly a
 
 A further benefit is the integration of Netflix’s internal translation system into CloudCannon, which allows for the seamless translation of Netflix sites into more than 30 languages.
 
-Netflix has steadily moved more of its websites across to CloudCannon. In 2017 the effort stepped up with CloudCannon’s adoption by the Product Creative team, whose sites offer the welter of documentation that maintains relationships with Netflix’s creative agency partners.
+Netflix has steadily moved more of its websites across to CloudCannon, and has also started using Hugo and Next.js, as well as Jekyll. In 2017 the effort stepped up with CloudCannon’s adoption by the Product Creative team, whose sites offer the welter of documentation that maintains relationships with Netflix’s creative agency partners.
 
 > At Netflix, we cater to audiences all over the world. We need a CMS platform that can translate our sites to the 30+ languages Netflix supports. CloudCannon integrates with our internal translation workflows and makes the entire process seamless.
 
