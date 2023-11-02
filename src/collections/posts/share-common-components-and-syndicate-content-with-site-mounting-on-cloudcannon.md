@@ -90,7 +90,7 @@ We’d love to hear how you plan to use Site Mounting in your workflows, and how
 
 ---
 
-## Site Mounting grows with you
+## How Site Mounting grows with your CloudCannon plan
 
 Every CloudCannon Organization has access to Site Mounting, which includes mounting source files (e.g. shared components), and build triggers — when CloudCannon detects a commit to a source repository, all sites with that repo mounted will automatically rebuild.
 
