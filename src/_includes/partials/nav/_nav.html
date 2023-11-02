@@ -37,7 +37,7 @@
 				{{ '/src/images/icons/outline/magnifying-glass.svg' | svgContents }}
 			</button>
 		</div>
-		<div class="ml-3 hidden lg:block" x-data="{ loggedIn: false }" x-init="loggedIn = /^(.*;)?\s*signed_in\s*=\s*[^;]+(.*)?$/.test(document.cookie);">
+		<div class="ml-3 hidden lg:block" x-data="{ loggedIn: false }" x-init="loggedIn = /signed_in\s*=\s*true/.test(document.cookie);">
 			<div x-show="!loggedIn">
 				{% bookshop "helpers/button" text: "Log in" link: "https://app.cloudcannon.com/" style: "outline" %}
 				{% bookshop "helpers/button" text: "Get started" link: "https://app.cloudcannon.com/register?trial=cc_standard" style: "normal" extra_classes: "ml-1" %}

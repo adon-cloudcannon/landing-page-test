@@ -20,7 +20,7 @@
 		x-transition:leave-start="translate-x-0"
 		x-transition:leave-end="translate-x-full"
 	>
-		<div class="px-4 py-6 border-red-700 border-b border-solid border-opacity-[0.09]"  x-data="{ loggedIn: false }" x-init="loggedIn = /^(.*;)?\s*signed_in\s*=\s*[^;]+(.*)?$/.test(document.cookie);">
+		<div class="px-4 py-6 border-red-700 border-b border-solid border-opacity-[0.09]"  x-data="{ loggedIn: false }" x-init="loggedIn = /signed_in\s*=\s*true/.test(document.cookie);">
 			<div x-show="!loggedIn">
 				{% bookshop "helpers/button" text: "Log in" link: "https://app.cloudcannon.com/" style: "outline" extra_classes: "w-full block" %}
 				{% bookshop "helpers/button" text: "Get started" link: "https://app.cloudcannon.com/register?trial=cc_standard" style: "normal" extra_classes: "w-full mt-3 block" %}
