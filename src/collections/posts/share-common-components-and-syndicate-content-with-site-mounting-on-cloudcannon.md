@@ -32,7 +32,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-We’ve just added a super-early Christmas present for CloudCannon users: <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/site-mounting/">Site Mounting</a>, available right now for all CloudCannon developers on Standard, Team, and Enterprise plans.
+We’ve just added a super-early Christmas present for CloudCannon users: Site Mounting, available right now for all CloudCannon developers on Standard, Team, and Enterprise plans.
 
 By enabling Site Mounting with source files, you can easily reuse (’mount’) your centrally managed site components and shared layouts across multiple CloudCannon sites and keep these components on all of your sites up to date — all from one single source of truth.
 
@@ -54,18 +54,6 @@ You could also create a public/private crossover repository where your content c
 
 If you’re building for a large organization — a governmental agency, educational institution, or hospital network, for example, you may want your content to be syndicated across dozens or hundreds of sites. With Site Mounting this content can be edited from one single source of truth, and published to any number of sites whenever it is updated.
 
-## How to start using **Site Mounting**
-
-All CloudCannon developers on Standard, Team, and Enterprise plans have access to the Site Mounting feature immediately. Check out our new <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/site-mounting/">Site Mounting documentation</a> section to help you get started.
-
-![](https://cc-dam.imgix.net/documentation/images/site-mounting/2023-Q4/CloudCannon-Documentation-Add-Site-Mounting.png)
-
-Under your **Site Settings**, select **Site Mountings**. Here, you’ll be able to select a remote site and path to mount to your current site. In the above screenshot, you’ll see that I’ve mounted a remote site named ‘Website Components’ to my local site, selected the “Source files” artifact, and specifically connected my `/components` directory in the mounted site to the `/layouts/partials/components` directory in my current site.
-
-That’s all the setup I need to share my central site components from one CloudCannon site to another. Now, any time I update my central components in the remote site, every single site that mounts those components will rebuild automatically — CloudCannon handles all of the logic. I could even have dozens of different sites using different subsets of the same central components, and because I control every step, I’m able to select precisely which sites mount which components.
-
-Even better, CloudCannon’s Site Mounting detects changes specific to the mounted folder, only triggering a downstream build if that folder has changed.
-
 ## Aggregate your content by Site Mounting with build outputs
 
 In addition to mounting source files like components, CloudCannon users on Team and Enterprise plans can also mount build output files. This means with minimal configuration, developers can now manage a single static content hub aggregated from a suite of static sites — in essence a pre-generated headless API — all with complete control over every step of the process.
@@ -79,6 +67,28 @@ Once we mount these build outputs we can make them available as static files for
 However you set up Site Mounting, if a user edits any one of your mounted sites, this will trigger your content hub to re-aggregate your content, and rebuild any dependent sites — ensuring that your content is always up to date.
 
 Most importantly to us, it’s possible to do all of this while keeping absolute ownership of every piece of your content — with CloudCannon, your data is always yours, and it’s always portable.
+
+## How to start using **Site Mounting**
+
+All CloudCannon developers on Standard, Team, and Enterprise plans have access to the Site Mounting feature immediately. Check out our new <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/site-mounting/">Site Mounting documentation</a> section to help you get started.
+
+![](https://cc-dam.imgix.net/documentation/images/site-mounting/2023-Q4/CloudCannon-Documentation-Add-Site-Mounting.png)
+
+Under your **Site Settings**, select **Site Mountings**. Here, you’ll be able to select a remote site and path to mount to your current site. In the above screenshot, you’ll see that I’ve mounted a remote site named ‘Website Components’ to my local site, selected the “Source files” artifact, and specifically connected my `/components` directory in the mounted site to the `/layouts/partials/components` directory in my current site.
+
+That’s all the setup I need to share my central site components from one CloudCannon site to another. Now, any time I update my central components in the remote site, every single site that mounts those components will rebuild automatically — CloudCannon handles all of the logic. I could even have dozens of different sites using different subsets of the same central components, and because I control every step, I’m able to select precisely which sites mount which components.
+
+Even better, CloudCannon’s Site Mounting detects changes specific to the mounted folder, only triggering a downstream build if that folder has changed.
+
+## Let us know what you think!
+
+Site Mounting is an open-ended feature with a huge range of workflows that can be triggered from a single commit to a mounted repository. Any number of publishing actions can now be chained together with this feature. We’re excited to see what our power users will be able to build, and what kinds of problems they’ll now be able to solve.
+
+It’s a delight to be able to build out a feature that simplifies existing workflows for our customers, and also opens up a huge range of architectural possibilities for CloudCannon users.
+
+We’d love to hear how you plan to use Site Mounting in your workflows, and how CloudCannon can help you.
+
+---
 
 ## Site Mounting grows with you
 
@@ -111,13 +121,5 @@ On CloudCannon’s Enterprise Plan, we’ve really opened the floodgates for our
 * ​​​Make up to 500 Site Mounting Connections
 * Mount as many sources as you like to one site.
 * Includes build triggers
-
-## Let us know what you think!
-
-Site Mounting is an open-ended feature with a huge range of workflows that can be triggered from a single commit to a mounted repository. Any number of publishing actions can now be chained together with this feature. We’re excited to see what our power users will be able to build, and what kinds of problems they’ll now be able to solve.
-
-It’s a delight to be able to build out a feature that simplifies existing workflows for our customers, and also opens up a huge range of architectural possibilities for CloudCannon users.
-
-We’d love to hear how you plan to use Site Mounting in your workflows, and how CloudCannon can help you.
 
 <!-- notionvc: 7937cf17-ecc8-4be6-a893-fbb3830dcbb6 -->
