@@ -78,9 +78,9 @@ Most importantly to us, it’s possible to do all of this while keeping absolute
 
 All CloudCannon developers on Standard, Team, and Enterprise plans have access to the Site Mounting feature immediately. Check out our new <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/site-mounting/">Site Mounting documentation</a> section to help you get started.
 
-![](https://cc-dam.imgix.net/documentation/images/site-mounting/2023-Q4/CloudCannon-Documentation-Add-Site-Mounting.png)
+Under your **Site Settings**, select **Site Mountings**. Here, you’ll be able to select a remote site and path to mount to your current site. In the below screenshot, you’ll see that I’ve mounted a remote site named ‘Design System Components’ to my local site, selected the “Source files” artifact, and specifically connected my `/components` directory in the mounted site to the `/layouts/partials/components` directory in my current site.
 
-Under your **Site Settings**, select **Site Mountings**. Here, you’ll be able to select a remote site and path to mount to your current site. In the above screenshot, you’ll see that I’ve mounted a remote site named ‘Design System Components’ to my local site, selected the “Source files” artifact, and specifically connected my `/components` directory in the mounted site to the `/layouts/partials/components` directory in my current site.
+![](https://cc-dam.imgix.net/blog-site-mounting-screenshot-detail.png)
 
 That’s all the setup I need to share my central site components from one CloudCannon site to another. Now, any time I update my central components in the remote site, every single site that mounts those components will rebuild automatically — CloudCannon handles all of the logic. I could even have dozens of different sites using different subsets of the same central components, and because I control every step, I’m able to select precisely which sites mount which components.
 
