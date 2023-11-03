@@ -4,7 +4,11 @@ title: >-
   Share common components and syndicate content with Site Mounting on
   CloudCannon
 breadcrumb_title:
-description:
+description: >-
+  Introducing CloudCannon's new Site Mounting feature, which lets developers
+  reuse site files across multiple sites, and  manage a single static content
+  hub aggregated from a suite of static sites — in essence a pre-generated
+  headless API.
 draft: true
 series:
 image: ''
@@ -36,7 +40,7 @@ We’ve just added a super-early Christmas present for CloudCannon users: Site M
 
 By enabling Site Mounting with source files, you can easily reuse (’mount’) your centrally managed site components and shared layouts across multiple CloudCannon sites and keep these components on all of your sites up to date — all from one single source of truth.
 
-Site Mounting is a brand-new feature to help users who manage multiple sites with common components — or anyone who has (until now) been relying on Git sub-modules, build hooks, or custom APIs controlling rebuild cascades to manage their site dependencies.
+Site Mounting is a brand-new feature to help users who manage multiple sites with common components — or anyone who has (until now) been relying on Git submodules, build hooks, or custom APIs controlling rebuild cascades to manage their site dependencies.
 
 For CloudCannon developers on Team and Enterprise plans, Site Mounting also unlocks the ability to mount the build output of a site in addition to its source files. In effect, you’re now able to set up a pre-generated headless API without GraphQL, where you can aggregate content from multiple sites into a single content lake that *you* control — and from that single hub, you can publish to any number of separate sites.
 
@@ -62,7 +66,9 @@ Let’s take a look at how that would work. Rather than mounting every site to e
 
 Once we mount these build outputs we can make them available as static files for builds of our separate sites, and even choose to host the JSON files as an API for a classically headless approach. Because all paths are pre-generated, our sites remain fully static, and can simply reference the JSON data without needing to implement islands or dynamic content of any form.
 
-![](https://cc-dam.imgix.net/IMG_4183.jpg)On a smaller scale, you might see two static sites sharing each other’s data, where an update to data on site A triggers a rebuild on site B, and vice versa.
+\[IMAGE SHOWING AGGREGATION STEP\]
+
+On a smaller scale, you might see two static sites sharing each other’s data, where an update to data on site A triggers a rebuild on site B, and vice versa.
 
 However you set up Site Mounting, if a user edits any one of your mounted sites, this will trigger your content hub to re-aggregate your content, and rebuild any dependent sites — ensuring that your content is always up to date.
 
@@ -74,7 +80,7 @@ All CloudCannon developers on Standard, Team, and Enterprise plans have access t
 
 ![](https://cc-dam.imgix.net/documentation/images/site-mounting/2023-Q4/CloudCannon-Documentation-Add-Site-Mounting.png)
 
-Under your **Site Settings**, select **Site Mountings**. Here, you’ll be able to select a remote site and path to mount to your current site. In the above screenshot, you’ll see that I’ve mounted a remote site named ‘Website Components’ to my local site, selected the “Source files” artifact, and specifically connected my `/components` directory in the mounted site to the `/layouts/partials/components` directory in my current site.
+Under your **Site Settings**, select **Site Mountings**. Here, you’ll be able to select a remote site and path to mount to your current site. In the above screenshot, you’ll see that I’ve mounted a remote site named ‘Design System Components’ to my local site, selected the “Source files” artifact, and specifically connected my `/components` directory in the mounted site to the `/layouts/partials/components` directory in my current site.
 
 That’s all the setup I need to share my central site components from one CloudCannon site to another. Now, any time I update my central components in the remote site, every single site that mounts those components will rebuild automatically — CloudCannon handles all of the logic. I could even have dozens of different sites using different subsets of the same central components, and because I control every step, I’m able to select precisely which sites mount which components.
 
@@ -115,7 +121,7 @@ You also get access to build outputs through Site Mounting, enabling you to moun
 
 ### Enterprise Plan
 
-On CloudCannon’s Enterprise Plan, we’ve really opened the floodgates for our power users — the sky is the limit here!
+On CloudCannon’s [Enterprise Plan](/enterprise/), we’ve really opened the floodgates for our power users — the sky is the limit here!
 
 * Mount source files *and* build output files
 * ​​​Make up to 500 Site Mounting Connections
