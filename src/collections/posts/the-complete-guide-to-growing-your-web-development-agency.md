@@ -61,7 +61,7 @@ Start by identifying your agency’s most profitable and loyal clients or projec
 
 Next, it’s time for your web development agency to <a target="_blank" rel="noopener" href="https://blog.hubspot.com/marketing/buyer-persona-research">develop client personas</a> based on your high-value target market. A target persona is a fictional profile of a person who represents one of your key target audience groups based on the characteristics of your clients. Use the information gathered about your high-value niche to create detailed fictional characters that represent your agency’s ideal clients. Make sure to consider what business problem(s) each persona experiences and get crystal clear about how your agency solves their specific problem(s), meets their needs and requirements, and ultimately delights each persona.
 
-![Example user persona](https://cc-dam.imgix.net/User Persona 3 &#40;Dark&#41;@0.5x.jpg "User Persona")
+![Example user persona](https://cc-dam.imgix.net/Upersona.png "User Persona")
 
 The final step here is to tailor your web development agency’s marketing efforts and messages to resonate with your client personas. Conduct research, or even schedule a team-wide brainstorming session, to discover where and how you can attract your client personas. Think about the medium and the message: where can you get in front of these potential clients, what will attract their attention, and what will inspire them to take action? Evaluate both traditional and digital channels and choose the channels that best suit your agency’s client personas. Ensure that your message clearly points to a solution to your potential clients’ problems to help guide them through their <a target="_blank" rel="noopener" href="https://www.monash.edu/business/marketing/marketing-dictionary/b/buyer-decision-process">decision-making process</a>.
 
@@ -115,7 +115,7 @@ It is essential that you clearly and confidently communicate the value of your a
 
 Strong sales and negotiation skills lead to better deals, stronger relationships, and increased business success for your web development agency. Both sales and negotiation effectiveness heavily rely on your soft skills. These are your personal attributes, or interpersonal and behavioral skills, that help you interact well with others. Soft skills are more difficult to learn compared to hard (technical) skills, but they have a greater impact on your agency’s success in sales, contract negotiation, and building trust and loyalty.
 
-![Five pillars of emotional intelligence](https://cc-dam.imgix.net/Emotional Intelligence.png "Emotional Intelligence")
+![Five pillars of emotional intelligence](https://cc-dam.imgix.net/EQ.png "Emotional Intelligence")
 
 ### Emotional intelligence and empathy quotient
 
