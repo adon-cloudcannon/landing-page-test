@@ -2,34 +2,36 @@
 _schema: default
 title: The complete guide to growing your web development agency
 breadcrumb_title: Growing your web development agency
-description:
+description: >-
+  Learn how to grow your web development agency by attracting more clients,
+  delivering more value, and ultimately increasing revenue.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/Agency.png
 date: 2023-11-14T05:04:00+13:00
-hide_publish_date: true
+hide_publish_date: false
 tags:
   - Agencies
   - Resources
 author: 8be0c187-5378-43bd-9a1e-85ed1c49b51d
 permalink: /blog/{{ title | slugify }}/
 cta:
-  title: Launch your website today
+  title: Join CloudCannon's Partner Program
   body_text: >-
-    Give your content team full autonomy on your developer-approved tech stack
-    with CloudCannon.
+    As you bring on new clients, you'll unlock exclusive benefits and savings
+    for you and your clients.
   button:
     content:
-      link: https://app.cloudcannon.com/register?trial=cc_standard
-      text: Get started free!
+      link: https://cloudcannon.com/partner-program/
+      text: Become a Partner!
     styles:
       size:
       style: outline
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/Agency.png
+  featured_image_alt: Guide to growing your web development agency
 ---
 With <a target="_blank" rel="noopener" href="https://www.zippia.com/advice/online-business-statistics/">81% of consumers</a> choosing to research online prior to making a purchase, business owners are investing more in their online presence. As a web development agency, you can assist these businesses by building, updating, or maintaining well-designed websites to help your clients attract new customers, increase sales, and improve overall brand awareness.
 
