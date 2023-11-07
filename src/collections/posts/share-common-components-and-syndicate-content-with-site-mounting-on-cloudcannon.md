@@ -1,8 +1,6 @@
 ---
 _schema: default
-title: >-
-  Share common components and syndicate content with Site Mounting on
-  CloudCannon
+title: Share common components and syndicate content with Site Mounting
 breadcrumb_title:
 description: >-
   Introducing CloudCannon's new Site Mounting feature, which lets developers
