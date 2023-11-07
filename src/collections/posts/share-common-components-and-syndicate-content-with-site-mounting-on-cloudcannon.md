@@ -52,7 +52,7 @@ Site Mounting solves all of these problems immediately — and because it’s an
 
 You might, for example, have a single Git repo with your header and footer components, and want to reuse these across multiple sites. Here’s Zach Leatherman’s solution for that particular issue:
 
-{% bookshop 'markdown/youtube' title: "" id: "owOUiCeFkAE" extend: false border: false %}
+{% bookshop 'markdown/youtube' title: "" id: "IwZf9VdQbKo" extend: false border: false %}
 
 You could also create a public/private crossover repository where your content could be community moderated and edited, and then mounted into a private repo. This way, your source code and / or project files can remain entirely private, while your community can manage and edit your documentation or other public site content — the best of both worlds. (You might equally mount a private repo onto a public site in order to use a proprietary plugin — it’s entirely up to you!)
 
