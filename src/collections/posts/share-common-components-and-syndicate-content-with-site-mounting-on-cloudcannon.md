@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Share common components and syndicate content with Site Mounting
+title: Share components and syndicate content with Site Mounting
 breadcrumb_title:
 description: >-
   Introducing CloudCannon's new Site Mounting feature, which lets developers
@@ -64,7 +64,7 @@ Let’s take a look at how that would work. Rather than mounting every site to e
 
 Once we mount these build outputs we can make them available as static files for builds of our separate sites, and even choose to host the JSON files as an API for a classically headless approach. Because all paths are pre-generated, our sites remain fully static, and can simply reference the JSON data without needing to implement islands or dynamic content of any form.
 
-![](https://cc-dam.imgix.net/blog-site-mounting-2.png)
+![](https://cc-dam.imgix.net/blog-site-mounting-2-r.png)
 
 On a smaller scale, you might see two static sites sharing each other’s data, where an update to data on site A triggers a rebuild on site B, and vice versa.
 
