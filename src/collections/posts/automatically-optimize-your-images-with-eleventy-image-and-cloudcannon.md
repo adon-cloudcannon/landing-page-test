@@ -88,7 +88,7 @@ In this way, we get the best of both worlds. Our editors can upload images of an
 
 <!-- notionvc: bf55b902-993a-4829-b2db-946ba4118060 -->
 
-## Show me the Code
+## Show me the code
 
 And if we go back to the [source code of the project](https://github.com/zachleat/demo-cloudcannon-image-optimization), we can see it in action.
 
