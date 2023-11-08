@@ -64,7 +64,7 @@ Let’s take a look at how that would work. Rather than mounting every site to e
 
 Once we mount these build outputs we can make them available as static files for builds of our separate sites, and even choose to host the JSON files as an API for a classically headless approach. Because all paths are pre-generated, our sites remain fully static, and can simply reference the JSON data without needing to implement islands or dynamic content of any form.
 
-<p class="center-text"><img alt="Diagram showing the flow from a Content Lake / API to dependent sites" src="https://cc-dam.imgix.net/content-lake-diagram.svg" /></p>
+<p class="center-text"><img alt="Diagram showing the flow from a Content Lake / API to dependent sites" src="https://cc-dam.imgix.net/large-content-lake diagram.png" /></p>
 
 On a smaller scale, you might see two static sites sharing each other’s data, where an update to data on site A triggers a rebuild on site B, and vice versa.
 
