@@ -7,10 +7,10 @@ description: >-
   reuse site files across multiple sites, and  manage a single static content
   hub aggregated from a suite of static sites — in essence a pre-generated
   headless API.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/site-mounting-hero.png
-date: 2023-11-10T05:00:00+13:00
+date: 2023-11-09T05:00:00+13:00
 hide_publish_date: false
 tags:
   - Features
