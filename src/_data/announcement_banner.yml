@@ -2,7 +2,7 @@ announcement_banner_content: >-
   💥 New feature: <a
   href="https://cloudcannon.com/blog/share-components-and-syndicate-content-with-site-mounting/?utm_campaign=Site%20Mounting%20Launch&utm_source=banner">Share
   components and syndicate content with Site Mounting</a>
-color: sea
+color: cloudcannon-blue
 _inputs:
   color:
     type: select
