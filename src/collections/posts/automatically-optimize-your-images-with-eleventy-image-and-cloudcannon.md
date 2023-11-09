@@ -34,7 +34,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Websites are becoming increasingly visual and we're adding more and more image content to our sites—but these images need to be optimized.
+Websites are becoming increasingly visual. We're adding more and more image content to our sites: HTTP Archive reports that in October 2023, the median desktop page weight contained 1016 KB of image content (868 KB on mobile). To save bandwidth costs for both visitors and the folks that pay the hosting bills—these images should be optimized!
 
 [Eleventy’s Image](https://www.11ty.dev/docs/plugins/image/) utility is one good way to optimize images efficiently. It's a low-level utility (it doesn’t require Eleventy) and can perform build time transformations of your vector and raster images and it will also generate the `<picture>` or `<img>` markup too—no one likes writing overly complex picture syntax.
 
@@ -46,7 +46,7 @@ Similarly, in a CloudCannon project it's very easy to add an image upload compon
 
 ## Optimizing large raster images
 
-One common problem when anyone can image content to the site: folks will upload very large source images. Here's an example from the James Webb Space Telescope. This image of the Carina Nebula from [NASA.gov](http://nasa.gov/) weighs in at about 17 MB.
+When anyone on the team can add image content to the site, they also have the freedom to upload very large source images. Here's an example from the James Webb Space Telescope. This image of the Carina Nebula from [NASA.gov](http://nasa.gov/) weighs in at about 17 MB.
 
 ![](https://cc-dam.imgix.net/ONZw4QWeM9-1600.jpeg)
 
@@ -56,7 +56,7 @@ The original source image was a 17 MB PNG with dimensions of 4256 × 2465. Eleve
 
 The web browser then uses the `<picture>` element (through the provided markup) to decide which of these is best to load for a specific rendered size on a specific device (factoring in the device pixel ratio of the screen, too).
 
-For this demo I’ve included a little utility that will output the generated image files into a table below the image and the variation that was selected by the web browser for rendering is highlighted in the table with an outline.
+I’ve included a little utility with this demo that will output a table of generated image files and will also denote the table row for the image that was selected by the web browser with an outline.
 
 You can resize your browser window (or change your mobile device’s orientation, or even dive into your browser’s [devtools and change the emulated device pixel ratio](https://developer.chrome.com/docs/devtools/device-mode/#dpr)) to see the currently loaded image change. It’s interesting to note that both Safari and Chrome won’t load a lower quality image when a higher resolution has already been loaded—Firefox will, however.
 
@@ -66,7 +66,7 @@ With larger raster images solved, we move forward to think about vector images. 
 
 In the rendered demo, we can see that Eleventy Image has resized the SVG and converted it into raster formats of much smaller file size (2.43%–40.33% of the original).
 
-On a small viewport (depending on your device’s pixel ratio) the browser is likely to load either the 3.4 kB or the 8.2 kB AVIF instead of the original 140KB SVG—a huge savings in user and site bandwidth.
+On a small viewport (depending on your device’s pixel ratio) the browser is likely to load either the 3.4 kB or the 8.2 kB AVIF instead of the original 140 kB SVG—a huge savings in user and site bandwidth.
 
 Here we’ve shown that Eleventy Image can solved the problem of editors uploading very large raster images and very large vector images, but why not go a little bit further?
 
