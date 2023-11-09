@@ -7,7 +7,7 @@ description: >-
   content to our sites—but these images need to be optimized. 
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/Image optimisation (1).png
 date: 2023-11-15T00:00:00+13:00
 hide_publish_date: false
 tags:
