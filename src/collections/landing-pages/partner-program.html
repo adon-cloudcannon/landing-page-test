@@ -105,6 +105,7 @@ content_blocks:
               effectively. As you bring on new clients, you'll unlock exclusive
               benefits and savings for you and your clients.
           styles:
+            width: large
             desktop:
               text_alignment:
                 align: center
@@ -143,7 +144,6 @@ content_blocks:
               block_alignment:
                 active: false
                 align_block: left
-            width: large
         - _bookshop_name: simple/button-holder
           content:
             button_blocks:
@@ -186,7 +186,10 @@ content_blocks:
             border:
             rounded:
             ontop:
+            width: full
             desktop:
+              visibility:
+                hide: false
               transform:
                 scale: 1.4
                 translate_x: 0
@@ -197,8 +200,8 @@ content_blocks:
                 align_block: center
               margin:
                 top: 140
-                left: 0
                 bottom: 20
+                left: 0
                 right: 0
               position:
                 top: 0
@@ -206,6 +209,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             tablet:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -219,8 +225,8 @@ content_blocks:
               margin:
                 active: false
                 top: 0
-                left: 0
                 bottom: 0
+                left: 0
                 right: 0
               position:
                 active: false
@@ -229,6 +235,9 @@ content_blocks:
                 bottom: 0
                 right: 0
             mobile:
+              visibility:
+                active: false
+                hide: false
               transform:
                 active: false
                 scale: 1
@@ -242,8 +251,8 @@ content_blocks:
               margin:
                 active: true
                 top: 60
-                left: 0
                 bottom: 60
+                left: 0
                 right: 0
               position:
                 active: false
@@ -590,6 +599,7 @@ content_blocks:
       rounded: none
       size: normal
       align:
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -811,7 +821,9 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Exclusive pricing plan for Partners
+                    text: >-
+                      <a id="partner-pricing"></a>Exclusive pricing plan for
+                      Partners
                   styles:
                     element: h3
                     width: normal
@@ -898,11 +910,11 @@ content_blocks:
                       - name: Lite
                         price: '10'
                         description:
-                        featured:
                         cta:
                           text: Join the Partner Program
                           style: normal
                           link: '#partner-signup'
+                        featured:
                         feature_heading: 'Lite plan includes:'
                         features:
                           - description: 1 user included; add more for $10
@@ -964,6 +976,7 @@ content_blocks:
       rounded: top
       size: normal
       align:
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -1215,6 +1228,9 @@ content_blocks:
     styles:
       background: white
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -1252,8 +1268,6 @@ content_blocks:
           right: 0
           bottom: 90
           left: 0
-      size: normal
-      align: none
   - _bookshop_name: sections/container
     content:
       label: Form
@@ -1326,6 +1340,7 @@ content_blocks:
             rounded: full
             size: small
             align: center
+            shadow: false
             desktop:
               margin:
                 top: 90
@@ -1366,6 +1381,9 @@ content_blocks:
     styles:
       background: cc-blue
       rounded: top
+      size: normal
+      align: none
+      shadow: false
       desktop:
         margin:
           top: 0
@@ -1403,6 +1421,4 @@ content_blocks:
           right: 0
           bottom: 90
           left: 0
-      size: normal
-      align: none
 ---
