@@ -36,17 +36,17 @@ seo:
 ---
 Websites are becoming increasingly visual. We're adding more and more image content to our sites: HTTP Archive reports that in October 2023, the median desktop page weight contained 1016 KB of image content (868 KB on mobile). To save bandwidth costs for both visitors and the folks that pay the hosting bills — these images should be optimized!
 
-[Eleventy’s Image](https://www.11ty.dev/docs/plugins/image/) utility is one good way to optimize images efficiently. It's a low-level utility (it doesn’t require Eleventy) and can perform build time transformations of your vector and raster images and it will also generate the `<picture>` or `<img>` markup too — no one likes writing overly complex picture syntax.
+<a target="_blank" rel="noopener" href="https://www.11ty.dev/docs/plugins/image/">Eleventy’s Image</a> utility is one good way to optimize images efficiently. It's a low-level utility (it doesn’t require Eleventy) and can perform build time transformations of your vector and raster images and it will also generate the `<picture>` or `<img>` markup too — no one likes writing overly complex picture syntax.
 
 Eleventy Image also generates an assortment of output images at differing sizes and formats to provide the best visual experience to accommodate a wide variety of devices and viewport sizes.
 
-Similarly, in a CloudCannon project it's very easy to add an image upload component to your site to give technical and non-technical editors an easy way to add image content to your web site. You can see both of these pieces put together in this very quick and focused [sample project](https://github.com/zachleat/demo-cloudcannon-image-optimization).
+Similarly, in a CloudCannon project it's very easy to add an image upload component to your site to give technical and non-technical editors an easy way to add image content to your web site. You can see both of these pieces put together in this very quick and focused <a target="_blank" rel="noopener" href="https://github.com/zachleat/demo-cloudcannon-image-optimization">sample project</a>.
 
 {% bookshop 'markdown/youtube' title: "Stop worrying about huge image uploads with Eleventy Image and CloudCannon" id: "Dsd831CSazA" extend: false border: false %}
 
 ## Optimizing large raster images
 
-When anyone on the team can add image content to the site, they also have the freedom to upload very large source images. Here's an example from the James Webb Space Telescope. This image of the Carina Nebula from [NASA.gov](http://nasa.gov/) weighs in at about 17 MB.
+When anyone on the team can add image content to the site, they also have the freedom to upload very large source images. Here's an example from the James Webb Space Telescope. This image of the Carina Nebula from <a target="_blank" rel="noopener" href="http://nasa.gov/">NASA.gov</a> weighs in at about 17 MB.
 
 ![](https://cc-dam.imgix.net/ONZw4QWeM9-1600.jpeg)
 
@@ -58,11 +58,11 @@ The web browser then uses the `<picture>` element (through the provided markup) 
 
 I’ve included a little utility with this demo that will output a table of generated image files and will also denote the table row for the image that was selected by the web browser with an outline.
 
-You can resize your browser window (or change your mobile device’s orientation, or even dive into your browser’s [devtools and change the emulated device pixel ratio](https://developer.chrome.com/docs/devtools/device-mode/#dpr)) to see the currently loaded image change. It’s interesting to note that both Safari and Chrome won’t load a lower quality image when a higher resolution has already been loaded — Firefox will, however.
+You can resize your browser window (or change your mobile device’s orientation, or even dive into your browser’s <a target="_blank" rel="noopener" href="https://developer.chrome.com/docs/devtools/device-mode/#dpr">devtools and change the emulated device pixel ratio</a>) to see the currently loaded image change. It’s interesting to note that both Safari and Chrome won’t load a lower quality image when a higher resolution has already been loaded — Firefox will, however.
 
 ## Optimizing large vector images
 
-With larger raster images solved, we move forward to think about vector images. What happens when we upload a large SVG? One common example I like to use is the flag of Mexico — a very detailed and open source [SVG image from Wikimedia](https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg). The original source image is about 140 kB.
+With larger raster images solved, we move forward to think about vector images. What happens when we upload a large SVG? One common example I like to use is the flag of Mexico — a very detailed and open source <a target="_blank" rel="noopener" href="https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg">SVG image from Wikimedia</a>. The original source image is about 140 kB.
 
 In the rendered demo, we can see that Eleventy Image has resized the SVG and converted it into raster formats of much smaller file size (2.43%–40.33% of the original).
 
@@ -90,7 +90,7 @@ In this way, we get the best of both worlds. Our editors can upload images of an
 
 ## Show me the code
 
-And if we go back to the [source code of the project](https://github.com/zachleat/demo-cloudcannon-image-optimization), we can see it in action.
+And if we go back to the <a target="_blank" rel="noopener" href="https://github.com/zachleat/demo-cloudcannon-image-optimization">source code of the project</a>, we can see it in action.
 
 In `eleventy.config.js` we have our image shortcode here that calls Eleventy Image:
 
@@ -124,7 +124,7 @@ module.exports = function(eleventyConfig) {
 
 Here we show four different output image formats `formats: ["avif", "webp", "svg", "jpeg"]` (noting that SVG will be ignored for raster image inputs), and three different image sizes `widths: [400, 800, 1600]`.
 
-You’ll also see [`svgShortCircuit` feature](https://www.11ty.dev/docs/plugins/image/#skip-raster-formats-for-svg), which will mix and match raster and vector depending on what the best performance experience is.
+You’ll also see <a target="_blank" rel="noopener" href="https://www.11ty.dev/docs/plugins/image/#skip-raster-formats-for-svg"><code>svgShortCircuit</code> feature</a>, which will mix and match raster and vector depending on what the best performance experience is.
 
 ## More CloudCannon Tips
 
@@ -132,16 +132,16 @@ You’ll also see [`svgShortCircuit` feature](https://www.11ty.dev/docs/plugins/
 
 One more quick tip worth sharing here: you can add your image output folder — the one that we're using to write the built images to — and you can preserve that between builds.
 
-If we save this folder in our [Preserved Paths](https://cloudcannon.com/documentation/articles/caching-specific-folders-to-reduce-build-times/#preserved-paths) in our CloudCannon configuration, when CloudCannon runs the build it won't have to start over from scratch to generate those output images.
+If we save this folder in our <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/caching-specific-folders-to-reduce-build-times/#preserved-paths">Preserved Paths</a> in our CloudCannon configuration, when CloudCannon runs the build it won't have to start over from scratch to generate those output images.
 
 ### Resize on upload
 
-If you already know the aspect ratio of the desired images you can specify a [width and height in the CloudCannon image upload component configuration](https://cloudcannon.com/documentation/articles/using-upload-inputs-to-edit-your-data/#width). You can also specify a `resize_style`&nbsp;— if you’ve used CSS `object-fit` this will look very familiar to you.
+If you already know the aspect ratio of the desired images you can specify a <a target="_blank" rel="noopener" href="https://cloudcannon.com/documentation/articles/using-upload-inputs-to-edit-your-data/#width">width and height in the CloudCannon image upload component configuration</a>. You can also specify a `resize_style`&nbsp;— if you’ve used CSS `object-fit` this will look very familiar to you.
 
 This feature resizes the image on upload so that the image stored in your repository is smaller, which is very handy for improving build performance to
 
 ### Adding image width and height attributes automatically
 
-Eleventy Image will specify width and height attributes for you, but if you’re not using Eleventy — CloudCannon will add the width and height attributes to your images too. Using these attributes will [reduce layout shift when the images are loading](https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/#check-the-images-width-and-height-attributes-in-the-html).
+Eleventy Image will specify width and height attributes for you, but if you’re not using Eleventy — CloudCannon will add the width and height attributes to your images too. Using these attributes will <a target="_blank" rel="noopener" href="https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/#check-the-images-width-and-height-attributes-in-the-html">reduce layout shift when the images are loading</a>.
 
 <!-- notionvc: a4da286a-ee0f-45e0-8915-31e49ff3a069 -->
