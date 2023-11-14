@@ -1,32 +1,37 @@
 ---
-draft: false
-title: What is a Git-based CMS?
+_schema: default
+title: 'Evolution of the CMS: why the future of content management is Git-based'
+breadcrumb_title: Evolution of the Git-based CMS
 description: >-
   If Git is such a powerful, game-changing tool, why is it only used by
   developers? What other industries and workflows could be transformed with this
   technology? This is precisely the problem Git-based CMSs are addressing.
+draft: false
 series:
+image: https://cc-dam.imgix.net/what-is-a-git-cms.jpg
+date: 2022-03-16T05:00:00+13:00
+hide_publish_date: false
+tags:
+  - Resources
+author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
+permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/what-is-a-git-cms.jpg
-date: 2022-03-16T05:00:00+1300
-tags:
-  - Resources
-author: a5f00346-90df-4d69-9ce1-d9e4c8e51b10
-ssg_frameworks:
 categories:
   - resources
 ---
