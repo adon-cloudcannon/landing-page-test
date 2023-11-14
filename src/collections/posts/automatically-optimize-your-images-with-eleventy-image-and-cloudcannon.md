@@ -4,7 +4,7 @@ title: Automatically optimize your images with Eleventy Image and CloudCannon
 breadcrumb_title: Image Optimization
 description: >-
   Websites are becoming increasingly visual and we're adding more and more image
-  content to our sites—but these images need to be optimized. 
+  content to our sites — but these images need to be optimized. 
 draft: true
 series:
 image: https://cc-dam.imgix.net/Image optimisation (1).png
@@ -34,9 +34,9 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-Websites are becoming increasingly visual. We're adding more and more image content to our sites: HTTP Archive reports that in October 2023, the median desktop page weight contained 1016 KB of image content (868 KB on mobile). To save bandwidth costs for both visitors and the folks that pay the hosting bills—these images should be optimized!
+Websites are becoming increasingly visual. We're adding more and more image content to our sites: HTTP Archive reports that in October 2023, the median desktop page weight contained 1016 KB of image content (868 KB on mobile). To save bandwidth costs for both visitors and the folks that pay the hosting bills — these images should be optimized!
 
-[Eleventy’s Image](https://www.11ty.dev/docs/plugins/image/) utility is one good way to optimize images efficiently. It's a low-level utility (it doesn’t require Eleventy) and can perform build time transformations of your vector and raster images and it will also generate the `<picture>` or `<img>` markup too—no one likes writing overly complex picture syntax.
+[Eleventy’s Image](https://www.11ty.dev/docs/plugins/image/) utility is one good way to optimize images efficiently. It's a low-level utility (it doesn’t require Eleventy) and can perform build time transformations of your vector and raster images and it will also generate the `<picture>` or `<img>` markup too — no one likes writing overly complex picture syntax.
 
 Eleventy Image also generates an assortment of output images at differing sizes and formats to provide the best visual experience to accommodate a wide variety of devices and viewport sizes.
 
@@ -58,15 +58,15 @@ The web browser then uses the `<picture>` element (through the provided markup) 
 
 I’ve included a little utility with this demo that will output a table of generated image files and will also denote the table row for the image that was selected by the web browser with an outline.
 
-You can resize your browser window (or change your mobile device’s orientation, or even dive into your browser’s [devtools and change the emulated device pixel ratio](https://developer.chrome.com/docs/devtools/device-mode/#dpr)) to see the currently loaded image change. It’s interesting to note that both Safari and Chrome won’t load a lower quality image when a higher resolution has already been loaded—Firefox will, however.
+You can resize your browser window (or change your mobile device’s orientation, or even dive into your browser’s [devtools and change the emulated device pixel ratio](https://developer.chrome.com/docs/devtools/device-mode/#dpr)) to see the currently loaded image change. It’s interesting to note that both Safari and Chrome won’t load a lower quality image when a higher resolution has already been loaded — Firefox will, however.
 
 ## Optimizing large vector images
 
-With larger raster images solved, we move forward to think about vector images. What happens when we upload a large SVG? One common example I like to use is the flag of Mexico—a very detailed and open source [SVG image from Wikimedia](https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg). The original source image is about 140 kB.
+With larger raster images solved, we move forward to think about vector images. What happens when we upload a large SVG? One common example I like to use is the flag of Mexico — a very detailed and open source [SVG image from Wikimedia](https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg). The original source image is about 140 kB.
 
 In the rendered demo, we can see that Eleventy Image has resized the SVG and converted it into raster formats of much smaller file size (2.43%–40.33% of the original).
 
-On a small viewport (depending on your device’s pixel ratio) the browser is likely to load either the 3.4 kB or the 8.2 kB AVIF instead of the original 140 kB SVG—a huge savings in user and site bandwidth.
+On a small viewport (depending on your device’s pixel ratio) the browser is likely to load either the 3.4 kB or the 8.2 kB AVIF instead of the original 140 kB SVG — a huge savings in user and site bandwidth.
 
 Here we’ve shown that Eleventy Image can solved the problem of editors uploading very large raster images and very large vector images, but why not go a little bit further?
 
@@ -82,7 +82,7 @@ In this example you can see that we have the 400w JPEG, WebP, and AVIF sizes, bu
 
 The vector image is treated as a progressive enhancement that we've layered on top of the raster image baseline that we've set to improve our web performance. The larger our viewport gets, the bigger the rendered image, and so the more likely that the picture element will swap to the SVG.
 
-For smaller SVG files where all of the raster images are larger than the SVG input—no raster images would be included in the output and only the SVG would be used.
+For smaller SVG files where all of the raster images are larger than the SVG input — no raster images would be included in the output and only the SVG would be used.
 
 In this way, we get the best of both worlds. Our editors can upload images of any size, vector or raster, and we'll optimize those in the output. Visitors get streamlined, optimized image loading with very little programmatic configuration.
 
@@ -130,18 +130,18 @@ You’ll also see [`svgShortCircuit` feature](https://www.11ty.dev/docs/plugins/
 
 ### Save time with preserved paths on CloudCannon
 
-One more quick tip worth sharing here: you can add your image output folder—the one that we're using to write the built images to—and you can preserve that between builds.
+One more quick tip worth sharing here: you can add your image output folder — the one that we're using to write the built images to — and you can preserve that between builds.
 
 If we save this folder in our [Preserved Paths](https://cloudcannon.com/documentation/articles/caching-specific-folders-to-reduce-build-times/#preserved-paths) in our CloudCannon configuration, when CloudCannon runs the build it won't have to start over from scratch to generate those output images.
 
 ### Resize on upload
 
-If you already know the aspect ratio of the desired images you can specify a [width and height in the CloudCannon image upload component configuration](https://cloudcannon.com/documentation/articles/using-upload-inputs-to-edit-your-data/#width). You can also specify a `resize_style`—if you’ve used CSS `object-fit` this will look very familiar to you.
+If you already know the aspect ratio of the desired images you can specify a [width and height in the CloudCannon image upload component configuration](https://cloudcannon.com/documentation/articles/using-upload-inputs-to-edit-your-data/#width). You can also specify a `resize_style`&nbsp;— if you’ve used CSS `object-fit` this will look very familiar to you.
 
 This feature resizes the image on upload so that the image stored in your repository is smaller, which is very handy for improving build performance to
 
 ### Adding image width and height attributes automatically
 
-Eleventy Image will specify width and height attributes for you, but if you’re not using Eleventy—CloudCannon will add the width and height attributes to your images too. Using these attributes will [reduce layout shift when the images are loading](https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/#check-the-images-width-and-height-attributes-in-the-html).
+Eleventy Image will specify width and height attributes for you, but if you’re not using Eleventy — CloudCannon will add the width and height attributes to your images too. Using these attributes will [reduce layout shift when the images are loading](https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/#check-the-images-width-and-height-attributes-in-the-html).
 
 <!-- notionvc: a4da286a-ee0f-45e0-8915-31e49ff3a069 -->
