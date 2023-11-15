@@ -99,26 +99,26 @@ const path = require("node:path");
 const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
-	eleventyConfig.addShortcode("image", async (srcFilePath, alt, sizes) => {
+  eleventyConfig.addShortcode("image", async (srcFilePath, alt, sizes) => {
     // Make the image relative to the input directory
-		let inputFilePath = path.join(eleventyConfig.dir.input, srcFilePath);
+    let inputFilePath = path.join(eleventyConfig.dir.input, srcFilePath);
 
-		let metadata = await Image(inputFilePath, {
-			widths: [400, 800, 1600],
-			formats: ["avif", "webp", "svg", "jpeg"],
-			outputDir: "./_site/optimized/",
-			urlPath: "/optimized/",
-		  svgShortCiruit: "size",
-			// svgCompressionSize: "br",
-		});
+    let metadata = await Image(inputFilePath, {
+      widths: [400, 800, 1600],
+      formats: ["avif", "webp", "svg", "jpeg"],
+      outputDir: "./_site/optimized/",
+      urlPath: "/optimized/",
+      svgShortCiruit: "size",
+      // svgCompressionSize: "br",
+    });
 
-		return Image.generateHTML(metadata, {
-			alt,
-			sizes,
-			loading: "eager",
-			decoding: "async",
-		});
-	});
+    return Image.generateHTML(metadata, {
+      alt,
+      sizes,
+      loading: "eager",
+      decoding: "async",
+    });
+  });
 };
 ```
 
