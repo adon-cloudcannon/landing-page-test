@@ -5,7 +5,7 @@ breadcrumb_title: What is a Git-based CMS
 description: >-
   Learn how to revolutionize your publishing workflow with a Git-based CMS's
   full version control and simplified collaboration capabilities.
-draft: false
+draft: true
 series:
 image:
 date: 2023-11-21T05:01:00+13:00
