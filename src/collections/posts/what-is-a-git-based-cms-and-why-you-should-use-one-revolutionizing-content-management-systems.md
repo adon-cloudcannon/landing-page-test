@@ -7,7 +7,7 @@ description: >-
   full version control and simplified collaboration capabilities.
 draft: true
 series:
-image: https://cc-dam.imgix.net/WhatisGitbased.png
+image: https://cc-dam.imgix.net/WhatisGitbased2.png
 date: 2023-11-21T05:01:00+13:00
 hide_publish_date: false
 tags:
@@ -29,7 +29,7 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/WhatisGitbased.png
+  featured_image: https://cc-dam.imgix.net/WhatisGitbased2.png
   featured_image_alt: What is a Git-based CMS
 ---
 Your content management system (CMS) is arguably the most powerful publishing tool in your workflow. Content management systems make it possible for non-technical editors to create, maintain, and edit content on their websites. The right CMS should empower marketers and content editors to do their jobs more independently, and efficiently. Yet many traditional CMS platforms leave marketing teams and content teams feeling frustrated, and dependent on developers to make simple changes. Luckily, modern content management systems like the Git-based CMS put the power back in the editors’ hands.
