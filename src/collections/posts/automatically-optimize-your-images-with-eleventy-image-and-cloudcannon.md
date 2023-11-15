@@ -5,7 +5,7 @@ breadcrumb_title: Image Optimization
 description: >-
   Websites are becoming increasingly visual and we're adding more and more image
   content to our sites — but these images need to be optimized. 
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/Image optimisation (1).png
 date: 2023-11-15T00:00:00+13:00
