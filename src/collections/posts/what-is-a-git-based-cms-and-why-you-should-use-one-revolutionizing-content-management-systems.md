@@ -52,7 +52,7 @@ What’s more, with a Git-based CMS you will be able to maintain multiple versio
 
 Our content team frequently takes advantage of multi object versioning in CloudCannon’s Git-based CMS by setting up test sites, called ‘branches’. These 'branch' versions allow time-consuming changes to be made without blocking the main website’s staging environment from publishing small changes. When ready, the branch’s content is simply sent, known as a ‘merge’, to the main website with the click of a button, see it in action below! You can find out more about our marketing team’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">publishing workflow here</a>.
 
-{% bookshop 'markdown/youtube' title: "Merging a branch" id: "https://youtu.be/pVchs73_S9E" extend: false border: false %}
+{% bookshop 'markdown/youtube' title: "Merging a branch" id: "pVchs73_S9E" extend: false border: false %}
 
 ## Own your content with a Git-based CMS
 
