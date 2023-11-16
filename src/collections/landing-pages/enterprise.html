@@ -1076,7 +1076,7 @@ content_blocks:
                 - _bookshop_name: simple/image
                   content:
                     alt:
-                    image:
+                    image: https://cc-dam.imgix.net/editing-experience.png
                   styles:
                     border:
                     rounded:
@@ -1156,27 +1156,27 @@ content_blocks:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 60
               vertical_block_alignment:
                 active: false
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 60
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -1406,27 +1406,27 @@ content_blocks:
               columns:
                 type: split
                 width: 0
-                gap: 0
+                gap: 50
                 vertical_gap: 0
               vertical_block_alignment:
-                v_align: top
+                v_align: center
             tablet:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 60
               vertical_block_alignment:
                 active: false
                 v_align: top
             mobile:
               columns:
-                active: false
-                type: split
+                active: true
+                type: stacked
                 width: 0
                 gap: 0
-                vertical_gap: 0
+                vertical_gap: 60
               vertical_block_alignment:
                 active: false
                 v_align: top
@@ -2044,6 +2044,179 @@ content_blocks:
           left: 0
   - _bookshop_name: sections/container
     content:
+      label: Case Studies
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: An enterprise CMS platform that you can trust
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Learn how the best CMS for enterprise can help your team manage
+              large-scale digital content, and deliver the finest digital
+              experience .
+          styles:
+            width: full
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: case-studies/row
+          content:
+            case_studies:
+              - ee337cd8-7745-11ed-a1eb-0242ac120002
+              - e1b72b3a-7745-11ed-a1eb-0242ac120002
+              - ff183750-7745-11ed-a1eb-0242ac120002
+          styles:
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+    styles:
+      background: white
+      rounded: none
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+  - _bookshop_name: sections/container
+    content:
       label: Enterprise Plan
       blocks:
         - _bookshop_name: sections/two-column
@@ -2052,7 +2225,7 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/heading
                   content:
-                    text: Your custom Enterprise plan
+                    text: Our no-limits  Enterprise CMS platform
                   styles:
                     element: h2
                     width: normal
@@ -2089,11 +2262,11 @@ content_blocks:
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
-                      To support the scale and speed your enterprise needs,
-                      we'll tailor a plan to your exact specifications so you
-                      can enjoy the features that are right for you. Let’s
-                      discuss your needs and how CloudCannon will work perfectly
-                      with your organization.
+                      To support the large scale and speed your enterprise
+                      needs, we'll tailor your plan to your exact specifications
+                      so you can enjoy the features that are right for you.
+                      Let’s talk about what you need, and how CloudCannon will
+                      work perfectly with your enterprise.
                   styles:
                     width: full
                     desktop:
