@@ -79,15 +79,14 @@
           image:
             image_path:
             image_alt:
-    - title: Featured Case Study
-      sub_nav: []
+    - title: Integrations
+      sub_nav:
+        - name: Cloudinary
+          link: /integrations/cloudinary/
+          description: Digital asset management (DAM)
+          icon_path: outline/camera
+          nav_icon_color: electric_purple
       sub_card:
-        - featured_page_link: /customers/twitch/
-          name: Delivering microsites to Twitch's 26.5 million daily active users
-          image:
-            image_path: >-
-              https://cc-dam.imgix.net/marketing/uploads/case-study/twitch-scene.png
-            image_alt: Desktop computer with Twitch website
 - name: Resources
   sub_navs:
     - title: Developers
