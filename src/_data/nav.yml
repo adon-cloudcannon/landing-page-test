@@ -69,6 +69,21 @@
     - title: Use Cases
       sub_nav:
         - name: Case Studies
+          link: /customers/netflix/
+          icon_path: outline/user-circle
+          nav_icon_color: red
+          description: Simplicity, speed, seamless translation and more — the Netflix story
+        - name: Case Studies
+          link: /customers/twitch/
+          icon_path: outline/user-circle
+          nav_icon_color: blue
+          description: Delivering microsites to Twitch's 26.5 million daily active users
+        - name: Case Studies
+          link: /customers/the-new-dynamic/
+          icon_path: outline/user-circle
+          nav_icon_color: black
+          description: The New Dynamic chooses a better editing experience for their clients
+        - name: All Case Studies
           link: /customers/
           icon_path: outline/user-circle
           nav_icon_color: emerald
