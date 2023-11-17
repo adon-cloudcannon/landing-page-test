@@ -812,165 +812,203 @@ content_blocks:
     content:
       label: Visual Editing
       blocks:
-        - _bookshop_name: simple/heading
+        - _bookshop_name: sections/two-column
           content:
-            text: Customize your visual website builder
+            left:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Customize your visual website builder
+                  styles:
+                    element: h2
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 30
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: center
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                - _bookshop_name: simple/text-block
+                  content:
+                    text_markdown: >-
+                      CloudCannon brings visual editing and page building to
+                      your modern tech stack. Enable your editors to manage
+                      content and&nbsp;<a target="_blank" rel="noopener"
+                      href="https://cloudcannon.com/documentation/articles/visual-data-previews-with-bookshop/">build
+                      entire pages live in the browser </a>from custom, reusable
+                      components. With an autonomous content team, you are free
+                      from content tasks when you choose the best CMS for web
+                      developers.
+                  styles:
+                    width: full
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: normal
+                      margin:
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        align_block: center
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: normal
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+            right:
+              blocks:
+                - _bookshop_name: simple/video
+                  content:
+                    title: >-
+                      Visual editing and page building with CloudCannon's CMS
+                      for developers
+                    url: >-
+                      https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
+                    autoplay: true
+                    loop: true
+                  styles:
+                    desktop:
+                      transform:
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        align_block: left
+                      margin:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    tablet:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                    mobile:
+                      transform:
+                        active: false
+                        scale: 1
+                        translate_x: 0
+                        translate_y: 0
+                        rotate: 0
+                        skew: 0
+                      block_alignment:
+                        active: false
+                        align_block: left
+                      margin:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
+                      position:
+                        active: false
+                        top: 0
+                        left: 0
+                        bottom: 0
+                        right: 0
           styles:
-            element: h2
-            width: normal
             desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
+              columns:
+                type: split
+                width: 0
+                gap: 50
+                vertical_gap: 0
+              vertical_block_alignment:
+                v_align: center
             tablet:
-              text_alignment:
+              columns:
+                active: true
+                type: stacked
+                width: 0
+                gap: 0
+                vertical_gap: 60
+              vertical_block_alignment:
                 active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
+                v_align: top
             mobile:
-              text_alignment:
+              columns:
+                active: true
+                type: split
+                width: 0
+                gap: 0
+                vertical_gap: 60
+              vertical_block_alignment:
                 active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              CloudCannon brings visual editing and page building to your modern
-              tech stack. Enable your editors to manage content and&nbsp;<a
-              target="_blank" rel="noopener"
-              href="https://cloudcannon.com/documentation/articles/visual-data-previews-with-bookshop/">build
-              entire pages live in the browser </a>from custom, reusable
-              components. With an autonomous content team, you are free from
-              content tasks when you choose the best CMS for web developers.
-          styles:
-            width: full
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: simple/video
-          content:
-            title: Visual editing and page building with CLoudCannon CMS
-            url: >-
-              https://player.vimeo.com/progressive_redirect/playback/760400768/rendition/720p/file.mp4?loc=external&signature=8acbfc19bc57c1b77bc21aaeb04d362b706a412f99668afd03298d05b63c4db9
-            autoplay: true
-            loop: true
-          styles:
-            desktop:
-              transform:
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                align_block: center
-              margin:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            tablet:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-            mobile:
-              transform:
-                active: false
-                scale: 1
-                translate_x: 0
-                translate_y: 0
-                rotate: 0
-                skew: 0
-              block_alignment:
-                active: false
-                align_block: left
-              margin:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
-              position:
-                active: false
-                top: 0
-                left: 0
-                bottom: 0
-                right: 0
+                v_align: top
     styles:
       background:
       rounded: top
