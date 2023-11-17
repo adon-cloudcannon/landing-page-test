@@ -72,7 +72,7 @@
           link: /customers/netflix/
           icon_path: outline/film
           nav_icon_color: emerald
-          description: Simplicity, speed, seamless translation and more — the Netflix story
+          description: Simplicity, speed, and seamless translation — the Netflix story
         - name: Twitch
           link: /customers/twitch/
           icon_path: outline/users
