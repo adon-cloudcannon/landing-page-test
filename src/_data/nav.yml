@@ -68,20 +68,20 @@
             image_alt:
     - title: Use Cases
       sub_nav:
-        - name: Case Studies
+        - name: Netflix
           link: /customers/netflix/
           icon_path: outline/film
-          nav_icon_color: red
+          nav_icon_color: emerald
           description: Simplicity, speed, seamless translation and more — the Netflix story
-        - name: Case Studies
+        - name: Twitch
           link: /customers/twitch/
           icon_path: outline/users
-          nav_icon_color: blue
+          nav_icon_color: emerald
           description: Delivering microsites to Twitch's 26.5 million daily active users
-        - name: Case Studies
+        - name: The New Dynamic
           link: /customers/the-new-dynamic/
           icon_path: outline/code-bracket
-          nav_icon_color: black
+          nav_icon_color: emerald
           description: The New Dynamic chooses a better editing experience for their clients
         - name: All Case Studies
           link: /customers/
