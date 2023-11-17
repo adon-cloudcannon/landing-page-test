@@ -72,7 +72,7 @@
           link: /customers/netflix/
           icon_path: outline/film
           nav_icon_color: emerald
-          description: Simplicity, speed, and seamless translation — the Netflix story
+          description: Simplicity, speed, seamless translation and more — the Netflix story
         - name: Twitch
           link: /customers/twitch/
           icon_path: outline/users
@@ -177,10 +177,10 @@
       sub_nav:
       sub_card:
         - featured_page_link: >-
-            /blog/partner-site-of-the-month-dc-gay-flag-football-league-by-ed-cupaioli/
-          name: 'Partner of the month: Ed Cupaioli'
+            /blog/partner-site-of-the-month-cru-uncorked-by-ed-meehan/
+          name: 'Partner of the month: Ed Meehan'
           image:
-            image_path: https://cc-dam.imgix.net/partner-site-img-dcgffl.png
+            image_path: https://cc-dam.imgix.net/psotm-cruuncorked.png
             image_alt: CloudCannon Partner Site of the Month
 - name: Pricing
   link: /pricing/
