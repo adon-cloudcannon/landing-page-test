@@ -2,7 +2,7 @@
 _schema: default
 uuid: f8d60e70-4fc9-45ee-848f-29b9b2df93d9
 title: Fulldev
-heading: 'Simplicity and Support for Agencies: Why Fulldev chooses CloudCannon'
+heading: 'Simplicity and support for agencies: why Fulldev chooses CloudCannon'
 weight: 8
 categories:
   - Agency
