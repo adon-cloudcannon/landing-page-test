@@ -55,6 +55,4 @@ Here's why CloudCannon's SOC 2 Type 2 certification matters:
 
 CloudCannon's SOC 2 Type 2 certification is a significant step in our ongoing commitment to securing your data. It assures you that your data is in safe hands, protected by a CMS provider that takes security seriously.
 
-## What’s the next step?
-
 We'll continue to work diligently to maintain the security and integrity of your data.
