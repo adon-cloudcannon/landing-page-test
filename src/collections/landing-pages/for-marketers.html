@@ -417,8 +417,8 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
                         active: false
                         top: 0
@@ -634,8 +634,8 @@ content_blocks:
                         right: 0
                     tablet:
                       visibility:
-                        active: false
-                        hide: false
+                        active: true
+                        hide: true
                       transform:
                         active: false
                         scale: 1
@@ -658,8 +658,8 @@ content_blocks:
                         right: 0
                     mobile:
                       visibility:
-                        active: false
-                        hide: false
+                        active: true
+                        hide: true
                       transform:
                         active: false
                         scale: 1
@@ -712,8 +712,8 @@ content_blocks:
                         active: false
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
                         active: false
                         top: 0
@@ -801,6 +801,84 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+        - _bookshop_name: simple/image
+          content:
+            alt: Best CMS for SEO
+            image: https://cc-dam.imgix.net/SEO-marketer-2.png
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: true
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                bottom: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: true
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: center
+              margin:
+                active: true
+                top: 60
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: true
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: true
+                align_block: center
+              margin:
+                active: true
+                top: 20
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
         - _bookshop_name: simple/spacer
           content:
             title:
@@ -857,7 +935,7 @@ content_blocks:
           active: true
           top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -950,7 +1028,7 @@ content_blocks:
         - _bookshop_name: simple/image
           content:
             alt: Editing process diagram mobile
-            image: https://cc-dam.imgix.net/editing-process-mobile (4).png
+            image: https://cc-dam.imgix.net/editing-process-mobile+%281%29.png
           styles:
             border:
             rounded:
@@ -1231,7 +1309,7 @@ content_blocks:
                   content:
                     text: Create websites that perform at speed
                   styles:
-                    element: h3
+                    element: h2
                     width: tight
                     desktop:
                       text_alignment:
@@ -1243,7 +1321,7 @@ content_blocks:
                         bottom: 45
                     tablet:
                       text_alignment:
-                        active: true
+                        active: false
                         align: center
                       text_sizing:
                         active: false
@@ -1254,7 +1332,7 @@ content_blocks:
                         bottom: 0
                     mobile:
                       text_alignment:
-                        active: true
+                        active: false
                         align: left
                       text_sizing:
                         active: true
@@ -1293,7 +1371,7 @@ content_blocks:
                         align_block:
                     tablet:
                       text_alignment:
-                        active: true
+                        active: false
                         align: center
                       text_sizing:
                         active: false
@@ -1307,7 +1385,7 @@ content_blocks:
                         align_block: left
                     mobile:
                       text_alignment:
-                        active: true
+                        active: false
                         align: left
                       text_sizing:
                         active: false
@@ -1493,7 +1571,7 @@ content_blocks:
               text_sizing:
                 text_size: big
               margin:
-                top: 90
+                top: 0
                 bottom: 30
             tablet:
               text_alignment:
@@ -1511,12 +1589,12 @@ content_blocks:
                 active: false
                 align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
-                active: false
-                top: 0
-                bottom: 0
+                active: true
+                top: 30
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
@@ -1556,9 +1634,9 @@ content_blocks:
                 active: false
                 text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 20
               block_alignment:
                 active: false
                 align_block: left
@@ -1684,9 +1762,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -1698,10 +1776,8 @@ content_blocks:
               blocks:
                 - _bookshop_name: simple/image
                   content:
-                    alt: >-
-                      Own your content by choosing CloudCannon as your marketing
-                      CMS
-                    image: https://cc-dam.imgix.net/Ownyourcontentimagev3.svg
+                    alt: Own your content with the best cms for marketers
+                    image: https://cc-dam.imgix.net/Ownyourcontentimagev4.svg
                   styles:
                     border:
                     rounded:
@@ -1712,84 +1788,6 @@ content_blocks:
                     desktop:
                       visibility:
                         hide: false
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        bottom: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      visibility:
-                        active: true
-                        hide: true
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                - _bookshop_name: simple/image
-                  content:
-                    alt: Own your content with the best CMS for marketers
-                    image: https://cc-dam.imgix.net/ownyourcontentmobile.svg
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    pixel_width:
-                    max_width:
-                    desktop:
-                      visibility:
-                        hide: true
                       transform:
                         scale: 1
                         translate_x: 0
@@ -1833,7 +1831,7 @@ content_blocks:
                     mobile:
                       visibility:
                         active: true
-                        hide: false
+                        hide: true
                       transform:
                         active: false
                         scale: 1
@@ -1872,7 +1870,7 @@ content_blocks:
                         bottom: 30
                     tablet:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
                         active: false
@@ -1883,15 +1881,15 @@ content_blocks:
                         bottom: 0
                     mobile:
                       text_alignment:
-                        active: false
+                        active: true
                         align: center
                       text_sizing:
-                        active: false
-                        text_size: big
+                        active: true
+                        text_size: normal
                       margin:
-                        active: false
+                        active: true
                         top: 0
-                        bottom: 0
+                        bottom: 15
                 - _bookshop_name: simple/text-block
                   content:
                     text_markdown: >-
@@ -1919,8 +1917,8 @@ content_blocks:
                         align_block: center
                     tablet:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1933,8 +1931,8 @@ content_blocks:
                         align_block: left
                     mobile:
                       text_alignment:
-                        active: false
-                        align: left
+                        active: true
+                        align: center
                       text_sizing:
                         active: false
                         text_size: normal
@@ -1974,6 +1972,84 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
+        - _bookshop_name: simple/image
+          content:
+            alt: own your content with the best cms for marketers
+            image: https://cc-dam.imgix.net/ownyourcontentmobile.svg
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: true
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: left
+              margin:
+                top: 0
+                bottom: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: true
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: true
+                align_block: center
+              margin:
+                active: true
+                top: 60
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: true
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: true
+                align_block: center
+              margin:
+                active: true
+                top: 20
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
     styles:
       background:
       rounded: none
@@ -2051,12 +2127,12 @@ content_blocks:
                 active: false
                 align: center
               text_sizing:
-                active: false
-                text_size: big
+                active: true
+                text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 15
         - _bookshop_name: simple/text-block
           content:
             text_markdown: >-
@@ -2099,9 +2175,9 @@ content_blocks:
                 active: false
                 text_size: normal
               margin:
-                active: false
+                active: true
                 top: 0
-                bottom: 0
+                bottom: 20
               block_alignment:
                 active: false
                 align_block: left
@@ -2188,9 +2264,9 @@ content_blocks:
           left: 0
         padding:
           active: true
-          top: 30
+          top: 60
           right: 0
-          bottom: 60
+          bottom: 90
           left: 0
   - _bookshop_name: sections/container
     content:
