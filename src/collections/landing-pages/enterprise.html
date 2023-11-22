@@ -1055,204 +1055,183 @@ content_blocks:
     content:
       label: Custom CMS
       blocks:
-        - _bookshop_name: sections/two-column
+        - _bookshop_name: simple/heading
           content:
-            left:
-              blocks:
-                - _bookshop_name: simple/heading
-                  content:
-                    text: An enterprise CMS tailored to your team
-                  styles:
-                    element: h2
-                    width: normal
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: big
-                      margin:
-                        top: 0
-                        bottom: 30
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: center
-                      text_sizing:
-                        active: false
-                        text_size: big
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                - _bookshop_name: simple/text-block
-                  content:
-                    text_markdown: >-
-                      From crafting captivating digital experiences to
-                      developing custom fuctionalities, our Enterprise Success
-                      Team is dedicated to ensuring your digital presence stands
-                      out. We understand that managing an enterprise account
-                      requires more than just software; it demands a
-                      collaborative partnership.
-                  styles:
-                    width: full
-                    desktop:
-                      text_alignment:
-                        align: left
-                      text_sizing:
-                        text_size: normal
-                      margin:
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        align_block: center
-                    tablet:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                    mobile:
-                      text_alignment:
-                        active: false
-                        align: left
-                      text_sizing:
-                        active: false
-                        text_size: normal
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-            right:
-              blocks:
-                - _bookshop_name: simple/image
-                  content:
-                    alt: A customizable enterprise CMS platform
-                    image: https://cc-dam.imgix.net/enterpriseimageblackdoodle.svg
-                  styles:
-                    border:
-                    rounded:
-                    ontop:
-                    width: full
-                    pixel_width:
-                    max_width:
-                    desktop:
-                      visibility:
-                        hide: false
-                      transform:
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        align_block: left
-                      margin:
-                        top: 0
-                        bottom: 0
-                      position:
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    tablet:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
-                    mobile:
-                      visibility:
-                        active: false
-                        hide: false
-                      transform:
-                        active: false
-                        scale: 1
-                        translate_x: 0
-                        translate_y: 0
-                        rotate: 0
-                        skew: 0
-                      block_alignment:
-                        active: false
-                        align_block: left
-                      margin:
-                        active: false
-                        top: 0
-                        bottom: 0
-                      position:
-                        active: false
-                        top: 0
-                        left: 0
-                        bottom: 0
-                        right: 0
+            text: An enterprise CMS tailored to your team
+          styles:
+            element: h2
+            width: tight
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 90
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              From crafting captivating digital experiences to developing custom
+              fuctionalities, our Enterprise Success Team is dedicated to
+              ensuring your digital presence stands out. We understand that
+              managing an enterprise account requires more than just software;
+              it demands a collaborative partnership.
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 0
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/spacer
+          content:
+            title:
           styles:
             desktop:
-              columns:
-                type: split
-                width: 0
-                gap: 20
-                vertical_gap: 0
-              vertical_block_alignment:
-                v_align: center
+              space:
+                size: -250
             tablet:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 60
-              vertical_block_alignment:
+              space:
                 active: false
-                v_align: top
+                size: 0
             mobile:
-              columns:
-                active: true
-                type: stacked
-                width: 0
-                gap: 0
-                vertical_gap: 60
-              vertical_block_alignment:
+              space:
                 active: false
-                v_align: top
+                size: 0
+        - _bookshop_name: simple/image
+          content:
+            alt: Fully customizable enterprise CMS platform
+            image: https://cc-dam.imgix.net/enterpriseimageblackdoodle.svg
+          styles:
+            border:
+            rounded:
+            ontop:
+            width: full
+            pixel_width:
+            max_width:
+            desktop:
+              visibility:
+                hide: false
+              transform:
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                align_block: center
+              margin:
+                top: 0
+                bottom: 0
+              position:
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            tablet:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
+            mobile:
+              visibility:
+                active: false
+                hide: false
+              transform:
+                active: false
+                scale: 1
+                translate_x: 0
+                translate_y: 0
+                rotate: 0
+                skew: 0
+              block_alignment:
+                active: false
+                align_block: left
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              position:
+                active: false
+                top: 0
+                left: 0
+                bottom: 0
+                right: 0
     styles:
       background:
       rounded: none
@@ -1268,7 +1247,7 @@ content_blocks:
         padding:
           top: 0
           right: 0
-          bottom: 300
+          bottom: 150
           left: 0
       tablet:
         margin:
