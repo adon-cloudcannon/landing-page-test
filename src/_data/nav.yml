@@ -98,12 +98,12 @@
       sub_nav:
         - name: Cloudinary
           link: /integrations/cloudinary/
-          description: Digital asset management (DAM)
+          description: Digital asset management
           icon_path: outline/camera
           nav_icon_color: electric_purple
         - name: imgix
           link: /integrations/imgix/
-          description: Image management and optimization
+          description: Digital asset management
           icon_path: outline/photo
           nav_icon_color: electric_purple
       sub_card:
