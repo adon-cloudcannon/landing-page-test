@@ -103,7 +103,7 @@
           nav_icon_color: electric_purple
         - name: imgix
           link: /integrations/imgix/
-          description: Digital asset management
+          description: Digital asset optimization
           icon_path: outline/photo
           nav_icon_color: electric_purple
       sub_card:
