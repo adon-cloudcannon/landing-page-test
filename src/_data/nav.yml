@@ -101,6 +101,11 @@
           description: Digital asset management (DAM)
           icon_path: outline/camera
           nav_icon_color: electric_purple
+        - name: imgix
+          link: /integrations/imgix/
+          description: Image management and optimization
+          icon_path: outline/photo
+          nav_icon_color: electric_purple
       sub_card:
 - name: Resources
   sub_navs:
