@@ -1121,7 +1121,7 @@ content_blocks:
                         top: 0
                         left: 0
                         bottom: 0
-                        right: 0
+                        right: 100
                     tablet:
                       visibility:
                         active: false
@@ -1310,7 +1310,7 @@ content_blocks:
                 rotate: 0
                 skew: 0
     styles:
-      background: caramel
+      background: night
       rounded: top
       size: normal
       align: none
@@ -1351,178 +1351,6 @@ content_blocks:
           top: 90
           right: 0
           bottom: 60
-          left: 0
-  - _bookshop_name: sections/container
-    content:
-      label: Case Studies
-      blocks:
-        - _bookshop_name: simple/heading
-          content:
-            text: An enterprise CMS platform that you can trust
-          styles:
-            element: h2
-            width: tight
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: big
-              margin:
-                top: 0
-                bottom: 30
-            tablet:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: false
-                text_size: big
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-            mobile:
-              text_alignment:
-                active: false
-                align: center
-              text_sizing:
-                active: true
-                text_size: normal
-              margin:
-                active: true
-                top: 0
-                bottom: 15
-        - _bookshop_name: simple/text-block
-          content:
-            text_markdown: >-
-              Learn how CloudCannon's CMS for enterprise can help your team
-              manage large-scale digital content, and deliver the finest digital
-              experience to your users.
-          styles:
-            width: medium
-            desktop:
-              text_alignment:
-                align: center
-              text_sizing:
-                text_size: normal
-              margin:
-                top: 0
-                bottom: 60
-              block_alignment:
-                align_block: center
-            tablet:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-            mobile:
-              text_alignment:
-                active: false
-                align: left
-              text_sizing:
-                active: false
-                text_size: normal
-              margin:
-                active: false
-                top: 0
-                bottom: 0
-              block_alignment:
-                active: false
-                align_block: left
-        - _bookshop_name: case-studies/row
-          content:
-            case_studies:
-              - ee337cd8-7745-11ed-a1eb-0242ac120002
-              - ff183750-7745-11ed-a1eb-0242ac120002
-          styles:
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 280
-              padding:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            tablet:
-              margin:
-                active: true
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: true
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-    styles:
-      background: caramel
-      rounded: none
-      size: normal
-      align: none
-      shadow: false
-      desktop:
-        margin:
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          top: 0
-          right: 0
-          bottom: 120
-          left: 0
-      tablet:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-      mobile:
-        margin:
-          active: false
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-        padding:
-          active: true
-          top: 30
-          right: 0
-          bottom: 90
           left: 0
   - _bookshop_name: sections/container
     content:
@@ -1800,147 +1628,155 @@ content_blocks:
               vertical_block_alignment:
                 active: false
                 v_align: top
-        - _bookshop_name: sections/container
+    styles:
+      background: night
+      rounded: top
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: true
+          top: 90
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 60
+          right: 0
+          bottom: 90
+          left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: Case Studies
+      blocks:
+        - _bookshop_name: simple/heading
           content:
-            label: CTA
-            blocks:
-              - _bookshop_name: simple/heading
-                content:
-                  text: Get a personalized demo
-                styles:
-                  element: h2
-                  width: normal
-                  desktop:
-                    text_alignment:
-                      align: center
-                    text_sizing:
-                      text_size: big
-                    margin:
-                      top: 0
-                      bottom: 20
-                  tablet:
-                    text_alignment:
-                      active: false
-                      align: center
-                    text_sizing:
-                      active: false
-                      text_size: big
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                  mobile:
-                    text_alignment:
-                      active: false
-                      align: center
-                    text_sizing:
-                      active: true
-                      text_size: normal
-                    margin:
-                      active: true
-                      top: 0
-                      bottom: 15
-              - _bookshop_name: simple/text-block
-                content:
-                  text_markdown: >-
-                    We partner closely with you from onboarding to deployment,
-                    offering priority support, dedicated account management, and
-                    expert development services to support your business goals.
-                    Let’s get started.
-                styles:
-                  width: full
-                  desktop:
-                    text_alignment:
-                      align: center
-                    text_sizing:
-                      text_size: normal
-                    margin:
-                      top: 30
-                      bottom: 30
-                    block_alignment:
-                      align_block:
-                  tablet:
-                    text_alignment:
-                      active: false
-                      align: left
-                    text_sizing:
-                      active: false
-                      text_size: normal
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                    block_alignment:
-                      active: false
-                      align_block: left
-                  mobile:
-                    text_alignment:
-                      active: false
-                      align: left
-                    text_sizing:
-                      active: false
-                      text_size: normal
-                    margin:
-                      active: true
-                      top: 0
-                      bottom: 30
-                    block_alignment:
-                      active: false
-                      align_block: left
-              - _bookshop_name: simple/button-holder
-                content:
-                  button_blocks:
-                    - _bookshop_name: simple/button
-                      content:
-                        text: Talk to our experts
-                        link: /book-a-demo/
-                      styles:
-                        style: white
-                        size: big
-                        extra_classes:
-                styles:
-                  desktop:
-                    margin:
-                      top: 0
-                      bottom: 0
-                    justify:
-                      align: center
-                  tablet:
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                    justify:
-                      active: false
-                      align: center
-                  mobile:
-                    margin:
-                      active: false
-                      top: 0
-                      bottom: 0
-                    justify:
-                      active: false
-                      align: center
+            text: An enterprise CMS platform that you can trust
           styles:
-            background: cc-blue
-            rounded: full
-            size: small
-            align: none
-            shadow: false
+            element: h2
+            width: tight
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: true
+                top: 0
+                bottom: 15
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              Learn how CloudCannon's CMS for enterprise can help your team
+              manage large-scale digital content, and deliver the finest digital
+              experience to your users.
+          styles:
+            width: medium
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 60
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: case-studies/row
+          content:
+            case_studies:
+              - ee337cd8-7745-11ed-a1eb-0242ac120002
+              - ff183750-7745-11ed-a1eb-0242ac120002
+          styles:
             desktop:
               margin:
-                top: 90
+                top: 0
+                right: 0
+                bottom: 0
+                left: 280
+              padding:
+                top: 0
                 right: 0
                 bottom: 0
                 left: 0
-              padding:
-                top: 50
-                right: 50
-                bottom: 50
-                left: 50
             tablet:
               margin:
-                active: false
+                active: true
                 top: 0
                 right: 0
                 bottom: 0
@@ -1954,18 +1790,183 @@ content_blocks:
             mobile:
               margin:
                 active: true
-                top: 30
-                right: 30
-                bottom: 60
-                left: 30
-              padding:
-                active: true
-                top: 30
+                top: 0
                 right: 0
-                bottom: 90
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
                 left: 0
     styles:
-      background: night
+      background: white
+      rounded: top
+      size: normal
+      align: none
+      shadow: false
+      desktop:
+        margin:
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          top: 90
+          right: 0
+          bottom: 120
+          left: 0
+      tablet:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      mobile:
+        margin:
+          active: false
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+        padding:
+          active: true
+          top: 30
+          right: 0
+          bottom: 90
+          left: 0
+  - _bookshop_name: sections/container
+    content:
+      label: Enterprise Plan
+      blocks:
+        - _bookshop_name: simple/heading
+          content:
+            text: Book a personalized demo
+          styles:
+            element: h2
+            width: normal
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: big
+              margin:
+                top: 0
+                bottom: 30
+            tablet:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: false
+                text_size: big
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+            mobile:
+              text_alignment:
+                active: false
+                align: center
+              text_sizing:
+                active: true
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+        - _bookshop_name: simple/text-block
+          content:
+            text_markdown: >-
+              We partner with you from onboarding to deployment, offering
+              priority support, dedicated account management, and expert
+              development services to support your business goals. Let's get
+              started.
+          styles:
+            width: large
+            desktop:
+              text_alignment:
+                align: center
+              text_sizing:
+                text_size: normal
+              margin:
+                top: 0
+                bottom: 30
+              block_alignment:
+                align_block: center
+            tablet:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+            mobile:
+              text_alignment:
+                active: false
+                align: left
+              text_sizing:
+                active: false
+                text_size: normal
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              block_alignment:
+                active: false
+                align_block: left
+        - _bookshop_name: simple/button-holder
+          content:
+            button_blocks:
+              - _bookshop_name: simple/button
+                content:
+                  text: Talk to our experts
+                  link: /book-a-demo/
+                styles:
+                  style: white
+                  size: big
+                  extra_classes:
+          styles:
+            desktop:
+              margin:
+                top: 0
+                bottom: 0
+              justify:
+                align: center
+            tablet:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
+            mobile:
+              margin:
+                active: false
+                top: 0
+                bottom: 0
+              justify:
+                active: false
+                align: center
+            extra_classes:
+    styles:
+      background: cc-blue
       rounded: top
       size: normal
       align: none
