@@ -34,8 +34,6 @@ seo:
 ---
 Your content management system (CMS) is arguably the most powerful publishing tool in your workflow. Content management systems make it possible for non-technical editors to create, maintain, and edit content on their websites. The right CMS should offer a fantastic developer experience while empowering marketers and content editors to do their jobs more independently and efficiently. Yet many traditional CMS platforms leave marketing teams and content teams feeling frustrated and dependent on developers to make simple changes. Luckily, modern content management systems like the Git-based CMS provide editors’ with greater autonomy and confidence.
 
-![Comparing traditional CMSs to the more modern Headless Git-based CMS](https://cc-dam.imgix.net/CMSCompareImage.png "Traditional CMS vs. Headless Git-based CMS")
-
 ## A Git-based CMS is a headless CMS
 
 A headless CMS decouples your website’s content — the body of your site — from how your content is delivered and displayed on your website. Your site delivery, or the head of your website, is controlled by your developer’s static site generator of choice — tools like <a target="_blank" rel="noopener" href="https://astro.build/">Astro</a>, <a target="_blank" rel="noopener" href="https://www.11ty.dev/">Eleventy (11ty)</a>, and <a target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>. This is the preferred method for building static websites. Static sites have superior web performance compared to dynamic websites, while still providing the option to embed dynamic components within your static site. You can learn more about <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/">why you should choose to build static sites here</a>.
@@ -44,11 +42,15 @@ A headless CMS decouples your website’s content — the body of your site — 
 
 Separating your site’s content from its delivery system offers many benefits. It gives your developer more flexibility to use and swap out their favorite technologies to build your site more efficiently, without having to change your CMS. Going headless also improves your website’s performance and security compared to traditional CMS platforms like Wordpress. This will reduce the time and cost needed for your developer to keep your site secure. It will also increase your site’s speed, which will improve search engine optimization (SEO).
 
+## ![Comparing traditional CMSs to the more modern Headless Git-based CMS](https://cc-dam.imgix.net/CMSCompareImage.png "Traditional CMS vs. Headless Git-based CMS")
+
+##
+
 ## A Git-based CMS improves your content workflow
 
 The benefits of a Git-based CMS boil down to your content publishing workflow. A Git-based CMS leverages the power of Git, a popular open source software built to help developers collaborate remotely with ease. You can think of the Git-based CMS as a layer on top of Git that allows non-technical editors to create and edit content on their website using an intuitive interface that eliminates the need to understand Git. So both developers and editors get to benefit from Git workflows — but what’s so great about Git workflows, anyway?
 
-### ![](https://cc-dam.imgix.net/GitCMSfinalimage.png)
+### ![diagram explaining what is a Git-based CMS content workflow](https://cc-dam.imgix.net/GitCMSfinalimage.png "Git-based CMS content workflow")
 
 ###
 
@@ -58,9 +60,9 @@ When using a Git-based CMS, all your content is stored in a Git repository as te
 
 While other headless CMSs, like an API-driven CMS, often focus on versioning entire pages, Git-based CMSs enable more granular version control at the object level. This means that you can track changes to individual elements on your page, such as paragraphs, images, components, or widgets. This reduces the risk of content conflicts, making it easier for your team to collaborate without stepping on each others toes.
 
-What’s more, with a Git-based CMS you will be able to maintain multiple versions of the same content, thanks to Git’s multi object versioning capabilities. This means that content teams can set up multiple versions of the same content in your Git-based CMS, whether to experiment with different content variations, preview changes in staging environments, or seamlessly roll back to previous versions if necessary.
+What’s more, with a Git-based CMS you will be able to maintain multiple versions of the same content, thanks to Git’s multi-object versioning capabilities. This means that content teams can set up multiple versions of the same content in your Git-based CMS, whether to experiment with different content variations, preview changes in staging environments, or seamlessly roll back to previous versions if necessary.
 
-Our content team frequently takes advantage of multi object versioning in CloudCannon’s Git-based CMS by setting up test sites, called ‘branches’. These 'branch' versions allow time-consuming changes to be made without blocking the main website’s staging environment from publishing small changes. When ready, the branch’s content is simply sent, known as a ‘merge’, to the main website with the click of a button, see it in action below! You can find out more about our marketing team’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">publishing workflow here</a>.
+Our content team frequently takes advantage of multi-object versioning in CloudCannon’s Git-based CMS by setting up test sites called ‘branches’. These 'branch' versions allow time-consuming changes to be made without blocking the main website’s staging environment from publishing small changes. When ready, the branch’s content is simply sent, known as a 'merge', to the main website with the click of a button, see it in action below! You can find out more about our marketing team’s <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/cloudcannon-com-is-now-built-with-eleventy/">publishing workflow here</a>.
 
 {% bookshop 'markdown/youtube' title: "Merging a branch" id: "pVchs73_S9E" extend: false border: false %}
 
