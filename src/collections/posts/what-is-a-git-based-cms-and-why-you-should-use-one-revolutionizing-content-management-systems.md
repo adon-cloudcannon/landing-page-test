@@ -8,7 +8,7 @@ description: >-
 draft: true
 series:
 image: https://cc-dam.imgix.net/WhatisGitbasedv3.png
-date: 2023-11-21T05:01:00+13:00
+date: 2023-11-24T05:01:00+13:00
 hide_publish_date: false
 tags:
   - Resources
