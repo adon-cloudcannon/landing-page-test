@@ -7,7 +7,7 @@ description: >-
   full version control and simplified collaboration capabilities.
 draft: true
 series:
-image: https://cc-dam.imgix.net/WhatisGitbased2.png
+image: https://cc-dam.imgix.net/WhatisGitbasedv3.png
 date: 2023-11-21T05:01:00+13:00
 hide_publish_date: false
 tags:
@@ -29,16 +29,18 @@ cta:
       extra_classes:
 seo:
   open_graph_type: article
-  featured_image: https://cc-dam.imgix.net/WhatisGitbased2.png
+  featured_image: https://cc-dam.imgix.net/WhatisGitbasedv3.png
   featured_image_alt: What is a Git-based CMS
 ---
-Your content management system (CMS) is arguably the most powerful publishing tool in your workflow. Content management systems make it possible for non-technical editors to create, maintain, and edit content on their websites. The right CMS should empower marketers and content editors to do their jobs more independently, and efficiently. Yet many traditional CMS platforms leave marketing teams and content teams feeling frustrated, and dependent on developers to make simple changes. Luckily, modern content management systems like the Git-based CMS put the power back in the editors’ hands.
+Your content management system (CMS) is arguably the most powerful publishing tool in your workflow. Content management systems make it possible for non-technical editors to create, maintain, and edit content on their websites. The right CMS should offer a fantastic developer experience while empowering marketers and content editors to do their jobs more independently and efficiently. Yet many traditional CMS platforms leave marketing teams and content teams feeling frustrated and dependent on developers to make simple changes. Luckily, modern content management systems like the Git-based CMS provide editors’ with greater autonomy and confidence.
 
 ## A Git-based CMS is a headless CMS
 
 A headless CMS decouples your website’s content — the body of your site — from how your content is delivered and displayed on your website. Your site delivery, or the head of your website, is controlled by your developer’s static site generator of choice — tools like <a target="_blank" rel="noopener" href="https://astro.build/">Astro</a>, <a target="_blank" rel="noopener" href="https://www.11ty.dev/">Eleventy (11ty)</a>, and <a target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>. This is the preferred method for building static websites. Static sites have superior web performance compared to dynamic websites, while still providing the option to embed dynamic components within your static site. You can learn more about <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/">why you should choose to build static sites here</a>.
 
 Separating your site’s content from its delivery system offers many benefits. It gives your developer more flexibility to use and swap out their favorite technologies to build your site more efficiently, without having to change your CMS. Going headless also improves your website’s performance and security compared to traditional CMS platforms like Wordpress. This will reduce the time and cost needed for your developer to keep your site secure. It will also increase your site’s speed, which will improve search engine optimization (SEO).
+
+![](https://cc-dam.imgix.net/GitCMSfinalimage.png)
 
 ## A Git-based CMS improves your content workflow
 
@@ -68,6 +70,6 @@ As content teams strive for greater efficiency and collaboration, Git-based CMSs
 
 ## Edit content visually with CloudCannon
 
-CloudCannon is a Git-based CMS perfect for editing content-rich static sites. Beyond the benefits of Git-based CMSs mentioned above, CloudCannon’s CMS also offers the ability to edit your content visually with our intuitive Visual Editor. This means no more editing in the dark: changes are shown live on the page to further improve content workflows. What’s more, with the CloudCannon Visual Editor you can also build site pages visually using a component library, all with no technical knowledge needed. Choose <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a> to empower marketing and content teams to deliver exceptional digital experiences with ease.
+CloudCannon is a Git-based CMS perfect for editing content-rich static sites. Beyond the benefits of Git-based CMSs mentioned above, CloudCannon’s CMS also offers the ability to edit your content visually with our intuitive Visual Editor. This means no more editing in the dark: changes are shown live on the page to further improve content workflows. What’s more, with the CloudCannon Visual Editor you can also build site pages visually using a custom component library set by your developer. Choose <a target="_blank" rel="noopener" href="https://cloudcannon.com/git-cms/">CloudCannon as your Git-based CMS</a> to empower marketing and content teams to deliver exceptional digital experiences with ease.
 
 <!-- notionvc: 4015f6a6-b9de-40a2-96a2-fe7832278b22 -->
