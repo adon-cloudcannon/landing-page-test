@@ -34,17 +34,23 @@ seo:
 ---
 Your content management system (CMS) is arguably the most powerful publishing tool in your workflow. Content management systems make it possible for non-technical editors to create, maintain, and edit content on their websites. The right CMS should offer a fantastic developer experience while empowering marketers and content editors to do their jobs more independently and efficiently. Yet many traditional CMS platforms leave marketing teams and content teams feeling frustrated and dependent on developers to make simple changes. Luckily, modern content management systems like the Git-based CMS provide editors’ with greater autonomy and confidence.
 
+![Comparing traditional CMSs to the more modern Headless Git-based CMS](https://cc-dam.imgix.net/CMSCompareImage.png "Traditional CMS vs. Headless Git-based CMS")
+
 ## A Git-based CMS is a headless CMS
 
 A headless CMS decouples your website’s content — the body of your site — from how your content is delivered and displayed on your website. Your site delivery, or the head of your website, is controlled by your developer’s static site generator of choice — tools like <a target="_blank" rel="noopener" href="https://astro.build/">Astro</a>, <a target="_blank" rel="noopener" href="https://www.11ty.dev/">Eleventy (11ty)</a>, and <a target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>. This is the preferred method for building static websites. Static sites have superior web performance compared to dynamic websites, while still providing the option to embed dynamic components within your static site. You can learn more about <a target="_blank" rel="noopener" href="https://cloudcannon.com/blog/static-vs-dynamic-websites-the-definitive-guide/">why you should choose to build static sites here</a>.
 
-Separating your site’s content from its delivery system offers many benefits. It gives your developer more flexibility to use and swap out their favorite technologies to build your site more efficiently, without having to change your CMS. Going headless also improves your website’s performance and security compared to traditional CMS platforms like Wordpress. This will reduce the time and cost needed for your developer to keep your site secure. It will also increase your site’s speed, which will improve search engine optimization (SEO).
+![Comparing static websites to dynamic websites](https://cc-dam.imgix.net/DynamicStaticImage.png "Static vs. Dynamic websites")
 
-![](https://cc-dam.imgix.net/GitCMSfinalimage.png)
+Separating your site’s content from its delivery system offers many benefits. It gives your developer more flexibility to use and swap out their favorite technologies to build your site more efficiently, without having to change your CMS. Going headless also improves your website’s performance and security compared to traditional CMS platforms like Wordpress. This will reduce the time and cost needed for your developer to keep your site secure. It will also increase your site’s speed, which will improve search engine optimization (SEO).
 
 ## A Git-based CMS improves your content workflow
 
 The benefits of a Git-based CMS boil down to your content publishing workflow. A Git-based CMS leverages the power of Git, a popular open source software built to help developers collaborate remotely with ease. You can think of the Git-based CMS as a layer on top of Git that allows non-technical editors to create and edit content on their website using an intuitive interface that eliminates the need to understand Git. So both developers and editors get to benefit from Git workflows — but what’s so great about Git workflows, anyway?
+
+### ![](https://cc-dam.imgix.net/GitCMSfinalimage.png)
+
+###
 
 ### Full version control & simplified collaboration
 
