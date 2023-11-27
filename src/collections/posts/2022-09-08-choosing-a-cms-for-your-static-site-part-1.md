@@ -1,34 +1,37 @@
 ---
-draft: false
+_schema: default
 title: 'Choosing a CMS for your Static Site: Part 1'
 description: >-
   Choosing a new content management system (CMS) is one of the most important
   decisions you'll make for your business's website. The right CMS will become
   the focal point for your content and marketing team’s work, and will help
   empower you to do your write, edit, and publish content more efficiently.
+draft: false
 series:
+image: https://cc-dam.imgix.net/blog/blog-how-to-choose-a-cms-r.jpg
+date: 2022-09-08T05:00:00+12:00
+hide_publish_date: true
+tags:
+  - Resources
+author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/blog/blog-how-to-choose-a-cms-r.jpg
-date: 2022-09-08T05:00:00+1200
-hide_publish_date: true
-tags:
-  - Resources
-author: 466580e8-b101-4837-a0c2-a90a8aebb5db
-ssg_frameworks:
 categories:
   - resources
 ---
@@ -120,7 +123,7 @@ Without the right security controls, a rigorous content approval process, or ful
 
 If you haven’t already determined your minimum acceptable level of security, this is a great time to lay out which security features are most important to your business. You’ll find it will be a great help when it comes to shortlisting CMSs for your team to trial.
 
-## How much technical support will I get from a new CMS? 
+## How much technical support will I get from a new CMS?
 
 I’m going to go out on a limb here, but I firmly believe that **good support is as important as good software**. Support includes, but isn’t limited to, the presence of actual human support staff on the other side of a helpdesk. Simply by asking a few questions, you’ll be able to gauge how well a CMS’s support team knows the product. How quickly do they respond to your questions? Are their responses actually helpful? Do they give you a clear explanation and a path to follow? Do they go above and beyond, or do they simply refer you to documentation? And on that note, **how good is the CMS’s documentation?** (Since your developer or agency partner, if you have them, will likely be your first port of call for technical issues, they’ll be the ideal people to assess the documentation.)
 
@@ -128,4 +131,4 @@ Some CMSs will even be able to assist you as you onboard your team and your site
 
 ## What’s the next step?
 
-We’ve covered the most important points in the process of evaluating a new CMS. In our next article we’ll take a deeper dive into the different categories of CMS available to you, and the benefits, drawbacks, and potential of each type. Deciding on the technological approach your CMS will take to create your website is an important step in your journey, as it will determine how you’re able to grow and change your business’s public web presence in the future.
+We’ve covered the most important points in the process of evaluating a new CMS. In our next article,&nbsp;[**Choosing a CMS for your Static Site: Part 2 — Headless? Git-based, or API-based?**](/blog/choosing-a-cms-for-your-static-site-part-2-headless-git-based-or-api-based/), we’ll take a deeper dive into the different categories of CMS available to you, and the benefits, drawbacks, and potential of each type. Deciding on the technological approach your CMS will take to create your website is an important step in your journey, as it will determine how you’re able to grow and change your business’s public web presence in the future.

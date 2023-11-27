@@ -1,18 +1,16 @@
 ---
 _schema: default
-title: >-
-  Share common components and syndicate content with Site Mounting on
-  CloudCannon
+title: Share components and syndicate content with Site Mounting
 breadcrumb_title:
 description: >-
   Introducing CloudCannon's new Site Mounting feature, which lets developers
   reuse site files across multiple sites, and  manage a single static content
   hub aggregated from a suite of static sites — in essence a pre-generated
   headless API.
-draft: true
+draft: false
 series:
-image: ''
-date: 2023-11-10T05:00:00+13:00
+image: https://cc-dam.imgix.net/site-mounting-hero.png
+date: 2023-11-09T05:00:00+13:00
 hide_publish_date: false
 tags:
   - Features
@@ -52,7 +50,7 @@ Site Mounting solves all of these problems immediately — and because it’s an
 
 You might, for example, have a single Git repo with your header and footer components, and want to reuse these across multiple sites. Here’s Zach Leatherman’s solution for that particular issue:
 
-{% bookshop 'markdown/youtube' title: "" id: "owOUiCeFkAE" extend: false border: false %}
+{% bookshop 'markdown/youtube' title: "" id: "IwZf9VdQbKo" extend: false border: false %}
 
 You could also create a public/private crossover repository where your content could be community moderated and edited, and then mounted into a private repo. This way, your source code and / or project files can remain entirely private, while your community can manage and edit your documentation or other public site content — the best of both worlds. (You might equally mount a private repo onto a public site in order to use a proprietary plugin — it’s entirely up to you!)
 
@@ -66,7 +64,7 @@ Let’s take a look at how that would work. Rather than mounting every site to e
 
 Once we mount these build outputs we can make them available as static files for builds of our separate sites, and even choose to host the JSON files as an API for a classically headless approach. Because all paths are pre-generated, our sites remain fully static, and can simply reference the JSON data without needing to implement islands or dynamic content of any form.
 
-\[IMAGE SHOWING AGGREGATION STEP\]
+<p class="center-text"><img alt="Diagram showing the flow from a Content Lake / API to dependent sites" src="https://cc-dam.imgix.net/large-content-lake diagram.png" /></p>
 
 On a smaller scale, you might see two static sites sharing each other’s data, where an update to data on site A triggers a rebuild on site B, and vice versa.
 
