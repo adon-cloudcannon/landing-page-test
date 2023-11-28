@@ -32,7 +32,7 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-When <a href="https://www.notion.so/Andrew-Winter-Bl-thner-PSOTM-transcript-985fcfb1229f471881e76589810c816a?pvs=21" target="_blank" rel="noopener">Blüthner Piano Centre</a> wanted to update their flagship site, they turned to developer and design director Andrew Winter, at [Winteractive](https://winteractive.co/ ""). Blüthner’s requirements for the new site included significant design enhancements, as well as a way to manage their own content more effectively.
+When <a href="https://bluthner.co.uk/" target="_blank" rel="noopener">Blüthner Piano Centre</a> wanted to update their flagship site, they turned to developer and design director Andrew Winter, at [Winteractive](https://winteractive.co/). Blüthner’s requirements for the new site included significant design enhancements, as well as a way to manage their own content more effectively.
 
 As a [CloudCannon partner](https://cloudcannon.com/partner-program/), Andrew knew that CloudCannon’s intuitive editing interface would be ideal for the Blüthner team, and that the static site generator [Jekyll](https://cloudcannon.com/jekyll-cms/) would be the right tool for the job. And when it came to the design, he knew he wanted to showcase the skill and craftsmanship that goes into every single Blüthner piano, via the production of new, high-quality assets to show on the site.
 
@@ -84,4 +84,4 @@ Since 1853, Blüthner pianos have been handcrafted in Leipzig, Germany, with a f
 
 Andrew Winter is a design director, developer, and [CloudCannon Partner](https://cloudcannon.com/partner-program/) working across the fields of brand identity, UI design, web development and e-commerce.
 
-From bespoke websites, online stores, and mobile apps to traditional printed mediums, Andrew’s studio [Winteractive](https://winteractive.co/ "") produces beautifully crafted design work that helps clients to communicate with clarity, simplicity and visual appeal.
+From bespoke websites, online stores, and mobile apps to traditional printed mediums, Andrew’s studio [Winteractive](https://winteractive.co/) produces beautifully crafted design work that helps clients to communicate with clarity, simplicity and visual appeal.
