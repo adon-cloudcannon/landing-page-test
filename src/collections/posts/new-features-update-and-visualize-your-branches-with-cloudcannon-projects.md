@@ -7,7 +7,7 @@ description: >-
   diagrams and updates from upstream sources.
 draft: true
 series:
-image: https://cc-dam.imgix.net/blog-visualize-branch-hero.png
+image: https://cc-dam.imgix.net/blog-visualize-branch-hero-r.png
 date: 2023-12-02T05:00:00+13:00
 hide_publish_date: false
 tags:
