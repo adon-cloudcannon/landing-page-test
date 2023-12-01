@@ -17,8 +17,8 @@ permalink: /blog/{{ title | slugify }}/
 cta:
   title: Branch and merge your website
   body_text: >-
-    If your team frequently tests new content ideas and dev features on your
-    site, check out how CloudCannon’s Projects can help you!
+    Test new content ideas and dev features on your site, with CloudCannon’s
+    Projects!
   button:
     content:
       link: https://cloudcannon.com/documentation/articles/create-a-project/
