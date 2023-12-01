@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   Introducing two new features for users of our branching workflows: new branch
   diagrams and updates from upstream sources.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog-visualize-branch-hero-r.png
 date: 2023-12-02T05:00:00+13:00
