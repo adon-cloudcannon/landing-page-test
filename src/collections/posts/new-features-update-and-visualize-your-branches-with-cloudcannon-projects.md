@@ -40,7 +40,7 @@ If you're several branches deep into a [CloudCannon Project](https://cloudcannon
 
 ![](https://cc-dam.imgix.net/publish-branch-visual-r.png)
 
-Being able to see a diagram of your existing branches really helps content teams see where their changes will publish. To help speed up edits to any one your branches, each site’s card on the above diagram also acts as a direct link to that specific site. <!-- notionvc: d9a57340-8108-480c-a5dc-d77dbedc3f2b -->
+Being able to see a diagram of your existing branches really helps content teams see where their changes will publish. To help speed up edits to any one of your branches, each site’s card on the above diagram also acts as a direct link to that specific site. <!-- notionvc: d9a57340-8108-480c-a5dc-d77dbedc3f2b -->
 
 ![](https://cc-dam.imgix.net/teams-enterprise-advanced-branching-r.png)
 
