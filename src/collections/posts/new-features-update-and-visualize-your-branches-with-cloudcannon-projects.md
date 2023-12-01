@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: 'New features: Update and visualize your branches with CloudCannon Projects'
+title: Update and visualize your branches with CloudCannon Projects
 breadcrumb_title:
 description: >-
   Introducing two new features for users of our branching workflows: new branch
