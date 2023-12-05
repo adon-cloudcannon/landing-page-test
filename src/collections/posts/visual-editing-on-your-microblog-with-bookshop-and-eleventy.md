@@ -2,12 +2,18 @@
 _schema: default
 title: Let’s Create a Microblog with Visual Editing using Bookshop and Eleventy
 breadcrumb_title: Let’s Create a Microblog with Visual Editing
-description:
+description: >-
+  Visual editing is table-stakes for a modern content management workflow and
+  CloudCannon makes it straightforward to add visual editing to the same
+  development workflow your development team already loves.
 draft: true
 series:
-image:
+image: https://cc-dam.imgix.net/bookshop.png
 date:
 hide_publish_date: false
+tags:
+  - Eleventy
+  - Tutorials
 author: a110034b-fb1b-44a0-bf3e-1b4aa5f4dfd8
 permalink: /blog/{{ title | slugify }}/
 cta:
