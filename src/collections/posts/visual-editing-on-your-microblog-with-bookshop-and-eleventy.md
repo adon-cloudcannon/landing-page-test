@@ -46,13 +46,17 @@ You can&nbsp;[head over to GitHub to read through the final source code](https:/
 
 To create the initial Bookshop component files and folder structure, you can run the following command to populate the `_component-library`&nbsp;folder:
 
-<code class="language-sh">npx @bookshop/init --new _component-library --framework eleventy </code>
+```
+npx @bookshop/init --new _component-library --framework eleventy
+```
 
 ### Bookshop Installation
 
 Next, let’s install our Bookshop dependencies. You can install everything you need for Bookshop with this command:
 
-<code class="language-sh">npm install --save-dev --save-exact @bookshop/eleventy-bookshop @bookshop/sass @bookshop/generate @bookshop/eleventy-engine npm-run-all </code>
+```
+npm install --save-dev --save-exact @bookshop/eleventy-bookshop @bookshop/sass @bookshop/generate @bookshop/eleventy-engine npm-run-all
+```
 
 * `@bookshop/eleventy-bookshop` to add Bookshop shortcodes to Eleventy.
 * `@bookshop/sass` to compile our Sass stylesheets.
