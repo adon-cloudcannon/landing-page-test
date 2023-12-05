@@ -38,7 +38,9 @@ To get visual editing up and running with CloudCannon, we’ll use a plugin call
 
 In this post we’re going to go through the minimum viable steps to add Bookshop Visual Editing to an Eleventy Microblog (think something akin to Tumblr).
 
-You can&nbsp;[head over to GitHub to read through the final source code](https://github.com/zachleat-cc/demo-cloudcannon-microblog)&nbsp;of the Microblog project. A&nbsp;[live demo](https://rare-pineapple.cloudvent.net/)&nbsp;of the final product is also available (with a few sample posts). Editors can add any arbitrary HTML content to the blog. The project includes pages for the content stream, individual posts, tags, and also includes on-page search (via&nbsp;[Pagefind](https://pagefind.app/)).
+You can&nbsp;[head over to GitHub to read through the final source code](https://github.com/zachleat-cc/demo-cloudcannon-microblog)&nbsp;of the Microblog project. Feel free to fork the repository and deploy your own version to CloudCannon to try this out for yourself!
+
+A&nbsp;[live demo](https://rare-pineapple.cloudvent.net/)&nbsp;of the final product is also available (with a few sample posts). Editors can add any arbitrary HTML content to the blog and the project includes pages for the content stream, individual posts, tags, and also on-page search (via&nbsp;[Pagefind](https://pagefind.app/)).
 
 ## Set up Bookshop
 
