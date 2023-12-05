@@ -40,21 +40,21 @@ In this post we’re going to go through the minimum viable steps to add Booksho
 
 You can&nbsp;[head over to GitHub to read through the final source code](https://github.com/zachleat-cc/demo-cloudcannon-microblog)&nbsp;of the Microblog project. A&nbsp;[live demo](https://rare-pineapple.cloudvent.net/)&nbsp;of the final product is also available (with a few sample posts). Editors can add any arbitrary HTML content to the blog. The project includes pages for the content stream, individual posts, tags, and also includes on-page search (via&nbsp;[Pagefind](https://pagefind.app/)).
 
-## Setup
+## Set up Bookshop
 
-### Bookshop Scaffolding
+### Scaffolding
 
 To create the initial Bookshop component files and folder structure, you can run the following command to populate the `_component-library`&nbsp;folder:
 
-```
+```shell
 npx @bookshop/init --new _component-library --framework eleventy
 ```
 
-### Bookshop Installation
+### Installation
 
 Next, let’s install our Bookshop dependencies. You can install everything you need for Bookshop with this command:
 
-```
+```shell
 npm install --save-dev --save-exact @bookshop/eleventy-bookshop @bookshop/sass @bookshop/generate @bookshop/eleventy-engine npm-run-all
 ```
 
@@ -67,7 +67,7 @@ npm install --save-dev --save-exact @bookshop/eleventy-bookshop @bookshop/sass @
 
 Next we’ll want to add Bookshop’s Eleventy plugin to our Eleventy configuration file (likely&nbsp;`.eleventy.js`&nbsp;or&nbsp;`eleventy.config.js`) the [same as you would any other Eleventy plugin](https://www.11ty.dev/docs/plugins/#adding-a-plugin).
 
-```
+```javascript
 const pluginBookshop = require("@bookshop/eleventy-bookshop");
 
 module.exports = function (eleventyConfig) {
@@ -79,11 +79,11 @@ module.exports = function (eleventyConfig) {
 
 The&nbsp;`bookshopLocations`&nbsp;configuration property must match the folder name specified in our scaffolding command (`npx @bookshop/init …`) above.
 
-### A Few Build Commands
+### Compiling Sass
 
-We’ll also need to configure Sass to compile our Bookshop components, which you can do with these handy npm script additions to your&nbsp;`package.json`:
+We’ll also need to compile our Bookshop component styles, which you can do with the `bookshop-sass` command in these handy npm script additions to your&nbsp;`package.json`:
 
-```
+```json
 {
   "scripts": {
     "build:style": "bookshop-sass --bookshop _component-library --output _site/public/bookshop.css",
@@ -102,7 +102,7 @@ Finally, we’ll add two CloudCannon build hooks to run our Bookshop integration
 
 `.cloudcannon/prebuild`:
 
-```
+```shell
 #!/usr/bin/env bash
 
 npm install
@@ -111,7 +111,7 @@ npm run build:style
 
 `.cloudcannon/postbuild`:
 
-```
+```shell
 #!/usr/bin/env bash
 
 npx @bookshop/generate
@@ -145,6 +145,6 @@ Perhaps more interestingly, the&nbsp;[`link`&nbsp;Bookshop component](https://gi
 
 Any changes to the&nbsp;`link`&nbsp;URL are automatically reflected in the web component and the screenshot with favicon are updated accordingly.
 
-## One more thing…
+## That’s it!
 
-Okay, fine — not just one thing. There is a lot more to Bookshop. On [the full Bookshop guide](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/) you can learn more about data binding, live editing fallbacks, custom plugins, preview thumbnails, and the component playground (everybody loves a style guide!).
+Using There is a lot more to Bookshop. On [the full Bookshop guide](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/) you can learn more about data binding, live editing fallbacks, custom plugins, preview thumbnails, and the component playground (everybody loves a style guide!).
