@@ -1,7 +1,7 @@
 ---
 _schema: default
-title: Visual Editing on Your Microblog with Bookshop and Eleventy
-breadcrumb_title:
+title: Let’s Create a Microblog with Visual Editing using Bookshop and Eleventy
+breadcrumb_title: Let’s Create a Microblog with Visual Editing
 description:
 draft: true
 series:
