@@ -123,13 +123,13 @@ Now that our setup is complete we can move on to the fun part: creating Bookshop
 
 *You can view the source code for our finished&nbsp;[Microblog components for&nbsp;`code`,&nbsp;`link`, and&nbsp;`text`](https://github.com/zachleat-cc/demo-cloudcannon-microblog/tree/main/_component-library/components).*
 
-The simplest of these is the&nbsp;[text component](https://github.com/zachleat-cc/demo-cloudcannon-microblog/tree/main/_component-library/components/text), which is plain HTML content. Each component is represented by three files:
+The simplest of these is the&nbsp;[text component](https://github.com/zachleat-cc/demo-cloudcannon-microblog/tree/main/_component-library/components/text) which holds on to no more than plain ol’ HTML content. Each Bookshop component can be represented in three files and `text` is no exception:
 
 * `text.bookshop.yml`&nbsp;for CloudCannon specific configuration (including input types).
 * `text.eleventy.liquid`&nbsp;for Liquid templating syntax for the component.
 * `text.scss`&nbsp;for component styles.
 
-When we make edits in the CloudCannon interface, the visual rendering of the component will be updated in real time in the CloudCannon visual editor.
+When we make changes to the HTML content in a `text` component in the CloudCannon interface, the visual rendering of the component will be updated in real time in the visual editor.
 
 If you’d like to see a preview of how the visual editing experience looks and behaves,&nbsp;[skip to&nbsp;`0:46`&nbsp;in this video on YouTube](https://youtu.be/AsWt6BTjzyk?feature=shared&amp;t=46)&nbsp;(or watch below).
 
@@ -142,6 +142,10 @@ You can mix and combine these Bookshop components together to create a post on t
 Perhaps more interestingly, the&nbsp;[`link`&nbsp;Bookshop component](https://github.com/zachleat-cc/demo-cloudcannon-microblog/tree/main/_component-library/components/link)&nbsp;uses the&nbsp;[`<browser-window>`&nbsp;web component](https://www.zachleat.com/web/browser-window/)&nbsp;and is editable without any configuration or introspection into the web component’s code — and this example demonstrates re-rendering compatibility with <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM">Shadow DOM</a> web components too.
 
 Any changes to the&nbsp;`link`&nbsp;URL are automatically reflected in the web component and the screenshot with favicon are updated accordingly.
+
+### Current Limitations
+
+Shortcodes are not supported in Bookshop components. Guarding the [shortcode with `env_bookshop_live`](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/live-fallbacks/) is not yet a viable workaround. This is a [Liquid limitation](https://liquidjs.com/tutorials/options.html#Strict) with parsing unknown shortcode names that we hope to fix soon. Try to switch your shortcode to use a filter instead and it will work fine.
 
 ## That’s it!
 
