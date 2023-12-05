@@ -158,3 +158,5 @@ Shortcodes are not supported in Bookshop components. Guarding the [shortcode wit
 ## That’s it!
 
 We now have a visual editing interface for our Microblog. Editors can now add or edit entries easily and predictably — but there is more! On [the full Bookshop guide](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/) you can learn more about data binding, live editing fallbacks, custom plugins, preview thumbnails, and the component playground (everybody loves a style guide!).
+
+*Poster image photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/photos/brown-concrete-library-interior-0rzUepBXHN0">Ivo Rainha</a>.*
