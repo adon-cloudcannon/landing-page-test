@@ -100,7 +100,7 @@ Now we simply run&nbsp;`npm start`&nbsp;to start Eleventy’s local development 
 
 Finally, we’ll add two CloudCannon build hooks to run our Bookshop integrations on the CloudCannon servers. We will create two files: `.cloudcannon/prebuild` and `.cloudcannon/postbuild`.
 
-* `.cloudcannon/prebuild`:
+`.cloudcannon/prebuild`:
 
 ```
 #!/usr/bin/env bash
@@ -109,7 +109,7 @@ npm install
 npm run build:style
 ```
 
-* `.cloudcannon/postbuild`:
+`.cloudcannon/postbuild`:
 
 ```
 #!/usr/bin/env bash
