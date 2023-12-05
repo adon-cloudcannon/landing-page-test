@@ -119,9 +119,7 @@ npx @bookshop/generate
 
 ## Using Bookshop
 
-Now that our setup is complete we can move on to the fun part: creating Bookshop components.
-
-Our Microblog project has three separate Bookshop components: `text`, `code`, and `link`.
+Now that our setup is complete we can move on to the fun part: creating Bookshop components. At time of writing, our Microblog project has three Bookshop components: `text`, `code`, and `link`.
 
 *You can view the source code for our finished&nbsp;[Microblog components for&nbsp;`code`,&nbsp;`link`, and&nbsp;`text`](https://github.com/zachleat-cc/demo-cloudcannon-microblog/tree/main/_component-library/components).*
 
@@ -137,14 +135,14 @@ If you’d like to see a preview of how the visual editing experience looks and 
 
 {% bookshop 'markdown/youtube' title: " Live Editing an Eleventy Project in CloudCannon with Bookshop " id: "AsWt6BTjzyk" extend: false border: false %}
 
-You can mix and combine these Bookshop components together to create a post on our Microblog and the values for each of the component instances are serialized as&nbsp;`content_blocks`&nbsp;in the template’s front matter (view&nbsp;[a sample post](https://github.com/zachleat-cc/demo-cloudcannon-microblog/blob/main/src/posts/2023-11-20.md?plain=1)).
+You can mix and combine these Bookshop components together to create a post on the blog and the values for each of the component instances are serialized as&nbsp;`content_blocks`&nbsp;in the template’s front matter (view&nbsp;[a sample post](https://github.com/zachleat-cc/demo-cloudcannon-microblog/blob/main/src/posts/2023-11-20.md?plain=1)).
 
-### Works as-is with Web Components
+### Works With Web Components
 
-Perhaps more interestingly, the&nbsp;[`link`&nbsp;Bookshop component](https://github.com/zachleat-cc/demo-cloudcannon-microblog/tree/main/_component-library/components/link)&nbsp;uses the&nbsp;[`<browser-window>`&nbsp;web component](https://www.zachleat.com/web/browser-window/)&nbsp;and is visually editable too!
+Perhaps more interestingly, the&nbsp;[`link`&nbsp;Bookshop component](https://github.com/zachleat-cc/demo-cloudcannon-microblog/tree/main/_component-library/components/link)&nbsp;uses the&nbsp;[`<browser-window>`&nbsp;web component](https://www.zachleat.com/web/browser-window/)&nbsp;and is editable without any configuration or introspection into the web component’s code — and this example demonstrates re-rendering compatibility with <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM">Shadow DOM</a> web components too.
 
 Any changes to the&nbsp;`link`&nbsp;URL are automatically reflected in the web component and the screenshot with favicon are updated accordingly.
 
 ## That’s it!
 
-Using There is a lot more to Bookshop. On [the full Bookshop guide](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/) you can learn more about data binding, live editing fallbacks, custom plugins, preview thumbnails, and the component playground (everybody loves a style guide!).
+We now have a visual editing interface for our Microblog. Editors can now add or edit entries easily and predictably — but there is more! On [the full Bookshop guide](https://cloudcannon.com/documentation/guides/bookshop-eleventy-guide/) you can learn more about data binding, live editing fallbacks, custom plugins, preview thumbnails, and the component playground (everybody loves a style guide!).
