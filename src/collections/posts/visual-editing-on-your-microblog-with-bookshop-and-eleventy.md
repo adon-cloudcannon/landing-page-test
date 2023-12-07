@@ -6,10 +6,10 @@ description: >-
   Visual editing is table stakes for a modern content management workflow. Using
   CloudCannon, it’s straightforward to add visual editing to your project using
   the same workflow your development team already loves.
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/bookshop.png
-date:
+date: 2023-12-08T06:00:00+13:00
 hide_publish_date: false
 tags:
   - Eleventy
