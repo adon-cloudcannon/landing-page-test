@@ -1,6 +1,6 @@
 announcement_banner_content: >-
-  💡 Have your say on #TheFutureOfJamstack<a
-  href="https://thefutureofjamstack.org/"></a>
+  💡 Have your say on <a
+  href="https://thefutureofjamstack.org/">#TheFutureOfJamstack</a>
 color: black
 _inputs:
   color:
