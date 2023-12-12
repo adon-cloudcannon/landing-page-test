@@ -44,6 +44,8 @@ With CloudCannon's intuitive WYSIWYG Content Editor and the Visual Editor for pa
 
 Beyond the self-service CMS, PaperCut also leverages CloudCannon's professional services for more complex jobs. In just over 18 months, CloudCannon’s Enterprise Success team has worked on over 20 major website projects, from full redesigns to technical migrations. For example, for PaperCut’s 25th birthday together they ["retroed" PaperCut's website](https://www.papercut.com/get/papercut/25-years-old/) to recreate it as it could have been in 1998. Such ambitious and creative undertakings would not have been possible alone.
 
+<img src="https://cc-dam.imgix.net/papercut-case-25years.png" alt="PaperCut's retro website" title="PaperCut.com, as it may have appeared in the distant past of1998." height="820" width="1222" />
+
 At this year’s HugoConf, PaperCut’s Rachel Uberti and Sanjay Jayaprakash discussed how the PaperCut and CloudCannon teams work so well together:
 
 {% bookshop 'markdown/youtube' title: "" id: "JS6Hwsc0OnA" extend: false border: false %}
