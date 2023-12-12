@@ -62,7 +62,7 @@ From Grayson’s perspective, too, it’s been a good match.
 
 Since consolidating PaperCut's properties into CloudCannon, Grayson estimates the team has already migrated 98% of all web pages, with the remaining 2% underway as business priorities allow. Beyond the sheer efficiency of centralization, he’s delighted that the team has increased website publishing velocity a hundredfold.
 
-Core web vitals metrics on site performance have also improved significantly after moving to a primarily static architecture. By eliminating bloated serverside software, pages now load faster for PaperCut's customers worldwide. The difference in their aggregated performance score is compelling — from an average of 14 before CloudCannon, to an average in the low 90s with CloudCannon.
+Core web vitals metrics on site performance have also improved significantly after moving to a primarily static architecture. By eliminating bloated serverside software, pages now load faster for PaperCut's customers worldwide. The difference in their aggregated performance score is compelling — **from an average of 14 before CloudCannon, to an average in the low 90s with CloudCannon**.
 
 With CloudCannon unlocking their potential for change, PaperCut's digital team is proceeding full steam ahead on customer-centric growth projects. Now that the technical barriers and infrastructure limitations are finally resolved, the focus has shifted to using their modern stack to reach more users, and spread the word about their software and its benefits.
 
