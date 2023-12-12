@@ -2,7 +2,7 @@
 _schema: default
 uuid: 0af59837-bde0-4a82-8117-51f08ad9258d
 title: PaperCut
-heading: How 110 PaperCut editors collaborate on >4,000 web pages with CloudCannon
+heading: How 110 PaperCut editors collaborate on 4,000 web pages with CloudCannon
 weight: 3
 categories:
   - Business
@@ -14,7 +14,7 @@ image:
 logo: https://cc-dam.imgix.net/PaperCut_+Print+management+software-5+1.png
 case_study_person: 716fcb62-861f-4b8b-812f-16e3852caa80
 description: >-
-  Find out how PaperCut uses CloudCannon to consolidate multiple sites into a
+  Find out how PaperCut used CloudCannon to consolidate multiple sites into a
   single convenient content management system.
 date: 2023-12-20T05:00:00+13:00
 seo:
@@ -42,7 +42,7 @@ By consolidating PaperCut's properties into CloudCannon, Grayson successfully ce
 
 Previously, due to both technical and structural bottlenecks, PaperCut’s time-to-publish for non-technical editors was anywhere up to five weeks — or even more. CloudCannon has cut that down to a matter of minutes, and has also democratized content publishing for the team, supporting PaperCut’s flat corporate structure.
 
-<p class="text-center"><img alt="" src="https://cc-dam.imgix.net/papercut-page-builder.gif" /></p>
+![](https://cc-dam.imgix.net/papercut-page-builder.gif)
 
 With CloudCannon's intuitive [WYSIWYG Content Editor and the Visual Editor for page building](https://cloudcannon.com/for-content-editors/), demonstrated in the video above, even non-technical content owners can now operate autonomously. As Grayson explains, "even the most unconfident editors in my team are pretty confident using it now." The new system provides full accountability, too — with Git workflows allowing detailed tracking of who changed what and when.
 
