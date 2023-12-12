@@ -2,7 +2,7 @@
 _schema: default
 uuid: 0af59837-bde0-4a82-8117-51f08ad9258d
 title: PaperCut
-heading: How 100+ PaperCut editors collaborate on 4,000 web pages using CloudCannon
+heading: How 110 PaperCut editors collaborate on >4,000 web pages with CloudCannon
 weight: 3
 categories:
   - Business
@@ -13,7 +13,9 @@ image:
   alt:
 logo: https://cc-dam.imgix.net/PaperCut_+Print+management+software-5+1.png
 case_study_person: 716fcb62-861f-4b8b-812f-16e3852caa80
-description:
+description: >-
+  Find out how PaperCut used CloudCannon to consolidate multiple sites into a
+  single convenient content management system.
 date: 2023-12-20T05:00:00+13:00
 seo:
   open_graph_type: article
