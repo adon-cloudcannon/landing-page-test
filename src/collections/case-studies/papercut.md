@@ -42,7 +42,7 @@ By consolidating PaperCut's properties into CloudCannon, Grayson successfully ce
 
 Previously, due to both technical and structural bottlenecks, PaperCut’s time-to-publish for non-technical editors was anywhere up to five weeks — or even more. CloudCannon has cut that down to a matter of minutes, and has also democratized content publishing for the team, supporting PaperCut’s flat corporate structure.
 
-{% bookshop 'markdown/youtube' title: "" id: "3AvYLTjMwCg" extend: false border: false %}
+![](https://cc-dam.imgix.net/papercut-page-builder.gif)
 
 With CloudCannon's intuitive [WYSIWYG Content Editor and the Visual Editor for page building](https://cloudcannon.com/for-content-editors/), demonstrated in the video above, even non-technical content owners can now operate autonomously. As Grayson explains, "even the most unconfident editors in my team are pretty confident using it now." The new system provides full accountability, too — with Git workflows allowing detailed tracking of who changed what and when.
 
