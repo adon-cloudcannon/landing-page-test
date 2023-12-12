@@ -26,6 +26,8 @@ PaperCut, a global print management software provider, was facing significant ch
 
 After assessing the landscape, PaperCut's Digital Lead Grayson Campbell embarked on a website transformation initiative to consolidate systems into a single convenient content management platform. With leadership support and a focus on enabling self-service, Grayson realized the company needed a modern CMS — and ideally one that produced performant static sites. He began evaluating SaaS solutions that could integrate with Hugo and allow non-technical users to publish content themselves.
 
+![](https://cc-dam.imgix.net/papercut-campaign.png)
+
 ## Finding the right strategic partner
 
 Most CMS platforms Grayson trialed didn't properly accommodate PaperCut's unique infrastructure requirements. Being an established scaling business with complex hosting configurations and ISO security compliance needs, finding the right solution was difficult:
@@ -46,7 +48,7 @@ With CloudCannon's intuitive [WYSIWYG Content Editor and the Visual Editor for p
 
 Beyond the self-service CMS, PaperCut also leverages CloudCannon's professional services for more complex jobs. In just over 18 months, CloudCannon’s Enterprise Success team has worked on over 20 major website projects, from full redesigns and <a target="_blank" rel="noopener" href="https://www.papercut.com/get/papercut/">creative campaigns</a> to <a target="_blank" rel="noopener" href="https://www.papercut.com/kb/">technical migrations</a>. For example, for PaperCut’s 25th birthday together they <a target="_blank" rel="noopener" href="https://www.papercut.com/get/papercut/25-years-old/">"retroed" PaperCut's website</a> to recreate it as it could have been in 1998. Such ambitious and creative undertakings would not have been possible alone.
 
-<img alt="PaperCut's retro website" title="PaperCut.com, as it may have appeared in the distant past of1998." height="820" width="1222" src="https://cc-dam.imgix.net/papercut-case-25years.png" />
+![PaperCut's retro website](https://cc-dam.imgix.net/papercut-25.png "PaperCut.com, as it may have appeared in the distant past of1998.")
 
 At this year’s HugoConf, PaperCut’s Rachel Uberti and Sanjay Jayaprakash discussed how the PaperCut and CloudCannon teams work so well together:
 
@@ -65,6 +67,8 @@ Core web vitals metrics on site performance have also improved significantly aft
 With CloudCannon unlocking their potential for change, PaperCut's digital team is proceeding full steam ahead on customer-centric growth projects. Now that the technical barriers and infrastructure limitations are finally resolved, the focus has shifted to using their modern stack to reach more users, and spread the word about their software and its benefits.
 
 The journey has fostered a strong partnership between PaperCut and CloudCannon too, bringing international teams closer together to solve complex puzzles.
+
+![](https://cc-dam.imgix.net/papercut-kb.png)
 
 ## Looking ahead
 
