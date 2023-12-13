@@ -22,11 +22,11 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-<a href="https://www.papercut.com/" target="_blank" rel="noopener">PaperCut</a>, a global print management software provider, was facing significant challenges keeping their complex website infrastructure up-to-date. With over 4,000 web pages across six different systems — ranging from PHP, PmWiki, and MadCap Flare to the static site generator Hugo — making updates was slow and required either specialized technical skills or long delays. This resulted in key stakeholders across the business lacking the autonomy to make impactful changes.
+<a target="_blank" rel="noopener" href="https://www.papercut.com/">PaperCut</a>, a global print management software provider, was facing significant challenges keeping their complex website infrastructure up-to-date. With over 4,000 web pages across six different systems — ranging from PHP, PmWiki, and MadCap Flare to the static site generator Hugo — making updates was slow and required either specialized technical skills or long delays. This resulted in key stakeholders across the business lacking the autonomy to make impactful changes.
 
 After assessing the landscape, PaperCut's Digital Lead Grayson Campbell embarked on a website transformation initiative to consolidate systems into a single convenient content management system. With leadership support and a focus on enabling self-service, Grayson realized the company needed a modern CMS — and ideally one that produced performant static sites. He began evaluating SaaS solutions that could integrate with Hugo and allow non-technical users to publish content themselves.
 
-<img src="https://cc-dam.imgix.net/Papercut-hero.png" alt="Two sceenshots of Papercuts website showing projects that CloudCannon has completed" height="767" width="1251" />
+<img alt="Two sceenshots of Papercuts website showing projects that CloudCannon has completed" height="767" width="1251" src="https://cc-dam.imgix.net/Papercut-hero.png" />
 
 ## Finding the right strategic partner
 
@@ -34,7 +34,7 @@ Most CMS platforms Grayson trialed didn't properly accommodate PaperCut's unique
 
 > I was looking for a company that understood that or got that and were willing to work on top of what we had — and around what we had.
 
-After assessing several options, Grayson decided to <a href="https://cloudcannon.com/enterprise/" target="_blank" rel="noopener">partner with CloudCannon</a>, in part because he didn’t want PaperCut’s code and content to be locked into third-party services like an API-based CMS. Another feature that stood out was the accountability offered by CloudCannon’s Git-based version control, where every change to a website can be easily tracked and attributed to an author, editor, or developer.
+After assessing several options, Grayson decided to <a target="_blank" rel="noopener" href="https://cloudcannon.com/enterprise/">partner with CloudCannon</a>, in part because he didn’t want PaperCut’s code and content to be locked into third-party services like an API-based CMS. Another feature that stood out was the accountability offered by CloudCannon’s Git-based version control, where every change to a website can be easily tracked and attributed to an author, editor, or developer.
 
 ## Unlocking a wide-ranging digital transformation
 
@@ -42,13 +42,13 @@ By consolidating PaperCut's properties into CloudCannon, Grayson successfully ce
 
 Previously, due to both technical and structural bottlenecks, PaperCut’s time-to-publish for non-technical editors was anywhere up to five weeks — or even more. CloudCannon has cut that down to a matter of minutes, and has also democratized content publishing for the team, supporting PaperCut’s flat corporate structure.
 
-![](https://cc-dam.imgix.net/papercut-page-builder.gif)
+<p class="text-center"><img alt="" src="https://cc-dam.imgix.net/papercut-page-builder.gif" /></p>
 
 With CloudCannon's intuitive [WYSIWYG Content Editor and the Visual Editor for page building](https://cloudcannon.com/for-content-editors/), demonstrated in the video above, even non-technical content owners can now operate autonomously. As Grayson explains, "even the most unconfident editors in my team are pretty confident using it now." The new system provides full accountability, too — with Git workflows allowing detailed tracking of who changed what and when.
 
-Beyond the self-service CMS, PaperCut also leverages CloudCannon's professional services for more complex jobs. In just over 18 months, CloudCannon’s [Enterprise Success team](https://cloudcannon.com/enterprise/) has worked on over 20 major website projects, from full redesigns and <a href="https://www.papercut.com/get/papercut/" target="_blank" rel="noopener">creative campaigns</a> to <a href="https://www.papercut.com/kb/" target="_blank" rel="noopener">technical migrations</a>. For example, for PaperCut’s 25th birthday together they <a href="https://www.papercut.com/get/papercut/25-years-old/" target="_blank" rel="noopener">"retroed" PaperCut's website</a> to recreate it as it could have been in 1998. Such ambitious and creative undertakings would not have been possible alone.
+Beyond the self-service CMS, PaperCut also leverages CloudCannon's professional services for more complex jobs. In just over 18 months, CloudCannon’s [Enterprise Success team](https://cloudcannon.com/enterprise/) has worked on over 20 major website projects, from full redesigns and <a target="_blank" rel="noopener" href="https://www.papercut.com/get/papercut/">creative campaigns</a> to <a target="_blank" rel="noopener" href="https://www.papercut.com/kb/">technical migrations</a>. For example, for PaperCut’s 25th birthday together they <a target="_blank" rel="noopener" href="https://www.papercut.com/get/papercut/25-years-old/">"retroed" PaperCut's website</a> to recreate it as it could have been in 1998. Such ambitious and creative undertakings would not have been possible alone.
 
-<img src="https://cc-dam.imgix.net/Client-projects.png" alt="Many mobile screens displayed to show Papercut's website" height="689" width="1062" />
+<img alt="Many mobile screens displayed to show Papercut's website" height="689" width="1062" src="https://cc-dam.imgix.net/Client-projects.png" />
 
 At this year’s HugoConf, PaperCut’s Rachel Uberti and Sanjay Jayaprakash discussed how the PaperCut and CloudCannon teams work so well together:
 
@@ -68,7 +68,7 @@ With CloudCannon unlocking their potential for change, PaperCut's digital team i
 
 The journey has fostered a strong partnership between PaperCut and CloudCannon too, bringing international teams closer together to solve complex puzzles.
 
-<img src="https://cc-dam.imgix.net/PaperCut-performance.png" alt="Papercut website with circles showing positive statistics around the screen" height="646" width="1315" />
+<img alt="Papercut website with circles showing positive statistics around the screen" height="646" width="1315" src="https://cc-dam.imgix.net/PaperCut-performance.png" />
 
 ## Looking ahead
 
