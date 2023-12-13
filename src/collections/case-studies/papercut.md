@@ -44,6 +44,8 @@ Previously, due to both technical and structural bottlenecks, PaperCut’s time-
 
 <p class="text-center"><img alt="" src="https://cc-dam.imgix.net/papercut-page-builder-r.gif" /></p>
 
+<p class="text-center"><img src="https://cc-dam.imgix.net/papercut-page-builder-r-s.gif" /></p>
+
 With CloudCannon's intuitive [WYSIWYG Content Editor and the Visual Editor for page building](https://cloudcannon.com/for-content-editors/), demonstrated in the video above, even non-technical content owners can now operate autonomously. As Grayson explains, "even the most unconfident editors in my team are pretty confident using it now." The new system provides full accountability, too — with Git workflows allowing detailed tracking of who changed what and when.
 
 Beyond the self-service CMS, PaperCut also leverages CloudCannon's professional services for more complex jobs. In just over 18 months, CloudCannon’s [Enterprise Success team](https://cloudcannon.com/enterprise/) has worked on over 20 major website projects, from full redesigns and <a target="_blank" rel="noopener" href="https://www.papercut.com/get/papercut/">creative campaigns</a> to <a target="_blank" rel="noopener" href="https://www.papercut.com/kb/">technical migrations</a>. For example, for PaperCut’s 25th birthday together they <a target="_blank" rel="noopener" href="https://www.papercut.com/get/papercut/25-years-old/">"retroed" PaperCut's website</a> to recreate it as it could have been in 1998. Such ambitious and creative undertakings would not have been possible alone.
