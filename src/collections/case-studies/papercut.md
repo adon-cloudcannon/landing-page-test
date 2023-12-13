@@ -48,9 +48,7 @@ With CloudCannon's intuitive [WYSIWYG Content Editor and the Visual Editor for p
 
 Beyond the self-service CMS, PaperCut also leverages CloudCannon's professional services for more complex jobs. In just over 18 months, CloudCannon’s [Enterprise Success team](https://cloudcannon.com/enterprise/) has worked on over 20 major website projects, from full redesigns and <a href="https://www.papercut.com/get/papercut/" target="_blank" rel="noopener">creative campaigns</a> to <a href="https://www.papercut.com/kb/" target="_blank" rel="noopener">technical migrations</a>. For example, for PaperCut’s 25th birthday together they <a href="https://www.papercut.com/get/papercut/25-years-old/" target="_blank" rel="noopener">"retroed" PaperCut's website</a> to recreate it as it could have been in 1998. Such ambitious and creative undertakings would not have been possible alone.
 
-<img src="https://cc-dam.imgix.net/Client-projects.png" alt="Many mobile screens displayed to show Papercut's website" height="689" width="1062" />
-
-<img src="https://cc-dam.imgix.net/Papercut-projects2.png" alt="Papercut mobile screens with cards next to them explaining what was completed for the project" height="662" width="1379" />
+<img src="https://cc-dam.imgix.net/Client-projects.png" alt="Many mobile screens displayed to show Papercut's website" height="689" width="1062" /> <img src="https://cc-dam.imgix.net/Papercut-projects2.png" alt="Papercut mobile screens with cards next to them explaining what was completed for the project" height="662" width="1379" />
 
 At this year’s HugoConf, PaperCut’s Rachel Uberti and Sanjay Jayaprakash discussed how the PaperCut and CloudCannon teams work so well together:
 
@@ -71,6 +69,8 @@ With CloudCannon unlocking their potential for change, PaperCut's digital team i
 The journey has fostered a strong partnership between PaperCut and CloudCannon too, bringing international teams closer together to solve complex puzzles.
 
 <img src="https://cc-dam.imgix.net/PaperCut-performance.png" alt="Papercut website with circles showing positive statistics around the screen" height="646" width="1315" />
+
+
 
 ## Looking ahead
 
