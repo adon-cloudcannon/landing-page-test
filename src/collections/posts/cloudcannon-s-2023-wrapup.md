@@ -71,7 +71,7 @@ If you’re a freelancer or with a digital agency and you’ve joined our <a tar
 
 <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Read more about the Partner Program</a>
 
-![](https://cc-dam.imgix.net/wrapup-soc2.png)
+![](https://cc-dam.imgix.net/wrapup-soc2-r.png)
 
 ## SOC 2 Type 2 Certification
 
@@ -79,7 +79,7 @@ Our dedication to security was recognized in November when we <a target="_blank"
 
 <a target="_blank" rel="noopener" href="https://cloudcannon.com/security/">Read more about our security policies</a>
 
-![](https://cc-dam.imgix.net/wrapup-accessibility.png)
+![](https://cc-dam.imgix.net/wrapup-accessibility-r.png)
 
 ## Accessibility upgrades
 
@@ -93,7 +93,7 @@ Accessibility is particularly important to our team, and we’ve made a series o
 
 * Ongoing accessibility training and upskilling for our developers
 
-![](https://cc-dam.imgix.net/wrapup-jamstack.png)
+![](https://cc-dam.imgix.net/wrapup-jamstack-r.png)
 
 ## CloudCannon and the future of Jamstack
 
@@ -104,8 +104,6 @@ At the same time, we want to help the Jamstack community grow, so we’re helpin
 As well as our community work, you can expect CloudCannon to keep innovating with cutting-edge capabilities tailored specifically for editors and best practices in static site development.
 
 And on that note…
-
-ICON
 
 ## Editor upgrades for 2024: a sneak peek 🎉
 
