@@ -73,17 +73,17 @@ If you’re a freelancer or with a digital agency and you’ve joined our <a tar
 
 ---
 
-<img alt="" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" width="10%">
+ <img alt src="https://cc-dam.imgix.net/wrapup-soc2-r.png" width="10%" />
 
 ## SOC 2 Type 2 Certification
 
-Our dedication to security was recognized in November when we <a target="_blank" rel="noopener" href="https://staging.cloudcannon.com/blog/cloudcannon-secures-soc-2-certification/">completed our SOC 2 Type 2 certification</a> with a "clean" audit opinion from&nbsp;<a target="_blank" rel="noopener" href="https://sensiba.com/">Sensiba</a>. This certification helps to verify that our security controls, policies, and procedures are designed and implemented effectively.
+Our dedication to security was recognized in November when we <a target="_blank" rel="noopener" href="https://staging.cloudcannon.com/blog/cloudcannon-secures-soc-2-certification/">completed our SOC 2 Type 2 certification</a> with a "clean" audit opinion from <a target="_blank" rel="noopener" href="https://sensiba.com/">Sensiba</a>. This certification helps to verify that our security controls, policies, and procedures are designed and implemented effectively.
 
 <a target="_blank" rel="noopener" href="https://cloudcannon.com/security/">Read more about our security policies</a>
 
 ---
 
-<img alt="" src="https://cc-dam.imgix.net/wrapup-accessibility-r.png" width="10%">
+ <img alt src="https://cc-dam.imgix.net/wrapup-accessibility-r.png" width="10%" />
 
 ## Accessibility upgrades
 
@@ -99,7 +99,7 @@ Accessibility is particularly important to our team, and we’ve made a series o
 
 ---
 
-<img alt="" src="https://cc-dam.imgix.net/wrapup-jamstack-r.png" width="10%">
+ <img alt src="https://cc-dam.imgix.net/wrapup-jamstack-r.png" width="10%" />
 
 ## CloudCannon and the future of Jamstack
 
