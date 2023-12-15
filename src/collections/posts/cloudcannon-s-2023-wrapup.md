@@ -71,7 +71,9 @@ If you’re a freelancer or with a digital agency and you’ve joined our <a tar
 
 <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Read more about the Partner Program</a>
 
-![](https://cc-dam.imgix.net/wrapup-soc2-r.png)
+---
+
+<img alt="" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" width="10%">
 
 ## SOC 2 Type 2 Certification
 
@@ -79,7 +81,9 @@ Our dedication to security was recognized in November when we <a target="_blank"
 
 <a target="_blank" rel="noopener" href="https://cloudcannon.com/security/">Read more about our security policies</a>
 
-![](https://cc-dam.imgix.net/wrapup-accessibility-r.png)
+---
+
+<img alt="" src="https://cc-dam.imgix.net/wrapup-accessibility-r.png" width="10%">
 
 ## Accessibility upgrades
 
@@ -93,7 +97,9 @@ Accessibility is particularly important to our team, and we’ve made a series o
 
 * Ongoing accessibility training and upskilling for our developers
 
-![](https://cc-dam.imgix.net/wrapup-jamstack-r.png)
+---
+
+<img alt="" src="https://cc-dam.imgix.net/wrapup-jamstack-r.png" width="10%">
 
 ## CloudCannon and the future of Jamstack
 
