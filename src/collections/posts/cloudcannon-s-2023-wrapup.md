@@ -39,7 +39,7 @@ Here are some of the key features we’ve launched this year to help you build a
 
 <p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/site-mounting.png" /></p>
 
-Using common components across multiple sites is easy with our new Site Mounting feature. Site Mounting allows users to seamlessly integrate multiple CloudCannon sites, with “local” sites able to directly access and incorporate files from one or more “remote” sites. Whenever files on the parent site are updated, the child sites automatically rebuild to reflect the changes.
+Using common components across multiple sites is easy with our new Site Mounting feature. Site Mounting allows users to seamlessly integrate multiple CloudCannon sites, with “local” sites able to directly access and incorporate files from one or more “remote” sites. Whenever files on the remote site(s) are updated, the local sites automatically rebuild to reflect the changes.
 
 With Site Mounting, digital agencies can easily reuse code, styles, layouts, and assets across all of a client's websites. Individual sites remain fully customizable while still drawing from the central repositories. Freelance web developers can save time by defining common frameworks once and sharing across projects. And larger companies can consistently distribute marketing pages, docs, advisories, and more through mounted relationships.
 
@@ -73,7 +73,7 @@ If you’re a freelancer or with a digital agency and you’ve joined our <a tar
 
 ---
 
-<p><img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" /></p>
+<img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" />
 
 ## SOC 2 Type 2 Certification
 
@@ -83,7 +83,7 @@ Our dedication to security was recognized in November when we <a target="_blank"
 
 ---
 
-<p><img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-accessibility-r.png" /></p>
+<img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-accessibility-r.png" />
 
 ## Accessibility upgrades
 
@@ -99,7 +99,7 @@ Accessibility is particularly important to our team, and we’ve made a series o
 
 ---
 
-<p><img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-jamstack-r.png" /></p>
+<img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-jamstack-r.png" />
 
 ## CloudCannon and the future of Jamstack
 
