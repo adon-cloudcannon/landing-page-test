@@ -70,7 +70,6 @@ Replace anything you might want to edit with variables in the `slider.hugo.html`
 
 Bookshop components come in two parts, the first part (above) sets the structure for the component. The second part sets the metadata and expected content for the component. Copy the following into a new file: `/hugo_src/component-library/components/slider/slider.bookshop.toml` :
 
-{% raw %}
 ```toml
 [component]
 structures = ["content_blocks"]
@@ -87,7 +86,6 @@ background_image = "/images/bg/home-1.jpg"
 text = "Get started"
 url = "#"
 ```
-{% endraw %}
 
 Let’s go through each part of this file. `[component]` sets the metadata for the component:
 
@@ -97,7 +95,7 @@ Let’s go through each part of this file. `[component]` sets the metadata for t
 * **icon**: A material icon that represents this component.
 * **tags**: Used to help filter components.
 
-`[props]` is the expected content schema and default content for the component. Any keys that you referenced in your template (like `{{ .background_image }}`) should be specified here. You’ll see how we use this shortly.
+`[props]` is the expected content schema and default content for the component. Any keys that you referenced in your template (like {% raw %}`{{ .background_image }}`{% endraw %}) should be specified here. You’ll see how we use this shortly.
 
 Replace `/hugo_src/content/_index.md` with the following:
 
