@@ -3,7 +3,7 @@ _schema: default
 title: CloudCannon’s 2023 wrapup
 breadcrumb_title:
 description: "Some of the key features we’ve launched this year to help you build and edit your static sites —\_and a glimpse at the upgrades coming to CloudCannon early next year. "
-draft: true
+draft: false
 series:
 image: https://cc-dam.imgix.net/2023-wrap-r.png
 date: 2023-12-20T05:00:00+13:00

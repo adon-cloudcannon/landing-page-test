@@ -5,7 +5,7 @@ breadcrumb_title:
 description: >-
   Freedom, flexibility, and a tailor-made editing solution for every client: why
   Andrew Winter chose CloudCannon CMS for Blüthner.co.uk.
-draft: true
+draft: false
 series: Partner Site of the Month
 image: https://cc-dam.imgix.net/psotm-bluthner.png
 date: 2023-12-21T05:00:00+13:00
@@ -42,7 +42,7 @@ Because Andrew takes a holistic approach to his studio’s site development proc
 
 The video itself is presented with a custom layer Andrew built to pull it through to the page, and because it's responsive to the user’s device and connection speed, the page's speed and performance aren’t affected at all.
 
- <img alt="Screenshot of Bluthner.co.uk" height="2100" width="4000" src="https://cc-dam.imgix.net/psotm-bluthner-aliquot.png" />
+<img alt="Screenshot of Bluthner.co.uk" height="2100" width="4000" src="https://cc-dam.imgix.net/psotm-bluthner-aliquot.png" />
 
 ## **Harmony in design, development, and storytelling**
 
@@ -60,7 +60,7 @@ No strangers to harmony, the Blüthner team agrees, writing to Andrew after the 
 
 As further proof of the success of Andrew’s redesign, Blüthner have found that they've had a huge increase in the number of inquiries since the new website launched.
 
- <img alt="Screenshot of Bluthner.co.uk" title height="2100" width="4000" src="https://cc-dam.imgix.net/psotm-bluthner-category.png" />
+<img alt="Screenshot of Bluthner.co.uk" title="" height="2100" width="4000" src="https://cc-dam.imgix.net/psotm-bluthner-category.png" />
 
 ## **World-class performances, with results that match**
 
@@ -70,7 +70,7 @@ Blüthner, for example, holds a regular concert series, held in intimate venues 
 
 > I've set up the CMS so the the editor is very much tailored towards the specifics of what data makes up an event for them. For example, they can specify who the pianist is, add a short biography of that pianist, and a picture.
 
- <img alt="Screenshot of Bluthner.co.uk" title height="2100" width="4000" src="https://cc-dam.imgix.net/psotm-bluthner-listing.png" />
+<img alt="Screenshot of Bluthner.co.uk" title="" height="2100" width="4000" src="https://cc-dam.imgix.net/psotm-bluthner-listing.png" />
 
 Similarly, Andrew’s site design and CloudCannon’s CMS allows Blüthner to manage listings for their pre-owned and reconditioned pianos. Users can easily add and remove listings, with custom fields for style, brand, specifications, and price. It’s this kind of configurability that Andrew appreciates, for the freedom it allows his clients:
 
