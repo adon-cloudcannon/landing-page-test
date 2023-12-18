@@ -37,7 +37,7 @@ Here are some of the key features we’ve launched this year to help you build a
 
 ## Site Mounting for easier site integration
 
-![](https://cc-dam.imgix.net/site-mounting.png)
+<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/site-mounting.png" /></p>
 
 Using common components across multiple sites is easy with our new Site Mounting feature. Site Mounting allows users to seamlessly integrate multiple CloudCannon sites, with “local” sites able to directly access and incorporate files from one or more “remote” sites. Whenever files on the parent site are updated, the child sites automatically rebuild to reflect the changes.
 
@@ -47,7 +47,7 @@ With Site Mounting, digital agencies can easily reuse code, styles, layouts, and
 
 ## Easier site data configuration
 
-![](https://cc-dam.imgix.net/wrapup-config-gui.png)
+<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/wrapup-config-gui.png" /></p>
 
 Our new configuration GUI makes it easier than ever to customize your global CloudCannon settings and data structures without coding. All users can now configure nearly every site setting visually, rather than needing manual YAML edits. Developers, of course, still have complete control under the hood!
 
@@ -55,7 +55,7 @@ Our new configuration GUI makes it easier than ever to customize your global Clo
 
 ## Projects branch diagrams and tools
 
-![](https://cc-dam.imgix.net/project-diagram-r.png)
+<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/project-diagram-r.png" /></p>
 
 We added a publishing diagram to the Projects page, letting you visually map how sites within a project are connected to one another. The page layout also now displays sites in a full-width list for easier scanning, with a separate tab for editing project details.
 
@@ -65,7 +65,7 @@ For agency users managing many client websites, the new project layouts help pro
 
 ## Partner Program upgrades
 
-![](https://cc-dam.imgix.net/final-partner-program-hero-r-s.png)
+<p class="text-center"><img alt="" width="10%" src="https://cc-dam.imgix.net/final-partner-program-hero-r-s.png" /></p>
 
 If you’re a freelancer or with a digital agency and you’ve joined our <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Partner Program</a>, we’ve made it easier to monitor your CloudCannon business and access perks like early feature previews, priority support, and discounts. The new Partner Dashboard provides a centralized place to manage all of your CloudCannon customers and understand how partner points translate into rewards.
 
@@ -73,7 +73,7 @@ If you’re a freelancer or with a digital agency and you’ve joined our <a tar
 
 ---
 
-<p class="text-center"><img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" /></p>
+<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" /></p>
 
 ## SOC 2 Type 2 Certification
 
