@@ -1,8 +1,8 @@
 ---
+_schema: default
 title: Components
 image:
 order: 6
-lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Set up and get two components working with Bookshop, end-to-end.
 seo:
@@ -20,60 +20,245 @@ seo:
 git clone git@github.com:CloudCannon/Megakit-Bootstrap-Agency-Template.git
 
 # Starting branch:
-git checkout components-array-start
+git checkout components-start
 
 # Finished branch:
-git checkout components-array-finish
+git checkout components-end
 ```
 
-The site is really coming together. We have all the homepage components coming from Bookshop and it’s rendering almost identical to the original Bootstrap theme.
+Let’s get one component working end-to-end. Open `/source/index.html` and copy the slider HTML to a new file at `/hugo_src/component-library/components/slider/slider.hugo.html` :
 
-One issue we’re going to face as we add new pages is that the components are hardcoded in the layout. If we wanted a different set of components, say for the About page, we’d have to create a new layout and hardcode a different set of components.
+```html
+<section class="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-10">
+        <div class="block">
+          <span class="d-block mb-3 text-white text-capitalize">Prepare for new future</span>
+          <h1 class="animated fadeInUp mb-5">Our work is <br>presentation of our <br>capabilities.</h1>
+          <a href="#"  class="btn btn-main animated fadeInUp btn-round-full" aria-label="Get started">Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+```
 
-Ideally we want more flexibility than this. We want our content editors to be able add, reorder, update, and remove these components without having to dive into the source code.
+Bookshop supports native Hugo templating. Just as we have been doing throughout this tutorial, we want to separate content from structure to help with reuse and maintainability. We’ll replace each piece of content with a variable which (spoiler) will populate from the front matter on each page.
 
-To give us more flexibility, we need to change the front matter on our `_index.md` page into an array of components. In the layout we can then simply iterate over the component array and render each component. The side benefit of this is that we can then reuse this layout for multiple pages.
+You may have noticed there’s nowhere to set the background image on this component. Currently it’s hardcoded in the CSS. We can pull this into an inline style so we as developers and later, the content editors on the team can change it.
 
-This sounds scary, but it’s actually a small adjustment. We’re going to create a new front matter array called `content_blocks:` which will contain our components. Instead of having an object for each component, we’re going to move it into this array and add a `_bookshop_name:` key to define which component to use. Here’s how that looks for the two components we covered in the last section:
+Replace anything you might want to edit with variables in the `slider.hugo.html` component:
 
-```yaml
+```
+{% raw %}<section class="slider" style="background-image: url('{{ .background_image }}')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 col-md-10">
+				<div class="block">
+					<span class="d-block mb-3 text-white text-capitalize">{{ .preheading | markdownify }}</span>
+					<h1 class="animated fadeInUp mb-5">{{ .heading | markdownify }}</h1>
+					<a href="{{ .link.url }}"  class="btn btn-main animated fadeInUp btn-round-full" aria-label="Get started">{{ .link.text | markdownify }}<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>{% endraw %}
+```
+
+Bookshop components come in two parts, the first part (above) sets the structure for the component. The second part sets the metadata and expected content for the component. Copy the following into a new file: `/hugo_src/component-library/components/slider/slider.bookshop.toml` :
+
+```toml
+[component]
+structures = ["content_blocks"]
+label = "Slider"
+description = "Main page banner block"
+icon = "title"
+tags = []
+
+[props]
+preheading = "Prepare for new future"
+heading = "Our work is <br>presentation of our <br>capabilities."
+background_image = "/images/bg/home-1.jpg"
+[[props.link]]
+text = "Get started"
+url = "#"
+```
+
+Let’s go through each part of this file. `[component]` sets the metadata for the component:
+
+* **structures**: Determines the front matter arrays this component can be used on in your site.
+* **label**: Friendly name for this component.
+* **description**: A short description of what this component is / used for.
+* **icon**: A material icon that represents this component.
+* **tags**: Used to help filter components.
+
+`[props]` is the expected content schema and default content for the component. Any keys that you referenced in your template (like `{{ .background_image }}`) should be specified here. You’ll see how we use this shortly.
+
+Replace `/hugo_src/content/_index.md` with the following:
+
+```markdown
 ---
 title: "Home"
-content_blocks:
-  - _bookshop_name: "slider"
-    preheading: "Prepare for new future"
-    heading: "Our work is <br>presentation of our <br>capabilities."
-    background_image: "/images/bg/home-1.jpg"
-    link:
-      text: "Get started"
-      url: "#"
-  - _bookshop_name: "intro"
-    preheading: "We are creative & expert people"
-    heading: "We work with business & provide solution to client with their business problem"
-    sections:
-      - icon: "ti-desktop"
-        heading: "Modern & Responsive design"
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
-      - icon: "ti-medall"
-        heading: "Awarded licensed company"
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
-      - icon: "ti-layers"
-        heading: "Build your website Professionally"
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+slider:
+  preheading: "Prepare for new future"
+  heading: "Our work is <br>presentation of our <br>capabilities."
+  background_image: "/images/bg/home-1.jpg"
+  link:
+    text: "Get started"
+    url: "#"
 ---
 ```
 
-Over to our layout at `/hugo_src/layouts/_default/list.html`&nbsp;— instead of calling the Bookshop partial for each component, we can loop over the `content_blocks` and pass it directly to the Bookshop partial, which will use the `_bookshop_name` field automatically:
+We’ve removed the body content on the index page and replaced it with the structured content for the slider.
 
-{% raw %}
- ```html
-{{ define "main" }}
-  {{ range .Params.content_blocks }}
-    {{ partial "bookshop" . }}
-  {{ end }}
-{{ end }}
+Now we need to adjust `/hugo_src/layouts/_default/list.html` to render our component using the page front matter rather than outputting the body content:
+
+Fortunately the Bookshop partial does most of the work for us, we just need to pass in the data:
+
 ```
-{% endraw %}
+{% raw %}{{ define "main" }}
+  {{ with .Params.slider }}
+    {{ partial "bookshop" (slice "slider" .) }}
+  {{ end }}
+{{ end }}{% endraw %}
+```
 
-If you’ve got it right, the page should look exactly as it did before. Only this time we’ve opened up a world of flexibility\!
+Try running `hugo serve` to see your snazzy new slider component.
 
+I’ll go through one more component and leave the rest to you for homework. The next component in `/source/index.html` is the Intro component. It’s a little bit trickier as it has a repeating element.
+
+First copy the HTML source into a new file `/hugo_src/component-library/components/intro/intro.hugo.html`:
+
+```html
+<section class="section intro">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-8">
+				<div class="section-title">
+					<span class="h6 text-color ">We are creative & expert people</span>
+					<h2 class="mt-3 content-title">We work with business & provide solution to client with their business problem
+					</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-4 col-md-6 col-12">
+				<div class="intro-item mb-5 mb-lg-0">
+					<i class="ti-desktop color-one"></i>
+					<h4 class="mt-4 mb-3">Modern & Responsive design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="intro-item mb-5 mb-lg-0">
+					<i class="ti-medall color-one"></i>
+					<h4 class="mt-4 mb-3">Awarded licensed company</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12">
+				<div class="intro-item">
+					<i class="ti-layers-alt color-one"></i>
+					<h4 class="mt-4 mb-3">Build your website Professionally</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+```
+
+We can pull out the preheading and heading like we did in the previous example. When it comes to the repeating boxes, you might notice the HTML structure is exactly the same for each box, it’s only the content that’s changing. This is a perfect situation to use a loop to cut down on the amount of code we need to maintain and make the component more flexible to handle any number of boxes:
+
+```
+{% raw %}<section class="section intro">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-8">
+				<div class="section-title">
+					<span class="h6 text-color ">{{ .preheading | markdownify }}</span>
+					<h2 class="mt-3 content-title">{{ .heading | markdownify }}</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			{{ range .sections }}
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="intro-item mb-5 mb-lg-0">
+						<i class="{{ .icon }} color-one"></i>
+						<h4 class="mt-4 mb-3">{{ .heading | markdownify }}</h4>
+						<p>{{ .text | markdownify }}</p>
+					</div>
+				</div>
+			{{ end }}
+		</div>
+	</div>
+</section>{% endraw %}
+```
+
+That’s much nicer. And now the corresponding `/hugo_src/component-library/components/intro/intro.bookshop.toml` to go with it:
+
+```toml
+[component]
+structures = ["content_blocks"]
+label = "Intro"
+description = "Overview section"
+icon = "receipt"
+tags = []
+
+[props]
+preheading = "We are creative & expert people"
+heading = "We work with business & provide solution to client with their business problem"
+
+[[props.sections]]
+icon = "ti-desktop"
+heading = "Modern & Responsive design"
+text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+
+[[props.sections]]
+icon = "ti-medall"
+heading = "Awarded licensed company"
+text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+
+[[props.sections]]
+icon = "ti-layers"
+heading = "Build your website Professionally"
+text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+```
+
+Add the frontmatter to `/hugo_src/content/_index.md` :
+
+```markdown
+intro:
+  preheading: "We are creative & expert people"
+  heading: "We work with business & provide solution to client with their business problem"
+  sections:
+    - icon: "ti-desktop"
+      heading: "Modern & Responsive design"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+    - icon: "ti-medall"
+      heading: "Awarded licensed company"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+    - icon: "ti-layers"
+      heading: "Build your website Professionally"
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus."
+```
+
+And finally adjust the layout to handle the new component:
+
+```
+{% raw %}{{ with .Params.intro }}
+  {{ partial "bookshop" (slice "intro" .) }}
+{{ end }}{% endraw %}
+```
+
+As promised, a little bit of homework before your next step. Go through the rest of the components on `/source/index.html` and convert them them to Bookshop components. Let’s leave the blog component for now, which leaves us with five:
+
+* Slider (Already done)
+* Intro (Already done)
+* About
+* Counter
+* Services
+* CTA
+* Testimonial

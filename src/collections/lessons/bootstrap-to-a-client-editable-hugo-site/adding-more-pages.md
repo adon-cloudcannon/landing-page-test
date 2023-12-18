@@ -1,8 +1,8 @@
 ---
+_schema: default
 title: Adding more pages
-image: 
+image:
 order: 8
-lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Add more pages to your site by converting components.
 seo:
@@ -23,7 +23,7 @@ git clone git@github.com:CloudCannon/Megakit-Bootstrap-Agency-Template.git
 git checkout more-pages-start
 
 # Finished branch:
-git checkout more-pages-finish
+git checkout more-pages-finished
 ```
 
 Now that the Home page is in a good spot, we can move onto the other pages on the site. This will get easier as we work through the pages, as we’ll start to see some component reuse.
@@ -70,7 +70,7 @@ Create `/hugo_src/layouts/_default/single.html` with the following:
 ```
 {% endraw %}
 
-We’re pulling an image and alternative title from a hero variable in the front matter. Let’s add that to `about.md`\:
+We’re pulling an image and alternative title from a hero variable in the front matter. Let’s add that to `about.md`:
 
 ```markdown
 ---

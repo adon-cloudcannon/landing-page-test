@@ -1,8 +1,8 @@
 ---
+_schema: default
 title: Component Arrays
-image: 
+image:
 order: 7
-lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-
   Change your front matter into an array of editable components, and open up a
@@ -12,7 +12,6 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 ### What you'll learn here
 
 * Turn the content for components into a front matter array
@@ -26,7 +25,7 @@ git clone git@github.com:CloudCannon/Megakit-Bootstrap-Agency-Template.git
 git checkout components-array-start
 
 # Finished branch:
-git checkout components-array-finish
+git checkout components-array-end
 ```
 
 The site is really coming together. We have all the homepage components coming from Bookshop and it’s rendering almost identical to the original Bootstrap theme.
@@ -78,4 +77,4 @@ Over to our layout at `/hugo_src/layouts/_default/list.html`&nbsp;— instead of
 ```
 {% endraw %}
 
-If you’ve got it right, the page should look exactly as it did before. Only this time we’ve opened up a world of flexibility\!
+If you’ve got it right, the page should look exactly as it did before. Only this time we’ve opened up a world of flexibility!

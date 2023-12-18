@@ -1,8 +1,8 @@
 ---
+_schema: default
 title: Blog
-image: 
+image:
 order: 9
-lead_score: 1
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: >-
   Complete your site's conversion to Hugo by applying all of your learning so
@@ -12,7 +12,6 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 ### What you'll learn here
 
 * Hugo partials
@@ -29,10 +28,10 @@ git clone git@github.com:CloudCannon/Megakit-Bootstrap-Agency-Template.git
 git checkout blog-start
 
 # Finished branch:
-git checkout blog-finish
+git checkout blog-end
 ```
 
-We’re so close to fully Hugoifying this site\!&nbsp;
+We’re so close to fully Hugoifying this site!&nbsp;
 
 The last thing we need to do is link in the blog. This will put everything we’ve learned so far to the test.
 
@@ -162,7 +161,7 @@ Back to our `/hugo_src/layouts/posts/list.html` layout, and we can use this part
  ```html
 {{ define "main" }}
   {{ partial "hero" . }}
-  
+
   <section class="section blog-wrap bg-gray">
     <div class="container">
       <div class="row">
@@ -170,15 +169,15 @@ Back to our `/hugo_src/layouts/posts/list.html` layout, and we can use this part
         {{ range .Paginator.Pages }}
         <div class="col-lg-6 col-md-6 mb-5">
           <div class="blog-item">
-            <img loading="lazy" 
-                  src="{{ .Params.image_path }}" 
+            <img loading="lazy"
+                  src="{{ .Params.image_path }}"
                   alt="{{ .Title }}" class="img-fluid rounded">
-  
+
             <div class="blog-item-content bg-white p-5">
               <div class="blog-item-meta bg-gray pt-2 pb-1 px-3">
                 <span class="text-muted text-capitalize d-inline-block mr-3">
-                  <i class="ti-pencil-alt mr-2"></i> 
-                  {{ range .Params.categories }} 
+                  <i class="ti-pencil-alt mr-2"></i>
+                  {{ range .Params.categories }}
                     {{ $href := print (absURL "categories/") (urlize .) }}
                     <a href="{{ $href }}">{{ . | humanize }}</a>
                   {{ end }}
@@ -187,14 +186,14 @@ Back to our `/hugo_src/layouts/posts/list.html` layout, and we can use this part
                   <i class="ti-user mr-1"></i> {{ .Params.author }}
                 </span>
                 <span class="text-carbon text-capitalize d-inline-block mr-3">
-                  <i class="ti-time mr-1"></i> 
+                  <i class="ti-time mr-1"></i>
                   {{ .Date | time.Format ":date_long" }}
                 </span>
               </div>
-  
+
               <h3 class="mt-3 mb-3"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
               <p class="mb-4">{{ .Summary }}</p>
-  
+
               <a href="{{ .RelPermalink }}" class="btn btn-small btn-main btn-round-full">
                 Read More
               </a>
@@ -253,7 +252,7 @@ posts = ":section/:year/:month/:day/:title/"
 
 When you view the blog page in your browser now you’ll see your four blog posts. To check the pagination is working correctly, try changing `paginate` to 1 in your `config.toml` temporarily. You should see `1 of 4 Next` appear at the bottom of your blog page, and be able to click through the pages.
 
-Clicking on a blog post takes us to an empty page. This is because it’s trying to use our default `single.html` layout. Let’s create a layout specifically for posts at `/hugo_src/layouts/posts/single.html`\:
+Clicking on a blog post takes us to an empty page. This is because it’s trying to use our default `single.html` layout. Let’s create a layout specifically for posts at `/hugo_src/layouts/posts/single.html`:
 
 {% raw %}
  ```html
@@ -269,8 +268,8 @@ Clicking on a blog post takes us to an empty page. This is because it’s trying
 
                 <div class="blog-item-content bg-white p-5">
                   <div class="blog-item-meta bg-gray pt-2 pb-1 px-3">
-                    <span class="text-muted text-capitalize d-inline-block mr-3"><i class="ti-pencil-alt mr-2"></i> 
-                      {{ range .Params.categories }} 
+                    <span class="text-muted text-capitalize d-inline-block mr-3"><i class="ti-pencil-alt mr-2"></i>
+                      {{ range .Params.categories }}
                         {{ $href := print (absURL "categories/") (urlize .) }}
                         <a href="{{ $href }}">{{ . | humanize }}</a>
                       {{ end }}
@@ -390,4 +389,4 @@ Now we can create a special layout for our category page at `/hugo_src/layouts/_
 ```
 {% endraw %}
 
-And *voila*\! Our conversion to Hugo is complete. Browse the site and admire your hard work.
+And *voila*! Our conversion to Hugo is complete. Browse the site and admire your hard work.

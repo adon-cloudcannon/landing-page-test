@@ -1,7 +1,7 @@
 ---
+_schema: default
 title: Client editing
 image:
-lead_score: 2
 order: 10
 tutorial: bootstrap-to-a-client-editable-hugo-site
 description: Set up CloudCannon as your Hugo CMS and hand it over to your content team.
@@ -10,7 +10,6 @@ seo:
   featured_image:
   featured_image_alt:
 ---
-
 ### What you'll learn here
 
 * Setting up CloudCannon
@@ -26,7 +25,7 @@ git clone git@github.com:CloudCannon/Megakit-Bootstrap-Agency-Template.git
 git checkout client-editing-start
 
 # Finished branch:
-git checkout client-editing-finish
+git checkout client-editing-end
 ```
 
 We’re at the last step of the series and we haven’t even mentioned client editing yet. How are we going to squeeze this all into one step?
@@ -107,7 +106,7 @@ This is where the magic happens. You can click on any component, which will brin
 
 {% bookshop "markdown/vimeo" video:"https://player.vimeo.com/video/689852104" autoplay:true extend:true border:true %}
 
-Have a play around with your new, custom-built component system and admire all your hard work\! You’ve done it\! Even better, CloudCannon includes hosting. Clicking the \*.cloudvent.net address on your site will take you to the live, publicly available preview website.
+Have a play around with your new, custom-built component system and admire all your hard work! You’ve done it! Even better, CloudCannon includes hosting. Clicking the \*.cloudvent.net address on your site will take you to the live, publicly available preview website.
 
 This site is almost ready to hand off to a client or content editing team. Let’s make one final tweak to give you a glimpse into how you can customize the editing interface.
 
