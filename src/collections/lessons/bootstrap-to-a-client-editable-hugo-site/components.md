@@ -12,8 +12,8 @@ seo:
 ---
 ### What you'll learn here
 
-* Turn the content for components into a front matter array
-* Loop over the array to output the components
+* Set the structure for your component
+* Define your content schema and expected content for your component
 
 ```shell
 # Starting repo:
