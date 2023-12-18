@@ -5,7 +5,7 @@ breadcrumb_title:
 description: "Some of the key features we’ve launched this year to help you build and edit your static sites —\_and a glimpse at the upgrades coming to CloudCannon early next year. "
 draft: true
 series:
-image: https://cc-dam.imgix.net/2023-wrap.png
+image: https://cc-dam.imgix.net/2023-wrap-r.png
 date: 2023-12-20T05:00:00+13:00
 hide_publish_date: false
 tags:
@@ -37,7 +37,7 @@ Here are some of the key features we’ve launched this year to help you build a
 
 ## Site Mounting for easier site integration
 
-<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/site-mounting.png" /></p>
+<p class="text-center"><img alt width="80%" src="https://cc-dam.imgix.net/site-mounting.png" /></p>
 
 Using common components across multiple sites is easy with our new Site Mounting feature. Site Mounting allows users to seamlessly integrate multiple CloudCannon sites, with “local” sites able to directly access and incorporate files from one or more “remote” sites. Whenever files on the remote site(s) are updated, the local sites automatically rebuild to reflect the changes.
 
@@ -47,7 +47,7 @@ With Site Mounting, digital agencies can easily reuse code, styles, layouts, and
 
 ## Easier site data configuration
 
-<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/wrapup-config-gui.png" /></p>
+<p class="text-center"><img alt width="80%" src="https://cc-dam.imgix.net/wrapup-config-gui.png" /></p>
 
 Our new configuration GUI makes it easier than ever to customize your global CloudCannon settings and data structures without coding. All users can now configure nearly every site setting visually, rather than needing manual YAML edits. Developers, of course, still have complete control under the hood!
 
@@ -55,7 +55,7 @@ Our new configuration GUI makes it easier than ever to customize your global Clo
 
 ## Projects branch diagrams and tools
 
-<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/project-diagram-r.png" /></p>
+<p class="text-center"><img alt width="80%" src="https://cc-dam.imgix.net/project-diagram-r.png" /></p>
 
 We added a publishing diagram to the Projects page, letting you visually map how sites within a project are connected to one another. The page layout also now displays sites in a full-width list for easier scanning, with a separate tab for editing project details.
 
@@ -65,15 +65,13 @@ For agency users managing many client websites, the new project layouts help pro
 
 ## Partner Program upgrades
 
-<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/final-partner-program-hero-r-s.png" /></p>
+<p class="text-center"><img alt width="80%" src="https://cc-dam.imgix.net/final-partner-program-hero-r-s.png" /></p>
 
 If you’re a freelancer or with a digital agency and you’ve joined our <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Partner Program</a>, we’ve made it easier to monitor your CloudCannon business and access perks like early feature previews, priority support, and discounts. The new Partner Dashboard provides a centralized place to manage all of your CloudCannon customers and understand how partner points translate into rewards.
 
 <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Read more about the Partner Program</a>
 
----
-
-<img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" />
+ <br> <img alt width="10%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" />
 
 ## SOC 2 Type 2 Certification
 
@@ -81,9 +79,7 @@ Our dedication to security was recognized in November when we <a target="_blank"
 
 <a target="_blank" rel="noopener" href="https://cloudcannon.com/security/">Read more about our security policies</a>
 
----
-
-<img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-accessibility-r.png" />
+ <br> <img alt width="10%" src="https://cc-dam.imgix.net/wrapup-accessibility-r.png" />
 
 ## Accessibility upgrades
 
@@ -97,9 +93,7 @@ Accessibility is particularly important to our team, and we’ve made a series o
 
 * Ongoing accessibility training and upskilling for our developers
 
----
-
-<img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-jamstack-r.png" />
+ <br> <img alt width="10%" src="https://cc-dam.imgix.net/wrapup-jamstack-r.png" />
 
 ## CloudCannon and the future of Jamstack
 
@@ -110,6 +104,8 @@ At the same time, we want to help the Jamstack community grow, so we’re helpin
 As well as our community work, you can expect CloudCannon to keep innovating with cutting-edge capabilities tailored specifically for editors and best practices in static site development.
 
 And on that note…
+
+---
 
 ## Editor upgrades for 2024: a sneak peek 🎉
 
