@@ -70,6 +70,7 @@ Replace anything you might want to edit with variables in the `slider.hugo.html`
 
 Bookshop components come in two parts, the first part (above) sets the structure for the component. The second part sets the metadata and expected content for the component. Copy the following into a new file: `/hugo_src/component-library/components/slider/slider.bookshop.toml` :
 
+{% raw %}
 ```toml
 [component]
 structures = ["content_blocks"]
@@ -86,6 +87,7 @@ background_image = "/images/bg/home-1.jpg"
 text = "Get started"
 url = "#"
 ```
+{% endraw %}
 
 Let’s go through each part of this file. `[component]` sets the metadata for the component:
 
