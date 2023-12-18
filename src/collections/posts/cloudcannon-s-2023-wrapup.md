@@ -65,7 +65,7 @@ For agency users managing many client websites, the new project layouts help pro
 
 ## Partner Program upgrades
 
-<p class="text-center"><img alt="" width="10%" src="https://cc-dam.imgix.net/final-partner-program-hero-r-s.png" /></p>
+<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/final-partner-program-hero-r-s.png" /></p>
 
 If you’re a freelancer or with a digital agency and you’ve joined our <a target="_blank" rel="noopener" href="https://cloudcannon.com/partner-program/">Partner Program</a>, we’ve made it easier to monitor your CloudCannon business and access perks like early feature previews, priority support, and discounts. The new Partner Dashboard provides a centralized place to manage all of your CloudCannon customers and understand how partner points translate into rewards.
 
@@ -73,7 +73,7 @@ If you’re a freelancer or with a digital agency and you’ve joined our <a tar
 
 ---
 
-<p class="text-center"><img alt="" width="80%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" /></p>
+<p class="text-center"><img alt="" width="10%" src="https://cc-dam.imgix.net/wrapup-soc2-r.png" /></p>
 
 ## SOC 2 Type 2 Certification
 
