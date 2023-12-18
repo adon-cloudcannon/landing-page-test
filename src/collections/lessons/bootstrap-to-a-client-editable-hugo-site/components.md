@@ -50,8 +50,9 @@ You may have noticed there’s nowhere to set the background image on this compo
 
 Replace anything you might want to edit with variables in the `slider.hugo.html` component:
 
+{% raw %}
 ```html
-{% raw %}<section class="slider" style="background-image: url('{{ .background_image }}')">
+<section class="slider" style="background-image: url('{{ .background_image }}')">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-9 col-md-10">
@@ -63,9 +64,9 @@ Replace anything you might want to edit with variables in the `slider.hugo.html`
 			</div>
 		</div>
 	</div>
-</section>{% endraw %}
+</section>
 ```
-
+{% endraw %}
 
 Bookshop components come in two parts, the first part (above) sets the structure for the component. The second part sets the metadata and expected content for the component. Copy the following into a new file: `/hugo_src/component-library/components/slider/slider.bookshop.toml` :
 
@@ -117,13 +118,15 @@ Now we need to adjust `/hugo_src/layouts/_default/list.html` to render our compo
 
 Fortunately the Bookshop partial does most of the work for us, we just need to pass in the data:
 
+{% raw %}
 ```
-{% raw %}{{ define "main" }}
+{{ define "main" }}
   {{ with .Params.slider }}
     {{ partial "bookshop" (slice "slider" .) }}
   {{ end }}
-{{ end }}{% endraw %}
+{{ end }}
 ```
+{% endraw %}
 
 Try running `hugo serve` to see your snazzy new slider component.
 
@@ -172,8 +175,9 @@ First copy the HTML source into a new file `/hugo_src/component-library/componen
 
 We can pull out the preheading and heading like we did in the previous example. When it comes to the repeating boxes, you might notice the HTML structure is exactly the same for each box, it’s only the content that’s changing. This is a perfect situation to use a loop to cut down on the amount of code we need to maintain and make the component more flexible to handle any number of boxes:
 
+{% raw %}
 ```html
-{% raw %}<section class="section intro">
+<section class="section intro">
 	<div class="container">
 		<div class="row ">
 			<div class="col-lg-8">
@@ -195,8 +199,9 @@ We can pull out the preheading and heading like we did in the previous example. 
 			{{ end }}
 		</div>
 	</div>
-</section>{% endraw %}
+</section>
 ```
+{% endraw %}
 
 That’s much nicer. And now the corresponding `/hugo_src/component-library/components/intro/intro.bookshop.toml` to go with it:
 
@@ -248,11 +253,13 @@ intro:
 
 And finally adjust the layout to handle the new component:
 
+{% raw %}
 ```
-{% raw %}{{ with .Params.intro }}
+{{ with .Params.intro }}
   {{ partial "bookshop" (slice "intro" .) }}
-{{ end }}{% endraw %}
+{{ end }}
 ```
+{% endraw %}
 
 As promised, a little bit of homework before your next step. Go through the rest of the components on `/source/index.html` and convert them them to Bookshop components. Let’s leave the blog component for now, which leaves us with five:
 
