@@ -1,33 +1,38 @@
 ---
-draft: false
+_schema: default
 title: Eleventy (11ty) vs. Hugo
 description: >-
   We’ll compare two excellent SSGs here: Hugo and Eleventy. Both are optimised
   for fast content delivery and are capable of handling large sites with
   thousands of pages — sites like documentations, blogs, landing pages or
   marketing websites. But there are several key differences to consider.
-cta:
-  title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
-  button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
-    styles:
-      size:
-      style: "outline"
-      extra_classes:
-seo:
-  open_graph_type: article
-  featured_image:
-  featured_image_alt:
+draft: false
 image: https://cc-dam.imgix.net/blog/uploads/eleventy-vs-hugo.jpg
-date: 2021-08-04T05:00:00+1200
+date: 2021-08-04T05:00:00+12:00
+hide_publish_date: false
 tags:
   - Resources
   - Eleventy
   - Hugo
 author: fe9a75cd-0633-422b-8cc2-76bdfe319f28
+permalink: /blog/{{ title | slugify }}/
+cta:
+  title: Launch your website today
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
+  button:
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
+    styles:
+      size:
+      style: outline
+      extra_classes:
+seo:
+  open_graph_type: article
+  featured_image:
+  featured_image_alt:
 ssg_frameworks:
   - 11ty
   - hugo
@@ -46,7 +51,7 @@ Let’s see how they match up.
 
 ## **What is Hugo?**
 
-Hugo is a static site generator built with Go (a.k.a. Golang), released in 2013 by [Steve Francia](https://github.com/spf13) and actively (since version 0.14) maintained by [Bj&oslash;rn Erik Pedersen](https://github.com/bep).
+Hugo is a static site generator built with Go (a.k.a. Golang), released in 2013 by [Steve Francia](https://github.com/spf13) and actively (since version 0.14) maintained by [Bjørn Erik Pedersen](https://github.com/bep).
 
 Hugo is incredibly widely supported by Jamstack hosts and CMSs, and has more than 100K live sites, largely because of its well-deserved reputation for speed, simplicity and flexibility. It bills itself as “the world’s fastest static website engine”, with build times on an average site of less than 1ms per page.
 
@@ -76,27 +81,9 @@ With Eleventy’s independent template engines, your content is firmly decoupled
 
 ## At a glance
 
-| Comparison | Eleventy | Hugo |
-| --- | --- | --- |
-| First release | 2018 | 2013 |
-| Built with | JavaScript | Go |
-| Templating engine(s) | JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug | Go |
-| Plugins | Yes | Limited |
-| GitHub stars\* | 9K+ | 51K+ |
-| Themes | Yes (11ty uses the term 'starter'.) | Yes |
-| Open source licence | MIT | Apache-2.0 |
-| Installation requirements | Via npm | None — Hugo is a single binary. |
-| Build speeds | Fast | Fastest |
-| Multilingual and i18n | Via plugins | Built in |
-| Shortcodes | Yes | Yes |
-| Easy Wordpress et al. converter | No; you’ll need to convert to Markdown and then clean up with layout templates. | Yes: [gohugo.io/tools/migrations](http://gohugo.io/tools/migrations) |
-| Learning curve | Gentle, especially if you have JavaScript experience | Less gentle / non-trivial |
-| Documentation | [11ty.dev](http://11ty.dev) | [gohugo.io](http://gohugo.io) |
-| Support communities | [Eleventy Discord](https://discord.gg/GBkBy9u) and [eleventy-community](https://github.com/11ty/eleventy-community) both have helpful communities. | [Hugo Discourse](https://discourse.gohugo.io/) is a full-service forum with many active users. |
-| Twitter accounts | [Eleventy Twitter](https://twitter.com/eleven_ty) | [Hugo Twitter](https://twitter.com/GoHugoIO) |
-| GitHub repos | [github.com/11ty/eleventy](https://github.com/11ty/eleventy/) | [github.com/gohugoio](https://github.com/gohugoio/) |
+<table><thead><tr><th>Comparison</th><th>Eleventy</th><th>Hugo</th></tr></thead><tbody><tr><td>First release</td><td>2018</td><td>2013</td></tr><tr><td>Built with</td><td>JavaScript</td><td>Go</td></tr><tr><td>Templating engine(s)</td><td>JavaScript, HTML, Markdown, Liquid, Nunjucks, Handlebars, Mustache, EJS, Haml, Pug</td><td>Go</td></tr><tr><td>Plugins</td><td>Yes</td><td>Limited</td></tr><tr><td>GitHub stars*</td><td>9K+</td><td>51K+</td></tr><tr><td>Themes</td><td>Yes (11ty uses the term 'starter'.)</td><td>Yes</td></tr><tr><td>Open source licence</td><td>MIT</td><td>Apache-2.0</td></tr><tr><td>Installation requirements</td><td>Via npm</td><td>None — Hugo is a single binary.</td></tr><tr><td>Build speeds</td><td>Fast</td><td>Fastest</td></tr><tr><td>Multilingual and i18n</td><td>Via plugins</td><td>Built in</td></tr><tr><td>Shortcodes</td><td>Yes</td><td>Yes</td></tr><tr><td>Easy Wordpress et al. converter</td><td>No; you’ll need to convert to Markdown and then clean up with layout templates.</td><td>Yes: <a href="http://gohugo.io/tools/migrations">gohugo.io/tools/migrations</a></td></tr><tr><td>Learning curve</td><td>Gentle, especially if you have JavaScript experience</td><td>Less gentle / non-trivial</td></tr><tr><td>Documentation</td><td><a href="http://11ty.dev">11ty.dev</a></td><td><a href="http://gohugo.io">gohugo.io</a></td></tr><tr><td>Support communities</td><td><a href="https://discord.gg/GBkBy9u">Eleventy Discord</a> and <a href="https://github.com/11ty/eleventy-community">eleventy-community</a> both have helpful communities.</td><td><a href="https://discourse.gohugo.io/">Hugo Discourse</a> is a full-service forum with many active users.</td></tr><tr><td>Twitter accounts</td><td><a href="https://twitter.com/eleven_ty">Eleventy Twitter</a></td><td><a href="https://twitter.com/GoHugoIO">Hugo Twitter</a></td></tr><tr><td>GitHub repos</td><td><a href="https://github.com/11ty/eleventy/">github.com/11ty/eleventy</a></td><td><a href="https://github.com/gohugoio/">github.com/gohugoio</a></td></tr></tbody></table>
 
-\* See [star-history.t9t.io/\#11ty/eleventy&gohugoio/hugo](https://star-history.t9t.io/#11ty/eleventy&amp;gohugoio/hugo) for a comparison over time. It’s always also worth noting that GitHub stars are solely a metric for how many users have pressed the star button — some do this to indicate a favorite repository, but others use the star system to follow active development, to be recommended similar projects, or just to support friends.
+\* See [star-history.t9t.io/#11ty/eleventy&gohugoio/hugo](https://star-history.t9t.io/#11ty/eleventy&amp;gohugoio/hugo) for a comparison over time. It’s always also worth noting that GitHub stars are solely a metric for how many users have pressed the star button — some do this to indicate a favorite repository, but others use the star system to follow active development, to be recommended similar projects, or just to support friends.
 
 ## **So, which should I choose?**
 
@@ -108,4 +95,4 @@ Choose [**Hugo**](https://cloudcannon.com/hugo-cms/) if you’re comfortable wor
 
 Choose [**Eleventy**](https://cloudcannon.com/eleventy-cms/) if you’re newer to the SSG world, your workflow includes collaborative development across different languages, or you intend to pass your site over to a client whose developers use anything other than Go. Sitting in the sweet spot between minimal and flexible, Eleventy is easy to theme and extend, and with its gentle learning curve it’s ideal for SSG beginners.
 
-Whichever you choose, CloudCannon can help make your SSG experience even easier, from instant testing domains to a robust editor. Our [learning path for Hugo](/tutorials/hugo-101/) is already established, and over the coming weeks we'll roll out a series of blog posts, comparisons and tutorials for Eleventy, enabling you to get up and running as soon as possible. Whether you sync from your repository or CloudCannon’s [Git-based CMS](https://cloudcannon.com/git-cms/), you and your team will always stay up to date.
+Whichever you choose, CloudCannon can help make your SSG experience even easier, from instant testing domains to a robust editor. Our [learning path for Hugo](/tutorials/hugo-beginner-tutorial/) is already established, and over the coming weeks we'll roll out a series of blog posts, comparisons and tutorials for Eleventy, enabling you to get up and running as soon as possible. Whether you sync from your repository or CloudCannon’s [Git-based CMS](https://cloudcannon.com/git-cms/), you and your team will always stay up to date.
