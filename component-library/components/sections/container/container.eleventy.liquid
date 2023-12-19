@@ -1,4 +1,5 @@
-{% assign classes = "" %}
+{% assign classes = styles.classes %}
+
 {% assign desktop_styles = "" %}
 {% assign tablet_styles = "" %}
 {% assign mobile_styles = "" %}
@@ -24,6 +25,8 @@
 		{% assign classes = classes | append: " bg-ash light-text" %}
 	{% when 'night' %}
 		{% assign classes = classes | append: " bg-night dark-text" %}
+	{% when 'cc-blue-light' %}
+		{% assign classes = classes | append: " bg-cc_blue_light light-text" %}
 	{% when 'transparent' %}
 	{% else %}
 		{% assign classes = classes | append: " bg-white light-text" %}
@@ -53,6 +56,8 @@
 {% if styles.shadow %}
 	{% assign classes = classes | append: " shadow-xl" %}
 {% endif %}
+
+{% assign classes = classes | append: ' h-[' | append: styles.desktop.height | append: 'px]' %}
 
 {% assign container_name = "container" | UUID %}
 <style>

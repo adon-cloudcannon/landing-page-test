@@ -17,134 +17,97 @@ top_content:
     - _bookshop_name: sections/container
       content:
         blocks:
-          - _bookshop_name: simple/heading
-            content:
-              text: Templates for Static Site Generators
-            styles:
-              element: h1
-              width: normal
-              desktop:
-                text_alignment:
-                  align: center
-                text_sizing:
-                  text_size: biggest
-                margin:
-                  top: 0
-                  bottom: 60
-              tablet:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: false
-                  text_size: big
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-              mobile:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: true
-                  text_size: normal
-                margin:
-                  active: true
-                  top: 0
-                  bottom: 15
-              size: h1
-          - _bookshop_name: simple/text-block
-            content:
-              text_markdown: >-
-                Explore our library of free CloudCannon-ready themes for your
-                Jamstack project. Once you’ve chosen your static site generator
-                (SSG) you can deploy it to CloudCannon with a single click, and
-                you’re all ready to start using our Visual Editor interface.
-            styles:
-              width: large
-              desktop:
-                text_alignment:
-                  align: center
-                text_sizing:
-                  text_size: biggest
-                margin:
-                  top: 0
-                  bottom: 60
-                block_alignment:
-                  align_block: center
-              tablet:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: false
-                  text_size: normal
-                margin:
-                  active: false
-                  top: 0
-                  bottom: 0
-                block_alignment:
-                  active: false
-                  align_block: left
-              mobile:
-                text_alignment:
-                  active: false
-                  align: left
-                text_sizing:
-                  active: true
-                  text_size: normal
-                margin:
-                  active: true
-                  top: 0
-                  bottom: 30
-                block_alignment:
-                  active: false
-                  align_block: left
-          - _bookshop_name: simple/fold
+        - _bookshop_name: simple/parallax
+        - _bookshop_name: sections/container
+          content:
+            blocks:
+              - _bookshop_name: simple/heading
+                content:
+                  text: Templates for Static Site Generators
+                styles:
+                  classes: ['mb-8']
+                  element: h1
+                  width: normal
+                  desktop:
+                    text_alignment:
+                      align: left
+                    text_sizing:
+                      text_size: big
+                    margin:
+                      top: 0
+                    max_width: 38rem
+                  tablet:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: false
+                      text_size: big
+                    margin:
+                      active: false
+                      top: 0
+                  mobile:
+                    text_alignment:
+                      active: false
+                      align: left
+                    text_sizing:
+                      active: true
+                      text_size: normal
+                    margin:
+                      active: true
+                      top: 0
+                  size: h1          
+              - _bookshop_name: simple/filters          
+              - _bookshop_name: simple/fold
+          styles:
+            background: cc-blue-light
+            classes: ['flex items-end']
+            rounded: none
+            size: normal
+            align: left
+            shadow: false
+            desktop:
+              margin:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                top: 0
+                right: 0
+                bottom: 100
+                left: 0
+              height: 590
+            tablet:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            mobile:
+              margin:
+                active: false
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+              padding:
+                active: true
+                top: 30
+                right: 0
+                bottom: 0
+                left: 0
       styles:
-        background: white
-        rounded: none
-        size: normal
-        align: none
-        shadow: false
-        desktop:
-          margin:
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            top: 90
-            right: 0
-            bottom: 80
-            left: 0
-        tablet:
-          margin:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-        mobile:
-          margin:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            active: true
-            top: 30
-            right: 0
-            bottom: 0
-            left: 0
+        classes: ['overflow-hidden']
+        background: cc-blue-light
+
 bottom_content:
   content_blocks:
     - _bookshop_name: sections/container
@@ -317,12 +280,6 @@ bottom_content:
             left: 0
 ---
 <div class="container">
-
-
-  {% assign templates = collections.templates | sort: 'data.priority' %}
-
-  {% include 'partials/filters/filter.html' filter_type: filters collection: templates %}
-
 
 <div id="list-wrapper" class="grid md:grid-cols-2 gap-x-6 gap-y-14 mb-28 mt-5">
   {% for template in templates %}

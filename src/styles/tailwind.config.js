@@ -27,7 +27,7 @@ module.exports = {
 			},
 			colors: {
 				cc: '#034AD8',
-				cc_hover: '#123da6',
+				cc_hover: '#123da6',				
 				nimbus: '#707070',
 				carbon: '#393939',
 				caramel: '#fdf6db',
@@ -37,6 +37,7 @@ module.exports = {
 				night: '#2B2B31',
 				midnight: '#26252A',
 				cc_blue: '#034AD8',
+				cc_blue_light: '#E6EDFB',
 				amber: "#FC6D26",
 				electric_purple: "#C703D8",
 				emerald: "#38A413",
