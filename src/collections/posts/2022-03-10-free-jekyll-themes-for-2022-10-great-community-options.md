@@ -155,7 +155,7 @@ Chirpy's key features:
 * Built-in search and dark mode
 * Syntax highlighting and math presentation
 
-### 4\. [**Base theme**](https://cloudcannon.com/community/themes/base/)
+### 4\. <a target="_blank" rel="noopener" href="https://github.com/CloudCannon/base-jekyll-template"><strong>Base theme</strong></a>
 
 Base is a clean and simple knowledge base Jekyll template. It’s useful for creating a site with searchable tutorials, which are organized into categories.
 
