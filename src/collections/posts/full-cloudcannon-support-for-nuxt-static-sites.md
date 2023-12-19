@@ -33,7 +33,6 @@ seo:
   featured_image_alt:
 ssg_frameworks:
   - nuxtjs
-categories:
 ---
 Another week, and another static site generator out of beta and into full support on CloudCannon! We’re excited to add <a target="_blank" rel="noopener" href="/nuxt-cms/">Nuxt</a> to our selection of leading SSGs, including <a target="_blank" rel="noopener" href="/astro-cms/">Astro</a>, <a target="_blank" rel="noopener" href="/eleventy-cms/">Eleventy</a>, <a target="_blank" rel="noopener" href="/hugo-cms/">Hugo</a>, <a target="_blank" rel="noopener" href="/sveltekit-cms/">SvelteKit</a>, <a target="_blank" rel="noopener" href="/nextjs-cms/">Next.js</a>, <a target="_blank" rel="noopener" href="/gatsby-cms/">Gatsby</a>, and <a target="_blank" rel="noopener" href="/jekyll-cms/">Jekyll</a>. (What a crowd!)
 
