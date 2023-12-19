@@ -1,5 +1,5 @@
 ---
-draft: false
+_schema: default
 title: >-
     Static Site Generator (SSG) Visions, Roadmaps, and Trajectories: What to
     Watch in 2023 
@@ -7,32 +7,47 @@ description: >-
     A complete roundup of public roadmaps, planned features, and open
     discussions for some of the most popular static site generators (SSGs) in
     2023.
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-ssg-visions-roadmaps-2023.jpg
-date: 2023-01-21T05:10:00+1300
+date: 2023-01-21T05:10:00+13:00
 hide_publish_date: false
 tags:
     - Resources
     - Hugo
     - Eleventy
     - Jekyll
-    - Next.js
     - SvelteKit
     - Astro
-    - Nuxt.js
     - Bridgetown
+    - Next-js
+    - Nuxt-js
 author: 466580e8-b101-4837-a0c2-a90a8aebb5db
+permalink: /blog/{{ title | slugify }}/
+cta:
+    title: Launch your website today
+    body_text: >-
+        Give your content team full autonomy on your developer-approved tech
+        stack with CloudCannon.
+    button:
+        content:
+            link: https://app.cloudcannon.com/register?trial=cc_standard
+            text: Get started free!
+        styles:
+            style: outline
+seo:
+    open_graph_type: article
 ssg_frameworks:
-  - hugo
-  - 11ty
-  - jekyll
-  - nextjs
-  - sveltekit
-  - astro
-  - nuxtjs
-  - bridgetown
+    - hugo
+    - 11ty
+    - jekyll
+    - nextjs
+    - sveltekit
+    - astro
+    - nuxtjs
+    - bridgetown
 categories:
-  - resources
+    - resources
 ---
 Last week I published a list of the [top five static site generators for 2023](https://cloudcannon.com/blog/the-top-five-static-site-generators-for-2023-and-when-to-use-them/). In that article I looked at the major features for each framework, as well as the kinds of development each SSG is best suited for.
 
