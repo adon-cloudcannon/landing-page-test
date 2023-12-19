@@ -5,6 +5,10 @@
     .landing-page-card:hover h3{
         color:rgb(3 74 216);
     }
+
+    .partner-badge{
+        background: var(--Secondary-Palettes-Gold-Palette-gold-600, #FAECA2);
+    }
 </style>
 
 <a id="list-item" href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" 
@@ -21,8 +25,13 @@
     <div class="p-5 flex flex-col self-center gap-4">
         <div class="flex gap-x-2">
             {% for cat in template.data.categories %}
-                <span class="text-cc border-2 capitalize border-cc rounded-full px-2 py-1 text-xs font-medium">{{ cat }}</span>
+                <span class="text-cc border-2 capitalize border-cc rounded-full px-4 py-2 text-xs font-medium">{{ cat }}</span>
             {% endfor %}
+            {% if template.data.partner %}
+                <span class="partner-badge ml-auto rounded-lg px-4 py-2 text-xs">
+                    Partner contribution
+                </span>
+            {% endif %}
         </div>        
         
         <div class="flex flex-col gap-2">

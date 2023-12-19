@@ -68,4 +68,5 @@ ssg_frameworks:
   - sveltekit
 categories:
   - Business
+partner: true
 ---

@@ -36,4 +36,5 @@ ssg_frameworks:
   - hugo
 categories:
   - Documentation
+partner: false
 ---

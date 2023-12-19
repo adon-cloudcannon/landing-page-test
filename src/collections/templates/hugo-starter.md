@@ -37,4 +37,5 @@ ssg_frameworks:
 categories:
   - Documentation
   - Starter
+partner: false
 ---

@@ -30,4 +30,5 @@ ssg_frameworks:
   - hugo
 categories:
   - Business
+partner: false
 ---
