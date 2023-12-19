@@ -13,8 +13,7 @@
         border: 2px solid #034AD8;
         border-radius: 4px;
         position: relative;
-        cursor: pointer;
-     
+        cursor: pointer;     
     }
     
     input[type="checkbox"]:checked + .custom-checkbox {
@@ -50,9 +49,7 @@
                 <button
                   @click.prevent="toggleDropdown('{{ forloop.index }}')" 
                   class="z-10 border-2 border-stone-300/20 rounded-lg px-4 py-3 bg-white w-full md:w-[200px] flex justify-between items-center relative"
-                  :class="{
-                      'bg-white',
-                      'bg-white border-comet/50': !open && isMobile && filters['{{filter}}']?.length > 0,
+                  :class="{                   
                       'border-stone-300/20': !open && (!isMobile || filters['{{filter}}']?.length === 0),
                       'opacity-50': usesPagefind && loading
                   }"

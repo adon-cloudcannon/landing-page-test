@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: "Sections Template-landing-page"
+  label: "Simple Landing-page-card"
   description:
   icon:
   tags: []

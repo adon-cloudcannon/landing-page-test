@@ -1,0 +1,41 @@
+<style>
+    .landing-page-card:hover{
+        box-shadow: 0px 8px 8px 0px rgba(51, 51, 51, 0.10);
+    }
+    .landing-page-card:hover h3{
+        color:rgb(3 74 216);
+    }
+</style>
+
+<a id="list-item" href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" 
+    class="
+    {% if templates.length > 1 %}
+    max-w-[560px]
+    {% else %}
+    grid-cols-2
+    {% endif %}
+    landing-page-card transition relative border-2 border-midnight rounded-xl grid overflow-hidden">
+    <div class="overflow-hidden h-[286px]">
+        {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: 'w-full' %}
+    </div>
+    <div class="p-5 flex flex-col self-center gap-4">
+        <div class="flex gap-x-2">
+            {% for cat in template.data.categories %}
+                <span class="text-cc border-2 capitalize border-cc rounded-full px-2 py-1 text-xs font-medium">{{ cat }}</span>
+            {% endfor %}
+        </div>        
+        
+        <div class="flex flex-col gap-2">
+            <h3 class="text-4xl font-bold mt-1">
+                {{ template.data.name }}
+            </h3>
+            <p>{{ template.data.description }}</p>
+        </div>
+
+        <div class="flex items-start gap-4 xsm:flex-row xsm:items-center">
+            {% for ssg in template.data.ssgs %}
+                <img src="/images/icons/ssgs/{{ ssg.ssg_name }}.svg" width="25" height="25" alt="{{ ssg.ssg_name }}"/>
+            {% endfor %}
+        </div>
+    </div>
+</a>

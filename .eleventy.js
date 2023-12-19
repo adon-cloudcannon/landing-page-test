@@ -99,6 +99,21 @@ module.exports = function (eleventyConfig) {
 		});
 	});
 
+	eleventyConfig.addFilter("first", function(collection) {
+		return collection.length > 0 ? [collection[0]] : null;
+	});
+
+	eleventyConfig.addFilter('filterCategory', function(collection, category) {
+		if(category == null) return collection;
+		const filtered = collection.filter(item => {
+			if(category.startsWith("!"))			
+				return item.data.categories.indexOf(category.replace("!", "")) == -1			
+			else
+				return item.data.categories.indexOf(category) != -1
+		})
+		return filtered;
+	});
+
 	eleventyConfig.addFilter("replaceRE", function(input, regex, replacement) {
 		return input.replace(new RegExp(regex), replacement);
 	});
