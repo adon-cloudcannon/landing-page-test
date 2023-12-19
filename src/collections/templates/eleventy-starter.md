@@ -1,7 +1,7 @@
 ---
 _schema: default
 uuid: 67e780b5-0b9c-49c9-8183-6a71a7cfbfe1
-name: Hugo Starter
+name: Eleventy Starter
 image: /images/wireframe-img.png
 image_alt: >-
   Screenshot of Alto Hugo theme layout of a documentation page in dark mode with
@@ -26,14 +26,13 @@ image_carousel:
       Screenshot of Alto theme layout of the Pagefind documentation site showing
       tabular arguments
 ssgs:
-  - ssg_name: hugo
-    github_repo_url: https://github.com/CloudCannon/alto-hugo-template
+  - ssg_name: 11ty
+    github_repo_url: https://github.com/CloudCannon/justice-eleventy-template
     main_branch: main
     readme_filename: README.md
-    live_preview_url: https://holy-ball.cloudvent.net/
 priority: '2'
 ssg_frameworks:
-  - hugo
+  - 11ty
 categories:
   - Starter
 partner: false
