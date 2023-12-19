@@ -19,8 +19,8 @@ description: >-
 date: 2023-12-20T05:00:00+13:00
 seo:
   open_graph_type: article
-  featured_image:
-  featured_image_alt:
+  featured_image: https://cc-dam.imgix.net/PaperCut-performance.png
+  featured_image_alt: Papercut website with performance data surrounding it
 ---
 <a target="_blank" rel="noopener" href="https://www.papercut.com/">PaperCut</a>, a global print management software provider, was facing significant challenges keeping their complex website infrastructure up-to-date. With over 4,000 web pages across six different systems — ranging from PHP, PmWiki, and MadCap Flare to the static site generator Hugo — making updates was slow and required either specialized technical skills or long delays. This resulted in key stakeholders across the business lacking the autonomy to make impactful changes.
 
