@@ -1,11 +1,11 @@
 ---
-draft: false
 _schema: default
 title: Creating sites, the Jamstack way
 description: >-
   You might have heard developers talking about Jamstack, but what is it
   exactly? This post is an overview of what Jamstack is and the benefits of
   building your next website the Jamstack way.
+draft: false
 series:
 image: https://cc-dam.imgix.net/blog/blog-what-is-jamstack.jpg
 date: 2023-02-07T16:12:00Z
@@ -33,7 +33,6 @@ seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-ssg_frameworks:
 categories:
   - beginner
   - features
@@ -45,7 +44,11 @@ You might have heard web developers talking about Jamstack, or "modern static we
 
 Static websites are a popular and simple way to build websites that dates back to the&nbsp;[very first website](http://info.cern.ch/hypertext/WWW/TheProject.html) by Tim Berners-Lee. A static website is essentially a folder with a collection of HTML, CSS, JavaScript, images, and other assets on a web server.
 
-When a user visits a page on the website, the webserver finds the file they requested and sends it to them.<br><br>​​​​​<br>{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/static-response.svg" alt:"" extend:false border:false %}
+When a user visits a page on the website, the webserver finds the file they requested and sends it to them.<br><br>​​​​​
+
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/marketing/uploads/static-response.svg" alt: "" extend: false border: false %}
+
+
 
 ### The rise of dynamic sites
 
@@ -53,13 +56,17 @@ As the internet grew, so did content requirements. We needed ways of handling si
 
 When a user visits a dynamic website, the webserver runs code to generate the website on the fly. It might collect content from a database or API, build the layout from a theme, or create a breadcrumb from a plugin; anything is possible. Once the page generates, it’s returned to the user.
 
-Dynamic websites created new possibilities for the web. The web became much more interactive and tailored to you as an individual. However, with this new approach came a great deal of complexity. Instead of having a web server delivering files, you have programming languages, databases, caching layers, and plugins, which all need to work together flawlessly to deliver a web page. If one piece of the stack breaks, the whole site goes down.<br><br>{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/dynamic-response.svg" alt:"" extend:false border:false %}
+Dynamic websites created new possibilities for the web. The web became much more interactive and tailored to you as an individual. However, with this new approach came a great deal of complexity. Instead of having a web server delivering files, you have programming languages, databases, caching layers, and plugins, which all need to work together flawlessly to deliver a web page. If one piece of the stack breaks, the whole site goes down.<br>
+
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/marketing/uploads/dynamic-response.svg" alt: "" extend: false border: false %}
+
+
 
 ## Next-level static sites
 
 Static site generators (SSGs) started rising in popularity around 2008 to address the pain points of dynamic websites. A static site generator brings some of the advantages of a dynamic website to a static website. You can programmatically build web pages, retrieve content from a database or API, use layouts and includes just like on a dynamic site. The difference is a static site generator goes through a build process that prerenders all of the pages on the site. So after the build process is complete, you have an entirely static website — just like Tim Berners-Lee did with his first website. Any time you change content or any other source files, you rebuild the site, generating an entirely new static website.
 
-{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/what-is-jamstack.svg" alt:"" extend:false border:false %}
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/marketing/uploads/what-is-jamstack.svg" alt: "" extend: false border: false %}
 
 ## What is Jamstack?
 
@@ -83,15 +90,27 @@ Jamstack is a new approach to building websites and there are new technology and
 
 ### 1\. Learn a Static Site Generator
 
-The first step to building a Jamstack website is choosing a static site generator (SSG). There are many different options available, each with its pros and cons. The most popular include&nbsp;[Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Gatsby](https://www.gatsbyjs.com/), [Next.js](https://nextjs.org/), and [Nuxt.js](https://nuxtjs.org/). Following an introduction tutorial and building a small project is the best way to get your feet wet. CloudCannon offers learning path tutorials for [Jekyll](/tutorials/jekyll-101/) and [Hugo](/tutorials/hugo-101/) for those getting started.{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/learn-a-ssg.svg" alt:"" extend:false border:false %}
+The first step to building a Jamstack website is choosing a static site generator (SSG). There are many different options available, each with its pros and cons. The most popular include&nbsp;[Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Gatsby](https://www.gatsbyjs.com/), [Next.js](https://nextjs.org/), and [Nuxt.js](https://nuxtjs.org/). Following an introduction tutorial and building a small project is the best way to get your feet wet. CloudCannon offers learning path tutorials for [Jekyll](/tutorials/jekyll-tutorial/getting-started/) and [Hugo](/tutorials/hugo-beginner-tutorial/) for those getting started.
+
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/marketing/uploads/learn-a-ssg.svg" alt: "" extend: false border: false %}
+
+
 
 ### 2\. Develop your website
 
-You’ll typically set up a repository for your source files. As you develop, you’ll have the SSG running a local server. When you change a file, the SSG will rebuild the site and push the changes to the local server, which you can view from a browser.{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/develop-your-website.svg" alt:"" extend:false border:false %}
+You’ll typically set up a repository for your source files. As you develop, you’ll have the SSG running a local server. When you change a file, the SSG will rebuild the site and push the changes to the local server, which you can view from a browser.
+
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/marketing/uploads/develop-your-website.svg" alt: "" extend: false border: false %}
+
+
 
 ### 3\. Publish your website
 
-When you’re ready to publish your Jamstack site, picking a Jamstack-aware hosting service makes the process easy. Connect your repository to the hosting provider, and it will automatically pull in any changes, start a build and deploy the resulting static site on a CDN.{% bookshop "markdown/image" src:"https://cc-dam.imgix.net/marketing/uploads/publish-your-website-1.svg" alt:"" extend:false border:false %}
+When you’re ready to publish your Jamstack site, picking a Jamstack-aware hosting service makes the process easy. Connect your repository to the hosting provider, and it will automatically pull in any changes, start a build and deploy the resulting static site on a CDN.
+
+{% bookshop "markdown/image" src: "https://cc-dam.imgix.net/marketing/uploads/publish-your-website-1.svg" alt: "" extend: false border: false %}
+
+
 
 ## Jamstack CMS
 
