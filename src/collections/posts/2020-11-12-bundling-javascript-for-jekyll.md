@@ -1,32 +1,36 @@
 ---
-draft: false
+_schema: default
 title: Bundling JavaScript for Jekyll
 description: >-
   A simple technique for bundling JavaScript is to use Jekyll includes. We take
   a look at how you can do this and talk you through the approach. 
-date: 2020-11-12T13:00:00+1300
-author: 48beee1b-cdfc-49fd-b83b-29eb8d1e95f3
+draft: false
+image: https://cc-dam.imgix.net/blog/uploads/blog-blue-lightning.jpg
+date: 2020-11-12T13:00:00+13:00
+hide_publish_date: false
 tags:
   - Jekyll
+author: 48beee1b-cdfc-49fd-b83b-29eb8d1e95f3
+permalink: /blog/{{ title | slugify }}/
 cta:
   title: Launch your website today
-  body_text: Give your content team full autonomy on your developer-approved tech stack with CloudCannon.
+  body_text: >-
+    Give your content team full autonomy on your developer-approved tech stack
+    with CloudCannon.
   button:
-    content: 
-      link: "https://app.cloudcannon.com/register?trial=cc_standard"
-      text: "Get started free!"
+    content:
+      link: https://app.cloudcannon.com/register?trial=cc_standard
+      text: Get started free!
     styles:
       size:
-      style: "outline"
+      style: outline
       extra_classes:
 seo:
   open_graph_type: article
   featured_image:
   featured_image_alt:
-image: https://cc-dam.imgix.net/blog/uploads/blog-blue-lightning.jpg
 ssg_frameworks:
   - jekyll
-categories:
 ---
 Optimising assets can significantly improve load times for visitors to your site. When you build a site on CloudCannon, any assets referenced in your HTML/CSS are automatically [minified and served from a CDN](https://docs.cloudcannon.com/builds/optimisations/). JavaScript files are minified using [UglifyJS](https://www.npmjs.com/package/uglify-js).
 
