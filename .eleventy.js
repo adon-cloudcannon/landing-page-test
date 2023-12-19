@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
 		}
 	}).disable('code'));
 	eleventyConfig.addPassthroughCopy("src/images")
+	eleventyConfig.addPassthroughCopy("src/assets")
 	eleventyConfig.addPassthroughCopy("src/fonts")
 	eleventyConfig.addPassthroughCopy("src/robots.txt");
 	eleventyConfig.addPassthroughCopy({

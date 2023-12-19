@@ -1,16 +1,24 @@
 <style>
+    .c-simple-parallax-overflow-hidden{ 
+        overflow:hidden;
+        position: absolute;
+        top: 0;
+        bottom:0;
+        left: 50%;
+        z-index:3;
+        width:100%;
+    }
+    .c-simple-parallax-wrapper{
+        transform: rotate(-18deg);
+        transform-origin: top left;        
+        z-index: 2;
+    }
     .c-simple-parallax {
-        position:absolute;
-        right:0;
         width:1000px;
         display:grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-rows: repeat(16, 1fr);
         gap:1rem;
-        z-index:1;
-        transform:rotate(-18deg);
-        left:50%;
-        transform-origin: top left;
     }
 
     .c-simple-parallax img{
@@ -118,35 +126,83 @@
         grid-column: 8 / 9;
         grid-row: 5 / 7;
     }
+
+
+    .c-simple-parallax img:nth-of-type(25){
+        grid-column: 1 / 2;
+        grid-row: 8 / 10;
+    }
+    .c-simple-parallax img:nth-of-type(26){
+        grid-column: 2 / 3;
+        grid-row: 7 / 9;
+    }
+    .c-simple-parallax img:nth-of-type(27){
+        grid-column: 3 / 4;
+        grid-row: 8 / 10;
+    }
+    .c-simple-parallax img:nth-of-type(28){
+        grid-column: 4 / 5;
+        grid-row: 7 / 9;
+    }
+    .c-simple-parallax img:nth-of-type(29){
+        grid-column: 5 / 6;
+        grid-row: 8 / 10;
+    }
+    .c-simple-parallax img:nth-of-type(30){
+        grid-column: 6 / 7;
+        grid-row: 7 / 9;
+    }
+    .c-simple-parallax img:nth-of-type(31){
+        grid-column: 7 / 8;
+        grid-row: 8 / 10;
+    }
+    .c-simple-parallax img:nth-of-type(32){
+        grid-column: 8 / 9;
+        grid-row: 7 / 9;
+    }
 </style>
 
-<div class="c-simple-parallax">
+<div class="c-simple-parallax-overflow-hidden">
+    <div class="c-simple-parallax-wrapper">
+        <div class="c-simple-parallax">
 
-    {% bookshop "helpers/image" image: '/images/parallax/send-it.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/vonge-1.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/alto.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/dante.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/parallax-1.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/send-it.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/vonge-1.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/send-it.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-1.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/alto.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/dante.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/parallax-1.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/send-it.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-1.png' alt: '' responsive: true classes: '' %}
 
-    {% bookshop "helpers/image" image: '/images/parallax/parallax-2.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/venture.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/send-it-2.jpeg' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/alto.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/justice.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/mega-kit.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/parallax-2.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/parallax-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/venture.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/send-it-2.jpeg' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/alto.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/justice.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/mega-kit.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/parallax-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
 
-    {% bookshop "helpers/image" image: '/images/parallax/fiction.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/parallax-3.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/fiction-2.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/parallax-1.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/vonge-3.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/fiction.png' alt: '' responsive: true classes: '' %}
-    {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/fiction.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/parallax-3.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/fiction-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/parallax-1.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-3.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/fiction.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
 
+            <!-- trying something here -->
+            {% bookshop "helpers/image" image: '/images/parallax/send-it.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-2.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-1.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/alto.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/dante.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/parallax-1.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/send-it.png' alt: '' responsive: true classes: '' %}
+            {% bookshop "helpers/image" image: '/images/parallax/vonge-1.png' alt: '' responsive: true classes: '' %}
+
+        </div>
+    </div>
 </div>
