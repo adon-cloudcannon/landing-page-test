@@ -89,6 +89,8 @@ module.exports = function (eleventyConfig) {
 	
 	eleventyConfig.addFilter("image_resize", ImageRenderer.image_resize);
 	eleventyConfig.addFilter("image_dimensions", ImageRenderer.image_dimensions);
+	eleventyConfig.addFilter('ymlify', contents => yaml.load(contents))
+
 
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
 		return collection.filter(post => {

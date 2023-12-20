@@ -1,0 +1,30 @@
+<style>
+    iframe{
+        transform:scale(0.5); 
+        transform-origin:top left;
+    }
+</style>
+
+<div class="template-hero flex justify-between items-center">
+
+    <div class="rounded-2xl border-2 border-carbon w-[976px] h-[634px] overflow-hidden">
+        <iframe 
+        class="rounded-2xl"
+        title="Inline Frame Example"
+        width="200%"
+        height="200%"
+        src="{{ live_preview_url }}">
+        </iframe>
+    </div>
+
+    <div class="rounded-2xl border-2 border-carbon w-[200px] h-[433px] overflow-hidden">
+        <iframe
+        class="rounded-2xl"
+        title="Inline Frame Example"
+        width="200%"
+        height="200%"
+        src="{{ live_preview_url }}">
+        </iframe>
+    </div>
+
+</div>
