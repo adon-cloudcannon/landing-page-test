@@ -55,6 +55,8 @@ eleventyComputed:
     - _bookshop_name: sections/container
       content:
         blocks:
+        - _bookshop_name: simple/template-eyebrow
+          starter: "{{ categories contains 'Starter' }}"
         - _bookshop_name: simple/heading
           content:
             text: "{{ name }}"
@@ -68,7 +70,7 @@ eleventyComputed:
                 text_size: bigger
               margin:
                 top: 0
-                bottom: 35
+                bottom: 30
             tablet:
               text_alignment:
                 active: false
@@ -102,7 +104,7 @@ eleventyComputed:
                 text_size: biggest
               margin:
                 top: 0
-                bottom: 35
+                bottom: 40
               block_alignment:
                 align_block:
             tablet:
@@ -181,7 +183,6 @@ eleventyComputed:
 ---
 {% bookshop_include "page" live_render: false content_blocks: breadcrumb_block %}
 {% bookshop_include "page" content_blocks: header_blocks %}
-
 
 
 <div class="container mb-20">

@@ -1,3 +1,42 @@
-<div class="c-simple-ssg-radio rounded-lg border p-2">
-    <img src="/images/logos/ssgs/{{ ssg_name }}.svg" height="25" alt="{{ ssg_name }}" class="h-[25px]"/>
+<style>
+    .c-simple-ssg-radio:hover{
+        box-shadow: 0px 8px 8px 0px rgba(51, 51, 51, 0.10);
+    }
+
+    input[type=radio]{
+        appearance:none;
+        border:1px solid #B0B0B0;
+        border-radius:50%;
+        width:20px;
+        height:20px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    label img{
+        cursor:pointer;
+    }
+
+    .selected input[type=radio]{
+        border-color:#034AD8;
+    }
+
+    .selected input[type=radio]:after{
+        content:'';
+        border-radius:50%;
+        width:14px;
+        height:14px;
+        background:#034AD8;
+    }
+</style>
+
+<div class="c-simple-ssg-radio rounded-lg border p-2 flex gap-2.5 items-center cursor-pointer"
+    :class="selected == {{ idx }} ? ' border-cc selected' : ''" 
+    @click.prevent="if(selected != {{ idx }}){ selected = {{ idx }}; loading = true; setTimeout(() => { loading = false }, loading_time);}"
+>
+    <input id="radio_{{ idx }}" type="radio" />
+    <label for="radio_{{ idx }}">
+        <img src="/images/logos/ssgs/{{ ssg_name }}.svg" height="25" alt="{{ ssg_name }}" class="h-[25px]"/>
+    </label>
 </div>
