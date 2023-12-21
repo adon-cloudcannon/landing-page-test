@@ -1,74 +1,30 @@
 ---
 layout: page.html
 search_bucket: Resources
-eleventyComputed:
-  breadcrumb_block:
-    - _bookshop_name: sections/container
-      content:
-        blocks:
-          - _bookshop_name: simple/breadcrumbs
-            content:
-              final_crumb: "{{ breadcrumb_title }}"
-      styles:
-        background: white
-        rounded: none
-        size: normal
-        align: none
-        desktop:
-          margin:
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            top: 30
-            right: 0
-            bottom: 0
-            left: 0
-        tablet:
-          margin:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-        mobile:
-          margin:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
-          padding:
-            active: false
-            top: 0
-            right: 0
-            bottom: 0
-            left: 0
+eleventyComputed:  
   header_blocks:
     - _bookshop_name: sections/container
       content:
         blocks:
+        - _bookshop_name: simple/color-block
+          categories: {{ categories }}
+        - _bookshop_name: simple/template-badges-block
+        - _bookshop_name: simple/breadcrumbs
+          content:
+            final_crumb: "{{ breadcrumb_title }}"          
         - _bookshop_name: simple/template-eyebrow
-          starter: "{{ categories contains 'Starter' }}"
+          starter: "{{ categories contains 'Starter' }}"          
         - _bookshop_name: simple/heading
           content:
             text: "{{ name }}"
           styles:
-            classes: ['text-5xl']
             size: h1
             width: full
             desktop:
               text_alignment:
                 align: left
               text_sizing:
-                text_size: bigger
+                text_size: big
               margin:
                 top: 0
                 bottom: 30
@@ -102,7 +58,7 @@ eleventyComputed:
               text_alignment: 
                 align: left
               text_sizing:
-                text_size: biggest
+                text_size: normal
               margin:
                 top: 0
                 bottom: 40
@@ -140,7 +96,7 @@ eleventyComputed:
         - _bookshop_name: sections/template-hero
           live_preview_url: "{{ ssgs[0].live_preview_url }}"
       styles:
-        background: white
+        background: transparent
         rounded: none
         size: normal
         align: none
@@ -151,7 +107,7 @@ eleventyComputed:
             bottom: 0
             left: 0
           padding:
-            top: 80
+            top: 30
             right: 0
             bottom: 100
             left: 0

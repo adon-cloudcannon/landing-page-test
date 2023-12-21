@@ -43,6 +43,11 @@
                     {% endif %}                
                     {{ contributor.name }}
                 </div>
+                {% if contributor.description %}
+                    <div class="mt-4 max-w-[200px]">
+                        {{ contributor.description }}
+                    </div>
+                {% endif %}
             </div>
             <a href="#" class="text-cc font-bold flex items-center gap-2.5">
                 View Partner's page 
