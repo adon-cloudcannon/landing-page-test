@@ -10,4 +10,6 @@
     }
 </style>
 
-<div class="c-simple-color-block"></div>
+{% unless categories contains "Starter" %}
+    <div class="c-simple-color-block"></div>
+{% endunless %}

@@ -80,10 +80,8 @@
 	}
 </style>
 
-<div class="{{ classes }} relative {{ container_name }}">
-	<div class="container relative">
-		{% for component in content.blocks %}
-			{% bookshop "{{component._bookshop_name}}" bind: component %}
-		{% endfor %}
-	</div>
+<div class="container {{ classes }} relative {{ container_name }}">
+    {% for component in content.blocks %}
+        {% bookshop "{{component._bookshop_name}}" bind: component %}
+    {% endfor %}
 </div>

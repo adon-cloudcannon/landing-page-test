@@ -1,0 +1,31 @@
+<style>
+    .decorative-line{
+        border-bottom: 1px solid black;
+    }
+</style>
+
+<h2 class="font-bold py-8 flex items-center">
+    <span class="mr-4">{{ title }}</span>
+    <span class="decorative-line grow"></span>
+</h2>
+
+<div id="list-wrapper" class="c-sections-landing-page-card-grid flex flex-wrap justify-between
+
+gap-y-12 mb-28">    
+
+    {% for template in templates %}
+        
+        {% assign ssg_names = '' %}
+        {% assign categories = '' %}
+        
+        {% for ssg in template.data.ssg_frameworks %}
+            {% assign ssg_names = ssg_names | append: ' ' | append: ssg | downcase %}
+        {% endfor %}
+        
+        {% for category in template.data.categories %}
+            {% assign categories = categories | append: ' ' | append: category | downcase %}
+        {% endfor %}
+
+        {% bookshop 'simple/landing-page-card' %}
+    {% endfor %}
+</div>

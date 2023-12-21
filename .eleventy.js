@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
 		}
 	}).disable('code'));
 	eleventyConfig.addPassthroughCopy("src/images")
+	eleventyConfig.addPassthroughCopy("src/assets")
 	eleventyConfig.addPassthroughCopy("src/fonts")
 	eleventyConfig.addPassthroughCopy("src/robots.txt");
 	eleventyConfig.addPassthroughCopy({
@@ -66,6 +67,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("download_github_readme", DataGetter.download_github_readme);
 	eleventyConfig.addFilter("strip_markdown_images", DataGetter.strip_markdown_images);
 	eleventyConfig.addFilter("strip_cc_deploy", DataGetter.strip_cc_deploy);
+	eleventyConfig.addFilter("ymlify", (yml) => yaml.load(yml));
 
 	eleventyConfig.addPlugin(svgContents);
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -97,6 +99,21 @@ module.exports = function (eleventyConfig) {
 			let tags = requiredTags.flat().filter(t => t !== 'posts');
 			return tags.some(tag => post.data.tags.includes(tag));
 		});
+	});
+
+	eleventyConfig.addFilter("first", function(collection) {
+		return collection.length > 0 ? [collection[0]] : null;
+	});
+
+	eleventyConfig.addFilter('filterCategory', function(collection, category) {
+		if(category == null) return collection;
+		const filtered = collection.filter(item => {
+			if(category.startsWith("!"))			
+				return item.data.categories.indexOf(category.replace("!", "")) == -1			
+			else
+				return item.data.categories.indexOf(category) != -1
+		})
+		return filtered;
 	});
 
 	eleventyConfig.addFilter("replaceRE", function(input, regex, replacement) {

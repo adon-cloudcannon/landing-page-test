@@ -24,6 +24,7 @@
 	{% include 'partials/analytics/noscript-google-analytics.html' %}
 	{% include 'partials/nav/_nav.html' %}
 	<div 
+		class="overflow-x-hidden"
 		{% if search_bucket %}
 		{% if search_bucket != "Excluded" %}
 		data-pagefind-filter="site:{{search_bucket}}" data-pagefind-meta="site:{{search_bucket}}" data-pagefind-body

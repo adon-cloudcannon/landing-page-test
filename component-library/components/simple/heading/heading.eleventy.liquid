@@ -30,6 +30,7 @@
 {% when 'tight' %}
 	{% assign classes = classes | append: " max-w-screen-md mx-auto" %}
 {% endcase %}
+{% assign classes = classes | append: ' max-w-[' | append: styles.desktop.max_width | append: '] ' %}
 
 {% assign container_name = "heading" | UUID %}
 <style>

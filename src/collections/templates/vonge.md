@@ -47,5 +47,5 @@ ssg_frameworks:
   - hugo
 categories:
   - Portfolio
-partner: true
+partner: false
 ---

@@ -35,4 +35,5 @@ ssg_frameworks:
 categories:
   - Business
   - Blog
+partner: false
 ---
