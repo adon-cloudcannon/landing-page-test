@@ -1,5 +1,12 @@
-<div class="flex gap-x-1 absolute top-0 right-0">
-    {% for cat in categories %}
-        <span class="text-cc border-2 capitalize border-cc rounded-full px-4 py-2 text-xs font-medium">{{ cat }}</span>
-    {% endfor %}
+<div class="absolute top-0 right-0 flex flex-col items-end">
+    <div class="flex gap-x-1">
+        {% for cat in categories %}
+            <span class="text-cc border-2 capitalize border-cc rounded-full px-4 py-2 text-xs font-medium bg-white">{{ cat }}</span>
+        {% endfor %}    
+    </div>
+    {% if partner %}
+        <span class="partner-badge ml-auto rounded-lg px-4 py-2 text-xs">
+            Partner contribution
+        </span>
+    {% endif %}
 </div>

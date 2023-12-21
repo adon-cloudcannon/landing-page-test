@@ -6,14 +6,15 @@ eleventyComputed:
     - _bookshop_name: sections/container
       content:
         blocks:
-        - _bookshop_name: simple/color-block
-          categories: {{ categories }}
-        - _bookshop_name: simple/template-badges-block
+        - _bookshop_name: simple/color-block          
         - _bookshop_name: simple/breadcrumbs
           content:
             final_crumb: "{{ breadcrumb_title }}"          
         - _bookshop_name: simple/template-eyebrow
-          starter: "{{ categories contains 'Starter' }}"          
+          starter: "{{ categories contains 'Starter' }}"     
+        - _bookshop_name: simple/template-badges-block     
+          categories: {{ categories }}        
+          partner: {{ partner }}
         - _bookshop_name: simple/heading
           content:
             text: "{{ name }}"
