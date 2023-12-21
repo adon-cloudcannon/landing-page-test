@@ -69,7 +69,7 @@ eleventyComputed:
                             text_size: normal
                           margin:
                             top: 30
-                            bottom: 0
+                            bottom: 30
                           block_alignment:
                             align_block: left
                         tablet:
@@ -100,6 +100,10 @@ eleventyComputed:
                           block_alignment:
                             active: false
                             align_block: left
+                    - _bookshop_name: simple/template-button
+                      show: "{{ categories contains 'Starter' }}"
+                      content:
+                        text: View on Github                      
                 styles:
                   background: transparent
                   classes: 'flex flex-col items-start {% if categories contains "Starter" %}w-2/4{% endif %}'
@@ -220,7 +224,6 @@ eleventyComputed:
             left: 0
 ---
 
-{% bookshop_include "page" live_render: false content_blocks: breadcrumb_block %}
 {% bookshop_include "page" content_blocks: header_blocks %}
 
 

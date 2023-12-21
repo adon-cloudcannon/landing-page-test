@@ -1,0 +1,8 @@
+{% if show == "true" %}
+<a target="_blank" href="https://app.cloudcannon.com/#sites/connect/github/{{ details.github_repo_url | downcase | remove: 'https://github.com/' }}"
+    class="bg-cc hover:bg-cc_hover hover:scale-105 text-white transition flex justify-center h-[44px] min-w-[200px] items-center text-lg py-2 px-3 rounded-lg">
+    <span class="flex items-center text-base">
+        {{ content.text }}
+    </span>
+</a>
+{% endif %}

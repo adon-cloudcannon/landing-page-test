@@ -5,10 +5,6 @@
     .landing-page-card:hover h3{
         color:rgb(3 74 216);
     }
-
-    .partner-badge{
-        background: var(--Secondary-Palettes-Gold-Palette-gold-600, #FAECA2);
-    }
 </style>
 
 <a id="list-item" href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" 
@@ -18,7 +14,7 @@
     {% else %}
     grid-cols-2
     {% endif %}
-    landing-page-card transition relative border-2 border-midnight rounded-xl grid overflow-hidden">
+    landing-page-card transition relative border-2 border-midnight rounded-xl grid grid-rows-[auto_1fr] overflow-hidden">
     {% if template.data.categories contains 'Starter' %}
         {% assign classes = 'p-5 flex items-center justify-center' %}
     {% else %}
@@ -34,16 +30,14 @@
             </div>
         {% endif %}
     </div>
-    <div class="p-5 flex flex-col self-center gap-4">
+    <div class="p-5 flex flex-col self-center gap-4 mb-auto">
         {% unless template.data.categories contains 'Starter' %}
             <div class="flex gap-x-2">
                 {% for cat in template.data.categories %}
                     <span class="text-cc border-2 capitalize border-cc rounded-full px-4 py-2 text-xs font-medium">{{ cat }}</span>
                 {% endfor %}
                 {% if template.data.partner %}
-                    <span class="partner-badge ml-auto rounded-lg px-4 py-2 text-xs">
-                        Partner contribution
-                    </span>
+                    {% bookshop 'simple/partner-badge' %}
                 {% endif %}
             </div>        
             {% endunless %}

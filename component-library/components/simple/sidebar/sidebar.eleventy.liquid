@@ -1,19 +1,18 @@
 {% unless categories contains "Starter" %}   
-    <div class="c-simple-sidebar flex flex-col mt-5">    
+    <div class="c-simple-sidebar flex flex-col mt-5 min-w-[200px]">    
         <h3 class="mb-2.5 text-carbon_800 font-bold text-xl">Choose your SSG:</h3>
-        <div class="gap-2.5 flex flex-col">
+        <div class="gap-2.5 flex flex-col mb-5">
             {% assign i = 0 %}
             {% for ssg in ssgs %}
                 {% assign i = i | plus: 1 %}
                 {% bookshop 'simple/ssg-radio' ssg_name:ssg.ssg_name idx:i %}
             {% endfor %}
         </div>
-        <a target="_blank" href="https://app.cloudcannon.com/#sites/connect/github/{{ details.github_repo_url | downcase | remove: 'https://github.com/' }}"
-            class="bg-cc hover:bg-cc_hover hover:scale-105 text-white transition flex h-[44px] items-center text-lg py-2 px-3 rounded-lg mt-5">
-            <span class="flex items-center text-base">
-                Deploy to CloudCannon
-            </span>
-        </a>
+        {% capture button_content %}
+            text: 'Deploy to CloudCannon'
+        {% endcapture %}
+        {% assign button_content = button_content | ymlify %}
+        {% bookshop 'simple/template-button' content:button_content show:"true" %}
         <div class="dividier-line flex items-center py-8">
             <span class="border-b-2 w-full"></span>
         </div>
@@ -60,7 +59,26 @@
         {% endif %}    
     </div>
 {% else %}
-    <div class="c-simple-sidebar flex flex-col mt-0">    
+    <div class="c-simple-sidebar flex flex-col mt-0 min-w-[200px]">    
         <h3 class="mb-2.5 text-carbon_800 font-bold text-xl">What you'll get:</h3>
+        <div class="text-block leading-8">
+            <b>Framework:</b> Hugo<br/>
+            <b>Use case:</b> Boilerplate<br/>
+            <b>CSS:</b> Tailwind CSS<br/>
+            <b>CMS:</b> CloudCannon
+        </div>
+        <div class="dividier-line flex items-center py-8">
+            <span class="border-b-2 w-full"></span>
+        </div>
+        <h3 class="mb-2.5 text-carbon_800 font-bold text-xl">Bonus features:</h3>
+        <div class="text-block leading-8 mb-[30px]">
+            <a class="font-bold text-cc underline" href="#">Rosey.app</a><br/>
+            <a class="font-bold text-cc underline" href="#">Pagefind.app</a>
+        </div>       
+        {% capture button_content %}
+            text: 'View on Github'
+        {% endcapture %}
+        {% assign button_content = button_content | ymlify %}
+        {% bookshop 'simple/template-button' content:button_content show:"true"  %} 
     </div>
 {% endunless %}

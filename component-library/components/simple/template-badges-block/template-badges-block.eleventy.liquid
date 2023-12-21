@@ -1,8 +1,3 @@
-<style>
-    .partner-badge{
-        background: var(--Secondary-Palettes-Gold-Palette-gold-600, #FAECA2);
-    }
-</style>
 {% assign categories = categories | split: ',' %}
     
 {% unless categories contains "Starter" %}
@@ -14,9 +9,7 @@
             {% endfor %}    
         </div>
         {% if partner %}
-            <span class="partner-badge ml-auto rounded-lg px-4 py-2 text-xs font-semibold">
-                Partner contribution
-            </span>
+            {% bookshop 'simple/partner-badge' %}
         {% endif %}
     </div>
 
