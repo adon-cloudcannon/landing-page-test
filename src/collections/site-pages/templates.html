@@ -3,8 +3,10 @@ title: Templates for Static Site Generators
 layout: builder.html
 permalink: /templates/
 filters:
-  - framework
-  - category
+  - id: category
+    name: category
+  - id: framework
+    name: SSGs
 description: >-
   Explore our library of free CloudCannon-ready themes for your Jamstack project
   and deploy to your static site generator of choice.
@@ -61,7 +63,7 @@ top_content:
               - _bookshop_name: simple/fold
           styles:
             background: cc-blue-light
-            classes: ['flex items-start justify-end flex-col']
+            classes: ['flex items-start justify-end flex-col max-w-[608px]']
             rounded: none
             size: normal
             align: left

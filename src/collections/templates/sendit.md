@@ -66,6 +66,7 @@ ssg_frameworks:
   - sveltekit
   - gatsby
   - astro
+  - nuxtjs
 categories:
   - Business
   - Blog
