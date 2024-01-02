@@ -19,7 +19,6 @@ top_content:
     - _bookshop_name: sections/container
       content:
         blocks:
-        - _bookshop_name: simple/parallax
         - _bookshop_name: sections/template-container
           content:
             blocks:
@@ -27,7 +26,7 @@ top_content:
                 content:
                   text: Templates for Static Site Generators
                 styles:
-                  classes: ['mb-8']
+                  classes: ['pt-[100px] lg:pt-[0px] mb-8']
                   element: h1
                   width: normal
                   desktop:
@@ -63,51 +62,15 @@ top_content:
               - _bookshop_name: simple/fold
           styles:
             background: cc-blue-light
-            classes: ['flex items-start justify-end flex-col max-w-[608px]']
+            classes: [' m-0', ' p-0', ' lg:pb-[100px]', ' lg:h-[100%]', ' flex', ' items-start', ' justify-start', ' lg:justify-end', ' flex-col', ' lg:max-w-[608px]']
             rounded: none
             size: normal
             align: left
             shadow: false
-            desktop:
-              margin:
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                top: 0
-                right: 0
-                bottom: 100
-                left: 0
-              height: 590
-            tablet:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-            mobile:
-              margin:
-                active: false
-                top: 0
-                right: 0
-                bottom: 0
-                left: 0
-              padding:
-                active: true
-                top: 30
-                right: 0
-                bottom: 0
-                left: 0
+        - _bookshop_name: simple/parallax
       styles:
         background: cc-blue-light
+        classes: [' overflow-hidden', ' flex', ' h-[calc(100vh-116px)]', ' lg:h-[590px]']
 
 bottom_content:
   content_blocks:

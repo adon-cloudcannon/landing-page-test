@@ -1,12 +1,22 @@
 <style>
     .c-simple-parallax-overflow-hidden{ 
+        display:flex;
+        justify-content:center;
+        margin-left:-2rem;
+        margin-right:-2rem;
         overflow:hidden;
-        position: absolute;
-        top: 0;
-        bottom:0;
-        left: 50%;
-        z-index:3;
-        width:100%;
+    }
+
+    @media (min-width: 1024px) {
+        .c-simple-parallax-overflow-hidden{ 
+            margin-left:0;
+            top: 0;
+            bottom:0;
+            left: 50%;
+            z-index:3;
+            position: absolute;
+            width:100%;
+        }
     }
     .c-simple-parallax-wrapper{
         transform: rotate(-18deg);

@@ -39,16 +39,16 @@
     
 </style>
 
-<div x-data="filterComponent" x-init="init(); initialisePagefind();" class="relative">
+<div x-data="filterComponent" x-init="init(); initialisePagefind();" class="relative w-full">
 
     <!-- Dropdowns -->
-    <div class="flex flex-col md:flex-row gap-4">
+    <div class="flex flex-col lg:flex-row gap-4 w-full">
         {% for filter in filter_type %}
-            <div class="relative inline-block w-full md:w-auto">
+            <div class="relative inline-block w-full lg:w-auto">
                 <!-- Button -->
                 <button
                   @click.prevent="toggleDropdown('{{ forloop.index }}')" 
-                  class="z-10 border-2 border-stone-300/20 rounded-lg px-4 py-3 bg-white w-full md:w-[200px] flex justify-between items-center relative"
+                  class="z-10 border-2 border-stone-300/20 rounded-lg px-4 py-3 bg-white w-full lg:w-[200px] flex justify-between items-center relative"
                   :class="{                   
                       'border-stone-300/20': !open && (!isMobile || filters['{{filter.id}}']?.length === 0),
                       'opacity-50': usesPagefind && loading

@@ -57,8 +57,6 @@
 	{% assign classes = classes | append: " shadow-xl" %}
 {% endif %}
 
-{% assign classes = classes | append: ' h-[' | append: styles.desktop.height | append: 'px]' %}
-
 {% assign container_name = "container" | UUID %}
 <style>
 	@media (min-width: 1280px) {

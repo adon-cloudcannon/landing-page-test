@@ -66,9 +66,7 @@ export default () => {
  
 
         get selectedOptions() {
-            console.log(Object.entries(this.filters))
             return Object.entries(this.filters);
-            //return Object.values(this.filters).flat();
         },
 
 
