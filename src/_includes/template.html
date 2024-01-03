@@ -106,7 +106,7 @@ eleventyComputed:
                               text: View on Github   
                       styles:
                         background: transparent
-                        classes: 'flex flex-col items-start {% if categories contains "Starter" %}w-2/4{% endif %}'
+                        classes: 'flex flex-col lg:items-start '
                         desktop:
                           padding:
                             top: 0
@@ -139,7 +139,7 @@ eleventyComputed:
                       partner: {{ partner }}                       
                 styles:
                   background: transparent
-                  classes: 'flex flex-col lg:flex-row items-start {% if categories contains "Starter" %}w-2/4{% endif %}'
+                  classes: 'flex flex-col lg:flex-row items-start {% if categories contains "Starter" %}w-full lg:w-2/4{% endif %}'
                   desktop:
                     padding:
                       top: 0
@@ -171,7 +171,7 @@ eleventyComputed:
                 starter: "{{ categories contains 'Starter' }}"  
                 live_preview_url: "{{ ssgs[0].live_preview_url }}"
           styles:
-            classes: 'template_header flex gap-10 {% unless categories contains "Starter" %}flex-col{% endunless %}'
+            classes: 'template_header flex gap-10 {% unless categories contains "Starter" %}flex-col{% else %}flex-col lg:flex-row{% endunless %}'
             background: transparent
             rounded: none
             size: normal
@@ -240,7 +240,7 @@ eleventyComputed:
             active: false
             top: 0
             right: 0
-            bottom: 0
+            bottom: 80
             left: 0
         mobile:
           margin:
@@ -253,7 +253,7 @@ eleventyComputed:
             active: false
             top: 0
             right: 0
-            bottom: 0
+            bottom: 80
             left: 0
 ---
 
@@ -286,8 +286,8 @@ eleventyComputed:
         </div>
       
         <!-- Loaded Content -->
-        <div x-show="!loading" class="w-[700px]">
-          <div class="prose md:prose-lg lg:prose-xl prose-li:my-[3px] prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-2 prose-h3:mb-1 prose-h3:mt-2 mx-auto hover:prose-a:text-cc hover:prose-a:transition">
+        <div x-show="!loading" class="lg:w-[700px]">
+          <div class="prose md:prose-lg lg:prose-xl prose-li:my-[3px] prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-2 prose-h3:mb-1 prose-h3:mt-2 hover:prose-a:text-cc hover:prose-a:transition">
             {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | strip_cc_deploy | markdownify }}
           </div>
         </div>

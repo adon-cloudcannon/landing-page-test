@@ -20,7 +20,9 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			StyleRenderer = require('./src/config/style_renderer.js'),
 			ImageRenderer = require('./src/config/image_renderer.js'),
 			DataGetter = require('./src/config/data_getter.js'),
-			Helpers = require('./src/config/helpers.js');
+			Helpers = require('./src/config/helpers.js'),
+			{ Tokenizer, assert } = require('liquidjs');
+
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("component-library/");
@@ -121,6 +123,22 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("markdownify", (markdown) => md.render(markdown));
+
+	eleventyConfig.addLiquidTag('assign_local', liquidEngine => {
+		return {
+		  parse: function (token) {
+			  const tokenizer = new Tokenizer(token.args, this.liquid.options.operatorsTrie);
+			  this.key = tokenizer.readIdentifier().content;
+			  tokenizer.skipBlank();
+			  assert(tokenizer.peek() === '=', () => `illegal token ${token.getText()}`);
+			  tokenizer.advance();
+			  this.value = tokenizer.remaining();
+		  },
+		  render: function(ctx) {
+			  ctx.scopes[ctx.scopes.length-1][this.key] = this.liquid.evalValueSync(this.value, ctx);
+		  }
+		}
+	});
 
 	return {
 		dir: {

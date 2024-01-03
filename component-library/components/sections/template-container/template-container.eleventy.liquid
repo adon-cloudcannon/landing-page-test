@@ -1,63 +1,63 @@
 {% assign classes = styles.classes %}
 
-{% assign desktop_styles = "" %}
-{% assign tablet_styles = "" %}
-{% assign mobile_styles = "" %}
+{% assign_local desktop_styles = "" %}
+{% assign_local tablet_styles = "" %}
+{% assign_local mobile_styles = "" %}
 
-{% assign desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
-{% assign tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
-{% assign mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
+{% assign_local desktop_styles = desktop_styles | render_margin: styles, 'desktop' %}
+{% assign_local tablet_styles = tablet_styles | render_margin: styles, 'tablet' %}
+{% assign_local mobile_styles = mobile_styles | render_margin: styles, 'mobile' %}
 
-{% assign desktop_styles = desktop_styles | render_padding: styles, 'desktop' %}
-{% assign tablet_styles = tablet_styles | render_padding: styles, 'tablet' %}
-{% assign mobile_styles = mobile_styles | render_padding: styles, 'mobile' %}
+{% assign_local desktop_styles = desktop_styles | render_padding: styles, 'desktop' %}
+{% assign_local tablet_styles = tablet_styles | render_padding: styles, 'tablet' %}
+{% assign_local mobile_styles = mobile_styles | render_padding: styles, 'mobile' %}
 
 {% case styles.background %}
 	{% when 'caramel' %}
-		{% assign classes = classes | append: " bg-caramel light-text" %}
+		{% assign_local classes = classes | append: " bg-caramel light-text" %}
 		{% when 'sky' %}
-		{% assign classes = classes | append: " bg-sky light-text" %}
+		{% assign_local classes = classes | append: " bg-sky light-text" %}
 	{% when 'sea' %}
-		{% assign classes = classes | append: " bg-sea light-text" %}
+		{% assign_local classes = classes | append: " bg-sea light-text" %}
 	{% when 'cc-blue' %}
-		{% assign classes = classes | append: " bg-cc dark-text" %}
+		{% assign_local classes = classes | append: " bg-cc dark-text" %}
 	{% when 'ash' %}
-		{% assign classes = classes | append: " bg-ash light-text" %}
+		{% assign_local classes = classes | append: " bg-ash light-text" %}
 	{% when 'night' %}
-		{% assign classes = classes | append: " bg-night dark-text" %}
+		{% assign_local classes = classes | append: " bg-night dark-text" %}
 	{% when 'cc-blue-light' %}
-		{% assign classes = classes | append: " bg-cc_blue_light light-text" %}
+		{% assign_local classes = classes | append: " bg-cc_blue_light light-text" %}
 	{% when 'transparent' %}
 	{% else %}
-		{% assign classes = classes | append: " bg-white light-text" %}
+		{% assign_local classes = classes | append: " bg-white light-text" %}
 {% endcase %}
 
 {% case styles.rounded %}
 	{% when 'top' %}
-		{% assign classes = classes | append: " rounded-t-[40px]" %}
-		{% assign mt = " margin-top:-40px;" %}
-		{% assign desktop_styles = desktop_styles | append: mt %}
-		{% assign tablet_styles = tablet_styles | append: mt %}
-		{% assign mobile_styles = mobile_styles | append: mt %}
+		{% assign_local classes = classes | append: " rounded-t-[40px]" %}
+		{% assign_local mt = " margin-top:-40px;" %}
+		{% assign_local desktop_styles = desktop_styles | append: mt %}
+		{% assign_local tablet_styles = tablet_styles | append: mt %}
+		{% assign_local mobile_styles = mobile_styles | append: mt %}
 	{% when 'full' %}
-		{% assign classes = classes | append: " rounded-[20px]" %}
+		{% assign_local classes = classes | append: " rounded-[20px]" %}
 {% endcase %}
 
 {% case styles.size %}
 {% when 'small' %}
-	{% assign classes = classes | append: " max-w-[1000px] mx-auto" %}
+	{% assign_local classes = classes | append: " max-w-[1000px] mx-auto" %}
 
-	{% assign mx = " margin-left:auto; margin-right:auto;" %}
-	{% assign desktop_styles = desktop_styles | append: mx %}
-	{% assign tablet_styles = tablet_styles | append: mx %}
-	{% assign mobile_styles = mobile_styles | append: mx %}
+	{% assign_local mx = " margin-left:auto; margin-right:auto;" %}
+	{% assign_local desktop_styles = desktop_styles | append: mx %}
+	{% assign_local tablet_styles = tablet_styles | append: mx %}
+	{% assign_local mobile_styles = mobile_styles | append: mx %}
 {% endcase %}
 
 {% if styles.shadow %}
-	{% assign classes = classes | append: " shadow-xl" %}
+	{% assign_local classes = classes | append: " shadow-xl" %}
 {% endif %}
 
-{% assign container_name = "container" | UUID %}
+{% assign_local container_name = "container" | UUID %}
 <style>
 	@media (min-width: 1280px) {
 		.{{ container_name}} {
