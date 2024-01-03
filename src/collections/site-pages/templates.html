@@ -70,7 +70,7 @@ top_content:
         - _bookshop_name: simple/parallax
       styles:
         background: cc-blue-light
-        classes: [' overflow-hidden', ' flex', ' h-[787px]', ' lg:h-[590px]']
+        classes: [ ' flex', ' h-[787px]', ' lg:h-[590px]']
 
 bottom_content:
   content_blocks:
@@ -243,7 +243,7 @@ bottom_content:
             bottom: 90
             left: 0
 ---
-<div class="container mt-8">
+<div class="container relative bg-white pt-8">
 
   {% assign featured_template = collections.templates | sort: 'data.priority' | first %}
   {% bookshop 'sections/landing-page-card-grid' title:"Featured Template" templates:featured_template %}
