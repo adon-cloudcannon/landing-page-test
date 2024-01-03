@@ -11,8 +11,9 @@
     }
 </style>
 
-<a id="list-item" href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" 
+<a href="{{ template.url }}" data-framework="{{ ssg_names | strip }}" data-category="{{ categories | strip }}" 
     class="
+    list-item
     {% if templates.length > 1 %}
     w-[100%] sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-1 xl:w-[560px] xl:max-w-[560px]
     {% else %}

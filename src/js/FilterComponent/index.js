@@ -215,36 +215,40 @@ export default () => {
                 if (this.usesPagefind){
                     this.debounce(this.updateShownPostsWithPagefind(this.filters),50);
                 }else{
-                    const templateList = Array.from(document.querySelectorAll('#list-item'));
-                    this.updateShownPostsWithoutPagefind(templateList, this.filters);
+                    const templateLists = Array.from(document.querySelectorAll(".c-sections-landing-page-card-grid"));
+                    //const templateList = Array.from(document.querySelectorAll('#list-item'));
+                    this.updateShownPostsWithoutPagefind(templateLists, this.filters);
                 }
             
         },
          
 
-        updateShownPostsWithoutPagefind(templateList, filters) {
+        updateShownPostsWithoutPagefind(templateLists, filters) {
             const anyFiltersSelected = this.areAnyFiltersSelected(filters);
-            const listWrapper = document.getElementById('list-wrapper');
-            const noResults = document.getElementById('no-results');
-            let isResultAvailable = false;
-    
-            // loop through each template and check if it the item in the filter matches the item in the data attribute
-            templateList.forEach(template => {
-                const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
+            templateLists.forEach(templateList => {
+
+                const listWrapper = templateList.querySelector('.list-wrapper');
+                const noResults = templateList.querySelector('.no-results');
+                let isResultAvailable = false;
+                
+                // loop through each template and check if it the item in the filter matches the item in the data attribute
+                templateList.querySelectorAll('.list-item').forEach(template => {
+                    const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
                     filterValues.length === 0 || filterValues.some(value =>
                         template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
-                    )
-                );
-    
-                if (isMatched) {
-                    isResultAvailable = true;
-                }
-    
-                template.classList.toggle('hidden', !isMatched);
-            });
-    
-            listWrapper.classList.toggle('hidden', !isResultAvailable);
-            noResults.classList.toggle('hidden', isResultAvailable);
+                        )
+                    );
+                        
+                    if (isMatched) {
+                        isResultAvailable = true;
+                    }
+                    
+                    template.classList.toggle('hidden', !isMatched);
+                });
+                
+                listWrapper.classList.toggle('hidden', !isResultAvailable);
+                noResults.classList.toggle('hidden', isResultAvailable);
+            })
         },
 
 

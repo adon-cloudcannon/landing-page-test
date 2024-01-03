@@ -4,28 +4,33 @@
     }
 </style>
 
-<h2 class="font-bold py-8 flex items-center">
-    <span class="mr-4">{{ title }}</span>
-    <span class="decorative-line grow"></span>
-</h2>
+<div class="c-sections-landing-page-card-grid ">
+    <h2 class="font-bold py-8 flex items-center">
+        <span class="mr-4">{{ title }}</span>
+        <span class="decorative-line grow"></span>
+    </h2>
 
-<div id="list-wrapper" class="c-sections-landing-page-card-grid flex flex-wrap justify-between
+    <div class="list-wrapper flex flex-wrap justify-between
+    gap-y-12 mb-28">    
 
-gap-y-12 mb-28">    
+        {% for template in templates %}
+            
+            {% assign ssg_names = '' %}
+            {% assign categories = '' %}
+            
+            {% for ssg in template.data.ssg_frameworks %}
+                {% assign ssg_names = ssg_names | append: ' ' | append: ssg | downcase %}
+            {% endfor %}
+            
+            {% for category in template.data.categories %}
+                {% assign categories = categories | append: ' ' | append: category | downcase %}
+            {% endfor %}
 
-    {% for template in templates %}
-        
-        {% assign ssg_names = '' %}
-        {% assign categories = '' %}
-        
-        {% for ssg in template.data.ssg_frameworks %}
-            {% assign ssg_names = ssg_names | append: ' ' | append: ssg | downcase %}
+            {% bookshop 'simple/landing-page-card' %}
         {% endfor %}
-        
-        {% for category in template.data.categories %}
-            {% assign categories = categories | append: ' ' | append: category | downcase %}
-        {% endfor %}
+    </div>
 
-        {% bookshop 'simple/landing-page-card' %}
-    {% endfor %}
+    <div class="no-results text-center mt-[3rem] mb-[5rem] md:mt-[8rem] md:mb-[10rem] text-xl font-bold hidden">
+        <h2>No Results Found</h2>
+    </div>
 </div>
