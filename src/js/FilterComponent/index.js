@@ -130,18 +130,18 @@ export default () => {
 
         generateFilterButtonLabelBasedOnSelectionAndDevice(filterType, filterName) {
             // updates the button labels depending on the number of filters selected, and if the user is on mobile
-            const selectedCount = this.filters[filterType]?.length || 0;
+        //    const selectedCount = this.filters[filterType]?.length || 0;
             //const pluralizeFilterName = filterType === 'category' ? 'categories' : `${filterName}s`;
 
-            if (!selectedCount) {
+          /*  if (!selectedCount) {
                 return `Filter by ${filterName}`;
-            }
+            }*/
 
             const filterText = `Filter by ${filterName}`;
 
-            if (selectedCount === 1 && this.isMobile) {
+            /*if (selectedCount === 1 && this.isMobile) {
                 return `Filtered by 1 ${filterName}`;
-            }
+            }*/
 
             return filterText;
         },
