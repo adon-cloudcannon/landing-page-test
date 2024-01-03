@@ -16,97 +16,130 @@ eleventyComputed:
               - _bookshop_name: sections/template-container
                 content:
                   blocks:
-                    - _bookshop_name: simple/template-eyebrow
-                      starter: "{{ categories contains 'Starter' }}"     
+                    - _bookshop_name: sections/template-container
+                      content:
+                        blocks:
+                          - _bookshop_name: simple/template-eyebrow
+                            starter: "{{ categories contains 'Starter' }}"     
+                          - _bookshop_name: simple/heading
+                            content:
+                              text: "{{ name }}"
+                            styles:
+                              size: h1
+                              width: full
+                              desktop:
+                                text_alignment:
+                                  align: left
+                                text_sizing:
+                                  text_size: big
+                                margin:
+                                  top: 0
+                                  bottom: 0
+                              tablet:
+                                text_alignment:
+                                  active: false
+                                  align: left
+                                text_sizing:
+                                  active: false
+                                  text_size: big
+                                margin:
+                                  active: false
+                                  top: 0
+                                  bottom: 0
+                              mobile:
+                                text_alignment:
+                                  active: false
+                                  align: left
+                                text_sizing:
+                                  active: true
+                                  text_size: normal
+                                margin:
+                                  active: false
+                                  top: 0
+                                  bottom: 0
+                          - _bookshop_name: simple/text-block
+                            content:
+                              text_markdown: "{{ description }}"
+                            styles:
+                              width: large
+                              desktop:
+                                text_alignment: 
+                                  align: left
+                                text_sizing:
+                                  text_size: normal
+                                margin:
+                                  top: 30
+                                  bottom: 30
+                                block_alignment:
+                                  align_block: left
+                              tablet:
+                                text_alignment:
+                                  active: false
+                                  align: left
+                                text_sizing:
+                                  active: false
+                                  text_size: normal
+                                margin:
+                                  active: false
+                                  top: 0
+                                  bottom: 0
+                                block_alignment:
+                                  active: false
+                                  align_block: left
+                              mobile:
+                                text_alignment:
+                                  active: false
+                                  align: left
+                                text_sizing:
+                                  active: true
+                                  text_size: normal
+                                margin:
+                                  active: false
+                                  top: 0
+                                  bottom: 0
+                                block_alignment:
+                                  active: false
+                                  align_block: left
+                          - _bookshop_name: simple/template-button
+                            show: "{{ categories contains 'Starter' }}"
+                            content:
+                              text: View on Github   
+                      styles:
+                        background: transparent
+                        classes: 'flex flex-col items-start {% if categories contains "Starter" %}w-2/4{% endif %}'
+                        desktop:
+                          padding:
+                            top: 0
+                            bottom: 0
+                            left: 0
+                            right: 0
+                          margin:
+                            top: 0
+                            bottom: 0
+                        tablet:
+                          padding:
+                            top: 0
+                            bottom: 0
+                            left: 0
+                            right: 0
+                          margin:
+                            top: 0
+                            bottom: 0
+                        mobile:
+                          padding:
+                            top: 0
+                            bottom: 0
+                            left: 0
+                            right: 0
+                          margin:
+                            top: 0
+                            bottom: 0
                     - _bookshop_name: simple/template-badges-block     
                       categories: "{{ categories | join: ',' }}"
-                      partner: {{ partner }}
-                    - _bookshop_name: simple/heading
-                      content:
-                        text: "{{ name }}"
-                      styles:
-                        size: h1
-                        width: full
-                        desktop:
-                          text_alignment:
-                            align: left
-                          text_sizing:
-                            text_size: big
-                          margin:
-                            top: 0
-                            bottom: 0
-                        tablet:
-                          text_alignment:
-                            active: false
-                            align: left
-                          text_sizing:
-                            active: false
-                            text_size: big
-                          margin:
-                            active: false
-                            top: 0
-                            bottom: 0
-                        mobile:
-                          text_alignment:
-                            active: false
-                            align: left
-                          text_sizing:
-                            active: true
-                            text_size: normal
-                          margin:
-                            active: false
-                            top: 0
-                            bottom: 0
-                    - _bookshop_name: simple/text-block
-                      content:
-                        text_markdown: "{{ description }}"
-                      styles:
-                        width: large
-                        desktop:
-                          text_alignment: 
-                            align: left
-                          text_sizing:
-                            text_size: normal
-                          margin:
-                            top: 30
-                            bottom: 30
-                          block_alignment:
-                            align_block: left
-                        tablet:
-                          text_alignment:
-                            active: false
-                            align: left
-                          text_sizing:
-                            active: false
-                            text_size: normal
-                          margin:
-                            active: false
-                            top: 0
-                            bottom: 0
-                          block_alignment:
-                            active: false
-                            align_block: left
-                        mobile:
-                          text_alignment:
-                            active: false
-                            align: left
-                          text_sizing:
-                            active: true
-                            text_size: normal
-                          margin:
-                            active: false
-                            top: 0
-                            bottom: 0
-                          block_alignment:
-                            active: false
-                            align_block: left
-                    - _bookshop_name: simple/template-button
-                      show: "{{ categories contains 'Starter' }}"
-                      content:
-                        text: View on Github                      
+                      partner: {{ partner }}                       
                 styles:
                   background: transparent
-                  classes: 'flex flex-col items-start {% if categories contains "Starter" %}w-2/4{% endif %}'
+                  classes: 'flex flex-col lg:flex-row items-start {% if categories contains "Starter" %}w-2/4{% endif %}'
                   desktop:
                     padding:
                       top: 0
@@ -152,7 +185,7 @@ eleventyComputed:
               padding:
                 top: 50
                 right: 0
-                bottom: 30
+                bottom: 0
                 left: 0
             tablet:
               margin:
@@ -228,7 +261,7 @@ eleventyComputed:
 
 
 <div class="container mb-20">
-  <div x-data="{ selected:1, loading: false, loading_time: 200 }" class="flex justify-between w-[1013px]">    
+  <div x-data="{ selected:1, loading: false, loading_time: 200 }" class="flex flex-col lg:flex-row justify-between xl:w-[1013px]">    
     {% bookshop 'simple/sidebar' %}
 
     {% assign i = 0 %}

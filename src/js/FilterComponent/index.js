@@ -232,7 +232,7 @@ export default () => {
                 let isResultAvailable = false;
                 
                 // loop through each template and check if it the item in the filter matches the item in the data attribute
-                templateList.querySelectorAll('.list-item').forEach(template => {
+                templateList.querySelectorAll('.template-list-item').forEach(template => {
                     const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
                     filterValues.length === 0 || filterValues.some(value =>
                         template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
