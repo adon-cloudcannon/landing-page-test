@@ -117,6 +117,8 @@ collections_config:
         type: multiselect
         options:
           values: data.filter-template-category-tags
+      contributor_info:
+        hidden: '!partner'
   tutorials:
     description: A tutorial contains one or more lessons
     output: true

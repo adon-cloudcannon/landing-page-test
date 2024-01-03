@@ -17,4 +17,9 @@ ssgs:
 priority:  
 ssg_frameworks:
 categories:
+partner:
+contributor_info:
+  - logo:
+    name:
+    description:
 ---

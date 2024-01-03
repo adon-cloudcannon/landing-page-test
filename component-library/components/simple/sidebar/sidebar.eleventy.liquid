@@ -33,19 +33,19 @@
         <div class="dividier-line flex items-center py-8">
             <span class="border-b-2 w-full"></span>
         </div>
-        {% if contributor %}
+        {% if contributor_info %}
             <div class="flex flex-col gap-5">
                 <h3 class="text-carbon_800 font-bold text-xl">Contributor:</h3>
                 <div class="contributor-block">
                     <div class="contributor-logo flex items-center text-2xl font-bold">
-                        {% if contributor.logo %}
+                        {% if contributor_info.logo %}
                             <img src="{{ contributor.logo }}" class="mr-1 h-6" />
                         {% endif %}                
-                        {{ contributor.name }}
+                        {{ contributor_info.name }}
                     </div>
-                    {% if contributor.description %}
+                    {% if contributor_info.description %}
                         <div class="mt-4 max-w-[200px]">
-                            {{ contributor.description }}
+                            {{ contributor_info.description }}
                         </div>
                     {% endif %}
                 </div>
