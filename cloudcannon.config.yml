@@ -119,6 +119,8 @@ collections_config:
           values: data.filter-template-category-tags
       contributor_info:
         hidden: '!partner'
+      contributor_info.logo:
+        type: image
   tutorials:
     description: A tutorial contains one or more lessons
     output: true
