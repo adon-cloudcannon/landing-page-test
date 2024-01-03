@@ -23,11 +23,12 @@
     {% endif %}
     landing-page-card transition relative border-2 border-midnight rounded-xl grid grid-rows-[auto_1fr] overflow-hidden">
     {% if template.data.categories contains 'Starter' %}
-        {% assign classes = 'p-5 flex items-center justify-center' %}
+        {% assign classes = 'p-5 flex items-center justify-center bg-cc_blue_light' %}
     {% else %}
         {% assign classes = 'h-[286px]' %}
     {% endif %}
-    <div class="overflow-hidden {{ classes }} bg-cc_blue_light flex items-center justify-center">        
+    <div class="absolute top-0 right-0 left-0 bottom-0 z-20"></div>
+    <div class="overflow-hidden {{ classes }}  flex items-center justify-center">        
         {% if template.data.categories contains 'Starter' %}
             {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: "w-full" %}
             <div class="absolute flex justify-center items-center gap-8">
@@ -36,9 +37,8 @@
                 <img class="" src="/images/cc-symbol-logo.svg" height="80" />
             </div>
         {% else %}
-        <div class="w-[100%] h-[286px] overflow-hidden bg-white">
-            <iframe
-            class="rounded-t-2xl"
+        <div class="w-[100%] h-[286px] overflow-hidden">
+            <iframe            
             title="Inline Frame Example"
             width="200%"
             height="200%"
