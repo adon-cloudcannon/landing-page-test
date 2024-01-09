@@ -5,6 +5,7 @@ image:
 image_alt:
 description:
 header_description:
+background_colour:
 image_carousel:
   - image_path:
     image_alt:
