@@ -495,7 +495,7 @@ _inputs:
       values:
         - top
         - center
-  categories:
+  featured_template:
     label: Featured template
     type: select
     options:
