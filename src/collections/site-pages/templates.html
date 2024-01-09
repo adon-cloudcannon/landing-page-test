@@ -14,65 +14,122 @@ seo:
   featured_image: https://cc-dam.imgix.net/SSG-Templates-OG.png
   featured_image_alt: Static site generator templates.
 search_bucket: Resources
-featured_template: collections/templates/dante.md
+featured_template: ''
 top_content:
   content_blocks:
     - _bookshop_name: sections/container
       content:
         blocks:
-        - _bookshop_name: sections/template-container
-          content:
-            blocks:
-              - _bookshop_name: simple/heading
-                content:
-                  text: Templates for Static Site Generators
-                styles:
-                  classes: ['pt-[100px] lg:pt-[0px] mb-8']
-                  element: h1
-                  width: normal
-                  desktop:
-                    text_alignment:
-                      align: left
-                    text_sizing:
-                      text_size: big
-                    margin:
-                      top: 0
-                    max_width: 38rem
-                  tablet:
-                    text_alignment:
-                      active: false
-                      align: left
-                    text_sizing:
-                      active: false
-                      text_size: big
-                    margin:
-                      active: false
-                      top: 0
-                  mobile:
-                    text_alignment:
-                      active: false
-                      align: left
-                    text_sizing:
-                      active: true
-                      text_size: normal
-                    margin:
-                      active: true
-                      top: 0
-                  size: h1          
-              - _bookshop_name: simple/filters          
-              - _bookshop_name: simple/fold
-          styles:
-            background: cc-blue-light
-            classes: [' m-0', ' p-0', ' lg:pb-[100px]', ' lg:h-[100%]', ' flex', ' items-start', ' justify-start', ' lg:justify-end', ' flex-col', ' lg:max-w-[608px]']
-            rounded: none
-            size: normal
-            align: left
-            shadow: false
-        - _bookshop_name: simple/parallax
+          - _bookshop_name: sections/template-container
+            content:
+              blocks:
+                - _bookshop_name: simple/heading
+                  content:
+                    text: Templates for Static Site Generators
+                  styles:
+                    element: h1
+                    width: normal
+                    desktop:
+                      text_alignment:
+                        align: left
+                      text_sizing:
+                        text_size: big
+                      margin:
+                        top: 0
+                        bottom: 0
+                      max_width: 38rem
+                    tablet:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: false
+                        text_size: big
+                      margin:
+                        active: false
+                        top: 0
+                        bottom: 0
+                    mobile:
+                      text_alignment:
+                        active: false
+                        align: left
+                      text_sizing:
+                        active: true
+                        text_size: normal
+                      margin:
+                        active: true
+                        top: 0
+                        bottom: 0
+                    classes:
+                      - pt-[100px] lg:pt-[0px] mb-8
+                    size: h1
+                - _bookshop_name: simple/filters
+                - _bookshop_name: simple/fold
+            styles:
+              background: cc-blue-light
+              classes:
+                - ' m-0'
+                - ' p-0'
+                - ' lg:pb-[100px]'
+                - ' lg:h-[100%]'
+                - ' flex'
+                - ' items-start'
+                - ' justify-start'
+                - ' lg:justify-end'
+                - ' flex-col'
+                - ' lg:max-w-[608px]'
+              rounded: none
+              size: normal
+              align: left
+              shadow: false
+          - _bookshop_name: simple/parallax
       styles:
         background: cc-blue-light
-        classes: [ ' flex', ' h-[787px]', ' lg:h-[590px]']
-
+        rounded: none
+        size: normal
+        align: none
+        shadow: false
+        desktop:
+          margin:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+        tablet:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+        mobile:
+          margin:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+          padding:
+            active: false
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+        classes:
+          - ' flex'
+          - ' h-[787px]'
+          - ' lg:h-[590px]'
 bottom_content:
   content_blocks:
     - _bookshop_name: sections/container
