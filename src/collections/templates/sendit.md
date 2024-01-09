@@ -9,6 +9,7 @@ header_description: >-
   Sendit is a business template made with the Bootstrap CSS framework. The
   components have been converted to Bookshop. It's the perfect starting point to
   see how CloudCannon works.
+background_colour: 
 image_carousel:
   - image_path: https://cc-dam.imgix.net/sendit-hero.png
     image_alt: Hero

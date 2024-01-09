@@ -7,6 +7,7 @@ image_alt: Share template
 description: >-
   An extremely versatile single page marketing website template with included
   components and live rendering page builder.
+background_colour: 
 header_description: >-
   Share is a CloudCannon template configured with <a
   href="https://cloudcannon.com/blog/introducing-bookshop/"> Bookshop</a> for

@@ -11,6 +11,7 @@ header_description: >
   Vonge is a personal portfolio/blog site template for Jekyll. This theme
   includes a full component library for website building with live editing. A
   perfect starting point for your new CloudCannon site.
+background_colour: 
 image_carousel:
   - image_path: https://cc-dam.imgix.net/community/images/templates/vonge/1.png
     image_alt: >-

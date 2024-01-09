@@ -10,6 +10,7 @@ header_description: >-
   any local business. This clean layout can easily be adjusted to fit any
   client’s branding. Once you’ve customised the site you can set up CloudCannon
   to have the client update it themselves.
+background_colour: 
 image_carousel:
   - image_path: https://cc-dam.imgix.net/community/images/templates/justice/1.jpg
     image_alt: >-

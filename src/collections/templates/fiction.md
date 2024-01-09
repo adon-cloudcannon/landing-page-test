@@ -8,6 +8,7 @@ description: Sleek and modern agency template made with Bootstrap
 header_description: >-
   Fiction is an agency template made with the Bootstrap CSS framework. The
   components have been converted to Bookshop.
+background_colour: 
 image_carousel:
   - image_path: https://cc-dam.imgix.net/fiction-image-hero-resized.png
     image_alt: Hero with single image

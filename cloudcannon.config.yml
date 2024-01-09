@@ -499,7 +499,7 @@ _inputs:
     label: Featured template
     type: select
     options:
-      values: collections.templates
+      values: collections.templates      
   search_bucket:
     comment: What filter to apply to this page for search.
     type: select
@@ -1175,6 +1175,8 @@ _inputs:
         - emerald
         - ruby
         - comet
+  background_colour:
+    comment: "Note: this colour won't show on templates categorised as 'Starter'"
 
 _snippets_imports:
   eleventy_liquid: true
