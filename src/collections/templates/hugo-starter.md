@@ -1,6 +1,6 @@
 ---
 _schema: default
-uuid: 67e780b5-0b9c-49c9-8183-6a71a7cfbfe1
+uuid: 
 name: Hugo Starter
 image: /images/wireframe-img.png
 image_alt: >-
