@@ -499,7 +499,7 @@ _inputs:
     label: Featured template
     type: select
     options:
-      values: data.filter-template-category-tags
+      values: collections.templates
   search_bucket:
     comment: What filter to apply to this page for search.
     type: select
