@@ -1,0 +1,9 @@
+{% if env_bookshop_live %}
+
+    {% bookshop "helpers/image" image: image_path alt: '' responsive: true classes: '' %}
+
+{% else %}
+
+    {% image image_path, '', '', '250px', true %}
+
+{% endif %}
