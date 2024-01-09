@@ -495,6 +495,11 @@ _inputs:
       values:
         - top
         - center
+  categories:
+    label: Featured template
+    type: select
+    options:
+      values: data.filter-template-category-tags
   search_bucket:
     comment: What filter to apply to this page for search.
     type: select
