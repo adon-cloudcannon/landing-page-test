@@ -38,6 +38,7 @@
     "tailwindcss": "^3.2.6"
   },
   "dependencies": {
+    "@11ty/eleventy-img": "^3.1.8",
     "@alpinejs/collapse": "^3.10.5",
     "@alpinejs/focus": "^3.10.5",
     "@alpinejs/persist": "^3.11.1",

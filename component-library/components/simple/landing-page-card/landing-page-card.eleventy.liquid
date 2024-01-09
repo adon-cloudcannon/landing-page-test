@@ -28,7 +28,7 @@
         {% assign classes = 'h-[286px]' %}
     {% endif %}
     <div class="absolute top-0 right-0 left-0 bottom-0 z-20"></div>
-    <div class="overflow-hidden {{ classes }}  flex items-center justify-center">        
+    <div class="overflow-hidden {{ classes }} flex items-center justify-center">        
         {% if template.data.categories contains 'Starter' %}
             {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: "w-full" %}
             <div class="absolute flex justify-center items-center gap-8">
@@ -48,7 +48,14 @@
             </div>
         {% endif %}
     </div>
-    <div class="p-5 flex flex-col self-center gap-4 mb-auto mt-0 md:mt-auto xl:mt-0">
+    <div class="p-5 flex flex-col self-center gap-4 
+    mb-auto mt-0 md:mt-auto
+    {% if templates.length == 1 %}
+        xl:mt-auto
+    {% else %}
+        xl:mt-0
+    {% endif %}
+    ">
         {% unless template.data.categories contains 'Starter' %}
             <div class="flex gap-x-2">
                 {% for cat in template.data.categories %}

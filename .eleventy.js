@@ -21,8 +21,10 @@ const svgContents = require("eleventy-plugin-svg-contents"),
 			ImageRenderer = require('./src/config/image_renderer.js'),
 			DataGetter = require('./src/config/data_getter.js'),
 			Helpers = require('./src/config/helpers.js'),
-			{ Tokenizer, assert } = require('liquidjs');
-
+			{ Tokenizer, assert } = require('liquidjs'),
+			path = require("node:path"),
+			fs = require('fs'),
+			Image = require("@11ty/eleventy-img");			
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("component-library/");
@@ -95,7 +97,36 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("image_dimensions", ImageRenderer.image_dimensions);
 	eleventyConfig.addFilter('ymlify', contents => yaml.load(contents))
 
-
+	// Custom shortcodes
+	const IMAGE_OPTIONS = {
+		widths: [400, 800, 1280, 1600],
+		formats: ["avif", "webp", "svg", "jpeg"],
+		outputDir: "./_site/optimized/",
+		urlPath: "/optimized/",
+		// svgCompressionSize: "br",
+	};
+	eleventyConfig.addShortcode("image", async (srcFilePath, alt, className, sizes, preferSvg) => {
+		let before = Date.now();
+		let inputFilePath = srcFilePath == null ? srcFilePath : path.join('src', srcFilePath);
+	
+		if (fs.existsSync(inputFilePath)) {
+		  let metadata = await Image(inputFilePath, Object.assign({
+			svgShortCircuit: preferSvg ? "size" : false,
+		  }, IMAGE_OPTIONS));
+		  console.log( `[11ty/eleventy-img] ${Date.now() - before}ms: ${inputFilePath}` );
+	
+		  return Image.generateHTML(metadata, {
+			alt,
+			class: className,
+			sizes: sizes || "100vw", // Set default value to "100vw" if sizes is not provided
+			loading: "eager",
+			decoding: "async",
+		  });
+		} else {
+		  return `<img class='${className}' src='${srcFilePath}' alt='${alt}'>`;
+		}
+	});
+	
 	eleventyConfig.addFilter("filterByTags", function(collection=[], ...requiredTags) {
 		return collection.filter(post => {
 			let tags = requiredTags.flat().filter(t => t !== 'posts');
