@@ -14,7 +14,7 @@ seo:
   featured_image: https://cc-dam.imgix.net/SSG-Templates-OG.png
   featured_image_alt: Static site generator templates.
 search_bucket: Resources
-featured_template: ''
+featured_template: collections/templates/eleventy-starter.md
 top_content:
   content_blocks:
     - _bookshop_name: sections/container
@@ -303,8 +303,16 @@ bottom_content:
 ---
 <div class="container relative bg-white pt-8">
 
-  {% assign featured_template = collections.templates | sort: 'data.priority' | first %}
-  {% bookshop 'sections/landing-page-card-grid' title:"Featured Template" templates:featured_template %}
+  {% if featured_template and featured_template != '' %}
+    {% assign templates_list = collections.templates | sort: 'data.priority' %}
+    {% for t in templates_list %}
+      {% assign template_path = t.page.inputPath | remove: './src/' %}
+      {% if template_path == featured_template %}
+        {% assign featured = featured | concat: t %}
+      {% endif %}
+    {% endfor %}    
+    {% bookshop 'sections/landing-page-card-grid' title:"Featured Template" templates:featured %}
+  {% endif %}
 
   {% assign starter_templates = collections.templates | sort: 'data.priority' | filterCategory: "Starter" %}
   {% bookshop 'sections/landing-page-card-grid' title:"Starter Templates" templates:starter_templates %}
