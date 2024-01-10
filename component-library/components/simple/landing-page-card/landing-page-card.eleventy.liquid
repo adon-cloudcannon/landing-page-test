@@ -27,7 +27,7 @@
     {% else %}
         {% assign classes = 'h-[286px]' %}
     {% endif %}
-    <div class="absolute top-0 right-0 left-0 bottom-0 z-19"></div>
+    <div class="absolute top-0 right-0 left-0 bottom-0 z-10"></div>
     <div class="overflow-hidden {{ classes }} flex items-center justify-center">        
         {% if template.data.categories contains 'Starter' %}
             {% bookshop "helpers/image" image: template.data.image alt: template.data.title responsive: true classes: "w-full" %}

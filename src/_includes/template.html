@@ -288,7 +288,7 @@ eleventyComputed:
         <!-- Loaded Content -->
         <div x-show="!loading" class="lg:w-[700px]">
           <div class="prose md:prose-lg lg:prose-xl prose-li:my-[3px] prose-h1:mb-2 prose-h2:mb-1 prose-h2:mt-2 prose-h3:mb-1 prose-h3:mt-2 hover:prose-a:text-cc hover:prose-a:transition">
-            {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | strip_cc_deploy | markdownify }}
+            {{ r.github_repo_url | download_github_readme: r.main_branch, r.readme_filename | strip_markdown_images | strip_cc_deploy | strip_first_h1 | markdownify }}
           </div>
         </div>
       </div>
