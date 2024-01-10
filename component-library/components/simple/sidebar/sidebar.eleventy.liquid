@@ -38,12 +38,12 @@
                 <h3 class="text-carbon_800 font-bold text-xl">Contributor:</h3>
                 <div class="contributor-block">
                     <div class="contributor-logo flex items-center text-2xl font-bold">
-                        {% if contributor_info.logo %}
-                            <img src="{{ contributor.logo }}" class="mr-1 h-6" />
+                        {% if contributor_info.logo and contributor_info.logo != '' %}
+                            <img src="{{ contributor_info.logo }}" class="mr-1 h-6" />
                         {% endif %}                
                         {{ contributor_info.name }}
                     </div>
-                    {% if contributor_info.description %}
+                    {% if contributor_info.description and contributor_info.description != '' %}
                         <div class="mt-4 max-w-[200px]">
                             {{ contributor_info.description }}
                         </div>

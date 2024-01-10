@@ -81,8 +81,8 @@
                     {% assign filter_targets = "" | split: "," %}
         
                     {% if filter_key == "framework" or filter_key == "category" or filter_key == "location" %}
-                        {% assign data_keys = "categories,ssg_frameworks,locations" | split: "," %}
-                        {% assign key_map = "category,framework,location" | split: "," %}
+                        {% assign data_keys = "ssg_frameworks,categories,locations" | split: "," %}
+                        {% assign key_map = "framework,category,location" | split: "," %}
                         {% assign key_index = -1 %}
                         
                         {% for key in key_map %}
@@ -132,7 +132,7 @@
                               @change="addOrRemoveFilterOptionAndUpdateRenderedItems($event.target.value, $event.target.checked, '{{ filter_key }}')" 
                               aria-labelledby="label_{{ target }}" 
                             >
-                            <label for="checkbox_{{ target }}" class="custom-checkbox inline-block mr-2 cursor-pointer" role="menuitemcheckbox"> {{ ssg_ref }}</label>
+                            <label for="checkbox_{{ target }}" class="custom-checkbox inline-block mr-2 cursor-pointer" role="menuitemcheckbox"></label>
                             {% if filter_key == "framework" %}
                                 <img src="/images/icons/ssgs/{{ target }}.svg" width="16" height="16" alt="{{ target.ssg_name }}" class="mr-[4px] inline-block cursor-pointer"/>
                             {% endif %}

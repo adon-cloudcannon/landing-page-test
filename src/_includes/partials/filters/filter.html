@@ -47,22 +47,22 @@
                   class="z-10 border-2 border-stone-300/20 rounded-lg px-4 py-3 bg-white w-full md:w-[200px] flex justify-between items-center relative"
                   :class="{
                       'bg-[#F0F5FF]': open && show === '{{ forloop.index }}',
-                      'bg-white border-comet/50': !open && isMobile && filters['{{filter}}']?.length > 0,
-                      'border-stone-300/20': !open && (!isMobile || filters['{{filter}}']?.length === 0),
+                      'bg-white border-comet/50': !open && isMobile && filters['{{filter.id}}']?.length > 0,
+                      'border-stone-300/20': !open && (!isMobile || filters['{{filter.id}}']?.length === 0),
                       'opacity-50': usesPagefind && loading
                   }"
                   data-index="{{ forloop.index }}"
                   aria-haspopup="true" 
                   :aria-expanded="open && show === '{{ forloop.index }}'"
-                  aria-label="Show filters for {{ filter }}"
+                  aria-label="Show filters for {{ filter.name }}"
                   :disabled="usesPagefind && loading"
                   tabindex="0"
                 >
-                    <span class="inline-block" x-text="generateFilterButtonLabelBasedOnSelectionAndDevice('{{ filter }}', '{{ filter }}')"></span>
+                    <span class="inline-block" x-text="generateFilterButtonLabelBasedOnSelectionAndDevice('{{ filter.id }}', '{{ filter.name }}')"></span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="stroke-current inline-block w-3 h-3 text-black transform transition duration-150" :class="{ 'rotate-90': show === '{{ forloop.index }}' }">
                         <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clip-rule="evenodd"/>
                     </svg>
-                    <span class="absolute top-0 right-0 w-2 h-2 bg-cc rounded-full" x-show="isMobile && filters['{{ filter }}']?.length > 0" style="transform: translate(50%, -50%);"></span>
+                    <span class="absolute top-0 right-0 w-2 h-2 bg-cc rounded-full" x-text="filters['{{ filter.id }}'].length" x-show="isMobile && filters['{{ filter.id }}']?.length > 0" style="transform: translate(50%, -50%);"></span>
                 </button>
 
                 <!-- Dropdown -->
@@ -74,7 +74,7 @@
                   @keydown.escape="if(show === '{{ forloop.index }}') show = false" role="menu"  
                   class="absolute top-full z-20 mt-2 w-full md:w-[200px] shadow-menu rounded-lg px-4 py-4 gap-y-4 whitespace-nowrap bg-white"
                 >
-                    {% assign filter_key = filter %}
+                    {% assign filter_key = filter.id %}
                     {% assign item_collection = collection %}
                     {% assign filter_targets = "" | split: "," %}
         
@@ -158,8 +158,10 @@
         x-show="selectedOptions.length > 0 && !isMobile" 
         x-init="$watch('selectedOptions.length', () => { if(window.innerWidth >= 768) { $el.classList.toggle('hidden', !selectedOptions.length); } })"
         >
-        <template x-for="(option, index) in selectedOptions" :key="index">
+        <template x-for="([k,v], idx) in selectedOptions" :key="idx">
+            <template x-for="(option, index) in v" :key="index">
             <span class="border-2 border-comet rounded-[24px] relative flex items-center justify-between gap-x-[14px] py-3 px-[22px] leading-none">
+                <img x-show="k !== 'category'" x-bind:src="'/images/icons/ssgs/' + option + '.svg'" width="16" height="16" x-bind:alt="option" class="mr-2 inline-block cursor-pointer"/>
                 <span class="capitalize font-medium text-carbon leading-[12px]" x-text="option"></span> 
                 <button @click="removeOptionFromFilter(option, index)" class="flex items-center justify-center relative top-px" aria-label="Remove filter {{ option }}">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -167,6 +169,7 @@
                     </svg>
                 </button>
             </span>
+            </template>
         </template>
     </div>
 

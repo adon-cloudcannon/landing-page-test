@@ -15,7 +15,9 @@ pagination:
   reverse: true
 search_bucket: Excluded
 filters:
-  - framework
-  - category
+  - id: framework
+    name: SSGs
+  - id: category
+    name: category
 ---
 {% include 'partials/blog/list.html' posts:posts filters:filters pagination:pagination header:true %}
