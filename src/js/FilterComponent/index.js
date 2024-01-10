@@ -210,12 +210,11 @@ export default () => {
 
 
         updateShownPostsBasedOnPagefindUsage() {
-            
                 // stores all list items in an array and passes it to the updateShownPostsWithoutPagefind function
                 if (this.usesPagefind){
                     this.debounce(this.updateShownPostsWithPagefind(this.filters),50);
                 }else{
-                    const templateLists = Array.from(document.querySelectorAll(".c-sections-landing-page-card-grid"));
+                    const templateLists = Array.from(document.querySelectorAll(".cc-list"));
                     //const templateList = Array.from(document.querySelectorAll('#list-item'));
                     this.updateShownPostsWithoutPagefind(templateLists, this.filters);
                 }
@@ -225,14 +224,16 @@ export default () => {
 
         updateShownPostsWithoutPagefind(templateLists, filters) {
             const anyFiltersSelected = this.areAnyFiltersSelected(filters);
+            console.log(anyFiltersSelected)
+            const noResults = document.querySelector('#no-results');
+            let anyResultsAvailable = false;
             templateLists.forEach(templateList => {
 
-                const listWrapper = templateList.querySelector('.list-wrapper');
-                const noResults = templateList.querySelector('.no-results');
+                //const listWrapper = templateList.querySelector('.list-wrapper');
                 let isResultAvailable = false;
                 
                 // loop through each template and check if it the item in the filter matches the item in the data attribute
-                templateList.querySelectorAll('.template-list-item').forEach(template => {
+                templateList.querySelectorAll('.cc-list-item').forEach(template => {
                     const isMatched = !anyFiltersSelected || Object.entries(filters).every(([filterKey, filterValues]) =>
                     filterValues.length === 0 || filterValues.some(value =>
                         template.getAttribute(`data-${filterKey}`).split(' ').includes(value)
@@ -241,14 +242,15 @@ export default () => {
                         
                     if (isMatched) {
                         isResultAvailable = true;
+                        anyResultsAvailable = true;
                     }
                     
                     template.classList.toggle('hidden', !isMatched);
                 });
                 
-                listWrapper.classList.toggle('hidden', !isResultAvailable);
-                noResults.classList.toggle('hidden', isResultAvailable);
+                templateList.classList.toggle('hidden', !isResultAvailable);
             })
+            noResults.classList.toggle('hidden', anyResultsAvailable);
         },
 
 
@@ -271,7 +273,7 @@ export default () => {
             this.toggleLoadingState(true); 
 
             const areFiltersActive = this.areAnyFiltersSelected(filters);
-        
+
             if (!areFiltersActive) {
                 this.pagefindResults = [];
                 this.toggleElementVisibility("post-container", true);

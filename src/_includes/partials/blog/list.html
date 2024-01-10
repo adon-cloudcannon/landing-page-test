@@ -41,9 +41,9 @@
 		{% include 'partials/filters/filter.html' filter_type: filters collection: collections.posts %}
 		  
 		
-		<div id="post-container" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
+		<div id="post-container" class="cc-list grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
 			{% for post in posts offset:offset %}
-			<div>
+			<div class="cc-list-item">
 				<a href="{{ post.url }}" class="group">
 					{% bookshop 'helpers/image' image: post.data.image alt: post.data.title responsive: true width: 584 height: 316 classes: 'transition rounded-lg group-hover:opacity-80 group-hover:scale-105 h-[250px] object-center object-cover w-full' %}
 				</a>

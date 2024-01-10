@@ -320,6 +320,10 @@ bottom_content:
   {% assign full_templates = collections.templates | sort: 'data.priority' | filterCategory: "!Starter" %}
   {% bookshop 'sections/landing-page-card-grid' title:"Fully-Fledged Templates" templates:full_templates %}
 
+  <div id="no-results" class="no-results text-center mt-[3rem] mb-[5rem] md:mt-[8rem] md:mb-[10rem] text-xl font-bold hidden">
+    <h2>No Results Found</h2>
+  </div>
+
 </div>
 
 <script src="/assets/js/simple-parallax.js"></script>
