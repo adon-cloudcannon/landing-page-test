@@ -84,6 +84,7 @@ _inputs:
         - sky
         - sea
         - cc-blue
+        - cc-blue-light
         - ash
         - night
         - transparent
@@ -121,3 +122,5 @@ _inputs:
       values:
         - none
         - center
+  classes:
+    hidden: true
