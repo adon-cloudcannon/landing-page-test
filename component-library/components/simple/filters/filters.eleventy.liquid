@@ -1,8 +1,3 @@
-{% assign templates = collections.templates | sort: 'data.priority' %}
-
-{% assign collection = templates %}
-{% assign filter_type = filters %}
-
 <!-- custom checkbox styling -->
 <style>
     .custom-checkbox {
@@ -38,6 +33,9 @@
     }
     
 </style>
+
+{% assign filter_type = filters %}
+{% assign collection = collections[collectionName] %}
 
 <div x-data="filterComponent" x-init="init(); initialisePagefind();" class="relative w-full">
 

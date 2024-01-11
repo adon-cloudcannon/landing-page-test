@@ -38,7 +38,7 @@
 				</div>
 			</div>
 		{% endif %}
-		{% include 'partials/filters/filter.html' filter_type: filters collection: collections.posts %}
+		{% bookshop 'simple/filters' filter_type: filters collectionName: 'posts' %}
 		  
 		
 		<div id="post-container" class="cc-list grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-12">
