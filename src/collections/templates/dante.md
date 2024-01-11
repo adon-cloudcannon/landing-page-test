@@ -8,7 +8,7 @@ description: A modern agency template for Jekyll, with intuitive component-based
 header_description: >-
   Dante is a modern agency template for Jekyll, with intuitive component-based
   editing.
-background_colour: '#ecf6e8'
+background_colour: 
 image_carousel:
   - image_path: https://cc-dam.imgix.net/dante-home-screenshot.png
     image_alt: Dante home screenshot

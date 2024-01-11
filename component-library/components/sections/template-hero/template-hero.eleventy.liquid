@@ -28,11 +28,11 @@
 
     </div>
 {% else %}
-    <div class="relative w-full lg:w-2/4 bg-cc_blue_light p-6 overflow-hidden flex justify-center items-center rounded-xl">
+    <div class="relative w-full lg:w-2/4 bg-cc-blue-100 p-6 overflow-hidden flex justify-center items-center rounded-xl">
         {% bookshop "helpers/image" image: image alt: title responsive: true classes: "w-full" %}
         <div class="absolute flex justify-center items-center gap-8">
             <img src="/images/icons/ssgs/{{ ssgs[0].ssg_name }}.svg" alt="{{ ssgs[0].ssg_name }}" width="80" height="80" />
-            <span class="text-carbon_800 font-bold text-[78px]">+</span>
+            <span class="text-carbon-800 font-bold text-[78px]">+</span>
             <img class="" src="/images/cc-symbol-logo.svg" height="80" />
         </div>
     </div>

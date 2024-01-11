@@ -1169,14 +1169,24 @@ _inputs:
     label: "Icon Color"
     options:
       values:
-        - cc_blue
+        - cc-blue
         - amber
-        - electric_purple
+        - electric-purple
         - emerald
         - ruby
         - comet
   background_colour:
     comment: "Note: this colour won't show on templates categorised as 'Starter'"
+    options:
+      values:
+        - cc-blue-100
+        - carbon-100
+        - ruby-100
+        - space-100
+        - amber-100
+        - emerald-100
+        - gold-100
+        - electric-purple-100
 
 _snippets_imports:
   eleventy_liquid: true

@@ -1,6 +1,6 @@
 {% unless categories contains "Starter" %}   
     <div class="c-simple-sidebar flex flex-col mt-0 min-w-[200px]">    
-        <h3 class="mb-2.5 text-carbon_800 font-bold text-xl">Choose your SSG:</h3>
+        <h3 class="mb-2.5 text-carbon-800 font-bold text-xl">Choose your SSG:</h3>
         <div class="gap-2.5 flex flex-col mb-5">
             {% assign i = 0 %}
             {% for ssg in ssgs %}
@@ -35,7 +35,7 @@
         </div>
         {% if partner and contributor_info %}
             <div class="flex flex-col gap-5">
-                <h3 class="text-carbon_800 font-bold text-xl">Contributor:</h3>
+                <h3 class="text-carbon-800 font-bold text-xl">Contributor:</h3>
                 <div class="contributor-block">
                     <div class="contributor-logo flex items-center text-2xl font-bold">
                         {% if contributor_info.logo and contributor_info.logo != '' %}
@@ -60,7 +60,7 @@
     </div>
 {% else %}
     <div class="c-simple-sidebar flex flex-col mt-0 min-w-[200px] mb-[90px]">    
-        <h3 class="mb-2.5 text-carbon_800 font-bold text-xl">What you'll get:</h3>
+        <h3 class="mb-2.5 text-carbon-800 font-bold text-xl">What you'll get:</h3>
         <div class="text-block leading-8">
             <b>Framework:</b> Hugo<br/>
             <b>Use case:</b> Boilerplate<br/>
@@ -70,7 +70,7 @@
         <div class="dividier-line flex items-center py-8">
             <span class="border-b-2 w-full"></span>
         </div>
-        <h3 class="mb-2.5 text-carbon_800 font-bold text-xl">Bonus features:</h3>
+        <h3 class="mb-2.5 text-carbon-800 font-bold text-xl">Bonus features:</h3>
         <div class="text-block leading-8 mb-[30px]">
             <a class="font-bold text-cc underline" href="#">Rosey.app</a><br/>
             <a class="font-bold text-cc underline" href="#">Pagefind.app</a>

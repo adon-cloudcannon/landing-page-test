@@ -39,26 +39,26 @@
           link: /for-content-editors/
           description: Create content with no roadblocks
           icon_path: outline/pencil-square
-          nav_icon_color: electric_purple
+          nav_icon_color: electric-purple
         - name: For Marketers
           link: /for-marketers/
           description: Create SEO-optimized sites every time
           icon_path: outline/megaphone
-          nav_icon_color: electric_purple
+          nav_icon_color: electric-purple
         - name: For Developers
           link: /for-developers/
           icon_path: outline/code-bracket-square
-          nav_icon_color: electric_purple
+          nav_icon_color: electric-purple
           description: Build, publish, and empower your team
         - name: For Digital Agencies
           link: /partner-program/
           icon_path: outline/paint-brush
-          nav_icon_color: electric_purple
+          nav_icon_color: electric-purple
           description: Support and empower your clients
         - name: For Enterprise
           link: /enterprise/
           icon_path: outline/building-office
-          nav_icon_color: electric_purple
+          nav_icon_color: electric-purple
           description: Collaborate, iterate, and publish seamlessly
       sub_card:
         - featured_page_link:
@@ -100,12 +100,12 @@
           link: /integrations/cloudinary/
           description: Digital asset management
           icon_path: outline/camera
-          nav_icon_color: electric_purple
+          nav_icon_color: electric-purple
         - name: imgix
           link: /integrations/imgix/
           description: Digital asset optimization
           icon_path: outline/photo
-          nav_icon_color: electric_purple
+          nav_icon_color: electric-purple
       sub_card:
 - name: Resources
   sub_navs:
