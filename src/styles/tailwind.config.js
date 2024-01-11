@@ -71,7 +71,7 @@ module.exports = {
 					600: '#FDA77D',
 					400: '#FEC5A8',
 					200: '#FEE2D4',
-					100: '#FCD8DA' // check this one with Vic
+					100: '#FFF1EA'
 				},
 				emerald: {
 					DEFAULT: '#38A413',
