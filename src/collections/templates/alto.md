@@ -8,7 +8,7 @@ image_alt: >-
   a menu on the left hand side and the content on the right
 description: Alto is a minimal and modern Hugo template for static documentation sites.
 header_description: 'Alto is a minimal and modern Hugo template for static documentation sites. '
-background_colour: 
+background_colour: cc-blue-100
 image_carousel:
   - image_path: https://cc-dam.imgix.net/rosey.app_docs_translating-images_.png
     image_alt: >-
