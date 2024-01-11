@@ -1176,17 +1176,25 @@ _inputs:
         - ruby
         - comet
   background_colour:
-    comment: "Note: this colour won't show on templates categorised as 'Starter'"
+    comment: "Note: this is the lightest variation of each colour (10% variation); refer to the Brand Guide for more details. Note: this colour won't show on templates categorised as 'Starter'"
     options:
       values:
-        - cc-blue-100
-        - carbon-100
-        - ruby-100
-        - space-100
-        - amber-100
-        - emerald-100
-        - gold-100
-        - electric-purple-100
+        - id: cc-blue-100
+          name: CC Blue
+        - id: carbon-100
+          name: Carbon
+        - id: ruby-100
+          name: Ruby
+        - id: space-100
+          name: Space
+        - id: amber-100
+          name: Amber
+        - id: emerald-100
+          name: Emerald
+        - id: gold-100
+          name: Gold
+        - id: electric-purple-100
+          name: Electric Purple
 
 _snippets_imports:
   eleventy_liquid: true
